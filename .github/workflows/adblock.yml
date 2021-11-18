@@ -35,6 +35,7 @@ jobs:
           echo "UBLOCK_4=https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt" >> $GITHUB_ENV
           echo "UBLOCK_5=https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt" >> $GITHUB_ENV
           echo "MALICIOUS=https://gitlab.com/curben/urlhaus-filter/-/raw/master/urlhaus-filter-ag-online.txt" >> $GITHUB_ENV
+          echo "PETER=https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1" >> $GITHUB_ENV
           echo "ADGUARD=https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt" >> $GITHUB_ENV
           echo "GOPATH=$(dirname $GITHUB_WORKSPACE)" >> $GITHUB_ENV
           echo "$(dirname $GITHUB_WORKSPACE)/bin" >> $GITHUB_PATH
@@ -51,6 +52,7 @@ jobs:
           mkdir -p ./download/
           cd ./download
           curl -sSL $ADGUARD | sed -e '/^! /d' -e '1c ! Adguard' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./adguard.txt
+          curl -sSL $PETER | sed -e '/^! /d' -e '1c ! Peter' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./peter.txt
           curl -sSL $MALICIOUS | sed -e '/^! /d' -e '1c ! Malicious' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./malicious.txt
           curl -sSL $UBLOCK_1 | sed -e '/^! /d' -e '1c ! Ublock' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./ublock.txt
           curl -sSL $UBLOCK_2 | sed -e '/^! /d' -e '1c ! Ublock2' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./ublock2.txt
@@ -88,7 +90,8 @@ jobs:
           cat xinggsf-mv.txt easylistchina.txt cjxlist.txt cjx-annoyance.txt > ../new/ad2.txt
           cat xinggsf-mv.txt easylistchina.txt cjxlist.txt cjx-annoyance.txt easyprivacy.txt > ../new/ad3.txt
           cat antiadblockfilters.txt abp-filters-anti-cv.txt anti-adblock-killer-filters.txt > ../new/ad-edentw.txt
-          cat easylist.txt easyprivacy.txt ublock.txt ublock2.txt ublock3.txt ublock4.txt ublock5.txt malicious.txt adguard.txt > ../new/ublock-list.txt
+          #cat easylist.txt easyprivacy.txt ublock.txt ublock2.txt ublock3.txt ublock4.txt ublock5.txt malicious.txt adguard.txt peter.txt > ../new/ublock-list.txt
+          cat easylist.txt easyprivacy.txt ublock.txt ublock2.txt ublock3.txt ublock4.txt ublock5.txt adguard.txt > ../new/ublock-list.txt
           for i in $(ls ../new/*.txt); do
             sed -i '/^$/d' $i
           done
