@@ -90,8 +90,7 @@ jobs:
           cat xinggsf-mv.txt easylistchina.txt cjxlist.txt cjx-annoyance.txt > ../new/ad2.txt
           cat xinggsf-mv.txt easylistchina.txt cjxlist.txt cjx-annoyance.txt easyprivacy.txt > ../new/ad3.txt
           cat antiadblockfilters.txt abp-filters-anti-cv.txt anti-adblock-killer-filters.txt > ../new/ad-edentw.txt
-          #cat easylist.txt easyprivacy.txt ublock.txt ublock2.txt ublock3.txt ublock4.txt ublock5.txt malicious.txt adguard.txt peter.txt > ../new/ublock-list.txt
-          cat easylist.txt easyprivacy.txt ublock.txt ublock2.txt ublock3.txt ublock4.txt ublock5.txt adguard.txt > ../new/ublock-list.txt
+          cat easylist.txt easyprivacy.txt ublock.txt ublock2.txt ublock3.txt ublock4.txt ublock5.txt malicious.txt adguard.txt peter.txt > ../new/ublock-list.txt
           for i in $(ls ../new/*.txt); do
             sed -i '/^$/d' $i
           done
