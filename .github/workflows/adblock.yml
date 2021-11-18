@@ -29,14 +29,14 @@ jobs:
           echo "ANTIADBLOCKFILTERS_URL=https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" >> $GITHUB_ENV
           echo "ABP_FILTERS_ANTI_CV_URL=https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt" >> $GITHUB_ENV
           echo "XINGGSF_MV_URL=https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt" >> $GITHUB_ENV
-	echo "UBLOCK_1=https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt" >> $GITHUB_ENV
-	echo "UBLOCK_2=https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt" >> $GITHUB_ENV
-	echo "UBLOCK_3=https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt" >> $GITHUB_ENV
-	echo "UBLOCK_4=https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt" >> $GITHUB_ENV
-	echo "UBLOCK_5=https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt" >> $GITHUB_ENV
-	echo "MALICIOUS=https://gitlab.com/curben/urlhaus-filter/-/raw/master/urlhaus-filter-ag-online.txt" >> $GITHUB_ENV
-	echo "PETER=https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1" >> $GITHUB_ENV
-	echo "ADGUARD=https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt" >> $GITHUB_ENV
+          echo "UBLOCK_1=https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt" >> $GITHUB_ENV
+          echo "UBLOCK_2=https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt" >> $GITHUB_ENV
+          echo "UBLOCK_3=https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt" >> $GITHUB_ENV
+          echo "UBLOCK_4=https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt" >> $GITHUB_ENV
+          echo "UBLOCK_5=https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt" >> $GITHUB_ENV
+          echo "MALICIOUS=https://gitlab.com/curben/urlhaus-filter/-/raw/master/urlhaus-filter-ag-online.txt" >> $GITHUB_ENV
+          echo "PETER=https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1" >> $GITHUB_ENV
+          echo "ADGUARD=https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt" >> $GITHUB_ENV
           echo "GOPATH=$(dirname $GITHUB_WORKSPACE)" >> $GITHUB_ENV
           echo "$(dirname $GITHUB_WORKSPACE)/bin" >> $GITHUB_PATH
         shell: bash
@@ -51,14 +51,14 @@ jobs:
         run: |
           mkdir -p ./download/
           cd ./download
-	curl -sSL $ADGUARD | sed -e '/^! /d' -e '1c ! Adguard' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./adguard.txt
-	curl -sSL $PETER | sed -e '/^! /d' -e '1c ! Peter' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./peter.txt
-	curl -sSL $MALICIOUS | sed -e '/^! /d' -e '1c ! Malicious' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./malicious.txt
-	curl -sSL $UBLOCK_1 | sed -e '/^! /d' -e '1c ! Ublock' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./ublock.txt
-	curl -sSL $UBLOCK_2 | sed -e '/^! /d' -e '1c ! Ublock2' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./ublock2.txt
-	curl -sSL $UBLOCK_3 | sed -e '/^! /d' -e '1c ! Ublock3' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./ublock3.txt
-	curl -sSL $UBLOCK_4 | sed -e '/^! /d' -e '1c ! Ublock4' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./ublock4.txt
-	curl -sSL $UBLOCK_5 | sed -e '/^! /d' -e '1c ! Ublock5' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./ublock5.txt
+          curl -sSL $ADGUARD | sed -e '/^! /d' -e '1c ! Adguard' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./adguard.txt
+          curl -sSL $PETER | sed -e '/^! /d' -e '1c ! Peter' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./peter.txt
+          curl -sSL $MALICIOUS | sed -e '/^! /d' -e '1c ! Malicious' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./malicious.txt
+          curl -sSL $UBLOCK_1 | sed -e '/^! /d' -e '1c ! Ublock' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./ublock.txt
+          curl -sSL $UBLOCK_2 | sed -e '/^! /d' -e '1c ! Ublock2' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./ublock2.txt
+          curl -sSL $UBLOCK_3 | sed -e '/^! /d' -e '1c ! Ublock3' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./ublock3.txt
+          curl -sSL $UBLOCK_4 | sed -e '/^! /d' -e '1c ! Ublock4' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./ublock4.txt
+          curl -sSL $UBLOCK_5 | sed -e '/^! /d' -e '1c ! Ublock5' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./ublock5.txt
           curl -sSL $EASYLIST_URL | sed -e '/^! /d' -e '1c ! EasyList' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./easylist.txt
           curl -sSL $EASYLISTCHINA_URL | sed -e '/^! /d' -e '1c ! EasyList China' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./easylistchina.txt
           curl -sSL $EASYPRIVACY_URL | sed -e '/^! /d' -e '1c ! EasyPrivacy' -e '/^!$/d' > ./easyprivacy.txt
@@ -90,7 +90,7 @@ jobs:
           cat xinggsf-mv.txt easylistchina.txt cjxlist.txt cjx-annoyance.txt > ../new/ad2.txt
           cat xinggsf-mv.txt easylistchina.txt cjxlist.txt cjx-annoyance.txt easyprivacy.txt > ../new/ad3.txt
           cat antiadblockfilters.txt abp-filters-anti-cv.txt anti-adblock-killer-filters.txt > ../new/ad-edentw.txt
-	cat easylist.txt easyprivacy.txt ublock.txt ublock2.txt ublock3.txt ublock4.txt ublock5.txt malicious.txt peter.txt adguard.txt > ../new/ublock-list.txt
+          cat easylist.txt easyprivacy.txt ublock.txt ublock2.txt ublock3.txt ublock4.txt ublock5.txt malicious.txt peter.txt adguard.txt > ../new/ublock-list.txt
           for i in $(ls ../new/*.txt); do
             sed -i '/^$/d' $i
           done
