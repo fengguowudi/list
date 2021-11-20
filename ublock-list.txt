@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jLZXr2/JsEE4vN76pr3iYw
+! Checksum: ope+VoEm4kiQ57eiMIxbcQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202111202030
-! Last Modified: 2021年11月20日 20:30
+! Version: 202111210222
+! Last Modified: 2021年11月21日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -82528,6 +82528,7 @@ embedstream.me##+js(acis, Math, break;case $.)
 embedstream.me##+js(aopw, _pop)
 embedstream.me##+js(nowebrtc)
 embedstream.me##+js(nowoif)
+||v1sts.me^$image,redirect-rule=1x1.gif
 embedstream.me##body > .position-absolute
 embedstream.me###aff-click
 javmelon.com##+js(acis, document.querySelectorAll, popMagic)
@@ -85563,11 +85564,11 @@ moddedguru.com##+js(acis, eval, replace)
 moddedguru.com##div.banner
 ||webmontify.com^$3p
 crazytechgo.com##+js(acis, eval, replace)
-imgpekele.buzz,imgwang.buzz##+js(nowoif)
-imgpekele.buzz,imgwang.buzz##+js(nano-sib, timer)
-imgpekele.buzz,imgwang.buzz##+js(nosiif, 0x)
-imgpekele.buzz,imgwang.buzz##+js(nostif, 0x)
-imgpekele.buzz,imgwang.buzz##+js(set, hold_click, false)
+imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz##+js(nowoif)
+imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz##+js(nano-sib, timer)
+imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz##+js(nosiif, 0x)
+imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz##+js(nostif, 0x)
+imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz##+js(set, hold_click, false)
 imgwang.buzz##+js(acis, RegExp, debugger)
 ##div[style="position: fixed; display: block; width: 100%; height: 15%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 ||zhtlvag.com^
@@ -85912,6 +85913,7 @@ thecustomrom.com##+js(acis, decodeURIComponent, ai_)
 ||bitball.b-cdn.net^$media,redirect=noopmp3-0.1s
 phsensei.com##+js(acis, String.fromCharCode, decodeURIComponent)
 techsolveprac.com##+js(nostif, display, 5000)
+fileborder.com##+js(acis, String.fromCharCode, decodeURIComponent)
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
