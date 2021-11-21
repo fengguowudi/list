@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U+VRvYWXiNybhoUIgKVwSA
+! Checksum: 8vKyCrdYvoNh20OxEZ6OaQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202111212032
-! Last Modified: 2021年11月21日 20:32
+! Version: 202111220222
+! Last Modified: 2021年11月22日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -83862,6 +83862,7 @@ mizugigurabia.com##+js(acis, document.addEventListener, google_ad_client)
 py.md##+js(acis, Math, break;case $.)
 py.md##+js(nano-sib, countdown)
 gaminplay.com##+js(acis, addEventListener, google_ad_client)
+gaminplay.com##+js(acis, mMcreateCookie)
 @@||gaminplay.com^$ghide
 gaminplay.com##div.join-ads
 ||joinads.me^$3p
@@ -85668,11 +85669,11 @@ moddedguru.com##+js(acis, eval, replace)
 moddedguru.com##div.banner
 ||webmontify.com^$3p
 crazytechgo.com##+js(acis, eval, replace)
-imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz##+js(nowoif)
-imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz##+js(nano-sib, timer)
-imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz##+js(nosiif, 0x)
-imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz##+js(nostif, 0x)
-imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz##+js(set, hold_click, false)
+imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz,imgyvdw.buzz##+js(nowoif)
+imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz,imgyvdw.buzz##+js(nano-sib, timer)
+imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz,imgyvdw.buzz##+js(nosiif, 0x)
+imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz,imgyvdw.buzz##+js(nostif, 0x)
+imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgyng.buzz,imgyvdw.buzz##+js(set, hold_click, false)
 imgwang.buzz##+js(acis, RegExp, debugger)
 ##div[style="position: fixed; display: block; width: 100%; height: 15%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 ||zhtlvag.com^
@@ -86018,6 +86019,12 @@ thecustomrom.com##+js(acis, decodeURIComponent, ai_)
 phsensei.com##+js(acis, String.fromCharCode, decodeURIComponent)
 techsolveprac.com##+js(nostif, display, 5000)
 fileborder.com##+js(acis, String.fromCharCode, decodeURIComponent)
+insider.com##.in-post-sticky > .ad-wrapper:upward(1)
+megaxh.com##+js(nowoif)
+@@||dubsflix.com^$ghide
+myshrinker.com##+js(set, blurred, false)
+myshrinker.com##.banner-inner
+@@||myshrinker.com^$ghide
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
@@ -88793,6 +88800,7 @@ pewresearch.org##+js(set, ga, noopFunc)
 @@||quantcast.mgr.consensu.org^*tcfv2/*/cmp2.js?referer=$script
 saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-height:1px!important)
 @@||aps.hearstnp.com/Scripts/loadAds.js$script,domain=sfgate.com
+@@||amazon-adsystem.com/aax2/apstag.js$script,domain=sky.it
 ||1.10.146.148$all
 ||1.10.146.30$all
 ||1.10.146.32$all
