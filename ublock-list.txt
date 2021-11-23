@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: leLk+6N/kIumRIv6n8Q/dg
+! Checksum: zZqLsAshLQlr4G+gxo/p8w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202111232032
-! Last Modified: 2021年11月23日 20:32
+! Version: 202111240221
+! Last Modified: 2021年11月24日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24639,6 +24639,7 @@ _800x80_
 ##.game-ads
 ##.game-category-ads
 ##.game-right-ad-container
+##.game-spotlight-advertising
 ##.game-usps__display-ad
 ##.gameAd
 ##.gameBottomAd
@@ -31982,7 +31983,6 @@ tf2r.com#@#.adverts
 ||ad-indicator.com^
 ||ad-m.asia^
 ||ad-mapps.com^
-||ad-maven.com^
 ||ad-nex.com^
 ||ad-recommend.com^
 ||ad-server.co.za^
@@ -34712,6 +34712,7 @@ tf2r.com#@#.adverts
 ||cornerbut.com^
 ||cornfloweramnesty.com^
 ||correspondencecellularstudious.com^
+||corridorfiremanhauled.com^
 ||corruptegypttook.com^
 ||cortegefutwa.casa^
 ||corwrite.com^
@@ -38429,6 +38430,7 @@ tf2r.com#@#.adverts
 ||jsmjmp.com^
 ||jsmpsi.com^
 ||jsnaktyxljsohwp.xyz^
+||jsontdsexit.com^
 ||jsretra.com^
 ||jssearch.net^
 ||jstatic.org^
@@ -39801,6 +39803,7 @@ tf2r.com#@#.adverts
 ||mortalunacceptable.com^
 ||mortantameron.club^
 ||mosece.com^
+||mosquedestitute.com^
 ||mosslagoonbookcase.com^
 ||mossyitalian.com^
 ||mostaboutm.biz^
@@ -46315,6 +46318,7 @@ tf2r.com#@#.adverts
 ||actiondesk.com^$third-party
 ||activedancer.com^$third-party
 ||actpx.com^$third-party
+||ad-maven.com^$third-party
 ||ad-slot.ru^$third-party
 ||ad-sponsor.com^$third-party
 ||ad-stir.com^$third-party
@@ -48890,6 +48894,7 @@ tf2r.com#@#.adverts
 ||prfdesk.pro^$popup
 ||prickutmostperjury.com^$popup
 ||prime-vpnet.com^$popup
+||primerprizezone.life^$popup
 ||privilegesurround.com^$popup
 ||prjcq.com^$popup
 ||prmtracking.com^$popup
@@ -48979,6 +48984,7 @@ tf2r.com#@#.adverts
 ||rndhaunteran.com^$popup
 ||rndmusharnar.com^$popup
 ||roadmapcredulousfang.com^$popup
+||rockcarbest.top^$popup
 ||rollmeout.xyz^$popup
 ||rosafun.com^$popup
 ||rothoglyro.pro^$popup
@@ -80511,6 +80517,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||liberation.fr/newsite/js/cmp/
 ||ma-petite-recette.fr/visites
 ||neko-san.fr/stats
+||ouedkniss.com/static/alexa.js
+||ouedkniss.com/static/pixel.js
 ||p.kolplay.com^
 ||p.pagesjaunes.fr^
 ||pixel.ionos.fr^
@@ -86168,6 +86176,7 @@ av01.tv##div[style="width: 100%; height: 100%; top: 0px; position: fixed; z-inde
 av01.tv##+js(rc, vjs-hidden, .vjs-control-bar, stay)
 ||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js,domain=av01.tv
 ||kgua0o66bcw8.com^
+plugintorrent.com##+js(aopw, _pop)
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
