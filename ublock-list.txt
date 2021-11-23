@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kiiL9PElAZexBirGui9CKA
+! Checksum: x4SxorS1VP1dxHvm+xicxg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202111230904
-! Last Modified: 2021年11月23日 09:04
+! Version: 202111231423
+! Last Modified: 2021年11月23日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -27144,6 +27144,7 @@ _800x80_
 ##.position-ads
 ##.post--native-ad
 ##.post-ad
+##.post-ad-type
 ##.post-ads
 ##.post-ads-detalhe
 ##.post-ads-detalhe-1
@@ -51372,6 +51373,7 @@ tf2r.com#@#.adverts
 ||realpython.net/tag.js
 ||republicmonitor.com/images/lundy-placeholder.jpeg
 ||richardroeper.com/assets/banner/
+||rma.homedepot.com^
 ||s.radioreference.com/sm/$image
 ||s1.reutersmedia.net/resources/r/$image
 ||saabsunited.com/wp-content/uploads/*banner
@@ -60159,6 +60161,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /thbeacon/*
 /thcn_code.
 /thcn_code_
+/thd-new-relic/*
 /thermostat.js
 /thetracker.js
 /third-party-analitycs/*
@@ -83716,12 +83719,13 @@ lewdstars.com##+js(acis, document.querySelectorAll, popMagic)
 lewdstars.com##.ads-muted-control
 lewdstars.com##.widget_custom_html
 epornstore.com##+js(acis, document.querySelectorAll, popMagic)
-romadd.com##+js(acis, document.addEventListener, adsbygoogle)
+romadd.com##+js(no-fetch-if, googlesyndication)
 romadd.com##+js(nano-sib, download)
 @@||romadd.com^$ghide
 romadd.com##.adsbygoogle
 romadd.com##.ads
 romadd.com##.widget_custom_html
+romadd.com###floating_ads_bottom_textcss_container
 elitemacx86.com##+js(acis, $, samAdBlockAction)
 ||biguz.net/vast$xhr,1p
 therootdroid.com##+js(aost, String.prototype.charCodeAt, ai_)
@@ -86140,6 +86144,10 @@ turboimagehost.com##+js(acis, document.querySelectorAll, popMagic)
 @@||downloadfreecourse.com^$1p,script
 @@||downloadfreecourse.com^$ghide
 animatedshows.to##+js(acis, JSON.parse, break;case $.)
+phanmemmaytinh.net##+js(acis, eval, replace)
+phanmemmaytinh.net###custom_html-10
+phanmemmaytinh.net###custom_html-2
+phanmemmaytinh.net###custom_html-3
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
@@ -86815,7 +86823,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /^https?:\/\/[-0-9a-z]*prize[-0-9a-z]+\.live\/\?u=[0-9a-z]+&o=[0-9a-z]+/$doc,domain=live
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&o=/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
-/^https:\/\/[-0-9a-z]{12,}\.life\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&t=/$doc,domain=life
+/^https:\/\/[-0-9a-z]{12,}\.life\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&/$doc,domain=life
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/feedbackip\d{2}\.pw/$doc,domain=pw
 /^https:\/\/capitalping\d{2}\.online\/\?u=/$doc,domain=online

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 35hLV0IEyyETbEfdS/zXDw
+! Checksum: xAXh8oT5AwEpCBp8GNtYKw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111230904
-! Last Modified: 2021年11月23日 09:04
+! Version: 202111231423
+! Last Modified: 2021年11月23日 14:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1768,7 +1768,6 @@ ubmcmm.baidustatic.com
 ||107.183.137.18^
 ||107.187.122.172^
 ||110160.com^$third-party
-||111.175.219.*.js
 ||11111fs.com^
 ||1133.cc^$third-party
 ||113o.com^
@@ -17043,6 +17042,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zkrmeml.cn^
 ||popwang.top^
 ||jcdixdh.cn^
+||zhifoujiaoyu.xyz^
+||cfhy.xyz^
+||dzctkjj.cn^
+||ocznxv.cn^
+||elvfdnj.cn^
+||57577.live^$csp=script-src
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -27270,6 +27275,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /thbeacon/*
 /thcn_code.
 /thcn_code_
+/thd-new-relic/*
 /thermostat.js
 /thetracker.js
 /third-party-analitycs/*
