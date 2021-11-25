@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: r2yxxqLfWn3A2X19ZyyNgA
+! Checksum: 05V8/no3TF7f2xUulFZpqA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202111250905
-! Last Modified: 2021年11月25日 09:05
+! Version: 202111251424
+! Last Modified: 2021年11月25日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18160,6 +18160,7 @@ _800x80_
 ##.ad-rectangle-wide
 ##.ad-rectangle-xs
 ##.ad-rectangle2
+##.ad-rectanglemed
 ##.ad-refresh
 ##.ad-region
 ##.ad-region-delay-load
@@ -23524,6 +23525,7 @@ _800x80_
 ##.cmg-ads-wrapper
 ##.cmi-content-3ads-horizontal
 ##.cms-Advert
+##.cms-ad
 ##.cms-magazine-rightcol-adtag
 ##.cms_ad_contentad
 ##.cn24-ads
@@ -86274,6 +86276,7 @@ gospeljingle.com##+js(aost, String.prototype.charCodeAt, [$.)
 studybullet.com##+js(set, adsBlocked, false)
 bigyshare.com##+js(nowoif)
 ||agaenteitor.com^
+@@||dlink.mobilejsr.com^$ghide
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
@@ -87292,6 +87295,7 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||ga.giuem.com^
 /^https:\/\/www\.gu-global\.com\/[-0-9a-zA-Z]{6,}\/[-\/_0-9a-zA-Z]{30,}$/$script,1p,domain=gu-global.com
 ||metrics.surinenglish.com^
+||count.candou.com^
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
