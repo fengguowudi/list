@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KUvN15cL39+F8Z+nx5IXvA
+! Checksum: MbUsosnjeni8URWBCy7FKA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202111252032
-! Last Modified: 2021年11月25日 20:32
+! Version: 202111260223
+! Last Modified: 2021年11月26日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21877,7 +21877,10 @@ _800x80_
 ##.advertisebtn
 ##.advertisedBy
 ##.advertisement--appnexus
+##.advertisement--billboard
 ##.advertisement--leaderboard
+##.advertisement--leaderboard_top
+##.advertisement--skyscraper
 ##.advertisement--title
 ##.advertisement-1
 ##.advertisement-160-600
@@ -32575,6 +32578,7 @@ tf2r.com#@#.adverts
 ||ajrequestion.xyz^
 ||akeasignifica.biz^
 ||akielf.com^
+||akkdyflrqpdtkt.top^
 ||aklglpwljiv.com^
 ||akrgmgjdcojjcws.top^
 ||alaccinalcom.top^
@@ -34866,6 +34870,7 @@ tf2r.com#@#.adverts
 ||crptentry.com^
 ||crptgate.com^
 ||crtracklink.com^
+||crudeartfulrecreate.com^
 ||crudestoctdra.cam^
 ||crueltyrefundye.com^
 ||crushingacevex.com^
@@ -38172,6 +38177,7 @@ tf2r.com#@#.adverts
 ||ipsowrite.com^
 ||iptautup.com^
 ||iptonaib.net^
+||iqbkkhhsgk.com^
 ||iqkfplsez.com^
 ||iqzgqivb.com^
 ||iraithiz.com^
@@ -39136,6 +39142,7 @@ tf2r.com#@#.adverts
 ||lockingadmitted.com^
 ||locothet.com^
 ||lodder6.biz^
+||loftsbaacad.com^
 ||logicalmodelvisible.com^
 ||logsobtainedprediction.com^
 ||logworknomism.com^
@@ -40017,6 +40024,7 @@ tf2r.com#@#.adverts
 ||nabbr.com^
 ||naccoun.top^
 ||nacfuns.com^
+||nachogunj.cam^
 ||nads.io^
 ||naemailom.fun^
 ||nagaglugry.com^
@@ -40450,6 +40458,7 @@ tf2r.com#@#.adverts
 ||nutritioncigarheading.com^
 ||nutstentative.com^
 ||nuttyashy.com^
+||nuwmomnnsi.top^
 ||nuxipsahe.com^
 ||nvbwgk.com^
 ||nvergetpatr.top^
@@ -41390,6 +41399,7 @@ tf2r.com#@#.adverts
 ||plocap.com^
 ||ployea.com^
 ||plrjs.org^
+||plsrcmp.com^
 ||plufdsa.com^
 ||plufdsb.com^
 ||plugerr.com^
@@ -42802,6 +42812,7 @@ tf2r.com#@#.adverts
 ||rtbtracking.com^
 ||rtbvideobox.com^
 ||rtclx.com^
+||rthechoyipfrqlw.top^
 ||rthequaliti.club^
 ||rtk.io^
 ||rtlggubycdpgjt.com^
@@ -43896,6 +43907,7 @@ tf2r.com#@#.adverts
 ||suxhap.com^
 ||suzanne.pro^
 ||svacdnjutk.com^
+||svbheymenuwmrva.top^
 ||svclqyctlijue.com^
 ||sviter2s1olenyami1.com^
 ||svjat0rx99.com^
@@ -44713,6 +44725,7 @@ tf2r.com#@#.adverts
 ||ularlyinteres.biz^
 ||ularunicalrep.info^
 ||ulcerselfservice.com^
+||ulcerstopers.cam^
 ||ulcgtmglrc.com^
 ||ulfewmgywwxs.xyz^
 ||ulngtppm.com^
@@ -46257,6 +46270,7 @@ tf2r.com#@#.adverts
 ||zmnkduay.com^
 ||zmuphhlienv.com^
 ||znaptag.com^
+||znazlahbcu.com^
 ||znurmlkkeltsb.com^
 ||znznrccyrcr.com^
 ||zo7gihmry2.com^
@@ -48925,6 +48939,7 @@ tf2r.com#@#.adverts
 ||playboymethod.com^$popup
 ||pleasantpartiallyerrors.com^$popup
 ||plexop.net^$popup
+||plsrcmp.com^$popup
 ||pluggednow.com^$popup
 ||pluralbreakpractice7.live^$popup
 ||pocofh.com^$popup
@@ -53029,6 +53044,7 @@ cmo.com.au,interiordesign.net##.boombox
 etherscan.io##.border-top
 pixxxels.cc##.bottom-a
 kaskus.co.id##.bottom-frame
+reverso.net##.bottom-horizontal
 photographyreview.com##.bottom-leaderboard
 softicons.com##.bottom_125_block
 softicons.com##.bottom_600_250_block
@@ -54133,6 +54149,7 @@ automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,government-fle
 gptoday.net##.top-banner-leaderboard
 foodrenegade.com##.top-cta
 debka.com##.top-full-width-sidebar
+reverso.net##.top-horizontal
 spectrum.ieee.org##.top-leader-container
 1071thepeak.com,gpfans.com##.top-leaderboard
 speedtest.net##.top-placeholder
@@ -81944,9 +81961,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||dynamicyield.com/api/$script,domain=gigantti.fi
 @@||frosmo.com/messageApi$xmlhttprequest,domain=hobbyhall.fi
 @@||frosmo.com/recoApi/$xmlhttprequest,domain=hobbyhall.fi|lily.fi|meillakotona.fi|terve.fi
-@@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||google-analytics.com/analytics.js$script,domain=hobbyhall.fi
 @@||google-analytics.com/gtm/js$script,domain=hobbyhall.fi
+@@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||high.auriro.net/http/600x400/$image,domain=afterdawn.com|dawn.fi|hardware.fi
 @@||images.sprinklecontent.com^$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
 @@||inpref.s3.amazonaws.com/frosmo.easy.js$domain=elisa.fi|kauppahalli24.fi
@@ -86153,9 +86170,10 @@ pxrnxx.xyz##+js(set, dclm_ajax_var.disclaimer_redirect_url, '')
 webnewsarticles.com##.sticky_ad_desktop_footer_center
 tutorial.siberuang.com##+js(no-fetch-if, ads)
 @@||promote.telegram.org^$ghide
-buondua.com##.ads-sponsored-title
 googledrivelinks.com##+js(aost, String.prototype.charCodeAt, ai_)
 googledrivelinks.com##+js(aopr, adBlockDetected)
+coinsearns.com,luckydice.net##+js(acis, Math.imul, charCodeAt)
+coinsearns.com,luckydice.net,coinsurl.com##+js(nosiif, afStorage)
 coinsearns.com,luckydice.net##+js(nowoif)
 coinsearns.com,luckydice.net##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 coinsearns.com,luckydice.net##div[style="width:300px;height:250px;display: inline-block;margin: 0 auto"]
@@ -86300,6 +86318,8 @@ bigyshare.com##+js(nowoif)
 @@||isaiminiya.online^$ghide
 isaiminiya.online##+js(acis, JSON.parse, break;case $.)
 @@||driveup.in^$ghide
+scatfap.com##+js(aopw, _pop)
+@@||scatfap.com/scat-porn/modules/vids/misc_static/adverts.js
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
@@ -87179,6 +87199,9 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||mediafire.com/file/pj9jdm7iznc4d51/tekhacksnet_multi_loader.rar^$doc
 ||freedownloadfiles.org^$all
 ||tw-goldenwinner-57.com^$doc
+||fasterfiles.net^$all
+||steamkeygiveaway.net^$all
+||yunosurveys.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
@@ -87291,7 +87314,6 @@ ppss.kr##[href*="https://www.classo.me"]:remove()
 ppss.kr##.ppss-title-banner:remove()
 ||connectier.io^
 ||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,redirect=fingerprint2.js,important
-||tryzens-analytics.com^
 ||collector.xhwebsite.com^
 ||collector.hamsterix.cam^
 ||g.jwpsrv.com/g/gcid-*?notrack$frame
@@ -87306,7 +87328,6 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||js.media-lab.ai/ana-sentry.js^
 ||log.mix.sina.com.cn^
 ||sbeacon.sina.com.cn^
-||analytics.send.cm^
 /lib/f_ad_code.js
 ||qzone.qq.com/iframe/report
 ||qzonestyle.gtimg.cn/qzone/v8/ic/iframeReport.js
