@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fTKFzYmJ62po8SDiwD8zJw
+! Checksum: +Tz8YEcxlOh3/TSYDGnDVg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202111272030
-! Last Modified: 2021年11月27日 20:30
+! Version: 202111280222
+! Last Modified: 2021年11月28日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -33422,6 +33422,7 @@ tf2r.com#@#.adverts
 ||beklefkiom.com^
 ||belamicash.com^
 ||belaya2shu1ba1.com^
+||belexglokmpld.com^
 ||belgradualuna.site^
 ||belgrekblackad.com^
 ||belickitungchan.com^
@@ -44910,6 +44911,7 @@ tf2r.com#@#.adverts
 ||urnawareflan.com^
 ||urokcwwzno.com^
 ||urotenukna.xyz^
+||urqrduklwgvyy.top^
 ||ursegreatm.fun^
 ||urt7bpvfz4am.com^
 ||urtirepor.com^
@@ -45342,6 +45344,7 @@ tf2r.com#@#.adverts
 ||vuxoxmdgdkhrkrs.top^
 ||vvavhrepu.com^
 ||vvcharuaxlsazx.com^
+||vvqknwws.com^
 ||vvyhhrjigq.com^
 ||vwgilkky.com^
 ||vwkkkpjk.top^
@@ -45841,6 +45844,7 @@ tf2r.com#@#.adverts
 ||xad.com^
 ||xadcentral.com^
 ||xadsmart.com^
+||xafcgsfxkhavry.top^
 ||xaholica.com^
 ||xamaptapsu.com^
 ||xameleonads.com^
@@ -46179,6 +46183,7 @@ tf2r.com#@#.adverts
 ||yqqlupkasbhmdj.xyz^
 ||yqsoxyhmumnn.com^
 ||yr9n47004g.com^
+||yrhnlyshnnataoa.top^
 ||ysdtcdnoox.com^
 ||ysmhcwwvgtcx.com^
 ||ysnj74ed.com^
@@ -80815,6 +80820,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||collect.tianya.cn^
 ||count5.pconline.com.cn^
 ||counter.people.cn^
+||cstm.baidu.com^
 ||dcard.tw/v1/events
 ||dlswbr.baidu.com^
 ||dolphin.deliver.ifeng.com^
@@ -83265,6 +83271,7 @@ codesnail.com##.widget_custom_html
 beautifulero.com##+js(aopr, loadTool)
 ||12.beautifulero.com^
 babytorrent.*,eztv-torrent.net##+js(aopr, decodeURI)
+brbushare.*##+js(acis, Math, break)
 pops.tv#@##adsContainer
 pops.tv#@#.ad-placement
 pirlotvonlinehd.*##+js(aopr, absda)
@@ -84488,7 +84495,7 @@ sbembed1.com,sbvideo.*##+js(aopr, console.clear)
 sbvideo.*##+js(nowoif, !/d/)
 cmovies.*##+js(acis, Math, break;case $.)
 sbembed1.com,sbplay.*##+js(aopr, DoodPop)
-embedsb.com,pelistop.co,playersb.com,sbembed1.com,sbembed2.com,sbplay1.com,sbvideo.*,tubesb.com##+js(aopr, __Y)
+embedsb.com,pelistop.co,playersb.com,sbembed1.com,sbembed2.com,sbplay1.com,sbvideo.*,tubesb.com,watchsb.com##+js(aopr, __Y)
 ||paychat.fuse-cloud.com^
 ||app.adjust.net.in^
 ||appstreamsb.xyz^
@@ -86103,10 +86110,11 @@ advertiserandtimes.co.uk##.advert
 advertiserandtimes.co.uk##.MPU
 advertiserandtimes.co.uk##.TaboolaSide
 projectfreetv.stream##+js(nostif, offsetHeight)
-milfnut.*##+js(aopr, console.clear)
-milfnut.*##+js(aopr, open)
+milfnut.*##+js(set, console.clear, noopFunc)
 milfnut.*##+js(aeld, contextmenu)
 milfnut.*##+js(aopr, __Y)
+milfnut.*##+js(acis, onload, onclick)
+||bestadmax.com^
 serverf4.org,streamm4u.club##+js(aopr, __Y)
 web4free.in##+js(set, tie.ad_blocker_detector, '')
 charexempire.com##+js(aopr, app_vars.please_disable_adblock)
@@ -86470,6 +86478,7 @@ udemydl.com##.masonry_grid_fullwidth
 cotravinh.blogspot.com##+js(aeld, load, nextFunction)
 chicagobearshq.com,chicagobullshq.com,chicagosportshq.com,cubshq.com,tigernet.com##+js(acis, document.getElementById, JSON)
 ytube2dl.com##+js(aeld, , pop)
+tranimeizle.net##+js(nowoif)
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
@@ -87496,6 +87505,8 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||count.candou.com^
 ||live-trace.bilibili.com^
 @@||natureetdecouvertes.com^*/pixel.png$~third-party,badfilter
+||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$script
+||cm.bilibili.com^
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
@@ -89271,6 +89282,9 @@ saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!impor
 @@||rdstation.com.br^*api/$xhr
 @@||googletagmanager.com/gtm.js$script,domain=www.shockwave.com
 ||natureetdecouvertes.com^$1p,image,redirect-rule=2x2.png
+!#if env_mobile
+||cxense.com/cx.js$script,redirect-rule=noop.js,domain=itmedia.co.jp
+!#endif
 ||1.0.218.230$all
 ||1.1.188.23$all
 ||1.10.146.30$all
@@ -96854,8 +96868,8 @@ saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!impor
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Mon, 22 Nov 2021 15:39:15 GMT
-# entries:        3695
+# last updated:   Sat, 27 Nov 2021 16:47:40 GMT
+# entries:        3697
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1
@@ -99540,6 +99554,7 @@ saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!impor
 127.0.0.1 pixel.yabidos.com
 127.0.0.1 placed.com
 127.0.0.1 plardi.com
+127.0.0.1 plausible.mangadex.org
 127.0.0.1 plausibleio.workers.dev
 127.0.0.1 play4traffic.com
 127.0.0.1 playhaven.com
@@ -99547,6 +99562,7 @@ saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!impor
 127.0.0.1 plista.com
 127.0.0.1 plotrabbit.com
 127.0.0.1 ployea.com
+127.0.0.1 ploz.mangadex.org
 127.0.0.1 pltraffic8.com
 127.0.0.1 pluckypocket.com
 127.0.0.1 plugrush.com
