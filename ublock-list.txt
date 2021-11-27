@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WiRUxZ8dUqwyK22+IDEiGQ
+! Checksum: 75HlaN7vUVV5CbnHNfDguQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202111270903
-! Last Modified: 2021年11月27日 09:03
+! Version: 202111271423
+! Last Modified: 2021年11月27日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -86421,6 +86421,14 @@ onuploads.com##+js(nano-stb, seconds)
 weszlo.com##+js(no-fetch-if, ad)
 themoviemad.net##+js(nowoif)
 svzcdn.xyz##+js(aopr, __Y)
+udemydl.com##+js(acis, decodeURIComponent, ai_)
+udemydl.com##+js(aopr, Request)
+udemydl.com##.lazyimages
+udemydl.com##[href^="https://s.click.aliexpress.com"]
+udemydl.com##.masonry_grid_fullwidth
+||udemydl.com/wp-content/plugins/ad-inserter/*$1p
+cotravinh.blogspot.com##+js(aeld, load, nextFunction)
+chicagobearshq.com,chicagobullshq.com,chicagosportshq.com,cubshq.com,tigernet.com##+js(acis, document.getElementById, JSON)
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
@@ -87444,6 +87452,7 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||metrics.surinenglish.com^
 ||count.candou.com^
 ||live-trace.bilibili.com^
+@@||natureetdecouvertes.com^*/pixel.png$~third-party,badfilter
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
