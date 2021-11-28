@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rU1X7KaDfaLKtrxxK+DMnw
+! Checksum: 3IpZ4qynsw3inU7XRX9tTg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202111280906
-! Last Modified: 2021年11月28日 09:06
+! Version: 202111281423
+! Last Modified: 2021年11月28日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3978,7 +3978,7 @@
 /discuss_ad/*
 /DispAd_
 /display-ad/*
-/display-ads-
+/display-ads-$domain=~google.co.uk|~google.com|~google.com.au
 /display-ads/*
 /display.ad.
 /display/ads/*
@@ -19544,6 +19544,7 @@ _800x80_
 ##.ad_leaderboard
 ##.ad_leaderboard_atf
 ##.ad_leaderboard_top
+##.ad_left
 ##.ad_left_cell
 ##.ad_left_column
 ##.ad_lft
@@ -52763,6 +52764,7 @@ kuklaskorner.com###ultimate
 my.juno.com###usWorldTile
 nutritioninsight.com###verticlblks
 filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
+forums.tomsguide.com###video_ad
 yahoo.com###viewer-LREC2-iframe
 gumtree.com###vipBanner
 playstationtrophies.org###vnt-lb-a
@@ -70252,6 +70254,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||baidu.com^*/mwb2.gif?
 ||baidu.com^*/wb.gif?
 ||bandcamp.com/api/tracker/
+||bandcamp.com/stat_record
 ||banggood.com/collectBanner?
 ||banggood.com/collectException
 ||bangkokpost.com/hits/
@@ -70600,6 +70603,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.genyt.net^
 ||log.hypebeast.com^
 ||log.mappy.net^
+||log.mgtv.com^
 ||log.optimizely.com^
 ||log.quora.com^
 ||log.snapdeal.com^
@@ -86479,6 +86483,7 @@ cotravinh.blogspot.com##+js(aeld, load, nextFunction)
 chicagobearshq.com,chicagobullshq.com,chicagosportshq.com,cubshq.com,tigernet.com##+js(acis, document.getElementById, JSON)
 ytube2dl.com##+js(aeld, , pop)
 tranimeizle.net##+js(nowoif)
+xenvn.com##+js(nostif, ads)
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
@@ -87505,7 +87510,6 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||count.candou.com^
 ||live-trace.bilibili.com^
 @@||natureetdecouvertes.com^*/pixel.png$~third-party,badfilter
-||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$script
 ||cm.bilibili.com^
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p

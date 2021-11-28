@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: teydE8TbgNmTGBOVz9sNWw
+! Checksum: DONfb8E21w12jmbdzkcOow
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111280906
-! Last Modified: 2021年11月28日 09:06
+! Version: 202111281423
+! Last Modified: 2021年11月28日 14:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17087,6 +17087,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhxkzss.cn^
 ||lailer.cn^
 ||rsftjj.cn^
+||kiiqnnx.cn^
+||xmouxe.cn^
+||cmbzqtf.cn^
+||95wvb.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -37276,6 +37280,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||baidu.com^*/mwb2.gif?
 ||baidu.com^*/wb.gif?
 ||bandcamp.com/api/tracker/
+||bandcamp.com/stat_record
 ||banggood.com/collectBanner?
 ||banggood.com/collectException
 ||bangkokpost.com/hits/
@@ -37624,6 +37629,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.genyt.net^
 ||log.hypebeast.com^
 ||log.mappy.net^
+||log.mgtv.com^
 ||log.optimizely.com^
 ||log.quora.com^
 ||log.snapdeal.com^
