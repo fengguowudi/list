@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iGB4KoYwfrmeylhs79f1cQ
+! Checksum: zW6Yt+ugVCkJJw95dp5Shw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202111290905
-! Last Modified: 2021年11月29日 09:05
+! Version: 202111291424
+! Last Modified: 2021年11月29日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -50487,6 +50487,7 @@ tf2r.com#@#.adverts
 ||obox-design.com/affiliate-banners/
 ||oilofasia.com/images/banners/
 ||orangebuddies.nl/image/banners/
+||outbrain.com^$doimain=bgr.com|tvline.com
 ||p.d.1emn.com^
 ||p.jwpcdn.com/player/plugins/vast/
 ||p.smartertravel.com^
@@ -55775,6 +55776,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||somewheresouth.net/banner/banner.php$image
 @@||spendino.de/admanager/
 @@||sportsnet.ca/wp-content/plugins/bwp-minify/$domain=sportsnet.ca
+@@||ssl.p.jwpcdn.com/player/*/jwpsrv.js$script,domain=bgr.com
 @@||static.ziffdavis.com/sitenotice/*/settings.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.c|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||static.ziffdavis.com/sitenotice/evidon-sitenotice-bundle.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.c|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||stives.co.uk/cms/advert_search_thumb.php$image,domain=chycor.co.uk
@@ -61845,6 +61847,7 @@ _mongo_stats/
 ||g9111879410.co^
 ||geoedge.be^
 ||glimr.io^
+||glookup.info^
 ||go-mpulse.net^
 ||googleoptimize.com^
 ||googletagmanager.com^
@@ -63084,6 +63087,7 @@ _mongo_stats/
 ||iovation.com^$third-party
 ||ip-api.com^$third-party
 ||ip-label.net^$third-party
+||ip-tracker.org^$third-party
 ||ip2c.org^$third-party
 ||ip2location.com^$third-party
 ||ip2map.com^$third-party
@@ -86378,7 +86382,6 @@ gotxx.com##div[class][style^="position: absolute; cursor: pointer; z-index: 2147
 ||exwotics6heomrthaoi4r.com^
 ||petemgta.com^
 ||nonotro.name^
-gocmod.com##+js(nostif, show)
 edealinfo.com##+js(acis, $, offsetHeight)
 mlsbd.shop##+js(aopw, _pop)
 mlsbd.shop##+js(aost, Math.random, inlineScript)
@@ -86529,6 +86532,8 @@ glotorrents.fr-proxy.com,glotorrents.theproxy.ws##+js(nowoif)
 glotorrents.fr-proxy.com,glotorrents.theproxy.ws##+js(aopr, String.prototype.charCodeAt)
 hakaraw.com##+js(acis, onload, open)
 ||cdn.fedsy.xyz/app.js
+myoplay.club##+js(acis, JSON.parse, break;case $.)
+loticon.xyz##+js(acis, document.getElementById, 'OK')
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
