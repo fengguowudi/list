@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xokTC4oUZa+OIZmvtB0UtA
+! Checksum: PX0hQi56Y1lRqZzlMpa/wQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202111302026
-! Last Modified: 2021年11月30日 20:26
+! Version: 202112010223
+! Last Modified: 2021年12月01日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3177,7 +3177,7 @@
 /advscript.
 /advscripts/*
 /advshow.
-/advt.$domain=~advt.ch
+/advt.$domain=~advt.ch|~advt.it
 /advt/*
 /advt2.
 /advtarget/*
@@ -15067,6 +15067,7 @@ _800x80_
 ###r-ads-listings
 ###r-ads-preview-top
 ###r1SoftAd
+###r89-desktop-top-ad
 ###r_ad3_ad
 ###r_adver
 ###radioProfileAds
@@ -17165,6 +17166,7 @@ _800x80_
 ##.Tadspacemrec
 ##.TextAd
 ##.TextAdds
+##.Textads
 ##.TheEagleGoogleAdSense300x250
 ##.ThreeAds
 ##.TimelineAd
@@ -21302,6 +21304,7 @@ _800x80_
 ##.adtops
 ##.adtower
 ##.adtravel
+##.adttl
 ##.adtv_300_250
 ##.adtxt
 ##.adtxtlinks
@@ -22006,6 +22009,7 @@ _800x80_
 ##.advertisement_main_center_bottom_computer
 ##.advertisement_main_right_middle2_computer
 ##.advertisement_main_right_top_computer
+##.advertisement_part
 ##.advertisement_post
 ##.advertisement_river
 ##.advertisement_section_top
@@ -55034,6 +55038,7 @@ windowsbulletin.com#?#strong:-abp-has(a[href^="http://www.reimageplus.com/"])
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#div[class^=" container_"]:-abp-has(a[href^="/adredir?"])
 msn.com##.bing-native-ad
 msn.com##.dynamicRRWrapper
+msn.com##.intra-article-ad
 msn.com##.medianetintraarticlenativead
 msn.com##.nativeadserversidecontentmodule
 msn.com##.sameoab_ad_container
@@ -82698,11 +82703,13 @@ streamlare.com##+js(aopr, StreamlarePop)
 streamlare.com##body > div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 shegotass.info##+js(aopr, popunder)
 shegotass.info##+js(set, flashvars.adv_pre_vast, '')
-jizzoncam.com,mrpeepers.net,partycelebs.com,shegotass.info##+js(set, flashvars.popunder_url, '')
+jizzoncam.com,jizzonme.org,mrpeepers.net,partycelebs.com,shegotass.info##+js(set, flashvars.popunder_url, '')
 xxxshake.com##+js(set, flashvars.adv_pause_html, '')
 de-sexy-tube.ru,tubsxxx.com##+js(nostif, window.location.href)
 animeplanet.cc##+js(aopw, __C)
 536sdms.com##+js(acis, document.createElement, __htas)
+camlovers.tv##+js(acis, crakPopInParams)
+camlovers.tv##+js(set, flashvars.protect_block, '')
 anybunny.com##td[width="360"]
 babepedia.com##.sidebar_block > a[rel="nofollow noopener"]
 borwap.xxx##.embedright
@@ -82757,6 +82764,8 @@ tubsxxx.com##.videoAd
 pornez.net###cb00
 pornez.net###cb01
 cnnamador.com##.cards__item--videos span.flag--banner:upward(.cards__item--videos)
+cutscenes.net##.item > div[id^="ts_ad_native"]:upward(1)
+cutscenes.net##.item > iframe[src^="https://go."]:upward(1)
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|jsdelivr.net|unpkg.com|zencdn.net,domain=xxxfiles.com
 *$script,domain=hoporno.net,3p,denyallow=googleapis.com
 *$frame,script,3p,domain=crownimg.com
@@ -82801,6 +82810,8 @@ cnnamador.com##.cards__item--videos span.flag--banner:upward(.cards__item--video
 ||vidsvidsvids.com/go/
 ||xszav.club/nb/
 ||xxxdessert.com/*_fe.js
+||camlovers.tv^$script,1p
+@@||camlovers.tv/player/kt_player.js
 ||goryachie-foto.net^$3p
 ||nums1.link^
 ||p64gk2yhba0p.com^
@@ -82943,13 +82954,13 @@ porndr.com##.we_are_sorry
 /local_p.js|
 /local_ssu.js|
 /s/js/ssu.v2.js?v=
-/s/s/js/m/pr-before.js?b=
 /s/s/sui.php
 /s/s/suo.php
 /s/s/supc.php
 /s/s/supv.php
 /s/su.php?t=
 /nb/frot_lod.js
+/s/s/js/m/i-def.js?b=
 deviants.com##+js(aopr, decodeURI)
 deviants.com##div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent none repeat scroll 0% 0%; display: block;"]
 deviants.com##.aside
@@ -83333,7 +83344,7 @@ is2btc.com##.text-center.col-sm-12
 ||vurobyde.xyz^
 *$script,3p,denyallow=bootstrapcdn.com|cloudflare.net|consensu.org|fontawesome.com|google.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net,domain=dropcoins.xyz|fastcoin.ga|faucetbr.tk|is2btc.com|quickclaims.*|swift4claim.com
 sunhope.it##+js(nosiif, document.getElementById, 10000)
-1111fullwise.*,111watcho.*,123-watch.com,123moviesclub.*,123moviesla.*,123moviesprime.com,123ssgm.*,247movie.net,2gomovies.*,7025a.com,afilmyhouse.blogspot.com,antsmovies.com,attvideo.com,bioskopq.com,cinema.cimatna.com,convertitoremp3.download,crackevil.com,dflinks.*,europix.*,filma1.*,filmyzillafilmywap.*,foreverwallpapers.com,freeload.*,fzmoviesnet.com,gtrmovies.com,gyonlineng.com,hdmoviehubs.*,hdmovies7.com,hdmovieserver.com,hitmovies4u.com,keepv.id,maamusiq.com,mcubd.com,megafilmestop.com,motive213.com,moviecool.*,neomovies.net,netnaija.paidnaija.com,oceanofmovies.*,pksmovies.*,saff-tv.net,shortlinkto.*,soap2day.*,thelinkbox.*,thelosmovies.com,veryfastdownload.pw,watch4hd.*,watchonlinemovies50.com.pk,yify.stream,ylink.bid,yt1s.com##+js(acis, JSON.parse, break;case $.)
+1111fullwise.*,111watcho.*,123-watch.com,123moviesclub.*,123moviesla.*,123moviesprime.com,123ssgm.*,247movie.net,2gomovies.*,7025a.com,afilmyhouse.blogspot.com,antsmovies.com,attvideo.com,bioskopq.com,cinema.cimatna.com,convertitoremp3.download,crackevil.com,dflinks.*,europix.*,filma1.*,filmyzillafilmywap.*,foreverwallpapers.com,freeload.*,fzmoviesnet.com,gtrmovies.com,gyonlineng.com,hdmoviehubs.*,hdmovies7.com,hdmovieserver.com,hitmovies4u.com,keepv.id,maamusiq.com,mcubd.com,megafilmestop.com,motive213.com,moviecool.*,neomovies.net,netnaija.paidnaija.com,oceanofmovies.*,pksmovies.*,saff-tv.net,shortlinkto.*,soap2day.*,songspk.*,thelinkbox.*,thelosmovies.com,veryfastdownload.pw,watch4hd.*,watchonlinemovies50.com.pk,yify.stream,ylink.bid,yt1s.com##+js(acis, JSON.parse, break;case $.)
 cinema.cimatna.com,neomovies.net##^script:has-text(break;case $.)
 ##[href^="https://www.highperformancecpm.com/"]
 ||cvpqvmjudkcaxa.xyz^
@@ -83352,6 +83363,10 @@ cinema.cimatna.com,neomovies.net##^script:has-text(break;case $.)
 ||odovydyp.xyz^
 ||fajytrekdffep.top^
 ||axbbghkrpy.top^
+||rxbeuwnaya.top^
+||tocjgiwjprhmwto.top^
+||hugiffamopfrge.top^
+||aeucutsmpwtvr.top^
 ||tnpads.xyz^$3p
 ||gyonlineng.com/sw.js$xhr,1p
 ||www.mcubd.com/sw.js$script,1p
@@ -86643,6 +86658,12 @@ camwhores.tv##+js(nostif, innerText, 2000)
 ||virtwishes.site^
 @@||descargaranimes.net^$ghide
 wapsing.com##+js(nowoif)
+just-upload.com##+js(set, globalThis, null)
+||just-upload.com^$csp=default-src 'unsafe-inline' 'unsafe-eval' 'self' *.google.com *.gstatic.com *.googleapis.com *.wp.com *.googletagmanager.com
+||d1t4ekjh9ps4ob.cloudfront.net^
+||rinryesop.one^
+||tingeffukec.one^
+hotdesimms.com##+js(nostif, offsetHeight)
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
@@ -89451,6 +89472,7 @@ saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!impor
 !#endif
 ilbianconero.com##.no-scroll:style(overflow:auto!important)
 @@||googletagmanager.com/gtm.js$script,domain=insideevs.com
+@@/s/s/js/m/pr-before.js?b=$script,1p
 ||1.0.218.19$all
 ||1.0.218.230$all
 ||1.1.188.10$all
