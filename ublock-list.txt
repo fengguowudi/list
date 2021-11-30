@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UMMbtHtEXiu4cmx46M7a5Q
+! Checksum: El9GsVc0dU+sw/QRANYZuA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202111300904
-! Last Modified: 2021年11月30日 09:04
+! Version: 202111301419
+! Last Modified: 2021年11月30日 14:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -51598,6 +51598,7 @@ tf2r.com#@#.adverts
 ||richardroeper.com/assets/banner/
 ||rma.homedepot.com^
 ||s.radioreference.com/sm/$image
+||s.yimg.com/zh/mrr/$image,domain=mail.yahoo.com
 ||s1.reutersmedia.net/resources/r/$image
 ||saabsunited.com/wp-content/uploads/*banner
 ||sareunited.com/uploaded_images/banners/
@@ -61905,6 +61906,7 @@ _mongo_stats/
 ||g8715710740.co^
 ||g8913795075.co^
 ||g9111879410.co^
+||gbqofs.com^
 ||geoedge.be^
 ||glimr.io^
 ||glookup.info^
@@ -70709,6 +70711,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lolwot.com/B5xaqzSGvMTM.js
 ||lookawoman.com/t/
 ||ma.redhat.com^
+||mail.yahoo.com/f/track/
 ||mailing.enews.extremetech.com^$image
 ||mangadex.org/p.js
 ||mapquest.com/logger
@@ -81141,7 +81144,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||marktplaats.nl/add_counter_image.
 ||marktplaats.nl/metrics/
 ||marktplaats.nl/px/
+||njam.tv/tracking/
 ||npo-data.nl/tag/v3/npotag.js
+||npo-data.nl/tags/tag.min.js
 ||npo.nl/tag/atinternet/
 ||pcmweb.nl/track/
 ||rtl.nl/system/track/
@@ -82174,6 +82179,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||googletagmanager.com/gtm.js?$domain=grandhood.dk
 @@||nemlog-in.dk/resources/js/adrum.js$~third-party
 !---------- Dutch ----------
+@@||2doc.nl^*/vpro-analytics/Analytics.js$xmlhttprequest
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
 @@||analytics.ooyala.com/static/analytics.js$script,domain=humo.be
 @@||centprod.com/nd/assets/js/analytics.js$script,domain=centprod.com
