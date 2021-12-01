@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ji3J4KTMEQd0frW2Szg4HQ
+! Checksum: H/0OyfTaLAUFOCR7xhdWLg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112010909
-! Last Modified: 2021年12月01日 09:09
+! Version: 202112011424
+! Last Modified: 2021年12月01日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -123,7 +123,7 @@
 -ad/source/
 -ad0.
 -ad03.
--ad1.$domain=~oraclecloudapps.com
+-ad1.$domain=~b-cdn.net|~oraclecloudapps.com
 -ad2.
 -ad2_
 -ad3.
@@ -68632,6 +68632,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.yabidos.com^
 ||pixel.yola.com^
 ||pixels.afcdn.com^
+||pixlee.com/assets/fp.js
 ||pixlee.com/assets/pixlee_events.js
 ||platform.iteratehq.com^
 ||platform.twitter.com/impressions.js
