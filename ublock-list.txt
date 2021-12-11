@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Lbck8sHNZzksfYPQkXt8Uw
+! Checksum: k8E6YimvssY/MJ1MyCkYzg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112112031
-! Last Modified: 2021年12月11日 20:31
+! Version: 202112120223
+! Last Modified: 2021年12月12日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53080,7 +53080,7 @@ chat-avenue.com##.adnoyer_log
 flightglobal.com,thriftyfun.com##.adp
 vice.com##.adph
 1sale.com,7billionworld.com,9jaflaver.com,achieveronline.co.za,canstarblue.co.nz,chordfrenzy.com,climatechangenews.com,cryptonomist.ch,dallasobserver.com,energyforecastonline.co.za,esports.com,eventcinemas.co.nz,flashx.tv,furaffinity.net,geo.tv,govtrack.us,gramfeed.com,houstonpress.com,idiva.com,indiatimes.com,inspirock.com,knowyourmeme.com,marinetraffic.com,mb.com.ph,mehrnews.com,meta-calculator.com,mini-ielts.com,miningprospectus.co.za,mugshots.com,myfitnesspal.com,nativeplanet.com,nbc.na,news.nom.co,nsfwyoutube.com,roadaheadonline.co.za,russia-insider.com,russian-faith.com,savevideo.me,sddt.com,servicepublication.co.za,sgcarmart.com,shipyearonline.co.za,stars-portraits.com,straitstimes.com,strawpoll.me,tcm.com,tech2.com,tehrantimes.com,tellerreport.com,thecatholicuniverse.com,thejakartapost.com,thelakewoodscoop.com,themalaysianinsider.com,thenews.com.pk,theprojectmanager.co.za,thestar.com.my,viamichelin.com,viamichelin.ie,vidstreaming.io,wallpaper.com,y8.com,yummy.ph##.ads
-roblox.com,spotify.com##.ads-container
+indianexpress.com,roblox.com,spotify.com##.ads-container
 lightnovelpub.com##.adsbox
 informer.com##.adsbygoogle
 gayvegas.com,looktothestars.org,nintandbox.net,plurk.com,thebarentsobserver.com,tolonews.com##.adsense
@@ -57174,6 +57174,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /angularlytics.
 /angularytics.
 /angularytics/*
+/anonymous_user_guid.gif?
 /any/*.gif?
 /anycent_tracker_
 /api-analytics.
@@ -87037,6 +87038,7 @@ persianhive.com##+js(no-xhr-if, adsbygoogle)
 lootup.me##+js(acis, document.getElementById, stop)
 @@||primeos.in^$ghide
 ||mobile-tracker-free.com/dashboard/scripts/detectBlockAds/isPremiumDemo.php
+mobile-tracker-free.com##+js(set, detectBlockAds, noopFunc)
 motphimtv.com##+js(set, console.clear, undefined)
 wyze.com##+js(no-xhr-if, api)
 wyze.com##+js(no-fetch-if, analytics)
@@ -89963,6 +89965,7 @@ ilbianconero.com##.no-scroll:style(overflow:auto!important)
 @@||google-analytics.com/analytics.js$script,redirect-rule,domain=nordvpn.com
 @@||www.visibleoffers.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=swisslos.ch
+@@||enchambered.com/puzzles/*/assets/js/googleanalytics$script,1p
 ||007298.xyz$all
 ||1.0.218.19$all
 ||1.10.146.31$all
