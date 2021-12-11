@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yXSNIKvUC70Syjcj1pUvIg
+! Checksum: owzYHLX4l93nfuzH3BWSPA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112110906
-! Last Modified: 2021年12月11日 09:06
+! Version: 202112111423
+! Last Modified: 2021年12月11日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -33186,6 +33186,7 @@ tf2r.com#@#.adverts
 ||axill.com^
 ||axioux.com^
 ||axp9.com^
+||axp9.net^
 ||ay.delivery^
 ||ayads.co^
 ||ayahtyros.com^
@@ -48344,6 +48345,7 @@ tf2r.com#@#.adverts
 ||awesomenewspush.com^$popup
 ||awptjmp.com^$popup
 ||awsclic.com^$popup
+||axp9.net^$popup
 ||ayahtyros.com^$popup
 ||b3z29k1uxb.com^$popup
 ||b54m4qbmt0b9.com^$popup
@@ -51215,7 +51217,6 @@ tf2r.com#@#.adverts
 ||hotcaracum.com/banner/
 ||hotkinkyjo.xxx/resseler/banners/
 ||hotmovies.com/custom_videos.php?
-||smpop.icfcdn.com^$third-party
 ||iframe.adultfriendfinder.com^$third-party
 ||iframes.hustler.com^$third-party
 ||ifriends.net^$subdocument,third-party
@@ -51294,6 +51295,7 @@ tf2r.com#@#.adverts
 ||skyprivate.com^*/external/$third-party
 ||sleepgalleries.com/recips/$third-party
 ||smartmovies.net/promo_$third-party
+||smpop.icfcdn.com^$third-party
 ||smyw.org/smyw_anima_1.gif
 ||snrcash.com/profilerotator/$third-party
 ||st.ipornia.com^$third-party
@@ -52168,6 +52170,8 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||hentaidude.xxx/wp-content/plugins/script-manager/
 ||hentairules.net/eroges.js
 ||hentairules.net/gal/new-gallery-dump-small.gif
+||here.xxx/ads.js
+||here.xxx/pop_desc.js
 ||homeprivatevids.com/js/580eka426.js
 ||hornygamer.com/includes/gamefile/sw3d_hornygamer.gif
 ||hornygamer.com/play_horny_games/
@@ -54620,6 +54624,7 @@ wccftech.com##[href^="https://cutt.ly/"]
 topfiveforex.com##[href^="https://fbs.com/promo/"]
 torrentgalaxy.to##[href^="https://gen4ever.com/"]
 pimylifeup.com##[href^="https://go.pimylifeup.com/"]
+bitcoiner.tv##[href^="https://go.stormgain.com/"]
 thehackernews.com##[href^="https://go.thn.li/"]
 imagetwist.com##[href^="https://imagetwist.com/pxt/"]
 topfiveforex.com##[href^="https://iqoption.com/"]
@@ -55202,6 +55207,7 @@ flyingjizz.com###adv_inplayer
 milffox.com###advertising
 instantfap.com###af
 pervclips.com###after-adv
+cuntest.net###banners
 sexyandfunny.com###best-friends
 pussyspace.com###bhcr
 toppixxx.com###bottom
@@ -55249,7 +55255,6 @@ youjizz.com###partnerPr
 redtube.com,redtube.com.br,redtube.net,youporngay.com###pb_block
 pornhub-com.appspot.com,pornhub.com,pornhub.net,pornhubthbh7ap3u.onion,youporn.com###pb_template
 youporngay.com###pbs_block
-pornhd.com##phd-floating-ad
 imagearn.com###picBanner
 hentai2w.com,pornxt.com###playerOverlay
 redtube.com###popsByTrafficJunky
@@ -55306,7 +55311,7 @@ namethatporn.com##.a_br_b
 porn300.com##.aaann_fake
 porn300.com##.aaann_fake__video-units
 cumlouder.com##.aan-promo
-chaturbate.com,playboy.com,rampant.tv,sex.com,signbucks.com,tallermaintenancar.com,tehvids.com,thehun.net,uflash.tv,xcafe.com##.ad
+chaturbate.com,playboy.com,rampant.tv,sex.com,signbucks.com,tallermaintenancar.com,tehvids.com,thehun.net,tiktits.com,uflash.tv,xcafe.com##.ad
 kemono.party,pinflix.com##.ad-container
 xtube.com##.adContainer
 sex3.com##.add-box
@@ -55366,6 +55371,7 @@ pornogratisdiario.com,xcafe.com##.bnr
 ok.porn,ok.xxx,oldmaturemilf.com,pornhat.com##.bns-bl
 sexsbarrel.com,zingyporntube.com##.bns-place-ob
 xnxxvideoporn.com##.bot_bns
+here.xxx##.botad
 dailyporn.club##.bottom-blocks
 teenpornvideo.xxx##.bottom-spots
 youtubelike.com##.bottom-thumbs
@@ -55764,6 +55770,7 @@ redtube.com,youporn.com,youporngay.com##img[src^="bLob:" i]
 pornhub.com,pornhubthbh7ap3u.onion##img[width="300"]
 adultwork.com,babepicture.co.uk,sexmummy.com,tvgirlsgallery.co.uk##img[width="468"]
 babeshows.co.uk,jessie-rogers.com##img[width="728"]
+pornhd.com##phd-floating-ad
 koreanstreamer.xyz##section.korea-widget
 porngifs2u.com##section[class*="elementor-hidden-"]
 redtube.com##svg
@@ -59080,6 +59087,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /log/ux_analytics^
 /log/web?
 /log2.php?
+/log204?
 /Log?act=$image
 /log?action=
 /log?count=
@@ -69129,6 +69137,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.cfjump.com^
 ||t.clic2buy.com^
 ||t.dgm-au.com^$third-party
+||t.irtyc.com^
 ||t.jobsyn.org^
 ||t.mail.sony-europe.com/r/?
 ||t.menepe.com^
@@ -81181,6 +81190,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ems.youku.com/event?
 ||err.ifengcloud.ifeng.com^
 ||event.csdn.net^
+||fclog.baidu.com^
 ||flog.pressplay.cc^
 ||forum.zuvio.com.tw/api/article/finish
 ||ftchinese.com/js/log.js
@@ -87091,8 +87101,6 @@ autocoin.in##+js(nosiif, visibility, 1000)
 4kporn.xxx##[src^="https://4kporn.xxx/player/html.php?aid=pause_html"]
 pinayvids.com##+js(acis, document.addEventListener, adsBlocked)
 animelek.me##+js(aopw, _pop)
-||eqsstvfotd.com^
-||blueoyster.click^
 arhplyrics.in##+js(no-fetch-if, googlesyndication)
 scrolller.com##.ad-block-popup:upward(2)
 scrolller.com##.native-ad-item-panel:upward(.vertical-view__item)
@@ -87102,6 +87110,8 @@ scrolller.com##.native-ad-item-panel:upward(.vertical-view__item)
 dirp.me##+js(aopr, puShown)
 dirp.me##[data-href^="/vpn"]
 dirp.me##[id]:has-text(Provider)
+@@||sektedoujin.club^$ghide
+boainformacao.com.br##+js(no-xhr-if, adsbygoogle)
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
