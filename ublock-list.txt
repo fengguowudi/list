@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1VO6NORnofNeqUv6/veU6g
+! Checksum: zjmyiyTSY1e3e1mv66An7A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112120910
-! Last Modified: 2021年12月12日 09:10
+! Version: 202112121423
+! Last Modified: 2021年12月12日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -86027,6 +86027,7 @@ shineads.in##+js(acs, eval, replace, /^data:/)
 tutcourse.com##+js(aeld, DOMContentLoaded, adsBlocked)
 tutcourse.com##.stream-item-widget
 tutcourse.com##.text-html
+tutcourse.com##.ai-attributes
 @@||videovard.sx^$xhr,1p
 videovard.sx##+js(nowoif)
 videovard.sx##+js(aeld, mouseup, catch)
@@ -87122,6 +87123,9 @@ boainformacao.com.br##+js(no-xhr-if, adsbygoogle)
 pinterest.*##div[data-test-id="pin"] span:not([class]):has-text(Promoted by):upward([data-grid-item="true"])
 distrowatch.org##[href*="3cx"]:upward(tbody)
 distrowatch.org##[href^="https://pbxinaflash.com/"]
+ubuntudde.com##+js(aopw, b2a)
+aylink.info##+js(aopr, app_vars.force_disable_adblock)
+aylink.info##+js(set, blurred, false)
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
@@ -89967,9 +89971,7 @@ ilbianconero.com##.no-scroll:style(overflow:auto!important)
 @@||www.visibleoffers.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=swisslos.ch
 @@||enchambered.com/puzzles/*/assets/js/googleanalytics$script,1p
-@@||securepubads.g.doubleclick.net/gpt/*$script,domain=nha.chotot.com
-@@||googletagservices.com/tag/js/gpt.js$script,domain=nha.chotot.com
-nha.chotot.com##+js(no-xhr-if, /^/)
+||static.chotot.com/storage/js/prebid-ads.js$script,important
 ||007298.xyz$all
 ||1.0.218.19$all
 ||1.0.218.230$all
