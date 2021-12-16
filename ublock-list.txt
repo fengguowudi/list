@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: w7+J7hf7kR+38nqWTp3sGw
+! Checksum: r38Jz/pUUJDD4sfh8WCv0g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112160907
-! Last Modified: 2021年12月16日 09:07
+! Version: 202112161424
+! Last Modified: 2021年12月16日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24363,6 +24363,7 @@ _800x80_
 ##.first-ad-wrap
 ##.first-leaderbord-adv
 ##.first-leaderbord-adv-mobile
+##.firstAd-container
 ##.first_ad
 ##.first_party_ad_wrapper
 ##.first_post_ad
@@ -53215,7 +53216,7 @@ moviechat.org##.adc
 ancient.eu,fanatix.com,gematsu.com,tucsonsentinel.com,videogameschronicle.com,worldhistory.org##.adcontainer
 sumanasa.com##.adcontent
 edutourism.in,online-image-editor.com,thehindu.com##.add
-buzz.ie,theweekendsun.co.nz##.add-block
+buzz.ie,irishpost.com,theweekendsun.co.nz##.add-block
 addictinggames.com##.add-bx
 morningstar.in##.add-container
 ndtv.com##.add-section
@@ -53351,7 +53352,7 @@ gayexpress.co.nz##.backstretch
 izismile.com##.ban_top
 lexico.com##.banbox
 lexico.com##.banbox-mini
-alistapart.com,arcadebomb.com,armageddonexpo.com,balls.ie,bikechatforums.com,btcmanager.com,ca-flyers.com,caixinglobal.com,caribvision.tv,cmo.com.au,coryarcangel.com,elyricsworld.com,euobserver.com,eurochannel.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,garticphone.com,gr8.cc,gsprating.com,hotnewhiphop.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,irishtimes.com,japantimes.co.jp,jpost.com,livescore.in,marinelink.com,mercopress.com,mmorpg.com,news.am,oncyprus.com,pharmatimes.com,reversephonesearch.com.au,scientificamerican.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,timeslive.co.za,timesofisrael.com,tmi.me,unblockstreaming.com,vloot.io,weatheronline.co.uk,weekly-ads.us,worldtimeserver.com,xbiz.com,ynetnews.com##.banner
+alistapart.com,arcadebomb.com,armageddonexpo.com,balls.ie,bikechatforums.com,btcmanager.com,ca-flyers.com,caixinglobal.com,caribvision.tv,cmo.com.au,coryarcangel.com,elyricsworld.com,euobserver.com,eurochannel.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,garticphone.com,gr8.cc,gsprating.com,hotnewhiphop.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,irishpost.com,irishtimes.com,japantimes.co.jp,jpost.com,livescore.in,marinelink.com,mercopress.com,mmorpg.com,news.am,oncyprus.com,pharmatimes.com,reversephonesearch.com.au,scientificamerican.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,timeslive.co.za,timesofisrael.com,tmi.me,unblockstreaming.com,vloot.io,weatheronline.co.uk,weekly-ads.us,worldtimeserver.com,xbiz.com,ynetnews.com##.banner
 puzzlegarage.com##.banner--inside
 onlineradiobox.com##.banner--vertical
 dailynewsegypt.com##.banner-250
@@ -65203,7 +65204,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||coin-have.com^$third-party
 ||coin-hive.com^$third-party
 ||coinerra.com^$third-party
-||coinhive.com^$third-party
 ||coinhiveproxy.com^$third-party
 ||coinimp.com$third-party
 ||coinimp.net$third-party
