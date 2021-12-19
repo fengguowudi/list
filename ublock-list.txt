@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: b8wU82VwJ27qZYAWdEng8A
+! Checksum: z9+P0dpxwVH0HfFQPeq0SQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112192032
-! Last Modified: 2021年12月19日 20:32
+! Version: 202112200223
+! Last Modified: 2021年12月20日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -87520,10 +87520,6 @@ mangastream.mobi###myModal
 #@##AdFrame4
 #@##AdLayer1
 #@##AdLayer2
-#@##Ads_google_01
-#@##Ads_google_02
-#@##Ads_google_03
-#@##Ads_google_04
 #@##DivAd
 #@##DivAd1
 #@##DivAd2
@@ -87584,10 +87580,6 @@ mangastream.mobi###myModal
 ###AdFrame4:not([style^="position: absolute; left: -5000px"])
 ###AdLayer1:not([style^="position: absolute; left: -5000px"])
 ###AdLayer2:not([style^="position: absolute; left: -5000px"])
-###Ads_google_01:not([style^="position: absolute; left: -5000px"])
-###Ads_google_02:not([style^="position: absolute; left: -5000px"])
-###Ads_google_03:not([style^="position: absolute; left: -5000px"])
-###Ads_google_04:not([style^="position: absolute; left: -5000px"])
 ###DivAd:not([style^="position: absolute; left: -5000px"])
 ###DivAd1:not([style^="position: absolute; left: -5000px"])
 ###DivAd2:not([style^="position: absolute; left: -5000px"])
@@ -87650,7 +87642,10 @@ androidacy.com##+js(nosiif, visibility, 1000)
 film01stream.ws##+js(ra, href, .mvi-cover)
 film01stream.ws##.f-inner
 movies7.pro##+js(disable-newtab-links)
+m4ufree.*,uwatchfree.cyou##+js(aopr, BetterJsPop)
 glosbe.com###topBannerContainer
+||www.sfr.fr^$script,redirect-rule=noop.js,domain=red-by-sfr.fr
+t18cv.com##+js(aopr, remove_adblock_html)
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
@@ -88713,6 +88708,9 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||statwup.huya.com^
 ||va.huya.com^
 ||analytics.tiendaenoferta.com^
+||zhihu.com^$removeparam=search_source
+||zhihu.com^$removeparam=hybrid_search_source
+||zhihu.com^$removeparam=hybrid_search_extra
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
