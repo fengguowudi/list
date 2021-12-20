@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qdb8BrvtYqUGmgTw/MGvYg
+! Checksum: YABxyrnfzGFQTA67MgT1xQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112200909
-! Last Modified: 2021年12月20日 09:09
+! Version: 202112201425
+! Last Modified: 2021年12月20日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -27746,6 +27746,7 @@ _800x80_
 ##.rpd_ads
 ##.rr-300x250-ad
 ##.rr-300x600-ad
+##.rr-ad
 ##.rr_ads
 ##.rr_skyad
 ##.rs-ad
@@ -54663,6 +54664,7 @@ trademe.co.nz##.tm-display-ad__wrapper
 last.fm##.tonefuze
 duplichecker.com##.tool_bg.col-md-12 > div
 euobserver.com##.top
+mashable.com##.top-0.sticky > div
 artistdirect.com##.top-add
 automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,government-fleet.com,howsecureismypassword.net,ncaa.com,schoolbusfleet.com##.top-banner
 gptoday.net##.top-banner-leaderboard
@@ -55193,6 +55195,7 @@ aniwatcher.com##main > [href] > [src]
 hentai-foundry.com##main > p
 adblock-tester.com##object[width="240"]
 healthgrades.com##ps-action-intercept
+mashable.com##section.mt-4 > div
 bbc.com##section[data-e2e="advertisement"]
 tempostorm.com##side-banners
 torlock.com##table.hidden-xs
