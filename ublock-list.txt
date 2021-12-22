@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: d3j4UjyUMLNFAnSas7HSOg
+! Checksum: yCvCGVdeiGUiaX9j/di/VA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112220910
-! Last Modified: 2021年12月22日 09:10
+! Version: 202112221425
+! Last Modified: 2021年12月22日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2860,7 +2860,7 @@
 /adtaily_
 /adtaobao.
 /adTargeting.$domain=~adtargeting.com
-/adtech.$domain=~adtech.co.uk|~adtech.md
+/adtech.$~script,domain=~adtech.co.uk|~adtech.md
 /adtech/*
 /adtech;
 /adtech_$domain=~adtech.co.uk
@@ -3354,7 +3354,6 @@
 /app.ads.
 /app/ads.
 /app/ads/*
-/apstag.js
 /aptads/*
 /apu.php?*&zoneid=
 /arcads.js
@@ -31731,6 +31730,7 @@ tf2r.com#@#.adverts
 ||6b5c418918ebb008cc6.com^
 ||6bgaput9ullc.com^
 ||6c6a4ec4e8b80d4.com^
+||6d79qh7j.com^
 ||6ea56485aed0c.com^
 ||6f1dba68f65.com^
 ||6f2tjr26.top^
@@ -40989,6 +40989,7 @@ tf2r.com#@#.adverts
 ||onsideratio.fun^
 ||onstunkyr.com^
 ||ontoonefoldonefold.com^
+||onyhgvqdknxdesb.top^
 ||ooboulry.net^
 ||oocdqgado.xyz^
 ||oodraune.com^
@@ -55709,7 +55710,7 @@ pornogratisdiario.com,xcafe.com##.bnr
 ok.porn,ok.xxx,oldmaturemilf.com,pornhat.com##.bns-bl
 sexsbarrel.com,zingyporntube.com##.bns-place-ob
 xnxxvideoporn.com##.bot_bns
-here.xxx##.botad
+here.xxx,jagaporn.com##.botad
 dailyporn.club##.bottom-blocks
 teenpornvideo.xxx##.bottom-spots
 youtubelike.com##.bottom-thumbs
@@ -55855,6 +55856,7 @@ hentaicore.org##.mob-lock
 gaymovievids.com,verygayboys.com##.mobile-random
 yourdarkdesires.com##.moment
 javfor.tv##.my-2.container
+jagaporn.com##.nativad
 pornhd.com##.native-banner-wrapper
 darknessporn.com##.native-boxes
 fetishshrine.com##.native-holder
