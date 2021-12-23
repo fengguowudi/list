@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h6daPZvG+Vffc0sjitkZ2A
+! Checksum: 4GzQRQbEwBj9R/aqhcQTtQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112230909
-! Last Modified: 2021年12月23日 09:09
+! Version: 202112231425
+! Last Modified: 2021年12月23日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -6617,7 +6617,6 @@
 ?adname=
 ?adPageCd=
 ?adpartner=
-?ads_params=
 ?adsdata=
 ?adsite=
 ?adsize=
@@ -12091,6 +12090,7 @@ _800x80_
 ###bigbox-ad
 ###bigsidead
 ###billboard-ad-container
+###billboard-atf
 ###billboard_ad
 ###bingadcontainer2
 ###bl11adv
@@ -19275,6 +19275,7 @@ _800x80_
 ##.ad__mpu
 ##.ad__placeholder
 ##.ad__rectangle
+##.ad__sidebar
 ##.ad__sticky-desktop
 ##.ad__superbanner
 ##.ad__width-by-height
@@ -55186,6 +55187,7 @@ mangatigre.com##div[id^="i-d-cr-page"]
 medicalnewstoday.com##div[id^="inline3"]
 dexerto.com##div[id^="jwplayer_"]
 mediabiasfactcheck.com##div[id^="media-"]
+gamebyte.com##div[id^="mpu"]
 ebay.co.uk,ebay.com,ebay.com.au,ebay.de##div[id^="plmt_html_"]:not(#plmt_html_101113):not(#plmt_html_101224)
 yopmail.com,yopmail.fr,yopmail.net##div[id^="pub"]
 howtogeek.com##div[id^="purch_"]
@@ -56260,7 +56262,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||connatix.com*/connatix.player.$script,domain=ebaumsworld.com|funker530.com|washingtonexaminer.com
 @@||crackle.com/vendor/AdManager.js$script,~third-party
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
-@@||dailymotion.com/embed/*?ads_params=$subdocument
 @@||dashboard.adskeeper.co.uk^$domain=dashboard.adskeeper.co.uk
 @@||davidsilverspares.co.uk/graphics/*_ad.gif$~third-party
 @@||delivery.vidible.tv/jsonp/$script,domain=engadget.com
@@ -87698,6 +87699,9 @@ g3g.fun##+js(aopw, _pop)
 g3g.fun##[id^="cookieConsentVPN"]
 g3g.fun##[href*="vpnd"]
 webpornblog.com##+js(nowoif)
+freetohell.com##+js(no-fetch-if, method:HEAD)
+sanet.st##+js(acis, String.fromCharCode, 'replace')
+sanet.st##.lsB
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
