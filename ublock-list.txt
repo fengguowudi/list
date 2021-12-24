@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GwTUoA5CYhhsExlU7R4LTQ
+! Checksum: Ki8JFR1Gj3ZNlmJBm4RbzQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112242033
-! Last Modified: 2021年12月24日 20:33
+! Version: 202112250224
+! Last Modified: 2021年12月25日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -47961,6 +47961,7 @@ tf2r.com#@#.adverts
 ||revenuegiants.com^$third-party
 ||reyden-x.com^$third-party
 ||rhombusads.com^$third-party
+||richaudience.com^$third-party
 ||roirocket.com^$third-party
 ||rotaban.ru^$third-party
 ||salvador24.com^$third-party
@@ -64541,7 +64542,6 @@ _mongo_stats/
 ||rhinoseo.com^$third-party
 ||riastats.com^$third-party
 ||richard-group.com^$third-party
-||richaudience.com^$third-party
 ||richmetrics.com^$third-party
 ||rightmoveanalytics.co.uk^$third-party
 ||ritecounter.com^$third-party
@@ -87692,6 +87692,8 @@ mangastream.mobi###myModal
 #@#.ad-banner
 ###ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"])
 ##.ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"])
+#@#div[class=ad-banner]
+##div[class=ad-banner]:not([style="height: 5px; width: 5px; position: absolute; top: 0;"])
 #@#.adsBox
 ##.adsBox:not([style$="-99999px;"])
 globfone.com##+js(no-xhr-if, ads)
@@ -87740,6 +87742,11 @@ freetohell.com##+js(no-fetch-if, method:HEAD)
 sanet.st##+js(acis, String.fromCharCode, 'replace')
 sanet.st##.lsB
 sportsdark.com##+js(acis, eval, replace)
+pornstargold.com##+js(acis, document.querySelectorAll, popMagic)
+pornstargold.com##+js(aopr, loadTool)
+pornstargold.com##.et_bloom_popup
+pornstargold.com##canvas
+pornstargold.com###popup
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
@@ -90635,6 +90642,7 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=dagelijksekost.een.be
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=dagelijksekost.een.be
 @@||assets.adobedtm.com/*-source.min.js$script,domain=dagelijksekost.een.be
+@@||securepubads.g.doubleclick.net^$script,xhr,domain=weatherandradar.com
 ||007298.xyz$all
 ||021414243.com$all
 ||1.0.215.187$all
