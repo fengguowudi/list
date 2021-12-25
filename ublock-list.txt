@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iCkoDy3r9r6jPeYe+txXBg
+! Checksum: LJS+pNXeCArIi269Nop9bA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112250907
-! Last Modified: 2021年12月25日 09:07
+! Version: 202112251424
+! Last Modified: 2021年12月25日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -71187,6 +71187,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||docs.github.com/events
 ||domainit.com/scripts/track.js
 ||dominos.co.uk/qRgAwS/
+||dotesports.com/sp.js
 ||dp.shoprunner.com^
 ||drop.com/impressionsBeacon
 ||drop.com/statBeacon
@@ -85189,7 +85190,7 @@ bleepingcomputer.com###bc-home-news-main-wrap > li a[href$="/deals/"]:upward(li)
 getpaidstock.com##.adsbygoogle
 *$frame,redirect-rule=noopframe,domain=getpaidstock.com
 myabandonware.com##+js(set, canRunAds, true)
-myabandonware.com##[data-freestar-ad]:upward(1)
+myabandonware.com##[data-d1225-ad]:upward(1)
 myabandonware.com##div[id^="myabandonware_medrec_right_"]:upward(div[id])
 myabandonware.com##[href^="/visual/"]
 gayck.com##+js(set, flashvars.adv_pause_html, '')
