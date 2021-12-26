@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QzFsbIYWRxyfxl+3IekdrQ
+! Checksum: kDHhyUJjazWiJNtZkqVo7Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112262032
-! Last Modified: 2021年12月26日 20:32
+! Version: 202112270223
+! Last Modified: 2021年12月27日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -85198,8 +85198,8 @@ bleepingcomputer.com###bc-home-news-main-wrap > li a[href$="/deals/"]:upward(li)
 getpaidstock.com##.adsbygoogle
 *$frame,redirect-rule=noopframe,domain=getpaidstock.com
 myabandonware.com##+js(set, canRunAds, true)
-myabandonware.com##[data-d1225-ad]:upward(1)
-myabandonware.com##div[id^="myabandonware_medrec_right_"]:upward(div[id])
+myabandonware.com##.items > .item[id]:not(.itemListGame)
+myabandonware.com##div[id*="myabandonware_medrec_right_"]:upward(div[id])
 myabandonware.com##[href^="/visual/"]
 gayck.com##+js(set, flashvars.adv_pause_html, '')
 1412.rest##+js(nosiif, visibility, 1000)
@@ -87797,6 +87797,8 @@ insurance.iptvsetupguide.com##+js(nano-sib)
 @@||bitcoinslink.site^$ghide
 codecap.org##+js(aopr, Request)
 fusedgt.com##+js(no-xhr-if, googlesyndication)
+||anymind360.com^
+gayteam.club##+js(acis, document.querySelectorAll, popMagic)
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
@@ -88301,6 +88303,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||mqdownload.com^$all
 ||spacedrain.site^$all
 ||vviotaer.space^$all
+/pop-click?sid=*&data=$doc
 ||hyperwage.com^$all
 ||ricavato.com^
 ||bitcoingenerator.me^$all
@@ -88510,6 +88513,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /^https:\/\/cakemoney\d{3}\.space\/\?u=/$doc,domain=space
 /^https?:\/\/adserveryo\d\.xyz\/\?/$doc,domain=xyz
 /^https:\/\/money\d{2}game\.site\/\?u=/$doc,domain=site
+/^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
 ||0addon.com^
 ||ogtrk.net^
 ||gameglitcher.com^
@@ -97624,7 +97628,7 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Sat, 25 Dec 2021 17:32:40 GMT
-# entries:        3716
+# entries:        3679
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1
@@ -97673,7 +97677,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 a.aproductmsg.com
 127.0.0.1 a.mktw.net
 127.0.0.1 a.muloqot.uz
-127.0.0.1 a.pub.network
 127.0.0.1 a.sakh.com
 127.0.0.1 a.ucoz.net
 127.0.0.1 a.ucoz.ru
@@ -97707,7 +97710,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 abtasty.com
 127.0.0.1 abz.com
 127.0.0.1 ac.rnm.ca
-127.0.0.1 acceptable.a-ads.com
 127.0.0.1 acid-adserver.click
 127.0.0.1 acridtwist.com
 127.0.0.1 actionsplash.com
@@ -97729,7 +97731,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 ad-tech.com
 127.0.0.1 ad-up.com
 127.0.0.1 ad.71i.de
-127.0.0.1 ad.a-ads.com
 127.0.0.1 ad.a8.net
 127.0.0.1 ad.abcnews.com
 127.0.0.1 ad.abctv.com
@@ -97755,7 +97756,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 ad.domainfactory.de
 127.0.0.1 ad.eurosport.com
 127.0.0.1 ad.exyws.org
-127.0.0.1 ad.flurry.com
 127.0.0.1 ad.foxnetworks.com
 127.0.0.1 ad.grafika.cz
 127.0.0.1 ad.gt
@@ -97771,7 +97771,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 ad.lgappstv.com
 127.0.0.1 ad.liveinternet.ru
 127.0.0.1 ad.lupa.cz
-127.0.0.1 ad.media-servers.net
 127.0.0.1 ad.mediastorm.hu
 127.0.0.1 ad.mg
 127.0.0.1 ad.mobstazinc.cn
@@ -97788,13 +97787,11 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 ad.preferances.com
 127.0.0.1 ad.profiwin.de
 127.0.0.1 ad.prv.pl
-127.0.0.1 ad.sensismediasmart.com.au
 127.0.0.1 ad.simflight.com
 127.0.0.1 ad.simgames.net
 127.0.0.1 ad.style
 127.0.0.1 ad.tapthislink.com
 127.0.0.1 ad.technoratimedia.com
-127.0.0.1 ad.turn.com
 127.0.0.1 ad.tv2.no
 127.0.0.1 ad.universcine.com
 127.0.0.1 ad.usatoday.com
@@ -97806,8 +97803,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 ad.xiaomi.com
 127.0.0.1 ad.xmovies8.si
 127.0.0.1 ad.xrea.com
-127.0.0.1 ad.yadro.ru
-127.0.0.1 ad.zanox.com
 127.0.0.1 ad.ztylez.com
 127.0.0.1 ad0.bigmir.net
 127.0.0.1 ad01.mediacorpsingapore.com
@@ -97940,7 +97935,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 admarvel.com
 127.0.0.1 admaster.com.cn
 127.0.0.1 admatchly.com
-127.0.0.1 admax.nexage.com
 127.0.0.1 admedia.com
 127.0.0.1 admeld.com
 127.0.0.1 admeridianads.com
@@ -98069,8 +98063,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 ads.comeon.com
 127.0.0.1 ads.contactmusic.com
 127.0.0.1 ads.contentabc.com
-127.0.0.1 ads.contextweb.com
-127.0.0.1 ads.crakmedia.com
 127.0.0.1 ads.creative-serving.com
 127.0.0.1 ads.cybersales.cz
 127.0.0.1 ads.dada.it
@@ -98146,7 +98138,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 ads.hbv.de
 127.0.0.1 ads.hearstmags.com
 127.0.0.1 ads.heartlight.org
-127.0.0.1 ads.heias.com
 127.0.0.1 ads.hollywood.com
 127.0.0.1 ads.horsehero.com
 127.0.0.1 ads.horyzon-media.com
@@ -98199,7 +98190,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 ads.mic.com
 127.0.0.1 ads.mmania.com
 127.0.0.1 ads.mobilebet.com
-127.0.0.1 ads.mopub.com
 127.0.0.1 ads.motor-forum.nl
 127.0.0.1 ads.msn.com
 127.0.0.1 ads.multimania.lycos.fr
@@ -98249,7 +98239,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 ads.prisacom.com
 127.0.0.1 ads.privatemedia.co
 127.0.0.1 ads.program3.com
-127.0.0.1 ads.programattik.com
 127.0.0.1 ads.psd2html.com
 127.0.0.1 ads.pushplay.com
 127.0.0.1 ads.quasaraffiliates.com
@@ -98268,7 +98257,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 ads.seniorfriendfinder.com
 127.0.0.1 ads.servebom.com
 127.0.0.1 ads.sexgratuit.tv
-127.0.0.1 ads.sexinyourcity.com
 127.0.0.1 ads.shizmoo.com
 127.0.0.1 ads.shopstyle.com
 127.0.0.1 ads.sift.co.uk
@@ -98297,7 +98285,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 ads.totallyfreestuff.com
 127.0.0.1 ads.townhall.com
 127.0.0.1 ads.travelaudience.com
-127.0.0.1 ads.tremorhub.com
 127.0.0.1 ads.trinitymirror.co.uk
 127.0.0.1 ads.tripod.com
 127.0.0.1 ads.tripod.lycos.co.uk
@@ -98311,7 +98298,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 ads.uknetguide.co.uk
 127.0.0.1 ads.ultimate-guitar.com
 127.0.0.1 ads.uncrate.com
-127.0.0.1 ads.undertone.com
 127.0.0.1 ads.unison.bg
 127.0.0.1 ads.usatoday.com
 127.0.0.1 ads.uxs.at
@@ -98450,8 +98436,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 adserver.virginmedia.com
 127.0.0.1 adserver.yahoo.com
 127.0.0.1 adserver01.de
-127.0.0.1 adserver1-images.backbeatmedia.com
-127.0.0.1 adserver1.backbeatmedia.com
 127.0.0.1 adserver1.mindshare.de
 127.0.0.1 adserver2.mindshare.de
 127.0.0.1 adserverplus.com
@@ -98629,7 +98613,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 airpush.com
 127.0.0.1 aistat.net
 127.0.0.1 ak0gsh40.com
-127.0.0.1 aktrack.pubmatic.com
 127.0.0.1 alchemist.go2cloud.org
 127.0.0.1 alclick.com
 127.0.0.1 alenty.com
@@ -98823,7 +98806,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 banners.getiton.com
 127.0.0.1 banners.iq.pl
 127.0.0.1 banners.isoftmarketing.com
-127.0.0.1 banners.linkbuddies.com
 127.0.0.1 banners.passion.com
 127.0.0.1 banners.payserve.com
 127.0.0.1 banners.resultonline.com
@@ -98953,7 +98935,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 btrll.com
 127.0.0.1 bttrack.com
 127.0.0.1 bucketbean.com
-127.0.0.1 bullseye.backbeatmedia.com
 127.0.0.1 businessbells.com
 127.0.0.1 bustlinganimal.com
 127.0.0.1 buysellads.com
@@ -99032,7 +99013,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 claria.com
 127.0.0.1 clevernt.com
 127.0.0.1 cliand.com
-127.0.0.1 click.a-ads.com
 127.0.0.1 click.airmalta-mail.com
 127.0.0.1 click.bkdpt.com
 127.0.0.1 click.cartsguru.io
@@ -99163,7 +99143,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 counter.search.bg
 127.0.0.1 counter.snackly.co
 127.0.0.1 counter.sparklit.com
-127.0.0.1 counter.yadro.ru
 127.0.0.1 counters.honesty.com
 127.0.0.1 counting.kmindex.ru
 127.0.0.1 coupling-media.de
@@ -99376,7 +99355,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 eqads.com
 127.0.0.1 erne.co
 127.0.0.1 ero-advertising.com
-127.0.0.1 espn.com.ssl.sc.omtrdc.net
 127.0.0.1 estat.com
 127.0.0.1 esty.com
 127.0.0.1 et.nytimes.com
@@ -99906,7 +99884,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 look.djfiln.com
 127.0.0.1 look.ichlnk.com
 127.0.0.1 look.opskln.com
-127.0.0.1 look.udncoeln.com
 127.0.0.1 look.ufinkln.com
 127.0.0.1 loopme.com
 127.0.0.1 lop.com
@@ -99918,7 +99895,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 lytics.io
 127.0.0.1 lzjl.com
 127.0.0.1 m.trb.com
-127.0.0.1 m1.webstats4u.com
 127.0.0.1 m2.ai
 127.0.0.1 m32.media
 127.0.0.1 m4n.nl
@@ -100311,11 +100287,9 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 pippio.com
 127.0.0.1 piquantpigs.com
 127.0.0.1 pix.spot.im
-127.0.0.1 pixel.adsafeprotected.com
 127.0.0.1 pixel.condenastdigital.com
 127.0.0.1 pixel.digitru.st
 127.0.0.1 pixel.keywee.co
-127.0.0.1 pixel.mtrcs.samba.tv
 127.0.0.1 pixel.sojern.com
 127.0.0.1 pixel.watch
 127.0.0.1 pixel.yabidos.com
@@ -100422,7 +100396,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 pushno.com
 127.0.0.1 pushtrack.co
 127.0.0.1 pushwhy.com
-127.0.0.1 px.ads.linkedin.com
 127.0.0.1 px.dynamicyield.com
 127.0.0.1 px.gfycat.com
 127.0.0.1 px.spiceworks.com
@@ -100790,7 +100763,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 statcounter.com
 127.0.0.1 statdynamic.com
 127.0.0.1 static-tracking.klaviyo.com
-127.0.0.1 static.a-ads.com
 127.0.0.1 static.fmpub.net
 127.0.0.1 static.itrack.it
 127.0.0.1 static.kameleoon.com
@@ -100876,7 +100848,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 t.visitorqueue.com
 127.0.0.1 taboola.com
 127.0.0.1 tag.links-analytics.com
-127.0.0.1 tagan.adlightning.com
 127.0.0.1 tagcommander.com
 127.0.0.1 tagger.opecloud.com
 127.0.0.1 tags.tiqcdn.com
@@ -100967,7 +100938,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 top-site-list.com
 127.0.0.1 top.list.ru
 127.0.0.1 top.mail.ru
-127.0.0.1 top.proext.com
 127.0.0.1 top100-images.rambler.ru
 127.0.0.1 top100.mafia.ru
 127.0.0.1 top123.ro
@@ -100998,14 +100968,12 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 track.flexlinkspro.com
 127.0.0.1 track.freemmo2017.com
 127.0.0.1 track.game18click.com
-127.0.0.1 track.hexcan.com
 127.0.0.1 track.mailalert.io
 127.0.0.1 track.mailerlite.com
 127.0.0.1 track.miro.com
 127.0.0.1 track.segmetrics.io
 127.0.0.1 track.software-codes.com
 127.0.0.1 track.themaccleanup.info
-127.0.0.1 track.tkbo.com
 127.0.0.1 track.ultravpn.com
 127.0.0.1 track.unear.net
 127.0.0.1 track.vcdc.com
@@ -101041,7 +101009,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 tracking.netalerts.io
 127.0.0.1 tracking.olx-st.com
 127.0.0.1 tracking.orixa-media.com
-127.0.0.1 tracking.publicidees.com
 127.0.0.1 tracking.theoceanac.online
 127.0.0.1 tracking.thinkabt.com
 127.0.0.1 tracking01.walmart.com
