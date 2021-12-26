@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: A80EmMyiLizIomxcPW0IcQ
+! Checksum: 7UNWHcDyV/4vnJQ1AgxQEw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112260913
-! Last Modified: 2021年12月26日 09:13
+! Version: 202112261424
+! Last Modified: 2021年12月26日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54328,7 +54328,7 @@ hulkshare.com##.nhsBotBan
 tumblr.com##.njwip
 newsmax.com##.nmsponsorlink
 newsmax.com##.nmsponsorlink + [class]
-androidcentral.com##.no-amazon
+androidcentral.com,imore.com,windowscentral.com##.no-amazon
 fiercetelecom.com,fiercevideo.com##.node--type-embed-promo
 ferrarichat.com##.node_sponsor
 chipchick.com##.noskim.ntv-moap
@@ -87774,6 +87774,9 @@ askpaccosi.com##+js(no-fetch-if, googlesyndication)
 techsignin.com##+js(acis, document.getElementsByTagName, tdBlock)
 techsignin.com###td-outer-wrap:style(cursor: default !important)
 eroti.ga##+js(acis, document.querySelectorAll, popMagic)
+cam-video.xxx##+js(nowoif)
+cam-video.xxx###float-video > .nav-link
+cam-video.xxx##.ads
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
