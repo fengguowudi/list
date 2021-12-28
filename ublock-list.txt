@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k9QdTo/xlkLEViCVJhPrTg
+! Checksum: e+samOPlH3UTZShkmYEwbA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112280909
-! Last Modified: 2021年12月28日 09:09
+! Version: 202112281425
+! Last Modified: 2021年12月28日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -460,7 +460,6 @@
 .bz/ads/
 .ca/ads-
 .ca/ads/
-.cc/ads/
 .cfm?ad=
 .cgi?ad=
 .ch/ads/
@@ -2090,7 +2089,6 @@
 /ads/async/*
 /ads/banid/*
 /ads/banner-
-/ads/banner.
 /ads/banner01.
 /ads/banner?
 /ads/banner_
@@ -52496,6 +52494,7 @@ $popup,third-party,domain=apl96.me|cloudvideo.tv|fembed-hd.com|geoip.redirect-ad
 ||celeb.gate.cc/assets/bilder/bann
 ||cherrynudes.com/t33638ba5008.js
 ||chikiporn.com/poppy/
+||cloud.hentai-moon.com/contents/hdd337st/$media
 ||creatives.cliphunter.com^
 ||creatives.pichunter.com^
 ||cumlouder.com/nnubb.js
@@ -56076,7 +56075,7 @@ lewdninja.com##.stargate
 definebabe.com##.subheader
 pornmd.com##.suggestions-box
 simply-hentai.com##.superbanner
-18porn.sex,4kporn.xxx,bigtitslust.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,heroero.com,intporn.com,japaneseporn.xxx,mrdeepfakes.com,pornchimp.com,porndr.com,rare-videos.net,sortporn.com,xcavy.com,xgroovy.com,xxxshake.com##.table
+18porn.sex,4kporn.xxx,bigtitslust.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,intporn.com,japaneseporn.xxx,mrdeepfakes.com,pornchimp.com,porndr.com,rare-videos.net,sortporn.com,xcavy.com,xgroovy.com,xxxshake.com##.table
 sxyprn.com##.tbd
 amateurvoyeurforum.com##.tborder[width="99%"][cellpadding="6"]
 pronpic.org##.teaser
@@ -64728,7 +64727,7 @@ _mongo_stats/
 ||silverpop.com^$third-party
 ||silverpush.co^$third-party
 ||simonsignal.com^$third-party
-||simpleanalytics.com^$third-party
+||simpleanalytics.com^$third-party,domain=~simpleanalyticscdn.com
 ||simpleanalytics.io^$third-party
 ||simpleanalyticsbadge.com^$third-party
 ||simpleanalyticscdn.com^$third-party
@@ -71789,6 +71788,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squirrel.malaynahocker.com^
 ||srtb.msn.com^
 ||ssc.api.bbc.com^
+||st.sawlive.tv^
 ||stan.xing.com^
 ||starfiles.co/analytics.php
 ||stat.livesportbar.net^
@@ -81659,6 +81659,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||space-blogs.net/include/counter/
 ||stat.ouedkniss.com^
 ||stats.sexemodel.com^
+||stats.zone-annuaire.one^
 ||surace-jujitsu.fr/outils/compteur_php/
 ||t.blablacar.com^
 ||tc2.hometogo.net^
