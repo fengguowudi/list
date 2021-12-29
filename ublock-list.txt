@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sVcnbp7AvDikXD+xUmwT9g
+! Checksum: sYwd3xbNoG4t57GOq/nqdw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112292034
-! Last Modified: 2021年12月29日 20:34
+! Version: 202112300224
+! Last Modified: 2021年12月30日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12151,6 +12151,7 @@ _800x80_
 ###block-googleads3
 ###block-googleads3-2
 ###block-ibtimestv-player-companion-ad
+###block-leaderboard-ad-channel
 ###block-localcom-localcom-ads
 ###block-ltadvertising-ltadvertising
 ###block-nst-googledfp-site-takeover
@@ -25995,6 +25996,7 @@ _800x80_
 ##.lg-ads-skin-container
 ##.lgRecAd
 ##.lg_ad
+##.liberty-ad-renderer-iframe
 ##.liboxads
 ##.ligatus
 ##.lightad
@@ -84197,7 +84199,7 @@ is2btc.com##div.col-sm-3:nth-of-type(3)
 is2btc.com##.text-center.col-sm-12
 *$script,3p,denyallow=bootstrapcdn.com|cloudflare.net|consensu.org|fontawesome.com|google.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net,domain=dropcoins.xyz|fastcoin.ga|faucetbr.tk|is2btc.com|quickclaims.*|swift4claim.com
 sunhope.it##+js(nosiif, document.getElementById, 10000)
-1111fullwise.*,111watcho.*,123-watch.com,123fullview.*,123moviesclub.*,123moviesla.*,123moviesprime.com,123ssgm.*,123moviesfree4u.com,247movie.net,2gomovies.*,2umovies.*,7025a.com,akmcloud.*,allmovieshub.*,antsmovies.com,askmaryhub.com,atdhe.pro,attvideo.com,bollymovies.*,canonprintersdrivers.com,cinema.cimatna.com,convertitoremp3.download,crackevil.com,cydiasources.net,dailymovieshub.com,dflinks.*,dopebox.to,downloadming.*,elevationmap.net,europix.*,filma1.*,filme-bune.biz,filmisongs.*,filmyzila.waystohunt.info,foreverwallpapers.com,freeload.*,fzmoviesnet.com,gyonlineng.com,hdmoviehubs.*,hdmovies7.com,hdmovieserver.com,hindilinks4u.*,hotmasti.*,insurancebillpayment.net,jollyfreemovies.com,katlinks.*,keepv.id,kingsmovieshd.*,linkotes.com,linksdegrupos.com.br,linksmore.*,maamusiq.com,mcubd.com,megafilmestop.com,mkvcage.*,mobilemovies.*,motive213.com,moviecool.*,moviezaddiction.*,moviesbaba.*,mp3fusion.net,msmoviesbd.com,multicanais.tv,naasongs.*,naasongsfree.*,needrombd.com,neomovies.net,netnaija.paidnaija.com,nullpk.com,oceanofmovies.*,ogario.ovh,pagalworld.*,pagodesparabaixar.org,paidnaija.com,pelisstar.com,pirlotv.mx,pksmovies.*,radamel.icu,romfast.com,rytmp3.com,saff-tv.net,sdmoviespoint.*,shortlinkto.*,soap2day.*,songspk.*,stivandz.com,thelinkbox.*,thelosmovies.com,uplinkto.*,veryfastdownload.pw,watch4hd.*,watchonlinemovies89.com.pk,watchopm.net,watchseri.net,wifi4games.com,xn--mlaregvle-02af.nu,ylink.bid,yoat.xyz,yotrabajo.info,yt1s.com,yt-api.com,yt-download.org,ytsaver.*##+js(acis, JSON.parse, break;case $.)
+1111fullwise.*,111watcho.*,123-watch.com,123fullview.*,123moviesclub.*,123moviesla.*,123moviesprime.com,123ssgm.*,123moviesfree4u.com,247movie.net,2gomovies.*,2umovies.*,7025a.com,akmcloud.*,allmovieshub.*,antsmovies.com,askmaryhub.com,atdhe.pro,attvideo.com,bollymovies.*,canonprintersdrivers.com,cinema.cimatna.com,convertitoremp3.download,crackevil.com,cydiasources.net,dailymovieshub.com,dflinks.*,dopebox.to,downloadming.*,elevationmap.net,europix.*,filma1.*,filme-bune.biz,filmisongs.*,filmyzila.waystohunt.info,foreverwallpapers.com,fzmoviesnet.com,gyonlineng.com,hdmoviehubs.*,hdmovies7.com,hdmovieserver.com,hindilinks4u.*,hotmasti.*,insurancebillpayment.net,jollyfreemovies.com,katlinks.*,keepv.id,kingsmovieshd.*,linkotes.com,linksdegrupos.com.br,linksmore.*,maamusiq.com,mcubd.com,megafilmestop.com,mkvcage.*,mobilemovies.*,motive213.com,moviecool.*,moviezaddiction.*,moviesbaba.*,mp3fusion.net,msmoviesbd.com,multicanais.tv,naasongs.*,naasongsfree.*,needrombd.com,neomovies.net,netnaija.paidnaija.com,nullpk.com,oceanofmovies.*,ogario.ovh,pagalworld.*,pagodesparabaixar.org,paidnaija.com,pelisstar.com,pirlotv.mx,pksmovies.*,radamel.icu,romfast.com,rytmp3.com,saff-tv.net,sdmoviespoint.*,shortlinkto.*,soap2day.*,songspk.*,stivandz.com,thelinkbox.*,thelosmovies.com,uplinkto.*,veryfastdownload.pw,watch4hd.*,watchonlinemovies89.com.pk,watchopm.net,watchseri.net,wifi4games.com,xn--mlaregvle-02af.nu,ylink.bid,yoat.xyz,yotrabajo.info,yt1s.com,yt-api.com,yt-download.org,ytsaver.*##+js(acis, JSON.parse, break;case $.)
 afilmyhouse.blogspot.com,gtrmovies.com##+js(acis, Math, break;case $.)
 hitmovies4u.com##+js(acis, Promise, JSON.parse)
 cinema.cimatna.com,filmyzila.waystohunt.info,neomovies.net,pagalworld.kim##^script:has-text(break;case $.)
@@ -84578,7 +84580,7 @@ grabitbd.xyz##+js(acis, document.addEventListener, innerHTML)
 ||bohubrihi.com^$3p
 bhaskar.com##[id^="Ad"]:upward([style])
 divyabhaskar.co.in##[id^="Ad"]:upward([style])
-01234-m0vies.com,01234-movies.com,01234movies.*,1234movies.*,123gostream.*,123moviesmix.com,123moviestoday.net,123movieweb.com,123pirate.com,1kmovies.*,1link.club,1stkissmanga.*,4hdmovie.com,5xmovies.*,8-ball-magic.com,animeheaven.ru,arnaqueinternet.com,ate9ni.com,audioz.download,bhplay.me,bollyshare.*,club-vinyl.ru,cinen9.*,citpekalongan.com,eastream.net,easylinks.in,empireg.ru,extramovies.*,fakaza.com,filmlinks4u.*,filmy4wap1.*,filmyone.com,filmypur.*,flixtv.club,freedownloadmp3-mp4.top,gdirect.*,gofilms4u.*,gomovies.*,hd44.com,hdmoviz.*,hhdmovies.*,hindimoviesonline.*,hostxy.com,hwnaturkya.com,iiyoutube.com,inextmovies.*,ltcjar.com,linkskat.*,livesport24.net,mailnesia.com,melodelaa.link,mkvhub.*,mlsbd.*,mobdropro.com,moviecrisp.in,moviefreak.*,movies4me.*,moviesmon.*,moviesonline.fm,moviesshub.*,moviesub.is,mozkra.com,mp3cristianos.net,mp3songsdownloadf.blogspot.com,musiklip.ru,naijahits.com,naijal.com,nbch.com.ar,nowmovies.*,ocnpj.com,openload.*,phc.web.id,pregledaj.net,primeflix.website,prmovies.*,readingbd.com,recetas.arrozconleche.info,repack-games.com,revivelink.com,romfast.com,s2dfree.*,stalkface.com,subtitlecat.com,tajpoint.com,theismailiusa.org,torrentfilmes4k.org,uploadmaza.com,vevoyoutube.com,vibehubs.com,vidcloudpng.com,wildwap.com,world4ufree1.*,worldgirlsportal.com,yomovies1.*,youtubeai.com,youtubetoany.com,zone-annuaire.*##+js(acis, Math, break;case $.)
+01234-m0vies.com,01234-movies.com,01234movies.*,1234movies.*,123gostream.*,123moviesmix.com,123moviestoday.net,123movieweb.com,123pirate.com,1kmovies.*,1link.club,1stkissmanga.*,4hdmovie.com,5xmovies.*,8-ball-magic.com,animeheaven.ru,arnaqueinternet.com,ate9ni.com,audioz.download,bhplay.me,bollyshare.*,club-vinyl.ru,cinen9.*,citpekalongan.com,eastream.net,easylinks.in,empireg.ru,extramovies.*,fakaza.com,filmlinks4u.*,filmy4wap1.*,filmyone.com,filmypur.*,flixtv.club,freeload.*,freedownloadmp3-mp4.top,gdirect.*,gofilms4u.*,gomovies.*,hd44.com,hdmoviz.*,hhdmovies.*,hindimoviesonline.*,hostxy.com,hwnaturkya.com,iiyoutube.com,inextmovies.*,ltcjar.com,linkskat.*,livesport24.net,mailnesia.com,melodelaa.link,mkvhub.*,mlsbd.*,mobdropro.com,moviecrisp.in,moviefreak.*,movies4me.*,moviesmon.*,moviesonline.fm,moviesshub.*,moviesub.is,mozkra.com,mp3cristianos.net,mp3songsdownloadf.blogspot.com,musiklip.ru,naijahits.com,naijal.com,nbch.com.ar,nowmovies.*,ocnpj.com,openload.*,phc.web.id,pregledaj.net,primeflix.website,prmovies.*,readingbd.com,recetas.arrozconleche.info,repack-games.com,revivelink.com,romfast.com,s2dfree.*,stalkface.com,subtitlecat.com,tajpoint.com,theismailiusa.org,torrentfilmes4k.org,uploadmaza.com,vevoyoutube.com,vibehubs.com,vidcloudpng.com,wildwap.com,world4ufree1.*,worldgirlsportal.com,yomovies1.*,youtubeai.com,youtubetoany.com,zone-annuaire.*##+js(acis, Math, break;case $.)
 extramovies.*,fsapi.*,hdmoviz.*##^script:has-text(break;case $.)
 filmeonlinehd.biz,onlinework4all.com,saveshared.com##+js(acis, Math, zfgloaded)
 123moviesme.*,1movieshd.com,animasu.vip,asianembed.*,fsapi.*,la123movies.org,web.livecricket.is##+js(acis, JSON.parse, break;case $.)
@@ -85553,10 +85555,10 @@ swatchseries.ru##+js(set, console.clear, noopFunc)
 *$script,3p,denyallow=facebook.net|fbcdn.net,domain=sukidesuost.info
 sukidesuost.info###custom_html-23
 asianload.*,asianload1.com,asianstream.tv##+js(acis, Math, break;case $.)
-sbplay.*##+js(aopr, __Y)
+oxl.one,sbplay.*##+js(aopr, __Y)
 sbembed1.com,sbplay.*,sbplay1.com,sbvideo.net##+js(aopr, mm)
 sbplay.*,sbplay1.com##+js(set, console.clear, noopFunc)
-sbplay1.com,sbvideo.net##+js(nosiif, 0x)
+oxl.one,sbplay1.com,sbvideo.net##+js(nosiif, 0x)
 sbplay.*##^script:has-text(debugger)
 sbplay.*##+js(nowoif, !/sbplay|^\/d\//)
 gifans.com,shortlink.prz.pw##+js(nosiif, visibility, 1000)
@@ -88585,7 +88587,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||helpmight.online^$all
 ||listen-heres.com^$all
 ||frafinomoney01.fun^$all
-/smartlink/?a=*&s1=$doc
+/smartlink/?a=$doc
 ||date.sexpartnercommunity.com/landing/*$doc
 /ll/click.php?key=$doc
 ||maxhacks.pro^$all
@@ -88601,6 +88603,10 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||fortcheats.fun^$all
 ||downloadonlyfree.com^$all
 ||super-ladies-now.life^$all
+||unogames.site^$all
+||mfilecloud.com/d2twaHh5Ym5jb3p1X2ZCVmVk$doc
+||onetaphack.one^$all
+||cheaterboss.com^$all
 /^https?:\/\/[-0-9a-z]*prize[-0-9a-z]+\.live\/\?u=[0-9a-z]+&o=[0-9a-z]+/$doc,domain=live
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
@@ -88616,6 +88622,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /^https?:\/\/adserveryo\d\.xyz\/\?/$doc,domain=xyz
 /^https:\/\/money\d{2}game\.site\/\?u=/$doc,domain=site
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
+/^https:\/\/cat\d{2}tuzik\.online\/\?u=/$doc,domain=online
 ||0addon.com^
 ||ogtrk.net^
 ||gameglitcher.com^
@@ -97314,8 +97321,8 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 28 Dec 2021 17:42:58 GMT
-# entries:        3679
+# last updated:   Wed, 29 Dec 2021 13:27:43 GMT
+# entries:        3681
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1
@@ -100670,6 +100677,7 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 trackedweb.net
 127.0.0.1 tracker-pm2.spilleren.com
 127.0.0.1 tracker.bannerflow.com
+127.0.0.1 tracker.bongngo.bar
 127.0.0.1 tracker.cdnbye.com
 127.0.0.1 tracker.comunidadmarriott.com
 127.0.0.1 tracker.icerocket.com
@@ -100697,6 +100705,7 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 127.0.0.1 tracking.orixa-media.com
 127.0.0.1 tracking.theoceanac.online
 127.0.0.1 tracking.thinkabt.com
+127.0.0.1 tracking.wetter.at
 127.0.0.1 tracking01.walmart.com
 127.0.0.1 tracking101.com
 127.0.0.1 tracking22.com
