@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1oHiO0EhSGKGu9WkaadPTg
+! Checksum: 0UH+3uj4CoWhhBywlmS4sQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202112310911
-! Last Modified: 2021年12月31日 09:11
+! Version: 202112311425
+! Last Modified: 2021年12月31日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52205,6 +52205,7 @@ tf2r.com#@#.adverts
 ||theispguide.com/premiumisp.html
 ||thepeninsulaqatar.com/images/front/cads/
 ||thephuketnews.com/photo/banner/
+||thepm.media/tpm/motlib.js
 ||theseoultimes.com/ST/banner/
 ||thisgengaming.com/Scripts/widget2.aspx
 ||thisismoney.co.uk/i/pix/partner/
@@ -54467,6 +54468,7 @@ moodiedavittreport.com##.notice
 mlsbd.shop##.notice-board
 computing.co.uk##.notice-slot-full-below-header
 mondoweiss.net##.notrack
+pcgamebenchmark.com##.nova_wrapper
 zimbio.com##.npd-video-break
 designtaxi.com##.nt-text
 nplusonemag.com##.nurble
@@ -54544,7 +54546,7 @@ filmibeat.com##.photos-add
 webmd.com##.physician-outer
 locklab.com##.picwrap
 redgifs.com##.placard-wrapper
-dallasobserver.com,houstonpress.com,streetcheck.co.uk,zerohedge.com##.placement
+dallasobserver.com,houstonpress.com,pcgamebenchmark.com,streetcheck.co.uk,zerohedge.com##.placement
 diglloyd.com,windinmyface.com##.placementInline
 diglloyd.com,windinmyface.com##.placementTL
 diglloyd.com,windinmyface.com##.placementTR
@@ -54759,6 +54761,7 @@ mbauniverse.com##.shriresume-logo
 scriptinghelpers.org##.shvertise-skyscraper
 gaming.uefa.com##.si-ucl--head-bandSprLogo
 stuff.co.nz##.sics-component__app__top-leaderboard-ads-container
+pcgamebenchmark.com##.side
 news.am,viva.co.nz##.side-banner
 gfycat.com##.side-slot
 vpnmentor.com##.side-top-vendors-wrap
@@ -68852,6 +68855,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gubagoo.io/track/
 ||h2porn.com/new-hit/?
 ||happen.spkt.io^
+||harpocrates.ethyca.com^
 ||hasbro.com/includes/js/metrics/
 ||haymarket.com/injector/deliver/
 ||hb.vhsrv.com^
@@ -71372,6 +71376,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebay.com^*/customer_image_service?
 ||ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||ednetz.de/api/public/socialmediacounter.
+||eec.crunchyroll.com^
 ||eharmony.ca/fd/
 ||eharmony.co.uk/bd/
 ||ekg.riotgames.com^
@@ -72336,8 +72341,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||xplosion.de^$domain=spiegel.de|stern.de
 !-----------------Individual cname tracking systems-----------------!
 ||clickmail.stubhub.com^$image,script
-||d28n7yywqog3r7.cloudfront.net^
-||eventgateway.soundcloud.com^
 ||primate.dmarcdigests.com^
 ||161.35.245.96^
 ||1796kpkzuwj.www.hawpar.com^
@@ -87983,6 +87986,7 @@ daihatsu-club.net##[class^="side_ad_right_"]
 eevblog.com##a[target] > img:upward(a)
 vaa.jp,yonelabo.com###nankafix
 svetserialu.to##+js(nowoif)
+onlytech.com##+js(acis, $, test)
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
