@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T31EhY5hMRKZZCYPmnFQhQ
+! Checksum: RiZd/i/nLE3pXg74T1TpIQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201012032
-! Last Modified: 2022年01月01日 20:32
+! Version: 202201020224
+! Last Modified: 2022年01月02日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -88863,6 +88863,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||goharpc.com^$doc
 ||free4pc.org^$doc
 ||flash.cn^$all
+||flashplayer-cn.com^$all
 ||hypixelskyblock.net^$doc
 ||lady-datings-here.com^$doc
 ||your-dreams-girls2.com^$doc
@@ -89092,7 +89093,7 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||metrics.surinenglish.com^
 ||count.candou.com^
 @@||natureetdecouvertes.com^*/pixel.png$~third-party,badfilter
-||cm.bilibili.com^
+||cm.bilibili.com/cm/api/$xhr
 ||wannads.com/api/track/fingerprint^
 ||wuzhuiso.com^$removeparam=src
 ||statwup.huya.com^
@@ -90919,6 +90920,7 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 @@||shakeshack.com/sites/default/files/google_tag/*$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=shakeshack.com
 @@||googletagmanager.com/gtm.js$script,domain=microcenter.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=watch.plex.tv
 ||1.1.188.10$all
 ||1.10.146.30$all
 ||1.10.147.48$all
