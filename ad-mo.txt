@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8S/T1KutqgUfFim3ivyRxA
+! Checksum: mNTSMon4Ai8Z0kP1V4MjnQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201020913
-! Last Modified: 2022年01月02日 09:13
+! Version: 202201021424
+! Last Modified: 2022年01月02日 14:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -48852,6 +48852,7 @@ tf2r.com#@#.adverts
 ||167.99.31.227^
 ||23.109.87.101^
 ||35.232.188.118^
+||37.1.209.213^
 ||51.77.227.100^
 ||51.77.227.101^
 ||51.77.227.102^
@@ -74375,6 +74376,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||gaubau.info^
 ||zyjy.ink^
 ||aaz1.xyz^
+||gk596.cn^
+||aau6.xyz^
+||fengyigc.xyz^
+||dtpqhwk.cn^
+||qian-tao.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
