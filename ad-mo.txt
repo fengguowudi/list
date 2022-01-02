@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mNTSMon4Ai8Z0kP1V4MjnQ
+! Checksum: wYQCHRnaoqzwblyyCArizA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201021424
-! Last Modified: 2022年01月02日 14:24
+! Version: 202201022032
+! Last Modified: 2022年01月02日 20:32
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -30399,6 +30399,7 @@ _800x80_
 ##[data-ad-width]
 ##[data-dynamic-ads]
 ##[data-freestar-ad]
+##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
 ##[href*=".adcampo.com/"]
 ##[href*=".afftracks.online/"]
@@ -54359,6 +54360,7 @@ digminecraft.com##.d3e8860a
 sbs.com.au##.dNXvOT
 counter.dev,lindaikejisblog.com##.da
 arabianindustry.com##.da-leaderboard
+smartprix.com##.dadow-box
 webuser.co.uk##.dart-tag
 foobar2000.org##.db_link
 startups.co.uk##.dc-leaderboard
@@ -55205,6 +55207,7 @@ u.today##.something--fixed
 songfacts.com##.songfacts-song-inline-ads
 freeonlineapps.net##.sp
 ndtv.com##.sp_ad-t
+gumtree.com##.space-pbs.space-pts
 informer.com##.spnsd
 sundayworld.co.za##.spnsorhome
 mydramalist.com##.spnsr
@@ -58981,6 +58984,7 @@ ubmcmm.baidustatic.com
 ||haoyundmn.com^
 ||baidutuapi.com^
 ||zglecc.com^
+||xhzmjs.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -67762,7 +67766,6 @@ baidu.com###search_bottomad
 ruten.com.tw###search_u_970x90
 gaoqingw.com###searchform > label > span
 llss.bz###secondary img:not(.avatar)
-iplaysoft.com###section_event
 youku.com###seebuyGuide
 youku.com###seebuyhome
 eccn.com###sem_online
@@ -67794,8 +67797,6 @@ appinn.com###sidebar > .widget_text:first-child
 ruyo.net###sidebar > :not(:first-child):not(:last-child):not([id^="recent-posts"])
 fuliba.net###sidebar > div:first-child
 fuliba.net###sidebar > div:last-child
-iplaysoft.com###sidebar > ul > .widget:first-child
-iplaysoft.com###sidebar > ul > .widget:nth-child(3)
 ipcfun.com###sidebar > ul > div[style]
 ipcfun.com###sidebar > ul > li[style]
 mpyit.com###sidebar a > img
@@ -67809,7 +67810,6 @@ elecfans.com###sidebar-firstad
 gaoqing.la###sidebar-follow
 runoob.com###sidebar-right-re
 vikilife.com###sidebar-tab[style^="height:"]
-iplaysoft.com###sidebar_scroll_bdad
 2345.com###sidel_lvy
 2345.com###sidenav > .activity-trig
 douyu.com###sign_p_1
@@ -69018,7 +69018,6 @@ tigtag.com##.custom-box02
 boke112.com##.custom-html-widget > div[style="margin-bottom: -7px;"]
 51wangdai.com##.cx_ad
 51wangdai.com##.cx_xx_lis_c01_right_lis_c_ad
-iplaysoft.com##.d250
 iplaysoft.com##.d250x90
 hackhw.com##.d336
 hackhw.com##.d336x2
@@ -70961,7 +70960,6 @@ hao123.com##.widget-topbanner
 didispace.com##.widget-wrap > p[style="text-align: left;padding-bottom: 20px;line-height: 30px;"]
 97hj.net##.widget-zfb
 doubibackup.com##.widgetRoller
-iplaysoft.com##.widget[style]
 fulibl.com##.widget_banner
 hackhw.com##.widget_content_b
 fuliba2021.net##.widget_custom_html
@@ -71833,9 +71831,7 @@ huarenjie.net##div[style*="top: 50px;"]
 book118.com##div[style*="width: 252px;height: 260px;"]
 kkj.cn,mydrivers.com##div[style*="width:1"][style*="height:90px;"]
 proginn.com##div[style*="width:1000px;height: 250px;"]
-iplaysoft.com##div[style*="width:3"][style*="height:2"]
 divcss5.com##div[style*="width:336px;height:280px;"]
-iplaysoft.com##div[style*="width:6"][style*="height:1"]
 hb.qq.com##div[style*="width:960px; height:90px;"]
 hb.qq.com##div[style=" width:300px; height:250px; overflow:hidden"]
 lawtv.com.cn##div[style=" width:664px; height:260px;  margin-top:10px;"]
@@ -71863,7 +71859,7 @@ bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;
 yn-dove.cn##div[style="margin-top: 10px; padding: 10px; "]
 jdbbs.com##div[style="margin: 0 auto 10px; width: 1000px;"]
 plus28.com##div[style="margin: auto;width: 960px;margin-bottom: 10px;"]
-iplaysoft.com##div[style="margin:-10px 0 0 0;overflow:hidden"]
+iplaysoft.com##.entry-content + div[style="margin:-10px 0 0 0;overflow:hidden"]
 lanyes.org##div[style="margin:0 auto 10px;height:76px;overflow:hidden"]
 hsex.men##div[style="margin:0 auto 10px;width:900px;height:250px"]
 xcmh.cc##div[style="margin:0 auto 12px; adding:0;width:980px;height:250px;overflow:hidden;"]
@@ -74381,6 +74377,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||fengyigc.xyz^
 ||dtpqhwk.cn^
 ||qian-tao.xyz^
+||rd926.cn^
+||yema.shop^
+||bsytjc.com^
+||nzsknxo.cn^
+||huofayu.com^
+||rctxubn.cn^
+||smsk.site^
+||yummycuisine.club^
+||365cf.vip^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -93572,6 +93577,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t2.hulu.com^
 ||tagger.ope.scmp.com^
 ||tags.aljazeera.com^
+||tags.johnlewis.com^
 ||tags.news.com.au^$script
 ||taiwanplus.com/api/video/startVideo
 ||takealot.com^*/collect
@@ -93787,6 +93793,7 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 ||crunchbase.com/rw7M6iAV/init.js
 ||drupal.org/VnPBBfwe/init.js
 ||fiverr.com/px/client/PXK3bezZfO/main.min.js
+||flixcart.com/px/gNtTli3A/init.js
 ||flooranddecor.com/v1HqbVho/init.js
 ||foodora.fi/lJuB4eTB/init.js
 ||foodora.se/lJuB4eTB/init.js
