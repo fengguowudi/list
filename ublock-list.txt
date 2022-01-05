@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2uPCUmK3ch77RU8/EmdDRQ
+! Checksum: bZMgzaL2kocX6W8MU4YSeg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201050912
-! Last Modified: 2022年01月05日 09:12
+! Version: 202201051425
+! Last Modified: 2022年01月05日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -30080,6 +30080,7 @@ _800x80_
 ##[data-ad-module]
 ##[data-ad-width]
 ##[data-dynamic-ads]
+##[data-ez-name]
 ##[data-freestar-ad]
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
@@ -30146,6 +30147,7 @@ _800x80_
 ##[href^="https://www.highrevenuecpm.com"]
 ##[href^="https://www.hostg.xyz/aff_c"] > img
 ##[href^="https://www.reimageplus.com/"]
+##[href^="https://www.restoro.com/"]
 ##[href^="https://www.targetingpartner.com/"]
 ##[href^="https://www.xvbelink.com/"]
 ##[href^="https://zone.gotrackier.com/"]
@@ -32951,6 +32953,7 @@ tf2r.com#@#.adverts
 ||apkbundle.store^
 ||apologisehistoriancrackle.com^
 ||apologixopyr.site^
+||apologizeeven.com^
 ||apologyjaguar.com^
 ||aporasal.net^
 ||apostlelinger.com^
@@ -36330,6 +36333,7 @@ tf2r.com#@#.adverts
 ||erstopnyrt.online^
 ||ersunt.com^
 ||ertmained.club^
+||eru5tdmbuwxm.com^
 ||eruptneuroticstealing.com^
 ||eruvpdymynpjw.xyz^
 ||ervicoren.online^
@@ -38511,6 +38515,7 @@ tf2r.com#@#.adverts
 ||ioiylgyf.com^
 ||iomppdwwmbvq.com^
 ||ioniamcurren.com^
+||ionisestriller.com^
 ||iople.com^
 ||ioredi.com^
 ||ioxiyaff.xyz^
@@ -44415,6 +44420,7 @@ tf2r.com#@#.adverts
 ||superbdolly.com^
 ||superfastcdn.com^
 ||superintendsuckshaggy.com^
+||superiorityfeathers.com^
 ||supermanmoonfracture.com^
 ||supernaturalcapricorn.com^
 ||superstriker.net^
@@ -82855,6 +82861,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||humaninterest.com/api/analytics/$script,~third-party
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com
 @@||js.taplytics.com/jssdk/$domain=foxnews.com
+@@||kaptcha.com/collect/sdk?$domain=vanillagift.com
 @@||kbctouch.kbc.be^*/dynatrace-$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 @@||live.house.gov/js/analytics.$script,~third-party

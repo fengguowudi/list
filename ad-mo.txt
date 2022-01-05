@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kAMEhxmhIAzL9t8sUK8zqQ
+! Checksum: MJQbjZ0YaJXzXmHD2Qqh4g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201050912
-! Last Modified: 2022年01月05日 09:12
+! Version: 202201051425
+! Last Modified: 2022年01月05日 14:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -30418,6 +30418,7 @@ _800x80_
 ##[data-ad-module]
 ##[data-ad-width]
 ##[data-dynamic-ads]
+##[data-ez-name]
 ##[data-freestar-ad]
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
@@ -30484,6 +30485,7 @@ _800x80_
 ##[href^="https://www.highrevenuecpm.com"]
 ##[href^="https://www.hostg.xyz/aff_c"] > img
 ##[href^="https://www.reimageplus.com/"]
+##[href^="https://www.restoro.com/"]
 ##[href^="https://www.targetingpartner.com/"]
 ##[href^="https://www.xvbelink.com/"]
 ##[href^="https://zone.gotrackier.com/"]
@@ -33289,6 +33291,7 @@ tf2r.com#@#.adverts
 ||apkbundle.store^
 ||apologisehistoriancrackle.com^
 ||apologixopyr.site^
+||apologizeeven.com^
 ||apologyjaguar.com^
 ||aporasal.net^
 ||apostlelinger.com^
@@ -36668,6 +36671,7 @@ tf2r.com#@#.adverts
 ||erstopnyrt.online^
 ||ersunt.com^
 ||ertmained.club^
+||eru5tdmbuwxm.com^
 ||eruptneuroticstealing.com^
 ||eruvpdymynpjw.xyz^
 ||ervicoren.online^
@@ -38849,6 +38853,7 @@ tf2r.com#@#.adverts
 ||ioiylgyf.com^
 ||iomppdwwmbvq.com^
 ||ioniamcurren.com^
+||ionisestriller.com^
 ||iople.com^
 ||ioredi.com^
 ||ioxiyaff.xyz^
@@ -44753,6 +44758,7 @@ tf2r.com#@#.adverts
 ||superbdolly.com^
 ||superfastcdn.com^
 ||superintendsuckshaggy.com^
+||superiorityfeathers.com^
 ||supermanmoonfracture.com^
 ||supernaturalcapricorn.com^
 ||superstriker.net^
@@ -59119,6 +59125,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||zixixtx.top^
+||jinks.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -74527,6 +74534,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||aau9.xyz^
 ||czbk.site^
+||jinlianchengwhcm.cn^
+||ugmvoys.cn^
+||rctxtjp.cn^
+||zhongzizye.cn^
+||czrcdq.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -104478,6 +104490,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||humaninterest.com/api/analytics/$script,~third-party
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com
 @@||js.taplytics.com/jssdk/$domain=foxnews.com
+@@||kaptcha.com/collect/sdk?$domain=vanillagift.com
 @@||kbctouch.kbc.be^*/dynatrace-$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 @@||live.house.gov/js/analytics.$script,~third-party
