@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JeQUlEV7EBRfWmcAR9mosA
+! Checksum: vw2B5dUr/FEpgEoR3Ns6JQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201060917
-! Last Modified: 2022年01月06日 09:17
+! Version: 202201061425
+! Last Modified: 2022年01月06日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -25521,6 +25521,8 @@ _800x80_
 ##.in-content-ad--container
 ##.in-content-ad-container
 ##.in-content-ad-wrapper
+##.in-game-ad-left
+##.in-game-ad-right
 ##.in-latest-news-advertisement-container
 ##.in-node-ad-300x250
 ##.in-page-ad
@@ -37137,6 +37139,7 @@ tf2r.com#@#.adverts
 ||gaitdrummerauto.com^
 ||gaitheed.com^
 ||gaitoath.com^
+||gaizeissuer.com^
 ||gakinibe.pro^
 ||galacticmenueasier.com^
 ||galaks.io^
@@ -43900,6 +43903,7 @@ tf2r.com#@#.adverts
 ||sixft-apart.com^
 ||sixminutes.biz^
 ||sixteenabsorptionbreed.com^
+||sixtyhardwarepreference.com^
 ||sizeilksohs.com^
 ||sjlmekhgwimrjs.xyz^
 ||skenqaamefeoncfegrytbuvksebpefer.com^
@@ -71981,6 +71985,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rv.modanisa.com^$script
 ||s.infogram.com^
 ||sciencechannel.com/events/
+||scloud.online/stat/
 ||scoot.co.uk/ajax/log_
 ||search.aol.com/beacon/
 ||search.ch/audit/
@@ -82036,6 +82041,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||analytics-gw.games.wanmei.com^
 ||analytics.126.net^
 ||analytics.163.com^
+||analytics.oceanengine.com^
 ||analytics.oneplus.cn^
 ||analytics.shop.hisense.com^
 ||api.baike.sogou.com/dr/p1.gif?
