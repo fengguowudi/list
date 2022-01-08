@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: t3+3DIxUlNbxQ47HAT8Y2g
+! Checksum: hk9v4c6HxeeurABXbFTN9w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201080225
-! Last Modified: 2022年01月08日 02:25
+! Version: 202201080910
+! Last Modified: 2022年01月08日 09:10
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18298,6 +18298,7 @@ _800x80_
 ##.ad-slot__label
 ##.ad-slot__oas
 ##.ad-slug
+##.ad-small
 ##.ad-small-2
 ##.ad-smallBP
 ##.ad-source
@@ -54752,7 +54753,7 @@ freshnewgames.com##.partnercontent_box
 investopedia.com##.partnerlinks
 phorio.com##.partnerlogos-wrapper
 2oceansvibe.com,speedcafe.com,travelweekly.com##.partners
-letsgomobile.org##.partners-bar
+letsgodigital.org,letsgomobile.org##.partners-bar
 arrivealive.co.za##.partnersheading
 liveuamap.com##.passby
 writerscafe.org##.pay
@@ -63007,7 +63008,6 @@ _mongo_stats/
 ||g990421676.co^
 ||gbqofs.com^
 ||geoedge.be^
-||gigafyde.dev^
 ||glimr.io^
 ||glookup.info^
 ||go-mpulse.net^
@@ -64318,7 +64318,6 @@ _mongo_stats/
 ||kameleoon.eu^$third-party
 ||kampyle.com^$third-party
 ||kantartns.lt^$third-party
-||kaptcha.com^$third-party
 ||kaxsdc.com^$third-party
 ||keen.io^$third-party,domain=~keen.github.io|~keen.io
 ||keyade.com^$third-party
@@ -82884,7 +82883,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||adobedtm.com/*-source.min.js$script,domain=atresplayer.com|backcountry.com|bt.com|dollargeneral.com|kroger.com|personal.natwest.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com
-@@||adobedtm.com/extensions/$script,domain=apple.com|foodnetwork.com|verizon.com
+@@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|foodnetwork.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|americanexpress.com|backcountry.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
@@ -82957,7 +82956,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||humaninterest.com/api/analytics/$script,~third-party
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com
 @@||js.taplytics.com/jssdk/$domain=foxnews.com
-@@||kaptcha.com/collect/sdk?$domain=vanillagift.com
 @@||kbctouch.kbc.be^*/dynatrace-$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 @@||live.house.gov/js/analytics.$script,~third-party
@@ -85780,6 +85778,7 @@ blog.crixurl.com##.banner
 @@||anydebrid.com^$ghide
 @@||adserver.juicyads.com/js/jads.js$script,domain=anydebrid.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=anydebrid.com
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=anydebrid.com
 mavplay.xyz##+js(aeld, , _blank)
 4anime.biz##+js(aeld, , _blank)
 4anime.biz##.show
@@ -91186,6 +91185,7 @@ thefreedictionary.com#@#section:nth-of-type(1)
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=eurogamer.net
 @@||googletagservices.com/tag/js/gpt.js$script,domain=thestar.co.uk
 @@||securepubads.g.doubleclick.net/gpt/*$script,domain=thestar.co.uk
+@@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=bravotv.com
 ||1.1.188.10$all
 ||1.10.146.31$all
 ||1.10.147.148$all
@@ -98372,7 +98372,7 @@ thefreedictionary.com#@#section:nth-of-type(1)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 12 Jan 2002 00:00:00
+# start date:    Sun, 13 Jan 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
