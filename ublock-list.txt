@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QGYfTMhIOWefV5pvH/eGEg
+! Checksum: sV/3mcgPdN+mc19X8cOMzg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201082033
-! Last Modified: 2022年01月08日 20:33
+! Version: 202201090224
+! Last Modified: 2022年01月09日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -85851,18 +85851,17 @@ edn.com###custom_html-5
 edn.com###footerAdWrap
 ||omeda.com^$3p
 ||carbonpay.app^$3p
-dizipal110.com##+js(ra, hidden, div.card-video[hidden])
+dizipal130.com##+js(ra, hidden, div.card-video[hidden])
+dizipal30.com##div[onclick^="window.open"]
+dizipal130.com##body > b .hdd
+dizipal130.com##.homepageds
+dizipal130.com###playeralti
+dizipal130.com###playerustu
+r83jx.xyz##pjsdiv:nth-of-type(20) > pjsdiv:nth-of-type(1) > pjsdiv
+r83jx.xyz##+js(aopr, stoppp)
+r83jx.xyz##+js(nostif, detect)
 ||youtubex.top^$3p
-dizipal110.com##div[onclick^="window.open"]
-dizipal110.com##body > b .hdd
 ||badana.me^
-dizipal110.com##.homepageds
-dizipal110.com###playeralti
-dizipal110.com###playerustu
-dizipal110.com###page-end
-cxk23.xyz##pjsdiv:nth-of-type(20) > pjsdiv:nth-of-type(1) > pjsdiv
-cxk23.xyz##+js(aopr, stoppp)
-cxk23.xyz##+js(nostif, detect)
 sexywomeninlingerie.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
 ||wafflegirl.com/galleries/banner/$3p
 sexywomeninlingerie.com##[href^="http://join.wearehairy.com/track/"]
@@ -91198,6 +91197,7 @@ thefreedictionary.com#@#section:nth-of-type(1)
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=eurogamer.net
 @@||googletagservices.com/tag/js/gpt.js$script,domain=thestar.co.uk
 @@||securepubads.g.doubleclick.net/gpt/*$script,domain=thestar.co.uk
+||vendorlist.dmcdn.net^$badfilter
 ||1.0.218.230$all
 ||1.1.188.10$all
 ||1.10.146.31$all
