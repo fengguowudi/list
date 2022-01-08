@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hk9v4c6HxeeurABXbFTN9w
+! Checksum: Ugq61L0vFdXYxbsfoRSj9g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201080910
-! Last Modified: 2022年01月08日 09:10
+! Version: 202201081425
+! Last Modified: 2022年01月08日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24779,6 +24779,8 @@ _800x80_
 ##.gms-advert
 ##.gn_ads
 ##.gnm-ad-unit
+##.gnm-ad-zones
+##.gnm-bg-ad
 ##.go-ad
 ##.go-ads-widget-ads-wrap
 ##.goAdverticum
@@ -38538,6 +38540,7 @@ tf2r.com#@#.adverts
 ||invraisemblable.com^
 ||inwgamacuuv.xyz^
 ||inxfqkbtoauwdk.top^
+||ioadserve.com^
 ||iociley.com^
 ||iodideeyebath.cam^
 ||ioheiy.com^
@@ -51843,6 +51846,7 @@ tf2r.com#@#.adverts
 ||geobanner.fuckbookhookups.com^$third-party
 ||geobanner.hornywife.com^
 ||geobanner.sexfinder.com^$third-party
+||gettubetv.com^$third-party
 ||gfrevenge.com/vbanners/
 ||girlsfuck-tube.com/js/aobj.js
 ||go.clicknplay.to^
@@ -65731,7 +65735,7 @@ _mongo_stats/
 ||ztsrv.com^$third-party
 ||zuyapixel.com^$third-party
 ||zuzab.com^$third-party
-$ping
+$ping,domain=~hey.com
 $third-party,xmlhttprequest,domain=opensubtitles.org
 ||artfin.club^
 ||bemarts.club^
@@ -70449,6 +70453,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dd6zx4ibq538k.cloudfront.net^
 ||ddrvjrfwnij7n.cloudfront.net^
 ||di2xwvxz1jrvu.cloudfront.net^
+||dkupaw9ae63a8.cloudfront.net^
 ||dl1d2m8ri9v3j.cloudfront.net^
 ||dn34cbtcv9mef.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
