@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: grP02jw5dMgcbxK/qhE9GQ
+! Checksum: xhh2oAMtJVYy0fuBT0p/ag
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201092033
-! Last Modified: 2022年01月09日 20:33
+! Version: 202201100224
+! Last Modified: 2022年01月10日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -89004,6 +89004,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||onetaphack.one^$all
 ||cheaterboss.com^$all
 ||shopsales2022.com^$all
+||arahitojinja.or.jp^$all
+||facebookteens.com^$all
 /^https?:\/\/[-0-9a-z]*prize[-0-9a-z]+\.live\/\?u=[0-9a-z]+&o=[0-9a-z]+/$doc,domain=live
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
@@ -91215,6 +91217,7 @@ thefreedictionary.com#@#section:nth-of-type(1)
 ||vendorlist.dmcdn.net^$badfilter
 @@||cdn.vox-cdn.com/packs/js/concert_ads-*.js$script,domain=theverge.com
 @@||tags.tiqcdn.com/utag/bper/istituzionali/prod/utag.$script,domain=bper.it
+heise.de#@#[data-ad-unit]
 ||1.0.218.230$all
 ||1.10.147.48$all
 ||1.169.186.75$all
