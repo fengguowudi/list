@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l0z1ODxl4+mvT1546yRDmQ
+! Checksum: 7v3X3UYznoKu0Ya0qEGyKw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201110913
-! Last Modified: 2022年01月11日 09:13
+! Version: 202201111426
+! Last Modified: 2022年01月11日 14:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1783,6 +1783,8 @@ ubmcmm.baidustatic.com
 ||jwl.hk.cn^
 ||987jx.com^
 ||aztsefz.cn^
+||duojlm.com^
+||tfw73.online^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9398,6 +9400,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+91mjw.com##A[style^="background"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17215,6 +17218,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||0rg.pw^
 ||mexcel.info^
 ||zzuzcy.cloud^
+||zgzrmh.mobi^
+||zlin.fun^
+||rctxijo.cn^
+||allavv.xyz^
+||siomyx.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -38939,6 +38947,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ultimedia.com/deliver/statistiques/
 ||umami.wakarimasen.moe^
 ||uniqlo.com/us/elgnisolqinu.js
+||unity3d.com/v1/events
 ||unsplash.com/a/third-party/snow-
 ||unsplash.com/nmetrics
 ||upi.com/story/stat/
