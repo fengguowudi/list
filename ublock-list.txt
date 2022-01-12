@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8Y+6RG/v4oupJoGyBFv0qA
+! Checksum: go8DHmkCbmC1HEATW5YSdg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201122034
-! Last Modified: 2022年01月12日 20:34
+! Version: 202201130229
+! Last Modified: 2022年01月13日 02:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62838,6 +62838,7 @@ cgi-bin/counter
 /notifications.googleapis.com/email/t/*
 /notifications/beacon/*
 /open.aspx?
+/open.html?$image
 /page.bsigroup.com/*
 /pixel-prod.
 /pixel?cid=
