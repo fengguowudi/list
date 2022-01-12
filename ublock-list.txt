@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kKMlsvaEiL+oiaxwn6Artw
+! Checksum: BW6KP6lxaGIvQw0BGLxFGg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201120911
-! Last Modified: 2022年01月12日 09:11
+! Version: 202201121426
+! Last Modified: 2022年01月12日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -49111,6 +49111,7 @@ tf2r.com#@#.adverts
 ||clickbank.net/*offer_id=$popup,third-party
 ||clickcay.com^$popup,third-party
 ||clickfuse.com^$popup
+||clickmetertracking.com^$popup
 ||clickmngr.com^$popup
 ||clickosmedia.com^$popup
 ||clickppcbuzz.com^$popup
@@ -49196,6 +49197,7 @@ tf2r.com#@#.adverts
 ||dblmove.com^$popup
 ||dddomainccc.com^$popup
 ||debrium-surbara.com^$popup
+||defas.site^$popup
 ||defenseaspirinlike.com^$popup
 ||deline-sunction.com^$popup
 ||deliverydom.com^$popup
