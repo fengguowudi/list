@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6Uf2XDer+83SkJbqNFTyYw
+! Checksum: HiMAhvWEZfQT1v4Eopr9qg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201132035
-! Last Modified: 2022年01月13日 20:35
+! Version: 202201140225
+! Last Modified: 2022年01月14日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12967,6 +12967,7 @@ _800x80_
 ###dfp-atf
 ###dfp-banner
 ###dfp-billboard1
+###dfp-billboard2
 ###dfp-btf
 ###dfp-footer-desktop
 ###dfp-global_top
@@ -37713,6 +37714,7 @@ tf2r.com#@#.adverts
 ||guardedfebruaryenclosed.com^
 ||guardiandigitalcomparison.co.uk^
 ||guardssentinelcreepy.com^
+||guerrilla-links.com^
 ||guffawdecipher.com^
 ||guffawsister.com^
 ||guffsview.com^
@@ -39950,6 +39952,7 @@ tf2r.com#@#.adverts
 ||maxonclick.com^
 ||maxserving.com^
 ||mayhemabjure.com^
+||maymooth-stopic.com^
 ||mayordiminution.com^
 ||maze4aem56jf.com^
 ||mazzappa.fun^
@@ -49414,6 +49417,7 @@ tf2r.com#@#.adverts
 ||grtyj.com^$popup
 ||grygrothapi.pro^$popup
 ||gsniper2.com^$popup
+||guerrilla-links.com^$popup
 ||gvcaffiliates.com^$popup,third-party
 ||h3lw971ym6.com^$popup
 ||h8vzwpv.com^$popup
@@ -49626,6 +49630,7 @@ tf2r.com#@#.adverts
 ||matevictim.com^$popup
 ||mathafuda.pro^$popup
 ||mattoadbayed.icu^$popup
+||maymooth-stopic.com^$popup
 ||mb-npltfpro.com^$popup
 ||mb01.com^$popup
 ||mb102.com^$popup
@@ -53220,6 +53225,7 @@ appleworld.today###block-26
 systutorials.com###block-3
 systutorials.com###block-4
 systutorials.com###block-5
+ericpetersautos.com###block-6
 systutorials.com###block-7
 cryptofeeds.news###block-8
 wionews.com###block-adv
@@ -53685,6 +53691,7 @@ geeky-gadgets.com###text-105335641
 ssbcrack.com###text-11
 cathnews.co.nz,cryptoreporter.info,net-load.com###text-12
 radiosurvivor.com###text-13
+ericpetersautos.com###text-133
 planetinsane.com###text-14
 geeksforgeeks.org###text-15
 electronicshub.org,geeksforgeeks.org,thesurvivalistblog.net###text-16
@@ -55284,7 +55291,7 @@ protocol.com##.tag-sponsored
 recombu.com##.takeover-right
 shacknews.com##.takeover-skin
 igg-games.com##.taxonomy-description
-constructionreviewonline.com,cyberparse.co.uk,gameplayinside.com,gamezone.com,gizmochina.com,greekreporter.com,industryhit.com,musictech.net,newsnext.live,nme.com,radioink.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
+constructionreviewonline.com,cyberparse.co.uk,ericpetersautos.com,gameplayinside.com,gamezone.com,gizmochina.com,greekreporter.com,industryhit.com,musictech.net,newsnext.live,nme.com,radioink.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
 bizasialive.com##.td-all-devices
 brila.net,cgmagonline.com,gayexpress.co.nz,theyeshivaworld.com,thisisanfield.com##.td-banner-wrap-full
 boxthislap.org,ticgn.com,wtf1.co.uk##.td-footer-wrapper
@@ -55298,6 +55305,7 @@ justjared.com,justjaredjr.com##.team_med_shell
 justjared.com##.team_med_shell_flex
 itproportal.com##.teaser
 macrumors.com##.tertiary
+ericpetersautos.com##.text-109
 businessonhome.com##.text-info
 sciencedaily.com##.textrule
 evilbeetgossip.com##.textwidget
@@ -55949,6 +55957,7 @@ mail.yahoo.com###slot_LREC
 yahoo.com###viewer-LREC2-iframe
 yahoo.com##.Feedback
 yahoo.com##.ads
+yahoo.com##.caas-da
 yahoo.com##.darla
 yahoo.com##.darla-container
 yahoo.com##.darla-lrec-ad
@@ -87102,8 +87111,6 @@ kenfaucet.top##div.row:nth-of-type(1) > .col-xs-12
 lightbook.org##+js(set, tie.ad_blocker_detector, '')
 lightbook.org##.stream-item-widget
 q1003.com##+js(nostif, google_ad)
-rjno1.com##+js(nostif, aswift_)
-rjno1.com##.adsbygoogle:upward(1)
 rjno1.com##style:has-text(@media screen):remove()
 notimerfaucet.biz##+js(acis, String.prototype.charCodeAt, 'replace')
 notimerfaucet.biz##+js(nano-sib, seconds)
@@ -88847,7 +88854,7 @@ thepiratebay3.com^$all
 ||retargetcore.com^$all
 .com/c/*?s1=$doc,domain=com
 .net/c/*?s1=$doc,domain=net
-/aff.php?dynamicpage=*&_cbUrl=$doc
+/aff.php?dynamicpage=$doc
 /fg/tds/ae?tds_campaign=$doc
 /site/redirectpage?ca=link&sid=$doc
 /tds/ae?tdsId=*&clickid=$doc
@@ -88942,6 +88949,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||adserver7.sbs^$all
 ||pergames.fun^$all
 ||stils-top.space^$all
+||actgames.site^$all
+||adserver5.sbs^$all
 ||hyperwage.com^$all
 ||ricavato.com^
 ||bitcoingenerator.me^$all
@@ -89146,6 +89155,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||cat02tuzik.online^$all
 ||dating-herenow3.com^$all
 ||dating-space.top^$all
+||conditioning1.space^$all
 /^https?:\/\/[-0-9a-z]*prize[-0-9a-z]+\.live\/\?u=[0-9a-z]+&o=[0-9a-z]+/$doc,domain=live
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
@@ -89538,6 +89548,7 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 /npm/sks@0.*/lazyload.js$script,3p
 ||skk.moe/*.js?$image
 /s/js/ta-2.3.js?
+||rjno1.com/cdn-cgi/challenge-platform/h/b/scripts/invisible.js
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
@@ -91273,10 +91284,12 @@ myair2.resmed.com##+js(no-xhr-if, cloudflare.com/cdn-cgi/trace)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect-rule=noopjs,domain=sonyliv.com
 ||d2r1yp2w7bby2u.cloudfront.net/js/localforage.min.js$script,redirect-rule=noopjs,domain=sonyliv.com
 @@||fundingchoicesmessages.google.com^$script,domain=stooq.com|stooq.pl
+@@*ad2.$image,domain=sophiabushfan.net
 @@_advertisment.$image,domain=gorgeouspfeiffer.com
 @@_advertisement_$image,domain=jennifer-lawrence.com
 @@/advertising_$image,domain=timfahlbusch.com
 @@/advertisment/*$image,domain=taylorpictures.net
+@@/advertisements-$image,domain=jennifer-lawrence.com
 @@/ad_campaigns/*$image,domain=alicia-vikander.com
 @@/adverts/*$image,domain=emily-blunt.com|isla-fisher.net|islafisher.net|reese-witherspoon.org|reesewitherspoon.org
 @@||cloudflare.com/cdn-cgi/trace$xhr,domain=54647.io
@@ -91360,6 +91373,8 @@ heise.de#@#[data-ad-unit]
 @@||nocturnetls.net^$script,1p
 @@||relay-client-c01.iocnt.net^$script,domain=www.businessinsider.de
 @@||comic-boost.com/gentosha/advertisement_view$frame,1p
+@@||cdn.onesignal.com/sdks/$script,domain=clash.ninja
+@@||onesignal.com/api/$script,domain=clash.ninja
 ||1.0.218.230$all
 ||1.10.147.48$all
 ||1.180.69.202$all
