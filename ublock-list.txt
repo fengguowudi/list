@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Gs+boZ7Y2MCrz0T0fG46pQ
+! Checksum: 8Q6VhUbvOKayYNlRzu9PBA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201130914
-! Last Modified: 2022年01月13日 09:14
+! Version: 202201131425
+! Last Modified: 2022年01月13日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63341,6 +63341,7 @@ _mongo_stats/
 ||admother.com^$third-party
 ||adobedtm.com^$third-party,domain=~adobe.com
 ||adobetag.com^$third-party
+||adobetarget.com^$third-party
 ||adoftheyear.com^$third-party
 ||adoric-om.com^$third-party
 ||adpaths.com^$third-party
@@ -72358,6 +72359,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.wwitv.com^
 ||streamstats.prd.dlive.tv^
 ||streamta.pe/stat/
+||streamta.site/stat/
 ||streamtape.com/stat/
 ||strtapeadblock.club/stat/
 ||strtpe.link/stat/
@@ -85927,6 +85929,7 @@ blog.crixurl.com##.banner
 @@||adserver.juicyads.com/js/jads.js$script,domain=anydebrid.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=anydebrid.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=anydebrid.com
+||adserver.juicyads.com/js/fib.js$script,redirect-rule=noopjs,domain=anydebrid.com
 mavplay.xyz##+js(aeld, , _blank)
 4anime.biz##+js(aeld, , _blank)
 4anime.biz##.show
