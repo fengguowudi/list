@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8Q6VhUbvOKayYNlRzu9PBA
+! Checksum: 6Uf2XDer+83SkJbqNFTyYw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201131425
-! Last Modified: 2022年01月13日 14:25
+! Version: 202201132035
+! Last Modified: 2022年01月13日 20:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -71548,8 +71548,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||a-reporting.nytimes.com^
 ||a.electerious.com^
 ||aa.avvo.com^
-||aax-eu-dub.amazon.com^
-||aax-us-iad.amazon.com^
+||aax-eu-dub.amazon.com^$script
+||aax-us-iad.amazon.com^$script
 ||ab-machine.forbes.com^
 ||ab.fanatical.com^
 ||abcnews.com/assets/dtci/js/abcnews_visitorId.js
