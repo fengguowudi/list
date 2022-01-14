@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HiMAhvWEZfQT1v4Eopr9qg
+! Checksum: Ja7FFXSru9gTigvEgXXghQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201140225
-! Last Modified: 2022年01月14日 02:25
+! Version: 202201140913
+! Last Modified: 2022年01月14日 09:13
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24591,6 +24591,7 @@ _800x80_
 ##.frontpage-mpu-section-ad
 ##.frontpage-right-ad
 ##.frontpage-right-ad-hide
+##.frontpage__article--ad
 ##.frontpage_ads
 ##.fs-ad-block
 ##.fs1-advertising
@@ -54081,6 +54082,7 @@ censor.net##.beGrKXqw1r8uLq2pL
 thepointsguy.com##.beam-card-feature
 beckershospitalreview.com##.becker_doubleclick
 aiscore.com##.bet365
+amgreatness.com##.bg-gray-200.mx-auto
 biblegateway.com##.bga
 overclock3d.net##.bglink
 bhamnow.com##.bhamn-adlabel
@@ -54728,6 +54730,7 @@ fandom.com##.marketplace
 designtaxi.com##.masonry-brick.nt
 imgur.com,pushsquare.com,songlyrics.com##.masthead
 racgp.org.au##.mb-1.small
+amgreatness.com##.mb-10.mx-auto
 gamedev.net##.mb-3.align-items-center.justify-content-start
 indiatimes.com##.mb-36 > .top-trending
 themoscowtimes.com##.mb-4.py-3
@@ -56969,6 +56972,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||phatcatmedia.net/images/ad.jpg$image,domain=allsonicgames.net
 @@||photofunia.com/effects/$image,~third-party
 @@||pjtra.com/b/$image,domain=extrarebates.com
+@@||player.aniview.com/script/$script,domain=odysee.com
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com|videos.heute.at
 @@||player.avplayer.com^$script,domain=explosm.net
 @@||playwire.com/bolt/js/zeus/embed.js$script,third-party
@@ -69658,6 +69662,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||oda.markitondemand.com^
 ||odnaknopka.ru/stat.js
 ||odysee.com/api/v1/metric/
+||odysee.com/log/
 ||ohnorobot.com/verify.pl?
 ||olytics.omeda.com^$script,third-party
 ||onecount.net/onecount/oc_track/
@@ -97878,7 +97883,7 @@ heise.de#@#[data-ad-unit]
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 18 Jan 2002 00:00:00
+# start date:    Sat, 19 Jan 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
