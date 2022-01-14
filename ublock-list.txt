@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6FI39RXtJfLijamSGuNfHg
+! Checksum: 9GQI+YBHzxICjsl4MZKh6A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201141426
-! Last Modified: 2022年01月14日 14:26
+! Version: 202201142034
+! Last Modified: 2022年01月14日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -91297,7 +91297,7 @@ xunta.gal#@##anuncio
 @@||googletagmanager.com/gtm.js$script,redirect-rule,domain=mf-realty.jp
 @@||tags.tiqcdn.com/utag/$script,domain=ameritrade.com
 myair2.resmed.com##+js(no-xhr-if, cloudflare.com/cdn-cgi/trace)
-||cloudflare.com/cdn-cgi/trace$3p,xhr,redirect-rule=noop.txt,domain=~funimation.com
+||cloudflare.com/cdn-cgi/trace$xhr,3p,redirect-rule=noop.txt,domain=~funimation.com|~1bit.space|~1bitspace.com
 @@||d2wy8f7a9ursnm.cloudfront.net/*/bugsnag.min.js$script,domain=crust.com.au
 @@||static-redesign.cnbcfm.com^$script,domain=cnbc.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect-rule=noopjs,domain=sonyliv.com
@@ -91394,6 +91394,7 @@ heise.de#@#[data-ad-unit]
 @@||comic-boost.com/gentosha/advertisement_view$frame,1p
 @@||cdn.onesignal.com/sdks/$script,domain=clash.ninja
 @@||onesignal.com/api/$script,domain=clash.ninja
+@@||tags.tiqcdn.com^$script,domain=adidas.*
 ||1.0.218.230$all
 ||1.10.147.48$all
 ||1.180.69.202$all
@@ -97889,7 +97890,7 @@ heise.de#@#[data-ad-unit]
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 06 Jan 2022 10:36:23 GMT
-# entries:        3684
+# entries:        3682
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1
@@ -98097,7 +98098,6 @@ heise.de#@#[data-ad-unit]
 127.0.0.1 adbooth.net
 127.0.0.1 adbot.com
 127.0.0.1 adbrite.com
-127.0.0.1 adbrn.com
 127.0.0.1 adbroker.de
 127.0.0.1 adbunker.com
 127.0.0.1 adbutler.com
@@ -100006,7 +100006,6 @@ heise.de#@#[data-ad-unit]
 127.0.0.1 itfarm.com
 127.0.0.1 itop.cz
 127.0.0.1 its-that-easy.com
-127.0.0.1 itsptp.com
 127.0.0.1 iubzka.online
 127.0.0.1 ivwbox.de
 127.0.0.1 ivykiosk.com
