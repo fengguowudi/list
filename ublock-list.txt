@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: syq0QlOjHktpqcFoee0NRQ
+! Checksum: PSPFiPnYdZ7OHbWxFKO/Tg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201151425
-! Last Modified: 2022年01月15日 14:25
+! Version: 202201152033
+! Last Modified: 2022年01月15日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54609,6 +54609,7 @@ groovypost.com##.groov-adlabel
 saultonline.com##.gsmfab
 thelakewoodscoop.com##.gtlsad
 animenewsnetwork.com##.gutter
+radaronline.com##.gwzeAW
 lyricsmode.com##.h113
 superiorpics.com##.h250
 lyricsmode.com##.h253
@@ -90572,7 +90573,7 @@ nowgoal.com##[href^="/ad/"]
 @@||ipm.corel.com/static/common/scripts/omni-tracking/omni-tracking.min.js$script,1p
 @@||securepubads.g.doubleclick.net^$script,domain=bearteach.com
 bearteach.com###externalinject-gpt-passback-iframe
-@@||recoco.it^$image,xhr,domain=heavy-r.com|porngo.com|showbiz.cz|tostreamit.com|vumoo.to
+@@||recoco.it^$image,xhr,domain=heavy-r.com|porngo.com|showbiz.cz|tostreamit.com|vumoo.to|bodysize.org
 @@||googletagmanager.com/gtag/js$script,domain=gsc.com.my
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=gsc.com.my
 @@||travel-assets.com/datacapture/$script,domain=service.hotels.com
