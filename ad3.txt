@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /6GrrOAL3/JDi8uehvIzQw
+! Checksum: i6Ud8Ox0VnJlKDr+2mUalg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201152033
-! Last Modified: 2022年01月15日 20:33
+! Version: 202201160224
+! Last Modified: 2022年01月16日 02:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -155,8 +155,10 @@ envyindebted.com
 in-page-push.com
 stgowan.com
 trustedgatetocontent.com
+netflix.mom,netflixya.com,yanetflix.com##.tips-box
+netflix.mom,netflixya.com,yanetflix.com##+js(aopw,document.onkeydown)
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
-yatu.tv,yhdm5.com,netflix.mom,yanetflix.com##+js(set,document.oncontextmenu,trueFunc)
+yatu.tv,yhdm5.com##+js(set,document.oncontextmenu,trueFunc)
 ||tracker.$xhr,websocket,script,ping
 3z9e.cn
 7nsc.cn
@@ -1789,6 +1791,7 @@ ubmcmm.baidustatic.com
 ||hanjw1988.com^
 ||eccbb.com^
 ||tuuihea.top^
+||xiqqq.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -9422,6 +9425,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||eepw.com.cn/event/action/rightbd/microchip*.js
+||pkvs.com/public/as.js
+||pkvs.com/public/300/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 cps.com.cn##.couplet-le
@@ -17260,6 +17265,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xglryxd.cn^
 ||rctxlac.cn^
 ||cyccy.cn^
+||aybnn.cn^
+||leelovelwj.com^
+||gbcvbnv5.com^
 ##a[href*=".hxctiao.com:"]
 ##a[href*=".hxsp331.com"]
 ##a[href*=".jiq339.com/"]

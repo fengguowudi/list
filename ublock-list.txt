@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PSPFiPnYdZ7OHbWxFKO/Tg
+! Checksum: PtUshcNXfzGcIL+UQTte/w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201152033
-! Last Modified: 2022年01月15日 20:33
+! Version: 202201160224
+! Last Modified: 2022年01月16日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -86077,15 +86077,15 @@ edn.com###custom_html-5
 edn.com###footerAdWrap
 ||omeda.com^$3p
 ||carbonpay.app^$3p
-dizipal130.com##+js(ra, hidden, div.card-video[hidden])
-dizipal30.com##div[onclick^="window.open"]
-dizipal130.com##body > b .hdd
-dizipal130.com##.homepageds
-dizipal130.com###playeralti
-dizipal130.com###playerustu
-r83jx.xyz##pjsdiv:nth-of-type(20) > pjsdiv:nth-of-type(1) > pjsdiv
-r83jx.xyz##+js(aopr, stoppp)
-r83jx.xyz##+js(nostif, detect)
+dizipal133.com##+js(ra, hidden, div.card-video[hidden])
+dizipal33.com##div[onclick^="window.open"]
+dizipal133.com##body > b .hdd
+dizipal133.com##.homepageds
+dizipal133.com###playeralti
+dizipal133.com###playerustu
+m73ns.xyz##pjsdiv:nth-of-type(20) > pjsdiv:nth-of-type(1) > pjsdiv
+m73ns.xyz##+js(aopr, stoppp)
+m73ns.xyz##+js(nostif, detect)
 ||youtubex.top^$3p
 ||badana.me^
 sexywomeninlingerie.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
@@ -89477,6 +89477,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||stcverify.com^$doc
 ||1980s.click^$doc
 ||discqrdapp.com^$all
+||warezcrack.net^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
@@ -91457,6 +91458,7 @@ heise.de#@#[data-ad-unit]
 @@||cdn.onesignal.com/sdks/$script,domain=clash.ninja
 @@||onesignal.com/api/$script,domain=clash.ninja
 @@||tags.tiqcdn.com^$script,domain=adidas.*
+||d231vab146qzfb.cloudfront.net^$badfilter
 ||1.0.218.230$all
 ||1.10.147.48$all
 ||1.180.69.202$all
