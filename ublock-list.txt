@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CI7njVaaNbyb2KuUbe5i8w
+! Checksum: syq0QlOjHktpqcFoee0NRQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201150910
-! Last Modified: 2022年01月15日 09:10
+! Version: 202201151425
+! Last Modified: 2022年01月15日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18156,6 +18156,7 @@ _800x80_
 ##.ad-r
 ##.ad-rac-box
 ##.ad-rail
+##.ad-rail-wrapper
 ##.ad-ratio
 ##.ad-ratio-size-300x250
 ##.ad-ratio-size-3x1
@@ -30116,6 +30117,7 @@ _800x80_
 ##[data-ad-manager-id]
 ##[data-ad-module]
 ##[data-ad-width]
+##[data-css-class="dfp-inarticle"]
 ##[data-dynamic-ads]
 ##[data-ez-name]
 ##[data-freestar-ad]
@@ -54418,6 +54420,7 @@ startups.co.uk##.dc-leaderboard
 dailycaller.com##.dc-sticky
 ohiostatebuckeyes.com##.dcad
 theguardian.com##.dcr-1aq0rzi
+ign.com##.deals-block
 slashdot.org##.deals-wrapper
 kusports.com##.deals_widget
 mangarockteam.com##.demand-supply
@@ -54543,7 +54546,6 @@ satbeams.com##.footer_banner
 tiresandparts.net##.footer_top_banner
 eurocupbasketball.com,euroleague.net##.footersponsors-container
 nintendolife.com,purexbox.com,pushsquare.com##.for-desktop
-myanimelist.net##.for-sp
 permies.com##.forum-top-banner
 newsroom.co.nz##.foundingpartners
 theiphoneappreview.com##.frame
@@ -54790,6 +54792,7 @@ tech.hindustantimes.com##.m-to-add
 net-load.com##.m7s-81.m7s
 wccftech.com##.main-background-wrap
 ggrecon.com##.mainVenatusBannerContainer
+myanimelist.net##.mal-kkk-unit
 color-hex.com##.margin10
 fandom.com##.marketplace
 designtaxi.com##.masonry-brick.nt
@@ -83967,6 +83970,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gruposantander.es^*/scripts/log.js
 @@||imprentaonline.net^*/js/gtm.min.js$~third-party
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
+@@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
 @@||officedepot.com.mx/_ui/shared/js/analyticsmediator.js$~third-party
 @@||playty.com/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||portalbici.es/lib/angulartics-google-analytics/dist/angulartics-ga.min.js
