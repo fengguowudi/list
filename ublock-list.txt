@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lI7r+HUyiVV6omQlPdyfYw
+! Checksum: ded1pEjMmWNZYd65X/hNmA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201160915
-! Last Modified: 2022年01月16日 09:15
+! Version: 202201161425
+! Last Modified: 2022年01月16日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -55747,6 +55747,7 @@ issuu.com##div[class*="adSkyscraper"]
 keengamer.com##div[class*="gameon-above-"]
 informer.com##div[class="a2"]
 topgear.com##div[class^="AdContainer-"]
+tunefind.com##div[class^="AdSlot_inner_"]
 usnews.com##div[class^="Ad__Container-"]
 poki.com##div[class^="Advertisement_"]
 sportinglife.com##div[class^="Article__FlashTalkingWrapper-"]
@@ -55763,6 +55764,7 @@ livescore.com##div[class^="HeaderAdsHolder_"]
 games.dailymail.co.uk##div[class^="HomeCategory__adWrapper_"]
 qwant.com##div[class^="HomeFlag-module__CommercialFlagContainer"]
 games.dailymail.co.uk##div[class^="HomeTemplate__afterCategoryAd_"]
+tunefind.com##div[class^="ImageListAdSlot_"]
 sportinglife.com##div[class^="Layout__TopAdvertWrapper-"]
 genius.com##div[class^="LeaderboardOrMarquee__"]
 qwant.com##div[class^="ProductAdsMicrosoft-"]
