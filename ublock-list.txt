@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PtUshcNXfzGcIL+UQTte/w
+! Checksum: lI7r+HUyiVV6omQlPdyfYw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201160224
-! Last Modified: 2022年01月16日 02:24
+! Version: 202201160915
+! Last Modified: 2022年01月16日 09:15
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53676,6 +53676,7 @@ pages.ebay.com###rtm_1658
 ebay.com###rtm_html_441
 flaticon.com###s-p
 wsj.com###saving-united-coupon-list
+flatpanelshd.com###sb-site > .hidden-xs.container
 hwhills.com###sb_left_tower
 wowway.net###sc_home_header_banner
 wowway.net###sc_home_news_banner
@@ -87190,7 +87191,6 @@ kenfaucet.top##div.row:nth-of-type(1) > .col-xs-12
 lightbook.org##+js(set, tie.ad_blocker_detector, '')
 lightbook.org##.stream-item-widget
 q1003.com##+js(nostif, google_ad)
-rjno1.com##style:has-text(@media screen):remove()
 notimerfaucet.biz##+js(acis, String.prototype.charCodeAt, 'replace')
 notimerfaucet.biz##+js(nano-sib, seconds)
 notimerfaucet.biz##div.row:nth-of-type(3) > .transparent.col-xs-12
@@ -91458,7 +91458,7 @@ heise.de#@#[data-ad-unit]
 @@||cdn.onesignal.com/sdks/$script,domain=clash.ninja
 @@||onesignal.com/api/$script,domain=clash.ninja
 @@||tags.tiqcdn.com^$script,domain=adidas.*
-||d231vab146qzfb.cloudfront.net^$badfilter
+@@||mypearson.com^*/ga.min.js
 ||1.0.218.230$all
 ||1.10.147.48$all
 ||1.180.69.202$all
@@ -97962,7 +97962,7 @@ heise.de#@#[data-ad-unit]
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 20 Jan 2002 00:00:00
+# start date:    Mon, 21 Jan 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
