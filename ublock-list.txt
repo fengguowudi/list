@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FLJBigA4zV6jaouUaZmvEQ
+! Checksum: IHLvAugMpyLNOEm3ChtvzA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201170224
-! Last Modified: 2022年01月17日 02:24
+! Version: 202201170912
+! Last Modified: 2022年01月17日 09:12
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -33231,8 +33231,8 @@ tf2r.com#@#.adverts
 ||attacheastely.com^
 ||attachtranquilizer.com^
 ||attacketslovern.info^
-||attendantsteakfax.com^
 ||attemptinghorace.com^
+||attendantsteakfax.com^
 ||attentionsauditoriummall.com^
 ||attenuatecripple.com^
 ||attractiveimpertinencejoint.com^
@@ -52688,6 +52688,7 @@ tf2r.com#@#.adverts
 ||fwcdn1.com/js/fwn.js
 ||fwcdn1.com/js/storyblock.js
 ||fwcdn2.com^$third-party
+||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph
 ||go.trvdp.com^
 ||jwpcdn.com^$script,domain=bgr.com|dexerto.com|zimbio.com
 ||jwplayer.com/players/$script,domain=ginx.tv
@@ -53370,12 +53371,12 @@ mirror.co.uk###comments-standalone-mpu
 cpuid.com###console_log
 gearspace.com###container__DesktopFDAdBanner
 gearspace.com###container__DesktopForumdisplayHalfway
-lineageos18.com###contentLocker
 modshost.com###content > .ast-container > .ast-row
 scanboat.com###content > .margin-tb-25
 allnewspipeline.com###content > [href]
 fextralife.com###content-add-a
 blastingnews.com###content-banner-dx1-p1
+lineageos18.com###contentLocker
 123proxy.biz###cookieConsentUR99472
 wsj.com###coupon-links
 titantv.com###ctl00_Main_TVL_ctl00_sb
@@ -53516,12 +53517,6 @@ trakt.tv###hu-ck-s-t-er-de-sk-top-sidenav
 trakt.tv###hu-ck-s-t-er-de-sk-top-wrapper
 nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivene.com,nettivuokraus.com###huge_banner
 nzbindex.com###i > .inner
-myabandonware.com###i112CB
-myabandonware.com###i112SB
-myabandonware.com###i112ST
-myabandonware.com###i112myabandonware_medrec_left_atf
-myabandonware.com###i112myabandonware_medrec_right_atf
-myabandonware.com###i112myabandonware_medrec_right_btf
 hltv.org###i3_middle
 klmanga.com,weloma.net###id-custom_banner
 unitconversion.org###ileft
@@ -55210,6 +55205,7 @@ studyfinds.org##.sfspot
 shortorial.com,webogram.in##.sgpb-popup-dialog-main-div-wrapper
 shortorial.com,webogram.in##.sgpb-popup-overlay
 zdnet.com##.sharethrough-top
+romsie.com##.shcntr
 mirror.co.uk##.shopwindow-adslot
 mirror.co.uk##.shopwindow-advertorial
 skins.be##.shortBioShadowB
@@ -55359,6 +55355,7 @@ oilcity.news##.sticky-sponsors-large
 litecoin-faucet.com##.sticky-top1
 sfgate.com##.stickyWrapper
 theloadout.com##.sticky_rail600
+romsie.com##.stksht
 dailyherald.com##.stnContainer
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.story > .placeholderWrapper
 politico.com##.story-continued
@@ -55825,6 +55822,7 @@ keengamer.com##div[class^="gameon-top-"]
 groovypost.com##div[class^="groov-adsense-"]
 technologyreview.com##div[class^="headerTemplate__leaderboardRow-"]
 goal.com##div[class^="layout_banner_"]
+myabandonware.com##div[class^="m1"]
 eonline.com##div[class^="photo-items__interstitial"]
 mydramalist.com##div[class^="spnsr"]
 kijiji.ca##div[class^="sponsored-"]
@@ -56039,6 +56037,7 @@ realclearpolitics.com###realclear_jwplayer_container
 uproxx.com###upx-mm-player-wrap
 newseveryday.com###vplayer_large
 sciencetimes.com##.article-videoplayer
+mb.com.ph##.code-block
 techwalla.com##.component-article-section-jwplayer-wrapper
 digitaltrends.com##.dtvideos-container
 thestar.co.uk##.gOoqzH
@@ -83922,13 +83921,13 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||jsonip.com/?callback=$script,domain=pagtel.com.br
 @@||laredoute.pt/js/byside_webcare.js
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
+@@||netmede.pt/code/ga.min.js$script,domain=netmede.pt
 @@||nostv.pt^*/angulartics-google-analytics.js?
 @@||siteapps.com^$script,domain=netcombo.com.br
 @@||splunk-heavyforwarder-public.vtex.com:8088/services/collector/event$xmlhttprequest,domain=loja3m.com.br
 @@||stats.g.doubleclick.net/dc.js$domain=netcombo.com.br
 @@||tags.t.tailtarget.com/t3m.js?$domain=superesportes.com.br
 @@||tm.jsuol.com.br/uoltm.js$script,domain=uol.com.br
-@@||netmede.pt/code/ga.min.js$script,domain=netmede.pt
 !---------- Romanian ----------
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
 @@||googletagmanager.com/gtm.js$script,domain=olx.ro
@@ -97990,7 +97989,7 @@ heise.de#@#[data-ad-unit]
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 21 Jan 2002 00:00:00
+# start date:    Tue, 22 Jan 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
