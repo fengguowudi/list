@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y7Br+f6DY+gmbq/39T0qTA
+! Checksum: GaUKx4i+j+SWyvSck6Ke7g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201172035
-! Last Modified: 2022年01月17日 20:35
+! Version: 202201180225
+! Last Modified: 2022年01月18日 02:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -10670,7 +10670,7 @@ ifeng.com###sideBar[class^="box_"]
 2345.com###sideCat
 hao.360.com###sidebar
 xc6b.com###sidebar > .box-b img
-appinn.com###sidebar > .widget_text:first-child
+appinn.com###sidebar > .widget:first-child
 ruyo.net###sidebar > :not(:first-child):not(:last-child):not([id^="recent-posts"])
 fuliba.net###sidebar > div:first-child
 fuliba.net###sidebar > div:last-child
@@ -17270,6 +17270,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhexnuq.cn^
 ||ppwxgpr.cn^
 ||swnptn.cn^
+||huobago.com^
+||wdread.pub^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv
