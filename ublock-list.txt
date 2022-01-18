@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uugehPI28w2LwhmJjEWdXw
+! Checksum: uMCRGZU+KaBv6Njan3p6SQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201180225
-! Last Modified: 2022年01月18日 02:25
+! Version: 202201180914
+! Last Modified: 2022年01月18日 09:14
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -696,7 +696,7 @@
 /AD-970x90.
 /ad-amz.
 /ad-api-
-/ad-assets/*
+/ad-assets/*$~image
 /ad-audit.
 /ad-background.
 /ad-banner-$~image,~script
@@ -30653,6 +30653,7 @@ _800x80_
 ##a[href^="https://bnsjb1ab1e.com/"]
 ##a[href^="https://bs.serving-sys.com"]
 ##a[href^="https://bullads.net/get/"]
+##a[href^="https://burpee.xyz/"]
 ##a[href^="https://cams.imagetwist.com/in/?track="]
 ##a[href^="https://chaturbate.com/affiliates/"]
 ##a[href^="https://chaturbate.com/in/?tour="]
@@ -52138,6 +52139,7 @@ tf2r.com#@#.adverts
 ||otcash.com/images/
 ||partner.loveplanet.ru^
 ||pcash.imlive.com^
+||pimpandhost.com/site/trending-banners
 ||pinkvisualgames.com/?revid=
 ||plugin-x.com/rotaban/
 ||pod.xpress.com^
@@ -53006,6 +53008,10 @@ $popup,third-party,domain=apl100.me|apl102.me|apl96.me|assia2.com|cloudvideo.tv|
 ||babepicture.co.uk^*banner
 ||babesandstars.com/img/banners/
 ||babeshows.co.uk^*banner
+||babesinporn.com^*/banners/
+||babesinporn.com^*/istripper/
+||babesmachine.com^*/banners/
+||babesmachine.com^*/friendimages/
 ||badjojo.com/d5
 ||bangbros-free.com/i2/
 ||banners.cams.com^
@@ -53074,6 +53080,8 @@ $popup,third-party,domain=apl100.me|apl102.me|apl96.me|assia2.com|cloudvideo.tv|
 ||gapeandfist.com/uploads/thumbs/
 ||gayboystube.com/templates/gayboystube2017/js/gbtpop.js
 ||girlsofdesire.org/red/
+||glam0ur.com/adgallery1
+||glam0ur.com^*/banners/
 ||gloryholegirlz.com/images/banners/
 ||go.celebjihad.live^
 ||go.pornav.net^
@@ -56472,7 +56480,7 @@ onlydudes.tv##.b-side-col
 japan-whores.com##.b-sidebar
 dofap.com##.b_videobot
 pornburst.xxx##.bann3rss
-3movs.xxx,analpornpix.com,chaturbate.com,fboomporn.com,fetishshrine.com,freepornpicss.com,imagezog.com,oldies.name,paradisehill.cc,playvids.com,porngames.com,private.com,vidxnet.com,vjav.com,watchhentaivideo.com,waybig.com,xbabe.com,xcum.com,yourdailygirls.com,youx.xxx##.banner
+3movs.xxx,analpornpix.com,babesmachine.com,chaturbate.com,fboomporn.com,fetishshrine.com,freepornpicss.com,imagezog.com,oldies.name,paradisehill.cc,playvids.com,porngames.com,private.com,vidxnet.com,vjav.com,watchhentaivideo.com,waybig.com,xbabe.com,xcum.com,yourdailygirls.com,youx.xxx##.banner
 javfor.tv##.banner-c
 grannymommy.com##.banner-on-player
 babesandstars.com##.banner-right
@@ -56759,6 +56767,8 @@ zbporn.tv##.top-spot
 10movs.com##.top_banner
 camwhores.tv##.topad
 itsatechworld.com##.topd
+babesmachine.com##.topline
+babesmachine.com##.tradepic
 babesandstars.com##.traders
 gayporno.fm##.traffic
 proporn.com##.trailerspots
@@ -65278,6 +65288,7 @@ _mongo_stats/
 ||revenuepilot.com^$third-party
 ||revenuescience.com^$third-party
 ||revenuewire.net^$third-party
+||revhunter.tech^$third-party
 ||revoffers.com^$third-party
 ||revolvermaps.com^$third-party
 ||rewardtv.com^$third-party
@@ -72502,6 +72513,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ssc.api.bbc.com^
 ||st.sawlive.tv^
 ||stan.xing.com^
+||stape.fun/stat/
 ||starfiles.co/analytics.php
 ||stat.livesportbar.net^
 ||stat.pubhtml5.com^
@@ -82677,6 +82689,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||npo-data.nl/tags/tag.min.js
 ||npo.nl/tag/atinternet/
 ||pcmweb.nl/track/
+||pipeline.rd.nl^
 ||rtl.nl/system/track/
 ||sanoma.nl/pixel/
 ||sat.sanoma.fi^
@@ -83668,6 +83681,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
 @@||zeit.de/cre-*/tracking/call.js?$domain=zeit.de
 @@||zeit.de/cre-*/tracking/tracking.js$domain=zeit.de
+!---------- Greek -----------
+@@||extreme-ip-lookup.com/json/$xmlhttprequest,domain=skaitv.gr
 !---------- French ----------
 @@||actiris.be/urchin.js
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.fr
@@ -91492,7 +91507,7 @@ heise.de#@#[data-ad-unit]
 @@||mypearson.com^*/ga.min.js
 ||tags.tiqcdn.com^$badfilter
 @@||inbenta.io/prod/*/tracking/events$xhr,domain=knab.nl
-.php?action=browse&$badfilter
+@@||thetoc.gr/Content/images/blank.gif$image,1p
 ||1.0.218.230$all
 ||1.10.147.48$all
 ||1.180.69.202$all
@@ -97996,7 +98011,7 @@ heise.de#@#[data-ad-unit]
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Tue, 22 Jan 2002 00:00:00
+# start date:    Wed, 23 Jan 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
