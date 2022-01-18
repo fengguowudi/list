@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uMCRGZU+KaBv6Njan3p6SQ
+! Checksum: TOsk3kuOkG2/bdU7UxKBRg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201180914
-! Last Modified: 2022年01月18日 09:14
+! Version: 202201181422
+! Last Modified: 2022年01月18日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56339,6 +56339,7 @@ flyingjizz.com###adv_inplayer
 milffox.com###advertising
 instantfap.com###af
 pervclips.com###after-adv
+literotica.com###b-top
 cuntest.net###banners
 sexyandfunny.com###best-friends
 pussyspace.com###bhcr
@@ -72735,6 +72736,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zerohedge.com/statistics-ajax?
 ||zillowstatic.com/contact-pixel/$image,domain=zillow.com
 ||zion-telemetry.api.cnn.io^
+||akamaihd.net^$image,domain=globalnews.ca
 ||jeremiahlee.com/fanboynz.js
 ||hubspot.com/collected-forms/$xmlhttprequest,domain=confection.io
 ||s3.amazonaws.com/downloads.mailchimp.com/$script,domain=confection.io
