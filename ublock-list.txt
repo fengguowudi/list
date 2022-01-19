@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zNT227XPqvzgyiLmQ2yTsw
+! Checksum: x0+86wnXimJSFEIbD169Pg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201190225
-! Last Modified: 2022年01月19日 02:25
+! Version: 202201190904
+! Last Modified: 2022年01月19日 09:04
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -83308,6 +83308,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||kbctouch.kbc.be^*/dynatrace-$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 @@||live.house.gov/js/analytics.$script,~third-party
+@@||moengage.com/v2/$xmlhttprequest,domain=olx.com.lb
+@@||moengage.com/webpush/$script,domain=olx.com.lb
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=cnbc.com
 @@||musiclab.chromeexperiments.com/bin/lib/angulartics-google-analytics.js
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
@@ -88160,7 +88162,7 @@ camwhores.tv##+js(nostif, innerText, 2000)
 ||virtwishes.site^
 wapsing.com##+js(nowoif)
 just-upload.com##+js(acis, globalThis, break;case)
-||just-upload.com^$csp=default-src 'unsafe-inline' 'unsafe-eval' 'self' *.google.com *.gstatic.com *.googleapis.com *.googletagmanager.com
+||just-upload.com^$document,csp=default-src 'unsafe-inline' 'unsafe-eval' 'self' *.google.com *.gstatic.com *.googleapis.com *.googletagmanager.com *.jquery.com *.bootstrapcdn.com *.jsdelivr.net *.cloudflare.com
 ||d1t4ekjh9ps4ob.cloudfront.net^
 ||rinryesop.one^
 ||tingeffukec.one^
@@ -88182,6 +88184,7 @@ xvedios.info##+js(ra, onclick, [onclick*="open"])
 xvedios.info##+js(set, history.pushState, noopFunc)
 xvedios.info##+js(aopw, onpopstate)
 xvedios.info##^script:has-text(onpopstate)
+xvedios.info##+js(nostif, replace)
 sohexo.org##+js(nowoif)
 sohexo.org##+js(set, blurred, false)
 sohexo.org###go-popup:remove()
@@ -88204,8 +88207,8 @@ orgasmatrix.com##.card.post:has([href*="landing."])
 @@||cd.connatix.com/connatix.playspace.js$script,domain=loot.tv
 @@||cds.connatix.com/p/*/connatix.player.js$script,domain=loot.tv
 gifhq.com##+js(acis, document.dispatchEvent, myEl)
-gifhq.com##+js(acis, document.querySelectorAll, popMagic)
 gifhq.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
+gifhq.com##+js(acis, $, open)
 ||gifhq.com/d2.js
 1337xx.to##+js(acis, globalThis, break;case)
 ibomma.*##[style="display:none"]:style(display: block !important;)
@@ -98031,7 +98034,7 @@ heise.de#@#[data-ad-unit]
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 23 Jan 2002 00:00:00
+# start date:    Thu, 24 Jan 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
