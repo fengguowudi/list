@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +nzWcIf5HA0eLId+T2W4Rg
+! Checksum: sZU6wYLbGlBepcgq2r4GhQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201191423
-! Last Modified: 2022年01月19日 14:23
+! Version: 202201192031
+! Last Modified: 2022年01月19日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -84681,10 +84681,11 @@ pornojenny.com###wa_10
 @@||pornojenny.com^$ghide
 pornojenny.com##[href^="https://www.handy-sextreffen.info/"]:upward(.grid_box)
 mundowuxia.com##+js(aopw, _pop)
-*$doc,csp=script-src *,domain=~kat.ec|~kat.mn|~kat.eu|~kat.rip|~kat.tv|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
+*$doc,3p,csp=script-src *,domain=~kat.ec|~kat.mn|~kat.eu|~kat.rip|~kat.tv|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
 *$script,1p,domain=~kat.ec|~kat.eu|~kat.mn|~kat.rip|~kat.tv|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
 kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekickass.*,kickassz.*,kickasstorrents2.*,topkickass.*,kickassgo.*,kkickass.*,kkat.*,kickasst.*,kick4ss.*,katbay.*,kickasshydra.*,kickasskat.*,kickassbay.*,torrentkat.*,kickassuk.*,torrentskickass.*,kickasspk.*,kickasstrusty.*,katkickass.*,kickassindia.*,kickass-usa.*,kickassaustralia.*,kickassdb.*,kathydra.*,kickassminds.*,katkickass.*,kickassunlocked.*,kickassmovies.*,kickassfull.*,bigkickass.*,kickasstracker.*,katfreak.*##[style*="decoration"]:not([style^="width"])
 kat.*,katbay.*,kickass.*,kickasshydra.*,kickasskat.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekickass.*,kickassz.*,kickasstorrents2.*,topkickass.*,kickassgo.*,kkickass.*,kkat.*,kickasst.*,kick4ss.*##[href="/k.php?q=q"]
+@@||kickasstorrents.*/static/js/all.js$script,1p
 *.js|$script,1p,domain=isohuntz.*|isohunt.*|isohunts.*|isohuntx.*|isohunthydra.*|isohunters.*|isohunting.*|myisohunt.*
 *$csp=script-src *,domain=isohuntz.*|isohunt.*|isohunts.*|isohuntx.*|isohunthydra.*|isohunters.*|isohunting.*|myisohunt.*
 *$frame,domain=isohuntz.*|isohunt.*|isohunts.*|isohuntx.*|isohunthydra.*|isohunters.*|isohunting.*|myisohunt.*
@@ -86255,6 +86256,7 @@ tubeon.com##.thr-rcol
 @@||posttrack.com/$xhr,1p
 freejav.guru##+js(nostif, disableDeveloperTools)
 freejav.guru##+js(aeld, click, popMagic)
+freejav.guru##+js(aeld, DOMContentLoaded, adsBlocked)
 javguru.tk##+js(nowoif)
 filmux.to##+js(aopr, absda)
 sexuhot.com##+js(aopw, atOptions)
@@ -87991,6 +87993,9 @@ mlsbd.shop##+js(aopw, _pop)
 mlsbd.shop##+js(aost, Math.random, inlineScript)
 tinytranslation.xyz###HTML5
 *$xhr,redirect-rule=nooptext,domain=paraphrasetool.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=paraphraser.io
+paraphraser.io##.adsenbox
+paraphraser.io##body > .justify-content-center
 wouterplanet.com##+js(acis, setTimeout, 'visibility')
 wouterplanet.com##div.panel-primary.panel:nth-of-type(3)
 freexcafe.com##+js(acis, __PoSettings)
@@ -88140,10 +88145,7 @@ glotorrents.fr-proxy.com##+js(aopw, decodeURI)
 glotorrents.fr-proxy.com##+js(aopw, adcashMacros)
 glotorrents.fr-proxy.com,glotorrents.theproxy.ws##+js(nowoif)
 glotorrents.fr-proxy.com,glotorrents.theproxy.ws##+js(aopr, String.prototype.charCodeAt)
-hakaraw.com##+js(acis, Math, _0x)
-hakaraw.com##+js(acis, document.querySelectorAll, popMagic)
-hakaraw.com##+js(aopr, afScript)
-hakaraw.com##+js(aopw, u_cfg)
+mikaraw.com##div[class^="blockads_"]
 ||cdn.fedsy.xyz/app.js
 myoplay.club##+js(acis, JSON.parse, break;case $.)
 loticon.xyz##+js(acis, document.getElementById, 'OK')
@@ -88163,7 +88165,7 @@ camwhores.tv##+js(nostif, innerText, 2000)
 ||virtwishes.site^
 wapsing.com##+js(nowoif)
 just-upload.com##+js(acis, globalThis, break;case)
-||just-upload.com^$document,csp=default-src 'unsafe-inline' 'unsafe-eval' 'self' *.google.com *.gstatic.com *.googleapis.com *.googletagmanager.com *.jquery.com *.bootstrapcdn.com *.jsdelivr.net *.cloudflare.com
+||just-upload.com^$doc,csp=default-src 'unsafe-inline' 'unsafe-eval' 'self' *.google.com *.gstatic.com *.googleapis.com *.googletagmanager.com *.jquery.com *.bootstrapcdn.com *.jsdelivr.net *.cloudflare.com
 ||d1t4ekjh9ps4ob.cloudfront.net^
 ||rinryesop.one^
 ||tingeffukec.one^
@@ -88547,7 +88549,8 @@ infobel.ro##.results-bottom-banner-container
 desiflixindia.com##+js(no-fetch-if, ads)
 desiflixindia.com##+js(nano-sib)
 freestreams-live1.com##+js(nowoif)
-androidacy.com##+js(nosiif, visibility, 1000)
+androidacy.com##+js(no-fetch-if, method:HEAD)
+androidacy.com##+js(nano-sib)
 film01stream.ws##+js(ra, href, .mvi-cover)
 film01stream.ws##.f-inner
 movies7.pro##+js(disable-newtab-links)
@@ -91532,6 +91535,9 @@ heise.de#@#[data-ad-unit]
 ||tags.tiqcdn.com^$badfilter
 @@||inbenta.io/prod/*/tracking/events$xhr,domain=knab.nl
 @@||thetoc.gr/Content/images/blank.gif$image,1p
+gumtree.com.au#@#.header--is-new-sticky-behaviour
+@@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$script,domain=n-tv.de
+@@||technical-service.net^$xhr,domain=n-tv.de
 ||1.0.218.230$all
 ||1.10.147.48$all
 ||1.180.69.202$all
@@ -98027,7 +98033,7 @@ heise.de#@#[data-ad-unit]
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 06 Jan 2022 10:36:23 GMT
-# entries:        3682
+# entries:        3681
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1
@@ -99904,7 +99910,6 @@ heise.de#@#[data-ad-unit]
 127.0.0.1 gadsbee.com
 127.0.0.1 galaxien.com
 127.0.0.1 game-advertising-online.com
-127.0.0.1 gamehouse.com
 127.0.0.1 gamesites100.net
 127.0.0.1 gamesites200.com
 127.0.0.1 gammamaximum.com
