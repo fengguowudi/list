@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: x0+86wnXimJSFEIbD169Pg
+! Checksum: +nzWcIf5HA0eLId+T2W4Rg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201190904
-! Last Modified: 2022年01月19日 09:04
+! Version: 202201191423
+! Last Modified: 2022年01月19日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -30121,6 +30121,7 @@ _800x80_
 ##[class*="__adv-block"]
 ##[class*="auto-bottom-advertising-"]
 ##[class^="Ad-adContainer"]
+##[class^="AdvertisingSlot_"]
 ##[class^="div-gpt-ad"]
 ##[data-ad-manager-id]
 ##[data-ad-module]
