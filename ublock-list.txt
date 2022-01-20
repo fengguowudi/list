@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /tmJCRd+Jujsg+Cr97zRlg
+! Checksum: LgCnk7e1KaVW4nmRwH6b1w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201201423
-! Last Modified: 2022年01月20日 14:23
+! Version: 202201202031
+! Last Modified: 2022年01月20日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -5893,6 +5893,7 @@
 /some-ad.
 /someads.
 /soralink.js
+/soralink/*
 /sp/delivery/*
 /spac_adx.
 /space_ad.
@@ -66209,6 +66210,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pushex.io^$third-party
 ||pushible.com^$third-party
 ||pushify.com^$third-party
+||pushmaster-cdn.xyz^
 ||pushnami.com^$third-party
 ||pushwoosh.com^$third-party
 ||reconditerespect.com^$third-party
@@ -68964,6 +68966,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bzgint.com/CUNCollector/
 ||bzpics.com/jslib/st.js?
 ||c-date.com/pixel/
+||c.amazinglybrilliant.com.au^
 ||c.imedia.cz^
 ||c.live.com^
 ||c.mgid.com^
@@ -72110,6 +72113,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fresnel-events.vimeocdn.com^
 ||ft.com/ingest?
 ||fujifilm.com/js/shared/analyzer.js
+||fullscreen.nz/v1/tracking/$domain=threenow.co.nz
 ||g.ign.com^
 ||g.mashable.com^
 ||g.pcmag.com^
@@ -86153,14 +86157,15 @@ iqiyi.com##.iqp-player > iqpdiv[data-cupid="container"] > div[data-adzone][templ
 xfiles.io##+js(aopr, app_vars.force_disable_adblock)
 xfiles.io##+js(set, blurred, false)
 @@||simplebits.io^$ghide
-@@||simplebits.io/$xhr,1p
+@@||simplebits.io/$script,1p
 *$script,redirect-rule=noopjs,domain=simplebits.io
 simplebits.io##div[class][style="min-height: 250px; height: 250px;"]
 simplebits.io##div[class][style="min-height: 90px;"]
 simplebits.io##div[class][style="min-height: 60px;"]
 @@||satoshilabs.net^$ghide
+@@||satoshilabs.net/$script,1p
 ||satoshilabs.net/sh/ads/$subdocument
-satoshilabs.net,simplebits.io##+js(nano-stb, timer--)
+||simplebits.io/sh/ads/
 gtoys.blog.fc2.com##+js(acis, document.addEventListener, google_ad_client)
 ||loader-cdn.azureedge.net/prod/dfm/loader-config.json^$3p
 ||prairiemountainmedia.com^$3p
@@ -91596,6 +91601,8 @@ heise.de#@#[data-ad-unit]
 @@||thetoc.gr/Content/images/blank.gif$image,1p
 gumtree.com.au#@#.header--is-new-sticky-behaviour
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=nova.cz
+@@||aps.hearstnp.com/Scripts/loadAds.js$script,domain=timesunion.com
+timesunion.com##div.setHeight.stickyWrapper
 ||1.0.218.230$all
 ||1.10.147.48$all
 ||1.180.69.202$all
@@ -97814,6 +97821,7 @@ gumtree.com.au#@#.header--is-new-sticky-behaviour
 ||zz.whatsaapp.xyz/kss/n33/$all
 ||zz.whatsaapp.xyz/kss/n33/?i=1$all
 ! Adguard
+||bjjabc.com^$third-party
 ||bbs.kiiqnnx.cn^
 ||3xy1.dvv9dkv.site^$third-party
 ||mdfsbn.com^$third-party
