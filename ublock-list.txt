@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /h9LYdOwCXlQCSFhYtKmyQ
+! Checksum: U6mImehX/EWWz4x2R2ij7A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201210905
-! Last Modified: 2022年01月21日 09:05
+! Version: 202201211423
+! Last Modified: 2022年01月21日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -88697,7 +88697,9 @@ transportationlies.org##+js(aeld, , about:blank)
 @@||daihatsu-club.net^$ghide
 daihatsu-club.net##[class^="side_ad_left_"]
 daihatsu-club.net##[class^="side_ad_right_"]
-eevblog.com##a[target] > img:upward(a)
+eevblog.com##[href*="offers"]
+eevblog.com##[src*="banner"]
+||eevblog.com/images/*.gif$image
 vaa.jp,yonelabo.com###nankafix
 svetserialu.to##+js(nowoif)
 onlytech.com##+js(acis, $, test)
