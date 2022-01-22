@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0kIczeF2BAvwXde2JMcndw
+! Checksum: 42qLQDE6DyH0HbYz5vdskQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201221422
-! Last Modified: 2022年01月22日 14:22
+! Version: 202201222029
+! Last Modified: 2022年01月22日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -19369,6 +19369,7 @@ _800x80_
 ##.ad_banner_div
 ##.ad_bar
 ##.ad_below_content
+##.ad_belowfirstpost_frame
 ##.ad_belowmenu
 ##.ad_bg
 ##.ad_bg_300x250
@@ -19506,6 +19507,7 @@ _800x80_
 ##.ad_footer_super_banner
 ##.ad_for_layout
 ##.ad_frame
+##.ad_frame_around
 ##.ad_framed
 ##.ad_front_promo
 ##.ad_full_click
@@ -34082,6 +34084,7 @@ tf2r.com#@#.adverts
 ||brainlyads.com^
 ||braintb.com^
 ||brakesoutright.com^
+||brall11.com^
 ||branchr.com^
 ||brand-display.com^
 ||brand.net^
@@ -45955,6 +45958,7 @@ tf2r.com#@#.adverts
 ||vashoaft.net^
 ||vassst1.com^
 ||vassst12.com^
+||vassst14.com^
 ||vassterboost.com^
 ||vasstycom.com^
 ||vastserved.com^
@@ -53348,6 +53352,7 @@ $popup,third-party,domain=apl100.me|apl102.me|apl96.me|assia2.com|cloudvideo.tv|
 ||tbib.org/tbib.
 ||theboobsblog.com/long-pine-4086/
 ||thegay.com/ejtxclxnes/
+||thegay.com/giwkwmmncsgn/
 ||thehun.net/banners/
 ||tits-guru.com/js/istripper4.js
 ||titsbox.com/nb/
@@ -58711,6 +58716,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /beacon/timing?
 /beacon/track/*
 /beacon/user-data
+/beacon/v1/batch?
 /beacon/vtn_loader.gif?
 /beacon?
 /beacon_async.
@@ -62963,7 +62969,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ://d.*/track.js
 ://email.*/blankpixel.gif
 ://ensighten.
-://fathom.$domain=~fathom.info|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.info|~fathom.io|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://geoip.*/country.json
 ://ivwextern.
 ://lightning.*/launch/
