@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 42qLQDE6DyH0HbYz5vdskQ
+! Checksum: Ns0iLsoXBKbVjEOOzLAXNw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201222029
-! Last Modified: 2022年01月22日 20:29
+! Version: 202201230221
+! Last Modified: 2022年01月23日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -84714,6 +84714,7 @@ porndr.com##.we_are_sorry
 /s/s/supc.php
 /s/s/supv.php
 /s/su.php?t=
+/javascript/fropo.js
 deviants.com##+js(aopr, decodeURI)
 deviants.com##div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent none repeat scroll 0% 0%; display: block;"]
 deviants.com##.aside
@@ -89310,6 +89311,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||stils-top.space^$all
 ||actgames.site^$all
 ||adserver5.sbs^$all
+||trwl1.com^$all
 ||hyperwage.com^$all
 ||ricavato.com^
 ||bitcoingenerator.me^$all
@@ -89516,6 +89518,12 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||dating-space.top^$all
 ||conditioning1.space^$all
 ||wholewowblog.com^$all
+||cumshots.com^$all
+||datingfornaughties.com^$all
+||multiflings.com^$all
+||newlove.life^$all
+||real-women-online.com^$all
+/?camp=*&cost=0.$doc
 /^https?:\/\/[-0-9a-z]*prize[-0-9a-z]+\.live\/\?u=[0-9a-z]+&o=[0-9a-z]+/$doc,domain=live
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
@@ -91710,6 +91718,8 @@ gumtree.com.au#@#.header--is-new-sticky-behaviour
 timesunion.com##div.setHeight.stickyWrapper
 @@||delmarlearning.com^$1p,script
 ||prebid.elespectador.com^$script,redirect-rule=googletagservices_gpt.js,1p,important
+||avito.st/*/0.gif$image,redirect-rule=1x1.gif,domain=avito.ru
+@@||googletagmanager.com/gtm.js$script,domain=blaklader.ca|blaklader.com|blaklader.uk
 ||0x0x0pp.duckdns.org$all
 ||0x5cff39c3$all
 ||0xb907d607$all
