@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yKydaw1HXRMwGG2rhzRiEQ
+! Checksum: 8X6lkRFmNf5Fba96h9uScg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201232030
-! Last Modified: 2022年01月23日 20:30
+! Version: 202201240221
+! Last Modified: 2022年01月24日 02:21
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -57753,7 +57753,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||optout.networkadvertising.org^$document
 @@||p.d.1emn.com^$script,domain=hotair.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=downloads.codefi.re|globaldjmix.com|nlfreevpn.com|oldapps.com|slideplayer.com|smallseotools.com|tampermonkey.net|thefreedictionary.com|windows7themes.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=knowfacts.info|real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|thefreedictionary.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.pixelexperience.org|knowfacts.info|real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|thefreedictionary.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=nullpress.net
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=soranews24.com
 @@||pagead2.googlesyndication.com/pagead/js/lidar.js$domain=convert-me.com|grammarist.com
@@ -59838,6 +59838,8 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||sm9t.ml^
 ||ud783c08.com^
+||tuyihea.top^
+||kangaroobro.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^

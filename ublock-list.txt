@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GFKgcYkxM1vmWhBPwVb+hw
+! Checksum: JWmCBIcEkqqGvYObdfxl0Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201232030
-! Last Modified: 2022年01月23日 20:30
+! Version: 202201240221
+! Last Modified: 2022年01月24日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57303,7 +57303,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||optout.networkadvertising.org^$document
 @@||p.d.1emn.com^$script,domain=hotair.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=downloads.codefi.re|globaldjmix.com|nlfreevpn.com|oldapps.com|slideplayer.com|smallseotools.com|tampermonkey.net|thefreedictionary.com|windows7themes.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=knowfacts.info|real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|thefreedictionary.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.pixelexperience.org|knowfacts.info|real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|thefreedictionary.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=nullpress.net
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=soranews24.com
 @@||pagead2.googlesyndication.com/pagead/js/lidar.js$domain=convert-me.com|grammarist.com
@@ -86937,13 +86937,11 @@ zetporn.com##+js(aopr, ExoLoader.serve)
 zetporn.com##+js(aeld, click, popMagic)
 zetporn.com##+js(acis, addEventListener, -0x)
 zetporn.com##.aside-itempage-col
-/\.com\/[a-z]{9,}\/[A-Za-z]{9,}\.js$/$script,1p,domain=zetporn.com
-||zetporn.com/sw.js
+/\.com\/[A-Za-z]{9,}\/[A-Za-z]{9,}\.js$/$script,1p,domain=zetporn.com
+||zetporn.com/*/custom_vast/$xhr
 ||eighing.space^$3p
 ||entsconsesi.top^$3p
 ||madehimn.xyz^
-||srsihavelearn.xyz^
-||yestedjgrs.xyz^
 *$script,3p,denyallow=googleapis.com,domain=zetporn.com
 blackenterprise.com##+js(acis, document.createElement, admiral)
 blackenterprise.com##.penci-sidebar-widgets.penci-sticky-sidebar.widget-area-1.widget-area > .theiaStickySidebar
@@ -87632,9 +87630,10 @@ freereceivesms.com##+js(nosiif, 0x)
 freereceivesms.com##a[href^="https://www.18sex.org/"]
 /wp-content/plugins/wp-banners/js/wp-banners.js
 ||pobre.tv/wp-banners.js
-coinsparty.com##+js(aopr, app_vars.force_disable_adblock)
 coinsparty.com##+js(nowoif)
 coinsparty.com##form[action$="/links/popad"]:remove()
+coinsparty.com##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
+||ad4point.nyc3.digitaloceanspaces.com^
 findjav.com##+js(aopr, __Y)
 findjav.com##+js(set, console.clear, noopFunc)
 @@||windowsbulletin.com^$ghide
@@ -89545,6 +89544,11 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||newlove.life^$all
 ||real-women-online.com^$all
 /?camp=*&cost=0.$doc
+||datedats2.com^$all
+||tuzik09cat.site^$all
+||monglitch.monster^$all
+||appfile.cc^$all
+||d13nu0oomnx5ti.cloudfront.net^
 /^https?:\/\/[-0-9a-z]*prize[-0-9a-z]+\.live\/\?u=[0-9a-z]+&o=[0-9a-z]+/$doc,domain=live
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
@@ -91744,6 +91748,7 @@ timesunion.com##div.setHeight.stickyWrapper
 ||prebid.elespectador.com^$script,redirect-rule=googletagservices_gpt.js,1p,important
 ||avito.st/*/0.gif$image,redirect-rule=1x1.gif,domain=avito.ru
 @@||googletagmanager.com/gtm.js$script,domain=blaklader.ca|blaklader.com|blaklader.uk
+@@||read.amazon.*/embed?$frame,3p,domain=goodreads.com
 ||0x0x0pp.duckdns.org$all
 ||0x5cff39c3$all
 ||0xb907d607$all
