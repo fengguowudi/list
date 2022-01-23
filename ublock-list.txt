@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ma2f9s5/0X+LBYDgs6O2HQ
+! Checksum: GFKgcYkxM1vmWhBPwVb+hw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201231422
-! Last Modified: 2022年01月23日 14:22
+! Version: 202201232030
+! Last Modified: 2022年01月23日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24410,6 +24410,7 @@ _800x80_
 ##.feed-shared-update--is-sponsored
 ##.feedBottomAd
 ##.feeds-adblade
+##.fem-ad
 ##.ffz_bottom_ad
 ##.fg_Ad
 ##.fgc-advertising
@@ -25774,6 +25775,7 @@ _800x80_
 ##.jc_ad_container
 ##.jeg_ad
 ##.jeg_ad_top
+##.jetpack-sponsored-posts-message
 ##.jg-ad-5
 ##.jg-ad-970
 ##.jimdoAdDisclaimer
@@ -37348,6 +37350,7 @@ tf2r.com#@#.adverts
 ||garglesoon.com^
 ||garnetsnails.com^
 ||garristo.com^
+||garysero.xyz^
 ||gastedidlemen.com^
 ||gatesbelievesgentlemen.com^
 ||gatesrichestbusts.com^
@@ -44242,6 +44245,7 @@ tf2r.com#@#.adverts
 ||sknkwpvrkz.com^
 ||skreighphotic.cam^
 ||skxgvqcgefyy.com^
+||skynetcdn.com^
 ||skynightmidm.com^
 ||slabshookwasted.com^
 ||slakesshimtames.com^
@@ -54117,6 +54121,7 @@ google.com##.GGQPGYLCMCB
 google.com##.GISRH3UDHB
 thefocus.news##.GRVMpuWrapper
 metservice.com##.Header
+unsplash.com##.HjpWP
 sporcle.com##.IMGgi
 israelnationalnews.com##.InfoIn
 israelnationalnews.com##.InfoIn2
@@ -54739,6 +54744,7 @@ mobafire.com##.exhibit-vertical
 streamingmedia.com##.expand
 yourbittorrent.com##.extneed
 thefinancialexpress-bd.com##.extraLink
+unsplash.com##.eziW_
 formula1.com##.f1-dfp-banner-wrapper
 audiophilereview.com##.f7e65-midcontent
 audiophilereview.com##.f7e65-sidebar-ad-widget
@@ -55775,7 +55781,7 @@ paultan.org##.wrapper-footer
 wsj.com##.wsj-ad-label
 webtoolhub.com##.wth_zad_text
 mcpmag.com##.xContent
-drivehub.in##.xc449bad4854773ff
+drivehub.in,indidrive.in,metamoviez.xyz##.xc449bad4854773ff
 livejournal.com##.xhtml_banner
 bit-tech.net##.xtag_container
 247mirror.com,365economist.com,bridewired.com,dailybee.com,drgraduate.com,historictalk.com,mvpmode.com,news-opossumsauce.com,parentmood.com,theecofeed.com,thefunpost.com,visualchase.com,wackojaco.com##.ya-slot
@@ -83412,6 +83418,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
 @@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|americanexpress.com|argos.co.uk|auspost.com.au|backcountry.com|bmw.com.au|collegeboard.org|costco.com|crackle.com|crimewatchdaily.com|directline.com|eonline.com|fcbarcelona.com|firststatesuper.com.au|godigit.com|hgtv.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|oprah.com|oracle.com|pnc.com|realtor.com|redbull.tv|repco.co.nz|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|stuff.co.nz|subaru.com|telegraph.co.uk|timewarnercable.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
+@@||aeries.net/aeries/scripts/require/analytics/views/$script,~third-party
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
@@ -89785,6 +89792,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||theannoyingsite.com^$all
 ||elongi.org^$all
 ||rbngdm.com^$all
+||discorx.gift^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
@@ -91421,6 +91429,8 @@ bing.com##+js(nosiif, logQueue, 10000)
 @@||warnermediacdn.com^$xhr,domain=ncaa.com
 uschovna.cz#@#body:style(background:none !important;)
 uschovna.cz##body:style(background-image:none !important)
+@@||cz.mrezadosa.com^$xhr,domain=uschovna.cz
+uschovna.cz##.branding:upward([target="_blank"])
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,important,domain=real-sports.jp
 ||milkygoodness.xyz^$badfilter
 ||milkygoodness.xyz/js/optscript/
