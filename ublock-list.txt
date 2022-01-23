@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pZwiUBEzbncJT9kaMVYHeA
+! Checksum: Ma2f9s5/0X+LBYDgs6O2HQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201230907
-! Last Modified: 2022年01月23日 09:07
+! Version: 202201231422
+! Last Modified: 2022年01月23日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -14161,6 +14161,7 @@ _800x80_
 ###js-cardview_ad
 ###js-image-ad-mpu
 ###js-page-ad-top
+###js-popup-cookie-block
 ###js-react-video-player-ad-right
 ###js-site-nav-ad-wrap
 ###js-story__ad-storyrec
@@ -19123,6 +19124,7 @@ _800x80_
 ##.adSpot-textBox
 ##.adSpot-textBoxGraphicRight
 ##.adSpot-twin
+##.adSpotFullWidth
 ##.adSpotIsland
 ##.adSquare
 ##.adStatementText
@@ -26281,6 +26283,7 @@ _800x80_
 ##.main_wrapper_upper_ad_area
 ##.mainadWrapper
 ##.mainadbox
+##.makeFooterAdSticky
 ##.mal-ad-unit
 ##.mal-koukoku-unit
 ##.mango_ads
@@ -33137,6 +33140,7 @@ tf2r.com#@#.adverts
 ||armpitarticle.com^
 ||arnt.xyz^
 ||aroundmonth.com^
+||arousedskinnyspeeding.com^
 ||arrivaltroublesome.com^
 ||arrlnk.com^
 ||arrnaught.com^
@@ -36637,6 +36641,7 @@ tf2r.com#@#.adverts
 ||expocrack.com^
 ||exponderle.pro^
 ||exporder-patuility.com^
+||exportspring.com^
 ||exposuremixed.com^
 ||expresswebtraffic.com^
 ||exrtbsrv.com^
@@ -53432,6 +53437,7 @@ techadvisor.com###TNrsRmAx
 today.az###TODAY_Slot_Top_1000x120
 today.az###TODAY_Slot_Vertical_01_240x400
 road.cc###Top-Billboard
+carsdirect.com###TopBanner
 warisboring.com###WIB300x250_IA_M_HB
 eetimes.com###WelcomeAdContainer
 eetimes.com###WelcomeAdContainer + #overlay
@@ -58039,6 +58045,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /__utm.js
 /__varnish_geoip
 /__wsm.gif
+/_gz/counter.php?
 /_hcms/perf
 /_lib/ga.js
 /_log?ocid=
@@ -59211,6 +59218,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /counter.js.php
 /counter.lt?
 /counter.php?chcounter_mode=
+/counter.php?width=
 /counter.pl?
 /counter.visit?
 /Counter.woa/*
@@ -60534,6 +60542,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /logpstatus.
 /logpv.aspx?
 /LogRecorder.
+/logrecordservice/*
 /logreferrer.php?
 /Logs/ad?
 /Logs/discovery?
