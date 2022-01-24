@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +lrIkqSuqCnOM7JKBwdAjQ
+! Checksum: 7jJMMa90nFi4hpdtlZJYrA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201240907
-! Last Modified: 2022年01月24日 09:07
+! Version: 202201241426
+! Last Modified: 2022年01月24日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8078,6 +8078,7 @@ _800x80_
 ###AdvertiseFrame
 ###Advertisement1
 ###Advertisement2
+###AdvertisementDiv
 ###AdvertisementLeaderboard
 ###AdvertisementRightColumnRectangle
 ###Advertisements
@@ -9185,6 +9186,7 @@ _800x80_
 ###adATF300x250
 ###adATF728x90
 ###adAd
+###adAside
 ###adBTF300x250
 ###adBTF300x250IC
 ###adBadges
@@ -30930,6 +30932,7 @@ _800x80_
 ##a[href^="https://www.sugarinstant.com/?partner_id="]
 ##a[href^="https://www.travelzoo.com/oascampaignclick/"]
 ##a[href^="https://www.vewwrmp.com/"]
+##a[href^="https://www.vfreecams.com/in/?track="]
 ##a[href^="https://www.what-sexdating.com/"]
 ##a[href^="https://www.xvinlink.com/?a_fid="]
 ##a[href^="https://zononi.com/"]
@@ -53844,6 +53847,7 @@ forums.somethingawful.com###notregistered
 gizbot.com###offersblocksection
 vapingunderground.com###oio-banner-5
 onlinemschool.com###oms_left
+livestreamfails.com###oranum_livefeed_container_0
 powvideo.net,streamplay.to###overlay
 rabbitstream.net,rapid-cloud.ru,streamrapid.ru###overlay-container
 modthesims.info###pagenavigation > div > small
@@ -55531,6 +55535,7 @@ alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.ne
 independent.ie##.slot1
 independent.ie##.slot4
 imdb.com##.slot_wrapper
+skinnyms.com##.sm-above-header
 bikeexif.com##.small
 tbs.com##.smallBanners
 startup.ch##.smallbanner
@@ -63229,6 +63234,7 @@ cgi-bin/counter
 /notifications/beacon/*
 /open.aspx?
 /open.html?$image
+/p1x1.gif
 /page.bsigroup.com/*
 /pixel-prod.
 /pixel?cid=
@@ -63808,6 +63814,7 @@ _mongo_stats/
 ||angorch-cdr7.com^$third-party
 ||angsrvr.com^$third-party
 ||anrdoezrs.net^$third-party
+||answerbook.com^$third-party
 ||answerscloud.com^$third-party
 ||anti-cheat.info^$third-party
 ||antiblock.info^$third-party
@@ -65519,7 +65526,7 @@ _mongo_stats/
 ||rqtrk.eu^$third-party
 ||rrimpl.com^$third-party
 ||rs0.co.uk^$third-party
-||rs6.net^$script,third-party
+||rs6.net^$image,script,third-party
 ||rstg.io^$third-party
 ||rsvpgenius.com^$third-party
 ||rtb123.com^$third-party
