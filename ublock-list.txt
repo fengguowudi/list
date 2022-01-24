@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7jJMMa90nFi4hpdtlZJYrA
+! Checksum: f+ogrWxCZyor8yk5vAfUlA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201241426
-! Last Modified: 2022年01月24日 14:26
+! Version: 202201242031
+! Last Modified: 2022年01月24日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -14163,7 +14163,6 @@ _800x80_
 ###js-cardview_ad
 ###js-image-ad-mpu
 ###js-page-ad-top
-###js-popup-cookie-block
 ###js-react-video-player-ad-right
 ###js-site-nav-ad-wrap
 ###js-story__ad-storyrec
@@ -84218,6 +84217,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.ru
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
 @@||alfadirect.ru/api/analytics/latest?$~third-party,xmlhttprequest
+@@||avito.st/s/a/i/0.gif$image,domain=avito.ru
 @@||boxberry.ru/bitrix/templates/main.adaptive/js/tracking.js
 @@||boxberry.ru/tracking.service/
 @@||coronavirus-monitor.ru/scripts/statistics/statistics.$script,~third-party
@@ -91757,6 +91757,11 @@ timesunion.com##div.setHeight.stickyWrapper
 ||avito.st/*/0.gif$image,redirect-rule=1x1.gif,domain=avito.ru
 @@||googletagmanager.com/gtm.js$script,domain=blaklader.ca|blaklader.com|blaklader.uk
 @@||read.amazon.*/embed?$frame,3p,domain=goodreads.com
+@@||c.zontera.com/adv/b.js$script,domain=profit.ro
+@@||core.zontera.com^$script,domain=profit.ro
+profit.ro##.zc_rectangle
+profit.ro##.zc_top
+himovies.to#@#a[onclick]
 ||0x0x0pp.duckdns.org$all
 ||0x5cff39c3$all
 ||0xb907d607$all
@@ -97714,8 +97719,8 @@ timesunion.com##div.setHeight.stickyWrapper
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Thu, 20 Jan 2022 13:28:02 GMT
-# entries:        3676
+# last updated:   Mon, 24 Jan 2022 09:42:35 GMT
+# entries:        3678
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1
@@ -100925,6 +100930,8 @@ timesunion.com##div.setHeight.stickyWrapper
 127.0.0.1 t.leady.com
 127.0.0.1 t.news.browns-restaurants.co.uk
 127.0.0.1 t.salesmatemail.com
+127.0.0.1 t.vacations.disneydestinations.com
+127.0.0.1 t.visit.disneydestinations.com
 127.0.0.1 t.visitorqueue.com
 127.0.0.1 taboola.com
 127.0.0.1 tag.links-analytics.com
