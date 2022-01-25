@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Sa7nuoxoP34fpknuNsHsiw
+! Checksum: nOdRZCri/DkGIhaiq6ga2A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201250913
-! Last Modified: 2022年01月25日 09:13
+! Version: 202201251423
+! Last Modified: 2022年01月25日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -10450,6 +10450,7 @@ _800x80_
 ###adlove
 ###adlrec
 ###adm-inline-article-ad-1
+###adm-inline-article-ad-2
 ###admain
 ###admaintop
 ###admanagerResultListBox
@@ -26211,6 +26212,8 @@ _800x80_
 ##.m-advertisement--container
 ##.m-block-ad
 ##.m-card-group--rightrail-ad
+##.m-content-advert
+##.m-content-advert-wrap
 ##.m-dfp-ad-text
 ##.m-gallery-overlay--ad-top
 ##.m-header-ad
@@ -26916,6 +26919,7 @@ _800x80_
 ##.o-ads-content
 ##.o-advert
 ##.o-listing__ad
+##.o-site-header__advert
 ##.o-story-content__ad
 ##.oad-ad
 ##.oas-ad
@@ -65444,7 +65448,7 @@ _mongo_stats/
 ||pushauction.com^$third-party
 ||pvd.to^$third-party
 ||pxaction.com^$third-party
-||pxf.io^$third-party
+||pxf.io^$image,script,third-party
 ||pxi.pub^$third-party
 ||pymx5.com^$third-party
 ||pzz.events^$third-party
