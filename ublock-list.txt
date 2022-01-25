@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nOdRZCri/DkGIhaiq6ga2A
+! Checksum: hE8zPUzWWm19e8qqTBpH3A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201251423
-! Last Modified: 2022年01月25日 14:23
+! Version: 202201252032
+! Last Modified: 2022年01月25日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -4124,6 +4124,7 @@
 /external/ad.
 /external/ad/*
 /external/ads/*
+/external_ad?
 /external_ads.
 /externalad.
 /externalads/*
@@ -58081,6 +58082,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /1x1p.gif?
 /1x1tracker.
 /2.gif?
+/24h-analytics.
 /2x2.gif?$image
 /3.gif?
 /500b-bench.jpg?
@@ -68816,6 +68818,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||znctrack.net^$third-party
 ||adtimaserver.vn^$third-party
 ||amcdn.vn^$third-party
+||ants.vn^$third-party
 ||contineljs.com^$third-party
 ||gostats.vn^$third-party
 !-----------------Third-party tracking services-----------------!
@@ -71979,6 +71982,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||f-emc.ngsp.gov.vn^
 ||fpt.shop/fa_tracking.js
 ||tracking.aita.gov.vn^
+||za.zdn.vn^
 ||zalo.me/v3/w/_zaf.gif
 !-----------------Individual tracking systems-----------------!
 ||1337x.to/ip3.php
@@ -83568,6 +83572,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
 @@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-party
+@@||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||smartrevise.online/css/analytics.min.css$~third-party
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
@@ -89971,6 +89976,8 @@ fjlaboratories.com##+js(aost, Math.floor, injectedScript)
 mailfloss.com##+js(aost, Math.floor, anonymous)
 stoic.ai##+js(aost, Math.floor, anonymous)
 tragonesymazmorras.com##+js(aost, Math.floor, anonymous)
+||ampl.cinotes.com^
+||api-iam.intercom.io/messenger/web/ping^
 ||cdn.cindicator.com/$script,3p
 ||fantastic-diamond.cf^
 ||reckoning-internet.tk^
@@ -91820,6 +91827,7 @@ profit.ro##.zc_rectangle
 profit.ro##.zc_top
 himovies.to#@#a[onclick]
 @@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager.com/gtm.js,domain=woolworths.co.za
+@@||banner.customer.kyruus.com^$xhr,domain=doctors.bannerhealth.com
 ||0x0x0pp.duckdns.org$all
 ||0x5cff39c3$all
 ||0xb907d607$all
@@ -97813,8 +97821,8 @@ himovies.to#@#a[onclick]
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Mon, 24 Jan 2022 09:42:35 GMT
-# entries:        3678
+# last updated:   Tue, 25 Jan 2022 09:38:21 GMT
+# entries:        3679
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1
@@ -100111,6 +100119,7 @@ himovies.to#@#a[onclick]
 127.0.0.1 matheranalytics.com
 127.0.0.1 mathtag.com
 127.0.0.1 matomo.activate.cz
+127.0.0.1 matomo.crossiety.app
 127.0.0.1 matomo.gals24.ru
 127.0.0.1 matomo.hdweb.ru
 127.0.0.1 matomo.kmkb.ru
