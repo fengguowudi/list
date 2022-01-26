@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lC9RfU241pwNynMweCGZvw
+! Checksum: FpycOXtLgt5ePEGaGcJNCw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201261423
-! Last Modified: 2022年01月26日 14:23
+! Version: 202201262030
+! Last Modified: 2022年01月26日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -69674,6 +69674,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geckofoot.com/gfvisitormap.aspx?
 ||gem.com/api/o/$image,third-party
 ||gemius.mgr.consensu.org^
+||genesis.malwarebytes.com^
 ||geni.us/snippet.js
 ||geni.us/snippet.min.js
 ||geo.ertya.com^
@@ -83542,6 +83543,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics.tercept.com/js/ga.js$script,~third-party
 @@||analytics.twitter.com^$domain=analytics.twitter.com
 @@||ancestrycdn.com/ui-static/lib/tracking/$domain=ancestry.com
+@@||apc-pli.com/api/tracking/$~third-party,xmlhttprequest
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipify.org^$script,domain=right-on.co.jp
@@ -88447,7 +88449,7 @@ glotorrents.fr-proxy.com##+js(aopw, decodeURI)
 glotorrents.fr-proxy.com##+js(aopw, adcashMacros)
 glotorrents.fr-proxy.com,glotorrents.theproxy.ws##+js(nowoif)
 glotorrents.fr-proxy.com,glotorrents.theproxy.ws##+js(aopr, String.prototype.charCodeAt)
-mikaraw.com##div[class^="blockads_"]
+mikaraw.com##div[style*="width: 350px"][style*="height: 250px"]
 ||cdn.fedsy.xyz/app.js
 myoplay.club##+js(acis, JSON.parse, break;case $.)
 loticon.xyz##+js(acis, document.getElementById, 'OK')
@@ -89447,6 +89449,9 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||actgames.site^$all
 ||adserver5.sbs^$all
 ||trwl1.com^$all
+||clixwells.com^$all
+||shinearmor.space^$all
+||wxhiojortldjyegtkx.bid^$all
 ||hyperwage.com^$all
 ||ricavato.com^
 ||bitcoingenerator.me^$all
@@ -90016,8 +90021,9 @@ search.brave.com##+js(no-fetch-if, body:cohort)
 /^\w+://[0-9a-z]{12}\.tapmyback\.com//$1p,script
 /^\w+://[\w.\-]+\.www\.cefirates\.com//$1p,script
 fjlaboratories.com##+js(aost, Math.floor, injectedScript)
-mailfloss.com##+js(aost, Math.floor, anonymous)
-stoic.ai##+js(aost, Math.floor, anonymous)
+mailfloss.com##+js(acis, String.fromCharCode, join)
+stoic.ai##^script:has-text(\x3c)
+stoic.ai##+js(aost, Math.floor, injectedScript)
 tragonesymazmorras.com##+js(aost, Math.floor, anonymous)
 ||ampl.cinotes.com^
 ||api-iam.intercom.io/messenger/web/ping^
