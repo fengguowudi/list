@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dxWX7DxbvvsWrVsnV+NbUA
+! Checksum: WNNUTXyMuFg6BtwGCWhXpg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201281423
-! Last Modified: 2022年01月28日 14:23
+! Version: 202201282030
+! Last Modified: 2022年01月28日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1725,7 +1725,7 @@
 /adlantis.
 /adlayer.
 /adlayer/*
-/adlead.$domain=~adlead.com|~adlead.ru
+/adlead.$domain=~adlead.com|~adlead.pro|~adlead.ru
 /adleader.
 /adleaderboardtop.
 /adleft.
@@ -30875,7 +30875,7 @@ _800x80_
 ##a[href^="https://track.afftck.com/"]
 ##a[href^="https://track.bruceads.com/"]
 ##a[href^="https://track.clickmoi.xyz/"]
-##a[href^="https://track.effiliation.com/servlet/effi.redir?"]
+##a[href^="https://track.effiliation.com/servlet/effi.redir?"] > img
 ##a[href^="https://track.healthtrader.com/"]
 ##a[href^="https://track.interactivegf.com/"]
 ##a[href^="https://track.themadtrcker.com/"]
@@ -33366,6 +33366,7 @@ tf2r.com#@#.adverts
 ||aujaujoa.net^
 ||aujooxoo.com^
 ||aukalerim.com^
+||aukoatow.com^
 ||aukrouwy.net^
 ||aulingimpora.club^
 ||aulrains.com^
@@ -33466,6 +33467,7 @@ tf2r.com#@#.adverts
 ||awstaticdn.net^
 ||awsurveys.com^
 ||awtvnrgwxletd.com^
+||awxoddnhl.xyz^
 ||axeldivision.com^
 ||axhntisudyhmxjd.xyz^
 ||axill.com^
@@ -34307,6 +34309,7 @@ tf2r.com#@#.adverts
 ||bxgjpocfz1g1jiwb.pro^
 ||bxkxzjdjxeexi.com^
 ||bxmrvgoel.top^
+||bxqgxnechpwojfo.com^
 ||bxsfvqhzj.com^
 ||byaronan.com^
 ||bybastiodoner.com^
@@ -34756,6 +34759,8 @@ tf2r.com#@#.adverts
 ||cizykytha.com^
 ||cjezgbjbltos.com^
 ||cjf25jklrwqt.com^
+||cjkeiekf.com^
+||cjqncwfxrfrwbdd.com^
 ||cjsossrbji.xyz^
 ||cjt1.net^
 ||ckeckstatus.biz^
@@ -41582,6 +41587,7 @@ tf2r.com#@#.adverts
 ||oohingjap.com^
 ||oojexulr.net^
 ||oolufhbdabqce.com^
+||oomsoapt.net^
 ||oopsowhi.com^
 ||ooq5z.com^
 ||ooredi.com^
@@ -41794,6 +41800,7 @@ tf2r.com#@#.adverts
 ||oyywtwcx.com^
 ||ozertesa.com^
 ||ozmifi.info^
+||ozobsaib.com^
 ||ozonemedia.com^
 ||ozongees.com^
 ||ozora.work^
@@ -46334,6 +46341,7 @@ tf2r.com#@#.adverts
 ||vmuid.com^
 ||vn6e8w2w92.com^
 ||vnacdnryl.com^
+||vnaujncaeoygdw.com^
 ||vnq33.com^
 ||vnq53.com^
 ||vnq73.com^
@@ -54025,7 +54033,7 @@ skysports.com###mpu-1
 spin.ph###mrec3
 whatshappening.com.ph###mrecCarousel
 nitrome.com###mu_3_container
-atlantatribune.com,footballleagueworld.co.uk,tribune.net.ph###mvp-leader-wrap
+atlantatribune.com,footballleagueworld.co.uk,ripplecoinnews.com,tribune.net.ph###mvp-leader-wrap
 twinfinite.net###mvp-main-content-wrap
 mediaupdate.co.za###mycarousel
 comicbook.com###native-plus-top1
@@ -55955,7 +55963,7 @@ twistedsifter.com##.widget_sifter_ad_bigbox_widget
 acprimetime.com,brigantinenow.com,downbeachbuzz.com##.widget_sp_image
 screenbinge.com,streamingrant.com##.widget_sp_image-image-link
 gamertweak.com##.widget_srlzycxh
-lostintechnology.com,webkinznewz.ganzworld.com##.widget_text
+lostintechnology.com,ripplecoinnews.com,webkinznewz.ganzworld.com##.widget_text
 nypost.com##.widget_text.no-mobile.box
 helpnetsecurity.com##.widgetized_wrapper
 ign.com##.wiki-bobble
@@ -57163,7 +57171,7 @@ pornone.com##.video-add
 niceporn.xxx##.video-aside
 watchmygf.tv##.video-aside-spot
 sexseeimage.com##.video-block-happy
-comicsxxxgratis.com##.video-container
+comicsxxxgratis.com,video.javdock.com##.video-container
 boyfriendtv.com##.video-extra-wrapper
 ok.xxx,pornhat.com##.video-link
 pornhdtube.tv##.video-overlay
@@ -87008,8 +87016,12 @@ softcobra.com###custom_html-6
 softcobra.com##.message
 listendata.com##+js(acis, onload)
 spleaks.org##+js(acis, $, test)
-ads-ti9ni4.blogspot.com,bouamra.blogspot.com,cintateknologi.com,dr-ios.com,festinhadorodil.com.br,funnymadworld.blogspot.com,gfilex.blogspot.com,ishortlink.blogspot.com,mrshehab-tito.blogspot.com,pramejarab.blogspot.com,thelibrarydigital.blogspot.com,tienganhedu.com,tienichdienthoai.net,xbox360torrent.com##+js(acis, document.addEventListener, google_ad_client)
+ads-ti9ni4.blogspot.com,bouamra.blogspot.com,cintateknologi.com,dr-ios.com,funnymadworld.blogspot.com,gfilex.blogspot.com,ishortlink.blogspot.com,pramejarab.blogspot.com,thelibrarydigital.blogspot.com,tienganhedu.com,tienichdienthoai.net,xbox360torrent.com##+js(acis, document.addEventListener, google_ad_client)
 www-daftarharga.blogspot.com##+js(nostif, nextFunction)
+www-daftarharga.blogspot.com##+js(nowoif)
+www-daftarharga.blogspot.com##+js(aeld, popstate)
+www-daftarharga.blogspot.com##+js(aeld, , focus)
+xbox360torrent.com##+js(nowoif)
 playwatchnet.com##+js(nowoif)
 arenaboard.xyz##+js(nowoif)
 porno-japones.top##+js(acis, document.addEventListener, adsbygoogle)
