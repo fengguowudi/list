@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Tg1dVNP0+OKui8fqzIZPRA
+! Checksum: dRHALRKikTI3kkcogg/30w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201311423
-! Last Modified: 2022年01月31日 14:23
+! Version: 202201312032
+! Last Modified: 2022年01月31日 20:32
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17332,6 +17332,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ditaow.cn^
 ||slgo.club^
 ||gyrenmai.icu^
+||ikcdhqh.cn^
+||jxxiangyujinshu.com^
+||8gustis.xyz^
+||uni-king.cn^
+||mx98.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
