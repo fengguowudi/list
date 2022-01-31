@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /hE/Jv2gOkzNcdzxrQU/xg
+! Checksum: 6P25qhY+uHD/JQEfwne0bQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202201312032
-! Last Modified: 2022年01月31日 20:32
+! Version: 202202010222
+! Last Modified: 2022年02月01日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -30887,7 +30887,7 @@ _800x80_
 ##a[href^="https://track.afftck.com/"]
 ##a[href^="https://track.bruceads.com/"]
 ##a[href^="https://track.clickmoi.xyz/"]
-##a[href^="https://track.effiliation.com/servlet/effi.redir?"] > img
+##a[href^="https://track.effiliation.com/servlet/effi.click?"] > img
 ##a[href^="https://track.healthtrader.com/"]
 ##a[href^="https://track.interactivegf.com/"]
 ##a[href^="https://track.themadtrcker.com/"]
@@ -90784,6 +90784,7 @@ himovies.to#@#a[onclick]
 @@||google.com^*recaptcha/$frame
 @@||gstatic.com/recaptcha/*$css
 ||ghosthis.review^$badfilter
+@@||amebame.com/pub/ads/$image,domain=abema.tv
 ||0x0x0pp.duckdns.org$all
 ||1.0.218.230$all
 ||1.10.147.106$all
@@ -97336,8 +97337,8 @@ himovies.to#@#a[onclick]
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 25 Jan 2022 09:38:21 GMT
-# entries:        3679
+# last updated:   Mon, 31 Jan 2022 15:25:00 GMT
+# entries:        3680
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -100772,6 +100773,7 @@ himovies.to#@#a[onclick]
 127.0.0.1 trk42.net
 127.0.0.1 trkn.us
 127.0.0.1 trknths.com
+127.0.0.1 trkoptimizer.com
 127.0.0.1 trmit.com
 127.0.0.1 truckstomatoes.com
 127.0.0.1 truehits.net
