@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ctKkiI+mRHZ3oelvLKbSAg
+! Checksum: L7CZtKP7vchhLfEsG/dJgw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202010910
-! Last Modified: 2022年02月01日 09:10
+! Version: 202202011423
+! Last Modified: 2022年02月01日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2855,7 +2855,7 @@
 /adtaily_
 /adtaobao.
 /adTargeting.$domain=~adtargeting.com
-/adtech.$~script,domain=~adtech.co.uk|~adtech.md
+/adtech.$~script,domain=~adtech.co.uk|~adtech.io|~adtech.md
 /adtech/*
 /adtech;
 /adtech_$domain=~adtech.co.uk
@@ -22423,6 +22423,7 @@ _800x80_
 ##.aolSponsoredLinks
 ##.aopsadvert
 ##.ap_str_ad
+##.apexAd
 ##.apiAdMarkerAbove
 ##.apiAds
 ##.apiButtonAd
@@ -37903,6 +37904,7 @@ tf2r.com#@#.adverts
 ||hotgvibe.com^
 ||hothta.com^
 ||hotideiasnetwork.ga^
+||hotnaturey.xyz^
 ||hotrodsvmsize.casa^
 ||hotterenvisage.com^
 ||houdodoo.net^
@@ -43003,6 +43005,7 @@ tf2r.com#@#.adverts
 ||rukoval.com^
 ||rulejanuary.com^
 ||rulinecrea.xyz^
+||rulkerton.site^
 ||rumerrand.com^
 ||rummyaffiliates.com^
 ||run-syndicate.com^
@@ -57430,8 +57433,10 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /amazon-affiliate-
 /amdhfp/a.do?param$image
 /amdhfp/t.do?id$image
+/amp-access/cta/*
 /amp-access/cta?
 /amp-access/ping?
+/amp-access/set/*
 /amp-access/set?
 /amp-analytics-
 /amp-analytics/*
@@ -82688,6 +82693,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-party
 @@||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
+@@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||smartrevise.online/css/analytics.min.css$~third-party
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
 @@||songstats.com/api/v1/analytics/track_data$~third-party,xmlhttprequest
