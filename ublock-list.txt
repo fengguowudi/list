@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: L7CZtKP7vchhLfEsG/dJgw
+! Checksum: skFSGh3M8xJZEP7KiANvqg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202011423
-! Last Modified: 2022年02月01日 14:23
+! Version: 202202012033
+! Last Modified: 2022年02月01日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -86833,8 +86833,9 @@ crictime.*##^script:has-text(break;case)
 crictime.*##+js(acis, JSON.parse, break;case $.)
 eplayer.click##+js(aeld, error)
 hdsport.biz##+js(no-fetch-if, method:HEAD)
-hdsport.biz##+js(aopr, AaDetector)
+eplayer.click,hdsport.biz##+js(aopr, AaDetector)
 ||include.canale.live^
+||laidwhenadmiring.com^
 @@||fotbaltv.biz/reclama/*.php?id=$frame
 *$script,redirect-rule=noopjs,domain=1cloudfile.com
 1cloudfile.com##+js(nowoif)
@@ -87795,7 +87796,7 @@ mangastream.mobi###myModal
 #@#.adsBox
 ##.adsBox:not([style$="-99999px;"])
 #@#.ad-placement
-##.ad-placement:not(.afs_ads)
+##.ad-placement:not(.adsbox):not(.afs_ads)
 globfone.com##+js(no-xhr-if, ads)
 donugdee.com##.ad-overlay-click
 donugdee.com##.moviePlayer
@@ -90831,6 +90832,7 @@ himovies.to#@#a[onclick]
 @@||gstatic.com/recaptcha/*$css
 ||ghosthis.review^$badfilter
 @@||amebame.com/pub/ads/$image,domain=abema.tv
+||rudaw.net/images/$image,1p,redirect-rule=1x1.gif,important
 ||0x0x0pp.duckdns.org$all
 ||1.0.218.230$all
 ||1.180.69.202$all
