@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fnJqvkQJBkmuQy3uhNqdKA
+! Checksum: KEkl0Xzx5TLRRJFNi/VfPA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202031423
-! Last Modified: 2022年02月03日 14:23
+! Version: 202202032031
+! Last Modified: 2022年02月03日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -89156,7 +89156,7 @@ brillen.de##+js(acis, document.createElement, 'script')
 !#endif
 /analytics/analytics.$~xmlhttprequest,3p
 /ga_setup.js$3p
-/google-analytics.$3p,~image
+/google-analytics.$3p,~image,domain=~secure.exeloncorp.com
 /googleanalytics.js$3p
 -google-analytics/$domain=~wordpress.org,badfilter
 -google-analytics/$3p,domain=~wordpress.org
