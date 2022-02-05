@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3jVZgIxR2oZZnOjF/6MLWA
+! Checksum: NE7rfRP7TCyx2K4NxtJ2rQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202052023
-! Last Modified: 2022年02月05日 20:23
+! Version: 202202060218
+! Last Modified: 2022年02月06日 02:18
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -85929,6 +85929,7 @@ freejav.guru##+js(nostif, disableDeveloperTools)
 freejav.guru##+js(aeld, click, popMagic)
 freejav.guru##+js(aeld, DOMContentLoaded, adsBlocked)
 javguru.tk##+js(nowoif)
+mambast.tk##+js(aopr, __Y)
 filmux.to##+js(aopr, absda)
 sexuhot.com##+js(aopw, atOptions)
 sexuhot.com##+js(aopr, history.replaceState)
@@ -91210,6 +91211,11 @@ walletinvestor.com##body:style(overflow: auto !important;)
 walletinvestor.com###bio_ep_bg
 @@||sololearn.com/api/*/comments/*$xhr,1p
 @@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager.com/gtm.js,domain=aeriagames.com
+@@||ads.imprezzer.com/js/imprezzer2.min.js$script,domain=mgronline.com
+@@||ads.imprezzer.com/js/multisize_responsive.js$script,domain=mgronline.com
+@@||ads.imprezzer.com/js/multisize_bottompage_responsive.js$script,domain=mgronline.com
+@@||ads.imprezzer.com/js/imprezzer_vip2.js$script,domain=mgronline.com
+mgronline.com##[href^="https://www.hotelscombined.co.th/"]
 ||0x0x0pp.duckdns.org$all
 ||1.0.218.230$all
 ||1.168.7.252$all
