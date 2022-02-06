@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7mElpzMmECuARKL6vcnqrA
+! Checksum: e9Cl4m6lCcVwPwri4XPXjw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202060916
-! Last Modified: 2022年02月06日 09:16
+! Version: 202202061422
+! Last Modified: 2022年02月06日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -659,6 +659,7 @@
 /?affiliateId=*&realDomain=
 /?view=ad
 /_/ads/*
+/_adslot/*
 /_global/ads/*
 /_svc/ad/*
 /_xa/ads?
@@ -2062,6 +2063,7 @@
 /ads/160.
 /ads/160/*
 /ads/300.
+/ads/300/*
 /ads/468.
 /ads/468a.
 /ads/728-
@@ -23485,6 +23487,7 @@ _800x80_
 ##.calls-to-action__sidebar-ad-container
 ##.can_ad_slug
 ##.canoeAdvertorial
+##.carbon-ad
 ##.carbon_ads
 ##.carbonad
 ##.carbonad-tag
@@ -32821,6 +32824,7 @@ tf2r.com#@#.adverts
 ||airconditiondescendent.com^
 ||airpush.com^
 ||airrrxggfafnbl.xyz^
+||airsaurd.com^
 ||airsoubs.com^
 ||aissoksu.net^
 ||aiwhamti.com^
@@ -41983,6 +41987,7 @@ tf2r.com#@#.adverts
 ||ppfrlfe.com^
 ||ppomyzaheudlta.com^
 ||pppbrkwd.xyz^
+||ppqlnwavlmt.com^
 ||pprq7.com^
 ||ppscdnqkgj.com^
 ||ppxbsbluutiwc.xyz^
@@ -42308,6 +42313,7 @@ tf2r.com#@#.adverts
 ||pttsite.com^
 ||ptulepti.net^
 ||ptusuhucho.com^
+||ptutchiz.com^
 ||ptwmjmp.com^
 ||ptystuthyglo.com^
 ||pu1.biz^
@@ -46503,6 +46509,7 @@ tf2r.com#@#.adverts
 ||yebadu.com^
 ||yedikthslvl.xyz^
 ||yeegsxcwbnn.com^
+||yefbmjqdjkpr.com^
 ||yellowacorn.net^
 ||yemisleol.xyz^
 ||yempid.com^
@@ -51417,6 +51424,7 @@ tf2r.com#@#.adverts
 ||d3a49eam5ump99.cloudfront.net^
 ||d3ahinqqx1dy5v.cloudfront.net^
 ||d3aiy6aqoa3ykz.cloudfront.net^
+||d3al52d8cojds7.cloudfront.net^
 ||d3asksgk2foh5m.cloudfront.net^
 ||d3b2hhehkqd158.cloudfront.net^
 ||d3beefy8kd1pr7.cloudfront.net^
@@ -51572,6 +51580,7 @@ tf2r.com#@#.adverts
 ||chaturbate.com/affiliates/$popup
 ||cyberprivacy.pro^$popup
 ||download-step1.com^$popup
+||downloadoperagx.com/ef/$popup
 ||eatcells.com/landing/$popup
 ||error-alerts.com^$popup
 ||evanetwork.com^$popup
@@ -53205,6 +53214,7 @@ nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,
 nzbindex.com###i > .inner
 hltv.org###i3_middle
 klmanga.com,weloma.net###id-custom_banner
+atishmkv.life###idbannerplayer
 unitconversion.org###ileft
 furbooru.org###imagespns
 mydorpie.com###imgbcont
@@ -53826,6 +53836,7 @@ news12.com##.banner-middleboard-area
 timesofisrael.com##.banner-placeholder
 tweakreviews.com##.banner-placement__article
 news12.com##.banner-sidebar-area
+vedantu.com##.banner-text
 news12.com,pwinsider.com,usahealthcareguide.com##.banner-top
 licenseglobal.com##.banner-top-wrapper
 wpneon.com##.banner-week
@@ -54016,7 +54027,7 @@ drivespark.com##.cmscontent-left-article
 careerindia.com##.cmscontent-top
 cnn.com##.cn--expandable.cn--idx-1
 thisismoney.co.uk##.cnr5
-browserhow.com,charlieintel.com,hdmovies4u.live,iotwreport.com,rezence.com##.code-block
+browserhow.com,charlieintel.com,cryptoslate.com,hdmovies4u.live,iotwreport.com,rezence.com##.code-block
 conservativebrief.com##.code-block > span
 androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,techpp.com,whats-on-netflix.com##.code-block-1
 getdroidtips.com,patriotfetch.com,thisisanfield.com##.code-block-13
@@ -54401,6 +54412,10 @@ tripadvisor.com##.iab_medRec
 infobetting.com##.ibBanner
 ice.hockey##.ice_ner
 ice.hockey##.ice_werbung
+atishmkv.life##.idmuvi-center-ads
+atishmkv.life##.idmuvi-floatbanner
+atishmkv.life##.idmuvi-footerbanner
+atishmkv.life##.idmuvi-topplayer
 gamepressure.com##.if-no-baner
 pocket-lint.com##.im-desktop
 intomobile.com##.im_970x90
@@ -54919,7 +54934,7 @@ mirror.co.uk##.shopwindow-adslot
 mirror.co.uk##.shopwindow-advertorial
 skins.be##.shortBioShadowB
 siliconrepublic.com##.show-for-medium-up
-pixabay.com##.show-getty-item
+pixabay.com##.show-gtty-item
 bscscan.com,etherscan.io##.showcase-banner-spacing
 winx-club-hentai.com##.shr34
 mbauniverse.com##.shriresume-logo
@@ -55173,6 +55188,7 @@ joebucsfan.com##.tweet_div1
 karnalguide.com##.two_third > .push20
 shaaditimes.com##.txt[style="border: solid 1px #A299A6; background-color: #FDFCFC;"]
 tumblr.com##.uOyjG
+pixabay.com##.ua-affils
 ubergizmo.com##.ubergizmo-dfp-ad
 darko.audio##.ubm_widget
 nullpress.net##.uinyk-link
@@ -62686,6 +62702,7 @@ cgi-bin/counter
 .innologica.com/t/
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image
+.keap-link003.com/$image
 .keap-link011.com/$image
 .keap-link015.com/$image
 .kijiji.ca/r/
@@ -64657,6 +64674,7 @@ _mongo_stats/
 ||navigator.io^$third-party
 ||navilytics.com^$third-party
 ||naytev.com^$third-party
+||nc0.co^$third-party
 ||ncaudienceexchange.com^$third-party
 ||ndf81.com^$third-party
 ||ndg.io^$third-party
@@ -71548,6 +71566,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.slashdotmedia.com^
 ||analytics.synedat.com^
 ||analytics.twitter.com^
+||analytics.vedantu.com^
 ||androidfilehost.com/libs/otf/stats.otf.php?
 ||anon-stats.eff.org^
 ||apartments.com/clientvisit/al.gif?
@@ -71967,6 +71986,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.hackerrank.com^
 ||metrics.roblox.com^
 ||metrics.spkt.io^
+||metrics.syf.com^
 ||metricsishare.rediff.com^
 ||metro.co.uk/base/rta/
 ||metroweekly.com/tools/blog_add_visitor/
