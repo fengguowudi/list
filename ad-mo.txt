@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: W5M3cjnmT6A+Zp3QuYnT7A
+! Checksum: Tf2S0WNZgXBZRoyjpp4nhw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202070907
-! Last Modified: 2022年02月07日 09:07
+! Version: 202202071423
+! Last Modified: 2022年02月07日 14:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -11338,6 +11338,7 @@ _800x80_
 ###adsense_leaderboard
 ###adsense_overlay
 ###adsense_placeholder_2
+###adsense_r_side_sticky_container
 ###adsense_sidebar
 ###adsense_testa
 ###adsense_top
@@ -11873,6 +11874,9 @@ _800x80_
 ###advertcalc
 ###adverthome
 ###adverti
+###adverticum_r_above
+###adverticum_r_above_container
+###adverticum_r_side_container
 ###advertiframebottom
 ###advertise
 ###advertise-block
@@ -22264,6 +22268,9 @@ _800x80_
 ##.advertembed
 ##.advertheader-red
 ##.adverthome
+##.adverticum_container
+##.adverticum_content
+##.adverticum_gate_banner
 ##.advertis
 ##.advertis-left
 ##.advertis-right
@@ -30643,6 +30650,7 @@ _800x80_
 ##[src^="/Redirect.a2b?"]
 ##[src^="http://api.lanistaads.com/ServeAd?"]
 ##a[class="RBAd"]
+##a[class^="adChoices-"]
 ##a[data-redirect^="http://click.plista.com/pets"]
 ##a[href$="/5-"][target="_blank"][rel="nofollow"]
 ##a[href$="/vghd.shtml"]
@@ -56030,7 +56038,7 @@ drive.com.au##hr
 avanigo.com##iframe.lazyloaded
 micky.com.au##iframe[height="90"]
 coincodex.com,yourbittorrent.com##iframe[src]
-mangadna.com,vanime.co,watchseries.ninja,ytmp3.cc##iframe[style*="z-index: 2147483647"]
+123-movies.ninja,dramacool.pk,mangadna.com,vanime.co,watchseries.ninja,ytmp3.cc##iframe[style*="z-index: 2147483647"]
 fansshare.com##iframe[width="300"]
 shoesession.com##iframe[width="732"]
 windycitymediagroup.com,windycitytimes.com##img[alt*="Sponsor"]
@@ -59290,6 +59298,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||9391434.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -66999,6 +67008,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||mysteelcdn.com/common/*/js/img_ad.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -74850,6 +74860,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||lf666.xyz^
 ||taopiaopiao.shop^
+||dmfhqzo.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -83236,8 +83247,8 @@ fqsousou.com,kengso.com#@#.user-share
 /script_log.
 /scriptAnalytics.
 /scripts.kissmetrics.com/*
-/scripts/analytics.
 /scripts/analitics.
+/scripts/analytics.
 /scripts/analytics_
 /scripts/clickjs.php
 /scripts/contador.
@@ -87769,6 +87780,7 @@ _mongo_stats/
 ||vendri.io^$third-party
 ||ventivmedia.com^$third-party
 ||vepxl1.net^$third-party
+||verbolia.com^$third-party
 ||vercel-analytics.com^$third-party
 ||vercel-insights.com^$third-party
 ||vertical-leap.co.uk^$third-party
@@ -93081,7 +93093,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tsphone.biz/pixelvoleur.jpg?
 ||veoxa.com/get_trackingcode.
 ||vidazoo.com/report/?
-||viously.com/mt?
+||viously.com^*/mt?
 ||visitping.rossel.be^
 ||webreseau.com/impression.asp?
 ||webtutoriaux.com/services/compteur-visiteurs/index.php?$third-party
@@ -93757,6 +93769,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||arstechnica.com/keys/arstechnica.com/p.js
 ||atrack.allposters.com^
 ||ats.alot.com^
+||autotrader.com/pixall/
 ||avitop.com/aviation/hitlist.asp
 ||aws-native.com/ping/
 ||b.wal.co/rum.js$domain=samsclub.com
