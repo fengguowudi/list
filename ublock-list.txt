@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fHeQkAgEFiT3YcY81NJFHw
+! Checksum: xDQyuObiaO6p2oNjHUISnQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202071423
-! Last Modified: 2022年02月07日 14:23
+! Version: 202202072031
+! Last Modified: 2022年02月07日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20581,6 +20581,7 @@ _800x80_
 ##.ads-x1-super
 ##.ads-zone
 ##.ads.bottom
+##.ads.cta
 ##.ads.grid-layout
 ##.ads.rectangle160
 ##.ads.rectangle300
@@ -83553,6 +83554,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||static.leaddyno.com/js$script,domain=s4l.us
 !---------- Bosnian ----------
 @@||googletagmanager.com/gtag/js$script,domain=radiosarajevo.ba
+@@||ocdn.eu/ucs/static/*/onesignal.js$script,domain=pulsonline.rs
 !---------- Bulgarian ----------
 @@||google-analytics.com/analytics.js$domain=novatv.bg
 @@||zavedenia.com/resources/js/angularytics.min.js$script,~third-party
@@ -85012,6 +85014,7 @@ elitepvpers.com##[href="https://www.aimexcheats.com/"]
 elitepvpers.com##[href="https://www.skycheats.com/"]
 elitepvpers.com##[href^="https://funpay.com/"]
 elitepvpers.com##[href="https://proofcore.io/"]
+elitepvpers.com##[src^="https://www.elitepvpers.com/"][src*=".gif"][height]:not([height^="1"]):not([alt^="Post"])
 ||playorigin.com^$3p
 *$3p,image,domain=elitepvpers.com,denyallow=gstatic.com|ghostaim.com|imgur.com|imagebanana.com|imgbb.com|giphy.com|epvpimg.com|discord.com|discordapp.com|discordapp.net|postimages.org|directupload.net|imageupload.io|ibb.co|gyazo.com
 send.cm##+js(aopw, decodeURIComponent)
@@ -91281,7 +91284,6 @@ walletinvestor.com###bio_ep_bg
 @@||ads.imprezzer.com/js/multisize_bottompage_responsive.js$script,domain=mgronline.com
 @@||ads.imprezzer.com/js/imprezzer_vip2.js$script,domain=mgronline.com
 mgronline.com##[href^="https://www.hotelscombined.co.th/"]
-@@||datadoghq-browser-agent.com^$3p,script,domain=bbcgoodfood.com
 ||1.0.218.230$all
 ||1.168.110.252$all
 ||1.180.69.202$all
