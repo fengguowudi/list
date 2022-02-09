@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zNYPM3I6XiVjyffakKA/Sg
+! Checksum: laNg3CWjkzPk8Jx1iYHAPA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202090914
-! Last Modified: 2022年02月09日 09:14
+! Version: 202202091423
+! Last Modified: 2022年02月09日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -14,6 +14,7 @@
 &ad_network_
 &ad_slot=
 &ad_sub=
+&ad_system=
 &ad_time=
 &ad_type=
 &ad_url=
@@ -54287,6 +54288,7 @@ dailyfx.com##.dfx-article__sidebar
 notes.io##.directMessageBanner
 audiokarma.org##.discussionListItem > center
 govevents.com,protipster.com##.display
+pixabay.com##.display-gtty-item
 israelnationalnews.com##.div300
 jpost.com##.divConnatix
 tigerdroppings.com##.divHLeaderFull
@@ -55053,7 +55055,6 @@ mirror.co.uk##.shopwindow-adslot
 mirror.co.uk##.shopwindow-advertorial
 skins.be##.shortBioShadowB
 siliconrepublic.com##.show-for-medium-up
-pixabay.com##.show-gtty-item
 bscscan.com,etherscan.io##.showcase-banner-spacing
 winx-club-hentai.com##.shr34
 mbauniverse.com##.shriresume-logo
