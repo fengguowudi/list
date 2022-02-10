@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +Bw7TNvttAflzjkGjozRhg
+! Checksum: 9u/K86bhazGbCwj1oThxNQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202102030
-! Last Modified: 2022年02月10日 20:30
+! Version: 202202110222
+! Last Modified: 2022年02月11日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -33637,6 +33637,7 @@ tf2r.com#@#.adverts
 ||baufaich.com^
 ||bauthair.net^
 ||baxisafy.com^
+||bayalnephite.com^
 ||bayfluke.com^
 ||baysexthy.com^
 ||baywednesday.com^
@@ -34838,6 +34839,7 @@ tf2r.com#@#.adverts
 ||cnt.my^
 ||cntdy.mobi^
 ||cntrafficpro.com^
+||cnxdztpgjyc.com^
 ||coadvertise.com^
 ||coaphauk.net^
 ||coastsoak.com^
@@ -34867,6 +34869,7 @@ tf2r.com#@#.adverts
 ||cogleapad.com^
 ||cognizancebelievinghousing.com^
 ||cogsdigital.com^
+||cogwoodwelder.com^
 ||cohabitrecipetransmitted.com^
 ||coherepeasant.com^
 ||coinad.com^
@@ -35606,6 +35609,7 @@ tf2r.com#@#.adverts
 ||dfdybylchujl.com^
 ||dfgbalon.com^
 ||dfgchcnqsa.com^
+||dfmngtubtdfxnq.com^
 ||dftvhvapqxs.xyz^
 ||dgafgadsgkjg.top^
 ||dgmaplain.club^
@@ -36215,6 +36219,7 @@ tf2r.com#@#.adverts
 ||efinauknceiw.work^
 ||efjbjykvyxpil.com^
 ||efmqnhbbqyko.xyz^
+||efpvhqdw.xyz^
 ||egeisterytele.xyz^
 ||egfqtvewksktz.com^
 ||eggglove.com^
@@ -38189,6 +38194,7 @@ tf2r.com#@#.adverts
 ||humbugplanning.com^
 ||humiliateirresistiblesore.com^
 ||humorshieldrecede.com^
+||humpzip.com^
 ||humsoolt.net^
 ||hunchbackimpulse.com^
 ||hunchmotherhooddefine.com^
@@ -42723,6 +42729,7 @@ tf2r.com#@#.adverts
 ||qvcwklhelpk.xyz^
 ||qvorcqfon.com^
 ||qvuehosxuzhagv.com^
+||qvylkvlpjwz.com^
 ||qwa3ldhn9u0t.com^
 ||qwerfdx.com^
 ||qwertytracks.com^
@@ -44575,6 +44582,7 @@ tf2r.com#@#.adverts
 ||taptyvexy.pro^
 ||tarlifting.com^
 ||taroads.com^
+||tarsuscaul.com^
 ||tartoals.net^
 ||tarvemowhay.com^
 ||tastesmodifycount.com^
@@ -45173,6 +45181,7 @@ tf2r.com#@#.adverts
 ||tupeloherem.com^
 ||tupope.com^
 ||tur-tur-key.com^
+||turbanmadman.com^
 ||turbanmixturephysician.com^
 ||turboadv.com^
 ||turbolinkmc1.club^
@@ -50012,6 +50021,7 @@ tf2r.com#@#.adverts
 ||thebestgame2020.com^$popup
 ||thepornsurvey.com^$popup
 ||thetaweblink.com^$popup
+||thieverthinner.com^$popup
 ||thinkaction.com^$popup
 ||thisisyourprize.site^$popup
 ||thrilledaliasoil.com^$popup
@@ -56200,7 +56210,7 @@ porn-w.org#?#.row:-abp-contains(Promotion Bot)
 radioreference.com#?#.box.gradient:-abp-has(a[href*="&Click="])
 rawstory.com#?#.body-description > div:-abp-contains(ADVERTISEMENT)
 reddit.com#?#article.Post:-abp-has(a[rel="nofollow noopener sponsored"])
-mtgarena.pro#?##root > div > div:-abp-has( > .vm-placement)
+mtgarena.pro#?##root > div > div:-abp-has(> .vm-placement)
 mtgarena.pro#?##root > div:-abp-has(a[href*=casino])
 sbs.com.au#?#.c9 > div:-abp-contains(Advertisement)
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
@@ -62920,6 +62930,7 @@ cgi-bin/counter
 .mkt2684.com/eos/
 .mozilla.org/eos/$image
 .ne16.com/do/
+.netcologne.de/-open2/$image
 .oculus.com/collect/
 .pstmrk.it/open/
 .publish0x.com/t/
@@ -85006,19 +85017,14 @@ elitepvpers.com##[href="https://www.skycheats.com/"]
 elitepvpers.com##[href^="https://funpay.com/"]
 elitepvpers.com##[href="https://proofcore.io/"]
 ||playorigin.com^$3p
-*$image,3p,denyallow=gstatic.com|ghostaim.com|imgur.com|imagebanana.com|imgbb.com|giphy.com|epvpimg.com|discord.com|discordapp.com|discordapp.net|postimages.org|directupload.net|imageupload.io|ibb.co|gyazo.com|imgbox.de|images.weserv.nl|ipv4.imgur.map.fastly.net|snipboard.io|netdna-cdn.com,domain=elitepvpers.com
-elitepvpers.com##[style*="margin"]:has-text(/Advertise/i) + a[href]
+*$image,3p,denyallow=gstatic.com|ghostaim.com|imgur.com|imagebanana.com|imgbb.com|giphy.com|epvpimg.com|discord.com|discordapp.com|discordapp.net|postimages.org|directupload.net|imageupload.io|ibb.co|gyazo.com|imgbox.de|images.weserv.nl|ipv4.imgur.map.fastly.net|snipboard.io|netdna-cdn.com|puu.sh|abload.de,domain=elitepvpers.com
 elitepvpers.com#@#img[height="60"]
-elitepvpers.com##[style*="margin"]:has-text(/Ad/i) + a[rel]:has(img)
-elitepvpers.com##div[style]:has-text(/Advertise/i) + div[align="center"]
-elitepvpers.com##a[rel*="epvp"]
-||elitepvpers.com/iiii/$image
-||elitepvpers.com/*/aimex_*_*.gif$image
-||elitepvpers.com/*/*_general.gif$image
-||elitepvpers.com/*/funpay_poe_full_width.gif$image
-||elitepvpers.com/*/aimhelper_cod_lead.gif?1$image
-||elitepvpers.com/*/proofcore_*_ss.gif$image
-||elitepvpers.com/*/origin_*_pvp_*.gif$image
+elitepvpers.com##[style*="font-size"]:has-text(/Advertise/i) + a[href]
+elitepvpers.com##div[style]:has-text(/Advertise/i) + div[style*="align"]:has(img)
+elitepvpers.com##a[rel*="ugc e"]
+elitepvpers.com##a[href^="https://www.elitepvpers.com"][href*="/foo.php?bar="]:has(img)
+||elitepvpers.com/i*i/*.gif$image
+/\.com\/[a-z]{1,}\/[0-9a-z]{32}\.gif/$image,1p,domain=elitepvpers.com
 send.cm##+js(aopw, decodeURIComponent)
 send.cm##+js(acis, Promise, JSON.parse)
 ||send.cm^$csp=connect-src
@@ -87203,6 +87209,7 @@ mikl4forex.com##+js(nano-sib, counter, 2000)
 michaelemad.com##+js(nano-sib, timer)
 reddit.com##.adLinkBar:upward(article[style="z-index: 1;"])
 @@||xtremestream.co^$ghide
+xtremestream.co##.ad:style(height: 20px !important;)
 melodelaa.link##+js(nosiif, visibility, 1000)
 melodelaa.link###HTML7
 melodelaa.link###HTML20
@@ -88848,6 +88855,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||wxhiojortldjyegtkx.bid^$all
 ||pushmeup.art^$all
 ||pushub.net^$all
+/redirect2/?a=$doc
+&atc=adterra&ad_id=$doc
 ||hyperwage.com^$all
 ||ricavato.com^
 ||bitcoingenerator.me^$all
@@ -89067,7 +89076,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||m-afee.com^$all
 ||quickdates1.com^$all
 ||lovesingle.xyz^$all
-||c2orcv7zjn5y.top^$all
 ||foxon.biz^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
@@ -89309,6 +89317,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||elongi.org^$all
 ||rbngdm.com^$all
 ||discorx.gift^$all
+||c2orcv7zjn5y.top^$all
+.top/vpnupdate/*/index.html$doc
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
@@ -91283,6 +91293,8 @@ walletinvestor.com###bio_ep_bg
 @@||ads.imprezzer.com/js/imprezzer_vip2.js$script,domain=mgronline.com
 mgronline.com##[href^="https://www.hotelscombined.co.th/"]
 @@||onesignal.com/sdks/OneSignalSDK.js$domain=wowbiz.ro
+||lp.tfd-corp.co.jp^$badfilter
+||info.neg.co.jp^$badfilter
 ||1.0.218.230$all
 ||1.180.69.202$all
 ||1.189.22.64$all
