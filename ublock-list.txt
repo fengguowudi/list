@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8M2nToQp101V0ue0Orj6JA
+! Checksum: EGYGVxzgjIPSaaniPTO0OQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202111424
-! Last Modified: 2022年02月11日 14:24
+! Version: 202202112029
+! Last Modified: 2022年02月11日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -25237,6 +25237,7 @@ _800x80_
 ##.header-banner-ads
 ##.header-banner-advertising
 ##.header-bannerad
+##.header-content-ad-container
 ##.header-google-ads
 ##.header-google-adsense970
 ##.header-menu-horizontal-ads
@@ -65927,7 +65928,6 @@ _mongo_stats/
 ||whoisonline.net^$third-party
 ||whoisvisiting.com^$third-party
 ||whosclickingwho.com^$third-party
-||widebundle.com^$third-party
 ||widerplanet.com^$third-party
 ||wikia-beacon.com^$third-party
 ||wikiodeliv.com^$third-party
@@ -83122,6 +83122,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cloudfront.net/vis_opt.js$script,domain=gre.magoosh.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 @@||cloudmaestro.com^$script,domain=overtone.co
+@@||cms.gentwo.com/pulses/$~third-party,xmlhttprequest
 @@||cnet.com/a/video-player/uvpjs-rv/$script,~third-party
 @@||cognition-va.bytedance.com/api/knowledge/$xmlhttprequest,domain=ads.tiktok.com
 @@||cohesionapps.com/cohesion/$script,subdocument,domain=frontier.com
@@ -85019,14 +85020,14 @@ elitepvpers.com##[href="https://www.skycheats.com/"]
 elitepvpers.com##[href^="https://funpay.com/"]
 elitepvpers.com##[href="https://proofcore.io/"]
 ||playorigin.com^$3p
-*$image,3p,denyallow=gstatic.com|ghostaim.com|imgur.com|imagebanana.com|imgbb.com|giphy.com|epvpimg.com|discord.com|discordapp.com|discordapp.net|postimages.org|directupload.net|imageupload.io|ibb.co|gyazo.com|imgbox.de|images.weserv.nl|ipv4.imgur.map.fastly.net|snipboard.io|netdna-cdn.com|puu.sh|abload.de,domain=elitepvpers.com
 elitepvpers.com#@#img[height="60"]
-elitepvpers.com##[style*="font-size"]:has-text(/Аdvertise/i) + a[href^="https://www.elitepvpers.com"]
-elitepvpers.com##div[style*="font-size"] + div[style*="align"]:has(img)
-elitepvpers.com##a[href^="https://www.elitepvpers.com"][href*=".php?bar="]:has(img)
-elitepvpers.com##body > table > tbody > tr > td > div > [style*="position"]:has(img)
-elitepvpers.com##.page[style] > .epvpspaceropen[style] > a > img[height][width]
-/\/[0-9a-z]{32}\.gif/$image,1p,domain=elitepvpers.com
+elitepvpers.com##[style][class]:has-text(/Аdvertise/i) + a[href^="https://www.elitepvpers.com"]
+elitepvpers.com##div[style][class] + div[style*="align"]:has(img)
+elitepvpers.com##a[href^="https://www.elitepvpers.com"][href*=".php?bar"]:has(img)
+elitepvpers.com##body > table > tbody > tr > td > div > [style]:has(img)
+elitepvpers.com##.page[style] > [class][style] > a > img[height][width]
+/\/[0-9a-z]{32,}\.gif/$image,1p,domain=elitepvpers.com
+elitepvpers.com##span.smallfont[style="padding:0;"]
 send.cm##+js(aopw, decodeURIComponent)
 send.cm##+js(acis, Promise, JSON.parse)
 ||send.cm^$csp=connect-src
@@ -97146,7 +97147,7 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Fri, 04 Feb 2022 22:38:06 GMT
-# entries:        3679
+# entries:        3673
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1
@@ -97555,7 +97556,6 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 127.0.0.1 ads.bing.com
 127.0.0.1 ads.bittorrent.com
 127.0.0.1 ads.blog.com
-127.0.0.1 ads.bloomberg.com
 127.0.0.1 ads.bluemountain.com
 127.0.0.1 ads.boerding.com
 127.0.0.1 ads.boylesports.com
@@ -97674,7 +97674,6 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 127.0.0.1 ads.itv.com
 127.0.0.1 ads.iwon.com
 127.0.0.1 ads.jewishfriendfinder.com
-127.0.0.1 ads.joaffs.com
 127.0.0.1 ads.jobsite.co.uk
 127.0.0.1 ads.jpost.com
 127.0.0.1 ads.justhungry.com
@@ -97930,7 +97929,6 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 127.0.0.1 adserver.irishwebmasterforum.com
 127.0.0.1 adserver.janes.com
 127.0.0.1 adserver.lecool.com
-127.0.0.1 adserver.libero.it
 127.0.0.1 adserver.mobi
 127.0.0.1 adserver.msmb.biz
 127.0.0.1 adserver.news.com.au
@@ -98267,7 +98265,6 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 127.0.0.1 balloontexture.com
 127.0.0.1 banik.redigy.cz
 127.0.0.1 banner-exchange-24.de
-127.0.0.1 banner.ad.nu
 127.0.0.1 banner.ambercoastcasino.com
 127.0.0.1 banner.buempliz-online.ch
 127.0.0.1 banner.casino.net
@@ -99644,7 +99641,6 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 127.0.0.1 ns1p.net
 127.0.0.1 ntv.io
 127.0.0.1 ntvk1.ru
-127.0.0.1 nuggad.net
 127.0.0.1 nuseek.com
 127.0.0.1 nuttyorganization.com
 127.0.0.1 nzaza.com
@@ -100076,7 +100072,6 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 127.0.0.1 s.adroll.com
 127.0.0.1 s1-adfly.com
 127.0.0.1 s20dh7e9dh.com
-127.0.0.1 s2d6.com
 127.0.0.1 s2strk.info
 127.0.0.1 sa.api.intl.miui.com
 127.0.0.1 sabio.us
@@ -100473,7 +100468,6 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 127.0.0.1 touchclarity.com
 127.0.0.1 touchclarity.natwest.com
 127.0.0.1 tour.brazzers.com
-127.0.0.1 track.addevent.com
 127.0.0.1 track.adform.net
 127.0.0.1 track.anchorfree.com
 127.0.0.1 track.contently.com
@@ -100486,6 +100480,7 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 127.0.0.1 track.mailerlite.com
 127.0.0.1 track.miro.com
 127.0.0.1 track.segmetrics.io
+127.0.0.1 track.software-codes.com
 127.0.0.1 track.themaccleanup.info
 127.0.0.1 track.ultravpn.com
 127.0.0.1 track.unear.net
