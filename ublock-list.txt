@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EGYGVxzgjIPSaaniPTO0OQ
+! Checksum: kEJHnjqcOGS1Cnx10MQFDw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202112029
-! Last Modified: 2022年02月11日 20:29
+! Version: 202202120222
+! Last Modified: 2022年02月12日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -27182,6 +27182,7 @@ _800x80_
 ##.panel-adsense
 ##.panel-advert
 ##.panel-body-adsense
+##.panel.ad
 ##.panel__column--vc-advert
 ##.panel__row--with-vc-advert
 ##.panel_ad
@@ -30328,6 +30329,7 @@ _800x80_
 ##[src^="//adtorio.com/"]
 ##[src^="/Redirect.a2b?"]
 ##[src^="http://api.lanistaads.com/ServeAd?"]
+##a-ad
 ##a[class="RBAd"]
 ##a[class^="adChoices-"]
 ##a[data-redirect^="http://click.plista.com/pets"]
@@ -54479,6 +54481,8 @@ permies.com##.forum-top-banner
 newsroom.co.nz##.foundingpartners
 theiphoneappreview.com##.frame
 moviemistakes.com##.freestarad
+tripstodiscover.com##.fs-dynamic
+tripstodiscover.com##.fs-dynamic__label
 alphr.com##.fs-pushdown-sticky
 ghacks.net##.ftd-item.home-posts
 lovepanky.com##.full-width.row > .medium-12:first-child
@@ -85013,7 +85017,7 @@ elitepvpers.com##[href="https://skyredirect1.com/"]
 elitepvpers.com##[src^="https://f00f00.bar/"]
 elitepvpers.com##a [src*="_global"]
 elitepvpers.com##a [src*="sky."][src*=".gif"]
-elitepvpers.com##a[href*="?utm_source=epvp&utm_medium=banner&utm_campaign=epvp"]
+elitepvpers.com##a[href*="?utm_source=epvp1&utm_medium=banner&utm_campaign=epvp"]
 elitepvpers.com##div > .page > div > div[style]:has-text(/^Advertise/i) + a
 elitepvpers.com##[href="https://www.aimexcheats.com/"]
 elitepvpers.com##[href="https://www.skycheats.com/"]
@@ -85021,12 +85025,20 @@ elitepvpers.com##[href^="https://funpay.com/"]
 elitepvpers.com##[href="https://proofcore.io/"]
 ||playorigin.com^$3p
 elitepvpers.com#@#img[height="60"]
-elitepvpers.com##[style][class]:has-text(/Аdvertise/i) + a[href^="https://www.elitepvpers.com"]
-elitepvpers.com##div[style][class] + div[style*="align"]:has(img)
-elitepvpers.com##a[href^="https://www.elitepvpers.com"][href*=".php?bar"]:has(img)
-elitepvpers.com##body > table > tbody > tr > td > div > [style]:has(img)
-elitepvpers.com##.page[style] > [class][style] > a > img[height][width]
-/\/[0-9a-z]{32,}\.gif/$image,1p,domain=elitepvpers.com
+/\/[0-9a-zA-Z]{31,}\.gif/$image,1p,domain=elitepvpers.com
+||elitepvpers.com/*/*.gif?$1p
+@@||elitepvpers.com/cdn-cgi/images/trace/jschal/*js/transparent.gif?ray=$1p
+*930129b$image,1p,domain=elitepvpers.com
+*033107d$image,1p,domain=elitepvpers.com
+*d5c21b0$image,1p,domain=elitepvpers.com
+*dab2c80$image,1p,domain=elitepvpers.com
+*b17d5c2$image,1p,domain=elitepvpers.com
+*30acc39$image,1p,domain=elitepvpers.com
+*74ee30a$image,1p,domain=elitepvpers.com
+elitepvpers.com##[style]:has-text(/Аdvertise/i) + a[href^="https://www.elitepvpers.com"]
+elitepvpers.com##div[class] + div[style*="align"]:has(a):has(img)
+elitepvpers.com##body > table > tbody > tr > td > div > [class]:has(img)
+elitepvpers.com##a[href^="https://www.elitepvpers.com/"][rel*="ugc "] > img[scr="https://www.elitepvpers.com/"]
 elitepvpers.com##span.smallfont[style="padding:0;"]
 send.cm##+js(aopw, decodeURIComponent)
 send.cm##+js(acis, Promise, JSON.parse)
@@ -87909,8 +87921,9 @@ vidsaver.net##+js(acis, Math, /btoa|break/)
 vidsaver.net##^script:has-text(break;case $.)
 @@||printablebricks.com^$ghide
 lookmovie100.xyz,lookmovie101.xyz,lookmovie102.xyz,lookmovie103.xyz,lookmovie104.xyz,lookmovie105.xyz,lookmovie106.xyz,lookmovie107.xyz,lookmovie108.xyz,lookmovie109.xyz,lookmovie110.xyz,lookmovie111.xyz,lookmovie112.xyz,lookmovie113.xyz,lookmovie114.xyz,lookmovie115.xyz,lookmovie116.xyz,lookmovie117.xyz,lookmovie118.xyz,lookmovie119.xyz,lookmovie120.xyz,lookmovie121.xyz,lookmovie122.xyz,lookmovie123.xyz,lookmovie124.xyz,lookmovie125.xyz,lookmovie126.xyz,lookmovie127.xyz,lookmovie128.xyz,lookmovie129.xyz,lookmovie130.xyz,lookmovie131.xyz,lookmovie132.xyz,lookmovie133.xyz,lookmovie134.xyz,lookmovie135.xyz,lookmovie136.xyz,lookmovie137.xyz,lookmovie138.xyz,lookmovie139.xyz,lookmovie140.xyz,lookmovie141.xyz,lookmovie142.xyz,lookmovie143.xyz,thisistheplacetowatch.com,watchthesestuff.com,wehaveallcontent.com,bestalltimemovies.xyz,bestofworldcontent.com,contentforall.xyz,contentmatserishere.com,lmplayer.xyz##+js(acis, JSON.parse, break;case $.)
-store.filmyzilla-in.xyz##+js(aopr, app_vars.force_disable_adblock)
-store.filmyzilla-in.xyz##+js(set, blurred, false)
+filmyzilla-in.xyz##+js(aopr, app_vars.force_disable_adblock)
+filmyzilla-in.xyz##+js(set, blurred, false)
+||tubebuddy.com^$domain=filmyzilla-in.xyz
 orgasmatrix.com##+js(acis, document.querySelectorAll, popMagic)
 orgasmatrix.com##.card.post:has([href*="landing."])
 @@||cd.connatix.com/connatix.player.js$script,domain=loot.tv
@@ -88240,6 +88253,8 @@ mangastream.mobi###myModal
 ##.adsBox:not([style$="-99999px;"])
 #@#.ad-placement
 ##.ad-placement:not(.adsbox):not(.afs_ads)
+/ads-prebid.js$script,redirect-rule=prebid-ads.js
+/prebid-ads.js$script,redirect-rule=prebid-ads.js
 globfone.com##+js(no-xhr-if, ads)
 donugdee.com##.ad-overlay-click
 donugdee.com##.moviePlayer
@@ -89070,6 +89085,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||quickdates1.com^$all
 ||lovesingle.xyz^$all
 ||foxon.biz^$all
+||getmackeepersoftpro.xyz^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -89305,7 +89321,186 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||stcverify.com^$doc
 ||1980s.click^$doc
 ||discqrdapp.com^$all
-||warezcrack.net^$all
+||warezcrack.net^$doc
+||procrackerz.org^$doc
+||freeprosoftz.com^$doc
+||pccrackbox.com^$doc
+||365crack.com^$doc
+||pclicensekeys.com^$doc
+||cracklabel.com^$doc
+||keystool.com^$doc
+||aglianicodelvulture.eu^$doc
+||pcwarezbox.com^$doc
+||installcracks.com^$doc
+||10crack.com^$doc
+||licensekey4u.co^$doc
+||reallcrack.com^$doc
+||hit4crack.com^$doc
+||crackproductkey.com^$doc
+||profullversion.com^$doc
+||vcracks.com^$doc
+||keysfull.net^$doc
+||naqeebicrack.com^$doc
+||allcracks.org^$doc
+||crackswall.com^$doc
+||crackthere.com^$doc
+||crackpcsoft.net^$doc
+||a2zp30.net^$doc
+||crackserialkey.co^$doc
+||keygenfile.net^$doc
+||alicracks.com^$doc
+||maliksofts.com^$doc
+||proappcrack.com^$doc
+||flstudiocrack.org^$doc
+||scracked.com^$doc
+||crackpropc.com^$doc
+||crackwinz.com^$doc
+||cyberspc.com^$doc
+||crackedpcs.com^$doc
+||softzcrack.com^$doc
+||ayeshapc.com^$doc
+||crackshome.org^$doc
+||crackintopc.com^$doc
+||crackzoo.net^$doc
+||crackhomes.com^$doc
+||zslicensekey.com^$doc
+||cracksmad.com^$doc
+||iamactivator.com^$doc
+||crackproduct.com^$doc
+||excrack.com^$doc
+||mahcrack.com^$doc
+||get4pcs.com^$doc
+||genuineactivator.com^$doc
+||keygenwin.com^$doc
+||thiscrack.com^$doc
+||crackedroot.com^$doc
+||crackspro.co^$doc
+||topcracked.com^$doc
+||mycrackfree.com^$doc
+||cracksoftwareguru.com^$doc
+||crackfullpro.com^$doc
+||starcrack.net^$doc
+||procrackpc.com^$doc
+||crackknow.com^$doc
+||cracxpro.com^$doc
+||crackpro.org^$doc
+||4howcrack.com^$doc
+||crackshere.com^$doc
+||crackdj.com^$doc
+||procrackpc.com^$doc
+||cracksray.com^$doc
+||crackkits.com^$doc
+||trycracksoftware.com^$doc
+||fullcrackedpc.com^$doc
+||cracktopc.com^$doc
+||crackkey4u.com^$doc
+||cyberspc.com^$doc
+||rootcracks.org^$doc
+||getproductkey.co^$doc
+||idmfullcrack.info^$doc
+||fileserialkey.com^$doc
+||licensekeyup.com^$doc
+||thecrackbox.com^$doc
+||rootcracks.co^$doc
+||proactivationkey.com^$doc
+||cracksway.com^$doc
+||clevercracks.com^$doc
+||shahzifpc.com^$doc
+||idmpatched.com^$doc
+||getprocrack.co^$doc
+||allpcsoftcrack.co^$doc
+||autocracking.com^$doc
+||macwinsofts.com^$doc
+||productkeyfree.org^$doc
+||crackwatch.org^$doc
+||chcracked.com^$doc
+||cracksdat.com^$doc
+||patchcracks.com^$doc
+||activationkeys.co^$doc
+||serialsofts.com^$doc
+||piratpc.com^$doc
+||bulletcracks.com^$doc
+||prosoftlink.com^$doc
+||cracksole.com^$doc
+||finalcracked.com^$doc
+||activatorpros.com^$doc
+||organiccrack.com^$doc
+||zscracked.com^$doc
+||miraclecrack.com^$doc
+||allsoftwarekeys.com^$doc
+||genuineserials.com^$doc
+||softwar2crack.com^$doc
+||xforce-cracks.com^$doc
+||procracks.net^$doc
+||productkeyforfree.com^$doc
+||crackgrid.com^$doc
+||licensekeysfree.com^$doc
+||crackedmod.com^$doc
+||crackvip.com^$doc
+||crackedpc.org^$doc
+||activatorwin.com^$doc
+||whitecracked.com^$doc
+||softwarance.com^$doc
+||kalicrack.com^$doc
+||pcactivationkey.co^$doc
+||bypassapp.com^$doc
+||ziapc.org^$doc
+||zgamespc.com^$doc
+||cracksoon.com^$doc
+||boxcracked.com^$doc
+||procrackkey.co^$doc
+||activationkey.org^$doc
+||mjcracks.co^$doc
+||newproductkey.com^$doc
+||protoolscrack.net^$doc
+||download4mac.com^$doc
+||serialkeypatch.org^$doc
+||serialkeysfree.org^$doc
+||crackdev.com^$doc
+||piratesfile.com^$doc
+||wazusoft.com^$doc
+||getpcsofts.net^$doc
+||freeactivationkeys.org^$doc
+||patchlinks.com^$doc
+||rootscrack.com^$doc
+||cracktel.com^$doc
+||explorecrack.com^$doc
+||windowcrack.com^$doc
+||crackedsoftpc.com^$doc
+||idmfullversion.com^$doc
+||softtware.net^$doc
+||cracklie.net^$doc
+||softsnew.com^$doc
+||activators4windows.com^$doc
+||crackfury.com^$doc
+||proapkcrack.com^$doc
+||up4crack.com^$doc
+||filecrk.com^$doc
+||crackkeymac.com^$doc
+||okproductkey.com^$doc
+||cracksmain.com^$doc
+||softscracked.com^$doc
+||freeappstorepc.com^$doc
+||reallpccrack.com^$doc
+||cracknew.org^$doc
+||cracksoftwaress.com^$doc
+||win-crack.com^$doc
+||licensecrack.net^$doc
+||vstpatch.net^$doc
+||newcrack.info^$doc
+||topkeygen.com^$doc
+||vsthomes.com^$doc
+||mobisoft.info^$doc
+||crackfullkey.net^$doc
+||torrentfilefree.com^$doc
+||hitcracker.com^$doc
+||fullactivationkey.com^$doc
+||profullversion.com^$doc
+||vw5y4tegh.xyz^$doc
+||nbvfh.xyz^$doc
+||1stposition.xyz^$doc
+||premiumfullversion.com^$doc
+||fileisready.com^$doc
 ||theannoyingsite.com^$all
 ||elongi.org^$all
 ||rbngdm.com^$all
@@ -91291,6 +91486,7 @@ mgronline.com##[href^="https://www.hotelscombined.co.th/"]
 @@||video-api.yql.yahoo.com/*/video/alias/channels/$xhr,domain=sports.yahoo.com
 sports.yahoo.com#@#.H\(400px\) > .VideoPlayer
 sports.yahoo.com#@#.H\(400px\).Pos\(r\)
+||relish.com^$domain=seriouseats.com
 ||1.0.218.230$all
 ||1.10.147.48$all
 ||1.171.241.95$all
@@ -96869,6 +97065,7 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 ||zofer.com.br$all
 ||ztekkhosting.com$all
 ! Adguard
+||adbottw.net^$third-party
 ||bjjabc.com^$third-party
 ||bbs.kiiqnnx.cn^
 ||3xy1.dvv9dkv.site^$third-party
