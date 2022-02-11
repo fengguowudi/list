@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tNcPBBv3A4VQiypY/Rj4EA
+! Checksum: G8RM+rzDn2anTbqy1nr2uA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202110914
-! Last Modified: 2022年02月11日 09:14
+! Version: 202202111424
+! Last Modified: 2022年02月11日 14:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -608,13 +608,10 @@ netflix.mom,netflixya.com,yanetflix.com##+js(aopw,document.onkeydown)
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 yatu.tv,yhdm5.com##+js(set,document.oncontextmenu,trueFunc)
 ||tracker.$xhr,websocket,script,ping
-3z9e.cn
-7nsc.cn
-7b6l2j.cn
 bmbaike.cn
-buzx53.cn
 ch-hr12333.com
 chushoushijian.cn
+cppoc.com
 cqqc3.com
 dacedsfa.cn
 g1c5.com
@@ -637,7 +634,6 @@ youle55.com
 ||bokecc.com/flash/playlog?
 ||click.bokecc.com/
 ||imedia.bokecc.com/
-!||com/pic/fgr/$script,object-subrequest
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
@@ -1899,6 +1895,7 @@ ubmcmm.baidustatic.com
 ##.widget_ui_asb
 ##.widget_ui_aub
 ##.widget_ui_textasb
+###hthslide[onclick]
 ##.widget_ui_textaub
 ##.wordurl[style="   width: 42%; float:left; text-align: center;"]
 ##.wp > .ad-box
@@ -2242,6 +2239,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||mzya5718.xyz^
+||caomeixz10.xyz^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17773,6 +17772,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||yikouxian.fun^
+||achu.wang^
+||yikouxian.fun^
+||mncvz.top^
+||awwlrd.cn^
+||weiiimt.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
