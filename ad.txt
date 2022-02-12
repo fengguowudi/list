@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: w8zpfKWRtfa+7XtCuT+MTQ
+! Checksum: 4Zm6LdOFZxQFWzIJ0KWaPQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202120914
-! Last Modified: 2022年02月12日 09:14
+! Version: 202202121422
+! Last Modified: 2022年02月12日 14:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -608,25 +608,21 @@ netflix.mom,netflixya.com,yanetflix.com##+js(aopw,document.onkeydown)
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 yatu.tv,yhdm5.com##+js(set,document.oncontextmenu,trueFunc)
 ||tracker.$xhr,websocket,script,ping
+geoparker.net
+uxrpkgh.cn
 bmbaike.cn
 ch-hr12333.com
 chushoushijian.cn
 cppoc.com
 cqqc3.com
-dacedsfa.cn
-g1c5.com
 ieeod0.com
 jinrongwang.net
-nd2z41.cn
 onenews.vip
 qdwght.com
 quickapp.cn
 v4dwkcv.com
 weizhenwx.com
-xcsci.cn
 xixiqiu.com
-xv5b.com
-xz6d.com
 youle55.com
 ||www.yatu.tv:88/image/*.gif^$image
 ||www.yatu.tv:88/m/images/$image
@@ -2241,6 +2237,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||jnbvckgophfkop.com^
+||wlwblog.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17800,6 +17797,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tycc.info^
 ||fuwche.cn^
 ||csjwawe.top^
+||4mugah0.cn^
+||awwlcx.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /5Ydr/gHhxHgge8kCLPIdg
+! Checksum: PL6x7em9z07iIbCyGOEsoQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202120914
-! Last Modified: 2022年02月12日 09:14
+! Version: 202202121422
+! Last Modified: 2022年02月12日 14:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -25817,6 +25817,7 @@ _800x80_
 ##.horizontal-ads
 ##.horizontal-advert-container
 ##.horizontal-advert-inner-wrapper
+##.horizontal.ad
 ##.horizontalAd
 ##.horizontalAdText
 ##.horizontalAdvert
@@ -52775,6 +52776,8 @@ tf2r.com#@#.adverts
 ||s.yimg.com/zh/mrr/$image,domain=mail.yahoo.com
 ||saabsunited.com/wp-content/uploads/*banner
 ||sareunited.com/uploaded_images/banners/
+||sat-universe.com/wos2.png
+||sat-universe.com/wos3.gif
 ||scoot.co.uk/delivery.php
 ||sedo.cachefly.net^$domain=~sedoparking.com
 ||seeklogo.com/img/partners/
@@ -52902,6 +52905,7 @@ tf2r.com#@#.adverts
 ||dw.com/js/advertisement/
 ||jwplatform.com/libraries/tdeymorh.js
 ||wsj.net/pb/pb.js
+||amazonaws.com/prod/$domain=consequence.net
 ||api.fw.tv^
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
 ||brid.tv^$script,domain=spin.com|thewrap.com
@@ -53693,6 +53697,7 @@ forums.anandtech.com,forums.tomsguide.com,forums.tomshardware.com###footer_leade
 hwhills.com###footerbanner
 feedicons.com###footerboard
 titantv.com###frankly
+stonetoss.com###friends
 imgbox.com###full-page-redirect
 reviewgeek.com###future_Y_R_0_1
 filmibeat.com,oneindia.com###fw-int-ad
@@ -56251,7 +56256,7 @@ drive.com.au##hr
 avanigo.com##iframe.lazyloaded
 micky.com.au##iframe[height="90"]
 coincodex.com,yourbittorrent.com##iframe[src]
-123-movies.ninja,4anime.gg,dramacool.pk,mangadna.com,vanime.co,watchseries.ninja,ytmp3.cc##iframe[style*="z-index: 2147483647"]
+123-movies.ninja,4anime.gg,animekisa.tv,dramacool.pk,mangadna.com,vanime.co,watchseries.ninja,ytmp3.cc##iframe[style*="z-index: 2147483647"]
 fansshare.com##iframe[width="300"]
 shoesession.com##iframe[width="732"]
 windycitymediagroup.com,windycitytimes.com##img[alt*="Sponsor"]
@@ -56380,6 +56385,8 @@ goal.com##.semantic-player-embed
 gamesradar.com,tomshardware.com,whathifi.com##.vid-present
 petapixel.com##.video-aspect-wrapper
 macworld.co.uk##.videoContainer
+consequence.net##.video_container
+consequence.net##.wasp-video-player
 ##.section-subheader > .section-hotel-prices-header
 yahoo.com###defaultLREC
 yahoo.com###sda-LDRB
@@ -57695,7 +57702,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||friends.ponta.jp/app/assets/images/$~third-party
 @@||fwmrm.net/ad/g/$script,domain=viafree.se
 @@||fwmrm.net^*/LinkTag2.js$domain=viafree.se
-@@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|gamestar.de|pccomponentes.com|video.tv-tokyo.co.jp|vogue.de|voici.fr
+@@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|gamestar.de|pccomponentes.com|tv-tokyo.co.jp|vogue.de|voici.fr
 @@||g.doubleclick.net/gpt/pubads_impl_$domain=edy.rakuten.co.jp|gamestar.de|gentside.com|pccomponentes.com|vogue.de|voici.fr
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||games.wkb.jp/ykg/javascripts/*/adsense_$script,domain=games.wkb.jp
@@ -59513,6 +59520,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||jnbvckgophfkop.com^
+||wlwblog.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -75072,6 +75080,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tycc.info^
 ||fuwche.cn^
 ||csjwawe.top^
+||4mugah0.cn^
+||awwlcx.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
