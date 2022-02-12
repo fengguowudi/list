@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0m8hsd975E8xIQl2Vpg8OQ
+! Checksum: d64cC/TkkrfE/vZESUEevQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202122029
-! Last Modified: 2022年02月12日 20:29
+! Version: 202202130222
+! Last Modified: 2022年02月13日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -89155,6 +89155,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /^https?:\/\/adserveryo\d\.xyz\/\?/$doc,domain=xyz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
 /^https:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,match-case,domain=com|fun|guru|life|online|pw|site|space|top
+/^https:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,match-case,domain=com|fun|guru|life|online|pw|site|space|top
+/^https?:\/\/adserver[0-9a-z]{1,2}.sbs\/\?sdomain=/$doc,domain=sbs
 ||0addon.com^
 ||ogtrk.net^
 ||gameglitcher.com^
@@ -91547,6 +91549,17 @@ mgronline.com##[href^="https://www.hotelscombined.co.th/"]
 sports.yahoo.com#@#.H\(400px\) > .VideoPlayer
 sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 ||relish.com^$domain=seriouseats.com
+@@||img.ak.impact-ad.jp/ut/$script,domain=www3.nissan.co.jp
+@@||img.ak.impact-ad.jp/sr/js/nissan_test_$script,domain=www3.nissan.co.jp
+@@||penta.a.one.impact-ad.jp^$other,domain=www3.nissan.co.jp
+||googleadservices.com/pagead/conversion.js$script,redirect=noop.js,domain=nissan.co.jp
+||impact-ad.jp^$script,redirect=noop.js,domain=nissan.co.jp
+@@||googletagmanager.com/gtm.js$domain=www3.nissan.co.jp
+||adsrvr.org^$script,redirect=noop.js,domain=nissan.co.jp
+||b90.yahoo.co.jp^$script,redirect=noop.js,domain=nissan.co.jp
+||b92.yahoo.co.jp/js/s_retargeting.js$script,redirect=noop.js,domain=nissan.co.jp
+||uncn.jp/uwt/$script,redirect=noop.js,domain=nissan.co.jp
+||yimg.jp/images/listing/tool/cv/$script,redirect=noop.js,domain=nissan.co.jp
 ||1.0.218.230$all
 ||1.180.69.202$all
 ||1.189.22.64$all
