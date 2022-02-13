@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p27tslN6bfClUKjT0RT6sg
+! Checksum: ZSybNc5BLqEC9zutbd0nXQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202131422
-! Last Modified: 2022年02月13日 14:22
+! Version: 202202132029
+! Last Modified: 2022年02月13日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -32213,6 +32213,7 @@ tf2r.com#@#.adverts
 ||abgeobalancer.com^
 ||abgligarchan.com^
 ||ablatesgascon.cam^
+||ableaborah.com^
 ||ablebodiedcool.com^
 ||ablerivetdoubted.com^
 ||ablesasme.co^
@@ -33693,6 +33694,7 @@ tf2r.com#@#.adverts
 ||beaconacceptable.com^
 ||beakdragon.com^
 ||beakedpissod.com^
+||beamedshipwreck.com^
 ||beamfuloakwood.com^
 ||beamingworked.com^
 ||beastintruder.com^
@@ -39030,6 +39032,7 @@ tf2r.com#@#.adverts
 ||kalmloda.com^
 ||kaminari.club^
 ||kamnebo.info^
+||kankingwith.com^
 ||kanoodle.com^
 ||kantarmedia.com^
 ||kaoftrknb.com^
@@ -39083,6 +39086,7 @@ tf2r.com#@#.adverts
 ||kelt-195b.com^
 ||kemperare.club^
 ||kenduktur.com^
+||kenmwqdfiq.com^
 ||kennetting.club^
 ||kenskitscurt.com^
 ||kepkirrlcozb.com^
@@ -39888,6 +39892,7 @@ tf2r.com#@#.adverts
 ||margaritabusiness.com^
 ||mariabrowseattending.com^
 ||marial.pro^
+||marijuanaturf.com^
 ||marimedia.com^
 ||maritalglancing.com^
 ||markbookto.com^
@@ -41639,6 +41644,7 @@ tf2r.com#@#.adverts
 ||payslipsprolong.com^
 ||payslipsscowl.com^
 ||pazashevy.com^
+||pbaucpamdtnarz.com^
 ||pbcde.com^
 ||pbhrxxcuobz.com^
 ||pbkqidejmes.ru^
@@ -44105,6 +44111,7 @@ tf2r.com#@#.adverts
 ||solderplumboverreact.com^
 ||solelylounge.com^
 ||solepresumablystrangle.com^
+||soliads.net^
 ||solideaved.com^
 ||solihullah.info^
 ||solitudeelection.com^
@@ -44654,6 +44661,7 @@ tf2r.com#@#.adverts
 ||td563.com^
 ||td583.com^
 ||tdcbvxxhss.xyz^
+||tdtxjhel.com^
 ||teads.tv^
 ||teakreese.com^
 ||teambetaffiliates.com^
@@ -52642,6 +52650,8 @@ $image,script,subdocument,third-party,xmlhttprequest,domain=heapfiles.com|vidoza
 @@||ajax.googleapis.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdn.vidoza.co/js/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
+$script,third-party,xmlhttprequest,domain=mixdrop.co
+@@||gstatic.com^$domain=mixdrop.co
 $script,third-party,xmlhttprequest,domain=govid.co
 @@||ajax.googleapis.com/ajax/libs/$script,domain=govid.co
 @@||akamaiedge.net^$domain=canyoublockit.com
@@ -87839,6 +87849,7 @@ xozilla.xxx##+js(aost, HTMLSelectElement, Object)
 mobitool.net##+js(acis, decodeURIComponent, ai_)
 letsmakeiteasy.tech###quads-myModal
 masteredutech.com##+js(acis, JSON.parse, break;case $.)
+defaultfreeshort.in##+js(set, blurred, false)
 defaultfreeshort.in###myDIV:style(display: block!important;)
 defaultfreeshort.in##.banner-inner
 ||ytsubme.com/assets/adblock/
@@ -89570,6 +89581,9 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||1stposition.xyz^$doc
 ||premiumfullversion.com^$doc
 ||fileisready.com^$doc
+||hmzapc.com^$doc
+||9to5crack.com^$doc
+||vstserial.com^$doc
 ||theannoyingsite.com^$all
 ||elongi.org^$all
 ||rbngdm.com^$all
@@ -91564,6 +91578,7 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 @@||penta.a.one.impact-ad.jp^$other,domain=www3.nissan.co.jp
 @@||googletagmanager.com/gtm.js$domain=www3.nissan.co.jp
 *$script,redirect-rule=noop.js,domain=nissan.co.jp
+@@||f-droid.org/assets/Ads_$image,1p
 ||1.0.218.230$all
 ||1.168.107.236$all
 ||1.168.223.234$all
