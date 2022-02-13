@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZSybNc5BLqEC9zutbd0nXQ
+! Checksum: PMNXBr+Sklr1O38qXJ5OHw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202132029
-! Last Modified: 2022年02月13日 20:29
+! Version: 202202140222
+! Last Modified: 2022年02月14日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -55425,6 +55425,7 @@ artistdirect.com##.top-add
 jamieoliver.com##.top-avocado
 automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,government-fleet.com,howsecureismypassword.net,ncaa.com,schoolbusfleet.com##.top-banner
 gptoday.net##.top-banner-leaderboard
+gamewatcher.com##.top-banners-wrapper
 blockchair.com##.top-buttons-wrap
 foodrenegade.com##.top-cta
 debka.com##.top-full-width-sidebar
@@ -89166,6 +89167,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||lovesingle.xyz^$all
 ||foxon.biz^$all
 ||getmackeepersoftpro.xyz^$all
+||tigerpush.net^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
