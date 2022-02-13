@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EixXAGglKDWXJ2hTwUMw3w
+! Checksum: MH65F/zvXohj4V24BiQbCw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202130914
-! Last Modified: 2022年02月13日 09:14
+! Version: 202202131422
+! Last Modified: 2022年02月13日 14:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1795,6 +1795,7 @@ ubmcmm.baidustatic.com
 ||0024aaaa.com^
 ||rywnvzd.cn^
 ||xkzjq.cn^
+||0819837.com^
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
@@ -17356,6 +17357,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||mzwfw.club^
 ||zdwsh.tech^
+||xiaozhige.xyz^
+||zhangshen.club^
+||99zan.site^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -36371,6 +36375,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kk-resources.com/ks.js
 ||klarnaservices.com^$image,third-party
 ||klickly.com/track
+||klm-ea.jscrambler.com^
 ||kmib.co.kr/ref/
 ||kochava.com/track/$third-party
 ||kununu.com^*/tracking/
@@ -36784,6 +36789,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||px.spiceworks.com^
 ||pxchk.net/b/s
 ||pxt.daz3d.com^
+||pylon.micstatic.com^
 ||qcloud.com/report.go?
 ||qq.com/collect?
 ||qq.com/dataimport/
@@ -49107,6 +49113,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||forum.zuvio.com.tw/api/article/finish
 ||ftchinese.com/js/log.js
 ||funshion.com/interface/
+||gentian-frd.hjapi.com^
 ||gia.jd.com^
 ||gk.sina.cn^
 ||h5log.zongheng.com^
@@ -49114,6 +49121,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||hhytrace.sogoucdn.com^
 ||his.tv.sohu.com/his/ping.do?
 ||hisense.com/ta.js
+||hujiang.com/v2/log
 ||i-cable.com/ci/tracking/
 ||ifeng.com/i?p=
 ||imgstat.baidu.com^
@@ -49269,7 +49277,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tr.discuss.com.hk^
 ||tr.price.com.hk^
 ||trace.qq.com^
+||track.hujiang.com^
 ||track.sohu.com^
+||trackcommon.hujiang.com^
 ||tracker.ai.xiaomi.com^
 ||tracker.tv.sohu.com^
 ||trackjay.cool3c.com^
@@ -49642,6 +49652,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||cosmo.ru/*/.js?i=*&r=
 ||counter.drom.ru^
 ||counter.sibnet.ru^
+||cvt1.sibnet.ru^
 ||data.glamour.ru^
 ||dot-stat.radikal.ru^
 ||drom.ru/dummy.

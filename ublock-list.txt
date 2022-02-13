@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AlcfhRO+rSlJzhSP9Nlz1w
+! Checksum: p27tslN6bfClUKjT0RT6sg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202130914
-! Last Modified: 2022年02月13日 09:14
+! Version: 202202131422
+! Last Modified: 2022年02月13日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -774,7 +774,7 @@
 /ad-m.js
 /ad-manager/*
 /ad-managment/*
-/ad-marketplace/*
+/ad-marketplace/*$~image
 /ad-maven-
 /ad-methods.
 /ad-minister-
@@ -1849,7 +1849,6 @@
 /adonline.
 /adonly468.
 /adops.$domain=~adops.co.il
-/adopshost.
 /adopspush-
 /adoptimised.
 /AdOptimizer.
@@ -32387,6 +32386,7 @@ tf2r.com#@#.adverts
 ||addresseetransportationsyndrome.com^
 ||addressen.club^
 ||addroplet.com^
+||adenza.dev^
 ||adequality.xyz^
 ||adequalitys.xyz^
 ||aderstono.one^
@@ -34351,6 +34351,7 @@ tf2r.com#@#.adverts
 ||caithamo.net^
 ||calabeshes.xyz^
 ||calculatorconceivenonetheless.com^
+||callalelel.info^
 ||callcreateabash.com^
 ||callelundotre.xyz^
 ||calmlydung.com^
@@ -41640,6 +41641,7 @@ tf2r.com#@#.adverts
 ||pazashevy.com^
 ||pbcde.com^
 ||pbhrxxcuobz.com^
+||pbkqidejmes.ru^
 ||pbterra.com^
 ||pbxai.com^
 ||pc-ads.com^
@@ -53395,8 +53397,8 @@ desimartini.com###getPosition
 dealsofde.com###gg_box_1
 dealsofde.com###gg_box_2
 glowstery.com###ghostery-highlights
-fmovies.ps,movies2watch.tv,moviesjoy.to###gift-middle
-f2movies.to,fmovies.ps,fmoviesto.cc,movies2watch.tv,moviesjoy.to###gift-top
+fmovies.ps,movies2watch.tv,moviesjoy.to,myflixertv.to###gift-middle
+f2movies.to,fmovies.ps,fmoviesto.cc,movies2watch.tv,moviesjoy.to,myflixertv.to###gift-top
 freegames.org###gla
 wordcounter.net###glya
 pcgamingwiki.com###gog_summer_sale_2021
@@ -54891,6 +54893,7 @@ chipchick.com##.noskim.ntv-moap
 cookingforengineers.com##.nothing
 moodiedavittreport.com##.notice
 mlsbd.shop##.notice-board
+cityam.com##.notice-header
 computing.co.uk##.notice-slot-full-below-header
 mondoweiss.net##.notrack
 pcgamebenchmark.com##.nova_wrapper
@@ -54926,6 +54929,7 @@ republicworld.com##.padtop10.padright10.padleft10.minheight90
 republicworld.com##.padtop20.txtcenter.minheight90
 manilastandard.net##.page-category-contents-adds
 scmp.com##.page-container__left-native-ad-container
+bitdegree.org##.page-coupon-landing
 carsales.com.au,technobuffalo.com##.page-header
 oversixty.co.nz##.page-heading-wrap
 krcrtv.com,ktxs.com,wcti12.com,wcyb.com##.pageHeaderRow1
@@ -56054,7 +56058,7 @@ thewrap.com##.brid-default-skin
 mb.com.ph##.code-block
 techwalla.com##.component-article-section-jwplayer-wrapper
 ladbible.com##.css-1tc48v6
-digitaltrends.com##.dtvideos-container
+digitaltrends.com##.dtvideos-container[data-provider="jwplayer"]
 taskandpurpose.com##.empire-unit-prefill-container
 thestar.co.uk##.gOoqzH
 radaronline.com##.hIlCTc
@@ -69618,6 +69622,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kk-resources.com/ks.js
 ||klarnaservices.com^$image,third-party
 ||klickly.com/track
+||klm-ea.jscrambler.com^
 ||kmib.co.kr/ref/
 ||kochava.com/track/$third-party
 ||kununu.com^*/tracking/
@@ -70031,6 +70036,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||px.spiceworks.com^
 ||pxchk.net/b/s
 ||pxt.daz3d.com^
+||pylon.micstatic.com^
 ||qcloud.com/report.go?
 ||qq.com/collect?
 ||qq.com/dataimport/
@@ -82354,6 +82360,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||forum.zuvio.com.tw/api/article/finish
 ||ftchinese.com/js/log.js
 ||funshion.com/interface/
+||gentian-frd.hjapi.com^
 ||gia.jd.com^
 ||gk.sina.cn^
 ||h5log.zongheng.com^
@@ -82361,6 +82368,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||hhytrace.sogoucdn.com^
 ||his.tv.sohu.com/his/ping.do?
 ||hisense.com/ta.js
+||hujiang.com/v2/log
 ||i-cable.com/ci/tracking/
 ||ifeng.com/i?p=
 ||imgstat.baidu.com^
@@ -82516,7 +82524,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tr.discuss.com.hk^
 ||tr.price.com.hk^
 ||trace.qq.com^
+||track.hujiang.com^
 ||track.sohu.com^
+||trackcommon.hujiang.com^
 ||tracker.ai.xiaomi.com^
 ||tracker.tv.sohu.com^
 ||trackjay.cool3c.com^
@@ -82889,6 +82899,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||cosmo.ru/*/.js?i=*&r=
 ||counter.drom.ru^
 ||counter.sibnet.ru^
+||cvt1.sibnet.ru^
 ||data.glamour.ru^
 ||dot-stat.radikal.ru^
 ||drom.ru/dummy.
@@ -88922,6 +88933,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||pushub.net^$all
 /redirect2/?a=$doc
 &atc=adterra&ad_id=$doc
+||adserver*/?sdomain=$doc,popup
 ||hyperwage.com^$all
 ||ricavato.com^
 ||bitcoingenerator.me^$all
@@ -89149,11 +89161,9 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /^https:\/\/feedbackip\d{2}\.pw/$doc,domain=pw
 ||protecttimeknew.live^$doc
 ||ifetirw.xyz^$doc
-/^https?:\/\/adserveryo\d\.xyz\/\?/$doc,domain=xyz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
 /^https:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,match-case,domain=com|fun|guru|life|online|pw|site|space|top
 /^https:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,match-case,domain=com|fun|guru|life|online|pw|site|space|top
-/^https?:\/\/adserver[0-9a-z]{1,2}.sbs\/\?sdomain=/$doc,domain=sbs
 ||0addon.com^
 ||ogtrk.net^
 ||gameglitcher.com^
@@ -89718,12 +89728,15 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 /npm/sks@0.*/lazyload.js$script,3p
 ||skk.moe/*.js?$image
 ||skk.moe/*&$1p
+||skk.moe/*.png$xhr
+||blog.skk.moe/_next/static/manifest$xhr
 /s/js/ta-2.3.js?
 ||rjno1.com/cdn-cgi/challenge-platform/h/b/scripts/invisible.js
 ||mynewsmedia.co/*/Linkpage/ads_stats_controller.php
 ||gplinks.co/Auth/ads_stats_controller.php
 ||videovard.sx/api/front/view^$xhr,important
 endbasic.dev,jmmv.dev##+js(no-xhr-if, method:POST url:api.jmmv.dev)
+||b90.yahoo.co.jp^
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
@@ -91549,14 +91562,8 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 @@||img.ak.impact-ad.jp/ut/$script,domain=www3.nissan.co.jp
 @@||img.ak.impact-ad.jp/sr/js/nissan_test_$script,domain=www3.nissan.co.jp
 @@||penta.a.one.impact-ad.jp^$other,domain=www3.nissan.co.jp
-||googleadservices.com/pagead/conversion.js$script,redirect=noop.js,domain=nissan.co.jp
-||impact-ad.jp^$script,redirect=noop.js,domain=nissan.co.jp
 @@||googletagmanager.com/gtm.js$domain=www3.nissan.co.jp
-||adsrvr.org^$script,redirect=noop.js,domain=nissan.co.jp
-||b90.yahoo.co.jp^$script,redirect=noop.js,domain=nissan.co.jp
-||b92.yahoo.co.jp/js/s_retargeting.js$script,redirect=noop.js,domain=nissan.co.jp
-||uncn.jp/uwt/$script,redirect=noop.js,domain=nissan.co.jp
-||yimg.jp/images/listing/tool/cv/$script,redirect=noop.js,domain=nissan.co.jp
+*$script,redirect-rule=noop.js,domain=nissan.co.jp
 ||1.0.218.230$all
 ||1.168.107.236$all
 ||1.168.223.234$all
