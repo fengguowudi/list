@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wFDONKVZCEu5AuGDQwiHNQ
+! Checksum: ICiPjKx7GIgpDWB/xeVtng
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202151423
-! Last Modified: 2022年02月15日 14:23
+! Version: 202202152031
+! Last Modified: 2022年02月15日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54419,6 +54419,7 @@ stylist.co.uk##.css-1fz837r
 crazygames.com##.css-1h6nq0a
 gamingbible.co.uk##.css-1i2p7ui
 bmj.com##.css-1jjs1rx
+cruisecritic.co.uk,cruisecritic.com##.css-1kyizeh
 infowars.com##.css-1nbwp0k
 infowars.com##.css-1upmbem
 healthline.com,medicalnewstoday.com##.css-1vcjrad
@@ -55701,6 +55702,7 @@ staticice.com.au##[href^="https://kogan.sjv.io/"]
 topfiveforex.com##[href^="https://luckyfish.io/"]
 manhuaplus.com##[href^="https://manhuaplussoulland.onelink.me/"]
 123putlocker.io##[href^="https://moneynow.one/"]
+abovetopsecret.com##[href^="https://mypatriotsupply.com/apps/todays-deals"]
 manganelo.com##[href^="https://oackoubs.com/"]
 topfiveforex.com##[href^="https://olymptrade.com/"]
 mmos.com##[href^="https://plarium.com/landings/"]
@@ -55847,6 +55849,7 @@ topgear.com##div[class^="AdContainer-"]
 tunefind.com##div[class^="AdSlot_inner_"]
 usnews.com##div[class^="Ad__Container-"]
 poki.com##div[class^="Advertisement_"]
+cruisecritic.co.uk,cruisecritic.com##div[class^="ArticleItem_ad"]
 sportinglife.com##div[class^="Article__FlashTalkingWrapper-"]
 barrons.com##div[class^="BarronsTheme--adWrapper"]
 someecards.com##div[class^="BaseAdSlot_adContainer_"]
@@ -62202,6 +62205,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /tracking/adobe.js
 /tracking/adobe/*
 /tracking/ads.
+/tracking/airdog
 /tracking/analytics/*
 /tracking/article.
 /tracking/article/*
@@ -62227,6 +62231,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /tracking/impression
 /tracking/index.
 /tracking/ipify
+/tracking/jitney/*
 /tracking/json2.
 /tracking/log.php?
 /tracking/log?
@@ -62962,6 +62967,7 @@ _ComScore.
 _effectLog-
 _event_tracking-
 _event_tracking.
+_event_tracking?
 _ga-events_
 _ga_code.
 _ga_tag.
@@ -71870,7 +71876,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||affiliates.vpn.ht^
 ||agoda.com/api/pixel/
 ||ai.iol.io^
-||airbnb.*/tracking/
 ||airtable.com/internal/$xmlhttprequest
 ||airtable.com^*/reports
 ||akamai.net^*/button.clickability.com/
@@ -85535,6 +85540,7 @@ allcryptoz.net,topcryptoz.net##.wpsafe-top + #content-wrap
 allcryptoz.net,topcryptoz.net##script + #content-wrap
 allcryptoz.net,topcryptoz.net##.a
 ||teicdn.com^
+*$script,redirect-rule=noopjs,domain=claimfreebits.com
 claimfreebits.com##+js(aopr, NoAdBlock)
 claimfreebits.com##.adnewos
 claimfreebits.com##+js(aopr, app_vars.force_disable_adblock)
@@ -86132,7 +86138,7 @@ theblissempire.com##+js(aopr, app_vars.force_disable_adblock)
 theblissempire.com##+js(set, blurred, false)
 theblissempire.com##+js(aopr, open)
 onizatop.net##+js(adfly-defuser)
-uploadflix.org##+js(acis, Math, break;case $.)
+uploadflix.org##+js(acis, JSON.parse, break;case $.)
 uploadflix.org##^script:has-text(break;case $.)
 cartoonwire.to##+js(acis, JSON.parse, break;case $.)
 kisscartoon.info##.offads
@@ -89215,6 +89221,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||foxon.biz^$all
 ||getmackeepersoftpro.xyz^$all
 ||tigerpush.net^$all
+/expired/unprotected_win/?track=$doc
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -89735,6 +89742,7 @@ search.brave.com##+js(no-fetch-if, body:cohort)
 ||smallseo.tools/rainbow/track$xhr
 /^\w+://[\w.\-]+\.www\.woodbrass\.com//$1p,script
 /dataunlocker$script,1p,domain=~dataunlocker.com
+/^\w+://[0-9a-z]{12}\.dataunlocker\.com//$1p,script
 /^\w+://[\w.\-]+\.www\.cybernetman\.com//$1p,script
 /^\w+://[\w.\-]+\.www\.logology\.co//$1p,script
 /^\w+://[\w.\-]+\.www\.botcomics\.com//$1p,script
