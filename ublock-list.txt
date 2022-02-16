@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vNGnkyVKr6bEvfUvh0d5tg
+! Checksum: DIX/CFcRmJjBAO6EjPlpZA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202162030
-! Last Modified: 2022年02月16日 20:30
+! Version: 202202170223
+! Last Modified: 2022年02月17日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24891,6 +24891,7 @@ _800x80_
 ##.gnm-bg-ad
 ##.go-ad
 ##.go-ads-widget-ads-wrap
+##.goAdMan
 ##.goAdverticum
 ##.goafrica-ad
 ##.goglad
@@ -55615,7 +55616,7 @@ bestlifeonline.com##.widget_gm_karmaadunit_widget
 extremetech.com##.widget_gptwidget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
-appleworld.today,deshdoaba.com,foreverconscious.com,patriotfetch.com,pctechmag.com,washingtonmonthly.com##.widget_media_image
+appleworld.today,closerweekly.com,deshdoaba.com,foreverconscious.com,intouchweekly.com,lifeandstylemag.com,patriotfetch.com,pctechmag.com,washingtonmonthly.com##.widget_media_image
 nypost.com##.widget_nypost_dfp_ad_widget
 dailynewsegypt.com##.widget_rotatingbanners
 twistedsifter.com##.widget_sifter_ad_bigbox_widget
@@ -82338,6 +82339,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||statistik.mitmischen.de^
 ||stats.autoscout24.ch^
 ||stats.t-online.de/include-ivw-agof-szmng-js/
+||steuertipps.de/scripts/tracking/
 ||subpixel.4players.de^
 ||t-online.de/to/web/click?
 ||t-online.de/toi/html/de/img/transp.bmp?
@@ -85322,6 +85324,9 @@ news18.com##[style^="min-height :90px"]
 news18.com##[style^="width:300px;min-height:250px;"]
 hifimov.cc##+js(acis, decodeURI, decodeURIComponent)
 mp4moviez.*##+js(nowoif)
+mp4moviez.*##+js(acis, JSON.parse, break;case $.)
+mp4moviez.*##^script:has-text(break;case $.)
+||aj2397.online^
 sextvx.com##+js(nostif, window.location.href=link)
 m.sextvx.com##+js(acis, document.querySelectorAll, popMagic)
 m.sextvx.com###home_hor_top_ads
@@ -86561,7 +86566,7 @@ techpowerup.com##[id][class] > div[class]:has(label) + [class]:has(a):has(img)
 techpowerup.com##section[class] a[data-height] img
 techpowerup.com##.sidebar-item a[data-height] img
 techpowerup.com##[src*=".jpg"]:not([src^="https://tpucdn.com/forums/data/avatars/"][loading][class]):not([src^="/gpu-specs/images/b/"][alt][height][width]):upward([href*="."][href*="jpeg"]:not([href*="attach"])
-techpowerup.com##:not(:matches-path(/forums/)) [class][target]:matches-css(background-image: /none/)
+techpowerup.com##:not(:matches-path(/forums/)) [class][target]:matches-css(background-image: /none/):not([class="contestbadge"])
 techpowerup.com##body:style(background-color: whitesmoke !important)
 techpowerup.com###viewport > div a[href][target]
 techpowerup.com##:not(:matches-path(/forums/)) [src*="techpowerup.com"]:upward(a[href^="/"]):not([href^="http"])
@@ -87618,11 +87623,11 @@ moddedguru.com##+js(acis, eval, replace)
 moddedguru.com##div.banner
 ||webmontify.com^$3p
 crazytechgo.com##+js(acis, eval, replace)
-imgbbd.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgqte.buzz,imgwang.buzz,imgwer.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nowoif)
-imgbbd.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgqte.buzz,imgwang.buzz,imgwer.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nano-sib, timer)
-imgbbd.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgqte.buzz,imgwang.buzz,imgwer.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nosiif, 0x)
-imgbbd.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgqte.buzz,imgwang.buzz,imgwer.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nostif, 0x)
-imgbbd.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgqte.buzz,imgwang.buzz,imgwer.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(set, hold_click, false)
+imgbbd.buzz,imgkoc.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgqte.buzz,imgwang.buzz,imgwer.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nowoif)
+imgbbd.buzz,imgkoc.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgqte.buzz,imgwang.buzz,imgwer.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nano-sib, timer)
+imgbbd.buzz,imgkoc.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgqte.buzz,imgwang.buzz,imgwer.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nosiif, 0x)
+imgbbd.buzz,imgkoc.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgqte.buzz,imgwang.buzz,imgwer.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nostif, 0x)
+imgbbd.buzz,imgkoc.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgqte.buzz,imgwang.buzz,imgwer.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(set, hold_click, false)
 imgwang.buzz##+js(acis, RegExp, debugger)
 ##div[style="position: fixed; display: block; width: 100%; height: 15%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 ||zhtlvag.com^
