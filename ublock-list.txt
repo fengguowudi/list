@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: I6tcfXsrP5R74d6TFW9DnA
+! Checksum: vNGnkyVKr6bEvfUvh0d5tg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202161424
-! Last Modified: 2022年02月16日 14:24
+! Version: 202202162030
+! Last Modified: 2022年02月16日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -746,7 +746,7 @@
 /ad-iframe.
 /ad-iframe?
 /ad-image.
-/ad-images/*
+/ad-images/*$~image
 /ad-ina.
 /ad-indicator-
 /ad-inject/*
@@ -18011,6 +18011,7 @@ _800x80_
 ##.ad-leaderboard
 ##.ad-leaderboard-companion
 ##.ad-leaderboard-container
+##.ad-leaderboard-flex
 ##.ad-leaderboard-hero
 ##.ad-leaderboard-marquee
 ##.ad-leaderboard-middle
@@ -18391,6 +18392,7 @@ _800x80_
 ##.ad-sticky-banner
 ##.ad-sticky-container
 ##.ad-sticky-slot
+##.ad-sticky-wrapper
 ##.ad-stickyhero
 ##.ad-stickyhero--standard
 ##.ad-story-inject
@@ -23561,6 +23563,7 @@ _800x80_
 ##.categorypage_ad1
 ##.categorypage_ad2
 ##.catfish_ad
+##.cazAd
 ##.cb-ad-banner
 ##.cb-ad-container
 ##.cb-sidebar__sticky-ad
@@ -44676,6 +44679,7 @@ tf2r.com#@#.adverts
 ||taetsiatomia.com^
 ||tagbom.com^
 ||taghaugh.com^
+||tahodebe.xyz^
 ||taifouwo.com^
 ||taigrooh.net^
 ||taijiwhi.com^
@@ -54888,7 +54892,6 @@ tech.hindustantimes.com##.m-to-add
 net-load.com##.m7s-81.m7s
 wccftech.com##.main-background-wrap
 ggrecon.com##.mainVenatusBannerContainer
-myanimelist.net##.mal-kkk-unit
 color-hex.com##.margin10
 fandom.com##.marketplace
 designtaxi.com##.masonry-brick.nt
@@ -55066,6 +55069,7 @@ wweek.com##.pb-f-phanzu-phanzu-ad-code
 washingtonpost.com##.pb-lgmod
 playbuzz.com##.pb-site-player
 caixinglobal.com##.pc-ad-left01
+myanimelist.net##.pda_top
 westernjournal.com##.persistent-footer
 proxfree.com##.pfad2
 proxfree.com##.pfad3
@@ -85371,6 +85375,8 @@ xnxx.com##.videoad-title
 blackclovermanga2.com,kanojo-okarishimasu.com,onepiecechapters.com,readhajimenoippo.com##.pages__ad
 blackclovermanga2.com##.code-block-2[style="margin: 8px auto; text-align: center; display: block; clear: both;"]
 *$script,3p,denyallow=arc.io|cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|fastlylb.net|unpkg.com,domain=hatsukimanga.com
+hatsukimanga.com##+js(aopw, _pop)
+hatsukimanga.com##^script[data-cfasync]:has-text(h=decodeURIComponent)
 hatsukimanga.com##.cookies
 masfrandy.com##+js(acis, addEventListener, google_ad_client)
 android-apk.org##+js(nano-sib, time)
@@ -85920,7 +85926,7 @@ gaminplay.com##div.join-ads
 ||joinads.me^$3p
 cubehosting.me##+js(nosiif, visibility, 1000)
 cubehosting.me##+js(noeval-if, _0x)
-cubehosting.me##+js(nostif, getComputedStyle)
+cubehosting.me##+js(acis, document.addEventListener, google_ad_client)
 ||affilixxl.de^$3p
 vwforum.ro##+js(nostif, offsetHeight)
 lcpdfr.com##div.ipsMargin_bottom.ipsAreaBackground.ipsPadding\:half
@@ -89836,7 +89842,8 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||skk.moe/*.js?$image
 ||skk.moe/*&$1p
 ||skk.moe/*.png$xhr
-||blog.skk.moe/_next/static/manifest$xhr
+||blog.skk.moe^$xhr,1p
+@@||blog.skk.moe/_next/data/*.json|$xhr,1p
 /s/js/ta-2.3.js?
 ||rjno1.com/cdn-cgi/challenge-platform/h/b/scripts/invisible.js
 ||mynewsmedia.co/*/Linkpage/ads_stats_controller.php
