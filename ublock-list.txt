@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ejsu4ZkHtvZnFVCIBAC0BA
+! Checksum: q1KduuXpqD7UTbj4NiZPtQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202171424
-! Last Modified: 2022年02月17日 14:24
+! Version: 202202172031
+! Last Modified: 2022年02月17日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -55740,6 +55740,7 @@ isekaiscan.com##[href="https://comichub.net/"]
 sqlfiddle.com##[href="https://entityframework-extensions.net/"]
 mc-market.org##[href="https://etherlands.com/"]
 whatsmyreferer.com##[href="https://fakethereferer.com"]
+summit.news##[href="https://infowarsstore.com/"]
 anitube.biz##[href="https://otpokemon.com/animes/"]
 davidwalsh.name##[href="https://requestmetrics.com/"]
 tech-latest.com##[href="https://tech-latest.com/go/nordvpn"]
@@ -63146,8 +63147,19 @@ cgi-bin/counter
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image
 .keap-link003.com/$image
+.keap-link004.com/$image
+.keap-link005.com/$image
+.keap-link006.com/$image
+.keap-link007.com/$image
+.keap-link008.com/$image
+.keap-link009.com/$image
+.keap-link010.com/$image
 .keap-link011.com/$image
+.keap-link012.com/$image
+.keap-link013.com/$image
+.keap-link014.com/$image
 .keap-link015.com/$image
+.keap-link016.com/$image
 .kijiji.ca/r/
 .klclick.com/$image
 .list-manage.com/track/
@@ -83387,6 +83399,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||docs.google.com/*/viewdata$~third-party
 @@||dominos.com^*/assets/build/js/modules/dpz.tealium.js$script
 @@||dove.com/etc/ui/dovemencare/clientlibs/core/core/config/analytics.js$script,~third-party
+@@||drivetrain.ai/drive/api/v1/metrics/$~third-party
 @@||dropboxstatic.com/static/js/modules/clean/ux_analytics/$script,domain=dropbox.com
 @@||dw.cbsi.com/anonc.js$domain=giantbomb.com
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
@@ -88288,6 +88301,7 @@ lootlinks.xyz##+js(nobab)
 ccsl.xyz##center > div.row
 actresstoday.com##+js(acis, eval, replace)
 fastream.to##+js(aopr, afScript)
+@@||fastream.to^$script,1p
 sakarnewz.com##+js(aeld, DOMContentLoaded, adsBlocked)
 sakarnewz.com###custom_html-2
 telenord.it##+js(nano-sib)
@@ -91731,6 +91745,7 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 *$script,redirect-rule=noop.js,domain=nissan.co.jp
 abczdrowie.pl#@#+js(aost, WP.prebid, onLoad)
 @@||nexus.ensighten.com/easyjet/*/Bootstrap.js$script,domain=easyjet.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=la7.it,important
 ||1.0.218.230$all
 ||1.10.146.29$all
 ||1.180.69.202$all
