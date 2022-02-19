@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tZJ+DgBPRoWkbUnkubtR3Q
+! Checksum: 6+MWalExelpFiyBExiJS7Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202190912
-! Last Modified: 2022年02月19日 09:12
+! Version: 202202191423
+! Last Modified: 2022年02月19日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -47829,6 +47829,7 @@ tf2r.com#@#.adverts
 ||byzoo.org^$third-party
 ||c-on-text.com^$third-party
 ||camghosts.com^$third-party
+||camonster.com^$third-party
 ||capacitygrid.com^$third-party
 ||caroda.io^$third-party
 ||casino-zilla.com^$third-party
@@ -48403,6 +48404,7 @@ tf2r.com#@#.adverts
 ||postaffiliatepro.com^$third-party
 ||poweradvertising.co.uk^$third-party
 ||powerlinks.com^$third-party
+||powerteam-competitions.com^$third-party
 ||ppcwebspy.com^$third-party
 ||prebid.org^$third-party
 ||prf.hn^$third-party
@@ -54075,6 +54077,7 @@ slant.co##.SummaryPage-LustreEmbed
 algoafm.co.za##.TopBanner
 cnbc.com##.TopBanner-container
 coin360.com##.TopLeaderboard
+mediafire.com##.WinZip
 this.org##.Wrap-leaderboard
 tumblr.com##.XJ7bf
 tumblr.com##.Yc2Sp
@@ -87497,6 +87500,7 @@ kiuruvesilehti.fi,urjalansanomat.fi##+js(aeld, scroll, innerHeight)
 watashiwasugoidesu.com##.watas-adlabel
 watashiwasugoidesu.com##.watas-bottom-vi
 keybr.com##.Body-header > div[style="position:relative;min-width:970px;min-height:90px;contain:strict"]
+@@||freereceivesms.com/js/$script,1p
 freereceivesms.com##+js(nosiif, 0x)
 freereceivesms.com##a[href^="https://www.18sex.org/"]
 /wp-content/plugins/wp-banners/js/wp-banners.js
@@ -88420,10 +88424,10 @@ latinohentai.com##+js(ra, href, #clickfakeplayer)
 4anime.gg##+js(acis, Promise, break;case $.)
 mangastream.mobi##+js(acis, Math, break;case $.)
 mangastream.mobi###myModal
-||adclixx.net^$script,3p,redirect-rule=nobab2.js
-||adnetasia.com^$script,3p,redirect-rule=nobab2.js
-||adtrackers.net^$script,3p,redirect-rule=nobab2.js
-||bannertrack.net^$script,3p,redirect-rule=nobab2.js
+||adclixx.net^$script,3p,redirect-rule=nobab2.js:10
+||adnetasia.com^$script,3p,redirect-rule=nobab2.js:10
+||adtrackers.net^$script,3p,redirect-rule=nobab2.js:10
+||bannertrack.net^$script,3p,redirect-rule=nobab2.js:10
 ||ads.twitter.com/favicon.ico$image,3p,redirect-rule=32x32.png
 ||advertising.yahoo.com/favicon.ico$image,3p,redirect-rule=32x32.png
 ||doubleclickbygoogle.com/favicon.ico$image,3p,redirect-rule=32x32.png
@@ -91832,7 +91836,6 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 abczdrowie.pl#@#+js(aost, WP.prebid, onLoad)
 @@||nexus.ensighten.com/easyjet/*/Bootstrap.js$script,domain=easyjet.com
 @@||code.jquery.com^$script,domain=mixdrop.*
-@@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 ||1.165.44.122$all
 ||1.173.183.95$all
 ||1.180.69.202$all
