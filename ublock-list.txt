@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6+MWalExelpFiyBExiJS7Q
+! Checksum: K+BABvvDX8YhgWqy5NEGBw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202191423
-! Last Modified: 2022年02月19日 14:23
+! Version: 202202192030
+! Last Modified: 2022年02月19日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -27748,6 +27748,8 @@ _800x80_
 ##.responsive_ads_468x60
 ##.result-ad
 ##.result-sponsored
+##.result-top-ad
+##.result-words-ad-new
 ##.resultAd
 ##.result__advertising
 ##.result_ad
@@ -86312,6 +86314,7 @@ theblissempire.com##+js(set, blurred, false)
 theblissempire.com##+js(aopr, open)
 onizatop.net##+js(adfly-defuser)
 uploadflix.org##+js(acis, JSON.parse, break;case $.)
+uploadflix.org##+js(nano-stb, seconds)
 uploadflix.org##^script:has-text(break;case $.)
 cartoonwire.to##+js(acis, JSON.parse, break;case $.)
 kisscartoon.info##.offads
@@ -89068,7 +89071,7 @@ thepiratebay3.com^$all
 ||retargetcore.com^$all
 .com/c/*?s1=$doc,domain=com
 .net/c/*?s1=$doc,domain=net
-/aff.php?dynamicpage=$doc
+/aff.php?*&_cbUrl=$doc
 /fg/tds/ae?tds_campaign=$doc
 /site/redirectpage?ca=link&sid=$doc
 /tds/ae?tdsId=*&clickid=$doc
@@ -89178,6 +89181,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||couponex.space^$all
 ||bismuni.com^$all
 ||date4sex.pro^$all
+/click.php?data=$doc
+&adspot_id=*&cost=0.$doc
 ||hyperwage.com^$all
 ||ricavato.com^
 ||bitcoingenerator.me^$all
@@ -89403,6 +89408,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /expired/unprotected_win/?track=$doc
 ||familysimulators.com^$all
 ||pushnott.com^$all
+||instaflrt.com^$all
+||singlesgetmatched.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -89993,14 +90000,9 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||analytics.tiendaenoferta.com^
 ||zhihu.com^$removeparam=hybrid_search_source
 ||zhihu.com^$removeparam=hybrid_search_extra
+skk.moe##+js(no-fetch-if, method:POST)
 /cfga/jquery.js?$image
 /npm/sks@0.*/lazyload.js$script,3p
-||skk.moe/*.js?$image
-||skk.moe/*&$1p
-||skk.moe/*.png$xhr
-||blog.skk.moe^$xhr,1p
-@@||blog.skk.moe/_next/data/*.json|$xhr,1p
-@@||blog.skk.moe/cdn-cgi/challenge-platform/$xhr,1p
 /s/js/ta-2.3.js?
 ||rjno1.com/cdn-cgi/challenge-platform/h/b/scripts/invisible.js
 ||mynewsmedia.co/*/Linkpage/ads_stats_controller.php
