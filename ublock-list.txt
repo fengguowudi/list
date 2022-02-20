@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: c2jXtKECXNaxMy7+o5fRAg
+! Checksum: aMi70aMQdvaOGNxYOYXIkA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202202030
-! Last Modified: 2022年02月20日 20:30
+! Version: 202202210222
+! Last Modified: 2022年02月21日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53816,7 +53816,6 @@ scoop.co.nz###rect
 dict.cc###rectcompactbot
 dict.cc###recthome
 dict.cc###recthomebot
-193.178.172.113###repop
 qwant.com###resultsShoppingList
 idiva.com###rhs_atf
 10minutemail.net,eel.surf7.net.my,javatpoint.com###right
@@ -54896,6 +54895,7 @@ atishmkv.site##.idmuvi-center-ads
 atishmkv.site##.idmuvi-floatbanner
 atishmkv.site##.idmuvi-footerbanner
 atishmkv.site##.idmuvi-topplayer
+fifetoday.co.uk##.iehxDO
 gamepressure.com##.if-no-baner
 pocket-lint.com##.im-desktop
 intomobile.com##.im_970x90
@@ -56878,8 +56878,8 @@ online-xxxmovies.com##.middle-spots
 lic.me##.miniplayer
 tryindianporn.com##.mle
 hentaicore.org##.mob-lock
-tube-bunny.com##.mobile-vision
 gaymovievids.com,verygayboys.com##.mobile-random
+tube-bunny.com##.mobile-vision
 yourdarkdesires.com##.moment
 javfor.tv##.my-2.container
 jagaporn.com##.nativad
@@ -63394,7 +63394,6 @@ _ad_impression.
 /wtfindingmethod.
 _hightraffic_code.js
 _sdcTrackingCode.
-/feature-loader/render.
 /magnet/render.
 /re-engage/render.
 /targeting/render.
@@ -83980,7 +83979,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||certona.net^*/resonance.js$domain=zooplus.fi
 @@||cloudfront.net/frosmo.easy.js$domain=hobbyhall.fi|lippu.fi
 @@||frosmo.com/messageApi$xmlhttprequest,domain=hobbyhall.fi
-@@||frosmo.com/recoApi/$xmlhttprequest,domain=hobbyhall.fi|lily.fi|meillakotona.fi|terve.fi
+@@||frosmo.com/recoApi/$xmlhttprequest,domain=apu.fi|hobbyhall.fi|lily.fi|meillakotona.fi|terve.fi
 @@||google-analytics.com/analytics.js$script,domain=hobbyhall.fi
 @@||google-analytics.com/gtm/js$script,domain=hobbyhall.fi
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
@@ -89213,6 +89212,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||date4sex.pro^$all
 /click.php?data=$doc
 &adspot_id=*&cost=0.$doc
+||game-hacks.online^$all
+||s4f.net^$all
 ||hyperwage.com^$all
 ||ricavato.com^
 ||bitcoingenerator.me^$all
@@ -90042,6 +90043,7 @@ skk.moe##+js(no-fetch-if, method:POST)
 ||videovard.sx/api/front/view^$xhr,important
 endbasic.dev,jmmv.dev##+js(no-xhr-if, method:POST url:api.jmmv.dev)
 ||b90.yahoo.co.jp^
+||jsdelivr.net^*/fp.min.js$script,redirect-rule=fingerprint3.js:10
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
@@ -90104,6 +90106,10 @@ bilibili.com,dandanzan.top,nunuyy.*,v.qq.com##+js(nowebrtc)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=insider.foxnews.com
 ||statcounter.com^$badfilter
 ||statcounter.com^$3p
+https://github.com/uBlockOrigin/uAssets/issues/11321#issuecomment-1046231538
+@@||statcounter.com/js/fusioncharts.js$script,domain=windowscentral.com
+@@||gs.statcounter.com/chart.php$script,domain=windowscentral.com
+@@||statcounter.com/js//fusioncharts.charts.js$script,domain=windowscentral.com
 @@||s0.2mdn.net/instream/*$domain=cnet.com
 @@||cdn.vurb.com/*/mixpanel.
 ||mopub.com^$badfilter
