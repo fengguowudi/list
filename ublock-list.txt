@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4fyWdYboPRaE2DIJJ+hYMg
+! Checksum: pSmZTVgpIIWyIqAG7XrKYA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202200917
-! Last Modified: 2022年02月20日 09:17
+! Version: 202202201423
+! Last Modified: 2022年02月20日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -813,7 +813,7 @@
 /ad-skyscraper.
 /ad-source/*
 /ad-sovrn.
-/ad-space/*
+/ad-space/*$~image
 /ad-specs.
 /ad-sprite.
 /ad-srv.
@@ -72109,6 +72109,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.send.cm^
 ||analytics.slashdotmedia.com^
 ||analytics.synedat.com^
+||analytics.tradedoubler.com^
 ||analytics.twitter.com^
 ||analytics.vedantu.com^
 ||androidfilehost.com/libs/otf/stats.otf.php?
@@ -87860,7 +87861,6 @@ watchdoctorwhoonline.com##^script:has-text(break;case $.)
 watchdoctorwhoonline.com##+js(acis, JSON.parse, break;case $.)
 watchdoctorwhoonline.com##.custom-html-widget.textwidget > .close
 synonyms.com##+js(set, canRunAds, true)
-pcgamesn.com##html > body:style(padding-top:0px !important)
 pcgamesn.com##header:style(top:0 !important)
 pcgamesn.com##.legion_primiswrapper
 ||beop.io^$3p
