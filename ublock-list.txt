@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: x9YMYFIdQ+iccB+wtIAiBA
+! Checksum: sXXXKXNi1cMmUqPmSBTv0Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202212033
-! Last Modified: 2022年02月21日 20:33
+! Version: 202202220223
+! Last Modified: 2022年02月22日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -25982,6 +25982,7 @@ _800x80_
 ##.l-ad
 ##.l-ad-300
 ##.l-ad-728
+##.l-ad-top
 ##.l-ads
 ##.l-adsense
 ##.l-bottom-ads
@@ -37604,6 +37605,7 @@ tf2r.com#@#.adverts
 ||gloviphewhe.com^
 ||glowdot.com^
 ||glssp.net^
+||glucinafumose.com^
 ||gludraus.com^
 ||glugreez.com^
 ||glumpaul.net^
@@ -38704,6 +38706,7 @@ tf2r.com#@#.adverts
 ||invisedspill.com^
 ||invitesuperstitiousadmire.com^
 ||invraisemblable.com^
+||inwardxenos.com^
 ||inwgamacuuv.xyz^
 ||ioadserve.com^
 ||iociley.com^
@@ -85673,8 +85676,8 @@ toonworld4all.me##+js(aopr, absda)
 toonworld4all.me###media_image-4
 androidhexzone.blogspot.com##+js(aopr, absda)
 ||appnext.hs.llnwd.net^
-olympicstreams.me,vipboxtv.se##+js(acis, JSON.parse, break;case $.)
-olympicstreams.me,vipboxtv.se##+js(aopw, _pop)
+olympicstreams.me,vipboxtv.*##+js(acis, JSON.parse, break;case $.)
+olympicstreams.me,vipboxtv.*##+js(aopw, _pop)
 ||raw.githubusercontent.com/*/just-detect-adblock/*$3p,xhr,redirect-rule=nooptext
 buffstreams.tv##+js(acis, JSON.parse, break;case $.)
 live-sport24.com##+js(aopr, open)
@@ -86036,7 +86039,6 @@ gledajcrtace.xyz###header-wrap-reklama
 gledajcrtace.xyz###HTML8
 ebay.*##.s-item__sep:matches-css(display: none):remove()
 ebay.*##:xpath(//span[(text()='S')]):upward(.s-item)
-erotikfilmsitesi.com##+js(acis, puShown, /doOpen|popundr/)
 javquick.com##+js(nowoif)
 lazytranslations.com##+js(aost, String.prototype.charCodeAt, ai_)
 lazytranslations.com##.ad-after-postend
@@ -86788,12 +86790,10 @@ pornxxxxtube.net##+js(aeld, click, popMagic)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect-rule,domain=carousell.*
 robloxhacks.net##+js(nosiif, visibility, 1000)
 zeybui.net##+js(adfly-defuser)
-linkerhub.tk##+js(aopr, app_vars.force_disable_adblock)
-linkerhub.tk##+js(set, blurred, false)
-linkerhub.tk##.banner
-linkerhub.tk##.link-details
-unblocknow.cyou##+js(aopw, _pop)
-igg-games.unblocknow.cyou##.adstg
+unblocknow.*##+js(aopw, _pop)
+unblocknow.*##.adstg
+unblocknow.*##.alert
+unblocknow.*###cookieConsentVPN666
 igggames.unblocker.pro##+js(aeld, DOMContentLoaded, link.onclick)
 igggames.unblocker.pro##.adstg
 skidrow-games.com##+js(acis, JSON.parse, break;case $.)
@@ -86816,8 +86816,6 @@ go.gets4link.com##+js(set, blurred, false)
 go.gets4link.com##.blog-item
 go.gets4link.com##.banner
 go.gets4link.com##.mx-auto > center
-gledajonline.net##+js(ra, href, [target="_blank"])
-glokom.club##+js(aost, open, Pop)
 mangalek.com##+js(acis, String.fromCharCode, decodeURIComponent)
 *$script,3p,denyallow=cloudflare.com|mangarc.com,domain=mangalek.com
 trzpro.com##+js(nano-sib, counter--)
@@ -86837,7 +86835,6 @@ vippaste.xyz##+js(aopr, isAdBlockActive)
 kingurls.com##+js(aopr, app_vars.force_disable_adblock)
 kingurls.com##+js(set, blurred, false)
 kingurls.com##+js(nowoif)
-robloxexploit.net##+js(nosiif, visibility, 1000)
 lightnovelpdf.com##+js(aopr, adsBlocked)
 lightnovelpdf.com##+js(nowoif)
 scriptsrbx.com##+js(aopr, DHAntiAdBlocker)
@@ -89232,6 +89229,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 &adspot_id=*&cost=0.$doc
 ||game-hacks.online^$all
 ||s4f.net^$all
+||142.91.159.163^$doc
 ||hyperwage.com^$all
 ||ricavato.com^
 ||bitcoingenerator.me^$all
