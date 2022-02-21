@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ib2zViV7Ytpf4kbym0C0VQ
+! Checksum: VCYxhy+RRFj4ZfyGH7ZoCg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202210910
-! Last Modified: 2022年02月21日 09:10
+! Version: 202202211424
+! Last Modified: 2022年02月21日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1704,7 +1704,7 @@
 /adjk.
 /adjoin.
 /adjs.php
-/adjs/*
+/adjs/*$~image
 /adjs?
 /adjs_
 /adjsmp.
@@ -21499,6 +21499,7 @@ _800x80_
 ##.adv-bar
 ##.adv-before-news-body
 ##.adv-block
+##.adv-block-container
 ##.adv-border
 ##.adv-bottom
 ##.adv-box
@@ -33179,6 +33180,7 @@ tf2r.com#@#.adverts
 ||appaldishonestbribe.com^
 ||apparelconsignmentaffection.com^
 ||apparentfib.com^
+||apparentlyhandbook.com^
 ||apparentsav.club^
 ||apparest.com^
 ||appearancefingerprintabet.com^
@@ -33547,6 +33549,7 @@ tf2r.com#@#.adverts
 ||b11stop.com^
 ||b12stop.com^
 ||b13481647cf775c5.com^
+||b13stop.com^
 ||b18a21ab3c9cb53.com^
 ||b1f6fe5e3f0c3c8ba6.com^
 ||b1f72fc1be.com^
@@ -35789,6 +35792,7 @@ tf2r.com#@#.adverts
 ||directrev.com^
 ||directtrack.com^
 ||directuklye.co^
+||dirtyasmr.com^
 ||disableadblock.com^
 ||disagreeablepeninsula.com^
 ||disappearanceinspiredscan.com^
@@ -37171,6 +37175,7 @@ tf2r.com#@#.adverts
 ||free-domain.net^
 ||freebiesurveys.com^
 ||freecouponbiz.com^
+||freedatinghookup.com^
 ||freedownloadsoft.net^
 ||freeevpn.info^
 ||freegiftvip.xyz^
@@ -37609,6 +37614,7 @@ tf2r.com#@#.adverts
 ||glxtest.site^
 ||glyptaptone.pro^
 ||gmads.net^
+||gme-trking.com^
 ||gmediarelati.biz^
 ||gmiuxfmrwi.top^
 ||gmnzaneslia.com^
@@ -38023,6 +38029,7 @@ tf2r.com#@#.adverts
 ||hearthcoronation.com^
 ||heathertravelledpast.com^
 ||heavenlygenetically.com^
+||heavyrnews.name^
 ||hebadu.com^
 ||hebcpjvghsctfn.com^
 ||hechcandled.casa^
@@ -46470,6 +46477,7 @@ tf2r.com#@#.adverts
 ||winpbn.com^
 ||winr.online^
 ||winsistakesme.site^
+||winternewsnow.name^
 ||wipedhypocrite.com^
 ||wipedstuffed.com^
 ||wipowaxe.com^
@@ -47046,6 +47054,7 @@ tf2r.com#@#.adverts
 ||yuhuads.com^
 ||yuhvjuedhcu.com^
 ||yuluna.name^
+||yulunanews.name^
 ||yumenetworks.com^
 ||yunshipei.com^
 ||yupfiles.net^
@@ -47764,6 +47773,7 @@ tf2r.com#@#.adverts
 ||bidsxchange.com^$third-party
 ||bidvertiser.com^$third-party
 ||bigpulpit.com^$third-party
+||bigspyglass.com^$third-party
 ||bin-layer.de^$third-party
 ||bingo4affiliates.com^$third-party
 ||binlayer.com^$third-party
@@ -53211,6 +53221,7 @@ $popup,third-party,domain=1337x.buzz|animeworld.biz|apl100.me|apl102.me|apl96.me
 ||iplayboy.us/bnrs/
 ||ipornxxx.net/banners/
 ||jav.work/p.js
+||jerkdude.com/log300.jpg
 ||kindgirls.com/banners2/
 ||kompoz2.com/js/take.max.js
 ||lustypuppy.com/sbbi/
@@ -56937,6 +56948,7 @@ empflix.com##.rightBarBannersx
 gottanut.com##.rightContent-videoPage
 analsexstars.com,porn.com,pussy.org##.rmedia
 jizzbunker.com,xxxdan.com##.rzx1
+forum.lewdweb.net##.samCodeUnit
 porngals4.com##.sb250
 sextb.net##.sextb_300
 sankakucomplex.com##.side300xmlc
@@ -57017,6 +57029,7 @@ sexseeimage.com##.video-block-happy
 comicsxxxgratis.com,video.javdock.com##.video-container
 boyfriendtv.com##.video-extra-wrapper
 ok.xxx,pornhat.com##.video-link
+pornzog.com##.video-ntv
 pornhdtube.tv##.video-overlay
 thegay.com##.video-page__content > .right
 pornhd.com##.video-player-overlay
@@ -57796,6 +57809,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hiveworkscomics.com/frontboxes/300x250_$image,~third-party
 @@||leffatykki.com/media/banners/tykkibanneri-728x90.png$image,~third-party
 @@||nc-myus.com/images/pub/www/uploads/merchant-logos/$image,~third-party
+@@||nihasi.ru/upload/resize_cache/*/300_250_$image,~third-party
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||radiosun.fi/wp-content/uploads/*300x250$image,~third-party
 @@||reastatic.net/150x200-$domain=realestate.com.au
@@ -63657,6 +63671,7 @@ _mongo_stats/
 ||pdflive.org^
 ||permutive.app^
 ||pixrealm.com^
+||pjstat.com^
 ||progmxs.com^
 ||propeller-tracking.com^
 ||pubtm.com^
@@ -63699,6 +63714,7 @@ _mongo_stats/
 ||ugdturner.com^
 ||v1sts.me^
 ||videoplayerhub.com^
+||vkanalytics.net^
 ||wknd.ai^
 ||wmgroup.us^
 ||woodpeckerlog.com^
@@ -69972,6 +69988,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.seekda.com^
 ||logger.snackly.co^
 ||logging.carambo.la^
+||logging.je-apps.com^
 ||logging.prefixbox.com^
 ||loggingapi.spingo.com^
 ||loglady.skypicker.com^
@@ -82944,11 +82961,13 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||catalove.com/bimp/
 ||catalove.com/ntv/
 ||click.tv.repubblica.it^
+||clickserver.libero.it^
 ||compare.easyviaggio.com^
 ||data.segugio.it^
 ||deagostinipassion.it/collezioni/analytics.js
 ||emng.libero.it^
 ||execution-ci360.rai.it^
+||fanpage.it/svs.gif?
 ||fanpage.it/views/
 ||freeonline.org/sito_track?
 ||gazzetta.it^*/stats.php?
@@ -83800,6 +83819,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
+@@||gs.statcounter.com/chart.php$script,third-party
+@@||statcounter.com/js//fusioncharts.charts.js
+@@||statcounter.com/js/fusioncharts.js
+@@||www.statcounter.com/images/$image,third-party
 @@||api.babbel.io/gamma/v1/$ping,domain=my.babbel.com
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
 @@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se
@@ -87937,7 +87960,6 @@ viralitytoday.com##+js(acis, JSON.parse, break;case $.)
 buffstream.*##+js(acis, JSON.parse, break;case $.)
 comedyshow.to##+js(acis, JSON.parse, break;case $.)
 ytmp3eu.com##+js(aopw, _pop)
-cima-club.cc##+js(acis, JSON.parse, break;case)
 subedlc.com##+js(acis, document.addEventListener, nextFunction)
 avjamack.com,avjamak.net##+js(nostif, nextFunction, 250)
 avjamack.com,avjamak.net##.widget-img
@@ -90037,7 +90059,7 @@ skk.moe##+js(no-fetch-if, method:POST)
 ||mynewsmedia.co/*/Linkpage/ads_stats_controller.php
 ||gplinks.co/Auth/ads_stats_controller.php
 ||videovard.sx/api/front/view^$xhr,important
-endbasic.dev,jmmv.dev##+js(no-xhr-if, method:POST url:api.jmmv.dev)
+endbasic.dev,jmmv.dev##+js(no-xhr-if, method:POST)
 ||b90.yahoo.co.jp^
 ||jsdelivr.net^*/fp.min.js$script,redirect-rule=fingerprint3.js:10
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
@@ -90102,10 +90124,6 @@ bilibili.com,dandanzan.top,nunuyy.*,v.qq.com##+js(nowebrtc)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=insider.foxnews.com
 ||statcounter.com^$badfilter
 ||statcounter.com^$3p
-https://github.com/uBlockOrigin/uAssets/issues/11321#issuecomment-1046231538
-@@||statcounter.com/js/fusioncharts.js$script,domain=windowscentral.com
-@@||gs.statcounter.com/chart.php$script,domain=windowscentral.com
-@@||statcounter.com/js//fusioncharts.charts.js$script,domain=windowscentral.com
 @@||s0.2mdn.net/instream/*$domain=cnet.com
 @@||cdn.vurb.com/*/mixpanel.
 ||mopub.com^$badfilter
