@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VCYxhy+RRFj4ZfyGH7ZoCg
+! Checksum: x9YMYFIdQ+iccB+wtIAiBA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202211424
-! Last Modified: 2022年02月21日 14:24
+! Version: 202202212033
+! Last Modified: 2022年02月21日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -702,7 +702,7 @@
 /ad-banner-$~image,~script
 /ad-banner.
 /ad-bckg.
-/ad-bin/*
+/ad-bin/*$~image
 /ad-blacklist.
 /ad-bottom.
 /ad-box-
