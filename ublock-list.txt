@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eQ+ho5h7FdRUG/V4UjOaRA
+! Checksum: tZlt85FNY1vtSpvENPovmw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202230919
-! Last Modified: 2022年02月23日 09:19
+! Version: 202202231424
+! Last Modified: 2022年02月23日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -781,15 +781,15 @@
 /ad-minister.$domain=~ad-minister.app
 /ad-minister/*$domain=~ad-minister.app
 /ad-modules/*$~image
-/ad-navi/*
+/ad-navi/*$~image
 /ad-nytimes.
 /ad-offer1.
 /ad-openx.
 /ad-overlay-
 /ad-overlay.
-/ad-page/*
-/ad-plate/*
-/ad-plugin/*
+/ad-page/*$~image
+/ad-plate/*$~image
+/ad-plugin/*$~image
 /ad-point/*
 /ad-position-
 /ad-provider.
@@ -7888,7 +7888,6 @@ _800x80_
 ###Ad-Top
 ###Ad160x600
 ###Ad160x600_0_adchoice
-###Ad300x145
 ###Ad300x250
 ###Ad300x250_0
 ###Ad300x600_0_adchoice
@@ -8167,12 +8166,6 @@ _800x80_
 ###DartAd990x90
 ###DealsPageSideAd
 ###DivAd
-###DivAd1
-###DivAd2
-###DivAd3
-###DivAdA
-###DivAdB
-###DivAdC
 ###DivAdEggHeadCafeTopBanner
 ###DivAdForumSplitBottom
 ###DivMsnCamara
@@ -8771,7 +8764,6 @@ _800x80_
 ###ad-in-post-0
 ###ad-index
 ###ad-inline-block
-###ad-inner
 ###ad-inserter-1
 ###ad-inside1
 ###ad-inside2
@@ -12043,7 +12035,6 @@ _800x80_
 ###banner_topad
 ###banner_videoad
 ###banner_wrapper_top
-###bannerad
 ###bannerad-bottom
 ###bannerad-top
 ###bannerad2
@@ -41555,6 +41546,7 @@ tf2r.com#@#.adverts
 ||pagnookr.net^
 ||paht.tech^
 ||pahtzh.tech^
+||paid.outbrain.com^
 ||pailridarm.com^
 ||painfullyneattide.com^
 ||painlessassumedbeing.com^
@@ -47208,7 +47200,9 @@ tf2r.com#@#.adverts
 ||zzghcckpzlhob.com^
 ||zzoacwqfw.com^
 ||bet365.com/*?affiliate=$document
+||dianomi.com^$document
 ||maquiags.com^$document
+||paid.outbrain.com^$document
 ||popcash.net^$document
 ||popmyads.com^$document
 ||exoclick.com^$third-party
@@ -51178,6 +51172,7 @@ tf2r.com#@#.adverts
 ||ad.about.co.kr^
 ||ad.bitbay.net^
 ||ad.bitmedia.io^
+||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ||ad.edugram.com^
 ||ad.jamba.net^
 ||ad.mail.ru^$domain=~mail.ru|~sportmail.ru
@@ -51962,6 +51957,7 @@ tf2r.com#@#.adverts
 ||cdn.optmd.com^$popup
 ||chaturbate.com/affiliates/$popup
 ||cyberprivacy.pro^$popup
+||dianomi.com^$popup
 ||download-step1.com^$popup
 ||downloadoperagx.com/ef/$popup
 ||eatcells.com/landing/$popup
@@ -52383,6 +52379,8 @@ tf2r.com#@#.adverts
 ||devicespecifications.com/images/merchant/
 ||dg-premium.com/wp-content/themes/dg-premium/img/siemens.svg
 ||dhakatribune.com/dynamics/dhakaadvs/
+||dianomi.com/brochures.epl?
+||dianomi.com/click.epl
 ||digitalmediaworld.tv/images/banners/
 ||diglloyd.com/js2/pub-wide2-ck.js
 ||directory.romania-insider.com^$subdocument
@@ -53248,6 +53246,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|animeworld.biz|apl100.me|apl1
 ||titsbox.com/nb/
 ||tnaflix.com/azUhsbtsuzm?
 ||tryboobs.com/bf/
+||tubxporn.xxx/js/xp.js
 ||txxx.com/uieisoudo/
 ||urgayporn.com/bn/
 ||vipergirls.to/clientscript/poptrigger_
@@ -56667,6 +56666,7 @@ grannymommy.com##.banner-on-player
 babesandstars.com##.banner-right
 javfor.tv##.banner-top-b
 dofap.com##.banner300x250
+tnaflix.com##.bannerBlock
 watchhentaivideo.com##.bannerBottom
 sexu.com##.banners
 bubbaporn.com,kalporn.com,koloporno.com,pornodingue.com,pornodoido.com,pornozot.com,serviporno.com,voglioporno.com##.banners-footer
@@ -57018,6 +57018,7 @@ momxxxfun.com##.zone-2
 pinflix.com,pornhd.com##.zone-area
 xxxdan.com##.zx1p
 porn300.com,pornodiamant.xxx##[class^="abcnn_"]
+whoreshub.com##[class^="pop-"]
 cumlouder.com##[class^="sm"]
 xhamster.com,xhamster.one,xhamster2.com##[class^="xplayer-banner"]
 fapnado.com##[class^="xpot"]
@@ -57777,7 +57778,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||accounts.google.com^$popup
 @@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|mail.yahoo.com|nytimes.com|spaargids.be
 @@||ad.doubleclick.net/ddm/clk/*http$popup
-@@||ad.doubleclick.net/ddm/trackclk/$popup
 @@||admin.mgid.com^$popup
 @@||ads.amazon^$popup
 @@||ads.askgamblers.com^$popup
@@ -87690,6 +87690,7 @@ kshow123.net##+js(acis, JSON.parse, break;case $.)
 kshow123.net###ads-top-player
 kshow123.net###closeads
 ||voxymelody.xyz^
+designtagebuch.de##+js(set, SteadyWidgetSettings.adblockActive, false) 
 @@*$xhr,domain=designtagebuch.de
 designtagebuch.de##[id^="desig-"]:has-text(ANZEIGE)
 designtagebuch.de##.zwischen-posts-wrapper
