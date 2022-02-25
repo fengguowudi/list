@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: duSMj51DXh6s+uByjrDwSw
+! Checksum: CCcEH652X4rwxkHrUIS45A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202251424
-! Last Modified: 2022年02月25日 14:24
+! Version: 202202252032
+! Last Modified: 2022年02月25日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1440,15 +1440,15 @@
 /adbrite2.
 /adbrite_
 /adbroker.
-/adbroker/*
+/adbroker/*$~image
 /adbtr.
 /adbucket.
-/adbucks/*
+/adbucks/*$~image
 /adbug_
 /adbureau.
 /adbutler-
 /adbutler.
-/adbutler/*
+/adbutler/*$~image
 /adbytes.
 /adcache.
 /adcall.$domain=~adcall.cz
@@ -84295,6 +84295,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
 @@||netmede.pt/code/ga.min.js$script,domain=netmede.pt
 @@||nostv.pt^*/angulartics-google-analytics.js?
+@@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
 @@||siteapps.com^$script,domain=netcombo.com.br
 @@||splunk-heavyforwarder-public.vtex.com:8088/services/collector/event$xmlhttprequest,domain=loja3m.com.br
 @@||stats.g.doubleclick.net/dc.js$domain=netcombo.com.br
@@ -86850,11 +86851,13 @@ techpowerup.com##:not(:matches-path(/forums/)) [src*="techpowerup.com"]:upward(a
 techpowerup.com##[src]:matches-css(margin-left:/12/)
 techpowerup.com##:not(:matches-path(/forums/)) [rel]:matches-css(position: /fixed/)
 techpowerup.com##:not(:matches-path(/forums/)) [src]:matches-css(position: /fixed/)
-/-[0-9]{9,10}\/images\/[0-9a-z]{8}.jpg/$image,3p,domain=techpowerup.com
-techpowerup.com##:not(:matches-path(/forums/)) [href^="/images/487/"]
-techpowerup.com##:not(:matches-path(/forums/)) a[href*="/images/"] > span > i > img
-techpowerup.com##:not(:matches-path(/forums/)) #viewport > .site-header > *:not(.site-hd__logo-wrapper)
-techpowerup.com##:not(:matches-path(/forums/)) #page > [class$="-bar"] > div:has(img)
+/[0-9]{9,10}\/images\/[0-9a-z]{8}.jpg/$image,3p,domain=techpowerup.com
+techpowerup.com##:not(:matches-path(/forums/)) [href^="/images/457/"]
+techpowerup.com##:not(:matches-path(/forums/)) a[href*="/images/"] > span > span > img
+techpowerup.com##:not(:matches-path(/forums/)) #viewport > section > .site-header > *:not(.site-hd__logo-wrapper)
+techpowerup.com##:not(:matches-path(/forums/)) #page > span[class] > div:has(img)
+techpowerup.com##:not(:matches-path(/forums/)) [style="display:block"] + *:has(a[href^="/images/"]):has(img)
+techpowerup.com##:not(:matches-path(/forums/)) article + *:not([article]):has(label) > *:not([article]):has(a[href^="/images/"]):has(img)
 *$image,redirect-rule=1x1.gif,domain=easymc.io
 shortgalaxy.in##+js(set, blurred, false)
 shortgalaxy.in##div.row > .short
@@ -90095,14 +90098,14 @@ search.brave.com##+js(no-fetch-if, body:cohort)
 /^\w+://[\w.\-]+\.www\.atlaslane\.com//$1p,script
 /^\w+://[0-9a-z]{12}\.tapmyback\.com//$1p,script
 /^\w+://[\w.\-]+\.www\.cefirates\.com//$1p,script
-/^\w+://[0-9a-z]{12}\.nikita\.tk//$1p,script
 fjlaboratories.com##+js(aost, Math.floor, injectedScript)
 stoic.ai##^script:has-text(\x3c)
 stoic.ai##+js(aost, Math.floor, injectedScript)
 ||ampl.cinotes.com^
 ||data-saver-cindi.herokuapp.com^
 ||cdn.cindicator.com/$script,3p
-filmustage.com,freecodecamp.org,mailfloss.com##+js(acis, String.fromCharCode, join)
+filmustage.com,freecodecamp.org,mailfloss.com,nikita.tk##+js(acis, String.fromCharCode, join)
+nikita.tk##^script:has-text(join(''))
 ||washpost.nile.works^
 /p13n/batch/action/*$image
 ppss.kr##[href*="https://www.classo.me"]:remove()
@@ -90150,6 +90153,7 @@ endbasic.dev,jmmv.dev##+js(no-xhr-if, method:POST)
 ||b90.yahoo.co.jp^
 ||jsdelivr.net^*/fp.min.js$script,redirect-rule=fingerprint3.js:10
 /log/*$xhr,domain=vizcloud.ru|vizcloud2.ru
+||serasaexperian.com.br/dist/scripts/fingerprint2.js^$redirect=fingerprint2.js,script,important
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
