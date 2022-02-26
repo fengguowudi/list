@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: z2S/lhhHBijMCjkl8SQ5lw
+! Checksum: rUFCbXKQCZNlN7Nq8vWUTg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202262030
-! Last Modified: 2022年02月26日 20:30
+! Version: 202202270222
+! Last Modified: 2022年02月27日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1502,7 +1502,7 @@
 /adcollector.
 /adcommon?
 /adcomp.
-/adcomponent/*
+/adcomponent/*$~image
 /adconfig.
 /adconfig/*
 /adconfigproxy.
@@ -86930,13 +86930,13 @@ techpowerup.com##:not(:matches-path(/forums/)) [src*="techpowerup.com"]:upward(a
 techpowerup.com##[src]:matches-css(margin-left:/12/)
 techpowerup.com##:not(:matches-path(/forums/)) [rel]:matches-css(position: /fixed/)
 techpowerup.com##:not(:matches-path(/forums/)) [src]:matches-css(position: /fixed/)
-/\/images\/[0-9a-z]{8}.jpg/$image,3p,domain=techpowerup.com
-techpowerup.com##:not(:matches-path(/forums/)) [href^="/images/447/"]
-techpowerup.com##:not(:matches-path(/forums/)) a[href*="/images/"] > span > span:has(img)
-techpowerup.com##:not(:matches-path(/forums/)) #viewport > * > .site-header > *:not(.site-hd__logo-wrapper)
-techpowerup.com##:not(:matches-path(/forums/)) #page > *:not(main) > [class="sidebar-im"]:has(img)
-techpowerup.com##:not(:matches-path(/forums/)) [class]:has(label[class="navigation-toggle"]) + *:has(a[href^="/images/"]):has(img)
-techpowerup.com##:not(:matches-path(/forums/)) i:has(img[src*="tpucdn.com"])
+/\/images\/[0-9a-z]{8,9}.jpg/$image,3p,domain=techpowerup.com
+techpowerup.com##:not(:matches-path(/forums/)) [href^="/images/407/"]
+techpowerup.com##:not(:matches-path(/forums/)) a[href^="/images/"]:has(span > span:has(img))
+techpowerup.com##:not(:matches-path(/forums/)) aside > div[class$="clearfix"] > span > a
+techpowerup.com##:not(:matches-path(/forums/)) #page > *:not(main) > :not([class^="sidebar-item"]):has(img)
+techpowerup.com##:not(:matches-path(/forums/)) [class]:has(label[class="navigation-toggle"]) + div + *:has(a[href^="/images/"]):has(img)
+techpowerup.com##:not(:matches-path(/forums/)) a[href^="/images/"] > *:has(span:has(img[src*="tpucdn.com"]))
 *$image,redirect-rule=1x1.gif,domain=easymc.io
 shortgalaxy.in##+js(set, blurred, false)
 shortgalaxy.in##div.row > .short
@@ -88627,6 +88627,8 @@ gomoviefree.*,vidoo.org##+js(acis, Promise, JSON.parse)
 gomoviefree.*##^script:has-text(break;case $.)
 gomoviefree.*##.mobile-btn
 vidoo.org##.banner
+2embedplayer.net##+js(aopw, _pop)
+||whsrdsweq.com^
 tokyorevengersmanga.com##+js(acis, document.querySelectorAll, popMagic)
 3cinfo.net##+js(aeld, , document.oncontextmenu)
 routech.ro##+js(no-xhr-if, googlesyndication)
