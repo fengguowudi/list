@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Om0lvVxQYkNT48sibccvmg
+! Checksum: TZ6modlX9ZT+pbW5Hv50wg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202270222
-! Last Modified: 2022年02月27日 02:22
+! Version: 202202270916
+! Last Modified: 2022年02月27日 09:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -11872,7 +11872,7 @@ ygdy8.cc##.container > a[href^="/"]
 rijutv.co##.container > div[style="height: 128px;"]
 vpsdx.com##.container-fluid > .gsfha3 > .gsfha3
 78dm.net##.container-fluid > a[href*=".taobao.com"]
-91porny.com,jiuse205.com##.container-fluid.p-0[class*="mb-"]
+91porny.com,jiuse205.com,jiuse702.com##.container-fluid.p-0[class*="mb-"]
 423down.com##.content > a
 www.wangjing.cn##.content > div[style*="980px;"]
 serengeseba.com##.content > li > a[href^="http"]
@@ -12640,7 +12640,7 @@ hk.yahoo.com##.js-stream-content[style="background-color:#fafaff;"]
 360kan.com##.js-welcome
 ifeng.com##.js_url[href^="http://dol.deliver."]
 mvcat.com##.jsalert
-91porny.com,jiuse205.com##.jsv-g1
+91porny.com,jiuse205.com,jiuse702.com##.jsv-g1
 24k99.com##.jy_24k99_suspended_ad
 fx168.com##.jy_fx168_default_head_navAd
 fx168.com##.jy_fx168_gjs_content_Right_advise

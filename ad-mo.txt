@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: w2+abkoPIraaWllN30i57g
+! Checksum: FxZlQHwm5+2fPhrfbWW2Nw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202270222
-! Last Modified: 2022年02月27日 02:22
+! Version: 202202270916
+! Last Modified: 2022年02月27日 09:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1842,10 +1842,10 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adcomp.
 /adcomponent/*$~image
 /adconfig.
-/adconfig/*
+/adconfig/*$~image
 /adconfigproxy.
 /adcontainer?
-/adcontent.$~object
+/adcontent.$~image,~object
 /adcontent/*
 /adcontents_
 /adcontrol.$domain=~adcinjector.com|~adcontrol.sk
@@ -55885,7 +55885,6 @@ stuff.co.nz##.sics-component__app__top-leaderboard-ads-container
 stuff.co.nz##.sics-component__widget--neighbourlyShowcasePlus
 pcgamebenchmark.com##.side
 news.am,nexter.org,viva.co.nz##.side-banner
-kit.co##.sidekit-banner
 gfycat.com##.side-slot
 vpnmentor.com##.side-top-vendors-wrap
 pr0gramm.com##.side-wide-skyscraper
@@ -55919,6 +55918,7 @@ thenokiablog.com##.sidebardirect
 linuxize.com##.sideblock
 freedla.com##.sidebox
 tothepc.com##.sidebsa
+kit.co##.sidekit-banner
 linuxtopia.org##.sidelinks > .sidelinks
 ee.co.za##.sidepromo
 ohinternet.com##.sider
@@ -56639,7 +56639,7 @@ drive.com.au##hr
 avanigo.com##iframe.lazyloaded
 micky.com.au##iframe[height="90"]
 coincodex.com,yourbittorrent.com##iframe[src]
-123-movies.ninja,123movies.net,4anime.gg,animekisa.tv,dramacool.pk,dulu.to,mangceh.cc,mangadna.com,vanime.co,watchseries.ninja,ytmp3.cc##iframe[style*="z-index: 2147483647"]
+123-movies.ninja,123movies.net,4anime.gg,animekisa.tv,dramacool.pk,dulu.to,mangadna.com,mangceh.cc,vanime.co,watchseries.ninja,ytmp3.cc##iframe[style*="z-index: 2147483647"]
 fansshare.com##iframe[width="300"]
 shoesession.com##iframe[width="732"]
 windycitymediagroup.com,windycitytimes.com##img[alt*="Sponsor"]
@@ -70023,7 +70023,7 @@ ygdy8.cc##.container > a[href^="/"]
 rijutv.co##.container > div[style="height: 128px;"]
 vpsdx.com##.container-fluid > .gsfha3 > .gsfha3
 78dm.net##.container-fluid > a[href*=".taobao.com"]
-91porny.com,jiuse205.com##.container-fluid.p-0[class*="mb-"]
+91porny.com,jiuse205.com,jiuse702.com##.container-fluid.p-0[class*="mb-"]
 423down.com##.content > a
 www.wangjing.cn##.content > div[style*="980px;"]
 serengeseba.com##.content > li > a[href^="http"]
@@ -70791,7 +70791,7 @@ hk.yahoo.com##.js-stream-content[style="background-color:#fafaff;"]
 360kan.com##.js-welcome
 ifeng.com##.js_url[href^="http://dol.deliver."]
 mvcat.com##.jsalert
-91porny.com,jiuse205.com##.jsv-g1
+91porny.com,jiuse205.com,jiuse702.com##.jsv-g1
 24k99.com##.jy_24k99_suspended_ad
 fx168.com##.jy_fx168_default_head_navAd
 fx168.com##.jy_fx168_gjs_content_Right_advise
