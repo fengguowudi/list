@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FxZlQHwm5+2fPhrfbWW2Nw
+! Checksum: D6piBmqYMKm/tn5RvNzv1A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202270916
-! Last Modified: 2022年02月27日 09:16
+! Version: 202202271423
+! Last Modified: 2022年02月27日 14:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1846,19 +1846,19 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adconfigproxy.
 /adcontainer?
 /adcontent.$~image,~object
-/adcontent/*
+/adcontent/*$~image
 /adcontents_
 /adcontrol.$domain=~adcinjector.com|~adcontrol.sk
-/adcontrol/*
+/adcontrol/*$~image
 /adcontroller.
 /adcore.$domain=~adcore.ch|~adcore.com.au|~adcore.ua
 /adcore_$domain=~adcore.ch|~adcore.com.au
 /adcount.$domain=~adcount.com|~adcount.fi
 /adcounter.
 /adcreative.
-/adcreative/*
+/adcreative/*$~image
 /adcreatives/*
-/adcss/*
+/adcss/*$~image
 /adctrl/*
 /adCustom-
 /adcxtnew_
@@ -6962,7 +6962,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 ?adTagUrl=
 ?adtarget=
 ?adtechplacementid=
-?adunit=
 ?adunit_id=
 ?adunitid=
 ?adunitname=
@@ -59947,6 +59946,9 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||haoyundmtaotao.com^
+||4takaixi.xyz^
+||7gukaip.xyz^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -67645,6 +67647,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||qiqivoip.com/333/
+||taotaoxiang.cc/333/
+||duodada.com/333/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -75543,6 +75548,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=xs7788.com|00ksw
 ||dofsg.cn^
 ||qycg.wang^
 ||sxtc.wang^
+||qiannian.biz^
+||xocs.ren^
+||xflz.xyz^
+||zdzy.shop^
+||hulauf.cn^
+||khphkum.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

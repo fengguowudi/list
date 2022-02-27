@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +mdDAlxg04uc1PTKA7yRtA
+! Checksum: L0PMfT6vUh4fQs7KqQZGgw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202202270916
-! Last Modified: 2022年02月27日 09:16
+! Version: 202202271423
+! Last Modified: 2022年02月27日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1508,19 +1508,19 @@
 /adconfigproxy.
 /adcontainer?
 /adcontent.$~image,~object
-/adcontent/*
+/adcontent/*$~image
 /adcontents_
 /adcontrol.$domain=~adcinjector.com|~adcontrol.sk
-/adcontrol/*
+/adcontrol/*$~image
 /adcontroller.
 /adcore.$domain=~adcore.ch|~adcore.com.au|~adcore.ua
 /adcore_$domain=~adcore.ch|~adcore.com.au
 /adcount.$domain=~adcount.com|~adcount.fi
 /adcounter.
 /adcreative.
-/adcreative/*
+/adcreative/*$~image
 /adcreatives/*
-/adcss/*
+/adcss/*$~image
 /adctrl/*
 /adCustom-
 /adcxtnew_
@@ -6624,7 +6624,6 @@
 ?adTagUrl=
 ?adtarget=
 ?adtechplacementid=
-?adunit=
 ?adunit_id=
 ?adunitid=
 ?adunitname=
