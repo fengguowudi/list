@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h79s5xbdYvxLaW7xGs38gA
+! Checksum: 06Y7TcOLA3xQoXaJkgyKAQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203011424
-! Last Modified: 2022年03月01日 14:24
+! Version: 202203012033
+! Last Modified: 2022年03月01日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -69321,7 +69321,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||asterpix.com/tagcloudview/
 ||at.cbsi.com^*/event?
 ||atcdn.co.uk/frostbite/
-||atlassian.net/rest/collectors/
+||atlassian.net/rest/collectors/$third-party
 ||atom-data.io/session/latest/track.html?$third-party
 ||attn.tv^*/dtag.js
 ||attributiontrackingga.googlecode.com^
@@ -83624,6 +83624,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
 @@||9cdn.net^*/js/tracking/$script,domain=nine.com.au
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
+@@||admin.memberspace.com/sites/*/analytics/views$~third-party
 @@||adobedtm.com/*-source.min.js$script,domain=aarp.org|atresplayer.com|backcountry.com|bt.com|dollargeneral.com|kroger.com|personal.natwest.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|foodnetwork.com|verizon.com
@@ -84412,6 +84413,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gemius.pl/gstream.js
 @@||gminazamosc.pl/wp-content/plugins/wp-google-analytics-events/js/ga-scroll-events.js?
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
+@@||hit.interia.pl/iwa_core$script,~third-party
 @@||iwa.iplsc.com/iwa.js$script
 @@||kropka.onet.pl^*/onet.js$domain=tvnwarszawa.pl
 @@||login.ingbank.pl^*/satelliteLib-$script
@@ -86999,13 +87001,15 @@ techpowerup.com##:not(:matches-path(/forums/)) [src*="techpowerup.com"]:upward(a
 techpowerup.com##[src]:matches-css(margin-left:/12/)
 techpowerup.com##:not(:matches-path(/forums/)) [rel]:matches-css(position: /fixed/)
 techpowerup.com##:not(:matches-path(/forums/)) [src]:matches-css(position: /fixed/)
-/[\_\.\-][0-9a-z]{8,9}\.jpg/$image,1p,domain=techpowerup.com
-techpowerup.com##:not(:matches-path(/forums/)) [href*="/forums/925/"]
+/[\_\.\-][0-9a-z]{8,11}\.jpg/$image,1p,domain=techpowerup.com
+techpowerup.com##:not(:matches-path(/forums/)) [href*="/review/429/"]
 techpowerup.com##:not(:matches-path(/forums/)) a[href*="/forums/"] img[src*="/review"]
-techpowerup.com##:not(:matches-path(/forums/)) [id] > *:matches-css(display:/block/):has(a[href="/"][title="TechPowerUp"]) [class]:matches-css-before(content:/ /) > *:not(section[class="site-hd__logo-wrapper"]):has(img)
-techpowerup.com##:not(:matches-path(/forums/)) *:matches-css(float:/right/):has(label[for="sidebar-check"]) > *:has(img):not(.adblock-tester)
-techpowerup.com##:not(:matches-path(/forums/)) span[class="site-hd__logo-wrapper"] > a:has(img)
+techpowerup.com##:not(:matches-path(/forums/)) a[href*="/review/"] img[src*="/review"][src$=".jpg"]:not([src*="tpucdn.com"])
+techpowerup.com##:not(:matches-path(/forums/)) span + * > *:matches-css(display:/block/):has(a[href="/"][title="TechPowerUp"]) [class]:matches-css-before(content:/ /) > *:not(section[class="site-hd__logo-wrapper"]):has(img)
+techpowerup.com##:not(:matches-path(/forums/)) *:matches-css(float:/right/):has(label[for="sidebar-check"]) > *:has(img)
+techpowerup.com##:not(:matches-path(/forums/)) .page-header__logo-wrapperx ~ span
 techpowerup.com##:not(:matches-path(/forums/)) aside > article[class$="-"]:has(img)
+techpowerup.com##:not(:matches-path(/forums/)) aside > article:not([class*="sidebar-item sidebar-"]):has(img)
 *$image,redirect-rule=1x1.gif,domain=easymc.io
 shortgalaxy.in##+js(set, blurred, false)
 shortgalaxy.in##div.row > .short
@@ -88374,8 +88378,13 @@ dragontranslation.com##div[style$="position: fixed;"][style*="z-index: 214748364
 thecustomrom.com##+js(acis, eval, replace)
 thecustomrom.com##.ai_widget
 thecustomrom.com##+js(acis, decodeURIComponent, ai_)
+111.90.159.132##+js(nostif, mfp)
+111.90.159.132##+js(set, Object.prototype.ads, noopFunc)
+/wp-content/plugins/catfish-advert-banner/*$script
+111.90.159.132##[href="http://buaksib.in/"]
+111.90.159.132###catfish
+111.90.159.132##.mfp-ready
 ||111.90.159.132/*.gif$image
-||bitball.b-cdn.net^$media,redirect=noopmp3-0.1s
 phsensei.com##+js(acis, String.fromCharCode, decodeURIComponent)
 techsolveprac.com##+js(nostif, display, 5000)
 fileborder.com##+js(acis, String.fromCharCode, decodeURIComponent)
@@ -92102,7 +92111,6 @@ abczdrowie.pl#@#+js(aost, WP.prebid, onLoad)
 idnes.cz#@#+js(abort-current-script, String.fromCharCode)
 cyberstumble.com##.td-animation-stack-type0-1:style(opacity:1 !important)
 pearsonclinical.com##.aligner
-@@||admin.memberspace.com/sites/*/analytics/views$xhr,1p
 ||1.0.218.230$all
 ||1.168.219.158$all
 ||1.170.186.230$all
