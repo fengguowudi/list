@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lY7jgYVCv6vE+moh7vy/GA
+! Checksum: h79s5xbdYvxLaW7xGs38gA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203010926
-! Last Modified: 2022年03月01日 09:26
+! Version: 202203011424
+! Last Modified: 2022年03月01日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -69377,6 +69377,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bc0a.com/autopilot/
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
+||beacon.cdnma.com^
 ||beacon.errorception.com^
 ||beacon.flow.io^
 ||beacon.nrholding.net^
@@ -92101,6 +92102,7 @@ abczdrowie.pl#@#+js(aost, WP.prebid, onLoad)
 idnes.cz#@#+js(abort-current-script, String.fromCharCode)
 cyberstumble.com##.td-animation-stack-type0-1:style(opacity:1 !important)
 pearsonclinical.com##.aligner
+@@||admin.memberspace.com/sites/*/analytics/views$xhr,1p
 ||1.0.218.230$all
 ||1.168.219.158$all
 ||1.170.186.230$all
