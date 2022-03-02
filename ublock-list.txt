@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zdXaYH+g+kBt149PQQayCQ
+! Checksum: UC7KO7tvr2DB6lo0fuYUmw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203020920
-! Last Modified: 2022年03月02日 09:20
+! Version: 202203021425
+! Last Modified: 2022年03月02日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -87048,18 +87048,16 @@ techpowerup.com##[src]:matches-css(margin-left:/12/)
 techpowerup.com##:not(:matches-path(/forums/)) [rel]:matches-css(position: /fixed/)
 techpowerup.com##:not(:matches-path(/forums/)) [src]:matches-css(position: /fixed/)
 /tpucdn\.com\/[\/a-z0-9^review]+\/review/$image,3p,domain=techpowerup.com
-/review[\.\-\_\/]{2,}/$image,3p,domain=techpowerup.com
-techpowerup.com##:not(:matches-path(/forums/)) [href*="/review/468/"]
-techpowerup.com##:not(:matches-path(/forums/)) [href*="/test/.."]
+/review[\.\-\_\/]{2,}/$image,domain=techpowerup.com
+||tpucdn.com/review/*/images/*/*.jpg$image,3p,domain=techpowerup.com
+techpowerup.com##:not(:matches-path(/forums/)) [href*="/review/568/"]
+techpowerup.com##:not(:matches-path(/forums/)) [href*=".."]:not([href^="mailto:"])
 techpowerup.com##:not(:matches-path(/forums/)) a[href*="/forums/"] img[src*="/review"]
 techpowerup.com##:not(:matches-path(/forums/)) a[href*="/review/"]:not([href$=".jpg"]) img[src*="/review"][src$=".jpg"]:not([src*="tpucdn.com"])
 techpowerup.com##:not(:matches-path(/forums/)) a[href^="/review/"]:not(a[href$=".jpg"]) img[src*="tpucdn.com"]
 techpowerup.com##:not(:matches-path(/forums/)) a[href$="?.jpg"]:has(img)
-techpowerup.com##:not(:matches-path(/forums/)) *:matches-css(float:/right/):has(li:has-text(/by/i)) > *:has(img)
-techpowerup.com##:not(:matches-path(/forums/)) *:matches-css(float:/right/):has([class*="sdbr"]) > *:has(img)
-techpowerup.com##:not(:matches-path(/forums/)) *:matches-css(float:/right/):has(label[for]):has(a[href*="/forums/"]) > *:has(img)
-techpowerup.com##:not(:matches-path(/forums/)) *:matches-css(float:/right/):has(h1:has-text(/ Posts/i)) > *:has(img)
-techpowerup.com##:not(:matches-path(/forums/)) *:matches-css(float:/right/):has(*:has-text(/2022/i)) > *:has(img)
+techpowerup.com##:not(:matches-path(/forums/)) *:matches-css(position:/absolute/):matches-css(right:/0/):matches-css(top:/0/):matches-css(margin:/5px/):has(img)
+techpowerup.com##:not(:matches-path(/forums/)) [class*="sdbr"] > *:has(img)
 *$image,redirect-rule=1x1.gif,domain=easymc.io
 shortgalaxy.in##+js(set, blurred, false)
 shortgalaxy.in##div.row > .short
