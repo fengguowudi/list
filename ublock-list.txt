@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UC7KO7tvr2DB6lo0fuYUmw
+! Checksum: Hhr0WXpi+XYXtbAHDSChOw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203021425
-! Last Modified: 2022年03月02日 14:25
+! Version: 202203022033
+! Last Modified: 2022年03月02日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -83838,7 +83838,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=tentree.ca
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
@@ -85648,6 +85648,7 @@ bestshort.xyz##[href^="http://bit.ly/"]
 ||fuqypaqu.xyz^$3p
 ||bestcripto.xyz^$3p
 pastebr.xyz##+js(set, isAdBlockActive, false)
+elitepvpers.com##+js(nostif, $)
 elitepvpers.com##div > .page > div[style*="padding"] [onclick*="window.open"] > img
 elitepvpers.com##div > .page > div[align="left"] [style*="cursor:"] > img
 elitepvpers.com##div > .page > div[align="left"] [onclick*="window.open"] > img
@@ -85684,7 +85685,7 @@ elitepvpers.com#@#img[height="60"]
 elitepvpers.com##[style*="font-size"]:has-text(/Ad/i) + a[rel]:has(img)
 elitepvpers.com##[style]:has-text(/Аdvertise/i) + div > a[href^="https://www.elitepvpers.com"]:has(img)
 elitepvpers.com##body > table > tbody > tr > td > div > *:has(img)
-elitepvpers.com##span.smallfont[style="padding:0;"]
+elitepvpers.com##div[style$="padding:0;"]:has-text(/Advertisement/i)
 send.cm##+js(aopw, decodeURIComponent)
 send.cm##+js(acis, Promise, JSON.parse)
 send.cm##+js(aopr, console.log)
