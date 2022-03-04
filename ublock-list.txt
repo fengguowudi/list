@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QLRexm8wRUNqvCpS5XdMRA
+! Checksum: XrAgsFhXSEFRFL4vK49qZQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203041424
-! Last Modified: 2022年03月04日 14:24
+! Version: 202203042033
+! Last Modified: 2022年03月04日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -90378,8 +90378,7 @@ kruidvat.nl##.async-hide:style(opacity:1.0 !important)
 ||blogfoster.com^$3p
 ||myanalytic.net^$3p
 ||t.simply-hentai.com^
-search.brave.com##+js(no-fetch-if, body:cohort)
-||search.brave.com/api/feedback?t=telemetry^
+search.brave.com##+js(no-fetch-if, body:browser)
 ||d3bch4rrbnbe5n.cloudfront.net/pxl.png^
 /visilabs.min.js
 ||civicscience.com^$3p
@@ -92156,7 +92155,7 @@ ilbianconero.com##.no-scroll:style(overflow:auto!important)
 @@||googletagmanager.com/gtm.js$script,domain=insideevs.com
 @@||googletagmanager.com/gtm.js$script,domain=suspilne.media
 @@||clj.valuecommerce.com/*/vcushion.min.js
-||securegames.iwin.com/data/gtm.json$1p,xhr,redirect=noop.js
+@@||securegames.iwin.com/data/gtm.json$xhr,domain=securegames.iwin.com
 @@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager.com/gtm.js,domain=midomi.com
 @@||cdn.casamireasa.biz/deploys/www/delivery^$domain=canale.live
 @@||canale.live/reclama/$1p
@@ -92277,6 +92276,8 @@ abczdrowie.pl#@#+js(aost, WP.prebid, onLoad)
 idnes.cz#@#+js(abort-current-script, String.fromCharCode)
 cyberstumble.com##.td-animation-stack-type0-1:style(opacity:1 !important)
 pearsonclinical.com##.aligner
+@@||cdn.trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
+@@||cdn.trustcommander.net/privacy/*/privacy$script,domain=tf1info.fr
 ||1.0.218.230$all
 ||1.1.188.10$all
 ||1.190.163.252$all
@@ -99105,7 +99106,7 @@ pearsonclinical.com##.aligner
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 03 Mar 2022 16:50:49 GMT
-# entries:        3675
+# entries:        3673
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -99634,7 +99635,6 @@ pearsonclinical.com##.aligner
 127.0.0.1 ads.iwon.com
 127.0.0.1 ads.jewishfriendfinder.com
 127.0.0.1 ads.jobsite.co.uk
-127.0.0.1 ads.jpost.com
 127.0.0.1 ads.justhungry.com
 127.0.0.1 ads.kabooaffiliates.com
 127.0.0.1 ads.kaktuz.net
@@ -100057,6 +100057,7 @@ pearsonclinical.com##.aligner
 127.0.0.1 affiliate.doubleyourdating.com
 127.0.0.1 affiliate.dtiserv.com
 127.0.0.1 affiliate.gamestop.com
+127.0.0.1 affiliate.mogs.com
 127.0.0.1 affiliate.offgamers.com
 127.0.0.1 affiliate.rusvpn.com
 127.0.0.1 affiliate.travelnow.com
@@ -101547,7 +101548,6 @@ pearsonclinical.com##.aligner
 127.0.0.1 nappyattack.com
 127.0.0.1 naradxb.com
 127.0.0.1 nastydollars.com
-127.0.0.1 nativeroll.tv
 127.0.0.1 naturalbid.com
 127.0.0.1 navegg.com
 127.0.0.1 navigator.io
@@ -102290,7 +102290,6 @@ pearsonclinical.com##.aligner
 127.0.0.1 superficialsquare.com
 127.0.0.1 supersonicads.com
 127.0.0.1 superstats.com
-127.0.0.1 supertop.ru
 127.0.0.1 supertop100.com
 127.0.0.1 supertracking.net
 127.0.0.1 supply.colossusssp.com
