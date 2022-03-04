@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7SaT13/BZoDe/HoJth456Q
+! Checksum: QLRexm8wRUNqvCpS5XdMRA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203040933
-! Last Modified: 2022年03月04日 09:33
+! Version: 202203041424
+! Last Modified: 2022年03月04日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56895,8 +56895,8 @@ hentaiprn.com###l_340
 postyourpuss.com###leaderboard
 bootyoftheday.co###lj
 maturetubehere.com###lotal
-anysex.com###main_video_fluid_html_on_pause
 4tube.com###main-jessy-grid
+anysex.com###main_video_fluid_html_on_pause
 peekvids.com###mediaPlayerBanner
 pornvalleymedia.net###media_image-81
 pornvalleymedia.net###media_image-82
@@ -87158,6 +87158,7 @@ techpowerup.com##body:style(background-color: whitesmoke !important)
 techpowerup.com###viewport > div a[href][target]
 techpowerup.com##:not(:matches-path(/forums/)) a[href*="/forums/login/"]:upward(1) ~ *:has(img[src*="/review/"])
 techpowerup.com##:not(:matches-path(/forums/)) body:has(a[href*="/forums/login/"]) > [class^="viewport"] > .clearfix > div + div:has(img[src*="/review/"]):remove()
+techpowerup.com##:not(:matches-path(/forums/)) body:has(a[href*="/forums/login/"]) > [class^="viewport"] > section > span[class] > img[src*="/review/"]:upward(section):remove()
 techpowerup.com##:not(:matches-path(/forums/)) [src*="techpowerup.com"]:upward(a[href^="/"]):not([href^="http"])
 techpowerup.com##[src]:matches-css(margin-left:/12/)
 techpowerup.com##:not(:matches-path(/forums/)) [rel]:matches-css(position: /fixed/)
