@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q/wlDeg/PekO5ZDlKrl7xQ
+! Checksum: k2R6W8BTfvRmF9cEp1KyVA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203050919
-! Last Modified: 2022年03月05日 09:19
+! Version: 202203051423
+! Last Modified: 2022年03月05日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -23961,7 +23961,6 @@ _800x80_
 ##.continuous-flow-mid-ad
 ##.convert-media-ad
 ##.converter-ad
-##.cookie-warningbar
 ##.copy-adChoices
 ##.core-adplace
 ##.coreAdsPlacer
@@ -90547,6 +90546,8 @@ france.tv##+js(nowebrtc)
 ||msstatic.com/huya/*/p2plib.js$script
 bilibili.com,dandanzan.top,nunuyy.*,v.qq.com##+js(nowebrtc)
 ||monerominer.rocks/miner-mmr/webmnr.min.js
+||nimiq.com^$3p
+*/wp-content/plugins/nimiq/$script
 @@||google-analytics.com^$domain=avianca.com|newegg.com
 @@||google-analytics.com/analytics.js$script,domain=burodecredito.com.mx
 @@||google-analytics.com/plugins/$script
@@ -92333,6 +92334,8 @@ pearsonclinical.com##.aligner
 ||go.fvtc.edu^$badfilter
 @@||cdnjs.cloudflare.com/ajax/libs/cookieconsent$script,domain=download.pixelexperience.org
 @@||unpkg.com/@optimizely/optimizely-sdk$script,domain=talktalk.co.uk
+*$xmlhttprequest,3p,domain=faselhd.top,badfilter
+*$script,3p,domain=faselhd.top,badfilter
 ||1.0.218.230$all
 ||1.1.188.10$all
 ||1.168.101.213$all
