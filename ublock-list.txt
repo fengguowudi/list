@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k2R6W8BTfvRmF9cEp1KyVA
+! Checksum: pGZyz/TyaWpDfQnVJzqSvA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203051423
-! Last Modified: 2022年03月05日 14:23
+! Version: 202203052031
+! Last Modified: 2022年03月05日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57664,6 +57664,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
 @@||dashboard.adskeeper.co.uk^$domain=dashboard.adskeeper.co.uk
 @@||davidsilverspares.co.uk/graphics/*_ad.gif$~third-party
+@@||dcdirtylaundry.com/cdn-cgi/challenge-platform/$~third-party
 @@||delivery.vidible.tv/jsonp/$script,domain=engadget.com
 @@||developers.google.com/ad-manager/$~third-party
 @@||digiads.com.au/images/shared/misc/ad-disclaimer.gif
@@ -63891,6 +63892,7 @@ _sdcTrackingCode.
 /partner-analytics/*
 /partnermetrics.
 /pixel_identifier.
+/plugins/nimiq/*$script
 /projectpoi.min.js
 /rbcmetrika-
 /recordMetricsData.
@@ -67080,6 +67082,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nexioniect.com^
 ||nfwebminer.com^$third-party
 ||niematego.tk^$third-party
+||nimiq.com^$third-party
 ||nimiqpool.com^$third-party
 ||nimiqtest.net^$third-party
 ||nimpool.io^$third-party
@@ -76750,7 +76753,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||extra.landorandfitch.com^
 ||fac.fanucamerica.com^
 ||go.eacpds.com^
-||go.fvtc.edu^
 ||go.phhlending.com^
 ||go.riosalado.edu^
 ||healthy.spartanburgregional.com^
@@ -77386,7 +77388,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||extra.landorandfitch.com^
 ||fac.fanucamerica.com^
 ||go.eacpds.com^
-||go.fvtc.edu^
 ||go.phhlending.com^
 ||go.riosalado.edu^
 ||healthy.spartanburgregional.com^
@@ -84122,7 +84123,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
-@@||repco.co.nz/_ui/shared/js/analyticsmediator.js
 @@||res-x.com^*/Resonance.aspx?
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||retailmenot.com/__wsm.gif$ping,xmlhttprequest
@@ -84204,6 +84204,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||uefa.com/inc/js/core/projects/statistics/statistics.js?$script
 @@||ultimedia.com/js/common/jquery.gatracker.js
 @@||uniqlo.com^*/trackingservice/$~third-party
+@@||unpkg.com/@optimizely/optimizely-sdk$script,domain=talktalk.co.uk
 @@||usbank.com^*/adrum.js?$script
 @@||varagesale.com/assets/analytics-$script,~third-party
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
@@ -84244,7 +84245,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||www.statcounter.com/images/$image,third-party
 @@||api.babbel.io/gamma/v1/$ping,domain=my.babbel.com
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
-@@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se
+@@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se|repco.co.nz|repco.com.au
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
@@ -90546,8 +90547,6 @@ france.tv##+js(nowebrtc)
 ||msstatic.com/huya/*/p2plib.js$script
 bilibili.com,dandanzan.top,nunuyy.*,v.qq.com##+js(nowebrtc)
 ||monerominer.rocks/miner-mmr/webmnr.min.js
-||nimiq.com^$3p
-*/wp-content/plugins/nimiq/$script
 @@||google-analytics.com^$domain=avianca.com|newegg.com
 @@||google-analytics.com/analytics.js$script,domain=burodecredito.com.mx
 @@||google-analytics.com/plugins/$script
@@ -91950,7 +91949,6 @@ bing.com##+js(nosiif, logQueue, 10000)
 ||appsflyer.com^$3p
 ||cdn.shopify.com/*assets/pixel.gif$image,redirect=1x1.gif,domain=metrovac.com,important
 ||actonsoftware.com^$badfilter
-||actonsoftware.com^$3p
 @@||cdn.branch.io/branch-$script,xhr,domain=watcho.com
 @@||app.link/*branch_key$script,domain=watcho.com
 ||consensu.org^$badfilter
@@ -92331,9 +92329,7 @@ cyberstumble.com##.td-animation-stack-type0-1:style(opacity:1 !important)
 pearsonclinical.com##.aligner
 @@||cdn.trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
 @@||cdn.trustcommander.net/privacy/*/privacy$script,domain=tf1info.fr
-||go.fvtc.edu^$badfilter
 @@||cdnjs.cloudflare.com/ajax/libs/cookieconsent$script,domain=download.pixelexperience.org
-@@||unpkg.com/@optimizely/optimizely-sdk$script,domain=talktalk.co.uk
 *$xmlhttprequest,3p,domain=faselhd.top,badfilter
 *$script,3p,domain=faselhd.top,badfilter
 ||1.0.218.230$all
