@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9QYoF7R6wsvSeopsNmuOnA
+! Checksum: eh5ocrLQ9oKBhF1oWuqPJQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203062031
-! Last Modified: 2022年03月06日 20:31
+! Version: 202203070222
+! Last Modified: 2022年03月07日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -88943,8 +88943,11 @@ helpdice.com##+js(acis, onload, "iframe")
 lover9.net##+js(acis, setTimeout, AdBlock)
 lover9.net##+js(nostif, nextFunction, 250)
 lover9.net##+js(aopr, goPage)
+lover9.net##+js(nostif, window.location.replace)
+lover9.net##+js(acis, document.querySelectorAll, popMagic)
 lover9.net##.modal:style(position: unset !important;)
-lover9.net#@#.adsbygoogle
+@@||lover9.net^$ghide
+||adshort.co/toolfp.js
 forum.admiregirls.com##+js(acis, $, test)
 yalla-shoot.today##+js(acis, Promise, JSON.parse)
 gomoviefree.*,vidoo.org##+js(acis, Promise, JSON.parse)
