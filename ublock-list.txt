@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WrkczNLS6fslDotPlS8LRA
+! Checksum: TCiXytlN3l+B8oC3dpKutw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203072034
-! Last Modified: 2022年03月07日 20:34
+! Version: 202203080224
+! Last Modified: 2022年03月08日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -36167,6 +36167,7 @@ tf2r.com#@#.adverts
 ||easyad.com^
 ||easyads28.info^
 ||easyads28.mobi^
+||easyads28.pro^
 ||easyads29.info^
 ||easybrochurecinnamon.com^
 ||easydistrustuldistrustul.com^
@@ -52876,6 +52877,7 @@ tf2r.com#@#.adverts
 ||jordantimes.com/accu/
 ||kdnuggets.com/aps/
 ||kendrickcoleman.com/images/banners/
+||kiss-anime.org/akame
 ||kisscartoon.sh/api/pop.php
 ||kissmanga.org/rmad.php
 ||kitz.co.uk/files/jump2/
@@ -56081,6 +56083,8 @@ pcgamingwiki.com##.upcoming-releases.home-card:first-child
 letterboxd.com##.upgrade-kicker
 wbur.org##.uw--rectangle
 wbur.org##.uw-label--bottom
+search.yahoo.com##.va-mid
+search.yahoo.com##.va-mid + a
 lasvegassun.com##.varWrapper
 filmdaily.co##.vc_single_image-wrapper
 ktm2day.com##.vc_wp_text
@@ -65515,6 +65519,7 @@ _mongo_stats/
 ||m365log.com^$third-party
 ||m6r.eu^$third-party
 ||mabipa.com^$third-party
+||madkudu.com^$third-party
 ||magicpixel.io^$third-party
 ||magiq.com^$third-party
 ||magnetmail1.net^$third-party
@@ -65843,6 +65848,7 @@ _mongo_stats/
 ||petametrics.com^$third-party
 ||pghub.io^$third-party
 ||pgs.io^$third-party
+||phenompeople.com^$third-party
 ||phonalytics.com^$third-party
 ||phone-analytics.com^$third-party
 ||photorank.me^$third-party
@@ -65997,6 +66003,7 @@ _mongo_stats/
 ||realtracking.ninja^$third-party
 ||realytics.io^$third-party
 ||realzeit.io^$third-party
+||recapture.io^$third-party
 ||reciteme.com^$third-party
 ||recognified.net^$third-party
 ||recosenselabs.com^$third-party
@@ -89113,7 +89120,8 @@ mangastream.mobi###myModal
 #@#.ad-placement
 ##.ad-placement:not(.adsbox):not(.afs_ads)
 /ads-prebid.js$script,redirect-rule=prebid-ads.js
-/prebid-ads.js$script,redirect-rule=prebid-ads.js,domain=~exey.io|~huffpost.com
+/prebid-ads.js$script,redirect-rule=prebid-ads.js,domain=~exey.io
+@@/js/prebid-ads.js$script,1p
 globfone.com##+js(no-xhr-if, ads)
 donugdee.com##.ad-overlay-click
 donugdee.com##.moviePlayer
@@ -89947,6 +89955,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||fashionshub.club^$all
 ||xeoliders.com^$all
 ||bookofsex.com^$all
+||webcams-chat.com^$all
+||mydirtytinders.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -89954,8 +89964,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||protecttimeknew.live^$doc
 ||ifetirw.xyz^$doc
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
-/^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,match-case,domain=com|fun|guru|life|online|pw|site|space|top
-/^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,match-case,domain=com|fun|guru|life|online|pw|site|space|top
+/^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=com|fun|guru|life|online|pw|site|space|top
+/^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=com|fun|guru|life|online|pw|site|space|top
 /^https:\/\/(?:www\d\.)?[-a-z]{6,9}\.(?:com|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}/\?cid=[_0-9a-zA-Z]{24,32}&sid=[_0-9a-f]{1,32}$/$doc,match-case,domain=com|net|org
 ||ogtrk.net^
 ||gameglitcher.com^
