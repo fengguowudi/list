@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2Zx8G2Gm9RdsfmCxF9w/sg
+! Checksum: iYpnB62VRRZpYG64roqQLQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203081424
-! Last Modified: 2022年03月08日 14:24
+! Version: 202203082034
+! Last Modified: 2022年03月08日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20175,6 +20175,8 @@ _800x80_
 ##.adheader100
 ##.adheader401
 ##.adheader416
+##.adheightpromo
+##.adheighttall
 ##.adherebox
 ##.adhesion-block
 ##.adhesion-header
@@ -29009,6 +29011,7 @@ _800x80_
 ##.sticky-bottom-ad
 ##.sticky-footer-ad
 ##.sticky-rail-ad-container
+##.sticky-side-ad
 ##.sticky-sidebar-ad
 ##.sticky-top-ad-wrap
 ##.stickyAd
@@ -54491,6 +54494,7 @@ kentonline.co.uk##.LeaderBack
 apnews.com##.Leaderboard
 israelnationalnews.com##.LeftInfo
 tvtv.us##.MuiPaper-elevation2
+ahaan.co.uk##.MuiSnackbar-anchorOriginBottomCenter
 ask.com##.PartialKelkooResults
 snopes.com##.PlacementWrapper
 tumblr.com##.Qrht9
@@ -56316,6 +56320,7 @@ coingolive.com##[href^="https://coinext.com.br/"]
 wccftech.com##[href^="https://cutt.ly/"]
 topfiveforex.com##[href^="https://fbs.com/promo/"]
 torrentgalaxy.to##[href^="https://gen4ever.com/"]
+ahaan.co.uk##[href^="https://go.nordvpn.net/"]
 gmailnator.com##[href^="https://go.nordvpn.net/aff_c"]
 pimylifeup.com##[href^="https://go.pimylifeup.com/"]
 bitcoiner.tv##[href^="https://go.stormgain.com/"]
@@ -84452,6 +84457,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.fr|laredoute.be|laredoute.ch|laredoute.fr|lci.fr|nrj.fr|tou.tv
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
 @@||caf.fr^*/smarttag.js$script,~third-party
+@@||cdiscount.com/Js/tracking/cdtmv2.js$script,~third-party
 @@||cdn.trustcommander.net/privacy$script,domain=tf1.fr
 @@||chronopost.fr/tracking-no-cms/resources/js/lib/atinternet/smarttag.prod.$script
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
@@ -85016,8 +85022,9 @@ freepornxxxhd.com##+js(acis, String.fromCharCode, constructor)
 richhioon.eu,wowstream.top##+js(aopr, BetterJsPop)
 123movies4u.site,123movieshd.*,aloanime.me,animesup.net,anroll.net,bajarjuegospcgratis.com,balkanportal.net,bestporncomix.com,celebrity-leaks.net,comicsmanics.com,desivdo.com,directupload.net,doctormalay.com,dvdfullestrenos.com,ebookhunter.net,ekasiwap.com,electro-torrent.pl,femdom-joi.com,film1k.com,filmesonlinex.org,findav.*,findporn.*,gambarbogel.xyz,gaysex69.net,hentaistream.co,hollymoviehd.cc,hubgifs.info,idolsblog.tv,javhd.win,javhun.com,jorpetz.com,kinemania.tv,lightdlmovies.blogspot.com,masahub.com,myonvideo.com,nuoga.eu,olarixas.xyz,palimas.org,pirateiro.com,pornez.net,pornhd720p.com,pornobr.ninja,pornofaps.com,pornorip.biz,pornotorrent.com.br,putlocker5movies.org,sakurafile.com,sexofilm.co,tensei-shitara-slime-datta-ken.com,thebussybandit.com,torrage.info,video.az,vikv.net,viveseries.com,vstorrent.org,watchjavidol.com,webcamrips.com,yifytv.top,youdbox.net,yourdailypornvideos.ws##+js(aopw, _pop)
 eplayvid.*##+js(acis, JSON.parse, break;case $.)
-mxtube.net##+js(acis, decodeURI, decodeURIComponent)
-*$3p,script,domain=mxtube.net
+mxtube.net##+js(aopr, decodeURI)
+mxtube.net##^script:has-text(decodeURI)
+*$script,3p,denyallow=youtube.com|youtube-ui.l.google.com,domain=mxtube.net
 ||king3rsc7ol9e3ge.com^
 ||m45assachucsh9w7etts.com^
 erotic-beauties.com,hardsex.cc,sex-movies.biz,sikwap.xyz,tube18.sexy##+js(acis, pop_init)
@@ -92447,6 +92454,7 @@ pearsonclinical.com##.aligner
 @@||cdn.trustcommander.net/privacy/*/privacy$script,domain=tf1info.fr
 *$xmlhttprequest,3p,domain=faselhd.top,badfilter
 *$script,3p,domain=faselhd.top,badfilter
+@@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,1p
 ||1.0.218.230$all
 ||1.1.188.10$all
 ||1.192.181.14$all
