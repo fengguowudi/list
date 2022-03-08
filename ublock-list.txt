@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3D657lBPh1NINRuin9+/Sg
+! Checksum: 2Zx8G2Gm9RdsfmCxF9w/sg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203080918
-! Last Modified: 2022年03月08日 09:18
+! Version: 202203081424
+! Last Modified: 2022年03月08日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -7260,6 +7260,7 @@ takeover_banner_
 ||online.*/promoredirect?key=
 ||ox-d.*^auid=
 ||serve.*/promoload?
+/ed/fol457.
 /e/cm?$subdocument
 /e/ir?$image,script
 /cmbdv2.js
@@ -31074,6 +31075,8 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[title="Ads by Google"]
 ##topadblock
+###slashboxes > .deals-rail
+##.scroll-fixable.rail-right > .deals-rail
 ##.click-track.partner
 ##[href^="https://freecourseweb.com/"] > .sitefriend
 ##.gnt_tb.gnt_tbb
