@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iYpnB62VRRZpYG64roqQLQ
+! Checksum: wjuhKwMtZaaoS3FozlUlTw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203082034
-! Last Modified: 2022年03月08日 20:34
+! Version: 202203090224
+! Last Modified: 2022年03月09日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -9045,8 +9045,12 @@ _800x80_
 ###ad-wrap2
 ###ad-wrapper
 ###ad-wrapper-728x90
+###ad-wrapper-footer-1
 ###ad-wrapper-left
+###ad-wrapper-main-1
 ###ad-wrapper-right
+###ad-wrapper-sidebar-1
+###ad-wrapper-top-1
 ###ad-wrapper1
 ###ad-yahoo-simple
 ###ad-zone-1
@@ -14906,6 +14910,7 @@ _800x80_
 ###perm_ad
 ###permads
 ###persistentAd
+###personal-ads-sticky-wrapper
 ###personalization_ads
 ###pf-dialog-ads
 ###pg-ad-160x600
@@ -30328,6 +30333,7 @@ _800x80_
 ##[href^="https://awbbjmp.com/"]
 ##[href^="https://click2cvs.com/"]
 ##[href^="https://detachedbates.com/"]
+##[href^="https://glersakr.com/"]
 ##[href^="https://go.4rabettraff.com/"]
 ##[href^="https://go.affiliatexe.com/"]
 ##[href^="https://go.astutelinks.com/"]
@@ -30363,12 +30369,15 @@ _800x80_
 ##[lazy-ad="lefttop_banner"]
 ##[lazy-ad="top_banner"]
 ##[name^="google_ads_iframe"]
+##[onclick^="location.href='http://www.reimageplus.com"]
 ##a-ad
+##a[href^="//benoopto.com/"]
 ##a[href^="//porngames.adult/?SID="]
 ##a[href^="//postlnk.com/"]
 ##a[href^="//pubads.g.doubleclick.net/"]
 ##a[href^="//srv.buysellads.com/"]
 ##a[href^="//syndication.dynsrvtbg.com/"]
+##a[href^="//thaudray.com/"]
 ##a[href^="//voyeurhit.com/cs/"]
 ##a[href^="//www.mgid.com/"]
 ##a[href^="//www.pd-news.com/"]
@@ -31727,6 +31736,7 @@ tf2r.com#@#.adverts
 ||2sh8fouhk84h.com^
 ||2solo.biz^
 ||2tpwcqot22mb.com^
+||300daytravel.com^
 ||303marketplace.com^
 ||307badb998ed.com^
 ||30b9e3a7d7e2b.com^
@@ -33358,6 +33368,7 @@ tf2r.com#@#.adverts
 ||avkyu1tesnwy.com^
 ||avwincall.info^
 ||awaitcola.com^
+||awaitdetestableitem.com^
 ||awaith.com^
 ||awaitssnerp.com^
 ||awakeexterior.com^
@@ -34379,6 +34390,7 @@ tf2r.com#@#.adverts
 ||cardiacslabshort.com^
 ||cardinalimprovementscartrige.com^
 ||cardiwersg.com^
+||careuropecreatures.com^
 ||cargonurture.com^
 ||caribedtucana.cam^
 ||carotolbhavan.com^
@@ -35842,6 +35854,7 @@ tf2r.com#@#.adverts
 ||dlfvgndsdfsn.com^
 ||dliketobe.co^
 ||dlnsjjyzvi1x.com^
+||dlqhvxphjd.top^
 ||dlsear.com^
 ||dlski.space^
 ||dltinaozs.com^
@@ -36330,6 +36343,7 @@ tf2r.com#@#.adverts
 ||eitherunkindvapour.com^
 ||eitiso.com^
 ||eivbjsegbino.com^
+||eiyhjkqued.com^
 ||ejdkqclkzq.com^
 ||ejectsurvivalfollower.com^
 ||ejoonsoo.net^
@@ -36500,6 +36514,7 @@ tf2r.com#@#.adverts
 ||equivalentliked.com^
 ||eravanquishultimate.com^
 ||ercredici.info^
+||erdeally.com^
 ||erdecisesgeorg.info^
 ||erdsqclzjwcylb.com^
 ||eredunass.club^
@@ -37436,6 +37451,7 @@ tf2r.com#@#.adverts
 ||genuinesubqueries.com^
 ||genuschaseslowly.com^
 ||geoaddicted.net^
+||geoffreymailcollar.com^
 ||geoinventory.com^
 ||geometrycapitaleyeball.com^
 ||geovideo.name^
@@ -38616,6 +38632,7 @@ tf2r.com#@#.adverts
 ||indisancal.com^
 ||ineffieldinforget.site^
 ||inenno.com^
+||inestimabletrifling.com^
 ||inexhaustiblepatient.com^
 ||inexorabledemocracycurly.com^
 ||inexplicableprayer.com^
@@ -39372,6 +39389,7 @@ tf2r.com#@#.adverts
 ||kntdjvwod.top^
 ||kntswafuos.com^
 ||knubbyknit.com^
+||knucklecharacteristichairdresser.com^
 ||knujamgz.com^
 ||knutenegros.pro^
 ||knxntpsd.com^
@@ -40850,6 +40868,7 @@ tf2r.com#@#.adverts
 ||nebwvbpelobi.com^
 ||necessarilyunkindhanging.com^
 ||necessaryfiddlemister.com^
+||neciqetlqkrajma.com^
 ||necklaceboarupstairs.com^
 ||nedukeratio.com^
 ||neechube.net^
@@ -40958,6 +40977,7 @@ tf2r.com#@#.adverts
 ||nghcxtmsbqcmpv.com^
 ||ngjquyzjgcrupz.com^
 ||nglmedia.com^
+||ngplansfo.com^
 ||ngxdyxhdkx.xyz^
 ||nhcrknwwjlc.xyz^
 ||nhdfbupcbfnmue.com^
@@ -41610,6 +41630,7 @@ tf2r.com#@#.adverts
 ||ornament-i.com^
 ||orninedin.club^
 ||orozrpyxdigvwe.com^
+||orthitepetrous.com^
 ||orthronsmatter.com^
 ||ortoenhanc.biz^
 ||oskiwood.com^
@@ -41800,6 +41821,7 @@ tf2r.com#@#.adverts
 ||paht.tech^
 ||pahtzh.tech^
 ||paid.outbrain.com^
+||paight.com^
 ||pailridarm.com^
 ||painfullyneattide.com^
 ||painlessassumedbeing.com^
@@ -42989,6 +43011,7 @@ tf2r.com#@#.adverts
 ||qksz.net^
 ||qktbbiavkqcqmn.com^
 ||qktfwkftgqeynnp.com^
+||qlcabgpjyh.com^
 ||qlmqzznfcb.com^
 ||qloistjaveujfe.top^
 ||qlpwqpvuw.com^
@@ -43002,6 +43025,7 @@ tf2r.com#@#.adverts
 ||qmmmiyyxuceyt.xyz^
 ||qmrbqjdxut.xyz^
 ||qmripebxljdey.com^
+||qmtaaatged.com^
 ||qmvezbh0l28w.com^
 ||qn-5.com^
 ||qngqlrxscxlvh.com^
@@ -43392,6 +43416,7 @@ tf2r.com#@#.adverts
 ||resolutioncomplexionfinishing.com^
 ||resolvedweighpasswords.com^
 ||resonance.pk^
+||resourceagrarianhavoc.com^
 ||respectfulcoal.com^
 ||respectivepreservation.com^
 ||respirationcafeincomparable.com^
@@ -44120,6 +44145,7 @@ tf2r.com#@#.adverts
 ||sfstgoxjupjjoyb.com^
 ||sfstgoxjupjjoyb.top^
 ||sftapi.com^
+||sfultraight.xyz^
 ||sfzover.com^
 ||sg2rgnza7k9t.com^
 ||sgcsuscnyw.com^
@@ -44274,6 +44300,7 @@ tf2r.com#@#.adverts
 ||sillyflowermachine.com^
 ||siluge.com^
 ||silversomewhatbudget.com^
+||similt.com^
 ||simpan.online^
 ||simpletraffic.co^
 ||simplyjmp.com^
@@ -44763,6 +44790,7 @@ tf2r.com#@#.adverts
 ||stitchkidney.com^
 ||stizoaph.net^
 ||stizoolr.com^
+||stkhmkpav.xyz^
 ||stmixrkwbp.com^
 ||sto1pnort.online^
 ||stoakrig.net^
@@ -45089,6 +45117,7 @@ tf2r.com#@#.adverts
 ||tend-new.com^
 ||tendents.club^
 ||tenderunderstatement.com^
+||tengmoneron.com^
 ||tenthsfrumpy.com^
 ||tentinspiredcontradict.com^
 ||tentmess.com^
@@ -45595,6 +45624,7 @@ tf2r.com#@#.adverts
 ||trusted-click-host.com^
 ||trustedcpmrevenue.com^
 ||trustedgatetocontent.com^
+||trusterejecta.com^
 ||trustmeiamcdn.com^
 ||trustworthytopmost.com^
 ||trustyfine.com^
@@ -45760,6 +45790,7 @@ tf2r.com#@#.adverts
 ||ueudahqfig.com^
 ||ueuerea.com^
 ||ueuodgnrhb.com^
+||uewasadi.com^
 ||uewkohhl.com^
 ||uexjrlkcskm.xyz^
 ||ufeaqyzn.com^
@@ -45924,6 +45955,7 @@ tf2r.com#@#.adverts
 ||unumbonum.com^
 ||unusuallygravely.com^
 ||unvexedmehari.com^
+||unwarydebite.com^
 ||unwillingcalumny.com^
 ||unwiseoccasionalinscribe.com
 ||unwofulcountys.com^
@@ -46847,6 +46879,7 @@ tf2r.com#@#.adverts
 ||worldfreshblog.com^
 ||worldsbestoffer.xyz^
 ||worldspromising.com^
+||worldtraffic.trade^
 ||worldwidemailer.com^
 ||wormishammites.com^
 ||worriesceaslessceaslessentreat.com^
@@ -49949,6 +49982,7 @@ tf2r.com#@#.adverts
 ||inabsolor.com^$popup
 ||inclk.com^$popup
 ||index-markets.digital^$popup
+||inestimabletrifling.com^$popup
 ||infopicked.com^$popup
 ||infra.systems^$popup
 ||ingoomychan.com^$popup
@@ -53134,6 +53168,7 @@ tf2r.com#@#.adverts
 ||vobium.com/images/banners/
 ||wall.vgr.com^
 ||walmart.com/cp/api/wpa?
+||waptrick.org/js/exo
 ||watoday.com.au/assets/europa.
 ||webconfs.com/wp-content/uploads/2017/08/300x250bw.png
 ||whcp4.com/apis-7.js
@@ -53712,6 +53747,7 @@ $popup,third-party,domain=1337x.buzz|4stream.gg|720pstream.tv|adblockstreamtape.
 ||xpics.me/everyone.
 ||xteen.name/ok/
 ||xxerotica.com/xxerotica.js
+||xxxfetish24.com/helper/tos.js
 ||xxxporntalk.com/images/
 ||xxxshake.com/assets/f_load.js
 ||xxxshake.com/static/js/script.js
@@ -54907,6 +54943,7 @@ gumtree.com.au##.cars__side-mrec-wrapper
 chemistwarehouse.com.au##.category-product-mrec
 supercheats.com##.cboth_sm
 ccm.net##.ccm_pugoo__sponso
+waptrick.one##.cent_list
 digit.in##.center-add
 siberiantimes.com##.centerBannerRight
 giveawayoftheday.com##.center_ab
@@ -60564,8 +60601,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /gov-tracking.min.js
 /gPageTracking.
 /grappler/log/*
-/gravity-beacon-
-/gravity-beacon.js
 /grumi-ip.js
 /gs-analytics-
 /gs-analytics.
@@ -70276,7 +70311,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||grabnetworks.com/beacons/
 ||grabnetworks.com/ping?
 ||graphcomment.com/api/thread/*/stats
-||gravity.com^*/beacons/
 ||green-griffin-860.appspot.com^
 ||gsp1.baidu.com^
 ||gstatic.com/gadf/ga_dyn.js
@@ -84069,6 +84103,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 @@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
 @@||eatstreet.com/api/v2/tracking/$~third-party
+@@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
 @@||ect.se.com/cbt/app/js/util/angularytics.min.js$script,~third-party
 @@||editorx.com/_api/*count?type$~third-party
 @@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
@@ -90204,7 +90239,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||discord-nitros.$all
 ||discord-spooky.$all
 ||discord.foundation^$all
-||discordgift.$all
+||discordgift.$all,domain=~discordgift.site
 ||discordnitro-steam.$all
 ||discordnitro.space^$all
 ||discordxgift.$all
@@ -92454,7 +92489,6 @@ pearsonclinical.com##.aligner
 @@||cdn.trustcommander.net/privacy/*/privacy$script,domain=tf1info.fr
 *$xmlhttprequest,3p,domain=faselhd.top,badfilter
 *$script,3p,domain=faselhd.top,badfilter
-@@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,1p
 ||1.0.218.230$all
 ||1.1.188.10$all
 ||1.192.181.14$all
