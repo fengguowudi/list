@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: johmUJ8M0LJP5shNdzTGDQ
+! Checksum: G5rsJOnwiCi9sEOj5Wsyhw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203091424
-! Last Modified: 2022年03月09日 14:24
+! Version: 202203092033
+! Last Modified: 2022年03月09日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -32063,6 +32063,7 @@ tf2r.com#@#.adverts
 ||a289f5f0f2c.com^
 ||a2c653c4d145fa5f96a.com^
 ||a2tw6yoodsag.com^
+||a2zapk.com^
 ||a31daecf420.com^
 ||a337b163a0bc.com^
 ||a353364ec1bd19a.com^
@@ -35172,6 +35173,7 @@ tf2r.com#@#.adverts
 ||cpanuk.com^
 ||cpaoffers.network^
 ||cpaprrrrrofit.com^
+||cpasbintfr.com^
 ||cpaway.com^
 ||cpays.com^
 ||cpcmart.com^
@@ -43777,6 +43779,7 @@ tf2r.com#@#.adverts
 ||runbornto.com^
 ||runetki.co^
 ||rungginlout.com^
+||runkillmiss.top^
 ||runmewivel.com^
 ||runnersgunpowder.com^
 ||runnyamowt.com^
@@ -49657,6 +49660,7 @@ tf2r.com#@#.adverts
 ||correry.com^$popup
 ||cpa-offer.com^$popup
 ||cpaoffers.network^$popup
+||cpasbintfr.com^$popup
 ||cpayard.com^$popup,third-party
 ||cpm20.com^$popup
 ||cpm30.com^$popup
@@ -50490,6 +50494,7 @@ tf2r.com#@#.adverts
 ||rndskittytor.com^$popup
 ||roadmapcredulousfang.com^$popup
 ||rocketmedia24.com^$popup,third-party
+||rockstorageplace.com^$popup
 ||rollmeout.xyz^$popup
 ||rosafun.com^$popup
 ||rothoglyro.pro^$popup
@@ -50507,6 +50512,7 @@ tf2r.com#@#.adverts
 ||rtrnotkthraebb.com^$popup
 ||rtyznd.com^$popup
 ||rubylife.go2cloud.org^$popup
+||runkillmiss.top^$popup
 ||runslin.com^$popup
 ||runtnc.net^$popup
 ||rvrpushserv.com^$popup
@@ -54395,6 +54401,7 @@ comicbookrealm.com###tad
 google.com###tadsc
 based-politics.com###tdi_107
 linuxtoday.com###tdi_46
+iol.co.za###teadsTarget
 the-star.co.ke###teasers
 geeky-gadgets.com###text-105335641
 ssbcrack.com###text-11
@@ -55094,6 +55101,7 @@ thestreamable.com##.d-md-flex
 glumbouploads.com##.d0_728
 digminecraft.com##.d3e8860a
 sbs.com.au##.dNXvOT
+iol.co.za##.dULFRs
 standard.co.uk##.dXaqls
 counter.dev,lindaikejisblog.com##.da
 arabianindustry.com##.da-leaderboard
@@ -56978,6 +56986,7 @@ cults3d.com#?#div.grid-cell:-abp-contains(/AD •/i)
 psychcentral.com#?#aside:-abp-has([data-empty])
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
+app.daily.dev#?#article:-abp-contains(Promoted)
 coinlisting.info#?#.panel:-abp-has(h3:-abp-contains(Sponsored Ad))
 ebay.co.uk,ebay.com,ebay.com.au#?#.b-module:-abp-has(h2:-abp-contains(Sponsored))
 ebay.co.uk,ebay.com,ebay.com.au#?#.mfe-lex:-abp-has(h2:-abp-contains(sponsored))
@@ -60372,6 +60381,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /ga-targets.js
 /ga-track-
 /ga-track.
+/ga-tracker-
 /ga-tracker.
 /ga-tracking-
 /ga-tracking/*
@@ -69660,9 +69670,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appsolutions.com/hitme?$third-party
 ||appspot.com/analytics/
 ||appspot.com/api/track/
-||appspot.com/collect
 ||appspot.com/display?
-||appspot.com/event
+||appspot.com/event?
 ||appspot.com/stats?
 ||appspot.com/take?
 ||arclk.net/trax?
@@ -73144,6 +73153,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metricsishare.rediff.com^
 ||metro.co.uk/base/rta/
 ||metroweekly.com/tools/blog_add_visitor/
+||mewe.com/ubk4jrxn.js
 ||mi.academy.com/p/js/1.js
 ||miao.baidu.com^
 ||mms.cnn.com^
@@ -83032,6 +83042,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wl.spotify.com^
 !-----------------International individual tracking systems-----------------!
 ||adtm.chip.de^
+||analytics.daasrv.net^
 ||analytics.deutscher-apotheker-verlag.de^
 ||analytics.moviepilot.de^
 ||arlt.com/analytics/
@@ -84011,7 +84022,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
-@@||appspot.com/event/$xmlhttprequest,domain=crab.fit
 @@||appspot.com/static/js/tracker/$script,domain=bugs.avm99963.com
 @@||aramex.co.nz/Umbraco/Api/Tracking/$~third-party
 @@||atl-paas.net/analytics/event
@@ -88395,11 +88405,12 @@ joyhints.com###blocksy_ct_advertisement-2
 mydramalist.com##.mdl-gpt-tag:upward(div[class])
 gogoplay1.com,gogoplay2.com##+js(acis, JSON.parse, break;case $.)
 stardeos.com##+js(no-xhr-if, url:googlesyndication)
-stooq.com,stooq.pl##div[style="position:relative;width:970px;height:250px"]
-stooq.com,stooq.pl##div[style="position:relative;width:300px;height:250px"]
-stooq.com,stooq.pl###f13 > table > tbody > tr > td > .f13
-stooq.com,stooq.pl###f13 > b:has-text(Sponsor):upward(4)
-stooq.com,stooq.pl##td#f13:nth-of-type(3) > table:nth-of-type(4) > tbody > tr > td:upward(3)
+stooq.*##div[style="position:relative;width:970px;height:250px"]
+stooq.*##div[style="position:relative;width:300px;height:250px"]
+stooq.*###f13 > table > tbody > tr > td > .f13
+stooq.*###f13 > b:has-text(Sponsor):upward(4)
+stooq.*##td#f13:nth-of-type(3) > table:nth-of-type(4) > tbody > tr > td:upward(3)
+stooq.*##.adsbygoogle:upward(table)
 myshopify.com##+js(acis, document.addEventListener, adsBlocked)
 pcwarehub.com,taregna.com##+js(acis, eval, replace)
 ufile.io##div.sponsor
@@ -90494,6 +90505,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 .top/vpnupdate/*/index.html$doc
 ||smartklick.biz^$all
 ||piktag.net^$all
+||zoosk.online^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
@@ -92481,6 +92493,7 @@ pearsonclinical.com##.aligner
 *$xmlhttprequest,3p,domain=faselhd.top,badfilter
 *$script,3p,domain=faselhd.top,badfilter
 *$image,domain=asfan.as.com,redirect-rule=1x1.gif
+#@##banner_ad
 ||1.0.218.230$all
 ||1.1.188.10$all
 ||1.165.44.225$all
