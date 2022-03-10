@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /oHwyCzDsToeVjXv6LS2ng
+! Checksum: /PUmOpdD7A6ef8RCdsUI0w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203100925
-! Last Modified: 2022年03月10日 09:25
+! Version: 202203101424
+! Last Modified: 2022年03月10日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -84635,6 +84635,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
 @@||quantcast.mgr.consensu.org/tcfv2/cmp2.js$script,domain=clint.be
 @@||stock.skoda.be/assets/scripts/analytics/$script,~third-party
+@@||travelbags.nl^*/web-vitals.$~third-party
 @@||vpro.nl^*/vpro-analytics/Analytics.js$xmlhttprequest
 !---------- Finnish ----------
 @@||adobedtm.com^*/satelliteLib-$script,domain=gigantti.fi

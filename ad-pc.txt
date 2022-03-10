@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vjbR4NkSvZz44+VUzZZbBQ
+! Checksum: wgxcyCaTZsI04EUjuOZsKQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203100925
-! Last Modified: 2022年03月10日 09:25
+! Version: 202203101424
+! Last Modified: 2022年03月10日 14:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -107239,6 +107239,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
 @@||quantcast.mgr.consensu.org/tcfv2/cmp2.js$script,domain=clint.be
 @@||stock.skoda.be/assets/scripts/analytics/$script,~third-party
+@@||travelbags.nl^*/web-vitals.$~third-party
 @@||vpro.nl^*/vpro-analytics/Analytics.js$xmlhttprequest
 !---------- Finnish ----------
 @@||adobedtm.com^*/satelliteLib-$script,domain=gigantti.fi
@@ -109378,7 +109379,6 @@ reachmax.cn
 scorecardresearch.com
 tencentmind.com
 xtgreat.com
-bilibili.com#@#+js(ra, target, a[target=_blank][href^="/"])
 @@||g.w.bilicdn1.com/$script,domain=bilibili.com
 bilibili.com##.ad-report, .ad-floor
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
@@ -109458,8 +109458,8 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 91p20.space
 waust.at
 age.tv,agemys.com##+js(noeval-if, devtoolsDetector)
-||toutiaoimg.com/origin/$image,domain=mgtv1.net|agemys.com|subaibaiys.com
-!hmtv.me,imeiju.io##+js(acis,Object.defineProperty,location.href)
+||toutiaoimg.com/origin/$image,domain=mgtv1.net|agemys.com|acgndmku.com|subaibaiys.com
+hanmidy.com,bimiacg4.net##+js(acis,Object.defineProperty,location.href)
 ||alicdn.com/$image,domain=api.xiaomingming.org
 imomoe.*###adl,#adr
 dandanzan10.top,nunuyy10.top##.gm-fp-body video:style(max-height:100%!important)
