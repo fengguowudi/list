@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /PUmOpdD7A6ef8RCdsUI0w
+! Checksum: Raqhu9D2jgLx9srpahoPrQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203101424
-! Last Modified: 2022年03月10日 14:24
+! Version: 202203102034
+! Last Modified: 2022年03月10日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3199,7 +3199,7 @@
 /adwrapperiframe.
 /adwriter2.
 /adx-exchange.
-/adx.$domain=~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu
+/adx.$domain=~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.rs|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu
 /adx/ads?
 /adx/iframe.
 /adx/js/*
@@ -32077,7 +32077,6 @@ tf2r.com#@#.adverts
 ||a289f5f0f2c.com^
 ||a2c653c4d145fa5f96a.com^
 ||a2tw6yoodsag.com^
-||a2zapk.com^
 ||a31daecf420.com^
 ||a337b163a0bc.com^
 ||a353364ec1bd19a.com^
@@ -54852,8 +54851,6 @@ m.economictimes.com##.bannerwrapper
 barrons.com##.barrons-body-ad-placement
 euronews.com##.base-leaderboard
 teamfortress.tv##.bau
-washingtonpost.com##.bb.b-ns.b-none
-washingtonpost.com##.bb.dn-hp-xs
 bbc.co.uk##.bbccom_companion
 ecommercetimes.com,ectnews.com,linuxinsider.com,macnewsworld.com,technewsworld.com##.bbframe
 britannica.com##.bc-article-inline-dialogue
@@ -54917,6 +54914,8 @@ armenpress.am##.bnrcontainer
 southerntimesafrica.com##.body-header-banner
 btcmanager.com##.boo_3oo_6oo
 cmo.com.au,interiordesign.net##.boombox
+washingtonpost.com##.border-box.dn-hp-sm-to-mx
+washingtonpost.com##.border-box.dn-hp-xs
 etherscan.io##.border-top
 tineye.com##.bottom
 blockchair.com##.bottom--buttons-container
@@ -55814,7 +55813,6 @@ racingtv.com,twitter.com,wral.com##.promotion
 throwawaymail.com##.promotion_row
 bostonreview.net##.promotop
 kathmandupost.com##.pt-0
-washingtonpost.com##.pt-0.dn-hp-xs
 1980-games.com,flash-mp3-player.net,larousse.com,theportugalnews.com,tolonews.com##.pub
 starsinsider.com##.pub-container
 yabiladi.com##.pub2
@@ -55899,7 +55897,6 @@ sociologyguide.com##.rgt_banners
 siteslike.com##.rif
 terminal.hackernoon.com##.right
 africanews.com##.right-legend
-washingtonpost.com##.right-rail > div > .db-ns.dn
 jta.org##.right-rail-container
 huffpost.com##.right-rail-placeholder
 jpost.com##.right-side-banner
@@ -57826,6 +57823,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||archive.org/services/$image,~third-party,xmlhttprequest
 @@||assets.ctfassets.net^$media,domain=ads.spotify.com
 @@||assets.strossle.com^*/strossle-widget-sdk.js$script,domain=kaaoszine.fi
+@@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|metacritic.com
 @@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|metacritic.com
 @@||atlas.playpilot.com/api/v1/ads/browse/$xmlhttprequest,domain=playpilot.com
 @@||auctionzip.com/cgi-bin/showimage.cgi?
@@ -92553,6 +92551,8 @@ pearsonclinical.com##.aligner
 *$script,3p,domain=faselhd.top,badfilter
 *$image,domain=asfan.as.com,redirect-rule=1x1.gif
 #@##banner_ad
+/adw.$domain=~adw.be|~adw.olsztyn.pl|~adw.org|~adw.org.pl|~valadoc.org,badfilter
+/adw.$domain=~adw.be|~adw.olsztyn.pl|~adw.org|~adw.org.pl|~valadoc.org|~adw.amsterdam.nl
 ||1.0.218.230$all
 ||1.1.188.10$all
 ||1.212.242.67$all
@@ -99289,8 +99289,8 @@ pearsonclinical.com##.aligner
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 04 Mar 2022 15:40:49 GMT
-# entries:        3674
+# last updated:   Thu, 10 Mar 2022 09:07:12 GMT
+# entries:        3675
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -100666,6 +100666,7 @@ pearsonclinical.com##.aligner
 127.0.0.1 cjlog.com
 127.0.0.1 cl0udh0st1ng.com
 127.0.0.1 claria.com
+127.0.0.1 clck.ru
 127.0.0.1 clevernt.com
 127.0.0.1 cliand.com
 127.0.0.1 click.airmalta-mail.com
