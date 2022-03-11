@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LjrsAv6T/Y+NFS0LbmY9jQ
+! Checksum: AZ7Ijc5B42FZqL2GeaQZyQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203112033
-! Last Modified: 2022年03月11日 20:33
+! Version: 202203120224
+! Last Modified: 2022年03月12日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20505,6 +20505,7 @@ _800x80_
 ##.ads-holder
 ##.ads-home
 ##.ads-home-top-buttons-wrap
+##.ads-homepage-2
 ##.ads-homepage-leaderboard-btf
 ##.ads-horizontal
 ##.ads-horizontal-banner
@@ -20543,6 +20544,7 @@ _800x80_
 ##.ads-middle-top
 ##.ads-minheight
 ##.ads-mini
+##.ads-mini-3rows
 ##.ads-mobile
 ##.ads-module
 ##.ads-movie
@@ -20560,6 +20562,7 @@ _800x80_
 ##.ads-popup-corner
 ##.ads-post
 ##.ads-post-closing
+##.ads-post-footer
 ##.ads-post-full
 ##.ads-profile
 ##.ads-rail
@@ -20580,6 +20583,7 @@ _800x80_
 ##.ads-sign
 ##.ads-single
 ##.ads-site
+##.ads-size-small
 ##.ads-skin
 ##.ads-skin-mobile
 ##.ads-sky
@@ -20590,6 +20594,8 @@ _800x80_
 ##.ads-skyscraper-right
 ##.ads-slot-mb-container
 ##.ads-small
+##.ads-small-horizontal
+##.ads-small-squares
 ##.ads-smartphone
 ##.ads-social-box
 ##.ads-sponsored-title
@@ -20597,6 +20603,8 @@ _800x80_
 ##.ads-sponsors-125-left
 ##.ads-sponsors-125-right
 ##.ads-square
+##.ads-square-large
+##.ads-square-small
 ##.ads-squares
 ##.ads-ss
 ##.ads-star
@@ -22896,6 +22904,7 @@ _800x80_
 ##.banneritem_ad
 ##.bannermpu
 ##.bannerplace728
+##.banners-weekad
 ##.banners_ad
 ##.banners_ad_inside
 ##.bannervcms
@@ -25704,6 +25713,7 @@ _800x80_
 ##.in-latest-news-advertisement-container
 ##.in-node-ad-300x250
 ##.in-page-ad
+##.in-slider-ad
 ##.in-story-ads
 ##.in-story-text-ad
 ##.in-text-ad
@@ -34422,6 +34432,7 @@ tf2r.com#@#.adverts
 ||careuropecreatures.com^
 ||cargonurture.com^
 ||caribedtucana.cam^
+||caridashrover.com^
 ||carotolbhavan.com^
 ||carpi3fnusbetgu5lus.com^
 ||carpreposition.com^
@@ -35595,6 +35606,7 @@ tf2r.com#@#.adverts
 ||degrtdqvaansd.com^
 ||degryrubi.com^
 ||degustswaughts.com^
+||dehairpodley.com^
 ||dehtxweiq.com^
 ||deicemaptwin.com^
 ||deiligejenter.com^
@@ -36942,6 +36954,7 @@ tf2r.com#@#.adverts
 ||felinessynonym.com^
 ||feljack.com^
 ||felliescrackle.com^
+||felonlosel.com^
 ||feministascertained.com^
 ||fendhaunteddelay.com^
 ||fenefa.com^
@@ -36988,6 +37001,7 @@ tf2r.com#@#.adverts
 ||fhsmtrnsfnt.com^
 ||fhyxakwxrwbdqcy.xyz^
 ||fibpeeode.site^
+||ficellechallas.com^
 ||ficusoid.xyz^
 ||fidelity-media.com^
 ||fieldbilly.com^
@@ -37095,6 +37109,7 @@ tf2r.com#@#.adverts
 ||floodingonion.com^
 ||floordisclosewhereas.com^
 ||flopinclose.com^
+||floraecantate.com^
 ||flords.com^
 ||floridcoxae.com^
 ||flowln.com^
@@ -37271,6 +37286,7 @@ tf2r.com#@#.adverts
 ||frolnk.com^
 ||frontierdough.com^
 ||frookshop-winsive.com^
+||frowzyvibex.com^
 ||frshueaxf.com^
 ||frsuli.com^
 ||frtya.com^
@@ -40378,6 +40394,7 @@ tf2r.com#@#.adverts
 ||meryjane.pro^
 ||merzostueru2hu8jr09.com^
 ||meshlucky.com^
+||meshpetrols.com^
 ||messenger-notify.digital^
 ||messengerinternfair.com^
 ||mesucces.top^
@@ -45990,6 +46007,7 @@ tf2r.com#@#.adverts
 ||unfudgetljbf.xyz^
 ||unfurlyawweed.casa^
 ||ungstlateriag.club^
+||unhappywaxdamaging.com^
 ||unicast.com^
 ||unifini.de^
 ||uniformery.club^
@@ -64845,7 +64863,6 @@ _mongo_stats/
 ||clarivoy.com^$third-party
 ||cleananalytics.com^$third-party
 ||clearbitjs.com^$third-party
-||clerk.io^$third-party
 ||cleveritics.com^$third-party
 ||clevi.com^$third-party
 ||click-url.com^$third-party
@@ -69956,6 +69973,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ck.connatix.com^
 ||clearspring.com/at/
 ||clearspring.com/t/
+||clerk.io/static/clerk.js
 ||click.appinthestore.com^
 ||click.rssfwd.com^$third-party
 ||clickchatsold.com/d0/
@@ -87002,7 +87020,6 @@ mavplay.xyz##+js(aeld, , _blank)
 math-drills.com#@#.ad-block
 @@||allsmo.com^$ghide
 allsmo.com##[id^="ezoic-pub-ad-placeholder"]
-ygosu.com,ppss.kr,tgd.kr##div[style="position: relative; display: inline-block; text-align: center;"]:style(left: 10000px !important)
 @@||onelinks.site^$ghide
 @@||linkgoo.site^$ghide
 *$xhr,redirect-rule=nooptext,domain=costumbresmexico.com
@@ -87067,7 +87084,7 @@ sbembed1.com,sbvideo.*##+js(aopr, console.clear)
 sbvideo.*##+js(nowoif, !/d/)
 cmovies.*##+js(acis, Math, break;case $.)
 sbembed1.com,sbplay.*##+js(aopr, DoodPop)
-embedsb.com,pelistop.co,playersb.com,sbcloud1.com,sbembed1.com,sbembed2.com,sbflix.*,sbplay1.com,sbplay2.*,sbvideo.*,tubesb.com,viewsb.com,watchsb.com##+js(aopr, __Y)
+embedsb.com,pelistop.co,playersb.com,sbcloud1.com,sbchip.*,sbembed1.com,sbembed2.com,sbflix.*,sbplay1.com,sbplay2.*,sbvideo.*,tubesb.com,viewsb.com,watchsb.com##+js(aopr, __Y)
 ||app.adjust.net.in^
 apasih.pw##+js(acis, addEventListener, google_ad_client)
 blisseyhusband.in##+js(acis, eval, replace)
@@ -91085,7 +91102,6 @@ cyclingnews.com##+js(nano-stb, /outboundLink/)
 cyclingnews.com##.global-banner
 @@||login.ingbank.pl/*/vendor/dtm/*$script,1p
 @@|https://api-secure.solvemedia.com^$script
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=trilulilu.ro
 mobile.twitter.com#@#section[role="region"] > div > div[style^="padding-bottom"] > div[class] > div[class][-ext-has='div.rn-1uif7bo[dir="auto"]']
 mobile.twitter.com#@#._29ahSMvH section.rn-1oszu61 div[class][style*="padding-"] > ._1_KafmK5[-ext-has='svg.YunaQoc2']
 @@||openx.tv/embed/$domain=m4ufree.com
@@ -92619,6 +92635,7 @@ pearsonclinical.com##.aligner
 ||fwcdn2.com^$third-party,badfilter
 ||fireworkapi.com^$third-party,badfilter
 ||fireworktv.com^$third-party,badfilter
+||clerk.io^$3p,badfilter
 ||1.163.71.30$all
 ||1.168.84.210$all
 ||1.173.109.89$all
@@ -99209,6 +99226,7 @@ pearsonclinical.com##.aligner
 ||zofer.com.br$all
 ||ztekkhosting.com$all
 ! Adguard
+||yinyouapp.com^
 ||adbottw.net^$third-party
 ||bjjabc.com^$third-party
 ||bbs.kiiqnnx.cn^
