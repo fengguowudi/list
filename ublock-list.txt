@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 90L8o72/cQ5izJKNyWpY7Q
+! Checksum: LjrsAv6T/Y+NFS0LbmY9jQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203111425
-! Last Modified: 2022年03月11日 14:25
+! Version: 202203112033
+! Last Modified: 2022年03月11日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -23248,6 +23248,7 @@ _800x80_
 ##.bottom-ad-placeholder
 ##.bottom-ad-tagline
 ##.bottom-ad-wrapper
+##.bottom-ad-zone
 ##.bottom-ad2
 ##.bottom-ads
 ##.bottom-ads-sticky
@@ -24418,6 +24419,7 @@ _800x80_
 ##.empty-ad
 ##.end-ad
 ##.end-of-article-ads
+##.endAHolder
 ##.endemic_ads
 ##.eng_ads
 ##.engagement_ad
@@ -29404,6 +29406,7 @@ _800x80_
 ##.top-ad-unit
 ##.top-ad-wrap
 ##.top-ad-wrapper
+##.top-ad-zone
 ##.top-ad1
 ##.top-ad__sticky-wrapper
 ##.top-adbox
@@ -30683,6 +30686,8 @@ _800x80_
 ##a[href^="http://yads.zedo.com/"]
 ##a[href^="http://z1.zedo.com/"]
 ##a[href^="http://zevera.com/afi.html"]
+##a[href^="https://a-ads.com/?partner="]
+##a[href^="https://a-ads.com/campaigns/"]
 ##a[href^="https://a.adtng.com/"]
 ##a[href^="https://a.bestcontentfood.top/"]
 ##a[href^="https://a.bestcontentoperation.top/"]
@@ -30737,6 +30742,7 @@ _800x80_
 ##a[href^="https://chaturbate.com/in/?track="]
 ##a[href^="https://chaturbate.jjgirls.com/?track="]
 ##a[href^="https://chaturbate.xyz/"]
+##a[href^="https://click.a-ads.com/"]
 ##a[href^="https://click.hoolig.app/"]
 ##a[href^="https://click.plista.com/pets"]
 ##a[href^="https://clickadilla.com/"]
@@ -33164,6 +33170,7 @@ tf2r.com#@#.adverts
 ||armpitarticle.com^
 ||arnt.xyz^
 ||aroundmonth.com^
+||aroups.com^
 ||arousedskinnyspeeding.com^
 ||arrivaltroublesome.com^
 ||arrlnk.com^
@@ -36473,6 +36480,7 @@ tf2r.com#@#.adverts
 ||enginsquawks.cam^
 ||englingedrxa.club^
 ||englishheadlight.com^
+||englutzydecos.com^
 ||enhichej.xyz^
 ||enicyvys.xyz^
 ||eniunifiiegma.xyz^
@@ -42352,6 +42360,7 @@ tf2r.com#@#.adverts
 ||poifinsegg.com^
 ||poignantpersonnel.com^
 ||poignantsat.com^
+||pointeretards.com^
 ||pointroll.com^
 ||poirreleast.club^
 ||poisism.com^
@@ -46043,6 +46052,7 @@ tf2r.com#@#.adverts
 ||up4u.me^
 ||updateongoingdiving.com^
 ||upgulpinon.com^
+||uphovelodha.com^
 ||upliftsearch.com^
 ||upolou.com^
 ||uponelectabuzzor.club^
@@ -53889,6 +53899,7 @@ road.cc###Footer-Billboard
 fanlesstech.com###HTML2 > .widget-content
 fanlesstech.com###HTML4 > .widget-content
 fanlesstech.com###HTML5 > .widget-content
+fanlesstech.com###HTML6 > .widget-content
 linkfang.org###LinkFang_Horizontal
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
@@ -56164,6 +56175,7 @@ siasat.com##.stream-item-below-post-content
 twitter.com##.stream-item-group-start[label="promoted"]
 coinpedia.org,siasat.com##.stream-item-inline-post
 conservativebrief.com##.stream-item-mag
+how2electronics.com##.stream-item-top
 todayuknews.com##.stream-item-top-wrapper
 hardwaretimes.com##.stream-item-widget
 coinpedia.org##.stream-title
@@ -57586,6 +57598,7 @@ cumlouder.com##.sml-bottom
 pornhub.com,pornhubthbh7ap3u.onion##.sniperModeEngaged
 thelittleslush.com##.snppopup
 boycall.com##.source_info
+amateurfapper.com,iceporn.tv,pornmonde.com##.sources
 hd-easyporn.com##.spc_height_80
 gotporn.com##.spnsrd
 anyporn.com,bigtitslust.com,eachporn.com,fapster.xxx,fpo.xxx,freeporn8.com,pervertslut.com,sexpornimages.com,sexvid.xxx,sortporn.com,xhamster.com##.sponsor
@@ -67210,7 +67223,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudflareinsights.com^$third-party
 ||cnhv.co^$third-party
 ||coin-have.com^$third-party
-||coin-hive.com^$third-party
 ||coinerra.com^$third-party
 ||coinhiveproxy.com^$third-party
 ||coinimp.com$third-party
@@ -71450,6 +71462,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.scenepass.com^
 ||tracking.searchmarketing.com^
 ||tracking.sembox.it^$third-party
+||tracking.sexcash.com^
 ||tracking.sezzle.com^
 ||tracking.sharplink.us^
 ||tracking.skyword.com^$third-party
@@ -83236,6 +83249,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||franceinter.fr/vendor/track.js
 ||fsm.lapresse.ca^
 ||gamergen.com/ajax/actualites/addVue
+||hits.porn.fr^
 ||ianimes.org/img/tracker.gif
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
@@ -84649,7 +84663,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
 @@||hm.baidu.com/hm.gif$image,domain=clgod.com
-@@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||tianxun.com^*/js/tracker.js
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 @@||uwants.com/include/*/swfaddress.js
@@ -84844,6 +84857,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||zinro.net/m/log.php
 !---------- Korean ----------
 @@||naver.net/wcslog.js$domain=m.tv.naver.com
+@@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||vod.midas-i.com^$media,domain=pandora.tv
 @@||wcs.naver.com/m$image,domain=sooldamhwa.com
 !---------- Latvian ----------
@@ -86988,7 +87002,7 @@ mavplay.xyz##+js(aeld, , _blank)
 math-drills.com#@#.ad-block
 @@||allsmo.com^$ghide
 allsmo.com##[id^="ezoic-pub-ad-placeholder"]
-ygosu.com,ppss.kr##div[style="position: relative; display: inline-block; text-align: center;"]:style(left: 10000px !important)
+ygosu.com,ppss.kr,tgd.kr##div[style="position: relative; display: inline-block; text-align: center;"]:style(left: 10000px !important)
 @@||onelinks.site^$ghide
 @@||linkgoo.site^$ghide
 *$xhr,redirect-rule=nooptext,domain=costumbresmexico.com
@@ -99474,7 +99488,7 @@ pearsonclinical.com##.aligner
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 10 Mar 2022 09:07:12 GMT
-# entries:        3675
+# entries:        3672
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -100066,7 +100080,6 @@ pearsonclinical.com##.aligner
 127.0.0.1 ads.oxyshop.cz
 127.0.0.1 ads.passion.com
 127.0.0.1 ads.paymonex.net
-127.0.0.1 ads.pennet.com
 127.0.0.1 ads.pexi.nl
 127.0.0.1 ads.pfl.ua
 127.0.0.1 ads.phpclasses.org
@@ -100395,7 +100408,6 @@ pearsonclinical.com##.aligner
 127.0.0.1 advnt.com
 127.0.0.1 adwebone.com
 127.0.0.1 adwhirl.com
-127.0.0.1 adwords-track.com
 127.0.0.1 adwordsecommerce.com.br
 127.0.0.1 adworldnetwork.com
 127.0.0.1 adworx.at
@@ -100879,7 +100891,6 @@ pearsonclinical.com##.aligner
 127.0.0.1 clickedyclick.com
 127.0.0.1 clickfuse.com
 127.0.0.1 clickhereforcellphones.com
-127.0.0.1 clickhype.com
 127.0.0.1 clicklink.jp
 127.0.0.1 clickmate.io
 127.0.0.1 clickonometrics.pl
@@ -101894,7 +101905,6 @@ pearsonclinical.com##.aligner
 127.0.0.1 myads.telkomsel.com
 127.0.0.1 myaffiliateprogram.com
 127.0.0.1 mybbc-analytics.files.bbci.co.uk
-127.0.0.1 mybestmv.com
 127.0.0.1 mybetterdl.com
 127.0.0.1 mybloglog.com
 127.0.0.1 mybuys.com
@@ -101909,7 +101919,6 @@ pearsonclinical.com##.aligner
 127.0.0.1 mystat.pl
 127.0.0.1 mysteriousmonth.com
 127.0.0.1 mytop-in.net
-127.0.0.1 mytrackingservers.com
 127.0.0.1 myvisualiq.net
 127.0.0.1 n69.com
 127.0.0.1 naj.sk
@@ -101917,6 +101926,7 @@ pearsonclinical.com##.aligner
 127.0.0.1 nappyattack.com
 127.0.0.1 naradxb.com
 127.0.0.1 nastydollars.com
+127.0.0.1 nativeroll.tv
 127.0.0.1 naturalbid.com
 127.0.0.1 navegg.com
 127.0.0.1 navigator.io
@@ -102660,6 +102670,7 @@ pearsonclinical.com##.aligner
 127.0.0.1 superficialsquare.com
 127.0.0.1 supersonicads.com
 127.0.0.1 superstats.com
+127.0.0.1 supertop.ru
 127.0.0.1 supertop100.com
 127.0.0.1 supertracking.net
 127.0.0.1 supply.colossusssp.com
