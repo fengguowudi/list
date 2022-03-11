@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6hCFIJkydXHxAQQTq5PR+w
+! Checksum: +xGAz7SNM9pkpNPBR3mOZA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203110924
-! Last Modified: 2022年03月11日 09:24
+! Version: 202203111425
+! Last Modified: 2022年03月11日 14:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -54991,7 +54991,7 @@ gadgets.ndtv.com##._ad
 pirateiro.com##._br9is
 afro.com##.a-215.g-single
 rumble.com##.a-break
-islandecho.co.uk,locklab.com,talkradioeurope.com##.a-single
+islandecho.co.uk,locklab.com,mallorcasunshineradio.com,talkradioeurope.com##.a-single
 abcya.com##.a-skyscraper
 krebsonsecurity.com##.a-statement
 tellymix.co.uk##.a-text
@@ -55139,6 +55139,7 @@ sciencealert.com##.article-fulltext > div
 scoop.co.nz##.article-left-box
 nintendolife.com,purexbox.com##.article-recommendations
 people.com##.articleContainer__rail
+theblockcrypto.com##.articleIAB
 audizine.com##.articleIMG
 wallpaper.com##.articleSidebar
 ubergizmo.com##.article_card_promoted
@@ -55973,6 +55974,7 @@ revolutionsoccer.net##.mls-o-adv-container
 inhabitat.com##.mn-wrapper
 byrdie.com,investopedia.com,verywellhealth.com##.mntl-leaderboard-spacer
 pcmacstore.com##.mobileHide
+theblockcrypto.com##.mobileView
 thedailybeast.com##.mobiledoc-sizer
 livelaw.in##.modal_wrapper_frame
 autoevolution.com##.modeladmid
@@ -68192,6 +68194,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+939394.xyz##a[href^="/"][href$="/index.html"] > img
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -72925,7 +72928,6 @@ csdn.net##a[href="//gitbook.cn/new/gitchat/activity?utm_source=csdnblog1"]
 ithome.com##a[href="/html/363216.htm"]
 ziqiangxuetang.com##a[href="/j/coding/"]
 ziqiangxuetang.com##a[href="/j/coding/"] + .w-text-red
-939394.xyz##a[href="/uZpvkXM59K9ft3RfeK/index.html"]
 bilibili.com##a[href="/video/av8587236/?tg"]
 xc6b.com##a[href="http://61.160.236.52"]
 cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
@@ -76101,6 +76103,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||daitianyu.vip^
 ||9655128.vip^
 ||ruwei.me^
+||housewedding.cn^
+||mtbraqc.cn^
+||mmoqgsl.cn^
+||xshijie.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
