@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: M4vGTpxKzxV7pXuB0XXxjQ
+! Checksum: MXtj6ecHzPN3jjLJabacAg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203122031
-! Last Modified: 2022年03月12日 20:31
+! Version: 202203130223
+! Last Modified: 2022年03月13日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -86052,6 +86052,8 @@ vshort.link##+js(aopr, app_vars.force_disable_adblock)
 vshort.link##+js(aopr, open)
 vshort.link##+js(set, blurred, false)
 masstamilan.im##+js(nowoif)
+||meeyt.com/*.gif$image
+masstamilan.im##[src*=".gif"]
 mp3saleem.blogspot.com##+js(acis, $, open)
 kindaunique.me##[href="http://kindaunique.me/link.php"]
 geektopia.info##^responseheader(refresh)
@@ -86094,8 +86096,6 @@ discovermagazine.com##div[sizes] > span[class]:has-text(Sponsored):upward(div[si
 sportbible.com#@#div[class*="margin-Advert"]
 sportbible.com##div[class$="-margin-Advert"]:style(height:1px !important;width:1px !important;position:absolute !important;left:-3000px !important)
 ||static.adsafeprotected.com/vans-adapter-google-ima.js^$script,redirect-rule=noopjs,domain=sportbible.com
-@@||haberconnect.net^$ghide
-haberconnect.net##.adsbygoogle
 comicsarmy.com##+js(acis, document.querySelectorAll, popMagic)
 spicyandventures.com##+js(aopr, decodeURI)
 spicyandventures.com##+js(nowoif)
@@ -90250,8 +90250,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||protecttimeknew.live^$doc
 ||ifetirw.xyz^$doc
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
-/^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=com|fun|guru|life|online|pw|site|space|top
-/^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=com|fun|guru|life|online|pw|site|space|top
+/^https?:\/\/((?!www)[a-z]{3,}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top|us|xyz)\/(?:[a-z]{8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=com|fun|guru|life|online|pw|site|space|top|us|xyz
+/^https?:\/\/((?!www)[a-z]{3,}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top|us|xyz)\/(?:[a-z]{8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=com|fun|guru|life|online|pw|site|space|top|us|xyz
 /^https:\/\/(?:www\d\.)?[-a-z]{6,9}\.(?:com|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}/\?cid=[_0-9a-zA-Z]{24,32}&sid=[_0-9a-f]{1,32}$/$doc,match-case,domain=com|net|org
 ||ogtrk.net^
 ||gameglitcher.com^
@@ -90690,6 +90690,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||piktag.net^$all
 ||zoosk.online^$all
 ||beganfieldspeed.top^
+||fulptube.org^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
