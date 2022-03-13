@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: siHH7Y741dZZeDZQD0RQFQ
+! Checksum: vU7qHf6Sep1kLBScVMeyWg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203130916
-! Last Modified: 2022年03月13日 09:16
+! Version: 202203131427
+! Last Modified: 2022年03月13日 14:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24960,6 +24960,7 @@ _800x80_
 ##.fbs-ad--progressive
 ##.fbs-ad--top-wrapper
 ##.fbs-ad--topx-wrapper
+##.fc_clmb_ad
 ##.fc_splash_ad
 ##.fd-ad
 ##.fd-display-ad
@@ -26606,6 +26607,7 @@ _800x80_
 ##.leaderboard-ad-wrapper
 ##.leaderboard-adblock
 ##.leaderboard-ads
+##.leaderboard-ads-text
 ##.leaderboard-advert
 ##.leaderboard-advertisement
 ##.leaderboard.ad
@@ -56085,6 +56087,7 @@ edarabia.com##.leaderboard-970
 arabiaweather.com,bloomberg.com,gamesindustry.biz,news957.com,newscientist.com##.leaderboard-container
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder
 huffingtonpost.co.uk##.leaderboard-flex-placeholder-desktop
+businessinsider.in##.leaderboard-scrollable-cont
 cbssports.com,nowthisnews.com,scout.com,seeker.com,thedodo.com,thrillist.com##.leaderboard-wrap
 bloomberg.com,weatherpro.com##.leaderboard-wrapper
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.leaderboard2
@@ -76304,6 +76307,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||omduzge.cn^
+||hfcpa.top^
+||zuijin.wang^
+||rusu01.top^
+||yovkr.xyz^
+||aybe.me^
+||xs8888.vip^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -109625,6 +109635,7 @@ douyu.com,huya.com##a[href^="https://g.wan."]
 huya.com###hy-ad,#hy-ab,#huya-ab
 g.huya.com
 www.ted.com##.gm-fp-body .justify-center.tracking-tightest
+litix.io
 youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
 *_ad_$media,domain=youtube.com,3p
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkles-web-renderer, ytd-promoted-sparkles-web-renderer
