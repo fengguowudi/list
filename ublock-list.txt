@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CPqzggoUPJeFWr4WvcQWxA
+! Checksum: ccAWSP0H3fntDRYG4UcDGQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203142035
-! Last Modified: 2022年03月14日 20:35
+! Version: 202203150224
+! Last Modified: 2022年03月15日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -29919,6 +29919,7 @@ _800x80_
 ##.vuukle-ads
 ##.vw-header-ads-leader-board
 ##.vw-header-ads-wrapper
+##.vw-header__ads
 ##.vw-single-header-ads
 ##.vxp_ad300x250
 ##.vxp_adContainer
@@ -42314,6 +42315,7 @@ tf2r.com#@#.adverts
 ||pimpoopo.com^
 ||pinballpublishernetwork.com^
 ||pindenspat.com^
+||pineycaids.com^
 ||ping-traffic.info^
 ||pinifafi.com^
 ||pinkpig2le8tt09.com^
@@ -53676,7 +53678,7 @@ $popup,third-party,domain=1337x.buzz|4stream.gg|720pstream.tv|adblockstreamtape.
 ||hurawatch.ru/?$popup
 ||kissanimeonline.com/driectlink$popup
 ||mp3-convert.org/p$popup
-||notube.lol/p/$popup
+||notube.website/p/$popup
 ||pinoymovies.es/links/$popup
 ||qontent.pouvideo.cc^$popup
 ||sendspace.com/defaults/sendspace-pop.html$popup
@@ -87217,7 +87219,7 @@ sbembed1.com,sbvideo.*##+js(aopr, console.clear)
 sbvideo.*##+js(nowoif, !/d/)
 cmovies.*##+js(acis, Math, break;case $.)
 sbembed1.com,sbplay.*##+js(aopr, DoodPop)
-dlmovies.link,embedsb.com,pelistop.co,playersb.com,sbcloud1.com,sbchip.*,sbembed1.com,sbembed2.com,sbflix.*,sbplay1.com,sbplay2.*,sbvideo.*,tubesb.com,viewsb.com,watchsb.com##+js(aopr, __Y)
+dlmovies.link,embedsb.com,pelistop.co,playersb.com,sbcloud1.com,sbchip.*,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbplay1.com,sbplay2.*,sbvideo.*,tubesb.com,viewsb.com,watchsb.com##+js(aopr, __Y)
 ||app.adjust.net.in^
 ||conjectwatson.com^
 ||metahv.xyz^
@@ -89325,7 +89327,7 @@ helpdice.com##+js(acis, onload, "iframe")
 lover9.net##+js(acis, setTimeout, AdBlock)
 lover9.net##+js(nostif, nextFunction, 250)
 lover9.net##+js(aopr, goPage)
-lover9.net##+js(nostif, window.location.replace)
+lover9.net##+js(nostif, location)
 lover9.net##+js(acis, document.querySelectorAll, popMagic)
 lover9.net##.modal:style(position: unset !important;)
 @@||lover9.net^$ghide
@@ -92769,6 +92771,7 @@ pearsonclinical.com##.aligner
 leboncoin.fr#@#div[class^="styles_ad__"]
 @@||chanrycz.com/cdn-cgi/apps/head/*.js|$script,1p
 *$script,3p,domain=mixdrop.co,badfilter
+@@||signalshares.com/webtrends.min.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
