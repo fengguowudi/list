@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XhUPOMakFVzgABED6jr44Q
+! Checksum: B2ozPK88ZjsRC0Kujy0o2g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203161425
-! Last Modified: 2022年03月16日 14:25
+! Version: 202203162034
+! Last Modified: 2022年03月16日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -35132,6 +35132,7 @@ tf2r.com#@#.adverts
 ||corruptegypttook.com^
 ||corwrite.com^
 ||coseik.com^
+||cosherymudejar.com^
 ||cosimotable.pro^
 ||cosmeticsgenerosity.com^
 ||cosmjs.com^
@@ -36029,6 +36030,7 @@ tf2r.com#@#.adverts
 ||dubshub.com^
 ||dubvacasept.com^
 ||duchoono.com^
+||ducina.com^
 ||ducmissy.com^
 ||ducubchooa.com^
 ||dudslubesviol.com^
@@ -55931,8 +55933,6 @@ pcgamingwiki.com##.upcoming-releases.home-card:first-child
 letterboxd.com##.upgrade-kicker
 wbur.org##.uw--rectangle
 wbur.org##.uw-label--bottom
-search.yahoo.com##.va-mid
-search.yahoo.com##.va-mid + a
 lasvegassun.com##.varWrapper
 filmdaily.co##.vc_single_image-wrapper
 ktm2day.com##.vc_wp_text
@@ -56720,8 +56720,8 @@ walmart.com#?#div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:-abp-has(div[dat
 yts.mx#?#.hidden-xs.hidden-sm:-abp-contains(Warning! Download only with VPN...)
 samsclub.com#?#li[class="sc-carousel-slide sc-carousel-horizontal"]:-abp-has(div.sc-pc-sponsored)
 troyhunt.com#?#.sidebar-featured:-abp-has(a[href^="https://pluralsight.pxf.io/"])
-bing.com#?#li[class="b_algo"]:-adp-has(> h2 + div[class="b_caption"] > p[class])
-bing.com#?##b_results > li:-adp-has(> h2 + .b_caption > div.b_attribution:not([u]) + p[class])
+bing.com#?#li[class="b_algo"]:-abp-has(> h2 + div[class="b_caption"] > p[class])
+bing.com#?##b_results > li:-abp-has(> h2 + .b_caption > div.b_attribution:not([u]) + p[class])
 1337x.to#?#a:-abp-contains(/Your IP Address is|Your IP Addres‌s is/)
 1337x.to#?#a:-abp-contains(/An‌on‌ymous Download|A‌non‌ymous Download/)
 3dmodelshare.org#?#.homeadv > span:-abp-contains(Advertisement)
@@ -69139,7 +69139,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uarating.com^$third-party
 ||ulclick.ru^$third-party
 ||upravel.com^$third-party
-||uptolike.com^$third-party
+||uptolike.com^$third-party,domain=~uptolike.ru
 ||utraff.com^$third-party
 ||uzrating.com^$third-party
 ||variti.net^$third-party
@@ -88187,7 +88187,7 @@ sakastau.com##ins[style$="width:300px;height:250px;"]
 joyhints.com##+js(aeld, DOMContentLoaded, disableDeveloperTools)
 joyhints.com###blocksy_ct_advertisement-2
 mydramalist.com##.mdl-gpt-tag:upward(div[class])
-gogoplay1.com,gogoplay2.com##+js(acis, JSON.parse, break;case $.)
+gogoplay1.com,gogoplay2.com,gogoplay4.com##+js(acis, JSON.parse, break;case $.)
 stardeos.com##+js(no-xhr-if, url:googlesyndication)
 stooq.*##div[style="position:relative;width:970px;height:250px"]
 stooq.*##div[style="position:relative;width:300px;height:250px"]
@@ -92287,6 +92287,16 @@ leboncoin.fr#@#div[class^="styles_ad__"]
 ||mixpanel.com^$3p
 ||clustrmaps.com^$badfilter
 ||clustrmaps.com^$3p
+@@||doci.pl/aserver/$subdocument,1p
+@@||docer.pl/aserver/$subdocument,1p
+@@||ovh.webshark.pl^$script,domain=doci.pl|docer.pl
+@@||static.webshark.pl/$script,domain=doci.pl|adk.freedisc.pl|docer.pl
+@@||static.webshark.pl/static/js/library/aserver/helper.js$script,domain=adk.musody.com|docero.de
+@@||adk.docer.pl/asrv/$subdocument,1p
+@@||doci.pl^$ghide
+@@||docer.pl^$ghide
+docer.pl#@##ad
+docer.pl#@#[class^="ad-"]
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
