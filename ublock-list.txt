@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B2ozPK88ZjsRC0Kujy0o2g
+! Checksum: c7FLZ53UhRlYUt4DyfMVIQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203162034
-! Last Modified: 2022年03月16日 20:34
+! Version: 202203170225
+! Last Modified: 2022年03月17日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -35036,6 +35036,7 @@ tf2r.com#@#.adverts
 ||confusionfowlsomen.com^
 ||congestdiscreditwithdrew.com^
 ||congestit.com^
+||congoesld.com^
 ||congratulatedreside.com^
 ||congressaffrayghosts.com^
 ||conjectwatson.com^
@@ -35612,6 +35613,7 @@ tf2r.com#@#.adverts
 ||desktopnotificationshub.com^
 ||deslncsiq.com^
 ||desolatethings.com^
+||desolatewreck.com^
 ||destineddominant.com^
 ||deswhatlike.biz^
 ||detachedbates.com^
@@ -36934,6 +36936,7 @@ tf2r.com#@#.adverts
 ||firon.xyz^
 ||first-rate.com^
 ||firstadsolution.com^
+||firsthanddisagree.com^
 ||firstlightera.com^
 ||firstlychivw.com^
 ||firtaips.com^
@@ -39866,6 +39869,7 @@ tf2r.com#@#.adverts
 ||lvodomo.info^
 ||lwgadm.com^
 ||lx2rv.com^
+||lxdrddeomww.com^
 ||lxgerdcitg.com^
 ||lxgmgalmrxqlj.xyz^
 ||lxphwibrkt.xyz^
@@ -40544,6 +40548,7 @@ tf2r.com#@#.adverts
 ||mujap.com^
 ||mujilora.com^
 ||mujnmhmfhrubzq.com^
+||mulleysnutmeg.com^
 ||multifarewell.com^
 ||multileaguebookstore.com^
 ||multimater.com^
@@ -45619,6 +45624,7 @@ tf2r.com#@#.adverts
 ||unanimis.co.uk^
 ||unattractivefrigilityfrigility.com^
 ||unavailablebackedwaved.com^
+||unblestrustic.com^
 ||unbodypestis.com^
 ||uncerneda.work^
 ||uncoilszaniest.com^
@@ -46678,6 +46684,7 @@ tf2r.com#@#.adverts
 ||wubsauth.net^
 ||wuckaity.com^
 ||wudr.net^
+||wueihlouuw.com^
 ||wufel.ml^
 ||wunteetoco.com^
 ||wurtoosy.com^
@@ -87149,9 +87156,10 @@ techpowerup.com##[src*=".jpg"]:not([src^="https://tpucdn.com/forums/data/avatars
 techpowerup.com##:not(:matches-path(/forums/)) [class][target]:matches-css(background-image: /none/):not([class="contestbadge"])
 techpowerup.com##body:style(background-color: whitesmoke !important)
 techpowerup.com###viewport > div a[href][target]
-techpowerup.com##:not(:matches-path(/forums/)) a[href*="/forums/login/"]:upward(1) ~ *:has(img[src*="/review/"])
-techpowerup.com##:not(:matches-path(/forums/)) body:has(a[href*="/forums/login/"]) > [class^="viewport"] > .clearfix > div + div:has(img[src*="/review/"]):remove()
-techpowerup.com##:not(:matches-path(/forums/)) body:has(a[href*="/forums/login/"]) > [class^="viewport"] > section > span[class] > img[src*="/review/"]:upward(section):remove()
+techpowerup.com##:not(:matches-path(/forums/)) a[href*="/login/"]:upward(1) ~ *:has(img[src*="/review/"])
+techpowerup.com##:not(:matches-path(/forums/)) body:has(a[href*="/login/"]) > [class^="viewport"] > .clearfix > div + div:has(img[src*="/review/"]):remove()
+techpowerup.com##:not(:matches-path(/forums/)) body:has(a[href*="/login/"]) > [class^="viewport"] > span > img[src*="/review/"]:upward(1):remove()
+techpowerup.com##:not(:matches-path(/forums/)) body:has(a[href*="/login/"]) > [class^="viewport"] > a[href*="/review/"]:remove()
 techpowerup.com##:not(:matches-path(/forums/)) [src*="techpowerup.com"]:upward(a[href^="/"]):not([href^="http"])
 techpowerup.com##[src]:matches-css(margin-left:/12/)
 techpowerup.com##:not(:matches-path(/forums/)) [rel]:matches-css(position: /fixed/)
@@ -88036,7 +88044,6 @@ eplayer.click##+js(aeld, error)
 hdsport.biz##+js(no-fetch-if, method:HEAD)
 eplayer.click,hdsport.biz##+js(aopr, AaDetector)
 hdsport.biz##+js(set, canRunAds, true)
-||include.canale.live^
 @@||fotbaltv.biz/reclama/*.php?id=$frame
 *$script,redirect-rule=noopjs,domain=1cloudfile.com
 1cloudfile.com##+js(nowoif)
@@ -89857,14 +89864,11 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||secureconv-dl.com^$all
 ||91.241.60.117^$all
 ||91.241.60.119^$all
-||mediazlez.pp.ua^$all
 ||newfind.cloudns.cl^$all
-||recangedesna.ml^$all
 ||sevenonex.space^$all
 ||suzamense.com^$all
 ||walhalagame.fun^$doc
 ||app-inject.com^$doc
-||zhirhacks.pro^
 ||supra.dns-cloud.net^$doc
 ||tophacks.pro^$doc
 .systems/signup?ad_domain=$doc,popup
@@ -89882,7 +89886,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||home-prize-winner-ma3d.live^
 ||hsmvem.com^
 ||illuminatelocks.com^
-||load17.biz^
 ||mfroute.com^
 ||miserve-chanics.com^
 ||mobileoffers-5-r-download.com^
@@ -90005,7 +90008,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||rogueleader.org^$all
 ||suggestive.com/deals/?cid=$doc
 ||cnc.pinklander.com^$all
-||disccord.shop^$all
 ||discordapp.cam^$all
 ||discordap.$all
 ||airdrop-discord.ru^$all
@@ -90056,7 +90058,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||88btbtt.com^$all
 ||musmentportal.com^$all
 ||37.1.209.213^$all
-||3650365voicemailplay.blob.core.windows.net^$all
 ||jinshanduba.org.cn^$all
 ||phpstat.cntcm.com.cn/phpstat/count/abceffgh/abceffgh.js^$script
 ||sites.google.com/view/hypixeldupemethod/*^$doc
@@ -90075,7 +90076,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||pclicensekeys.com^$doc
 ||cracklabel.com^$doc
 ||keystool.com^$doc
-||aglianicodelvulture.eu^$doc
 ||pcwarezbox.com^$doc
 ||installcracks.com^$doc
 ||10crack.com^$doc
@@ -90279,7 +90279,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||downloadcracker.com^$doc
 ||windowsactivator.info^$doc
 ||theannoyingsite.com^$all
-||elongi.org^$all
 ||rbngdm.com^$all
 ||discorx.gift^$all
 ||c2orcv7zjn5y.top^$all
@@ -92297,6 +92296,7 @@ leboncoin.fr#@#div[class^="styles_ad__"]
 @@||docer.pl^$ghide
 docer.pl#@##ad
 docer.pl#@#[class^="ad-"]
+@@||capi.connatix.com/core/pls$xhr,domain=loot.tv
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
