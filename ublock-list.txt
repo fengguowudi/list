@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4VN2plOZQNBlAGQ6blVrxQ
+! Checksum: TpExzm/CsyWZYs2BIbDzkQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203171424
-! Last Modified: 2022年03月17日 14:24
+! Version: 202203172036
+! Last Modified: 2022年03月17日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2627,7 +2627,6 @@
 /adsfloat.
 /adsfolder/*
 /adsforwp-
-/adsframe.
 /adsframework/*
 /adsfull/*
 /adsfuse-
@@ -61497,6 +61496,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /pg_pixel?
 /pgtracking.
 /pgtrackingV3.
+/ph-tracking-
 /phenomtrack.
 /PhoenixGoogleAnalytics.
 /php-stats.js
@@ -65817,7 +65817,6 @@ _mongo_stats/
 ||petametrics.com^$third-party
 ||pghub.io^$third-party
 ||pgs.io^$third-party,domain=~publicgood.com
-||phenompeople.com^$third-party
 ||phonalytics.com^$third-party
 ||phone-analytics.com^$third-party
 ||photorank.me^$third-party
@@ -86151,10 +86150,8 @@ olympicstreams.me,vipboxtv.*##+js(acis, JSON.parse, break;case $.)
 olympicstreams.me,vipboxtv.*##+js(aopw, _pop)
 ||raw.githubusercontent.com/*/just-detect-adblock/*$3p,xhr,redirect-rule=nooptext
 buffstreams.tv##+js(acis, JSON.parse, break;case $.)
-live-sport24.com##+js(aopr, open)
 @@||tritinia.com^$ghide
 tritinia.com##.adsbygoogle
-appnaz.com##.adsbygoogle:upward(1)
 nsfwyoutube.com##pp
 *$xhr,3p,domain=nsfwyoutube.com
 mypornstarbook.net##+js(acis, document.querySelectorAll, popMagic)
@@ -86193,8 +86190,8 @@ claimbits.io##ins[class][style^="display:inline-block;width:"]
 anonymz.com##+js(aost, _pop, _init)
 ac24.cz##pp
 garaveli.de##+js(acis, addEventListener, google_ad_client)
-yilmaztv.com##+js(acis, addEventListener, google_ad_client)
-alsancak-35.de##+js(acis, addEventListener, google_ad_client)
+@@||yilmaztv.com^$ghide
+@@||alsancak-35.de^$ghide
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$redirect-rule=googlesyndication_adsbygoogle.js,script,domain=crypto-fun-faucet.de
 @@||crypto-fun-faucet.de^$ghide
 crypto-fun-faucet.de###top_adspace
@@ -86287,8 +86284,6 @@ url4cut.xyz##.banner
 novelism.jp##+js(aeld, blur, native code)
 alphapolis.co.jp##+js(aeld, blur, event.simulate)
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$redirect-rule=googlesyndication_adsbygoogle.js,script,domain=persianhive.com
-dogestar.website##+js(nosiif, visibility, 1000)
-dogestar.website##+js(nano-sib, seconds)
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$redirect-rule=googlesyndication_adsbygoogle.js,script,domain=andreyex.ru
 ||tinypass.com^$domain=crosswalk.com
 ||tinypass.com^$domain=christianity.com
@@ -86413,12 +86408,6 @@ dogeatm.com##+js(acis, String.fromCharCode, 'replace')
 dogeatm.com##+js(aopw, puShown)
 dogeatm.com##+js(nano-sib, seconds)
 ||missionfed.com^$3p
-faucet.cryptourl.net##+js(acis, document.querySelectorAll, popMagic)
-faucet.cryptourl.net##+js(nano-sib, seconds)
-cryptourl.net##+js(aopr, app_vars.force_disable_adblock)
-cryptourl.net##+js(set, blurred, false)
-cryptourl.net##.banner
-cryptourl.net##div[style="width:300px;height:250px;display: inline-block;margin: 0 auto"]
 yellowfaucet.ovh##+js(nowoif)
 yellowfaucet.ovh##+js(nano-sib, seconds)
 yellowfaucet.ovh##ins[class][style^="display:inline-block;width:"]
@@ -86505,13 +86494,11 @@ xxxwebdlxxx.top##+js(aopr, absda)
 xxxwebdlxxx.top##+js(acis, JSON.parse, break;case $.)
 xxxwebdlxxx.top##a[href^="https://hotdating-near1.com/"]
 *$frame,script,3p,domain=xxxwebdlxxx.top
-lionltcfaucet.xyz##+js(nano-sib, seconds)
 raincaptcha.com##._ad-block
 starsfaucet.com##[href^="https://www.bestchange.com/"]
 starsfaucet.com##div.row:nth-of-type(3) > .bg-black.col-xs-12
 simplyfaucet.xyz##+js(aopw, _pop)
 simplyfaucet.xyz##div.row:nth-of-type(3) > .bg-success.col-xs-12
-@@/libs/advertisement.js?ad_ids=*&show_ad=$script,1p
 krypto-trend.de###top_adspace
 krypto-trend.de###captcha-adspace
 krypto-trend.de###middle-adspace
@@ -88102,6 +88089,7 @@ claimclicks.com,try2link.com##+js(aopr, app_vars.force_disable_adblock)
 try2link.com##+js(set, blurred, false)
 newforex.online##+js(nano-sib, counter, 2000)
 newforex.online##.demand-supply
+forex-gold.net,world-trips.net##+js(nano-sib, timeleft)
 adly.fun##+js(acis, puShown, /doOpen|popundr/)
 adly.fun##+js(set, blurred, false)
 streamingsites.com##.OUTBRAIN:upward(2)
@@ -92372,6 +92360,7 @@ leboncoin.fr#@#div[class^="styles_ad__"]
 docer.pl#@##ad
 docer.pl#@#[class^="ad-"]
 @@||capi.connatix.com/core/pls$xhr,domain=loot.tv
+@@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=trygghansa.se
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
