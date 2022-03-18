@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NvDP9S2X1BpO5buuhQN/Rg
+! Checksum: vNrG9EQ6w9JqOraDpnEEqQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203180224
-! Last Modified: 2022年03月18日 02:24
+! Version: 202203180925
+! Last Modified: 2022年03月18日 09:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54773,6 +54773,7 @@ maniacdev.com##.c4
 canada411.ca##.c411TopBanner
 filepuma.com##.cRight_footer
 ria.ru##.c_banners
+money.com##.ca-widget-inline
 thecable.ng##.cableads_mid
 challonge.com##.cake-unit
 dllme.com##.captchabox > div
@@ -56844,6 +56845,7 @@ bing.com#?##b_results > li:-abp-has(> h2 + .b_caption > div.b_attribution:not([u
 outlook.live.com#?##OwaContainer:-abp-has(div.fbAdLink)
 mylivewallpapers.com#?#.posts > div.posts:-abp-has(.adsbygoogle)
 cults3d.com#?#div.grid-cell:-abp-contains(/AD •/i)
+doordash.com#?#[data-testid="card.store"] > div:-abp-has(div[data-anchor-id="SponsoredBadge"])
 psychcentral.com#?#aside:-abp-has([data-empty])
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
@@ -99522,7 +99524,7 @@ docer.pl#@#[class^="ad-"]
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 22 Mar 2002 00:00:00
+# start date:    Sat, 23 Mar 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
