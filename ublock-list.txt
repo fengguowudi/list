@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FsIp4QCOlNgYfPSoSYxJuQ
+! Checksum: +5AT/Roj+J6X6asXRZGetQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203182033
-! Last Modified: 2022年03月18日 20:33
+! Version: 202203190224
+! Last Modified: 2022年03月19日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -32087,6 +32087,7 @@ tf2r.com#@#.adverts
 ||8wey4x0c.com^
 ||8wtkfxiss1o2.com^
 ||9053fe03868ab.com^
+||90cd7fb7ca.com^
 ||91effa509f8f15a.com^
 ||921ce2aa2264.com^
 ||924e60106cd9d0e.com^
@@ -33654,6 +33655,7 @@ tf2r.com#@#.adverts
 ||barricadefurrydrinks.com^
 ||bars2show.com^
 ||barscreative1.com^
+||basfol.com^
 ||basheighthnumerous.com^
 ||bashfulweaponsscratch.com^
 ||basknausea.com^
@@ -34300,6 +34302,7 @@ tf2r.com#@#.adverts
 ||bussaidbag.casa^
 ||butalksuw9dj10.com^
 ||butashasp.site^
+||butomuskainah.com^
 ||buttoothbrush.com^
 ||buwuhapta.com^
 ||buyeasy.by^
@@ -35677,6 +35680,7 @@ tf2r.com#@#.adverts
 ||devilspanmute.com^
 ||devoidsagacious.com^
 ||dewapsithi.pro^
+||dewiestsards.com^
 ||dewincubiatoll.com^
 ||dexchangeinc.com^
 ||deximedia.com^
@@ -38636,6 +38640,7 @@ tf2r.com#@#.adverts
 ||inlacesepicly.com^
 ||inminuner.com^
 ||innity.net^
+||innovationlizard.com^
 ||innovationthinkingslick.com^
 ||innumerablecaw.com^
 ||innyweakela.co^
@@ -39733,6 +39738,7 @@ tf2r.com#@#.adverts
 ||littlecutedogs.com^
 ||livecheersharder.com^
 ||livelihoodpracticaloperating.com^
+||liveredwilton.com^
 ||livezombymil.com^
 ||livwrite.com^
 ||liwhetsu.com^
@@ -43521,6 +43527,7 @@ tf2r.com#@#.adverts
 ||ropx.xyz^
 ||roredi.com^
 ||rorserdy.com^
+||rosalscrite.com^
 ||rosafun.com^
 ||rosemand.pro^
 ||roserobotx.online^
@@ -51954,6 +51961,7 @@ tf2r.com#@#.adverts
 ||d21f25e9uvddd7.cloudfront.net^
 ||d21rudljp9n1rr.cloudfront.net^
 ||d227cncaprzd7y.cloudfront.net^
+||d22ffr6srkd9zx.cloudfront.net^
 ||d22lo5bcpq2fif.cloudfront.net^
 ||d22sfab2t5o9bq.cloudfront.net^
 ||d22xmn10vbouk4.cloudfront.net^
@@ -88815,6 +88823,9 @@ orgasmatrix.com##.card.post:has([href*="landing."])
 @@||cds.connatix.com/p/*/connatix.playspace.js$script,domain=loot.tv
 @@||cd.connatix.com/connatix.playspace.js$script,domain=loot.tv
 @@||cds.connatix.com/p/*/connatix.player.js$script,domain=loot.tv
+@@||cds.connatix.com/p/*/player.css$stylesheet,domain=loot.tv
+@@||connatix.com/core/pls$xhr,domain=loot.tv
+@@||loot.tv^$ghide
 gifhq.com##+js(acis, document.dispatchEvent, myEl)
 gifhq.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
 gifhq.com##+js(acis, $, open)
@@ -92423,7 +92434,6 @@ pearsonclinical.com##.aligner
 @@||docer.pl^$ghide
 docer.pl#@##ad
 docer.pl#@#[class^="ad-"]
-@@||capi.connatix.com/core/pls$xhr,domain=loot.tv
 @@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=trygghansa.se
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
@@ -99522,8 +99532,8 @@ docer.pl#@#[class^="ad-"]
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 18 Mar 2022 10:39:57 GMT
-# entries:        3672
+# last updated:   Fri, 18 Mar 2022 14:42:53 GMT
+# entries:        3709
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -99568,6 +99578,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 7bpeople.com
 127.0.0.1 7search.com
 127.0.0.1 82o9v830.com
+127.0.0.1 9w2zed1szg.execute-api.us-east-1.amazonaws.com
 127.0.0.1 a-ads.com
 127.0.0.1 a.aproductmsg.com
 127.0.0.1 a.mktw.net
@@ -99757,6 +99768,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 add.newmedia.cz
 127.0.0.1 addfreestats.com
 127.0.0.1 addme.com
+127.0.0.1 addwish.com
 127.0.0.1 adecn.com
 127.0.0.1 adeimptrck.com
 127.0.0.1 ademails.com
@@ -100815,6 +100827,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 broadcastbed.com
 127.0.0.1 broaddoor.com
 127.0.0.1 broadstreetads.com
+127.0.0.1 brontops.com
 127.0.0.1 browser-http-intake.logs.datadoghq.com
 127.0.0.1 browser-http-intake.logs.datadoghq.eu
 127.0.0.1 bs.yandex.ru
@@ -100838,14 +100851,17 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 callrail.com
 127.0.0.1 calmcactus.com
 127.0.0.1 campaign.bharatmatrimony.com
+127.0.0.1 campaignmonitor.com
 127.0.0.1 caniamedia.com
 127.0.0.1 cannads.urgrafix.com
 127.0.0.1 capablecows.com
 127.0.0.1 captainbicycle.com
+127.0.0.1 capturehighered.net
 127.0.0.1 carambo.la
 127.0.0.1 carbonads.com
 127.0.0.1 carbonads.net
 127.0.0.1 caringcast.com
+127.0.0.1 cartstack.com
 127.0.0.1 casalemedia.com
 127.0.0.1 casalmedia.com
 127.0.0.1 cash4members.com
@@ -100898,6 +100914,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 cl0udh0st1ng.com
 127.0.0.1 claria.com
 127.0.0.1 clck.ru
+127.0.0.1 clerk.io
 127.0.0.1 clevernt.com
 127.0.0.1 cliand.com
 127.0.0.1 click.airmalta-mail.com
@@ -100914,6 +100931,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 click.redditmail.com
 127.0.0.1 click.twcwigs.com
 127.0.0.1 click2freemoney.com
+127.0.0.1 click360v2-ingest.azurewebsites.net
 127.0.0.1 clickability.com
 127.0.0.1 clickadz.com
 127.0.0.1 clickagents.com
@@ -100956,9 +100974,11 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 clktrx.com
 127.0.0.1 cloisteredhydrant.com
 127.0.0.1 closedcows.com
+127.0.0.1 cloud-iq.com.au
 127.0.0.1 cloudcoins.biz
 127.0.0.1 cloudflare-dacdn.visualwebsiteoptimizer.com
 127.0.0.1 cloudflareinsights.com
+127.0.0.1 cloudiq.com
 127.0.0.1 clrstm.com
 127.0.0.1 cluster.adultworld.com
 127.0.0.1 clustrmaps.com
@@ -101075,6 +101095,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 cutecushion.com
 127.0.0.1 cuteturkey.com
 127.0.0.1 cxense.com
+127.0.0.1 cybba.solutions
 127.0.0.1 cyberbounty.com
 127.0.0.1 cyrasi.com
 127.0.0.1 d.adroll.com
@@ -101195,6 +101216,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 economicpizzas.com
 127.0.0.1 ecoupons.com
 127.0.0.1 edaa.eu
+127.0.0.1 educationdynamics.com
 127.0.0.1 effectivemeasure.com
 127.0.0.1 effectivemeasure.net
 127.0.0.1 efficaciouscactus.com
@@ -101236,10 +101258,12 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 entercasino.com
 127.0.0.1 enthusiasticdad.com
 127.0.0.1 entrecard.s3.amazonaws.com
+127.0.0.1 enviou.com.br
 127.0.0.1 enviousthread.com
 127.0.0.1 epom.com
 127.0.0.1 epp.bih.net.ba
 127.0.0.1 eqads.com
+127.0.0.1 eqy.link
 127.0.0.1 erne.co
 127.0.0.1 ero-advertising.com
 127.0.0.1 estat.com
@@ -101345,6 +101369,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 foresee.com
 127.0.0.1 forex-affiliate.net
 127.0.0.1 forkcdn.com
+127.0.0.1 formstack.com
 127.0.0.1 forwrdnow.com
 127.0.0.1 fourarithmetic.com
 127.0.0.1 fpctraffic.com
@@ -101363,10 +101388,10 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 freepay.com
 127.0.0.1 freeskreen.com
 127.0.0.1 freestats.com
-127.0.0.1 freestats.tv
 127.0.0.1 freewebcounter.com
 127.0.0.1 freewheel.com
 127.0.0.1 freewheel.tv
+127.0.0.1 freshrelevance.com
 127.0.0.1 friendwool.com
 127.0.0.1 frightenedpotato.com
 127.0.0.1 frtyj.com
@@ -101374,6 +101399,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 fullstory.com
 127.0.0.1 functionalcrown.com
 127.0.0.1 funklicks.com
+127.0.0.1 funnelytics.io
 127.0.0.1 fusionads.net
 127.0.0.1 fusionquest.com
 127.0.0.1 futuristicapparatus.com
@@ -101546,6 +101572,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 idealadvertising.net
 127.0.0.1 idevaffiliate.com
 127.0.0.1 idtargeting.com
+127.0.0.1 idx.lat
 127.0.0.1 ientrymail.com
 127.0.0.1 iesnare.com
 127.0.0.1 ifa.tube8live.com
@@ -101620,9 +101647,11 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 iperceptions.com
 127.0.0.1 ipredictive.com
 127.0.0.1 ipstack.com
+127.0.0.1 iraiser.eu
 127.0.0.1 irchan.com
 127.0.0.1 ireklama.cz
 127.0.0.1 is-tracking-pixel-api-prod.appspot.com
+127.0.0.1 iterable.com
 127.0.0.1 itop.cz
 127.0.0.1 its-that-easy.com
 127.0.0.1 iubzka.online
@@ -101691,10 +101720,12 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 leadclick.com
 127.0.0.1 leadingedgecash.com
 127.0.0.1 leadplace.fr
+127.0.0.1 leadspace.com
 127.0.0.1 leadzupc.com
 127.0.0.1 leaplunchroom.com
 127.0.0.1 leftliquid.com
 127.0.0.1 lemmatechnologies.com
+127.0.0.1 lemnisk.co
 127.0.0.1 lettucelimit.com
 127.0.0.1 levelrate.de
 127.0.0.1 lever-analytics.com
@@ -101786,12 +101817,14 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 madcpms.com
 127.0.0.1 madinad.com
 127.0.0.1 madisonavenue.com
+127.0.0.1 madkudu.com
 127.0.0.1 madvertise.de
 127.0.0.1 magicadz.co
 127.0.0.1 magnificentmist.com
 127.0.0.1 mail-ads.google.com
 127.0.0.1 maltiverse.lt.acemlnc.com
 127.0.0.1 manageadv.cblogs.eu
+127.0.0.1 mantisadnetwork.com
 127.0.0.1 marinsm.com
 127.0.0.1 markedcrayon.com
 127.0.0.1 markedpail.com
@@ -101808,6 +101841,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 marketo.com
 127.0.0.1 mas.sector.sk
 127.0.0.1 massivemark.com
+127.0.0.1 masterworks.com
 127.0.0.1 matchcraft.com
 127.0.0.1 materialmoon.com
 127.0.0.1 matheranalytics.com
@@ -102080,6 +102114,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 operationkettle.com
 127.0.0.1 opienetwork.com
 127.0.0.1 opmnstr.com
+127.0.0.1 oppuz.com
 127.0.0.1 optimallimit.com
 127.0.0.1 optimize-stats.voxmedia.com
 127.0.0.1 optimizely.com
@@ -102134,7 +102169,6 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 pbnet.ru
 127.0.0.1 pbterra.com
 127.0.0.1 pcash.imlive.com
-127.0.0.1 pctracking.net
 127.0.0.1 peep-auktion.de
 127.0.0.1 peer39.com
 127.0.0.1 pennyweb.com
@@ -102154,6 +102188,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 pgmediaserve.com
 127.0.0.1 pgpartner.com
 127.0.0.1 pheedo.com
+127.0.0.1 phenompeople.com
 127.0.0.1 phoenix-adrunner.mycomputer.com
 127.0.0.1 photographpan.com
 127.0.0.1 phpadsnew.new.natuurpark.nl
@@ -102187,6 +102222,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 pltraffic8.com
 127.0.0.1 pluckypocket.com
 127.0.0.1 plugrush.com
+127.0.0.1 pmweb.com.br
 127.0.0.1 pocketmath.com
 127.0.0.1 pointroll.com
 127.0.0.1 pokkt.com
@@ -102312,6 +102348,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 r1.visualwebsiteoptimizer.com
 127.0.0.1 r2.visualwebsiteoptimizer.com
 127.0.0.1 r3.visualwebsiteoptimizer.com
+127.0.0.1 raac33.net
 127.0.0.1 rabbitrifle.com
 127.0.0.1 radar.cedexis.com
 127.0.0.1 radarurl.com
@@ -102344,7 +102381,6 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 readingopera.com
 127.0.0.1 readserver.net
 127.0.0.1 readymoon.com
-127.0.0.1 realcastmedia.com
 127.0.0.1 realclever.com
 127.0.0.1 realclix.com
 127.0.0.1 realmedia-a800.d4p.net
@@ -102353,6 +102389,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 realtracker.com
 127.0.0.1 rebelsubway.com
 127.0.0.1 rec5.visualwebsiteoptimizer.com
+127.0.0.1 recapture.io
 127.0.0.1 receptiveink.com
 127.0.0.1 receptivereaction.com
 127.0.0.1 recoco.it
@@ -102374,7 +102411,6 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 reklama.mironet.cz
 127.0.0.1 reklamcsere.hu
 127.0.0.1 reklamdsp.com
-127.0.0.1 relevanz10.de
 127.0.0.1 relmaxtop.com
 127.0.0.1 remox.com
 127.0.0.1 republika.onet.pl
@@ -102455,6 +102491,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 samsungads.com
 127.0.0.1 sanity-dataplane.rudderstack.com
 127.0.0.1 saysidewalk.com
+127.0.0.1 sbird.xyz
 127.0.0.1 sbx.pagesjaunes.fr
 127.0.0.1 sc-analytics.appspot.com
 127.0.0.1 scambiobanner.aruba.it
@@ -102520,6 +102557,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 shinystat.it
 127.0.0.1 shockinggrass.com
 127.0.0.1 shoppingads.com
+127.0.0.1 shoptarget.com.br
 127.0.0.1 shrillspoon.com
 127.0.0.1 sicksmash.com
 127.0.0.1 sidebar.angelfire.com
@@ -102550,6 +102588,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 sluxur.com
 127.0.0.1 smaato.com
 127.0.0.1 smallbeginner.com
+127.0.0.1 smart-data-systems.com
 127.0.0.1 smart-traffik.com
 127.0.0.1 smart-traffik.io
 127.0.0.1 smart4ads.com
@@ -102601,6 +102640,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 spiffymachine.com
 127.0.0.1 spinbox.techtracker.com
 127.0.0.1 spinbox.versiontracker.com
+127.0.0.1 spinnaker-js.com
 127.0.0.1 spirebaboon.com
 127.0.0.1 sponsorads.de
 127.0.0.1 sponsorpro.de
@@ -102612,6 +102652,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 spotx.tv
 127.0.0.1 spotxchange.com
 127.0.0.1 springaftermath.com
+127.0.0.1 springbot.com
 127.0.0.1 springserve.com
 127.0.0.1 spulse.net
 127.0.0.1 spurioussteam.com
@@ -102775,6 +102816,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 telemetry.dropbox.com
 127.0.0.1 telemetry.v.dropbox.com
 127.0.0.1 temelio.com
+127.0.0.1 tend.io
 127.0.0.1 tendertest.com
 127.0.0.1 terriblethumb.com
 127.0.0.1 text-link-ads.com
@@ -102798,6 +102840,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 throattrees.com
 127.0.0.1 throtle.io
 127.0.0.1 thruport.com
+127.0.0.1 thunderhead.com
 127.0.0.1 ti.domainforlite.com
 127.0.0.1 tia.timeinc.net
 127.0.0.1 ticketaunt.com
@@ -102938,6 +102981,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 tremorhub.com
 127.0.0.1 trendcounter.com
 127.0.0.1 trendmd.com
+127.0.0.1 trialfire.com
 127.0.0.1 tribalfusion.com
 127.0.0.1 trickycelery.com
 127.0.0.1 triplelift.com
@@ -103109,8 +103153,10 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 whisperingcrib.com
 127.0.0.1 whisperingflesh.com
 127.0.0.1 whoisonline.net
+127.0.0.1 wickedreports.com
 127.0.0.1 widespace.com
 127.0.0.1 widget.privy.com
+127.0.0.1 widgetbe.com
 127.0.0.1 widgetbucks.com
 127.0.0.1 wikia-ads.wikia.com
 127.0.0.1 win.iqm.com
@@ -103190,6 +103236,7 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 zealousfield.com
 127.0.0.1 zedo.com
 127.0.0.1 zemanta.com
+127.0.0.1 zenaps.com
 127.0.0.1 zencudo.co.uk
 127.0.0.1 zenkreka.com
 127.0.0.1 zenzuu.com
