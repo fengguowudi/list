@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qWrFcy0Gx+t8w0VTGJuvAA
+! Checksum: 0VeKW8StT9GsEjFytkGwaA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203202032
-! Last Modified: 2022年03月20日 20:32
+! Version: 202203210224
+! Last Modified: 2022年03月21日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -88392,7 +88392,8 @@ sakastau.com##ins[style$="width:300px;height:250px;"]
 joyhints.com##+js(aeld, DOMContentLoaded, disableDeveloperTools)
 joyhints.com###blocksy_ct_advertisement-2
 mydramalist.com##.mdl-gpt-tag:upward(div[class])
-gogoplay1.com,gogoplay2.com,gogoplay4.com##+js(acis, JSON.parse, break;case $.)
+gogoplay1.com,gogoplay2.com,gogoplay4.com,gogoplay5.com##+js(acis, JSON.parse, break;case $.)
+gogoplay4.com,gogoplay5.com##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
 stardeos.com##+js(no-xhr-if, url:googlesyndication)
 stooq.*##div[style="position:relative;width:970px;height:250px"]
 stooq.*##div[style="position:relative;width:300px;height:250px"]
@@ -90486,6 +90487,9 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||corecrack.com^$doc
 ||downloadcracker.com^$doc
 ||windowsactivator.info^$doc
+||onhax.io^$doc
+||karancrack.com^$doc
+||origincrack.com^$doc
 ||theannoyingsite.com^$all
 ||rbngdm.com^$all
 ||discorx.gift^$all
@@ -90496,6 +90500,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||zoosk.online^$all
 ||beganfieldspeed.top^
 ||fulptube.org^$all
+||i7ece0xrg4nx.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
@@ -92503,7 +92508,7 @@ pearsonclinical.com##.aligner
 docer.pl#@##ad
 docer.pl#@#[class^="ad-"]
 @@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=trygghansa.se
-@@||googletagmanager.com/gtm.js$script,domain=uniqlo.com
+@@||pro.ip-api.com^$xhr,domain=nontongp.xyz
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
