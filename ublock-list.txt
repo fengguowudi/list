@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2WpORAyVcZH3Hb0SyoVFmg
+! Checksum: 3QS3W6ywk+L1LUJlK68nUg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203200223
-! Last Modified: 2022年03月20日 02:23
+! Version: 202203200924
+! Last Modified: 2022年03月20日 09:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20022,6 +20022,7 @@ _800x80_
 ##.adblock300250
 ##.adblock300x250Spot1
 ##.adblock728x90
+##.adblock__banner
 ##.adblock_noborder
 ##.adblock_primary
 ##.adblockdiv
@@ -20183,6 +20184,7 @@ _800x80_
 ##.adfoot
 ##.adfootbox
 ##.adfooter
+##.adform__topbanner
 ##.adformobile
 ##.adframe
 ##.adframe2
@@ -22664,6 +22666,7 @@ _800x80_
 ##.articleTopAd
 ##.article__ad-holder
 ##.article__ad-ir
+##.article__adblock
 ##.article__adv
 ##.article__inset--margin-ad
 ##.article__leaderboard-ad
@@ -73583,7 +73586,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ultimate-guitar.com/components/ab/event?
 ||ultimedia.com/deliver/statistiques/
 ||umami.wakarimasen.moe^
-||uniqlo.com/us/elgnisolqinu.js
 ||unity3d.com/v1/events
 ||unsplash.com/a/third-party/snow-
 ||unsplash.com/nmetrics
@@ -99604,7 +99606,7 @@ docer.pl#@#[class^="ad-"]
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 24 Mar 2002 00:00:00
+# start date:    Mon, 25 Mar 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
