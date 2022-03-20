@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3QS3W6ywk+L1LUJlK68nUg
+! Checksum: fm8zo+w/hchoUqgBIg9hZQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203200924
-! Last Modified: 2022年03月20日 09:24
+! Version: 202203201424
+! Last Modified: 2022年03月20日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -87191,6 +87191,8 @@ trivela.com.br##+js(set, tie.ad_blocker_detector, '')
 drop.download##+js(acis, document.addEventListener, google_ad_client)
 drop.download##.row > .col-md-8
 flightsim.to##+js(acis, fetch, status)
+flightsim.to##.countdown-area
+flightsim.to##button:style(display: inline-block !important)
 moviemakeronline.com##+js(nosiif, adsbygoogle)
 moviemakeronline.com##.bbbOwner
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect-rule=noopjs,domain=gbnews.uk
