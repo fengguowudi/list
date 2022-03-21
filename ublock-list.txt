@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0VeKW8StT9GsEjFytkGwaA
+! Checksum: fNZDoqH/DB6Y11Y9kqH6tw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203210224
-! Last Modified: 2022年03月21日 02:24
+! Version: 202203210936
+! Last Modified: 2022年03月21日 09:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -14918,6 +14918,7 @@ _800x80_
 ###pb_adbanner
 ###pb_report_ad
 ###pc-billboard-ad
+###pc-div-gpt-ad_728-3
 ###pcworldAdBottom
 ###pcworldAdTop
 ###pencil-ad
@@ -31262,12 +31263,14 @@ _800x80_
 ##.amp-ad-container
 ##.amp-ad-wrapper
 ##.amp-adv-container
+##.amp-flying-carpet-text-border
 ##.amp_ad_1
 ##.amp_ad_header
 ##.amp_ad_wrapper
 ##.ampad
 ##.spotim-amp-list-ad
 ##AMP-AD
+##amp-fx-flying-carpet
 ###mobile-swipe-banner
 ##.gnt_x
 ###banner_pos1_ddb_0
@@ -56696,6 +56699,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id*="_ad-placements-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="desktop-dp-sims_sb-dp-id"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="dpx-sponsored-products-detail_csm_instrumentation_wrapper"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sims-mobile-consolidated-4_csm_instrumentation_wrapper"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sp-rhf-desktop-carousel_desktop-rhf_0"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sp_phone_detail_thematic"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="LEFT-SAFE_FRAME-"]
@@ -72601,6 +72605,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.zumby.io^
 ||reachandrich.antevenio.com^
 ||s3wfg.com/js/vortexloader.js
+||stats.bitban.com^
 ||stats.miarroba.info^
 ||stats.qdq.com^
 ||stats.sec.telefonica.com^
@@ -91252,7 +91257,6 @@ thewirecutter.com#@#.deals-love
 @@||cdnperf.com/js/rollbar.js$script,1p
 @@||perfops.net^$script,domain=cdnperf.com
 ||dccss.banggood.com^$badfilter
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=noopjs,domain=realmadrid.com
 @@||9anime.*/user/ajax/$xhr,1p
 @@||adswizz.com/anon.npr-mp3/*$media,domain=podbay.fm|podbean.com
 @@||adswizz.com/anon.npr-podcasts/*$media,domain=podbay.fm|podbean.com
@@ -92509,6 +92513,7 @@ docer.pl#@##ad
 docer.pl#@#[class^="ad-"]
 @@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=trygghansa.se
 @@||pro.ip-api.com^$xhr,domain=nontongp.xyz
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=realmadrid.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -99607,7 +99612,7 @@ docer.pl#@#[class^="ad-"]
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Fri, 18 Mar 2022 14:42:53 GMT
-# entries:        3709
+# entries:        3708
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -99615,7 +99620,7 @@ docer.pl#@#[class^="ad-"]
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 25 Mar 2002 00:00:00
+# start date:    Tue, 26 Mar 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -100925,7 +100930,6 @@ docer.pl#@#[class^="ad-"]
 127.0.0.1 callrail.com
 127.0.0.1 calmcactus.com
 127.0.0.1 campaign.bharatmatrimony.com
-127.0.0.1 campaignmonitor.com
 127.0.0.1 caniamedia.com
 127.0.0.1 cannads.urgrafix.com
 127.0.0.1 capablecows.com
