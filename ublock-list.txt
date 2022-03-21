@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: u7w3Zkb3mO8y6PvYGf4shQ
+! Checksum: 546Y+6jn+fAiMpD4SnY8Pg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203212034
-! Last Modified: 2022年03月21日 20:34
+! Version: 202203220225
+! Last Modified: 2022年03月22日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -25284,6 +25284,7 @@ _800x80_
 ##.halfpage_ad_container
 ##.happy-inline-ad
 ##.has-ad
+##.has-adslot
 ##.has-fixed-bottom-ad
 ##.hasAD
 ##.hasads
@@ -87731,20 +87732,6 @@ fapnado.com##[class^="spot"]
 ||fapnado.com/nb/
 pogolinks.*##+js(nostif, showModal)
 pogolinks.*##+js(acis, JSON.parse, break;case $.)
-hamsterix.*,xhplanet1.com,xhwebsite.com,xhwide1.com##+js(acis, Array.prototype.indexOf, popunder)
-hamsterix.*,xhplanet1.com,xhwebsite.com,xhwide1.com##.promo-message
-hamsterix.*,xhplanet1.com,xhwebsite.com,xhwide1.com##.clipstore-bottom
-hamsterix.*,xhplanet1.com,xhwebsite.com,xhwide1.com##[class*="cams-thumb-widget"]
-hamsterix.*,xhplanet1.com,xhwebsite.com,xhwide1.com##div[class*="cams-widget"]
-hamsterix.*,xhplanet1.com,xhwebsite.com,xhwide1.com##div[class*="spot-container"]
-hamsterix.*,xhplanet1.com,xhwebsite.com,xhwide1.com##div[class*="spb"]
-hamsterix.*,xhplanet1.com,xhwebsite.com,xhwide1.com##[href*="/faphouse/out"]
-hamsterix.*,xhplanet1.com,xhwebsite.com,xhwide1.com##.xplayer-banner
-xhwide1.com##.wio-xspl-adshare
-!#if env_mobile
-xhwide1.com##^script:has-text(popunder)
-!#endif
-||go.mgdjmp.com^$3p
 bdnewszh.com##.w-felt-side-ads
 bdnewszh.com##.w-billboard-ads
 bdnewszh.com##.w-right-side-ads
@@ -88746,15 +88733,6 @@ phsensei.com##+js(acis, String.fromCharCode, decodeURIComponent)
 techsolveprac.com##+js(nostif, display, 5000)
 fileborder.com##+js(acis, String.fromCharCode, decodeURIComponent)
 insider.com##.in-post-sticky > .ad-wrapper:upward(1)
-megaxh.com##+js(acis, Array.prototype.indexOf, popunder)
-megaxh.com##+js(set, window.wio-xpopunder.includeFilter, '')
-megaxh.com##.clipstore-bottom
-megaxh.com##.xplayer-banner
-megaxh.com##div[class*="cams-widget"]
-megaxh.com##div[class*="spb"]
-megaxh.com##div[class*="spot-container"]
-megaxh.com##[class*="cams-thumb-widget"]
-megaxh.com##[class*="spl-"]
 @@||dubsflix.com^$ghide
 myshrinker.com##+js(set, blurred, false)
 myshrinker.com##.banner-inner
@@ -90479,7 +90457,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||softserialskey.com^$doc
 ||134.122.122.217^$all
 /?act=*&epcVIP=$doc
-||mydirtyhobby.com^$all
 ||masterkreatif.net^$doc
 ||ikcrack.com^$doc
 ||corecrack.com^$doc
@@ -90605,8 +90582,8 @@ stoic.ai##+js(aost, Math.floor, injectedScript)
 ||ampl.cinotes.com^
 ||data-saver-cindi.herokuapp.com^
 ||cdn.cindicator.com/$script,3p
-botcomics.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,nikita.tk##+js(acis, String.fromCharCode, join)
-botcomics.com,chandlerorchards.com,comicleaks.com,marketdata.app,nikita.tk##^script:has-text(join(''))
+botcomics.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,monumentmetals.com,nikita.tk##+js(acis, String.fromCharCode, join)
+botcomics.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk##^script:has-text(join)
 ||washpost.nile.works^
 /p13n/batch/action/*$image
 ||jsdelivr.net/npm/datbpzjvws@latest/dist/script.min.js
