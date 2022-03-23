@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UAHXjvpw+7Gr/MQYeu+/9w
+! Checksum: Y9DeKLORJDq/hprP0PBOYg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203230941
-! Last Modified: 2022年03月23日 09:41
+! Version: 202203231425
+! Last Modified: 2022年03月23日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -30401,7 +30401,6 @@ _800x80_
 ##[data-template-type="nativead"]
 ##[href*=".engine.adglare.net/"]
 ##[href*=".zlinkm.com/"]
-##[href*="https://www.jmbullion.com/gold/"]
 ##[href^="http://advertisesimple.info/"]
 ##[href^="http://globsads.com/"]
 ##[href^="http://go.cm-trk2.com/"]
@@ -57855,8 +57854,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||archive.org/services/$image,~third-party,xmlhttprequest
 @@||assets.ctfassets.net^$media,domain=ads.spotify.com
 @@||assets.strossle.com^*/strossle-widget-sdk.js$script,domain=kaaoszine.fi
-@@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|metacritic.com
-@@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|metacritic.com
+@@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|giantbomb.com|metacritic.com
+@@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|giantbomb.com|metacritic.com
 @@||atlas.playpilot.com/api/v1/ads/browse/$xmlhttprequest,domain=playpilot.com
 @@||auctionzip.com/cgi-bin/showimage.cgi?
 @@||autotrader.co.uk^*/advert$~third-party
@@ -88834,7 +88833,12 @@ masteredutech.com##+js(acis, JSON.parse, break;case $.)
 defaultfreeshort.in##+js(set, blurred, false)
 defaultfreeshort.in###myDIV:style(display: block!important;)
 defaultfreeshort.in##.banner-inner
+codecomets.com##+js(rc, disabled, a#enablebtn)
+codecomets.com##.blog-item
+codecomets.com###timeblock
 ||ytsubme.com/assets/adblock/
+ytsubme.com##+js(nowoif, youtube)
+ytsubme.com##+js(nano-stb, aTagChange, 12000)
 @@||filmpertutti.*^$ghide
 filmpertutti.center##.ads
 filmpertutti.center##[href*=".php"]
