@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m/B31JIKs6QKCcOg6EmqlA
+! Checksum: qmybEkQm8Wxw1MEVlEzxOQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203230224
-! Last Modified: 2022年03月23日 02:24
+! Version: 202203230941
+! Last Modified: 2022年03月23日 09:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -48406,6 +48406,7 @@ tf2r.com#@#.adverts
 ||ahvclick.com^$third-party
 ||aim4media.com^$third-party
 ||akavita.com^$third-party
+||aklamator.com^$third-party
 ||alimama.com^$third-party
 ||allmediadesk.com^$third-party
 ||amobee.com^$third-party
@@ -49265,6 +49266,7 @@ tf2r.com#@#.adverts
 ||servedbysmart.com^$third-party
 ||servemeads.com^$third-party
 ||servenobid.com^$third-party
+||sharemedia.rs^$third-party
 ||sharethrough.com^$third-party
 ||shoofle.tv^$third-party
 ||shoogloonetwork.com^$third-party
@@ -55552,7 +55554,7 @@ annistonstar.com##.custom_hot_deal_image
 jobhits.co.uk##.cvads
 futurecurrencyforecast.com##.cwc-tor-widget
 blockchair.com##.d-block
-fastpic.ru,freesteam.io,theblockcrypto.com##.d-lg-block
+etherscan.io,fastpic.ru,freesteam.io,theblockcrypto.com##.d-lg-block
 bscscan.com,etherscan.io##.d-lg-inline-block
 publish0x.com##.d-md-block.d-none.overflow-hidden
 thestreamable.com##.d-md-flex
@@ -55906,6 +55908,7 @@ tvtv.us##.jss67
 essentiallysports.com##.jsx-4249843366
 theartnewspaper.com##.justify-center.flex.w-full
 aiscore.com##.justify-center.w100
+etherscan.io##.justify-content-center
 unsplash.com##.kG7WW > .vNWg5
 hltv.org##.kN5UQvcU
 radaronline.com##.kXxPWv
@@ -93055,6 +93058,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||penton.com/analytics/
 ||perf-events.cloud.unity3d.com^
 ||perf.dugout.com^
+||perf.hsforms.com^
 ||perfdrive.com/aperture/aperture.js
 ||perfops.net/rom3/
 ||performgroup.com/metrics/
@@ -93525,6 +93529,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.contently.com^
 ||track.cordial.io^
 ||track.digitalriver.com^
+||track.hubspot.com^
 ||track.juno.com^
 ||track.mailerlite.com^
 ||track.mituo.cn^
