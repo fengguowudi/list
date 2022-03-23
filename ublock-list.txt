@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y9DeKLORJDq/hprP0PBOYg
+! Checksum: iJJ25/5bW8X+pJKUnYgBLQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203231425
-! Last Modified: 2022年03月23日 14:25
+! Version: 202203232036
+! Last Modified: 2022年03月23日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -6531,7 +6531,7 @@
 ://ad1.
 ://adcl.$domain=~adcl.co.nz|~adcl.com|~adcl.screenconnect.com
 ://adn.*/zone/$subdocument
-://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
+://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ://ads2.
 ://adv.$domain=~adv.asahi.com|~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://affiliate.$third-party
@@ -18045,6 +18045,7 @@ _800x80_
 ##.ad-label
 ##.ad-lable
 ##.ad-landscape
+##.ad-large-1
 ##.ad-large-game
 ##.ad-last
 ##.ad-layer
@@ -18419,6 +18420,7 @@ _800x80_
 ##.ad-slot__oas
 ##.ad-slug
 ##.ad-small
+##.ad-small-1
 ##.ad-small-2
 ##.ad-smallBP
 ##.ad-source
@@ -26765,6 +26767,7 @@ _800x80_
 ##.moduleAdvert
 ##.moduleAdvertContent
 ##.moduleBannerAd
+##.module__ad-wide
 ##.module_ad
 ##.module_ad_disclaimer
 ##.module_box_ad
@@ -53791,6 +53794,8 @@ fanlesstech.com###HTML4 > .widget-content
 fanlesstech.com###HTML5 > .widget-content
 fanlesstech.com###HTML6 > .widget-content
 linkfang.org###LinkFang_Horizontal
+myanimelist.net###M_300x250_1_iframe
+myanimelist.net###M_320x50_1_iframe
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
 audioz.download###PromoHead
@@ -54289,6 +54294,7 @@ ffiles.com###right_col
 medicaldialogues.in###right_level_8
 notdoppler.com###right_link
 hardware.info###right_top
+yardbarker.com###right_top_sticky
 forums.tomshardware.com###rightcol_bottom
 forums.anandtech.com,forums.tomsguide.com,forums.tomshardware.com,forums.whathifi.com###rightcol_top
 tubeconverter.net###ringtone-button
@@ -55413,10 +55419,12 @@ brudirect.com##.index-banner
 theinertia.com##.inertia-ad-300x250
 inews.co.uk##.inews__advert
 inews.co.uk##.inews__mpu
+stocksnap.io##.info-col
 bab.la##.info-panel
 licenseglobal.com##.informa-homepage-layout__cell--widget-dfp
 precisionvaccinations.com##.inhouse-block
 bestlifeonline.com,eatthis.com##.inline
+stocksnap.io##.inline-carbon
 engadget.com##.inline-emphasis
 pcgamesn.com,theloadout.com##.inlinerail
 nintendolife.com##.insert
@@ -55547,6 +55555,7 @@ gamedev.net##.mb-3.align-items-center.justify-content-start
 indiatimes.com##.mb-36 > .top-trending
 themoscowtimes.com##.mb-4.py-3
 techbone.net##.mb-5.bg-light
+yardbarker.com##.mb_promo_responsive_right
 helpnetsecurity.com##.mbw
 thestar.com.my##.med-rec
 gamezone.com##.med-rect-ph
@@ -56063,7 +56072,7 @@ cd1025.com,domainincite.com,europages.co.uk,gamingcloud.com,kpbs.org,phillyvoice
 cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 blbclassic.org##.sponsorZone
-2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,herald.co.zw,libhunt.com,motherjones.com,msn.com,reviewjournal.com,timeslive.co.za##.sponsored
+2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,herald.co.zw,libhunt.com,motherjones.com,msn.com,reviewjournal.com,stocksnap.io,timeslive.co.za##.sponsored
 washingtontimes.com##.sponsored-heading
 hellomagazine.com##.sponsored-news
 coinmarketcap.com##.sponsoredMark
@@ -56313,6 +56322,7 @@ bit-tech.net##.xtag_container
 247mirror.com,365economist.com,bridewired.com,dailybee.com,drgraduate.com,historictalk.com,mvpmode.com,news-opossumsauce.com,parentmood.com,theecofeed.com,thefunpost.com,visualchase.com,wackojaco.com##.ya-slot
 pravda.ru##.yaRtbBlock
 yardbarker.com##.yb-card-ad
+yardbarker.com##.yb-card-out
 shockwave.com##.ympb_target_banner
 buzzly.art##.z-10.w-max
 tekdeeps.com##.zAzfDBzdxq3
@@ -61837,7 +61847,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /pixel/impression/*
 /pixel/js/*$third-party
 /pixel/PageStatistics.gif?
-/pixel/sbe?
 /pixel/sbs?
 /Pixel/Script/Behavior?
 /pixel/stats/?
@@ -64649,6 +64658,7 @@ _mongo_stats/
 ||avmws.com^$third-party
 ||awasete.com^$third-party
 ||awesomelytics.com^$third-party
+||awfonts.com^$script,third-party
 ||awin1.com^$third-party
 ||awstrack.me^$third-party
 ||axf8.net^$third-party
@@ -90161,6 +90171,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||bookofsex.com^$all
 ||webcams-chat.com^$all
 ||mydirtytinders.com^$all
+/index.php?lpkey=*&uclick=$doc
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
