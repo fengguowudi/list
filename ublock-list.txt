@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 55DvgxD78Y7kNfLqiPxVUw
+! Checksum: MxrdA4tdtCZkWCU1kj226g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203240936
-! Last Modified: 2022年03月24日 09:36
+! Version: 202203241425
+! Last Modified: 2022年03月24日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -33,7 +33,6 @@
 &adstrade=
 &adstype=
 &AdType=
-&adurl=
 &cbrandom=
 &clicktag=http
 &displayads=
@@ -89402,7 +89401,6 @@ desiflixindia.com##+js(no-fetch-if, ads)
 desiflixindia.com##+js(nano-sib)
 freestreams-live1.com##+js(nowoif)
 androidacy.com##+js(no-fetch-if, method:HEAD)
-androidacy.com##+js(nano-sib)
 film01stream.ws##+js(ra, href, .mvi-cover)
 film01stream.ws##.f-inner
 movies7.pro##+js(disable-newtab-links)
@@ -92676,6 +92674,8 @@ docer.pl#@#[class^="ad-"]
 @@||giantbomb.redvideo.redventures.io^$xhr,domain=giantbomb.com
 @@||cdn.mavic.com/sites/default/files/google_tag/google_tag/*$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=mavic.com
+hltv.org#@#.night-only
+||img-cdn.hltv.org/partnerimage/$image,~third-party
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
