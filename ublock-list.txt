@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MxrdA4tdtCZkWCU1kj226g
+! Checksum: 0fPygw+D8oED9x9Ox93skQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203241425
-! Last Modified: 2022年03月24日 14:25
+! Version: 202203242035
+! Last Modified: 2022年03月24日 20:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -84400,6 +84400,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
 @@||lowesgiftcardbonus.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||lr-ingest.io/logger.min.js$script,domain=pumpkin.care
+@@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
 @@||maxmind.com^*/geoip2.js$domain=boostedboards.com|donorschoose.org|elgato.com|fallout4.com|filld.com|ibanez.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
@@ -87544,7 +87545,7 @@ techpowerup.com##:not(:matches-path(/forums/)) [rel]:matches-css(position: /fixe
 techpowerup.com##:not(:matches-path(/forums/)) [src]:matches-css(position: /fixed/)
 ||tpucdn.com/review/*/images/*/*.jpg$image,3p,domain=techpowerup.com
 /\/images\/[0-9a-z]{8}\.jpg/$image,3p,domain=techpowerup.com
-techpowerup.com##:not(:matches-path(/forums/)) [href*="/review/508/"]
+techpowerup.com##:not(:matches-path(/forums/)) body:has(a[href^="/forums/account/"]:not(:has-text(W1zzard)):not(:has-text(VSG)):not(:has-text(T4C)):not(:has-text(Raevenlord)):not(:has-text(Darksaber))) a[href^="/review/518/"]
 *$image,redirect-rule=1x1.gif,domain=easymc.io
 shortgalaxy.in##+js(set, blurred, false)
 shortgalaxy.in##div.row > .short
