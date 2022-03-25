@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UNSlbMcbi7RccHyn6HPjig
+! Checksum: BnyQDxqZvDWAI1FHVbTsQQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203251426
-! Last Modified: 2022年03月25日 14:26
+! Version: 202203252106
+! Last Modified: 2022年03月25日 21:06
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53876,7 +53876,9 @@ physicsandmathstutor.com###PMT_Top
 audioz.download###PromoHead
 fortune.com###RightRailFlex_Articles0
 calculatorsoup.com###RightSidebar
+soapcalc.net###SidebarLeft
 daringfireball.net###SidebarMartini
+soapcalc.net###SidebarRight
 imcdb.org###SiteLifeSupport
 roblox.com###Skyscraper-Abp-Left
 roblox.com###Skyscraper-Abp-Right
@@ -56285,6 +56287,7 @@ streamable.com##.topbanner
 drugs.com##.topbanner-wrap
 blabber.buzz##.topfeed
 drivespark.com##.topsection div[style^="float"]
+cambridge.org##.topslot-container
 collinsdictionary.com##.topslot_container
 moviemistakes.com##.tower
 techreen.com##.tr-block-header-ad
@@ -57359,6 +57362,7 @@ porngals4.com##.affl
 darknessporn.com,familyporner.com##.after-boxes
 hentaidude.xxx##.ai_widget
 hentai2read.com##.alert-danger
+freeadultcomix.com##.anuncios
 hotmovs.com,upornia.com##.app-banners
 hotmovs.tube##.app-banners__wrapper
 xnxxhd.pro##.approve
@@ -58193,6 +58197,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||libhunt.com^$generichide
 @@||mail.google.com^$generichide
 @@||mail.protonmail.com^$generichide
+@@||mui.com^$generichide
 @@||myaccount.google.com^$generichide
 @@||netflix.com^$generichide
 @@||oisd.nl^$generichide
@@ -64052,6 +64057,7 @@ cgi-bin/counter
 /link.morningbrew.com/img/*.gif
 /link.news.*/mo/*$image
 /link.pbtech.co.nz/mo/*$image
+/links1.strava.com/*$image
 /lzdmailer.letter.open?
 /mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
@@ -73319,6 +73325,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||linkedin.com/litms/utag/
 ||linkedin.com/platform-telemetry/
 ||linkedin.com/sensorCollect/
+||links.strava.com^$image
 ||linktr.ee/events
 ||livehdcams.com/api/events
 ||livehdcams.com/api/metrics
@@ -83184,7 +83191,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||links.playon.tv^
 ||links.schnucks.com^
 ||links.sheroes.in^
-||links.strava.com^
 ||links.t.blueapron.com^
 ||links.t.wine.com^
 ||links.thedyrt.com^
@@ -99811,7 +99817,7 @@ hltv.org#@#.night-only
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 24 Mar 2022 23:01:11 GMT
-# entries:        3693
+# entries:        3687
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -101129,7 +101135,6 @@ hltv.org#@#.night-only
 127.0.0.1 calmcactus.com
 127.0.0.1 campaign.bharatmatrimony.com
 127.0.0.1 caniamedia.com
-127.0.0.1 cannads.urgrafix.com
 127.0.0.1 capablecows.com
 127.0.0.1 captainbicycle.com
 127.0.0.1 carambo.la
@@ -101201,7 +101206,6 @@ hltv.org#@#.night-only
 127.0.0.1 click.fool.com
 127.0.0.1 click.hookupinyourcity.com
 127.0.0.1 click.kmindex.ru
-127.0.0.1 click.negociosdigitaisnapratica.com.br
 127.0.0.1 click.redditmail.com
 127.0.0.1 click.twcwigs.com
 127.0.0.1 click2freemoney.com
@@ -101245,7 +101249,6 @@ hltv.org#@#.night-only
 127.0.0.1 clk1015.com
 127.0.0.1 clkrev.com
 127.0.0.1 clksite.com
-127.0.0.1 clktrx.com
 127.0.0.1 cloisteredhydrant.com
 127.0.0.1 closedcows.com
 127.0.0.1 cloudcoins.biz
@@ -102420,7 +102423,6 @@ hltv.org#@#.night-only
 127.0.0.1 paradoxfactor.com
 127.0.0.1 parchedangle.com
 127.0.0.1 parchedsofa.com
-127.0.0.1 parketsy.pro
 127.0.0.1 parsely.com
 127.0.0.1 parsimoniouspolice.com
 127.0.0.1 partner-ads.com
@@ -102646,6 +102648,7 @@ hltv.org#@#.night-only
 127.0.0.1 readingopera.com
 127.0.0.1 readserver.net
 127.0.0.1 readymoon.com
+127.0.0.1 realcastmedia.com
 127.0.0.1 realclever.com
 127.0.0.1 realclix.com
 127.0.0.1 realmedia-a800.d4p.net
@@ -102817,7 +102820,6 @@ hltv.org#@#.night-only
 127.0.0.1 sharethrough.com
 127.0.0.1 sharppatch.com
 127.0.0.1 sher.index.hu
-127.0.0.1 shermore.info
 127.0.0.1 shinystat.com
 127.0.0.1 shinystat.it
 127.0.0.1 shockinggrass.com
@@ -102946,7 +102948,6 @@ hltv.org#@#.night-only
 127.0.0.1 stat.xiaomi.com
 127.0.0.1 stat.zenon.net
 127.0.0.1 stat24.com
-127.0.0.1 stat24.meta.ua
 127.0.0.1 statcounter.com
 127.0.0.1 statdynamic.com
 127.0.0.1 static-tracking.klaviyo.com
@@ -103447,7 +103448,6 @@ hltv.org#@#.night-only
 127.0.0.1 www-google-analytics.l.google.com
 127.0.0.1 www.dnps.com
 127.0.0.1 www.kaplanindex.com
-127.0.0.1 www.photo-ads.co.uk
 127.0.0.1 www8.glam.com
 127.0.0.1 wwwpromoter.com
 127.0.0.1 x-traceur.com
