@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QctJUUBXANW9RjB3FWRtHw
+! Checksum: 8DFBZwo9jynjunWfGj/eoQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203270939
-! Last Modified: 2022年03月27日 09:39
+! Version: 202203271424
+! Last Modified: 2022年03月27日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -92806,7 +92806,6 @@ docer.pl#@#[class^="ad-"]
 @@||cdn.mavic.com/sites/default/files/google_tag/google_tag/*$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=mavic.com
 /js/468.$domain=~mail.zoho.com,badfilter
-@@||sourcepointcmp.bloomberg.com/mms/get_site_data$xhr,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
