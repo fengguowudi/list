@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GXJ4rDL16KhlhzaW6/zqBw
+! Checksum: 0BLRS/aUXFbIP52wzUB2Tg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203282037
-! Last Modified: 2022年03月28日 20:37
+! Version: 202203290225
+! Last Modified: 2022年03月29日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -88956,8 +88956,9 @@ calculator-online.net##.adds
 prncomix.com##+js(aopr, absda)
 onionplay.*##+js(ra, href, a#clickfkplayer)
 iguarras.com,iputitas.net##+js(aopr, afScript)
-messitv.net##+js(acis, Math, /btoa|break/)
+messitv.net##+js(acis, JSON.parse, break;case $.)
 messitv.net##+js(aopw, _pop)
+||nlyeoehgdhhe.com^
 ||clk.asia/sw.js$script,1p
 ||condolencespicturesquetracks.com^
 clk.asia,imperialstudy.com,skincarie.com##+js(nosiif, visibility, 1000)
@@ -90393,6 +90394,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /index.php?lpkey=*&uclick=$doc
 ||fuckmore.com^$all
 ||dotchaudou.com^$all
+||windows-secureit.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -90977,6 +90979,8 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||wuzhuiso.com^$removeparam=src
 ||statwup.huya.com^
 ||va.huya.com^
+||metric.huya.com^
+||e-stat.huya.com^
 ||analytics.tiendaenoferta.com^
 ||zhihu.com^$removeparam=hybrid_search_source
 ||zhihu.com^$removeparam=hybrid_search_extra
