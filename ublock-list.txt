@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xp4rXWbr4HEAG2q24xnzew
+! Checksum: GXJ4rDL16KhlhzaW6/zqBw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203281426
-! Last Modified: 2022年03月28日 14:26
+! Version: 202203282037
+! Last Modified: 2022年03月28日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -477,7 +477,6 @@
 .com/adds/
 .com/adinf/
 .com/adlib/
-.com/ads-
 .com/ads.$~script,~xmlhttprequest
 .com/ads/$image,object,subdocument,domain=~developers.google.com|~sabotage-films.com
 .com/ads?
@@ -3289,7 +3288,6 @@
 /affiliateserver.
 /affiliatetags/*
 /affiliatewiz/*
-/affiliation/*$domain=~esi.evetech.net
 /affiliation_banners/*
 /affiliationcash.
 /affilinet/*$domain=~affilinet-inside.com|~affilinet-inside.fr
@@ -32174,7 +32172,6 @@ tf2r.com#@#.adverts
 ||9cdce9983d.com^
 ||9content.com^
 ||9dc10beed2.com^
-||9desires.xyz^
 ||9dmnv9z0gtoh.com^
 ||9eb10b7a3d04a.com^
 ||9f3a91e76f.com^
@@ -32855,6 +32852,7 @@ tf2r.com#@#.adverts
 ||againedam.com^
 ||againstperfectlywrench.com^
 ||agamagcargoan.com^
+||agatystuffs.com^
 ||agauxietor.com^
 ||agazev.com^
 ||agcdn.com^
@@ -34024,6 +34022,7 @@ tf2r.com#@#.adverts
 ||bkl72.com^
 ||bksijiunc.com^
 ||bl0uxepb4o.com^
+||blaasopdive.com^
 ||blabhorol.com^
 ||blacil.com^
 ||blackcurrantfootballsimilarly.com^
@@ -34078,6 +34077,7 @@ tf2r.com#@#.adverts
 ||bluestreak.com^
 ||blueswordksh.com^
 ||bluffrebuke.com^
+||blurredtiredom.com^
 ||bmcdn1.com^
 ||bmcdn2.com^
 ||bmkz57b79pxk.com^
@@ -34354,6 +34354,7 @@ tf2r.com#@#.adverts
 ||buipovexhav.com^
 ||bukash2jf8jfpw09.com^
 ||bulgingfranklyphrase.com^
+||bulkybawler.com^
 ||bullads.net^
 ||bulletprofitads.com^
 ||bulletprofitpop.com^
@@ -34758,6 +34759,7 @@ tf2r.com#@#.adverts
 ||chichayen.com^
 ||chichosebook.com^
 ||chickencashier.com^
+||chieferscored.com^
 ||chigloxixa.com^
 ||chiliadv.com^
 ||chimaerason.com^
@@ -35459,6 +35461,7 @@ tf2r.com#@#.adverts
 ||currentlyse.com^
 ||curriculture.com^
 ||currietory.xyz^
+||curtainsimplicitycoast.com^
 ||curtisfrierson.com^
 ||curtlychit.com^
 ||curupeymaceman.com^
@@ -38219,6 +38222,7 @@ tf2r.com#@#.adverts
 ||hegrem.com^
 ||hehraybryciyls.com^
 ||heighthouseworklizard.com^
+||heirchurchill.com^
 ||heiressplane.com^
 ||hejeyoke.xyz^
 ||helessenge.club^
@@ -39276,6 +39280,7 @@ tf2r.com#@#.adverts
 ||junmediadirect.com^
 ||junotherome.com^
 ||jupaubsa.com^
+||jupied.com^
 ||jupozbjmq.com^
 ||jurehi.com^
 ||juricts.xyz^
@@ -39808,6 +39813,7 @@ tf2r.com#@#.adverts
 ||letadnew.com^
 ||leucan3thegm6um.com^
 ||leukemianarrow.com^
+||leukemiarussianarmies.com^
 ||leveloped.club^
 ||leveryone.club^
 ||leviol.com^
@@ -42003,6 +42009,7 @@ tf2r.com#@#.adverts
 ||paula-secundinus.com^
 ||paurif.com^
 ||pauzajoo.net^
+||paverscortaro.com^
 ||pawafrmhatg.com^
 ||pawheatyous.com^
 ||pawnprime.com^
@@ -45984,6 +45991,7 @@ tf2r.com#@#.adverts
 ||unelekidan.com^
 ||unevencommendenhance.com^
 ||unfairliam.club^
+||unfaithfulmakeryearly.com^
 ||unfaithfulmakeryeary.com^
 ||unfinishedoverdose.com^
 ||unfitsickle.com^
@@ -47071,6 +47079,7 @@ tf2r.com#@#.adverts
 ||wyfxgvxxi.xyz^
 ||wyliswbimeotllt.xyz^
 ||wynather.com^
+||wyorrmuftjp.com^
 ||wypovuwu.pro^
 ||wyrtaxbhappt.com^
 ||wysasys.com^
@@ -47718,6 +47727,7 @@ tf2r.com#@#.adverts
 ||7search.com^$third-party
 ||888media.net^$third-party
 ||8s8.eu^$third-party
+||9desires.xyz^$third-party
 ||a-ads.com^$third-party
 ||a-static.com^$third-party
 ||a.raasnet.com^$third-party
@@ -50868,6 +50878,7 @@ tf2r.com#@#.adverts
 ||ultralove.net^$popup
 ||ultrlove.com^$popup
 ||unblockedapi.com^$popup
+||unfaithfulmakeryearly.com^$popup
 ||unlimited-media.co^$popup
 ||unseen2020.com^$popup
 ||unshiftryr.com^$popup
@@ -55308,6 +55319,7 @@ flightconnections.com##.display-box
 flightconnections.com##.display-box-2
 pixabay.com##.display-gtty-item
 israelnationalnews.com##.div300
+readcomiconline.li##.divCloseBut
 jpost.com##.divConnatix
 tigerdroppings.com##.divHLeaderFull
 alternativeto.net##.divLeaderboardLove
@@ -55436,8 +55448,7 @@ ghacks.net##.ftd-item.home-posts
 lovepanky.com##.full-width.row > .medium-12:first-child
 ptinews.com##.fullstorydivright
 ferrarichat.com##.funzone
-aurn.com,borneobulletin.com.bn,businessofapps.com,chicagodefender.com,dallasvoice.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,moviemaker.com,nondoc.com,one.com.mt,richmondshiretoday.co.uk,sammobile.com,talkradioeurope.com,thegolfnewsnet.com##.g
-mediaplaynews.com,womensagenda.com.au##.g-single
+aurn.com,borneobulletin.com.bn,businessofapps.com,chicagodefender.com,dallasvoice.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,mediaplaynews.com,moviemaker.com,nondoc.com,one.com.mt,richmondshiretoday.co.uk,sammobile.com,talkradioeurope.com,thegolfnewsnet.com,womensagenda.com.au##.g
 yellowise.com##.g-widget-block
 titantv.com##.gAd
 distractify.com##.gXgoom
@@ -56600,12 +56611,14 @@ crypto-news-flash.com##[href^="https://med.etoro.com/"]
 abovetopsecret.com##[href^="https://mypatriotsupply.com/apps/todays-deals"]
 manganelo.com##[href^="https://oackoubs.com/"]
 topfiveforex.com##[href^="https://olymptrade.com/"]
+extension.today##[href^="https://peanuts.pro/site/store"]
 mmos.com##[href^="https://plarium.com/landings/"]
 all-free-download.com##[href^="https://shutterstock.7eer.net/c/"] img
 spys.one##[href^="https://socksescort.com/"]
 steamanalyst.com##[href^="https://static.steamanalyst.com/steam/delivery/"]
 terraria.wiki.gg##[href^="https://store.steampowered.com/app/"]
 beforeitsnews.com,highshortinterest.com##[href^="https://tinyurl.com/"]
+minidl.org##[href^="https://uploadgig.com/premium/index/"]
 mailshub.in##[href^="https://www.amazon.in/"]
 businessonhome.com##[href^="https://www.binance.com/en/register?ref="]
 bleepingcomputer.com##[href^="https://www.bleepingcomputer.com/go/"]
@@ -58175,7 +58188,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||netdna-ssl.com/sbly-ads/sbly-prebid-$domain=seeitlive.co
 @@||nextcloud.com/remote.php/$~third-party,xmlhttprequest
 @@||nflcdn.com/static/site/$script,domain=nfl.com
-@@||nitropay.com/ads-$script,domain=lolalytics.com
 @@||npr.org/sponsorship/targeting/$~third-party,xmlhttprequest
 @@||ntv.io/serve/load.js$domain=mcclatchydc.com
 @@||nytimes.com^*/adslot-$script,xmlhttprequest
@@ -58612,7 +58624,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||gemini.yahoo.com/advertiser/$domain=gemini.yahoo.com
 @@||yimg.com/av/gemini-ui/*/advertiser/$domain=gemini.yahoo.com
 @@||ads.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
-@@||ton.twimg.com/ads-manager/$domain=twitter.com
 @@||ton.twimg.com^$domain=ads.twitter.com|analytics.twitter.com
 @@||gameloft.com/advertising-$~third-party
 @@||api.dmcdn.net/pxl/advertisers/$domain=dailymotion.com
@@ -84762,6 +84773,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||calo.extole.io^$script,xmlhttprequest,domain=refer.calo.app
 @@||mycleverpush.com/iframe?$domain=bsdex.de
 @@||n8s.jp^$script,domain=nikkei.com
+@@||nc0.co^$script,domain=abc.com
 @@||takeda.com.dxcloud.episerver.net^$domain=takeda.com
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 @@||tmx.bestbuy.com/z3nsvo31pnlmt3tw.js$domain=bestbuy.com
