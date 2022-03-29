@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VcZ7vcg1VGiZWPvTYMVjSg
+! Checksum: rx/b4Mgpx5GYHp/XjcjbDA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203290943
-! Last Modified: 2022年03月29日 09:43
+! Version: 202203291426
+! Last Modified: 2022年03月29日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -64513,6 +64513,7 @@ _mongo_stats/
 ||fasttiger.io^
 ||fn-pz.com^
 ||fpaux.net^
+||fpaxu.net^
 ||g11686975765.co^
 ||g1188506010.co^
 ||g11885060100.co^
@@ -73518,6 +73519,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.webnovel.com^
 ||logg.kiwi.com^
 ||logger.nerdwallet.com^
+||logging.api.intuit.com^
 ||logs.gaana.com^
 ||logs.hotstar.com^
 ||logs.naukri.com^
@@ -73692,6 +73694,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rta2.inews.co.uk^
 ||rta2.metro.co.uk^
 ||rta2.newzit.com^
+||rum.api.intuit.com^
 ||rum.kobo.com^
 ||rumble.com/l/
 ||rv.modanisa.com^$script
@@ -84744,6 +84747,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
 @@||tag.md-nx.com^$script,domain=weather.us
 @@||tagcommander.com^*/tc_$script
+@@||tags.tiqcdn.com/utag/*/utag.sync.js$script,domain=vmware.com
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
 @@||tbs.com/modules/custom/ten_video/js/analytics.js$script,~third-party
