@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rx/b4Mgpx5GYHp/XjcjbDA
+! Checksum: J2s28O2u9bgReMy6a0KExQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203291426
-! Last Modified: 2022年03月29日 14:26
+! Version: 202203292038
+! Last Modified: 2022年03月29日 20:38
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -70575,6 +70575,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||factors.ai/sdk/event/
 ||fairfax.com.au/js/track/
 ||faphouse.com/api/collector/
+||fast.fonts.net/jsapi/core/mt.js
 ||fastcdn.co/js/sptw.
 ||fbot.me/events/
 ||fcmatch.google.com^
@@ -88974,6 +88975,8 @@ genius.com##div[class^="TopContentdesktop__PromoContainer-"]:upward(1)
 xxxdl.net##.banners
 ||xxxdl.net/nothing.aspx?
 tinyurl.is##div[class=""][style]  .btn[href$="/NordVPN"]:upward(div[class=""][style])
+tinyurl.is##+js(rc, disabled, #skip-btn)
+tinyurl.is##.navbar-brand
 thienhatruyen.com##+js(nowoif)
 sexphimhd.net##+js(aopr, decodeURI)
 sexphimhd.net##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
@@ -90171,6 +90174,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ?zoneid=*&cost=0.$doc
 ||check-update-today.com^$all
 /zcredirect?visitid=*&iframeDetected=false|$doc
+*/zcvisitor/*?campaignid$doc
 ||tweitter.com^$all
 ||games4you.site^$all
 ||mqdownload.com^$all
@@ -90893,6 +90897,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||i7ece0xrg4nx.com^$all
 */bouncy.php?*&inPopUp=$all
 ||demnan.com^
+||1redirc.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
