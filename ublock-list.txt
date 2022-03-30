@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KkD9arClyqHQtlptMW7ptQ
+! Checksum: f5UINGNk0uw/tJwSAE+/4A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203301427
-! Last Modified: 2022年03月30日 14:27
+! Version: 202203302037
+! Last Modified: 2022年03月30日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16472,6 +16472,7 @@ _800x80_
 ###video_reklamy
 ###video_vert_right_ads
 ###videoad
+###videoad-script-cnt
 ###videoadlogo
 ###videoads
 ###videopageadblock
@@ -54060,6 +54061,7 @@ myanimelist.net###M_300x250_1_iframe
 myanimelist.net###M_320x50_1_iframe
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
+point2homes.com,propertyshark.com###Point2Homes_Premium_Agent_Replace_300x250
 audioz.download###PromoHead
 fortune.com###RightRailFlex_Articles0
 calculatorsoup.com###RightSidebar
@@ -54296,6 +54298,7 @@ fxsforexsrbijaforum.com###fa_ticker_container
 thedrinknation.com###fcBanner
 investing.com###findABroker
 thisismoney.co.uk###fiveDealsWidget
+point2homes.com,propertyshark.com###fixedban
 cnx-software.com###fixeddbar
 goodgearguide.com.au,pcworld.idg.com.au###float_leaderboard_bottom
 kissanime9.net###floatcenter
@@ -54334,6 +54337,7 @@ freegames.org###gla
 wordcounter.net###glya
 pcgamingwiki.com###gog_summer_sale_2021
 gearlive.com,mediamass.net,noscript.net###google
+propertyshark.com###google-ads-directoryViewRight
 photojpl.com###google01
 mediamass.net###google3
 topwar.ru###google_full_story_mobile
@@ -55922,6 +55926,7 @@ androidcentral.com,imore.com##.no-amazon
 fiercetelecom.com,fiercevideo.com##.node--type-embed-promo
 ferrarichat.com##.node_sponsor
 chipchick.com##.noskim.ntv-moap
+4dayweek.io##.notadvert-tile-wrapper
 cookingforengineers.com##.nothing
 moodiedavittreport.com##.notice
 mlsbd.shop##.notice-board
@@ -56207,6 +56212,7 @@ resetera.com##.samCodeUnit
 beermoneyforum.com##.samTextUnit
 netweather.tv##.samsad-Leaderboard2
 teamfortress.tv##.sau
+point2homes.com##.saved-search-banner-list
 pcgamesn.com##.saw-wrap
 animehub.ac##.sb-subs
 independent.co.uk##.sc-hYYkYm
@@ -57013,7 +57019,9 @@ malaysiakini.com##div[style^="height:250px"]
 crazygames.com,tenforums.com##div[style^="height:250px;"]
 malaysiakini.com##div[style^="height:600px"]
 whatmobile.com.pk##div[style^="height:610px"]
+point2homes.com,propertyshark.com##div[style^="margin-bottom: 10px;"]
 google.co.in,google.co.uk,google.com,google.com.bd,google.com.pk##div[style^="margin-bottom:15px"][class^="jsx-"]
+point2homes.com,propertyshark.com##div[style^="min-height: 360px;"]
 add0n.com,wccftech.com##div[style^="min-height:90px"]
 howtogeek.com##div[style^="text-align: center; background-color:"]
 gtaforums.com##div[style^="text-align: center; margin: 0px 0px 10px;"]
@@ -57341,6 +57349,7 @@ outlook.live.com#?##OwaContainer:-abp-has(div.fbAdLink)
 mylivewallpapers.com#?#.posts > div.posts:-abp-has(.adsbygoogle)
 cults3d.com#?#div.grid-cell:-abp-contains(/AD •/i)
 doordash.com#?#[data-testid="card.store"] > div:-abp-has(div[data-anchor-id="SponsoredBadge"])
+bleepingcomputer.com#?##bc-home-news-main-wrap > li:-abp-contains(Sponsored Content)
 psychcentral.com#?#aside:-abp-has([data-empty])
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
@@ -89046,6 +89055,7 @@ thetruedefender.com##.adsbyvli
 thetruedefender.com###text-4
 ostreaming.tv##+js(acis, JSON.parse, break;case $.)
 asiaon.*,pornpaw.com##+js(acis, document.querySelectorAll, popMagic)
+asiaon.*##+js(no-xhr-if, googlesyndication)
 pisshamster.com,xanimu.com##.inside-list-boxes:upward(1)
 pisshamster.com,xanimu.com##.after-boxes
 pisshamster.com,xanimu.com##.beside-video
@@ -92969,6 +92979,8 @@ docer.pl#@#[class^="ad-"]
 @@||giantbomb.redvideo.redventures.io^$xhr,domain=giantbomb.com
 @@||cdn.mavic.com/sites/default/files/google_tag/google_tag/*$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=mavic.com
+@@||ad.doubleclick.net/ddm/trackclk/*https://www.unieuro.it
+@@||ad.doubleclick.net/ddm/trackclk/*https://www.unieuro.it$popup,domain=trovaprezzi.it
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
