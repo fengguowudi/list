@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 21Q5Rd47sIymCmd5j+laQA
+! Checksum: xdQNF+MWhQNh/deAg+QDwg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202203312038
-! Last Modified: 2022年03月31日 20:38
+! Version: 202204010225
+! Last Modified: 2022年04月01日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -22194,6 +22194,8 @@ _800x80_
 ##.advertisement-top
 ##.advertisement-txt
 ##.advertisement-wrapper
+##.advertisement.leaderboard
+##.advertisement.rectangle
 ##.advertisement.under-article
 ##.advertisement1
 ##.advertisement300x250
@@ -33907,6 +33909,7 @@ tf2r.com#@#.adverts
 ||best-offer-for-you.com^
 ||best-protection4.me^
 ||best-vpn.click^
+||bestadload.com^
 ||bestadmax.com^
 ||bestaryua.com^
 ||bestclevercaptcha.top^
@@ -35822,6 +35825,7 @@ tf2r.com#@#.adverts
 ||detrimentaljigsaw.com^
 ||detruckshtick.casa^
 ||deturbcordies.com^
+||deulderby.com^
 ||deuted.com^
 ||devaluationlimetreedeadly.com^
 ||devaluationobserve.com^
@@ -36378,6 +36382,7 @@ tf2r.com#@#.adverts
 ||easyads28.mobi^
 ||easyads28.pro^
 ||easyads29.info^
+||easyads29.pro^
 ||easybrochurecinnamon.com^
 ||easydistrustuldistrustul.com^
 ||easyflirt-partners.biz^
@@ -37774,6 +37779,7 @@ tf2r.com#@#.adverts
 ||glbtrk.com^
 ||glcqfurkygcrni.com^
 ||gleaminist.info^
+||glebypraiss.com^
 ||gleebsex.net^
 ||gleechie.net^
 ||gleedaik.net^
@@ -46730,6 +46736,7 @@ tf2r.com#@#.adverts
 ||waitressunequal.com^
 ||waiwodemanila.com^
 ||wakanmounds.cam^
+||wakiupswacken.com^
 ||walkinghonoured.com^
 ||wallastopiary.com^
 ||wallpaper1.ru^
@@ -58013,6 +58020,7 @@ palimas.org##.video-promo
 hotmovs.tube##.video-right-top
 porntry.com##.video-side__spots
 pornez.net##.video-sidebar
+xhamster.com##.video-view-ads
 pornhub.com,pornhubthbh7ap3u.onion##.video-wrapper > #player + [class]
 javynow.com##.videos-ad__ad
 porndoe.com##.videos-tsq
@@ -90595,8 +90603,13 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||sevenonex.space^$all
 ||suzamense.com^$all
 ||walhalagame.fun^$doc
+||gamepower.site^$all
+||mfilecloud.com^$all
+||xsharenode.com^$all
+||blowfood.website^$all
+||xovilumium.space^$all
+||downloadset2you.com^$all
 ||app-inject.com^$doc
-||supra.dns-cloud.net^$doc
 ||tophacks.pro^$doc
 .systems/signup?ad_domain=$doc,popup
 ||1perpersqe1.com^$all
@@ -93040,6 +93053,9 @@ docer.pl#@#[class^="ad-"]
 @@||ad.doubleclick.net/ddm/trackclk/*https://www.unieuro.it
 @@||ad.doubleclick.net/ddm/trackclk/*https://www.unieuro.it$popup,domain=trovaprezzi.it
 @@||outbrain.com^$script,domain=welt.de
+shiropro-re.net#@##ad_link
+@@||assets.shiropro-re.net/html/image/ad5.png
+||zdf.de/atinternet/live/smarttag.js$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
