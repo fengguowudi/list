@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ecr4g1VzxUauhKsP+DrnGw
+! Checksum: HbYQeLzpZVf7AeHiBwiiKQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204011426
-! Last Modified: 2022年04月01日 14:26
+! Version: 202204012041
+! Last Modified: 2022年04月01日 20:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12562,6 +12562,7 @@ _800x80_
 ###cliczone-advert-left
 ###cliczone-advert-right
 ###clientAds
+###close-footer-ad
 ###closeAdsDiv
 ###closeable-ad
 ###cloudAdTag
@@ -86072,7 +86073,7 @@ taxidrivermovie.com###scroll-div
 taxidrivermovie.com##.adboard-top
 taxidrivermovie.com##.thumb-holder[style="height:250px;"]:upward(1)
 taxidrivermovie.com##[href="/category/taxi-fares/"]:upward(.thumb)
-embedstream.me##+js(acis, Math, break;case $.)
+embedstream.me##+js(acis, JSON.parse, break;case $.)
 embedstream.me##+js(aopw, _pop)
 embedstream.me##+js(nowebrtc)
 embedstream.me##+js(nowoif)
@@ -88753,7 +88754,8 @@ claimclicks.com,try2link.com##+js(aopr, app_vars.force_disable_adblock)
 try2link.com##+js(set, blurred, false)
 newforex.online##+js(nano-sib, counter, 2000)
 newforex.online##.demand-supply
-forex-gold.net,world-trips.net##+js(nano-sib, timeleft)
+forex-gold.net##+js(nano-sib, timeleft)
+world-trips.net##+js(nano-sib, timer)
 adly.fun##+js(acis, puShown, /doOpen|popundr/)
 adly.fun##+js(set, blurred, false)
 streamingsites.com##.OUTBRAIN:upward(2)
@@ -89767,6 +89769,9 @@ infobel.ro##.results-bottom-banner-container
 desiflixindia.com##+js(no-fetch-if, ads)
 desiflixindia.com##+js(nano-sib)
 freestreams-live1.com##+js(nowoif)
+leet365.cc##+js(acis, JSON.parse, break;case $.)
+tv-sport-hd.com##[src="/rcl/reclama.php"]
+tv-sport-hd.com###reklama1
 androidacy.com##+js(no-fetch-if, method:HEAD)
 film01stream.ws##+js(ra, href, .mvi-cover)
 film01stream.ws##.f-inner
@@ -100161,7 +100166,7 @@ shiropro-re.net#@##ad_link
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Tue, 29 Mar 2022 18:35:37 GMT
-# entries:        3690
+# entries:        3687
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -101192,7 +101197,6 @@ shiropro-re.net#@##ad_link
 127.0.0.1 analytics.xelondigital.com
 127.0.0.1 analytics.yahoo.com
 127.0.0.1 analyticsapi.happypancake.net
-127.0.0.1 analytik.xyz
 127.0.0.1 ancientact.com
 127.0.0.1 aniview.com
 127.0.0.1 annonser.dagbladet.no
@@ -102300,7 +102304,6 @@ shiropro-re.net#@##ad_link
 127.0.0.1 kargo.com
 127.0.0.1 karonty.com
 127.0.0.1 katie.v4.byetnc.com
-127.0.0.1 kesmatic.com
 127.0.0.1 keymedia.hu
 127.0.0.1 kindads.com
 127.0.0.1 kissmetrics.com
@@ -103121,7 +103124,6 @@ shiropro-re.net#@##ad_link
 127.0.0.1 scratch2cash.com
 127.0.0.1 screechingfurniture.com
 127.0.0.1 screechingstove.com
-127.0.0.1 scripte-monster.de
 127.0.0.1 scrubswim.com
 127.0.0.1 sdkfjxjertertry.com
 127.0.0.1 seadform.net
@@ -103238,7 +103240,6 @@ shiropro-re.net#@##ad_link
 127.0.0.1 sovrn.com
 127.0.0.1 spacash.com
 127.0.0.1 spaceleadster.com
-127.0.0.1 spannersalesman.com
 127.0.0.1 sparklingshelf.com
 127.0.0.1 sparkstudios.com
 127.0.0.1 speakol.com
@@ -103295,6 +103296,7 @@ shiropro-re.net#@##ad_link
 127.0.0.1 stat.xiaomi.com
 127.0.0.1 stat.zenon.net
 127.0.0.1 stat24.com
+127.0.0.1 stat24.meta.ua
 127.0.0.1 statcounter.com
 127.0.0.1 statdynamic.com
 127.0.0.1 static-tracking.klaviyo.com
@@ -103510,7 +103512,6 @@ shiropro-re.net#@##ad_link
 127.0.0.1 track.mailerlite.com
 127.0.0.1 track.miro.com
 127.0.0.1 track.segmetrics.io
-127.0.0.1 track.software-codes.com
 127.0.0.1 track.themaccleanup.info
 127.0.0.1 track.ultravpn.com
 127.0.0.1 track.unear.net
@@ -103795,6 +103796,7 @@ shiropro-re.net#@##ad_link
 127.0.0.1 www-google-analytics.l.google.com
 127.0.0.1 www.dnps.com
 127.0.0.1 www.kaplanindex.com
+127.0.0.1 www.photo-ads.co.uk
 127.0.0.1 www8.glam.com
 127.0.0.1 wwwpromoter.com
 127.0.0.1 x-traceur.com
