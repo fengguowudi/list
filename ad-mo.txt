@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: POsjALzc1OiEEPF+r8PHGg
+! Checksum: IikiOEgjXbmdvRlK//UMJg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204020941
-! Last Modified: 2022年04月02日 09:41
+! Version: 202204021425
+! Last Modified: 2022年04月02日 14:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -18045,6 +18045,7 @@ _800x80_
 ##.ad-bigbanner
 ##.ad-bigbillboard
 ##.ad-bigbox
+##.ad-bigbox-double-inread
 ##.ad-bigbox-fixed
 ##.ad-bigboxSub
 ##.ad-bigsize
@@ -18226,6 +18227,7 @@ _800x80_
 ##.ad-desktop-native-2
 ##.ad-desktop-only
 ##.ad-desktop-right
+##.ad-detail
 ##.ad-dfp-column
 ##.ad-dfp-row
 ##.ad-disclaimer
@@ -23938,6 +23940,8 @@ _800x80_
 ##.c-ad--text-only
 ##.c-ad--unlabeled
 ##.c-ad-banner
+##.c-ad-flex
+##.c-ad-fluid
 ##.c-ad-mpu-primary
 ##.c-ad-mpu-secondary
 ##.c-ad-size2
@@ -26300,6 +26304,7 @@ _800x80_
 ##.iqadlinebottom
 ##.iqadmarker
 ##.iqadtile_wrapper
+##.is-below-header-ad
 ##.is-mpu
 ##.is-preload-ad
 ##.is-script-ad
@@ -26379,6 +26384,7 @@ _800x80_
 ##.js-ad-slot
 ##.js-ad-space-container
 ##.js-ad-static
+##.js-ad-unit
 ##.js-ad-unit-bottom
 ##.js-ad-wrapper
 ##.js-adExternalPage
@@ -27062,6 +27068,7 @@ _800x80_
 ##.mobile-ad-nav
 ##.mobile-ad-negative-space
 ##.mobile-ads
+##.mobile-fixed-ad
 ##.mobile-footer__ad
 ##.mobile-instream-ad-holder-single
 ##.mobile-nav-ad-plus-banner
@@ -29426,6 +29433,7 @@ _800x80_
 ##.sr-in-feed-ads
 ##.sr-side-ad-block
 ##.sr_google_ad
+##.sraAdvert
 ##.src_parts_gen_ad
 ##.srp-grid-speed-ad3
 ##.ss-ad-banner
@@ -55274,6 +55282,7 @@ snopes.com##.PlacementWrapper
 tumblr.com##.Qrht9
 lbcgroup.tv##.ScriptDiv
 simkl.com##.SimklTVDetailEpisodeLinksItemHref
+thedailybeast.com##.Sizer
 coin360.com##.Skyscraper
 coin360.com##.StickyCorner__Container
 slant.co##.SummaryPage-LustreEmbed
@@ -55436,7 +55445,7 @@ motor1.com##.apb
 ebay.com##.app-rtm-pid-wrapper
 classicfm.com##.apple_music
 adn.com##.arcad-feature
-1news.co.nz,boston25news.com,kiro7.com,wftv.com##.arcad_feature
+1news.co.nz,boston25news.com,kiro7.com,wftv.com,wpxi.com##.arcad_feature
 whatculture.com##.area-x__large
 arstechnica.com##.ars-component-buy-box
 ggrecon.com##.artSideBgBox
@@ -56005,6 +56014,7 @@ ferrarichat.com##.funzone
 aurn.com,borneobulletin.com.bn,businessofapps.com,chicagodefender.com,dallasvoice.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,mediaplaynews.com,moviemaker.com,nondoc.com,one.com.mt,richmondshiretoday.co.uk,sammobile.com,talkradioeurope.com,thegolfnewsnet.com,womensagenda.com.au##.g
 yellowise.com##.g-widget-block
 titantv.com##.gAd
+independant.co.uk##.gWTMJf
 distractify.com##.gXgoom
 animedao.to##.gads
 eonline.com##.gallery-rail-sticky-container
@@ -56843,6 +56853,7 @@ sciencing.com,sportsnet.ca##.sticky-leaderboard-container
 theportugalnews.com##.sticky-pub
 oilcity.news##.sticky-sponsors-large
 litecoin-faucet.com##.sticky-top1
+independant.co.uk##.stickyFooterRoot
 sfgate.com##.stickyWrapper
 theloadout.com##.sticky_rail600
 romsie.com##.stksht
@@ -59267,6 +59278,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
+.com/json/cctv.json?v=
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -74751,6 +74763,8 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||online.unionpay.com/ads/$script
 @@||openad.oss-cn-shanghai.aliyuncs.com^$domain=yicai.com
 @@||orientaldaily.on.cc/js/oncc-ad.js
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=xbeibeix.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ozabc.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|xiebruce.top|yabook.org|yodu.org
@@ -74961,7 +74975,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="250"][data-width="300"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
-18comic.org,18comic.vip,18comic1.art,18comic2.art##img[style*="300px"]
 ||18comic.*/iframe
 ||18comic.*/static/resources/files/*0x
 ||18comic.*/static/resources/images/168/
@@ -76406,6 +76419,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||huixiangdou.xyz^
 ||twnb.xyz^
 ||autumnleaf.ltd^
+||xazhangshaohui.xyz^
+||ziyunxs.com^
+||cxccm.com^
+||nantongle.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rdS7NCkXeQSnXUpRaigZ+w
+! Checksum: NLQPfqh5dvEUwMJXpSV1AA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204020941
-! Last Modified: 2022年04月02日 09:41
+! Version: 202204021425
+! Last Modified: 2022年04月02日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17707,6 +17707,7 @@ _800x80_
 ##.ad-bigbanner
 ##.ad-bigbillboard
 ##.ad-bigbox
+##.ad-bigbox-double-inread
 ##.ad-bigbox-fixed
 ##.ad-bigboxSub
 ##.ad-bigsize
@@ -17888,6 +17889,7 @@ _800x80_
 ##.ad-desktop-native-2
 ##.ad-desktop-only
 ##.ad-desktop-right
+##.ad-detail
 ##.ad-dfp-column
 ##.ad-dfp-row
 ##.ad-disclaimer
@@ -23600,6 +23602,8 @@ _800x80_
 ##.c-ad--text-only
 ##.c-ad--unlabeled
 ##.c-ad-banner
+##.c-ad-flex
+##.c-ad-fluid
 ##.c-ad-mpu-primary
 ##.c-ad-mpu-secondary
 ##.c-ad-size2
@@ -25962,6 +25966,7 @@ _800x80_
 ##.iqadlinebottom
 ##.iqadmarker
 ##.iqadtile_wrapper
+##.is-below-header-ad
 ##.is-mpu
 ##.is-preload-ad
 ##.is-script-ad
@@ -26041,6 +26046,7 @@ _800x80_
 ##.js-ad-slot
 ##.js-ad-space-container
 ##.js-ad-static
+##.js-ad-unit
 ##.js-ad-unit-bottom
 ##.js-ad-wrapper
 ##.js-adExternalPage
@@ -26724,6 +26730,7 @@ _800x80_
 ##.mobile-ad-nav
 ##.mobile-ad-negative-space
 ##.mobile-ads
+##.mobile-fixed-ad
 ##.mobile-footer__ad
 ##.mobile-instream-ad-holder-single
 ##.mobile-nav-ad-plus-banner
@@ -29088,6 +29095,7 @@ _800x80_
 ##.sr-in-feed-ads
 ##.sr-side-ad-block
 ##.sr_google_ad
+##.sraAdvert
 ##.src_parts_gen_ad
 ##.srp-grid-speed-ad3
 ##.ss-ad-banner
@@ -54936,6 +54944,7 @@ snopes.com##.PlacementWrapper
 tumblr.com##.Qrht9
 lbcgroup.tv##.ScriptDiv
 simkl.com##.SimklTVDetailEpisodeLinksItemHref
+thedailybeast.com##.Sizer
 coin360.com##.Skyscraper
 coin360.com##.StickyCorner__Container
 slant.co##.SummaryPage-LustreEmbed
@@ -55098,7 +55107,7 @@ motor1.com##.apb
 ebay.com##.app-rtm-pid-wrapper
 classicfm.com##.apple_music
 adn.com##.arcad-feature
-1news.co.nz,boston25news.com,kiro7.com,wftv.com##.arcad_feature
+1news.co.nz,boston25news.com,kiro7.com,wftv.com,wpxi.com##.arcad_feature
 whatculture.com##.area-x__large
 arstechnica.com##.ars-component-buy-box
 ggrecon.com##.artSideBgBox
@@ -55667,6 +55676,7 @@ ferrarichat.com##.funzone
 aurn.com,borneobulletin.com.bn,businessofapps.com,chicagodefender.com,dallasvoice.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,mediaplaynews.com,moviemaker.com,nondoc.com,one.com.mt,richmondshiretoday.co.uk,sammobile.com,talkradioeurope.com,thegolfnewsnet.com,womensagenda.com.au##.g
 yellowise.com##.g-widget-block
 titantv.com##.gAd
+independant.co.uk##.gWTMJf
 distractify.com##.gXgoom
 animedao.to##.gads
 eonline.com##.gallery-rail-sticky-container
@@ -56505,6 +56515,7 @@ sciencing.com,sportsnet.ca##.sticky-leaderboard-container
 theportugalnews.com##.sticky-pub
 oilcity.news##.sticky-sponsors-large
 litecoin-faucet.com##.sticky-top1
+independant.co.uk##.stickyFooterRoot
 sfgate.com##.stickyWrapper
 theloadout.com##.sticky_rail600
 romsie.com##.stksht
