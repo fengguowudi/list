@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4m8A/AEbLsEO5dnex8o7Jg
+! Checksum: fEcYhxxuVAVdUYE0RmCGWA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204050938
-! Last Modified: 2022年04月05日 09:38
+! Version: 202204051426
+! Last Modified: 2022年04月05日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -64514,6 +64514,7 @@ cgi-bin/counter
 .getblueshift.com/q/
 .google-analytics.com/
 .hootsuite.com/trk?
+.informz.net/z/$image
 .innologica.com/t/
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image
@@ -64620,6 +64621,7 @@ cgi-bin/counter
 /t.ifly.southwest.com/*$image
 /t.paypal.com/*$image
 /t.yesware.com/t/*$image
+/T/OFC4/*$image
 /track/open.php?
 /track/open?
 /tracking.fanbridge.com/*
