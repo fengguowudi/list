@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /5PfBj7+ExQ0V6cDBXE9gw
+! Checksum: rP1tTam8jEVf0pFCJzqsUg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204081426
-! Last Modified: 2022年04月08日 14:26
+! Version: 202204082038
+! Last Modified: 2022年04月08日 20:38
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16189,6 +16189,8 @@ _800x80_
 ###top-right-ad-slot
 ###top-search-ad-wrapper
 ###top-sidebar-ad-300x250
+###top-skin-ad
+###top-skin-ad-bg
 ###top-sponsor-ad
 ###top-story-ad
 ###top-story-ad-0
@@ -54646,6 +54648,7 @@ ericpetersautos.com###block-6
 systutorials.com###block-7
 cryptofeeds.news###block-8
 wionews.com###block-adv
+pocketnow.com###block-alertbar
 webosnation.com###block-block-21
 slideme.org###block-block-31
 indiatoday.in###block-block-64
@@ -57464,6 +57467,7 @@ simpleflying.com##div[id^="simpl-"]
 sltrib.com##div[id^="sltrib-promo-"]
 nytimes.com##div[id^="story-ad-"]
 express.co.uk##div[id^="taboola-"]
+pocket-lint.com##div[id^="taboola-demo-widget_"]
 filehorse.com##div[id^="td-"]
 weraveyou.com##div[id^="werav-"]
 mommypoppins.com##div[id^="wrapper-div-gpt-ad-"]
@@ -70062,6 +70066,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gmossp-sp.jp^$third-party
 ||gsspcln.jp^$third-party
 ||gyro-n.com^$third-party
+||h-cast.jp^$third-party
 ||hitgraph.jp^$third-party
 ||i2ad.jp^$third-party
 ||i2i.jp^$third-party
@@ -84617,6 +84622,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||beacon.watch.impress.co.jp^
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
+||bookoffonline.co.jp/mbfiles/tracking/
 ||carview.co.jp/include_api/log/
 ||contx.net/collect.js
 ||count.upc.rakuten.co.jp^
@@ -86723,7 +86729,7 @@ is2btc.com##div.col-sm-3:nth-of-type(3)
 is2btc.com##.text-center.col-sm-12
 *$script,3p,denyallow=bootstrapcdn.com|cloudflare.net|consensu.org|fontawesome.com|google.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net,domain=dropcoins.xyz|fastcoin.ga|faucetbr.tk|is2btc.com|quickclaims.*|swift4claim.com
 sunhope.it##+js(nosiif, document.getElementById, 10000)
-0123movie.*,1111fullwise.*,111watcho.*,123-watch.com,123fullview.*,123moviesclub.*,123moviesla.*,123moviesprime.com,123ssgm.*,123moviesfree4u.com,247movie.net,2gomovies.*,2umovies.*,4filmyzilla.*,4hdmovie.com,5xmovies.*,69hoshudaana.*,7025a.com,akmcloud.*,akstream.xyz,allmovieshub.*,antsmovies.com,askmaryhub.com,atdhe.pro,attvideo.com,b-bmovies.com,bollymovies.*,bollywoodfilma.*,canonprintersdrivers.com,cinema.cimatna.com,convertitoremp3.download,crackevil.com,cydiasources.net,dailymovieshub.com,dflinks.*,dopebox.to,downloadming.*,elevationmap.net,europix.*,filma1.*,filme-bune.biz,filmisongs.*,filmywap.*,filmyzilla2021.xyz,filmyzilla.filmywap2021ganduworld.com,filmyzilla2022.waystohunt.info,filmy-zilla.co.in,fmovies2.cx,foreverwallpapers.com,freemoviesfull.com,fulltube.*,fzmoviesnet.com,gyonlineng.com,hdmoviehubs.*,hdmovies7.com,hdmovieserver.com,hindilinks4u.*,hindimovies.live,hotmasti.*,insurancebillpayment.net,jollyfreemovies.com,katlinks.*,keepv.id,kingsmovieshd.*,linkotes.com,linksdegrupos.com.br,linksmore.*,maamusiq.com,mcubd.com,megafilmestop.com,megashare-website.com,mkvcage.*,mobilemovies.*,motive213.com,moviecool.*,movierulzhd.*,moviezaddiction.*,moviesbaba.*,moviesdekho.com.pk,mp3fusion.net,msmoviesbd.com,multicanais.tv,naasongs.*,naasongsfree.*,neomovies.net,netnaija.paidnaija.com,nullpk.com,oceanofmovies.*,ogario.ovh,pagalworld.*,pagodesparabaixar.org,paidnaija.com,pelisstar.com,pirlotv.mx,pksmovies.*,prmovies.*,radamel.icu,romfast.com,rytmp3.com,saff-tv.net,sdmoviespoint.*,soap2day.*,songspk.*,stivandz.com,tamilyogis.*,techsslash.com,thelinkbox.*,thelosmovies.com,uplinkto.*,vadbom.com,veryfastdownload.pw,watch4hd.*,watchmovies6.com.pk,watchmovieshd.*,watchonlinemovies50.com.pk,watchofree.com,watchopm.net,watchseri.net,watchseriess.net,watchseriesstream.com,wifi4games.com,xn--mlaregvle-02af.nu,ylink.bid,yoat.xyz,yotrabajo.info,yt1s.com,yt-api.com,yt-download.org,ytsaver.*##+js(acis, JSON.parse, break;case $.)
+0123movie.*,1111fullwise.*,111watcho.*,123-watch.com,123fullview.*,123moviesclub.*,123moviesla.*,123moviesready.org,123ssgm.*,247movie.net,2gomovies.*,2umovies.*,4filmyzilla.*,4hdmovie.com,4hiidude.*,5xmovies.*,69hoshudaana.*,7025a.com,akmcloud.*,akstream.xyz,allmovieshub.*,askmaryhub.com,atdhe.pro,attvideo.com,b-bmovies.com,bollymovies.*,bollywoodfilma.*,canonprintersdrivers.com,cinema.cimatna.com,convertitoremp3.download,crackevil.com,cydiasources.net,dailymovieshub.com,dflinks.*,dopebox.to,downloadming.*,elevationmap.net,europix.*,filma1.*,filme-bune.biz,filmisongs.*,filmy-zilla.co.in,filmywap.*,filmyzilla.filmywap2021ganduworld.com,filmyzilla2021.xyz,filmyzilla2022.waystohunt.info,foreverwallpapers.com,freemoviesfull.com,fulltube.*,fzmoviesnet.com,gyonlineng.com,hdmoviehubs.*,hdmovies23.com,hdmovieserver.com,hindilinks4u.*,hindimovies.live,hotmasti.*,insurancebillpayment.net,isaimini.ca,isaiminimovies.xyz,jollyfreemovies.com,katlinks.*,keepv.id,kingsmovieshd.*,linkotes.com,linksdegrupos.com.br,linksmore.*,maamusiq.com,megafilmestop.com,megashare-website.com,mkvcage.*,mobilemovies.*,motive213.com,motive213link.blogspot.com,moviemasalahd.xyz,movierulzhd.*,moviesbaba.*,moviezaddiction.*,mp3fusion.net,msmoviesbd.com,multicanais.tv,naasongs.*,naasongsfree.*,neomovies.net,netnaija.paidnaija.com,nullpk.com,oceanofmovies.*,ogario.ovh,pagalworld.*,pagodesparabaixar.org,paidnaija.com,pelisstar.com,pirlotv.mx,pksmovies.*,prmovies.*,radamel.icu,romfast.com,rytmp3.*,saff-tv.net,sdmoviespoint.*,soap2day.*,songspk.*,stivandz.com,tamilyogis.*,techsslash.com,thelinkbox.*,thelosmovies.com,uplinkto.*,vadbom.com,veryfastdownload.pw,watch4hd.*,watchmovieshd.*,watchofree.com,watchopm.net,watchseri.net,watchseriess.net,watchseriesstream.com,wifi4games.com,wildwap.*,xn--mlaregvle-02af.nu,ylink.bid,yoat.xyz,yotrabajo.info,yt-api.com,yt-download.org,yt1s.com,ytix.xyz,ytsaver.*##+js(acis, JSON.parse, break;case $.)
 afilmyhouse.blogspot.com##+js(acis, Math, break;case $.)
 hitmovies4u.com##+js(acis, Promise, JSON.parse)
 hitmovies4u.com##+js(ra, onclick, a.thumb.mvi-cover)
@@ -86735,6 +86741,7 @@ hindilinks4u.to##.btn.stream-hd
 uplinkto.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
 ||shortlinkto.*^$csp=default-src 'self' *.favicon.cc *.google.com *.gstatic.com *.googleapis.com
 shortlinkto.*##+js(acis, JSON.parse, break;case $.)
+fmovies2.cx##+js(acis, String.fromCharCode, break)
 vibehubs.com##+js(aost, jQuery, ai_adb)
 vibehubs.com##+js(acis, JSON.parse, break;case $.)
 vibehubs.com##[href^="https://www.star-clicks.com/"]
@@ -86974,10 +86981,6 @@ meganews.tech###custom_html-14
 meganews.tech###custom_html-23
 meganews.tech###custom_html-10
 meganews.tech###custom_html-2
-bestshort.xyz##+js(nano-sib, timeleft)
-bestshort.xyz##[href^="http://bit.ly/"]
-@@||bestshort.xyz^$ghide
-*$frame,script,3p,denyallow=cloudflare.net|google.com|gstatic.com|jsdelivr.net|arc.io,domain=bestshort.xyz
 ||adsyou.pro^$3p
 ||fuqypaqu.xyz^$3p
 ||bestcripto.xyz^$3p
@@ -87086,7 +87089,9 @@ copydev.com##+js(acis, addEventListener, google_ad_client)
 poki.com##div[style="height: 250px; width: 300px;"]:upward(2)
 poki.com##div[style="height: 600px; width: 160px;"]:upward(2)
 poki.com##div[style="height: 90px; width: 728px;"]:upward(2)
-otakudesu.moe##.box_item_ads_popup
+otakudesu.*##.box_item_ads_popup
+otakudesu.*##[href="https://bisnis4d.co/"]
+*.gif$domain=otakudesu.*,image
 @@||cartoon.porn^$ghide
 cartoon.porn##+js(acis, document.querySelectorAll, popMagic)
 cartoon.porn##.wps-player__happy-inside
@@ -100639,7 +100644,7 @@ si.com#@#.is-below-header-ad
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Tue, 29 Mar 2022 18:35:37 GMT
-# entries:        3687
+# entries:        3684
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -101339,7 +101344,6 @@ si.com#@#.is-below-header-ad
 127.0.0.1 ads.yourfreedvds.com
 127.0.0.1 ads.youtube.com
 127.0.0.1 ads.yumenetworks.com
-127.0.0.1 ads.zmarsa.com
 127.0.0.1 ads1-adnow.com
 127.0.0.1 ads1.mediacapital.pt
 127.0.0.1 ads1.msn.com
@@ -102483,6 +102487,7 @@ si.com#@#.is-below-header-ad
 127.0.0.1 freepay.com
 127.0.0.1 freeskreen.com
 127.0.0.1 freestats.com
+127.0.0.1 freestats.tv
 127.0.0.1 freewebcounter.com
 127.0.0.1 freewheel.com
 127.0.0.1 freewheel.tv
@@ -102776,7 +102781,7 @@ si.com#@#.is-below-header-ad
 127.0.0.1 kanoodle.com
 127.0.0.1 kargo.com
 127.0.0.1 karonty.com
-127.0.0.1 katie.v4.byetnc.com
+127.0.0.1 kesmatic.com
 127.0.0.1 keymedia.hu
 127.0.0.1 kindads.com
 127.0.0.1 kissmetrics.com
@@ -103086,7 +103091,6 @@ si.com#@#.is-below-header-ad
 127.0.0.1 naradxb.com
 127.0.0.1 nastydollars.com
 127.0.0.1 nativeroll.tv
-127.0.0.1 naturalbid.com
 127.0.0.1 navegg.com
 127.0.0.1 navigator.io
 127.0.0.1 navrcholu.cz
@@ -103194,7 +103198,6 @@ si.com#@#.is-below-header-ad
 127.0.0.1 openads.org
 127.0.0.1 openadsnetwork.com
 127.0.0.1 opentag-stats.qubit.com
-127.0.0.1 openx.actvtech.com
 127.0.0.1 openx.angelsgroup.org.uk
 127.0.0.1 openx.cairo360.com
 127.0.0.1 openx.kgmedia.eu
@@ -103572,7 +103575,6 @@ si.com#@#.is-below-header-ad
 127.0.0.1 s1-adfly.com
 127.0.0.1 s20dh7e9dh.com
 127.0.0.1 s2d6.com
-127.0.0.1 s2strk.info
 127.0.0.1 sa.api.intl.miui.com
 127.0.0.1 sabio.us
 127.0.0.1 sageanalyst.net
