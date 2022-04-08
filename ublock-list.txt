@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QKnLzudLNNXCrkyjZWdKow
+! Checksum: /5PfBj7+ExQ0V6cDBXE9gw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204080944
-! Last Modified: 2022年04月08日 09:44
+! Version: 202204081426
+! Last Modified: 2022年04月08日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -85151,7 +85151,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|tentree.ca
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|uniqlo.com
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|uniqlo.com|uqr.to
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
@@ -89221,6 +89221,10 @@ schoolcheats.net##+js(nostif, googletag)
 kisscos.net##+js(acis, addEventListener, -0x)
 kisscos.net##+js(aopr, absda)
 kisscos.net##span[id$="related"] > div[id^="container-"]
+kisscos.net##[id$="-overlay"]
+@@||suzihaza.com/v/*$frame,domain=fembed.kisscos.net
+@@||suzihaza.com/api/source/*$xhr,1p
+@@||suzihaza.com/asset/default/player/*$script,1p
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect-rule=noopjs,domain=plex.tv
 xxxjaa.xyz##+js(aopr, __Y)
 crictime.*##^script:has-text(break;case)
