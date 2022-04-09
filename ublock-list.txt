@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LtFMmCSQukvPql0hn8n9SQ
+! Checksum: lV04aeMnvV5gEwtgX0YqbA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204091425
-! Last Modified: 2022年04月09日 14:25
+! Version: 202204092033
+! Last Modified: 2022年04月09日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -28390,6 +28390,7 @@ _800x80_
 ##.short-sidebar-ad-sticky
 ##.shortads
 ##.shortadvertisement
+##.show-desk-ad
 ##.show-sticky-ad
 ##.showAd
 ##.showAdContainer
@@ -43752,6 +43753,7 @@ tf2r.com#@#.adverts
 ||rebuildcroakdeployment.com^
 ||recablesaccule.casa^
 ||recastcompellease.com^
+||recdirectgo.biz^
 ||receiptfastestparameter.com^
 ||receitasefinancas.com^
 ||recentinteriorcrab.com^
@@ -43861,6 +43863,7 @@ tf2r.com#@#.adverts
 ||relann.com^
 ||relappro.com^
 ||relapsereflectedreplace.com^
+||relaxtime24.biz^
 ||releasedrewardexcitedly.com^
 ||relentfrance.com^
 ||relentlessmaniacspecies.com^
@@ -85063,7 +85066,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.ipify.org^$script,domain=right-on.co.jp
 @@||api.ipify.org^$xmlhttprequest,domain=247sports.com|account.pennytel.com.au|equinoxplus.com|speedcheck.ky
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
-@@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
+@@||api.ipstack.com/check$domain=blockfi.com|get-in.com|withpersona.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
 @@||appspot.com/static/js/tracker/$script,domain=bugs.avm99963.com
@@ -88216,7 +88219,9 @@ waploaded.com##+js(acis, document.querySelectorAll, popMagic)
 waploaded.com,meetdownload.com##.advert
 waploaded.com##.ad
 waploaded.*##+js(aopr, exoJsPop101)
+waploaded.*##+js(ra, href, .button[href^="javascript"])
 ybm.pw##+js(nowoif)
+||ad.mediaf.media^
 @@||motoroids.com^$ghide
 motoroids.com##.adsbygoogle
 motoroids.com##div.AM_SINGLE_STORY_BETWEEN_CONTENT_SECOND_PARAGRAPH_RESPONSIVE
@@ -91109,6 +91114,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||classicpartnerships.com^$all
 ||legendarytable.com^$all
 /prize/luckyus-ad/*$doc
+||mauptaub.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -91769,6 +91775,7 @@ france.tv##+js(nowebrtc)
 bilibili.com,dandanzan.top,nunuyy.*,v.qq.com##+js(nowebrtc)
 ||monerominer.rocks/miner-mmr/webmnr.min.js
 ||sudonull.com/stop-ru.js
+app.koinly.io##.login-page:style(-webkit-animation: none !important)
 @@||google-analytics.com^$domain=avianca.com|newegg.com
 @@||google-analytics.com/analytics.js$script,domain=burodecredito.com.mx
 @@||google-analytics.com/plugins/$script
@@ -100679,8 +100686,8 @@ si.com#@#.is-below-header-ad
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 29 Mar 2022 18:35:37 GMT
-# entries:        3683
+# last updated:   Sat, 09 Apr 2022 09:41:20 GMT
+# entries:        3684
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -102161,6 +102168,7 @@ si.com#@#.is-below-header-ad
 127.0.0.1 conversantmedia.com
 127.0.0.1 conversionbet.com
 127.0.0.1 conversionruler.com
+127.0.0.1 convertbox.com
 127.0.0.1 convertingtraffic.com
 127.0.0.1 convrse.media
 127.0.0.1 cookies.cmpnet.com
