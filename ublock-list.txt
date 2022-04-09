@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lV04aeMnvV5gEwtgX0YqbA
+! Checksum: p4RmNENifP2XF5lwOq7v0A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204092033
-! Last Modified: 2022年04月09日 20:33
+! Version: 202204100224
+! Last Modified: 2022年04月10日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -580,7 +580,7 @@
 .openxtag.
 .org/ad-
 .org/ad.$~script
-.org/ad/
+.org/ad/$domain=~ylilauta.org
 .org/adgallery1
 .org/ads-
 .org/ads/
@@ -3314,6 +3314,8 @@
 /ajs.php?
 /ajs?auid=
 /ajs?zoneid=
+/akame160.html
+/akame300.html
 /amazon-ad-
 /amazon-apstag.
 /amazon-associates-link-$~stylesheet
@@ -7787,6 +7789,7 @@ _800x80_
 /popunder.$popup
 /popunder_$popup
 /popupads.$popup
+/prod/go.html?$popup
 /prod/redirect.html?lu=$popup
 /realmedia/ads/*$popup
 /show?bver=$popup
@@ -21511,6 +21514,7 @@ _800x80_
 ##.adstyle
 ##.adsupperugo
 ##.adsupperugo_txt
+##.adsverting
 ##.adsvideo
 ##.adswallpapr
 ##.adswidget
@@ -26479,6 +26483,7 @@ _800x80_
 ##.m-advert
 ##.m-advertisement
 ##.m-advertisement--container
+##.m-balloon-header--ad
 ##.m-block-ad
 ##.m-card-group--rightrail-ad
 ##.m-content-advert
@@ -31564,6 +31569,7 @@ _800x80_
 lalovings.com#@##AdContainer
 dez.ro#@##ad-carousel
 apnaohio.com,miradiorumba.com#@##ad-header
+so-net.ne.jp#@##ad-p3
 53.com#@##ad-rotator
 techymedies.com#@##ad-top
 afterdawn.com,download.fi,edukas.fi#@##ad-top-banner-placeholder
@@ -31611,6 +31617,8 @@ transparencyreport.google.com#@#.ad-icon
 flat-ads.com,lastpass.com#@#.ad-img
 dmkt-sp.jp#@#.ad-label
 guloggratis.dk#@#.ad-links
+so-net.ne.jp#@#.ad-notice
+so-net.ne.jp#@#.ad-outside
 hulu.com#@#.ad-root
 wiki.fextralife.com#@#.ad-sidebar
 wegotads.co.za#@#.ad-source
@@ -37014,6 +37022,7 @@ tf2r.com#@#.adverts
 ||expertcamomile.com^
 ||expertist.xyz^
 ||expertnifg.com^
+||expertsulfury.com^
 ||explanationrecognise.com^
 ||exploitnookconsequently.com^
 ||exploreholidayexcellent.com^
@@ -42890,6 +42899,7 @@ tf2r.com#@#.adverts
 ||portedgatesfeel.com^
 ||portenttwinehypothetically.com^
 ||portkingric.net^
+||portoteamo.com^
 ||portoutsid.xyz^
 ||portprintingchecking.com^
 ||portscalculateappease.com^
@@ -46035,6 +46045,7 @@ tf2r.com#@#.adverts
 ||totentacruelor.com^
 ||tothisimpo.biz^
 ||totlnkbn.com^
+||totlnkcl.com^
 ||totogetica.com^
 ||totorogyring.com^
 ||totreatwith.co^
@@ -46129,6 +46140,7 @@ tf2r.com#@#.adverts
 ||trc85.com^
 ||trccmpnlnk.com^
 ||trcked.me^
+||trdnewsnow.net^
 ||treacherousaccentbruise.com^
 ||treacherouslongingjunkie.com^
 ||treasuresensignron.com^
@@ -48499,6 +48511,7 @@ tf2r.com#@#.adverts
 ||adpushup.com^$third-party
 ||adqic.com^$third-party
 ||adquantix.com^$third-party
+||adquery.io^$third-party
 ||adquest3d.com^$third-party
 ||adrcdn.com^$third-party
 ||adreactor.com^$third-party
@@ -51378,6 +51391,7 @@ tf2r.com#@#.adverts
 ||torrentsafeguard.com^$popup
 ||totaladperformance.com^$popup
 ||totalnicefeed.com^$popup
+||totlnkcl.com^$popup
 ||touroumu.com^$popup
 ||tozoruaon.com^$popup
 ||track-campaing.club^$popup
@@ -52466,7 +52480,6 @@ tf2r.com#@#.adverts
 ||essayerudite.com/images/banner/
 ||etrader.kalahari.com^
 ||etrader.kalahari.net^
-||expertsulfury.com^$third-party
 ||extensoft.com/artisteer/banners/
 ||facebook.com/audiencenetwork/$third-party
 ||familytreedna.com/img/affiliates/
@@ -53482,6 +53495,7 @@ tf2r.com#@#.adverts
 ||allmonitors24.com/ads-
 ||amazon.com/aan/$subdocument
 ||amazonaws.com/cdn.mobverify.com
+||animeland.tv/ios.html
 ||animesuge.to/E/aircraftmighty.com/
 ||aolcdn.com/ads/$script
 ||apl95.me/js/pop.js
@@ -53715,7 +53729,6 @@ tf2r.com#@#.adverts
 ||jordantimes.com/accu/
 ||kdnuggets.com/aps/
 ||kendrickcoleman.com/images/banners/
-||kiss-anime.org/akame
 ||kisscartoon.sh/api/pop.php
 ||kissmanga.org/rmad.php
 ||kitz.co.uk/files/jump2/
@@ -54385,6 +54398,8 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||ipornxxx.net/banners/
 ||jav.work/p.js
 ||javhub.net/av/js/cpp.js
+||jennylist.xyz/img/yep.gif
+||jennylist.xyz/t63fd79f7055.js
 ||jerkdude.com/log300.jpg
 ||joysporn.sex/js/pj.js
 ||k-teen.com/banner/
@@ -57461,6 +57476,7 @@ historycollection.com##div[class^="cis_add_block"]
 cryptorank.io##div[class^="desktop__BannerWrap-"]
 3dnatives.com##div[class^="dnati-"]
 goal.com##div[class^="fedex_banner_"]
+msn.com##div[class^="galleryPage_bannerAd"]
 keengamer.com##div[class^="gameon-in-"]
 keengamer.com##div[class^="gameon-mpu-"]
 keengamer.com##div[class^="gameon-top-"]
@@ -57922,6 +57938,10 @@ guru99.com#?#.content2:-abp-has(div[id^="div-gpt-ad"])
 guru99.com#?#.moduletable:-abp-has(div[id^="div-gpt-ad"])
 haveibeenpwned.com##.actionsBar:-abp-has(.why1Password)
 haveibeenpwned.com##.bodyGradient>:-abp-has(.why1Password)
+instacart.com#?#.css-zlyu1d:-abp-contains(Sponsored)
+instacart.com#?#.css-1pc1srv-ItemCardHoverProvider:-abp-has(.css-cieada-SponsoredProductBadge)
+instacart.com#?#li[data-testid^="item_list_item_items_19462-"]:-abp-has(span:-abp-contains(Sponsored))
+kroger.com#?#.KDSProductCarouselView:-abp-has(span:-abp-contains(Featured))
 ksl.com#?#.queue:-abp-has(.sponsored)
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__sub-description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
@@ -57955,6 +57975,7 @@ mtgarena.pro#?##root > div > div:-abp-has(> .vm-placement)
 mtgarena.pro#?##root > div:-abp-has(a[href*=casino])
 sbs.com.au#?#.c9 > div:-abp-contains(Advertisement)
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
+target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
 time.com#?#.article-small-sidebar > .sticky-container:-abp-has(div[id^="ad-"])
 titantv.com#?#tr:-abp-has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 tripadvisor.at,tripadvisor.be,tripadvisor.ca,tripadvisor.ch,tripadvisor.cl,tripadvisor.cn,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.il,tripadvisor.co.kr,tripadvisor.co.nz,tripadvisor.co.uk,tripadvisor.co.za,tripadvisor.com,tripadvisor.com.ar,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.eg,tripadvisor.com.gr,tripadvisor.com.hk,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.pe,tripadvisor.com.ph,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.com.ve,tripadvisor.com.vn,tripadvisor.de,tripadvisor.dk,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.pt,tripadvisor.ru,tripadvisor.se#?#.listItem:-abp-has(.sponsored_v2)
@@ -59197,6 +59218,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||smartadserver.com/ac?nwid=3310^$script,domain=dr.dk
 @@||smartadserver.com/h/nshow?siteid=$script,domain=dr.dk
 @@||smarters.ro/academy$~third-party,xmlhttprequest
+@@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp
 @@||stranger.se/socket.io/$~third-party
 @@||strangermeetup.com/socket.io/$~third-party
@@ -60712,6 +60734,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /collector/pageview
 /collector?report=
 /collectStats;
+/collectsysteminfo?
 /com_joomla-visites/*
 /com_joomlawatch/*
 /common/analytics.js
@@ -64258,7 +64281,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /vglnk.js
 /vgwort/*
 /video-ga.js
-/video.counters.js
+/video.counters.
 /video/tracking.js
 /video_count.php?
 /videoanalytic/*
@@ -65123,6 +65146,7 @@ _mongo_stats/
 ||dm-event.net^
 ||dmpxs.com^
 ||dratingmaject.com^
+||dynatrace-managed.com^
 ||e1e.io^
 ||efreecode.com^
 ||emycewiw.xyz^
@@ -84109,6 +84133,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||fc.vodafone.de^
 ||froglytics.eventfrog.ch^
 ||geoip.finanzen.net^
+||gmx.net/monitoring/
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||heise.de/ivw-bin/ivw/cp/
@@ -84131,6 +84156,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||px.derstandard.at^
 ||rem-track.bild.de^
 ||responder.wt.heise.de^
+||ricardo.ch/api/browser-statistics/
 ||rt.bunte.de^
 ||schnaeppchenfuchs.com/js/default-
 ||squirrel.cividi.ch^
@@ -84670,12 +84696,12 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||beacon.watch.impress.co.jp^
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
-||bookoffonline.co.jp/mbfiles/tracking/
 ||carview.co.jp/include_api/log/
 ||contx.net/collect.js
 ||count.upc.rakuten.co.jp^
 ||dmm.com/analytics/
 ||dmm.com/imp?
+||dxlive.com/js/dtrace.js
 ||fensi.plus^*/tracking/
 ||gizmodo.jp/api/SurveyCountCollection?
 ||goo.ne.jp^*/vltracedmd.js
@@ -88810,7 +88836,8 @@ motherporno.com##+js(set, flashvars.adv_pause_html, '')
 motherporno.com##+js(set, flashvars.adv_pre_vast, '')
 motherporno.com##.aside
 motherporno.com##.spot
-@@||v.fwmrm.net/ad/*$script,domain=viafree.*
+@@||v.fwmrm.net/ad/$script,xhr,domain=viafree.*
+@@||v.fwmrm.net/crossdomain.xml$xhr,domain=viafree.*
 watchhouseonline.net,watchtheofficeonline.net##.h_content
 watchhouseonline.net###custom_html-6
 watchtheofficeonline.net###custom_html-7
@@ -89623,6 +89650,14 @@ xxxdl.net##.banners
 tinyurl.is##div[class=""][style]  .btn[href$="/NordVPN"]:upward(div[class=""][style])
 tinyurl.is##+js(rc, disabled, #skip-btn)
 tinyurl.is##.navbar-brand
+*$frame,xhr,script,css,3p,denyallow=cloudfront.net|cloudflare.com|bootstrapcdn.com,domain=tinyurl.is
+tinyurl.is##+js(acis, JSON, interactive)
+tinyurl.is##+js(no-fetch-if, xhr0)
+||xhr0.xyz^
+||asemskull.com^
+||antalithate.website^
+||ayahucapasso.website^
+||blamedbuckie.fun^
 thienhatruyen.com##+js(nowoif)
 sexphimhd.net##+js(aopr, decodeURI)
 sexphimhd.net##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
@@ -90873,6 +90908,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||tobmyfile.info^$all
 ||lone1y.com^$all
 ||tr1net.com^$all
+||homuradu.com^$all
+||usdownload.widost.com^$all
 ||hyperwage.com^$all
 ||ricavato.com^
 ||bitcoingenerator.me^$all
@@ -91115,6 +91152,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||legendarytable.com^$all
 /prize/luckyus-ad/*$doc
 ||mauptaub.com^$all
+||see-what-is-trending.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
