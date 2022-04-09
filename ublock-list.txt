@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IlcQek9k/DDe1z5pobdN8g
+! Checksum: LtFMmCSQukvPql0hn8n9SQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204090938
-! Last Modified: 2022年04月09日 09:38
+! Version: 202204091425
+! Last Modified: 2022年04月09日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -45497,7 +45497,6 @@ tf2r.com#@#.adverts
 ||suvpgtkxafrsdv.com^
 ||suxhap.com^
 ||suzanne.pro^
-||suzihaza.com^
 ||svacdnjutk.com^
 ||svclqyctlijue.com^
 ||sviter2s1olenyami1.com^
@@ -56103,6 +56102,7 @@ golf.com##.golf-ad
 africanadvice.com,pspad.com,sudantribune.com,thehackernews.com##.google
 apkmirror.com##.google-ad-leaderboard
 smsfi.com##.google_ad_home_page_100percent
+topservers.com##.google_slot
 mediamass.net##.googleresponsive
 css3generator.com##.gotta-pay-the-bills
 perfectdailygrind.com##.gpdgeng
@@ -56328,6 +56328,7 @@ reverso.net##.locd-rca
 gunsamerica.com##.logclick
 1071thepeak.com##.logo-scroll
 siberiantimes.com##.logoBanner
+topservers.com##.long_wrap
 netwerk24.com##.love2meet
 tigerdroppings.com##.lowLead
 bikeroar.com##.lower-panel
@@ -61016,7 +61017,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /DynamicAnalytics.
 /dynamictag.
 /dynamicyield/*
-/dynatrace-$domain=~dynatrace.com|~github.com
+/dynatrace-$~image,domain=~dynatrace.com|~github.com|~github.io
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -64877,6 +64878,10 @@ cgi-bin/counter
 ://email.*/e/o/
 _ad_impression.
 /_/trace/trace/*
+/rrweb-script.
+/rrweb.js
+/rrweb.min.js
+/rrweb/*
 /DNSCheck.js
 /DNSChecker.js
 /hawk.js
@@ -73594,12 +73599,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||top.elec.ru^
 ||track.recreativ.ru^
 ||track.spacepush.ru^
+||tracker.comagic.ru^
 ||tracking.gpm-rtv.ru^
 ||tracking.retailrocket.net^
 ||traktor.ru^*/counter.php?
 ||ulogin.ru/js/stats.js
 ||upstats.yadro.ru^
 ||uptolike.com/widgets/*/imp?
+||visitor-microservice.ext.p-a.im^
 ||webtrack.biz^$third-party
 ||xn--e1aaipcdgnfsn.su^*/counter.php
 ||yandeg.ru/count/
@@ -74309,6 +74316,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rfk.biglots.com^
 ||roblox.com/www/e.png?
 ||roblox.com^*/_/1px.gif
+||roistat.com^*/addVisit?
 ||rps-p2.rockpapershotgun.com^
 ||rps-uk.rockpapershotgun.com^
 ||rs.mail.ru^
@@ -86120,8 +86128,6 @@ richhioon.eu,wowstream.top##+js(aopr, BetterJsPop)
 123movies4u.site,123movieshd.*,aloanime.me,animesup.net,anroll.net,bajarjuegospcgratis.com,balkanportal.net,bestporncomix.com,celebrity-leaks.net,comicsmanics.com,desivdo.com,directupload.net,doctormalay.com,dvdfullestrenos.com,ebookhunter.net,ekasiwap.com,electro-torrent.pl,femdom-joi.com,film1k.com,filmesonlinex.org,findav.*,findporn.*,gambarbogel.xyz,gaysex69.net,hentaistream.co,hollymoviehd.cc,hubgifs.info,idolsblog.tv,javhd.win,javhun.com,jorpetz.com,kinemania.tv,lightdlmovies.blogspot.com,masahub.com,myonvideo.com,nuoga.eu,olarixas.xyz,palimas.org,pirateiro.com,pornez.net,pornhd720p.com,pornobr.ninja,pornofaps.com,pornorip.biz,pornotorrent.com.br,putlocker5movies.org,sakurafile.com,sexofilm.co,tensei-shitara-slime-datta-ken.com,thebussybandit.com,torrage.info,video.az,vikv.net,viveseries.com,vstorrent.org,watchjavidol.com,webcamrips.com,yifytv.top,youdbox.net,yourdailypornvideos.ws##+js(aopw, _pop)
 eplayvid.*##+js(acis, JSON.parse, break;case $.)
 porntry.com##.js-mob-popup
-mxtube.net##+js(aopr, decodeURI)
-mxtube.net##^script:has-text(decodeURI)
 *$script,3p,denyallow=youtube.com|youtube-ui.l.google.com,domain=mxtube.net
 erotic-beauties.com,hardsex.cc,sex-movies.biz,sikwap.xyz,tube18.sexy##+js(acis, pop_init)
 itsfuck.com,stilltube.com##+js(ra, onclick, .previewhd > a)
@@ -87174,7 +87180,6 @@ m.sextvx.com###home_hor_bot_ads
 katmoviehd4.com##+js(acis, Math, break;case $.)
 katmoviehd4.com##+js(aopw, _pop)
 katmoviehd4.com##+js(nowoif)
-*$script,redirect-rule=noopjs,domain=protvplus.ro
 @@||menjelajahi.com^$ghide
 menjelajahi.com##+js(nano-sib, time, , 0)
 menjelajahi.com##+js(set, blurred, false)
@@ -89227,6 +89232,7 @@ getlink.tienichmaytinh.net##+js(aopr, app_vars.force_disable_adblock)
 getlink.tienichmaytinh.net##+js(set, blurred, false)
 bowfile.com##+js(nowoif)
 *$script,redirect-rule=noopjs,domain=bowfile.com
+bowfile.com##+js(no-fetch-if, cloudfront.net/?)
 bowfile.com##+js(no-fetch-if, method:HEAD)
 bowfile.com##+js(ra, href|target|data-onclick, a[id="dl"][data-onclick^="window.open"], stay)
 bowfile.com##+js(acis, globalThis, break;case)
@@ -89265,9 +89271,6 @@ kisscos.net##+js(acis, addEventListener, -0x)
 kisscos.net##+js(aopr, absda)
 kisscos.net##span[id$="related"] > div[id^="container-"]
 kisscos.net##[id$="-overlay"]
-@@||suzihaza.com/v/*$frame,domain=fembed.kisscos.net
-@@||suzihaza.com/api/source/*$xhr,1p
-@@||suzihaza.com/asset/default/player/*$script,1p
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect-rule=noopjs,domain=plex.tv
 xxxjaa.xyz##+js(aopr, __Y)
 crictime.*##^script:has-text(break;case)
@@ -89482,12 +89485,6 @@ watchtheoffice.cc##+js(acis, JSON.parse, break;case $.)
 watchtheoffice.cc###custom_html-4
 pelis-online.net##+js(aopw, absda)
 pelis-online.net##.adv
-sport.ro##.dfp-d-branding
-sport.ro##.dfp-d-billboard
-sport.ro##*:matches-css-before(content:/ADVERTISING/):remove()
-stirileprotv.ro##*:matches-css-before(content:/ADVERTISING/):remove()
-stirileprotv.ro##.topBranding
-stirileprotv.ro###topBranding
 kentonline.co.uk##+js(nostif, enforceAdStatus)
 kentonline.co.uk###nagBG
 kentonline.co.uk##body:style(overflow: auto !important;)
@@ -93582,6 +93579,7 @@ si.com#@#.is-below-header-ad
 @@/1.gif?$image,1p,domain=kanjiku.net
 @@/2.gif?$image,1p,domain=kanjiku.net
 @@||dealersite4.d2cmedia.ca^$domain=schlueterhyundai.com
+@@||popin.cc/popin_discovery/recommend?$domain=wave.popin.cc
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
