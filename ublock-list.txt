@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: su3N1TmpsOisFs6LhUJUUw
+! Checksum: 2zlq3L0QHn4eKbHIn7yV9Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204102033
-! Last Modified: 2022年04月10日 20:33
+! Version: 202204110225
+! Last Modified: 2022年04月11日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -86939,7 +86939,6 @@ manga18fx.com##+js(acis, document.querySelectorAll, popMagic)
 manga18fx.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
 manga18fx.com##.kadx
 ||manga18fx.com/bmo/*.php
-yogurk.com##+js(nosiif, visibility, 1000)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=sudoku-aktuell.de
 sudoku-aktuell.de###ajax
 sudoku-aktuell.de###billboard
@@ -86959,9 +86958,6 @@ vshort.link##+js(set, blurred, false)
 masstamilan.im##+js(nowoif)
 ||meeyt.com/*.gif$image
 masstamilan.im##[src*=".gif"]
-mp3saleem.blogspot.com##+js(acis, $, open)
-kindaunique.me##[href="http://kindaunique.me/link.php"]
-geektopia.info##^responseheader(refresh)
 !#if env_firefox
 qub.ca##.jss2
 !#endif
@@ -86988,7 +86984,6 @@ speedostream.com##+js(acis, Math, break;case $.)
 speedostream.com##+js(aost, Object.getOwnPropertyDescriptor, /^/)
 speedostream.com##+js(aost, JSON.parse, computed)
 speedostream.com##^script:has-text(break;case $.)
-@@||assistir.one^$ghide
 @@||nnaa66.xyz^$ghide
 lightnovelpub.com##+js(aeld, load, /google_ad_url|freestar/)
 lightnovelpub.com##aside.container
@@ -87022,8 +87017,8 @@ linkpoi.me##+js(acis, Math, replace)
 linkpoi.me##+js(aopr, app_vars.force_disable_adblock)
 linkpoi.me##+js(set, blurred, false)
 linkpoi.me##+js(no-fetch-if, manager)
-short.food-royal.com,usdshort.com##+js(aopr, app_vars.force_disable_adblock)
-short.food-royal.com,usdshort.com##+js(set, blurred, false)
+usdshort.com##+js(aopr, app_vars.force_disable_adblock)
+usdshort.com##+js(set, blurred, false)
 alohatube.xyz##+js(set, popit, false)
 @@||asklaftananlamazinhindi.com^$1p
 @@||asklaftananlamazinhindi.com^$ghide
@@ -93500,6 +93495,8 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 @@||assets.adobedtm.com/*-source.min.js$script,domain=dagelijksekost.een.be
 @@||securepubads.g.doubleclick.net^$script,xhr,domain=weatherandradar.com
 ||sammobile.com^*/newrelic.js$script,1p,redirect=noop.js,important
+||plausible.io/js/plausible.js$script,redirect=noopjs,important
+*$script,redirect-rule=noopjs,domain=sammobile.com
 @@||shakeshack.com/sites/default/files/google_tag/*$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=shakeshack.com
 @@||googletagmanager.com/gtm.js$script,domain=microcenter.com
@@ -93546,8 +93543,7 @@ himovies.to#@#a[onclick]
 @@||securepubads.g.doubleclick.net/gampad/ads$xhr,domain=gamepro.de
 @@||securepubads.g.doubleclick.net/pagead/ppub_config?ippd=www.gamepro.de$xhr,domain=gamepro.de
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=gamepro.de
-@@||google.com^*recaptcha/$frame,script
-@@||gstatic.com/recaptcha/*$css
+@@||google.com/recaptcha/$frame,script
 ||ghosthis.review^$badfilter
 ||rudaw.net/images/$image,1p,redirect-rule=1x1.gif,important
 @@||google-analytics.com/analytics.js$script,redirect-rule=google-analytics.com/analytics.js,domain=layrite.com
