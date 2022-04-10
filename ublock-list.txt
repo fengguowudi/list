@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PfCmgTeO3/oIqktjlUqQZg
+! Checksum: su3N1TmpsOisFs6LhUJUUw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204101425
-! Last Modified: 2022年04月10日 14:25
+! Version: 202204102033
+! Last Modified: 2022年04月10日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -742,7 +742,6 @@
 /ad-identifier.
 /ad-ifr.
 /ad-iframe-
-/ad-iframe.
 /ad-iframe?
 /ad-image.
 /ad-images/*$~image
@@ -3992,7 +3991,6 @@
 /dmn-advert.
 /dne_ad.
 /dns_ad/*
-/dnsads.
 /domainads/*
 /domen_ads.
 /door/ads/*
@@ -8955,6 +8953,7 @@ _800x80_
 ###ad-sidebarleft-top
 ###ad-single-spotlight-container
 ###ad-skin
+###ad-skm-below-content
 ###ad-sky
 ###ad-sky-atf
 ###ad-sky-btf
@@ -29440,6 +29439,7 @@ _800x80_
 ##.tfagAd
 ##.tgads-box
 ##.tge-ad
+##.th-ad
 ##.thb_ad_before_header
 ##.thb_ad_header
 ##.theAdvert
@@ -54951,7 +54951,7 @@ steroid.com###lead_area_opener
 iphonic.tv,kontraband.com,motherproof.com,nutritioncuisine.com,sansabanews.com,thestreet.com###leader
 thepostmillennial.com###leader-mot
 corrosionpedia.com,firstnationsvoice.com,pistonheads.com###leaderBoard
-bloomberg.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,publishersweekly.com,skysports.com,stuff.tv,theserverside.com,whitepages.ae###leaderboard
+12tomatoes.com,bloomberg.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,publishersweekly.com,skysports.com,stuff.tv,theserverside.com,whitepages.ae###leaderboard
 vocm.com###leaderboard-area
 variety.com###leaderboard-no-padding
 alternet.org###leaderboard-placeholder
@@ -55493,6 +55493,7 @@ journeybytes.com,thisisanfield.com,unfinishedman.com##.ai-viewport-1
 bizpacreview.com,browserhow.com,constructionreviewonline.com,planetanalog.com,windowslatest.com##.ai_widget
 apkmirror.com,net-load.com##.ai_widget.widget
 majorgeeks.com##.alford > tbody > tr
+shortlist.com##.align-xl-content-between
 livejournal.com##.allbanners
 silverprice.org##.alt-content
 forecast7.com##.altad
@@ -56228,7 +56229,7 @@ intomobile.com##.im_970x90
 searchenginejournal.com##.img-mmax-100
 wmtips.com##.img100
 exchangerates.org.uk##.imt4
-businessinsider.com##.in-post-sticky
+businessinsider.com,insider.com##.in-post-sticky
 crash.net##.inarticle-wrapper
 mail.com##.indeed
 brudirect.com##.index-banner
@@ -56362,6 +56363,7 @@ tech.hindustantimes.com##.m-to-add
 net-load.com##.m7s-81.m7s
 wccftech.com##.main-background-wrap
 ggrecon.com##.mainVenatusBannerContainer
+myanimelist.net##.mal-side-koukoku
 color-hex.com##.margin10
 fandom.com##.marketplace
 designtaxi.com##.masonry-brick.nt
@@ -56546,6 +56548,7 @@ wweek.com##.pb-f-phanzu-phanzu-ad-code
 washingtonpost.com##.pb-lgmod
 playbuzz.com##.pb-site-player
 caixinglobal.com##.pc-ad-left01
+myanimelist.net##.pda-tla-nUGkAdHmiepCTsbx
 myanimelist.net##.pda_top
 westernjournal.com##.persistent-footer
 proxfree.com##.pfad2
@@ -86802,11 +86805,11 @@ is2btc.com##div.col-sm-3:nth-of-type(3)
 is2btc.com##.text-center.col-sm-12
 *$script,3p,denyallow=bootstrapcdn.com|cloudflare.net|consensu.org|fontawesome.com|google.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net,domain=dropcoins.xyz|fastcoin.ga|faucetbr.tk|is2btc.com|quickclaims.*|swift4claim.com
 sunhope.it##+js(nosiif, document.getElementById, 10000)
-0123movie.*,1111fullwise.*,111watcho.*,123-watch.com,123fullview.*,123moviesclub.*,123moviesla.*,123moviesready.org,123ssgm.*,247movie.net,2gomovies.*,2umovies.*,4filmyzilla.*,4hdmovie.com,4hiidude.*,5xmovies.*,69hoshudaana.*,7025a.com,akmcloud.*,akstream.xyz,allmovieshub.*,askmaryhub.com,atdhe.pro,attvideo.com,b-bmovies.com,bollymovies.*,bollywoodfilma.*,brmovies.*,canonprintersdrivers.com,cinema.cimatna.com,convertitoremp3.download,crackevil.com,cydiasources.net,dailymovieshub.com,dflinks.*,dopebox.to,downloadming.*,elevationmap.net,europix.*,filma1.*,filme-bune.biz,filmisongs.*,filmy-zilla.co.in,filmywap.*,filmyzilla.filmywap2021ganduworld.com,filmyzilla2021.xyz,filmyzilla2022.waystohunt.info,foreverwallpapers.com,freemoviesfull.com,fulltube.*,fzmoviesnet.com,gyonlineng.com,hdmoviehubs.*,hdmovies23.com,hdmovieserver.com,hindilinks4u.*,hindimovies.live,hotmasti.*,insurancebillpayment.net,isaimini.ca,isaiminimovies.xyz,jollyfreemovies.com,katlinks.*,keepv.id,kingsmovieshd.*,linkotes.com,linksdegrupos.com.br,linksmore.*,maamusiq.com,megafilmestop.com,megashare-website.com,mkvcage.*,mobilemovies.*,motive213.com,motive213link.blogspot.com,moviemasalahd.xyz,movierulzhd.*,moviesbaba.*,moviezaddiction.*,mp3fusion.net,msmoviesbd.com,multicanais.tv,naasongs.*,naasongsfree.*,neomovies.net,netnaija.paidnaija.com,nullpk.com,oceanofmovies.*,ogario.ovh,pagalworld.*,pagodesparabaixar.org,paidnaija.com,pelisstar.com,pirlotv.mx,pksmovies.*,prmovies.*,radamel.icu,romfast.com,rytmp3.*,saff-tv.net,sdmoviespoint.*,soap2day.*,songspk.*,stivandz.com,tamilyogis.*,techsslash.com,thelinkbox.*,thelosmovies.com,uplinkto.*,vadbom.com,veryfastdownload.pw,watch4hd.*,watchmovieshd.*,watchofree.com,watchopm.net,watchseri.net,watchseriess.net,watchseriesstream.com,wifi4games.com,wildwap.*,xn--mlaregvle-02af.nu,ylink.bid,yoat.xyz,yotrabajo.info,yt-api.com,yt-download.org,yt1s.com,ytix.xyz,ytsaver.*##+js(acis, JSON.parse, break;case $.)
+0123movie.*,1111fullwise.*,111watcho.*,123-watch.com,123fullview.*,123moviesclub.*,123moviesla.*,123moviesready.org,123ssgm.*,247movie.net,2gomovies.*,2umovies.*,4filmyzilla.*,4hdmovie.com,4hiidude.*,5xmovies.*,69hoshudaana.*,7025a.com,akmcloud.*,akstream.xyz,allmovieshub.*,askmaryhub.com,atdhe.pro,attvideo.com,b-bmovies.com,bollymovies.*,bollywoodfilma.*,brmovies.*,canonprintersdrivers.com,cinema.cimatna.com,convertitoremp3.download,crackevil.com,cydiasources.net,dailymovieshub.com,dflinks.*,dopebox.to,downloadming.*,elevationmap.net,europix.*,filma1.*,filme-bune.biz,filmisongs.*,filmy-zilla.co.in,filmywap.*,filmyzilla.filmywap2021ganduworld.com,filmyzilla2021.xyz,filmyzilla2022.waystohunt.info,foreverwallpapers.com,freemoviesfull.com,fulltube.*,fzmoviesnet.com,gyonlineng.com,hdmoviehubs.*,hdmovies23.com,hdmovieserver.com,hindilinks4u.*,hindimovies.live,hotmasti.*,insurancebillpayment.net,isaimini.ca,isaiminimovies.xyz,jollyfreemovies.com,katlinks.*,keepv.id,kingsmovieshd.*,linkotes.com,linksdegrupos.com.br,linksmore.*,maamusiq.com,megafilmestop.com,megashare-website.com,mkvcage.*,mobilemovies.*,motive213.com,motive213link.blogspot.com,moviemasalahd.xyz,movierulzhd.*,moviesbaba.*,moviezaddiction.*,mp3fusion.net,msmoviesbd.com,multicanais.tv,naasongs.*,naasongsfree.*,neomovies.net,netnaija.paidnaija.com,nullpk.com,oceanofmovies.*,ogario.ovh,pagalworld.*,pagodesparabaixar.org,paidnaija.com,pelisstar.com,pirlotv.mx,pksmovies.*,prmovies.*,radamel.icu,romfast.com,rytmp3.*,saff-tv.net,sdmoviespoint.*,sharkfish.xyz,soap2day.*,songspk.*,stivandz.com,tamilyogis.*,techsslash.com,thelinkbox.*,thelosmovies.com,uplinkto.*,vadbom.com,veryfastdownload.pw,watch4hd.*,watchmovieshd.*,watchofree.com,watchopm.net,watchseri.net,watchseriess.net,watchseriesstream.com,wifi4games.com,wildwap.*,xn--mlaregvle-02af.nu,ylink.bid,yoat.xyz,yotrabajo.info,yt-api.com,yt-download.org,yt1s.com,ytix.xyz,ytsaver.*##+js(acis, JSON.parse, break;case $.)
 afilmyhouse.blogspot.com##+js(acis, Math, break;case $.)
 hitmovies4u.com##+js(acis, Promise, JSON.parse)
 hitmovies4u.com##+js(ra, onclick, a.thumb.mvi-cover)
-cinema.cimatna.com,filmyzilla2021.xyz,filmy-zilla.co.in,neomovies.net,pagalworld.kim##^script:has-text(break;case $.)
+cinema.cimatna.com,filmyzilla2021.xyz,filmy-zilla.co.in,neomovies.net,pagalworld.kim,sharkfish.xyz##^script:has-text(break;case $.)
 hindilinks4u.*##+js(acis, JSON.parse, break;case $.)
 hindilinks4u.*##+js(acis, Math, zfgloaded)
 ||gracaiko.net^
@@ -91715,8 +91718,7 @@ botcomics.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.or
 botcomics.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk##^script:has-text(join)
 ||washpost.nile.works^
 /p13n/batch/action/*$image
-||jsdelivr.net/npm/datbpzjvws@latest/dist/script.min.js
-||jsdelivr.net/npm/mrnndputqc@latest/dist/script.min.js
+/^https:\/\/cdn\.jsdelivr\.net\/npm\/[a-z]{10}@latest\/dist\/script\.min\.js$/$script,3p,match-case
 ||1ee085aa-4c05-43a8-a4fe-fafedbedd062.xyz^
 ||connectier.io^
 ||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,redirect=fingerprint2.js,important
@@ -93626,6 +93628,7 @@ si.com#@#.is-below-header-ad
 @@/2.gif?$image,1p,domain=kanjiku.net
 @@||dealersite4.d2cmedia.ca^$domain=schlueterhyundai.com
 @@||popin.cc/popin_discovery/recommend?$domain=wave.popin.cc
+@@||wwwjuwanshe.pp8.com^$3p,domain=juwanshe.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
