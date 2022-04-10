@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p4RmNENifP2XF5lwOq7v0A
+! Checksum: XWmqFc4ijZWhP4E6bytfxw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204100224
-! Last Modified: 2022年04月10日 02:24
+! Version: 202204100945
+! Last Modified: 2022年04月10日 09:45
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -13311,6 +13311,7 @@ _800x80_
 ###ebsponsoredads
 ###editorsmpu
 ###elections-ad-container
+###elgoogybsda
 ###elite-ads
 ###em_ad_superbanner
 ###embedAD
@@ -27966,6 +27967,7 @@ _800x80_
 ##.results_sponsor_right
 ##.rev-content-sponsored
 ##.rev_square_side_door
+##.revamp-ads
 ##.revcontent-main-ad
 ##.revcontent-slot
 ##.review-ad
@@ -36007,7 +36009,6 @@ tf2r.com#@#.adverts
 ||dialoguehostcreepy.com^
 ||dialoguetramppayoff.com^
 ||diamondtraff.com^
-||diampokusy.com^
 ||dianomioffers.co.uk^
 ||diapersophisticated.com^
 ||diaryeavesdropdecipher.com^
@@ -100733,7 +100734,7 @@ si.com#@#.is-below-header-ad
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 14 Apr 2002 00:00:00
+# start date:    Mon, 15 Apr 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
