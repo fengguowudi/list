@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zpozNVrG5K8jmCrSj+cpRg
+! Checksum: YsYDNmASoWonVWkwHTi1jw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204121426
-! Last Modified: 2022年04月12日 14:26
+! Version: 202204122038
+! Last Modified: 2022年04月12日 20:38
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -30416,6 +30416,7 @@ _800x80_
 ##.yam-plus-ad-container
 ##.yan-sponsored
 ##.yat-ad
+##.yb-floorad
 ##.yellow_ad
 ##.yfi-fp-ad-logo
 ##.ygrp-ad
@@ -33354,8 +33355,8 @@ tf2r.com#@#.adverts
 ||apyohotayvc.com^
 ||aqdkehbez.com^
 ||aqjdigkqvmakz.com^
-||aquabibchawed.website^
 ||aqmgnoik.com^
+||aquabibchawed.website^
 ||aratyr.com^
 ||arbaloseyepit.com^
 ||arbitrarydefectrightfully.com^
@@ -55815,6 +55816,7 @@ switchboard.com##.business_premium_results
 imac-torrents.com##.button
 overclock.net##.buy-now
 stlmag.com##.buzzworthy
+bobvila.com##.bv-unit-wrapper
 radiotoday.co.uk##.byglhsmf
 insurancejournal.com##.bzn
 afl.com.au##.c-accordion__item-officialpartners
@@ -57136,10 +57138,11 @@ ubergizmo.com##.ubergizmo-dfp-ad
 darko.audio##.ubm_widget
 nullpress.net##.uinyk-link
 zpaste.net##.uk-animation-shake
-igg-games.com##.uk-panel.widget-text
 doodrive.com##.uk-margin > [href] > img
+igg-games.com##.uk-panel.widget-text
 softarchive.is##.un-link
 pixhost.to##.under-image
+bobvila.com##.unit-header-container
 sciencedaily.com##.unit1
 sciencedaily.com##.unit2
 gpucheck.com##.unitBox
@@ -90994,6 +90997,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||homuradu.com^$all
 ||usdownload.widost.com^$all
 ||fast-date.site^$all
+||23.109.87.14^$all
 ||hyperwage.com^$all
 ||ricavato.com^
 ||bitcoingenerator.me^$all
@@ -91237,6 +91241,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||mauptaub.com^$all
 ||see-what-is-trending.com^$all
 ||d2g7xwemdu0wkn.cloudfront.net^$all
+||bhtsfs.com^$all
+||news-abcd.cc^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -91847,6 +91853,8 @@ endbasic.dev,jmmv.dev##+js(no-xhr-if, method:POST)
 ||serasaexperian.com.br/dist/scripts/fingerprint2.js^$redirect=fingerprint2.js,script,important
 old.reddit.com##+js(ra, data-outbound-url, .outbound)
 techpowerup.com##+js(aopw, test)
+||a2f41194651173ebf.awsglobalaccelerator.com^$3p
+/?p=%2F*&h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,1p
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
