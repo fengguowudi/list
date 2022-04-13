@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JToqLq6H7xK/DQpQE5wRGg
+! Checksum: 8XDjpwFStgmBknAU0VOs8g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204132036
-! Last Modified: 2022年04月13日 20:36
+! Version: 202204140225
+! Last Modified: 2022年04月14日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -11289,6 +11289,7 @@ _800x80_
 ###adv-gpt-masthead-skin-container1
 ###adv-halfpage
 ###adv-header
+###adv-leaderblock
 ###adv-leaderboard
 ###adv-left
 ###adv-masthead
@@ -37039,8 +37040,8 @@ tf2r.com#@#.adverts
 ||exceedmintpoker.com^
 ||excellaskiju.xyz^
 ||excellenceads.com^
-||exchange-traffic.com^
 ||exchad.com^
+||exchange-traffic.com^
 ||excitead.com^
 ||excitedyou.biz^
 ||excuseparen.com^
@@ -55627,6 +55628,7 @@ androidpolice.com,constructionreviewonline.com,dereeze.com,tyretradenews.co.uk##
 journeybytes.com,thisisanfield.com,unfinishedman.com##.ai-viewport-1
 bizpacreview.com,browserhow.com,constructionreviewonline.com,planetanalog.com,windowslatest.com##.ai_widget
 apkmirror.com,net-load.com##.ai_widget.widget
+wikihow.com##.al_method
 majorgeeks.com##.alford > tbody > tr
 shortlist.com##.align-xl-content-between
 livejournal.com##.allbanners
@@ -88613,7 +88615,7 @@ techpowerup.com##:not(:matches-path(/forums/)) [src*="techpowerup.com"]:upward(a
 techpowerup.com##[src]:matches-css(margin-left:/12/)
 techpowerup.com##:not(:matches-path(/forums/)) [rel]:matches-css(position: /fixed/)
 techpowerup.com##:not(:matches-path(/forums/)) [src]:matches-css(position: /fixed/)
-techpowerup.com##:not(:matches-path(/forums/)) body:has(a[href^="/forums/account/"]:not(:has-text(W1zzard)):not(:has-text(VSG)):not(:has-text(T4C)):not(:has-text(Raevenlord)):not(:has-text(Darksaber)):not(:has-text(Frederik)):not(:has-text(131db2))) a[href^="/review/500/"]:style(height: 1px !important; width: 1px !important; opacity: 0 !important; pointer-events: none !important;)
+techpowerup.com##:not(:matches-path(/forums/)) body:has(a[href^="/forums/account/"]:not(:has-text(W1zzard)):not(:has-text(VSG)):not(:has-text(T4C)):not(:has-text(Raevenlord)):not(:has-text(Darksaber)):not(:has-text(Frederik)):not(:has-text(131db2))) a[href^="/review/361/"]:style(height: 1px !important; width: 1px !important; opacity: 0 !important; pointer-events: none !important;)
 *$image,redirect-rule=1x1.gif,domain=easymc.io
 shortgalaxy.in##+js(set, blurred, false)
 shortgalaxy.in##div.row > .short
@@ -91886,8 +91888,9 @@ botcomics.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.or
 botcomics.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk##^script:has-text(join)
 ||washpost.nile.works^
 /p13n/batch/action/*$image
-/^https:\/\/cdn\.jsdelivr\.net\/npm\/[a-z]{10}@latest\/dist\/script\.min\.js$/$script,3p,match-case
+/^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z]{4,22}@latest\/dist\/script\.min\.js$/$script,3p,match-case
 ||1ee085aa-4c05-43a8-a4fe-fafedbedd062.xyz^
+||03c844c9-d265-4006-a39d-400e6cb40bb7.xyz^
 ||connectier.io^
 ||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,redirect=fingerprint2.js,important
 ||collector.xhwebsite.com^
@@ -93810,6 +93813,8 @@ si.com#@#.is-below-header-ad
 @@||onlinevideoconverter.com/upload$xhr,1p
 @@||coinzillatag.com/lib/display.js$script,domain=ad-doge.com
 @@.a2ip.ru/spacer.gif?$image,domain=2ip.ru
+@@||googletagmanager.com/gtm.js$domain=security-demo.extrahop.com
+@@||app.pendo.io/data/guide.js/*$script,domain=security-demo.extrahop.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
