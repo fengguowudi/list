@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ukOYD0l7Vt2vPPr2JwiP7Q
+! Checksum: 1c6+zUXIP0q9mpSH03a1HQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204140953
-! Last Modified: 2022年04月14日 09:53
+! Version: 202204141426
+! Last Modified: 2022年04月14日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -5288,7 +5288,6 @@
 /pcOfficialAdTags;
 /pd-ads/*
 /pdpads.
-/peel.js
 /peel.php?
 /peel/?webscr=
 /peel1.js
@@ -89318,6 +89317,7 @@ za.uy##+js(acis, $, tabunder)
 za.uy##+js(nowoif)
 za.uy###go-popup:remove()
 za.uy##[id*="-banner-"][class*="-banner"]
+za.gl##+js(set, blurred, false)
 readytechflip.com##+js(aeld, DOMContentLoaded, adsBlocked)
 readytechflip.com##.widget_custom_html
 onlylesbiantube.com##iframe:upward(.thumb)
@@ -89627,6 +89627,9 @@ bangsaku.web.id##+js(acis, document.addEventListener, google_ad_client)
 5ggyan.com##+js(acis, document.addEventListener, google_ad_client)
 5ggyan.com##^script:has-text(google_ad_client)
 5ggyan.com###sidebar1 > .HTML > .widget-content > .adsbygoogle:upward(2)
+5ggyan.com##+js(nano-sib, countDown)
+5ggyan.com##.progress
+5ggyan.com##button:style(display: inline-block !important)
 freetutorialsudemy.com##+js(aopr, absda)
 freetutorialsudemy.com##.freeu-sidebar
 freetutorialsudemy.com##.freeu-widget
@@ -90319,6 +90322,7 @@ lover9.net##.modal:style(position: unset !important;)
 forum.admiregirls.com##+js(acis, $, test)
 yalla-shoot.today##+js(acis, Promise, JSON.parse)
 gomoviefree.*,vidoo.org##+js(acis, Promise, JSON.parse)
+gomoviefree.*##+js(aeld, , break;case $.)
 gomoviefree.*##^script:has-text(break;case $.)
 gomoviefree.*##.mobile-btn
 vidoo.org##.banner
