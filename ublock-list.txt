@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KRVnYzZLG/NtGPvabtT0mg
+! Checksum: QFVEweFI5lmqCULa/uoP2g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204151426
-! Last Modified: 2022年04月15日 14:26
+! Version: 202204152035
+! Last Modified: 2022年04月15日 20:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -31849,6 +31849,7 @@ tf2r.com#@#.adverts
 ||10fbb07a4b0.se^
 ||1100i.com^
 ||110380d053f716c4.com^
+||111supjav.xyz^
 ||118bfe5b01.com^
 ||11hrcnll.com^
 ||1221e236c3f8703.com^
@@ -36419,6 +36420,7 @@ tf2r.com#@#.adverts
 ||dtcstcltwzuno.com^
 ||dtmpub.com^
 ||dtnpyvmqqvvgq.com^
+||dtoo1.space^
 ||dtprofit.com^
 ||dtqkuzuhzwklm.com^
 ||dtscout.com^
@@ -37207,6 +37209,7 @@ tf2r.com#@#.adverts
 ||fannonglairin.com^
 ||fanumi.com^
 ||fanzinetautens.com^
+||fapcat.com^
 ||faqrdrkwdhqgug.com^
 ||faracoon.com^
 ||farcdnf.com^
@@ -46954,6 +46957,7 @@ tf2r.com#@#.adverts
 ||verticalperiodicdirectory.com^
 ||verycastle.com^
 ||verymerybery.com^
+||veryn1ce.com^
 ||vespymedia.com^
 ||vessoupy.com^
 ||vetdeberg.com^
@@ -48593,7 +48597,7 @@ tf2r.com#@#.adverts
 ||adjuggler.com^$third-party
 ||adjuggler.net^$third-party
 ||adjungle.com^$third-party
-||adjust.com^$third-party
+||adjust.com^$script,third-party
 ||adk2.co^$third-party
 ||adk2.com^$third-party
 ||adk2x.com^$third-party
@@ -56291,6 +56295,8 @@ alphr.com##.fs-pushdown-sticky
 ghacks.net##.ftd-item.home-posts
 lovepanky.com##.full-width.row > .medium-12:first-child
 ptinews.com##.fullstorydivright
+whatismybrowser.com##.fun-info-footer
+whatismybrowser.com##.fun-inner
 ferrarichat.com##.funzone
 aurn.com,borneobulletin.com.bn,businessofapps.com,chicagodefender.com,dallasvoice.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,mediaplaynews.com,moviemaker.com,nondoc.com,one.com.mt,richmondshiretoday.co.uk,sammobile.com,talkradioeurope.com,thegolfnewsnet.com,womensagenda.com.au##.g
 yellowise.com##.g-widget-block
@@ -57262,6 +57268,7 @@ futurism.com##.tracking-wider
 futurism.com##.tracking-widest
 bincodes.com##.transferwise
 coinmarketcap.com##.trending-sponsored
+celebritynetworth.com##.trevda_cont
 roseindia.net##.tutorialsstaticdata
 todayonline.com##.tw-flex-shrink-2
 joebucsfan.com##.tweet_div1
@@ -73342,6 +73349,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.ecookie.fr^
 ||tracking.kdata.fr^
 ||tracking.netvigie.com^
+||trjs.mediafin.be/loader/trmfn-loader.js
 ||trk.adbutter.net^
 ||tsphone.biz/pixelvoleur.jpg?
 ||veoxa.com/get_trackingcode.
@@ -84466,6 +84474,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||l.franceculture.fr^
 ||lardennais.fr/sites/all/themes/enabootstrap/js/stat-callback.js
 ||lecho.be/fb2?
+||lecho.be/tag/tag-
 ||lecho.be/track/
 ||leparking-moto.fr/jsV155/Tracker.js
 ||leparking.fr/*/Tracker.js
@@ -92573,8 +92582,8 @@ tomsguide.com#@#.widget-ads
 hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com#@#.header-ad
 @@||vshare.eu/$popup,domain=putlockers.fm
 @@||adobedtm.com^*/satellitelib-$script,domain=virginmobile.ca
-://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com,badfilter
-://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bestprints.biz|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cableidp.jp|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.d2c.ne.jp|~ads.dev.int.revelian.com|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gree.net|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.lviv.ua|~ads.magalu.com|~ads.mba|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.selfip.com|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.typepad.jp|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
+://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com,badfilter
+://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bestprints.biz|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cableidp.jp|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.d2c.ne.jp|~ads.dev.int.revelian.com|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gree.net|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.lviv.ua|~ads.magalu.com|~ads.mba|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.selfip.com|~ads.shopee.*|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.typepad.jp|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 dday.it#@#.sponsored
 @@||europarl.europa.eu/website/webanalytics/*$script,1p
 @@||code.adsales.snidigital.com/conf/ads-config.js$script,domain=travelchannel.com
@@ -93891,7 +93900,6 @@ si.com#@#.is-below-header-ad
 @@/1.gif?$image,1p,domain=kanjiku.net
 @@/2.gif?$image,1p,domain=kanjiku.net
 @@||dealersite4.d2cmedia.ca^$domain=schlueterhyundai.com
-@@||popin.cc/popin_discovery/recommend?$domain=wave.popin.cc
 @@||wwwjuwanshe.pp8.com^$3p,domain=juwanshe.com
 @@||google-analytics.com/analytics.js$script,domain=willandable.co.nz
 @@||googletagmanager.com/gtag/js$script,domain=willandable.co.nz
@@ -101006,7 +101014,7 @@ si.com#@#.is-below-header-ad
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Mon, 11 Apr 2022 22:33:45 GMT
-# entries:        3687
+# entries:        3682
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -101512,7 +101520,6 @@ si.com#@#.is-below-header-ad
 127.0.0.1 ads.guardian.co.uk
 127.0.0.1 ads.guardianunlimited.co.uk
 127.0.0.1 ads.guru3d.com
-127.0.0.1 ads.harpers.org
 127.0.0.1 ads.hbv.de
 127.0.0.1 ads.hearstmags.com
 127.0.0.1 ads.heartlight.org
@@ -101933,7 +101940,6 @@ si.com#@#.is-below-header-ad
 127.0.0.1 adx.allstar.cz
 127.0.0.1 adx.atnext.com
 127.0.0.1 adx.gayboy.at
-127.0.0.1 adx.relaksit.ru
 127.0.0.1 adxpansion.com
 127.0.0.1 adxpose.com
 127.0.0.1 adxvalue.com
@@ -102547,7 +102553,6 @@ si.com#@#.is-below-header-ad
 127.0.0.1 crwdcntrl.net
 127.0.0.1 crypto-loot.org
 127.0.0.1 ctnetwork.hu
-127.0.0.1 cubics.com
 127.0.0.1 culturedcrayon.com
 127.0.0.1 cumbersomecloud.com
 127.0.0.1 curtaincows.com
@@ -102942,7 +102947,6 @@ si.com#@#.is-below-header-ad
 127.0.0.1 h0.t.hubspotemail.net
 127.0.0.1 h78xb.pw
 127.0.0.1 habitualhumor.com
-127.0.0.1 hadskiz.com
 127.0.0.1 haltingbadge.com
 127.0.0.1 hammerhearing.com
 127.0.0.1 handyfield.com
@@ -103456,6 +103460,7 @@ si.com#@#.is-below-header-ad
 127.0.0.1 naradxb.com
 127.0.0.1 nastydollars.com
 127.0.0.1 nativeroll.tv
+127.0.0.1 naturalbid.com
 127.0.0.1 navegg.com
 127.0.0.1 navigator.io
 127.0.0.1 navrcholu.cz
@@ -103668,7 +103673,6 @@ si.com#@#.is-below-header-ad
 127.0.0.1 pixel.yabidos.com
 127.0.0.1 placed.com
 127.0.0.1 plardi.com
-127.0.0.1 plausible.mangadex.org
 127.0.0.1 plausibleio.workers.dev
 127.0.0.1 play4traffic.com
 127.0.0.1 playhaven.com
@@ -103890,7 +103894,6 @@ si.com#@#.is-below-header-ad
 127.0.0.1 revive.plays.bg
 127.0.0.1 revlift.io
 127.0.0.1 revprotect.com
-127.0.0.1 revsci.net
 127.0.0.1 revstats.com
 127.0.0.1 reyden-x.com
 127.0.0.1 rhombusads.com
@@ -104339,7 +104342,6 @@ si.com#@#.is-below-header-ad
 127.0.0.1 touchclarity.com
 127.0.0.1 touchclarity.natwest.com
 127.0.0.1 tour.brazzers.com
-127.0.0.1 track-tracingkit394853.com
 127.0.0.1 track.adform.net
 127.0.0.1 track.anchorfree.com
 127.0.0.1 track.contently.com
@@ -104352,6 +104354,7 @@ si.com#@#.is-below-header-ad
 127.0.0.1 track.mailerlite.com
 127.0.0.1 track.miro.com
 127.0.0.1 track.segmetrics.io
+127.0.0.1 track.software-codes.com
 127.0.0.1 track.themaccleanup.info
 127.0.0.1 track.ultravpn.com
 127.0.0.1 track.unear.net
