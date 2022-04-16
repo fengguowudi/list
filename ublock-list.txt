@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PWiR185sahvT4MOwsX4XHQ
+! Checksum: JSuMVm2rI2YWsrK0HW4fpw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204161425
-! Last Modified: 2022年04月16日 14:25
+! Version: 202204162034
+! Last Modified: 2022年04月16日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56235,9 +56235,9 @@ notebooks.com##.efbleft
 ctvnews.ca##.election-leaderboard
 canyoublockit.com##.elementor-widget-container > center > p
 estnn.com##.elementor-widget-wp-widget-ai_widget
-popsci.com##.empire-below_content__desktop__articles-prefill-container
-popsci.com##.empire-content__desktop__articles-prefill-container
-popsci.com##.empire-header__desktop__article-prefill-container
+popsci.com,thedrive.com##.empire-below_content__desktop__articles-prefill-container
+popsci.com,thedrive.com##.empire-content__desktop__articles-prefill-container
+popsci.com,thedrive.com##.empire-header__desktop__article-prefill-container
 onmsft.com##.enhanced-text-widget
 kupondo.com##.entry-content > .row
 whatsmyreferer.com##.entry-content > ul
@@ -91212,6 +91212,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||usdownload.widost.com^$all
 ||fast-date.site^$all
 ||23.109.87.14^$all
+||redirectto.fun^$all
+||sopertyvalua.com^$all
 ||hyperwage.com^$all
 ||ricavato.com^
 ||bitcoingenerator.me^$all
@@ -93959,6 +93961,8 @@ si.com#@#.is-below-header-ad
 @@||googletagmanager.com/gtm.js$script,domain=kingarthurbaking.com
 @@||assets.adobedtm.com/extensions/*$script,domain=cadenaser.com
 @@||assets.adobedtm.com/*-source.min$script,domain=cadenaser.com
+@@||s0.2mdn.net/instream/html5/ima3.js$script,domain=cadenadial.com
+cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
