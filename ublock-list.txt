@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MoAatp8zU48cKp4+DKuCmA
+! Checksum: 8KWkVfNDTfqSe+phhKUzxA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204171425
-! Last Modified: 2022年04月17日 14:25
+! Version: 202204172034
+! Last Modified: 2022年04月17日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -33705,6 +33705,7 @@ tf2r.com#@#.adverts
 ||awmserve.com^
 ||awnxcexsy.xyz^
 ||awokedoubtless.com^
+||awpcrpu.com^
 ||awprt.com^
 ||awptjmp.com^
 ||aws-ajax.com^
@@ -56143,6 +56144,7 @@ irishtimes.com##.cs-teaser
 c-span.org##.cspan-ad-still-wrapper
 healthline.com##.css-0 + div:not([class]):last-of-type
 healthline.com##.css-12efcmn
+sbs.com.au##.css-14lcahw-MuiTypography-root
 medicalnewstoday.com##.css-1cg0byz
 healthline.com##.css-1d8h8gm
 ladbible.com##.css-1dgm0zi-Advert
@@ -56233,6 +56235,7 @@ ebaumsworld.com,greedyfinance.com##.divider
 thelist.com##.divider-heading-container
 karachicorner.com##.divimg
 weather.us##.dkpw-billboard-margin
+mazterize.com##.dl-g
 crash.net##.dmpu-container
 gearlive.com##.double
 capitalfm.com,radiox.co.uk,smoothradio.com##.download
@@ -58912,7 +58915,7 @@ tubedupe.com##[src^="https://tubedupe.com/player/html.php?aid="]
 porngames.club##[src^="https://wheelwheel.space/"]
 pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
-pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]:not(video)
 porn.com##a[href*="&ref="]
 asspoint.com,babepedia.com,babesandstars.com,blackhaloadultreviews.com,dbnaked.com,freeones.com,gfycatporn.com,javfor.me,mansurfer.com,newpornstarblogs.com,ok.porn,porn-star.com,porn.com,porndoe.com,pornhubpremium.com,pornstarchive.com,rogreviews.com,sexyandfunny.com,shemaletubevideos.com,spankbang.com,str8upgayporn.com,the-new-lagoon.com,tube8.com,wcareviews.com,xxxonxxx.com,youporn.com##a[href*=".com/track/"]
 badjojo.com,boysfood.com,definebabe.com,efukt.com,fantasti.cc,girlsofdesire.org,imagepix.org,javfor.me,pornxs.com,shemaletubevideos.com,therealpornwikileaks.com,yea.xxx##a[href*=".php"]
@@ -71854,6 +71857,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kiwi.mdldb.net^
 ||kk-resources.com/ks.js
 ||klarnaservices.com^$image,third-party
+||klaviyo.com/onsite/js/sentry.
 ||klickly.com/track
 ||klm-ea.jscrambler.com^
 ||kmib.co.kr/ref/
@@ -85429,7 +85433,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||9cdn.net^*/js/tracking/$script,domain=nine.com.au
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
-@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|atresplayer.com|backcountry.com|bt.com|cadenaser.com|dollargeneral.com|kroger.com|personal.natwest.com|telus.com|verizon.com
+@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|atresplayer.com|backcountry.com|bt.com|cadenaser.com|churchofjesuschrist.org|dollargeneral.com|kroger.com|personal.natwest.com|telus.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
@@ -85570,6 +85574,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||evestment.com/api/analytics/$domain=evestment.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
 @@||fast.appcues.com^$script,domain=static.abcmouse.com
+@@||fast.fonts.net/jsapi/core/mt.js$script,domain=itsolutions-inc.com
 @@||files.mycloud.com/js/analytics/google_analytics.js
 @@||firststatesuper.com.au^*/js/analytics.js$script,~third-party
 @@||flipboard.com/setcookie?$~third-party
@@ -86976,7 +86981,7 @@ taxidrivermovie.com###scroll-div
 taxidrivermovie.com##.adboard-top
 taxidrivermovie.com##.thumb-holder[style="height:250px;"]:upward(1)
 taxidrivermovie.com##[href="/category/taxi-fares/"]:upward(.thumb)
-embedstream.me##+js(acis, JSON.parse, break;case $.)
+embedstream.me##+js(aeld, , break;case $.)
 embedstream.me##+js(aopw, _pop)
 embedstream.me##+js(nowebrtc)
 embedstream.me##+js(nowoif)
@@ -87508,10 +87513,10 @@ renault-club.cz##.adsbygoogle
 ||bohubrihi.com^$3p
 bhaskar.com##[id^="Ad"]:upward([style])
 divyabhaskar.co.in##[id^="Ad"]:upward([style])
-01234-m0vies.com,01234-movies.com,01234movies.*,1234movies.*,123gostream.*,123moviestoday.net,1link.club,1stkissmanga.*,8-ball-magic.com,animeheaven.ru,arnaqueinternet.com,ate9ni.com,bhplay.me,bollyshare.*,club-vinyl.ru,cinen9.*,citpekalongan.com,eastream.net,easylinks.in,empireg.ru,fakaza.com,filmlinks4u.*,filmy4wap1.*,filmyone.com,flixtv.club,freeload.*,freedownloadmp3-mp4.top,gdirect.*,hd44.com,hdmoviz.*,hhdmovies.*,hindimoviesonline.*,hostxy.com,hwnaturkya.com,iiyoutube.com,inextmovies.*,ltcjar.com,linkskat.*,livesport24.net,mailnesia.com,mkvhub.*,mlsbd.*,moviecrisp.in,movies4me.*,moviesmon.*,moviesshub.*,moviesub.is,mozkra.com,mp3cristianos.net,mp3songsdownloadf.blogspot.com,musiklip.ru,naijahits.com,naijal.com,nbch.com.ar,nowmovies.*,ocnpj.com,openload.*,phc.web.id,pregledaj.net,primeflix.website,prmovies.*,readingbd.com,recetas.arrozconleche.info,revivelink.com,romfast.com,s2dfree.*,stalkface.com,subtitlecat.com,tajpoint.com,theismailiusa.org,thenetnaija.co,torrentfilmes4k.org,uploadmaza.com,vevoyoutube.com,vidcloudpng.com,wildwap.com,worldgirlsportal.com,youtubeai.com,youtubetoany.com,zone-annuaire.*##+js(acis, Math, break;case $.)
+01234-m0vies.com,01234-movies.com,01234movies.*,1234movies.*,123gostream.*,123moviestoday.net,1link.club,1stkissmanga.*,8-ball-magic.com,animeheaven.ru,arnaqueinternet.com,ate9ni.com,bhplay.me,bollyshare.*,club-vinyl.ru,cinen9.*,citpekalongan.com,eastream.net,easylinks.in,empireg.ru,fakaza.com,filmy4wap1.*,filmyone.com,flixtv.club,freeload.*,freedownloadmp3-mp4.top,gdirect.*,hd44.com,hdmoviz.*,hhdmovies.*,hindimoviesonline.*,hostxy.com,hwnaturkya.com,iiyoutube.com,inextmovies.*,ltcjar.com,linkskat.*,livesport24.net,mailnesia.com,mkvhub.*,mlsbd.*,moviecrisp.in,movies4me.*,moviesmon.*,moviesshub.*,moviesub.is,mozkra.com,mp3cristianos.net,mp3songsdownloadf.blogspot.com,musiklip.ru,naijahits.com,naijal.com,nbch.com.ar,nowmovies.*,ocnpj.com,openload.*,phc.web.id,pregledaj.net,primeflix.website,prmovies.*,readingbd.com,recetas.arrozconleche.info,revivelink.com,romfast.com,s2dfree.*,stalkface.com,subtitlecat.com,tajpoint.com,theismailiusa.org,thenetnaija.co,torrentfilmes4k.org,uploadmaza.com,vevoyoutube.com,vidcloudpng.com,wildwap.com,worldgirlsportal.com,youtubeai.com,youtubetoany.com,zone-annuaire.*##+js(acis, Math, break;case $.)
 123movieweb.com,fsapi.*,hdmoviz.*##^script:has-text(break;case $.)
 filmeonlinehd.biz,onlinework4all.com,saveshared.com##+js(acis, Math, zfgloaded)
-123moviesme.*,1kmovies.*,1movieshd.com,animasu.vip,filmlinks4u.*,fsapi.*,la123movies.org,web.livecricket.is##+js(acis, JSON.parse, break;case $.)
+123moviesme.*,1kmovies.*,1movieshd.com,animasu.vip,fsapi.*,la123movies.org,web.livecricket.is##+js(acis, JSON.parse, break;case $.)
 123moviesme.*##+js(aopr, decodeURI)
 123moviesme.*##+js(aopw, _pop)
 123moviesfree4u.com,123moviesla.*,afilmyhouse.blogspot.com,allmovieshub.*,attvideo.com,daddylive.*,filmyzilla.filmywap2021ganduworld.com,foreverwallpapers.com,hitmovies4u.com,livecricket.*,pirlotv.*##^script:has-text(break;case $.)
