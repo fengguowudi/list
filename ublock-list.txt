@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KD006CYHU9gcOfJyOJGVOQ
+! Checksum: MoAatp8zU48cKp4+DKuCmA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204170946
-! Last Modified: 2022年04月17日 09:46
+! Version: 202204171425
+! Last Modified: 2022年04月17日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -61303,6 +61303,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /dfpsvc?
 /dg/default/cs?
 /DG/DEFAULT/rest/*
+/dh-analytics-
 /di-tealium.
 /Diagnostics?hit=
 /didna-pixel-
@@ -61685,6 +61686,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /ga-tracker-
 /ga-tracker.
 /ga-tracking-
+/ga-tracking.
 /ga-tracking/*
 /ga.aspx?
 /ga.gif?
@@ -70079,6 +70081,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||selfcampaign.com^$third-party
 ||semtracker.de^$third-party
 ||sensic.net^$third-party
+||sitealyse.de^$third-party
 ||sitebro.de^$third-party
 ||slogantrend.de^$third-party
 ||space-link.de^$third-party
@@ -74013,6 +74016,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.zumby.io^
 ||reachandrich.antevenio.com^
 ||s3wfg.com/js/vortexloader.js
+||stats.administrarweb.es^
 ||stats.bitban.com^
 ||stats.miarroba.info^
 ||stats.qdq.com^
