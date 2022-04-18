@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /DedtH4HZJA17FzIHPi0Ig
+! Checksum: wIA2jQ3s6WekBO/FLADvXA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204180959
-! Last Modified: 2022年04月18日 09:59
+! Version: 202204181427
+! Last Modified: 2022年04月18日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -84492,7 +84492,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||click.alternate.de^
 ||cmp2.channelpartner.de^
 ||comparis.ch/comparis/Tracking/
-||computerbase.de/api/$ping,xmlhttprequest
+||computerbase.de/api2/$ping,xmlhttprequest
 ||cpx.golem.de^
 ||cpxl.golem.de^
 ||dejure.org/cgi-bin/sitzung.fcgi?
@@ -84585,6 +84585,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||k.kolplay.com^
 ||l.franceculture.fr^
 ||lardennais.fr/sites/all/themes/enabootstrap/js/stat-callback.js
+||ldlc.com/V4px/js/ldlcmachine.js
 ||lecho.be/fb2?
 ||lecho.be/tag/tag-
 ||lecho.be/track/
@@ -85580,7 +85581,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||evestment.com/api/analytics/$domain=evestment.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
 @@||fast.appcues.com^$script,domain=static.abcmouse.com
-@@||fast.fonts.net/jsapi/core/mt.js$script,domain=itsolutions-inc.com
+@@||fast.fonts.net/jsapi/core/mt.js$script,domain=gables.com|itsolutions-inc.com
 @@||files.mycloud.com/js/analytics/google_analytics.js
 @@||firststatesuper.com.au^*/js/analytics.js$script,~third-party
 @@||flipboard.com/setcookie?$~third-party
@@ -85802,6 +85803,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$script,domain=vmware.com
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
+@@||targetimg1.com/webui/top-of-funnel/_next/static/chunks/fingerprintjs2.$script,domain=target.com
 @@||tbs.com/modules/custom/ten_video/js/analytics.js$script,~third-party
 @@||tc.bankofamerica.com/c?
 @@||techrepublic.com^*/dw-tracking-1.0.js$~third-party
@@ -86537,6 +86539,9 @@ freepornxxxhd.com##+js(acis, String.fromCharCode, constructor)
 richhioon.eu,wowstream.top##+js(aopr, BetterJsPop)
 123movies4u.site,123movieshd.*,aloanime.me,animesup.net,anroll.net,bajarjuegospcgratis.com,balkanportal.net,bestporncomix.com,celebrity-leaks.net,comicsmanics.com,desivdo.com,directupload.net,doctormalay.com,dvdfullestrenos.com,ebookhunter.net,ekasiwap.com,electro-torrent.pl,femdom-joi.com,film1k.com,filmesonlinex.org,findav.*,findporn.*,gambarbogel.xyz,gaysex69.net,hentaistream.co,hollymoviehd.cc,hubgifs.info,idolsblog.tv,javhd.win,javhun.com,jorpetz.com,kinemania.tv,lightdlmovies.blogspot.com,masahub.com,myonvideo.com,nuoga.eu,olarixas.xyz,palimas.org,pirateiro.com,pornez.net,pornhd720p.com,pornobr.ninja,pornofaps.com,pornorip.biz,pornotorrent.com.br,putlocker5movies.org,sakurafile.com,sexofilm.co,tensei-shitara-slime-datta-ken.com,thebussybandit.com,torrage.info,video.az,vikv.net,viveseries.com,vstorrent.org,watchjavidol.com,webcamrips.com,yifytv.top,youdbox.net,yourdailypornvideos.ws##+js(aopw, _pop)
 123movieshd.*##+js(aopr, mm)
+123movieshd.*##+js(set, p18, undefined)
+||copeforcing.com^
+||sentimenthypocrisy.com^
 eplayvid.*##+js(acis, parseInt, break;case $.)
 porntry.com##.js-mob-popup
 *$script,3p,denyallow=youtube.com|youtube-ui.l.google.com,domain=mxtube.net
@@ -89486,7 +89491,9 @@ gir.ist##+js(aopr, app_vars.force_disable_adblock)
 gir.ist##+js(nowoif)
 gir.ist##+js(set, blurred, false)
 gir.ist##form[action$="/links/popad"]:remove()
-myflixer.*##+js(acis, JSON.parse, break;case $.)
+||i.imgur.com^$image,domain=myflixer.*
+myflixer.*##+js(acis, parseInt, break;case $.)
+myflixer.*###gift-middle
 apfelpatient.de##+js(nostif, css_class)
 myfirstname.rocks##.xcontent.container
 freecourses.monster##.stream-item-widget-content
@@ -90144,8 +90151,6 @@ mlsbd.shop##+js(aopw, _pop)
 mlsbd.shop##+js(aost, Math.random, inlineScript)
 tinytranslation.xyz###HTML5
 *$xhr,redirect-rule=nooptext,domain=paraphrasetool.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=paraphraser.io
-@@||googletagmanager.com/gtag/js$script,domain=paraphraser.io
 @@||cdn.snigelweb.com/adengine/paraphraser.io/loader.js$script,domain=paraphraser.io
 paraphraser.io##body > .justify-content-center
 @@||paraphraser.io^$ghide
@@ -94048,7 +94053,6 @@ si.com#@#.is-below-header-ad
 @@||googletagmanager.com/gtm.js$script,domain=kingarthurbaking.com
 cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||psl.2cycomic.com^$script,domain=yemancomic.com
-@@||fast.fonts.net/jsapi/core/mt.js$script,domain=gables.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
