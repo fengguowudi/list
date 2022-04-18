@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wIA2jQ3s6WekBO/FLADvXA
+! Checksum: yNJoTvkvJ0kynMGwj2OZSQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204181427
-! Last Modified: 2022年04月18日 14:27
+! Version: 202204182037
+! Last Modified: 2022年04月18日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8115,6 +8115,7 @@ _800x80_
 ###BBoxAd
 ###BDV_fullAd
 ###BackgroundAdContainer
+###BandeauCNIL
 ###Banner300x250Module
 ###Banner728x90
 ###BannerAd
@@ -11983,6 +11984,11 @@ _800x80_
 ###banADbanner
 ###ban_300x250
 ###ban_728x90
+###bandeau-cookies
+###bandeau2cookie
+###bandeau_cookie
+###bandeau_cookie_cnil
+###bandeaucookie-wrapper
 ###banner-300x250
 ###banner-300x250-area
 ###banner-300x250-north
@@ -12762,6 +12768,8 @@ _800x80_
 ###contextual-ads-bricklet
 ###contextual-dummy-ad
 ###contextualad
+###cookieBandeauConsentement
+###cookiebandeau
 ###corner_ad
 ###cornerad
 ###cosponsor
@@ -22882,6 +22890,8 @@ _800x80_
 ##.ban680x450
 ##.ban728
 ##.ban980x90
+##.bandeauCookies
+##.bandeau_cookie
 ##.bank-rate-ad
 ##.banmanad
 ##.banner--ad
@@ -24134,6 +24144,7 @@ _800x80_
 ##.continuous-flow-mid-ad
 ##.convert-media-ad
 ##.converter-ad
+##.cookieBandeau
 ##.copy-adChoices
 ##.core-adplace
 ##.coreAdsPlacer
@@ -57320,7 +57331,7 @@ playbuzz.com##.top-stickyplayer-container
 ada.org,globes.co.il,techcentral.ie,texteditor.co,versus.com##.topBanner
 pcworld.com##.topDeals
 tutorviacomputer.com##.topMargin15
-click2houston.com,clickondetroit.com,clickorlando.com,news4jax.com##.topWrapper
+click2houston.com,clickondetroit.com,clickorlando.com,local10.com,news4jax.com##.topWrapper
 giveawayoftheday.com##.top_ab
 indy100.com,tiresandparts.net##.top_banner
 joebucsfan.com##.top_banner_cont
@@ -59259,7 +59270,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||spendino.de/admanager/
 @@||sportsnet.ca/wp-content/plugins/bwp-minify/$domain=sportsnet.ca
 @@||ssl.p.jwpcdn.com/player/*/jwpsrv.js$script,domain=bgr.com
-@@||stat-rock.com/player/$domain=adplayer.pro
+@@||stat-rock.com/player/$domain=4shared.com|adplayer.pro
 @@||static.ziffdavis.com/sitenotice/*/settings.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.c|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||static.ziffdavis.com/sitenotice/evidon-sitenotice-bundle.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.c|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||stives.co.uk/cms/advert_search_thumb.php$image,domain=chycor.co.uk
@@ -60547,6 +60558,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /astracker/*
 /async/stat|
 /asyncggtracking.
+/async~sentry-
 /at.gif?
 /atapixel.js
 /atatus.js
@@ -71056,6 +71068,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appspot.com/stats?
 ||appspot.com/take?
 ||arclk.net/trax?
+||arcpublishing.com/i.png
 ||areyouahuman.com/kitten?
 ||argos.citruserve.com^
 ||ariane.abtasty.com^
@@ -86776,7 +86789,7 @@ makaveli.xyz##+js(nowoif)
 ||api.adinplay.com^$redirect-rule=noopjs,script,domain=taming.io
 taming.io###preroll
 y2mate.guru##+js(nowoif)
-freemovies4u.xyz##+js(acis, JSON.parse, break;case $.)
+freemovies4u.xyz##+js(aeld, , break;case $.)
 ||everyone-one.com^$all
 *$script,3p,domain=freemovies4u.xyz,denyallow=twitter.com
 javstream.top##+js(set, clientSide.adbDetect, noopFunc)
@@ -86940,6 +86953,7 @@ shortlinkpay.com##.banner
 shortlinkpay.com##.box-main > .blog-item
 *$script,3p,denyallow=google.com|gstatic.com|recaptcha.net,domain=shortlinkpay.com
 hdmoviesfair.*##+js(acis, JSON.parse, break;case $.)
+hdmoviefair.*##+js(aeld, , break;case $.)
 hd-pornos.com##+js(nostif, checkVisible)
 hd-pornos.com##.spc_height_80
 hd-pornos.com##.vjs-overlay
@@ -87135,7 +87149,7 @@ blog.aming.info##[href^="https://cdn.aming.info/"]
 blog.aming.info##[href^="https://warp.plus/"]
 tucsitupdate.blogspot.com##+js(acis, addEventListener, google_ad_client)
 toonanime.*##+js(acis, document.querySelectorAll, popMagic)
-toonanime.*##+js(acis, JSON.parse, break;case $.)
+toonanime.*##+js(aeld, , break;case $.)
 toonanime.*##+js(aopw, _pop)
 toopl.xyz##+js(nowoif)
 *$script,3p,denyallow=cloudflare.com|cloudfront.net|sharethis.com|sharethis.net|googleapis.com|gstatic.com|jwpcdn.com,domain=toonanime.*
@@ -87205,11 +87219,12 @@ uplinkto.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
 ||shortlinkto.*^$csp=default-src 'self' *.favicon.cc *.google.com *.gstatic.com *.googleapis.com
 shortlinkto.*##+js(acis, JSON.parse, break;case $.)
 fmovies2.cx##+js(acis, String.fromCharCode, break)
+fulltube.*##.mvic-btn
 vibehubs.com##+js(aost, jQuery, ai_adb)
-vibehubs.com##+js(acis, JSON.parse, break;case $.)
+vibehubs.com##+js(aeld, , break;case $.)
 vibehubs.com##[href^="https://www.star-clicks.com/"]
 vibehubs.com##.code-block-4.code-block > [href]
-yify.stream##+js(acis, JSON.parse, break;case $.)
+yify.stream##+js(aeld, , break;case $.)
 yify.stream##+js(ra, onclick)
 yify.stream##^script:has-text(break;case $.)
 yt-api.com##+js(nowoif)
@@ -87224,6 +87239,7 @@ convertitoremp3.download##+js(nowoif)
 ||antsmovies.com/sw.js$script,1p
 antsmovies.com##.banner
 4share-mp3.net,ajkalerbarta.com,altadefinizione01.*,appsfree4u.com,awanishsingh.com,bengalisite.com,bestfullmoviesinhd.org,beastlyprints.com,briefwatch.com,ch-play.com,clickforhire.com,crypto-news.cf,dailyinsta.xyz,dtmaga.com,essaysharkwriting.club,evolutiondigital.online,exemplarstory.com,fitnessdiets.in,gizmomec.com,haodyu.com,healthnewsreel.com,hotnews2021.online,iv-soft.com,jewelry.com.my,johnwardflighttraining.com,kabarportal.com,kstorymedia.com,lespassionsdechinouk.com,libertestreamvf.*,livestreamtv.pk,mariokarttour.fr,myfernweh.com,orangeink.pk,people.capetown,ruckzuck-abnehmen.com,serijehaha.com,shrugemojis.com,talaba.su,tatabrada.tv,thetechzone.online,thripy.com,turcasmania.com,urdubolo.pk,watchtvch.club##+js(acis, JSON.parse, break;case $.)
+4share-mp3.net,ajkalerbarta.com,altadefinizione01.*,appsfree4u.com,awanishsingh.com,bengalisite.com,bestfullmoviesinhd.org,beastlyprints.com,briefwatch.com,ch-play.com,clickforhire.com,crypto-news.cf,dailyinsta.xyz,dtmaga.com,essaysharkwriting.club,evolutiondigital.online,exemplarstory.com,fitnessdiets.in,gizmomec.com,haodyu.com,healthnewsreel.com,hotnews2021.online,iv-soft.com,jewelry.com.my,johnwardflighttraining.com,kabarportal.com,kstorymedia.com,lespassionsdechinouk.com,libertestreamvf.*,livestreamtv.pk,mariokarttour.fr,myfernweh.com,orangeink.pk,people.capetown,ruckzuck-abnehmen.com,serijehaha.com,shrugemojis.com,talaba.su,tatabrada.tv,thetechzone.online,thripy.com,turcasmania.com,urdubolo.pk,watchtvch.club##+js(aeld, , break;case $.)
 gizmomec.com##^script:has-text(break;case $.)
 ||awanishsingh.com/sw.js$script,1p
 ylink.bid##^script:has-text(break;case $.)
@@ -87338,7 +87354,7 @@ kiiw.icu##+js(aopr, open)
 kiiw.icu##.banner
 kiiw.icu##.fade
 ||developerity.com^$3p
-moviedekho.in##+js(acis, JSON.parse, break;case $.)
+moviedekho.in##+js(aeld, , break;case $.)
 vshort.link##+js(aopr, app_vars.force_disable_adblock)
 vshort.link##+js(aopr, open)
 vshort.link##+js(set, blurred, false)
@@ -87529,6 +87545,7 @@ divyabhaskar.co.in##[id^="Ad"]:upward([style])
 123movieweb.com,fsapi.*,hdmoviz.*##^script:has-text(break;case $.)
 filmeonlinehd.biz,onlinework4all.com,saveshared.com##+js(acis, Math, zfgloaded)
 123moviesme.*,1kmovies.*,1movieshd.com,animasu.vip,fsapi.*,la123movies.org,web.livecricket.is##+js(acis, JSON.parse, break;case $.)
+123moviesme.*,1kmovies.*,1movieshd.com,animasu.vip,fsapi.*,la123movies.org,web.livecricket.is##+js(aeld, , break;case $.)
 123moviesme.*##+js(aopr, decodeURI)
 123moviesme.*##+js(aopw, _pop)
 123moviesfree4u.com,123moviesla.*,afilmyhouse.blogspot.com,allmovieshub.*,attvideo.com,daddylive.*,filmyzilla.filmywap2021ganduworld.com,foreverwallpapers.com,hitmovies4u.com,livecricket.*,pirlotv.*##^script:has-text(break;case $.)
@@ -87744,7 +87761,8 @@ olympicstreams.me,vipboxtv.*##+js(aeld, , break;case $.)
 olympicstreams.me,vipboxtv.*##+js(nowoif, |)
 olympicstreams.me,vipboxtv.*##+js(aopw, _pop)
 ||raw.githubusercontent.com/*/just-detect-adblock/*$3p,xhr,redirect-rule=nooptext
-buffstreams.tv##+js(acis, JSON.parse, break;case $.)
+buffstreams.tv##+js(aeld, , break;case $.)
+buffstreams.tv##+js(nowoif)
 @@||tritinia.com^$ghide
 tritinia.com##.adsbygoogle
 nsfwyoutube.com##pp
