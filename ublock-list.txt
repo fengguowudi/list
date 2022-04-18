@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: d7d7z64+iSvK58CMBhq5OA
+! Checksum: /DedtH4HZJA17FzIHPi0Ig
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204180225
-! Last Modified: 2022年04月18日 02:25
+! Version: 202204180959
+! Last Modified: 2022年04月18日 09:59
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54852,6 +54852,7 @@ today.az###TODAY_Slot_Top_1000x120
 today.az###TODAY_Slot_Vertical_01_240x400
 road.cc###Top-Billboard
 carsdirect.com###TopBanner
+scrabble-solver.com###Upper
 warisboring.com###WIB300x250_IA_M_HB
 eetimes.com###WelcomeAdContainer
 eetimes.com###WelcomeAdContainer + #overlay
@@ -55407,6 +55408,7 @@ celebritynetworth.com###skyline
 skylinewebcams.com###skylinewebcams-ads2
 holiday-weather.com,w3schools.com,zerochan.net###skyscraper
 jokes2go.com###skyscraperDiv
+scrabble-solver.com###skywideupper
 gunsamerica.com###slidebox
 sacricketmag.com###slidein
 whatshappening.com.ph###sliderCarousel
@@ -56327,6 +56329,7 @@ amctheatres.com##.flt-ad-strut
 adcrun.ch,bc.vc##.fly_frame
 futurenet.club##.fn-banner
 transfermarkt.com##.fniNGHn
+gamespot.com##.follow-buy__link
 gamespot.com##.followBuy__body
 radiozindagi.com##.foot_top
 donegaltv.ie,emergencyemail.org##.footer
@@ -57268,6 +57271,7 @@ shacknews.com##.takeover-skin
 igg-games.com##.taxonomy-description
 constructionreviewonline.com,cyberparse.co.uk,eindhovennews.com,ericpetersautos.com,gameplayinside.com,gamezone.com,gizmochina.com,greekreporter.com,industryhit.com,maltabusinessweekly.com,musictech.net,newsnext.live,nme.com,radioink.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
 bizasialive.com##.td-all-devices
+americanindependent.com##.td-banner-bg
 brila.net,cgmagonline.com,cycling.today,gayexpress.co.nz,theyeshivaworld.com,thisisanfield.com##.td-banner-wrap-full
 boxthislap.org,ticgn.com,wtf1.co.uk##.td-footer-wrapper
 healthyceleb.com##.td-header-header-full
@@ -73416,6 +73420,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||get-trust-zone.info/api_ip_info.php?
 ||humanoid.fr/register-impression?
 ||i-services.net^*/compteur.php?
+||img-static.com/CERISE.gif?
 ||jvc.gg^*/traffic.js
 ||leguide.com/js/lgtrk-*.js
 ||linguee.fr/white_pixel.gif
@@ -87092,6 +87097,7 @@ boobsrealm.com##+js(acis, puShown, /doOpen|popundr/)
 boobsrealm.com##iframe[style$="height: 250px;"]
 720pstream.*##+js(aeld, , break;case $.)
 720pstream.*##+js(nowoif)
+720pstream.*##+js(nostif, "admc")
 ytanime.tv##^script:has-text(u_cfg)
 ytanime.tv##+js(acis, document.querySelectorAll, popMagic)
 ytanime.tv##+js(acis, Math, break;case $.)
@@ -94042,6 +94048,7 @@ si.com#@#.is-below-header-ad
 @@||googletagmanager.com/gtm.js$script,domain=kingarthurbaking.com
 cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||psl.2cycomic.com^$script,domain=yemancomic.com
+@@||fast.fonts.net/jsapi/core/mt.js$script,domain=gables.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -101150,7 +101157,7 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 22 Apr 2002 00:00:00
+# start date:    Tue, 23 Apr 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
