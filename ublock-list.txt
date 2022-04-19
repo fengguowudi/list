@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GlJ2k1e0iV15NRDwqRUx6w
+! Checksum: GUz9gNZ7t7Ii4obrA2ofHA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204191426
-! Last Modified: 2022年04月19日 14:26
+! Version: 202204192044
+! Last Modified: 2022年04月19日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -67428,6 +67428,7 @@ _mongo_stats/
 ||pingil.com^$third-party
 ||pingmeter.com^$third-party
 ||pingomatic.com^$third-party
+||pingometer.com^$third-party
 ||pinpoll.com^$third-party
 ||pipfire.com^$third-party
 ||pippio.com^$third-party
@@ -73962,6 +73963,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||7w.ro/js/trk.js
 ||enginey.altex.ro/events/
 ||onnetwork.tv/cnt/
+||pixel.biano.ro^
 ||profiling.avandor.com^
 ||t5.ro/static/$third-party
 ||top.skyzone.ro^
@@ -84639,6 +84641,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||vfd2dyn.vodafone.de^
 ||wa.gmx.net/gmxde/gmxde/s?$image
 ||wikipedia.de/tracking.js
+||wjq.ma.tarnkappe.info^
 ||wlw.de/unified_search_backend/api/v1/tracking/
 ||ymprove.gmx.net^
 ||ymprove.web.de^
@@ -89596,6 +89599,9 @@ pornicom.com##a[href^="https://s.zlinkm.com/"]
 pornicom.com##a[href^="https://s.zlinkv.com/"]
 pornicom.com##a[href^="https://claring-loccelkin.com/"]
 sexmadeathome.com##+js(aopr, document.dispatchEvent)
+sexmadeathome.com###dclm_modal_content
+sexmadeathome.com##*:style(filter: none !important)
+sexmadeathome.com###dclm_modal_screen
 nylondolls.com##+js(aopr, document.dispatchEvent)
 sidereel.com###netaktion_ad
 techymedies.com##+js(acis, eval, replace)
