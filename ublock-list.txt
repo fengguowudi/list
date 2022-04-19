@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UA4zl4t12XNQnx9HNdz2Kg
+! Checksum: GlJ2k1e0iV15NRDwqRUx6w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204190957
-! Last Modified: 2022年04月19日 09:57
+! Version: 202204191426
+! Last Modified: 2022年04月19日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17326,7 +17326,6 @@ _800x80_
 ##.WikiaTopAds
 ##.WiredWidgetsDartAds
 ##.WiredWidgetsGoogleAds
-##.WithAds
 ##.XEad
 ##.YEN_Ads_120
 ##.YEN_Ads_125
@@ -30330,7 +30329,6 @@ _800x80_
 ##.wis_adControl
 ##.with-background-ads
 ##.with-wrapper-ads
-##.withAds
 ##.withBanners__ad
 ##.with_ctecad
 ##.wixAdsdesktopBottomAd
@@ -57691,6 +57689,7 @@ noqreport.com##[src^="https://media.mercola.com/assets/html/"]
 buzzly.art##[src^="https://submissions.buzzly.art/CANDY/"]
 mql5.com##[src^="https://www.mql5.com/fz/"]
 goal.com##[style*="--card-group-item:ad"]
+raspberryexpert.com##[style*="border-bottom: none;"]
 medicalnewstoday.com##[style*="line-height: 0;"]
 shotcut.org##[style="background-color: #fff; padding: 6px; text-align: center"]
 wahm.com##[style="min-height:250px;"]
