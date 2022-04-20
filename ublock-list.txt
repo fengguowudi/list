@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q/t8KDX09Swi5bSkk7BWPg
+! Checksum: KsKuMNZL6UNsSoSxZ43+yA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204201001
-! Last Modified: 2022年04月20日 10:01
+! Version: 202204201428
+! Last Modified: 2022年04月20日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -30554,7 +30554,7 @@ _800x80_
 ##[href^="http://trafficare.net/"]
 ##[href^="http://www.pingperfect.com/aff.php"]
 ##[href^="https://affect3dnetwork.com/track/"]
-##[href^="https://affiliate.fastcomet.com/"]
+##[href^="https://affiliate.fastcomet.com/"] > img
 ##[href^="https://awbbjmp.com/"]
 ##[href^="https://click2cvs.com/"]
 ##[href^="https://detachedbates.com/"]
@@ -89875,6 +89875,7 @@ mgnet.xyz##+js(nano-stb, _0x, 15000)
 mgnet.xyz##.active.bnsLayers.is-block-touch.is-grid > .col_12.article-center
 mgnet.xyz##.bounceIn.animated.bnsLayers.is-block-touch.is-grid
 dealsfinders.blog##+js(no-fetch-if, method:HEAD)
+dealsfinders.blog##+js(nostif, show)
 @@||olympusscanlation.com^$ghide
 olympusscanlation.com##+js(aopw, _pop)
 olympusscanlation.com##.sticky_ad_beta
