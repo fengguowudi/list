@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: E7/jVQthb0IZRvHGS3gePg
+! Checksum: +M2WPdfZexh2Jm22rrWMnA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204210952
-! Last Modified: 2022年04月21日 09:52
+! Version: 202204211428
+! Last Modified: 2022年04月21日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -90046,7 +90046,7 @@ expresscrypto.io##.content > center
 @@||c.adsco.re/|$script,domain=hotfrog.*
 baixedetudo.net.br##+js(acis, JSON.parse, break;case $.)
 @@||goplay.be^$ghide
-pirate4all.com##+js(acis, JSON.parse, break;case $.)
+pirate4all.com##+js(acis, parseInt, break;case $.)
 pirate4all.com##.e3lan-top.e3lan
 pirate4all.com##.pirat-before-content
 animenhentai.com##.post.has-post-thumbnail video#gump:upward(.post):remove()
@@ -90054,7 +90054,7 @@ animenhentai.com###custom_html-3
 ||edge.api.brightcove.com^$xhr,removeparam=ad_config_id,domain=9now.com.au|mech-plus.com|threenow.co.nz
 threenow.co.nz##.EpisodeAdBlockerWarning
 9now.com.au##.vjs-cuepoint
-egyshare.cc##+js(acis, JSON.parse, break;case $.)
+egyshare.cc##+js(acis, parseInt, break;case $.)
 egyshare.cc##+js(aopw, _pop)
 kshow123.net##+js(acis, JSON.parse, break;case $.)
 kshow123.net###ads-top-player
@@ -90187,8 +90187,8 @@ ztorrents.net##+js(aopr, absda)
 ztorrents.net##.adsn-top
 ztorrents.net##.bottom-Ads
 ztorrents.net##.top-Ads
-watchtheoffice.cc##+js(acis, JSON.parse, break;case $.)
-watchtheoffice.cc###custom_html-4
+watchtheofficetv.com##+js(acis, parseInt, break;case $.)
+watchtheofficetv.com###custom_html-4
 pelis-online.net##+js(aopw, absda)
 pelis-online.net##.adv
 kentonline.co.uk##+js(nostif, enforceAdStatus)
@@ -90232,7 +90232,7 @@ shorte.anxcinema.com##+js(set, blurred, false)
 shorte.anxcinema.com##+js(aopr, open)
 mejoresmodsminecraft.site##+js(acis, decodeURIComponent, ai_adb)
 watchdoctorwhoonline.com##^script:has-text(break;case $.)
-watchdoctorwhoonline.com##+js(acis, JSON.parse, break;case $.)
+watchdoctorwhoonline.com##+js(acis, parseInt, break;case $.)
 watchdoctorwhoonline.com##.custom-html-widget.textwidget > .close
 synonyms.com##+js(set, canRunAds, true)
 pcgamesn.com##header:style(top:0 !important)
@@ -90286,7 +90286,7 @@ allfoot.info##+js(nostif, nextFunction)
 assia.org##[class^="ban"]
 ootech.vn##+js(acis, $, test)
 ||add.pics^$3p,script
-viralitytoday.com##+js(acis, JSON.parse, break;case $.)
+viralitytoday.com##+js(acis, parseInt, break;case $.)
 /px.gif?$image,redirect-rule=1x1.gif,1p
 buffstream.*##+js(acis, JSON.parse, break;case $.)
 comedyshow.to##+js(acis, JSON.parse, break;case $.)
@@ -90472,9 +90472,10 @@ masteredutech.com##+js(acis, JSON.parse, break;case $.)
 defaultfreeshort.in##+js(set, blurred, false)
 defaultfreeshort.in###myDIV:style(display: block!important;)
 defaultfreeshort.in##.banner-inner
-codecomets.com##+js(rc, disabled, a#enablebtn)
-codecomets.com##.blog-item
-codecomets.com###timeblock
+codecomets.com,techxpulse.com##+js(rc, disabled, a#enablebtn)
+codecomets.com,techxpulse.com##.blog-item
+codecomets.com,techxpulse.com###timeblock
+techxpulse.com###msgblock:style(display: block !important)
 ||ytsubme.com/assets/adblock/
 ytsubme.com##+js(nowoif, youtube)
 ytsubme.com##+js(nano-stb, aTagChange, 12000)
@@ -90506,7 +90507,7 @@ flixmaza.*##+js(aopr, absda)
 flixmaza.*##+js(aopw, _pop)
 linkshere.*##+js(acis, JSON.parse, break;case $.)
 hdonline.co##+js(acis, JSON.parse, break;case $.)
-cricstream.*##+js(acis, JSON.parse, break;case $.)
+cricstream.*##+js(acis, parseInt, break;case $.)
 cricstream.*##.w-100.position-absolute.h-100
 meetdownload.com##+js(acis, document.querySelectorAll, popMagic)
 wishanimes.com##+js(acis, JSON.parse)
@@ -90580,7 +90581,7 @@ glotorrents.fr-proxy.com,glotorrents.theproxy.ws##+js(nowoif)
 glotorrents.fr-proxy.com,glotorrents.theproxy.ws##+js(aopr, String.prototype.charCodeAt)
 mikaraw.com##div[style*="width: 350px"][style*="height: 250px"]
 ||cdn.fedsy.xyz/app.js
-myoplay.club##+js(acis, JSON.parse, break;case $.)
+myoplay.club##+js(acis, parseInt, break;case $.)
 loticon.xyz##+js(acis, document.getElementById, 'OK')
 cimaflam.com##+js(acis, JSON.parse, break;case $.)
 yoyofilmeys.*##+js(acis, JSON.parse, break;case $.)
@@ -91075,6 +91076,7 @@ svetserialu.to##+js(nowoif)
 onlytech.com##+js(acis, $, test)
 pinoymovies.es##+js(ra, href, #clickfakeplayer)
 pinoymovies.es##+js(set, dtGonza.playeradstime, -1)
+/fret/meow4/*/brt.js$script,3p
 ||01net.com/telecharger/$doc
 ||com.com^$doc
 ||flexytalk.net^
@@ -92295,9 +92297,11 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /^http:\/\/[a-z]{10}\.duckdns/$doc,domain=duckdns.org
 ||classpharmenado.com^$doc
 ||everypdnsharmacy.com^$doc
+||family24rx.com^$doc
 ||happypharmproduct.com^$doc
 ||helppharmlead.com^$doc
 ||onpharmvermen.com^$doc
+||sale24-pills.com^$doc
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
