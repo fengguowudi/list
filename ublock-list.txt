@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SjISKzb9UGH02DaGeXLrVg
+! Checksum: E9ofWVrbhcwjGQMIepMg3g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204220232
-! Last Modified: 2022年04月22日 02:32
+! Version: 202204221000
+! Last Modified: 2022年04月22日 10:00
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -41173,6 +41173,7 @@ tf2r.com#@#.adverts
 ||mm-cgnews.com^
 ||mm-syringe.com^
 ||mmadsgadget.com^
+||mmafwcrqcqqmx.com^
 ||mmctsvc.com^
 ||mmgads.com^
 ||mmismm.com^
@@ -47816,6 +47817,7 @@ tf2r.com#@#.adverts
 ||wkihmvgilwj.com^
 ||wkll7glfazgp.com^
 ||wknaczrxjrj.com^
+||wkqpbketxqrl.com^
 ||wkxdaqojx.com^
 ||wlapdczzpceb.com^
 ||wlengrclxzypf.com^
@@ -62283,7 +62285,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /horizon/track?
 /host-analyticsjs-local/*
 /hotmobtag_
-/hoverIntent.min.js
 /hpanalytics_
 /hpmetrics.
 /hrtrackjs.gif?
@@ -101478,7 +101479,7 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 26 Apr 2002 00:00:00
+# start date:    Sat, 27 Apr 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
