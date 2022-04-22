@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kdAsaeIWEz9y40oozozGGg
+! Checksum: OCx1D2vJ+hN9QzQVgDRFSQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204221427
-! Last Modified: 2022年04月22日 14:27
+! Version: 202204222041
+! Last Modified: 2022年04月22日 20:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20064,7 +20064,6 @@ _800x80_
 ##.adbTrkWt
 ##.adback
 ##.adbadge
-##.adban
 ##.adban-hold-narrow
 ##.adband
 ##.adbanner
@@ -24050,6 +24049,7 @@ _800x80_
 ##.container-with-ad
 ##.containerAdsense
 ##.containerSqAd
+##.container__ad
 ##.container__box--ads
 ##.container_ad
 ##.container_ad_v
@@ -31402,6 +31402,7 @@ _800x80_
 ##a[href^="http://https://www.get-express-vpn.com/offer/"]
 ##a[href^="https://affiliate.rusvpn.com/click.php?"]
 ##a[href^="https://billing.purevpn.com/aff.php"] > img
+##a[href^="https://fastestvpn.com/lifetime-special-deal?a_aid="]
 ##a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img
 ##a[href^="https://go.nordvpn.net/aff"] > img
 ##a[href^="https://torguard.net/aff.php"] > img
@@ -39391,7 +39392,6 @@ tf2r.com#@#.adverts
 ||investigatorpertinent.com^
 ||investmentstar.org^
 ||investmeny.org^
-||investnewsbrazil.com^
 ||invisedspill.com^
 ||invitesuperstitiousadmire.com^
 ||invraisemblable.com^
@@ -44070,7 +44070,6 @@ tf2r.com#@#.adverts
 ||recastcompellease.com^
 ||recdirectgo.biz^
 ||receiptfastestparameter.com^
-||receitasefinancas.com^
 ||recentinteriorcrab.com^
 ||recentlyunknowninterested.com^
 ||recentrecentturf.com^
@@ -49548,6 +49547,7 @@ tf2r.com#@#.adverts
 ||inuvo.com^$third-party
 ||inuxu.biz^$third-party
 ||inuxu.co.in^$third-party
+||investnewsbrazil.com^$third-party
 ||inviziads.com^$third-party
 ||involve.asia^$third-party
 ||ip-adress.com^$third-party
@@ -49843,6 +49843,7 @@ tf2r.com#@#.adverts
 ||realbig.media^$third-party
 ||realclick.co.kr^$third-party
 ||realssp.co.kr^$third-party
+||receitasefinancas.com^$third-party
 ||redintelligence.net^$third-party
 ||redirectnative.com^$third-party
 ||redirectpopads.com^$third-party
@@ -58035,6 +58036,7 @@ kijiji.ca##div[class^="sponsored-"]
 whatsondisneyplus.com##div[class^="whats-"]
 geoguessr.com##div[class^=result-layout_right__]
 viator.com##div[data-action-page-properties="featured_placements_on_list_page"]
+unsplash.com##div[data-ad="true"]
 google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-section-id$="__adb"]
 ecosia.org##div[data-test-id="mainline-result-ad"]
 qwant.com##div[data-testid="productAdsMicrosoft.container"]
@@ -75425,12 +75427,13 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 /^https?:\/\/www\.halifax-online\.co\.uk\/[A-Za-z0-9]{4,6}\/[A-Za-z0-9]{2}\/[A-Za-z0-9]{2}\//$script,xmlhttprequest,domain=halifax-online.co.uk
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
-||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
+||127.0.0.1^$third-party,domain=53.com|ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
 ||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
 ||citi.com^*/fp.js
 ||citibank.com.ph/tmx/js/
 ||drfdisvc.walmart.com^
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
+||event.evtm.53.com^
 ||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||pages.ebay.com/identity/device/$subdocument
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
@@ -85998,6 +86001,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||oakley.com^*/tealium.js$~third-party
 @@||oceanstatejoblot.com^*/widget/osjl-google-analytics/$script,~third-party
+@@||okccdn.com/builds/desktop/js/tracking_center.$script,domain=okcupid.com
 @@||omtrdc.net^*/mbox/ajax?$script,domain=swisscom.ch
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|argos.co.uk|att.com|homedepot.com|swisscom.ch|t-mobile.com
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.co.uk|ancestry.com|ancestry.com.au|ancestry.it|blogtalkradio.com|swisscom.ch
@@ -89846,7 +89850,6 @@ notformembersonly.com###post-separate > p > .local-link
 unsplash.com##div[style^="--row-gutter"] > div a[href="/brands"]:upward(div[style^="--row-gutter"] > div):remove()
 unsplash.com##div[data-test="SearchInFeedAd-AffiliateFallback-Container"]
 unsplash.com##div[data-affiliates-grid-container]:upward(1)
-unsplash.com##[data-ad]
 @@||wa.cdn-surfline.com/quiver/0.18.5/scripts/ad/$script,domain=surfline.com
 @@||samuraiscan.com^$ghide
 milanworld.net##+js(acis, $, test)
@@ -91868,8 +91871,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||protecttimeknew.live^$doc
 ||ifetirw.xyz^$doc
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
-/^https?:\/\/((?!www)[a-z]{3,}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top|us|xyz)\/(?:[a-z]{8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=com|fun|guru|life|online|pw|site|space|top|us|xyz
-/^https?:\/\/((?!www)[a-z]{3,}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top|us|xyz)\/(?:[a-z]{8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=com|fun|guru|life|online|pw|site|space|top|us|xyz
+/^https?:\/\/((?!www)[a-z]{3,}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top|us|xyz)\/(?:[a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=com|fun|guru|life|online|pw|site|space|top|us|xyz
+/^https?:\/\/((?!www)[a-z]{3,}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top|us|xyz)\/(?:[a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=com|fun|guru|life|online|pw|site|space|top|us|xyz
 /^https:\/\/(?:www\d\.)?[-a-z]{6,9}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}/\?cid=[-_0-9a-zA-Z]{24,36}&sid=[_0-9a-f]{1,32}$/$doc,match-case,domain=com|info|net|org
 ||ogtrk.net^
 ||gameglitcher.com^
@@ -94371,6 +94374,8 @@ si.com#@#.is-below-header-ad
 cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||psl.2cycomic.com^$script,domain=yemancomic.com
 @@||v.fwmrm.net/ad/g/$script,domain=embed.sanoma-sndp.fi
+@@||builder-assets.unbounce.com^$css,domain=duden.de
+@@||builder-assets.unbounce.com/published-js/main.bundle-$script,domain=duden.de
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -101471,7 +101476,7 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Mon, 11 Apr 2022 22:33:45 GMT
-# entries:        3682
+# entries:        3678
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -101480,7 +101485,6 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
 # start date:    Sat, 27 Apr 2002 00:00:00
-127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
 127.0.0.1 123freeavatars.com
@@ -101793,7 +101797,6 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 127.0.0.1 admized.com
 127.0.0.1 admob.com
 127.0.0.1 admonitor.com
-127.0.0.1 admotion.com.ar
 127.0.0.1 adn.lrb.co.uk
 127.0.0.1 adnet.asahi.com
 127.0.0.1 adnet.biz
@@ -103010,6 +103013,7 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 127.0.0.1 crwdcntrl.net
 127.0.0.1 crypto-loot.org
 127.0.0.1 ctnetwork.hu
+127.0.0.1 cubics.com
 127.0.0.1 culturedcrayon.com
 127.0.0.1 cumbersomecloud.com
 127.0.0.1 curtaincows.com
@@ -104384,7 +104388,6 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 127.0.0.1 rtbplatform.net
 127.0.0.1 rtbpop.com
 127.0.0.1 rtbpopd.com
-127.0.0.1 rtbtradein.com
 127.0.0.1 rtmark.net
 127.0.0.1 rtpdn11.com
 127.0.0.1 rtxplatform.com
@@ -104696,7 +104699,6 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 127.0.0.1 takru.com
 127.0.0.1 talentedsteel.com
 127.0.0.1 tamgrt.com
-127.0.0.1 tangerinenet.biz
 127.0.0.1 tangibleteam.com
 127.0.0.1 tapad.com
 127.0.0.1 tapfiliate.com
@@ -104978,7 +104980,6 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 127.0.0.1 ventivmedia.com
 127.0.0.1 venturead.com
 127.0.0.1 verblife-3.co
-127.0.0.1 verblife-4.co
 127.0.0.1 verblife-5.co
 127.0.0.1 vericlick.com
 127.0.0.1 vertamedia.com
