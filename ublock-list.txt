@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gw8CxuD4ZG8KpiIcL85PTg
+! Checksum: pogl4YhlU7uMT6OjsNGxtw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204232034
-! Last Modified: 2022年04月23日 20:34
+! Version: 202204240225
+! Last Modified: 2022年04月24日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -87744,6 +87744,8 @@ speedostream.com##+js(acis, Math, break;case $.)
 speedostream.com##+js(aost, Object.getOwnPropertyDescriptor, /^/)
 speedostream.com##+js(aost, JSON.parse, computed)
 speedostream.com##^script:has-text(break;case $.)
+speedostream.com##+js(aeld, , break;case $.)
+||s.speedostream.com^$script,1p
 @@||nnaa66.xyz^$ghide
 lightnovelpub.com##+js(aeld, load, /google_ad_url|freestar/)
 lightnovelpub.com##aside.container
