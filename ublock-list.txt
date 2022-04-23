@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tJKKUka4rsGu4iguF0O7+w
+! Checksum: gw8CxuD4ZG8KpiIcL85PTg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204231425
-! Last Modified: 2022年04月23日 14:25
+! Version: 202204232034
+! Last Modified: 2022年04月23日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -87767,6 +87767,7 @@ galaxy-link.space##+js(set, blurred, false)
 galaxy-link.space##.box-main > .blog-item
 *$script,redirect-rule=noopjs,domain=telegraf.rs|telegraf.tv
 traveldesearch.com##+js(aost, XMLHttpRequest, onreadystatechange)
+traveldesearch.com##+js(acis, parseInt, break;case $.)
 vkspeed.com##div.jw-cue-type-ads
 @@||acilissaati.com^$ghide
 acilissaati.com##.adsbygoogle
@@ -88622,7 +88623,7 @@ indianwebseries.me##+js(aopr, mMcreateCookie)
 ergasiakanea.eu##+js(noeval-if, deblocker)
 nihonfasshon.blogspot.com##+js(acis, document.addEventListener, google_ad_client)
 ee1061360223528.xyz,s365.live##+js(aopr, afScript)
-stopstreamtv.net##+js(acis, JSON.parse, break;case $.)
+stopstreamtv.net##+js(acis, parseInt, break;case $.)
 @@||filezipa.com^$ghide
 filezipa.com##.adsbygoogle
 filezipa.com##+js(aopr, app_vars.force_disable_adblock)
@@ -89320,7 +89321,9 @@ justcastingporn.com,justfamilyporn.com##+js(acis, document.createElement, _htas)
 *$script,domain=bt4g.uproxy2.com
 animefenix.com##+js(acis, Math, break;case $.)
 animefenix.com##+js(aopr, decodeURI)
+animefenix.com##+js(aopr, mm)
 ||methidpossum.com^
+||passworddrunkenheating.com^
 @@||smallseo.tools^$ghide
 smallseo.tools##.category_box > .col-md-6 > p
 smallseo.tools##.category_box > p
