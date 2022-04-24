@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pogl4YhlU7uMT6OjsNGxtw
+! Checksum: XCt6OaeiECEkVTmWEMf93g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204240225
-! Last Modified: 2022年04月24日 02:25
+! Version: 202204240944
+! Last Modified: 2022年04月24日 09:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -92401,6 +92401,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||helppharmlead.com^$doc
 ||onpharmvermen.com^$doc
 ||sale24-pills.com^$doc
+||junk-cleaner.org^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
@@ -101557,7 +101558,7 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 28 Apr 2002 00:00:00
+# start date:    Mon, 29 Apr 2002 00:00:00
 127.0.0.1 101com.com
 127.0.0.1 101order.com
 127.0.0.1 123freeavatars.com
