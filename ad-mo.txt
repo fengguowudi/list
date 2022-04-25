@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SZoEmd0gjkRfk7A7Bwk44A
+! Checksum: yFQUd2YxGre/gsY0sbF/eg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204250949
-! Last Modified: 2022年04月25日 09:49
+! Version: 202204251428
+! Last Modified: 2022年04月25日 14:28
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -8775,6 +8775,9 @@ _800x80_
 ###a4g-floating-ad
 ###a_ad10Sp
 ###a_ad11Sp
+###aad-header-1
+###aad-header-2
+###aad-header-3
 ###abHeaderAdStreamer
 ###ab_adblock
 ###abc-AD_topbanner
@@ -21023,6 +21026,7 @@ _800x80_
 ##.ads-rect
 ##.ads-rectangle
 ##.ads-relatedbottom
+##.ads-rendering-fix
 ##.ads-right
 ##.ads-right-min
 ##.ads-rotate
@@ -54701,6 +54705,7 @@ tf2r.com#@#.adverts
 ||sareunited.com/uploaded_images/banners/
 ||sat-universe.com/wos2.png
 ||sat-universe.com/wos3.gif
+||sawfirstdelivery.com/master/delivery.js
 ||scoot.co.uk/delivery.php
 ||sedo.cachefly.net^$domain=~sedoparking.com
 ||seeklogo.com/img/partners/
@@ -62110,6 +62115,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
+||jinkege.com^
 .8ox.cn
 ||00-gov.cn^
 ||seainan333.com^
@@ -77691,6 +77697,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||kinleung.cn^
 ||smartmuchang.com^
 ||jmypaxioemnf.com^
+||qdydwlkj3.top^
 ||lawful.wang^
 ||65432.shop^
 ||xianggou.club^
@@ -97161,6 +97168,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||deepl.com/web/statistics
 ||deezer.com/ajax/gw-light.php?method=triton.pixelTracking&
 ||deliver.ptgncdn.com^
+||deliveroo.com^*/events
 ||deliveryrank.com/drapp070eb2deb1932e2101e6.js
 ||dellcdn.com/csb/scripts/csb-boomr.$domain=dell.com
 ||delta.com/datacollect
@@ -97223,6 +97231,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event-api.reverb.com^
 ||eventlog.jackpot.de^
 ||events-service.coinbase.com^
+||events-tracker.deliveroo.net^
 ||events.api.godaddy.com^
 ||events.practo.com^
 ||events.privy.com^

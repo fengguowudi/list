@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kVuuMuooD+rItYiyYjfkdA
+! Checksum: axTyw10zWiBFgs4C4UefsQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204250949
-! Last Modified: 2022年04月25日 09:49
+! Version: 202204251428
+! Last Modified: 2022年04月25日 14:28
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1862,6 +1862,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
+||jinkege.com^
 .8ox.cn
 ||00-gov.cn^
 ||seainan333.com^
@@ -17443,6 +17444,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||kinleung.cn^
 ||smartmuchang.com^
 ||jmypaxioemnf.com^
+||qdydwlkj3.top^
 ||lawful.wang^
 ||65432.shop^
 ||xianggou.club^
@@ -39164,6 +39166,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||deepl.com/web/statistics
 ||deezer.com/ajax/gw-light.php?method=triton.pixelTracking&
 ||deliver.ptgncdn.com^
+||deliveroo.com^*/events
 ||deliveryrank.com/drapp070eb2deb1932e2101e6.js
 ||dellcdn.com/csb/scripts/csb-boomr.$domain=dell.com
 ||delta.com/datacollect
@@ -39226,6 +39229,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event-api.reverb.com^
 ||eventlog.jackpot.de^
 ||events-service.coinbase.com^
+||events-tracker.deliveroo.net^
 ||events.api.godaddy.com^
 ||events.practo.com^
 ||events.privy.com^

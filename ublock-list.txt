@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Fj0QrZDkLvAMumacyUTxmA
+! Checksum: wxlXVntYjN8GllHfP/epmA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204250949
-! Last Modified: 2022年04月25日 09:49
+! Version: 202204251428
+! Last Modified: 2022年04月25日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8437,6 +8437,9 @@ _800x80_
 ###a4g-floating-ad
 ###a_ad10Sp
 ###a_ad11Sp
+###aad-header-1
+###aad-header-2
+###aad-header-3
 ###abHeaderAdStreamer
 ###ab_adblock
 ###abc-AD_topbanner
@@ -20685,6 +20688,7 @@ _800x80_
 ##.ads-rect
 ##.ads-rectangle
 ##.ads-relatedbottom
+##.ads-rendering-fix
 ##.ads-right
 ##.ads-right-min
 ##.ads-rotate
@@ -54363,6 +54367,7 @@ tf2r.com#@#.adverts
 ||sareunited.com/uploaded_images/banners/
 ||sat-universe.com/wos2.png
 ||sat-universe.com/wos3.gif
+||sawfirstdelivery.com/master/delivery.js
 ||scoot.co.uk/delivery.php
 ||sedo.cachefly.net^$domain=~sedoparking.com
 ||seeklogo.com/img/partners/
@@ -74688,6 +74693,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||deepl.com/web/statistics
 ||deezer.com/ajax/gw-light.php?method=triton.pixelTracking&
 ||deliver.ptgncdn.com^
+||deliveroo.com^*/events
 ||deliveryrank.com/drapp070eb2deb1932e2101e6.js
 ||dellcdn.com/csb/scripts/csb-boomr.$domain=dell.com
 ||delta.com/datacollect
@@ -74750,6 +74756,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event-api.reverb.com^
 ||eventlog.jackpot.de^
 ||events-service.coinbase.com^
+||events-tracker.deliveroo.net^
 ||events.api.godaddy.com^
 ||events.practo.com^
 ||events.privy.com^
