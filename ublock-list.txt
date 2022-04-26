@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bEJMNbFGpr5aR56oI3KW9A
+! Checksum: PgBkhIykZu2gqgNCTaYf9Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204262043
-! Last Modified: 2022年04月26日 20:43
+! Version: 202204270228
+! Last Modified: 2022年04月27日 02:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -6527,7 +6527,7 @@
 ://ad1.
 ://adcl.$domain=~adcl.co.nz|~adcl.com|~adcl.screenconnect.com
 ://adn.*/zone/$subdocument
-://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
+://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ://ads2.
 ://adv.$domain=~adv.asahi.com|~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://affiliate.$third-party
@@ -12175,6 +12175,8 @@ _800x80_
 ###block-ad_cube-1
 ###block-adsense-0
 ###block-adsense-2
+###block-adsense-banner-article-bottom
+###block-adsense-banner-channel-bottom
 ###block-adsense_managed-0
 ###block-adtech-middle1_300x250
 ###block-adtech-middle2_300x250
@@ -32499,6 +32501,7 @@ tf2r.com#@#.adverts
 ||ac7d539d732.com^
 ||acacdn.com^
 ||acalatthen.fun^
+||acareewitu.com^
 ||accedebuzz.com^
 ||accedednews.com^
 ||accedenonre.club^
@@ -36271,6 +36274,7 @@ tf2r.com#@#.adverts
 ||dipegrathy.com^
 ||diplomadosagedream.com^
 ||diptaich.com^
+||diqkldlh.com^
 ||directaclick.com^
 ||directadvert.net^
 ||directdexchange.com^
@@ -36987,6 +36991,7 @@ tf2r.com#@#.adverts
 ||emolapnay.com^
 ||emotersjervina.com^
 ||emotionpiousconformity.com^
+||emphen.com^
 ||empirelayer.club^
 ||empiremoney.com^
 ||employdearestspatter.com^
@@ -37465,6 +37470,7 @@ tf2r.com#@#.adverts
 ||fearlessmigrantstate.com^
 ||fearpeaceoversight.com^
 ||feastoffortuna.com^
+||featassuage.com^
 ||featbooksterile.com^
 ||featuredusers.com^
 ||featurelink.com^
@@ -37691,6 +37697,7 @@ tf2r.com#@#.adverts
 ||fluxioncytasic.com^
 ||fluxy.xyz^
 ||flvpcdnb.com^
+||flwvnqfxwoedg.com^
 ||flycheapen.com^
 ||flysoothingate.com^
 ||fmebili.info^
@@ -38261,6 +38268,7 @@ tf2r.com#@#.adverts
 ||globaltakeoff.net^
 ||globaltraffico.com^
 ||globereflecting.com^
+||globeshyso.com^
 ||globwo.online^
 ||glochykeste.pro^
 ||glodrips.com^
@@ -39263,6 +39271,7 @@ tf2r.com#@#.adverts
 ||imgwebfeed.com^
 ||imiclk.com^
 ||imimtord.net^
+||iminatedm.com^
 ||imitrk.com^
 ||immedlinkum.info^
 ||immigrantarchipelagopoetic.com^
@@ -39457,6 +39466,7 @@ tf2r.com#@#.adverts
 ||intersectiondejectedfaraway.com^
 ||interst12.com^
 ||interstitial-07.com^
+||interstitial-08.com^
 ||intervalssuggested.com^
 ||intimidatepropel.com^
 ||intimidatewearisomespecialist.com^
@@ -40475,6 +40485,7 @@ tf2r.com#@#.adverts
 ||libihimu.com^
 ||librariessunflower.com^
 ||licantrum.com^
+||licencerings.com^
 ||lichtpass.com^
 ||licichoshy.com^
 ||lickingdestroyedheating.com^
@@ -42106,6 +42117,7 @@ tf2r.com#@#.adverts
 ||nycjyvsyk.com^
 ||nyetm2mkch.com^
 ||nygvejyn.com^
+||nyhhnfsjo.com^
 ||nyjixoco.com^
 ||nymolf.com^
 ||nymotuda.com^
@@ -42178,6 +42190,7 @@ tf2r.com#@#.adverts
 ||obviousmanipulate.com^
 ||obyjpiok.com^
 ||oc2tdxocb3ae0r.com^
+||ocafvdwyqokdjox.com^
 ||occultcreed.com^
 ||occume.com^
 ||occupyskinnymaggot.com^
@@ -42383,6 +42396,7 @@ tf2r.com#@#.adverts
 ||onmarshtompor.com^
 ||onnnxftprfvm.xyz^
 ||onolinclosesr.club^
+||onpluslean.com^
 ||onsandam.biz^
 ||onsetoyour.fun^
 ||onshipsui.xyz^
@@ -42496,6 +42510,7 @@ tf2r.com#@#.adverts
 ||osaceikmxsm.com^
 ||oskiwood.com^
 ||osmondards.pro^
+||osseasougan.com^
 ||osskanger.com^
 ||osspalkiaom.com^
 ||ossshucklean.com^
@@ -43336,6 +43351,7 @@ tf2r.com#@#.adverts
 ||powerad.ai^
 ||poweradblocker.com^
 ||powerain.biz^
+||powerfulrobin.com^
 ||powermelting.com^
 ||powferads.com^
 ||poxa.xyz^
@@ -44125,6 +44141,7 @@ tf2r.com#@#.adverts
 ||rcvlinks.com^
 ||rcxocdfgvur.com^
 ||rdansnyenu.xyz^
+||rdcqbyienb.com^
 ||rddywd.com^
 ||rdgfnqakk.com^
 ||rdowulajr.xyz^
@@ -46092,6 +46109,7 @@ tf2r.com#@#.adverts
 ||tbv157xq.com^
 ||tcatholicyclea.com^
 ||tcdnwha.com^
+||tcoekdwnuveaisk.com^
 ||tcppu.com^
 ||td553.com^
 ||td563.com^
@@ -46162,6 +46180,7 @@ tf2r.com#@#.adverts
 ||teracreative.com^
 ||terats.com^
 ||termadodad.com^
+||terminuspaganscience.com^
 ||termitekalinga.com^
 ||terningpail.com^
 ||terra8nb.com^
@@ -46291,6 +46310,7 @@ tf2r.com#@#.adverts
 ||thodowaro.com^
 ||thofandew.com^
 ||thogrypufe.pro^
+||tholected.com^
 ||thomageothe.club^
 ||thompaur.com^
 ||thongaspredo.com^
@@ -46515,6 +46535,7 @@ tf2r.com#@#.adverts
 ||totallegitimate.com^
 ||totallifeguru.com^
 ||totalnicefeed.com^
+||totalwownews.com^
 ||totentacruelor.com^
 ||tothisimpo.biz^
 ||totlnkbn.com^
@@ -47009,6 +47030,7 @@ tf2r.com#@#.adverts
 ||unoblotto.net^
 ||unoseconomin.xyz^
 ||unpanchamon.com^
+||unphionetor.com^
 ||unpleasantconcrete.com^
 ||unpredictableshell.com^
 ||unpredictablewatchpenalty.com^
@@ -47479,6 +47501,7 @@ tf2r.com#@#.adverts
 ||volna2babla1dh1.com^
 ||volthamfondue.com^
 ||voltskegscurate.com^
+||volumeearthquakedozen.com^
 ||voluumtracker.com^
 ||voluumtrk.com^
 ||voluumtrk3.com^
@@ -47523,6 +47546,7 @@ tf2r.com#@#.adverts
 ||vrhorus.com^
 ||vriwjpzvh.com^
 ||vrptgslcxm.com^
+||vrqsvrnjrhdmek.com^
 ||vrsshsdaa.com^
 ||vrtzads.com^
 ||vs001t.com^
@@ -48000,6 +48024,7 @@ tf2r.com#@#.adverts
 ||workmanceremony.com^
 ||workplacehorse.com^
 ||workplacelimetree.com^
+||workroomsplittingtrashy.com^
 ||workshirty.club^
 ||worldfreshblog.com^
 ||worldsbestoffer.xyz^
@@ -48104,6 +48129,7 @@ tf2r.com#@#.adverts
 ||wwnrdqxo.com^
 ||wwow.xyz^
 ||wwoww.xyz^
+||wwowww.xyz^
 ||wwpon365.ru^
 ||wwrpfevyca.com^
 ||wwry.xyz^
@@ -51952,6 +51978,7 @@ tf2r.com#@#.adverts
 ||torrentsafeguard.com^$popup
 ||totaladperformance.com^$popup
 ||totalnicefeed.com^$popup
+||totalwownews.com^$popup
 ||totlnkcl.com^$popup
 ||touroumu.com^$popup
 ||tozoruaon.com^$popup
@@ -52137,6 +52164,7 @@ tf2r.com#@#.adverts
 ||wotythowe.pro^$popup
 ||wwija.com^$popup
 ||wwow.xyz^$popup
+||wwowww.xyz^$popup
 ||wwsearch.click^$popup
 ||wwwpromoter.com^$popup
 ||wwznqib.com^$popup
@@ -53473,6 +53501,7 @@ tf2r.com#@#.adverts
 ||d2cgumzzqhgmdu.cloudfront.net^
 ||d2cmh8xu3ncrj2.cloudfront.net^
 ||d2d8qsxiai9qwj.cloudfront.net^
+||d2dyjetg3tc2wn.cloudfront.net^
 ||d2e30rravz97d4.cloudfront.net^
 ||d2edfzx4ay42og.cloudfront.net^
 ||d2enprlhqqv4jf.cloudfront.net^
@@ -54822,12 +54851,16 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||mp3-convert.org/p$popup
 ||notube.website/p/$popup
 ||pinoymovies.es/links/$popup
+||piraproxy.info/&^$popup
+||piraproxy.info/hkz2^$popup
 ||player.tabooporns.com^$popup
 ||qontent.pouvideo.cc^$popup
 ||sendspace.com/defaults/sendspace-pop.html$popup
 ||skycheats.com^$popup,domain=elitepvpers.com
 ||t.co^$popup,domain=hltv.org
 ||topeuropix.site/svop4/$popup
+||unblockedstreaming.net/&^$popup
+||unblockedstreaming.net/hkz^$popup
 ||vidxhot.net/out.php$popup
 ||vpnfortorrents.*?$popup
 ||waaw.to/out.php$popup
@@ -55584,6 +55617,7 @@ designtaxi.com###large-screen-notices
 247wallst.com###lb-fill
 redferret.net###lb_wrap
 rpmseek.com###lbanner_top
+piraproxy.info,unblockedstreaming.net###lbxUR99472
 gpsreview.net###lead
 steroid.com###lead_area_opener
 iphonic.tv,kontraband.com,motherproof.com,nutritioncuisine.com,sansabanews.com,thestreet.com###leader
@@ -58331,7 +58365,7 @@ carls-sims-4-guide.com##hr.post_separator + .windowbg
 avanigo.com##iframe.lazyloaded
 micky.com.au##iframe[height="90"]
 coincodex.com,yourbittorrent.com##iframe[src]
-123-movies.ninja,123movies.net,2umovies.me,4anime.biz,4anime.gg,animebee.to,animeheaven.pro,animekisa.in,animekisa.tv,animepahe.cc,batotoo.com,bravoporn.com,dramacool.pk,dulu.to,filmyzilla.autos,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,gogoplay1.com,herogayab.net,jujutsukaisenonline.net,mangadna.com,mangahere.today,manganatos.com,mangceh.cc,membed.net,messitv.net,miraculous.to,movierulz.cam,nkiri.com,playlist-youtu.be,prmovies.bz,prmovies.cam,prmovies.li,prmovies.org,putlockers.fm,putlockers.li,rawkuma.com,ssoap2day.to,tamilyogi.best,vanime.co,wat32.tv,watchseries.ninja,webtoonshare.com,yomovies.bz,yomovies.pl,yomovies.pm,ytmp3.cc##iframe[style*="z-index: 2147483647"]
+123-movies.ninja,123movies.net,2umovies.me,4anime.biz,4anime.gg,animebee.to,animeheaven.pro,animekisa.in,animekisa.tv,animepahe.cc,batotoo.com,bravoporn.com,dramacool.pk,dulu.to,filmyzilla.autos,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,gogoplay1.com,goload.pro,herogayab.net,jujutsukaisenonline.net,mangadna.com,mangahere.today,manganatos.com,mangceh.cc,membed.net,messitv.net,miraculous.to,movierulz.cam,nkiri.com,playlist-youtu.be,prmovies.bz,prmovies.cam,prmovies.li,prmovies.org,putlockers.fm,putlockers.li,rawkuma.com,ssoap2day.to,tamilyogi.best,vanime.co,wat32.tv,watchseries.ninja,webtoonshare.com,yomovies.bz,yomovies.pl,yomovies.pm,ytmp3.cc##iframe[style*="z-index: 2147483647"]
 fansshare.com##iframe[width="300"]
 shoesession.com##iframe[width="732"]
 premiumtimesng.com##img[alt$=" Ad"]
@@ -60133,6 +60167,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ads.amazon^$popup
 @@||ads.askgamblers.com^$popup
 @@||ads.com^$popup
+@@||ads.cs.washington.edu^$popup
 @@||ads.emarketer.com/redirect.spark?$popup,domain=emarketer.com
 @@||ads.google.$popup,domain=google.ac|google.ad|google.ae|google.al|google.am|google.as|google.at|google.az|google.ba|google.be|google.bf|google.bg|google.bi|google.bj|google.bs|google.bt|google.by|google.ca|google.cat|google.cd|google.cf|google.cg|google.ch|google.ci|google.cl|google.cm|google.co.ao|google.co.bw|google.co.ck|google.co.cr|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.ls|google.co.ma|google.co.mz|google.co.nz|google.co.th|google.co.tz|google.co.ug|google.co.uk|google.co.uz|google.co.ve|google.co.vi|google.co.za|google.co.zm|google.co.zw|google.com|google.com.af|google.com.ag|google.com.ai|google.com.ar|google.com.au|google.com.bd|google.com.bh|google.com.bn|google.com.bo|google.com.br|google.com.by|google.com.bz|google.com.cn|google.com.co|google.com.cu|google.com.cy|google.com.do|google.com.ec|google.com.eg|google.com.et|google.com.fj|google.com.gh|google.com.gi|google.com.gt|google.com.hk|google.com.jm|google.com.jo|google.com.kh|google.com.kw|google.com.lb|google.com.ly|google.com.mm|google.com.mt|google.com.mx|google.com.my|google.com.na|google.com.ng|google.com.ni|google.com.np|google.com.om|google.com.pa|google.com.pe|google.com.pg|google.com.ph|google.com.pk|google.com.pr|google.com.py|google.com.qa|google.com.ru|google.com.sa|google.com.sb|google.com.sg|google.com.sl|google.com.sv|google.com.tj|google.com.tn|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vc|google.com.ve|google.com.vn|google.cv|google.cz|google.de|google.dj|google.dk|google.dm|google.dz|google.ee|google.es|google.fi|google.fm|google.fr|google.ga|google.ge|google.gg|google.gl|google.gm|google.gp|google.gr|google.gy|google.hk|google.hn|google.hr|google.ht|google.hu|google.ie|google.im|google.iq|google.is|google.it|google.it.ao|google.je|google.jo|google.jp|google.kg|google.ki|google.kz|google.la|google.li|google.lk|google.lt|google.lu|google.lv|google.md|google.me|google.mg|google.mk|google.ml|google.mn|google.ms|google.mu|google.mv|google.mw|google.ne|google.ne.jp|google.ng|google.nl|google.no|google.nr|google.nu|google.pl|google.pn|google.ps|google.pt|google.ro|google.rs|google.ru|google.rw|google.sc|google.se|google.sh|google.si|google.sk|google.sm|google.sn|google.so|google.sr|google.st|google.td|google.tg|google.tl|google.tm|google.tn|google.to|google.tt|google.us|google.vg|google.vu|google.ws
 @@||ads.google.com^$popup,domain=smallbusiness.withgoogle.com
@@ -87541,6 +87576,7 @@ embedstream.me##+js(nowoif)
 ||v1sts.me^$image,redirect-rule=1x1.gif
 embedstream.me##body > .position-absolute
 embedstream.me###aff-click
+||rtsts.me^$image,redirect-rule=1x1.gif,domain=embedstream.me
 @@||embedstream.me/cash.min.js$script,1p
 javmelon.com##+js(acis, document.querySelectorAll, popMagic)
 javporn18.com##+js(acis, mypop)
@@ -90290,7 +90326,6 @@ dirproxy.com##+js(aost, Math, )
 dirproxy.com##+js(aeld, , break;case $.)
 *$3p,script,domain=dirproxy.com
 ||onpluslean.com^
-||inklinkor.com^
 torrentdownloads.dirproxy.com##.left_shadow:has-text(Fast)
 torrentdownload.info##.thleft:has-text(Fast):upward(2)
 dirproxy.com##[src="/logo_d.jpg"]
@@ -92743,6 +92778,7 @@ reddit.com##+js(set, Object.prototype.allowClickTracking, false)
 techpowerup.com##+js(aopw, test)
 ||a2f41194651173ebf.awsglobalaccelerator.com^$3p
 /?p=%2F*&h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,1p
+/?h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,1p
 webtoons.com##+js(set, ccsrv, '')
 webtoons.com##+js(set, lcs_SerName, '')
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
@@ -93287,8 +93323,8 @@ tomsguide.com#@#.widget-ads
 hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com#@#.header-ad
 @@||vshare.eu/$popup,domain=putlockers.fm
 @@||adobedtm.com^*/satellitelib-$script,domain=virginmobile.ca
-://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.shopee.com.br|~ads.shopee.pl|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com,badfilter
-://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bestprints.biz|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cableidp.jp|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.d2c.ne.jp|~ads.dev.int.revelian.com|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gree.net|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.lviv.ua|~ads.magalu.com|~ads.mba|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.selfip.com|~ads.shopee.*|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.typepad.jp|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
+://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com,badfilter
+://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bestprints.biz|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cableidp.jp|~ads.colombiaonline.com|~ads.comeon.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.d2c.ne.jp|~ads.dev.int.revelian.com|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gree.net|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.lviv.ua|~ads.magalu.com|~ads.mba|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.selfip.com|~ads.shopee.*|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.typepad.jp|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 dday.it#@#.sponsored
 @@||europarl.europa.eu/website/webanalytics/*$script,1p
 @@||code.adsales.snidigital.com/conf/ads-config.js$script,domain=travelchannel.com
@@ -93526,7 +93562,6 @@ arstechnica.com#@#a[href^="https://www.amazon."][href*="tag="]
 @@||dogtime.com/wp-content/plugins/bwp-minify/min/*-google-analytics-$script,1p
 @@||los40.com^$ghide
 @@||epimg.net^$image,domain=los40.com
-@@*/*slot*.js$script,xhr,domain=los40.com
 @@||epimg.net/js/pbs/prebid$script,domain=los40.com
 @@||epimg.net/js/comun/avisopcdidomi2.js$script,domain=los40.com
 @@||doubleclick.net/tag/js/gpt.js$script,domain=los40.com
@@ -94629,6 +94664,8 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||ricasdelicias.online/social.php$popup,domain=animesonline.cz
 ||ruokareseptit.online^$badfilter
 ||ruokareseptit.online^$3p
+@@||laptopoutlet.co.uk/wysiwyg/asus/rise-up/popunder-$image,1p
+@@||laptopoutlet.co.uk/wysiwyg/lenovo/*_popunder_$image,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
