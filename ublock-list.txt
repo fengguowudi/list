@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: goCmd9FWkyMHczn/wCi9+Q
+! Checksum: bEJMNbFGpr5aR56oI3KW9A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204261428
-! Last Modified: 2022年04月26日 14:28
+! Version: 202204262043
+! Last Modified: 2022年04月26日 20:43
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -23426,6 +23426,7 @@ _800x80_
 ##.bottom-ad-zone
 ##.bottom-ad2
 ##.bottom-ads
+##.bottom-ads-container
 ##.bottom-ads-sticky
 ##.bottom-ads-wrapper
 ##.bottom-ads728
@@ -34268,7 +34269,6 @@ tf2r.com#@#.adverts
 ||billypub.com^
 ||bilsyndication.com^
 ||bimathyphy.com^
-||bimbim.com^
 ||bimlocal.com^
 ||bin-layer.ru^
 ||bin-tds.site^
@@ -49297,6 +49297,7 @@ tf2r.com#@#.adverts
 ||bigpulpit.com^$third-party
 ||bigspyglass.com^$third-party
 ||bildirim.eu^$third-party
+||bimbim.com^$third-party
 ||bin-layer.de^$third-party
 ||bingo4affiliates.com^$third-party
 ||binlayer.com^$third-party
@@ -86023,6 +86024,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||browser.sentry-cdn.com^$domain=dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||c.paypal.com/da/r/fb.js$script
+@@||c.webtrends-optimize.com/acs/$script,domain=tvlicensing.co.uk
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
 @@||cbsinteractive.com^*/lib/tracking/comscore/$script
 @@||cdn-care.com/js/analytics/$script,domain=care.com
@@ -86242,6 +86244,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|wallapop.com
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
+@@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||pagure.io/static/issues_stats.js?
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
@@ -86376,6 +86379,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||washingtonpost.com/wp-stat/analytics/latest/main.js
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
 @@||webapp.simplisafe.com^*/angulartics-ga.min.js$script,~third-party
+@@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
 @@||widget.trustpilot.com/bootstrap/$script,domain=exodus.co.uk|imyfone.com
@@ -91277,7 +91281,7 @@ hotsexstory.xyz##+js(acis, document.querySelectorAll, popMagic)
 plotaroute.com###RightPanelAds
 plotaroute.com###AdPanelRight
 plotaroute.com###Page:style(right: 0px !important;)
-newscon.net##+js(nostif, "adblock-warning")
+newscon.net##+js(nosiif, "adblock-warning")
 newscon.net##+js(set, clearInterval, noopFunc)
 newscon.net##+js(nano-sib, hard_work)
 gomovies.lv##+js(ra, href, #clickfakeplayer)
@@ -92119,7 +92123,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
 /^https?:\/\/((?!www)[a-z]{3,}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top|us|xyz)\/(?:[a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=com|fun|guru|life|online|pw|site|space|top|us|xyz
 /^https?:\/\/((?!www)[a-z]{3,}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top|us|xyz)\/(?:[a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=com|fun|guru|life|online|pw|site|space|top|us|xyz
-/^https:\/\/(?:www\d\.)?[-a-z]{6,9}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}/\?cid=[-_0-9a-zA-Z]{24,36}&sid=[_0-9a-f]{1,32}$/$doc,match-case,domain=com|info|net|org
+/^https:\/\/(?:www\d\.)?[-a-z]{6,13}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}/\?cid=[-_0-9a-zA-Z]{24,36}&sid=[_0-9a-f]{1,32}$/$doc,match-case,domain=com|info|net|org
 ||ogtrk.net^
 ||gameglitcher.com^
 ||antivirus-protection.me^$all
@@ -94435,7 +94439,6 @@ ilbianconero.com##.no-scroll:style(overflow:auto!important)
 @@||googletagmanager.com/gtm.js$script,domain=insideevs.com
 @@||googletagmanager.com/gtm.js$script,domain=suspilne.media
 @@||clj.valuecommerce.com/*/vcushion.min.js
-@@||securegames.iwin.com/data/gtm.json$xhr,domain=securegames.iwin.com
 @@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager.com/gtm.js,domain=midomi.com
 @@||cdn.casamireasa.biz/deploys/www/delivery^$domain=canale.live
 @@||canale.live/reclama/$1p
@@ -94626,7 +94629,6 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||ricasdelicias.online/social.php$popup,domain=animesonline.cz
 ||ruokareseptit.online^$badfilter
 ||ruokareseptit.online^$3p
-@@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
