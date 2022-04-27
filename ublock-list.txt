@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h0q3TAZQnHtYIGcj7lJpzw
+! Checksum: Ow+fZ5RvRhvW4pdqex0dAQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204271002
-! Last Modified: 2022年04月27日 10:02
+! Version: 202204271427
+! Last Modified: 2022年04月27日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56210,7 +56210,7 @@ motor1.com##.apb
 ebay.com##.app-rtm-pid-wrapper
 classicfm.com##.apple_music
 adn.com##.arcad-feature
-1news.co.nz,boston25news.com,kiro7.com,wftv.com,whio.com,wpxi.com,wsbradio.com##.arcad_feature
+1news.co.nz,boston25news.com,kiro7.com,wftv.com,whio.com,wpxi.com,wsbradio.com,wsoctv.com##.arcad_feature
 whatculture.com##.area-x__large
 arstechnica.com##.ars-component-buy-box
 ggrecon.com##.artSideBgBox
@@ -58401,6 +58401,7 @@ modelhorseblab.com##img[name="js_ad"]
 callofwar.com,macworld.co.uk,supremacy1914.com,techadvisor.com##img[referrerpolicy]
 forum.blackhairmedia.com##img[src*="/?AdID="]
 nsfwyoutube.com##img[src*="data"]
+duplichecker.com##img[src^="data:image/"]
 bcmagazine.net##img[style^="width:300px;"]
 abpclub.co.uk##img[width="118"]
 howtogermany.com##img[width="120"]
@@ -90913,6 +90914,10 @@ glotorrents.fr-proxy.com,glotorrents.theproxy.ws##+js(aopr, String.prototype.cha
 mikaraw.com##div[style*="width: 350px"][style*="height: 250px"]
 ||cdn.fedsy.xyz/app.js
 myoplay.club##+js(acis, parseInt, break;case $.)
+tutele.sx##+js(aopr, Overlayer)
+tutele.sx##+js(aopw, _pop)
+tutele.sx##+js(nostif, "admc")
+tutele.sx##^script:has-text(decodeURIComponent(q);var)
 loticon.xyz##+js(acis, document.getElementById, 'OK')
 cimaflam.com##+js(acis, JSON.parse, break;case $.)
 yoyofilmeys.*##+js(acis, JSON.parse, break;case $.)
@@ -91130,6 +91135,7 @@ watchseries1.*##+js(acis, document.querySelectorAll, popMagic)
 mundotec.pro##+js(nano-sib, seconds)
 epainfo.pl##+js(acis, document.addEventListener, adsBlocked)
 freedownloadvideo.net##+js(acis, eval, replace)
+freedownloadvideo.net##+js(no-xhr-if, googlesyndication)
 freedownloadvideo.net##a[href^="https://www.videoproc.com/"]:upward(1)
 raky.in##+js(no-fetch-if, googlesyndication)
 raky.in##+js(nano-sib)
@@ -93277,6 +93283,9 @@ pasteboard.co##+js(set, nads, trueFunc)
 pasteboard.co##+js(set, nads.createAd, trueFunc)
 go.com#@#.has-ad
 @@||googletagmanager.com/gtm.js$script,domain=mirror.co.uk
+@@||s2-prod.mirror.co.uk/*/lib/prebid/prebid-test.js$script,1p
+mirror.co.uk##+js(set, pbjs_reach, noopFunc)
+mirror.co.uk##+js(set, pbjs_reachChunk, noopFunc)
 @@||google-analytics.com/analytics.js$script,domain=experience.amd.com
 @@||googletagmanager.com/gtm.js$script,domain=experience.amd.com
 @@||edgedatg.com/aws/assets/cp/web/assets/js/*/AppMeasurement.js$script,domain=disneynow.go.com
