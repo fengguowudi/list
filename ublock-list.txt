@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pUR+pHRoU8GSZN4ii0qtoQ
+! Checksum: i0qID/SyzGciyIRoJ4OuHw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204281431
-! Last Modified: 2022年04月28日 14:31
+! Version: 202204282046
+! Last Modified: 2022年04月28日 20:46
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -19303,6 +19303,7 @@ _800x80_
 ##.adSplash
 ##.adSponsor
 ##.adSponsorText
+##.adSponsorhipInfo
 ##.adSpot
 ##.adSpot-brought
 ##.adSpot-mrec
@@ -26364,6 +26365,7 @@ _800x80_
 ##.leaderboardAdContainer
 ##.leaderboardAdContainerInner
 ##.leaderboardFooter_ad
+##.leaderboardRectAdWrapper
 ##.leaderboard_ad
 ##.leaderboard_ad_container
 ##.leaderboard_ad_top_responsive
@@ -26718,6 +26720,7 @@ _800x80_
 ##.medium-rectangle-ad
 ##.medium-rectangle-advertisement
 ##.medium-top-ad
+##.mediumRectAdWrapper
 ##.mediumRectagleAd
 ##.mediumRectangleAd
 ##.mediumRectangleAdvert
@@ -30433,6 +30436,7 @@ _800x80_
 ##.wrapper-advert-slider
 ##.wrapper-banner-half-page-ad
 ##.wrapper-google-ads
+##.wrapper-header-ad-slot
 ##.wrapper-sidebar_ads_box
 ##.wrapper-sidebar_ads_half-page
 ##.wrapper-sponsored
@@ -50256,6 +50260,7 @@ tf2r.com#@#.adverts
 ||switchadhub.com^$third-party
 ||swoop.com^$third-party
 ||swpsvc.com^$third-party
+||synkd.life^$third-party
 ||tabunder.com^$third-party
 ||tacoda.net^$third-party
 ||tacrater.com^$third-party
@@ -55300,6 +55305,7 @@ fanlesstech.com###HTML6 > .widget-content
 linkfang.org###LinkFang_Horizontal
 myanimelist.net###M_300x250_1_iframe
 myanimelist.net###M_320x50_1_iframe
+techadvisor.com###OzAUZW
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
 point2homes.com,propertyshark.com###Point2Homes_Premium_Agent_Replace_300x250
@@ -55314,7 +55320,6 @@ roblox.com###Skyscraper-Abp-Left
 roblox.com###Skyscraper-Abp-Right
 thecourier.com###TCFO_Middle2_300x250
 thecourier.com###TCFO_Middle_300x250
-techadvisor.com###TNrsRmAx
 today.az###TODAY_Slot_Top_1000x120
 today.az###TODAY_Slot_Vertical_01_240x400
 road.cc###Top-Billboard
@@ -56876,7 +56881,6 @@ givemesport.com##.gms-ad
 givemesport.com##.gms-billboard-container
 givemesport.com##.gms-sidebar-ad
 gadgetsnow.com##.gn_product_deals
-cnx-software.com##.gno
 usatoday.com##.gnt_tb
 usatoday.com##.gnt_tbr
 usatoday.com##.gnt_x__lbl
@@ -56909,6 +56913,7 @@ groovypost.com##.groov-adlabel
 saultonline.com##.gsmfab
 thelakewoodscoop.com##.gtlsad
 animenewsnetwork.com##.gutter
+cnx-software.com##.gxmas
 buzzly.art##.h-min.overflow-hidden
 lyricsmode.com##.h113
 superiorpics.com##.h250
@@ -75755,6 +75760,7 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 ||d276.ourmidland.com^
 ||d810.mysanantonio.com^
 ||dull.bankofamerica.com^$script,~third-party,xmlhttprequest
+||eventbus.intuit.com^
 ||f775.thehour.com^
 ||h353.ncadvertiser.com^
 ||h559.stamfordadvocate.com^
@@ -75762,6 +75768,7 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 ||j198.registercitizen.com^
 ||l936.expressnews.com^
 ||o398.trumbulltimes.com^
+||pf.intuit.com^
 ||q777.sfchronicle.com^
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||t570.wiltonbulletin.com^
@@ -75775,6 +75782,7 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 ||z211.yourconroenews.com^
 ||z492.ctinsider.com^
 ||z680.beaumontenterprise.com^
+||zion.qbo.intuit.com^
 ||anthropologie.com/XgWM9nuH/init.js
 ||apartmenttherapy.com/jAYekY18/init.js
 ||auctionzip.com/eKtvxkQ2/init.js
@@ -89846,13 +89854,12 @@ rureka.com##.column-left > .widget.card
 redirectz.me##+js(aopr, app_vars.force_disable_adblock)
 enagato.com##+js(aopr, open)
 enagato.com##+js(set, blurred, false)
-fapnado.*##+js(acis, document.querySelectorAll, popMagic)
 fapnado.*##+js(acis, Math.floor, ExoLoader)
 fapnado.*###list_videos_related_videos > center
 fapnado.*###pause-ads
 fapnado.*##[class^="spot"]
-||fapnado.*/nb/
 /zdoink/*$script
+||oi.fapnado.xxx^
 pogolinks.*##+js(nostif, showModal)
 pogolinks.*##+js(acis, JSON.parse, break;case $.)
 bdnewszh.com##.w-felt-side-ads
@@ -92234,6 +92241,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||family-simulators.com^$all
 ||your-dates-tonight.com^$all
 ||eningspon.com^$all
+||familysimulatorgame.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
