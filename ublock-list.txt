@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uVfxCpXmxEzlA4/w5mQ0Kw
+! Checksum: NRegPDXJkt0HSbsSJqBwQw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204291427
-! Last Modified: 2022年04月29日 14:27
+! Version: 202204292044
+! Last Modified: 2022年04月29日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -31858,6 +31858,7 @@ offmoto.com#@#.reklama
 msn.com#@#.serversidenativead
 audioholics.com,classy-online.jp#@#.side-ad
 independent.com#@#.sidebar-ads
+24city.cn.ua#@#.single-ads
 hebdenbridge.co.uk#@#.smallads
 itempost.jp#@#.sp-ad
 cityam.com#@#.sponsored-post
@@ -34515,6 +34516,7 @@ tf2r.com#@#.adverts
 ||bqnqrr43.com^
 ||bqnqrr53.com^
 ||bqyjrqenfhwc.com^
+||bqzmctxm.com^
 ||br.rk.com^
 ||br3001.com^
 ||br3011.com^
@@ -35000,6 +35002,7 @@ tf2r.com#@#.adverts
 ||cfts1tifqr.com^
 ||cfwchydynfc.com^
 ||cgjfanun12on.com^
+||cgznataqg.com^
 ||chachors.net^
 ||chaghets.net^
 ||chainads.io^
@@ -35978,6 +35981,7 @@ tf2r.com#@#.adverts
 ||dcop4khjxsmg.com^
 ||dcpxroykfpnnpm.xyz^
 ||dcqsvxuetj.com^
+||dcvaxrdmdovrsgh.com^
 ||ddb85f4fd9.com^
 ||ddc08eb47c.com^
 ||dddomainccc.com^
@@ -36120,6 +36124,7 @@ tf2r.com#@#.adverts
 ||deslncsiq.com^
 ||desolatethings.com^
 ||desolatewreck.com^
+||desticall.com^
 ||destineddominant.com^
 ||deswhatlike.biz^
 ||detachedbates.com^
@@ -36598,6 +36603,7 @@ tf2r.com#@#.adverts
 ||dviwjuggl.com^
 ||dvnmyltt.xyz^
 ||dvoyy3qexr.com^
+||dvqepopmvmypgkb.com^
 ||dvtnrwppxk.com^
 ||dvucdnv.com^
 ||dvwvqeddi.com^
@@ -37023,6 +37029,7 @@ tf2r.com#@#.adverts
 ||epigonuncream.com^
 ||epmwgmvtr.com^
 ||epnredirect.ru^
+||eporat.com^
 ||epsesy.com^
 ||epsupuby.com^
 ||eptrulinebisc.xyz^
@@ -39762,6 +39769,7 @@ tf2r.com#@#.adverts
 ||junipe3rus4virginiana.com^
 ||junmediadirect.com^
 ||junotherome.com^
+||juntfemoral.com^
 ||jupaubsa.com^
 ||jupied.com^
 ||jurehi.com^
@@ -40432,6 +40440,7 @@ tf2r.com#@#.adverts
 ||lizvojebj.com^
 ||ljecur.com^
 ||ljrshdrbbmwae.xyz^
+||ljwbrgipuqqnpe.com^
 ||ljxueswsp.com^
 ||ljyaqiggcpkica.com^
 ||lkcgvcdmc.com^
@@ -41106,6 +41115,7 @@ tf2r.com#@#.adverts
 ||mlmixpqwivsxftw.xyz^
 ||mlnadvertising.com^
 ||mlnyndkde.com^
+||mlrkqwlcetqwxwl.xyz^
 ||mlscmevlspljh.com^
 ||mlsys.xyz^
 ||mm-cgnews.com^
@@ -49543,6 +49553,7 @@ tf2r.com#@#.adverts
 ||offerpalads.com^$third-party
 ||offerserve.com^$third-party
 ||offersquared.com^$third-party
+||og-affiliate.com^$third-party
 ||okanjo.com^$third-party
 ||omclick.com^$third-party
 ||onlyalad.net^$third-party
@@ -54147,7 +54158,6 @@ tf2r.com#@#.adverts
 ||sportpesanews.com/images/promo/
 ||static.fastpic.org^$subdocument
 ||static.tellerium.com^$subdocument
-||static1.bytro.com^
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
 ||steamanalyst.com/www
 ||strcloud.club/mainstream
@@ -57735,6 +57745,7 @@ medicalnewstoday.com##[style*="line-height: 0;"]
 shotcut.org##[style="background-color: #fff; padding: 6px; text-align: center"]
 wahm.com##[style="min-height:250px;"]
 guru99.com##[style^="float"]
+pastebin.com##[style^="padding-bottom:20px;"]
 9gag.com##[style^="width: 640px; min-height: 360px;"]
 torrentresource.com##[width="150"]:last-child
 drwealth.com##[width="640"]
@@ -62580,6 +62591,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /log/server?
 /log/track/*
 /log/ux_analytics^
+/log/views/*
 /log/web?
 /log2.php?
 /log204?
@@ -88262,7 +88274,6 @@ pinayvids.com##+js(acis, document.querySelectorAll, popMagic)
 pinayvids.com##+js(aopr, decodeURI)
 ||ptube.live/ads/$redirect-rule=noopjs,script
 ptube.live##.kwasnacki
-||edgar2al2larngpoer.com^
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=10play.com.au
 10play.com.au##.content__ad__content
 aztecafaucet.space##div.text-white.active.transparent.col-md-3.col-xs-6
@@ -89221,7 +89232,6 @@ justcastingporn.com,justfamilyporn.com##+js(acis, document.createElement, _htas)
 animefenix.com##+js(acis, Math, break;case $.)
 animefenix.com##+js(aopr, decodeURI)
 animefenix.com##+js(aopr, mm)
-||methidpossum.com^
 ||passworddrunkenheating.com^
 @@||smallseo.tools^$ghide
 smallseo.tools##.category_box > .col-md-6 > p
@@ -89298,7 +89308,6 @@ javsex.to##+js(aeld, DOMContentLoaded, adsBlocked)
 javsex.to##+js(aopw, _pop)
 @@||seir-sanduk.com/$script,1p
 trueachievements.com,truesteamachievements.com###nn_bfa_wrapper
-trueachievements.com##.nn_player_w
 trueachievements.com,truesteamachievements.com,truetrophies.com##body:style(padding-top:0px !important)
 xemphimgi.net##+js(nowoif)
 techilife.com##+js(acis, jQuery, adblocker)
@@ -90014,7 +90023,6 @@ olympusscanlation.com###teaser1
 dirproxy.com##+js(aost, Math, )
 dirproxy.com##+js(aeld, , break;case $.)
 *$3p,script,domain=dirproxy.com
-||onpluslean.com^
 torrentdownloads.dirproxy.com##.left_shadow:has-text(Fast)
 torrentdownload.info##.thleft:has-text(Fast):upward(2)
 dirproxy.com##[src="/logo_d.jpg"]
@@ -90098,7 +90106,6 @@ systopedia.com##+js(aost, String.prototype.charCodeAt, ai_)
 dofusports.xyz##+js(aopw, _pop)
 dofusports.xyz##+js(nostif, debugger)
 dofusports.xyz##^script[data-cfasync]:has-text(h=decodeURIComponent)
-||rajabets.xyz^
 muvibg.com##+js(set, noAdBlock, true)
 inhumanity.com##+js(aopr, inhumanity_pop_var_name)
 ||smpop.icfcdn.com^
@@ -90160,7 +90167,6 @@ imgbbd.buzz,imgkoc.buzz,imgkorle.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,im
 imgbbd.buzz,imgkoc.buzz,imgkorle.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgqte.buzz,imgwang.buzz,imgwer.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(set, hold_click, false)
 imgwang.buzz##+js(acis, RegExp, debugger)
 ##div[style="position: fixed; display: block; width: 100%; height: 15%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
-||zhtlvag.com^
 fapster.xxx##+js(nowoif)
 fapster.xxx##.table
 *$image,redirect-rule=1x1.gif,1p,domain=freevpn4you.net
@@ -90329,11 +90335,6 @@ tinyurl.is##.navbar-brand
 *$frame,xhr,script,css,3p,denyallow=cloudfront.net|cloudflare.com|bootstrapcdn.com,domain=tinyurl.is
 tinyurl.is##+js(acis, JSON, interactive)
 tinyurl.is##+js(no-fetch-if, xhr0)
-||xhr0.xyz^
-||asemskull.com^
-||antalithate.website^
-||ayahucapasso.website^
-||blamedbuckie.fun^
 thienhatruyen.com##+js(nowoif)
 sexphimhd.net##+js(aopr, decodeURI)
 sexphimhd.net##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
@@ -90370,7 +90371,6 @@ onionplay.*##+js(ra, href, a#clickfkplayer)
 iguarras.com,iputitas.net##+js(aopr, afScript)
 messitv.net##+js(acis, JSON.parse, break;case $.)
 messitv.net##+js(aopw, _pop)
-||nlyeoehgdhhe.com^
 ||clk.asia/sw.js$script,1p
 ||condolencespicturesquetracks.com^
 clk.asia,imperialstudy.com,skincarie.com##+js(nosiif, visibility, 1000)
@@ -90588,9 +90588,6 @@ tutele.sx##+js(aopw, _pop)
 tutele.sx##+js(nostif, "admc")
 tutele.sx##^script[data-cfasync]:has-text(h=decodeURIComponent)
 /script/nasu.js$3p
-||vrqsvrnjrhdmek.com^
-||nndkukagmos.com^
-||nvmjdpbjgrh.com^
 loticon.xyz##+js(acis, document.getElementById, 'OK')
 cimaflam.com##+js(acis, JSON.parse, break;case $.)
 yoyofilmeys.*##+js(acis, JSON.parse, break;case $.)
@@ -93505,7 +93502,7 @@ recensionihot.com#@#a[href^="https://www.moscarossa.biz/"]
 @@||bounceexchange.com^$domain=thelaundress.com
 @@||animeland.us^$script,1p
 @@||cdn.broadstreetads.com/init-*min.js$script,domain=vtdigger.org
-@@||hcaptcha.com^*captcha/$script
+@@||hcaptcha.com/captcha/$xhr
 @@||akinator.com.cdn.ezoic.net^$css,font,image,script,domain=akinator.com
 ||onemanhua.com/js/dynamicjs.js$badfilter
 @@||nascar.com^$xhr,1p
@@ -93862,7 +93859,6 @@ beppegrillo.it#@#a[href^="https://www.amazon."][href*="tag="]
 *$script,3p,domain=coinmarketcap.com,badfilter
 *$script,domain=babesxworld.com,badfilter
 pioneer.eu##+js(ra, onclick, a[href][onclick^="trackOutboundLink"])
-javbix.com#@#.adsleft
 ||go.netcraftsmen.com^$1p,frame
 @@||apis.google.com/js/platform.js$script,domain=kitsunekko.net
 @@||cbsistatic.com/*/js/compiled/siteAdsBidBarrel.js$script,domain=gamespot.com
@@ -93893,7 +93889,6 @@ druckerchannel.de###DCGA
 *$script,redirect-rule=noopjs,domain=seeitlive.co
 ||confiant-integrations.global.ssl.fastly.net/*/gpt_and_prebid$script,important,domain=seeitlive.co
 ||netdna-ssl.com/sbly-ads/sbly-prebid-$script,important,domain=seeitlive.co
-javynow.com#@#.videos-ad
 /js/ads.$badfilter
 @@||widget-provider.production.ippen.space/widget-components/widget-quiz.bundle.js$script,domain=buzzfeed.de
 @@||widget-provider.production.ippen.space/api/widgets/*$xhr,domain=buzzfeed.de
@@ -101473,7 +101468,7 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Mon, 25 Apr 2022 12:42:13 GMT
-# entries:        3679
+# entries:        3677
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -102167,7 +102162,6 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 127.0.0.1 ads.yap.yahoo.com
 127.0.0.1 ads.yimg.com
 127.0.0.1 ads.yldmgrimg.net
-127.0.0.1 ads.yourfreedvds.com
 127.0.0.1 ads.youtube.com
 127.0.0.1 ads.yumenetworks.com
 127.0.0.1 ads1-adnow.com
@@ -103306,7 +103300,6 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 127.0.0.1 franklybundlecarver.com
 127.0.0.1 free-banners.com
 127.0.0.1 free-counter.co.uk
-127.0.0.1 free-counters.co.uk
 127.0.0.1 freebanner.com
 127.0.0.1 freecounterstat.com
 127.0.0.1 freelogs.com
@@ -103434,7 +103427,6 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 127.0.0.1 histats.com
 127.0.0.1 historicalrequest.com
 127.0.0.1 hit-parade.com
-127.0.0.1 hit.bg
 127.0.0.1 hit.ua
 127.0.0.1 hit.webcentre.lycos.co.uk
 127.0.0.1 hitbox.com
@@ -104468,6 +104460,7 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 127.0.0.1 sharethrough.com
 127.0.0.1 sharppatch.com
 127.0.0.1 sher.index.hu
+127.0.0.1 shermore.info
 127.0.0.1 shinystat.com
 127.0.0.1 shinystat.it
 127.0.0.1 shockinggrass.com
@@ -104696,6 +104689,7 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 127.0.0.1 takru.com
 127.0.0.1 talentedsteel.com
 127.0.0.1 tamgrt.com
+127.0.0.1 tangerinenet.biz
 127.0.0.1 tangibleteam.com
 127.0.0.1 tapad.com
 127.0.0.1 tapfiliate.com
@@ -105074,7 +105068,6 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 127.0.0.1 window.nixnet.cz
 127.0.0.1 wintricksbanner.googlepages.com
 127.0.0.1 wirecomic.com
-127.0.0.1 wirelesseuropebalmy.com
 127.0.0.1 wisepops.com
 127.0.0.1 witch-counter.de
 127.0.0.1 wizaly.com
