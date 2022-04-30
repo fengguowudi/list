@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sP3GiKSrUI98wQCMSRJsFQ
+! Checksum: 2RQuHPwoCAgkOZpioV7qIQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204302035
-! Last Modified: 2022年04月30日 20:35
+! Version: 202205010225
+! Last Modified: 2022年05月01日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -87577,7 +87577,7 @@ hindilinks4u.to##.btn.stream-hd
 uplinkto.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
 ||shortlinkto.*^$csp=default-src 'self' *.favicon.cc *.google.com *.gstatic.com *.googleapis.com
 shortlinkto.*##+js(acis, JSON.parse, break;case $.)
-fmovies2.cx##+js(acis, String.fromCharCode, break)
+fmovies2.cx##+js(acis, parseInt, break;case $.)
 fulltube.*##.mvic-btn
 247movie.net##.open.modal
 vibehubs.com##+js(aost, jQuery, ai_adb)
@@ -87918,7 +87918,7 @@ filmypur.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
 asianembed.io##+js(acis, parseInt, break;case $.)
 asianembed.io##+js(aeld, click, 0x)
 ||asianemb.click^$3p
-||eu.get-me-wow.in^
+||get-me-wow.*^
 123films.cc##+js(acis, DOMContentLoaded, adsBlocked)
 123films.cc##+js(no-fetch-if, method:HEAD)
 123films.cc##.mobile-btn
@@ -89808,13 +89808,13 @@ tutcourse.com##+js(aeld, DOMContentLoaded, adsBlocked)
 tutcourse.com##.stream-item-widget
 tutcourse.com##.text-html
 tutcourse.com##.ai-attributes
-@@||videovard.sx^$xhr,1p
-videovard.sx##+js(nowoif)
-videovard.sx##+js(aeld, mouseup, catch)
-videovard.sx##+js(nosiif, 0x)
-videovard.sx##.jw-reset.jw-wrapper:style(z-index:2147483647 !important)
-videovard.sx###nux > div > div > div[id]
-videovard.sx##+js(aopr, FuckAdBlock)
+@@||videovard.*^$xhr,1p
+videovard.*##+js(nowoif)
+videovard.*##+js(aeld, mouseup, catch)
+videovard.*##+js(nosiif, 0x)
+videovard.*##.jw-reset.jw-wrapper:style(z-index:2147483647 !important)
+videovard.*###nux > div > div > div[id]
+videovard.*##+js(aopr, FuckAdBlock)
 burakgoc.com##+js(aost, String.prototype.charCodeAt, ai_)
 tvshows4mobile.com##+js(acis, String.prototype.charCodeAt, 'replace')
 tvshows4mobile.com##body:style(visibility:visible !important)
@@ -91950,6 +91950,12 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||familysimulatorgame.com^$all
 ||trackingboost.com^$all
 ||meetka2.name^$all
+||update-protection.com^$all
+||asiaxdate.com^$all
+||hotsimulator.com^$all
+/aff.php?*&data2=$doc
+/tds/ae?affid=$doc
+/?clickid=*&ptracker=$doc
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -92416,6 +92422,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||junk-cleaner.org^$all
 ||hdvideosnet.com^
 ||shaktilar.xyz^$all
+||flippingcharts.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
@@ -92555,7 +92562,6 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||wuzhuiso.com^$removeparam=src
 ||statwup.huya.com^
 ||va.huya.com^
-||metric.huya.com^
 ||e-stat.huya.com^
 ||analytics.tiendaenoferta.com^
 ||zhihu.com^$removeparam=hybrid_search_source
@@ -92567,7 +92573,7 @@ skk.moe##+js(no-fetch-if, method:POST)
 ||rjno1.com/cdn-cgi/challenge-platform/h/b/scripts/invisible.js
 ||mynewsmedia.co/*/Linkpage/ads_stats_controller.php
 ||gplinks.co/Auth/ads_stats_controller.php
-||videovard.sx/api/front/view^$xhr,important
+||videovard.*/api/front/view^$xhr,important
 endbasic.dev,jmmv.dev##+js(no-xhr-if, method:POST)
 ||b90.yahoo.co.jp^
 ||jsdelivr.net^*/fp.min.js$script,redirect-rule=fingerprint3.js:10
