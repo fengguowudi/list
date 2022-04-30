@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: S61bB9zKLrmTAKgkbFS+SA
+! Checksum: sP3GiKSrUI98wQCMSRJsFQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204301426
-! Last Modified: 2022年04月30日 14:26
+! Version: 202204302035
+! Last Modified: 2022年04月30日 20:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -87916,6 +87916,9 @@ filmeonlinehd.biz,onlinework4all.com,saveshared.com##+js(acis, Math, zfgloaded)
 jattmate.com,saveshared.com,simpledownload.net##+js(aopr, String.fromCharCode)
 filmypur.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
 asianembed.io##+js(acis, parseInt, break;case $.)
+asianembed.io##+js(aeld, click, 0x)
+||asianemb.click^$3p
+||eu.get-me-wow.in^
 123films.cc##+js(acis, DOMContentLoaded, adsBlocked)
 123films.cc##+js(no-fetch-if, method:HEAD)
 123films.cc##.mobile-btn
@@ -94283,6 +94286,11 @@ ilbianconero.com##.no-scroll:style(overflow:auto!important)
 ||static.chotot.com/storage/js/prebid-ads.js$script,important
 @@||cds.connatix.com/p/*/connatix.playspace.js$script,domain=adweek.com
 @@||cd.connatix.com/connatix.playspace.js$script,domain=adweek.com
+@@||cds.connatix.com/p/*/connatix.playspace.css$css,domain=adweek.com
+@@||capi.connatix.com/core/story?v=*$xhr,domain=adweek.com
+@@||img.connatix.com^$image,domain=adweek.com
+@@||vid.connatix.com^$xhr,domain=adweek.com
+@@||cds.connatix.com/*/connatix.playspace.dc.js$script,domain=adweek.com
 ||adweek.com^$removeparam=traffic_source
 @@||cibng.ibanking-services.com^$cname
 @@||ppl.ibanking-services.com^$cname
@@ -94323,7 +94331,6 @@ heise.de#@#[data-ad-unit]
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=as.com
 @@||nocturnetls.net^$script,1p
 @@||relay-client-c01.iocnt.net^$script,domain=www.businessinsider.de
-@@||comic-boost.com/gentosha/advertisement_view$frame,1p
 @@||cdn.onesignal.com/sdks/$script,domain=clash.ninja
 @@||onesignal.com/api/$script,domain=clash.ninja
 @@||mypearson.com^*/ga.min.js
@@ -94465,8 +94472,9 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||laptopoutlet.co.uk/wysiwyg/asus/rise-up/popunder-$image,1p
 @@||laptopoutlet.co.uk/wysiwyg/lenovo/*_popunder_$image,1p
 @@||streamadblockplus.com^$frame,domain=streamtape.com
-||netu.wiztube.xyz^$badfilter
 @@||eimusics.com^$popunder,domain=ouo.io
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=besthdgayporn.com
+@@||besthdgayporn.com/wp-content/plugins/$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
