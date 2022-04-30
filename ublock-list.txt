@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sEUJj8BRGdpc6kviPtc/Qg
+! Checksum: S61bB9zKLrmTAKgkbFS+SA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202204301000
-! Last Modified: 2022年04月30日 10:00
+! Version: 202204301426
+! Last Modified: 2022年04月30日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16971,6 +16971,7 @@ _800x80_
 ##.AffiliateAds
 ##.AmazonSimpleAdmin_widget
 ##.AppFooter__BannerAd
+##.Arpian-ads
 ##.ArticleAd
 ##.ArticleAdWrapper
 ##.ArticleInlineAd
@@ -89769,8 +89770,10 @@ katflys.com##+js(nowoif)
 katflys.com##+js(set, blurred, false)
 katflys.com##+js(acis, JSON.parse, break;case $.)
 katflys.com##+js(noeval)
+katflys.com##+js(aeld, DOMContentLoaded, iframe_id)
 ||bitfly.io^$script,domain=katflys.com
 katflys.com###overlay
+katflys.com##.ads
 sqlserveregitimleri.com##+js(aeld, DOMContentLoaded, adsBlocked)
 sqlserveregitimleri.com##.ai_widget
 *$3p,script,denyallow=cloudflare.com|cloudflare.net|hwcdn.net|jquery.com|fontawesome.com,domain=dekhobd.com
@@ -94463,6 +94466,7 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||laptopoutlet.co.uk/wysiwyg/lenovo/*_popunder_$image,1p
 @@||streamadblockplus.com^$frame,domain=streamtape.com
 ||netu.wiztube.xyz^$badfilter
+@@||eimusics.com^$popunder,domain=ouo.io
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
