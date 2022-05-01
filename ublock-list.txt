@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hxTxdhFzrzHubwDncl7D1g
+! Checksum: VzLUJ712LWJcD3hzaMze3Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205011426
-! Last Modified: 2022年05月01日 14:26
+! Version: 202205012036
+! Last Modified: 2022年05月01日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -88689,7 +88689,7 @@ hitproversion.com##.onp-sl-social-locker
 @@||adserver.juicyads.com/*.js$script,domain=anydebrid.com
 mavplay.xyz##+js(aeld, , _blank)
 4anime.biz##+js(aeld, , _blank)
-4anime.*##+js(acis, JSON.parse, break;case $.)
+4anime.*##+js(acis, parseInt, break;case $.)
 4anime.biz##.show
 4anime.gg##.mba-block
 math-drills.com#@#.ad-block
@@ -94445,6 +94445,12 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||eimusics.com^$popunder,domain=ouo.io
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=besthdgayporn.com
 @@||besthdgayporn.com/wp-content/plugins/$script,1p
+@@||bongacash.com/js/videojs/video.js
+@@||karte.io/libs/tracker.$script,xhr,domain=www.smbc.co.jp
+@@||t.karte.io/empt/build/build.js$1p
+@@||t.karte.io^$frame,xhr,domain=www.smbc.co.jp
+@@||s.yjtag.jp/tag.js$domain=www.smbc.co.jp
+@@||yjtag.yahoo.co.jp/tag?$script,domain=www.smbc.co.jp
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
