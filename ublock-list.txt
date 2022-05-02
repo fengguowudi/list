@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +bCaR64S5qEAJ1e2Eh77Fw
+! Checksum: WW2f5JuQ0wo8Eb9fPIKJcA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205021006
-! Last Modified: 2022年05月02日 10:06
+! Version: 202205021427
+! Last Modified: 2022年05月02日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -86472,7 +86472,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 @@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
 @@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
-@@||api.cxense.com/public/widget/data?$script,domain=wpb.shueisha.co.jp
+@@||api.cxense.com/public/widget/data?$script,domain=mainichi.jp|wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data?$xmlhttprequest,domain=cyclestyle.net
 @@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.kodansha.co.jp
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
@@ -86531,8 +86531,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
-@@||scdn.cxense.com/cx.cce.js$domain=wpb.shueisha.co.jp
-@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net
+@@||scdn.cxense.com/cx.cce.js$domain=mainichi.jp|wpb.shueisha.co.jp
+@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net|mainichi.jp
 @@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||staff-start.com/js/track/$domain=enoteca.co.jp|francfranc.com|store.alpen-group.jp
 @@||support-beacon.nakanohito.jp/widget/$xmlhttprequest
@@ -87227,7 +87227,7 @@ libangan.ru##+js(acis, Math, break;case $.)
 aporasal.net##+js(adfly-defuser)
 musike.net##+js(nostif, show)
 squirtplus.com#@#.adsBanner
-bitporno.com,streamsb.net##body > div[style*="z-index:"]
+bitporno.com##body > div[style*="z-index:"]
 msubplix.com##+js(nowoif)
 ||msubplix.com/cdn-cgi/trace$xhr,1p
 arab4media.com##+js(acis, addEventListener, nextFunction)
@@ -87530,6 +87530,7 @@ hitmovies4u.com##+js(acis, parseInt, break;case $.)
 hitmovies4u.com##+js(ra, onclick, a.thumb.mvi-cover)
 cinema.cimatna.com,filmywap.*,filmyzilla2021.xyz,filmy-zilla.co.in,neomovies.net,pagalworld.kim,sharkfish.xyz##^script:has-text(break;case $.)
 ||gracaiko.net^
+||tarotien.com^
 hindilinks4u.*##+js(acis, Math, zfgloaded)
 hindilinks4u.to##.btn.stream-hd
 uplinkto.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
