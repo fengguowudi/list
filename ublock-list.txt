@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WW2f5JuQ0wo8Eb9fPIKJcA
+! Checksum: 0W/n5omeJ8Ra7cR2WK14dQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205021427
-! Last Modified: 2022年05月02日 14:27
+! Version: 202205022042
+! Last Modified: 2022年05月02日 20:42
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -88747,11 +88747,21 @@ sporizle1.pw##a[href="https://hdweb.pw"][target="_blank"]
 comixzilla.com##+js(acis, document.createElement, 'script')
 unsurcoenlasombra.com##+js(aopr, google_jobrunner)
 watchmovierulz.*##+js(nowoif)
+cloudemb.com,dlmovies.link,embedsb.com,playersb.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbplay1.com,sbplay2.*,sbvideo.*,streamsb.*,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*##+js(aopr, __Y)
+cloudemb.com,dlmovies.link,oxl.one,playersb.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbvideo.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com##+js(aopr, mm)
 sbembed1.com,sbvideo.*##+js(aopr, console.clear)
-sbvideo.*##+js(nowoif, !/d/)
 cmovies.*##+js(aeld, , break;case $.)
-sbembed1.com,sbplay.*##+js(aopr, DoodPop)
-dlmovies.link,embedsb.com,pelistop.co,playersb.com,sbcloud1.com,sbchip.*,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbplay1.com,sbplay2.*,sbvideo.*,tubesb.com,viewsb.com,watchsb.com##+js(aopr, __Y)
+cloudemb.com##+js(nowoif, !/^\/d\//)
+cloudemb.com##+js(set, console.clear, noopFunc)
+streamsb.*##+js(nowoif)
+streamsb.*##+js(aopr, DoodPop)
+sbembed.com,streamsb.*##body > div[style*="z-index:"]
+*$script,3p,denyallow=cloudflare.com|fastly.net|fluidplayer.com|gstatic.com|jwpcdn.com|streamsb.com,domain=sbembed.com|streamsb.*
+sbplay.*,sbplay1.com##+js(set, console.clear, noopFunc)
+oxl.one,sbplay1.com,sbvideo.net##+js(nosiif, 0x)
+sbplay.*##^script:has-text(debugger)
+||perfunctoryfrugal.com^
+||qualitydestructionhouse.com^
 ||app.adjust.net.in^
 ||metahv.xyz^
 ||watchahv.com^
@@ -88762,7 +88772,6 @@ sharetext.me##+js(set, isAdBlockActive, false)
 theblissempire.com##+js(aopr, app_vars.force_disable_adblock)
 theblissempire.com##+js(set, blurred, false)
 theblissempire.com##+js(aopr, open)
-onizatop.net##+js(adfly-defuser)
 uploadflix.org##+js(acis, JSON.parse, break;case $.)
 uploadflix.org##+js(nano-stb, seconds)
 uploadflix.org##^script:has-text(break;case $.)
@@ -88802,13 +88811,7 @@ swatchseries.ru##+js(acis, onclick, open)
 swatchseries.ru##+js(set, console.clear, noopFunc)
 *$script,3p,denyallow=facebook.net|fbcdn.net,domain=sukidesuost.info
 sukidesuost.info###custom_html-23
-asianload.*,asianload1.com##+js(acis, Math, break;case $.)
-oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*##+js(aopr, __Y)
-cloudemb.com,dlmovies.link,oxl.one,playersb.com,sbchip.bar,sbcloud1.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbvideo.net,tubesb.com,viewsb.com,watchsb.com##+js(aopr, mm)
-sbplay.*,sbplay1.com##+js(set, console.clear, noopFunc)
-oxl.one,sbplay1.com,sbvideo.net##+js(nosiif, 0x)
-sbplay.*##^script:has-text(debugger)
-sbplay.*##+js(nowoif, !/sbplay|^\/d\//)
+asianload.*##+js(acis, Math, break;case $.)
 ||iclickcdn.com^$script,redirect-rule=noopjs,domain=gifans.com
 gifans.com,shortlink.prz.pw##+js(nosiif, visibility, 1000)
 gifans.com##+js(acis, document.cookie, :visible)
@@ -89574,9 +89577,6 @@ watchtheofficeonline.net###custom_html-7
 watchhouseonline.net,watchtheofficeonline.net##.module_single_ads
 apkhex.com##+js(acis, eval, replace)
 love-stoorey210.net##+js(acis, document.addEventListener, google_ad_client)
-cloudemb.com##+js(nowoif, !/^\/d\//)
-cloudemb.com##+js(set, console.clear, noopFunc)
-cloudemb.com##+js(aopr, __Y)
 indiansexstories2.net,issstories.xyz##+js(set, history.pushState, noopFunc)
 indiansexstories2.net##[href^="https://a.videobaba.xyz/geoip/link.php"]
 indiansexstories2.net##[href="https://www.theporndude.com/"]
@@ -94448,6 +94448,8 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||t.karte.io^$frame,xhr,domain=www.smbc.co.jp
 @@||s.yjtag.jp/tag.js$domain=www.smbc.co.jp
 @@||yjtag.yahoo.co.jp/tag?$script,domain=www.smbc.co.jp
+@@||sephora-track.inside-graph.com/gtm/*/inside.min.js$script,domain=sephora.com
+@@||sephora-track.inside-graph.com/ig.js$script,domain=sephora.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
