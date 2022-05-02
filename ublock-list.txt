@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uoJGt0jUkVXYMpHVUTP9/w
+! Checksum: +bCaR64S5qEAJ1e2Eh77Fw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205020225
-! Last Modified: 2022年05月02日 02:25
+! Version: 202205021006
+! Last Modified: 2022年05月02日 10:06
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -87272,13 +87272,9 @@ shortlinkpay.com##.box-main > .blog-item
 *$script,3p,denyallow=google.com|gstatic.com|recaptcha.net,domain=shortlinkpay.com
 hdmoviesfair.*##+js(acis, JSON.parse, break;case $.)
 hdmoviefair.*##+js(aeld, , break;case $.)
-hd-pornos.com##+js(nostif, checkVisible)
-hd-pornos.com##.spc_height_80
-hd-pornos.com##.vjs-overlay
-@@||hd-pornos.com^$ghide
-hd-pornos.com##[href^="https://www.handy-sextreffen.info/"]:upward(.grid_box)
-hd-pornos.com##.std.widget
-hd-pornos.com##div[id="wrapper_content"] > aside
+hd-pornos.*##.vjs-overlayed
+hd-pornos.*###spezial_column
+hd-pornos.*##div[id="wrapper_content"] > aside
 pornojenny.com##+js(nostif, checkVisible)
 pornojenny.com##.spc_height_80
 pornojenny.com##.vjs-overlay
@@ -89563,8 +89559,10 @@ toolsolutions.top,wowstream.top##+js(nowoif)
 adbitcoin.co##+js(acis, document.getElementById, 'body')
 adbitcoin.co##+js(nowoif)
 ||bitcoinad.io^$3p
+motherporno.com##+js(set, flashvars.adv_start_html, '')
 motherporno.com##+js(set, flashvars.adv_pause_html, '')
 motherporno.com##+js(set, flashvars.adv_pre_vast, '')
+motherporno.com##+js(set, flashvars.adv_pre_vast_alt, '')
 motherporno.com##.aside
 motherporno.com##.spot
 @@||v.fwmrm.net/ad/$script,xhr,domain=viafree.*
@@ -101557,7 +101555,7 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 06 May 2002 00:00:00
+# start date:    Tue, 07 May 2002 00:00:00
 127.0.0.1 101com.com
 127.0.0.1 101order.com
 127.0.0.1 123freeavatars.com
