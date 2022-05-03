@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hsueaS6pQ9Gg3FpBMHMIMg
+! Checksum: sLdQgw2Sl6xAK929lOv55Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205031427
-! Last Modified: 2022年05月03日 14:27
+! Version: 202205032046
+! Last Modified: 2022年05月03日 20:46
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -5689,10 +5689,12 @@
 /script/ad.$~script
 /script/ads_
 /script/nwsu.js$third-party
+/script/nasu.js$third-party
 /script/oas/*
 /script/suurl4.php?$third-party
 /script/ut.js?cb=$third-party
 /script/wait.php?p=$xmlhttprequest
+/script/wait.php?q=$xmlhttprequest
 /scripts/ad/*
 /scripts/ad_
 /scripts/ads/*
@@ -24973,6 +24975,7 @@ _800x80_
 ##.ftr_ad
 ##.ftv-ad-sumo
 ##.full-ad
+##.full-ads
 ##.full-ad-wrapper
 ##.full-adv
 ##.full-bleed-ad
@@ -26852,6 +26855,7 @@ _800x80_
 ##.mo_googlead
 ##.moads-top-banner
 ##.moads-widget
+##.mob_ads
 ##.mob-adspace
 ##.mobads
 ##.mobile-ad
@@ -30199,6 +30203,7 @@ _800x80_
 ##.weatherAdSpot
 ##.weather_ad
 ##.weatherad
+##.web_ads
 ##.web-ads-wrap
 ##.web-result-sponsored
 ##.webad-cnt
