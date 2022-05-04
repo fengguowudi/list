@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ct4Lo1VfVlBXDReUgkCU1g
+! Checksum: Nj7hQks9/qmEuLpbmNx4FQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205041000
-! Last Modified: 2022年05月04日 10:00
+! Version: 202205041429
+! Last Modified: 2022年05月04日 14:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -59390,6 +59390,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||developers.google.com/ad-manager/$~third-party
 @@||digiads.com.au/images/shared/misc/ad-disclaimer.gif
 @@||dilbert.com/assets/ad-vendor-$script,~third-party
+@@||discretemath.org/ads/
+@@||discretemath.org^$image,stylesheet
 @@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
 @@||docs.woopt.com/wgact/$image,~third-party,xmlhttprequest
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com
@@ -59403,6 +59405,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ezoic.net/detroitchicago/cmb.js$script,domain=gerweck.net
 @@||f-droid.org/assets/Ads_$~third-party
 @@||facebook.com/ads/profile/$~third-party,xmlhttprequest
+@@||faculty.uml.edu/klevasseur/ads/
+@@||faculty.uml.edu^$image,stylesheet
 @@||fdyn.pubwise.io^$script,domain=urbanglasgow.co.uk
 @@||files.slack.com^$image,~third-party
 @@||flying-lines.com/banners/$image,~third-party
@@ -94509,9 +94513,11 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=besthdgayporn.com
 @@||besthdgayporn.com/wp-content/plugins/$script,1p
 @@||bongacash.com/js/videojs/video.js
-@@||sephora-track.inside-graph.com/gtm/*/inside.min.js$script,domain=sephora.com
-@@||sephora-track.inside-graph.com/ig.js$script,domain=sephora.com
 @@||api-analytics.magstimconnect.net/api/settings$xhr,1p
+@@||googletagmanager.com/gtm.js?id=GTM-$script,domain=aeromexico.com
+@@||discretemath.org^$1p
+@@||discretemath.org^$css,image,3p
+@@||faculty.uml.edu/klevasseur/*$1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
