@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CCa1z1KRb4oQ2Qpg/QtzTA
+! Checksum: ct4Lo1VfVlBXDReUgkCU1g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205040231
-! Last Modified: 2022年05月04日 02:31
+! Version: 202205041000
+! Last Modified: 2022年05月04日 10:00
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -85845,6 +85845,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics.twitter.com^$domain=analytics.twitter.com
 @@||ancestrycdn.com/ui-static/lib/tracking/$domain=ancestry.com
 @@||apc-pli.com/api/tracking/$~third-party,xmlhttprequest
+@@||api-analytics.magstimconnect.net^$~third-party
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipify.org^$script,domain=right-on.co.jp
@@ -86148,6 +86149,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
 @@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
+@@||sephora-track.inside-graph.com/gtm/$domain=sephora.com
+@@||sephora-track.inside-graph.com/ig.js$domain=sephora.com
 @@||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js$script,~third-party
 @@||serve-ts.amagi.tv^*/beacon?$xmlhttprequest,domain=watch.truecrimenetworktv.com
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
@@ -88744,6 +88747,7 @@ hitproversion.com##.onp-sl-social-locker
 @@||ads.exoclick.com^$script,domain=anydebrid.com
 *$script,redirect-rule=noopjs,domain=anydebrid.com
 @@||adserver.juicyads.com/*.js$script,domain=anydebrid.com
+@@||js.juicyads.com/*.js$script,domain=anydebrid.com
 mavplay.xyz##+js(aeld, , _blank)
 4anime.biz##+js(aeld, , _blank)
 4anime.*##+js(acis, parseInt, break;case $.)
@@ -101616,7 +101620,7 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 08 May 2002 00:00:00
+# start date:    Thu, 09 May 2002 00:00:00
 127.0.0.1 101com.com
 127.0.0.1 101order.com
 127.0.0.1 123freeavatars.com
