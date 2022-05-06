@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nA4NcTli0LJpazaG4OWp+Q
+! Checksum: cqn0RwfxWLnKRnZI29vvMQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205061429
-! Last Modified: 2022年05月06日 14:29
+! Version: 202205062041
+! Last Modified: 2022年05月06日 20:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -23154,6 +23154,7 @@ _800x80_
 ##.bgadgray10px
 ##.bgcolor_ad
 ##.bgnavad
+##.bgr-ad-leaderboard
 ##.bgr_adv_div
 ##.bh-ads
 ##.bh_ad_container
@@ -24380,6 +24381,7 @@ _800x80_
 ##.dfp-ad-full
 ##.dfp-ad-hideempty
 ##.dfp-ad-midbreaker-wrap
+##.dfp-ad-midbreaker2-wrap
 ##.dfp-ad-placeholder
 ##.dfp-ad-rect
 ##.dfp-ad-tags
@@ -54416,6 +54418,7 @@ tf2r.com#@#.adverts
 ||jwpcdn.com^$script,domain=bgr.com|dexerto.com|zimbio.com
 ||jwplayer.com^$domain=gamesradar.com|ginx.tv|tomshardware.com|whathifi.com
 ||live.primis.tech^$third-party
+||minute.ly^$third-party
 ||play.springboardplatform.com^
 ||playbuzz.com/embed/$script,third-party
 ||playbuzz.com/player/$script,third-party
@@ -94558,10 +94561,10 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=besthdgayporn.com
 @@||besthdgayporn.com/wp-content/plugins/$script,1p
 @@||bongacash.com/js/videojs/video.js
-www.aol.com#@#.m-video-wafer
 @@||dsag3w1du2cu2.cloudfront.net^$image,domain=cuevana3.la
 @@||gcdn.2mdn.net/videoplayback/$media,domain=app.plex.tv
-@@||na-library.klarnaservices.com/lib.js$script,domain=brooksrunning.com
+@@||hqq.to/e/*$csp,domain=gomo.to
+@@||photopea.com/promo/no_ads.png$xhr,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -101664,7 +101667,7 @@ www.aol.com#@#.m-video-wafer
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Wed, 04 May 2022 09:17:12 GMT
-# entries:        3679
+# entries:        3676
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -101673,6 +101676,7 @@ www.aol.com#@#.m-video-wafer
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
 # start date:    Sat, 11 May 2002 00:00:00
+127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
 127.0.0.1 123freeavatars.com
@@ -102321,7 +102325,6 @@ www.aol.com#@#.m-video-wafer
 127.0.0.1 ads.tripod.lycos.de
 127.0.0.1 ads.tripod.lycos.es
 127.0.0.1 ads.tripod.lycos.it
-127.0.0.1 ads.tripod.lycos.nl
 127.0.0.1 ads.tso.dennisnet.co.uk
 127.0.0.1 ads.twitter.com
 127.0.0.1 ads.twojatv.info
@@ -102689,6 +102692,7 @@ www.aol.com#@#.m-video-wafer
 127.0.0.1 analytics.xelondigital.com
 127.0.0.1 analytics.yahoo.com
 127.0.0.1 analyticsapi.happypancake.net
+127.0.0.1 analytik.xyz
 127.0.0.1 ancientact.com
 127.0.0.1 aniview.com
 127.0.0.1 annonser.dagbladet.no
@@ -103907,9 +103911,6 @@ www.aol.com#@#.m-video-wafer
 127.0.0.1 logsss.com
 127.0.0.1 logua.com
 127.0.0.1 longinglettuce.com
-127.0.0.1 look.djfiln.com
-127.0.0.1 look.ichlnk.com
-127.0.0.1 look.opskln.com
 127.0.0.1 look.ufinkln.com
 127.0.0.1 loopme.com
 127.0.0.1 lop.com
@@ -104613,6 +104614,7 @@ www.aol.com#@#.m-video-wafer
 127.0.0.1 scratch2cash.com
 127.0.0.1 screechingfurniture.com
 127.0.0.1 screechingstove.com
+127.0.0.1 scripte-monster.de
 127.0.0.1 scrubswim.com
 127.0.0.1 sdkfjxjertertry.com
 127.0.0.1 seadform.net
@@ -104649,7 +104651,6 @@ www.aol.com#@#.m-video-wafer
 127.0.0.1 sexlist.com
 127.0.0.1 sextracker.com
 127.0.0.1 shakegoldfish.com
-127.0.0.1 shakesea.com
 127.0.0.1 shakesuggestion.com
 127.0.0.1 shakytaste.com
 127.0.0.1 shallowsmile.com
@@ -105121,7 +105122,6 @@ www.aol.com#@#.m-video-wafer
 127.0.0.1 uarating.com
 127.0.0.1 ucfunnel.com
 127.0.0.1 udkcrj.com
-127.0.0.1 udncoeln.com
 127.0.0.1 uib.ff.avast.com
 127.0.0.1 ukoffzeh.com
 127.0.0.1 ultimateclixx.com
