@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MwL1VeJYVn3+TKOxqgsdKQ
+! Checksum: qa+7fX+2tYPhYQQW3qDbtw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205060231
-! Last Modified: 2022年05月06日 02:31
+! Version: 202205060946
+! Last Modified: 2022年05月06日 09:46
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -88452,8 +88452,6 @@ bikesell.co.kr##+js(acis, addEventListener, google_ad_client)
 pinayvids.com##+js(acis, decodeURIComponent, ai_)
 pinayvids.com##+js(acis, document.querySelectorAll, popMagic)
 pinayvids.com##+js(aopr, decodeURI)
-||ptube.live/ads/$redirect-rule=noopjs,script
-ptube.live##.kwasnacki
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=10play.com.au
 10play.com.au##.content__ad__content
 aztecafaucet.space##div.text-white.active.transparent.col-md-3.col-xs-6
@@ -89913,19 +89911,9 @@ wcofun.com##.anti-ad
 wcofun.com##.reklam_kapat
 pnds.live##+js(aopr, app_vars.force_disable_adblock)
 maxpixel.net##+js(nostif, ads_block)
-kenfaucet.top##+js(acis, document.getElementById, offsetHeight)
-kenfaucet.top##+js(nano-sib, seconds)
-kenfaucet.top##.col-md-push-3.col-md-6.col-xs-12 > p.alert-info.alert:nth-of-type(1)
-kenfaucet.top##[href^="https://criptoshark.com"]
-kenfaucet.top##[href^="https:/criptoshark.com"]
-kenfaucet.top##div.row:nth-of-type(1) > .col-xs-12
 lightbook.org##+js(set, tie.ad_blocker_detector, '')
 lightbook.org##.stream-item-widget
 q1003.com##+js(nostif, google_ad)
-notimerfaucet.biz##+js(acis, String.prototype.charCodeAt, 'replace')
-notimerfaucet.biz##+js(nano-sib, seconds)
-notimerfaucet.biz##div.row:nth-of-type(3) > .transparent.col-xs-12
-notimerfaucet.biz##div.row:nth-of-type(1) > .transparent.col-xs-12
 ||adbox.lv^$script,redirect-rule=noop.js,domain=mail.ee
 @@||automodeler.com^$ghide
 automodeler.com##.adsbygoogle
@@ -101684,7 +101672,7 @@ www.aol.com#@#.m-video-wafer
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 10 May 2002 00:00:00
+# start date:    Sat, 11 May 2002 00:00:00
 127.0.0.1 101com.com
 127.0.0.1 101order.com
 127.0.0.1 123freeavatars.com
