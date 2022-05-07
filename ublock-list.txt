@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hnMhZxCw0Ow3Sz6uLbCK7A
+! Checksum: CMk0m193FJPzqtOqOWB1UA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205072036
-! Last Modified: 2022年05月07日 20:36
+! Version: 202205080225
+! Last Modified: 2022年05月08日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18139,6 +18139,7 @@ _800x80_
 ##.ad-leaderboard-companion
 ##.ad-leaderboard-container
 ##.ad-leaderboard-flex
+##.ad-leaderboard-footer
 ##.ad-leaderboard-hero
 ##.ad-leaderboard-marquee
 ##.ad-leaderboard-middle
@@ -55497,6 +55498,8 @@ oaoa.com###leaderboard-top
 narcity.com###leaderboard-wrapper
 drdobbs.com###leaderboard1
 drdobbs.com###leaderboard2
+games2jolly.com###leaderboard_area
+games2jolly.com###leaderboard_area_home
 bulbagarden.net,planetminecraft.com###leaderboard_atf
 canadianbusiness.com,macleans.ca,yardbarker.com###leaderboard_container
 spoonuniversity.com###leaderboard_fixed
@@ -55927,6 +55930,7 @@ coderwall.com##._300x250
 timesofindia.indiatimes.com##._3JJMX
 timesofindia.indiatimes.com##._3xsKP
 thequint.com##._4xQrn
+outlook.live.com##._BAY1XlyQSIe6kyKPlYP
 smallseotools.com##.____hmmmmmm
 gadgets.ndtv.com##._ad
 pirateiro.com##._br9is
@@ -56007,6 +56011,7 @@ flightglobal.com,thriftyfun.com##.adp
 vice.com##.adph
 1sale.com,7billionworld.com,9jaflaver.com,achieveronline.co.za,canstarblue.co.nz,chordfrenzy.com,climatechangenews.com,cryptonomist.ch,dallasobserver.com,energyforecastonline.co.za,esports.com,eventcinemas.co.nz,flashx.tv,furaffinity.net,geo.tv,govtrack.us,gramfeed.com,houstonpress.com,idiva.com,indiatimes.com,inspirock.com,knowyourmeme.com,m.economictimes.com,marinetraffic.com,mb.com.ph,mehrnews.com,meta-calculator.com,mini-ielts.com,miningprospectus.co.za,mugshots.com,myfitnesspal.com,nativeplanet.com,nbc.na,news.nom.co,nsfwyoutube.com,roadaheadonline.co.za,roms-download.com,russia-insider.com,russian-faith.com,savevideo.me,sddt.com,servicepublication.co.za,sgcarmart.com,sherdog.com,shipyearonline.co.za,stars-portraits.com,straitstimes.com,strawpoll.me,tcm.com,tech2.com,tehrantimes.com,tellerreport.com,thecatholicuniverse.com,thejakartapost.com,thelakewoodscoop.com,themalaysianinsider.com,thenews.com.pk,theprojectmanager.co.za,thestar.com.my,viamichelin.com,viamichelin.ie,vidstreaming.io,wallpaper.com,y8.com,yummy.ph##.ads
 indianexpress.com,roblox.com,spotify.com,wccftech.com##.ads-container
+games2jolly.com##.ads_310_610_sidebar_new
 lightnovelpub.com##.adsbox
 informer.com##.adsbygoogle
 gayvegas.com,looktothestars.org,nintandbox.net,plurk.com,thebarentsobserver.com,tolonews.com,webtor.io​##.adsense
@@ -56905,7 +56910,7 @@ edarabia.com##.leaderboard-970
 roblox.com##.leaderboard-abp
 arabiaweather.com,bloomberg.com,gamesindustry.biz,news957.com,newscientist.com##.leaderboard-container
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder
-huffingtonpost.co.uk##.leaderboard-flex-placeholder-desktop
+huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder-desktop
 manitobacooperator.ca##.leaderboard-height
 businessinsider.in##.leaderboard-scrollable-btf-cont
 businessinsider.in##.leaderboard-scrollable-cont
@@ -59543,6 +59548,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|gamestar.de|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|physicianspractice.com|standard.co.uk|theta.tv
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
+@@||gbf.wiki/images/$image,~third-party
 @@||gelbooru.com//images/ad/$image,~third-party
 @@||givingassistant.org/Advertisers/$~third-party
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
@@ -72897,6 +72903,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.glaze.ai^
 ||stat.mixi.media^
 ||stat.moevideo.net^
+||stat.mydaddy.cc^
 ||stat.segitek.hu^
 ||stat.web-regie.com^
 ||statdb.pressflex.com^
@@ -75408,7 +75415,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tags.johnlewis.com^
 ||tags.news.com.au^$script
 ||taiwanplus.com/api/video/startVideo
-||takealot.com^*/collect
 ||target.nationwide.com^
 ||target.nejm.org^
 ||targeting.washpost.nile.works^
@@ -75617,7 +75623,6 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 ||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||pages.ebay.com/identity/device/$subdocument
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
-/^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,third-party
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 ||d276.ourmidland.com^
 ||d810.mysanantonio.com^
@@ -86546,6 +86551,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||hk.on.cc/js/v4/urchin.js
 @@||hm.baidu.com/hm.gif$image,domain=clgod.com
 @@||line-scdn.net^*/torimochi.js$script,domain=web-tw-pay.line.me
+@@||schlr.cnki.net/detailstatic/js/tracker.js$script,~third-party
 @@||tianxun.com^*/js/tracker.js
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 @@||uwants.com/include/*/swfaddress.js
@@ -88223,7 +88229,7 @@ nudeof.com##+js(aopr, absda)
 nudeof.com##div[class^="d-none"]
 nudeof.com##.col-xl-4.col-lg-6.col-md-8.col-12.order-xl-1.order-lg-1.order-md-1.order-sm-1.order-1
 nudeof.com##div.happy-section
-dlpsgame.org##+js(acis, JSON.parse, break;case $.)
+dlpsgame.org##+js(acis, parseInt, break;case $.)
 dlpsgame.org##div.widget-content > .title
 @@||driveddl.xyz^$ghide
 driveddl.xyz##center > div[class][style="width:320px;height:50px;display: inline-block;margin: 0 auto"]
@@ -88700,8 +88706,6 @@ short.croclix.me##.banner-container
 short.goldenfaucet.io##.rectangles
 ||offers4all.net^$frame,3p
 icttipsandtricks.nl##+js(aost, String.prototype.charCodeAt, ai_)
-traficodetorrents.com##+js(acis, addEventListener, google_ad_client)
-traficodetorrents.com##+js(acis, JSON.parse, break;case $.)
 *$script,redirect-rule=noopjs,domain=ver-television.online|red-point.xyz
 lite.qwant.com##.ad:upward(article.result.web)
 gay4porn.com##+js(set, flashvars.adv_start_html, '')
@@ -88739,7 +88743,7 @@ lcpdfr.com##div.ipsMargin_bottom.ipsAreaBackground.ipsPadding\:half
 lcpdfr.com##.adSpacing
 french-stream.*##+js(aeld, , break;case $.)
 rodude.com##+js(acis, onload)
-hds-streaming.*##+js(acis, JSON.parse, break;case $.)
+hds-streaming.*##+js(acis, parseInt, break;case $.)
 hds.club,hds-streaming.*###fakeplayer
 hds.club,hds-streaming.*##.asgdc
 @@||dubzstreams.com^$ghide
@@ -88946,14 +88950,14 @@ sporizle1.pw##a[href="https://hdweb.pw"][target="_blank"]
 comixzilla.com##+js(acis, document.createElement, 'script')
 unsurcoenlasombra.com##+js(aopr, google_jobrunner)
 watchmovierulz.*##+js(nowoif)
-cloudemb.com,dlmovies.link,embedsb.com,playersb.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbplay1.com,sbplay2.*,sbvideo.*,streamsb.*,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*##+js(aopr, __Y)
-cloudemb.com,dlmovies.link,oxl.one,playersb.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbvideo.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com##+js(aopr, mm)
+cloudemb.com,dlmovies.link,embedsb.com,playersb.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbfull.com,sbplay1.com,sbplay2.*,sbvideo.*,streamsb.*,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*##+js(aopr, __Y)
+cloudemb.com,dlmovies.link,oxl.one,playersb.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbvideo.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com##+js(aopr, mm)
 sbembed1.com,sbvideo.*##+js(aopr, console.clear)
 cmovies.*##+js(aeld, , break;case $.)
 cloudemb.com##+js(nowoif, !/^\/d\//)
 cloudemb.com##+js(set, console.clear, noopFunc)
-streamsb.*##+js(nowoif)
-streamsb.*##+js(aopr, DoodPop)
+sbfull.com,streamsb.*##+js(nowoif)
+sbfull.com,streamsb.*##+js(aopr, DoodPop)
 sbembed.com,streamsb.*##body > div[style*="z-index:"]
 *$script,3p,denyallow=cloudflare.com|fastly.net|fluidplayer.com|gstatic.com|jwpcdn.com|streamsb.com,domain=sbembed.com|streamsb.*
 sbplay.*,sbplay1.com##+js(set, console.clear, noopFunc)
@@ -89299,7 +89303,6 @@ jogging-plus.com##+js(set, tie.ad_blocker_detector, '')
 /abdetect.js$badfilter
 tutflix.org##+js(acis, $, test)
 @@||tutflix.org^$ghide
-pahe.ph##+js(acis, JSON.parse, break;case $.)
 pussy-hub.com##+js(aeld, click, popundr)
 ||pussy-hub.com/*/stat1_$script,1p
 @@||themosvagas.com.br^$ghide
@@ -89513,7 +89516,6 @@ surfsees.com##+js(aeld, DOMContentLoaded, deblocker)
 links.ujv.al##+js(acis, eval, replace)
 viserve.com##^responseheader(location)
 millebook.com##+js(acis, loadNewDoc, location)
-anime4up.com##+js(acis, JSON.parse, break;case $.)
 @@||leaklinks.com^$script,1p
 *.gif$domain=leaklinks.com,image
 ||lowendbox.com^$3p
@@ -89621,9 +89623,9 @@ go.mozlink.net##+js(set, blurred, false)
 gigacourse.com##+js(acis, eval, replace)
 superonleech.biz##+js(acis, document.addEventListener, google_ad_client)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect-rule=noopjs,domain=howstuffworks.com
-123movies-hd.com##+js(acis, JSON.parse, break;case $.)
-egynow.live##+js(aost, JSON.parse, computed)
-egynow.live##^script:has-text(break;case $)
+egynow.cam##+js(aost, JSON.parse, computed)
+egynow.cam,vidspeeds.com##^script:has-text(break;case $)
+vidspeeds.com##+js(aeld, , break;case $.)
 userload.*##+js(aeld, , _0x)
 userload.*##+js(nowoif)
 userload.*##+js(acis, document.getElementById, style.display)
@@ -90007,7 +90009,7 @@ gmailnator.com##+js(set, canRunAds, true)
 gmailnator.com###mailList > tbody > tr:has([data-target="#VeePNModal"])
 gmailnator.com##[id^="bsa-zone_"]
 cluset.com##+js(set, flashvars.popunder_url, '')
-cluset.com##.item a[href^="https://join."]:upward(.item)
+cluset.com##.item > div.spot:upward(1)
 cluset.com##.table
 tumblr.com##header[role="banner"] > div > a[href="/docs/en/relevantads"]:upward(3)
 tumblr.com##a[href^="https://www.bonecoin.com/"]
@@ -92743,6 +92745,7 @@ techpowerup.com##+js(aopw, test)
 webtoons.com##+js(set, ccsrv, '')
 webtoons.com##+js(set, lcs_SerName, '')
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js$script,redirect=noop.js,domain=bilibili.com,important
+||imsdb.pw/player/ip.php
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
