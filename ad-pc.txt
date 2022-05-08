@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kTfDv3KmpbcbN2hqhWXVEA
+! Checksum: u3wtRMNItQOhaTMNrWInWA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205080225
-! Last Modified: 2022年05月08日 02:25
+! Version: 202205080957
+! Last Modified: 2022年05月08日 09:57
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -27733,6 +27733,7 @@ _800x80_
 ##.np-ad
 ##.np-ad-background
 ##.np-ad-border
+##.np-ads-wrapper
 ##.np-adv-container
 ##.np-advert_apu
 ##.np-advert_apu-double
@@ -54786,6 +54787,7 @@ tf2r.com#@#.adverts
 ||sorcerers.net/includes/butler/
 ||southfloridagaynews.com/images/banners/
 ||sportpesanews.com/images/promo/
+||startpage.com/sp/adsense/
 ||static.fastpic.org^$subdocument
 ||static.tellerium.com^$subdocument
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
@@ -56953,6 +56955,7 @@ publish0x.com##.d-md-block.d-none.overflow-hidden
 thestreamable.com##.d-md-flex
 glumbouploads.com##.d0_728
 digminecraft.com##.d3e8860a
+fxempire.com##.dKBfBG
 sbs.com.au##.dNXvOT
 iol.co.za##.dULFRs
 standard.co.uk##.dXaqls
@@ -61960,23 +61963,7 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:1003px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:989px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:990px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:991px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:992px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:993px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:994px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:995px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:995px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:996px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:997px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:998px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:998px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:999px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -62263,6 +62250,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
+||23962340.com^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -69977,6 +69965,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com##.Content_L > p
+3dmgame.com##.Gmaeinfobtn_tab  > span
+3dmgame.com##.Gmaeinfobtn + span
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -77908,6 +77899,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||xiaodian.name^
+||hx9.ink^
+||beside-u.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -82571,7 +82565,7 @@ t66y.com##.tips
 !#theporn.xyz
 ###ad-ft
 ###wp > div > #top_banner
-theporn.cc###wp > div[id]
+theporn.cc###to_top + div > div[id]
 ##.ads > #video_playr_sider
 ##.bottom-gg
 ##.pull-right > #video_playr_sider
@@ -95467,6 +95461,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.cdnwidget.com^
 ||pixel.condenastdigital.com^
 ||pixel.inforsea.com^
+||pixel.locker2.com^
 ||pixel.mintigo.com^
 ||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
@@ -96309,6 +96304,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2zjlj1vewrxcj.cloudfront.net^
 ||d31bfnnwekbny6.cloudfront.net/customers/
 ||d31qbv1cthcecs.cloudfront.net^
+||d31y97ze264gaa.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d34qb8suadcc4g.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^

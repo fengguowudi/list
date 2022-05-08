@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CMk0m193FJPzqtOqOWB1UA
+! Checksum: hVHSKGRgpBoz/ug+XpLCRA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205080225
-! Last Modified: 2022年05月08日 02:25
+! Version: 202205080957
+! Last Modified: 2022年05月08日 09:57
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -27283,6 +27283,7 @@ _800x80_
 ##.np-ad
 ##.np-ad-background
 ##.np-ad-border
+##.np-ads-wrapper
 ##.np-adv-container
 ##.np-advert_apu
 ##.np-advert_apu-double
@@ -54336,6 +54337,7 @@ tf2r.com#@#.adverts
 ||sorcerers.net/includes/butler/
 ||southfloridagaynews.com/images/banners/
 ||sportpesanews.com/images/promo/
+||startpage.com/sp/adsense/
 ||static.fastpic.org^$subdocument
 ||static.tellerium.com^$subdocument
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
@@ -56503,6 +56505,7 @@ publish0x.com##.d-md-block.d-none.overflow-hidden
 thestreamable.com##.d-md-flex
 glumbouploads.com##.d0_728
 digminecraft.com##.d3e8860a
+fxempire.com##.dKBfBG
 sbs.com.au##.dNXvOT
 iol.co.za##.dULFRs
 standard.co.uk##.dXaqls
@@ -72661,6 +72664,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.cdnwidget.com^
 ||pixel.condenastdigital.com^
 ||pixel.inforsea.com^
+||pixel.locker2.com^
 ||pixel.mintigo.com^
 ||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
@@ -73503,6 +73507,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2zjlj1vewrxcj.cloudfront.net^
 ||d31bfnnwekbny6.cloudfront.net/customers/
 ||d31qbv1cthcecs.cloudfront.net^
+||d31y97ze264gaa.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d34qb8suadcc4g.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
@@ -89620,6 +89625,8 @@ audiobookcup.com##+js(acis, document.addEventListener, google_ad_client)
 tarjetarojatvonline.*##+js(aopr, absda)
 go.mozlink.net##+js(aopr, app_vars.force_disable_adblock)
 go.mozlink.net##+js(set, blurred, false)
+go.mozlink.net##+js(ra, onclick, #invisibleCaptchaShortlink)
+go.mozlink.net##+js(ra, onclick, a.btn-success.get-link)
 gigacourse.com##+js(acis, eval, replace)
 superonleech.biz##+js(acis, document.addEventListener, google_ad_client)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect-rule=noopjs,domain=howstuffworks.com
@@ -89978,6 +89985,11 @@ videovard.*##+js(nosiif, 0x)
 videovard.*##.jw-reset.jw-wrapper:style(z-index:2147483647 !important)
 videovard.*###nux > div > div > div[id]
 videovard.*##+js(aopr, FuckAdBlock)
+vardembed.xyz##+js(nowoif)
+vardembed.xyz##+js(nosiif, 0x)
+vardembed.xyz##.jw-reset.jw-wrapper:style(z-index:2147483647 !important)
+vardembed.xyz###nux > div > div > div[id]
+||vardembed.xyz/js/ada1.js
 burakgoc.com##+js(aost, String.prototype.charCodeAt, ai_)
 tvshows4mobile.com##+js(acis, String.prototype.charCodeAt, 'replace')
 tvshows4mobile.com##body:style(visibility:visible !important)
@@ -101734,7 +101746,7 @@ duckduckgo.com#@#.js-sidebar-ads
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 12 May 2002 00:00:00
+# start date:    Mon, 13 May 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
