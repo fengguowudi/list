@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hvQZN8SvGd5pvT7z3ZtUAg
+! Checksum: uaEdP+hNVpTSkKyi/dfR1Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205092041
-! Last Modified: 2022年05月09日 20:41
+! Version: 202205100226
+! Last Modified: 2022年05月10日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -25420,7 +25420,7 @@ _800x80_
 ##.gridSideAd
 ##.grid_ad_container
 ##.gridad
-##.gridlove-ad-below-header
+##.gridlove-ad
 ##.gridstream_ad
 ##.groei-ad
 ##.ground-ads-shared
@@ -36404,7 +36404,6 @@ tf2r.com#@#.adverts
 ||dittyharsh.com^
 ||ditwrite.com^
 ||divaduolite.com^
-||divascam.com^
 ||divedconservativemember.com^
 ||dividedscientific.com^
 ||dividurates.cam^
@@ -53625,6 +53624,7 @@ tf2r.com#@#.adverts
 ||babesroulette.com^$popup
 ||best-stream.net^$popup
 ||bestanimegame.com^$popup
+||bestchoicevpn.com^$popup
 ||bet365.com^*affiliate=$popup
 ||bettingpremier.com/direct/$popup
 ||bitcoincityprofits.co/?session=*&aff_$popup
@@ -53677,6 +53677,7 @@ tf2r.com#@#.adverts
 ||superblackfriday.deals^$popup
 ||theonlineuserprotector.com/download-guard/$popup,third-party
 ||torrent-protection.com^$popup
+||track.omguk.com^$popup
 ||trck.cdprivate.com^$popup
 ||ublockpop.com/rect.php?$popup
 ||unibet.co.uk/*affiliate$popup
@@ -53930,6 +53931,7 @@ tf2r.com#@#.adverts
 ||fapcandy.com^$popup,third-party
 ||flirthits.com/landing/$popup
 ||hdporn.to^$popup,third-party
+||hentaiheroes.com/landing/$popup,third-party
 ||icgirls.com^$popup
 ||imlive.com/wmaster.ashx?$popup,third-party
 ||ipornia.com/scj/cgi/out.php?scheme_id=$popup,third-party
@@ -75392,6 +75394,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stan.xing.com^
 ||stape.fun/stat/
 ||starfiles.co/analytics.php
+||startpage.com/sp/elp
+||startpage.com/sp/jst
 ||stat.livesportbar.net^
 ||stat.pubhtml5.com^
 ||stat.tildacdn.com^
@@ -92165,6 +92169,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||vehicle-insurance-quote.com^$all
 /?lpkey=*&uclickhash=$doc
 ||systemupdatesy.life^$all
+||chiarascanavino.de^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -94699,6 +94704,7 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||photopea.com/promo/no_ads.png$xhr,1p
 duckduckgo.com#@#.js-sidebar-ads
 ||cubics.com^$badfilter
+@@||new.xlovecam.com^$xhr,domain=divascam.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
