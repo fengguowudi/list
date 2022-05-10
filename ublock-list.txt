@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ge46wBS4eK3otAV32yGxYA
+! Checksum: dfLlcFDgQzd6jv8xfGfrbw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205102045
-! Last Modified: 2022年05月10日 20:45
+! Version: 202205110227
+! Last Modified: 2022年05月11日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -13376,6 +13376,11 @@ _800x80_
 ###fav-advertwrap
 ###fb_adbox
 ###fb_rightadpanel
+###fd-ad-mr1
+###fd-ad-mr2
+###fd-ad-mr3
+###fd-ad-sb1
+###fd-ad-sb2
 ###fearless_responsive_image_ad-2
 ###featAds
 ###featureAd
@@ -20714,6 +20719,7 @@ _800x80_
 ##.ads-post-closing
 ##.ads-post-footer
 ##.ads-post-full
+##.ads-posting
 ##.ads-profile
 ##.ads-rail
 ##.ads-rect
@@ -31454,6 +31460,7 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[title="Ads by Google"]
 ##topadblock
+###kt_player > a[target="_blank"]
 ###slashboxes > .deals-rail
 ##.scroll-fixable.rail-right > .deals-rail
 ##.click-track.partner
@@ -33272,6 +33279,7 @@ tf2r.com#@#.adverts
 ||albertonne.com^
 ||albireo.xyz^
 ||albraixentor.com^
+||alcaicsaplasia.casa^
 ||alcaidloggers.com^
 ||alchemysocial.com^
 ||alcoated.com^
@@ -38251,6 +38259,7 @@ tf2r.com#@#.adverts
 ||glirsoss.com^
 ||glishais.net^
 ||glixaing.com^
+||glizauvo.net^
 ||glmpdqess.xyz^
 ||glo-glo-oom.com^
 ||gloalrie.com^
@@ -38345,6 +38354,7 @@ tf2r.com#@#.adverts
 ||godudsqvnlgey.com^
 ||godvwcft.com^
 ||goeobouyt.com^
+||goepxwacxhtkix.com^
 ||goercoshes.com^
 ||goergleeds.com^
 ||gogoplexer.com^
@@ -38989,6 +38999,7 @@ tf2r.com#@#.adverts
 ||housekeeperjavelin.com^
 ||housemaiddevolution.com^
 ||housewifehaunted.com^
+||hoveleruvres.com^
 ||hoverr.co^
 ||hoverr.media^
 ||hovoptelo.com^
@@ -42176,6 +42187,7 @@ tf2r.com#@#.adverts
 ||ocmhood.com^
 ||ocnnykxjx.com^
 ||oconner.link^
+||octanmystes.com^
 ||octaviancontrast.com^
 ||octicdsects.com^
 ||octoberanger.com^
@@ -55118,6 +55130,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||x0r.urlgalleries.net^
 ||xbooru.com/script/application.js
 ||xcity.org/tc2ca02c24c5.js
+||xgirls.agency/pg/c/
 ||xgroovy.com/61b1c276d8465php/
 ||xgroovy.com/static/js/script.js
 ||xnxxporn.video/askrej/
@@ -58798,6 +58811,7 @@ hotmovs.com###in_va
 freebunker.com,imagesnake.com,imgcarry.com,pornbus.org###introOverlayBg
 hentaiprn.com###l_340
 postyourpuss.com###leaderboard
+xfantasy.su###listing-ba
 bootyoftheday.co###lj
 maturetubehere.com###lotal
 4tube.com###main-jessy-grid
@@ -58938,6 +58952,7 @@ onlydudes.tv##.b-footer-place
 onlydudes.tv##.b-side-col
 japan-whores.com##.b-sidebar
 dofap.com##.b_videobot
+xfantasy.su##.ba
 pornburst.xxx##.bann3rss
 3movs.xxx,analpornpix.com,babesmachine.com,chaturbate.com,fboomporn.com,fetishshrine.com,freepornpicss.com,imagezog.com,legalporn4k.com,milffox.com,oldies.name,paradisehill.cc,playvids.com,porngames.com,private.com,video.laxd.com,vidxnet.com,vjav.com,watchhentaivideo.com,waybig.com,xbabe.com,xcum.com,yourdailygirls.com,youx.xxx##.banner
 javfor.tv##.banner-c
@@ -87092,7 +87107,6 @@ pornhd8k.net##.content-kus
 xxvideoss.org##+js(acis, String.fromCharCode, 'shift')
 xxvideoss.org##+js(aopw, _pop)
 ||xxvideoss.org/wp-content/uploads/*/bannerrtx.jpg$image,1p
-###kt_player > a[target="_blank"]
 /player/html.php?aid=post_roll_html^$redirect=noopframe,frame,1p
 temp-phone-number.com##+js(nostif, offsetHeight)
 temp-phone-number.com##+js(set, db.onerror, noopFunc)
@@ -92219,6 +92233,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /?lpkey=*&uclickhash=$doc
 ||systemupdatesy.life^$all
 ||chiarascanavino.de^$all
+||d135aysof2oufc.cloudfront.net^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -93958,7 +93973,7 @@ order-order.com#@#.tag-sponsored
 @@||fmovies.to/subtitles/*$xhr
 @@||ffmovies.ru/subtitles/*$xhr
 @@||googletagmanager.com/gtm.js$script,domain=movistar.es
-@@||ssl.kaptcha.com/collect/sdk$script,domain=cb2.com
+@@||ssl.kaptcha.com/collect/sdk$script,xhr
 @@-ad0.$domain=azure.com
 @@-ad1.$domain=azure.com
 @@-ad2.$domain=azure.com
