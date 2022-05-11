@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dfLlcFDgQzd6jv8xfGfrbw
+! Checksum: jZWNUgmr4Dt/zDRjElpwUQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205110227
-! Last Modified: 2022年05月11日 02:27
+! Version: 202205110959
+! Last Modified: 2022年05月11日 09:59
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -93627,7 +93627,6 @@ twitter.com#@#article[role="article"]:has-text(Promoted)
 @@||litix.io/videojs/$script,domain=questod.co.uk
 ||unileversolutions.com/*/config/analytics.js$script,3p,important,redirect=noopjs
 ||farnell.com/*tracking.js$script,1p,redirect=noopjs
-@@||kimcartoon.to/Bookmark/$xhr,1p
 @@||x.kinja-static.com/assets/packaged-js/trackers$script
 ||ultimedia.com/api/widget/$xhr,badfilter
 ||ultimedia.com/api/widget/$xhr,domain=techradar.com|tomsguide.com|tomshardware.com|videogamer.com
@@ -93635,7 +93634,6 @@ twitter.com#@#article[role="article"]:has-text(Promoted)
 @@||authorityhacker.com/wp-content/*/plugins/duracelltomi-google-tag-manager/*$script,1p
 @@||parse.ly/page-data/help/api/analytics/$xhr,1p
 @@||viafoura.co^$domain=masslive.com
-@@||xtool.ru/js/analyze.js$script,1p
 */videoplayback?expire$media,redirect=noopmp3-0.1s,domain=webmd.com
 @@||googletagmanager.com/gtm.js$script,domain=eclipse.org
 @@||modules-prod.franklyinc.com/cml.js$script,domain=newson6.com
@@ -93674,7 +93672,6 @@ los40.com###adunit
 @@||cds.connatix.com/embed/$frame,domain=rawstory.com
 @@||ipinfo.io/json$xhr,domain=futbollibre.online
 @@||safecurr.g2afse.com/click?pid=*&offer_id$popup
-@@||brid.tv/player/build/plugins/prebid/$script,domain=realhousemoms.com
 @@||tvtime.com/ga-assets/*$1p
 @@||epaper.eenadu.net/Home/GetAds$xhr,1p
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=epaper.eenadu.net
@@ -93971,7 +93968,6 @@ order-order.com#@#.tag-sponsored
 ||streamplay.*/jquery-$badfilter
 *$image,redirect-rule=1x1.gif,domain=play.cadenaser.com
 @@||fmovies.to/subtitles/*$xhr
-@@||ffmovies.ru/subtitles/*$xhr
 @@||googletagmanager.com/gtm.js$script,domain=movistar.es
 @@||ssl.kaptcha.com/collect/sdk$script,xhr
 @@-ad0.$domain=azure.com
@@ -94768,6 +94764,7 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 duckduckgo.com#@#.js-sidebar-ads
 ||cubics.com^$badfilter
 @@||new.xlovecam.com^$xhr,domain=divascam.com
+||go.usa.gov^$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -101856,7 +101853,7 @@ duckduckgo.com#@#.js-sidebar-ads
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 15 May 2002 00:00:00
+# start date:    Thu, 16 May 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
