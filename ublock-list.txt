@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tz4nRF76FRwRlkP62ebmLw
+! Checksum: ntKp/yX1VJWcWPRWUfXoqw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205111431
-! Last Modified: 2022年05月11日 14:31
+! Version: 202205112048
+! Last Modified: 2022年05月11日 20:48
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54974,6 +54974,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||homeprivatevids.com/js/580eka426.js
 ||hornygamer.com/includes/gamefile/sw3d_hornygamer.gif
 ||hornygamer.com/play_horny_games/
+||hornyjourney.com/fr.js
 ||hotgirlclub.com/assets/vendors/
 ||hotgirlsdream.com/tf40bbdd1767.js
 ||hotmovs.com/suhum/
@@ -55483,7 +55484,7 @@ dealsofde.com###gg_box_1
 dealsofde.com###gg_box_2
 glowstery.com###ghostery-highlights
 fmovies.ps,movies2watch.tv,moviesjoy.to,myflixer.to,myflixertv.to###gift-middle
-f2movies.to,fmovies.ps,fmoviesto.cc,movies2watch.tv,moviesjoy.to,myflixertv.to###gift-top
+f2movies.to,fmovies.ps,fmoviesto.cc,movies2watch.tv,moviesjoy.to,myflixertv.to,myflixer.to###gift-top
 freegames.org###gla
 wordcounter.net###glya
 pcgamingwiki.com###gog_summer_sale_2021
@@ -59414,6 +59415,7 @@ freebdsmxxx.org##[href^="https://t.me/joinchat/"]
 sexhimmel.com##[href^="https://www.amarotic.com/"]
 porngames.club##[href^="https://www.porngames.club/friends/out.php"]
 koreanstreamer.xyz##[href^="https://www.saltycams.com"]
+youporn.com##[src*="bloB:"]
 tube8.com,tube8.es,tube8.fr##[src*="bloB:https://www.tube8."]
 youjizz.com,youporn.com,youporngay.com##[src*="blob:"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr##[src^="bLob:"]
@@ -73647,6 +73649,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d81mfvml8p5ml.cloudfront.net^
 ||danv01ao0kdr2.cloudfront.net^
 ||daq0d0aotgq0f.cloudfront.net^
+||dbv0r7a702yve.cloudfront.net^
 ||dc8na2hxrj29i.cloudfront.net^
 ||dc8xl0ndzn2cb.cloudfront.net^
 ||dd6zx4ibq538k.cloudfront.net^
@@ -75311,6 +75314,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rta2.metro.co.uk^
 ||rta2.newzit.com^
 ||rum.api.intuit.com^
+||rum.condenastdigital.com^
 ||rum.kobo.com^
 ||rumble.com/l/
 ||rv.modanisa.com^$script
@@ -88589,7 +88593,8 @@ cutearn.net##+js(aopr, open)
 cutearn.net##+js(set, blurred, false)
 cutearn.net##section.short
 cutearn.net##[src^="https://i.ibb.co/"]
-hiperdex.com##^script:has-text({}.constructor)
+hiperdex.com##+js(aopw, _pop)
+hiperdex.com##^script[data-cfasync]:has-text(h=decodeURIComponent)
 porntn.com##+js(set, flashvars.protect_block, '')
 gdr-online.com##+js(set, isAdsLoaded, true)
 gdr-online.com##.adv_barra_alto
@@ -88625,6 +88630,7 @@ jaanmusic.in,rtxkeeda.com##+js(nosiif, _0x)
 @@*$ghide,domain=jaanmusic.in|rtxkeeda.com
 @@||googlesyndication.com/pagead/$script,domain=jaanmusic.in|rtxkeeda.com
 @@*$image,domain=jaanmusic.in|rtxkeeda.com
+@@||a2zapk.com^$frame,script,xhr,domain=rtxkeeda.com
 jaanmusic.in,rtxkeeda.com##.adsbygoogle
 jaanmusic.in,rtxkeeda.com##div[style="background:#ededed;"]
 jaanmusic.in,rtxkeeda.com###galax2
@@ -89010,6 +89016,7 @@ hitproversion.com##.onp-sl-social-locker
 *$script,redirect-rule=noopjs,domain=anydebrid.com
 @@||adserver.juicyads.com/*.js$script,domain=anydebrid.com
 @@||js.juicyads.com/*.js$script,domain=anydebrid.com
+@@||mobile.juicyads.com/*.js$domain=anydebrid.com
 mavplay.xyz##+js(aeld, , _blank)
 4anime.biz##+js(aeld, , _blank)
 4anime.*##+js(acis, parseInt, break;case $.)
@@ -92797,15 +92804,14 @@ search.brave.com##+js(no-fetch-if, body:browser)
 /^\w+://[\w.\-]+\.www\.logology\.co//$1p,script
 /^\w+://[\w.\-]+\.www\.atlaslane\.com//$1p,script
 /^\w+://[0-9a-z]{12}\.tapmyback\.com//$1p,script
-/^\w+://[\w.\-]+\.www\.cefirates\.com//$1p,script
 fjlaboratories.com##+js(aost, Math.floor, injectedScript)
 stoic.ai##^script:has-text(\x3c)
 stoic.ai##+js(aost, Math.floor, injectedScript)
 ||ampl.cinotes.com^
 ||data-saver-cindi.herokuapp.com^
 ||cdn.cindicator.com/$script,3p
-botcomics.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,monumentmetals.com,nikita.tk,ping.gg##+js(acis, String.fromCharCode, join)
-botcomics.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk##^script:has-text(join)
+botcomics.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,monumentmetals.com,nikita.tk,ping.gg,cefirates.com##+js(acis, String.fromCharCode, join)
+botcomics.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,cefirates.com##^script:has-text(join)
 ||washpost.nile.works^
 /p13n/batch/action/*$image
 ||da29e6b8-f018-490f-b25f-39a887fc95e7.xyz^
