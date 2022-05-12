@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fjLzezP0L5pDyKeUgMWsFg
+! Checksum: 6bSElBhNbrmviC+VdqidYw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205120959
-! Last Modified: 2022年05月12日 09:59
+! Version: 202205121430
+! Last Modified: 2022年05月12日 14:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -94822,6 +94822,7 @@ duckduckgo.com#@#.js-sidebar-ads
 ||go.usa.gov^$badfilter
 @@||warpwire.*^AD/$xhr
 @@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=conad.it
+xdpedia.com#@#div[id^="ezoic-pub-ad-"]
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
