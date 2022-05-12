@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6bSElBhNbrmviC+VdqidYw
+! Checksum: mLRqwpN/vT22QW1WOFsnJw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205121430
-! Last Modified: 2022年05月12日 14:30
+! Version: 202205122045
+! Last Modified: 2022年05月12日 20:45
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -31948,6 +31948,7 @@ uol.com.br#@#div[data-adunit]
 cookinglight.com#@#div[data-native_ad]
 out.com#@#div[id^="dfp-ad-"]
 cancam.jp,saitama-np.co.jp#@#div[id^="div-gpt-"]
+xdpedia.com#@#div[id^="ezoic-pub-ad-"]
 forums.overclockers.ru#@#div[id^="yandex_ad"]
 japan-webike.be,japan-webike.ca,japan-webike.ch,japan-webike.dk,japan-webike.ie,japan-webike.it,japan-webike.kr,japan-webike.nl,japan-webike.se,webike-china.cn,webike.ae,webike.co.at,webike.co.hu,webike.co.il,webike.co.uk,webike.com.ar,webike.com.bd,webike.com.gr,webike.com.kh,webike.com.mm,webike.com.ru,webike.com.tr,webike.com.ua,webike.cz,webike.de,webike.es,webike.fi,webike.fr,webike.hk,webike.id,webike.in,webike.la,webike.mt,webike.mx,webike.my,webike.net,webike.net.br,webike.net.pl,webike.ng,webike.no,webike.nz,webike.ph,webike.pk,webike.pt,webike.sg,webike.tw,webike.vn#@#.ad_box
 japan-webike.be,japan-webike.ca,japan-webike.ch,japan-webike.dk,japan-webike.ie,japan-webike.it,japan-webike.kr,japan-webike.nl,japan-webike.se,webike-china.cn,webike.ae,webike.co.at,webike.co.hu,webike.co.il,webike.co.uk,webike.com.ar,webike.com.bd,webike.com.gr,webike.com.kh,webike.com.mm,webike.com.ru,webike.com.tr,webike.com.ua,webike.cz,webike.de,webike.es,webike.fi,webike.fr,webike.hk,webike.id,webike.in,webike.la,webike.mt,webike.mx,webike.my,webike.net,webike.net.br,webike.net.pl,webike.ng,webike.no,webike.nz,webike.ph,webike.pk,webike.pt,webike.sg,webike.tw,webike.vn#@#.ad_title
@@ -54292,6 +54293,7 @@ tf2r.com#@#.adverts
 ||howtogermany.com/images/bnr-
 ||hubgifs.info/adsusd/
 ||i-tech.com.au/media/wysiwyg/banner/
+||iamcdn.net/players/playhydraxs.min.js$domain=player-cdn.com
 ||ice.hockey/images/sponsoren/
 ||iceinspace.com.au/iisads/
 ||idlebrain.com^*/footer-
@@ -55244,8 +55246,6 @@ fanlesstech.com###HTML4 > .widget-content
 fanlesstech.com###HTML5 > .widget-content
 fanlesstech.com###HTML6 > .widget-content
 linkfang.org###LinkFang_Horizontal
-myanimelist.net###M_300x250_1_iframe
-myanimelist.net###M_320x50_1_iframe
 techadvisor.com###OzAUZW
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
@@ -57032,7 +57032,6 @@ tekno.kompas.com##.kcm
 goldprice.org##.kenbi
 trustedreviews.com##.keystone-single-widget
 wantedinafrica.com##.kn-widget-banner
-myanimelist.net##.koukoku-sticky-wrapper
 iphonelife.com##.l-header
 wwe.com##.l-hybrid-col-frame_rail-wrap
 weatherpro.com##.large-leaderboard
@@ -57109,7 +57108,6 @@ tech.hindustantimes.com##.m-to-add
 net-load.com##.m7s-81.m7s
 wccftech.com##.main-background-wrap
 ggrecon.com##.mainVenatusBannerContainer
-myanimelist.net##.mal-side-koukoku
 color-hex.com##.margin10
 fandom.com##.marketplace
 designtaxi.com##.masonry-brick.nt
@@ -57301,8 +57299,6 @@ wweek.com##.pb-f-phanzu-phanzu-ad-code
 washingtonpost.com##.pb-lgmod
 playbuzz.com##.pb-site-player
 caixinglobal.com##.pc-ad-left01
-myanimelist.net##.pda-tla-nUGkAdHmiepCTsbx
-myanimelist.net##.pda_top
 westernjournal.com##.persistent-footer
 proxfree.com##.pfad2
 proxfree.com##.pfad3
@@ -57533,6 +57529,7 @@ dispatchlive.co.za,sowetanlive.co.za##.section-article-sponsored
 nationalreview.com##.section-content--revcontent
 nzherald.co.nz##.section-iframe
 pipeflare.io##.section-promo-banner
+brandsoftheworld.com##.seedling
 coingecko.com##.selected
 studyfinds.org##.sfspot
 shortorial.com,webogram.in##.sgpb-popup-dialog-main-div-wrapper
@@ -57553,6 +57550,7 @@ stuff.co.nz##.sics-component__widget--neighbourlyShowcasePlus
 pcgamebenchmark.com##.side
 chaseyoursport.com##.side-adv-block-blog-open
 news.am,nexter.org,viva.co.nz##.side-banner
+myanimelist.net##.side-koukoku
 gfycat.com##.side-slot
 vpnmentor.com##.side-top-vendors-wrap
 pr0gramm.com##.side-wide-skyscraper
@@ -57736,7 +57734,6 @@ emoneyspace.com##.t_a_c
 ndtv.com##.taboolFeed
 thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se##.taboola-row
 protocol.com##.tag-sponsored
-myanimelist.net##.tag_pc_top
 mdisk.me##.taka-gif-con
 recombu.com##.takeover-right
 shacknews.com##.takeover-skin
@@ -59847,6 +59844,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||vidible.tv/stage/$media,object,other
 @@||volterra.io^*/advertise_policy$~third-party
 @@||volterra.us^*/advertise_policy$~third-party
+@@||warpwire.com/AD/
+@@||warpwire.net/AD/
 @@||webmd.com/dtmcms/live/webmd/*/video-ad.js$script,~third-party
 @@||wikia.nocookie.net^$stylesheet
 @@||wikia.nocookie.net^*/images/$image
@@ -86275,6 +86274,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||fast.appcues.com^$script,domain=static.abcmouse.com
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=gables.com|itsolutions-inc.com
 @@||files.mycloud.com/js/analytics/google_analytics.js
+@@||firebase.google.com/docs/analytics/$~third-party
 @@||firststatesuper.com.au^*/js/analytics.js$script,~third-party
 @@||flipboard.com/setcookie?$~third-party
 @@||flippingbook.com^*/static/analytics.js$script,~third-party
@@ -89300,7 +89300,6 @@ cashathome.online##+js(acis, document.querySelectorAll, popMagic)
 cashathome.online##+js(set, blurred, false)
 cashathome.online##.banner
 ofilmywap.*,kannadamasti.*,buyjiocoin.*,filmygod13.*##+js(nowoif)
-o2tvseries.paidnaija.com##+js(aost, Math.floor, )
 fiedrive.com##+js(aopr, app_vars.force_disable_adblock)
 veryfastdownload.pw##+js(aopr, SmartPopunder.make)
 eztvtorrent.co##+js(acis, document.querySelectorAll, popMagic)
@@ -92755,6 +92754,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||hdvideosnet.com^
 ||shaktilar.xyz^$all
 ||flippingcharts.com^$all
+||fullcrack.vn^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
@@ -94820,9 +94820,8 @@ duckduckgo.com#@#.js-sidebar-ads
 ||cubics.com^$badfilter
 @@||new.xlovecam.com^$xhr,domain=divascam.com
 ||go.usa.gov^$badfilter
-@@||warpwire.*^AD/$xhr
 @@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=conad.it
-xdpedia.com#@#div[id^="ezoic-pub-ad-"]
+||t.co^$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -101903,7 +101902,7 @@ xdpedia.com#@#div[id^="ezoic-pub-ad-"]
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Wed, 11 May 2022 14:29:23 GMT
-# entries:        3677
+# entries:        3676
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -103439,7 +103438,6 @@ xdpedia.com#@#div[id^="ezoic-pub-ad-"]
 127.0.0.1 crwdcntrl.net
 127.0.0.1 crypto-loot.org
 127.0.0.1 ctnetwork.hu
-127.0.0.1 cubics.com
 127.0.0.1 culturedcrayon.com
 127.0.0.1 cumbersomecloud.com
 127.0.0.1 curtaincows.com
