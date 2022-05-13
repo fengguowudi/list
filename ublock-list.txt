@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6QQ4/GbqNoAPOmwGSx1rjA
+! Checksum: xnT6Su+kgpEj5Uzo8uEgOA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205130228
-! Last Modified: 2022年05月13日 02:28
+! Version: 202205131004
+! Last Modified: 2022年05月13日 10:04
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -94838,6 +94838,7 @@ duckduckgo.com#@#.js-sidebar-ads
 ||go.usa.gov^$badfilter
 @@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=conad.it
 ||t.co^$badfilter
+||lacentrale.fr/static/fragment-layout/tracking-$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -101926,7 +101927,7 @@ duckduckgo.com#@#.js-sidebar-ads
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 17 May 2002 00:00:00
+# start date:    Sat, 18 May 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
