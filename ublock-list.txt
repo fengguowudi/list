@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zZHjRSgHsXJwT32BNIRfzg
+! Checksum: 3U4qog1bOpRy3HCw+JvaRQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205131430
-! Last Modified: 2022年05月13日 14:30
+! Version: 202205132051
+! Last Modified: 2022年05月13日 20:51
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -35174,7 +35174,6 @@ tf2r.com#@#.adverts
 ||chiptionics.co^
 ||chirkacylal.com^
 ||chitaglipti.pro^
-||chitika.com^
 ||chitika.net^
 ||chittedjauping.com^
 ||chivalrouspeacockgreatly.com^
@@ -41787,7 +41786,6 @@ tf2r.com#@#.adverts
 ||nesystersp.club^
 ||net-ad-vantage.com^
 ||net00.biz^
-||net3media.com^
 ||netcatx.com^
 ||netgreatlyavailable.com^
 ||netpatas.com^
@@ -49380,6 +49378,7 @@ tf2r.com#@#.adverts
 ||cbclickbank.com^$third-party
 ||cdnreference.com^$third-party
 ||charltonmedia.com^$third-party
+||chitika.com^$third-party
 ||cibleclick.com^$third-party
 ||cinarra.com^$third-party
 ||citrusad.com^$third-party
@@ -55387,6 +55386,7 @@ post-gazette.com###benn-poll-iframe-container
 fightful.com###betway-sports
 usnews.com###bfad-slot
 shellshock.io###big-house-ad
+returnyoutubedislike.com###biggest-supporters
 bentoneveningnews.com,dailyregister.com,dailyrepublicannews.com,duquoin.com,randolphcountyheraldtribune.com###billBoardATF
 versus.com###bill_bottom
 cricketnetwork.co.uk,f1network.net,howtogermany.com,rugbynetwork.net,thefootballnetwork.net,timesandstar.co.uk###billboard
@@ -85923,6 +85923,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||logger.uol.com.br^
 ||metrics.uol.com.br^
 ||olx.com.br^*/lurker.
+||r7.com/comscore/
 ||sapo.*/clk?u=
 ||sapo.pt/Projects/sapoabd/
 ||tags.globo.com^
@@ -87025,6 +87026,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||googletagmanager.com/gtm.js$domain=netcombo.com.br|saraiva.com.br|superesportes.com.br|tugatech.com.pt
 @@||habibs.com.br/build/assets/js/tracking.js$domain=habibs.com.br
 @@||hit.gemius.pl/xlgemius.js$script,domain=ojogo.pt
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=r7.com
 @@||jsonip.com/?callback=$script,domain=pagtel.com.br
 @@||laredoute.pt/js/byside_webcare.js
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
@@ -87699,8 +87701,8 @@ pornojenny.com###wa_10
 @@||pornojenny.com^$ghide
 pornojenny.com##[href^="https://www.handy-sextreffen.info/"]:upward(.grid_box)
 mundowuxia.com##+js(aopw, _pop)
-*$doc,csp=script-src *,domain=~kat.ec|~kat.mn|~kat.eu|~kat.rip|~kat.tv|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
-*$script,1p,domain=~kat.ec|~kat.eu|~kat.mn|~kat.rip|~kat.tv|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
+*$doc,csp=script-src *,domain=~kat.at|~kat.ec|~kat.mn|~kat.eu|~kat.rip|~kat.tv|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
+*$script,1p,domain=~kat.at|~kat.ec|~kat.eu|~kat.mn|~kat.rip|~kat.tv|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
 kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekickass.*,kickassz.*,kickasstorrents2.*,topkickass.*,kickassgo.*,kkickass.*,kkat.*,kickasst.*,kick4ss.*,katbay.*,kickasshydra.*,kickasskat.*,kickassbay.*,torrentkat.*,kickassuk.*,torrentskickass.*,kickasspk.*,kickasstrusty.*,katkickass.*,kickassindia.*,kickass-usa.*,kickassaustralia.*,kickassdb.*,kathydra.*,kickassminds.*,katkickass.*,kickassunlocked.*,kickassmovies.*,kickassfull.*,bigkickass.*,kickasstracker.*,katfreak.*##[style*="decoration"]:not([style^="width"])
 kat.*,katbay.*,kickass.*,kickasshydra.*,kickasskat.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekickass.*,kickassz.*,kickasstorrents2.*,topkickass.*,kickassgo.*,kkickass.*,kkat.*,kickasst.*,kick4ss.*##[href="/k.php?q=q"]
 @@||kickasstorrents.*/static/js/all.js$script,1p
@@ -89820,9 +89822,9 @@ spele.nl##.is-billboard
 mediapemersatubangsa.com##+js(acis, document.addEventListener, google_ad_client)
 mediapemersatubangsa.com##+js(aopw, _pop)
 2embed.ru##^script:has-text(break;case $.)
-2embed.ru##+js(acis, Promise, break;case $.)
+2embed.ru##+js(aeld, , break;case $.)
 *$script,3p,denyallow=gstatic.com,domain=la123movies.com
-*$script,3p,denyallow=cloudflare.net|google.com|gstatic.com|jsdelivr.net,domain=2embed.ru
+*$script,frame,xhr,css,image,3p,denyallow=cloudflare.net|dood.watch|embed2.megaxfer.ru|google.com|googleapis.com|gstatic.com|jsdelivr.net|rabbitstream.net|upstream.to|voe-unblock.com|voe.sx,domain=2embed.ru
 pornofan.pl###inplayerADS
 pornofan.pl##.PublicitaDestra
 audiobookcup.com##+js(acis, document.addEventListener, google_ad_client)
@@ -101944,7 +101946,7 @@ duckduckgo.com#@#.js-sidebar-ads
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Wed, 11 May 2022 14:29:23 GMT
-# entries:        3676
+# entries:        3673
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -102382,7 +102384,6 @@ duckduckgo.com#@#.js-sidebar-ads
 127.0.0.1 ads.cybersales.cz
 127.0.0.1 ads.dada.it
 127.0.0.1 ads.dailycamera.com
-127.0.0.1 ads.datingyes.com
 127.0.0.1 ads.delfin.bg
 127.0.0.1 ads.deltha.hu
 127.0.0.1 ads.dennisnet.co.uk
@@ -102602,6 +102603,7 @@ duckduckgo.com#@#.js-sidebar-ads
 127.0.0.1 ads.tripod.lycos.de
 127.0.0.1 ads.tripod.lycos.es
 127.0.0.1 ads.tripod.lycos.it
+127.0.0.1 ads.tripod.lycos.nl
 127.0.0.1 ads.tso.dennisnet.co.uk
 127.0.0.1 ads.twitter.com
 127.0.0.1 ads.twojatv.info
@@ -103773,7 +103775,6 @@ duckduckgo.com#@#.js-sidebar-ads
 127.0.0.1 fpjs.io
 127.0.0.1 fqtag.com
 127.0.0.1 frailoffer.com
-127.0.0.1 franklybundlecarver.com
 127.0.0.1 free-banners.com
 127.0.0.1 free-counter.co.uk
 127.0.0.1 freebanner.com
@@ -103943,7 +103944,6 @@ duckduckgo.com#@#.js-sidebar-ads
 127.0.0.1 hueads.com
 127.0.0.1 hueadsortb.com
 127.0.0.1 hueadsxml.com
-127.0.0.1 huezzcjskf.site
 127.0.0.1 hurricanedigitalmedia.com
 127.0.0.1 hurtteeth.com
 127.0.0.1 hydramedia.com
@@ -105477,7 +105477,6 @@ duckduckgo.com#@#.js-sidebar-ads
 127.0.0.1 voluum.com
 127.0.0.1 voluumtrk2.com
 127.0.0.1 volvelle.tech
-127.0.0.1 voodoo-ads.io
 127.0.0.1 vpon.com
 127.0.0.1 vrs.cz
 127.0.0.1 vs.tucows.com
