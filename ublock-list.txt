@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GEmIlJZz6Mr+n19Luwy6tQ
+! Checksum: 9yR5stuwxi7yJPhWAMYlsQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205142044
-! Last Modified: 2022年05月14日 20:44
+! Version: 202205150226
+! Last Modified: 2022年05月15日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -59525,6 +59525,7 @@ boobieblog.com##[href^="https://iplayboy.us/"]
 hentaiworld.tv##[href^="https://l.epvkjs.com/"]
 masalaseen.net##[href^="https://rajabets.com/"]
 freebdsmxxx.org##[href^="https://t.me/joinchat/"]
+pornhub.com##[href^="https://weedmaps.com"]
 sexhimmel.com##[href^="https://www.amarotic.com/"]
 porngames.club##[href^="https://www.porngames.club/friends/out.php"]
 koreanstreamer.xyz##[href^="https://www.saltycams.com"]
@@ -92341,7 +92342,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||d135aysof2oufc.cloudfront.net^$all
 ||blob.core.windows.net/$web/$doc
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
-/^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
+/^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
 /^https?:\/\/((?!www)[a-z]{3,}\.)?[-0-9a-z]{6,}\.(?:com|de|fun|guru|life|online|pw|site|space|top|us|xyz)\/(?:[a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=com|de|fun|guru|life|online|pw|site|space|top|us|xyz
@@ -94869,7 +94870,7 @@ duckduckgo.com#@#.js-sidebar-ads
 @@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=conad.it
 ||t.co^$badfilter
 ||lacentrale.fr/static/fragment-layout/tracking-$badfilter
-@@*$cname,domain=adtspecials.com|befinanciallyfit.com|cursodemedicina.com.br|hootsuite.com|semipresencial.com.br|systemsprotect.com
+@@||postclickmarketing.com^$domain=adtspecials.com|befinanciallyfit.com|cursodemedicina.com.br|demandmetric.com|hootsuite.com|semipresencial.com.br|systemsprotect.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
