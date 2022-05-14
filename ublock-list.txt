@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZB8aT6afrCul6pugrX4uAg
+! Checksum: qoWiwalVIf7/N/c6qReexA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205141008
-! Last Modified: 2022年05月14日 10:08
+! Version: 202205141441
+! Last Modified: 2022年05月14日 14:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57082,6 +57082,7 @@ essentiallysports.com##.jsx-4249843366
 theartnewspaper.com##.justify-center.flex.w-full
 aiscore.com##.justify-center.w100
 etherscan.io##.justify-content-center
+etherscan.io##.justify-content-center-alt
 qz.com##.k3mqd
 hltv.org##.kN5UQvcU
 radaronline.com##.kXxPWv
@@ -75754,6 +75755,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vortex.hulu.com^
 ||vrbo.com/pdp/logger?
 ||vrv.co/ip
+||wa.gmx.co.uk^
 ||wa.ui-portal.de^
 ||wal.co/cdn-perf.min.js
 ||wal.wolfram.com^
@@ -85290,6 +85292,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||vfd2dyn.vodafone.de^
 ||wa.gmx.ch^
 ||wa.gmx.net/gmxde/gmxde/s?$image
+||wa.gmx.net^
 ||wikipedia.de/tracking.js
 ||wjq.ma.tarnkappe.info^
 ||wlw.de/unified_search_backend/api/v1/tracking/
@@ -88924,7 +88927,7 @@ game3rb.com##+js(aeld, DOMContentLoaded, 0x)
 game3rb.com##+js(no-fetch-if, method:HEAD)
 ||game3rb.com/sw.js^$script,1p
 game3rb.com##[href^="http://pityhostngco2.xyz/"]
-*$script,3p,domain=game3rb.com,denyallow=wp.com|googleapis.com|cloudflare.com|bootstrapcdn.com|disqus.com|disquscdn.com
+*$script,3p,denyallow=bootstrapcdn.com|cloudflare.com|cloudfront.net|disqus.com|disquscdn.com|fastlylb.net|googleapis.com|wp.com,domain=game3rb.com
 @@||empregovaga.online^$ghide
 empregovaga.online###banner
 ||googletagmanager.com/gtag/js$script,redirect-rule=noopjs,domain=rotana.net
@@ -91068,8 +91071,6 @@ glotorrents.fr-proxy.com##+js(aopw, decodeURI)
 glotorrents.fr-proxy.com##+js(aopw, adcashMacros)
 glotorrents.fr-proxy.com,glotorrents.theproxy.ws##+js(nowoif)
 glotorrents.fr-proxy.com,glotorrents.theproxy.ws##+js(aopr, String.prototype.charCodeAt)
-mikaraw.com##div[style*="width: 350px"][style*="height: 250px"]
-||cdn.fedsy.xyz/app.js
 myoplay.club##+js(acis, parseInt, break;case $.)
 tutele.sx##+js(aopr, Overlayer)
 tutele.sx##+js(aopw, _pop)
@@ -91299,7 +91300,8 @@ freedownloadvideo.net##a[href^="https://www.videoproc.com/"]:upward(1)
 raky.in##+js(no-fetch-if, googlesyndication)
 raky.in##+js(nano-sib)
 titantv.com##+js(aopr, prm)
-titantv.com##.gridTable > tbody > tr:not([class]):has(> td[align="center"][style^="vertical-align: top; overflow: hidden;"] > div[id][style]:empty)
+titantv.com##+js(aost, document.createElement, loadPlayer)
+titantv.com##.gridTable > tbody > tr:not([class]) div[id]
 titantv.com##.s2nFloatBox
 titantv.com###stnvidplyr
 titantv.com##:xpath(//*[contains(text(),"sponsored")])
