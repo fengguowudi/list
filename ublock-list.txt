@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qoWiwalVIf7/N/c6qReexA
+! Checksum: GEmIlJZz6Mr+n19Luwy6tQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205141441
-! Last Modified: 2022年05月14日 14:41
+! Version: 202205142044
+! Last Modified: 2022年05月14日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17398,6 +17398,7 @@ _800x80_
 ##.a-ad--skyscraper
 ##.a-ad--wide
 ##.a-article-teaser--sponsored
+##.a-d-250
 ##.a-d-container
 ##.a-d-rotate_widgets
 ##.a-dserver
@@ -23007,6 +23008,7 @@ _800x80_
 ##.banner-adsense
 ##.banner-adv
 ##.banner-advert
+##.banner-advertisement
 ##.banner-adverts
 ##.banner-buysellads
 ##.banner-paid-ad-label
@@ -49256,6 +49258,7 @@ tf2r.com#@#.adverts
 ||auctionnudge.com^$third-party
 ||audience2media.com^$third-party
 ||audiencerun.com^$third-party
+||autoads.asia^$third-party
 ||automatad.com^$third-party
 ||awsmer.com^$third-party
 ||axiaffiliates.com^$third-party
@@ -54410,6 +54413,7 @@ tf2r.com#@#.adverts
 ||linkhub.icu/vendors/h.js
 ||linkshare.pro/img/btc.gif
 ||linuxtracker.org/images/dw.png
+||livescore.az/images/banners
 ||loadingz.com/jflex.js
 ||local.tampabay.com^$subdocument
 ||lw.musictarget.com^
@@ -56031,7 +56035,7 @@ nutritioninsight.com###verticlblks
 filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
 forums.tomsguide.com###video_ad
 gumtree.com###vipBanner
-playstationtrophies.org###vnt-lb-a
+playstationtrophies.org,xboxachievements.com###vnt-lb-a
 browserleaks.com###vpn_img
 browserleaks.com###vpn_text
 ettvcentral.com###vpnvpn
@@ -56145,6 +56149,7 @@ supercheats.com##.a300
 localtiger.com##.a9gy_lt
 scoredle.com##.aHeader
 opensubtitles.org##.a_1.a.p
+fastweb.com##.a_cls_s
 premierguitar.com##.a_promo
 androidauthority.com##.aa
 informer.com##.aa-728
@@ -57614,6 +57619,7 @@ vpnmentor.com##.side-top-vendors-wrap
 pr0gramm.com##.side-wide-skyscraper
 israelnationalnews.com##.sideInf
 freeseotoolbox.net##.sideXd
+uquiz.com##.side_bar
 panarmenian.net##.side_panner
 tutorialrepublic.com##.sidebar
 dkoding.in##.sidebar .widget_custom_html
@@ -58025,7 +58031,7 @@ naturalnewsblogs.com##[href*="/WBA/"]
 complaintsingapore.com##[href*="/adv.php"]
 libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com##[href*="://go.nordvpn.net/"]
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
-9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,forum.ragezone.com,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,nexter.org,owaahh.com,parkablogs.com,pastemytxt.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,thinknews.com.ng,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,wccftech.com,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
+9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,biblestudytools.com,carmag.co.za,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,forum.ragezone.com,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,nexter.org,owaahh.com,parkablogs.com,pastemytxt.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,thinknews.com.ng,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,wccftech.com,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
 steroid.com##[href*="https://www.anabolics.com"]
 2pass.co.uk##[href="bicycle-insurance.htm"]
 toumpano.net##[href="http://roz-tilefona.xbomb.net/"]
@@ -67069,6 +67075,7 @@ _mongo_stats/
 ||esearchvision.com^$third-party
 ||esm1.net^$third-party
 ||esomniture.com^$third-party
+||esputnik.com^$third-party
 ||estara.com^$third-party
 ||estat.com^$third-party
 ||estrack.net^$third-party
@@ -74739,7 +74746,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||informers.sinoptik.ua^
 ||mgz.com.ua/counter.php?
 ||top.zp.ua/counter/
-||tracker.esputnik.com^
 ||analytics.yomedia.vn^
 ||f-emc.ngsp.gov.vn^
 ||fpt.shop/fa_tracking.js
@@ -85293,6 +85299,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wa.gmx.ch^
 ||wa.gmx.net/gmxde/gmxde/s?$image
 ||wa.gmx.net^
+||wa.web.de^
 ||wikipedia.de/tracking.js
 ||wjq.ma.tarnkappe.info^
 ||wlw.de/unified_search_backend/api/v1/tracking/
@@ -86513,6 +86520,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||retailmenot.com/__wsm.gif$ping,xmlhttprequest
 @@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
+@@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
 @@||rum.perfops.net/rum.min.js$script,domain=cdnperf.com
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
@@ -89134,14 +89142,6 @@ download.freestudyweb.com##+js(set, blurred, false)
 download.freestudyweb.com##.banner
 hitproversion.com##.onp-sl-content:style(display:block !important)
 hitproversion.com##.onp-sl-social-locker
-@@||anydebrid.com^$ghide
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=anydebrid.com
-@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=anydebrid.com
-@@||ads.exoclick.com^$script,domain=anydebrid.com
-*$script,redirect-rule=noopjs,domain=anydebrid.com
-@@||adserver.juicyads.com/*.js$script,domain=anydebrid.com
-@@||js.juicyads.com/*.js$script,domain=anydebrid.com
-@@||mobile.juicyads.com/*.js$domain=anydebrid.com
 mavplay.xyz##+js(aeld, , _blank)
 4anime.biz##+js(aeld, , _blank)
 4anime.*##+js(acis, parseInt, break;case $.)
@@ -91614,7 +91614,6 @@ pinoymovies.es##+js(set, dtGonza.playeradstime, -1)
 ||filezilla.it^$doc
 ||filezilla.net^$doc
 ||filezilla.pl^$doc
-||filezilla.pt^$doc
 ||freefilesync.com^$doc
 ||freerapid.fr^$doc
 ||garagebandforpc.org^$doc
@@ -91648,14 +91647,12 @@ pinoymovies.es##+js(set, dtGonza.playeradstime, -1)
 ||scribus.fr^$doc
 ||scribus.it^$doc
 ||senuti.org^$doc
-||sharex.es^$doc
 ||smplayer.org^$doc
 ||songbird.es^$doc
 ||stellarium.es^$doc
 ||stellarium.fr^$doc
 ||telecharger-openoffice.fr^$doc
 ||thunderbird.es^$doc
-||truecrypt.es^$doc
 ||truecrypt.fr^$doc
 ||truecrypt.it^$doc
 ||truecrypt.pl^$doc
@@ -91672,7 +91669,6 @@ pinoymovies.es##+js(set, dtGonza.playeradstime, -1)
 ||chairgaubsy.com^$doc
 ||epailseptox.com^$doc
 ||hentaiplaytime.com^$doc
-||lameterthenhep.info^$doc
 ||notification-time.com^$doc
 ||viewmypdf.com^$doc
 ||dnbard.com^$doc
@@ -91787,7 +91783,6 @@ thepiratebay3.com^$all
 ||procdnvids.net^
 ||prostream.to^
 ||storageplay.net^
-||gamerspad.net^$csp=child-src
 ||comparetvs.net^$csp=child-src
 ||find-me-now.com^$3p
 ||clickenhanced.com^$3p
@@ -91894,7 +91889,6 @@ thepiratebay3.com^$all
 ||phygical-questall.icu^$all
 ||praterage-colled.com^$all
 ||wwtracking.net^$all
-||ft2025.top^$all
 ||womeniovers.net^$all
 ||yougames.fun^$all
 ||antig-hra.com^$all
@@ -92362,7 +92356,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||newfind.cloudns.cl^$all
 ||sevenonex.space^$all
 ||suzamense.com^$all
-||walhalagame.fun^$doc
 ||gamepower.site^$all
 ||mfilecloud.com^$all
 ||xsharenode.com^$all
@@ -92506,7 +92499,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||realnetnews.com^$all
 ||rogueleader.org^$all
 ||suggestive.com/deals/?cid=$doc
-||cnc.pinklander.com^$all
 ||discordapp.cam^$all
 ||discordap.$all
 ||airdrop-discord.ru^$all
@@ -92605,7 +92597,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||crackedpcs.com^$doc
 ||softzcrack.com^$doc
 ||ayeshapc.com^$doc
-||crackshome.org^$doc
 ||crackintopc.com^$doc
 ||crackzoo.net^$doc
 ||crackhomes.com^$doc
@@ -94878,6 +94869,7 @@ duckduckgo.com#@#.js-sidebar-ads
 @@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=conad.it
 ||t.co^$badfilter
 ||lacentrale.fr/static/fragment-layout/tracking-$badfilter
+@@*$cname,domain=adtspecials.com|befinanciallyfit.com|cursodemedicina.com.br|hootsuite.com|semipresencial.com.br|systemsprotect.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
