@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ejkq/wH36r7WyDAStJUdog
+! Checksum: ZB8aT6afrCul6pugrX4uAg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205140228
-! Last Modified: 2022年05月14日 02:28
+! Version: 202205141008
+! Last Modified: 2022年05月14日 10:08
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -87207,7 +87207,7 @@ techrfour.com##.size-full.alignnone
 cookdov.com##.banner
 hancinema.net##+js(acis, document.createElement, admiral)
 clipwatching.me##+js(acis, Math, break)
-*$script,3p,denyallow=cloudfront.net|disqus.com|disquscdn.com|fastlylb.net,domain=clipwatching.me
+*$script,3p,denyallow=cloudfront.net|disqus.com|disquscdn.com|fastlylb.net|bootstrapcdn.com,domain=clipwatching.me
 receitasoncaseiras.online##+js(acis, Math, break;case $.)
 receitasoncaseiras.online###blc-wrap
 ||sexgamefun.com/images/sex-games.gif
@@ -88814,10 +88814,6 @@ yellowfaucet.ovh##div[class][style$="display: inline-block;margin: 0 auto"]
 yellowfaucet.ovh##div.row > .text-primary.bg-danger.col-xs-12
 ||dgvdbdi.ru^
 ||webmonetiser.com^$3p
-wildfaucets.ml##+js(aopw, absda)
-wildfaucets.ml##+js(nano-sib, seconds)
-wildfaucets.ml##+js(nosiif, visibility, 1000)
-wildfaucets.ml##div.row:first-child > .text-white.bg-primary
 sabishare.com##+js(aost, Math.floor, /computed|\$\./)
 ##[href^="luvaihoo.com"]
 ||ad.kubicad.icu^
@@ -88842,6 +88838,7 @@ muztext.com##+js(nostif, reachGoal)
 sportbet.tips##+js(aopr, _wm)
 phcracker.net##+js(acis, $, samAdBlockAction)
 naijaray.com.ng##+js(aost, Math.floor, )
+naijaray.com.ng##[href^="//ashoupsu.com/"]
 hotcleaner.com##+js(aopr, Element.prototype.attachShadow)
 hotcleaner.com##div[class]:matches-css-before(content:/Advertisements/)
 pornohans.com###wrapper_content > aside[id]
@@ -88894,10 +88891,9 @@ xxxwebdlxxx.top##+js(acis, JSON.parse, break;case $.)
 xxxwebdlxxx.top##a[href^="https://hotdating-near1.com/"]
 *$frame,script,3p,domain=xxxwebdlxxx.top
 raincaptcha.com##._ad-block
+@@||starsfaucet.com^$script,1p
 starsfaucet.com##[href^="https://www.bestchange.com/"]
 starsfaucet.com##div.row:nth-of-type(3) > .bg-black.col-xs-12
-simplyfaucet.xyz##+js(aopw, _pop)
-simplyfaucet.xyz##div.row:nth-of-type(3) > .bg-success.col-xs-12
 krypto-trend.de###top_adspace
 krypto-trend.de###captcha-adspace
 krypto-trend.de###middle-adspace
@@ -88928,7 +88924,7 @@ game3rb.com##+js(aeld, DOMContentLoaded, 0x)
 game3rb.com##+js(no-fetch-if, method:HEAD)
 ||game3rb.com/sw.js^$script,1p
 game3rb.com##[href^="http://pityhostngco2.xyz/"]
-*$script,3p,domain=game3rb.com,denyallow=wp.com|googleapis.com|cloudflare.com|bootstrapcdn.com
+*$script,3p,domain=game3rb.com,denyallow=wp.com|googleapis.com|cloudflare.com|bootstrapcdn.com|disqus.com|disquscdn.com
 @@||empregovaga.online^$ghide
 empregovaga.online###banner
 ||googletagmanager.com/gtag/js$script,redirect-rule=noopjs,domain=rotana.net
@@ -89578,7 +89574,6 @@ maxstream.video##+js(nostif, height)
 tamilmovierockers.info##+js(acis, document.addEventListener, google_ad_client)
 tamilmovierockers.info##+js(aopw, _pop)
 vga4a.com##+js(set, tie.ad_blocker_detector, '')
-atlai.club##.admania-widgettit
 videoseyred.in##+js(nowoif)
 nin10news.com,softcobra.com##+js(acis, setTimeout, innerHTML)
 nin10news.com###custom_html-14
@@ -90164,12 +90159,6 @@ beingtek.com##+js(aopr, app_vars.force_disable_adblock)
 beingtek.com##+js(set, blurred, false)
 *$script,3p,denyallow=gstatic.com|recaptcha.net,domain=beingtek.com
 pcbeta.com##+js(aost, document.createElement, make_rand_div)
-720p-fullizleme.com,fullfilmcibaba.com,hdmixfilim.com##+js(aopw, yeniSekmeAdresi)
-||720p-fullizleme.com/main_tabs1xx.js
-||fullfilmcibaba.com/video_ob32.js
-||fullfilmcibaba.com/main_tabs13.js
-||hdmixfilim.com/vast2.js
-||hdmixfilim.com/vil.js
 katflys.com##+js(aopr, app_vars.force_disable_adblock)
 katflys.com##+js(acis, document.addEventListener, nextFunction)
 katflys.com##+js(nowoif)
@@ -90503,7 +90492,6 @@ animotvslashz.blogspot.com##+js(aopr, _pop)
 animotvslashz.blogspot.com##^script[data-cfasync]:has-text(h=decodeURIComponent)
 liveonsat.com##+js(acis, document.getElementById, 'No')
 liveonsat.com##td[width="100%"][height="50"]
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=vtvcab.vn
 ||kctbvc.com^$doc
 4everproxy.com##+js(aost, foreverJQ, /document.createElement|stackDepth:2/)
 1bitspace.com,mgnet.xyz##+js(acis, addEventListener, -0x)
@@ -90952,10 +90940,6 @@ pcworld.es##.stickyAdWrapper
 *$popunder,domain=ouo.io
 kumascans.com##+js(acis, JSON.parse, break;case $.)
 nowtolove.com.au##.page__content-header:style(height: 50px !important)
-baominh.tech##+js(aeld, DOMContentLoaded, adsBlocked)
-baominh.tech###custom_html-8
-baominh.tech###custom_html-2
-baominh.tech###custom_html-4
 @@||anime-king.com^$ghide
 /script/atg.js$script,3p
 sexlist.tv##+js(disable-newtab-links)
@@ -101972,7 +101956,7 @@ duckduckgo.com#@#.js-sidebar-ads
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Wed, 11 May 2022 14:29:23 GMT
-# entries:        3673
+# entries:        3672
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -101980,7 +101964,7 @@ duckduckgo.com#@#.js-sidebar-ads
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 18 May 2002 00:00:00
+# start date:    Sun, 19 May 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -103893,7 +103877,6 @@ duckduckgo.com#@#.js-sidebar-ads
 127.0.0.1 grychiphidu.com
 127.0.0.1 gscontxt.net
 127.0.0.1 gstaticx.com
-127.0.0.1 gtop100.com
 127.0.0.1 guardedschool.com
 127.0.0.1 guffawdecipher.com
 127.0.0.1 gunggo.com
