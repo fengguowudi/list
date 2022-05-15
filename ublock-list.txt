@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gsQqbA8Jw9BAu8iJMTvXKw
+! Checksum: Vzp1NJscfO6ttMTezLjsYw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205151427
-! Last Modified: 2022年05月15日 14:27
+! Version: 202205152042
+! Last Modified: 2022年05月15日 20:42
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3907,6 +3907,7 @@
 /delivery.ads.
 /delivery.php?pool_id=
 /delivery.php?rnd=
+/delivery.php?zone=
 /delivery/afr.
 /delivery/ag.
 /delivery/al.php
@@ -13061,6 +13062,7 @@ _800x80_
 ###dfp-article-related-mpu
 ###dfp-atf
 ###dfp-banner
+###dfp-banner-popup
 ###dfp-billboard1
 ###dfp-billboard2
 ###dfp-btf
@@ -13081,6 +13083,7 @@ _800x80_
 ###dfp-srp-leaderboard
 ###dfp-srp-mobile-top
 ###dfp-tlb
+###dfp-top-banner
 ###dfp-wallpaper-wrapper
 ###dfpAd
 ###dfp_ad_1
@@ -27967,6 +27970,7 @@ _800x80_
 ##.re-Ads-l
 ##.readerads
 ##.readermodeAd
+##.ready-ad
 ##.realtor-ad
 ##.rebel-ad-unit-header
 ##.rec_ad
@@ -38988,6 +38992,7 @@ tf2r.com#@#.adverts
 ||honoursdashed.com^
 ||hooify.com^
 ||hookeroblong.com^
+||hooliganmedia.com^
 ||hoolyfy.com^
 ||hoophaub.com^
 ||hooptaik.net^
@@ -39119,6 +39124,7 @@ tf2r.com#@#.adverts
 ||hunchmotherhooddefine.com^
 ||hungerundo.com^
 ||hunoso.com^
+||hunter-hub.com^
 ||huntingmutinousindiscreet.com^
 ||huppahshoras.com^
 ||hurapepy.com^
@@ -40898,6 +40904,7 @@ tf2r.com#@#.adverts
 ||main-datings.top^
 ||main-ti-cod.com^
 ||main-ti-hub.com^
+||mainad-codpp.com^
 ||mainadv.com^
 ||mainapiary.com^
 ||mainauko.net^
@@ -48812,6 +48819,7 @@ tf2r.com#@#.adverts
 ||zy16eoat1w.com^
 ||zybrdr.com^
 ||zychologla.com^
+||zyf03k.xyz^
 ||zyiis.net^
 ||zylytavo.com^
 ||zypenetwork.com^
@@ -58110,6 +58118,7 @@ steamanalyst.com##[href^="https://static.steamanalyst.com/steam/delivery/"]
 terraria.wiki.gg##[href^="https://store.steampowered.com/app/"]
 beforeitsnews.com,highshortinterest.com##[href^="https://tinyurl.com/"]
 minidl.org##[href^="https://uploadgig.com/premium/index/"]
+cricket.com##[href^="https://www.a23.com/downloads.html?"] > img
 mailshub.in##[href^="https://www.amazon.in/"]
 businessonhome.com##[href^="https://www.binance.com/en/register?ref="]
 bleepingcomputer.com##[href^="https://www.bleepingcomputer.com/go/"]
@@ -59144,6 +59153,7 @@ playvids.com##.col-lg-6.col-xl-4
 whoreshub.com##.col-second
 totsantcugat.info##.col-sm-6 > [href="http://totsantcugat.info/wp-content/video.php"]
 perfectgirls.net##.container + div + .additional-block-bg
+pornwhite.com##.content-aside
 fetishshrine.com##.content-aside > b
 watchmygf.me##.content-footer
 xxxdessert.com##.content-gallery_banner
@@ -66120,6 +66130,7 @@ _mongo_stats/
 ||520886.xyz^
 ||8672.site^
 ||a1webstrategy.com^
+||adbp.online^
 ||adcontroll.com^
 ||adnext.co^
 ||adrtx.net^
@@ -86263,7 +86274,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||bobbibrowncosmetics.com^*/analytics.min.js$~third-party
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||boots.com/wcsstore/ebootsstorefrontassetstore/javascript/analytics.js$~third-party
-@@||browser.sentry-cdn.com^$domain=dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk
+@@||browser.sentry-cdn.com^$domain=dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|timesprime.com
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||c.paypal.com/da/r/fb.js$script
 @@||c.webtrends-optimize.com/acs/$script,domain=tvlicensing.co.uk
@@ -87021,6 +87032,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||motika.com.mk/wp-content/plugins/ajax-hits-counter/display-hits.rapid.php$~third-party
 !---------- Norwegian ----------
 @@||adobedtm.com^*/satelliteLib-$script,domain=elkjop.no
+@@||cat.telia.no/gtm.js$script,domain=telia.no
 @@||cloudfront.net/autoTracker.min.js$domain=direkte.vg.no
 @@||epub.ekh.no/*/static/analytics.js
 @@||google-analytics.com/analytics.js$domain=tv3play.no
@@ -87630,6 +87642,7 @@ deviants.com##.spot > div
 totv.org###ad
 silverpic.com##+js(aopr, absda)
 silverpic.com##+js(acis, String.fromCharCode, 'shift')
+*$script,3p,domain=silverpic.com
 manhwa18.cc##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
 ||manhwa18.cc/bmoa/
 healthelia.com##+js(nostif, google_jobrunner)
@@ -91478,6 +91491,8 @@ mangastream.mobi###myModal
 ##.adsBox:not([style$="-99999px;"])
 #@#.ad-placement
 ##.ad-placement:not(.adsbox):not(.afs_ads):not(#ablockercheck)
+#@#.adBanner
+##.adBanner:not(:empty)
 /ads-prebid.js$script,redirect-rule=prebid-ads.js
 /prebid-ads.js$script,redirect-rule=prebid-ads.js,domain=~exey.io
 /prebid-ads/adsensebase.js$script,redirect-rule=prebid-ads.js
