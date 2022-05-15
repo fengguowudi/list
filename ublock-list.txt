@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9yR5stuwxi7yJPhWAMYlsQ
+! Checksum: +YBcP5Sy3cB4Yio8MZWcSw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205150226
-! Last Modified: 2022年05月15日 02:26
+! Version: 202205151003
+! Last Modified: 2022年05月15日 10:03
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53155,6 +53155,7 @@ tf2r.com#@#.adverts
 ||google.com/adsense/ad
 ||google.com/adsense/domains
 ||google.com/adsense/search/
+||google.com/afs/ads
 ||google.com/dp/ads
 ||google.com/pagead/
 ||googleadapis.l.google.com^$third-party
@@ -74470,6 +74471,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||quant.jp/track/
 ||rakuten-static.com/com/rat/
 ||ranking.apis.sankei-digital.co.jp^
+||rasin.tech/heatmap-
+||rasin.tech/scroll-logs/
 ||rcm.shinobi.jp^
 ||rd.rakuten.co.jp^$script
 ||reproio.com^$third-party
@@ -74487,6 +74490,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||snva.jp/javascripts/reco/
 ||speee-ad.akamaized.net^
 ||spnx.jp/spnx-logger.js
+||storage.googleapis.com/rasin/*/hm.js
 ||sweet-candy.jp/c.php?$third-party
 ||sync.shinobi.jp^
 ||t.adlpo.com^
@@ -86980,6 +86984,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||o-uccino.jp/api/v2/collector?$xmlhttprequest,domain=o-uccino.com
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||ovp.piksel.tech/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
+@@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||query.petametrics.com^$image,xmlhttprequest,domain=comics.mecha.cc
 @@||s.yjtag.jp/tag.js$script,domain=www.epson.jp
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
@@ -101959,7 +101964,7 @@ duckduckgo.com#@#.js-sidebar-ads
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 19 May 2002 00:00:00
+# start date:    Mon, 20 May 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
