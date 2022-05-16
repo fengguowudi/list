@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ubCoK7my5lpB1m2BPcclJA
+! Checksum: 8ETR7J7DwyZE0miLWsJHYQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205160226
-! Last Modified: 2022年05月16日 02:26
+! Version: 202205160948
+! Last Modified: 2022年05月16日 09:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -50279,6 +50279,7 @@ tf2r.com#@#.adverts
 ||movie-streams-online.com^$third-party
 ||mp3zik.net^$third-party
 ||mpuls.ru^$third-party
+||mtburn.com^$third-party
 ||multiview.com^$third-party
 ||myaffiliates.com^$third-party
 ||myopenads.com^$third-party
@@ -78189,6 +78190,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||swml.xyz^
 ||kxla.xyz^
+||520myjj.xyz^
 ||ixnrmco.com^
 ||4kddyfd.cn^
 ##a[href$=".120ydrayy.com"]
