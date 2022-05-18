@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wCeoV7AO1426aX7tGkMQGA
+! Checksum: prCyxzk6b9LjFFN/lNgihw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205180228
-! Last Modified: 2022年05月18日 02:28
+! Version: 202205180947
+! Last Modified: 2022年05月18日 09:47
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -89943,8 +89943,6 @@ password69.com##+js(aopw, _pop)
 littlebyte.net##+js(ra, href|target, a[onclick^="getActionContent"])
 littlebyte.net##+js(nano-sib, freeRemind)
 xanimehub.com##+js(nosiif, visibility, 1000)
-freeiptvm3u4u2.blogspot.com##+js(acis, document.addEventListener, google_ad_client)
-multilinkfz.xyz##+js(nano-sib, timer)
 crackevil.com##+js(acis, mMcreateCookie)
 online-fix.me##+js(nostif, /width|innerHTML/)
 buydekhke.com##+js(aost, String.prototype.charCodeAt, ai_)
@@ -89953,6 +89951,7 @@ asyadrama.com,bitcoinegypt.news,citychilli.com,talkjarvis.com##+js(nostif, css_c
 cardiagn.com,conhecimentolivre.net,furioscans.com,jpshowbiz.us,routech.ro##+js(acis, eval, replace)
 privatemoviez.*##+js(aeld, DOMContentLoaded, adsBlocked)
 routech.ro##+js(nostif, blur)
+routech.ro##+js(no-xhr-if, googlesyndication)
 freebunker.com##+js(aopw, _pop)
 ||freebunker.com/includes/js/layer.js^
 msn.cn##msft-article[id^="native_ad_nativead"]
@@ -90702,8 +90701,9 @@ electomania.es##+js(acis, eval, replace)
 electomania.es##.td-pb-row.wpb_row.tdi_73.vc_row
 arti-definisi-pengertian.info,mkdev.info,unsa-financesindustrie.org##+js(aopr, absda)
 unblocksite.pw##div[id][onclick^="window.open('https://vpn-offers.com/"]
-unblocksite.pw##+js(nowoif)
-unblocksite.pw##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
+*$script,domain=unblocksite.pw
+unblocksite.pw##+js(aopr, XMLHttpRequest)
+unblocksite.pw##+js(aopr, open)
 unblocksite.pw##.antoic
 unblocksite.pw##.all-linked
 5dwallpaper.com##.__fdw__adspot-title-container
@@ -90729,6 +90729,7 @@ threenow.co.nz##.EpisodeAdBlockerWarning
 9now.com.au##.vjs-cuepoint
 egyshare.cc##+js(acis, parseInt, break;case $.)
 egyshare.cc##+js(aopw, _pop)
+egyshare.cc##.fakeplayer
 kshow123.net##+js(acis, JSON.parse, break;case $.)
 kshow123.net###ads-top-player
 kshow123.net###closeads
@@ -90749,6 +90750,7 @@ gatexplore.com###tie-block_669
 covrhub.com##+js(set, adblock, false)
 covrhub.com##+js(nowoif)
 nbcsportsedge.com##.edge-max-marketing-banner
+audiobooks4soul.com##+js(no-xhr-if, ads)
 audiobooks4soul.com##+js(acis, eval, replace)
 audiobooks4soul.com##[href^="https://ezaudiobooks.com/"]
 tutocad.com##+js(set, tie.ad_blocker_detector, '')
@@ -90809,7 +90811,6 @@ joyhints.com##+js(aeld, DOMContentLoaded, disableDeveloperTools)
 joyhints.com###blocksy_ct_advertisement-2
 mydramalist.com##.mdl-gpt-tag:upward(div[class])
 gogoplay1.com,gogoplay2.com,gogoplay4.com##+js(acis, parseInt, break;case $.)
-gogoplay4.com,gogoplay5.com##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
 stardeos.com##+js(no-xhr-if, url:googlesyndication)
 stooq.*##div[style="position:relative;width:970px;height:250px"]
 stooq.*##div[style="position:relative;width:300px;height:250px"]
@@ -91494,7 +91495,6 @@ vidoo.org##.banner
 2embedplayer.net##+js(aopw, _pop)
 tokyorevengersmanga.com##+js(acis, document.querySelectorAll, popMagic)
 3cinfo.net##+js(aeld, , document.oncontextmenu)
-routech.ro##+js(no-xhr-if, googlesyndication)
 yeshd.net##+js(acis, JSON.parse, break;case $.)
 yeshd.net##+js(aopw, _pop)
 otakukan.com##+js(nostif, innerHTML)
@@ -102132,7 +102132,7 @@ duckduckgo.com#@#.js-sidebar-ads
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 22 May 2002 00:00:00
+# start date:    Thu, 23 May 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
