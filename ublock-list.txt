@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wy7FcHTukmDu9avpoEU/Ww
+! Checksum: +xzG6xb3yPY/dxrrMsIqAQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205192045
-! Last Modified: 2022年05月19日 20:45
+! Version: 202205200234
+! Last Modified: 2022年05月20日 02:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -34366,6 +34366,7 @@ tf2r.com#@#.adverts
 ||bgtgag.com^
 ||bh3.net^
 ||bhcumsc.com^
+||bhlcimjcpvkxn.com^
 ||bhwcfwjz.com^
 ||biasedrepercussion.com^
 ||bibagloty.com^
@@ -37415,6 +37416,7 @@ tf2r.com#@#.adverts
 ||exrtbsrv.com^
 ||exteet.com^
 ||extend.tv^
+||extendedcocktailchapel.com^
 ||extendedmoreimposter.com^
 ||exterminatetooth.com^
 ||extoso.com^
@@ -40760,6 +40762,7 @@ tf2r.com#@#.adverts
 ||localsnaughty.com^
 ||locatedunderwear.com^
 ||locationsreverenceaid.com^
+||lockercpa.pl^
 ||lockerdomecdn.com^
 ||lockersatelic.cam^
 ||locketamoral.com^
@@ -44270,6 +44273,7 @@ tf2r.com#@#.adverts
 ||rdcqbyienb.com^
 ||rddywd.com^
 ||rdgfnqakk.com^
+||rdnujveafugqnz.com^
 ||rdowulajr.xyz^
 ||rdrceting.com^
 ||rdrtrk.com^
@@ -47566,6 +47570,7 @@ tf2r.com#@#.adverts
 ||vipcpms.com^
 ||vipersengoue.com^
 ||viperydeer.com^
+||viphpnpidxppnu.com^
 ||vipicmou.net^
 ||viqxlggexukmnjf.com^
 ||viqyxamy.xyz^
@@ -51229,6 +51234,7 @@ tf2r.com#@#.adverts
 ||furstraitsbrowse.com^$popup
 ||fuse-cloud.com^$popup
 ||fusttds.xyz^$popup
+||futiledrugstore.com^$popup
 ||fvenxjtzuaxu.com^$popup
 ||fwbntw.com^$popup
 ||gallonranchwhining.com^$popup
@@ -51631,6 +51637,7 @@ tf2r.com#@#.adverts
 ||netund.com^$popup
 ||network.nutaku.net^$popup
 ||never2date.com^$popup
+||never2never.com^$popup
 ||newdmn.icu^$popup
 ||newjulads.com^$popup
 ||news19.biz^$popup
@@ -56066,6 +56073,7 @@ opendocument.xml.org,trucknetuk.com###sidebarright
 inoreader.com###sinner_container
 webkinznewz.ganzworld.com###site-description
 2oceansvibe.com###skin
+namemc.com###skin_wrapper
 lambgoat.com###skinoverlay
 dafont.com###sky
 dailymail.co.uk###sky-right
@@ -58461,6 +58469,7 @@ earlygame.com##a[rel*="sponsored"]
 mcrypto.club,themoviesflix.io##a[rel="noopener"]
 unsplash.com##a[rel^="sponsored"][target="_blank"]
 limetorrents.pro##a[title*="An‌on‌ymous Download"]
+hqq.tv##a[title="Free money easy"]
 facebook.com,facebookcorewwwi.onion##article[data-ft*="\"ei\":\""]
 greatist.com##aside
 goal.com##aside[class^="layouts_asideContentCommercial_"]
@@ -88101,6 +88110,7 @@ genshinimpactcalculator.com##.damageGroup.artifactsContainer > .optimizerRow > .
 genshinimpactcalculator.com###BannerBottom
 javynow.com##+js(nowoif)
 javynow.com##.videos-ad__wrap:style(background-color: transparent !important)
+javynow.com##.banner-player
 st23q.com##+js(acis, JSON.parse, break;case $.)
 st23q.com##+js(aopr, app_vars.force_disable_adblock)
 st23q.com##+js(set, blurred, false)
@@ -91300,7 +91310,9 @@ latest-files.com##+js(acis, document.addEventListener, offsetParent)
 @@||onuploads.com^$ghide
 onuploads.com##.adsbygoogle
 onuploads.com##+js(nano-stb, seconds)
-@@||yt.upshrink.com/adex.js
+@@||upshrink.com^$script,1p
+*$image,domain=upshrink.com,redirect-rule=1x1.gif
+upshrink.com##.getox
 yt.upshrink.com##a[href^="https://astrazichostfilez2.xyz/"]
 ||astrazichostfilez2.xyz^$all
 yt.upshrink.com###recap-btn:style(display: block !important)
@@ -91308,7 +91320,8 @@ yt.upshrink.com###captchabox
 yt.upshrink.com##.wgbox > .container
 upshrink.com##.banner
 upshrink.com##+js(set, blurred, false)
-kiktu.com##+js(aeld, load, style.overflow)
+@@||kiktu.com^$ghide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=kiktu.com
 weszlo.com##+js(no-fetch-if, ad)
 themoviemad.net##+js(nowoif)
 svzcdn.xyz##+js(aopr, __Y)
@@ -93210,7 +93223,6 @@ endbasic.dev,jmmv.dev##+js(no-xhr-if, method:POST)
 ||serasaexperian.com.br/dist/scripts/fingerprint2.js^$redirect=fingerprint2.js,script,important
 old.reddit.com##+js(ra, data-outbound-url, .outbound)
 reddit.com##+js(set, Object.prototype.allowClickTracking, false)
-techpowerup.com##+js(aopw, test)
 ||a2f41194651173ebf.awsglobalaccelerator.com^$3p
 /?p=%2F*&h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,1p
 /?h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,1p
