@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DuMf5pyUWqr3pBiiSwZzLg
+! Checksum: u98e8VczFP68PyJTTdk3HA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205201428
-! Last Modified: 2022年05月20日 14:28
+! Version: 202205202043
+! Last Modified: 2022年05月20日 20:43
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -93091,8 +93091,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||flippingcharts.com^$all
 ||fullcrack.vn^$all
 ||taboola.com^$3p
-||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
-||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
+||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js:5
+||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||lnkr.us^$doc
 ||icontent.us^$doc
 ||qip.ng^$doc
@@ -93103,11 +93103,11 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||jsfuel.com^
 ||takethatad.com^
 ||tradeadsexchange.com^
-||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js
-||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js
-||pagead2.googlesyndication.com/tag/js/gpt.js$script,redirect=googletagservices_gpt.js
-||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js
-||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js:5
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js:5
+||pagead2.googlesyndication.com/tag/js/gpt.js$script,redirect=googletagservices_gpt.js:5
+||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js:5
+||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js:5
 ||addthis.com^$important,3p,domain=~amd.com|~missingkids.com|~missingkids.org|~sainsburys.jobs|~schonmagazine.com|~sitecore.com|~plotaroute.com
 ||addthis.com/*/addthis_widget.js$script,redirect=addthis.com/addthis_widget.js
 ##.addthis_toolbox
@@ -95161,7 +95161,7 @@ duckduckgo.com#@#.js-sidebar-ads
 @@||cdn.asriran.com^$image
 tebyan.net#@#.theiaStickySidebar
 @@||app.detrack.com/api/v2/tracking$xhr
-@@||cdnjs.cloudflare.com/cdn-cgi/trace$xhr,domain=tw.piliapp.com
+@@||cdnjs.cloudflare.com/cdn-cgi/trace$xhr,domain=piliapp.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -102243,7 +102243,7 @@ tebyan.net#@#.theiaStickySidebar
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Mon, 16 May 2022 10:32:06 GMT
-# entries:        3673
+# entries:        3671
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -103682,7 +103682,6 @@ tebyan.net#@#.theiaStickySidebar
 127.0.0.1 cmp.dmgmediaprivacy.co.uk
 127.0.0.1 cmvrclicks000.com
 127.0.0.1 cnomy.com
-127.0.0.1 cnt.spbland.ru
 127.0.0.1 cnt1.pocitadlo.cz
 127.0.0.1 cny.yoyo.org
 127.0.0.1 codeadnetwork.com
@@ -103929,7 +103928,6 @@ tebyan.net#@#.theiaStickySidebar
 127.0.0.1 email.m1.bktrksmail.com
 127.0.0.1 emaillinks.soundiiz.com
 127.0.0.1 emanog.com
-127.0.0.1 emebo.com
 127.0.0.1 emebo.io
 127.0.0.1 emerse.com
 127.0.0.1 emetriq.de
@@ -104172,6 +104170,7 @@ tebyan.net#@#.theiaStickySidebar
 127.0.0.1 h0.t.hubspotemail.net
 127.0.0.1 h78xb.pw
 127.0.0.1 habitualhumor.com
+127.0.0.1 hadskiz.com
 127.0.0.1 haltingbadge.com
 127.0.0.1 hammerhearing.com
 127.0.0.1 handyfield.com
@@ -105077,7 +105076,6 @@ tebyan.net#@#.theiaStickySidebar
 127.0.0.1 receptivereaction.com
 127.0.0.1 recoco.it
 127.0.0.1 reconditerake.com
-127.0.0.1 record.affiliates.karjalakasino.com
 127.0.0.1 record.bonniergaming.com
 127.0.0.1 record.mrwin.com
 127.0.0.1 redirectingat.com
@@ -105116,6 +105114,7 @@ tebyan.net#@#.theiaStickySidebar
 127.0.0.1 revive.plays.bg
 127.0.0.1 revlift.io
 127.0.0.1 revprotect.com
+127.0.0.1 revsci.net
 127.0.0.1 revstats.com
 127.0.0.1 reyden-x.com
 127.0.0.1 rhombusads.com
@@ -105403,7 +105402,6 @@ tebyan.net#@#.theiaStickySidebar
 127.0.0.1 storygize.net
 127.0.0.1 stoveseashore.com
 127.0.0.1 straightnest.com
-127.0.0.1 stream.useriq.com
 127.0.0.1 stripedburst.com
 127.0.0.1 strivesidewalk.com
 127.0.0.1 structurerod.com
