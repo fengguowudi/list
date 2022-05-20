@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: u98e8VczFP68PyJTTdk3HA
+! Checksum: v6cy65D2h9XaT6lJXbaVlg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205202043
-! Last Modified: 2022年05月20日 20:43
+! Version: 202205210227
+! Last Modified: 2022年05月21日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -59041,6 +59041,7 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane."]:-abp-has(span.jHLihd)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div.azyBPe:-abp-has(span.jHLihd) + div
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div.azyBPe:-abp-has(span.jHLihd)
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div.sbsb_c:-abp-has(span.jHLihd)
 guru99.com#?#.content2:-abp-has(div[id^="div-gpt-ad"])
 guru99.com#?#.moduletable:-abp-has(div[id^="div-gpt-ad"])
 haveibeenpwned.com##.actionsBar:-abp-has(.why1Password)
@@ -93116,8 +93117,8 @@ free18.net,gadgetlove.com,nrc.gov,onbeing.org,rapgenius.com,schonmagazine.com,te
 @@||addthisedge.com/live/$script,domain=amd.com
 @@||addthis.com^$script,domain=schonmagazine.com
 @@||addthis.com/js/*/addthis_widget.js$script,domain=plotaroute.com
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
-||widgets.outbrain.com/outbrain.js$script,redirect=widgets.outbrain.com/outbrain.js
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager_gtm.js:5
+||widgets.outbrain.com/outbrain.js$script,redirect=outbrain-widget.js:5
 ||google-analytics.com/analytics.js$important,script,redirect=google-analytics.com/analytics.js,domain=support.amd.com
 ||googletagmanager.com/gtm.js$important,script,redirect=googletagmanager.com/gtm.js,domain=support.amd.com
 teamskeet.com##+js(set, $.tstracker, noopFunc)
@@ -94564,7 +94565,6 @@ hentaiplay.net###video_overlays
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$script,domain=giga.de|spieletipps.de
 @@||thehockeywriters.com/detroitchicago/dayton.js$script,1p
 @@||google-analytics.com/analytics.js$script,domain=ads.spotify.com
-||widgets.outbrain.com/outbrain.js$script,redirect-rule=empty,domain=www.vice.com,important
 @@||link.theplatform.com/*/media/*?affiliate=$xhr,domain=fox.com
 @@||privacy-mgmt.com^$script,domain=cmp.netzwelt.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=netzwelt.de
