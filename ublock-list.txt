@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +xzG6xb3yPY/dxrrMsIqAQ
+! Checksum: EmPpnC8lxPJVyKSfB+j6/w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205200234
-! Last Modified: 2022年05月20日 02:34
+! Version: 202205200954
+! Last Modified: 2022年05月20日 09:54
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -7607,6 +7607,7 @@ _atblockdetector/
 /728x90/*
 /728x90_
 /750-100.
+/750_150.
 /750x100.
 /760x120.
 /760x120_
@@ -14114,7 +14115,6 @@ _800x80_
 ###ignad_medrec
 ###ii_banner_ads
 ###imPopup
-###im_box
 ###im_popupDiv
 ###im_popupFixed
 ###ima_ads-2
@@ -17103,6 +17103,7 @@ _800x80_
 ##.GoogleDfpAd
 ##.GoogleDfpAd-Content
 ##.GoogleDfpAd-container
+##.GoogleDfpAd-wrap
 ##.GoogleDfpAd-wrapper
 ##.GoogleDfpAdModule
 ##.GoogleDfpAdModule-advertisementLabel
@@ -20474,6 +20475,7 @@ _800x80_
 ##.adnz-ad-placeholder
 ##.adocean
 ##.adocean728x90
+##.adocean_desktop_section
 ##.adonmedianama
 ##.adops
 ##.adp-AdPrefix
@@ -27980,6 +27982,7 @@ _800x80_
 ##.railad
 ##.railadspace
 ##.ramsay-advert
+##.razon_stickyad
 ##.rbFooterSponsors
 ##.rbRectAd
 ##.rc-sponsored
@@ -30530,6 +30533,7 @@ _800x80_
 ##.wrapperAdSky
 ##.wrapper_ad
 ##.wrapper_advertisement
+##.wrapperad
 ##.wrb1_x1_adv
 ##.wrb1_x7_adv
 ##.wrb2_ls1_adv
@@ -61886,6 +61890,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /cnt.aspx?
 /cnt.cgi?
 /cnt.js
+/cnt.php?id=
 /cnt.php?rf=
 /cnt/cnt.php?
 /cnt/start.php?
@@ -66397,6 +66402,7 @@ _mongo_stats/
 ||fn-pz.com^
 ||fpaux.net^
 ||fpaxu.net^
+||fpxau.net^
 ||g11686975765.co^
 ||g1188506010.co^
 ||g11885060100.co^
@@ -66682,6 +66688,7 @@ _mongo_stats/
 ||agentanalytics.com^$third-party
 ||agentinteractive.com^$third-party
 ||agilecrm.com^$third-party
+||agilesrv.com^$third-party
 ||agilone.com^$third-party
 ||agrvt.com^$third-party
 ||aidata.io^$third-party
@@ -72510,9 +72517,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||flashstats.libsyn.com^
 ||flex.msn.com/mstag/
 ||flix360.com/beat?
-||flixcar.com/delivery/
+||flixcar.com/*/tracking/
 ||flixcar.com/gvid
 ||flixcdn.com^*/track.js
+||flixgvid.flix360.io^
 ||flixster.com^*/analytics.
 ||flocktory.com^*/tracks/
 ||flux.com/geo.html?
@@ -74542,10 +74550,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.belgacom.be^
 ||apm.tnet.nl^
 ||bbvms.com/zone/js/zonestats.js
+||botndm.nl^*/init.min.js
 ||cookies.reedbusiness.nl^
 ||dmtgo.upc.biz^
 ||hottraffic.nl^$third-party
 ||marktplaats.net/cnt/
+||nextday.media/static/tags/
 ||npo.nl/divolte/tt/web-event?$domain=zapp.nl
 ||sp.dpgmedia.net^
 ||stat.24liveplus.com^
@@ -86665,7 +86675,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|tentree.ca
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
@@ -95133,6 +95143,11 @@ duckduckgo.com#@#.js-sidebar-ads
 ||t.co^$badfilter
 ||lacentrale.fr/static/fragment-layout/tracking-$badfilter
 @@||postclickmarketing.com^$domain=adtspecials.com|befinanciallyfit.com|cursodemedicina.com.br|demandmetric.com|hootsuite.com|semipresencial.com.br|systemsprotect.com
+@@||ashoora.ir/images/banners/$image
+@@||bayanbox.ir/view/$image
+@@||cdn.asriran.com^$image
+tebyan.net#@#.theiaStickySidebar
+@@||app.detrack.com/api/v2/tracking$xhr
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -102222,7 +102237,7 @@ duckduckgo.com#@#.js-sidebar-ads
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 24 May 2002 00:00:00
+# start date:    Sat, 25 May 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
