@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: v6cy65D2h9XaT6lJXbaVlg
+! Checksum: Vqma3wdy8UH7uusWSkm0Zg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205210227
-! Last Modified: 2022年05月21日 02:27
+! Version: 202205210933
+! Last Modified: 2022年05月21日 09:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54403,7 +54403,7 @@ tf2r.com#@#.adverts
 ||clarksvilleonline.com/cols/
 ||click.livedoor.com^
 ||cloudfront.net/transcode/storyTeller/$media,domain=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.br|amazon.com.mx|amazon.com.tr|amazon.de|amazon.eg|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.nl|amazon.pl|amazon.sa|amazon.se|amazon.sg
-||cloudfront.net^$script,domain=titantv.com
+||cloudfront.net^$domain=titantv.com
 ||cloudfront.net^*/sponsors/$domain=pbs.org
 ||cnn.com/ad/
 ||codelist.cc/bluehostbanner.jpg
@@ -55495,6 +55495,7 @@ fanlesstech.com###HTML4 > .widget-content
 fanlesstech.com###HTML5 > .widget-content
 fanlesstech.com###HTML6 > .widget-content
 linkfang.org###LinkFang_Horizontal
+titantv.com###MGUWDYBBSFMR
 techadvisor.com###OzAUZW
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
@@ -57169,6 +57170,7 @@ lyricsmode.com##.header-block
 worldpress.org##.header-bnr
 autental.com##.header-grid-items
 realestate.com.au##.header-leaderboard
+forex-gold.net##.header-mnm
 times.co.zm##.header-pub
 newtimes.co.rw##.header-top
 androidcentral.com,crackberry.com,imore.com,technobuffalo.com,thrifter.com,windowscentral.com##.header-top-alert-bar
@@ -59755,9 +59757,10 @@ pornhub.com##[href^="https://weedmaps.com"]
 sexhimmel.com##[href^="https://www.amarotic.com/"]
 porngames.club##[href^="https://www.porngames.club/friends/out.php"]
 koreanstreamer.xyz##[href^="https://www.saltycams.com"]
+youporn.com##[src*="Blob"]
 youporn.com##[src*="bloB:"]
 tube8.com,tube8.es,tube8.fr##[src*="bloB:https://www.tube8."]
-youjizz.com,youporn.com,youporngay.com##[src*="blob:"]
+youjizz.com,youporngay.com##[src*="blob:"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr##[src^="bLob:"]
 hentaigasm.com##[src^="https://add2home.files.wordpress.com/"]
 analpornpix.com##[src^="https://analpornpix.com/t/153"]
@@ -86514,7 +86517,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||9cdn.net^*/js/tracking/$script,domain=nine.com.au
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
-@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|atresplayer.com|backcountry.com|bt.com|cadenaser.com|churchofjesuschrist.org|dollargeneral.com|kroger.com|personal.natwest.com|telus.com|verizon.com
+@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|dollargeneral.com|kroger.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
@@ -95162,6 +95165,7 @@ duckduckgo.com#@#.js-sidebar-ads
 tebyan.net#@#.theiaStickySidebar
 @@||app.detrack.com/api/v2/tracking$xhr
 @@||cdnjs.cloudflare.com/cdn-cgi/trace$xhr,domain=piliapp.com
+@@||index.hr/thirdparty/brid/*$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -102251,7 +102255,7 @@ tebyan.net#@#.theiaStickySidebar
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 25 May 2002 00:00:00
+# start date:    Sun, 26 May 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
