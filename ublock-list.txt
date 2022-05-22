@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YO7xMEtZJT+bJGhIV1Eaog
+! Checksum: OpiEm55KaC08wiFPLlSRBQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205221427
-! Last Modified: 2022年05月22日 14:27
+! Version: 202205222037
+! Last Modified: 2022年05月22日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -88398,7 +88398,6 @@ hitmovies4u.com##+js(ra, onclick, a.thumb.mvi-cover)
 cinema.cimatna.com,filmywap.*,filmyzilla2021.xyz,filmy-zilla.co.in,neomovies.net,pagalworld.kim,sharkfish.xyz##^script:has-text(break;case $.)
 ||gracaiko.net^
 ||tarotien.com^
-hindilinks4u.*##+js(acis, Math, zfgloaded)
 hindilinks4u.to##.btn.stream-hd
 ||shortlinkto.*^$csp=default-src 'self' *.favicon.cc *.google.com *.gstatic.com *.googleapis.com
 shortlinkto.*##+js(acis, JSON.parse, break;case $.)
@@ -90240,7 +90239,7 @@ spele.nl##.is-billboard
 mediapemersatubangsa.com##+js(acis, document.addEventListener, google_ad_client)
 mediapemersatubangsa.com##+js(aopw, _pop)
 2embed.ru##^script:has-text(break;case $.)
-2embed.ru##+js(aeld, , break;case $.)
+2embed.ru##+js(acis, parseInt, break;case $.)
 *$script,3p,denyallow=gstatic.com,domain=la123movies.com
 *$script,frame,xhr,css,image,3p,denyallow=cloudflare.net|dood.watch|embed2.megaxfer.ru|google.com|googleapis.com|gstatic.com|jsdelivr.net|rabbitstream.net|slmaxed.com|upstream.to|voe-unblock.com|voe-unblock.net|voe.bar|voe.sx|voeunblock.com,domain=2embed.ru
 pornofan.pl###inplayerADS
