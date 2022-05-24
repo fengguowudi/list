@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vJQR+J2tU52mdV2BR9DWIg
+! Checksum: L+FRRHLW0a7wKHuXs6LQWw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205240958
-! Last Modified: 2022年05月24日 09:58
+! Version: 202205241428
+! Last Modified: 2022年05月24日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20967,6 +20967,7 @@ _800x80_
 ##.adsContentBox
 ##.adsContentBoxBellow
 ##.adsDef
+##.adsDesktop
 ##.adsDetailsPage
 ##.adsDisclaimer
 ##.adsDiv
@@ -22729,6 +22730,7 @@ _800x80_
 ##.anc_ads_show
 ##.anchor-ad-wrapper
 ##.anchorAd
+##.anchored-ad-widget
 ##.anchoringTopAdDefault
 ##.annonce_textads
 ##.annons_themeBlock
@@ -48784,6 +48786,7 @@ tf2r.com#@#.adverts
 ||yoretxpczr.com^
 ||yoshatia.com^
 ||yottacash.com^
+||yottlyscript.com^
 ||youearrid.com^
 ||yougotacheck.com^
 ||youlouk.com^
@@ -60957,6 +60960,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /_/lite/performance/*
 /__analytics/*
 /__dam.gif?
+/__rmn.gif?
 /__ssobj/core.js
 /__ssobj/sync?$image
 /__sttm.gif?
