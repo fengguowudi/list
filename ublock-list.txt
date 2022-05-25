@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cOS91smHZDmBZXi1UwlldA
+! Checksum: ybKx9cH+onIXklNqg3Yrug
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205251428
-! Last Modified: 2022年05月25日 14:28
+! Version: 202205252045
+! Last Modified: 2022年05月25日 20:45
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54154,7 +54154,6 @@ tf2r.com#@#.adverts
 ||teenfinder.com/landing/$popup,third-party
 ||theonlineuserprotector.com/download-guard/$popup,third-party
 ||torrent-protection.com^$popup
-||track.omguk.com^$popup
 ||trck.cdprivate.com^$popup
 ||ublockpop.com/rect.php?$popup
 ||unibet.co.uk/*affiliate$popup
@@ -60266,6 +60265,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||techadvisor.com/cmsdata/$image,~third-party
 @@||thedailywtf.com/images/*-advertisement.png$~third-party
 @@||thepiratebay.org/cdn-cgi/challenge-platform/$~third-party
+@@||thingiverse.com/assets/ad/$image,~third-party
 @@||townhall.com/resources/dist/js/prebid-pjmedia.js$script,domain=pjmedia.com
 @@||tpdads.com/configs/bigleaguepolitics.js$script,domain=bigleaguepolitics.com
 @@||tractorshed.com/photoads/upload/$~third-party
@@ -72643,7 +72643,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||evt.collarity.com^$image
 ||evt.houzz.com^
 ||ex.co/content/monetization/legacy-pixels/
-||exacttarget.com^$third-party
+||exacttarget.com^$~subdocument,third-party
 ||excite.ie/?click_in=
 ||exitintel.com/log/$third-party
 ||experience.contextly.com^
@@ -76170,6 +76170,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||unity3d.com/v1/events
 ||unsplash.com/a/third-party/snow-
 ||unsplash.com/nmetrics
+||untappd.com/profile/impression?
 ||upi.com/story/stat/
 ||ups.com/img/icp.gif
 ||urs.metacritic.com^
@@ -89533,7 +89534,6 @@ github.com##[src^="https://spotlights-feed.github.com/spotlights/octoprint/"]:up
 indianwebseries.me##+js(aopr, mMcreateCookie)
 ||newsiqra.com^$frame,domain=indianwebseries.me
 ergasiakanea.eu##+js(noeval-if, deblocker)
-ee1061360223528.xyz,s365.live##+js(aopr, afScript)
 stopstreamtv.net##+js(acis, parseInt, break;case $.)
 @@||filezipa.com^$ghide
 filezipa.com##.adsbygoogle
