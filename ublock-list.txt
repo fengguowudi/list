@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1X8KhSuxSbrYVtxZgysQ4g
+! Checksum: eRON5yWXkr1gbwkW1o4SGQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205261428
-! Last Modified: 2022年05月26日 14:28
+! Version: 202205262043
+! Last Modified: 2022年05月26日 20:43
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18754,6 +18754,7 @@ _800x80_
 ##.ad.addon
 ##.ad.bottom_article_leaderboard
 ##.ad.bottomrect
+##.ad.box
 ##.ad.brandboard
 ##.ad.card
 ##.ad.center
@@ -19395,6 +19396,7 @@ _800x80_
 ##.adTile
 ##.adTileWrap
 ##.adTiler
+##.adTip
 ##.adTitle
 ##.adTitleR
 ##.adTop
@@ -58292,6 +58294,7 @@ sciencedaily.com##.unit1
 sciencedaily.com##.unit2
 gpucheck.com##.unitBox
 pcgamingwiki.com##.upcoming-releases.home-card:first-child
+filepuma.com##.update_software
 letterboxd.com##.upgrade-kicker
 wbur.org##.uw--rectangle
 wbur.org##.uw-label--bottom
@@ -58420,7 +58423,6 @@ ginx.tv##[data-ref]
 washingtonpost.com##[data-sc-c="adslot"]
 trakt.tv##[data-snigel-id]
 woot.com##[data-test-ui^="advertisementLeaderboard"]
-sbofficial.in##[data-testid="linkElement"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
 washingtonpost.com##[data-testid="placeholder-box"]
 gadgetsnow.com##[data-type="mtf"]
@@ -58468,7 +58470,7 @@ howtogeek.com##[href^="http://macpaw.7eer.net/"]
 pooletown.co.uk,tossinggames.com,urbanartassociation.com##[href^="http://redirect.viglink.com"]
 igg-games.com##[href^="http://s2.igg-games.com/"]
 topfiveforex.com##[href^="https://affiliate.iqoption.com/"]
-orschlurch.net,sbofficial.in,tetris.com##[href^="https://amzn.to/"]
+orschlurch.net,tetris.com##[href^="https://amzn.to/"]
 wiki.gg##[href^="https://app.wiki.gg/showcase/"]
 seganerds.com##[href^="https://betway.com/"]
 mc-market.org##[href^="https://bit.ly/"] img
@@ -87166,7 +87168,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
-@@||widget.trustpilot.com/bootstrap/$script,domain=exodus.co.uk|imyfone.com
+@@||widget.trustpilot.com/bootstrap/$script,domain=amartfurniture.com.au|exodus.co.uk|imyfone.com
 @@||wix.com/_api/*count?type$~third-party
 @@||wp.com^*/google-analytics-for-wordpress/$domain=wordpress.org
 @@||wplogout.com/wp-content/uploads/*Google$image,~third-party
@@ -88801,7 +88803,7 @@ elitepvpers.com##[style]:has-text(/Аdvertise/i) + div > a[href^="https://www.el
 elitepvpers.com##body > table > tbody > tr > td > div > *:has(img)
 elitepvpers.com##div[style$="padding:0;"]:has-text(/Advertisement/i)
 send.cm##+js(aeld, , break;case $.)
-send.cm##+js(acis, document.createElement, 'script')
+send.cm##+js(acis, parseInt, break;case $.)
 send.cm##+js(acis, JSON, break;case)
 send.cm##+js(aopr, console.log)
 send.cm##+js(aopw, decodeURIComponent)
@@ -90102,8 +90104,10 @@ novelmultiverse.com##+js(nostif, disableDeveloperTools)
 eitplay.xyz##+js(nowoif)
 maxstream.video##+js(ra, style, div[style="display: none;"])
 maxstream.video##+js(nostif, height)
+maxstream.video##+js(nowoif)
 @@||maxstream.video^$script,1p
 @@||maxstream.video^$ghide
+maxstream.video##h1:has-text(/adblock|supporter/)
 tamilmovierockers.info##+js(acis, document.addEventListener, google_ad_client)
 tamilmovierockers.info##+js(aopw, _pop)
 vga4a.com##+js(set, tie.ad_blocker_detector, '')
@@ -90378,7 +90382,7 @@ mediapemersatubangsa.com##+js(aopw, _pop)
 2embed.ru##^script:has-text(break;case $.)
 2embed.ru##+js(acis, parseInt, break;case $.)
 *$script,3p,denyallow=gstatic.com,domain=la123movies.com
-*$script,frame,xhr,css,image,3p,denyallow=cloudflare.net|dood.watch|embed2.megaxfer.ru|google.com|googleapis.com|gstatic.com|jsdelivr.net|rabbitstream.net|slmaxed.com|upstream.to|voe-unblock.com|voe-unblock.net|voe.bar|voe.sx|voeunblock.com,domain=2embed.ru
+*$script,frame,xhr,css,image,3p,denyallow=cloudflare.net|dood.watch|embed2.megaxfer.ru|google.com|googleapis.com|gstatic.com|jsdelivr.net|rabbitstream.net|slmaxed.com|upstream.to|voe-unblock.com|voe-unblock.net|voe.bar|voe.sx|voeunblock.com|voeunblock1.com,domain=2embed.ru
 pornofan.pl###inplayerADS
 pornofan.pl##.PublicitaDestra
 audiobookcup.com##+js(acis, document.addEventListener, google_ad_client)
@@ -93487,6 +93491,7 @@ webtoons.com##+js(set, lcs_SerName, '')
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js$script,redirect=noop.js,domain=bilibili.com,important
 ||imsdb.pw/player/ip.php
 tarnkappe.info##+js(aopr, Matomo)
+salsaposten.no,steinkjer-avisa.no,hamar-dagblad.no,lofot-tidende.no,avisa-valdres.no,amta.no,firdaposten.no,ringblad.no##+js(nostif, waiting) 
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
