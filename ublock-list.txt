@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 95ihDxhJyYwwvsaHoA9oKw
+! Checksum: SQubf39en7N2JbR2RhV6gA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205271428
-! Last Modified: 2022年05月27日 14:28
+! Version: 202205272044
+! Last Modified: 2022年05月27日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -6075,6 +6075,8 @@
 /tabads/*
 /taboola-footer.
 /taboola-header.
+/taboola_header.
+/taboolaArticle.
 /tag-adv.
 /tag_adv/*
 /tag_oas.
@@ -22724,6 +22726,7 @@ _800x80_
 ##.am_ads
 ##.amazon_ad
 ##.amazonads
+##.amis-advert
 ##.amp-ad
 ##.amp-ads
 ##.amp-ads-container
@@ -26866,6 +26869,7 @@ _800x80_
 ##.mg_box_ads
 ##.mgid-wrapper
 ##.mgid_3x2
+##.mh-advert
 ##.micro_ad
 ##.mid-ad-wrapper
 ##.mid-advert
@@ -26940,6 +26944,7 @@ _800x80_
 ##.mmy-ads
 ##.mnopolarisAd
 ##.mntl-gpt-adunit
+##.mo-advert
 ##.mo_googlead
 ##.moads-top-banner
 ##.moads-widget
@@ -28412,6 +28417,7 @@ _800x80_
 ##.rtmad
 ##.rtmm_right_ad
 ##.runner-ad
+##.rw-advert
 ##.rwSideAd
 ##.rw_ad
 ##.rwdArticleOuterAdBlock
@@ -30316,6 +30322,7 @@ _800x80_
 ##.wfb-ad
 ##.wg-ad-square
 ##.wgAd-loaded
+##.wh-advert
 ##.wh_ad
 ##.wh_ad_inner
 ##.white-ad-block
@@ -32993,6 +33000,7 @@ tf2r.com#@#.adverts
 ||adshack.com^
 ||adshexa.com^
 ||adshopping.com^
+||adshort.space^
 ||adsignals.com^
 ||adsimilis.com^
 ||adsinimages.com^
@@ -38014,6 +38022,7 @@ tf2r.com#@#.adverts
 ||formerdrearybiopsy.com^
 ||formsgenuineendorse.com^
 ||forrestersurveys.com^
+||forthcomingpropelwho.com^
 ||fortpush.com^
 ||forwrdnow.com^
 ||forzslodge.com^
@@ -41538,6 +41547,7 @@ tf2r.com#@#.adverts
 ||misdealcpi.com^
 ||misguidedstork.com^
 ||missiondues.com^
+||misslinkvocation.com^
 ||misslk.com^
 ||mistakemargarineprimrose.com^
 ||mistfzqaw.com^
@@ -44669,6 +44679,7 @@ tf2r.com#@#.adverts
 ||reservehearingmissing.com^
 ||residebroadly.com^
 ||residelikingminister.com^
+||residenceseeingstanding.com^
 ||residentialsize.com^
 ||resistancefrustrating.com^
 ||resistcorrectly.com^
@@ -44865,6 +44876,7 @@ tf2r.com#@#.adverts
 ||rjhbcghmln.com^
 ||rjltpektsuqsu.com^
 ||rjoawidlneitc.com^
+||rjstusbx.com^
 ||rjtgbjxfyslvdst.com^
 ||rkllcrwtftx.com^
 ||rkoepfotesi.com^
@@ -47345,6 +47357,7 @@ tf2r.com#@#.adverts
 ||understandablejoggleawakened.com^
 ||understandablerequirechoke.com^
 ||understandingharmoniousillegal.com^
+||understandintimidate.com^
 ||understatementcrystal.com^
 ||understoodadjoiningarab.com^
 ||underwards.site^
@@ -56322,6 +56335,7 @@ wowway.net###sc_read_header_banner
 my.juno.com###scienceTile
 money.yahoo.com###sda-MON
 pao.gr###section--sponsors
+searchenginejournal.com###sej-popup-wrapper
 abbreviations.com,definitions.net,grammar.com,kamus.net,lyrics.com,rhymes.net,scripts.com,symbols.com###sela-container
 triblive.com###shopsWidget
 thefastmode.com###side_ads_small
@@ -56391,6 +56405,7 @@ animixplay.to###streambottomright
 web-capture.net###stw_ad
 gsmarena.com###subHeader
 ebaumsworld.com###subheader_atf_wrapper
+searchenginejournal.com###summita-wrap
 streams.tv###sunGarden
 dashnet.org###support
 eco-business.com###supporting_orgs
@@ -57365,7 +57380,6 @@ cometbird.com##.gg_250x250
 ebay.com##.ggtm
 gethuman.com##.gh-ads
 ghacks.net##.ghacks-ad
-cnx-software.com##.gmay
 givemesport.com##.gms-ad
 givemesport.com##.gms-billboard-container
 givemesport.com##.gms-sidebar-ad
@@ -57398,6 +57412,7 @@ topminecraftservers.org##.grey-section
 teleboy.ch##.grid-col-content-leaderboard
 teamrock.com##.grid-container-300x250
 groovypost.com##.groov-adlabel
+cnx-software.com##.gross
 saultonline.com##.gsmfab
 thelakewoodscoop.com##.gtlsad
 animenewsnetwork.com##.gutter
@@ -57941,6 +57956,7 @@ qrobe.it##.qad
 revolution935.com##.qt-sponsor
 modernghana.com##.quikr_banner
 surfline.com##.quiver-google-dfp
+abetterrouteplanner.com##.r-145dblm.r-nc4a30
 tgstat.com##.r1-aors
 decoist.com##.r300
 periscopepost.com##.r72890
@@ -64658,6 +64674,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /sdctag1.js
 /sdctag2.js
 /sdcTrackingCode.
+/sdk/impressions
 /sdp-tagcollector.
 /sdxp1/dru4/meta?_hc=
 /search-cookie.aspx?$image
@@ -66682,6 +66699,7 @@ _mongo_stats/
 ||fasttiger.io^
 ||fn-pz.com^
 ||fpaux.net^
+||fpavx.net^
 ||fpaxu.net^
 ||fpxau.net^
 ||g11686975765.co^
@@ -66803,6 +66821,7 @@ _mongo_stats/
 ||tvpixel.com^
 ||ugdturner.com^
 ||v1sts.me^
+||venusrevival.com^
 ||videoplayerhub.com^
 ||vkanalytics.net^
 ||widgetbe.com^
@@ -67139,6 +67158,7 @@ _mongo_stats/
 ||bidphysics.com^$third-party
 ||bidr.io^$third-party
 ||bidsimulator.com^$third-party
+||bigbrain.me^$third-party
 ||bigcattracks.com^$third-party
 ||bigmir.net^$third-party
 ||bigreal.org^$third-party
@@ -76238,6 +76258,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||touch.myntra.com^
 ||toyota.com/analytics/
 ||tr.clickstay.com^
+||track-visit.monday.com^
 ||track.dictionary.com^
 ||track.kueez.com^
 ||track.lexico.com^
@@ -102299,6 +102320,7 @@ thelincolnite.co.uk#@#.inline-ad
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||xn--2ss830adjbqy7h.xn--fiqs8s^
 ||mobixc.vnfjsus.xyz^
 ||cul.xunjiu.online^
 ||tp4sul.jwzd.com.cn^
@@ -102562,7 +102584,7 @@ thelincolnite.co.uk#@#.inline-ad
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Mon, 16 May 2022 10:32:06 GMT
-# entries:        3671
+# entries:        3668
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -102637,10 +102659,8 @@ thelincolnite.co.uk#@#.inline-ad
 127.0.0.1 ablink.news.emails-puregym.com
 127.0.0.1 ablinks.mail.hinge.co
 127.0.0.1 aboardlevel.com
-127.0.0.1 aboutads.gr
 127.0.0.1 abruptroad.com
 127.0.0.1 absentstream.com
-127.0.0.1 absoluteclickscom.com
 127.0.0.1 absorbingband.com
 127.0.0.1 abstractedauthority.com
 127.0.0.1 absurdwater.com
@@ -103188,7 +103208,6 @@ thelincolnite.co.uk#@#.inline-ad
 127.0.0.1 ads.shizmoo.com
 127.0.0.1 ads.shopstyle.com
 127.0.0.1 ads.sift.co.uk
-127.0.0.1 ads.silverdisc.co.uk
 127.0.0.1 ads.simplyhired.com
 127.0.0.1 ads.sjon.info
 127.0.0.1 ads.smartclick.com
@@ -104001,6 +104020,7 @@ thelincolnite.co.uk#@#.inline-ad
 127.0.0.1 cmp.dmgmediaprivacy.co.uk
 127.0.0.1 cmvrclicks000.com
 127.0.0.1 cnomy.com
+127.0.0.1 cnt.spbland.ru
 127.0.0.1 cnt1.pocitadlo.cz
 127.0.0.1 cny.yoyo.org
 127.0.0.1 codeadnetwork.com
@@ -105907,7 +105927,6 @@ thelincolnite.co.uk#@#.inline-ad
 127.0.0.1 trackedweb.net
 127.0.0.1 tracker-pm2.spilleren.com
 127.0.0.1 tracker.bannerflow.com
-127.0.0.1 tracker.bongngo.bar
 127.0.0.1 tracker.cdnbye.com
 127.0.0.1 tracker.comunidadmarriott.com
 127.0.0.1 tracker.icerocket.com
