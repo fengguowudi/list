@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mRbWawpMZ5mfAPV4GTjXhQ
+! Checksum: vhWo4Xn9KbG6EWwyzPlnQg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205270228
-! Last Modified: 2022年05月27日 02:28
+! Version: 202205270957
+! Last Modified: 2022年05月27日 09:57
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -36404,6 +36404,7 @@ tf2r.com#@#.adverts
 ||deturbcordies.com^
 ||deulderby.com^
 ||deuted.com^
+||dev0.buzz^
 ||devaluationlimetreedeadly.com^
 ||devaluationobserve.com^
 ||devastatingallothallucinate.com^
@@ -61293,6 +61294,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /altpracenje.js
 /altpwk.js
 /alvenda_remarketing_
+/alweb.rfk.
 /amazon-affiliate-
 /amdhfp/a.do?param$image
 /amdhfp/t.do?id$image
@@ -63236,7 +63238,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /informb_stat.
 /informerStat?
 /init_cookie.php?
-/initjs.rfk.
 /inline-pixel.js
 /inpl.measure.
 /insales_counter.
@@ -68695,6 +68696,7 @@ _mongo_stats/
 ||roi-pro.com^$third-party
 ||roi-rocket.net^$third-party
 ||roia.biz^$third-party
+||roirevolution.com^$third-party
 ||roiservice.com^$third-party
 ||roispy.com^$third-party
 ||roitesting.com^$third-party
@@ -86787,6 +86789,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||amazonaws.com/production$xmlhttprequest,domain=ipa-reader.xyz
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
+@@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.itunes.apple.com^$~third-party
 @@||analytics.logsss.com/logsss*.min.js$script,domain=rosegal.com
@@ -102520,7 +102523,7 @@ thelincolnite.co.uk#@#.inline-ad
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 31 May 2002 00:00:00
+# start date:    Sat, 01 Jun 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
