@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aNzjkpZ3Cy5pumLJt6+qKg
+! Checksum: /5v0lcMaEoY5J22n1h2K8Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205291010
-! Last Modified: 2022年05月29日 10:10
+! Version: 202205291429
+! Last Modified: 2022年05月29日 14:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57585,10 +57585,12 @@ beermoneyforum.com##.js-notices
 formula1.com##.js-promo-item
 stackoverflow.com##.js-sidebar-zone
 theguardian.com##.js-top-banner
+iobroker.net##.jss125
 calorieking.com##.jss2
 offerup.com##.jss301
 paycalculator.com.au##.jss336
 calorieking.com##.jss356
+iobroker.net,iobroker.pro##.jss43
 paycalculator.com.au##.jss546
 tvtv.us##.jss67
 autolist.com##.jsx-2866408628
@@ -87027,6 +87029,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||epicgames.com/id/api/analytics$~third-party,xmlhttprequest
 @@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||events-collector.spot.im/api/$xmlhttprequest
+@@||events.raceresult.com^$~third-party,xmlhttprequest
 @@||evestment.com/api/analytics/$domain=evestment.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
 @@||fast.appcues.com^$script,domain=static.abcmouse.com
@@ -95551,6 +95554,34 @@ thelincolnite.co.uk#@#.inline-ad
 @@||static.adsafeprotected.com/iasPET$script,domain=oggi.it
 @@||location.api.useinsider.com^$xhr,domain=nontongp.xyz
 @@||googletagmanager.com/gtm.js$script,domain=mumzworld.com
+tamin.ir#@#.ads2
+@@||tamin.ir/content/ads/
+@@||zoomit.ir/assets/img/advertise-$image,1p
+@@||zoomg.ir/banners/demo/advertise-zoomg.jpg
+webii.ir#@#.ads-sidebar
+webii.ir#@#.ads-box
+@@||webii.ir/upload/ads/$image,1p
+@@||1000site.ir/asset/images/images/adpage/$image,1p
+@@||1000site.ir/home/ads/asset/favicon.ico
+sakhtafzar.com#@#.ads-title
+sakhtafzar.com#@#.ads-content
+sakhtafzar.com#@#.ads_box
+sakhtafzar.com#@#.tz_ad300_widget
+forum.p30world.com#@##ad_global_above_footer
+@@||persianv.com/wp-content/uploads/*/adv-$image,1p
+@@||parsiblog.com/Adv/imgs/
+@@||niksalehi.com/wp-content/uploads/*/adv
+nicmusic.net#@#.boxads
+@@||images.kojaro.com/assets/ad/advertise-$image,1p
+gooyait.com#@#.page-ads
+gooyait.com#@#.banner-ads
+gamesib.ir#@#.ads_2
+farsroid.com#@#.place-ads
+@@||beytoote.com/ads/images_$image,1p
+@@||beytoote.com/ads/js/$script,1p
+@@||ads.beytoote.com/live_chat
+@@||blogfa.com/static/ads/
+@@||asandl.com/ads/img/$image,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
