@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /5v0lcMaEoY5J22n1h2K8Q
+! Checksum: t+ePAN8sHesSgb0Q9d3hZA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205291429
-! Last Modified: 2022年05月29日 14:29
+! Version: 202205292037
+! Last Modified: 2022年05月29日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -35318,6 +35318,7 @@ tf2r.com#@#.adverts
 ||cheewhoa.net^
 ||chegostyzi.com^
 ||chegrupsishu.com^
+||chekseme.net^
 ||cheksoam.com^
 ||chelaxeshi.com^
 ||chemicalmarketindication.com^
@@ -42028,6 +42029,7 @@ tf2r.com#@#.adverts
 ||nblczw.com^
 ||nbnefwuifvp.com^
 ||nboc.xyz^
+||nbpritqp.com^
 ||nbstatic.com^
 ||ncalie.com^
 ||ncanat.com^
@@ -43966,6 +43968,7 @@ tf2r.com#@#.adverts
 ||psazamajy.pro^
 ||pscfammuw.com^
 ||psclicks.com^
+||pseekree.com^
 ||pseepsie.com^
 ||psekesheva.pro^
 ||psensuds.net^
@@ -51549,6 +51552,7 @@ tf2r.com#@#.adverts
 ||glimpsemankind.com^$popup
 ||glitteringexcavator.com^$popup
 ||glixaing.com^$popup
+||glizauvo.net^$popup
 ||globwo.online^$popup
 ||glochykeste.pro^$popup
 ||glookroz.net^$popup
@@ -88249,7 +88253,7 @@ makaveli.xyz##+js(nowoif)
 ||api.adinplay.com^$redirect-rule=noopjs,script,domain=taming.io
 taming.io###preroll
 y2mate.guru##+js(nowoif)
-freemovies4u.xyz##+js(aeld, , break;case $.)
+freemovies4u.xyz##+js(acis, parseInt, break;case $.)
 ||everyone-one.com^$all
 *$script,3p,domain=freemovies4u.xyz,denyallow=twitter.com
 javstream.top##+js(set, clientSide.adbDetect, noopFunc)
@@ -88380,7 +88384,7 @@ myyouporn.com##+js(nowoif)
 *$script,redirect-rule=noopjs,domain=pinoyalbums.com
 pinoyalbums.com##+js(aeld, , adb)
 skmedix.pl##+js(nosiif, visibility, 1000)
-123movieslinks.live##+js(aeld, , break;case $.)
+123movies4up.*##+js(acis, parseInt, break;case $.)
 easylinkref.com##+js(nano-sib, , , 0)
 easylinkref.com##center > a[href][target=_blank] > img
 w3layouts.com##+js(nostif, show)
@@ -88463,7 +88467,7 @@ taxidrivermovie.com###scroll-div
 taxidrivermovie.com##.adboard-top
 taxidrivermovie.com##.thumb-holder[style="height:250px;"]:upward(1)
 taxidrivermovie.com##[href="/category/taxi-fares/"]:upward(.thumb)
-embedstream.me##+js(aeld, , break;case $.)
+embedstream.me##+js(acis, parseInt, break;case $.)
 embedstream.me##+js(aopw, _pop)
 embedstream.me##+js(nowebrtc)
 embedstream.me##+js(nowoif)
@@ -88575,7 +88579,7 @@ boobsrealm.com##+js(acis, puShown, /doOpen|popundr/)
 ||boobsrealm.com/wp-content/uploads/*-banner$image,1p
 ||bustyporn.com/*.php?src=$frame,3p
 boobsrealm.com##iframe[style$="height: 250px;"]
-720pstream.*##+js(aeld, , break;case $.)
+720pstream.*##+js(acis, parseInt, break;case $.)
 720pstream.*##+js(nowoif)
 720pstream.*##+js(nostif, "admc")
 720pstream.*##.bg-dark.position-absolute
@@ -88683,10 +88687,10 @@ fmovies2.cx##+js(acis, parseInt, break;case $.)
 fulltube.*##.mvic-btn
 247movie.net##.open.modal
 vibehubs.com##+js(aost, jQuery, ai_adb)
-vibehubs.com##+js(aeld, , break;case $.)
+vibehubs.com##+js(acis, parseInt, break;case $.)
 vibehubs.com##[href^="https://www.star-clicks.com/"]
 vibehubs.com##.code-block-4.code-block > [href]
-yify.stream##+js(aeld, , break;case $.)
+yify.stream##+js(acis, parseInt, break;case $.)
 yify.stream##+js(ra, onclick)
 yify.stream##^script:has-text(break;case $.)
 yt-api.com##+js(nowoif)
@@ -88702,6 +88706,7 @@ convertitoremp3.download##+js(nowoif)
 antsmovies.com##.banner
 4share-mp3.net,ajkalerbarta.com,altadefinizione01.*,appsfree4u.com,awanishsingh.com,bengalisite.com,bestfullmoviesinhd.org,beastlyprints.com,briefwatch.com,ch-play.com,clickforhire.com,crypto-news.cf,dailyinsta.xyz,dtmaga.com,essaysharkwriting.club,evolutiondigital.online,exemplarstory.com,fitnessdiets.in,gizmomec.com,haodyu.com,healthnewsreel.com,hotnews2021.online,iv-soft.com,jewelry.com.my,johnwardflighttraining.com,kabarportal.com,kstorymedia.com,lespassionsdechinouk.com,libertestreamvf.*,livestreamtv.pk,mariokarttour.fr,myfernweh.com,orangeink.pk,people.capetown,ruckzuck-abnehmen.com,serijehaha.com,shrugemojis.com,talaba.su,tatabrada.tv,thetechzone.online,thripy.com,turcasmania.com,urdubolo.pk,watchtvch.club##+js(acis, JSON.parse, break;case $.)
 4share-mp3.net,ajkalerbarta.com,altadefinizione01.*,appsfree4u.com,awanishsingh.com,bengalisite.com,bestfullmoviesinhd.org,beastlyprints.com,briefwatch.com,ch-play.com,clickforhire.com,crypto-news.cf,dailyinsta.xyz,dtmaga.com,essaysharkwriting.club,evolutiondigital.online,exemplarstory.com,fitnessdiets.in,gizmomec.com,haodyu.com,healthnewsreel.com,hotnews2021.online,iv-soft.com,jewelry.com.my,johnwardflighttraining.com,kabarportal.com,kstorymedia.com,lespassionsdechinouk.com,libertestreamvf.*,livestreamtv.pk,mariokarttour.fr,myfernweh.com,orangeink.pk,people.capetown,ruckzuck-abnehmen.com,serijehaha.com,shrugemojis.com,talaba.su,tatabrada.tv,thetechzone.online,thripy.com,turcasmania.com,urdubolo.pk,watchtvch.club##+js(aeld, , break;case $.)
+4share-mp3.net,ajkalerbarta.com,altadefinizione01.*,appsfree4u.com,awanishsingh.com,bengalisite.com,bestfullmoviesinhd.org,beastlyprints.com,briefwatch.com,ch-play.com,clickforhire.com,crypto-news.cf,dailyinsta.xyz,dtmaga.com,essaysharkwriting.club,evolutiondigital.online,exemplarstory.com,fitnessdiets.in,gizmomec.com,haodyu.com,healthnewsreel.com,hotnews2021.online,iv-soft.com,jewelry.com.my,johnwardflighttraining.com,kabarportal.com,kstorymedia.com,lespassionsdechinouk.com,libertestreamvf.*,livestreamtv.pk,mariokarttour.fr,myfernweh.com,orangeink.pk,people.capetown,ruckzuck-abnehmen.com,serijehaha.com,shrugemojis.com,talaba.su,tatabrada.tv,thetechzone.online,thripy.com,turcasmania.com,urdubolo.pk,watchtvch.club##+js(acis, parseInt, break;case $.)
 gizmomec.com##^script:has-text(break;case $.)
 ||awanishsingh.com/sw.js$script,1p
 ylink.bid##^script:has-text(break;case $.)
@@ -88816,7 +88821,7 @@ kiiw.icu##+js(aopr, open)
 kiiw.icu##.banner
 kiiw.icu##.fade
 ||developerity.com^$3p
-moviedekho.in##+js(aeld, , break;case $.)
+moviedekho.in##+js(acis, parseInt, break;case $.)
 vshort.link##+js(aopr, app_vars.force_disable_adblock)
 vshort.link##+js(aopr, open)
 vshort.link##+js(set, blurred, false)
@@ -88992,8 +88997,9 @@ divyabhaskar.co.in##[id^="Ad"]:upward([style])
 01234-m0vies.com,01234-movies.com,01234movies.*,1234movies.*,123gostream.*,123moviestoday.net,1link.club,1stkissmanga.*,8-ball-magic.com,animeheaven.ru,arnaqueinternet.com,ate9ni.com,bhplay.me,bollyshare.*,club-vinyl.ru,cinen9.*,citpekalongan.com,eastream.net,easylinks.in,empireg.ru,fakaza.com,filmy4wap1.*,filmyone.com,flixtv.club,freeload.*,freedownloadmp3-mp4.top,gdirect.*,hd44.com,hdmoviz.*,hindimoviesonline.*,hostxy.com,hwnaturkya.com,iiyoutube.com,inextmovies.*,ltcjar.com,linkskat.*,livesport24.net,mailnesia.com,mkvhub.*,mlsbd.*,moviecrisp.in,movies4me.*,moviesmon.*,moviesshub.*,moviesub.is,mozkra.com,mp3cristianos.net,mp3songsdownloadf.blogspot.com,musiklip.ru,naijahits.com,naijal.com,nbch.com.ar,nowmovies.*,ocnpj.com,openload.*,phc.web.id,pregledaj.net,primeflix.website,prmovies.*,readingbd.com,recetas.arrozconleche.info,revivelink.com,romfast.com,s2dfree.*,stalkface.com,subtitlecat.com,tajpoint.com,theismailiusa.org,thenetnaija.co,torrentfilmes4k.org,vevoyoutube.com,vidcloudpng.com,wildwap.com,worldgirlsportal.com,youtubeai.com,youtubetoany.com,zone-annuaire.*##+js(acis, Math, break;case $.)
 123movieweb.com,fsapi.*,hdmoviz.*##^script:has-text(break;case $.)
 filmeonlinehd.biz,onlinework4all.com,saveshared.com##+js(acis, Math, zfgloaded)
-123moviesme.*,1kmovies.*,1movieshd.com,fsapi.*,la123movies.org,web.livecricket.is##+js(acis, JSON.parse, break;case $.)
-123moviesme.*,1kmovies.*,1movieshd.com,fsapi.*,la123movies.org,web.livecricket.is##+js(aeld, , break;case $.)
+123moviesme.*,1kmovies.*,1movieshd.com,fsapi.*,la123movies.org##+js(acis, JSON.parse, break;case $.)
+123moviesme.*,1kmovies.*,fsapi.*,la123movies.org,web.livecricket.is##+js(aeld, , break;case $.)
+1movieshd.com,web.livecricket.is##+js(acis, parseInt, break;case $.)
 123moviesme.*##+js(aopr, decodeURI)
 123moviesme.*##+js(aopw, _pop)
 123moviesfree4u.com,123moviesla.*,afilmyhouse.blogspot.com,allmovieshub.*,attvideo.com,daddylive.*,filmyzilla.filmywap2021ganduworld.com,foreverwallpapers.com,hitmovies4u.com,livecricket.*,pirlotv.*##^script:has-text(break;case $.)
@@ -89067,7 +89073,7 @@ sextvx.com##+js(nostif, window.location.href=link)
 m.sextvx.com##+js(acis, document.querySelectorAll, popMagic)
 m.sextvx.com###home_hor_top_ads
 m.sextvx.com###home_hor_bot_ads
-katmoviehd4.com##+js(aeld, , break;case $.)
+katmoviehd4.com##+js(acis, parseInt, break;case $.)
 katmoviehd4.com##+js(aopw, _pop)
 katmoviehd4.com##+js(nowoif)
 @@||menjelajahi.com^$ghide
@@ -89221,7 +89227,7 @@ toonworld4all.me###media_image-4
 androidhexzone.blogspot.com##+js(aopr, absda)
 ||appnext.hs.llnwd.net^
 olympicstreams.me##+js(acis, parseInt, break;case $.)
-vipboxtv.*##+js(aeld, , break;case $.)
+vipboxtv.*##+js(acis, parseInt, break;case $.)
 olympicstreams.me,vipboxtv.*##+js(nowoif, |)
 olympicstreams.me,vipboxtv.*##+js(aopw, _pop)
 ||raw.githubusercontent.com/*/just-detect-adblock/*$3p,xhr,redirect-rule=nooptext
@@ -89679,6 +89685,7 @@ vwforum.ro##+js(nostif, offsetHeight)
 lcpdfr.com##div.ipsMargin_bottom.ipsAreaBackground.ipsPadding\:half
 lcpdfr.com##.adSpacing
 french-stream.*##+js(aeld, , break;case $.)
+vido.*##+js(acis, parseInt, break;case $.)
 rodude.com##+js(acis, onload)
 hds-streaming.*##+js(acis, parseInt, break;case $.)
 hds.club,hds-streaming.*###fakeplayer
@@ -90037,7 +90044,7 @@ clikern.com##+js(set, blurred, false)
 clikern.com##+js(aopr, open)
 clikern.com##.banner-inner
 clikern.com##.blog-item
-whatshowto.com##+js(aeld, , break;case $.)
+whatshowto.com##+js(acis, parseInt, break;case $.)
 cashathome.online##+js(acis, document.querySelectorAll, popMagic)
 cashathome.online##+js(set, blurred, false)
 cashathome.online##.banner
@@ -91183,7 +91190,7 @@ olympusscanlation.com##.adsbygoogle
 olympusscanlation.com###teaser1
 dirproxy.com##+js(aost, Math, )
 dirproxy.com##+js(aeld, , break;case $.)
-*$3p,script,domain=dirproxy.com
+*$3p,script,denyallow=cloudflare.com|jquery.com,domain=dirproxy.com
 torrentdownloads.dirproxy.com##.left_shadow:has-text(Fast)
 torrentdownload.info##.thleft:has-text(Fast):upward(2)
 dirproxy.com##[src="/logo_d.jpg"]
