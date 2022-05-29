@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: t+ePAN8sHesSgb0Q9d3hZA
+! Checksum: BVg3mofQRuaYxLF0g3XmWA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202205292037
-! Last Modified: 2022年05月29日 20:37
+! Version: 202205300226
+! Last Modified: 2022年05月30日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -90703,7 +90703,7 @@ shaalaa.com##div.zxc_wrap
 @@||cyberbunkers.com^$ghide
 cyberbunkers.com##.adsbygoogle
 freeiphone.fr##+js(aost, Math, ai_)
-eductin.com##+js(aeld, DOMContentLoaded, adsBlocked)
+eductin.com##+js(nostif, show)
 *$xhr,removeparam=ad_config_id,domain=telequebec.tv
 ear-phone-review.com##+js(nostif, nextFunction)
 @@||ear-phone-review.com^$ghide
@@ -91755,7 +91755,8 @@ tutele.sx##+js(nostif, "admc")
 tutele.sx##^script[data-cfasync]:has-text(h=decodeURIComponent)
 /script/ncsu.js$3p
 /script/nbsu.js$3p
-/^https:\/\/[a-z]{6,12}\.com\/script\/n[a-z]su\.js$/$script,3p
+/script/ndsu.js$3p
+/^https?:\/\/[a-z]{6,12}\.com\/script\/n[a-z]su\.js$/$script,3p
 loticon.xyz##+js(acis, document.getElementById, 'OK')
 cimaflam.com##+js(acis, JSON.parse, break;case $.)
 yoyofilmeys.*##+js(acis, JSON.parse, break;case $.)
