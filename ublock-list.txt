@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iTNK63GP9ZK7/FO0wlpaCQ
+! Checksum: ef4W/rPkQOoMJrYz8VCE8g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206020229
-! Last Modified: 2022年06月02日 02:29
+! Version: 202206021001
+! Last Modified: 2022年06月02日 10:01
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2160,7 +2160,6 @@
 /ads/getPositions?
 /ads/google1.
 /ads/google2.
-/ads/google_
 /ads/gpt/*
 /ads/gpt_
 /ads/gray/*
@@ -4350,7 +4349,6 @@
 /google728.
 /google_ad.
 /google_ad_
-/google_ads.
 /google_ads/*
 /google_ads_
 /google_adsense-
@@ -56441,6 +56439,7 @@ binaries4all.com###payserver
 binaries4all.com###payserver2
 flicksmore.com###pc_show
 demap.info###pcad
+investopedia.com###performance-marketing_1-0
 premierguitar.com###pg_leaderboard
 gcn.com###ph_pcontent3_0_lvItemList_liNativeArticleAd_0
 publicholidays.us###phgviewportconditional_57069
@@ -63772,6 +63771,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /log.php?*http
 /log.php?id
 /log.php?owa_timestamp=
+/log.php?referrer=
 /log/?pixel=
 /log/analytics
 /log/browser/event
@@ -67005,6 +67005,7 @@ _mongo_stats/
 ||p2r14.com^
 ||pdflive.org^
 ||permutive.app^
+||pix.pub^
 ||pixrealm.com^
 ||pjstat.com^
 ||progmxs.com^
@@ -71882,6 +71883,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||whoseesyou.com^$third-party
 ||wstatslive.com^$third-party
 ||accesstrade.net^$third-party
+||ad-fam.com^$third-party
+||ad-track.jp^$third-party
 ||adgainersolutions.com^$third-party
 ||adgocoo.com^$third-party
 ||admatrix.jp^$third-party
@@ -71897,12 +71900,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beanscattering.jp^$third-party
 ||bigmining.com^$third-party
 ||blogranking.net^$third-party
+||canem-auris.com^$third-party
 ||catsys.jp^$third-party
 ||cetlog.jp^$third-party
 ||cheqzone.com^$third-party
 ||cosmi.io^$third-party
 ||d-markets.net^$third-party
 ||d2-apps.net^$third-party
+||d2c.ne.jp^$third-party
 ||datasign.co^$third-party
 ||dbfocus.jp^$third-party
 ||deteql.net^$third-party
@@ -71971,6 +71976,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uncn.jp^$third-party
 ||wonder-ma.com^$third-party
 ||ziyu.net^$third-party
+||zucks.net^$third-party
 ||acrosspf.com^$third-party
 ||adpick.co.kr^$third-party
 ||adtive.com^$third-party
@@ -75229,7 +75235,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||affiliate.rakuten.co.jp^$script
 ||analytics.contents.by-fw.jp^
 ||analytics.liveact.cri-mw.jp^
+||analytics.livesense.marketing^
 ||analyzer51.fc2.com^
+||api.all-internet.jp^$third-party
+||api.popin.cc/conversion2.js
 ||asumi.shinobi.jp^
 ||bidder.mediams.mb.softbank.jp^
 ||bridge-ashiato.appspot.com/beacon/
@@ -75240,6 +75249,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cookie.sync.usonar.jp^
 ||counter2.blog.livedoor.com^
 ||delivery.satr.jp^
+||docomo.ne.jp/scripts/retargeting/retargeting.js
 ||estore.jp/beacon/
 ||ev.tpocdm.com^
 ||future-shop.jp/rview.gif?
@@ -75303,6 +75313,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tag.cribnotes.jp^
 ||torimochi.line-apps.com^
 ||tr.reco.combz.jp^
+||tr.slvrbullet.com^
 ||track.span-smt.jp^
 ||track.thebase.in^
 ||tracker.520call.me^
@@ -75314,6 +75325,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||x9.shinobi.jp^
 ||xr.shinobi.jp^
 ||yahoo.co.jp/js/retargeting.js
+||zucks.net.zimg.jp^
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
 ||cm-exchange.toast.com^
@@ -75947,6 +75959,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||google.com/log?
 ||goseek.com/session-
 ||goseek.com/track-
+||gotie.tunein.com^
 ||grabify.link/api/js
 ||groupon.com/analytic/
 ||groupondata.com/tracky
@@ -76209,6 +76222,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||priceline.com/pws/v1/ace/impression/
 ||priceline.com/svcs/mkt/tag/
 ||princetonreview.com/logging/
+||priv.gc.ca/m/m.js
 ||privacy-api.9gag.com^
 ||privacyfriendly.netlify.app^
 ||privacypolicies.com/track/
@@ -76235,6 +76249,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reelgood.com/v3.0/checkip
 ||reichelt.com/setsid.php?
 ||relay.fiverr.com^
+||reports.tunein.com^
 ||retargeting.vistaprint.com^
 ||rfk.biglots.com^
 ||roblox.com/www/e.png?
@@ -87489,6 +87504,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||trendyol.com/delivery-tracking-query-api/$~third-party
 @@||trueaccordengage.com/tae/api/v1/collectors/$~third-party
+@@||tunein.com/api/v1/comscore$~third-party
 @@||tw.cx/c?a=$xmlhttprequest,domain=justwatch.com
 @@||udottraffic.utah.gov/javascripts/Piwik.js
 @@||uefa.com/inc/js/core/projects/statistics/statistics.js?$script
@@ -91798,6 +91814,7 @@ tinytranslation.xyz###HTML5
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=paraphraser.io
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=paraphraser.io
 @@||cdn.snigelweb.com^$script,domain=paraphraser.io
+@@||cdn.snigelweb.com/gvl/vendor-list.json$xhr,domain=paraphraser.io
 @@||adengine.snigelweb.com/paraphraser.io/$script,domain=paraphraser.io
 paraphraser.io##body > .justify-content-center
 @@||paraphraser.io^$ghide
@@ -102891,7 +102908,7 @@ fontspace.com#@#.container-ads
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 06 Jun 2002 00:00:00
+# start date:    Fri, 07 Jun 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
