@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jTY/GKVgJHEkyqC76CM3RQ
+! Checksum: EEgny0QvLXqytYxw1BOwKg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206042033
-! Last Modified: 2022年06月04日 20:33
+! Version: 202206050223
+! Last Modified: 2022年06月05日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -89022,9 +89022,9 @@ is2btc.com##div.col-sm-3:nth-of-type(3)
 is2btc.com##.text-center.col-sm-12
 *$script,3p,denyallow=bootstrapcdn.com|cloudflare.net|consensu.org|fontawesome.com|google.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net,domain=dropcoins.xyz|fastcoin.ga|faucetbr.tk|is2btc.com|quickclaims.*|swift4claim.com
 sunhope.it##+js(nosiif, document.getElementById, 10000)
-0123movie.*,1111fullwise.*,111watcho.*,123-watch.com,123fullview.*,123moviesclub.*,123moviesla.*,123ssgm.*,247movie.net,2gomovies.*,4filmyzilla.*,4hdmovie.com,4hiidude.*,5xmovies.*,69hoshudaana.*,7025a.com,akmcloud.*,akstream.xyz,allmovieshub.*,attvideo.com,b-bmovies.com,bollymovies.*,bollywoodfilma.*,convertitoremp3.download,crackevil.com,dailymovieshub.com,dflinks.*,downloadming.*,europix.*,filma1.*,filme-bune.biz,filmisongs.*,filmy-zilla.co.in,filmyzilla.filmywap2021ganduworld.com,filmyzilla2021.xyz,filmyzilla2022.waystohunt.info,fulltube.*,fzmoviesnet.com,gyonlineng.com,hdmoviehubs.*,hdmovies23.com,hindimovies.live,isaimini.ca,isaiminimovies.xyz,katlinks.*,keepv.id,linksmore.*,maamusiq.com,megafilmestop.com,megashare-website.com,mobilemovies.*,motive213.com,motive213link.blogspot.com,moviemasalahd.xyz,movierulzhd.*,moviesbaba.*,naasongs.*,naasongsfree.*,neomovies.net,oceanofmovies.*,pagalworld.*,pagodesparabaixar.org,pelisstar.com,pirlotv.mx,radamel.icu,romfast.com,sdmoviespoint.*,sharkfish.xyz,soap2day.*,stivandz.com,tamilyogis.*,techsslash.com,thelinkbox.*,vadbom.com,veryfastdownload.pw,watchmovieshd.*,watchseri.net,watchseriesstream.com,wifi4games.com,wildwap.*,xn--mlaregvle-02af.nu,ylink.bid,yoat.xyz,yotrabajo.info,yt-api.com,yt-download.org,yt1s.com,ytix.xyz,ytsaver.*##+js(acis, JSON.parse, break;case $.)
+0123movie.*,1111fullwise.*,111watcho.*,123-watch.com,123fullview.*,123moviesclub.*,123moviesla.*,123ssgm.*,247movie.net,2gomovies.*,4filmyzilla.*,4hdmovie.com,4hiidude.*,5xmovies.*,69hoshudaana.*,7025a.com,akmcloud.*,akstream.xyz,allmovieshub.*,attvideo.com,b-bmovies.com,bollymovies.*,bollywoodfilma.*,convertitoremp3.download,crackevil.com,dailymovieshub.com,dflinks.*,downloadming.*,europix.*,filma1.*,filme-bune.biz,filmisongs.*,filmy-zilla.co.in,filmyzilla.filmywap2021ganduworld.com,filmyzilla2021.xyz,filmyzilla2022.waystohunt.info,fulltube.*,fzmoviesnet.com,gyonlineng.com,hdmoviehubs.*,hdmovies23.com,hindimovies.live,isaimini.ca,isaiminimovies.xyz,katlinks.*,keepv.id,linksmore.*,maamusiq.com,megafilmestop.com,megashare-website.com,mobilemovies.*,motive213.com,motive213link.blogspot.com,moviemasalahd.xyz,movierulzhd.*,moviesbaba.*,naasongs.*,naasongsfree.*,neomovies.net,oceanofmovies.*,pagalworld.*,pagodesparabaixar.org,pelisstar.com,pirlotv.mx,radamel.icu,romfast.com,sdmoviespoint.*,sharkfish.xyz,soap2day.*,stivandz.com,tamilyogis.*,thelinkbox.*,vadbom.com,veryfastdownload.pw,watchmovieshd.*,watchseri.net,watchseriesstream.com,wifi4games.com,wildwap.*,xn--mlaregvle-02af.nu,ylink.bid,yoat.xyz,yotrabajo.info,yt-api.com,yt-download.org,yt1s.com,ytix.xyz,ytsaver.*##+js(acis, JSON.parse, break;case $.)
 afilmyhouse.blogspot.com##+js(acis, Math, break;case $.)
-123moviesready.org,filmywap.*,hitmovies4u.com##+js(acis, parseInt, break;case $.)
+123moviesready.org,filmywap.*,hitmovies4u.com,techsslash.com##+js(acis, parseInt, break;case $.)
 filmywap.*##+js(acis, Object, XMLHttpRequest)
 hitmovies4u.com##+js(ra, onclick, a.thumb.mvi-cover)
 cinema.cimatna.com,filmywap.*,filmyzilla2021.xyz,filmy-zilla.co.in,neomovies.net,pagalworld.kim,sharkfish.xyz##^script:has-text(break;case $.)
@@ -90417,8 +90417,8 @@ uproxy2.biz##+js(aopr, decodeURIComponent)
 uproxy2.biz##+js(acis, adcashMacros)
 uproxy2.*##+js(aost, Math.floor, )
 *$script,3p,domain=uproxy2.biz
-linksme.xyz##+js(acis, Math, break;case $.)
-linksme.xyz##^script:has-text(break;case $.)
+linksme.*##+js(acis, parseInt, break;case $.)
+linksme.*##^script:has-text(break;case $.)
 18tube.sex##+js(aeld, getexoloader)
 18tube.sex##.opt
 ||digiadzone.com^$3p
@@ -92545,9 +92545,11 @@ imgflare.com##+js(acis, document.querySelectorAll, popMagic)
 steamcrackedgames.com##+js(set, document.onclick, null)
 katmoviefix.*##+js(aopr, Request)
 livesexporn.net##+js(acis, onload, Math)
-g3g.fun##+js(aopw, _pop)
-g3g.fun##[id^="cookieConsentVPN"]
-g3g.fun##[href*="vpnd"]
+g3g.*##+js(aopw, _pop)
+g3g.*##+js(acis, parseInt, break;case $.)
+g3g.*##.text-center.alert-danger.alert-dismissible.alert
+||dcwkgvoeufhnm.com^
+||nnlczheczlq.com^
 webpornblog.com##+js(nowoif)
 freetohell.com##+js(no-fetch-if, method:HEAD)
 sanet.st##+js(acis, String.fromCharCode, 'replace')
