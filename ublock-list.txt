@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VXHNi4lsbf8vgu0WYLOFdQ
+! Checksum: waAJaB6+E7YznrA8CqXEJA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206040947
-! Last Modified: 2022年06月04日 09:47
+! Version: 202206041424
+! Last Modified: 2022年06月04日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -32522,6 +32522,7 @@ tf2r.com#@#.adverts
 ||74adf02407.com^
 ||74b1447c32.com^
 ||750industries.com^
+||75abf77682.com^
 ||75bb9a4031.com^
 ||75f7e171e0.com^
 ||7705a9f168.com^
@@ -42296,6 +42297,7 @@ tf2r.com#@#.adverts
 ||newthuads.com^
 ||newtontanrec.casa^
 ||nextgencounter.com^
+||neyhdjwpumivpa.com^
 ||nezttolpyroty.com^
 ||nfadiivfibqrk.com^
 ||nfcrxfkbhuwrnrt.xyz^
@@ -43850,6 +43852,7 @@ tf2r.com#@#.adverts
 ||postbacks.net^
 ||postlnk.com^
 ||postrelease.com^
+||posttrendingblog.com^
 ||postupset.com^
 ||postureconstituent.com^
 ||potaffableeaten.com^
@@ -48876,6 +48879,7 @@ tf2r.com#@#.adverts
 ||xmjvcgaawkqllg.top^
 ||xml-api.online^
 ||xmlads.bid^
+||xmlapiclickredirect.com^
 ||xmlgrab.com^
 ||xmllover.com^
 ||xmlppcbuzz.com^
@@ -49279,6 +49283,7 @@ tf2r.com#@#.adverts
 ||zdcuivnen.com^
 ||zddxlih.com^
 ||zdicbpujzjps.com^
+||zdsfnagupwkztl.com^
 ||zdyldoijanx.com^
 ||zeads.com^
 ||zealotsick.com^
@@ -49502,6 +49507,7 @@ tf2r.com#@#.adverts
 ||ad-slot.ru^$third-party
 ||ad-sponsor.com^$third-party
 ||ad-stir.com^$third-party
+||ad.plus^$third-party
 ||ad.style^$third-party
 ||ad20.net^$third-party
 ||ad2adnetwork.biz^$third-party
@@ -52880,6 +52886,7 @@ tf2r.com#@#.adverts
 ||xcsypkknp.com^$popup
 ||xegroxenu.com^$popup
 ||xml-api.online^$popup
+||xmlapiclickredirect.com^$popup
 ||xtendmedia.com^$popup
 ||xudawhuwa.com^$popup
 ||xuxihoy.ru^$popup
@@ -55229,7 +55236,7 @@ tf2r.com#@#.adverts
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
 ||steamanalyst.com/www
 ||strcloud.club/mainstream
-||streamoupload.com/api/spots/$script,domain=flizmovies.cc
+||streamoupload.*/api/spots/$script
 ||streams.tv/js/slidingbanner.js
 ||streamtape.com/adult
 ||streamtape.site/adult
@@ -55838,6 +55845,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockstreamtape.a
 ||manga18fx.com/nevmmm
 ||manhwa18.cc/bmoa/bmoa_frder.js
 ||mansurfer.com/flash_promo/
+||mature-chicks.com/sparkling-
 ||matureworld.ws/images/banners/
 ||milffox.com/ab-s.js
 ||milffox.com/local_su.js
@@ -56033,6 +56041,7 @@ physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
 point2homes.com,propertyshark.com###Point2Homes_Premium_Agent_Replace_300x250
 audioz.download###PromoHead
+sciencealert.com###Purch_D_R_0_1
 fortune.com###RightRailFlex_Articles0
 calculatorsoup.com###RightSidebar
 soapcalc.net###SidebarLeft
@@ -60629,6 +60638,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||improvedigital.com/pbw/headerlift.min.js$domain=games.co.uk|zigiz.com
 @@||infotel.ca/images/ads/$image,~third-party
 @@||infoworld.com/www/js/ads/gpt_includes.js$~third-party
+@@||ipinfo.io/static/images/use-cases/adtech.jpg$image,~third-party
 @@||island.lk/userfiles/image/danweem/island.gif
 @@||itv.com/itv/hserver/*/site=itv/$xmlhttprequest
 @@||itv.com/itv/tserver/$~third-party
