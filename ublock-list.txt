@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EEgny0QvLXqytYxw1BOwKg
+! Checksum: EOI+cA5ukbReGnS1h4YtlQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206050223
-! Last Modified: 2022年06月05日 02:23
+! Version: 202206050959
+! Last Modified: 2022年06月05日 09:59
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -225,6 +225,7 @@
 -article-ads-
 -article-advert-
 -assets/ads.$~script
+-auto-ads-
 -banner-768.
 -banner-ad-
 -banner-ad.
@@ -103050,7 +103051,7 @@ fontspace.com#@#.container-ads
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 09 Jun 2002 00:00:00
+# start date:    Mon, 10 Jun 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
