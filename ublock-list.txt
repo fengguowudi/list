@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gIUqZ0mH8sse2r0Y7jTAVA
+! Checksum: wOWDBWGsHXEZmLvbYNO4MQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206052034
-! Last Modified: 2022年06月05日 20:34
+! Version: 202206060224
+! Last Modified: 2022年06月06日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -95921,7 +95921,6 @@ duckduckgo.com#@#.js-sidebar-ads
 @@||ashoora.ir/images/banners/$image
 @@||bayanbox.ir/view/$image
 @@||cdn.asriran.com^$image
-tebyan.net#@#.theiaStickySidebar
 @@||app.detrack.com/api/v2/tracking$xhr
 @@||cdnjs.cloudflare.com/cdn-cgi/trace$xhr,domain=piliapp.com
 @@||index.hr/thirdparty/brid/*$script,1p
@@ -95935,32 +95934,6 @@ tebyan.net#@#.theiaStickySidebar
 @@||googletagmanager.com/gtm.js$script,domain=mumzworld.com
 tamin.ir#@#.ads2
 @@||tamin.ir/content/ads/
-@@||zoomit.ir/assets/img/advertise-$image,1p
-@@||zoomg.ir/banners/demo/advertise-zoomg.jpg
-webii.ir#@#.ads-sidebar
-webii.ir#@#.ads-box
-@@||webii.ir/upload/ads/$image,1p
-@@||1000site.ir/asset/images/images/adpage/$image,1p
-@@||1000site.ir/home/ads/asset/favicon.ico
-sakhtafzar.com#@#.ads-title
-sakhtafzar.com#@#.ads-content
-sakhtafzar.com#@#.ads_box
-sakhtafzar.com#@#.tz_ad300_widget
-forum.p30world.com#@##ad_global_above_footer
-@@||persianv.com/wp-content/uploads/*/adv-$image,1p
-@@||parsiblog.com/Adv/imgs/
-@@||niksalehi.com/wp-content/uploads/*/adv
-nicmusic.net#@#.boxads
-@@||images.kojaro.com/assets/ad/advertise-$image,1p
-gooyait.com#@#.page-ads
-gooyait.com#@#.banner-ads
-gamesib.ir#@#.ads_2
-farsroid.com#@#.place-ads
-@@||beytoote.com/ads/images_$image,1p
-@@||beytoote.com/ads/js/$script,1p
-@@||ads.beytoote.com/live_chat
-@@||blogfa.com/static/ads/
-@@||asandl.com/ads/img/$image,1p
 @@||voeunblock2.com^$frame,3p
 job.nw.de#@#^script:has-text(===):has-text(/[\w\W]{16000}/)
 job.nw.de#@#+js(nostif, .call(null), 10)
