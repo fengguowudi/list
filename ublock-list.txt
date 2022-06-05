@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xCbVBBZksw24SOcSnBnjqQ
+! Checksum: gIUqZ0mH8sse2r0Y7jTAVA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206051424
-! Last Modified: 2022年06月05日 14:24
+! Version: 202206052034
+! Last Modified: 2022年06月05日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -32036,7 +32036,7 @@ shop.asobistore.jp#@#.block-sponsor
 ixbtlabs.com#@#.bottom_ad_block
 wired.com#@#.box-radvert
 9l.pl#@#.boxAds
-8field.net,deployhappiness.com,dmitrysotnikov.wordpress.com,faravirusi.com,freedom-shift.net,kotan.link,lovepanky.com,markekaizen.jp,netafull.net,photopoint.com.ua#@#.category-ad:not(html):not(body)
+8field.net,deployhappiness.com,dmitrysotnikov.wordpress.com,faravirusi.com,freedom-shift.net,kotan.link,lovepanky.com,markekaizen.jp,netafull.net,photopoint.com.ua,posh-samples.com#@#.category-ad:not(html):not(body)
 business-hack.net,clip.m-boso.net,iine-tachikawa.net,meihong.work#@#.category-ads:not(html):not(body)
 blog.notebooksbilliger.de#@#.category-advertorial
 studio55.fi#@#.column-ad
@@ -36389,6 +36389,7 @@ tf2r.com#@#.adverts
 ||deceittoured.com^
 ||decemberpedalunfair.com^
 ||decenthat.com^
+||decide.dev^
 ||decids.com^
 ||decisionmark.com^
 ||decisionnews.com^
@@ -49744,6 +49745,7 @@ tf2r.com#@#.adverts
 ||adsiduous.com^$third-party
 ||adskeeper.com^$third-party
 ||adslivecorp.com^$third-party
+||adsninja.ca^$third-party
 ||adsniper.ru^$third-party
 ||adsparc.net^$third-party
 ||adspeed.com^$third-party
@@ -63046,6 +63048,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /events/pixel/*$image
 /events/pixelEvent
 /events/track/*
+/events/view?
 /events?data=
 /events?rpId=
 /eventsBeacon?
@@ -89870,6 +89873,9 @@ promo-visits.site##+js(aopw, _pop)
 promo-visits.site##+js(set, blurred, false)
 @@||promo-visits.site^$ghide
 promo-visits.site##.banner
+||ultimateaderaser.com^$all
+/click?pid=*&offer_id=
+/ads.css$badfilter
 ||sentry-cdn.com^$script,redirect-rule=noopjs,domain=mcmfaucets.xyz
 mcmfaucets.xyz##+js(aopw, _pop)
 mcmfaucets.xyz##div[id^="random_300_"]
@@ -93378,6 +93384,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /?banner=*&phone=$doc
 ||chevrontax.info^$all
 ||advidates.com^$all
+||josannastudio.co^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
