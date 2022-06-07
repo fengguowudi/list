@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gk219C/79Ld1/wHJijYWEg
+! Checksum: EVKxWrkEGE2tTVWHT5kPSQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206071425
-! Last Modified: 2022年06月07日 14:25
+! Version: 202206072043
+! Last Modified: 2022年06月07日 20:43
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -26045,6 +26045,8 @@ _800x80_
 ##.in-article-adx
 ##.in-article-mpu
 ##.in-between-ad
+##.in-body-ad-row
+##.in-body-banner-ad
 ##.in-content-ad
 ##.in-content-ad--container
 ##.in-content-ad-container
@@ -36318,7 +36320,6 @@ tf2r.com#@#.adverts
 ||daspiratioty.co^
 ||data-data-vac.com^
 ||datajsext.com^
-||datatechonert.com^
 ||date4sex.pro^
 ||dateddeed.com^
 ||dateregionsmadman.com^
@@ -47462,7 +47463,6 @@ tf2r.com#@#.adverts
 ||tysolomonau.com^
 ||tytheglupy.com^
 ||tywzyhfliwdbu.com^
-||tzegilo.com^
 ||tzfafzmooqum.com^
 ||u-watchit.com^
 ||u0054.com^
@@ -49511,7 +49511,6 @@ tf2r.com#@#.adverts
 ||4dsply.com^$third-party
 ||7search.com^$third-party
 ||888media.net^$third-party
-||8s8.eu^$third-party
 ||9desires.xyz^$third-party
 ||a-ads.com^$third-party
 ||a-static.com^$third-party
@@ -56356,6 +56355,8 @@ welovetrump.com###enhancedtextwidget-34
 jigzone.com###fH
 fxsforexsrbijaforum.com###fa_ticker_container
 thedrinknation.com###fcBanner
+fandom.com###featured-video__player
+fandom.com###featured-video__player-container
 investing.com###findABroker
 thisismoney.co.uk###fiveDealsWidget
 point2homes.com,propertyshark.com###fixedban
@@ -56840,7 +56841,6 @@ my.juno.com###usWorldTile
 macworld.co.uk###vTXbybUFn
 nutritioninsight.com###verticlblks
 filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
-bossip.com###video-expanded
 forums.tomsguide.com###video_ad
 gumtree.com###vipBanner
 playstationtrophies.org,xboxachievements.com###vnt-lb-a
@@ -57705,6 +57705,8 @@ sciencenews.org##.from-nature-index__wrapper___2E2Z9
 tripstodiscover.com##.fs-dynamic
 tripstodiscover.com##.fs-dynamic__label
 alphr.com##.fs-pushdown-sticky
+bossip.com##.fsb-desktop
+bossip.com##.fsb-toggle
 ghacks.net##.ftd-item.home-posts
 lovepanky.com##.full-width.row > .medium-12:first-child
 ptinews.com##.fullstorydivright
@@ -57897,8 +57899,6 @@ india.com##.iwplhdbanner-wrap
 psypost.org##.jeg_midbar
 romania-insider.com##.job-item
 johncodeos.com##.johnc-widget
-techrepublic.com##.jotform-top-story-of-the-day
-techrepublic.com##.jotform-twenty-pro-tips
 marinelink.com,maritimejobs.com,maritimepropulsion.com,yachtingjournal.com##.jq-banner
 demonslayermanga.com,readjujutsukaisen.com##.js-a-container
 ultimate-guitar.com##.js-ab-regular
@@ -59491,6 +59491,7 @@ gamesradar.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
 southernliving.com##.karma-sticky-rail
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
 sciencetimes.com##.player
+bossip.com##.player-wrapper-inner
 comicbook.com,popculture.com##.popculture-embed
 kidspot.com.au##.secondary-video
 goal.com##.semantic-player-embed
@@ -60979,6 +60980,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ad-api-v01.uliza.jp^$script,xmlhttprequest,domain=golfnetwork.co.jp|tv-asahi.co.jp
 @@||ad.atown.jp/adserver/$domain=ad.atown.jp
 @@||ad.smartmediarep.com/NetInsight/$domain=programs.sbs.co.kr
+@@||admanager.clubzebra.se^$image,domain=ripshusvagnar.se
 @@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||ads.instacart.com/admin/$~third-party
 @@||adsafeprotected.com/services/$domain=reuters.com
@@ -67085,6 +67087,7 @@ _mongo_stats/
 ||cxt.ms^
 ||cybba.solutions^
 ||czx5eyk0exbhwp43ya.biz^
+||datatechonert.com^
 ||demdex.net^
 ||dispatchunique.com^
 ||dispatchvegasplus.com^
@@ -67232,6 +67235,7 @@ _mongo_stats/
 ||turboeagle.co^
 ||turbolion.io^
 ||tvpixel.com^
+||tzegilo.com^
 ||ugdturner.com^
 ||v1sts.me^
 ||venusrevival.com^
@@ -67688,7 +67692,7 @@ _mongo_stats/
 ||cdnmaster.com^$third-party
 ||cdnopw.com^$third-party
 ||cedexis.com^$third-party
-||cedexis.net^$third-party
+||cedexis.net^$script,third-party
 ||celebros-analytics.com^$third-party
 ||celebrus.com^$third-party
 ||center.io^$third-party
@@ -75519,6 +75523,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cm-exchange.toast.com^
 ||log.adplex.co.kr^
 ||log.cizion.com^
+||log.mofa.go.kr^
 ||log.targetpush.co.kr^
 ||megadata.co.kr^
 ||mtag.mman.kr^
