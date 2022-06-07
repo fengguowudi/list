@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /XiUgkd5Geer2cpF6AIeIA
+! Checksum: gk219C/79Ld1/wHJijYWEg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206070952
-! Last Modified: 2022年06月07日 09:52
+! Version: 202206071425
+! Last Modified: 2022年06月07日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -25069,6 +25069,7 @@ _800x80_
 ##.front-video-ads
 ##.front_ad
 ##.frontads
+##.frontendAd
 ##.frontone_ad
 ##.frontpage-google-ad
 ##.frontpage-mpu-section-ad
@@ -95989,7 +95990,6 @@ fontspace.com#@#.container-ads
 @@||ak-ads-ns.prisasd.com/prebid/prebid_noticias.js$script,domain=as.com
 ||elpais.com/t.gif$image,1p,redirect-rule=1x1.gif,important
 ||fwcdn2.com^$badfilter
--ad0.$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
