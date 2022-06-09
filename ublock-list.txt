@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j//IjmnKNDzDH+AueWIKrw
+! Checksum: DT/4yDkChoP9buwh8FXcZA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206091426
-! Last Modified: 2022年06月09日 14:26
+! Version: 202206092044
+! Last Modified: 2022年06月09日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1727,9 +1727,9 @@
 /adlift4.
 /adlift4_
 /adline.$domain=~adline.co.il|~adline.com|~adline.si
-/adlink-$domain=~adlinktech.com|~github.io
-/adlink.$domain=~adlink.guru|~adlinktech.com
-/adlink/*$domain=~adlinktech.com
+/adlink-$domain=~adlinktech.com|~github.com|~github.io
+/adlink.$domain=~adlink.guru|~adlinktech.com|~github.com
+/adlink/*$domain=~adlinktech.com|~github.com
 /adLink728.
 /adlink?
 /adlinks.$domain=~adlinks.to
@@ -1843,7 +1843,6 @@
 /adoptimised.
 /AdOptimizer.
 /adoptionicon.
-/adoptions.$domain=~efollett.com
 /adorika300.
 /adorika728.
 /ados.js
@@ -58222,6 +58221,7 @@ designtaxi.com##.nt-text
 nplusonemag.com##.nurble
 cheezburger.com##.nw-rail-min-250
 marineelectronics.com,marinetechnologynews.com,maritimeprofessional.com##.nwm-banner
+trendexposed.com##.nya-slot
 golfdigest.com##.o-ArticleRecirc
 luscious.net##.o-padding-top-bottom
 mediaite.com##.o-promo-unit
@@ -60964,7 +60964,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||libhunt.com^$generichide
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
-@@||mail.protonmail.com^$generichide
+@@||material.angular.io^$generichide
 @@||mui.com^$generichide
 @@||myaccount.google.com^$generichide
 @@||netflix.com^$generichide
@@ -66941,6 +66941,7 @@ cgi-bin/counter
 /wf/open?upn=$image
 ://email.*/e/o/
 _ad_impression.
+_track_pixel.gif?
 /_/trace/trace/*
 /rrweb-script.
 /rrweb.js
@@ -86502,6 +86503,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||zooplus.de/om/pxl/
 ||ia.ekstrabladet.dk^
 ||jv.dk/assets/statistics/
+||2ememain.be/c3650cdf-
+||2ememain.be/px/fbif?
 ||actu.fr/assets/js/smarttag5280-1.js
 ||aliasdmc.fr/js/general_sts.js
 ||allocine.fr/_/geolocalize
@@ -88484,15 +88487,6 @@ toptechtalk.xyz##div[style^="position: fixed; bottom: 0px; left: 33%; right: 0px
 *$image,redirect-rule=1x1.gif,domain=toptechtalk.xyz
 toptechtalk.xyz##.admania-widgettit
 ||ndjelsefd.com^
-uniqueten.net,ultraten.net##+js(acis, document.querySelectorAll, popMagic)
-uniqueten.net,ultraten.net##+js(aopw, _pop)
-uniqueten.net,ultraten.net##+js(nano-sib, wpsafe-generate)
-ultraten.net##+js(set, blurred, false)
-*$script,3p,denyallow=google.com|gstatic.com|hcaptcha.com|recaptcha.net|jquery.com,domain=ultraten.net
-uniqueten.net,ultraten.net##.widget_custom_html.mh-widget.widget_text
-uniqueten.net,ultraten.net##.a
-*$script,domain=uniqueten.net,redirect-rule=noopjs
-*$script,domain=ultraten.net,redirect-rule=noopjs
 invest-trading.online##+js(nano-sib)
 invest-trading.online##+js(acis, String.fromCharCode, 'shift')
 invest-trading.online##.widget_custom_html.mg-widget.widget_text
@@ -89860,17 +89854,6 @@ shrlink.top##+js(aopr, app_vars.force_disable_adblock)
 shrlink.top##+js(acis, String.fromCharCode, break;case)
 shrlink.top##+js(set, blurred, false)
 *$script,3p,denyallow=gstatic.com|recaptcha.net,domain=shrlink.top
-allcryptoz.net,topcryptoz.net##+js(nano-sib, counter)
-allcryptoz.net##+js(set, blurred, false)
-allcryptoz.net,topcryptoz.net##.wpsafe-top + #content-wrap
-allcryptoz.net,topcryptoz.net##script + #content-wrap
-allcryptoz.net,topcryptoz.net##.a
-||teicdn.com^
-allcryptoz.net##[id^="Ad.Plus"]:upward(table)
-topcryptoz.net##[id^="gpt-passback"]:upward(table)
-allcryptoz.net,topcryptoz.net##[id^="promol"]
-allcryptoz.net,topcryptoz.net###wpsafe-generate, #wpsafe-link:style(display: block !important;)
-allcryptoz.net,topcryptoz.net###wpsafelink-countdown, #wpsafelinkhuman, div[id^="wpsafe-wait"]
 *$script,redirect-rule=noopjs,domain=claimfreebits.com
 claimfreebits.com##+js(aopr, NoAdBlock)
 claimfreebits.com##.adnewos
@@ -90419,16 +90402,16 @@ sporizle1.pw##a[href="https://hdweb.pw"][target="_blank"]
 comixzilla.com##+js(acis, document.createElement, 'script')
 unsurcoenlasombra.com##+js(aopr, google_jobrunner)
 watchmovierulz.*##+js(nowoif)
-arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,playersb.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbfull.com,sbplay1.com,sbplay2.*,sbvideo.*,streamsb.*,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*##+js(aopr, __Y)
-arslanrocky.xyz,cloudemb.com,dlmovies.link,oxl.one,playersb.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbvideo.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com##+js(aopr, mm)
+arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,playersb.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbfull.com,sbplay1.com,sbplay2.*,sbvideo.*,streamsb.*,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*,view345.com##+js(aopr, __Y)
+arslanrocky.xyz,cloudemb.com,dlmovies.link,oxl.one,playersb.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbvideo.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com,view345.com##+js(aopr, mm)
 sbembed1.com,sbvideo.*##+js(aopr, console.clear)
 cmovies.*##+js(aeld, , break;case $.)
 cloudemb.com##+js(nowoif, !/^\/d\//)
 cloudemb.com##+js(set, console.clear, noopFunc)
-sbfull.com,streamsb.*##+js(nowoif)
-sbfull.com,streamsb.*##+js(aopr, DoodPop)
+streamsb.*##+js(nowoif)
+sbfull.com,streamsb.*,view345.com##+js(aopr, DoodPop)
 sbembed.com,streamsb.*##body > div[style*="z-index:"]
-*$script,3p,denyallow=cloudflare.com|fastly.net|fluidplayer.com|gstatic.com|jwpcdn.com|streamsb.com,domain=sbembed.com|streamsb.*
+*$script,3p,denyallow=cloudflare.com|fastly.net|fluidplayer.com|gstatic.com|jsdelivr.net|jwpcdn.com|streamsb.com,domain=sbembed.com|streamsb.*
 sbplay.*,sbplay1.com##+js(set, console.clear, noopFunc)
 oxl.one,sbplay1.com,sbvideo.net##+js(nosiif, 0x)
 sbplay.*##^script:has-text(debugger)
@@ -96106,7 +96089,7 @@ fontspace.com#@#.container-ads
 @@||ak-ads-ns.prisasd.com/prebid/prebid_noticias.js$script,domain=as.com
 ||elpais.com/t.gif$image,1p,redirect-rule=1x1.gif,important
 ||fwcdn2.com^$badfilter
-||minute.ly^$3p,badflter
+||minute.ly^$3p,badfilter
 @@||cdn.branch.io/branch-latest.min.js$script,domain=ecwid.com
 @@||app.link/_r?sdk$script,domain=ecwid.com
 @@||api2.branch.io/v1/url$xhr,domain=ecwid.com
