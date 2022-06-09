@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DT/4yDkChoP9buwh8FXcZA
+! Checksum: Oj6Rxgx+ssNONETQYpGvyA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206092044
-! Last Modified: 2022年06月09日 20:44
+! Version: 202206100225
+! Last Modified: 2022年06月10日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -11281,6 +11281,7 @@ _800x80_
 ###adv-01
 ###adv-300
 ###adv-Bottom
+###adv-Middle
 ###adv-Middle1
 ###adv-Middle2
 ###adv-Scrollable
@@ -20120,6 +20121,7 @@ _800x80_
 ##.ad_v300
 ##.ad_vertisement
 ##.ad_viewtop
+##.ad_w
 ##.ad_w300h450
 ##.ad_w300i
 ##.ad_w_us_a300
@@ -54070,6 +54072,7 @@ tf2r.com#@#.adverts
 ||p.smartertravel.com^
 ||pacontainer.s3.amazonaws.com^
 ||pagead2.googlesyndication.com^
+||pages.etoro.com/widgets/$third-party
 ||partner.e-conomic.com^
 ||partners.autotrader.co.uk^
 ||partners.betus.com^
@@ -76532,6 +76535,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||quickmeme.com/tracker/
 ||qwant.com/action/
 ||qwant.com/impression/
+||qwant.com/maps/events
 ||qwant.com/v2/api/ux/surveys?
 ||qz.com/log
 ||r.bbci.co.uk^
@@ -89059,7 +89063,7 @@ shooshtime.com##+js(acis, document.getElementsByTagName, adn)
 ||bestcontenttrade.top^$3p
 th-world.com##+js(nostif, nextFunction, 250)
 upload.ee##+js(nowebrtc)
-*$3p,script,xhr,denyallow=google.com|gstatic.com|googleapis.com|hcaptcha.com|pvvstream.pro|recaptcha.net|userapi.com,domain=noodlemagazine.com
+*$3p,script,xhr,denyallow=cloudflare.net|google.com|gstatic.com|googleapis.com|hcaptcha.com|jsdelivr.net|pvvstream.pro|recaptcha.net|userapi.com,domain=noodlemagazine.com
 links.worldfree4u-lol.online##+js(aopw, _pop)
 ||binpartner.com^$3p
 ||olymptrade.com^$3p
@@ -94610,7 +94614,6 @@ warszawawpigulce.pl##.eklama
 @@||spotxcdn.com/integration/directsdk/$script,domain=bloomberg.*
 @@||search.spotxchange.com^$xhr,domain=bloomberg.*
 @@||sourcepointcmp.bloomberg.com/ccpa.js$script,domain=bloomberg.*
-@@||cdx.cedexis.net^$domain=bloomberg.*
 @@||go.com/disneyid/responder$frame,1p
 @@||ajax.googleapis.com^$script,domain=linkdrop.net
 @@||connect.facebook.*/*/AudienceNetworkPrebid.js$script,domain=cbssports.com
@@ -95132,7 +95135,6 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 @@||google-analytics.com/analytics.js$script,domain=shop.euromaster.de
 @@||redfin.com/rift$xhr,1p
 ||cedexis.com^$3p,badfilter
-||cedexis.net^$3p,badfilter
 @@||pix.spot.im/api/$xhr,domain=allthingsvegas.com
 amnews.com###div-gpt-ad-instory-bottom
 @@||adobedtm.com^*/satellitelib-$script,domain=airtel.in
@@ -95216,7 +95218,6 @@ recensionihot.com#@#a[href^="https://www.moscarossa.biz/"]
 @@||sp-prod.net^$script,xhr,domain=spiegel.de
 @@||hulkshare.com/combine/*$script,1p
 @@||assets.adobedtm.com/*/satelliteLib-$script,domain=mitelcel.com
-@@||cdx.cedexis.net^$3p,domain=airfrance.co.jp
 |https://$subdocument,3p,domain=series9.to,badfilter
 @@||pxys.ezoic.net^$font,domain=forum.thaivisa.com
 ||techsidea.website^$popup,badfilter
@@ -96083,8 +96084,8 @@ duckduckgo.com#@#.js-sidebar-ads
 tamin.ir#@#.ads2
 @@||tamin.ir/content/ads/
 @@||voeunblock2.com^$frame,3p
-job.nw.de#@#^script:has-text(===):has-text(/[\w\W]{16000}/)
-job.nw.de#@#+js(nostif, .call(null), 10)
+job.mt.de,job.nw.de#@#^script:has-text(===):has-text(/[\w\W]{16000}/)
+job.mt.de,job.nw.de#@#+js(nostif, .call(null), 10)
 fontspace.com#@#.container-ads
 @@||ak-ads-ns.prisasd.com/prebid/prebid_noticias.js$script,domain=as.com
 ||elpais.com/t.gif$image,1p,redirect-rule=1x1.gif,important
