@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EnylzmBDWJz27wm0TQuqJA
+! Checksum: UR79AYtPlAf8OK0S0FV1Ew
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206112035
-! Last Modified: 2022年06月11日 20:35
+! Version: 202206120223
+! Last Modified: 2022年06月12日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63305,6 +63305,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /facebook-retargeting-
 /facebook-tracking/*
 /facebook_fbevents.
+/facebook_pixel_
 /facebookpixel.
 /facebookpixel/*
 /facebookproductad/*$script
@@ -76515,6 +76516,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||namethatporn.com/assets/imgs/1x1.gif
 ||nature.com/platform/track/
 ||naukrigulf.com/ni/nibms/bms_display.php
+||nbarizona.com/metrics/
 ||nbc.com/webevents/
 ||nbcnews.com/_next/static/chunks/ads.$script,domain=msnbc.com|nbcnews.com
 ||ncbi.nlm.nih.gov/core/pinger
@@ -87489,8 +87491,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||accounts.intuit.com/fe_logger?$~third-party
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
-@@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca
-@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|kroger.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
+@@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca|nbarizona.com
+@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|kroger.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
@@ -87841,6 +87843,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||siteapps.caa.co.uk/scripts/plugins/analytics/ga.min.js$script,~third-party
 @@||smartrevise.online/css/analytics.min.css$~third-party
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
+@@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||solr.sas.com/query/$xmlhttprequest,domain=jmp.com
 @@||songstats.com/api/v1/analytics/track_data$~third-party,xmlhttprequest
@@ -89517,8 +89520,6 @@ yifysubtitles.*##+js(acis, String.fromCharCode, break;case)
 goalup.live,nbaup.live##+js(acis, String.fromCharCode, break;case)
 goalup.live##+js(nosiif, 0x)
 goalup.live##+js(ra, onclick)
-pelispop.*##^script:has-text(break;case $.)
-pelispop.*##+js(aeld, , break;case $.)
 freeuseporn.com##+js(aopr, encodeURIComponent)
 *$script,domain=freeuseporn.com
 @@||freeuseporn.com/media/$script,1p
@@ -91061,7 +91062,7 @@ online-fix.me##+js(nostif, /width|innerHTML/)
 buydekhke.com##+js(aost, String.prototype.charCodeAt, ai_)
 mylinkconverter.com##a[href^="https://go.nordvpn.net/aff"] > img
 asyadrama.com,bitcoinegypt.news,citychilli.com,talkjarvis.com##+js(nostif, css_class.show)
-cardiagn.com,conhecimentolivre.net,furioscans.com,jpshowbiz.us,routech.ro##+js(acis, eval, replace)
+cardiagn.com,conhecimentolivre.net,furioscans.com,kostenloseklingeltone.com,routech.ro##+js(acis, eval, replace)
 privatemoviez.*##+js(aeld, DOMContentLoaded, adsBlocked)
 routech.ro##+js(nostif, blur)
 routech.ro##+js(no-xhr-if, googlesyndication)
@@ -92789,6 +92790,7 @@ newscon.net##+js(set, clearInterval, noopFunc)
 newscon.net##+js(nano-sib, hard_work)
 gomovies.lv##+js(ra, href, #clickfakeplayer)
 javside.com##+js(aopr, __Y)
+javside.com##+js(aopr, AaDetector)
 imgflare.com##+js(acis, document.querySelectorAll, popMagic)
 steamcrackedgames.com##+js(set, document.onclick, null)
 katmoviefix.*##+js(aopr, Request)
@@ -103267,8 +103269,8 @@ fontspace.com#@#.container-ads
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 10 Jun 2022 15:29:37 GMT
-# entries:        3642
+# last updated:   Sat, 11 Jun 2022 13:35:26 GMT
+# entries:        3644
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -104253,6 +104255,7 @@ fontspace.com#@#.container-ads
 127.0.0.1 als-svc.nytimes.com
 127.0.0.1 amazingcounters.com
 127.0.0.1 amazon-adsystem.com
+127.0.0.1 amazonaax.com
 127.0.0.1 ambiguousquilt.com
 127.0.0.1 ambitiousagreement.com
 127.0.0.1 americash.com
@@ -106717,6 +106720,7 @@ fontspace.com#@#.container-ads
 127.0.0.1 user-shield-check.com
 127.0.0.1 userreplay.com
 127.0.0.1 userreplay.net
+127.0.0.1 users.maxcluster.net
 127.0.0.1 usingirritatecordial.com
 127.0.0.1 utils.mediageneral.net
 127.0.0.1 utl-1.com
