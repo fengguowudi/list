@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MnD6EigsxxXdFEMdOhgr+Q
+! Checksum: z0f5Gj9bDDPLGYK1y0VMtQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206122033
-! Last Modified: 2022年06月12日 20:33
+! Version: 202206130223
+! Last Modified: 2022年06月13日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -90106,17 +90106,6 @@ yellowfaucet.ovh##div.row > .text-primary.bg-danger.col-xs-12
 sabishare.com##+js(aost, Math.floor, /computed|\$\./)
 ##[href^="luvaihoo.com"]
 ||ad.kubicad.icu^
-promo-visits.site##+js(aopr, app_vars.force_disable_adblock)
-promo-visits.site##+js(acis, atob, 'shift')
-promo-visits.site##+js(aopr, open)
-promo-visits.site##+js(nosiif, visibility, 1000)
-promo-visits.site##+js(aopw, _pop)
-promo-visits.site##+js(set, blurred, false)
-@@||promo-visits.site^$ghide
-promo-visits.site##.banner
-||ultimateaderaser.com^$all
-/click?pid=*&offer_id=
-/ads.css$badfilter
 ||sentry-cdn.com^$script,redirect-rule=noopjs,domain=mcmfaucets.xyz
 mcmfaucets.xyz##+js(aopw, _pop)
 mcmfaucets.xyz##div[id^="random_300_"]
@@ -96190,6 +96179,7 @@ fontspace.com#@#.container-ads
 @@||api2.branch.io/v1/url$xhr,domain=ecwid.com
 @@||cdn.appdynamics.com/adrum/adrum-*.js$domain=santander.cl
 ||ads.tiktok.com^$badfilter
+@@||api.enthusiastgaming.net/scripts/cdn.enthusiast.gg/script/eg-aps/release/*$xhr,domain=diep.io
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
