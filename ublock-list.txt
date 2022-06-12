@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cKWOb2IB+C8K3lvLTfLC3A
+! Checksum: K7xfanrhkJxk7DTiCa1deg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206121008
-! Last Modified: 2022年06月12日 10:08
+! Version: 202206121425
+! Last Modified: 2022年06月12日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21918,6 +21918,7 @@ _800x80_
 ##.adv__box
 ##.adv__container--300x250
 ##.adv__container--728x90
+##.adv__leaderboard
 ##.adv__text
 ##.adv__wrapper
 ##.adv_aff
@@ -57014,8 +57015,8 @@ eteknix.com###wrapper > header
 cranestodaymagazine.com,hoistmagazine.com,ttjonline.com,tunnelsonline.info###wrapper_banners
 blasternation.com###xobda
 yardbarker.com###yb_recirc
-sevenforums.com###yui-gen0
-sevenforums.com###yui-gen1
+sevenforums.com,tenforums.com###yui-gen0
+sevenforums.com,tenforums.com###yui-gen1
 ecoustics.com###zox-lead-bot
 talkingpointsmemo.com##.--span\:12.AdSlot
 voiceofsandiego.org##.-sponsored
@@ -58784,6 +58785,7 @@ dailyherald.com##.stnContainer
 politico.com##.story-continued
 climbingbusinessjournal.com##.strack_bnr
 indiatoday.in##.stradds
+hbr.org##.sponsored
 siasat.com##.stream-item-below-post-content
 twitter.com##.stream-item-group-start[label="promoted"]
 coinpedia.org,siasat.com##.stream-item-inline-post
