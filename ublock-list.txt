@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UR79AYtPlAf8OK0S0FV1Ew
+! Checksum: cKWOb2IB+C8K3lvLTfLC3A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206120223
-! Last Modified: 2022年06月12日 02:23
+! Version: 202206121008
+! Last Modified: 2022年06月12日 10:08
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -60243,7 +60243,7 @@ javfor.tv##.fel-playclose
 hotmovs.com,thegay.com##.fiioed
 sexyandfunny.com##.firstblock
 vxxx.com##.fktcgpktyyccs
-ah-me.com##.flirt-block
+ah-me.com,gaygo.tv##.flirt-block
 asiangaysex.net,gaysex.tv##.float-ck
 stileproject.com##.fluid_nonLinear_bottom
 porn.com##.foot-zn
@@ -92116,7 +92116,7 @@ shuajota.com###HTML10
 shuajota.com###HTML9
 shuajota.com###HTML14
 shuajota.com###HTML16
-witanime.com##+js(acis, JSON.parse, break;case $.)
+witanime.com##+js(acis, parseInt, break;case $.)
 witanime.com##+js(nowoif)
 @@||thetruedefender.com^$ghide
 thetruedefender.com##.adsbyvli
@@ -103278,7 +103278,7 @@ fontspace.com#@#.container-ads
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 16 Jun 2002 00:00:00
+# start date:    Mon, 17 Jun 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
