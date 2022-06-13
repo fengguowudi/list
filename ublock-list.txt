@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qZJJfI1q7CVywUV4sid5xQ
+! Checksum: 3PbBUPfO8mCpoLyO49impA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206131428
-! Last Modified: 2022年06月13日 14:28
+! Version: 202206132042
+! Last Modified: 2022年06月13日 20:42
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -60880,7 +60880,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
 @@||image.shutterstock.com^$image,domain=icons8.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|givemesport.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|embed.comicbook.com|sbs.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|pch.com
 @@||img-cdn.mediaplex.com^$image,domain=betfair.com
@@ -67278,6 +67278,7 @@ _mongo_stats/
 ||cpx.to^
 ||crsspxl.com^
 ||crwdcntrl.net^
+||cvlb.dev^
 ||cxt.ms^
 ||cybba.solutions^
 ||czx5eyk0exbhwp43ya.biz^
@@ -67387,6 +67388,7 @@ _mongo_stats/
 ||pix.pub^
 ||pixrealm.com^
 ||pjstat.com^
+||procroanalytics.com^
 ||progmxs.com^
 ||propeller-tracking.com^
 ||pubtm.com^
@@ -74143,6 +74145,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||px-cloud.net/b/s
 ||px.excitedigitalmedia.com^
 ||px.marchex.io^
+||px.mountain.com^
 ||px.owneriq.net^
 ||px.spiceworks.com^
 ||pxchk.net/b/s
@@ -74611,6 +74614,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.graphly.io^
 ||tracking.hivecloud.net^
 ||tracking.hyros.com^
+||tracking.intentsify.io^
 ||tracking.interweave.com^$third-party
 ||tracking.jotform.com^
 ||tracking.keywee.co^
@@ -74674,6 +74678,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||triggers.wfxtriggers.com^
 ||trinitymedia.ai/api/collect?
 ||tritondigital.com/ondemand/impression?
+||trk.clinch.co^
 ||trk.techtarget.com^
 ||tru.webelapp.com^
 ||trustarc.com/cap?
@@ -74916,6 +74921,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2gbtcuv3w9qyv.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
 ||d2j1fszo1axgmp.cloudfront.net^
+||d2j74sjmqqyf26.cloudfront.net^
 ||d2kdl5wcwrtj90.cloudfront.net^
 ||d2nq0f8d9ofdwv.cloudfront.net/track.js
 ||d2nxi61n77zqpl.cloudfront.net^
@@ -96194,7 +96200,7 @@ duckduckgo.com#@#.js-sidebar-ads
 @@||components2.rcsobjects.it/rcs_adv/v1/distro/dfp/common/prebid.js$script,domain=oggi.it
 @@||static.adsafeprotected.com/iasPET$script,domain=oggi.it
 @@||location.api.useinsider.com^$xhr,domain=nontongp.xyz
-@@||googletagmanager.com/gtm.js$script,domain=lacuracao.pe|mumzworld.com
+@@||googletagmanager.com/gtm.js$script,domain=lacuracao.pe|mumzworld.com|tsbohemia.cz
 tamin.ir#@#.ads2
 @@||tamin.ir/content/ads/
 @@||voeunblock2.com^$frame,3p
