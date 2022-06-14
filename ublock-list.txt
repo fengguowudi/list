@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lTYQdShLjLSQvIrqQ1mg7Q
+! Checksum: 8PCzBgl5LhSSszcanqCFFw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206141009
-! Last Modified: 2022年06月14日 10:09
+! Version: 202206141427
+! Last Modified: 2022年06月14日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -37188,6 +37188,7 @@ tf2r.com#@#.adverts
 ||easyads29.info^
 ||easyads29.mobi^
 ||easyads29.pro^
+||easydating.top^
 ||easydistrustuldistrustul.com^
 ||easyflirt-partners.biz^
 ||easygoingtouchybribe.com^
@@ -47629,6 +47630,7 @@ tf2r.com#@#.adverts
 ||u595sebqih.com^
 ||u9oxdnxk8b.com^
 ||uacgjneoqusji.xyz^
+||uads.shop^
 ||uagopaamgcxme.com^
 ||ubgkvsjnbjtk.com^
 ||ubilox.com^
@@ -58944,6 +58946,7 @@ wallpapersmania.com##.top_pad_10
 justjared.com,justjaredjr.com##.top_rail_shell
 roadtests.com##.topad
 dnaindia.com##.topadd
+axisbank.com##.topbandBg_New
 allmonitors24.com,streamable.com##.topbanner
 drugs.com##.topbanner-wrap
 blabber.buzz##.topfeed
@@ -60971,7 +60974,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||optout.networkadvertising.org^$document
 @@||p.d.1emn.com^$script,domain=hotair.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=downloads.codefi.re|globaldjmix.com|nlfreevpn.com|oldapps.com|slideplayer.com|smallseotools.com|tampermonkey.net|thefreedictionary.com|windows7themes.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.pixelexperience.org|knowfacts.info|real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|teemo.gg|thefreedictionary.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.pixelexperience.org|knowfacts.info|lacoste.com|real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|teemo.gg|thefreedictionary.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=nullpress.net
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=soranews24.com
 @@||pagead2.googlesyndication.com/pagead/js/lidar.js$domain=convert-me.com|grammarist.com
@@ -65977,6 +65980,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /trackAdHit.
 /trackAirship.js
 /trackalyze/*$script
+/trackBatchEvents?
 /TrackClick.
 /trackClickAsync.
 /trackClickEvent.js
@@ -70240,6 +70244,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||on-push.com^$third-party
 ||onepush.app^$third-party
 ||onesignal.com^$third-party
+||outfunnel.com^$third-party
 ||pn.vg^$third-party
 ||provesrc.com^$third-party
 ||psh.one^$third-party
@@ -72053,6 +72058,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||compteur.org^$third-party
 ||count.fr^$third-party
 ||countus.fr^$third-party
+||cshield.io^$third-party
 ||d-bi.fr^$third-party
 ||datado.me^$third-party
 ||datadome.co^$third-party
@@ -87754,7 +87760,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|healthrangerstore.com|jackbox.tv|k2radio.com|koel.com|kowb1290.com|stressless.com|tracking.narvar.com|westernunion.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|tentree.ca
-@@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com
+@@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com
 @@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
@@ -87798,7 +87804,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||kentucky.com/mistats/finalizestats.js$~third-party
 @@||klarnaservices.com/lib.js$script,domain=brooksrunning.com
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
-@@||lacoste.com/on/demandware.static/*/click-analytics.js$~third-party
+@@||lacoste.com^*/click-analytics.js$~third-party
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
@@ -87830,6 +87836,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||musiclab.chromeexperiments.com/bin/lib/angulartics-google-analytics.js
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com^$domain=mixpanel.com
+@@||my.dxdelivery.com/js/tracking.js$script,~third-party
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
 @@||myaccount.depositprotection.com/Scripts/lib/jsnlog/$script,~third-party
 @@||mywebar.com/js/tracking_worker.js$~third-party
@@ -87846,6 +87853,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
 @@||nyt.com/analytics/json-$script,domain=nytimes.com
 @@||nyt.com/bi/js/tagx/tagx.js$domain=nytimes.com
+@@||nytimes.com/games-assets/*/analytics.js$~third-party
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||oakley.com^*/tealium.js$~third-party
 @@||oceanstatejoblot.com^*/widget/osjl-google-analytics/$script,~third-party
@@ -89545,7 +89553,8 @@ speedostream.com##^script:has-text(break;case $.)
 speedostream.com##+js(aeld, , break;case $.)
 ||s.speedostream.com^$script,1p
 @@||nnaa66.xyz^$ghide
-lightnovelpub.com##+js(aeld, load, /google_ad_url|freestar/)
+lightnovelpub.com##+js(aeld, , ab)
+||lightnovelpub.com^$xhr,1p
 lightnovelpub.com##aside.container
 lightnovelpub.com#@#.ad-sticky
 nexusmods.com##+js(nano-stb, timer)
