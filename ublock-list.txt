@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eKchZszp32r1XtfOvnKLgQ
+! Checksum: ocq+3mMiRCR9nTPNX/9maA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206160957
-! Last Modified: 2022年06月16日 09:57
+! Version: 202206161425
+! Last Modified: 2022年06月16日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56144,6 +56144,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockstreamtape.a
 ||galleries-pornstar.com/thumb_top/
 ||gapeandfist.com/uploads/thumbs/
 ||gayboystube.com/templates/gayboystube2017/js/gbtpop.js
+||gayfor.us/front.js
 ||gaytail.com/vast.xml
 ||girlsofdesire.org/edge/
 ||girlsofdesire.org/paper/
@@ -70898,6 +70899,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chewcoat.com^
 ||chickensstation.com^
 ||childlikecook.com^
+||childlikecrowd.com^
 ||childlikeform.com^
 ||chingovernment.com^
 ||chinsnakes.com^
@@ -74251,7 +74253,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ping.hellobar.com^
 ||ping.instantsearchplus.com^
 ||ping.smyte.com^
-||ping.staticmoly.me^
 ||pings.conviva.com^
 ||pings.vidpulse.com^
 ||pipe-collect.ebu.io^
@@ -74522,6 +74523,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statdb.pressflex.com^
 ||static-tracking.klaviyo.com^
 ||static.parsely.com^$third-party
+||staticmoly.me/metric.php
 ||statistics.tattermedia.com^
 ||statistics.wibiya.com^
 ||statm.the-adult-company.com^
