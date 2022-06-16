@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ocq+3mMiRCR9nTPNX/9maA
+! Checksum: /wSxKLuxpp/OAf8Q+WrB3Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206161425
-! Last Modified: 2022年06月16日 14:25
+! Version: 202206162042
+! Last Modified: 2022年06月16日 20:42
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -22339,6 +22339,7 @@ _800x80_
 ##.advertisement-custom-post
 ##.advertisement-dashed
 ##.advertisement-footer
+##.advertisement-google
 ##.advertisement-header
 ##.advertisement-highlighter
 ##.advertisement-image
@@ -57222,6 +57223,7 @@ iogames.onl##.Advc
 tvnz.co.nz##.Advert
 suffolknews.co.uk##.Advertisement
 zerohedge.com##.AdvertisingSlot_placement__b8TLC
+dallasobserver.com##.AirBillboardInlineContentresponsive
 technicalarp.com##.Arpian-ads
 rankedboost.com##.Article-A-Align
 cruisecritic.com,cruisecritic.com.au##.ArticleItem_scrollTextContainer__GrBC_
@@ -58279,6 +58281,7 @@ hltv.org##.kN5UQvcU
 tekno.kompas.com##.kcm
 goldprice.org##.kenbi
 trustedreviews.com##.keystone-single-widget
+dallasobserver.com##.kgbqfwag
 wantedinafrica.com##.kn-widget-banner
 iphonelife.com##.l-header
 wwe.com##.l-hybrid-col-frame_rail-wrap
@@ -59879,6 +59882,8 @@ yahoo.com###sda-LDRB
 yahoo.com###sda-LDRB2
 yahoo.com###sda-LREC
 yahoo.com###sda-LREC2
+yahoo.com###sda-LREC3
+yahoo.com###sda-LREC4
 yahoo.com###sda-MAST
 yahoo.com###sda-WFPAD
 mail.yahoo.com###slot_LREC
@@ -64593,6 +64598,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /mms/get_loaders?
 /mmt.gif?
 /mngi/tracking/*
+/mnppixellibrary.
 /mnt/imp?
 /moat-tracker.
 /moat/yield.js
@@ -76697,6 +76703,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||logx.optimizely.com^
 ||lolwot.com/B5xaqzSGvMTM.js
 ||lookawoman.com/t/
+||lowes.com/gauge/
 ||ma.redhat.com^
 ||mail.yahoo.com/f/track/
 ||mailing.enews.extremetech.com^$image
@@ -76860,6 +76867,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reports.tunein.com^
 ||retargeting.vistaprint.com^
 ||rfk.biglots.com^
+||roblox.com/report
 ||roblox.com/www/e.png?
 ||roblox.com^*/_/1px.gif
 ||rps-p2.rockpapershotgun.com^
@@ -94310,6 +94318,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||shaktilar.xyz^$all
 ||flippingcharts.com^$all
 ||fullcrack.vn^$all
+||vi-vn.vn^$doc
 /rtbfeed.php?$image,3p
 ||mepiloxa.com^$all
 ||etcher.net^$all
@@ -103490,8 +103499,8 @@ fontspace.com#@#.container-ads
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 14 Jun 2022 16:15:45 GMT
-# entries:        3645
+# last updated:   Thu, 16 Jun 2022 08:46:24 GMT
+# entries:        3646
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -104848,6 +104857,7 @@ fontspace.com#@#.container-ads
 127.0.0.1 cherriescare.com
 127.0.0.1 chewcoat.com
 127.0.0.1 chickensstation.com
+127.0.0.1 childlikecrowd.com
 127.0.0.1 chinsnakes.com
 127.0.0.1 chitika.net
 127.0.0.1 citrusad.net
