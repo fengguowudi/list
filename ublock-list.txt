@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UyjMZxHRM/KCdjDKFKsZiw
+! Checksum: eKchZszp32r1XtfOvnKLgQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206160225
-! Last Modified: 2022年06月16日 02:25
+! Version: 202206160957
+! Last Modified: 2022年06月16日 09:57
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -26392,6 +26392,7 @@ _800x80_
 ##.kip-banner-ad
 ##.kitara-sponsored
 ##.kl-ad
+##.klicked-ads
 ##.knowledgehub_ad
 ##.koadvt
 ##.kopa-ads-widget
@@ -30791,8 +30792,6 @@ _800x80_
 ##[href*=".engine.adglare.net/"]
 ##[href*=".zlinkm.com/"]
 ##[href*="incentrev.com/"] img
-##[href="https://turtlebids.irauctions.com/"] img
-##[href="https://zstacklife.com/"] img
 ##[href^="http://advertisesimple.info/"]
 ##[href^="http://globsads.com/"]
 ##[href^="http://go.cm-trk2.com/"]
@@ -30815,6 +30814,7 @@ _800x80_
 ##[href^="https://affiliate.fastcomet.com/"] > img
 ##[href^="https://awbbjmp.com/"]
 ##[href^="https://click2cvs.com/"]
+##[href^="https://cpa.10kfreesilver.com/"]
 ##[href^="https://detachedbates.com/"]
 ##[href^="https://glersakr.com/"]
 ##[href^="https://go.4rabettraff.com/"]
@@ -30838,6 +30838,7 @@ _800x80_
 ##[href^="https://totlnkcl.com/"]
 ##[href^="https://track.fiverr.com/visit/"] > img
 ##[href^="https://traffserve.com/"]
+##[href^="https://turtlebids.irauctions.com/"] img
 ##[href^="https://v.investologic.co.uk/"]
 ##[href^="https://wct.link/"]
 ##[href^="https://www.dcpodj3k5.com/"]
@@ -30848,6 +30849,7 @@ _800x80_
 ##[href^="https://www.restoro.com/"]
 ##[href^="https://www.targetingpartner.com/"]
 ##[href^="https://zone.gotrackier.com/"]
+##[href^="https://zstacklife.com/"] img
 ##[id^="ad-wrap-"]
 ##[id^="ad_sky"]
 ##[id^="ad_slider"]
@@ -32112,7 +32114,6 @@ outinthepaddock.com.au#@#.topads
 codedevstuff.blogspot.com,hassiweb-programming.blogspot.com#@#.vertical-ads
 youtube.com#@#.video-ads
 javynow.com#@#.videos-ad
-zstacklife.com#@#[href="https://zstacklife.com/"] img
 globsads.com#@#[href^="http://globsads.com/"]
 mypillow.com#@#[href^="http://mypillow.com/"] > img
 mypillow.com#@#[href^="http://www.mypillow.com/"] > img
@@ -32123,6 +32124,7 @@ mypatriotsupply.com#@#[href^="https://www.mypatriotsupply.com/"] > img
 mypillow.com#@#[href^="https://www.mypillow.com/"] > img
 reimageplus.com#@#[href^="https://www.reimageplus.com/"]
 restoro.com#@#[href^="https://www.restoro.com/"]
+zstacklife.com#@#[href^="https://zstacklife.com/"] img
 amazon.com,cancam.jp,faceyourmanga.com,isc2.org,liverc.com,liverpoolfc.com,mit.edu,muscatdaily.com,olx.pl,payback.pl,pccomponentes.com,ripley.com.pe,saitama-np.co.jp,timesofoman.com,virginaustralia.com#@#[id^="div-gpt-ad"]
 economist.com,flightcentre.co.uk,foodkick.com,liverpoolfc.com,olx.pl,payback.pl,pccomponentes.com,ripley.cl,ripley.com.pe,wsj.com#@#[id^="google_ads_iframe"]
 revimedia.com#@#a[href*=".revimedia.com/"]
@@ -33967,6 +33969,7 @@ tf2r.com#@#.adverts
 ||ast2ya4ee8wtnax.com^
 ||astancerta.fun^
 ||astarboka.com^
+||astaticglib.com^
 ||astcarbinkom.com^
 ||astoapsu.com^
 ||astop.xyz^
@@ -35251,6 +35254,7 @@ tf2r.com#@#.adverts
 ||carrotraining.com^
 ||carsickstrodeproductive.com^
 ||cartstick.com^
+||caruagedlr.com^
 ||casavasstamnoi.com^
 ||cash-ads.com^
 ||cash-duck.com^
@@ -35709,6 +35713,7 @@ tf2r.com#@#.adverts
 ||clickxchange.com^
 ||clientsviolet.com^
 ||clinkumebulus.com^
+||clipelis.lol^
 ||cliquesteria.net^
 ||clixsense.com^
 ||clixwells.com^
@@ -36216,6 +36221,7 @@ tf2r.com#@#.adverts
 ||cubaordmvsslr.com^
 ||cubeclause.com^
 ||cuberssnur.com^
+||cubeslichees.com^
 ||cucalm.com^
 ||cuckooretire.com^
 ||cuculf.name^
@@ -36972,6 +36978,7 @@ tf2r.com#@#.adverts
 ||doupteju.com^
 ||doushoom.net^
 ||douthosh.net^
+||dowellippen.com^
 ||dowfbrodder.com^
 ||down1oads.com^
 ||download-ready.net^
@@ -38403,6 +38410,7 @@ tf2r.com#@#.adverts
 ||ftjcfx.com^
 ||ftklr.com^
 ||ftliokfhtyijhl.com^
+||ftmsovmmsoi.com^
 ||ftte.fun^
 ||ftte.xyz^
 ||fttwin.icu^
@@ -38892,6 +38900,7 @@ tf2r.com#@#.adverts
 ||goldvertise.com^
 ||gomain.pro^
 ||gomain2.pro^
+||gombaltowa.cfd^
 ||gombmobil.store^
 ||gomnlt.com^
 ||gompoozu.net^
@@ -43034,6 +43043,7 @@ tf2r.com#@#.adverts
 ||omcis-news3.online^
 ||omenreally.com^
 ||omeroyoccu.xyz^
+||omervagant.com^
 ||omeuspfcj.xyz^
 ||omg2.com^
 ||omgpm.com^
@@ -44421,6 +44431,7 @@ tf2r.com#@#.adverts
 ||ptipsixo.com^
 ||ptipsout.net^
 ||ptirgaux.com^
+||ptistyvymi.com^
 ||ptljkekttqf.com^
 ||ptlrchrsgpbak.com^
 ||ptlwm.com^
@@ -46083,6 +46094,7 @@ tf2r.com#@#.adverts
 ||sinaunrelean.info^
 ||sinceclairvoyant.com^
 ||sincerelyinnovationturner.com^
+||singerrespectfuljerk.com^
 ||singlerefresh.club^
 ||singlesgetmatched.com^
 ||sinkboxphantic.com^
@@ -46688,6 +46700,7 @@ tf2r.com#@#.adverts
 ||stuffpotencydisciple.com^
 ||stugorezu.com^
 ||stumbledmadeiraselfcontrol.com^
+||stunninglover.com^
 ||stupendouspeacock.com^
 ||stupidsluice.com^
 ||stustogagly.com^
@@ -48391,6 +48404,7 @@ tf2r.com#@#.adverts
 ||vnrherdsxr.com^
 ||vntsm.com^
 ||vnuccenky.com^
+||vnyhxpplppmooe.com^
 ||voapozol.com^
 ||voaroawo.net^
 ||voastauz.net^
@@ -55561,6 +55575,7 @@ tf2r.com#@#.adverts
 ||sat-universe.com/wos2.png
 ||sat-universe.com/wos3.gif
 ||sawfirstdelivery.com/master/delivery.js
+||sbfull.com/js/mainpc.js
 ||scoot.co.uk/delivery.php
 ||sedo.cachefly.net^$domain=~sedoparking.com
 ||seeklogo.com/img/partners/
@@ -56165,6 +56180,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockstreamtape.a
 ||hotgirlsdream.com/tf40bbdd1767.js
 ||hotmovs.com/suhum/
 ||hottystop.com/t33638ba5008.js
+||hpjav.tv/asset/js/mainzk.js
 ||hqpornstream.com/pub/
 ||hypnohub.net/assets/hub.js
 ||i.pixl.is/*.gif$image,domain=bunkr.is
@@ -57788,6 +57804,7 @@ ina.fr##.container-pubcarre
 thejournal-news.net##.container.lightblue
 jokersupdates.com##.container_contentrightspan
 bbh.cc##.content + .sidebar
+pastebin.com##.content > [style^="padding-bottom:"]
 adfoc.us##.content > iframe
 floridasportsman.com##.content-banner-section
 crmbuyer.com,ectnews.com,macnewsworld.com,technewsworld.com##.content-block-slinks
@@ -59395,8 +59412,6 @@ raspberryexpert.com##[style*="border-bottom: none;"]
 medicalnewstoday.com##[style*="line-height: 0;"]
 shotcut.org##[style="background-color: #fff; padding: 6px; text-align: center"]
 tenforums.com,wahm.com##[style="min-height:250px;"]
-pastebin.com##[style^="padding-bottom:10px;"]
-pastebin.com##[style^="padding-bottom:20px;"]
 9gag.com##[style^="width: 640px; min-height: 360px;"]
 torrentresource.com##[width="150"]:last-child
 fansshare.com,wmal.com##[width="300"]
@@ -59712,7 +59727,7 @@ carls-sims-4-guide.com##hr.post_separator + .windowbg
 avanigo.com##iframe.lazyloaded
 micky.com.au##iframe[height="90"]
 coincodex.com,yourbittorrent.com##iframe[src]
-123-movies.ninja,123movies.net,2umovies.me,4anime.biz,4anime.gg,9anime.tube,animebee.to,animefreak.site,animefreak.ws,animefrenzy.net,animeheaven.pro,animekisa.in,animekisa.tv,animepahe.cc,apkmody.io,batotoo.com,bravoporn.com,coloredmanga.com,dramacool.pk,dulu.to,filmlinks4u.cam,filmyzilla.autos,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,gogoanime.run,gogoplay1.com,goload.pro,herogayab.net,hhdmovies.cam,hindilinks4u.cam,hothit.me,iflixmovies.com,jujutsukaisen-manga.online,jujutsukaisenonline.net,linksly.co,mangadna.com,mangahere.today,manganatos.com,mangas-raw.com,mangceh.cc,membed.net,messitv.net,miraculous.to,movierulz.cam,movies-watch.com.pk,mp3fromyou.tube,ngomik.net,nkiri.com,playlist-youtu.be,pomvideo.cc,prmovies.bz,prmovies.cam,prmovies.li,prmovies.org,prmovies.re,putlocker.vc,putlockers.fm,putlockers.li,rawkuma.com,sockshare.ac,ssoap2day.to,tamilyogi.best,vanime.co,wat32.tv,watchofree.com,watchomovies.cam,watchseries.ninja,webtoonshare.com,yomovies.bz,yomovies.pl,yomovies.pm,yomovies.ws,ytmp3.cc##iframe[style*="z-index: 2147483647"]
+123-movies.ninja,123movies.net,2umovies.me,4anime.biz,4anime.gg,9anime.tube,animebee.to,animefreak.site,animefreak.ws,animefrenzy.net,animeheaven.pro,animekisa.in,animekisa.tv,animepahe.cc,apkmody.io,batotoo.com,bravoporn.com,coloredmanga.com,dramacool.pk,dulu.to,filmlinks4u.cam,filmyzilla.autos,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,gogoanime.run,gogoplay1.com,goload.pro,herogayab.net,hhdmovies.cam,hindilinks4u.cam,hothit.me,iflixmovies.com,jujutsukaisen-manga.online,jujutsukaisenonline.net,linksly.co,mangadna.com,mangahere.today,manganatos.com,mangas-raw.com,mangceh.cc,membed.net,messitv.net,miraculous.to,movierulz.cam,movies-watch.com.pk,mp3fromyou.tube,ngomik.net,nkiri.com,playlist-youtu.be,pomvideo.cc,prmovies.bz,prmovies.cam,prmovies.li,prmovies.org,prmovies.re,putlocker.vc,putlockers.fm,putlockers.li,rawkuma.com,sockshare.ac,ssoap2day.to,tamilyogi.best,vanime.co,wat32.tv,watchofree.com,watchomovies.cam,watchseries.ninja,webtoonshare.com,yomovies.bz,yomovies.pl,yomovies.pm,yomovies.ws,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
 shoesession.com##iframe[width="732"]
 premiumtimesng.com##img[alt$=" Ad"]
 windycitymediagroup.com,windycitytimes.com##img[alt*="Sponsor"]
@@ -89679,8 +89694,8 @@ speedostream.com##^script:has-text(break;case $.)
 speedostream.com##+js(aeld, , break;case $.)
 ||s.speedostream.com^$script,1p
 @@||nnaa66.xyz^$ghide
-lightnovelpub.com##+js(aeld, , ab)
 ||lightnovelpub.com/adblockmsg$xhr,1p
+@@||static.lightnovelpub.com/content/js/sailthru.js$script,1p
 lightnovelpub.com##aside.container
 lightnovelpub.com#@#.ad-sticky
 nexusmods.com##+js(nano-stb, timer)
@@ -103482,7 +103497,7 @@ fontspace.com#@#.container-ads
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 20 Jun 2002 00:00:00
+# start date:    Fri, 21 Jun 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
