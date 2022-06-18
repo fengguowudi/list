@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YwnsJDTW/DWvYkGFe+HotQ
+! Checksum: ZMHhhWSPV8lwenl/HL6M0w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206180226
-! Last Modified: 2022年06月18日 02:26
+! Version: 202206180959
+! Last Modified: 2022年06月18日 09:59
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -4585,7 +4585,6 @@
 /img.ads.
 /img/_ad.
 /img/ad-
-/img/ad.
 /img/ad/*
 /img/ad_$domain=~kazi.co.jp|~rakuten.co.jp
 /img/ads/*$domain=~save.ca
@@ -4906,6 +4905,7 @@
 /mad.aspx?
 /mad_ad.
 /mads.php?
+/magalu-ads-
 /magazine/ads.
 /magic-ad/*
 /magic-ads/*
@@ -14312,6 +14312,9 @@ _800x80_
 ###landing-adserver
 ###lapho-top-ad-1
 ###large-ads
+###large-bottom-leaderboard-ad
+###large-leaderboard-ad
+###large-middle-leaderboard-ad
 ###large-rectange-ad
 ###large-rectange-ad-2
 ###large-screen-ads
@@ -22434,6 +22437,7 @@ _800x80_
 ##.advertisement_container
 ##.advertisement_flag
 ##.advertisement_flag_sky
+##.advertisement_footer
 ##.advertisement_g
 ##.advertisement_header
 ##.advertisement_horizontal
@@ -26524,7 +26528,6 @@ _800x80_
 ##.leaderboard-advert
 ##.leaderboard-advertisement
 ##.leaderboard-top-ad
-##.leaderboard.ad
 ##.leaderboard.advert
 ##.leaderboard1AdWrapper
 ##.leaderboardAd
@@ -54265,6 +54268,7 @@ tf2r.com#@#.adverts
 ||hostmonster.com/src/js/$third-party
 ||hoteltravel.com/partner/$third-party
 ||hotlink.cc/promo/
+||hotwire-widget.dailywire.com^$third-party
 ||httpslink.com/EdgeOfTheFire
 ||iad-*.blaze.com^
 ||ibvpn.com/img/banners/
@@ -56594,7 +56598,7 @@ returnyoutubedislike.com###biggest-supporters
 bentoneveningnews.com,dailyregister.com,dailyrepublicannews.com,duquoin.com,randolphcountyheraldtribune.com###billBoardATF
 versus.com###bill_bottom
 cricketnetwork.co.uk,f1network.net,howtogermany.com,rugbynetwork.net,thefootballnetwork.net,timesandstar.co.uk###billboard
-whoscored.com###billboard-container
+canberratimes.com.au,examiner.com.au,theland.com.au,whoscored.com###billboard-container
 inquirer.net###billboard_article
 searchenginereports.net###bio_ep
 searchenginereports.net###bio_ep_bg
@@ -56916,6 +56920,7 @@ dispatchtribunal.com,thelincolnianonline.com###mb-bar
 active.com###med_rec_bottom
 active.com###med_rec_top
 wakingtimes.com###media_image-2
+wbap.com###media_image-3
 palestinechronicle.com###media_image-4
 mostlyblogging.com###media_image-5
 linuxbabe.com###media_image-6
@@ -56953,6 +56958,7 @@ gearspace.com###navbar_notice_617
 nbcsports.com###nbcsports-leaderboard
 my.juno.com###newsCarousel
 livelaw.in###news_on_exit
+canberratimes.com.au,examiner.com.au,theland.com.au###newswell-leaderboard-container
 searchfiles.de###nextuse
 seroundtable.com###ninja_box
 pcgamesn.com###nn_astro_wrapper
@@ -57082,6 +57088,9 @@ scotsman.com###sidebarMPU1
 scotsman.com###sidebarMPU2
 ubergizmo.com###sidebar_card_spon
 opendocument.xml.org,trucknetuk.com###sidebarright
+995thewolf.com,newcountry963.com,wbap.com###simpleimage-3
+995thewolf.com,hot933hits.com,newcountry963.com###simpleimage-4
+hot933hits.com###simpleimage-5
 inoreader.com###sinner_container
 webkinznewz.ganzworld.com###site-description
 2oceansvibe.com###skin
@@ -58123,6 +58132,7 @@ ptinews.com##.fullstorydivright
 whatismybrowser.com##.fun-info-footer
 whatismybrowser.com##.fun-inner
 ferrarichat.com##.funzone
+fxstreet.com##.fxs_leaderboard
 aurn.com,borneobulletin.com.bn,businessofapps.com,chicagodefender.com,dailysport.co.uk,dallasvoice.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,mediaplaynews.com,moviemaker.com,nondoc.com,one.com.mt,richmondshiretoday.co.uk,sammobile.com,talkradioeurope.com,thegolfnewsnet.com,womensagenda.com.au##.g
 yellowise.com##.g-widget-block
 titantv.com##.gAd
@@ -58466,6 +58476,7 @@ revolutionsoccer.net##.mls-o-adv-container
 inhabitat.com##.mn-wrapper
 byrdie.com,investopedia.com,verywellhealth.com##.mntl-leaderboard-spacer
 comicbook.com##.mobile
+d123movies.to##.mobile-btn > div
 pcmacstore.com##.mobileHide
 theblockcrypto.com##.mobileView
 thedailybeast.com##.mobiledoc-sizer
@@ -58497,7 +58508,7 @@ autosport.com,motorsport.com##.ms-hapb
 autosport.com##.ms-side-items--with-banner
 marinetraffic.com##.mt-desktop-mode
 zerolives.com##.munder-fn5udnsn
-yifymovies.one##.mvic-btn
+d123movies.to,yifymovies.one##.mvic-btn
 malwaretips.com##.mwt_ads
 invezz.com,reviewparking.com##.mx-auto
 standardmedia.co.ke##.my-2
@@ -58992,7 +59003,6 @@ u.today##.something
 songfacts.com##.songfacts-song-inline-ads
 freeonlineapps.net##.sp
 ndtv.com##.sp_ad-t
-canberratimes.com.au,examiner.com.au,theland.com.au##.space-y-2
 mdisk.me##.spdownloader-ad
 informer.com##.spnsd
 sundayworld.co.za##.spnsorhome
@@ -59128,7 +59138,7 @@ euobserver.com,medicinehatnews.com##.top
 mashable.com##.top-0.sticky > div
 artistdirect.com##.top-add
 jamieoliver.com##.top-avocado
-automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,government-fleet.com,howsecureismypassword.net,ncaa.com,schoolbusfleet.com##.top-banner
+automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,forbesindia.com,government-fleet.com,howsecureismypassword.net,ncaa.com,schoolbusfleet.com##.top-banner
 gptoday.net##.top-banner-leaderboard
 gamewatcher.com##.top-banners-wrapper
 blockchair.com##.top-buttons-wrap
@@ -59685,6 +59695,7 @@ apkonline.net##div[id^="adzz"]
 amgreatness.com##div[id^="ag-front-"]
 digg.com##div[id^="bsa-zone_"]
 titantv.com##div[id^="ctl00_TTLB"]
+cyprus-mail.com##div[id^="cypru-"]
 football-tribe.com##div[id^="da-article-"]
 dexerto.com##div[id^="dex-ad-"]
 hellomagazine.com##div[id^="div-hola-slot-"]
@@ -59693,10 +59704,14 @@ thewrap.com##div[id^="dsk-box-ad"]
 whatsondisneyplus.com##div[id^="extra_mpu_"]
 micast.tv##div[id^="floatLayer"]
 mangatigre.com##div[id^="i-d-cr-page"]
+forbesafrica.com##div[id^="incontentAd"]
 dexerto.com##div[id^="jwplayer_"]
+canberratimes.com.au,examiner.com.au,theland.com.au##div[id^="leaderboard-"]
 maltadaily.mt##div[id^="malta-"]
 mediabiasfactcheck.com##div[id^="media-"]
 gamebyte.com##div[id^="mpu"]
+canberratimes.com.au,examiner.com.au,theland.com.au##div[id^="mrec-"]
+canberratimes.com.au,examiner.com.au,theland.com.au##div[id^="newswell-side-"]
 ebay.co.uk,ebay.com,ebay.com.au,ebay.de##div[id^="plmt_html_"]:not(#plmt_html_101113):not(#plmt_html_101224)
 progamerage.com##div[id^="proga-"]
 yopmail.com,yopmail.fr,yopmail.net##div[id^="pub"]
@@ -59759,6 +59774,7 @@ reactiongifs.com##div[style="width:499px; background:#ffffff; margin:00px 0px 35
 constative.com##div[style]:not([class])
 whatmobile.com.pk##div[style^="background-color:#EBEBEB;"]
 footybite.cc##div[style^="border: 2px solid "]
+pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
 realpython.com##div[style^="display:block;position:relative;"]
 manga-raw.club##div[style^="height: 250px;"]
 manga-raw.club##div[style^="height: 300px;"]
@@ -59795,7 +59811,7 @@ carls-sims-4-guide.com##hr.post_separator + .windowbg
 avanigo.com##iframe.lazyloaded
 micky.com.au##iframe[height="90"]
 coincodex.com,yourbittorrent.com##iframe[src]
-123-movies.ninja,123movies.net,2umovies.me,4anime.biz,4anime.gg,9anime.tube,animebee.to,animefreak.site,animefreak.ws,animefrenzy.net,animeheaven.pro,animekisa.in,animekisa.tv,animepahe.cc,apkmody.io,batotoo.com,bravoporn.com,coloredmanga.com,dramacool.pk,dulu.to,filmlinks4u.cam,filmyzilla.autos,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,gogoanime.run,gogoplay1.com,goload.pro,herogayab.net,hhdmovies.cam,hindilinks4u.cam,hothit.me,iflixmovies.com,jujutsukaisen-manga.online,jujutsukaisenonline.net,linksly.co,mangadna.com,mangahere.today,manganatos.com,mangas-raw.com,mangceh.cc,membed.net,messitv.net,miraculous.to,movierulz.cam,movies-watch.com.pk,mp3fromyou.tube,ngomik.net,nkiri.com,playlist-youtu.be,pomvideo.cc,prmovies.bz,prmovies.cam,prmovies.li,prmovies.org,prmovies.re,putlocker.vc,putlockers.fm,putlockers.li,rawkuma.com,sockshare.ac,ssoap2day.to,tamilyogi.best,vanime.co,wat32.tv,watchofree.com,watchomovies.cam,watchseries.ninja,webtoonshare.com,yomovies.bz,yomovies.pl,yomovies.pm,yomovies.ws,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
+123-movies.ninja,123movies.net,2umovies.me,4anime.biz,4anime.gg,9anime.tube,animebee.to,animefreak.site,animefreak.ws,animefrenzy.net,animeheaven.pro,animekisa.in,animekisa.tv,animepahe.cc,apkmody.io,batotoo.com,bravoporn.com,coloredmanga.com,dramacool.pk,dulu.to,filmlinks4u.cam,filmyzilla.autos,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,gogoanime.run,gogoplay1.com,goload.pro,herogayab.net,hhdmovies.cam,hindilinks4u.cam,hothit.me,iflixmovies.com,jujutsukaisen-manga.online,jujutsukaisenonline.net,linksly.co,mangadna.com,mangahere.today,manganatos.com,mangas-raw.com,mangceh.cc,membed.net,messitv.net,miraculous.to,movierulz.cam,movies-watch.com.pk,mp3fromyou.tube,ngomik.net,nkiri.com,playlist-youtu.be,pomvideo.cc,prmovies.bz,prmovies.cam,prmovies.li,prmovies.org,prmovies.re,putlocker.vc,putlockers.fm,putlockers.li,rawkuma.com,sockshare.ac,ssoap2day.to,tamilyogi.best,vanime.co,wat32.tv,watchofree.com,watchomovies.cam,watchseries.cyou,watchseries.ninja,webtoonshare.com,y-2mate.com,yomovies.bz,yomovies.pl,yomovies.pm,yomovies.ws,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
 shoesession.com##iframe[width="732"]
 premiumtimesng.com##img[alt$=" Ad"]
 windycitymediagroup.com,windycitytimes.com##img[alt*="Sponsor"]
@@ -61023,6 +61039,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adserve.atedra.com/js/$script,domain=repeatmyvids.com
 @@||adserve.atedra.com/vast/wrap.php?$script,domain=repeatmyvids.com
 @@||adserve.atedra.com/zones.php$xmlhttprequest,domain=repeatmyvids.com
+@@||adservex.media.net/videoAds.js?$script,domain=forbes.com
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=jjazz.net
 @@||adswizz.com/sca_newenco/$xmlhttprequest,domain=triplem.com.au
 @@||airplaydirect.com/openx/www/images/$image
@@ -71252,6 +71269,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hammerhearing.com^$third-party
 ||handleteeth.com^
 ||handsomeindustry.com^
+||handsomelyhealth.com^
 ||handyfield.com^
 ||handyfireman.com^$third-party
 ||happenhistory.com^
@@ -72697,6 +72715,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||volvelle.tech^$third-party
 ||way2traffic.com^$third-party
 ||ad5track.com^$third-party
+||bob-recs.com^$third-party
+||btg360.com.br^$third-party
 ||cifraclub.com.br^$third-party
 ||clearsale.com.br^$third-party
 ||denakop.com^$third-party
@@ -88000,6 +88020,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||identity.mparticle.com^$xmlhttprequest
 @@||idfcbank.com/static/features/*/scripts/FingerPrint.js$script,~third-party
 @@||ikea.com/cdn/googleanalytics/$~third-party,xmlhttprequest
+@@||images.news18.com^*/comscore.min.js$script,~third-party
 @@||imgur.com/min/px.js$~third-party
 @@||imrworldwide.com/novms/js/2/ggc$script,domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|espn.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|last.fm|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
@@ -89776,7 +89797,6 @@ speedostream.com##+js(aeld, , break;case $.)
 ||s.speedostream.com^$script,1p
 @@||nnaa66.xyz^$ghide
 ||lightnovelpub.com/adblockmsg$xhr,1p
-@@||static.lightnovelpub.com/content/js/sailthru.js$script,1p
 lightnovelpub.com##aside.container
 lightnovelpub.com#@#.ad-sticky
 nexusmods.com##+js(nano-stb, timer)
@@ -103592,7 +103612,7 @@ fontspace.com#@#.container-ads
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 22 Jun 2002 00:00:00
+# start date:    Sun, 23 Jun 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
