@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PHmtP7Up+zAm5PmjfwhjHg
+! Checksum: 8R2po5N36wMYBa/bdDenZw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206182034
-! Last Modified: 2022年06月18日 20:34
+! Version: 202206190224
+! Last Modified: 2022年06月19日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -60157,6 +60157,8 @@ ebay.co.uk,ebay.com,ebay.com.au#?#.s-item:-abp-has(span[class^="s-item__title--t
 etsy.com#?#li.wt-grid__item-xs-6:-abp-has(a[href*="&plkey="])
 etsy.com#?#li.wt-grid__item-xs-6:-abp-has(a[href*="?plkey="])
 eztv.tf,eztv.yt,123unblock.bar#?#tbody:-abp-contains(WARNING! Use a)
+gamersnexus.net#?#.moduleContent:-abp-contains(Advertisement)
+gamersnexus.net#?##right_col > div:-abp-has(p:-abp-contains(Advertisement))
 facebook.com#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"])
 facebook.com,facebookcorewwwi.onion#?#._6y8t:-abp-has(a[href="/ads/about/?entry_product=ad_preferences"])
 gankrin.org#?#.code-block:-abp-has(.adsbygoogle)
@@ -69739,6 +69741,7 @@ _mongo_stats/
 ||semasio.net^$third-party
 ||sematext.com^$third-party
 ||sendtraffic.com^$third-party
+||sensorsdata.cn^$third-party
 ||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sentry.io^$third-party
 ||seomonitor.ro^$third-party
@@ -96533,8 +96536,7 @@ fontspace.com#@#.container-ads
 ||lfjack.com^$domain=ecchi.iwara.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=oe24.at
 @@||m.faz.net^$cname
-canonsupports.com#@#.box_ads
-canonsupports.com##.box
+@@||last.fm/static/js-build/tracking/tealium-utag-set.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
