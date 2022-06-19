@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7clNfn/++QCrN9rMElZ+Jw
+! Checksum: A7GymJzdJU/CV/irioaQlw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206191009
-! Last Modified: 2022年06月19日 10:09
+! Version: 202206191425
+! Last Modified: 2022年06月19日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -9774,6 +9774,7 @@ _800x80_
 ###ad_banners_content
 ###ad_bar
 ###ad_bar_rect
+###ad_before_header
 ###ad_bellow_post
 ###ad_bg
 ###ad_bg_image
@@ -21012,6 +21013,7 @@ _800x80_
 ##.adsDetailsPage
 ##.adsDisclaimer
 ##.adsDiv
+##.adsFirst
 ##.adsFixed
 ##.adsFull
 ##.adsHeader
@@ -21041,6 +21043,7 @@ _800x80_
 ##.adsRectangleMedium
 ##.adsRight
 ##.adsRow
+##.adsSecond
 ##.adsSectionRL
 ##.adsShield
 ##.adsSlot300600
@@ -30395,6 +30398,7 @@ _800x80_
 ##.wantads
 ##.waterfall-ad-anchor
 ##.wazi-ad-link
+##.wc-adblock-wrap
 ##.wcAd
 ##.wcfAdLocation
 ##.wd-adunit
@@ -37793,6 +37797,7 @@ tf2r.com#@#.adverts
 ||excellenceads.com^
 ||exchad.com^
 ||exchange-traffic.com^
+||exchangediscreditmast.com^
 ||excitead.com^
 ||excitedyou.biz^
 ||excuseparen.com^
@@ -39300,6 +39305,7 @@ tf2r.com#@#.adverts
 ||havocgainpassing.com^
 ||havocraggedhumble.com^
 ||hawkyeye5ssnd.com^
+||hawsuffer.com^
 ||haxrddfxbdu.com^
 ||hayfatduh.com^
 ||hazardousschooloutcry.com^
@@ -41378,6 +41384,7 @@ tf2r.com#@#.adverts
 ||losingoldfry.com^
 ||lotionmodule.com^
 ||lotsnippier.cam^
+||lotsooms.com^
 ||lotteryaffiliates.com^
 ||lotteryhibernateauthorized.com^
 ||lotupteni.pro^
@@ -42926,6 +42933,7 @@ tf2r.com#@#.adverts
 ||oarifo.com^
 ||oasazedy.com^
 ||oathhillsidetile.com^
+||oatmeallump.com^
 ||oavaidan.com^
 ||oaxpcohp.com^
 ||obahet.com^
@@ -44804,6 +44812,7 @@ tf2r.com#@#.adverts
 ||quakedamnalight.com^
 ||qualificationrestriction.com^
 ||qualifiedcuter.com^
+||qualitydestructionhouse.com^
 ||qualityofeve.biz^
 ||qualitypageviews.com^
 ||quallyrimers.com^
@@ -47498,6 +47507,7 @@ tf2r.com#@#.adverts
 ||townsdatabasekidding.com^
 ||townsidewalkotter.com^
 ||toywafdduceezo.com^
+||tp1jcgl644jk.com^
 ||tpdads.com^
 ||tplpages.com^
 ||tpn134.com^
@@ -48053,6 +48063,7 @@ tf2r.com#@#.adverts
 ||upgulpinon.com^
 ||uphovelodha.com^
 ||upliftsearch.com^
+||upodnvvvxvnxh.com^
 ||upolou.com^
 ||uponelectabuzzor.club^
 ||uponsurskita.com^
@@ -56408,6 +56419,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockstreamtape.a
 ||tits-guru.com/js/istripper4.js
 ||titsbox.com/nb/
 ||tnaflix.com/azUhsbtsuzm?
+||tranny.one/bd.php
 ||trannygem.com/ai
 ||tryboobs.com/bf/
 ||tubxporn.xxx/js/xp.js
@@ -60430,7 +60442,7 @@ reddflix.com##.advbox
 hungangels.com##.advert
 flyingjizz.com,gotporn.com,japan-whores.com,porntube.com##.advertisement
 fetishshrine.com,sleazyneasy.com##.advertising
-4kpornvideos.tv,flashtranny.com,gaymovievids.com,gaypornarchive.com,gayporno.fm,igayporn.tv,machogaytube.com,onlydudes.tv,ts-tube.net,verygayboys.com,xgaytube.tv##.ae-player__itv
+4kpornvideos.tv,flashtranny.com,gaymovievids.com,gaypornarchive.com,gayporno.fm,igayporn.tv,machogaytube.com,me-gay.com,onlydudes.tv,ts-tube.net,verygayboys.com,xgaytube.tv##.ae-player__itv
 porngals4.com##.afb0
 porngals4.com##.afb1
 porngals4.com##.afb2
@@ -60455,6 +60467,7 @@ gayporno.fm##.b-content__aside-head
 onlydudes.tv##.b-footer-place
 onlydudes.tv##.b-side-col
 japan-whores.com##.b-sidebar
+me-gay.com##.b-uvb-spot
 dofap.com##.b_videobot
 xfantasy.su##.ba
 pornburst.xxx##.bann3rss
@@ -60729,7 +60742,7 @@ viptube.com##.promotion
 spankbang.com##.ptgncdn_holder
 watchmygf.me##.publicity
 freemovies.tv,pornjam.com##.publis-bottom
-gaymovievids.com,ts-tube.net,verygayboys.com##.random-td
+gaymovievids.com,me-gay.com,ts-tube.net,verygayboys.com##.random-td
 tnaflix.com##.rbsd
 svscomics.com##.regi
 nuvid.com##.rel_right
@@ -60928,10 +60941,10 @@ pornhub.com##[href^="https://weedmaps.com"]
 sexhimmel.com##[href^="https://www.amarotic.com/"]
 porngames.club##[href^="https://www.porngames.club/friends/out.php"]
 koreanstreamer.xyz##[href^="https://www.saltycams.com"]
+youjizz.com,youporngay.com##[img][src*="blob:"]
 youporn.com##[src*="Blob"]
 youporn.com##[src*="bloB:"]
 tube8.com,tube8.es,tube8.fr##[src*="bloB:https://www.tube8."]
-youjizz.com,youporngay.com##[src*="blob:"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr##[src^="bLob:"]
 hentaigasm.com##[src^="https://add2home.files.wordpress.com/"]
 analpornpix.com##[src^="https://analpornpix.com/t/153"]
@@ -61310,6 +61323,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||upload.wikimedia.org/wikipedia/$image,media
 @@||usgamer.net/static/scripts/AdsLoad.js$script,~third-party
 @@||usgamer.net/static/scripts/SidebarAds.js$script,~third-party
+@@||v.fwmrm.net/ad/g/1$script,domain=vevo.com
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_desktop_$xmlhttprequest
 @@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|today.com|uktv.co.uk
 @@||vidible.tv/prod/$media,object,other
@@ -87057,6 +87071,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||cm.bilibili.com^
 ||cmstool.youku.com^
 ||collect.tianya.cn^
+||count.candou.com^
 ||count5.pconline.com.cn^
 ||counter.people.cn^
 ||cstm.baidu.com^
@@ -87269,6 +87284,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wenku.baidu.com/tongji/
 ||wkctj.baidu.com^
 ||wl.jd.com^
+||work.3dmgame.com/js/statistics.js
 ||wspeed.qq.com^
 ||wumii.com/images/pixel.png
 ||xcar.com.cn/exp/
@@ -88040,7 +88056,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gomokuworld.com/app/modules/analyze.js$~third-party
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|healthrangerstore.com|jackbox.tv|k2radio.com|koel.com|kowb1290.com|stressless.com|tracking.narvar.com|westernunion.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
-@@||googleoptimize.com/optimize.js$script,domain=inquirer.com|tentree.ca
+@@||googleoptimize.com/optimize.js$script,domain=inquirer.com|lodgecastiron.com|tentree.ca
 @@||googletagmanager.com/gtag/js$script,domain=carhartt-wip.com|honeystinger.com|kawasaki.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com
 @@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||gov.au/Scripts/ga.js$script,~third-party
@@ -88169,7 +88185,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||plex.tv/api/v2/geoip$xmlhttprequest
 @@||plugins.matomo.org^$image,~third-party
 @@||postex.com/api/ping?$~third-party
-@@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|nontongp.xyz|sheee.co.il|walla.co.il
+@@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|nontongp.xyz|sheee.co.il|walla.co.il|weatherscan.tk
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||puch-ersatzteile.at^*/google-analytics.min.js
@@ -96565,6 +96581,10 @@ fontspace.com#@#.container-ads
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=oe24.at
 @@||m.faz.net^$cname
 @@||last.fm/static/js-build/tracking/tealium-utag-set.js$script,1p
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=html5.gamedistribution.com
+@@||hb.improvedigital.com/pbw/headerlift.min.js$script,domain=html5.gamedistribution.com
+@@||hb.improvedigital.com/pbw/prebid/*$script,domain=html5.gamedistribution.com
+||tag.atom.gamedistribution.com^$xhr,redirect-rule=nooptext,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
