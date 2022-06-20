@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rnK/e+6CqMNLDnAXzLevFQ
+! Checksum: o8Yx/mosd/sFYLl2FPNNlA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206201429
-! Last Modified: 2022年06月20日 14:29
+! Version: 202206202043
+! Last Modified: 2022年06月20日 20:43
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -37755,6 +37755,7 @@ tf2r.com#@#.adverts
 ||euxgfqkgpmyvo.com^
 ||euz.net^
 ||evadav.top^
+||evaluationgnatprotected.com^
 ||evantative.top^
 ||evasiondemandedlearning.com^
 ||evbsa.xyz^
@@ -44256,6 +44257,7 @@ tf2r.com#@#.adverts
 ||prepayproceedingsground.com^
 ||prepenseprepensecubicoperating.com^
 ||prepenseprepensedefiance.com^
+||preposterousdecidedfollowing.com^
 ||preposterousgoody.com^
 ||preqoaojsdgmmc.xyz^
 ||presentationsportsman.com^
@@ -47021,6 +47023,7 @@ tf2r.com#@#.adverts
 ||taroads.com^
 ||tarrilyathenee.com^
 ||tarsuscaul.com^
+||tartator.com^
 ||tartoals.net^
 ||tarvemowhay.com^
 ||tastesmodifycount.com^
@@ -57331,8 +57334,6 @@ eteknix.com###wrapper > header
 cranestodaymagazine.com,hoistmagazine.com,ttjonline.com,tunnelsonline.info###wrapper_banners
 blasternation.com###xobda
 yardbarker.com###yb_recirc
-sevenforums.com,tenforums.com###yui-gen0
-sevenforums.com,tenforums.com###yui-gen1
 ecoustics.com###zox-lead-bot
 talkingpointsmemo.com##.--span\:12.AdSlot
 androidauthority.com##.-Ci
@@ -58033,7 +58034,7 @@ theguardian.com##.dcr-1aq0rzi
 ign.com##.deals-block
 slashdot.org##.deals-wrapper
 kusports.com##.deals_widget
-mangarockteam.com##.demand-supply
+forex-gold.net,mangarockteam.com##.demand-supply
 cardealermagazine.co.uk##.desktop
 nextcity.org##.desktop-display
 eurogamer.net##.desktop-mpu
@@ -58283,7 +58284,6 @@ worldpress.org##.header-bnr
 autental.com##.header-grid-items
 realestate.com.au##.header-leaderboard
 nationalheraldindia.com##.header-m__ad-top__36Hpg
-forex-gold.net##.header-mnm
 times.co.zm##.header-pub
 newtimes.co.rw##.header-top
 androidcentral.com,crackberry.com,imore.com,technobuffalo.com,thrifter.com,windowscentral.com##.header-top-alert-bar
@@ -93769,6 +93769,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||mcmo22.com^$all
 ||turnhub.net^$all
 /click?pid=*&offer_id=$doc
+||nanosterile.eu^$all
 ||hyperwage.com^$all
 ||ricavato.com^
 ||bitcoingenerator.me^$all
@@ -94044,6 +94045,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||prelandappslab.com^$all
 /registration?theme=*&a_aid=$doc
 .top/prize/*.php?c=$doc
+||naked-hd.xyz^$all
+||di02.biz^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -96616,6 +96619,8 @@ fontspace.com#@#.container-ads
 @@||hb.improvedigital.com/pbw/headerlift.min.js$script,domain=html5.gamedistribution.com
 @@||hb.improvedigital.com/pbw/prebid/*$script,domain=html5.gamedistribution.com
 ||tag.atom.gamedistribution.com^$xhr,redirect-rule=nooptext,1p
+||cdn.branch.io^$badfilter
+@@||cdn.branch.io/branch-latest.min.js$script
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
