@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h1peKjY0UmaSAKHi4X/07A
+! Checksum: LfKSiF/BrASdoCMDTicXmA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206212046
-! Last Modified: 2022年06月21日 20:46
+! Version: 202206220226
+! Last Modified: 2022年06月22日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -90092,7 +90092,8 @@ renault-club.cz##.adsbygoogle
 ||bohubrihi.com^$3p
 bhaskar.com##[id^="Ad"]:upward([style])
 divyabhaskar.co.in##[id^="Ad"]:upward([style])
-01234-m0vies.com,01234-movies.com,01234movies.*,1234movies.*,123gostream.*,123moviestoday.net,1link.club,1stkissmanga.*,8-ball-magic.com,animeheaven.ru,arnaqueinternet.com,ate9ni.com,bhplay.me,bollyshare.*,club-vinyl.ru,cinen9.*,citpekalongan.com,eastream.net,easylinks.in,empireg.ru,fakaza.com,filmy4wap1.*,filmyone.com,flixtv.club,freeload.*,freedownloadmp3-mp4.top,gdirect.*,hd44.com,hdmoviz.*,hindimoviesonline.*,hostxy.com,hwnaturkya.com,iiyoutube.com,inextmovies.*,ltcjar.com,linkskat.*,livesport24.net,mailnesia.com,mkvhub.*,mlsbd.*,moviecrisp.in,movies4me.*,moviesmon.*,moviesshub.*,moviesub.is,mozkra.com,mp3cristianos.net,mp3songsdownloadf.blogspot.com,musiklip.ru,naijahits.com,naijal.com,nbch.com.ar,nowmovies.*,ocnpj.com,openload.*,phc.web.id,pregledaj.net,primeflix.website,prmovies.*,readingbd.com,recetas.arrozconleche.info,revivelink.com,romfast.com,s2dfree.*,stalkface.com,subtitlecat.com,tajpoint.com,theismailiusa.org,thenetnaija.co,torrentfilmes4k.org,vevoyoutube.com,vidcloudpng.com,wildwap.com,worldgirlsportal.com,youtubeai.com,youtubetoany.com,zone-annuaire.*##+js(acis, Math, break;case $.)
+01234-m0vies.com,01234-movies.com,01234movies.*,1234movies.*,123gostream.*,123moviestoday.net,1link.club,1stkissmanga.*,8-ball-magic.com,animeheaven.ru,arnaqueinternet.com,ate9ni.com,bhplay.me,bollyshare.*,club-vinyl.ru,cinen9.*,citpekalongan.com,eastream.net,easylinks.in,empireg.ru,fakaza.com,filmy4wap1.*,filmyone.com,freeload.*,freedownloadmp3-mp4.top,gdirect.*,hd44.com,hdmoviz.*,hindimoviesonline.*,hostxy.com,hwnaturkya.com,iiyoutube.com,inextmovies.*,ltcjar.com,linkskat.*,livesport24.net,mailnesia.com,mkvhub.*,mlsbd.*,moviecrisp.in,movies4me.*,moviesmon.*,moviesshub.*,moviesub.is,mozkra.com,mp3cristianos.net,mp3songsdownloadf.blogspot.com,musiklip.ru,naijahits.com,naijal.com,nbch.com.ar,nowmovies.*,ocnpj.com,openload.*,phc.web.id,pregledaj.net,primeflix.website,prmovies.*,readingbd.com,recetas.arrozconleche.info,revivelink.com,romfast.com,s2dfree.*,stalkface.com,subtitlecat.com,tajpoint.com,theismailiusa.org,thenetnaija.co,torrentfilmes4k.org,vevoyoutube.com,vidcloudpng.com,wildwap.com,worldgirlsportal.com,youtubeai.com,youtubetoany.com,zone-annuaire.*##+js(acis, Math, break;case $.)
+flixtv.club##+js(aost, Object, /(?=^(?!.*(https)))/)
 livesport24.net##+js(acis, setTimeout, admc)
 livesport24.net##[href^="https://b-partner.xyz/"]
 123movieweb.com,fsapi.*,hdmoviz.*##^script:has-text(break;case $.)
@@ -90972,7 +90973,7 @@ sporizle1.pw##a[href="https://hdweb.pw"][target="_blank"]
 comixzilla.com##+js(acis, document.createElement, 'script')
 unsurcoenlasombra.com##+js(aopr, google_jobrunner)
 watchmovierulz.*##+js(nowoif)
-arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,playersb.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbfull.com,sbplay1.com,sbplay2.*,sbvideo.*,streamsb.*,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*,view345.com##+js(aopr, __Y)
+arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,javplaya.com,playersb.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbfull.com,sbplay1.com,sbplay2.*,sbvideo.*,streamsb.*,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*,view345.com##+js(aopr, __Y)
 arslanrocky.xyz,cloudemb.com,dlmovies.link,oxl.one,playersb.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbvideo.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com,view345.com##+js(aopr, mm)
 sbembed1.com,sbvideo.*##+js(aopr, console.clear)
 cmovies.*##+js(aeld, , break;case $.)
@@ -91613,12 +91614,14 @@ spele.nl##.is-skyscraper
 spele.nl##.is-billboard
 mediapemersatubangsa.com##+js(acis, document.addEventListener, google_ad_client)
 mediapemersatubangsa.com##+js(aopw, _pop)
-2embed.ru##+js(acis, navigator, break;case $.)
-2embed.ru##^script:has-text(break;case $.)
-2embed.ru##+js(acis, parseInt, break;case $.)
+2embed.*##+js(acis, navigator, break;case $.)
+2embed.*##^script:has-text(break;case $.)
+2embed.*##+js(acis, parseInt, break;case $.)
 *$script,3p,denyallow=gstatic.com,domain=la123movies.com
 !*$script,frame,xhr,css,image,3p,denyallow=cloudflare.net|dood.watch|embed2.megaxfer.ru|google.com|googleapis.com|gstatic.com|jsdelivr.net|rabbitstream.net|slmaxed.com|upstream.to|voe-unblock.com|voe-unblock.net|voe.bar|voe.sx|voeunblock.com|voeunblock1.com,domain=2embed.ru
-@@||voeunblock1.com^$frame,domain=2embed.ru
+@@||voeunblock1.com^$frame,domain=2embed.*
+||rareghoa.net^
+||whoutsiy.net^
 pornofan.pl###inplayerADS
 pornofan.pl##.PublicitaDestra
 audiobookcup.com##+js(acis, document.addEventListener, google_ad_client)
@@ -94062,7 +94065,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||getmackeepersoftpro.xyz^$all
 ||tigerpush.net^$all
 /expired/unprotected_win/?track=$doc
-||familysimulators.com^$all
+||familysimulator.$all
 ||pushnott.com^$all
 ||instaflrt.com^$all
 ||singlesgetmatched.com^$all
@@ -94130,6 +94133,9 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 .top/prize/*.php?c=$doc
 ||naked-hd.xyz^$all
 ||di02.biz^$all
+||adultonlineplay.com^$all
+||fastandslut.com^$all
+&click_price=0.*&click_id=$doc
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
