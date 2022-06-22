@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U+8T4BfCP6po5LtSphwRbA
+! Checksum: GM0/gT0JfBdBH3XH9Es7PQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206221426
-! Last Modified: 2022年06月22日 14:26
+! Version: 202206222042
+! Last Modified: 2022年06月22日 20:42
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -31271,6 +31271,7 @@ _800x80_
 ##a[href^="https://as.conjectwatson.com/"]
 ##a[href^="https://as.sexad.net/"]
 ##a[href^="https://ausoafab.net/"]
+##a[href^="https://avtub.click/assets/link.php"]
 ##a[href^="https://awecrptjmp.com/"]
 ##a[href^="https://awejmp.com/"]
 ##a[href^="https://awentw.com/"]
@@ -36456,6 +36457,7 @@ tf2r.com#@#.adverts
 ||daichoho.com^
 ||daigleeb.net^
 ||daijopimplo.com^
+||dailyc24.com^
 ||dailydistanceparallel.com^
 ||dainaith.net^
 ||daipsuwi.net^
@@ -38581,6 +38583,7 @@ tf2r.com#@#.adverts
 ||g2440001011.com^
 ||g2546417787.com^
 ||g2921554487.com^
+||g33ktr4ck.com^
 ||g3j2wzmon8b.com^
 ||g5fzq2l.com^
 ||g8ads.com^
@@ -43915,6 +43918,7 @@ tf2r.com#@#.adverts
 ||picsti.com^
 ||pictela.net^
 ||picturesquebutcompassionate.com^
+||pieceheardthought.buzz^
 ||pierisrapgae.com^
 ||pierlinks.com^
 ||pierrottease.com^
@@ -52060,6 +52064,7 @@ tf2r.com#@#.adverts
 ||dadsats.com^$popup
 ||dagnar.com^$popup
 ||daijopimplo.com^$popup
+||dailyc24.com^$popup
 ||daizoode.com^$popup
 ||dasfelynsaterr.win^$popup
 ||date-4-fuck.com^$popup
@@ -52250,6 +52255,7 @@ tf2r.com#@#.adverts
 ||futiledrugstore.com^$popup
 ||fvenxjtzuaxu.com^$popup
 ||fwbntw.com^$popup
+||g33ktr4ck.com^$popup
 ||gallonranchwhining.com^$popup
 ||gamesfromheaven.com^$popup
 ||gamesrotator.com^$popup
@@ -52657,6 +52663,7 @@ tf2r.com#@#.adverts
 ||nameluxuries.com^$popup
 ||namesakeoscilloscopemarquis.com^$popup
 ||nanoadexchange.com^$popup
+||narrowstaredmaking.com^$popup
 ||nathanaeldan.pro^$popup
 ||ncncu.xyz^$popup
 ||nehodyshy.pro^$popup
@@ -53100,6 +53107,7 @@ tf2r.com#@#.adverts
 ||sopertyvalua.com^$popup
 ||soundelktemper.com^$popup
 ||soupreign.com^$popup
+||spacecloudstore.com^$popup
 ||spareddepressing.com^$popup
 ||sparkstudios.com^$popup
 ||spattermutiny.com^$popup
@@ -55121,6 +55129,7 @@ tf2r.com#@#.adverts
 ||allanalpass.com/visitScript/
 ||amarotic.com/Banner/$third-party
 ||amateurporn.net^$third-party
+||asg.bhabhiporn.pro^
 ||asianbutterflies.com/potd/
 ||asktiava.com/promotion/
 ||assinclusive.com/cyonix.html
@@ -56571,6 +56580,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockstreamtape.a
 ||xxxshake.com/static/js/script.js
 ||xxxvideotube.net/banner.gif
 ||xxxvogue.net/_ad
+||xxxxsx.com/sw.js
 ||yotta.scrolller.com^
 ||youporn.com^$script,subdocument,domain=youporn.com|youporngay.com
 ||yourlust.com*/serve
@@ -59537,6 +59547,7 @@ whatsmyreferer.com##[href="https://fakethereferer.com"]
 freedomfirstnetwork.com##[href="https://freedomfirstcoffee.com"]
 summit.news##[href="https://infowarsstore.com/"]
 anitube.biz##[href="https://otpokemon.com/animes/"]
+conservativeplaybook.com##[href="https://ourgoldguy.com/contact/"]
 davidwalsh.name##[href="https://requestmetrics.com/"]
 tech-latest.com##[href="https://tech-latest.com/go/nordvpn"]
 complaintsingapore.com##[href="https://thechillipadi.com/"]
@@ -61861,6 +61872,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||yimg.jp/images/news-web/all/images/jsonld_image_300x250.png$domain=news.yahoo.co.jp
 @@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
 @@||accounts.google.com^$popup
+@@||ad.doubleclick.net/clk*&destinationURL=$popup
 @@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be
 @@||ad.doubleclick.net/ddm/clk/*http$popup
 @@||ad.doubleclick.net/ddm/trackclk/*http$popup
@@ -67735,7 +67747,6 @@ _mongo_stats/
 ||briskpelican.io^
 ||brontops.com^
 ||bydst.com^
-||ccm19.de^
 ||cdnhst.xyz^
 ||click360.io^
 ||cloudwp.io^
