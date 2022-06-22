@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cq+eV2CMa0w8MWLLdf1ELQ
+! Checksum: m3oIscIZG+u7vuXcOR6IXw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206221011
-! Last Modified: 2022年06月22日 10:11
+! Version: 202206221426
+! Last Modified: 2022年06月22日 14:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1916,6 +1916,7 @@ ubmcmm.baidustatic.com
 ||tangkai.ltd^
 ||tklm77.top^
 !2305
+||gfghr.com^
 ##a[href*=".xxgxqscl.com/"]
 ##a[href="https://guapitv.app/"]
 ||app0003.xyz^
@@ -17554,6 +17555,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hlryy.top^
 ||bufan.in^
 ||rmt.plus^
+||moxiang.plus^
 ##a[href*="/jianjianjiao.top"]
 ||1kcx.hk^
 ||biercloud.love^
@@ -37136,6 +37138,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||liverail.com/?metric=
 ||liverail.com/track/?
 ||livestats.kaltura.com^
+||loader-cdn.azureedge.net^
 ||loader.zeroform.com^
 ||location3.com/analytics/
 ||log-*.previewnetworks.com^
@@ -37331,7 +37334,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||odysee.com/api/v1/metric/
 ||odysee.com/log/
 ||ohnorobot.com/verify.pl?
-||olytics.omeda.com^$script,third-party
+||olytics.omeda.com^
 ||onecount.net/onecount/oc_track/
 ||onescreen.net/os/static/pixels/
 ||onespot-tracking.herokuapp.com^
@@ -37814,6 +37817,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tags.cdn.circlesix.co^
 ||tags.clickagy.com^
 ||tags.creativille.co.uk^
+||tags.fullcontact.com^
 ||tags.master-perf-tools.com^
 ||tags.newscgp.com^
 ||tags.refinery89.com^
@@ -38118,6 +38122,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vvhp.net/read/view.gif
 ||vwdealerdigital.com/cdn/sd.js
 ||w3track.com/newtrk/$third-party
+||w4o7aea80ss3-a.akamaihd.net^
 ||wallkit.net^*/user/event
 ||wantlive.com/pixel/
 ||wco.crownpeak.com^
@@ -39822,6 +39827,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lastpass.com/dist/scripts/analyticsjs
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
+||lexology.com/pd.js
 ||lightstep.medium.systems^*/reports
 ||link.kogan.com^
 ||link2.strawberrynet.com^$image
@@ -40456,7 +40462,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.opentable.jp^
 ||track.opentable.nl^
 ||track.opentable.sg^
-||akamaihd.net^$image,domain=globalnews.ca
+||akamaihd.net^$image,domain=globalnews.ca|stcatharinesstandard.ca
 ||jeremiahlee.com/fanboynz.js
 ||hubspot.com/collected-forms/$xmlhttprequest,domain=confection.io
 ||s3.amazonaws.com/downloads.mailchimp.com/$script,domain=confection.io
@@ -40466,7 +40472,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bing.com/fd/ls/lsp.aspx
 ||bing.com^*/glinkping.aspx$ping,xmlhttprequest
 ||bing.com^*/GLinkPingPost.aspx$ping,xmlhttprequest
-medicalxpress.com,techxplore.com##.embed-responsive-trendmd
+##.embed-responsive-trendmd
 ||aliyuncs.com/r.png
 ||gj.mmstat.com^
 ||oneid.mmstat.com^
@@ -50653,6 +50659,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tracker.publico.pt^
 ||uai.com.br^*/analytics.js
 ||uol.com.br/stats?
+||agrointel.ro/ga.js
+||agrointel.ro/track.js
 ||analytics.okazii.ro^
 ||views.romaniatv.net^
 ||2ch.hk^*/tracker.js?
@@ -51528,6 +51536,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||collectandgo.be^*/utag.sync.js
 @@||d2zv6vzmaqao5e.cloudfront.net/css/foodticket/*_google_analytics.js
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
+@@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
 @@||stock.skoda.be/assets/scripts/analytics/$script,~third-party
 @@||travelbags.nl^*/web-vitals.$~third-party
