@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3BVD+E0CIycNP19ZaIluCQ
+! Checksum: Edd0JS4sSalptVIxTmA2zA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206241425
-! Last Modified: 2022年06月24日 14:25
+! Version: 202206242045
+! Last Modified: 2022年06月24日 20:45
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62699,6 +62699,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /dynamicyield/*
 /dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
 /dynatrace.$~third-party,domain=~dynatrace.com|~dynatrace.jbhunt.com|~dynatrace.udemy.com|~dynatrace.zoom.us|~github.com|~github.io
+/dynatrace/*$domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -65931,6 +65932,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /uxm_tracking.
 /v.gif?
 /v1/analytics.js
+/v1/analytics/*
 /v1/custom-metrics
 /v1/impressions
 /v1/log_event
@@ -67096,6 +67098,7 @@ _mongo_stats/
 ||acxiomapac.com^$third-party
 ||ad-score.com^$third-party
 ||ad-srv-track.com^$third-party
+||ad1x.com^$third-party
 ||adabra.com^$third-party
 ||adalyser.com^$third-party
 ||adara.com^$third-party
@@ -68733,6 +68736,7 @@ _mongo_stats/
 ||pipfire.com^$third-party
 ||pippio.com^$third-party
 ||piratepx.com^$third-party
+||pirsch.io^$third-party
 ||piwik.pro^$third-party,domain=~clearcode.cc|~clearcode.pl|~piwikpro.de
 ||pixel.ad^$third-party
 ||pixel.watch^$third-party
@@ -68772,6 +68776,7 @@ _mongo_stats/
 ||posst.co^$third-party
 ||postaffiliatepro.com^$third-party
 ||postclickmarketing.com^$third-party
+||posthog.com^$third-party
 ||prchecker.info^$third-party
 ||precisioncounter.com^$third-party
 ||predicta.net^$third-party
@@ -87143,7 +87148,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||aeries.net^*/require/analytics/views/$script,~third-party
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
-@@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
+@@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com|ubisoftconnect.com
 @@||akamaized.net^*/resource/assets/$xmlhttprequest,domain=funplusgame.com
 @@||amazonaws.com/production$xmlhttprequest,domain=ipa-reader.xyz
 @@||amplitude.com/libs/amplitude-4.5.2-min.gz.js$script,domain=pdfexpert.com
@@ -87828,7 +87833,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ensighten.com^*/Bootstrap.js$domain=williamhill.it
 @@||google-analytics.com/analytics.js$domain=carnesvizzera.ch
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
-@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it
+@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it|video.repubblica.it
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
 @@||imrworldwide.com/v60.js$domain=capital.it|corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|la7.it|leggo.it|m2o.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
@@ -90533,6 +90538,19 @@ givemenbastreams.com,givemenflstreams.com##^script[data-cfasync]:has-text(h=deco
 techpowerup.com##body:style(background-color: whitesmoke !important)
 techpowerup.com##:not(:matches-path(/forums/)) [rel]:matches-css(position: /fixed/)
 techpowerup.com##:not(:matches-path(/forums/)) [src]:matches-css(position: /fixed/)
+!#if env_mobile
+techpowerup.com##div[class*="__"] + div[asdafsetewfwe]:has(img):style(opacity: 0 !important; pointer-events: none !important;)
+!#endif
+techpowerup.com##:matches-path(/29) body:not([data-template]):has(.imgcontainer) *:not([class="imgcontainer"]) > a:not([href^="https://www.techpowerup.com/img/"]) img:not([href^="https://tpucdn.com/img/"]):style(opacity: 0 !important; pointer-events: none !important;)
+techpowerup.com##:matches-path(/review/) body:not([data-template]) *:not(header.clearfix + script + .text) > *:not([class="responsive-image-xx"]) > * > a:not([href^="/review/"]) img:not([src^="/review/"]):style(opacity: 0 !important; pointer-events: none !important;)
+techpowerup.com##:matches-path(/gallery/) body:not([data-template]) *:not([class="gallery-box"]) > a:not([href^="/gallery/"]) img:not([src^="https://tpucdn.com/gallery/"]):style(opacity: 0 !important; pointer-events: none !important;)
+techpowerup.com##:matches-path(/vgabios/) body:not([data-template]) a:not([href^="/gpu-specs/"]) img:not([src^="/gpu-specs/"]):style(opacity: 0 !important; pointer-events: none !important;)
+techpowerup.com##:matches-path(/gpu-specs/) body:not([data-template]) a:not([href^="https://tpucdn.com/gpu-specs/"]) img:not([src^="https://tpucdn.com/gpu-specs/"]):style(opacity: 0 !important; pointer-events: none !important;)
+techpowerup.com##:matches-path(/cpu-specs/) body:not([data-template]) *:not(div[class="clearfix images"]) > * > a img:style(opacity: 0 !important; pointer-events: none !important;)
+techpowerup.com##:matches-path(/live/) body:not([data-template]) a[href^="/"]:not([href^="/live/images/"]) img[src^="/"]:not([src^="/live/images/"]):style(opacity: 0 !important; pointer-events: none !important;)
+techpowerup.com##:matches-path(/download/) body:not([data-template]) a:not([href^="/download/"]) img:not([src^="https://tpucdn.com/download/"]):style(opacity: 0 !important; pointer-events: none !important;)
+techpowerup.com##:matches-path(/articles/) body:not([data-template]) a:not([href^="http://www.techpowerup.com/articles/"]) img:not([src^="https://tpucdn.com/articles/"]):style(opacity: 0 !important; pointer-events: none !important;)
+techpowerup.com##body:not([data-template]) a[rel="nofollow"][href^="/reviyuu/b784/"]:style(pointer-events: none !important;)
 @@||afly.pro^$ghide
 afly.pro##.adsbyvli
 bloggingguidance.com##.footer3
@@ -95851,6 +95869,8 @@ gamedistribution.com##+js(no-fetch-if, /^/)
 @@||marketingautomation.services/*login$script,domain=leeuwerik.nl
 ||early-birds.fr^$script,redirect-rule=noopjs,domain=metmuseum.org
 @@||ad.doubleclick.net/clk*travel*&destinationURL=$doc
+||simpletraffic.co^$badfilter
+||simpletraffic.co^$3p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -102933,7 +102953,7 @@ gamedistribution.com##+js(no-fetch-if, /^/)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 16 Jun 2022 13:16:34 GMT
-# entries:        3647
+# entries:        3644
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -103086,7 +103106,6 @@ gamedistribution.com##+js(no-fetch-if, /^/)
 127.0.0.1 ad.nozonedata.com
 127.0.0.1 ad.nttnavi.co.jp
 127.0.0.1 ad.nwt.cz
-127.0.0.1 ad.pandora.tv
 127.0.0.1 ad.period-calendar.com
 127.0.0.1 ad.preferances.com
 127.0.0.1 ad.profiwin.de
@@ -103310,7 +103329,6 @@ gamedistribution.com##+js(no-fetch-if, /^/)
 127.0.0.1 ads.acpc.cat
 127.0.0.1 ads.acrosspf.com
 127.0.0.1 ads.activestate.com
-127.0.0.1 ads.ad-center.com
 127.0.0.1 ads.adfox.ru
 127.0.0.1 ads.administrator.de
 127.0.0.1 ads.adred.de
@@ -103577,7 +103595,6 @@ gamedistribution.com##+js(no-fetch-if, /^/)
 127.0.0.1 ads.tmcs.net
 127.0.0.1 ads.todoti.com.br
 127.0.0.1 ads.toplayaffiliates.com
-127.0.0.1 ads.totallyfreestuff.com
 127.0.0.1 ads.townhall.com
 127.0.0.1 ads.travelaudience.com
 127.0.0.1 ads.trinitymirror.co.uk
@@ -104258,6 +104275,7 @@ gamedistribution.com##+js(no-fetch-if, /^/)
 127.0.0.1 cashfiesta.com
 127.0.0.1 cashpartner.com
 127.0.0.1 cashstaging.me
+127.0.0.1 casinopays.com
 127.0.0.1 casinorewards.com
 127.0.0.1 casinotraffic.com
 127.0.0.1 causecherry.com
@@ -106387,7 +106405,6 @@ gamedistribution.com##+js(no-fetch-if, /^/)
 127.0.0.1 userreplay.com
 127.0.0.1 userreplay.net
 127.0.0.1 users.maxcluster.net
-127.0.0.1 usingirritatecordial.com
 127.0.0.1 utils.mediageneral.net
 127.0.0.1 utl-1.com
 127.0.0.1 uttermosthobbies.com
