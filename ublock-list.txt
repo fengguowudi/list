@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6TVVy93Zw/9D+g9DZgTBdg
+! Checksum: 3BVD+E0CIycNP19ZaIluCQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206241004
-! Last Modified: 2022年06月24日 10:04
+! Version: 202206241425
+! Last Modified: 2022年06月24日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2793,7 +2793,7 @@
 /adstyle.$~stylesheet,domain=~adstyle.com
 /adsummos.
 /adsummos2.
-/adsup.
+/adsup.$domain=~adsup.lk
 /adsv/*
 /adsvariables.
 /adsvc2.
@@ -44805,6 +44805,7 @@ tf2r.com#@#.adverts
 ||rithimyphu.com^
 ||ritualwarily.com^
 ||riverhit.com^
+||riverhita.com^
 ||riverhitc.com^
 ||riverpush.com^
 ||rivetrearrange.com^
@@ -45046,6 +45047,7 @@ tf2r.com#@#.adverts
 ||rvfmqsiyevgao.com^
 ||rvmessage.online^
 ||rvmessage.site^
+||rvmessage.top^
 ||rvpinform.com^
 ||rvpmqeoawfedmh.xyz^
 ||rvpsrv.com^
@@ -50123,6 +50125,7 @@ tf2r.com#@#.adverts
 ||nextmillennium.io^$third-party
 ||nextoptim.com^$third-party
 ||nitmus.com^$third-party
+||nitropay.com^$third-party
 ||njih.net^$third-party
 ||nsstatic.com^$third-party
 ||nsstatic.net^$third-party
@@ -68582,7 +68585,6 @@ _mongo_stats/
 ||niftymaps.com^$third-party
 ||nik.io^$third-party
 ||ninjacat.io^$third-party
-||nitropay.com^$third-party
 ||nmrodam.com^$third-party
 ||noibu.com^$third-party
 ||noowho.com^$third-party
