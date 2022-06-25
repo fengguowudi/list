@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SGuAE54mHs4gMRTCo8AGRA
+! Checksum: Ggo+By9IBCAPMe8Kw1P2Tg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206251425
-! Last Modified: 2022年06月25日 14:25
+! Version: 202206252034
+! Last Modified: 2022年06月25日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -9871,6 +9871,7 @@ _800x80_
 ###ad_crown_top
 ###ad_cyborg
 ###ad_dfp_premiumrec
+###ad_dfp_rec1
 ###ad_display_300_250
 ###ad_display_728_90
 ###ad_div
@@ -21208,6 +21209,7 @@ _800x80_
 ##.ads_infoBtns
 ##.ads_inline_640
 ##.ads_inside2
+##.ads_inview
 ##.ads_item
 ##.ads_label
 ##.ads_large_ads
@@ -25817,6 +25819,7 @@ _800x80_
 ##.hn-ads
 ##.holder-ad
 ##.holder-ads
+##.home-2020-ad-wide
 ##.home-300x250-ad
 ##.home-activity-ad
 ##.home-ad
@@ -27608,8 +27611,12 @@ _800x80_
 ##.ozadtop3
 ##.p-ad
 ##.p-ad-block
+##.p-ad-dfp-banner
+##.p-ad-dfp-middle-rec
+##.p-ad-feature-pr.p-ad-thumbnail-txt
 ##.p-ad-outbreak
 ##.p-ad-rectangle
+##.p-ad-thumbnail-txt
 ##.p-post-ad
 ##.p2_right_ad
 ##.p75_sidebar_ads
@@ -75651,6 +75658,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||akamaihd.net/paay6hyr.gif?
 ||alb.reddit.com^
 ||alicdn.com/AWSC/et/
+||aliexpress.com/ts?
 ||alipay.com/web/bi.do?ref=
 ||allaboutberlin.com/whoisthere.js
 ||allevents.in/actracker/
@@ -76852,6 +76860,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zazzle.com.au/a0o07ort/init.js
 ||zazzle.com/a0o07ort/init.js
 ||zillow.com/HYx10rg3/init.js
+||zoominfo.com/osx7m0dx/init.js
 ://a02342.
 ||cb-mms.carbuyer.co.uk^
 ||cdn-alliancegravity.s3.amazonaws.com^
@@ -91804,10 +91813,13 @@ thetruedefender.com###text-4
 ostreaming.tv##+js(acis, JSON.parse, break;case $.)
 asiaon.*,pornpaw.com##+js(acis, document.querySelectorAll, popMagic)
 asiaon.*##+js(no-xhr-if, googlesyndication)
-pisshamster.com,xanimu.com##.inside-list-boxes:upward(1)
-pisshamster.com##.after-boxes
-pisshamster.com,xanimu.com##div[class^="native-boxes"]
-pisshamster.com##.single.alrt
+darknessporn.com,familyporner.com,pisshamster.com,xanimu.com##.order-2 .duration-ad:upward(.order-2)
+darknessporn.com,familyporner.com,pisshamster.com,xanimu.com##div[class^="after-boxes"]
+darknessporn.com,familyporner.com,pisshamster.com,xanimu.com##div[class^="beside-video"]
+darknessporn.com,familyporner.com,pisshamster.com,xanimu.com##div[class^="inside-list-boxes"]:upward(1)
+darknessporn.com,familyporner.com,pisshamster.com,xanimu.com##div[class^="native-boxes"]
+darknessporn.com,familyporner.com,pisshamster.com,xanimu.com##div[class^="related-boxes-footer"]
+darknessporn.com,familyporner.com,pisshamster.com,xanimu.com##div[class^="textovka"]
 m4news.com##.demand-supply
 m4news.com###id-custom_banner
 @@||tv247.us^$ghide
@@ -93321,6 +93333,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||adultonlineplay.com^$all
 ||fastandslut.com^$all
 &click_price=0.*&click_id=$doc
+||compresspecialty.online^
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -93820,7 +93833,7 @@ free18.net,gadgetlove.com,nrc.gov,onbeing.org,rapgenius.com,schonmagazine.com,te
 @@||addthis.com^$script,domain=schonmagazine.com
 @@||addthis.com/js/*/addthis_widget.js$script,domain=plotaroute.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager_gtm.js:5
-||widgets.outbrain.com/outbrain.js$script,redirect=outbrain-widget.js:5
+||widgets.outbrain.com/outbrain.js$script,redirect=outbrain-widget.js:5,domain=~mainichi.jp
 ||google-analytics.com/analytics.js$important,script,redirect=google-analytics.com/analytics.js,domain=support.amd.com
 ||googletagmanager.com/gtm.js$important,script,redirect=googletagmanager.com/gtm.js,domain=support.amd.com
 teamskeet.com##+js(set, $.tstracker, noopFunc)
@@ -95754,6 +95767,8 @@ mgronline.com##[href^="https://www.hotelscombined.co.th/"]
 sports.yahoo.com#@#.H\(400px\) > .VideoPlayer
 sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 ||relish.com^$domain=seriouseats.com
+@@||googletagmanager.com/gtm.js$domain=www3.nissan.co.jp
+*$script,redirect-rule=noop.js,domain=nissan.co.jp
 abczdrowie.pl#@#+js(aost, WP.prebid, onLoad)
 @@||nexus.ensighten.com/easyjet/*/Bootstrap.js$script,domain=easyjet.com
 @@||code.jquery.com^$script,domain=mixdrop.*
