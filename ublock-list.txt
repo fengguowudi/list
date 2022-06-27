@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lCgae5Q1EPYB69VUwNjwoA
+! Checksum: ygeXQdmb4h50xS4d71BJNQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206271005
-! Last Modified: 2022年06月27日 10:05
+! Version: 202206271430
+! Last Modified: 2022年06月27日 14:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -23616,6 +23616,7 @@ _800x80_
 ##.bottom-main-adsense
 ##.bottom-mpu-ad
 ##.bottom-post-ad-space
+##.bottom-post-ads
 ##.bottom-right-advert
 ##.bottom-rightadvtsment
 ##.bottom-side-advertisement
@@ -26118,6 +26119,7 @@ _800x80_
 ##.in-latest-news-advertisement-container
 ##.in-node-ad-300x250
 ##.in-page-ad
+##.in-post-banner-ad
 ##.in-slider-ad
 ##.in-story-ads
 ##.in-story-text-ad
@@ -28214,6 +28216,7 @@ _800x80_
 ##.region-top-ad-position
 ##.region-top-advertisement
 ##.region-widget-ad-top-0
+##.regular-ads
 ##.regular-advert-outer-wrapper
 ##.regular_728_ad
 ##.regularad
@@ -29963,6 +29966,7 @@ _800x80_
 ##.top-nav-ad
 ##.top-outer-ad-container
 ##.top-post-ad
+##.top-post-ads
 ##.top-primary-sponsored
 ##.top-right-ad
 ##.top-right-advert
@@ -30330,6 +30334,7 @@ _800x80_
 ##.view-ads-header-top-block
 ##.view-ads-sidebar-block
 ##.view-ads-under-the-slider
+##.view-advertisement
 ##.view-advertisements
 ##.view-advertisements-300
 ##.view-advertorials
@@ -30345,6 +30350,7 @@ _800x80_
 ##.view-id-ads_header_top_block
 ##.view-id-ads_sidebar_block
 ##.view-id-ads_under_the_slider
+##.view-id-advertisement
 ##.view-id-advertisements
 ##.view-id-advertisements_300
 ##.view-id-advt_story_bottom
@@ -57460,7 +57466,7 @@ whatismybrowser.com##.fun-info-footer
 whatismybrowser.com##.fun-inner
 ferrarichat.com##.funzone
 fxstreet.com##.fxs_leaderboard
-aurn.com,borneobulletin.com.bn,businessday.ng,businessofapps.com,chicagodefender.com,dailysport.co.uk,dallasvoice.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,mediaplaynews.com,moviemaker.com,nondoc.com,one.com.mt,richmondshiretoday.co.uk,sammobile.com,talkradioeurope.com,thegolfnewsnet.com,womensagenda.com.au##.g
+aurn.com,borneobulletin.com.bn,businessday.ng,businessofapps.com,chicagodefender.com,dailysport.co.uk,dallasvoice.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,mediaplaynews.com,moviemaker.com,nondoc.com,one.com.mt,richmondshiretoday.co.uk,sammobile.com,talkradioeurope.com,thegolfnewsnet.com,waamradio.com,womensagenda.com.au##.g
 yellowise.com##.g-widget-block
 titantv.com##.gAd
 distractify.com##.gXgoom
@@ -57903,7 +57909,7 @@ hamodia.com##.oiomainlisting
 forums.somethingawful.com##.oma_pal
 techspot.com##.oneText
 thedigitalfix.com##.ot-widget-banner
-out.com##.ourSponsors
+advocate.com,out.com##.ourSponsors
 news18.com##.outBrainWrapper
 mma-core.com##.outVidAd
 egmnow.com##.outbrain-wrapper
@@ -58443,7 +58449,7 @@ shacknews.com##.takeover-skin
 igg-games.com##.taxonomy-description
 pixwox.com##.tce-box-i-w
 pixwox.com##.tce-box-n-w
-aptoslife.com,bohemian.com,constructionreviewonline.com,cyberparse.co.uk,eastbayexpress.com,eindhovennews.com,ericpetersautos.com,gameplayinside.com,gamezone.com,gilroydispatch.com,gizmochina.com,goodtimes.sc,greekreporter.com,greenfieldnews.com,healdsburgtribune.com,industryhit.com,kenyan-post.com,kingcityrustler.com,maltabusinessweekly.com,metrosiliconvalley.com,morganhilltimes.com,musictech.net,nasilemaktech.com,newsnext.live,nme.com,pacificsun.com,pajaronian.com,pressbanner.com,radioink.com,salinasvalleytribune.com,sanbenito.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
+aptoslife.com,bohemian.com,constructionreviewonline.com,cyberparse.co.uk,eastbayexpress.com,eindhovennews.com,ericpetersautos.com,fenuxe.com,gameplayinside.com,gamezone.com,gilroydispatch.com,gizmochina.com,goodtimes.sc,greekreporter.com,greenfieldnews.com,healdsburgtribune.com,industryhit.com,kenyan-post.com,kingcityrustler.com,maltabusinessweekly.com,metrosiliconvalley.com,morganhilltimes.com,musictech.net,nasilemaktech.com,newsnext.live,nme.com,pacificsun.com,pajaronian.com,pressbanner.com,radioink.com,salinasvalleytribune.com,sanbenito.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
 bizasialive.com##.td-all-devices
 americanindependent.com##.td-banner-bg
 brila.net,cgmagonline.com,cycling.today,gayexpress.co.nz,theyeshivaworld.com,thisisanfield.com##.td-banner-wrap-full
@@ -59054,6 +59060,7 @@ apkonline.net##div[id^="adxx"]
 apkonline.net##div[id^="adzz"]
 amgreatness.com##div[id^="ag-front-"]
 digg.com##div[id^="bsa-zone_"]
+competenetwork.com##div[id^="compe-"]
 titantv.com##div[id^="ctl00_TTLB"]
 cyprus-mail.com##div[id^="cypru-"]
 football-tribe.com##div[id^="da-article-"]
@@ -59076,6 +59083,7 @@ canberratimes.com.au,examiner.com.au,theland.com.au##div[id^="newswell-side-"]
 ebay.co.uk,ebay.com,ebay.com.au,ebay.de##div[id^="plmt_html_"]:not(#plmt_html_101113):not(#plmt_html_101224)
 progamerage.com##div[id^="proga-"]
 howtogeek.com##div[id^="purch_"]
+realtalk933.com##div[id^="realt-"]
 simpleflying.com##div[id^="simpl-"]
 sltrib.com##div[id^="sltrib-promo-"]
 nytimes.com##div[id^="story-ad-"]
@@ -66566,6 +66574,7 @@ cgi-bin/counter
 .eviq.org.au/CMSModules/$image
 .flipboard.com/usage?
 .getblueshift.com/q/
+.gif?stat=open
 .goodwell18.com/track/
 .google-analytics.com/
 .hootsuite.com/trk?
@@ -66603,6 +66612,7 @@ cgi-bin/counter
 .ne16.com/do/
 .netcologne.de/-open2/$image
 .oculus.com/collect/
+.online.costco.com/t?$image
 .pstmrk.it/open/
 .publish0x.com/t/
 .secureserver.net/bbimage.aspx?
@@ -66637,6 +66647,7 @@ cgi-bin/counter
 /clicks.email.$image
 /cmail2.com/t/*
 /coherentpath.link/o/*$image
+/cp.gap.com/o/*$image
 /email-pixel?
 /email.t.*/o/*$image
 /email/open?
@@ -66661,9 +66672,11 @@ cgi-bin/counter
 /link.theatlantic.com/img/*
 /links1.strava.com/*$image
 /lzdmailer.letter.open?
+/m-email/t.png?
 /mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
 /mail.sparksport.co.nz/mail/read/*
+/maillist.*/t/$image
 /media.sailthru.com/5ik/1k4/9/*.gif
 /newsletter/log/*$image
 /newsletter/read?s=$image
@@ -66695,6 +66708,7 @@ cgi-bin/counter
 /tracking/email.php
 /trcksp.
 /wf/open?upn=$image
+/wizrocketmail.net/r?$image
 ://email.*/e/o/
 _ad_impression.
 _track_pixel.gif?
@@ -68877,6 +68891,7 @@ _mongo_stats/
 ||predictiveresponse.net^$third-party
 ||presage.io^$third-party
 ||prfct.co^$third-party
+||privymktg.com^$third-party
 ||prnx.net^$third-party
 ||pro6e.com^$third-party
 ||proclivitysystems.com^$third-party
@@ -87240,7 +87255,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca|nbarizona.com
-@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
+@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
@@ -87314,7 +87329,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|fender.com|finerdesk.com|givingassistant.org|inxeption.io|my.foxnews.com
 @@||cdn.segment.com/next-integrations/integrations/
 @@||cdn.segment.com/v1/projects/
-@@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|tumi.com
+@@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|summitracing.com|tumi.com
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||chat.conveyhs.com/chatadapter/clickstream/clickstream.js$script
 @@||check.ddos-guard.net/check.js$script
