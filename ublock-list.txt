@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ygeXQdmb4h50xS4d71BJNQ
+! Checksum: 5QvbVDeDO5k0wcw+Zb9HYQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206271430
-! Last Modified: 2022年06月27日 14:30
+! Version: 202206272044
+! Last Modified: 2022年06月27日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -60716,6 +60716,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
 @@||material.angular.io^$generichide
+@@||material.io^$generichide
 @@||mui.com^$generichide
 @@||myaccount.google.com^$generichide
 @@||netflix.com^$generichide
@@ -71435,6 +71436,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||checkeffect.at^$third-party
 ||clickmap.ch^$third-party
 ||content-garden.com^$third-party
+||contiamo.com^$third-party
 ||count.im^$third-party
 ||count24.de^$third-party
 ||countar.de^$third-party
@@ -87289,6 +87291,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.ipstack.com/check$domain=blockfi.com|get-in.com|withpersona.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
+@@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||app.sushi.com/_next/static/chunks/pages/analytics$~third-party
 @@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
 @@||appspot.com/static/js/tracker/$script,domain=bugs.avm99963.com
@@ -87497,6 +87500,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
 @@||lowesgiftcardbonus.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||lr-ingest.io/logger.min.js$script,domain=pumpkin.care
+@@||material.io/inline-tools/direct-embed/bower_components/angularytics/$script,~third-party
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|driftinnovation.com|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
@@ -87545,6 +87549,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|wallapop.com
+@@||optimove.net^$domain=app.touchnote.com
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
@@ -90243,8 +90248,8 @@ sporizle1.pw##a[href="https://hdweb.pw"][target="_blank"]
 comixzilla.com##+js(acis, document.createElement, 'script')
 unsurcoenlasombra.com##+js(aopr, google_jobrunner)
 watchmovierulz.*##+js(nowoif)
-arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,javplaya.com,playersb.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbfull.com,sbplay1.com,sbplay2.*,sbvideo.*,ssbstream.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*,view345.com##+js(aopr, __Y)
-arslanrocky.xyz,cloudemb.com,dlmovies.link,oxl.one,playersb.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbvideo.net,ssbstream.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com,view345.com##+js(aopr, mm)
+arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,gdpress.xyz,javplaya.com,playersb.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbfull.com,sbplay1.com,sbplay2.*,sbvideo.*,ssbstream.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*,view345.com##+js(aopr, __Y)
+arslanrocky.xyz,cloudemb.com,dlmovies.link,gdpress.xyz,oxl.one,playersb.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbvideo.net,ssbstream.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com,view345.com##+js(aopr, mm)
 sbembed1.com,sbvideo.*##+js(aopr, console.clear)
 cmovies.*##+js(aeld, , break;case $.)
 cloudemb.com##+js(nowoif, !/^\/d\//)
