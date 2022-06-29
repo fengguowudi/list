@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KbAoZcHiJbRjucgb5dTZxw
+! Checksum: 6R/TyhMyL9FxhrGnHD4vPw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202206292046
-! Last Modified: 2022年06月29日 20:46
+! Version: 202206300231
+! Last Modified: 2022年06月30日 02:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -35305,10 +35305,12 @@ tf2r.com#@#.adverts
 ||catalpaaxillae.com^
 ||catastrophetray.com^
 ||catbeardx.com^
+||catclawvines.com^
 ||cateredjapish.com^
 ||catgride.com^
 ||cathodecreped.com^
 ||catiligh.ru^
+||catnipsdaymen.com^
 ||catsupsfloit.com^
 ||catverticalposterity.com^
 ||catwenbat.com^
@@ -36078,6 +36080,7 @@ tf2r.com#@#.adverts
 ||cowardlymissinggranulated.com^
 ||cowbumply.com^
 ||cowyardstulm.com^
+||coxalscyth.com^
 ||coyanhybrida.website^
 ||coysotown.com^
 ||cozyrepeatedlycowardly.com^
@@ -36975,6 +36978,7 @@ tf2r.com#@#.adverts
 ||draggedindicationconsiderable.com^
 ||dragonsniffcashmere.com^
 ||dragonspontaneous.com^
+||drailsaculeus.com^
 ||drako2sha8de09.com^
 ||dramaco.xyz^
 ||drapefabric.com^
@@ -37710,6 +37714,7 @@ tf2r.com#@#.adverts
 ||exporder-patuility.com^
 ||exportspring.com^
 ||exposuremixed.com^
+||expressfouty.com^
 ||expressvampire.com^
 ||expresswebtraffic.com^
 ||exrtbsrv.com^
@@ -38176,6 +38181,7 @@ tf2r.com#@#.adverts
 ||forarchenchan.com^
 ||forbearcorrectinvolving.com^
 ||forced-lose.de^
+||fordgitter.com^
 ||fordpeculiarity.com^
 ||forearmthrobjanuary.com^
 ||forecastsinglegait.com^
@@ -39281,6 +39287,7 @@ tf2r.com#@#.adverts
 ||himselves.com^
 ||himselvesobr.club^
 ||himselvethe.info^
+||hinchantickt.com^
 ||hindurinning.pro^
 ||hindversion.com^
 ||hinlargecon.com^
@@ -39321,6 +39328,7 @@ tf2r.com#@#.adverts
 ||hnpvnnhzazkl.com^
 ||hnqhdnryukqko.com^
 ||hoanoola.net^
+||hoazinangles.com^
 ||hobbyatticnickname.com^
 ||hobfadbig.com^
 ||hockeyhavoc.com^
@@ -40080,6 +40088,7 @@ tf2r.com#@#.adverts
 ||jeejujou.net^
 ||jeersweepwaxworks.com^
 ||jeerszitstoke.com^
+||jeeryzest.com^
 ||jeetyetmedia.com^
 ||jefctihngyjpogd.xyz^
 ||jehobsee.com^
@@ -41435,6 +41444,7 @@ tf2r.com#@#.adverts
 ||mdn2015x1.com^
 ||mdpszsqzs.com^
 ||mdwphtohwt.com^
+||mdxidbcodehpy.com^
 ||meabor.com^
 ||meadowleader.com^
 ||meakam.com^
@@ -43885,6 +43895,7 @@ tf2r.com#@#.adverts
 ||problemsroadsideparticularly.com^
 ||probns.com^
 ||probtn.com^
+||proclaimincurable.com^
 ||proclaimsubjected.com^
 ||procuredawestruckpoint.com^
 ||prod.untd.com^
@@ -46622,6 +46633,7 @@ tf2r.com#@#.adverts
 ||tguxiijalpaoggr.xyz^
 ||tgxcmcoikpgek.com^
 ||tgzobwoutuwn.com^
+||thackgooder.com^
 ||thagic.com^
 ||thague.com^
 ||thaibeco.com^
@@ -91825,7 +91837,9 @@ watchtheofficetv.com##+js(acis, parseInt, break;case $.)
 watchtheofficetv.com###custom_html-4
 pelis-online.net##+js(aopw, absda)
 pelis-online.net##.adv
-kentonline.co.uk##+js(nostif, enforceAdStatus)
+@@*$ghide,domain=kentonline.co.uk
+kentonline.co.uk#@#.mpu
+kentonline.co.uk##.mpu:style(height: 1px !important)
 kentonline.co.uk###nagBG
 kentonline.co.uk##body:style(overflow: auto !important;)
 cinevision.online,cinevision4.online##+js(acis, parseInt, break;case $.)
@@ -94008,7 +94022,7 @@ free18.net,gadgetlove.com,nrc.gov,onbeing.org,rapgenius.com,schonmagazine.com,te
 @@||addthis.com^$script,domain=schonmagazine.com
 @@||addthis.com/js/*/addthis_widget.js$script,domain=plotaroute.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager_gtm.js:5
-||widgets.outbrain.com/outbrain.js$script,redirect=outbrain-widget.js:5,domain=~mainichi.jp
+||widgets.outbrain.com/outbrain.js$script,redirect=outbrain-widget.js:5,domain=~mainichi.jp|~vice.com
 ||google-analytics.com/analytics.js$important,script,redirect=google-analytics.com/analytics.js,domain=support.amd.com
 ||googletagmanager.com/gtm.js$important,script,redirect=googletagmanager.com/gtm.js,domain=support.amd.com
 teamskeet.com##+js(set, $.tstracker, noopFunc)
