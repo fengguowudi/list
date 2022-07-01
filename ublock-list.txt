@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JHlD5++azLRYOVDuhG+k3w
+! Checksum: OtBy22inFbMQqF6rUSaP0g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207011025
-! Last Modified: 2022年07月01日 10:25
+! Version: 202207011427
+! Last Modified: 2022年07月01日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1506,8 +1506,8 @@
 /adcore_$domain=~adcore.ch|~adcore.com.au
 /adcount.$domain=~adcount.com|~adcount.fi
 /adcounter.
-/adcreative.$domain=~adcreative.es|~hange.jp
-/adcreative/*$~image
+/adcreative.$domain=~adcreative.es|~adcreative.nl|~hange.jp
+/adcreative/*$~image,domain=~adcreative.nl
 /adcreatives/*
 /adcss/*$~image
 /adctrl/*$~image
@@ -40988,7 +40988,6 @@ tf2r.com#@#.adverts
 ||linicom.co.il^
 ||linicom.co.uk^
 ||linkbuddies.com^
-||linkclicks.com^
 ||linkedgraceless.com^
 ||linkedprepenseprepense.com^
 ||linkeinvitable.site^
@@ -56869,7 +56868,7 @@ wordfind.com##.adbl
 dataversity.net,sakshi.com,songlyrics.com##.adblock
 entrepreneur.com,pricespy.co.nz##.adbox
 moviechat.org##.adc
-ancient.eu,fanatix.com,gamertweak.com,gematsu.com,tucsonsentinel.com,videogameschronicle.com,worldhistory.org##.adcontainer
+ancient.eu,fanatix.com,gamertweak.com,gematsu.com,tucsonsentinel.com,worldhistory.org##.adcontainer
 sumanasa.com##.adcontent
 edutourism.in,news24online.com,online-image-editor.com,thehindu.com##.add
 buzz.ie,irishpost.com,theweekendsun.co.nz##.add-block
@@ -58610,7 +58609,7 @@ healthyceleb.com##.td-header-header-full
 androidcommunity.com##.td-header-rec-wrap
 5pillarsuk.com,babeltechreviews.com,sonorannews.com,thestonedsociety.com,weekendspecial.co.za##.td-header-sp-recs
 gadgetstouse.com##.td-ss-main-sidebar
-ssbcrack.com##.td_spot_img_all
+capsulenz.com,ssbcrack.com##.td_spot_img_all
 tech-latest.com##.tdi_102_e06
 arynews.tv##.tdi_103
 pakobserver.net##.tdi_121
@@ -63093,6 +63092,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /event?eventType=
 /event?pmo=
 /event?ref=
+/event?sendBeacon=
 /event?stat_
 /event?t=view&
 /event?token=
@@ -66593,6 +66593,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
+://posthog.$domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
 ://stats.*/index.js
@@ -67124,6 +67125,7 @@ _mongo_stats/
 ||briskpelican.io^
 ||brontops.com^
 ||bydst.com^
+||captcha-display.com^
 ||cdnhst.xyz^
 ||click360.io^
 ||cloudwp.io^
@@ -67231,6 +67233,7 @@ _mongo_stats/
 ||nxakpj4ac8gkd53.info^
 ||omappapi.com^
 ||omtrdc.net^
+||openfpcdn.io^
 ||oppuz.com^
 ||opti-digital.com^
 ||ostrichesica.com^
@@ -67269,6 +67272,7 @@ _mongo_stats/
 ||spinnaker-js.com^
 ||stat.ovh^
 ||summerhamster.com^
+||superpointlesshamsters.com^
 ||tagcachedataxrt.com^
 ||tagcachestaticx.com^
 ||tatpek.com^
@@ -68001,6 +68005,7 @@ _mongo_stats/
 ||dpbolvw.net^$third-party
 ||dps-reach.com^$third-party
 ||driv-analytics.com^$third-party
+||dropboxfingerprintjs.com^$third-party
 ||dsmmadvantage.com^$third-party
 ||dsparking.com^$third-party
 ||dsply.com^$third-party
