@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DVFspNPzdZnQeU86F+2ynA
+! Checksum: 7if3aZo+wBS/QWeqKG7giw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207022035
-! Last Modified: 2022年07月02日 20:35
+! Version: 202207030224
+! Last Modified: 2022年07月03日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -60377,7 +60377,7 @@ gayporno.fm##.traffic
 proporn.com##.trailerspots
 pornguide.info##.twp-adv-header
 boysfood.com##.txt-a-onpage
-thegay.com##.underplayer__info > div
+thegay.com##.underplayer__info > div:not([class])
 tryindianporn.com##.uvk
 hentaiprn.com##.v-overlay
 tuberel.com##.vda-item
@@ -60405,6 +60405,7 @@ palimas.org##.video-promo
 hotmovs.tube##.video-right-top
 porntry.com##.video-side__spots
 pornez.net##.video-sidebar
+thegay.com##.video-slider-container
 kisscos.net##.video-sponsor
 xhamster.com##.video-view-ads
 pornhub.com,pornhubthbh7ap3u.onion##.video-wrapper > #player + [class]
@@ -96236,7 +96237,9 @@ oasport.it#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;m
 ||hits.informer.com/log.php$image,domain=funny.pho.to,redirect-rule=1x1.gif
 @@||console.otc.t-systems.com/mrs/rest/api/v1/log$xhr,1p
 !#if env_firefox
-@@*$image,ghide,domain=ebay.*
+@@*$ghide,domain=ebay.*
+@@||rover.ebay.*/roverimp/$image,1p
+@@||rover.ebay.*/roverclk/$image,1p
 !#endif
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
