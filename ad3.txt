@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NBFPrJbEgH1BT3H7PN/KgQ
+! Checksum: ODwN1ClCSSNVD2Zq48eXdQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207021004
-! Last Modified: 2022年07月02日 10:04
+! Version: 202207021425
+! Last Modified: 2022年07月02日 14:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -26650,6 +26650,7 @@ m.babytree.com##script + a[class]
 /EfficientFrontier.$domain=~efficientfrontier.com
 /eftracking.
 /efxanalytics.js
+/egcs/v2/collect
 /ehcorp.tracking.
 /eheat.js
 /eht.js?site_id=
@@ -36944,6 +36945,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||exacttarget.com^$~subdocument,third-party
 ||excite.ie/?click_in=
 ||exitintel.com/log/$third-party
+||expedia.com/vaclog/
 ||experience.contextly.com^
 ||f-log-at.grammarly.io^
 ||f-log-test.grammarly.io^
@@ -38423,6 +38425,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d1gp8joe0evc8s.cloudfront.net^
 ||d1iazwv1n1tsyi.cloudfront.net^
 ||d1igp3oop3iho5.cloudfront.net^
+||d1k8sb4xbepqao.cloudfront.net^
 ||d1m6l9dfulcyw7.cloudfront.net^
 ||d1n00d49gkbray.cloudfront.net^
 ||d1qpxk1wfeh8v1.cloudfront.net^
