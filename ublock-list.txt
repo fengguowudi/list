@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Njb5cHaCMDscdfvpxL5Vcw
+! Checksum: Dm3Z0kewBZLmYhK/I1GJFw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207031425
-! Last Modified: 2022年07月03日 14:25
+! Version: 202207032036
+! Last Modified: 2022年07月03日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -32254,6 +32254,7 @@ sweetdeals.com#@#a[href*="https://www.sweetdeals.com/"] img
 legacy.com#@#a[href^="http://pubads.g.doubleclick.net/"]
 mail.yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
 badoinkvr.com#@#a[href^="https://badoinkvr.com/"]
+xbdeals.net#@#a[href^="https://click.linksynergy.com/"]
 naughtyamerica.com#@#a[href^="https://natour.naughtyamerica.com/track/"]
 bookworld.no#@#a[href^="https://ndt5.net/"]
 legacy.com#@#a[href^="https://pubads.g.doubleclick.net/"]
@@ -56852,6 +56853,7 @@ tellymix.co.uk##.a-text
 trendstorys.com##.a-wrap
 breitbart.com##.a-wrapper
 foreca.com##.a1sjxe3a
+informer.com##.a2
 supercheats.com##.a300
 wmtips.com##.a3f17
 localtiger.com##.a9gy_lt
@@ -88584,7 +88586,7 @@ toptechtalk.xyz##.admania-widgettit
 invest-trading.online##+js(nano-sib)
 invest-trading.online##+js(acis, String.fromCharCode, 'shift')
 invest-trading.online##.widget_custom_html.mg-widget.widget_text
-bitsfree.net,getdoge.io,qashbits.com##+js(aopr, NoAdBlock)
+qashbits.com##+js(aopr, NoAdBlock)
 qashbits.com##.mx-auto
 modapk.link##+js(aopr, app_vars.force_disable_adblock)
 modapk.link##+js(set, blurred, false)
@@ -89286,12 +89288,13 @@ is2btc.com##div.col-sm-3:nth-of-type(3)
 is2btc.com##.text-center.col-sm-12
 *$script,3p,denyallow=bootstrapcdn.com|cloudflare.net|consensu.org|fontawesome.com|google.com|gstatic.com|hwcdn.net|jquery.com|jsdelivr.net,domain=dropcoins.xyz|fastcoin.ga|faucetbr.tk|is2btc.com|quickclaims.*|swift4claim.com
 sunhope.it##+js(nosiif, document.getElementById, 10000)
-0123movie.*,1111fullwise.*,111watcho.*,123-watch.com,123fullview.*,123moviesclub.*,123moviesla.*,123ssgm.*,247movie.net,2gomovies.*,4filmyzilla.*,4hdmovie.com,69hoshudaana.*,7025a.com,akmcloud.*,akstream.xyz,allmovieshub.*,attvideo.com,b-bmovies.com,bollymovies.*,bollywoodfilma.*,crackevil.com,dailymovieshub.com,dflinks.*,downloadming.*,europix.*,filme-bune.biz,filmisongs.*,filmy-zilla.co.in,filmyzilla.filmywap2021ganduworld.com,fulltube.*,fzmoviesnet.com,gyonlineng.com,hdmoviehubs.*,hdmovies2.org,hdmovies23.com,isaimini.ca,keepv.id,linksmore.*,megafilmestop.com,megashare-website.com,mobilemovies.*,motive213link.blogspot.com,moviemasalahd.xyz,movierulzhd.*,moviesbaba.*,naasongs.*,naasongsfree.*,neomovies.net,oceanofmovies.*,pagalworld.*,pelisstar.com,pirlotv.mx,radamel.icu,romfast.com,sdmoviespoint.*,sharkfish.xyz,soap2day.*,stivandz.com,tamilyogis.*,thelinkbox.*,veryfastdownload.pw,watchmovieshd.*,watchseriesstream.com,wifi4games.com,wildwap.*,xn--mlaregvle-02af.nu,ylink.bid,yoat.xyz,yotrabajo.info,yt-api.com,yt-download.org,yt1s.com,ytix.xyz,ytsaver.*##+js(acis, JSON.parse, break;case $.)
+0123movie.*,1111fullwise.*,111watcho.*,123-watch.com,123fullview.*,123moviesclub.*,123moviesla.*,123ssgm.*,247movie.net,2gomovies.*,4filmyzilla.*,4hdmovie.com,69hoshudaana.*,7025a.com,akmcloud.*,akstream.xyz,allmovieshub.*,attvideo.com,b-bmovies.com,bollymovies.*,bollywoodfilma.*,crackevil.com,dailymovieshub.com,dflinks.*,downloadming.*,europix.*,filme-bune.biz,filmisongs.*,filmy-zilla.co.in,fulltube.*,fzmoviesnet.com,gyonlineng.com,hdmoviehubs.*,hdmovies2.org,hdmovies23.com,isaimini.ca,keepv.id,linksmore.*,megafilmestop.com,megashare-website.com,mobilemovies.*,motive213link.blogspot.com,moviemasalahd.xyz,movierulzhd.*,moviesbaba.*,naasongs.*,naasongsfree.*,neomovies.net,oceanofmovies.*,pagalworld.*,pelisstar.com,pirlotv.mx,radamel.icu,romfast.com,sdmoviespoint.*,sharkfish.xyz,soap2day.*,stivandz.com,tamilyogis.*,thelinkbox.*,veryfastdownload.pw,watchmovieshd.*,watchseriesstream.com,wifi4games.com,wildwap.*,xn--mlaregvle-02af.nu,ylink.bid,yoat.xyz,yotrabajo.info,yt-api.com,yt-download.org,yt1s.com,ytix.xyz,ytsaver.*##+js(acis, JSON.parse, break;case $.)
 afilmyhouse.blogspot.com##+js(acis, Math, break;case $.)
-123moviesready.org,4hiidude.*,5xmovies.*,filma1.*,filmywap.*,filmyzilla2022.waystohunt.info,hindimovies.*,hitmovies4u.com,katlinks.*,motive213.com,techsslash.com,uwatchfree.*##+js(acis, parseInt, break;case $.)
+123moviesready.org,4hiidude.*,5xmovies.*,filma1.*,filmywap.*,filmyzillafullmovie.waystohunt.info,filmyzilla.filmywap2021ganduworld.com,hindimovies.*,hitmovies4u.com,katlinks.*,motive213.com,techsslash.com,uwatchfree.*##+js(acis, parseInt, break;case $.)
 filmywap.*##+js(acis, Object, XMLHttpRequest)
 hitmovies4u.com##+js(ra, onclick, a.thumb.mvi-cover)
-4hiidude.*,cinema.cimatna.com,filmywap.*,filmyzilla2021.xyz,filmy-zilla.co.in,filmyzilla2022.waystohunt.info,neomovies.net,pagalworld.kim,sharkfish.xyz##^script:has-text(break;case $.)
+4hiidude.*,cinema.cimatna.com,filmywap.*,filmyzilla2021.xyz,filmy-zilla.co.in,filmyzillafullmovie.waystohunt.info,filmyzilla.filmywap2021ganduworld.com,neomovies.net,sharkfish.xyz##^script:has-text(break;case $.)
+*$3p,denyallow=googleapis.com|gstatic.com,domain=filmyzilla.filmywap2021ganduworld.com|filmyzillafullmovie.waystohunt.info
 ||gracaiko.net^
 ||tarotien.com^
 hindilinks4u.*##+js(acis, Math, zfgloaded)
@@ -89478,9 +89481,12 @@ speedostream.com##^script:has-text(break;case $.)
 speedostream.com##+js(aeld, , break;case $.)
 ||s.speedostream.com^$script,1p
 @@||nnaa66.xyz^$ghide
+@@||lightnovelpub.com^$script,1p
 ||lightnovelpub.com/adblockmsg$xhr,1p
 lightnovelpub.com##aside.container
 lightnovelpub.com#@#.ad-sticky
+lightnovelpub.com##.ad-container
+lightnovelpub.com##.lnadcontainer
 nexusmods.com##+js(nano-stb, timer)
 nexusmods.com##.ad-section__skyscraper
 discovermagazine.com##.adunitContainer:upward(1)
@@ -89718,7 +89724,6 @@ shrinkzzy.link##+js(aopr, open)
 shrinkzzy.link##+js(set, blurred, false)
 techware.online##+js(nano-sib, timer)
 techware.online##+js(nostif, css_class.show)
-@@||hdlink.online/css/ads.css^$css
 @@||linkhub.icu^$ghide
 linkhub.icu###rn_ad_native_f1hrx
 @@||uploadshare.net^$ghide
@@ -95478,7 +95483,6 @@ saltspringexchange.com#@#.single-ad
 @@||cravitus.*/api/adverts/*$xhr,domain=cravitus.com|cravitus.lt
 *$subdocument,3p,domain=pornhive.tv,badfilter
 mirrorace.com#@#.uk-button-secondary
-@@||doubleclick.net^$script,xhr,domain=softonic.com
 @@||s0.2mdn.net/ads/studio/Enabler.js$script,domain=kabum.com.br
 @@||couponcabin.com/ga.*.js$1p
 ||slickdeals.net/scripts/*/js-campaign-tracking.js$script,1p,redirect=noop.js
