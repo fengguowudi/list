@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ETgve5X0HtV8bdzJRqAdnA
+! Checksum: uIGa4ecjy3eXDjZUhU5lcg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207041431
-! Last Modified: 2022年07月04日 14:31
+! Version: 202207042043
+! Last Modified: 2022年07月04日 20:43
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -67223,6 +67223,7 @@ _mongo_stats/
 ||fpaux.net^
 ||fpavx.net^
 ||fpaxu.net^
+||fpcdn.io^
 ||fpxau.net^
 ||g11686975765.co^
 ||g1188506010.co^
@@ -72856,6 +72857,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||audit.303br.net^
 ||audit.median.hu^
 ||aurora-d3.herokuapp.com^
+||auryc.com/v1/event
 ||autoline-top.com/counter.php?
 ||automate-prod.s3.amazonaws.com^$~script
 ||avo.app^*/track
@@ -73152,7 +73154,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cookiex.ngd.yahoo.com^
 ||count.asnetworks.de^
 ||count.carrierzone.com^
-||count.channeladvisor.com^
 ||count.me.uk^
 ||count.paycounter.com^
 ||counter.bloke.com^
@@ -73342,7 +73343,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.medio.com^
 ||events.ocdn.eu^
 ||events.realgravity.com^
-||events.release.narrativ.com^
+||events.release.narrativ.com^$script,xmlhttprequest
 ||events.shareably.net^
 ||events.splash-screen.net^
 ||events.split.io^
@@ -73904,6 +73905,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||newsanalytics.com.au^$third-party
 ||newsletters.nationalgeographic.com^$image,third-party
 ||newton.pm/events/track_bulk
+||nfcube.com/assets/img/pixel.gif
 ||ngpvan.com/v1/Track/
 ||nice264.com/data?$third-party
 ||nile.works/api/save-perf?
@@ -73993,6 +73995,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||performgroup.com/metrics/
 ||perr.h-cdn.com^
 ||perso.aws.arc.pub^
+||pets.channeladvisor.com^
 ||photobox.com/event
 ||photobox.com/logs
 ||phrasetech.com/api/collect
@@ -74376,6 +74379,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.c4tw.net^
 ||t.castle.io^
 ||t.cfjump.com^
+||t.channeladvisor.com^
 ||t.clic2buy.com^
 ||t.dgm-au.com^$third-party
 ||t.irtyc.com^
@@ -89869,6 +89873,7 @@ vipboxtv.*##+js(acis, parseInt, break;case $.)
 olympicstreams.me,vipboxtv.*##+js(nowoif, |)
 olympicstreams.me,vipboxtv.*##+js(aopw, _pop)
 ||raw.githubusercontent.com/*/just-detect-adblock/*$3p,xhr,redirect-rule=nooptext
+||eighes.com^
 buffstreams.tv##+js(aeld, , break;case $.)
 buffstreams.tv##+js(nowoif)
 @@||tritinia.com^$ghide
@@ -93076,6 +93081,7 @@ majorgeeks.com##b:has(a[target^="reimage"])
 ||bblck.me^$all
 ||glinks.co^$all
 /?track=*&key=$all
+||getsecuritysuite.com^$all
 howtoremove.guide##div[style^="border:2px"]
 howtoremove.guide##.entry-content > div:has-text(Special Offer)
 howtoremove.guide###solution_v2_de
