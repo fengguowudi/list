@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AE+jBIdcef4z2/EjpatIiA
+! Checksum: yMWpys6KgNlc0FNp64xrLA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207050227
-! Last Modified: 2022年07月05日 02:27
+! Version: 202207051009
+! Last Modified: 2022年07月05日 10:09
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -37379,6 +37379,7 @@ tf2r.com#@#.adverts
 ||egistonemes.com^
 ||egjyqfidcsfw.com^
 ||egoisc.com^
+||egoron.com^
 ||egreephu.com^
 ||egyptmiane3mao7uw.com^
 ||ehbbeikveqgmtj.com^
@@ -38662,6 +38663,7 @@ tf2r.com#@#.adverts
 ||gimpybedderump.com^
 ||ginningsteri.com^
 ||girdlespittle.com^
+||girise.com^
 ||girlend.com^
 ||girnedsline.cam^
 ||gitechiphy.pro^
@@ -38808,6 +38810,7 @@ tf2r.com#@#.adverts
 ||go2page.net^
 ||go2speed.org^
 ||go6shde9nj2itle.com^
+||go9.online^
 ||goaciptu.net^
 ||goads.pro^
 ||goajuzey.com^
@@ -46811,6 +46814,7 @@ tf2r.com#@#.adverts
 ||thongcivic.com^
 ||thongedoptions.com^
 ||thooidparodus.com^
+||thoomsay.com^
 ||thoorest.com^
 ||thoovoay.net^
 ||thoroughask.com^
@@ -57628,6 +57632,7 @@ filecrypt.cc,filecrypt.co##.filItheadbIockqueue3
 nagpurtoday.in##.film-right-s
 proprofs.com##.firstadd
 thestranger.com##.fish-butter
+vice.com##.fixed-slot
 politico.com##.fixed-top
 theblock.co##.fixedUnit
 2conv.com##.fixed_banner
@@ -58907,6 +58912,7 @@ tekdeeps.com##.zAzfDBzdxq3
 ign.com##.zad
 windows101tricks.com##.zanui-container
 thehackernews.com##.zoho-box
+gab.com##[aria-label*="Sponsored:"]
 swarajyamag.com##[class*="page-top-adv-wrapper"]
 thetimes.co.uk##[class*="responsiveweb__NativeAd"]
 zerohedge.com##[class^="Advert_"]
@@ -90958,8 +90964,6 @@ givemenbastreams.com##+js(acis, JSON.parse, break;case $.)
 givemenbastreams.com,givemenflstreams.com##+js(aopw, _pop)
 givemenbastreams.com,givemenflstreams.com##^script[data-cfasync]:has-text(h=decodeURIComponent)
 techpowerup.com##body:style(background-color: whitesmoke !important)
-techpowerup.com##:not(:matches-path(/forums/)) [rel]:matches-css(position: /fixed/)
-techpowerup.com##:not(:matches-path(/forums/)) [src]:matches-css(position: /fixed/)
 !#if env_mobile
 techpowerup.com##div[class*="__"] + div[asdafsetewfwe]:has(img):style(opacity: 0 !important; pointer-events: none !important;)
 !#endif
@@ -103396,7 +103400,7 @@ oasport.it#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;m
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Tue, 09 Jul 2002 00:00:00
+# start date:    Wed, 10 Jul 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
