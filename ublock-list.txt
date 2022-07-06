@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JBe+wk+BussjokMmI+LcZA
+! Checksum: y2N1XRB6rgj11zsAsImLBg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207062058
-! Last Modified: 2022年07月06日 20:58
+! Version: 202207070226
+! Last Modified: 2022年07月07日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24058,6 +24058,7 @@ _800x80_
 ##.change_AdContainer
 ##.changeableadzone
 ##.channel--ad
+##.channel-ad
 ##.channel-adv
 ##.channel-icon--ad
 ##.channel-icon__ad-buffer
@@ -30920,6 +30921,7 @@ _800x80_
 ##[href^="http://www.pingperfect.com/aff.php"]
 ##[href^="https://affect3dnetwork.com/track/"]
 ##[href^="https://affiliate.fastcomet.com/"] > img
+##[href^="https://antiagingbed.com/discount/"] > img
 ##[href^="https://awbbjmp.com/"]
 ##[href^="https://click2cvs.com/"]
 ##[href^="https://clk.right-wing-health.com/"]
@@ -38236,6 +38238,7 @@ tf2r.com#@#.adverts
 ||footnote.com^
 ||footpetoo.com^
 ||foowafoa.com^
+||fopkscyj.com^
 ||fopushegi.com^
 ||forafinan.club^
 ||forarchenchan.com^
@@ -39206,6 +39209,7 @@ tf2r.com#@#.adverts
 ||hbsjqogt.xyz^
 ||hbtzzlcxfijk.com^
 ||hbunmokcwopj.com^
+||hbzhrxdmm.com^
 ||hconsukulti.co^
 ||hcrhymydx.com^
 ||hczkduimaipr.com^
@@ -40357,6 +40361,7 @@ tf2r.com#@#.adverts
 ||jugeau.com^
 ||jugerfowells.com^
 ||juggledcample.website^
+||jugust.com^
 ||juiceadv.com^
 ||juiceadv.net^
 ||juicesphose.com^
@@ -43687,6 +43692,7 @@ tf2r.com#@#.adverts
 ||pmsrvr.com^
 ||pmzer.com^
 ||pncloudfl.com^
+||pncqcqdj.com^
 ||pnd.gs^
 ||pnmoclqxtcsbw.com^
 ||pnrblholty.com^
@@ -45944,6 +45950,7 @@ tf2r.com#@#.adverts
 ||snonoz.com^
 ||snonsy.com^
 ||snopmisgive.com^
+||snoreempire.com^
 ||snortedbingo.com^
 ||snouft.com^
 ||snowdayonline.xyz^
@@ -48447,6 +48454,7 @@ tf2r.com#@#.adverts
 ||wi3brxwr2b3v.com^
 ||wickedlongingbelfry.com^
 ||wickoolt.com^
+||widaimty.com^
 ||widdiesbrawns.com^
 ||wideorganiz.xyz^
 ||widespreadglamour.com^
@@ -57993,7 +58001,6 @@ rottentomatoes.com##.leaderboard_wrapper
 gpfans.com##.leaderboardbg
 ubergizmo.com##.leaderboardcontainer
 northernstar.info,theprospectordaily.com##.leaderboardwrap
-mapquest.co.uk,mapquest.com##.leadin
 dnsleak.com##.leak__submit
 republicbroadcasting.org##.left-sidebar-padder > #text-8
 gogetaroomie.com##.left-space
@@ -58102,6 +58109,7 @@ syfy.com##.mps-container
 edarabia.com##.mpu-300
 arabiaweather.com##.mpu-card
 dailymail.co.uk##.mpu_puff_wrapper
+mapquest.co.uk,mapquest.com##.mqBizLocsContainer
 10play.com.au,ebay.com,geo.tv,jozifm.co.za,nwherald.com,runt-of-the-web.com,thewest.com.au,topgear.com.ph##.mrec
 dkoding.in##.mrf-adv__wrapper
 motorsport.com##.ms-ap
@@ -62842,7 +62850,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /contador.gif?
 /containerTag.js
 /containertag?
-/content-targeting-
 /contentanalytics/*
 /contentiq.js
 /ContentTrackingCall.
@@ -92301,6 +92308,7 @@ clk.asia,imperialstudy.com,skincarie.com##+js(nosiif, visibility, 1000)
 clk.asia##+js(nowoif)
 clk.asia##+js(set, blurred, false)
 ||clk.asia/ads/*$frame
+||clicksfly.com/img/ref/clicksglygifbanner2.gif
 @@||rancah.com^$ghide
 rancah.com##+js(nowoif)
 rancah.com##+js(set, blurred, false)
@@ -92471,6 +92479,7 @@ strdef.world##div[style^="z-index: 999999; background-image: url(\"data:image/gi
 studybullet.com##+js(set, adsBlocked, false)
 bigyshare.com##+js(nowoif)
 @@||dlink.mobilejsr.com^$ghide
+dlink.mobilejsr.com##[src*="png"]
 @@||driveup.in^$ghide
 driveup.in##+js(acis, navigator, break;case $.)
 driveup.in##+js(nowoif, /^/, 0)
@@ -96396,7 +96405,7 @@ oasport.it#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;m
 @@||securepubads.g.doubleclick.net/gpt/*$script,domain=factable.com
 factable.com##.puicontainer
 factable.com##.pohcontainer
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js:5,domain=darkreading.com
+@@/prebid-ads/adsensebase.js$script,redirect-rule=prebid-ads.js,domain=darkreading.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
