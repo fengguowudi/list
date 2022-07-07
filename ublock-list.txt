@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UwUbJOOuoxy/mtFs9XI2Ow
+! Checksum: MDT2WxDp3IIVHGRhwEKS9A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207071018
-! Last Modified: 2022年07月07日 10:18
+! Version: 202207071428
+! Last Modified: 2022年07月07日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -59082,6 +59082,7 @@ staticice.com.au##[href^="https://kogan.sjv.io/"]
 topfiveforex.com##[href^="https://luckyfish.io/"]
 manhuaplus.com##[href^="https://manhuaplussoulland.onelink.me/"]
 crypto-news-flash.com##[href^="https://med.etoro.com/"]
+mikesmoneytalks.ca##[href^="https://mikesmoneytalks.ca/linkout/"]
 123putlocker.io##[href^="https://moneynow.one/"]
 abovetopsecret.com,thelibertydaily.com,uncanceled.news##[href^="https://mypatriotsupply.com/"]
 manganelo.com##[href^="https://oackoubs.com/"]
@@ -73502,7 +73503,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.medio.com^
 ||events.ocdn.eu^
 ||events.realgravity.com^
-||events.release.narrativ.com^$script,xmlhttprequest
+||events.release.narrativ.com^$subdocument,xmlhttprequest
 ||events.shareably.net^
 ||events.splash-screen.net^
 ||events.split.io^
@@ -76204,6 +76205,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.tradedoubler.com^
 ||analytics.twitter.com^
 ||analytics.vedantu.com^
+||ancestry.com/core.js
 ||androidfilehost.com/libs/otf/stats.otf.php?
 ||anon-stats.eff.org^
 ||apartments.com/clientvisit/al.gif?
@@ -77176,6 +77178,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webmd.com/pixel/
 ||webmd.com/static/v/c?
 ||wellsfargo.com/AIDO/
+||wellsfargo.com/dti_apg/
 ||wellsfargo.com/tracking/
 ||whattomine.com/stats
 ||whistleout.com.au/track
