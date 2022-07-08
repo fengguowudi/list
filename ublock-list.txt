@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UJfYaE4w3TIQ7wYKvwjDOQ
+! Checksum: HX+sIqrAaFU4FRhgm5eqaQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207080228
-! Last Modified: 2022年07月08日 02:28
+! Version: 202207081011
+! Last Modified: 2022年07月08日 10:11
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3816,7 +3816,6 @@
 /crossdomainads.
 /crossoverad-
 /csp/ads?
-/css/ad-$domain=~ad-shield.io
 /css/ads-
 /css/ads300_
 /css/adsense
@@ -65086,7 +65085,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /RadioAnalyticsIframe.js
 /radium-one.js
 /rainbow/master-js
-/rainbow/track
+/rainbow/track|
 /ravelin-*-track.min.js
 /rbi_us.js
 /rbipt.gif?
@@ -74535,7 +74534,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sunset.com/tia/
 ||survey.interquest.com^
 ||survey.io/log?
-||surveymonkey.com/collect/
+||surveymonkey.com/collect/$third-party
 ||surveymonkey.com/resp/api/metrics
 ||surveywall-api.survata.com^$third-party
 ||sv.aq.qq.com^
@@ -103541,7 +103540,7 @@ factable.com##.pohcontainer
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 12 Jul 2002 00:00:00
+# start date:    Sat, 13 Jul 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
