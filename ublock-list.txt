@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q8Jjh5B+NQRmqCDhlibqiA
+! Checksum: nhYA5thholRjCm0MmaMbFw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207082044
-! Last Modified: 2022年07月08日 20:44
+! Version: 202207090227
+! Last Modified: 2022年07月09日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -35395,6 +35395,7 @@ tf2r.com#@#.adverts
 ||ccjrapjmxq.com^
 ||ccjysdii.xyz^
 ||ccksdwtuzmadx.com^
+||ccurhtsytwyjjr.com^
 ||cd239ecf15.com^
 ||cd490573c64f3f.com^
 ||cd828.com^
@@ -36865,6 +36866,7 @@ tf2r.com#@#.adverts
 ||dispop.com^
 ||disrootaffa.com^
 ||disruptorgan.com^
+||dissimilarakin.com^
 ||dissipatecombinedcolon.com^
 ||dissolveddittoteaspoon.com^
 ||dissolvedhaunch.com^
@@ -46922,6 +46924,7 @@ tf2r.com#@#.adverts
 ||thuate.com^
 ||thubyjemi.pro^
 ||thudywhamy.com^
+||thully.com^
 ||thumac.com^
 ||thump-night-stand.com^
 ||thumpssleys.com^
@@ -47211,6 +47214,7 @@ tf2r.com#@#.adverts
 ||trdnewsnow.net^
 ||treacherousaccentbruise.com^
 ||treacherouslongingjunkie.com^
+||treasureravenvulgar.com^
 ||treasuresensignron.com^
 ||treateryowler.com^
 ||treatlaurelbud.com^
@@ -51913,6 +51917,7 @@ tf2r.com#@#.adverts
 ||kanoodle.com^$popup
 ||kappalinks.com^$popup
 ||kasheglesy.pro^$popup
+||kc8vo2l73b7j.top^$popup
 ||kenomal.com^$popup
 ||kerumal.com^$popup
 ||kesimon.com^$popup
@@ -52689,6 +52694,7 @@ tf2r.com#@#.adverts
 ||tramcarnamby.cam^$popup
 ||trandlife.info^$popup
 ||trcklks.com^$popup
+||treasureravenvulgar.com^$popup
 ||trejar.com^$popup
 ||trellian.com^$popup
 ||trfsltions.info^$popup
@@ -93016,6 +93022,11 @@ mangastream.mobi###myModal
 /prebid-ads/adsensebase.js$script,redirect-rule=prebid-ads.js
 /prebid-article-ad-ad-300x250.js$script,redirect-rule=prebid-ads.js
 @@/js/prebid-ads.js$script,1p
+#@#.ad-300x250
+##.ad-300x250:not(.ads)
+/ad-300x250.jpg$image,redirect-rule=1x1.gif
+||doubleclick.net^$xhr,redirect-rule=noop.txt,domain=~d3ward.github.io
+||media.fastclick.net^$xhr,redirect-rule=noop.txt,domain=~d3ward.github.io
 globfone.com##+js(no-xhr-if, ads)
 donugdee.com##.ad-overlay-click
 donugdee.com##.moviePlayer
@@ -96502,6 +96513,10 @@ factable.com##.puicontainer
 factable.com##.pohcontainer
 @@/prebid-ads/adsensebase.js$script,redirect-rule=prebid-ads.js,domain=darkreading.com
 @@||streaming.adswizz.com^$media,domain=streamonfoot.xyz
+||affiliate.rakuten.co.jp^$script,badfilter
+||affiliate.rakuten.co.jp^$script,3p
+||ba.afl.rakuten.co.jp^$badfilter
+||ba.afl.rakuten.co.jp^$3p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -103585,8 +103600,8 @@ factable.com##.pohcontainer
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Sun, 03 Jul 2022 03:46:36 GMT
-# entries:        3645
+# last updated:   Fri, 08 Jul 2022 13:13:55 GMT
+# entries:        3646
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -104956,6 +104971,7 @@ factable.com##.pohcontainer
 127.0.0.1 click.cartsguru.io
 127.0.0.1 click.cision.com
 127.0.0.1 click.classmates.com
+127.0.0.1 click.digital.metaquestmail.com
 127.0.0.1 click.e.progressive.com
 127.0.0.1 click.em.blizzard.com
 127.0.0.1 click.email.bbc.com
