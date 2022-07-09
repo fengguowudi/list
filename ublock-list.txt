@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nhYA5thholRjCm0MmaMbFw
+! Checksum: fDTS1MvbTqRhyDLoyHvGiA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207090227
-! Last Modified: 2022年07月09日 02:27
+! Version: 202207090958
+! Last Modified: 2022年07月09日 09:58
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -31852,6 +31852,7 @@ _800x80_
 ##.chp_branding
 ##[class^="chp_ads_block"]
 ##[id^="chp_ads_block"]
+##div.fadeInDown[id$="____equal"][class$="____equal"]
 ##.amp-ad-container
 ##.amp-ad-wrapper
 ##.amp-adv-container
@@ -59141,7 +59142,6 @@ staticice.com.au##[href^="https://kogan.sjv.io/"]
 topfiveforex.com##[href^="https://luckyfish.io/"]
 manhuaplus.com##[href^="https://manhuaplussoulland.onelink.me/"]
 crypto-news-flash.com##[href^="https://med.etoro.com/"]
-mikesmoneytalks.ca##[href^="https://mikesmoneytalks.ca/linkout/"]
 123putlocker.io##[href^="https://moneynow.one/"]
 abovetopsecret.com,thelibertydaily.com,uncanceled.news##[href^="https://mypatriotsupply.com/"]
 manganelo.com##[href^="https://oackoubs.com/"]
@@ -59243,7 +59243,7 @@ walmart.ca##a[href*=".criteo.com/"]
 chicagoprowrestling.com##a[href*="//thecmf.com/"] > img
 chicagoprowrestling.com##a[href*="//www.aliciashouse.org/"] > img
 itweb.co.za##a[href*="/adclick.php?"]
-breakingbelizenews.com,cardealermagazine.co.uk,headfonics.com,igorslab.de,landline.media,sundayworld.co.za,theroanokestar.com,visualcapitalist.com##a[href*="/linkout/"]
+breakingbelizenews.com,cardealermagazine.co.uk,headfonics.com,igorslab.de,landline.media,mikesmoneytalks.ca,sundayworld.co.za,theroanokestar.com,visualcapitalist.com##a[href*="/linkout/"]
 movie-censorship.com##a[href*="/out.php?"]
 imagetwist.com##a[href*="/par/"]
 civilserviceindia.com##a[href*="/red.php?bu="]
@@ -76860,6 +76860,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pulsar.ebay.com^
 ||pulse.delta.com^
 ||pushsquare.com/blank.gif
+||pxl.indeed.com^
 ||python.jacksellwood.com^
 ||quibids.com/marketing/pixels/
 ||quickmeme.com/tracker/
@@ -77122,6 +77123,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tags.aljazeera.com^
 ||tags.johnlewis.com^
 ||tags.news.com.au^$script
+||tahoe.com/imp
 ||taiwanplus.com/api/video/startVideo
 ||target.nationwide.com^
 ||target.nejm.org^
@@ -87870,7 +87872,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||confiant-integrations.global.ssl.fastly.net^$script,domain=seeitlive.co
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||console.otc.t-systems.com/mrs/rest/api/v1/log?type=$~third-party,xmlhttprequest
-@@||console.statsig.com/_next/static/chunks/pages/$script,~third-party
+@@||console.statsig.com/_next/$~third-party
 @@||coremetrics.com*/eluminate.js
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
 @@||cp.rackspace.com/javascript/services/analytics.js?$script,~third-party
@@ -90744,8 +90746,8 @@ sporizle1.pw##a[href="https://hdweb.pw"][target="_blank"]
 comixzilla.com##+js(acis, document.createElement, 'script')
 unsurcoenlasombra.com##+js(aopr, google_jobrunner)
 watchmovierulz.*##+js(nowoif)
-arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,gdpress.xyz,javplaya.com,playersb.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbfull.com,sbplay1.com,sbplay2.*,sbvideo.*,ssbstream.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*,view345.com##+js(aopr, __Y)
-arslanrocky.xyz,cloudemb.com,dlmovies.link,gdpress.xyz,oxl.one,playersb.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbvideo.net,ssbstream.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com,view345.com##+js(aopr, mm)
+arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,gdpress.xyz,javplaya.com,playersb.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbfull.com,sbplay1.com,sbplay2.*,sbthe.com,sbvideo.*,ssbstream.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*,view345.com##+js(aopr, __Y)
+arslanrocky.xyz,cloudemb.com,dlmovies.link,gdpress.xyz,oxl.one,playersb.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbthe.com,sbvideo.net,ssbstream.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com,view345.com##+js(aopr, mm)
 sbembed1.com,sbvideo.*##+js(aopr, console.clear)
 cmovies.*##+js(aeld, , break;case $.)
 cloudemb.com##+js(nowoif, !/^\/d\//)
@@ -103609,7 +103611,7 @@ factable.com##.pohcontainer
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 13 Jul 2002 00:00:00
+# start date:    Sun, 14 Jul 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
