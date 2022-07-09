@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: H5hvSoQPMC5nTmw2CWYfHw
+! Checksum: Z7gTVp2pfvIV+qfzgOfLvQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207090958
-! Last Modified: 2022年07月09日 09:58
+! Version: 202207091425
+! Last Modified: 2022年07月09日 14:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -39161,6 +39161,7 @@ tf2r.com#@#.adverts
 ||givekeeperstirring.com
 ||givenedere.xyz^
 ||givestment.club^
+||givewindowweather.buzz^
 ||givingsol.com^
 ||givirsou.net^
 ||gixiluros.com^
@@ -39421,6 +39422,7 @@ tf2r.com#@#.adverts
 ||gravelringer.com^
 ||gravelycontainsstruggle.com^
 ||gravelyelectricthicket.com^
+||gravertoyons.com^
 ||graveuniversalapologies.com^
 ||gravidtrekker.com^
 ||grayrecruitbrainwash.com^
@@ -45570,6 +45572,7 @@ tf2r.com#@#.adverts
 ||robsoaks.com^
 ||robspabah.com^
 ||rocexovo.com^
+||rockcloudspace.com^
 ||rocketyield.com^
 ||rockstorageplace.com^
 ||rockynoderearrange.com^
@@ -57558,6 +57561,7 @@ audiobacon.net,bhamnow.com,coinquora.com,manageditmag.co.uk,mondoweiss.net,ottve
 sneakernews.com##.adv-parent
 chaseyoursport.com##.adv-slot
 motorauthority.com##.adv-spacer
+xrprightnow.com##.adv-wrapper
 worldarchitecture.org##.adv1WA1440
 futbol24.com##.adv2
 worldarchitecture.org##.adv2WA1440
@@ -64004,6 +64008,9 @@ ubmcmm.baidustatic.com
 ||enrosr.cn^
 ||melife.love^
 ||fuigixk.cn^
+||edzyhx.cn^
+||15h3na0.xyz^
+||ekwibgl.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -86247,6 +86254,7 @@ fqsousou.com,kengso.com#@#.user-share
 /f.gif?
 /facebook-retargeting-
 /facebook-tracking/*
+/facebook/pixel.js
 /facebook_fbevents.
 /facebook_pixel_
 /facebookpixel.
@@ -110895,6 +110903,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||nytimes.com/games-assets/*/analytics.js$~third-party
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||oakley.com^*/tealium.js$~third-party
+@@||oakleysi.com/_ui/dist/scripts/vendor/tealium.js$~third-party
 @@||oceanstatejoblot.com^*/widget/osjl-google-analytics/$script,~third-party
 @@||okccdn.com/builds/desktop/js/tracking_center.$script,domain=okcupid.com
 @@||omtrdc.net^*/mbox/ajax?$script,domain=swisscom.ch
@@ -110970,6 +110979,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
+@@||sohotheatre.com^*/PageView.js$~third-party
 @@||solr.sas.com/query/$xmlhttprequest,domain=jmp.com
 @@||songstats.com/api/v1/analytics/track_data$~third-party,xmlhttprequest
 @@||sophos.com^*/tracking/gainjectmin.js$script,domain=community.sophos.com
