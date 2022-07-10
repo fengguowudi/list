@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ABs8pMrY2R5URATX0cRIAw
+! Checksum: 6AFkzNcGMCLB5zcuqT+JhA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207101020
-! Last Modified: 2022年07月10日 10:20
+! Version: 202207101425
+! Last Modified: 2022年07月10日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -32565,6 +32565,7 @@ tf2r.com#@#.adverts
 ||4exlkjnngs.com^
 ||4f2c852aeed4.com^
 ||4f2sm1y1ss.com^
+||4f370501ac.com^
 ||4f6b2af479d337cf.com^
 ||4hfchest5kdnfnut.com^
 ||4kmovies.online^
@@ -35225,6 +35226,7 @@ tf2r.com#@#.adverts
 ||c10ed2b8b417880.com^
 ||c12bleue.com^
 ||c265f8e1e3.com^
+||c3113b90b1.com^
 ||c3t-system-err.club^
 ||c43a3cd8f99413891.com^
 ||c44wergiu87heghoconutdx.com^
@@ -55807,6 +55809,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockstreamtape.a
 ||everydaygayporn.com/api/spots/
 ||exoav.com/nb/
 ||fakeporn.tv/bb/
+||fapclub.sex/js/hr.js
 ||fapnado.com/neverb/
 ||fappenist.com/fojytyzzkm.php
 ||fapster.xxx/nblul/yomama.js
@@ -60367,6 +60370,7 @@ hdtube.porn##.g-col-banners
 youx.xxx##.gallery-link
 xxxonxxx.com,youtubelike.com##.gallery-thumbs
 tallermaintenancar.com##.girl
+sexybabegirls.com##.girlsgirls
 bravoteens.com##.good_list_wrap
 amateur-vids.eu##.happy-footer
 gigapornmovies.com,indianpornvideos2.com##.happy-footer-mobile
@@ -60718,6 +60722,7 @@ hentaigasm.com##[src^="https://add2home.files.wordpress.com/"]
 analpornpix.com##[src^="https://analpornpix.com/t/153"]
 tubedupe.com##[src^="https://tubedupe.com/player/html.php?aid="]
 porngames.club##[src^="https://wheelwheel.space/"]
+hentai-gamer.com##[src^="https://www.hentai-gamer.com/pics/"]
 pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]:not(video)
@@ -63030,6 +63035,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /counter.visit?
 /Counter.woa/*
 /counter/*?rnd=$image
+/counter/?*&ref=
 /counter/?*&referer=
 /counter/?type=
 /counter/action_
@@ -87174,6 +87180,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||sugar.zhihu.com^
 ||tbskip.taobao.com^$script
 ||tf.360.cn^
+||theporn.cc/anyalytics?
 ||tianxun.com/ajax_website_statistics.
 ||titan24.com/scripts/stats.js
 ||tongji.mafengwo.cn^
@@ -87802,7 +87809,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca|nbarizona.com
-@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
+@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com|virginplus.ca
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
@@ -87986,7 +87993,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|healthrangerstore.com|jackbox.tv|k2radio.com|koel.com|kowb1290.com|stressless.com|tracking.narvar.com|westernunion.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|lodgecastiron.com|tentree.ca
-@@||googletagmanager.com/gtag/js$script,domain=carhartt-wip.com|cbslocal.com|honeystinger.com|kawasaki.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com
+@@||googletagmanager.com/gtag/js$script,domain=carhartt-wip.com|cbslocal.com|honeystinger.com|kawasaki.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com|virginplus.ca
 @@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
