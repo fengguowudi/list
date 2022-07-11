@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7rQ7LjTa20d/iG0wc0VaLw
+! Checksum: q7KYZsxQMUBzKRyi8xPNfw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207110225
-! Last Modified: 2022年07月11日 02:25
+! Version: 202207111007
+! Last Modified: 2022年07月11日 10:07
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8625,6 +8625,7 @@ _800x80_
 ###ad-banner-atf
 ###ad-banner-body-top
 ###ad-banner-bottom
+###ad-banner-btf
 ###ad-banner-desktop
 ###ad-banner-image
 ###ad-banner-lock
@@ -13212,6 +13213,11 @@ _800x80_
 ###div-id-for-interstitial-ad
 ###div-insticator-ad-1
 ###div-insticator-ad-2
+###div-insticator-ad-3
+###div-insticator-ad-4
+###div-insticator-ad-5
+###div-insticator-ad-6
+###div-insticator-ad-9
 ###div-social-ads
 ###div-vip-ad-banner
 ###div-web-ad-billboard
@@ -24073,6 +24079,8 @@ _800x80_
 ##.channelBoxAds
 ##.channel_ad_2016
 ##.channel_brand_ad
+##.chapter-bottom-ads
+##.chapter-top-ads
 ##.chart_ads
 ##.chartad
 ##.chartlist-row--interlist-ad
@@ -32935,6 +32943,7 @@ tf2r.com#@#.adverts
 ||accedebuzz.com^
 ||accedednews.com^
 ||accedenonre.club^
+||acceptabletally.com^
 ||acckwmhi.com^
 ||acclaimrecommendation.com^
 ||accoladethoroughly.com^
@@ -46704,6 +46713,7 @@ tf2r.com#@#.adverts
 ||tcatholicyclea.com^
 ||tcdnwha.com^
 ||tcoekdwnuveaisk.com^
+||tcpcharms.com^
 ||tcppu.com^
 ||td553.com^
 ||td563.com^
@@ -53691,6 +53701,7 @@ tf2r.com#@#.adverts
 ||appdevsecrets.com/images/nuts/
 ||appnext-a.akamaihd.net^
 ||apps.media-lab.ai^
+||aspencore.com/syndication/v3/partnered-content/
 ||assets.sheetmusicplus.com^$third-party
 ||autodealer.co.za/inc/widget/
 ||autotrader.ca/result/AutosAvailableListings.aspx?
@@ -56131,6 +56142,7 @@ healthline.com###DMR1__slot
 tweaktown.com###DesktopTop
 road.cc###Footer-Billboard
 fanlesstech.com###HTML2 > .widget-content
+fanlesstech.com###HTML3
 fanlesstech.com###HTML4 > .widget-content
 fanlesstech.com###HTML5 > .widget-content
 fanlesstech.com###HTML6 > .widget-content
@@ -56148,6 +56160,7 @@ audioz.download###PromoHead
 sciencealert.com###Purch_D_R_0_1
 fortune.com###RightRailFlex_Articles0
 calculatorsoup.com###RightSidebar
+edn.com###SideBarWrap
 soapcalc.net###SidebarLeft
 daringfireball.net###SidebarMartini
 soapcalc.net###SidebarRight
@@ -56236,7 +56249,7 @@ classic97.net,lagostalks.com###banner1
 classic97.net,lagostalks.com###banner2
 gamesfree.com###banner300
 metric-conversions.org###bannerSpace
-planetanalog.com###bannerWrap
+edn.com,planetanalog.com###bannerWrap
 webtoolhub.com###banner_704_134
 webtoolhub.com###banner_719_105
 today.az###banner_750x90
@@ -56428,6 +56441,7 @@ goodgearguide.com.au,pcworld.idg.com.au###float_leaderboard_bottom
 kissanime9.net###floatcenter
 compoundsemiconductor.net###floor-banner
 streams.tv###flowerInGarden
+fanlesstech.com###footer-1
 spectator.co.uk###footer-banner
 bundesliga.com###footer-partnerlogo
 warcraftpets.com###footer-top
@@ -56897,6 +56911,7 @@ capetownmagazine.com###top-leader-wrapper
 thegazette.com###top-leaderboard
 gogetaroomie.com###top-space
 imassera.com###top-sponsor
+progameguides.com###top-sticky-sidebar-container
 dotesports.com,gamepur.com###top-sticky-sidebar-wrapper
 nytimes.com,nytimes3xbfgragh.onion###top-wrapper
 danpatrick.com###topBannerContainer
@@ -88293,11 +88308,13 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||alkosto.engine.adglare.net^$script,xmlhttprequest,domain=alkosto.com|ktronix.com
 @@||app.clarity.so^$~third-party
 @@||calo.extole.io^$script,xmlhttprequest,domain=refer.calo.app
+@@||cbsi.map.fastly.net^
 @@||mycleverpush.com/iframe?$domain=bsdex.de
 @@||n8s.jp^$script,domain=nikkei.com
 @@||takeda.com.dxcloud.episerver.net^$domain=takeda.com
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 @@||tmx.bestbuy.com/z3nsvo31pnlmt3tw.js$domain=bestbuy.com
+@@||wwwimage-tve.cbsstatic.com^
 @@||api.nyda.pro^$websocket
 @@||szukajka.tv/jsverify.php$~third-party,xmlhttprequest
 @@||szukajka.tv/szukaj|$~third-party,xmlhttprequest
@@ -103673,7 +103690,7 @@ factable.com##.pohcontainer
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 15 Jul 2002 00:00:00
+# start date:    Tue, 16 Jul 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
