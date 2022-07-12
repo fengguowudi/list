@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vNl+/vvGSkWRGWcB3q+mQw
+! Checksum: 8wO86klC9BGW1OX/BHUqEw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207121020
-! Last Modified: 2022年07月12日 10:20
+! Version: 202207121428
+! Last Modified: 2022年07月12日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -76933,6 +76933,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nzpages.co.nz/modules/common/track.js
 ||odysee.com/reports/
 ||ohm-dot-hackster-io.appspot.com^
+||okx.com/jsstat/sb?
 ||online-umwandeln.de/analytics.js
 ||ophan.theguardian.com^
 ||optimize-stats.voxmedia.com^
@@ -88349,6 +88350,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||wplogout.com/wp-content/uploads/*Google$image,~third-party
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 @@||www.ups.com/WebTracking/processInputRequest
+@@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xumo.com/xumocdn/*/beacon?$domain=roku.com
 @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
