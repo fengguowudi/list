@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4t591CerNNJtGjbpnEgbOw
+! Checksum: QZxQ6oeo7FQrIESvNul0NA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207122051
-! Last Modified: 2022年07月12日 20:51
+! Version: 202207130227
+! Last Modified: 2022年07月13日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -172,7 +172,6 @@
 -ads4.htm
 -Ads_Billboard_
 -ads_story/
--adscript.
 -adsense2.
 -adserver-
 -adserver.$domain=~aqua-adserver.com
@@ -32024,6 +32023,7 @@ _800x80_
 ##.nw-taboola
 ##.pb-f-ads-taboola-article-well
 ##.pb-f-ads-taboola-right-rail-alt
+##.qa-placement-outbrain-under-post-cr
 ##.reading-list-rail-taboola
 ##.tablet_ad_box
 ##.tablet_ad_head
@@ -36974,6 +36974,7 @@ tf2r.com#@#.adverts
 ||dmaaxglcr.com^
 ||dmlkicqupnjfryv.com^
 ||dmnprx.com^
+||dmojfaerxpqn.com^
 ||dmshlhnzvzu.com^
 ||dmvbdfblevxvx.com^
 ||dmxftmoqz.com^
@@ -39405,6 +39406,7 @@ tf2r.com#@#.adverts
 ||hgzuqrtzt.com^
 ||hhit.xyz^
 ||hhklc.com^
+||hhkld.com^
 ||hhllryxtfgypz.com^
 ||hhtpcsgl.com^
 ||hhunvu.com^
@@ -43437,6 +43439,7 @@ tf2r.com#@#.adverts
 ||pc2ads.com^
 ||pcdnlt.com^
 ||pclk.name^
+||pcmclks.com^
 ||pcnp.xyz^
 ||pcsyendormup.com^
 ||pctlwm.com^
@@ -47493,6 +47496,7 @@ tf2r.com#@#.adverts
 ||tyewrukjyjyl.com^
 ||tygafso.com^
 ||tyingatmosphericprocess.com^
+||tyiqebrbpxc.com^
 ||tyjawhesu.com^
 ||tylistedpro.xyz^
 ||tylosischewer.com^
@@ -48715,6 +48719,7 @@ tf2r.com#@#.adverts
 ||woredi.com^
 ||worersie.com^
 ||workmanceremony.com^
+||workplaceidenticalincompetent.com^
 ||workplacelimetree.com^
 ||workroomsplittingtrashy.com^
 ||workshirty.club^
@@ -49339,6 +49344,7 @@ tf2r.com#@#.adverts
 ||zebraicrudista.com^
 ||zebruisiacu.com^
 ||zebuaridromps.com^
+||zebumpes.net^
 ||zeechumy.com^
 ||zeegreen.net^
 ||zeeshith.net^
@@ -50255,6 +50261,7 @@ tf2r.com#@#.adverts
 ||geo-idm.fr^$third-party
 ||geopromos.com^$third-party
 ||geovisite.com^$third-party
+||germaniavid.com^$third-party
 ||gestionpub.com^$third-party
 ||get.com^$third-party
 ||getadjacent.com^$third-party
@@ -52024,6 +52031,7 @@ tf2r.com#@#.adverts
 ||kolkwi4tzicraamabilis.com^$popup
 ||korexo.com^$popup
 ||kotikinar2ko8tiki09.com^$popup
+||ku2d3a7pa8mdi.com^$popup
 ||kuglijuthi.com^$popup
 ||l4meet.com^$popup
 ||ladsreds.com^$popup
@@ -52950,6 +52958,7 @@ tf2r.com#@#.adverts
 ||withoughdv.xyz^$popup
 ||wokewhoki.pro^$popup
 ||wonderlandads.com^$popup
+||workplaceidenticalincompetent.com^$popup
 ||worldfreshblog.com^$popup
 ||worthyrid.com^$popup
 ||wotythowe.pro^$popup
@@ -56338,6 +56347,7 @@ uinterview.com###below-content
 al.com,cleveland.com,gulflive.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,nj.com,oregonlive.com,pennlive.com,silive.com,syracuse.com###below-toprail
 animixplay.to###belowcomment
 post-gazette.com###benn-poll-iframe-container
+dcnewsnow.com###bestreviews-widget
 fightful.com###betway-sports
 usnews.com###bfad-slot
 shellshock.io###big-house-ad
@@ -59111,11 +59121,11 @@ bestlifeonline.com##.widget_gm_karmaadunit_widget
 extremetech.com##.widget_gptwidget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
-appleworld.today,closerweekly.com,deshdoaba.com,foreverconscious.com,intouchweekly.com,kkfm.com,lifeandstylemag.com,mensjournal.com,patriotfetch.com,pctechmag.com,rok.guide,rsbnetwork.com,washingtonmonthly.com,wbnq.com,wbwn.com,wgow.com,wgowam.com,wjbc.com,wlevradio.com##.widget_media_image
+appleworld.today,closerweekly.com,deshdoaba.com,foreverconscious.com,intouchweekly.com,kkfm.com,lifeandstylemag.com,mensjournal.com,patriotfetch.com,pctechmag.com,rok.guide,rsbnetwork.com,washingtonmonthly.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
 nypost.com##.widget_nypost_dfp_ad_widget
 dailynewsegypt.com##.widget_rotatingbanners
 twistedsifter.com##.widget_sifter_ad_bigbox_widget
-985kissfm.net,bxr.com,catcountry951.com,nashfm1065.com,power923.com,wbnq.com,wncv.com,wskz.com##.widget_simpleimage
+985kissfm.net,bxr.com,catcountry951.com,nashfm1065.com,power923.com,wncv.com,wskz.com##.widget_simpleimage
 acprimetime.com,brigantinenow.com,downbeachbuzz.com##.widget_sp_image
 screenbinge.com,streamingrant.com##.widget_sp_image-image-link
 gamertweak.com##.widget_srlzycxh
@@ -59404,6 +59414,7 @@ depositfiles.com,dfiles.eu##a[href^="http://ads.depositfiles.com/"]
 dvdtalk.com##a[href^="http://dvdtalk.pricegrabber.com/"]
 iamdisappoint.com,shitbrix.com,tattoofailure.com##a[href^="http://goo.gl/"]
 notbanksyforum.com##a[href^="http://l-13.org/"]
+wjbc.com##a[href^="http://sweetdeals.com/bloomington/deals"]
 jpost.com##a[href^="http://www.danhotels.com/JerusalemHotels/?utm_"]
 vgleaks.com##a[href^="http://www.dhgate.com/"]
 notbanksyforum.com##a[href^="http://www.ebay.co.uk/usr/heartresearchuk_shop/"]
@@ -59431,6 +59442,7 @@ disasterscans.com##a[href^="https://recall-email.onelink.me/"]
 emalm.com##a[href^="https://s.click.aliexpress.com/"]
 997wpro.com##a[href^="https://seascapeinc.com/"]
 everybithelps.co.uk##a[href^="https://shop.trezor.io/"]
+wbnq.com,wbwn.com,wjbc.com##a[href^="https://stjude.org/radio/"]
 tristateswolf.com##a[href^="https://www.alleganycofair.org/"]
 scaredstiffreviews.com##a[href^="https://www.amazon."][href*="ref="]
 ancient-origins.net,catholicculture.org,deadspin.com,electrek.co,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lewrockwell.com,lifehacker.com,ssbcrack.com,thetakeout.com##a[href^="https://www.amazon."][href*="tag="]
@@ -59438,10 +59450,12 @@ mrchecker.net##a[href^="https://www.cardingmentor.org"]
 indusladies.com##a[href^="https://www.codewizardshq.com/?utm_"]
 pooletown.co.uk##a[href^="https://www.easyfundraising.org.uk"]
 futbin.com##a[href^="https://www.eneba.com/"][href*="?af_id="]
+wjbc.com##a[href^="https://www.farmweeknow.com/rfd_radio/"]
 magic1069.com##a[href^="https://www.fetchahouse.com/"]
 coachhuey.com##a[href^="https://www.hudl.com"]
 domaintyper.com##a[href^="https://www.kqzyfj.com/"]
 wgrr.com##a[href^="https://www.mccabelumber.com/"]
+wbnq.com,wbwn.com,wjbc.com##a[href^="https://www.menards.com/main/home.html"]
 jox2fm.com,joxfm.com##a[href^="https://www.milb.com/"]
 who.is##a[href^="https://www.name.com/redirect/"]
 kollelbudget.com##a[href^="https://www.oorahauction.org/"][target="_blank"] > img
@@ -61051,6 +61065,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||flying-lines.com/banners/$image,~third-party
 @@||forum.miuiturkiye.net/konu/reklam.$~third-party,xmlhttprequest
 @@||forums.opera.com/api/topic/$~third-party,xmlhttprequest
+@@||franklymedia.com/*/300x150_WBNQ_TEXT.png$image,domain=wbnq.com
 @@||freelitecoin.vip/assets/img/ad_$~third-party
 @@||fuseplatform.net^*/fuse.js$script,domain=broadsheet.com.au|friendcafe.jp
 @@||fwmrm.net^*/AdManager.js$script
@@ -91858,6 +91873,7 @@ celebjared.net###text-10
 1tamilmv.*##+js(acis, document.createElement, cookie)
 1tamilmv.*##+js(acis, Math, break;case $.)
 1tamilmv.*##+js(aopw, _pop)
+1tamilmv.*##^script[data-cfasync]:has-text(h=decodeURIComponent)
 beingtek.com##+js(aopr, app_vars.force_disable_adblock)
 beingtek.com##+js(set, blurred, false)
 *$script,3p,denyallow=gstatic.com|recaptcha.net,domain=beingtek.com
@@ -96686,6 +96702,7 @@ factable.com##.pohcontainer
 ||affiliate.rakuten.co.jp^$script,3p
 ||ba.afl.rakuten.co.jp^$badfilter
 ||ba.afl.rakuten.co.jp^$3p
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=autokult.pl
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
