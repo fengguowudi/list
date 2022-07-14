@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KHAZx3QIUEawqmrYjFIiGQ
+! Checksum: gnprMVb4lfeYrZzFsNODRg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207141020
-! Last Modified: 2022年07月14日 10:20
+! Version: 202207141427
+! Last Modified: 2022年07月14日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -29951,6 +29951,7 @@ _800x80_
 ##.tnt-ads
 ##.tnt-ads-container
 ##.tnt-dmp-reactive
+##.tnw-ad
 ##.toaster-ad
 ##.today-ad-imu
 ##.today-ad-rec
@@ -55192,7 +55193,7 @@ tf2r.com#@#.adverts
 ||api.fw.tv^
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
 ||boomselljamwelunch.com^
-||brid.tv^$script,domain=67hailhail.com|deepdaledigest.com|forevergeek.com|geordiebootboys.com|hammers.news|hitc.com|molineux.news|nottinghamforest.news|rangersnews.uk|realitytitbit.com|spin.com|tbrfootball.com|thechelseachronicle.com|thefocus.news|thewrap.com
+||brid.tv^$script,domain=67hailhail.com|deepdaledigest.com|forevergeek.com|geordiebootboys.com|hammers.news|hitc.com|molineux.news|nottinghamforest.news|rangersnews.uk|realitytitbit.com|spin.com|tbrfootball.com|thechelseachronicle.com|thefocus.news|thewrap.com|washingtonexaminer.com
 ||c.jsrdn.com^$script,domain=muscleandfitness.com
 ||cdn.ex.co/player/
 ||channelexco.com/player/$third-party
@@ -56746,6 +56747,7 @@ yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.co
 bendsource.com,federalnewsnetwork.com,lonelyplanet.com,sevendaysvt.com,styleweekly.com,tasty.co,tucsonweekly.com##.Ad
 thescore.com##.Ad__container--2fhQb
 stadiumastro.com##.Ads
+alternativeto.net##.AdsenseAd_putFood__h0Ah0
 iogames.onl##.Adv
 audiokarma.org,audizine.com##.AdvallyTag
 iogames.onl##.Advc
