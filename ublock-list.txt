@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dqIQuWNkKBIK2aq9WjWf3A
+! Checksum: KHAZx3QIUEawqmrYjFIiGQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207140225
-! Last Modified: 2022年07月14日 02:25
+! Version: 202207141020
+! Last Modified: 2022年07月14日 10:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -30942,6 +30942,8 @@ _800x80_
 ##[href*=".engine.adglare.net/"]
 ##[href*=".zlinkm.com/"]
 ##[href*="incentrev.com/"] img
+##[href="https://masstortfinancing.com"] img
+##[href="https://ourgoldguy.com/contact/"] img
 ##[href^="http://advertisesimple.info/"]
 ##[href^="http://clicks.totemcash.com/"]
 ##[href^="http://globsads.com/"]
@@ -30974,6 +30976,7 @@ _800x80_
 ##[href^="https://go.4rabettraff.com/"]
 ##[href^="https://go.affiliatexe.com/"]
 ##[href^="https://go.astutelinks.com/"]
+##[href^="https://goldforyourfuture.com/clk.trk"] img
 ##[href^="https://ilovemyfreedoms.com/landing-"]
 ##[href^="https://infinitytrk.com/"]
 ##[href^="https://istlnkcl.com/"]
@@ -30998,6 +31001,8 @@ _800x80_
 ##[href^="https://turtlebids.irauctions.com/"] img
 ##[href^="https://v.investologic.co.uk/"]
 ##[href^="https://wct.link/"]
+##[href^="https://www.avantlink.com/click.php"] img
+##[href^="https://www.brighteonstore.com/products/"] img
 ##[href^="https://www.dcpodj3k5.com/"]
 ##[href^="https://www.herbanomic.com/"] > img
 ##[href^="https://www.hostg.xyz/aff_c"] > img
@@ -46209,6 +46214,7 @@ tf2r.com#@#.adverts
 ||stoakrig.net^
 ||stoashou.net^
 ||stolytipse.com^
+||stompimp.net^
 ||stonordersity.xyz^
 ||stoolapostlecarbon.com^
 ||stoopcram.com^
@@ -48280,6 +48286,7 @@ tf2r.com#@#.adverts
 ||whopexesho.pro^
 ||whoseuntruelag.com^
 ||whouledu.com^
+||whouseem.com^
 ||whoutsiy.net^
 ||whoutsog.net^
 ||whowhipi.net^
@@ -49969,6 +49976,7 @@ tf2r.com#@#.adverts
 ||globsads.com^$third-party
 ||goember.com^$third-party
 ||gogvo.com^$third-party
+||goload.click^$third-party
 ||goodfungame.com^$third-party
 ||googletrackmanager.com^$third-party
 ||goraps.com^$third-party
@@ -56453,6 +56461,7 @@ bnnbloomberg.ca###promotions
 rightmove.co.uk###propertyplayer
 frequence-radio.com###pub_listing_top
 skyrock.com###pub_up
+elevationmap.net###publift_home_billboard
 unogs.com###purevpninfo
 howtogermany.com###quaranvino
 unfair.co###r_sidebarwidgeted
@@ -87707,7 +87716,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cdn-ds.com/analytics/dfa.js$script,domain=tuttleclickgenesis.com
 @@||cdn-ds.com/analytics/sockjs.js$script,domain=tuttleclickgenesis.com
 @@||cdn-net.com/cc.js$script,domain=butterfieldonline.com|uber.com|ubereats.com
-@@||cdn.akamai.steamstatic.com/steam/apps/$image,domain=store.steampowered.com
 @@||cdn.cxense.com^$script,domain=bizjournals.com|bloombergquint.com|marketwatch.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com
@@ -88017,6 +88025,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||staticflickr.com^*/analytics-min.js$domain=flickr.com
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
+@@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
 @@||store.usps.com/media/js/metrics/metrics.js$~third-party
 @@||supertaxi.com/webclient/scripts/tracking/tracking.js$script,~third-party
 @@||support.brother.com^*/js/analytics.js$script,~third-party
@@ -93472,7 +93481,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||downloadonlyfree.com^$all
 ||super-ladies-now.life^$all
 ||unogames.site^$all
-||mfilecloud.com/d2twaHh5Ym5jb3p1X2ZCVmVk$doc
 ||onetaphack.one^$all
 ||cheaterboss.com^$all
 ||shopsales2022.com^$all
@@ -93672,7 +93680,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||trktrk.club^$all
 ||virpropcnow.xyz^$all
 ||2xdoubles.com^$all
-||corona-virus-map.com^$all
 ||bestbut.com^$all
 ||kuaizip.com^$all
 ||helooworld.us^$all
@@ -93708,20 +93715,12 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||flashplayer-cn.com^$all
 ||hypixelskyblock.net^$doc
 ||lady-datings-here.com^$doc
-||your-dreams-girls2.com^$doc
 ||profit-worlds2u.life^$doc
 ||yourbest-dating33.life^$doc
-||bestdatinglocal1.com^$doc
 ||sexcontact-store1.com^$doc
 ||superdatenow3.com^$doc
-||findlocalgirlnow.com^$doc
-||vip-lady-dreams.com^$doc
-||getviplocals1.com^$doc
-||global-dates-here.com^$doc
 ||new-lady-here12.com^$doc
-||topgirls-here.com^$doc
 ||hook-ups-here2.com^$doc
-||topgirls-here1.com^$doc
 ||b-time.site^$doc
 ||hentai-tube.me^$doc
 ||skyblockmods.com^$doc
@@ -93776,7 +93775,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||steamcommunity-nitro.$all
 ||steamgiftnitro.$all
 ||tekhacks.net^$all
-||mediafire.com/file/pj9jdm7iznc4d51/tekhacksnet_multi_loader.rar^$doc
 ||freedownloadfiles.org^$all
 ||tw-goldenwinner-57.com^$doc
 ||fasterfiles.net^$all
@@ -103291,7 +103289,7 @@ factable.com##.pohcontainer
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 18 Jul 2002 00:00:00
+# start date:    Fri, 19 Jul 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
