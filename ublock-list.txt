@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jBr+P/jzKxeHIBNv7k0Hvg
+! Checksum: VF8uNNOHhCRcwywV33AQmA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207150227
-! Last Modified: 2022年07月15日 02:27
+! Version: 202207151026
+! Last Modified: 2022年07月15日 10:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8784,6 +8784,7 @@ _800x80_
 ###ad-img
 ###ad-in-post
 ###ad-in-post-0
+###ad-incontent
 ###ad-index
 ###ad-inline-block
 ###ad-inserter-1
@@ -57124,7 +57125,6 @@ h-online.com##.bcadv
 fakenamegenerator.com##.bcsw
 censor.net##.beGrKXqw1r8uLq2pL
 thepointsguy.com##.beam-card-feature
-beckershospitalreview.com##.becker_doubleclick
 browardpalmbeach.com,dallasobserver.com,houstonpress.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.beforeBillboard
 renonr.com##.below-header-widgets
 gobankingrates.com##.bestbanks-slidein
@@ -58001,6 +58001,7 @@ finextra.com##.module--sponsor
 webmd.com##.module-f-hs
 pcworld.idg.com.au##.module-rhs-brandpost
 webmd.com##.module-top-picks
+beckershospitalreview.com##.moduletable > .becker_doubleclick
 thisismoney.co.uk##.mol-fe-vouchercodes-puff
 dailymail.co.uk##.mol-fe-vouchercodes-redesign
 monsoonjournal.com##.mom-e3lanat-wrap
@@ -59643,6 +59644,7 @@ m.youtube.com##a[onclick*="\"ping_url\":\"http://www.google.com/aclk?"]
 youtube.com##ytd-compact-promoted-video-renderer
 youtube.com##ytd-companion-slot-renderer
 youtube.com##ytd-display-ad-renderer
+youtube.com##ytd-engagement-panel-section-list-renderer
 youtube.com##ytd-promoted-sparkles-text-search-renderer
 youtube.com##ytd-promoted-sparkles-web-renderer
 youtube.com##ytd-single-option-survey-renderer
@@ -64141,8 +64143,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /logaholictracker.
 /logAjaxErr_
 /LogAmpHit?
-/loganalyticsevent?
 /LogAnalysisTracker/*
+/loganalyticsevent?
 /logAutoMicroConversion?
 /logclick.
 /logcollect.
@@ -66959,6 +66961,7 @@ cgi-bin/counter
 /media.sailthru.com/5ik/1k4/9/*.gif
 /newsletter/log/*$image
 /newsletter/read?s=$image
+/newtrackingscript.
 /notifications.googleapis.com/email/t/*
 /notifications/beacon/*
 /open.aspx?
@@ -76608,6 +76611,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||medium.com/_/clientele/reports/performance/
 ||meduza.io/stat/
 ||messari.io/js/wutangtrack.js
+||messenger.com/ajax/bnzai?
 ||messiah.id/api/event
 ||messiah.id/js/script.js
 ||metacrawler.com/pingback
@@ -103301,7 +103305,7 @@ factable.com##.pohcontainer
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 19 Jul 2002 00:00:00
+# start date:    Sat, 20 Jul 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
