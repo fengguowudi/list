@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VC03oPX/oUh1IOot6byMQw
+! Checksum: reO5fNrOtGW/T/FWuo7Cpw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207151427
-! Last Modified: 2022年07月15日 14:27
+! Version: 202207152050
+! Last Modified: 2022年07月15日 20:50
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -31035,6 +31035,7 @@ _800x80_
 ##a[href*=".incontro-veloce.com/"]
 ##a[href*=".medgoodfood.com/"]
 ##a[href*=".zlink9.com/"]
+##a[href*="//lkstrck2.com/"]
 ##a[href="//rufflycouncil.com/"]
 ##a[href^="//agacelebir.com/"]
 ##a[href^="//benoopto.com/"]
@@ -39981,6 +39982,7 @@ tf2r.com#@#.adverts
 ||irtyf.com^
 ||irvuyekrdga.com^
 ||isawaalphol.casa^
+||isbnrs.com^
 ||iscosta.ru^
 ||isdbjvok.xyz^
 ||isdlvtgikrpw.com^
@@ -55214,6 +55216,7 @@ tf2r.com#@#.adverts
 ||fqtag.com^$third-party
 ||fwcdn1.com/js/fwn.js
 ||fwcdn1.com/js/storyblock.js
+||g.ibtimes.sg/sys/js/minified-video.js
 ||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph
 ||go.trvdp.com^
 ||jwpcdn.com^$script,domain=bgr.com|dexerto.com|zimbio.com
@@ -59544,6 +59547,7 @@ digitaltrends.com##.dtvideos-container[data-provider="jwplayer"]
 comicbook.com##.embedVideoContainer
 taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
+ibtimes.sg##.featured_video
 thestar.co.uk##.gOoqzH
 gamesradar.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
 southernliving.com##.karma-sticky-rail
@@ -59997,6 +60001,7 @@ porndroids.com##.abcnn___video-units
 cambb.xxx,chaturbate.com,playboy.com,rampant.tv,sex.com,signbucks.com,tallermaintenancar.com,tehvids.com,thehun.net,tiktits.com,uflash.tv,xcafe.com##.ad
 kemono.party,pinflix.com##.ad-container
 xtube.com##.adContainer
+ftopx.com##.add-block
 sex3.com##.add-box
 playvids.com##.add_href_jsclick
 babesandstars.com,cam-video.xxx,gosexy.mobi,hog.tv,javseen.tv,mobilepornmovies.com,mypornstarbook.net,pichunter.com,thisav.com##.ads
@@ -62783,6 +62788,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /comscore_pageview
 /comscore_ping
 /comscore_stats.
+/ComscoreAnalytics.
 /comscorebeacon.
 /comscorepageviewcomscorekw=
 /ComScorePlugin.
@@ -62960,6 +62966,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /datacapture/track
 /datacollectcode?
 /datadome/*
+/DatazoomAnalytics.
 /DavplusAnalytics.
 /dbdm-events.
 /dbdm-events/*
@@ -63614,6 +63621,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /googletag.js
 /googletagmanager.js
 /googletagmanager_backend.js
+/googletagmanageranalytics.
 /googleTagManagerTrackEvent.
 /googletrack.js
 /googleTracker.
@@ -64000,6 +64008,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /KISSmetricsTrackCode.
 /kiwip.js
 /klaviyo_analytics.
+/KochavaAnalytics.
 /kontera.js
 /konterayahoooo.
 /kooomo.tracker.
@@ -69234,6 +69243,7 @@ _mongo_stats/
 ||pureairhits.com^$third-party
 ||purevideo.com^$third-party
 ||pushauction.com^$third-party
+||pushspring.com^$third-party
 ||pvd.to^$third-party
 ||pxaction.com^$third-party
 ||pxf.io^$image,script,third-party
@@ -76969,6 +76979,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.gateio.ch^
 ||stats.hd24.watch^
 ||stats.ibtimes.co.in^
+||stats.ibtimes.sg^
 ||stats.justpaste.it^
 ||stats.pandora.com^
 ||stats.paste2.org^
@@ -88084,6 +88095,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||tw.cx/c?a=$xmlhttprequest,domain=justwatch.com
 @@||udottraffic.utah.gov/javascripts/Piwik.js
 @@||uefa.com/inc/js/core/projects/statistics/statistics.js?$script
+@@||ultimaterewardspoints.chase.com/web-analytics/ur-reporting.js$~third-party
 @@||uniqlo.com^*/trackingservice/$~third-party
 @@||unpkg.com/@optimizely/optimizely-sdk$script,domain=talktalk.co.uk
 @@||usbank.com^*/adrum.js?$~third-party
@@ -89454,7 +89466,6 @@ convertitoremp3.download##+js(nowoif)
 ||expensivesurvey.online^$popup,3p
 ||antsmovies.com/sw.js$script,1p
 antsmovies.com##.banner
-||awanishsingh.com/sw.js$script,1p
 123moviesprime.com,cinema.cimatna.com##+js(aopw, _pop)
 briefwatch.com##[href^="https://www.secure.zabira.ng/register"]
 briefwatch.com##.brief-adlabel
@@ -93426,7 +93437,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||heartmedia.biz^$all
 ||beta-news.org^$all
 ||clk.rtpdn*.com^$doc,popup
-/click.php?key=*&cost=$doc
+/click.php?key=*&cost=$doc,popup
 ||dreamone.online^$all
 ||totaltopposts.com^$all
 /?%7B%7Bip%7D%7D*&clickId=$doc
@@ -103304,7 +103315,7 @@ factable.com##.pohcontainer
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Fri, 08 Jul 2022 13:13:55 GMT
-# entries:        3646
+# entries:        3644
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -104007,7 +104018,6 @@ factable.com##.pohcontainer
 127.0.0.1 ads2.gamecity.net
 127.0.0.1 ads2.hsoub.com
 127.0.0.1 ads2.net-communities.co.uk
-127.0.0.1 ads2.oneplace.com
 127.0.0.1 ads2.rne.com
 127.0.0.1 ads2.techads.info
 127.0.0.1 ads2.virtual-nights.com
@@ -104729,7 +104739,6 @@ factable.com##.pohcontainer
 127.0.0.1 cloisteredhydrant.com
 127.0.0.1 closedcows.com
 127.0.0.1 cloudcoins.biz
-127.0.0.1 cloudflare-dacdn.visualwebsiteoptimizer.com
 127.0.0.1 cloudflareinsights.com
 127.0.0.1 cloudiq.com
 127.0.0.1 clrstm.com
@@ -105356,7 +105365,6 @@ factable.com##.pohcontainer
 127.0.0.1 innocentwax.com
 127.0.0.1 innovid.com
 127.0.0.1 inquisitiveinvention.com
-127.0.0.1 inringtone.com
 127.0.0.1 insgly.net
 127.0.0.1 insightexpress.com
 127.0.0.1 insightexpressai.com
@@ -105441,6 +105449,7 @@ factable.com##.pohcontainer
 127.0.0.1 ktu.sv2.biz
 127.0.0.1 kubient.com
 127.0.0.1 l1.britannica.com
+127.0.0.1 l6b587txj1.com
 127.0.0.1 lakequincy.com
 127.0.0.1 lameletters.com
 127.0.0.1 lanistaads.com
