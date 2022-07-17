@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SzjiTB5CG4iP4xmTL479hw
+! Checksum: Wb0Pz6Nodj+0okAwjvMMYA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207172037
-! Last Modified: 2022年07月17日 20:37
+! Version: 202207180224
+! Last Modified: 2022年07月18日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -90051,6 +90051,12 @@ coinsparty.mcrypto.club##+js(aopr, app_vars.force_disable_adblock)
 coinsparty.mcrypto.club##+js(aopr, open)
 coinsparty.mcrypto.club##+js(set, blurred, false)
 mcrypto.club###id-custom_banner
+mcrypto.club##+js(nano-stb, countdown, 10000)
+luckydice.net##+js(nano-sib, sec--)
+mcrypto.club###wpsafe-generate:style(display: block !important)
+mcrypto.club###wpsafelink-countdown
+mcrypto.club##div[id^="promo"]
+||jcbsrv.com/player/ad-units.
 crypto-faucet.xyz##+js(nosiif, visibility, 1000)
 crypto-faucet.xyz##+js(nano-sib, sec--)
 crypto-faucet.xyz###random_728_top
@@ -95951,7 +95957,6 @@ coolmathgames.com##+js(set, network_user_id, '')
 @@||awemwh.com/$image,domain=camsexbabe.nl
 @@||potwm.com/tube-player/?$frame,domain=camsexbabe.nl
 @@||potwm.com/api/video-promotion/v1/get-$xhr,domain=camsexbabe.nl|potwm.com
-@@||hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.*%3d128x128$image,domain=blog.livedoor.jp
 ||hb.afl.rakuten.co.jp^$badfilter
 ||hb.afl.rakuten.co.jp^$3p
 @@||names.org^$cname
@@ -96279,6 +96284,7 @@ fontspace.com#@#.container-ads
 ||elpais.com/t.gif$image,1p,redirect-rule=1x1.gif,important
 ||fwcdn2.com^$badfilter
 ||minute.ly^$3p,badfilter
+||tldw.me^$3p,badfilter
 @@||cdn.branch.io/branch-latest.min.js$script,domain=ecwid.com
 @@||app.link/_r?sdk$script,domain=ecwid.com
 @@||api2.branch.io/v1/url$xhr,domain=ecwid.com
@@ -96334,7 +96340,9 @@ beckershospitalreview.com##html,body:style(overflow: auto !important)
 #@#.ad-image
 /adsBlob/*$badfilter
 *$frame,domain=mcrypto.club|luckydice.net,redirect-rule=noopframe
+||cryptocoinsad.com/ads/show.php$frame,redirect-rule=noop.html
 ||commentsengine.com^$badfilter
+@@||lshstream.xyz/hls/ga4/$xhr
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
