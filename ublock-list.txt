@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TupO5YIPcxUUMItNMa4rsA
+! Checksum: EZyO++hkR+pK4sUraej14g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207181429
-! Last Modified: 2022年07月18日 14:29
+! Version: 202207182045
+! Last Modified: 2022年07月18日 20:45
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53954,6 +53954,7 @@ tf2r.com#@#.adverts
 ||shareasale.com/image/$third-party
 ||shareflare.net/images/$third-party
 ||shink.in/js/script.js
+||shopmyshelf.us^$third-party
 ||shorte.st/link-converter.min.js
 ||sikr.chimeratool.com^
 ||siteground.com/img/affiliate/
@@ -57490,6 +57491,7 @@ geekspin.co,thedriven.io##.code-block-7
 getdroidtips.com,welovetrump.com,wisden.com##.code-block-8
 androidsage.com,bigleaguepolitics.com##.code-block-9
 estnn.com##.code-block-label
+unmineablesbest.com##.cointraffic2
 link-base.org##.col-lg-12
 mydramalist.com##.col-lg-4 > .clear
 upi.com##.col-md-12 > table
@@ -57584,6 +57586,7 @@ eviemagazine.com##.css-re7z9l
 healthline.com##.css-rjh5b
 healthline.com##.css-umsscj
 izismile.com##.css-widget-item-wrap
+unmineablesbest.com##.ct_ipd728x90
 comparitech.com##.ct_popup_modal
 androidcentral.com,techspot.com##.cta
 dailydot.com##.cta-article-wrapper
@@ -58098,6 +58101,7 @@ greatbritishlife.co.uk##.lp_track_vertical2
 thestreet.com##.m-balloon-header
 si.com##.m-balloon-header--spacer
 politifact.com##.m-billboard
+si.com##.m-embed
 aol.com##.m-healthgrades
 euronews.com##.m-object--is-branded
 euronews.com##.m-object--is-partner-content
@@ -58909,6 +58913,7 @@ businessday.ng##.uiazojl
 nullpress.net##.uinyk-link
 zpaste.net##.uk-animation-shake
 doodrive.com##.uk-margin > [href] > img
+unmineablesbest.com##.uk-padding-remove-right.uk-padding-remove-left.uk-padding
 igg-games.com##.uk-panel.widget-text
 softarchive.is##.un-link
 pixhost.to##.under-image
@@ -103497,8 +103502,8 @@ beckershospitalreview.com##html,body:style(overflow: auto !important)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 08 Jul 2022 13:13:55 GMT
-# entries:        3644
+# last updated:   Mon, 18 Jul 2022 10:51:14 GMT
+# entries:        3645
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -104482,6 +104487,7 @@ beckershospitalreview.com##html,body:style(overflow: auto !important)
 127.0.0.1 ambiguousquilt.com
 127.0.0.1 ambitiousagreement.com
 127.0.0.1 americash.com
+127.0.0.1 ampleclick.com
 127.0.0.1 amung.us
 127.0.0.1 analytics-production.hapyak.com
 127.0.0.1 analytics.adpost.org
