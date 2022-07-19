@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i6ND0HsQWXg7RTAA/EiMmA
+! Checksum: T2YtW1Yvdc7u9wOVFrwSqQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207191427
-! Last Modified: 2022年07月19日 14:27
+! Version: 202207192046
+! Last Modified: 2022年07月19日 20:46
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -65279,7 +65279,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /request_tracker+
 /RequestTrackerServlet?
 /resmeter.js
-/resonance.js
 /ResonateAnalytics.
 /resource?zones=
 /resourcestat.
@@ -77496,6 +77495,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||anthropologie.com/XgWM9nuH/init.js
 ||apartmenttherapy.com/jAYekY18/init.js
 ||auctionzip.com/eKtvxkQ2/init.js
+||bathandbodyworks.com/lsXlyYa5/init.js
 ||bloomberg.com/8FCGYgk4/init.js
 ||booktopia.com.au/Ns7aBMIv/init.js
 ||build.com/2Ztkihy4/init.js
@@ -77560,7 +77560,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cb-mms.carbuyer.co.uk^
 ||cdn-alliancegravity.s3.amazonaws.com^
 ||cmp.courrierinternational.com^
-||cmp.dmgmediaprivacy.co.uk^
 ||cmp.finn.no^
 ||cmp.huffingtonpost.fr^
 ||cmp.lavie.fr^
@@ -95293,11 +95292,6 @@ recensionihot.com#@#a[href^="https://www.moscarossa.biz/"]
 @@||nascar.com/tagmanager/*/prod/advertising-tags.js$script,1p
 ||allporncomic.com^*=$script,badfilter
 @@||js.maxmind.com/js/apis/geoip2/*/geoip2.js$script,domain=12handz.com
-||cmp.dmgmediaprivacy.co.uk^$badfilter
-||cmp.dmgmediaprivacy.co.uk^$3p
-@@||cmp.dmgmediaprivacy.co.uk^$frame,script,domain=metro.co.uk
-@@||cmp.dmgmediaprivacy.co.uk^$domain=inews.co.uk
-@@||cmp.dmgmediaprivacy.co.uk^$domain=gbnews.uk
 @@||downdetector.com/*/javascript/adscript.js$script
 @@||static.ziffdavis.com/sitenotice/evidon-barrier.js$script,domain=allestoringen.*|downdetector.*|xn--allestrungen-9ib.*
 @@||static.ziffdavis.com/sitenotice/*/translations/$script,domain=allestoringen.*|downdetector.*|xn--allestrungen-9ib.*

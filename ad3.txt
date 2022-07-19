@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xxbN1wlNJvbkBFD2JMAOZw
+! Checksum: vvcZJgyJc7V0KXSd9yV+cw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207191024
-! Last Modified: 2022年07月19日 10:24
+! Version: 202207192046
+! Last Modified: 2022年07月19日 20:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2385,6 +2385,10 @@ ubmcmm.baidustatic.com
 ##a[href*=".nfrgeek.com:"]
 ||666727.xyz^
 ||x4c43.com^
+||zjgjzzy.online^
+||cattleman.cn^
+||oiuqwppcsdf.com^
+||5xokfmru.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -28690,7 +28694,6 @@ m.babytree.com##script + a[class]
 /request_tracker+
 /RequestTrackerServlet?
 /resmeter.js
-/resonance.js
 /ResonateAnalytics.
 /resource?zones=
 /resourcestat.
@@ -40907,6 +40910,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||anthropologie.com/XgWM9nuH/init.js
 ||apartmenttherapy.com/jAYekY18/init.js
 ||auctionzip.com/eKtvxkQ2/init.js
+||bathandbodyworks.com/lsXlyYa5/init.js
 ||bloomberg.com/8FCGYgk4/init.js
 ||booktopia.com.au/Ns7aBMIv/init.js
 ||build.com/2Ztkihy4/init.js
@@ -40971,7 +40975,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cb-mms.carbuyer.co.uk^
 ||cdn-alliancegravity.s3.amazonaws.com^
 ||cmp.courrierinternational.com^
-||cmp.dmgmediaprivacy.co.uk^
 ||cmp.finn.no^
 ||cmp.huffingtonpost.fr^
 ||cmp.lavie.fr^
