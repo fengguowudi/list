@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ity+1DnP8MSwNIPRs4/vWA
+! Checksum: i6ND0HsQWXg7RTAA/EiMmA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207191024
-! Last Modified: 2022年07月19日 10:24
+! Version: 202207191427
+! Last Modified: 2022年07月19日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -95297,6 +95297,7 @@ recensionihot.com#@#a[href^="https://www.moscarossa.biz/"]
 ||cmp.dmgmediaprivacy.co.uk^$3p
 @@||cmp.dmgmediaprivacy.co.uk^$frame,script,domain=metro.co.uk
 @@||cmp.dmgmediaprivacy.co.uk^$domain=inews.co.uk
+@@||cmp.dmgmediaprivacy.co.uk^$domain=gbnews.uk
 @@||downdetector.com/*/javascript/adscript.js$script
 @@||static.ziffdavis.com/sitenotice/evidon-barrier.js$script,domain=allestoringen.*|downdetector.*|xn--allestrungen-9ib.*
 @@||static.ziffdavis.com/sitenotice/*/translations/$script,domain=allestoringen.*|downdetector.*|xn--allestrungen-9ib.*
@@ -96243,6 +96244,9 @@ beckershospitalreview.com##html,body:style(overflow: auto !important)
 *$frame,domain=mcrypto.club|luckydice.net,redirect-rule=noopframe
 ||cryptocoinsad.com/ads/show.php$frame,redirect-rule=noop.html
 ||commentsengine.com^$badfilter
+thequint.com#@#._4xQrn
+thequint.com##._4xQrn:style(max-height:0px)
+thequint.com##span:has-text(ADVERTISEMENT)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
