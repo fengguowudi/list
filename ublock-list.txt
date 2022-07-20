@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3yvjtW95erSPmxa1j4iIRA
+! Checksum: ErEjNxosE8Be8Dw2SptIDA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207201427
-! Last Modified: 2022年07月20日 14:27
+! Version: 202207202044
+! Last Modified: 2022年07月20日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20950,6 +20950,7 @@ _800x80_
 ##.ads.MREC3
 ##.ads.MREC4
 ##.ads.bottom
+##.ads.box
 ##.ads.cell
 ##.ads.cta
 ##.ads.grid-layout
@@ -31976,6 +31977,7 @@ _800x80_
 ###outbrainAdWrapper
 ###outbrain_dual_ad_fs_0_dual
 ###outbrain_vertical
+###sponsored-outbrain-1
 ##.Cheat__outbrain
 ##.fake-container-for-outbrain-sticky
 ##.ht_outbrain
@@ -35423,6 +35425,7 @@ tf2r.com#@#.adverts
 ||catgride.com^
 ||cathodecreped.com^
 ||catiligh.ru^
+||cationinina.one^
 ||catnipsdaymen.com^
 ||catsupsfloit.com^
 ||catverticalposterity.com^
@@ -43140,6 +43143,7 @@ tf2r.com#@#.adverts
 ||outtunova.com^
 ||outwhirlipedeer.com^
 ||ouzoadru.net^
+||ovdimin.buzz^
 ||ovemen.com^
 ||ovenbifaces.cam^
 ||overcomecheck.com^
@@ -55284,6 +55288,7 @@ tf2r.com#@#.adverts
 ||smallseotools.com/images/$image,domain=smallseotools.com
 ||smh.com.au/assets/europa.
 ||smn-news.com/images/banners/
+||soap2day.show/ajax/script.php
 ||socket.streamable.com^
 ||softcab.com/google.php?
 ||sonichits.com/tf.php
@@ -56688,6 +56693,7 @@ animexin.xyz###overplay
 modthesims.info###pagenavigation > div > small
 seeklogo.com###panelAdShutterStockPromo
 hwbot.org###partner-tiles
+cnn.com###partner-zone
 hbr.org###partnerCenter
 fastseduction.com,independent.co.uk###partners
 arrivealive.co.za###partners_container
@@ -57671,6 +57677,7 @@ medicalnewstoday.com##.css-20w1gi
 businessnewsdaily.com##.css-5d7ylg-AdContainer
 stylist.co.uk##.css-8me5ln
 eviemagazine.com##.css-9n98hk
+nytimes.com##.css-bs95eu
 eviemagazine.com##.css-ipk9pc
 eviemagazine.com##.css-re7z9l
 healthline.com##.css-rjh5b
@@ -67793,6 +67800,7 @@ _mongo_stats/
 ||adinsight.co.kr^$third-party
 ||adinsight.com^$third-party
 ||adinte.jp^$third-party
+||adjust.com^$third-party
 ||adku.co^$third-party
 ||adku.com^$third-party
 ||admantx.com^$third-party
@@ -86993,6 +87001,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tracking.kussladies.de^
 ||tracking.ladies.de^
 ||tracking.latinaladies.de^
+||tracking.live.wetter.at^
 ||tracking.massierendeladies.de^
 ||tracking.mollyladies.de^
 ||tracking.noen.at^
@@ -96279,11 +96288,6 @@ oasport.it#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;m
 @@||monetate.net^$script,xhr,domain=fingerhut.com
 ||hits.informer.com/log.php$image,domain=funny.pho.to,redirect-rule=1x1.gif
 @@||console.otc.t-systems.com/mrs/rest/api/v1/log$xhr,1p
-!#if env_firefox
-@@*$ghide,domain=ebay.*
-@@||rover.ebay.*/roverimp/$image,1p
-@@||rover.ebay.*/roverclk/$image,1p
-!#endif
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=factable.com
 @@||securepubads.g.doubleclick.net/gpt/*$script,domain=factable.com
 factable.com##.puicontainer
@@ -96299,6 +96303,7 @@ beckershospitalreview.com##html,body:style(overflow: auto !important)
 thequint.com#@#._4xQrn
 thequint.com##._4xQrn:style(max-height:0px)
 thequint.com##span:has-text(ADVERTISEMENT)
+@@||gstatic.*/recaptcha/
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
