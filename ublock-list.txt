@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zO+PzmM8NWdyjXUY9wO8UA
+! Checksum: NylRYRAvyDW+gCOBjfwjQQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207211010
-! Last Modified: 2022年07月21日 10:10
+! Version: 202207211430
+! Last Modified: 2022年07月21日 14:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -10777,6 +10777,7 @@ _800x80_
 ###ads728top
 ###ads728x90
 ###ads728x90_2
+###ads728x90top
 ###ads790
 ###adsBannerFrame
 ###adsBar
@@ -17985,6 +17986,8 @@ _800x80_
 ##.ad-container--featured_videos
 ##.ad-container--inline
 ##.ad-container--leaderboard
+##.ad-container--masthead
+##.ad-container--mrec
 ##.ad-container--stripe
 ##.ad-container--top
 ##.ad-container-160x600
@@ -26731,6 +26734,7 @@ _800x80_
 ##.lg-ads-311x500
 ##.lg-ads-635x100
 ##.lg-ads-skin-container
+##.lg-infeed-wrapper
 ##.lgRecAd
 ##.lg_ad
 ##.liberty-ad-renderer-iframe
@@ -27866,6 +27870,7 @@ _800x80_
 ##.pencil-ad-section
 ##.pencil_ad
 ##.performancingads_region
+##.perm_ad
 ##.pf_content_ad
 ##.pf_sky_ad
 ##.pf_top_ad
@@ -76525,6 +76530,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beam.bankrate.com^
 ||beam.giraffe360.com^
 ||bfp.capitalone.com^
+||bhphotovideo.com/aperture/client/logs
+||bhphotovideo.com/aperture/shared/js/dataLayer.js
 ||bing.com/fd/ls/GLinkPing.aspx?
 ||bing.com/mouselog
 ||binocule21c.merriam-webster.com^
