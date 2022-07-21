@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: w/orkSu9OdKTkQePeSazuA
+! Checksum: cPmc4Anv6rD9iLp2Di3z5Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207211430
-! Last Modified: 2022年07月21日 14:30
+! Version: 202207212047
+! Last Modified: 2022年07月21日 20:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2423,6 +2423,9 @@ ubmcmm.baidustatic.com
 ||yanyuda.xyz^
 ||xmgdgo.cn^
 ||aongsond.uno^
+||riy9qqfu.xyz^
+||riy9qqfu.club^
+||wohuamanhua.com^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -20200,6 +20203,8 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||wuyong.fun^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=wuyong.fun
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -51547,6 +51552,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||homedepotrebates11percent.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com
 @@||humaninterest.com/api/analytics/$script,~third-party
+@@||hyper.ag/api/sites/*/analytics/$~third-party
 @@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
 @@||identity.mparticle.com^$xmlhttprequest
 @@||idfcbank.com/static/features/*/scripts/FingerPrint.js$script,~third-party

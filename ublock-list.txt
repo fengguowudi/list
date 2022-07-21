@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NylRYRAvyDW+gCOBjfwjQQ
+! Checksum: WtC+7NP4e6i/UbjhAQsJGg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207211430
-! Last Modified: 2022年07月21日 14:30
+! Version: 202207212047
+! Last Modified: 2022年07月21日 20:47
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54956,6 +54956,7 @@ tf2r.com#@#.adverts
 ||animesuge.to/E/aircraftmighty.com/
 ||anisearch.com/amazon
 ||aolcdn.com/ads/$script
+||apkmody.io/ads
 ||apl95.me/js/pop.js
 ||armyrecognition.com/images/stories/customer/
 ||artdaily.cc/banners/
@@ -58716,7 +58717,7 @@ independent.co.uk##.sc-jonzHS
 sankakucomplex.com##.scad
 bangordailynews.com##.scaip
 newindianexpress.com##.scc
-hentaihaven.icu,hentaihaven.xxx,hentaistream.tv##.script_manager_video_master
+hentaihaven.icu,hentaihaven.xxx,hentaistream.tv,nhentai.io##.script_manager_video_master
 readmng.com##.scroll_target_top
 9anime.to,tennisuptodate.com##.sda
 apotelyt.com##.sdbrUnit-Flex100
@@ -88203,6 +88204,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||homedepotrebates11percent.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com
 @@||humaninterest.com/api/analytics/$script,~third-party
+@@||hyper.ag/api/sites/*/analytics/$~third-party
 @@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
 @@||identity.mparticle.com^$xmlhttprequest
 @@||idfcbank.com/static/features/*/scripts/FingerPrint.js$script,~third-party
