@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eTpf01jT8BIqEHteVt1BbQ
+! Checksum: ejaZ8mmHA95KjqjYlpG1sQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207231010
-! Last Modified: 2022年07月23日 10:10
+! Version: 202207231426
+! Last Modified: 2022年07月23日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -91985,6 +91985,10 @@ sexmadeathome.com###dclm_modal_screen
 nylondolls.com##+js(aopr, document.dispatchEvent)
 sidereel.com###netaktion_ad
 techymedies.com##+js(acis, eval, replace)
+techymedies.com###wpsafe-generate,#wpsafe-link,.bt-success:style(display: block !important;)
+techymedies.com###wpsafe-time:upward([id^="wpsafe-wait"])
+disheye.com##+js(nano-sib, count, *)
+disheye.com,techymedies.com##+js(set, blurred, false)
 blogpascher.com##+js(nostif, document.location)
 toptap.website##+js(aopr, app_vars.force_disable_adblock)
 toptap.website##+js(set, blurred, false)
@@ -96402,6 +96406,7 @@ thequint.com##._4xQrn:style(max-height:0px)
 thequint.com##span:has-text(ADVERTISEMENT)
 @@||gstatic.*/recaptcha/
 ||wpfc.ml^$image,redirect-rule=1x1.gif,domain=thestoryexchange.org
+cdc.gov##+js(set, window.s, undefined)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
