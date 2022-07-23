@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ejaZ8mmHA95KjqjYlpG1sQ
+! Checksum: 5ODQYa2KAUNklky2T4Ub9g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207231426
-! Last Modified: 2022年07月23日 14:26
+! Version: 202207232038
+! Last Modified: 2022年07月23日 20:38
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -76822,7 +76822,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||github.com/_private/browser/stats
 ||glassmoni.researchgate.net^
 ||global.canon/00cmn/js/*/analytics-
-||global.ssl.fastly.net^$script,domain=10play.com.au|allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|harborfreight.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
+||global.ssl.fastly.net^$domain=10play.com.au|allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|harborfreight.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
 ||globes.co.il/shared/s.ashx?
 ||gmonitor.aliimg.com^
 ||gnar.grammarly.com^
@@ -94273,6 +94273,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 !#endif
 ||skyblockqolhub.com^$all
 ||fetishpartner.com^$all
+||facevideosc.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -96407,6 +96408,7 @@ thequint.com##span:has-text(ADVERTISEMENT)
 @@||gstatic.*/recaptcha/
 ||wpfc.ml^$image,redirect-rule=1x1.gif,domain=thestoryexchange.org
 cdc.gov##+js(set, window.s, undefined)
+@@||soranews24.com/gtm.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
