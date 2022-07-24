@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kSFAseCpULPsjS42/D/i8A
+! Checksum: QSoFNeigSzKxXpbugvkVlg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207240225
-! Last Modified: 2022年07月24日 02:25
+! Version: 202207241021
+! Last Modified: 2022年07月24日 10:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -28902,6 +28902,7 @@ _800x80_
 ##.sideBySideAds
 ##.sideToSideAd
 ##.side_300_ad
+##.side__ad
 ##.side__ad-box
 ##.side_ad
 ##.side_ad2
@@ -62800,6 +62801,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /br-trk-
 /br-trk.
 /br_imps/add_item?
+/branchMetrics.
 /brandAnalytics.js
 /brightcove/tracking/*
 /brightcoveGoogleAnalytics.
@@ -69936,6 +69938,7 @@ _mongo_stats/
 ||spectate.com^$third-party
 ||speed-trap.com^$third-party
 ||speedcurve.com^$third-party
+||speedhq.net^$third-party
 ||spklw.com^$third-party
 ||splitbee.io^$third-party
 ||splittag.com^$third-party
@@ -75799,6 +75802,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.ipmgroup.be^
 ||stats.tipser.com^
 ||t.ofsys.com^
+||tag.agrvt.com^
 ||tag.goldenbees.fr^
 ||tag.leadplace.fr^
 ||tim.nextinpact.com^
@@ -87160,6 +87164,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||lecho.be/fb2?
 ||lecho.be/tag/tag-
 ||lecho.be/track/
+||lefigaro.fr/ext/analytics
+||lefigaro.fr/ext/figanalytics
 ||leparking-moto.fr/jsV155/Tracker.js
 ||leparking.fr/*/Tracker.js
 ||liberation.fr/newsite/js/cmp/
@@ -91716,7 +91722,7 @@ watchhouseonline.net,watchtheofficeonline.net##.h_content
 watchhouseonline.net###custom_html-6
 watchtheofficeonline.net###custom_html-7
 watchhouseonline.net,watchtheofficeonline.net##.module_single_ads
-apkhex.com##+js(acis, eval, replace)
+apkhex.com##+js(set, style, noopFunc)
 love-stoorey210.net##+js(acis, document.addEventListener, google_ad_client)
 indiansexstories2.net,issstories.xyz##+js(set, history.pushState, noopFunc)
 indiansexstories2.net##[href^="https://a.videobaba.xyz/geoip/link.php"]
@@ -103506,7 +103512,7 @@ cdc.gov##+js(set, window.s, undefined)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 28 Jul 2002 00:00:00
+# start date:    Mon, 29 Jul 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
