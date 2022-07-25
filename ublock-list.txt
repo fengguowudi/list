@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QYicqqtuIz5s145+Ic20iw
+! Checksum: zmvR1DaqNbEaJ3ZetAt04g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207251010
-! Last Modified: 2022年07月25日 10:10
+! Version: 202207251429
+! Last Modified: 2022年07月25日 14:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -96298,6 +96298,7 @@ pearsonclinical.com##.aligner
 @@||docer.pl^$ghide
 docer.pl#@##ad
 docer.pl#@#[class^="ad-"]
+@@||webshark.pl^$script,domain=doceru.com
 @@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=trygghansa.se
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=realmadrid.com
 @@||giantbomb.redvideo.redventures.io^$xhr,domain=giantbomb.com
@@ -96341,7 +96342,6 @@ si.com#@#.is-below-header-ad
 @@||googletagmanager.com/gtm.js$script,domain=kingarthurbaking.com
 cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||psl.2cycomic.com^$script,domain=yemancomic.com
-@@||v.fwmrm.net/ad/g/$script,domain=embed.sanoma-sndp.fi
 @@||builder-assets.unbounce.com^$css,domain=duden.de
 @@||builder-assets.unbounce.com/published-js/main.bundle-$script,domain=duden.de
 @@||ricasdelicias.online/social.php$popup,domain=animesonline.cz
