@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XB87U9suSk8x/J6ZRyDrgA
+! Checksum: QYicqqtuIz5s145+Ic20iw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207250226
-! Last Modified: 2022年07月25日 02:26
+! Version: 202207251010
+! Last Modified: 2022年07月25日 10:10
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -61650,6 +61650,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||www.google.com/images/icons/feature/adsense_$image
 @@||www.google.com/images/icons/product/adsense-$image
 @@||www.googleadservices.*/aclk?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk|googleadservices.com
+@@||v.fwmrm.net/ad/g/1?*_html5_live
 @@||quantcast.com/advertise$domain=quantcast.com
 @@||dashboard.idealmedia.com^$~third-party
 @@||dashboard.lentainform.com^$~third-party
@@ -67784,6 +67785,7 @@ _mongo_stats/
 ||test.vast^
 ||the-ozone-project.com^
 ||thefontzone.com^
+||tncid.app^
 ||trackclicks.info^
 ||trkbc.com^
 ||tru.am^
@@ -76016,6 +76018,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||er.sanoma-sndp.fi/stats/
 ||inpref.s3.amazonaws.com^$third-party
 ||insight.fonecta.fi^
+||nelonenmedia.fi/logger/
 ||tags.op-palvelut.fi^
 ||vine.eu/track/
 ||links.boom.ge^
@@ -76216,6 +76219,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.cizion.com^
 ||log.mofa.go.kr^
 ||log.targetpush.co.kr^
+||logs-partners.coupang.com^
 ||megadata.co.kr^
 ||mtag.mman.kr^
 ||ngc1.nsm-corp.com^
@@ -88742,6 +88746,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||nettix.fi^*_analytics.js$domain=nettiauto.com|nettikaravaani.com|nettikone.com|nettimokki.com|nettimoto.com|nettivaraosa.com
 @@||pelaaja.fi/sites/default/files/googleanalytics/analytics.js$~third-party
 @@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi
+@@||userneeds.com^$domain=foreca.fi
 @@||widgets.spklw.com/v1/$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
 @@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 !---------- Hebrew ----------
@@ -94584,7 +94589,6 @@ knowyourmeme.com##+js(nosiif, blogherads)
 ||ggwebcast.com/*/kaltura/ga/urchin.js$script,redirect=noopjs
 @@||shop.puppetlabs.com/store/js/services/googleAnalytics.js$script,1p
 @@||premium.soundcloud.com/*/js/tracking.js$script,1p
-@@||snoobi.com^$script,domain=kartta.hel.fi
 @@||googletagmanager.com/gtm.js?$domain=willyweather.com.au
 @@||static.adf.ly^$image,script,css,domain=q.gs
 ||emarketer.com^$badfilter
@@ -103530,7 +103534,7 @@ cdc.gov##+js(set, window.s, undefined)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 29 Jul 2002 00:00:00
+# start date:    Tue, 30 Jul 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
