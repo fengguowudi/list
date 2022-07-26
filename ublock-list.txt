@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VUyrnedqFwQNVW/HPxBf/A
+! Checksum: srE6l1e2VqAnPQW5PXHS6Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207260228
-! Last Modified: 2022年07月26日 02:28
+! Version: 202207261024
+! Last Modified: 2022年07月26日 10:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8970,6 +8970,7 @@ _800x80_
 ###ad-sidebarleft-bottom
 ###ad-sidebarleft-top
 ###ad-single-spotlight-container
+###ad-site-header
 ###ad-skin
 ###ad-skm-below-content
 ###ad-sky
@@ -32171,6 +32172,7 @@ fcbarcelona.dk#@##article_ad
 catb.org#@##banner-ad
 hifi-forsale.co.uk#@##centerads
 wsj.com#@##footer-ads
+deepgoretube.site#@##fwdevpDiv0
 developers.google.com#@##google-ads
 yuukinohana.co.jp#@##gwd-ad
 plaza.rakuten.co.jp#@##headerAd
@@ -57787,6 +57789,7 @@ c-span.org##.cspan-ad-still-wrapper
 healthline.com##.css-0 + div:not([class]):last-of-type
 healthline.com##.css-12efcmn
 sbs.com.au##.css-14lcahw-MuiTypography-root
+stylist.co.uk##.css-17xu4dw
 medicalnewstoday.com,psychcentral.com##.css-1cg0byz
 healthline.com##.css-1d8h8gm
 ladbible.com##.css-1dgm0zi-Advert
@@ -57815,6 +57818,7 @@ myfitnesspal.com##.css-oex058
 myfitnesspal.com##.css-pummgu
 eviemagazine.com##.css-re7z9l
 healthline.com##.css-rjh5b
+stylist.co.uk##.css-rybqcx
 healthline.com##.css-umsscj
 izismile.com##.css-widget-item-wrap
 unmineablesbest.com##.ct_ipd728x90
@@ -103556,7 +103560,7 @@ cdc.gov##+js(set, window.s, undefined)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Tue, 30 Jul 2002 00:00:00
+# start date:    Wed, 31 Jul 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
