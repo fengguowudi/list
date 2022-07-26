@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: e2dqQh7dW3qG2/xHjyz7DA
+! Checksum: xhF17McCwEL83W8DR8R1AA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207262046
-! Last Modified: 2022年07月26日 20:46
+! Version: 202207270227
+! Last Modified: 2022年07月27日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -96486,6 +96486,7 @@ thequint.com##span:has-text(ADVERTISEMENT)
 ||wpfc.ml^$image,redirect-rule=1x1.gif,domain=thestoryexchange.org
 cdc.gov##+js(set, window.s, undefined)
 ||da-services.ch^$3p,badfilter
+@@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager_gtm.js:5,domain=ebay-kleinanzeigen.de
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
