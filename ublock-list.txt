@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tcE/kwpuuOW36RO/zTkvqQ
+! Checksum: YL8jfIw6+KPvGxsqQiq85A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207272049
-! Last Modified: 2022年07月27日 20:49
+! Version: 202207280226
+! Last Modified: 2022年07月28日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -58131,6 +58131,7 @@ lyricsmode.com##.h113
 superiorpics.com##.h250
 lyricsmode.com##.h253
 playasolibizaradio.fm##.h_banner
+heic2jpg.com,jpg2png.com,png2jpg.com,webptojpeg.com,wordtojpeg.com##.ha
 runtastic.com##.halfpage
 ausbt.com.au##.halfpage-homepage
 anime-planet.com##.halo
@@ -58164,6 +58165,7 @@ hd-trailers.net##.header-win
 gelbooru.com##.headerAd
 thelakewoodscoop.com##.headerPromo
 gautengnewspaper.co.za##.header__banner
+heic2jpg.com,jpg2png.com,png2jpg.com,webptojpeg.com,wordtojpeg.com##.header__right
 manofmany.com##.header_banner_wrap
 koreaherald.com##.header_bnn
 phonearena.com##.heading-deal
@@ -96499,6 +96501,14 @@ thequint.com##span:has-text(ADVERTISEMENT)
 cdc.gov##+js(set, window.s, undefined)
 ||da-services.ch^$3p,badfilter
 @@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager_gtm.js:5,domain=ebay-kleinanzeigen.de
+@@||novelgames.com^$script,1p
+@@||cdn.intergi.com^$script,domain=novelgames.com
+@@||cdn.intergient.com^$domain=novelgames.com
+@@||cdn.intergient.com^$1p
+*$image,domain=novelgames.com,redirect-rule=1x1.gif
+*$script,domain=novelgames.com,redirect-rule=noopjs
+*$xhr,domain=novelgames.com,redirect-rule=nooptext
+novelgames.com##+js(nano-sib)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
