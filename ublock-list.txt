@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4+GIZ5BTainkmq9wIHuCZg
+! Checksum: lLOAL9g4HURHs4CQxBK3YA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207271017
-! Last Modified: 2022年07月27日 10:17
+! Version: 202207271428
+! Last Modified: 2022年07月27日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -61545,6 +61545,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||asahicom.jp/ad/js/video/ytpfp.js$domain=asahi.com
 @@||asahicom.jp/ads/$image,script,stylesheet,domain=asahi.com
 @@||ascii.jp/img/ad/yayoi/rank_$image,~third-party
+@@||assets.evolutionadv.it/prebid/$script,domain=comingsoon.it
 @@||astatic.ccmbg.com^*/prebid$script,domain=linternaute.com
 @@||banc.jp/images/ad/$image,~third-party
 @@||bancodevenezuela.com/imagenes/publicidad/$~third-party
