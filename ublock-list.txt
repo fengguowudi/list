@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dO57v9FXASNknv8O2qny7Q
+! Checksum: hxv91fy17WnhhaU7rrr54A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207281007
-! Last Modified: 2022年07月28日 10:07
+! Version: 202207281428
+! Last Modified: 2022年07月28日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16803,6 +16803,7 @@ _800x80_
 ###zone_a_ad
 ###zone_b_ad
 ###zone_c_ads
+###zsAdvertisingBanner
 ###zztextad
 ##.-advertsSidebar
 ##.AD-POST
@@ -87307,6 +87308,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||analytics.shop.hisense.com^
 ||api.baike.sogou.com/dr/p1.gif?
 ||applog.yiche.com^
+||audit.qiuwen.wiki^
 ||autohome.com.cn/deliver?
 ||autohome.com.cn/impress?
 ||autohome.com.cn/realdeliver?
@@ -88221,7 +88223,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||circuitv.com/assets/js/analytics.js$~third-party
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||cloud.talend.com/api/ipaas/services/analytics/$~third-party,xmlhttprequest
-@@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=winnipegfreepress.com
+@@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|winnipegfreepress.com
 @@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|myair2.resmed.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
@@ -89010,6 +89012,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/IbtRealTimeSJ/IbtRealTimeSJ.js?$domain=social.economico.pt
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/IbtRealTimeSJ/IbtRealTimeSJCore.js?$domain=social.economico.pt
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/ortc.js$domain=social.economico.pt
+@@||fiat.com.br^*/analytics.min.js$~third-party
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
 @@||googletagmanager.com/gtm.js$domain=netcombo.com.br|saraiva.com.br|superesportes.com.br|tugatech.com.pt
 @@||habibs.com.br/build/assets/js/tracking.js$domain=habibs.com.br
@@ -96505,8 +96508,8 @@ cdc.gov##+js(set, window.s, undefined)
 ||da-services.ch^$3p,badfilter
 @@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager_gtm.js:5,domain=ebay-kleinanzeigen.de
 @@||novelgames.com^$script,1p
-@@||cdn.intergi.com^$script,domain=novelgames.com
-@@||cdn.intergient.com^$domain=novelgames.com
+@@||cdn.intergi.com^$script,domain=bestiefy.com|novelgames.com
+@@||cdn.intergient.com^$domain=bestiefy.com|novelgames.com
 @@||cdn.intergient.com^$1p
 *$image,domain=novelgames.com,redirect-rule=1x1.gif
 *$script,domain=novelgames.com,redirect-rule=noopjs
