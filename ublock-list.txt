@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ePF76A9RyWnLXOnqSgxzbQ
+! Checksum: 27hgIBUIohWYt+Oa4m2YZA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207282050
-! Last Modified: 2022年07月28日 20:50
+! Version: 202207290229
+! Last Modified: 2022年07月29日 02:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -91089,7 +91089,7 @@ cloudemb.com##+js(set, console.clear, noopFunc)
 streamsb.*##+js(nowoif)
 sbfull.com,streamsb.*,view345.com##+js(aopr, DoodPop)
 sbembed.com,streamsb.*##body > div[style*="z-index:"]
-*$script,3p,denyallow=cloudflare.com|fastly.net|fluidplayer.com|gstatic.com|jsdelivr.net|jwpcdn.com|streamsb.com,domain=sbembed.com|streamsb.*
+*$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|fluidplayer.com|gstatic.com|jsdelivr.net|jwpcdn.com|streamsb.com,domain=sbembed.com|streamsb.*
 sbplay.*,sbplay1.com##+js(set, console.clear, noopFunc)
 oxl.one,sbplay1.com,sbvideo.net##+js(nosiif, 0x)
 sbplay.*##^script:has-text(debugger)
@@ -103390,6 +103390,9 @@ scanurl.net##.adsbygoogle
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||mg.xhkvff.cn^
+||mc.mwgpg.cn^
+||pm.poqwua.cn^
 ||kmu.gwmrb.cn^
 ||phk.nmkstcrt.xyz^
 ||mtur.xkmnbt.xyz^
