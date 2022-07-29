@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7w/oZPuJfnLfTUAplIrXXg
+! Checksum: 4honJxSnfAibygoGA6qrkA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207291429
-! Last Modified: 2022年07月29日 14:29
+! Version: 202207292047
+! Last Modified: 2022年07月29日 20:47
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3117,7 +3117,7 @@
 /advhd.
 /advice-ads.
 /advideo.$domain=~advideo.pro|~advideo.site
-/adview.$domain=~adview.mu|~adview.online|~adview.su
+/adview.$domain=~adview.mu|~adview.mx|~adview.online|~adview.su
 /adview/*
 /adview?
 /adview_
@@ -7291,6 +7291,7 @@ takeover_banner_
 .prebid&
 .prebid-bundle.
 .prebid.$domain=~prebid.org
+/_js/prbd_6.19.0.js
 /ad/postbid_
 /adn-hb/*
 /adn.ano.
@@ -22119,6 +22120,7 @@ _800x80_
 ##.adver
 ##.adver-block
 ##.adver-carousel-cards
+##.adver-header
 ##.adver-left
 ##.adver-text
 ##.adver-wrapper--250
@@ -25940,6 +25942,7 @@ _800x80_
 ##.home-features-ad
 ##.home-module--advertisement
 ##.home-module_ad
+##.home-page-ad
 ##.home-sidebar-ad
 ##.home-sidebar-ad-300
 ##.home-slider-ads
@@ -54040,6 +54043,7 @@ tf2r.com#@#.adverts
 ||glam.com/gad/
 ||go.bloxplay.com^
 ||go.ezodn.com^
+||go.onelink.me^
 ||goldmoney.com/~/media/Images/Banners/
 ||google.com/adsense/ad
 ||google.com/adsense/domains
@@ -58487,6 +58491,7 @@ dailymail.co.uk##.mol-fe-vouchercodes-redesign
 monsoonjournal.com##.mom-e3lanat-wrap
 mondoweiss.net##.mondo-ads-widget
 joindota.com##.monkey-container
+flickr.com##.moola-search-div.main
 apptrigger.com,fansided.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.mosaic-banner
 thepostmillennial.com##.mot-container
 thepostmillennial.com##.mot-label
@@ -59341,6 +59346,7 @@ premiumtimesng.com##.wpb_raw_code > .wpb_wrapper
 drphil.to##.wpfp_custom_popup
 sashares.co.za##.wppopups-whole
 theregister.com##.wptl
+windowsreport.com##.wr-marketing-cta-alt
 memeburn.com,ventureburn.com##.wrapper--grey
 paultan.org##.wrapper-footer
 wsj.com##.wsj-ad-label
@@ -73344,6 +73350,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.live.com^
 ||analytics.livestream.com^
 ||analytics.logsss.com^
+||analytics.m7g.twitch.tv^
 ||analytics.mailmunch.co^
 ||analytics.matchbin.com^
 ||analytics.midwesternmac.com^
@@ -88990,6 +88997,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||scdn.cxense.com/cx.cce.js$domain=mainichi.jp|wpb.shueisha.co.jp
 @@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net|mainichi.jp
+@@||science-net.kahaku.go.jp/app/js/analytics.js$~third-party
 @@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||staff-start.com/js/track/$domain=enoteca.co.jp|francfranc.com|store.alpen-group.jp
 @@||support-beacon.nakanohito.jp/widget/$xmlhttprequest
@@ -103667,7 +103675,7 @@ scanurl.net##.adsbygoogle
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 28 Jul 2022 10:17:18 GMT
-# entries:        3642
+# entries:        3638
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -104021,7 +104029,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 adreporting.com
 127.0.0.1 adrevolver.com
 127.0.0.1 adriver.ru
-127.0.0.1 adrolays.de
 127.0.0.1 adrotate.de
 127.0.0.1 adrotic.girlonthenet.com
 127.0.0.1 adrta.com
@@ -104133,6 +104140,7 @@ scanurl.net##.adsbygoogle
 127.0.0.1 ads.fastcomgroup.it
 127.0.0.1 ads.fasttrack-ignite.com
 127.0.0.1 ads.faxo.com
+127.0.0.1 ads.femmefab.nl
 127.0.0.1 ads.ferianc.com
 127.0.0.1 ads.filmup.com
 127.0.0.1 ads.financialcontent.com
@@ -104364,6 +104372,7 @@ scanurl.net##.adsbygoogle
 127.0.0.1 ads2.brazzers.com
 127.0.0.1 ads2.clearchannel.com
 127.0.0.1 ads2.contentabc.com
+127.0.0.1 ads2.femmefab.nl
 127.0.0.1 ads2.gamecity.net
 127.0.0.1 ads2.hsoub.com
 127.0.0.1 ads2.net-communities.co.uk
@@ -104643,7 +104652,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 als-svc.nytimes.com
 127.0.0.1 amazingcounters.com
 127.0.0.1 amazon-adsystem.com
-127.0.0.1 amazonaax.com
 127.0.0.1 ambiguousquilt.com
 127.0.0.1 ambitiousagreement.com
 127.0.0.1 americash.com
@@ -104865,7 +104873,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 benfly.net
 127.0.0.1 berp.com
 127.0.0.1 bestboundary.com
-127.0.0.1 bestsearch.net
 127.0.0.1 bewilderedblade.com
 127.0.0.1 bfmio.com
 127.0.0.1 bhcumsc.com
@@ -105128,7 +105135,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 consensad.com
 127.0.0.1 consensu.org
 127.0.0.1 contadores.miarroba.com
-127.0.0.1 contaxe.de
 127.0.0.1 content.acc-hd.de
 127.0.0.1 content.ad
 127.0.0.1 content22.online.citi.com
@@ -105292,7 +105298,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 doubtfulrainstorm.com
 127.0.0.1 downloadr.xyz
 127.0.0.1 dpbolvw.net
-127.0.0.1 dpgawov.com
 127.0.0.1 dpu.samsungelectronics.com
 127.0.0.1 dq95d35.com
 127.0.0.1 drabsize.com
@@ -105674,7 +105679,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 ientrymail.com
 127.0.0.1 iesnare.com
 127.0.0.1 ifa.tube8live.com
-127.0.0.1 ihogaetw.com
 127.0.0.1 ilbanner.com
 127.0.0.1 ilead.itrack.it
 127.0.0.1 illfatedsnail.com
@@ -105894,7 +105898,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 look.opskln.com
 127.0.0.1 look.ufinkln.com
 127.0.0.1 loopme.com
-127.0.0.1 lop.com
 127.0.0.1 loudlunch.com
 127.0.0.1 lp3tdqle.com
 127.0.0.1 lucidmedia.com
@@ -106217,6 +106220,7 @@ scanurl.net##.adsbygoogle
 127.0.0.1 outbrain.com
 127.0.0.1 overconfidentfood.com
 127.0.0.1 overture.com
+127.0.0.1 owebanalytics.com
 127.0.0.1 owebmoney.ru
 127.0.0.1 owlsr.us
 127.0.0.1 owneriq.net
