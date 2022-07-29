@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 27hgIBUIohWYt+Oa4m2YZA
+! Checksum: y7wP50TJ+wzttEup3oz0JA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207290229
-! Last Modified: 2022年07月29日 02:29
+! Version: 202207291021
+! Last Modified: 2022年07月29日 10:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -37587,7 +37587,6 @@ tf2r.com#@#.adverts
 ||ekgloczbsblg.com^
 ||ekmas.com^
 ||ekrvemsgktkcihp.com^
-||eksiup.com^
 ||ekskbldmgjhfvl.com^
 ||ekttkwbkfbr.com^
 ||elasticad.net^
@@ -50296,6 +50295,7 @@ tf2r.com#@#.adverts
 ||egadvertising.com^$third-party
 ||egamingonline.com^$third-party
 ||egamiplatform.tv^$third-party
+||eksiup.com^$third-party
 ||elefantsearch.com^$third-party
 ||ematicsolutions.com^$third-party
 ||emberads.com^$third-party
@@ -56891,7 +56891,7 @@ livestreamfails.com###oranum_livefeed_container_0
 electronicproducts.com,powvideo.net,streamplay.to###overlay
 mzzcloud.life,rabbitstream.net,rapid-cloud.ru,streamrapid.ru###overlay-container
 drivevideo.xyz###overlays
-animexin.xyz###overplay
+animexin.xyz,animexinax.com###overplay
 modthesims.info###pagenavigation > div > small
 seeklogo.com###panelAdShutterStockPromo
 hwbot.org###partner-tiles
@@ -89174,6 +89174,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||portalbici.es/lib/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||scdn.cxense.com/cx.cce.js$domain=tn.com.ar
 @@||segundamano.mx^*/tealium.js
+@@||tag.search.sensefuel.live/tag/$script,domain=bricomart.es
 @@||tccrestify-dot-tcc-cloud.appspot.com/tracking/$domain=tcc.com.co
 @@||vodgc.net^*/genoa-event-tracking.min.js
 !---------- Swedish ----------
@@ -103671,7 +103672,7 @@ scanurl.net##.adsbygoogle
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 02 Aug 2002 00:00:00
+# start date:    Sat, 03 Aug 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
