@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4honJxSnfAibygoGA6qrkA
+! Checksum: zKj+NivfPEpjS7q7nA9UAA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207292047
-! Last Modified: 2022年07月29日 20:47
+! Version: 202207300228
+! Last Modified: 2022年07月30日 02:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -91101,7 +91101,6 @@ cloudemb.com##+js(set, console.clear, noopFunc)
 streamsb.*##+js(nowoif)
 sbfull.com,streamsb.*,view345.com##+js(aopr, DoodPop)
 sbembed.com,streamsb.*##body > div[style*="z-index:"]
-*$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|fluidplayer.com|gstatic.com|jsdelivr.net|jwpcdn.com|streamsb.com,domain=sbembed.com|streamsb.*
 sbplay.*,sbplay1.com##+js(set, console.clear, noopFunc)
 oxl.one,sbplay1.com,sbvideo.net##+js(nosiif, 0x)
 sbplay.*##^script:has-text(debugger)
@@ -93292,7 +93291,7 @@ mangastream.mobi###myModal
 /ad-300x250.jpg$image,redirect-rule=1x1.gif
 ||doubleclick.net^$xhr,redirect-rule=noop.txt,domain=~d3ward.github.io
 ||media.fastclick.net^$xhr,redirect-rule=noop.txt,domain=~d3ward.github.io
-||ads.facebook.com^$xhr,redirect-rule=noop.txt
+||ads.facebook.com^$xhr,redirect-rule=noop.txt,domain=~d3ward.github.io
 ||advice-ads.s3.amazonaws.com^$xhr,redirect-rule=noop.txt
 globfone.com##+js(no-xhr-if, ads)
 donugdee.com##.ad-overlay-click
@@ -94177,6 +94176,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||compresspecialty.online^
 /?brand=*&ip=$doc
 ||familialsimulation.com^$all
+||for-soft.com^$all
+||of-soft.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
