@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bpuO2UTY5j7gyO80l0A03A
+! Checksum: xVU0JVlA1YST4g/0NxubWA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207301425
-! Last Modified: 2022年07月30日 14:25
+! Version: 202207302036
+! Last Modified: 2022年07月30日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -26653,6 +26653,7 @@ _800x80_
 ##.leaderboard-ad-component
 ##.leaderboard-ad-container
 ##.leaderboard-ad-dummy
+##.leaderboard-ad-fixed
 ##.leaderboard-ad-green
 ##.leaderboard-ad-grid
 ##.leaderboard-ad-inner
@@ -28464,6 +28465,7 @@ _800x80_
 ##.right-rail-ad-bottom-container
 ##.right-rail-ad-container
 ##.right-rail-ad-top-container
+##.right-rail-box-ad-container
 ##.right-rail-broker-ads
 ##.right-rail__ad
 ##.right-rail__container--ad
@@ -57780,7 +57782,7 @@ drivespark.com##.cmscontent-left-article
 careerindia.com##.cmscontent-top
 cnn.com##.cn--expandable.cn--idx-1
 thisismoney.co.uk##.cnr5
-browserhow.com,charlieintel.com,chromeunboxed.com,cryptoslate.com,fandomwire.com,flickeringmyth.com,gameinfinitus.com,hdmovies4u.live,indianhealthyrecipes.com,iotwreport.com,quickanswer.blog,reneweconomy.com.au,rezence.com,rok.guide##.code-block
+browserhow.com,charlieintel.com,chromeunboxed.com,cryptoslate.com,fandomwire.com,flickeringmyth.com,gameinfinitus.com,hdmovies4u.live,indianhealthyrecipes.com,iotwreport.com,quickanswer.blog,reneweconomy.com.au,rezence.com,rok.guide,twistedvoxel.com##.code-block
 conservativebrief.com##.code-block > span
 androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,techpp.com,whats-on-netflix.com##.code-block-1
 trendingpolitics.com##.code-block-12
@@ -58368,6 +58370,7 @@ arabiaweather.com,bloomberg.com,gamesindustry.biz,news957.com,newscientist.com,u
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder-desktop
 manitobacooperator.ca##.leaderboard-height
+medpagetoday.com##.leaderboard-region
 businessinsider.in##.leaderboard-scrollable-btf-cont
 businessinsider.in##.leaderboard-scrollable-cont
 poe.ninja##.leaderboard-top
@@ -58837,6 +58840,7 @@ terminal.hackernoon.com##.right
 africanews.com##.right-legend
 essentialenglish.review##.right-panel
 jta.org##.right-rail-container
+medpagetoday.com##.right-rail-panel
 jpost.com##.right-side-banner
 slickdeals.net##.rightRailBannerSection
 gamemodding.com##.right_banner
@@ -59326,6 +59330,7 @@ techpout.com##.widget_xyz_insert_php_widget
 helpnetsecurity.com##.widgetized_wrapper
 ign.com##.wiki-bobble
 wethegeek.com##.win
+gg.deals##.with-banner
 windowsloop.com##.wl-prakatana
 cryptopolitan.com##.wordp-leaderboard
 cryptopolitan.com##.wordp-siderbar-new-theme
@@ -60227,6 +60232,7 @@ cheaptickets.com,expedia.com,ebookers.com,hotels.com,orbitz.com,travelocity.com,
 mg.co.za#?#.td_flex_block:-abp-has(span:-abp-contains(Sponsored))
 limetorrents.pro#?#a:-abp-contains(Download An‌on‌ymously)
 webtools.fineaty.com#?#div[class*=" hidden-"]:-abp-has(.adsbygoogle)
+regex101.com#?#div > header + div > div + div:-abp-contains(Sponsors)
 limetorrents.pro#?#.torrentinfo div + div:-abp-contains(Fast And Direct Download Safely And Anonymously)
 rephrase.info#?#.text-center.my-3:-abp-has(span:-abp-contains(Advertisement))
 walmart.com#?#li.items-center:-abp-has(div[data-ad-component-type="wpa-tile"])
@@ -91617,6 +91623,10 @@ smallseo.tools##.border.p25.tracktool_banner .text-center > p
 shrtvip.com##+js(aopr, app_vars.force_disable_adblock)
 shrtvip.com##+js(set, blurred, false)
 itsguider.com##+js(aeld, load, nextFunction)
+@@||itsguider.com^$ghide
+*$script,3p,denyallow=cloudflare.com|google.com|gstatic.com,domain=itsguider.com
+||lowsteelixor.com^
+||tovanillitechan.com^
 download.cracksurl.com##+js(adfly-defuser)
 darenjarvis.pro##+js(adfly-defuser)
 surfsees.com##+js(noeval-if, deblocker)
