@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QXI4hKRwmX03MHmnHu/3jw
+! Checksum: bpuO2UTY5j7gyO80l0A03A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207301009
-! Last Modified: 2022年07月30日 10:09
+! Version: 202207301425
+! Last Modified: 2022年07月30日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -40179,7 +40179,6 @@ tf2r.com#@#.adverts
 ||irtya.com^
 ||irtyf.com^
 ||irvuyekrdga.com^
-||isbnrs.com^
 ||isboost.co.jp^
 ||iscosta.ru^
 ||isdbjvok.xyz^
@@ -53965,7 +53964,6 @@ tf2r.com#@#.adverts
 ||cpmstar.com/cached/
 ||cpmstar.com/view.aspx
 ||creatives.inmotionhosting.com^
-||credible.com/sdk.js$third-party
 ||crowdsavings.com/r/banner/
 ||crunchyroll.com/awidget/
 ||cts.tradepub.com^
@@ -54809,6 +54807,7 @@ tf2r.com#@#.adverts
 ||avatraffic.com/b/
 ||awempt.com/embed/
 ||awestat.com^*/banner/
+||b.isbnrs.com^
 ||babes-mansion.s3.amazonaws.com^
 ||babesmansion.com/banner/$third-party
 ||bangdom.com^$third-party
@@ -73798,6 +73797,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||covery.ai/fp/$third-party
 ||covet.pics/beacons
 ||creator.zmags.com^
+||credible.com/api/logs-fe
 ||crm-vwg.com/tracker/
 ||crowdfactory.com/tracker/
 ||crowdskout.com/analytics.js
@@ -88357,6 +88357,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||events.raceresult.com^$~third-party,xmlhttprequest
 @@||evestment.com/api/analytics/$domain=evestment.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
+@@||evolutionpayroll.com/ess/scripts/angularytics/angularytics.min.js$~third-party
 @@||fast.appcues.com^$script,domain=static.abcmouse.com
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=gables.com|itsolutions-inc.com
 @@||files.mycloud.com/js/analytics/google_analytics.js
@@ -103673,8 +103674,8 @@ scanurl.net##.adsbygoogle
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Thu, 28 Jul 2022 10:17:18 GMT
-# entries:        3638
+# last updated:   Sat, 30 Jul 2022 03:23:13 GMT
+# entries:        3639
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -105477,6 +105478,7 @@ scanurl.net##.adsbygoogle
 127.0.0.1 flurry.com
 127.0.0.1 fly-analytics.com
 127.0.0.1 foo.cosmocode.de
+127.0.0.1 foo.software
 127.0.0.1 foresee.com
 127.0.0.1 forex-affiliate.net
 127.0.0.1 forkcdn.com
