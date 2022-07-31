@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PIyu4AuBTY00HWz9hNr2Mg
+! Checksum: HvCugcFQ98hwIHkNMT565w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202207311425
-! Last Modified: 2022年07月31日 14:25
+! Version: 202207312038
+! Last Modified: 2022年07月31日 20:38
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -61328,6 +61328,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||manageengine.com/images/logo/$image,~third-party
 @@||manageengine.com/products/ad-manager/$~third-party
 @@||martinfowler.com/articles/asyncJS.css$stylesheet,~third-party
+@@||media.kijiji.ca/api/$image,~third-party
 @@||mediaalpha.com/js/serve.js$domain=goseek.com
 @@||mirror.co.uk^*/prebid-test.js$script,~third-party
 @@||mobygames.com/images/covers/$image,~third-party
@@ -67842,6 +67843,7 @@ _mongo_stats/
 ||liveyield.com^
 ||lltrck.com^
 ||loloclicks.biz^
+||lsdm.co^
 ||maggieeatstheangel.com^
 ||matheranalytics.com^
 ||mdhv.io^
@@ -76759,6 +76761,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cheezburger.com/api/visitor
 ||cl.canva.com^
 ||clancy.spiceworks.com^
+||classistatic.com^*/js/lib/prebid-7.5.0.min.js$script,domain=kijiji.ca
 ||click.aliexpress.com^$image
 ||click.nudevista.com^
 ||click.oneplus.com^
@@ -77782,6 +77785,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||pages.ebay.com/identity/device/$subdocument
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
+||w-profiling.cibc.com^$script
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 ||d276.ourmidland.com^
 ||d810.mysanantonio.com^
@@ -88203,7 +88207,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca|nbarizona.com
-@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
+@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
