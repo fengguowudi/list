@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9Z/JV+jhgBSzHlRuEFeoYA
+! Checksum: gKuSzu6ntPYRPCBrYaD8rw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208010225
-! Last Modified: 2022年08月01日 02:25
+! Version: 202208011022
+! Last Modified: 2022年08月01日 10:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -60349,6 +60349,7 @@ windowsbulletin.com#?#strong:-abp-has(a[href^="http://www.reimageplus.com/"])
 xing.com#?#div[class^="styles-grid-col-"]:-abp-has(span[class^="MediaObject-MediaObject-meta-"]:-abp-contains(/Gesponsert|Sponsored|Patrocinado|Sponsorisé|Sponsorizzato/))
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#div[class^=" container_"]:-abp-has(a[href^="/adredir?"])
 1001tracklists.com#?#a[onclick^='gaLnkTr']
+virtuagirlgirls.com###DynamicBackgroundWrapper
 porndr.com###PD-Under-player
 deviants.com###_iframe_content
 swfchan.com###aaaa
@@ -94520,11 +94521,6 @@ frogogo.ru##+js(aopw, ADMITAD)
 ||drtuber.*/ajax/track?track_type=
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,newstimes.com,nhregister.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,timesunion.com##+js(cookie-remover, realm.cookiesAndJavascript)
 ||playbrain.io/analytics/
-tweakers.net##+js(set, WebTrekkClickMap, noopFunc)
-tweakers.net##+js(aopr, snowplow)
-tweakers.net##+js(acis, AbStats, trackId)
-tweakers.net##+js(aopr, GlobalSnowplowNamespace)
-tweakers.net##+js(set, tweakersConfig.wtConfig.scriptUrl, '')
 tweakers.net##+js(aost, btoa, send)
 ||yuktamedia.com^$3p
 ||gamedock.io^$3p
@@ -103700,7 +103696,7 @@ scanurl.net##.adsbygoogle
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 05 Aug 2002 00:00:00
+# start date:    Tue, 06 Aug 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
