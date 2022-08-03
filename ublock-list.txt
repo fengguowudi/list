@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Px7hlO2PsQSEM537rSbaSA
+! Checksum: +8l3ZoAVHNShSZ6HSoGFpg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208030227
-! Last Modified: 2022年08月03日 02:27
+! Version: 202208031010
+! Last Modified: 2022年08月03日 10:10
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -25021,6 +25021,7 @@ _800x80_
 ##.field-59-companion-ad
 ##.field-name-shared-ad-placement-landscape
 ##.field-name-sticky-ads-div
+##.fig-ad-content
 ##.filmad
 ##.finpostsads
 ##.firefly-sidebar-ad
@@ -54086,6 +54087,7 @@ tf2r.com#@#.adverts
 ||click.alibaba.com^$subdocument,third-party
 ||click.aliexpress.com^$subdocument,third-party
 ||clickfunnels.com/assets/cfpop.js
+||clickiocdn.com/hbadx/
 ||cloud.setupad.com^
 ||cloudbet.com/ad/
 ||cloudfront.net^$domain=igg-games.com
@@ -65210,6 +65212,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /onetag/*
 /onetagv2/*
 /onfocus-tag.
+/onl/track.php?
 /onlinecount.php
 /onsitegeo.
 /onstuimig-tag-
@@ -66235,6 +66238,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /stats/tracker.js
 /stats/tracking.
 /stats/transp.bmp
+/stats/v2/visit?
 /stats/visitors
 /stats/welcome.php?
 /stats/xmsg_
@@ -73806,7 +73810,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clickfunnels.com/cf.js
 ||clickfunnels.com/userevents/
 ||clickfunnels.com^*/track?
+||clickiocdn.com/clickiotag_log/
 ||clickiocdn.com/consent/log/
+||clickiocdn.com/utr/
 ||clicks.dealer.com^
 ||clickstream.odysee.com^
 ||clicktale.pantherssl.com^
@@ -103560,6 +103566,7 @@ scanurl.net##.adsbygoogle
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||api.sdffwef11.com^
 ||mg.xhkvff.cn^
 ||mc.mwgpg.cn^
 ||pm.poqwua.cn^
@@ -103841,7 +103848,7 @@ scanurl.net##.adsbygoogle
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 07 Aug 2002 00:00:00
+# start date:    Thu, 08 Aug 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
