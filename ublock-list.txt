@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tKE1IOc07pYrEaD6ecTNhA
+! Checksum: YMVZMnjsaGBC7ejiSsyFjA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208051427
-! Last Modified: 2022年08月05日 14:27
+! Version: 202208052044
+! Last Modified: 2022年08月05日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21076,6 +21076,7 @@ _800x80_
 ##.adsBannerLink
 ##.adsBelowHeadingNormal
 ##.adsBlock
+##.adsBlockContainerHorizontal
 ##.adsBot
 ##.adsBottom
 ##.adsBox
@@ -27242,6 +27243,7 @@ _800x80_
 ##.module-ads
 ##.module-advert
 ##.module-advertisement
+##.module-box-ads
 ##.module-image-ad
 ##.module-rectangleads
 ##.module-sponsored-ads
@@ -30135,6 +30137,7 @@ _800x80_
 ##.topAdsLeftMid2
 ##.topAdsRight
 ##.topAdsRight2
+##.topAdsWrappper
 ##.topAdvBox
 ##.topAdvert
 ##.topAdvertisement
@@ -33754,6 +33757,7 @@ tf2r.com#@#.adverts
 ||aj2373.online^
 ||aj2397.online^
 ||aj2430.online^
+||ajeyaxdcvogcx.com^
 ||ajfnee.com^
 ||ajileuztnu.com^
 ||ajillionmax.com^
@@ -35302,6 +35306,7 @@ tf2r.com#@#.adverts
 ||buikolered.com^
 ||buildinghygienicfloating.com^
 ||buildnaq91.site^
+||buildsintellecttweak.com^
 ||builip.com^
 ||builtchangeable.com^
 ||buipovexhav.com^
@@ -36286,6 +36291,7 @@ tf2r.com#@#.adverts
 ||conyak.com^
 ||coojaiku.com^
 ||cookliverelk.com^
+||cookpad-ads.com^
 ||cooksrosiny.website^
 ||coollcloud.com^
 ||coolnessvinegar.com^
@@ -37299,6 +37305,7 @@ tf2r.com#@#.adverts
 ||droppedrolling.com^
 ||dropzenad.com^
 ||drowle.com^
+||drpulgrcg.com^
 ||drpurrmcirwurb.com^
 ||drtuproft.com^
 ||druadirjfviwn.xyz^
@@ -39067,6 +39074,7 @@ tf2r.com#@#.adverts
 ||glowdot.com^
 ||glssp.net^
 ||glucinafumose.com^
+||glugherg.net^
 ||glugreez.com^
 ||glumpaul.net^
 ||glumtitu.net^
@@ -39220,6 +39228,7 @@ tf2r.com#@#.adverts
 ||gratingtode.com^
 ||graucoay.net^
 ||grauroocm.com^
+||grauwaiw.com^
 ||gravelringer.com^
 ||gravelyelectricthicket.com^
 ||gravertoyons.com^
@@ -41402,6 +41411,7 @@ tf2r.com#@#.adverts
 ||littlecutecats.com^
 ||littlecutedogs.com^
 ||littlecutelions.com^
+||litusher.com^
 ||livecheersharder.com^
 ||livelihoodpracticaloperating.com^
 ||liveredwilton.com^
@@ -42033,6 +42043,7 @@ tf2r.com#@#.adverts
 ||middestkarsha.com^
 ||middlesswal.com^
 ||midgetincidentally.com^
+||midistortrix.com^
 ||midlandvenisondollars.com^
 ||midnightimpressionperception.com^
 ||midnightnosebleeddoorway.com^
@@ -44779,6 +44790,7 @@ tf2r.com#@#.adverts
 ||qetdeddkscgu.com^
 ||qewuipkgtpotyb.com^
 ||qfdn3gyfbs.com^
+||qffvrenbek.com^
 ||qfjherc.com^
 ||qfolkbbij.com^
 ||qftgykroh.com^
@@ -46838,6 +46850,7 @@ tf2r.com#@#.adverts
 ||sudail.com^
 ||sufferingslippery.com^
 ||suffeteinset.com^
+||sufficientretiredbunker.com^
 ||suffocatepremise.com^
 ||suggestionwallpaperhump.com^
 ||suhalyxi.com^
@@ -46956,6 +46969,7 @@ tf2r.com#@#.adverts
 ||swottedfra.com^
 ||swqpfcet.com^
 ||swwpush.com^
+||syaomlovqeq.com^
 ||sydneygfpink.com^
 ||syduzothu.pro^
 ||sylewhywhe.com^
@@ -52196,6 +52210,7 @@ tf2r.com#@#.adverts
 ||glookroz.net^$popup
 ||glossarysack.com^$popup
 ||glothutastu.pro^$popup
+||glugherg.net^$popup
 ||go2affise.com^$popup
 ||go2linkfast.com^$popup
 ||goads.pro^$popup
@@ -52659,6 +52674,7 @@ tf2r.com#@#.adverts
 ||orthitepetrous.com^$popup
 ||otisephie.com^$popup
 ||otnolabttmup.com^$popup
+||otnolatrnup.com^$popup
 ||ourcommonnews.com^$popup
 ||ourcommonstories.com^$popup
 ||ourcoolposts.com^$popup
@@ -57922,7 +57938,6 @@ autocar.co.uk##.block-autocar-ads-lazyloaded-mpu2
 autocar.co.uk##.block-autocar-ads-mpu-flexible1
 autocar.co.uk##.block-autocar-ads-mpu-flexible2
 autocar.co.uk##.block-autocar-ads-mpu1
-linuxjournal.com##.block-block-content
 thescore1260.com##.block-content > a[href*="sweetdealscumulus.com"]
 indysmix.com,wzpl.com##.block-content > a[href^="https://sweetjack.com/local"]
 stuff.tv##.block-hcm-external-blocks
@@ -58863,7 +58878,7 @@ designtaxi.com##.nt-text
 nplusonemag.com##.nurble
 cheezburger.com##.nw-rail-min-250
 marineelectronics.com,marinetechnologynews.com,maritimeprofessional.com##.nwm-banner
-trendexposed.com##.nya-slot
+kueez.com,trendexposed.com##.nya-slot
 golfdigest.com##.o-ArticleRecirc
 luscious.net##.o-padding-top-bottom
 mediaite.com##.o-promo-unit
@@ -59867,6 +59882,7 @@ trakt.tv##a[class^="hu-ck-s-t-er-"][target="_blank"]
 3dnatives.com##a[data-bid][target="_blank"]
 namepros.com##a[data-tag="backer"]
 sashares.co.za##a[data-wpel-link="external"]
+linuxjournal.com##a[href*="&utm_campaign="]
 msn.com##a[href*=".booking.com/"]
 walmart.ca##a[href*=".criteo.com/"]
 chicagoprowrestling.com##a[href*="//thecmf.com/"] > img
@@ -60064,6 +60080,7 @@ geoguessr.com##div[class^=result-layout_right__]
 viator.com##div[data-action-page-properties="featured_placements_on_list_page"]
 unsplash.com##div[data-ad="true"]
 indiatimes.com##div[data-aff-type]
+999thehawk.com##div[data-alias="Sweetjack"]
 opentable.ae,opentable.ca,opentable.co.th,opentable.co.uk,opentable.com,opentable.com.au,opentable.com.mx,opentable.de,opentable.es,opentable.hk,opentable.ie,opentable.it,opentable.jp,opentable.nl,opentable.sg##div[data-marketing="true"][data-promoted="true"]
 google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-section-id$="__adb"]
 ecosia.org##div[data-test-id="mainline-result-ad"]
@@ -74345,6 +74362,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||flixgvid.flix360.io^
 ||flixster.com^*/analytics.
 ||flocktory.com^*/tracks/
+||flux-cdn.com/plugin/common/analytics/
 ||flux.com/geo.html?
 ||fmnetwork.nl/tracking/
 ||fog.pixual.co^
@@ -75783,6 +75801,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d15kdaxu5c0hfw.cloudfront.net^
 ||d169bbxks24g2u.cloudfront.net^
 ||d16fk4ms6rqz1v.cloudfront.net^
+||d1733r3id7jrw5.cloudfront.net^
 ||d18p8z0ptb8qab.cloudfront.net^
 ||d191y0yd6d0jy4.cloudfront.net^
 ||d196fri2z18sm.cloudfront.net^
@@ -75895,6 +75914,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dn0qt3r0xannq.cloudfront.net^
 ||dn34cbtcv9mef.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
+||dnxlgencstz4.cloudfront.net^
 ||dp64mxip2za0c.cloudfront.net^
 ||drlimmode9ddd.cloudfront.net^
 ||dsbahmgppc0j4.cloudfront.net^
@@ -94850,8 +94870,8 @@ stoic.ai##+js(aost, Math.floor, injectedScript)
 ||ampl.cinotes.com^
 ||data-saver-cindi.herokuapp.com^
 ||cdn.cindicator.com/$script,3p
-botcomics.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,monumentmetals.com,nikita.tk,ping.gg,cefirates.com,tapmyback.com##+js(acis, String.fromCharCode, join)
-botcomics.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,cefirates.com,tapmyback.com##^script:has-text(join)
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,monumentmetals.com,nikita.tk,nookgaming.com,ping.gg,tapmyback.com##+js(acis, String.fromCharCode, join)
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,tapmyback.com##^script:has-text(join)
 nikita.tk##+js(aost, document.cookie)
 ||nikita.tk/*-$script,1p
 ||washpost.nile.works^
@@ -96899,6 +96919,8 @@ novelgames.com##.gamelistGame.commonEt
 novelgames.com##div[id^="forums"][id*="Et"]
 @@||scanurl.net^$ghide
 scanurl.net##.adsbygoogle
+||exponea.com^$badfilter
+||exponea.com^$3p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -103991,7 +104013,7 @@ scanurl.net##.adsbygoogle
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Tue, 02 Aug 2022 16:07:59 GMT
-# entries:        3640
+# entries:        3633
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -104066,7 +104088,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 aboardlevel.com
 127.0.0.1 abruptroad.com
 127.0.0.1 absentstream.com
-127.0.0.1 absoluteclickscom.com
 127.0.0.1 absorbingband.com
 127.0.0.1 abstractedauthority.com
 127.0.0.1 absurdwater.com
@@ -104116,7 +104137,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 ad.cooks.com
 127.0.0.1 ad.digitallook.com
 127.0.0.1 ad.domainfactory.de
-127.0.0.1 ad.eurosport.com
 127.0.0.1 ad.exyws.org
 127.0.0.1 ad.foxnetworks.com
 127.0.0.1 ad.grafika.cz
@@ -104275,7 +104295,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 adk2.co
 127.0.0.1 adk2.com
 127.0.0.1 adland.ru
-127.0.0.1 adledge.com
 127.0.0.1 adlegend.com
 127.0.0.1 adlightning.com
 127.0.0.1 adlog.com.com
@@ -104587,7 +104606,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 ads.primissima.it
 127.0.0.1 ads.printscr.com
 127.0.0.1 ads.prisacom.com
-127.0.0.1 ads.privatemedia.co
 127.0.0.1 ads.program3.com
 127.0.0.1 ads.psd2html.com
 127.0.0.1 ads.pushplay.com
@@ -105469,7 +105487,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 copycarpenter.com
 127.0.0.1 copyrightaccesscontrols.com
 127.0.0.1 coremetrics.com
-127.0.0.1 cormast.com
 127.0.0.1 cosmopolitads.com
 127.0.0.1 count.rin.ru
 127.0.0.1 count.west263.com
@@ -106216,6 +106233,7 @@ scanurl.net##.adsbygoogle
 127.0.0.1 look.opskln.com
 127.0.0.1 look.ufinkln.com
 127.0.0.1 loopme.com
+127.0.0.1 lop.com
 127.0.0.1 loudlunch.com
 127.0.0.1 lp3tdqle.com
 127.0.0.1 lucidmedia.com
@@ -106262,7 +106280,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 mathtag.com
 127.0.0.1 matomo.activate.cz
 127.0.0.1 matomo.crossiety.app
-127.0.0.1 matomo.gals24.ru
 127.0.0.1 matomo.hdweb.ru
 127.0.0.1 mautic.com
 127.0.0.1 max.i12.de
@@ -106554,7 +106571,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 pagefair.com
 127.0.0.1 pagefair.net
 127.0.0.1 pagerank-ranking.de
-127.0.0.1 pagerank4you.com
 127.0.0.1 pageranktop.com
 127.0.0.1 paleleaf.com
 127.0.0.1 panickycurtain.com
@@ -106881,7 +106897,6 @@ scanurl.net##.adsbygoogle
 127.0.0.1 s1-adfly.com
 127.0.0.1 s20dh7e9dh.com
 127.0.0.1 s2d6.com
-127.0.0.1 sa.api.intl.miui.com
 127.0.0.1 sabio.us
 127.0.0.1 sageanalyst.net
 127.0.0.1 sail-horizon.com
