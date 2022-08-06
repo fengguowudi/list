@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bXMgm1aJm6hEOK6x8+hMyQ
+! Checksum: /z8u/l4FZTXvYrt1GN8qEQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208060227
-! Last Modified: 2022年08月06日 02:27
+! Version: 202208061003
+! Last Modified: 2022年08月06日 10:03
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -32221,6 +32221,7 @@ memytutaj.pl#@##top-ad
 soundandvision.com,stereophile.com#@##topbannerad
 gamingcools.com#@#.Adsense
 m.motonet.fi#@#.ProductAd
+galaopublicidade.com#@#.publicidade
 job.inshokuten.com#@#.ad-area
 kincho.co.jp#@#.ad-block
 job.inshokuten.com,sexgr.net#@#.ad-box
@@ -77567,6 +77568,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||paypal.com/platform/tealeaftarget
 ||pcgamesn.com/cdn-cgi/trace
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
+||pendo.scopus.com/data/ptm.gif
 ||perf.mouser.com^
 ||pf.newegg.com^
 ||phar.gu-web.net^
@@ -104021,7 +104023,7 @@ scanurl.net##.adsbygoogle
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 10 Aug 2002 00:00:00
+# start date:    Sun, 11 Aug 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
