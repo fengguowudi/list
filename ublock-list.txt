@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OmKhouxckQMrNpxrGcxMAA
+! Checksum: 3IGUEHk0V+eEYSRFzLx9oA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208071426
-! Last Modified: 2022年08月07日 14:26
+! Version: 202208072037
+! Last Modified: 2022年08月07日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -26334,6 +26334,7 @@ _800x80_
 ##.innerad
 ##.innerpostadspace
 ##.inpostad
+##.inr_top_ads
 ##.ins_adwrap
 ##.insert-advert-ver01
 ##.insert-post-ads
@@ -61672,6 +61673,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||lastpass.com/ads.php$subdocument,domain=chrome-extension-scheme
 @@||lastpass.com/images/ads/$image,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
+@@||live.streamtheworld.com/partnerIds$domain=iheart.com
 @@||lokopromo.com^*/adsimages/$~third-party
 @@||looker.com/api/internal/$~third-party
 @@||luminalearning.com/affiliate-content/$image,~third-party
@@ -91275,8 +91277,8 @@ sporizle1.pw##a[href="https://hdweb.pw"][target="_blank"]
 comixzilla.com##+js(acis, document.createElement, 'script')
 unsurcoenlasombra.com##+js(aopr, google_jobrunner)
 watchmovierulz.*##+js(nowoif)
-arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,gdpress.xyz,javplaya.com,playersb.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbfull.com,sbplay1.com,sbplay2.*,sbthe.com,sbvideo.*,ssbstream.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*,view345.com##+js(aopr, __Y)
-arslanrocky.xyz,cloudemb.com,dlmovies.link,gdpress.xyz,oxl.one,playersb.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbthe.com,sbvideo.net,ssbstream.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com,view345.com##+js(aopr, mm)
+arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,gdpress.xyz,javplaya.com,playersb.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbfull.com,sbplay1.com,sbplay2.*,sbthe.com,sbvideo.*,ssbstream.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*,vidmovie.xyz,view345.com##+js(aopr, __Y)
+arslanrocky.xyz,cloudemb.com,dlmovies.link,gdpress.xyz,oxl.one,playersb.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbthe.com,sbvideo.net,ssbstream.net,streamsb.*,tubesb.com,viewsb.com,watchsb.com,vidmovie.xyz,view345.com##+js(aopr, mm)
 sbembed1.com,sbvideo.*##+js(aopr, console.clear)
 cloudemb.com##+js(nowoif, !/^\/d\//)
 cloudemb.com##+js(set, console.clear, noopFunc)
@@ -94617,6 +94619,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||skyblockqolhub.com^$all
 ||fetishpartner.com^$all
 ||facevideosc.com^$all
+/?c=propeller&lpid=$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -96765,8 +96768,6 @@ novelgames.com##div[id^="forums"][id*="Et"]
 scanurl.net##.adsbygoogle
 ||exponea.com^$badfilter
 ||exponea.com^$3p
-@@||webbtelescope.org/files/live/sites/*/_images/$image,1p
-webbtelescope.org#@#.ad-box
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
