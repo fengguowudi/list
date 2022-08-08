@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CNQKrrkVtdixg828G05AXA
+! Checksum: 3O1qev/PRbeJSSOsjfiRCQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208082044
-! Last Modified: 2022年08月08日 20:44
+! Version: 202208090227
+! Last Modified: 2022年08月09日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -23578,6 +23578,7 @@ _800x80_
 ##.blockAd300x97
 ##.blockAds
 ##.blockAdvertise
+##.block__ads__ad
 ##.block__advertising
 ##.block__advertising-content
 ##.block__advertising-header
@@ -96790,6 +96791,7 @@ novelgames.com##div[id^="forums"][id*="Et"]
 scanurl.net##.adsbygoogle
 ||exponea.com^$badfilter
 ||exponea.com^$3p
+||assets.springserve.com^$media,domain=app.plex.tv,redirect=noopmp3-0.1s
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
