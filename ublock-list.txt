@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /scWWa++Mvs6b0zopcjm/Q
+! Checksum: CNQKrrkVtdixg828G05AXA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208081430
-! Last Modified: 2022年08月08日 14:30
+! Version: 202208082044
+! Last Modified: 2022年08月08日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -78057,6 +78057,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nyxcosmetics.com/IZ/PXLZNv2dn4/init.js
 ||octopart.com/kdRQnL15/init.js
 ||priceline.com/9aTjSd0n/init.js
+||realtor.com/rdc_user_check/init.js
 ||samsclub.com/px/PXsLC3j22K/init.js
 ||seekingalpha.com/xgCxM9By/init.js
 ||simon.com/46SCNLxs/init.js
@@ -87523,6 +87524,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||liberation.fr/newsite/js/cmp/
 ||ma-petite-recette.fr/visites
 ||neko-san.fr/stats
+||ouedkniss.com/spf/page-view
 ||ouedkniss.com/static/alexa.js
 ||ouedkniss.com/static/pixel.js
 ||p.kolplay.com^
