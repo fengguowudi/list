@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9u4nnUxsX8YmJLQ/KiMMyQ
+! Checksum: p0oHlPODkFh+wl+tR/vfsA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208092048
-! Last Modified: 2022年08月09日 20:48
+! Version: 202208100226
+! Last Modified: 2022年08月10日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -72089,6 +72089,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||plotrabbit.com^
 ||pluckypocket.com^
 ||pluckytaste.com^
+||pocketfaucet.com^
 ||pocketsonic.com^
 ||podiumpresto.com^
 ||pointlesspocket.com^
@@ -89783,8 +89784,8 @@ taming.io##+js(no-xhr-if, ads)
 @@||api.adinplay.com/libs/aiptag/pub/NND/taming.io/tag.min.js^$script,domain=taming.io
 ||api.adinplay.com^$redirect-rule=noopjs,script,domain=taming.io
 taming.io###preroll
-taming.io###da-left
-taming.io###da-bottom
+taming.io###main-box > #middle-wrap ~ div[id$="-left"]
+taming.io###main-box > #middle-wrap ~ div[id$="-bottom"]
 y2mate.guru##+js(nowoif)
 ||everyone-one.com^$all
 *$script,3p,domain=freemovies4u.xyz,denyallow=twitter.com
@@ -96701,7 +96702,6 @@ duckduckgo.com#@#.js-sidebar-ads
 @@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=conad.it
 ||t.co^$badfilter
 ||lacentrale.fr/static/fragment-layout/tracking-$badfilter
-@@||postclickmarketing.com^$domain=adtspecials.com|befinanciallyfit.com|cursodemedicina.com.br|demandmetric.com|hootsuite.com|semipresencial.com.br|systemsprotect.com
 @@||app.detrack.com/api/v2/tracking$xhr
 @@||cdnjs.cloudflare.com/cdn-cgi/trace$xhr,domain=piliapp.com
 @@||index.hr/thirdparty/brid/*$script,1p
