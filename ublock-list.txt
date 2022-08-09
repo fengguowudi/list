@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vZ3Pd8ioBjC0y684Fzv2Tg
+! Checksum: 9u4nnUxsX8YmJLQ/KiMMyQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208091428
-! Last Modified: 2022年08月09日 14:28
+! Version: 202208092048
+! Last Modified: 2022年08月09日 20:48
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2498,9 +2498,9 @@
 /adsbox.$~script,domain=~adsbox.com.sg|~adsbox.in
 /adsby.
 /adsbytenmax.
-/adscale.$domain=~adscale.com|~adscale.io|~adscale.net|~adscale.pl
+/adscale.$domain=~adscale.com|~adscale.dev|~adscale.io|~adscale.net|~adscale.pl
 /adscale1.
-/adscale_$domain=~adscale.com
+/adscale_$domain=~adscale.com|~adscale.dev
 /adscbg/*
 /adscdn.
 /adscloud.
@@ -25508,6 +25508,7 @@ _800x80_
 ##.google-advertisement
 ##.google-advertisement_txt
 ##.google-afc-wrapper
+##.google-bottom-ads
 ##.google-csi-ads
 ##.google-dfp-ad-caption
 ##.google-dfp-ad-label
@@ -57604,7 +57605,6 @@ apnews.com##.Leaderboard
 israelnationalnews.com##.LeftInfo
 johnogroat-journal.co.uk,stamfordmercury.co.uk##.MPU
 metservice.com##.Mrec-min-height
-tvtv.us##.MuiPaper-elevation2.MuiPaper-root
 ahaan.co.uk##.MuiSnackbar-anchorOriginBottomCenter
 news18.com##.NAT_add
 ask.com##.PartialKelkooResults
@@ -62022,8 +62022,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||forexprostools.com^$subdocument,domain=fx-rashinban.com
 @@||freeride.se/img/admarket/$~third-party
 @@||friends.ponta.jp/app/assets/images/$~third-party
-@@||fwmrm.net/ad/g/$script,domain=viafree.se
-@@||fwmrm.net^*/LinkTag2.js$domain=viafree.se
 @@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|pccomponentes.com|tv-tokyo.co.jp|voici.fr
 @@||g.doubleclick.net/gpt/pubads_impl_$domain=bloomberg.com|chelseafc.com|digitaltrends.com|edy.rakuten.co.jp|gentside.com|pccomponentes.com|voici.fr
 @@||g.doubleclick.net/pagead/ppub_config?$domain=bloomberg.com
@@ -70070,7 +70068,6 @@ _mongo_stats/
 ||portfold.com^$third-party
 ||posst.co^$third-party
 ||postaffiliatepro.com^$third-party
-||postclickmarketing.com^$third-party
 ||posthog.com^$third-party
 ||prchecker.info^$third-party
 ||precisioncounter.com^$third-party
