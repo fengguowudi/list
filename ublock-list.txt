@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kkyYwzZ20ohlKEm/Wzc1uQ
+! Checksum: 4C4yujCMj7g77SgaLUq+lw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208102041
-! Last Modified: 2022年08月10日 20:41
+! Version: 202208110226
+! Last Modified: 2022年08月11日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -67764,6 +67764,8 @@ cgi-bin/counter
 .innologica.com/t/
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image
+.inxmail-commerce.com/tracking/$image
+.inxserver.com/transparent.gif
 .keap-link003.com/$image
 .keap-link004.com/$image
 .keap-link005.com/$image
@@ -67876,6 +67878,7 @@ cgi-bin/counter
 /pixel?cid=
 /pqt.email/o/*$image
 /px/track?
+/redir.inxmail-commerce.com/r/*$image
 /rover.ebay.com/roveropen/*
 /sendmail.backerupdate.com/t/*
 /shoutout.wix.com/*$image
@@ -90365,7 +90368,6 @@ speedostream.com##+js(aost, JSON.parse, computed)
 lightnovelpub.com##aside.container
 lightnovelpub.com#@#.ad-sticky
 lightnovelpub.com##.ad-container
-lightnovelpub.com##.lnadcontainer
 nexusmods.com##+js(nano-stb, timer)
 nexusmods.com##.ad-section__skyscraper
 discovermagazine.com##.adunitContainer:upward(1)
@@ -91845,7 +91847,6 @@ shrtvip.com##+js(set, blurred, false)
 itsguider.com##+js(aeld, load, nextFunction)
 @@||itsguider.com^$ghide
 *$script,3p,denyallow=cloudflare.com|google.com|gstatic.com,domain=itsguider.com
-||lowsteelixor.com^
 ||tovanillitechan.com^
 download.cracksurl.com##+js(adfly-defuser)
 darenjarvis.pro##+js(adfly-defuser)
