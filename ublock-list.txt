@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: s+a3LPpZmWtvkJY1btpbDg
+! Checksum: kkyYwzZ20ohlKEm/Wzc1uQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208101428
-! Last Modified: 2022年08月10日 14:28
+! Version: 202208102041
+! Last Modified: 2022年08月10日 20:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -459,7 +459,6 @@
 .club/ads.
 .co/ads?
 .com/?ad=
-.com/?wid=
 .com/a?pagetype
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com
 .com/ad1/
@@ -25663,6 +25662,7 @@ _800x80_
 ##.gpt-sticky-sidebar
 ##.gpt.top-slot
 ##.gptSlot
+##.gptSlot-outerContainer
 ##.gptSlot__sticky-footer
 ##.gptslot
 ##.gr-adcast
@@ -32269,7 +32269,7 @@ aggeliestanea.gr,infotel.ca#@#.adResult
 news24.jp#@#.adText
 sozai-good.com#@#.ad_block
 panarmenian.net#@#.ad_body
-joins.com#@#.ad_bottom
+joins.com,jtbc.co.kr#@#.ad_bottom
 m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimokki.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com,m.nettivuokraus.com#@#.ad_caption
 classy-online.jp,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se#@#.ad_container
 modelhorseblab.com#@#.ad_global_header
@@ -57427,6 +57427,7 @@ streams.tv###sunGarden
 dashnet.org###support
 eco-business.com###supporting_orgs
 vk.com###system_msg
+gumtree.com###tBanner
 goodreturns.in###taboola-mid-category-thumbnails
 comicbookrealm.com###tad
 google.com###tadsc
@@ -57523,6 +57524,7 @@ macworld.co.uk###vTXbybUFn
 nutritioninsight.com###verticlblks
 filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
 forums.tomsguide.com###video_ad
+gumtree.com.au###view-item-page__leaderboard-wrapper
 gumtree.com###vipBanner
 playstationtrophies.org,xboxachievements.com###vnt-lb-a
 browserleaks.com###vpn_img
@@ -77082,6 +77084,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||drudgereport.com/js/responsive-
 ||drugs.com/api/logger/
 ||drugs.com/img/pixel.gif
+||dtag.breadfinancial.com^
 ||duckduckgo.com/t/
 ||dumpster.cam4.com^
 ||dw.com/tracking/
@@ -93210,7 +93213,6 @@ lootup.me##+js(acis, document.getElementById, stop)
 ||mobile-tracker-free.com/dashboard/scripts/detectBlockAds/isPremiumDemo.php
 mobile-tracker-free.com##+js(set, detectBlockAds, noopFunc)
 motphimtv.com##+js(set, console.clear, undefined)
-wyze.com##+js(no-xhr-if, api)
 wyze.com##+js(no-fetch-if, analytics)
 *$script,domain=wyze.com,redirect-rule=noopjs
 studyflix.de##.huge-notification
