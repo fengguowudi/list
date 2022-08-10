@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /Lq0hTEZi9bhExsYiJlLDA
+! Checksum: s+a3LPpZmWtvkJY1btpbDg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208100953
-! Last Modified: 2022年08月10日 09:53
+! Version: 202208101428
+! Last Modified: 2022年08月10日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63839,6 +63839,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /data_collect.js
 /datacapture/track
 /datacollectcode?
+/datacollectionapi-client/*
 /datadome/*
 /DatazoomAnalytics.
 /DavplusAnalytics.
@@ -64886,6 +64887,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /kiwip.js
 /klaviyo_analytics.
 /KochavaAnalytics.
+/koko-analytics/*
 /kontera.js
 /konterayahoooo.
 /kooomo.tracker.
@@ -65546,6 +65548,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /pageview?pageviewId
 /pageview?t=
 /pageview?user_guid=
+/pageview_candidate.
 /pageviews-counter-
 /pageviews.gif?
 /pageviews/*$domain=~mediawiki.org|~pageviews.wmcloud.org|~quiz.mkpo.li|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
@@ -65923,6 +65926,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /RecordHit?
 /recstatsv2.
 /redirectexittrack.php?
+/redis_stats/*
 /reelevant.js
 /ref_analytics.
 /refer-tracking.
@@ -69602,6 +69606,7 @@ _mongo_stats/
 ||leadchampion.com^$third-party
 ||leaddyno.com^$third-party
 ||leadelephant.com^$third-party
+||leadfamly.com^$third-party
 ||leadfeeder.com^$third-party
 ||leadforce1.com^$third-party
 ||leadforensics.com^$third-party
@@ -88074,6 +88079,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||suumo.jp^*/tag/
 ||sy.amebame.com^
 ||sy.ameblo.jp^
+||track.buyma.com^
 ||tracking.game8.jp^
 ||tsite.jp/static/analytics/
 ||tv-asahi.co.jp/official/logging?
