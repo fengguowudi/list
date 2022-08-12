@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1P6hFJblpsOlR3boyQsB4w
+! Checksum: pz2JHdYJWxIZkedZlQBtTw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208120226
-! Last Modified: 2022年08月12日 02:26
+! Version: 202208121003
+! Last Modified: 2022年08月12日 10:03
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -13916,6 +13916,7 @@ _800x80_
 ###header-ad2010
 ###header-ads
 ###header-ads-container
+###header-ads-holder
 ###header-ads-wrapper
 ###header-adsense
 ###header-adserve
@@ -56758,6 +56759,7 @@ travelpulse.com###ab_container
 uinterview.com###above-content
 peacemakeronline.com###above_top_banner
 go-convert.com###ad
+livescore.com###ad-holder-gad-news-article-item
 dappradar.com###ad-nft-top
 informer.com###ad0
 boards.net,mtaeta.info,notbanksyforum.com,pimpandhost.com,realgearonline.com,repairalmostanything.com,timeanddate.com,wordhippo.com,wordreference.com###ad1
@@ -77383,6 +77385,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lolwot.com/B5xaqzSGvMTM.js
 ||lookawoman.com/t/
 ||lowes.com/gauge/
+||lyft.com/api/track
 ||ma.redhat.com^
 ||mail.yahoo.com/f/track/
 ||mangadex.org/api/event
@@ -103942,7 +103945,7 @@ scanurl.net##.adsbygoogle
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 16 Aug 2002 00:00:00
+# start date:    Sat, 17 Aug 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
