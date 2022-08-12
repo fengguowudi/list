@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3lUpnIY6utMyLLkpmISbAA
+! Checksum: /hXLqhTSXE0UYB+xapDZkA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208122042
-! Last Modified: 2022年08月12日 20:42
+! Version: 202208130227
+! Last Modified: 2022年08月13日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -59974,6 +59974,7 @@ eatthis.com##[id^="gm_karmaadunit_widget"]
 comicbook.com,popculture.com##[id^="native-plus-"]
 msn.com##[id^="native_ad_"]
 noqreport.com##[id^="oqre-"]
+wuxiaworld.site##[id^="wuxia-"]
 apkcombo.com##[onclick*="_blank"]
 filecrypt.cc,filecrypt.co##[onclick^="var lj"]
 techadvisor.com##[referrerpolicy="unsafe-url"]
@@ -67884,6 +67885,7 @@ cgi-bin/counter
 .simplicitycrm.com/rd/
 .smartrmail.co/o/$image
 .southwest.com/r/$image
+.sparkpostmail.com/q/$image
 .sparkpostmail2.com/q/$image
 .spmailtechnol.com/q/$image
 .spmailtechnolo.com/q/$image
@@ -91757,6 +91759,7 @@ maxstream.video##+js(nowoif)
 maxstream.video##+js(ra, style, div[style="display: none;"])
 @@||maxstream.video^$script,1p
 @@||maxstream.video^$ghide
+@@||linkonclick.com/*/display.php$script,frame,domain=maxstream.video
 maxstream.video###adsads:style(height: 9px !important;)
 maxstream.video##h1:has-text(/adblock|supporter/)
 tamilmovierockers.info##+js(acis, document.addEventListener, google_ad_client)
