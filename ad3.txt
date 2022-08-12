@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9nMRVqtNW/7gDYyKbqaHIg
+! Checksum: mYod3nQ0uYN4wzj5k5Jqgw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202208121003
-! Last Modified: 2022年08月12日 10:03
+! Version: 202208121428
+! Last Modified: 2022年08月12日 14:28
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2893,6 +2893,18 @@ ubmcmm.baidustatic.com
 ||cclw.xyz^
 ||666755.xyz^
 ||ccrgxye.cn^
+||ofooe.cn^
+||chaojituoke.club^
+||ljoke.com^
+||teoopx.cn^
+||mbmqgo.cn^
+||xingcan168.xyz^
+||xsbndzklbm.com^
+||zumnxwva.ink^
+||nxyerol.cn^
+||vptjabo.cn^
+||zhuxin.link^
+||bhicxb.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -39712,6 +39724,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||click.udimg.com^
 ||clicks.hurriyet.com.tr^
 ||client-log.box.com^
+||client-metrics.chess.com^
 ||cloudflare.com/_cf/analytics.js
 ||cloudfront.net/tracker-latest.min.js
 ||cloudfront.net/vis_opt.js
