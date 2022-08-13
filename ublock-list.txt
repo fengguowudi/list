@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dLaqd2KuIgD2dx4IMTGWwQ
+! Checksum: 1jYUrsCnmgsP4SMPTCSrPw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208130956
-! Last Modified: 2022年08月13日 09:56
+! Version: 202208131426
+! Last Modified: 2022年08月13日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12362,6 +12362,7 @@ _800x80_
 ###bottom-728-ad
 ###bottom-ad
 ###bottom-ad-1
+###bottom-ad-area
 ###bottom-ad-banner
 ###bottom-ad-container
 ###bottom-ad-leaderboard
@@ -19539,6 +19540,7 @@ _800x80_
 ##.adWidgetBlock
 ##.adWidgetSponsor
 ##.adWithTab
+##.adWizard-ad
 ##.adWord
 ##.adWords-bg
 ##.adWrap
@@ -43335,6 +43337,7 @@ tf2r.com#@#.adverts
 ||ontoonefoldonefold.com^
 ||onturrical.com^
 ||onxquxhoygaji.com^
+||oo00.biz^
 ||oocdqgado.xyz^
 ||oodrampi.com^
 ||oodraune.com^
@@ -43356,6 +43359,8 @@ tf2r.com#@#.adverts
 ||oovofcsyxayy.com^
 ||oowelamdgta.com^
 ||oozyunmix.com^
+||op01.biz^
+||op02.biz^
 ||opawyzoh.xyz^
 ||opcharizardon.com^
 ||opchikoritar.com^
@@ -43632,7 +43637,10 @@ tf2r.com#@#.adverts
 ||paginx.com^
 ||pagne4cham4hrobl.com^
 ||paht.tech^
+||pahtef.tech^
+||pahtgq.tech^
 ||pahthf.tech^
+||pahtky.tech^
 ||pahtwt.tech^
 ||pahtzh.tech^
 ||paid.outbrain.com^
@@ -46087,6 +46095,7 @@ tf2r.com#@#.adverts
 ||serverbid.com^
 ||serverscurtain.com^
 ||serversfrenchruse.com^
+||servg1.net^
 ||servicegetbook.net^
 ||servicesrc.org^
 ||serving-sys.com^
@@ -57819,7 +57828,7 @@ ansamed.info,baltic-course.com,futbol24.com,gatewaynews.co.za,jetphotos.com,karg
 blastingnews.com##.adv-box-content
 healthleadersmedia.com##.adv-con
 pgatour.com##.adv-dummy
-audiobacon.net,bhamnow.com,coinquora.com,manageditmag.co.uk,mondoweiss.net,ottverse.com,sundayworld.co.za,tampabayparenting.com,theaudiophileman.com##.adv-link
+48hills.org,audiobacon.net,bhamnow.com,coinquora.com,manageditmag.co.uk,mondoweiss.net,ottverse.com,sundayworld.co.za,tampabayparenting.com,theaudiophileman.com##.adv-link
 sneakernews.com##.adv-parent
 chaseyoursport.com##.adv-slot
 motorauthority.com##.adv-spacer
@@ -58674,6 +58683,8 @@ simpasian.net##.hideme
 designtaxi.com##.highlight-news-notice
 majorgeeks.com##.highlight.content > center > font
 duckduckgo.com##.highlight_sponsored
+48hills.org##.hills-adlabel
+48hills.org##.hills-inline-full-width
 skins.be##.hint
 highwayradio.com##.hiway-widget
 cryptorank.io##.hofjwZ
@@ -72419,6 +72430,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sortstructure.com^
 ||sortsummer.com^$third-party
 ||sowlettuce.com^
+||spadelocket.com^
 ||sparklesleet.com^
 ||sparklingnumber.com^
 ||sparklingshelf.com^
@@ -96910,6 +96922,8 @@ scanurl.net##.adsbygoogle
 ||assets.springserve.com^$media,domain=app.plex.tv,redirect=noopmp3-0.1s
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=vtvgiaitri.vn
 @@||googletagmanager.com/gtm.js$script,domain=insiderstore.com.br
+@@||cdc.gov/JScript/metrics/adobe/launch/*/AppMeasurement.min.js$script,1p
+@@||cdc.gov/JScript/metrics/adobe/launch/*/AppMeasurement_Module_ActivityMap.min.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
