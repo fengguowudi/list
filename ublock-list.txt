@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1jYUrsCnmgsP4SMPTCSrPw
+! Checksum: nvA+bOLS0Takr1eYPuMTqg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208131426
-! Last Modified: 2022年08月13日 14:26
+! Version: 202208132036
+! Last Modified: 2022年08月13日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -58684,7 +58684,6 @@ designtaxi.com##.highlight-news-notice
 majorgeeks.com##.highlight.content > center > font
 duckduckgo.com##.highlight_sponsored
 48hills.org##.hills-adlabel
-48hills.org##.hills-inline-full-width
 skins.be##.hint
 highwayradio.com##.hiway-widget
 cryptorank.io##.hofjwZ
@@ -75140,6 +75139,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rackcdn.com/stf.js
 ||radiotime.com/Report.ashx?
 ||radiotime.com/reports/
+||rakanto.com/cx_collector/
 ||ramp.purch.com^
 ||rapidspike.com/rum/
 ||raygun.io/events?
@@ -88539,7 +88539,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|americanexpress.com|crave.ca|nbarizona.com
-@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
+@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|healthsafe-id.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
@@ -88603,6 +88603,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||c.webtrends-optimize.com/acs/$script,domain=tvlicensing.co.uk
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
 @@||cbsinteractive.com^*/lib/tracking/comscore/$script
+@@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-care.com/js/analytics/$script,domain=care.com
 @@||cdn-care.com/js/vendor/yarn_components/amplitude-js/amplitude.min.js$script,domain=care.com
 @@||cdn-ds.com/analytics/dfa.js$script,domain=tuttleclickgenesis.com
@@ -94768,10 +94769,15 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 /?c=propeller&lpid=$all
 ||fitgirl-repack.com^$all
 ||fitgirl-repacks.com^$all
+||fitgirls-repack.com^$all
 ||fitgirl-repack.net^$all
 ||fitgirl-repacks.website^$all
 ||fitgirl-repacks.cc^$all
 ||fitgirlrepacks.co^$all
+||fitgirlrepacks.pro^$all
+||fitgirlrepack.games^$all
+||fitgirl-repacks.info^$all
+||fitgirl-repacks-site.org^$doc
 ||magiskmanager.com^$doc
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js:5
@@ -96924,6 +96930,8 @@ scanurl.net##.adsbygoogle
 @@||googletagmanager.com/gtm.js$script,domain=insiderstore.com.br
 @@||cdc.gov/JScript/metrics/adobe/launch/*/AppMeasurement.min.js$script,1p
 @@||cdc.gov/JScript/metrics/adobe/launch/*/AppMeasurement_Module_ActivityMap.min.js$script,1p
+@@||holidaypark.de/sites/default/files/public/google_tag/*$script,1p
+@@||googletagmanager.com/gtm.js$script,domain=holidaypark.de
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
