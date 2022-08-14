@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8tFbKrRt77yps6mYweQlHA
+! Checksum: Pf/oJpMlM9LmCOU0DsV7KA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208141019
-! Last Modified: 2022年08月14日 10:19
+! Version: 202208141426
+! Last Modified: 2022年08月14日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -94515,6 +94515,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||for-soft.com^$all
 ||of-soft.com^$all
 /\/(?:[0-9a-z]{7,20}-){13}[0-9a-z]{10,15}\/\?subsource=/$doc
+||imilroshoors.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
