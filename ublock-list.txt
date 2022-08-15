@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Rdb7zsPhXbjbeUMgdDPUew
+! Checksum: 5NX55QT/WeaZWZ5GgPi2Xg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208150225
-! Last Modified: 2022年08月15日 02:25
+! Version: 202208151020
+! Last Modified: 2022年08月15日 10:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54264,6 +54264,7 @@ tf2r.com#@#.adverts
 ||ads.servebom.com^
 ||ads.sportradar.com^
 ||adserving.unibet.com^
+||adv.r7.com^
 ||advast.sibnet.ru^
 ||adzmoney.linkyqueen.ga^
 ||aff.bstatic.com^
@@ -66229,6 +66230,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /SEMTracking.
 /send-impressions.html
 /sendLogs?cid
+/sensefuel/tracking/*
 /sensor.modern.ncl.
 /sensor/statistic?
 /sensorsdata-
@@ -68325,6 +68327,7 @@ _mongo_stats/
 ||lite-cdn.com^
 ||liveyield.com^
 ||lltrck.com^
+||lmepbq.com^
 ||loloclicks.biz^
 ||lsdm.co^
 ||maggieeatstheangel.com^
@@ -76093,6 +76096,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.praetor.im^$third-party
 ||andyhoppe.com/count/
 ||api.fanmatics.com/event
+||artemis-cdn.ocdn.eu^
 ||audimark.de/tracking/
 ||bcs-computersysteme.com/cgi-local/hiddencounter/
 ||beagle.prod.tda.link^
@@ -76746,7 +76750,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||terra.com.br/metrics/
 ||track.e7r.com.br^
 ||track.noddus.com^
+||tracker.tolvnow.com^
 ||trrsf.com.br/metrics/
+||visit-prod-us.occa.ocs.oraclecloud.com^
 ||webstats.sapo.pt^
 ||xl.pt/api/stats.ashx?
 ||7w.ro/js/trk.js
@@ -104034,7 +104040,7 @@ scanurl.net##.adsbygoogle
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 19 Aug 2002 00:00:00
+# start date:    Tue, 20 Aug 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
