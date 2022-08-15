@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ez+sejetar8d6BRCoe1NQg
+! Checksum: rC+oo2qk5HU2C4T9uAyOFQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208151430
-! Last Modified: 2022年08月15日 14:30
+! Version: 202208152047
+! Last Modified: 2022年08月15日 20:47
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -73704,6 +73704,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||allanalpass.com/track/
 ||alooma.com/track/
 ||alooma.io/track/?
+||am.i.mullvad.net^$third-party
 ||amatomu.com/link/log/
 ||amatomu.com/log.php?
 ||amazon.com/gp/*&linkCode$third-party
@@ -96950,6 +96951,8 @@ scanurl.net##.adsbygoogle
 @@||googletagmanager.com/gtm.js$script,domain=holidaypark.de
 mitula.com.br#@#.adsList
 @@||js.captcha-display.com/xhr_tag.js$script,domain=sso.garena.com
+@@||datadome.co/js/$xhr,domain=sso.garena.com
+@@||datadome.co/tags.js$domain=sso.garena.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
