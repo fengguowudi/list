@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MLhDO5eNr6irzkB3AyCbng
+! Checksum: EkOinR9g0r26d3YyvmQALQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208170230
-! Last Modified: 2022年08月17日 02:30
+! Version: 202208171026
+! Last Modified: 2022年08月17日 10:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52455,6 +52455,7 @@ tf2r.com#@#.adverts
 ||hornsgrid.com^$popup
 ||hotchatdate.com^$popup
 ||hotchatdirect.com^$popup
+||housecardsummerbutton.com^$popup
 ||hpyjmp.com^$popup
 ||hqtrk.com^$popup
 ||hrahdmon.com^$popup
@@ -58637,7 +58638,6 @@ yellowise.com##.g-widget-block
 titantv.com##.gAd
 animedao.to,elevenforum.com##.gads
 eonline.com##.gallery-rail-sticky-container
-msn.com##.galleryPage_eoabNativeAd-DS-EntryPoint1-1
 cdromance.com##.game-container[style="grid-column: span 2;"]
 geoguessr.com##.game-layout__in-game-ad
 amoyshare.com##.game-poster
@@ -59936,7 +59936,6 @@ imdb.com##[data-testid="media-sheet__attr-banner"]
 washingtonpost.com##[data-testid="placeholder-box"]
 gadgetsnow.com##[data-type="mtf"]
 cnn.com##[data-zone-label="Paid Partner Content"]
-msn.com##[data=test-id="mrr-nativead"]
 naturalnews.com##[href*="/WBA-"]
 naturalnewsblogs.com##[href*="/WBA/"]
 complaintsingapore.com##[href*="/adv.php"]
@@ -60057,7 +60056,6 @@ geeksforgeeks.org##[id^="bsa-zone"]
 scmp.com##[id^="div-ad-"]
 eatthis.com##[id^="gm_karmaadunit_widget"]
 comicbook.com,popculture.com##[id^="native-plus-"]
-msn.com##[id^="native_ad_"]
 noqreport.com##[id^="oqre-"]
 wuxiaworld.site##[id^="wuxia-"]
 apkcombo.com##[onclick*="_blank"]
@@ -60287,7 +60285,6 @@ theculturetrip.com##div[class^="billboard_"]
 timesnownews.com##div[class^="bottomStickyAd-"]
 historycollection.com##div[class^="cis_add_block"]
 3dnatives.com##div[class^="dnati-"]
-msn.com##div[class^="galleryPage_bannerAd"]
 groovypost.com##div[class^="groov-adsense-"]
 technologyreview.com##div[class^="headerTemplate__leaderboardRow-"]
 dailytrust.com##div[class^="header_ad_"]
@@ -60738,15 +60735,19 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 testpages.adblockplus.org###abptest
 msn.com##.bing-native-ad
 msn.com##.dynamicRRWrapper
+msn.com##.galleryPage_eoabNativeAd-DS-EntryPoint1-1
 msn.com##.intra-article-ad
 msn.com##.medianetintraarticlenativead
 msn.com##.nativeadserversidecontentmodule
 msn.com##.sameoab_ad_container
 msn.com##.serversidenativead.secondary
 msn.com##[class^="nativeAd"]
+msn.com##[data-test-id="mrr-nativead"]
+msn.com##[id^="native_ad_"]
 msn.com##a.nativead[target="_blank"]
 msn.com##div[aria-label="promotions"]
 msn.com##div[class^="articlePage_topBannerAdContainer_"]
+msn.com##div[class^="galleryPage_bannerAd"]
 msn.com##div[data-section-id="sponsored.stripe.shopping"]
 msn.com##div[data-section-id="stripe.bannernativead"]
 bing.com##.ad_sc
@@ -74923,7 +74924,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mc.yandex.com^
 ||mc.yandex.ru^
 ||mcdp-*.outbrain.com^
-||mcs-va.tiktok.com^
 ||mcssl.com^*/track.ashx?
 ||mdctrail.com/b.ashx$third-party
 ||mdxprod.io/analytics.js
@@ -104120,8 +104120,8 @@ mitula.com.br#@#.adsList
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Sat, 13 Aug 2022 21:49:32 GMT
-# entries:        3630
+# last updated:   Wed, 17 Aug 2022 00:43:57 GMT
+# entries:        3631
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -104129,7 +104129,7 @@ mitula.com.br#@#.adsList
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 21 Aug 2002 00:00:00
+# start date:    Thu, 22 Aug 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -106642,6 +106642,7 @@ mitula.com.br#@#.adsList
 127.0.0.1 openx.skinet.cz
 127.0.0.1 openx.smcaen.fr
 127.0.0.1 openx2.kytary.cz
+127.0.0.1 operationchicken.com
 127.0.0.1 operationkettle.com
 127.0.0.1 opienetwork.com
 127.0.0.1 opmnstr.com
