@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BTjmtfhccYwW3wW9Jo7Xcw
+! Checksum: s2T7tcVgTRmO0zEh9xEJHA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208171430
-! Last Modified: 2022年08月17日 14:30
+! Version: 202208172050
+! Last Modified: 2022年08月17日 20:50
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -28044,6 +28044,7 @@ _800x80_
 ##.post--native-ad
 ##.post-ad
 ##.post-ad-title
+##.post-ad-top
 ##.post-ad-type
 ##.post-ads
 ##.post-ads-detalhe
@@ -34982,6 +34983,7 @@ tf2r.com#@#.adverts
 ||bitpcn.com^
 ||bitvnvjfakrik.xyz^
 ||bitx.tv^
+||bizmavosndi.com^
 ||bizographics.com^
 ||bizrotator.com^
 ||bj1110.online^
@@ -36004,6 +36006,7 @@ tf2r.com#@#.adverts
 ||cliand.com^
 ||clic2pub.com^
 ||clicadu.com^
+||click-cdn.com^
 ||click.scour.com^
 ||click4free.info^
 ||clickadin.com^
@@ -37704,6 +37707,7 @@ tf2r.com#@#.adverts
 ||efficaciousart.com^
 ||efficientapplesimulator.com^
 ||effixtile-inceive.com^
+||effolk.com^
 ||efforlessefforlesslearning.com^
 ||efinauknceiw.work^
 ||efjbjykvyxpil.com^
@@ -38303,6 +38307,7 @@ tf2r.com#@#.adverts
 ||feadrope.net^
 ||fearfuldiscoverlads.com^
 ||fearpeaceoversight.com^
+||fearwild.com^
 ||feastoffortuna.com^
 ||featassuage.com^
 ||featbooksterile.com^
@@ -41092,6 +41097,7 @@ tf2r.com#@#.adverts
 ||kouraija.net^
 ||koutobey.net^
 ||koxeebee.net^
+||kozuyzcciaygg.com^
 ||kpavslwqfgtm.com^
 ||kpmmthnpqoc.xyz^
 ||kpnbrxtxyqqn.com^
@@ -41817,6 +41823,7 @@ tf2r.com#@#.adverts
 ||mainapiary.com^
 ||mainauko.net^
 ||mainroll.com^
+||majestydeference.com^
 ||majomalonic.com^
 ||majorgeorgiana.com^
 ||majorinryesop.lol^
@@ -47259,6 +47266,7 @@ tf2r.com#@#.adverts
 ||tedropkinthenligh.pro^
 ||teeglimu.com^
 ||teelikeableaspirant.com^
+||teemingaymoro.com^
 ||teemooge.net^
 ||teensexgfs.com^
 ||teenstiffen.com^
@@ -48667,6 +48675,7 @@ tf2r.com#@#.adverts
 ||vogeto.com^
 ||vogo-vogo.ru^
 ||vogueoatgap.com^
+||vogulprecast.com^
 ||vohhall71.com^
 ||vohhall81.com^
 ||vohhall91.com^
@@ -52042,6 +52051,7 @@ tf2r.com#@#.adverts
 ||clarifysuper.com^$popup
 ||clbanners16.com^$popup
 ||cldrck.com^$popup
+||click-cdn.com^$popup
 ||clickbank.net/*offer_id=$popup,third-party
 ||clickcay.com^$popup,third-party
 ||clickfuse.com^$popup
@@ -53462,6 +53472,7 @@ tf2r.com#@#.adverts
 ||vkcdnservice.com^$popup
 ||vkgtrack.com^$popup
 ||vodobyve.pro^$popup
+||vogulprecast.com^$popup
 ||vokut.com^$popup
 ||voluumtrk.com^$popup
 ||voluumtrk3.com^$popup
@@ -55342,7 +55353,6 @@ tf2r.com#@#.adverts
 ||fpcplugs.com/do.cgi?widget=
 ||free.srcdn.xyz^
 ||freesexcam365.com/in/
-||fuegodevida.com^$third-party
 ||gateway-banner.eravage.com^
 ||geobanner.adultfriendfinder.com^
 ||geobanner.alt.com^
@@ -62114,6 +62124,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||az.hpcn.transer-cn.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||cdnqq.net/ad/api/popunder.js$script
 @@||centro.co.il^$generichide
+@@||coinmarketcap.com/static/addetect/$script,~third-party
 @@||crunchyroll.com^*/ads_$script
 @@||dlh.net^$script,subdocument,domain=dlh.net
 @@||etonline.com/modules/contrib/ctd_cvp/js/prebid-ads.js$script,~third-party
@@ -66043,6 +66054,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /pxls/*
 /pxlspamanalyst-
 /pxrc.php
+/pxtrack.
 /pxtrk.gif
 /pzn/proxysignature
 /qa-tracker.
@@ -75299,6 +75311,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.pinimg.com/ct/core.js
 ||s.srvsynd.com^
 ||sa.scorpion.co^
+||saasexch.com/bapi/fe/usd/report/
 ||sail-horizon.com/horizon/$third-party
 ||sailthru.com/img/$image,third-party
 ||sailthru.com/Sailthru_spacer_1x1.gif
@@ -104132,8 +104145,8 @@ mitula.com.br#@#.adsList
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 17 Aug 2022 00:43:57 GMT
-# entries:        3631
+# last updated:   Wed, 17 Aug 2022 10:29:59 GMT
+# entries:        3635
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -105795,7 +105808,11 @@ mitula.com.br#@#.adsList
 127.0.0.1 elitetoplist.com
 127.0.0.1 em1.yoursantander.co.uk
 127.0.0.1 email-clk.adguard.com
+127.0.0.1 email-link.adtidy.net
+127.0.0.1 email-link.adtidy.org
 127.0.0.1 email-links.crowdfireapp.com
+127.0.0.1 email-open.adtidy.net
+127.0.0.1 email-open.adtidy.org
 127.0.0.1 email-opn.adguard.com
 127.0.0.1 email.m1.bktrksmail.com
 127.0.0.1 emaillinks.soundiiz.com
