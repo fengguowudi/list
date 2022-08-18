@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Z0S7f5sv4QoEi5VPar2ekQ
+! Checksum: 07jDGifOtqTCn7GORmikHw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208181428
-! Last Modified: 2022年08月18日 14:28
+! Version: 202208182049
+! Last Modified: 2022年08月18日 20:49
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -38501,7 +38501,6 @@ tf2r.com#@#.adverts
 ||flaxierfilmset.com^
 ||flaxseedssoenrh4372ojd.com^
 ||fleckbest.com^
-||fleraprt.com^
 ||flewfirescommunication.com^
 ||flexlinks.com^
 ||flexnoseassist.com^
@@ -59627,7 +59626,7 @@ jquery.com##.sponsor-line
 cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 blbclassic.org##.sponsorZone
-2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,dunyanews.tv,fifplay.com,hbr.org,herald.co.zw,infoq.com,libhunt.com,motherjones.com,msn.com,reviewjournal.com,stocksnap.io,timeslive.co.za##.sponsored
+2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,dunyanews.tv,fifplay.com,hbr.org,herald.co.zw,infoq.com,lawandcrime.com,libhunt.com,motherjones.com,msn.com,reviewjournal.com,stocksnap.io,timeslive.co.za##.sponsored
 washingtontimes.com##.sponsored-heading
 hellomagazine.com##.sponsored-news
 coinmarketcap.com##.sponsoredMark
@@ -75914,6 +75913,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||widgetserver.com^*/image.gif?
 ||win.staticstuff.net^
 ||wishabi.net/attribution.js
+||witbee.com^*/collect
 ||wl-pixel.index.digital^
 ||wn.com/count.js
 ||wondershare.es/jslibs/track.js
@@ -77444,6 +77444,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gaiaonline.com/internal/mkt_t.php?
 ||gak.webtoons.com^
 ||gamedistribution.com/collect?
+||gamivo.com/tcllc?
 ||gc.newsweek.com/front/js/counter.js
 ||gekko.spiceworks.com^
 ||geo.gfycat.com^
@@ -77672,6 +77673,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nbcnews.com/_next/static/chunks/ads.$script,domain=msnbc.com|nbcnews.com
 ||ncbi.nlm.nih.gov/core/pinger
 ||neatorama.com/story/view/
+||neeva.com/logql/log
 ||neowin.net/ws/$websocket
 ||net.haier.com^
 ||netflix.com/msl/playapi/cadmium/logblob/
@@ -88814,7 +88816,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||dashboard.streetlib.com/_next/static/chunks/pages/$~third-party
-@@||dashboard.unity3d.com/services/analytics/$~third-party
+@@||dashboard.unity.com/dist/udash/app/assets/services/analytics/$~third-party
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
 @@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|usa.experian.com
 @@||ddmcdn.com^*/adobe.visitor-$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
@@ -96943,7 +96945,6 @@ united.no#@#.page-ads
 si.com#@#.is-below-header-ad
 @@||edge.permutive.app^$script,domain=watch.globaltv.com
 @@||api.permutive.com/v*/geoip$xhr,domain=watch.globaltv.com
-@@||googletagmanager.com/gtm.js$script,domain=oakandfort.com
 @@/1.gif?$image,1p,domain=kanjiku.net
 @@/2.gif?$image,1p,domain=kanjiku.net
 @@||dealersite4.d2cmedia.ca^$domain=schlueterhyundai.com
@@ -96958,7 +96959,6 @@ si.com#@#.is-below-header-ad
 @@||onlinevideoconverter.com/upload$xhr,1p
 @@||coinzillatag.com/lib/display.js$script,domain=ad-doge.com
 @@||sentry-cdn.com^$script,domain=ad-doge.com
-@@.a2ip.ru/spacer.gif?$image,domain=2ip.ru
 @@||googletagmanager.com/gtm.js$domain=security-demo.extrahop.com
 @@||app.pendo.io/data/guide.js/*$script,domain=security-demo.extrahop.com
 @@||google-analytics.com/analytics.js$script,domain=reykjaviksailors.is
@@ -96984,7 +96984,6 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||hqq.to/e/*$csp,domain=gomo.to
 @@||photopea.com/promo/no_ads.png$xhr,1p
 duckduckgo.com#@#.js-sidebar-ads
-||cubics.com^$badfilter
 @@||new.xlovecam.com^$xhr,domain=divascam.com
 ||go.usa.gov^$badfilter
 @@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=conad.it
@@ -96995,7 +96994,6 @@ duckduckgo.com#@#.js-sidebar-ads
 @@||index.hr/thirdparty/brid/*$script,1p
 @@||google-analytics.com/analytics.js$script,redirect-rule=google-analytics.com/analytics.js:5,domain=stern.de
 @@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager_gtm.js:5,domain=stern.de
-||xxxhd.cc^$badfilter
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=oggi.it
 @@||components2.rcsobjects.it/rcs_adv/v1/distro/dfp/common/prebid.js$script,domain=oggi.it
 @@||static.adsafeprotected.com/iasPET$script,domain=oggi.it
@@ -97030,8 +97028,6 @@ fontspace.com#@#.container-ads
 gamedistribution.com##+js(no-fetch-if, /^/)
 ||cdn.branch.io^$badfilter
 @@||cdn.branch.io/branch-latest.min.js$script
-@@||marketingautomation.services/client/ss.js$script,domain=leeuwerik.nl
-@@||marketingautomation.services/*login$script,domain=leeuwerik.nl
 @@||ad.doubleclick.net/clk*travel*&destinationURL=$doc
 ||simpletraffic.co^$badfilter
 ||simpletraffic.co^$3p
@@ -97046,7 +97042,6 @@ oasport.it#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;m
 @@||tags.tiqcdn.com/utag/bluestem/main/prod/utag.sync.js$script,domain=fingerhut.com
 @@||monetate.net^$script,xhr,domain=fingerhut.com
 ||hits.informer.com/log.php$image,domain=funny.pho.to,redirect-rule=1x1.gif
-@@||console.otc.t-systems.com/mrs/rest/api/v1/log$xhr,1p
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=factable.com
 @@||securepubads.g.doubleclick.net/gpt/*$script,domain=factable.com
 factable.com##.puicontainer
@@ -97056,7 +97051,6 @@ factable.com##.pohcontainer
 ||ba.afl.rakuten.co.jp^$badfilter
 ||ba.afl.rakuten.co.jp^$3p
 beckershospitalreview.com##html,body:style(overflow: auto !important)
-#@#.ad-image
 *$frame,domain=mcrypto.club|luckydice.net,redirect-rule=noopframe
 ||cryptocoinsad.com/ads/show.php$frame,redirect-rule=noop.html
 thequint.com#@#._4xQrn
@@ -97085,7 +97079,6 @@ scanurl.net##.adsbygoogle
 ||exponea.com^$3p
 ||assets.springserve.com^$media,domain=app.plex.tv,redirect=noopmp3-0.1s
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=vtvgiaitri.vn
-@@||googletagmanager.com/gtm.js$script,domain=insiderstore.com.br
 @@||holidaypark.de/sites/default/files/public/google_tag/*$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=holidaypark.de
 mitula.com.br#@#.adsList
