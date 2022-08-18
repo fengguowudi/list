@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +8YaGQfUo8WjFQPRxU2k3A
+! Checksum: Z0S7f5sv4QoEi5VPar2ekQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208181027
-! Last Modified: 2022年08月18日 10:27
+! Version: 202208181428
+! Last Modified: 2022年08月18日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -11975,6 +11975,7 @@ _800x80_
 ###articleview_ad2
 ###artist-ad-container
 ###as24-magazine-rightcol-adtag-1
+###aside-ad-container
 ###asideAd
 ###aside_ad
 ###asideads
@@ -60379,6 +60380,7 @@ gadgetsnow.com##div[id^="div-u-id-"]
 thewrap.com##div[id^="dsk-box-ad"]
 whatsondisneyplus.com##div[id^="extra_mpu_"]
 micast.tv##div[id^="floatLayer"]
+memedroid.com##div[id^="freestar-ad-"]
 mangatigre.com##div[id^="i-d-cr-page"]
 forbesafrica.com##div[id^="incontentAd"]
 dexerto.com##div[id^="jwplayer_"]
@@ -78175,6 +78177,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||xhcdn.com/js/track.
 ||xing.com/logjam/
 ||xstats.evoload.io^
+||yahoo.com/_td_api/beacon/
 ||yahoo.com/beacon/
 ||yahoo.net/pixel.gif
 ||yandex.*/clck/$~ping
