@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: L/iXr2SHigqDzdYCGtMS7g
+! Checksum: +8YaGQfUo8WjFQPRxU2k3A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208180227
-! Last Modified: 2022年08月18日 02:27
+! Version: 202208181027
+! Last Modified: 2022年08月18日 10:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -9180,6 +9180,7 @@ _800x80_
 ###ad336x280
 ###ad368_2578
 ###ad368_2700
+###ad3734
 ###ad375x85
 ###ad3Article
 ###ad3small
@@ -16233,6 +16234,7 @@ _800x80_
 ###tippytop-ad
 ###title-sponsor-banner
 ###title-wide-sponsored-by
+###tmInfiniteAd
 ###tmcomp_ad
 ###tmgAd_div_mpu_1
 ###tmglBannerAd
@@ -89215,7 +89217,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|unicef.de|vox.de
 @@||google-analytics.com/gtm/js?$script,domain=unicef.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
-@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
+@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|karriere.at|radiorur.de|saturn.at|sport1.de|vox.de
 @@||home.mobile.de^*/trackingService.js$script,~third-party
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
@@ -104186,7 +104188,7 @@ mitula.com.br#@#.adsList
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 22 Aug 2002 00:00:00
+# start date:    Fri, 23 Aug 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
