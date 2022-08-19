@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FtLbcX0lgoziMnWg3GBdCA
+! Checksum: 8ypJ/VuGOXAobBQJQ/MOxg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208190226
-! Last Modified: 2022年08月19日 02:26
+! Version: 202208191021
+! Last Modified: 2022年08月19日 10:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17171,8 +17171,8 @@ _800x80_
 ##.GoogleAdv
 ##.GoogleDfpAd
 ##.GoogleDfpAd-Content
-##.GoogleDfpAd-container
 ##.GoogleDfpAd-Float
+##.GoogleDfpAd-container
 ##.GoogleDfpAd-wrap
 ##.GoogleDfpAd-wrapper
 ##.GoogleDfpAdModule
@@ -32122,6 +32122,7 @@ _800x80_
 ###taboola-below-article-thumbnails
 ###taboola-below-article-thumbnails-3rd
 ###taboola-below-article-thumbnails-express
+###taboola-below-article-thumbnails-v2
 ###taboola-below-home-thumbnails-homepage
 ###taboola-content
 ###taboola-footer-ad
@@ -48672,6 +48673,7 @@ tf2r.com#@#.adverts
 ||vixnixxer.com^
 ||vizaiced.net^
 ||vjafttweylg.xyz^
+||vjdciu.com^
 ||vjgenkfqjqng.com^
 ||vk77lnizckm6.com^
 ||vkaofq64zz.com^
@@ -55252,7 +55254,6 @@ tf2r.com#@#.adverts
 ||babesroulette.com^$popup
 ||best-stream.net^$popup
 ||bestanimegame.com^$popup
-||bestchoicevpn.com^$popup
 ||bet365.com^*affiliate=$popup
 ||bettingpremier.com/direct/$popup
 ||bitcoincityprofits.co/?session=*&aff_$popup
@@ -57737,7 +57738,7 @@ ettvcentral.com###vpnvpn
 censor.net###w1001
 censor.net###w1031
 w2g.tv###w2g-square-ad
-igberetvnews.com###wallpaper
+igberetvnews.com,nextnewssource.com###wallpaper
 eeweb.com###wallpaper_image
 everythingrf.com###walltrack
 realclearhistory.com###warning_empty_div
@@ -61240,7 +61241,7 @@ gosexpod.com##.content__block_spots
 anysex.com##.content_right > .no_pop
 xcafe.com##.content_source
 gottanut.com##.coverUpVid-Dskt
-hqasianporn.org##.coverup
+forced-tube.net,hqasianporn.org##.coverup
 4tube.com##.cpp
 3movs.com,fapality.com##.cs
 mylust.com##.cs-bnr
@@ -64194,6 +64195,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /dwanalytics.
 /dwell-log?
 /dwell/log?
+/dynamic.ziftsolutions.com/*
 /dynamic_ytrack_
 /DynamicAnalytics.
 /dynamictag.
@@ -68350,6 +68352,7 @@ _mongo_stats/
 !-----------------Third-party tracking domains-----------------!
 ||1cros.net^
 ||2022welcome.com^
+||2l6ddsmnm.de^
 ||31daa5lnq.de^
 ||520886.xyz^
 ||8672.site^
@@ -68485,6 +68488,7 @@ _mongo_stats/
 ||mdhv.io^
 ||mm-api.agency^
 ||mors22.com^
+||mrpdata.net^
 ||mt48.net^
 ||n0909.com^
 ||native-track.com^
@@ -68514,6 +68518,7 @@ _mongo_stats/
 ||pzapi-ij.com^
 ||pzimff.com^
 ||quantserve.com^
+||quesid.com^
 ||quickanalytics.ca^
 ||quickkoala.io^
 ||r42tag.com^
@@ -68523,6 +68528,7 @@ _mongo_stats/
 ||rezync.com^
 ||rfpx1.com^
 ||rftslb.com^
+||rigill.com^
 ||rkdms.com^
 ||rlcdn.com^
 ||rtactivate.com^
@@ -68530,6 +68536,7 @@ _mongo_stats/
 ||sbgsodufuosmmvsdf.info^
 ||sc-static.net^
 ||seadform.net^
+||selphiu.com^
 ||seoab.io^
 ||site24x7rum.eu^
 ||sixtrk.com^
@@ -68570,6 +68577,7 @@ _mongo_stats/
 ||wmgroup.us^
 ||woodpeckerlog.com^
 ||yardianalytics.com^
+||yottlyscript.com^
 ||z0uolej1qnxzub1.info^
 ||zdbb.net^
 ||zenaps.com^
@@ -68763,6 +68771,7 @@ _mongo_stats/
 ||ambercrow.com^$third-party
 ||amikay.com^$third-party
 ||amnet.tw^$third-party
+||amp.vg^$third-party
 ||amplitude.com^$third-party
 ||ampush.io^$third-party
 ||amung.us^$third-party
@@ -68841,6 +68850,7 @@ _mongo_stats/
 ||autoaudience.com^$third-party
 ||autoid.com^$third-party
 ||autoline-top.com^$third-party
+||automizely-analytics.com^$third-party
 ||avantlink.com^$third-party
 ||avapartner.com^$third-party
 ||avastats.com^$third-party
@@ -73674,6 +73684,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||madnet.ru^$third-party
 ||mediaplan.ru^$third-party
 ||mediatoday.ru^$third-party
+||metaversn.site^$third-party
 ||metrika-informer.com^$third-party
 ||mokuz.ru^$third-party
 ||more-data.ru^$third-party
@@ -73835,6 +73846,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||affiliates.minglematch.com^
 ||affirm.com/api/v2/cookie_sent
 ||affirm.com/api/v2/session/touch_track
+||agent.contentsanalyst.com^
 ||air.audioeye.com^
 ||akamaihd.net/p1lakjen.gif
 ||akamaized.net/cookie_check/
@@ -74924,6 +74936,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||liverail.com/?metric=
 ||liverail.com/track/?
 ||livestats.kaltura.com^
+||livestory.io/*/collect
 ||loader-cdn.azureedge.net^
 ||loader.zeroform.com^
 ||location3.com/analytics/
@@ -75230,6 +75243,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||player.ooyala.com/errors/report?
 ||playtomic.com/Tracker/
 ||plista.com/activity
+||pm.boostintegrated.com^
 ||poool.fr/api/v3/access/event
 ||porpoise.azettl.net^
 ||postageapp.com/receipt/$third-party
@@ -75664,6 +75678,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.cordial.io^
 ||track.custora.com^
 ||track.digitalriver.com^
+||track.emerse.com^
 ||track.hubspot.com^
 ||track.juno.com^
 ||track.mailerlite.com^
@@ -75717,6 +75732,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.unbxdapi.com^
 ||tracker.wigzopush.com^
 ||tracker.wpserveur.net^
+||tracker.xgen.dev^
 ||trackerapi.truste.com^
 ||trackicollect.ibase.fr^$third-party
 ||tracking.*.miui.com^
@@ -76753,6 +76769,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.contents.by-fw.jp^
 ||analytics.liveact.cri-mw.jp^
 ||analytics.livesense.marketing^
+||analytics.partcommunity.com^
 ||analyzer51.fc2.com^
 ||api.all-internet.jp^$third-party
 ||api.popin.cc/conversion2.js
@@ -76805,6 +76822,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rasin.tech/scroll-logs/
 ||rcm.shinobi.jp^
 ||rd.rakuten.co.jp^$script
+||reports-tsi.tangerine.io^
 ||reproio.com^$third-party
 ||resultspage.com/js/sli-spark.js
 ||rlog.popin.cc^
@@ -77182,6 +77200,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.send.cm^
 ||analytics.slashdotmedia.com^
 ||analytics.synedat.com^
+||analytics.touchnote.io^
 ||analytics.tradedoubler.com^
 ||analytics.twitter.com^
 ||analytics.vedantu.com^
@@ -78339,6 +78358,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||foursquare.com/0UqK4c76/init.js
 ||freepeople.com/tN88Q85M/init.js
 ||hotpads.com/xOR1K5b6/init.js
+||iherb.com/VtidNbtC/init.js
 ||internships.com/oGckki0e/init.js
 ||jimmyjohns.com/Abo2Yc8X/init.js
 ||joann.com/qXTWmr91/init.js
@@ -87654,6 +87674,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||behave.sn.at^
 ||braunschweiger-zeitung.de/stats/
 ||bz-berlin.de/_stats/
+||cdn.stroeerdigitalgroup.de^
 ||chartsurfer.de/js/mtm.js
 ||chartsurfer.de/uscoll.php?
 ||chefkoch.de/tracking/
@@ -88892,6 +88913,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|luminskin.com|mybalancenow.com|myvanillacard.com|web.aw.ca
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
+@@||geoip.cookieyes.com/geoip/checker/result.php$domain=marktechpost.com
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
@@ -96418,7 +96440,6 @@ hentaiplay.net###video_overlays
 @@||ziyu.net^$domain=tenki-yoho.com
 @@||ing.pl^$cname
 @@||privacy-mgmt.com^$script,domain=wunderweib.de
-@@||ir.ebaystatic.com/pictures/aw/pics/s_1x2.gif$image,domain=ebay.fr
 @@||privacy-mgmt.com^$script,domain=praxisvita.de
 @@||cdn.playwire.com/bolt/js/zeus/embed.js$script,domain=neopets.com
 @@||lubin.pl^$cname
@@ -96433,7 +96454,6 @@ hentaiplay.net###video_overlays
 hwupgrade.it#@#.wrapper-xyz
 @@||das-bumerang-projekt.de/*/boomerang.js$script,1p
 @@||wow.zamimg.com/js/*/BlueTracker.js$script,domain=wowhead.com
-waplog.com#@#.banner-bottom
 @@||serviceyock.me/api/advertise/$xhr,domain=yock.games
 @@||omggamer.com/detroitchicago/dayton.js$script,1p
 @@||lebigdata.fr/detroitchicago/$script,1p
@@ -96452,7 +96472,6 @@ lebigdata.fr##.background-cover
 uktvplay.uktv.co.uk##.video-overlay
 uktvplay.uktv.co.uk##.vjs-ad-control-bar.vjs-control-bar
 store.petvalu.com##.store_locator_loading
-stupeni22.ru#@#.banner-bottom
 @@||caradisiac.com^$cname
 @@||animepahe.com^$cname
 hero-magazine.com###header:style(position: inherit !important;)
@@ -104190,7 +104209,7 @@ dpp.org.tw#@#.ad_url
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 23 Aug 2002 00:00:00
+# start date:    Sat, 24 Aug 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
