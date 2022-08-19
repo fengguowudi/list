@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eCOTodlkWyUF5V+K5PAXuQ
+! Checksum: /AxjuM0dHyZfxv/7Nz+rCw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208192042
-! Last Modified: 2022年08月19日 20:42
+! Version: 202208200230
+! Last Modified: 2022年08月20日 02:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16797,6 +16797,7 @@ _800x80_
 ###zone_c_ads
 ###zsAdvertisingBanner
 ###zztextad
+##.--ads
 ##.-advertsSidebar
 ##.AD-POST
 ##.AD-RC-300x250
@@ -20958,6 +20959,7 @@ _800x80_
 ##.ads-txt
 ##.ads-u-1
 ##.ads-ul
+##.ads-under-header
 ##.ads-vertical-icons-wrap
 ##.ads-verticle
 ##.ads-video-zone-container
@@ -21842,6 +21844,7 @@ _800x80_
 ##.adunit-container-incontent-400px
 ##.adunit-container-sitebar-600px
 ##.adunit-container_sitebar_1
+##.adunit-googleadmanager
 ##.adunit-middle
 ##.adunit-parent
 ##.adunit-purch
@@ -24429,6 +24432,7 @@ _800x80_
 ##.content_advt
 ##.content_bottom_adsense
 ##.content_column2_ad
+##.content_gpt_top_ads
 ##.content_inner_ad
 ##.content_left_advert
 ##.content_middle_adv
@@ -90563,6 +90567,7 @@ neomovies.net###clickfakeplayer
 pcgamer.com##+js(aopr, _sp_._networkListenerData)
 pcgamer.com##.onesignal-customlink-container
 pcgamer.com##div[style="position: fixed; bottom: 0px; left: 0px; width: 100%; min-height: 90px; background-color: rgba(245, 245, 245, 0.8); z-index: 9995;"]
+pcgamer.com##.listingResult > div.sponsored-post:upward(1)
 @@||puretoons.*^$ghide
 shortz.one##+js(aopr, app_vars.force_disable_adblock)
 file.wapka.org###sam
@@ -93858,7 +93863,7 @@ mangastream.mobi###myModal
 ||doubleclick.net^$xhr,redirect-rule=noop.txt,domain=~d3ward.github.io
 ||media.fastclick.net^$xhr,redirect-rule=noop.txt,domain=~d3ward.github.io
 ||ads.facebook.com^$xhr,redirect-rule=noop.txt,domain=~d3ward.github.io
-||advice-ads.s3.amazonaws.com^$xhr,redirect-rule=noop.txt
+||advice-ads.s3.amazonaws.com^$xhr,redirect-rule=noop.txt,domain=~d3ward.github.io
 ||ads.youtube.com^$xhr,redirect-rule=noop.txt,domain=~d3ward.github.io
 globfone.com##+js(no-xhr-if, ads)
 donugdee.com##.ad-overlay-click
