@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gmWlTtKpS3sWWebHr3zlhw
+! Checksum: efUdHm0QZU7CZs+kMjV3Uw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208201426
-! Last Modified: 2022年08月20日 14:26
+! Version: 202208202037
+! Last Modified: 2022年08月20日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -97141,6 +97141,8 @@ mitula.com.br#@#.adsList
 @@||mpsnare.iesnare.com/snare.js$script,domain=lenovo.com
 dpp.org.tw#@#.ad_url
 @@||media.sailthru.com/composer/images$image,domain=link.square-enix-games.com
+lightnovelpub.com#@#.lnadcontainer
+lightnovelpub.com#@#.adsbox
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -104232,8 +104234,8 @@ dpp.org.tw#@#.ad_url
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 17 Aug 2022 10:29:59 GMT
-# entries:        3632
+# last updated:   Sat, 20 Aug 2022 11:08:33 GMT
+# entries:        3633
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -105623,6 +105625,7 @@ dpp.org.tw#@#.ad_url
 127.0.0.1 clicklink.jp
 127.0.0.1 clickmate.io
 127.0.0.1 clickonometrics.pl
+127.0.0.1 clicks.deliveroo.co.uk
 127.0.0.1 clicks.equantum.com
 127.0.0.1 clicks.mods.de
 127.0.0.1 clickserve.cc-dt.com
