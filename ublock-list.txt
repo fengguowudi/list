@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7+hhj2gvc6jsXaqJKpIwdQ
+! Checksum: gmWlTtKpS3sWWebHr3zlhw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208201018
-! Last Modified: 2022年08月20日 10:18
+! Version: 202208201426
+! Last Modified: 2022年08月20日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17529,6 +17529,7 @@ _800x80_
 ##.ac_adbox
 ##.ac_adbox_inner
 ##.acf-ad
+##.acm-ad-tag-unit
 ##.acm_ad_zones
 ##.ad--300
 ##.ad--300x250
@@ -29684,6 +29685,7 @@ _800x80_
 ##.statTop_adsense
 ##.static-ad
 ##.staticAd
+##.static_mpu_wrap
 ##.staticad
 ##.staticad_mark125
 ##.std_ad_container
@@ -57444,7 +57446,7 @@ livelaw.in###news_on_exit
 canberratimes.com.au,examiner.com.au,theland.com.au###newswell-leaderboard-container
 searchfiles.de###nextuse
 seroundtable.com###ninja_box
-pcgamesn.com,pockettactics.com###nn_astro_wrapper
+pcgamesn.com,pockettactics.com,theloadout.com###nn_astro_wrapper
 trueachievements.com,truesteamachievements.com,truetrophies.com###nn_bfa_wrapper
 techraptor.net,unite-db.com###nn_lb1
 techraptor.net,unite-db.com###nn_lb2
@@ -90699,11 +90701,11 @@ hideandseek.world##+js(set, canRunAds, true)
 speedostream.com##+js(aost, JSON.parse, computed)
 ||s.speedostream.com^$script,1p
 @@||nnaa66.xyz^$ghide
-@@||lightnovelpub.com^$script,1p
-||lightnovelpub.com/adblockmsg$xhr,1p
-lightnovelpub.com##aside.container
-lightnovelpub.com#@#.ad-sticky
+lightnovelpub.com##+js(nostif, checkAdbl, 1000)
 lightnovelpub.com##.ad-container
+lightnovelpub.com##.comm-ads
+lightnovelpub.com##div:matches-css-before(content:/ADVERTISEMENT/)
+||lightnovelpub.com/lnmsg/ablck^
 nexusmods.com##+js(nano-stb, timer)
 nexusmods.com##.ad-section__skyscraper
 discovermagazine.com##.adunitContainer:upward(1)
@@ -97138,6 +97140,7 @@ mitula.com.br#@#.adsList
 @@||media.ethicalads.io/media/client/ethicalads.min.js$script,domain=iconer.app
 @@||mpsnare.iesnare.com/snare.js$script,domain=lenovo.com
 dpp.org.tw#@#.ad_url
+@@||media.sailthru.com/composer/images$image,domain=link.square-enix-games.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
