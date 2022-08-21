@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gEoXGe6bOPNN9fbQrWOtAQ
+! Checksum: YtfY85wXezQJ0Te1JJ069A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208212037
-! Last Modified: 2022年08月21日 20:37
+! Version: 202208220225
+! Last Modified: 2022年08月22日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -89823,9 +89823,12 @@ sexgamefun.com##.footer_banner
 sexgamefun.com##.hidden-xs > .well:has(> a > img)
 haho.moe##+js(acis, document.querySelectorAll, popMagic)
 haho.moe##+js(aeld, mouseup, decodeURIComponent)
+haho.moe##+js(aopw, _pop)
 haho.moe##div[title="Click to Close the Ad"]:upward(1)
 haho.moe##[href^="//"][style*="position: fixed;"]
 *$script,3p,denyallow=fluidplayer.com|gstatic.com|hwcdn.net|recaptcha.net,domain=haho.moe
+||mjrhficjcbf.com^
+||jqeyvtgelo.com^
 freeporncave.com##+js(nostif, location.replace, 300)
 freeporncave.com##.full-ave-pl
 empregoestagios.com,everydayonsales.com##+js(nostif, css_class.show)
