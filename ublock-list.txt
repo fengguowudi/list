@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XKyUXJKZIz8riw5eZLusOA
+! Checksum: gEoXGe6bOPNN9fbQrWOtAQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208211426
-! Last Modified: 2022年08月21日 14:26
+! Version: 202208212037
+! Last Modified: 2022年08月21日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -27374,6 +27374,7 @@ _800x80_
 ##.mpu_platinum
 ##.mpu_side
 ##.mpu_text_ad
+##.mpu_wrapper
 ##.mpuad
 ##.mpuads
 ##.mpuholderportalpage
@@ -56678,6 +56679,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockeronstreamta
 ||imgbox.com/images/tpd.png
 ||imgderviches.work/exclusive/bayou_
 ||imgtaxi.com/frame.php
+||imhentai.xxx/js/slider.js
 ||interracial-girls.com/chaturbate/
 ||interracial-girls.com/i/$image
 ||iplayboy.us/bnrs/
@@ -57447,7 +57449,7 @@ livelaw.in###news_on_exit
 canberratimes.com.au,examiner.com.au,theland.com.au###newswell-leaderboard-container
 searchfiles.de###nextuse
 seroundtable.com###ninja_box
-pcgamesn.com,pockettactics.com,theloadout.com###nn_astro_wrapper
+pcgamebenchmark.com,pcgamesn.com,pockettactics.com,theloadout.com###nn_astro_wrapper
 trueachievements.com,truesteamachievements.com,truetrophies.com###nn_bfa_wrapper
 techraptor.net,unite-db.com###nn_lb1
 techraptor.net,unite-db.com###nn_lb2
@@ -88370,6 +88372,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ameba.jp/cookie/
 ||ameblo.jp/accesslog/
 ||analytics.cocolog-nifty.com^
+||analytics.ikyu.com^
 ||analytics.mbga.jp^
 ||analyzer.fc2.com^
 ||analyzer2.fc2.com^
@@ -95176,6 +95179,7 @@ old.reddit.com##+js(ra, data-outbound-url, .outbound)
 reddit.com##+js(set, Object.prototype.allowClickTracking, false)
 /?p=%2F*&h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,1p
 /?h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,1p
+/?v=eyJoIjoiaHR0cHM6Ly9$image,1p
 webtoons.com##+js(set, ccsrv, '')
 webtoons.com##+js(set, lcs_SerName, '')
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js$script,redirect=noop.js,domain=bilibili.com,important
@@ -97150,6 +97154,7 @@ lightnovelpub.com#@#.adsbox
 @@||d1z2jf7jlzjs58.cloudfront.net/p.js$script,domain=tg24.sky.it
 @@||parsely.com/keys/skytg24.it$script,domain=tg24.sky.it
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js:5,domain=olx.pt
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule,domain=eksisozluk.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
