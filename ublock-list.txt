@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rOoY5Ff46RM4vLU55bdpOg
+! Checksum: KrpNL65fbYBnwuEirrjpQQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208210225
-! Last Modified: 2022年08月21日 02:25
+! Version: 202208211010
+! Last Modified: 2022年08月21日 10:10
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54627,6 +54627,7 @@ tf2r.com#@#.adverts
 ||instant-gaming.com/affgames/
 ||instantpaysites.com/banner/
 ||ipp.littlecdn.com^
+||jam.hearstapps.com/js/renderer.js
 ||jinx.com/content/banner/
 ||jobtarget.com/distrib_pages/
 ||jvzoo.com/assets/widget/
@@ -104248,7 +104249,7 @@ lightnovelpub.com#@#.adsbox
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 25 Aug 2002 00:00:00
+# start date:    Mon, 26 Aug 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
