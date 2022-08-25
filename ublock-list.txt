@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: x8JwtomormML9qiBkUChsQ
+! Checksum: mP1umYziyh9SXud+WgDCHQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208250236
-! Last Modified: 2022年08月25日 02:36
+! Version: 202208251025
+! Last Modified: 2022年08月25日 10:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56568,6 +56568,7 @@ skyrock.com###pub_up
 elevationmap.net###publift_home_billboard
 unogs.com###purevpninfo
 howtogermany.com###quaranvino
+sporcle.com###quiz-right-rail-unit-2
 unfair.co###r_sidebarwidgeted
 comicbookrealm.com###rad
 rawstory.com###rawstory_front_2_container
@@ -56778,6 +56779,7 @@ gogetaroomie.com###top-space
 imassera.com###top-sponsor
 progameguides.com###top-sticky-sidebar-container
 dotesports.com,gamepur.com###top-sticky-sidebar-wrapper
+sporcle.com###top-unit
 nytimes.com,nytimes3xbfgragh.onion###top-wrapper
 danpatrick.com###topBannerContainer
 investing.com###topBroker
@@ -58104,6 +58106,7 @@ motor1.com##.m1_largeMPU
 net-load.com##.m7s-81.m7s
 antimusic.com##.mad
 wccftech.com##.main-background-wrap
+sporcle.com##.main-content-unit-wrapper
 ggrecon.com##.mainVenatusBannerContainer
 color-hex.com##.margin10
 fandom.com##.marketplace
@@ -58264,6 +58267,7 @@ hamodia.com##.oiomainlisting
 forums.somethingawful.com##.oma_pal
 techspot.com##.oneText
 thedigitalfix.com##.ot-widget-banner
+otakuusamagazine.com##.otaku_big_ad
 advocate.com,out.com##.ourSponsors
 news18.com##.outBrainWrapper
 mma-core.com##.outVidAd
@@ -58843,6 +58847,7 @@ pakobserver.net##.tdi_121
 pakobserver.net##.tdi_124
 based-politics.com##.tdi_30
 who.is##.teaser-bar
+sporcle.com##.temp-unit
 macrumors.com##.tertiary
 ericpetersautos.com##.text-109
 upi.com##.text-center.mt-5
@@ -64239,7 +64244,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /kiwip.js
 /klaviyo_analytics.
 /KochavaAnalytics.
-/koko-analytics/*$domain=~kokoanalytics.com
+/koko-analytics/*/script.js
+/koko-analytics-
 /kontera.js
 /konterayahoooo.
 /kooomo.tracker.
@@ -103333,7 +103339,7 @@ raider.io##.slds-p-around--x-small
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 29 Aug 2002 00:00:00
+# start date:    Fri, 30 Aug 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
