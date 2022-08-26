@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DZFyXKOzA3zvD5wVp0nWQA
+! Checksum: xvYUYM0Jzi+1jg+4IrhTnA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208261441
-! Last Modified: 2022年08月26日 14:41
+! Version: 202208262044
+! Last Modified: 2022年08月26日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -6025,7 +6025,6 @@
 /subAd.
 /subad2_
 /subadz.
-/subnavads/*
 /subs-ads/*
 /sugar-ads.
 /sugar-ads/*
@@ -6732,14 +6731,12 @@ _ad_image_
 _ad_images/
 _ad_init/
 _ad_integration.
-_ad_interactive.
 _ad_label.
 _ad_layer_
 _ad_leaderboard.
 _ad_lib.
 _ad_logo.
 _ad_middle_
-_ad_minileaderboard.
 _ad_new_
 _ad_number=
 _ad_one.
@@ -8410,6 +8407,7 @@ _800x80_
 ###ad-label2
 ###ad-large-banner-top
 ###ad-large-header
+###ad-layout-top
 ###ad-lb
 ###ad-lb-secondary
 ###ad-ldr-spot
@@ -8534,12 +8532,6 @@ _800x80_
 ###ad-side
 ###ad-side-text
 ###ad-sidebar
-###ad-sidebar-1
-###ad-sidebar-2
-###ad-sidebar-3
-###ad-sidebar-4
-###ad-sidebar-5
-###ad-sidebar-6
 ###ad-sidebar-btf
 ###ad-sidebar-container
 ###ad-sidebar-mad
@@ -8560,12 +8552,10 @@ _800x80_
 ###ad-slideshow2
 ###ad-slot
 ###ad-slot-1
-###ad-slot-1501
 ###ad-slot-2
 ###ad-slot-3
 ###ad-slot-4
 ###ad-slot-5
-###ad-slot-502
 ###ad-slot-lb
 ###ad-slot-right
 ###ad-slot-top
@@ -8793,7 +8783,6 @@ _800x80_
 ###adBlocks
 ###adBottom
 ###adBox
-###adBoxUpperRight
 ###adBrandDev
 ###adBrandingStation
 ###adBreak
@@ -8812,8 +8801,6 @@ _800x80_
 ###adCompanionBanner
 ###adComponentWrapper
 ###adContainer
-###adContainerCC
-###adContainerForum
 ###adContainerMobile
 ###adContainer_1
 ###adContainer_2
@@ -8821,7 +8808,6 @@ _800x80_
 ###adContent
 ###adContentHolder
 ###adContext
-###adDailyDeal
 ###adDiv
 ###adDiv0
 ###adDiv1
@@ -9004,8 +8990,6 @@ _800x80_
 ###adTopbanner
 ###adTopboxright
 ###adTower
-###adTower1
-###adTower2
 ###adTwo
 ###adUn_1
 ###adUn_2
@@ -9761,8 +9745,6 @@ _800x80_
 ###adlabelheader
 ###adlanding
 ###adlandscape
-###adlargeverti
-###adlargevertimarginauto
 ###adlayer
 ###adlayerContainer
 ###adlayer_back
@@ -9845,14 +9827,6 @@ _800x80_
 ###adpos1-leaderboard
 ###adpos_3
 ###adposition
-###adposition-C
-###adposition-FPMM
-###adposition-REM2
-###adposition-SHADE
-###adposition-TOCSS
-###adposition-TVSP
-###adposition-inner-REM1
-###adposition-inner-REM3
 ###adposition1
 ###adposition10
 ###adposition1_container
@@ -9870,7 +9844,6 @@ _800x80_
 ###adrectanglea_hidden
 ###adrectangleb
 ###adrectangleb_flex
-###adrectmarginauto
 ###adrhs
 ###adrig
 ###adright
@@ -9881,7 +9854,6 @@ _800x80_
 ###adrightrail
 ###adriver_middle
 ###adriver_top
-###adrotate_leaderboard_hm
 ###adrotator
 ###adrow
 ###adrow-house
@@ -9931,7 +9903,6 @@ _800x80_
 ###ads-bottom
 ###ads-by-google
 ###ads-category
-###ads-center-text
 ###ads-col
 ###ads-contain-125
 ###ads-container
@@ -9990,7 +9961,6 @@ _800x80_
 ###ads-right-cube
 ###ads-right-last-sidebar
 ###ads-right-skyscraper
-###ads-right-text
 ###ads-right-top
 ###ads-right-top-sidebar
 ###ads-right-twobottom
@@ -10018,14 +9988,8 @@ _800x80_
 ###ads-wrap
 ###ads-wrapper
 ###ads1
-###ads100Box
-###ads100Middlei4
 ###ads120
-###ads120_600-widget-2
 ###ads125
-###ads160_600-widget-3
-###ads160_600-widget-5
-###ads160_600-widget-7
 ###ads160left
 ###ads1_block
 ###ads1_box
@@ -10067,21 +10031,11 @@ _800x80_
 ###adsBannerFrame
 ###adsBar
 ###adsBottom
-###adsBox-460_left
-###adsBox-dynamic-right
 ###adsBoxResultsPage
 ###adsCTN
 ###adsContainer
 ###adsContent
 ###adsDisplay
-###adsDiv0
-###adsDiv1
-###adsDiv2
-###adsDiv3
-###adsDiv4
-###adsDiv5
-###adsDiv6
-###adsDiv7
 ###adsGooglePos
 ###adsHeadLine
 ###adsHeader
@@ -10100,7 +10054,6 @@ _800x80_
 ###adsMpu
 ###adsNarrow
 ###adsPanel
-###adsProdHighlight_wrap
 ###adsRight
 ###adsRightDiv
 ###adsRightVideo
@@ -10120,8 +10073,6 @@ _800x80_
 ###ads_01
 ###ads_120x60_block
 ###ads_160
-###ads_2015
-###ads_2015_1
 ###ads_3
 ###ads_300
 ###ads_300x250
@@ -10166,7 +10117,6 @@ _800x80_
 ###ads_content
 ###ads_desktop_r1
 ###ads_desktop_r2
-###ads_dynamicShowcase
 ###ads_eo
 ###ads_expand
 ###ads_footer
@@ -10176,7 +10126,6 @@ _800x80_
 ###ads_h2
 ###ads_halfsize
 ###ads_header
-###ads_header_games
 ###ads_horiz
 ###ads_horizontal
 ###ads_horz
@@ -10205,7 +10154,6 @@ _800x80_
 ###ads_player_audio
 ###ads_player_line
 ###ads_postdownload
-###ads_pro_468_60_on_vid
 ###ads_r_c
 ###ads_right
 ###ads_right_sidebar
@@ -10218,10 +10166,6 @@ _800x80_
 ###ads_slide_div
 ###ads_space
 ###ads_space_header
-###ads_special_center
-###ads_sponsFeed-headline
-###ads_sponsFeed-left
-###ads_sponsored_link_pixel
 ###ads_superbanner1
 ###ads_superbanner2
 ###ads_superior
@@ -10241,13 +10185,11 @@ _800x80_
 ###ads_tower_top
 ###ads_vert
 ###ads_video
-###ads_watch_top_square
 ###ads_wide
 ###ads_wrapper
 ###ads_zone27
 ###adsbot
 ###adsbottom
-###adsbottombluesleft
 ###adsbox
 ###adsbox-left
 ###adsbox-right
@@ -10382,9 +10324,6 @@ _800x80_
 ###adslist
 ###adslistbox
 ###adslot
-###adslot-2-container
-###adslot-3-container
-###adslot-4-container
 ###adslot-below-newest
 ###adslot-below-updated
 ###adslot-download-abovefiles
@@ -10397,9 +10336,6 @@ _800x80_
 ###adslot-sticky-headerbar
 ###adslot-top-rectangle
 ###adslot1
-###adslot1173
-###adslot1189
-###adslot1202
 ###adslot2
 ###adslot3
 ###adslot300x250ATF
@@ -10415,7 +10351,6 @@ _800x80_
 ###adslot_m3
 ###adslot_rect
 ###adslot_top
-###adsmegabanner
 ###adsmiddle
 ###adsnews
 ###adsonar
@@ -10452,10 +10387,7 @@ _800x80_
 ###adsponsored_links_box
 ###adspot
 ###adspot-1
-###adspot-149x170
-###adspot-1x4
 ###adspot-2
-###adspot-295x60
 ###adspot-2a
 ###adspot-2b
 ###adspot-300x110-pos-1
@@ -10501,13 +10433,6 @@ _800x80_
 ###adstripbottom
 ###adstripnew
 ###adstuff
-###adswidget1-quick-adsense
-###adswidget2-quick-adsense
-###adswidget2-quick-adsense-reloaded-2
-###adswidget3-quick-adsense-reloaded-2
-###adswidget4-quick-adsense-reloaded-3
-###adswizzBanner
-###adsxpls2
 ###adszed-728x90
 ###adtab
 ###adtab-feedback2
@@ -16489,6 +16414,8 @@ _800x80_
 ##.ad-01
 ##.ad-02
 ##.ad-1
+##.ad-1-sidebar-1
+##.ad-1-sidebar-2
 ##.ad-10
 ##.ad-101
 ##.ad-11
@@ -18351,7 +18278,6 @@ _800x80_
 ##.adTop_placement
 ##.adTopboxright
 ##.adTout
-##.adTower
 ##.adTwo
 ##.adTxt
 ##.adType2
@@ -19689,14 +19615,12 @@ _800x80_
 ##.ads-narrow
 ##.ads-native-wrapper
 ##.ads-note
-##.ads-on-player
 ##.ads-one
 ##.ads-outer
 ##.ads-panel
 ##.ads-parent
 ##.ads-placeholder-wrapper
 ##.ads-placment
-##.ads-player-03
 ##.ads-popup-corner
 ##.ads-post
 ##.ads-post-closing
@@ -19910,8 +19834,6 @@ _800x80_
 ##.adsColumn
 ##.adsConfig
 ##.adsCont
-##.adsContentBox
-##.adsContentBoxBellow
 ##.adsDef
 ##.adsDesktop
 ##.adsDetailsPage
@@ -19927,10 +19849,7 @@ _800x80_
 ##.adsHeight720x90
 ##.adsImages
 ##.adsInner
-##.adsInsideResults_v3
 ##.adsLabel
-##.adsLateral
-##.adsLateralbox
 ##.adsLibrary
 ##.adsLine
 ##.adsList
@@ -19939,7 +19858,6 @@ _800x80_
 ##.adsMarker
 ##.adsMiddle
 ##.adsMvCarousel
-##.adsNotaTopo
 ##.adsOuter
 ##.adsOverPrimary
 ##.adsPlaceHolder
@@ -19950,10 +19868,6 @@ _800x80_
 ##.adsSecond
 ##.adsSectionRL
 ##.adsShield
-##.adsSlot300600
-##.adsSpace300x250
-##.adsSpace300x600
-##.adsSpace650x100
 ##.adsSpacing
 ##.adsSticky
 ##.adsStickyLeft
@@ -19972,8 +19886,6 @@ _800x80_
 ##.adsWidget
 ##.adsWithUs
 ##.adsWrap
-##.adsYN
-##.adsZoneBlock2
 ##.ads_120x60
 ##.ads_120x60_index
 ##.ads_125_square
@@ -19993,13 +19905,9 @@ _800x80_
 ##.ads_320_100
 ##.ads_330
 ##.ads_337x280
-##.ads_350
-##.ads_3col
 ##.ads_4
-##.ads_460up
 ##.ads_468
 ##.ads_468x60
-##.ads_672
 ##.ads_720x90
 ##.ads_728
 ##.ads_728x90
@@ -20233,7 +20141,6 @@ _800x80_
 ##.adsbttmpg
 ##.adsbx728x90
 ##.adsbyadop
-##.adsbycircumventioncentral
 ##.adsbyexoclick
 ##.adsbyexoclick-wrapper
 ##.adsbygalaksion
@@ -20243,18 +20150,14 @@ _800x80_
 ##.adsbygoogle-responsive-fix
 ##.adsbygoogle-wrapper
 ##.adsbygoogle2
-##.adsbymahimeta
 ##.adsbypublift
 ##.adsbypubmax
-##.adsbypubpower
-##.adsbysinodia
 ##.adsbytrafficjunky
 ##.adsbyvli
 ##.adsbyxa
 ##.adsbyyahoo
 ##.adsc
 ##.adscaleAdvert
-##.adscaleP6_canvas
 ##.adscaleTop
 ##.adscatalog
 ##.adscenter
@@ -20264,8 +20167,6 @@ _800x80_
 ##.adscontentcenter
 ##.adscontntad
 ##.adscreen
-##.adsd_shift100
-##.adsdisplaygames
 ##.adsdiv
 ##.adsection
 ##.adsection_a2
@@ -20276,8 +20177,6 @@ _800x80_
 ##.adsens
 ##.adsense-250
 ##.adsense-300-600
-##.adsense-300x256-widget
-##.adsense-300x256-widget-2
 ##.adsense-336
 ##.adsense-336-280
 ##.adsense-468
@@ -20368,8 +20267,6 @@ _800x80_
 ##.adsense_inner
 ##.adsense_label
 ##.adsense_leader
-##.adsense_left_lu
-##.adsense_mainbox01
 ##.adsense_managed
 ##.adsense_managed_
 ##.adsense_media
@@ -20384,13 +20281,9 @@ _800x80_
 ##.adsense_small_square
 ##.adsense_top
 ##.adsense_top_ad
-##.adsense_top_lu
 ##.adsense_unit
 ##.adsense_wrapper
-##.adsense_x88
 ##.adsensebig
-##.adsenseblock_bottom
-##.adsenseblock_top
 ##.adsensefloat
 ##.adsenseformat
 ##.adsenseframe
@@ -20439,7 +20332,6 @@ _800x80_
 ##.adsize728
 ##.adsizer
 ##.adsizewrapper
-##.adsjx
 ##.adskeeperWrap
 ##.adsky
 ##.adsleaderboard
@@ -20543,7 +20435,6 @@ _800x80_
 ##.adspop
 ##.adspost
 ##.adspot
-##.adspot-300x250-pos1-container
 ##.adspot-desk
 ##.adspot-title
 ##.adspot1
@@ -20572,21 +20463,16 @@ _800x80_
 ##.adstipt
 ##.adstitle
 ##.adstop
-##.adstopo
-##.adstopoBox
 ##.adstory
 ##.adstrip
 ##.adstxt
 ##.adstyle
-##.adsupperugo
-##.adsupperugo_txt
 ##.adsverting
 ##.adsvideo
 ##.adswallpapr
 ##.adswidget
 ##.adswiper
 ##.adswitch
-##.adsxpls
 ##.adsystem_ad
 ##.adszone
 ##.adt-300x250
@@ -20632,7 +20518,6 @@ _800x80_
 ##.adtower
 ##.adtravel
 ##.adttl
-##.adtv_300_250
 ##.adtxt
 ##.adtxtlinks
 ##.adult-adv
@@ -30127,6 +30012,7 @@ _800x80_
 ##a[href^="https://landing1.brazzersnetwork.com"]
 ##a[href^="https://lead1.pl/"]
 ##a[href^="https://leg.xyz/?track="]
+##a[href^="https://lobimax.com/"]
 ##a[href^="https://look.utndln.com/"]
 ##a[href^="https://m.do.co/c/"] > img
 ##a[href^="https://maymooth-stopic.com/"]
@@ -31195,6 +31081,7 @@ tf2r.com#@#.adverts
 ||39d1d397c97730.com^
 ||3a1be44ca9.com^
 ||3a57c13de7.com^
+||3adae883b0.com^
 ||3c92e2040f.com^
 ||3ca28642b714623b2.com^
 ||3d406f3a14.com^
@@ -31402,6 +31289,7 @@ tf2r.com#@#.adverts
 ||7e625f490775b155.com^
 ||7eaf2aa8c1.com^
 ||7f19b1713b43f7db.com^
+||7f403e402a.com^
 ||7f59b515a6.com^
 ||7fkm2r4pzi.com^
 ||7hor9gul4s.com^
@@ -44545,6 +44433,7 @@ tf2r.com#@#.adverts
 ||salinasbhut.com^
 ||sallyfundamental.com^
 ||salsifyballone.com^
+||saltateblit.com^
 ||saltinourhairtv.com^
 ||saltscorn.com^
 ||saltycarboninsulting.com^
@@ -44679,6 +44568,7 @@ tf2r.com#@#.adverts
 ||sdgkffgbbddk.com^
 ||sdhfbvd.com^
 ||sdkfjxjertertry.com^
+||sdnihyxlqiws.com^
 ||sdrbxvpoglmbz.com^
 ||sdsttt.com^
 ||sduptpppm.com^
@@ -51127,6 +51017,7 @@ tf2r.com#@#.adverts
 ||harolddebris.com^$popup
 ||haunthonouredderived.com^$popup
 ||headyguin.com^$popup
+||heartbiddsp.monster^$popup
 ||heedenglish.com^$popup
 ||hehighursoo.com^$popup
 ||hemquotedchamber.com^$popup
@@ -51336,6 +51227,7 @@ tf2r.com#@#.adverts
 ||lnkgt.com^$popup
 ||lnwinopinion.click^$popup
 ||loadsfalladz.casa^$popup
+||lobimax.com^$popup
 ||locygruwo.com^$popup
 ||lokvel.ru^$popup
 ||looew.club^$popup
@@ -51603,6 +51495,7 @@ tf2r.com#@#.adverts
 ||peepholecarrying.com^$popup
 ||peezette-intial.com^$popup
 ||pegloang.com^$popup
+||pellodersecalmi.ga^$popup
 ||pentinehelmed.com^$popup
 ||perfecttoolmedia.com^$popup
 ||performancetrustednetwork.com^$popup
@@ -52281,6 +52174,7 @@ tf2r.com#@#.adverts
 ||xlivrdr.com^$popup
 ||xml-api.online^$popup
 ||xmlapiclickredirect.com^$popup
+||xpprinx2.com^$popup
 ||xtendmedia.com^$popup
 ||xudawhuwa.com^$popup
 ||xuxihoy.ru^$popup
@@ -57264,6 +57158,7 @@ notebooks.com##.efbleft
 ctvnews.ca##.election-leaderboard
 sashares.co.za##.elementor-48612
 dailyfetched.com##.elementor-element-4e695da
+thecountersignal.com##.elementor-element-8d2cc6c
 canyoublockit.com##.elementor-widget-container > center > p
 estnn.com##.elementor-widget-wp-widget-ai_widget
 lego.com##.emotion-cache-1tunmxn
@@ -103271,6 +103166,7 @@ azby.fmworld.net##+js(no-xhr-if, /recommendations.)
 127.0.0.1 adreporting.com
 127.0.0.1 adrevolver.com
 127.0.0.1 adriver.ru
+127.0.0.1 adrolays.de
 127.0.0.1 adrotate.de
 127.0.0.1 adrotic.girlonthenet.com
 127.0.0.1 adrta.com
@@ -104377,8 +104273,8 @@ azby.fmworld.net##+js(no-xhr-if, /recommendations.)
 127.0.0.1 consensad.com
 127.0.0.1 consensu.org
 127.0.0.1 contadores.miarroba.com
+127.0.0.1 contaxe.de
 127.0.0.1 content.acc-hd.de
-127.0.0.1 content.ad
 127.0.0.1 content22.online.citi.com
 127.0.0.1 contextweb.com
 127.0.0.1 converge-digital.com
@@ -105680,7 +105576,6 @@ azby.fmworld.net##+js(no-xhr-if, /recommendations.)
 127.0.0.1 radar.cedexis.com
 127.0.0.1 radarurl.com
 127.0.0.1 radiate.com
-127.0.0.1 rads.alfamedia.pl
 127.0.0.1 rads.realadmin.pl
 127.0.0.1 railwayrainstorm.com
 127.0.0.1 railwayreason.com
