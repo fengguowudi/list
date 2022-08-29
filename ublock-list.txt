@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VE+9kiMlEj6mO2EKePn6EA
+! Checksum: U/leQ8NtXlibE2VwampgQA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208290226
-! Last Modified: 2022年08月29日 02:26
+! Version: 202208291031
+! Last Modified: 2022年08月29日 10:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -28755,6 +28755,7 @@ _800x80_
 ##[href^="https://www.avantlink.com/click.php"] img
 ##[href^="https://www.brighteonstore.com/products/"] img
 ##[href^="https://www.dcpodj3k5.com/"]
+##[href^="https://www.gcjdjhs3e.com/"]
 ##[href^="https://www.herbanomic.com/"] > img
 ##[href^="https://www.hostg.xyz/aff_c"] > img
 ##[href^="https://www.mypatriotsupply.com/"] > img
@@ -87451,8 +87452,6 @@ haho.moe##+js(aopw, _pop)
 haho.moe##div[title="Click to Close the Ad"]:upward(1)
 haho.moe##[href^="//"][style*="position: fixed;"]
 *$script,3p,denyallow=fluidplayer.com|gstatic.com|hwcdn.net|recaptcha.net,domain=haho.moe
-||mjrhficjcbf.com^
-||jqeyvtgelo.com^
 freeporncave.com##+js(nostif, location.replace, 300)
 freeporncave.com##.full-ave-pl
 empregoestagios.com,everydayonsales.com##+js(nostif, css_class.show)
@@ -89645,11 +89644,6 @@ tamilmovierockers.info##+js(acis, document.addEventListener, google_ad_client)
 tamilmovierockers.info##+js(aopw, _pop)
 vga4a.com##+js(set, tie.ad_blocker_detector, '')
 videoseyred.in##+js(nowoif)
-nin10news.com##+js(acis, setTimeout, innerHTML)
-nin10news.com###custom_html-14
-softcobra.com##+js(set, canRunAds, true)
-softcobra.com###custom_html-6
-softcobra.com##.message
 listendata.com##+js(acis, onload)
 spleaks.org##+js(acis, $, test)
 ads-ti9ni4.blogspot.com,bouamra.blogspot.com,cintateknologi.com,dr-ios.com,funnymadworld.blogspot.com,gfilex.blogspot.com,ishortlink.blogspot.com,pramejarab.blogspot.com,thelibrarydigital.blogspot.com,tienganhedu.com,tienichdienthoai.net,xbox360torrent.com##+js(acis, document.addEventListener, google_ad_client)
@@ -94740,6 +94734,7 @@ azby.fmworld.net##+js(no-xhr-if, /recommendations.)
 @@||images.taboola.com/taboola/image/fetch/$image,domain=azby.fmworld.net
 nybooks.com#@#.top-ad-wrapper
 nybooks.com##.ad-spacing
+@@||cdn-ue1-prod.tsv2.amagi.tv/beacon$xhr,domain=watch.truecrimenetworktv.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -101840,7 +101835,7 @@ nybooks.com##.ad-spacing
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 02 Sep 2002 00:00:00
+# start date:    Tue, 03 Sep 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
