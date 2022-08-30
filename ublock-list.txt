@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iErkkv9VnFNWfT57lx/HSg
+! Checksum: Et2FXzX26wCf+avgkK6Syg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202208300227
-! Last Modified: 2022年08月30日 02:27
+! Version: 202208301036
+! Last Modified: 2022年08月30日 10:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -92190,6 +92190,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||imilroshoors.com^$all
 ||trackhere.pl^$all
 ||benaughty.fun^$all
+||fl1rtyparty.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -101688,7 +101689,7 @@ nybooks.com##.ad-spacing
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Tue, 03 Sep 2002 00:00:00
+# start date:    Wed, 04 Sep 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
