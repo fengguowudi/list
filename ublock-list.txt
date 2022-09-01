@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h2tdtzDpslhYhiDpUup1YA
+! Checksum: xcuezZ1HM6kMsRx6+OSUMQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209010231
-! Last Modified: 2022年09月01日 02:31
+! Version: 202209011022
+! Last Modified: 2022年09月01日 10:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57993,6 +57993,7 @@ bing.com##.pa_sb
 bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
+imgur.com#?#a.Post-item:-abp-has(div.Post-item-external-ad)
 fortune.com#?#.homepage:-abp-has(> div[id^="InStream"])
 bleachernation.com#?#.code-block:-abp-has(span:-abp-contains(ADVERTISEMENT))
 digg.com#?#article.fp-vertical-story:-abp-has(a[href="/channel/digg-pick"])
@@ -101407,7 +101408,7 @@ nybooks.com##.ad-spacing
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 05 Sep 2002 00:00:00
+# start date:    Fri, 06 Sep 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
