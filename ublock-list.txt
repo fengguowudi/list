@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: I78LqQ9tVtj2tofVlR4YGQ
+! Checksum: N7tEzSu2vgOwOY59Lv/waw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209070228
-! Last Modified: 2022年09月07日 02:28
+! Version: 202209071034
+! Last Modified: 2022年09月07日 10:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1934,7 +1934,7 @@
 /adsidebarrect.
 /adsiframe.
 /adsiframe/*
-/adsign.$domain=~adsign.apps.asu.edu|~adsign.com.au|~adsign.no|~adsign.slack.com
+/adsign.$domain=~adsign-admin.apps.asu.edu|~adsign.com.au|~adsign.no|~adsign.slack.com
 /adsimage/*
 /adsimages/*
 /adsImg/*
@@ -10139,6 +10139,7 @@ _800x80_
 ###gutteradibn
 ###gwd-ad
 ###gwt-debug-ad
+###h-ad
 ###h-ads
 ###hAd
 ###hAdv
@@ -15731,6 +15732,7 @@ _800x80_
 ##.ad_leader_plus_top
 ##.ad_leaderboard
 ##.ad_leaderboard_atf
+##.ad_leaderboard_master
 ##.ad_leaderboard_top
 ##.ad_left
 ##.ad_left_cell
@@ -21891,6 +21893,7 @@ _800x80_
 ##.layout-ad
 ##.layout__content-ad
 ##.layout__top-ad
+##.layout_h-ad
 ##.lazy-ad
 ##.lazy-adv
 ##.lazyad
@@ -23942,6 +23945,7 @@ _800x80_
 ##.side-bar-ad
 ##.side-bar-ad-position1
 ##.side-bar-ad-position2
+##.side-panel_v-ad-container
 ##.side-rail-ad-wrap
 ##.side-sky-banner-160
 ##.side-video-ads-wrapper
@@ -25252,6 +25256,7 @@ _800x80_
 ##.us-txt-ad
 ##.us_ad
 ##.uvs-ad-full-width
+##.v-ad
 ##.vAds
 ##.v_ad
 ##.vadvert
@@ -25726,6 +25731,7 @@ _800x80_
 ##[data-m-ad-id]
 ##[data-mobile-ad-id]
 ##[data-name="adaptiveConstructorAd"]
+##[data-revive-zoneid]
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
 ##[href*=".engine.adglare.net/"]
@@ -25782,6 +25788,7 @@ _800x80_
 ##[href^="https://mypatriotsupply.com/"] > img
 ##[href^="https://mypillow.com/"] > img
 ##[href^="https://mystore.com/"] > img
+##[href^="https://optimizedelite.com/"] > img
 ##[href^="https://r.kraken.com/"]
 ##[href^="https://rapidgator.net/article/premium/ref/"]
 ##[href^="https://routewebtk.com/"]
@@ -38183,6 +38190,7 @@ tf2r.com#@#.adverts
 ||okueroskynt.com^
 ||okupsudd.work^
 ||okytgxmxonxim.com^
+||olayomad.com^
 ||oldership.com^
 ||oldeststrickenambulance.com^
 ||oldgyhogola.com^
@@ -51138,6 +51146,7 @@ tf2r.com#@#.adverts
 ||phuketwan.com/img/b/
 ||pimpandhost.com/static/html/
 ||planetlotus.org/images/partners/
+||poedb.tw/image/torchlight/
 ||ports.co.za/banners/
 ||positivehealth.com/img/original/BannerAvatar/
 ||positivehealth.com/img/original/TopicbannerAvatar/
@@ -56082,7 +56091,6 @@ outlook.live.com#?#div:-abp-has(> div > div.fbAdLink)
 mylivewallpapers.com#?#.posts > div.posts:-abp-has(.adsbygoogle)
 bbc.com#?##sticky-mpu:-abp-has(.dotcom-ad-inner)
 cults3d.com#?#div.grid-cell:-abp-contains(/AD •/i)
-doordash.com#?#div[size="12"]:-abp-has(> div:-abp-has(span:-abp-contains(Ad)))
 doordash.com#?#[data-testid="card.store"] > div:-abp-has(div[data-anchor-id="SponsoredBadge"])
 bleepingcomputer.com#?##bc-home-news-main-wrap > li:-abp-contains(Sponsored Content)
 psychcentral.com#?#aside:-abp-has([data-empty])
@@ -63807,6 +63815,7 @@ _mongo_stats/
 ||superpointlesshamsters.com^
 ||tagcachedataxrt.com^
 ||tagcachestaticx.com^
+||takingbackjuly.com^
 ||tatpek.com^
 ||test.vast^
 ||the-ozone-project.com^
@@ -72625,6 +72634,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||crumbs.robinhood.com^
 ||crunchyroll.com/tracker?
 ||cstats.sankakucomplex.com^
+||ctrl.blog/assets/script/log-
 ||cultofmac.com/djrxqhzkbsgf.js
 ||cvs.com/tnadstlinj.js
 ||d.cdngeek.com^$domain=edugeek.net
@@ -72904,6 +72914,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kohls.com/mtFndb/
 ||kohls.com/test_rum_nv?
 ||kompass.com/logAdvertisements
+||l.ctrl.blog^
 ||l.usaa.com/e/v1/
 ||lastminute.com/ose/tracking/
 ||lastminute.com/service/track/
@@ -90277,6 +90288,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||usdtcan.com^$all
 ||usdtbbc.com^$all
 ||imtokenwallet.biz^$all
+||bnbevent.info^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -92429,6 +92441,8 @@ nybooks.com##.ad-spacing
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css$stylesheet,domain=climatempo.com.br
 @@||googletagservices.com/tag/js/gpt.js$script,redirect-rule,domain=thedailybeast.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=ultimedia.com,redirect-rule=noopjs
+@@||outbrain.com^$script,domain=cnn.com
+@@||outbrainimg.com^$image,domain=cnn.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -99530,7 +99544,7 @@ nybooks.com##.ad-spacing
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 11 Sep 2002 00:00:00
+# start date:    Thu, 12 Sep 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
