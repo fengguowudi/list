@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K+wcTm2ey/sQQcwGanequA
+! Checksum: 01Cea6XgxXJGHuUTVWozCw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209100230
-! Last Modified: 2022年09月10日 02:30
+! Version: 202209101034
+! Last Modified: 2022年09月10日 10:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -55019,6 +55019,7 @@ apnews.com##div[class^="Component-adTitle-"]
 apnews.com##div[class^="Component-dfp-"]
 apnews.com##div[class^="Component-placeholderWrapper-"]
 apnews.com##div[class^="Component-rectanglePlaceholderWrapper-"]
+heavenhr.com##div[class^="CookieConsent"]
 donedeal.ie##div[class^="DFP__StyledAdSlot-"]
 genius.com##div[class^="DfpAd__Container-"]
 dailymotion.com##div[class^="DisplayAd"]
@@ -84551,7 +84552,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||elconfidencial.com^*/EventTracker.js
 @@||eldiario.es/static/BBTCore/images/pixel.gif?hash=$image,domain=eldiario.es
 @@||estafeta.com/shared/js/tracking.js
+@@||googleoptimize.com/optimize.js$domain=lacomer.com.mx
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
+@@||groupbycloud.com/gb-tracker-client-4.min.js$domain=lacomer.com.mx
 @@||gruposantander.es^*/scripts/log.js
 @@||imprentaonline.net^*/js/gtm.min.js$~third-party
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
@@ -87648,9 +87651,8 @@ go.netfile.cc##+js(aopr, app_vars.force_disable_adblock)
 go.netfile.cc##+js(set, blurred, false)
 claimclicks.com,try2link.com##+js(aopr, app_vars.force_disable_adblock)
 try2link.com##+js(set, blurred, false)
-newforex.online###devozon-snp:style(display: block !important)
-newforex.online##[id^="devozon-wait"]
-newforex.online##.demand-supply
+forex-gold.net,mobi2c.com,newforex.online,world-trips.net###go_d:style(display: inline-block !important)
+forex-gold.net,mobi2c.com,newforex.online,world-trips.net##a#go_d.submitBtn:others()
 forex-gold.net##+js(nano-sib, timeleft)
 world-trips.net##+js(nano-sib, timer)
 adly.fun##+js(acis, puShown, /doOpen|popundr/)
@@ -91928,6 +91930,7 @@ nybooks.com##.ad-spacing
 @@||outbrain.com^$script,domain=cnn.com
 @@||outbrainimg.com^$image,domain=cnn.com
 tcsjerky.com##body.body-load:style(overflow: auto !important;)
+@@||s.deepl.com/web/statistics$xhr,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -99029,7 +99032,7 @@ tcsjerky.com##body.body-load:style(overflow: auto !important;)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 14 Sep 2002 00:00:00
+# start date:    Sun, 15 Sep 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
