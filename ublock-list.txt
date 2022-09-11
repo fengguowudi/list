@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WR3IdOJ2TnuqR2h7ZTydqg
+! Checksum: N5lUdn1PmdpaL+XZljQ92A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209110229
-! Last Modified: 2022年09月11日 02:29
+! Version: 202209111035
+! Last Modified: 2022年09月11日 10:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53370,7 +53370,7 @@ apptrigger.com,fansided.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,pla
 lyricsmode.com##.header-block
 worldpress.org##.header-bnr
 autental.com##.header-grid-items
-realestate.com.au##.header-leaderboard
+allmovie.com,realestate.com.au##.header-leaderboard
 nationalheraldindia.com##.header-m__ad-top__36Hpg
 times.co.zm##.header-pub
 newtimes.co.rw##.header-top
@@ -54613,6 +54613,7 @@ medicalnewstoday.com##[data-ad]
 jobstreet.com.sg##[data-automation="homepage-banner-ads"]
 jobstreet.com.sg##[data-automation="homepage-marketing-banner-ads"]
 theblaze.com##[data-category="SPONSORED"]
+gab.com##[data-comment="gab-ad-comment"]
 medicalnewstoday.com##[data-empty="true"]
 greatist.com,psychcentral.com##[data-empty]
 jeffdornik.com##[data-image-info]
@@ -102015,7 +102016,7 @@ tcsjerky.com##body.body-load:style(overflow: auto !important;)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 15 Sep 2002 00:00:00
+# start date:    Mon, 16 Sep 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
