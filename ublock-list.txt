@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tnBnZzKVqFAWFLso4y5gmQ
+! Checksum: jiabr4aluXAAhu0qJRzHJQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209112042
-! Last Modified: 2022年09月11日 20:42
+! Version: 202209120228
+! Last Modified: 2022年09月12日 02:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16158,6 +16158,7 @@ _800x80_
 ##.adsboxitem
 ##.adsbttmpg
 ##.adsbx728x90
+##.adsbyadop
 ##.adsbyexoclick
 ##.adsbyexoclick-wrapper
 ##.adsbygalaksion
@@ -21634,6 +21635,7 @@ _800x80_
 ##.ob_container .item-container-obpd
 ##.ob_dual_right > .ob_ads_header ~ .odb_div
 ##.ob_nm_paid
+##.offads
 ##.oi-add-block
 ##.oi-header-ad
 ##.oi_horz_ad_container
@@ -21643,6 +21645,7 @@ _800x80_
 ##.oio-zone-position
 ##.oko-adhesion
 ##.on-demand-ad
+##.on_player_ads
 ##.oneColumnAd
 ##.onet-ad
 ##.onethirdadholder
@@ -25009,6 +25012,7 @@ _800x80_
 ##div[id^="advads_"]
 ##div[id^="banner-ad-"]
 ##div[id^="bunyad-widget-ads-"]
+##div[id^="crt-"][style]
 ##div[id^="dfp-ad-"]
 ##div[id^="dfp-slot-"]
 ##div[id^="div-ads-"]
@@ -25913,6 +25917,7 @@ tf2r.com#@#.adverts
 ||5nt1gx7o57.com^
 ||5odjin7ipi.com^
 ||5ovrmmmoubi71efvatfd.com^
+||5pi13h3q.de^
 ||5qg9ibt1a6.com^
 ||5toft8or7on8tt.com^
 ||5umpz4evlgkm.com^
@@ -52496,7 +52501,6 @@ republicworld.com##.bg-f0f0f0
 amgreatness.com##.bg-gray-200.mx-auto
 wccftech.com##.bg-horizontal
 imagetotext.info##.bg-light.mt-2.text-center
-dexerto.com##.bg-neutral-grey-4
 wccftech.com##.bg-square
 wccftech.com##.bg-vertical
 thepostmillennial.com##.bg-yellow-400
@@ -53732,9 +53736,7 @@ giantfreakinrobot.com##.pw-ph-med-rect
 thedirect.com##.pw-ph-sky
 smallseotools.com##.px261
 smallseotools.com##.px301
-dexerto.com##.py-2
 breakingnews.ie,canberratimes.com.au,theland.com.au##.py-2.bg-gray-100
-dexerto.com##.py-4
 tri247.com##.q2w3-fixed-widget-container
 qrobe.it##.qad
 revolution935.com##.qt-sponsor
@@ -90041,7 +90043,7 @@ ijr.com##.sponsor
 football256.com##+js(set, tie.ad_blocker_detector, '')
 football256.com##.stream-item
 football256.com###stream-item-widget-5
-www.sainsburys.co.uk##li:has(.product-header):has-text(Sponsored)
+www.sainsburys.co.uk#?#li:has(.product-header):has-text(Sponsored)
 123moviesto.to###bar-player
 123moviesto.to##.mvic-bmt
 mp3snow.com##+js(nowoif)
@@ -90061,7 +90063,7 @@ tamilbrahmins.com##+js(acis, $, test)
 @@||panelist.cint.com/assets/embed.min.js^$script,domain=surveyrewardz.com
 @@||panelist.cint.com/$frame,domain=surveyrewardz.com
 gab.com##div[class] > span[class]:has-text(Sponsored):upward(5)
-gab.com##:matches-path(/\/posts/) div[data-comment*="gab-ad"]:has(span[class]:has-text(Sponsored))
+gab.com#?#:matches-path(/\/posts/) div[data-comment*="gab-ad"]:has(span[class]:has-text(Sponsored))
 pandarticles.com##+js(aopr, app_vars.force_disable_adblock)
 pandarticles.com##+js(set, blurred, false)
 pandarticles.com##.banner
@@ -90813,11 +90815,24 @@ googledrivelinks.com##+js(aost, String.prototype.charCodeAt, ai_)
 googledrivelinks.com##+js(aopr, adBlockDetected)
 coinsearns.com,luckydice.net##+js(acis, Math.imul, charCodeAt)
 coinsearns.com,luckydice.net,coinsurl.com##+js(nosiif, afStorage)
-coinsearns.com,luckydice.net##+js(nowoif)
+coinsearns.com,luckydice.net##+js(nowoif, !coinsearns.com)
 coinsearns.com,luckydice.net##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 coinsearns.com,luckydice.net##div[style="width:300px;height:250px;display: inline-block;margin: 0 auto"]
 coinsearns.com,luckydice.net##ins[class]
 coinsearns.com###promo3
+||bambarmedia.com^$3p
+coinsearns.com,mcrypto.club###wpsafe-generate, #wpsafe-link:style(display: block !important;)
+coinsearns.com,mcrypto.club##.safelink-recatpcha:upward(div):style(display: block !important;)
+||wpadmngr.com^$script,redirect-rule=noopjs
+||pub.network^$script,redirect-rule=noopjs
+shinchu.*##.g-recaptcha:upward(form > div):style(display: block !important;)
+shinchu.*##button:upward(form > *):style(display: block !important;)
+blog-forall.com##+js(no-fetch-if, googlesyndication)
+blog-forall.com###wpsafe-generate, #wpsafe-link:style(display: block !important;)
+blog-forall.com##[id^="wpsafe-wait"]
+blog-forall.com###fixed-bot-ad2
+egfly.xyz,linka.click##+js(set, blurred, false)
+linka.click##+js(nowoif)
 *$script,domain=miraculous.to,redirect-rule=noopjs
 @@||miraculous.to/global_data/gtag/js$xhr,1p
 porngames.club,sexgames.xxx##+js(set, starPop, 1)
@@ -94686,6 +94701,7 @@ nybooks.com##.ad-spacing
 @@||outbrain.com^$script,domain=cnn.com
 @@||outbrainimg.com^$image,domain=cnn.com
 tcsjerky.com##body.body-load:style(overflow: auto !important;)
+||imasdk.googleapis.com/js/sdkloader/ima3.js$3p,script,redirect-rule=google-ima.js:5
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
