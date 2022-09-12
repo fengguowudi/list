@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nX8BzxyNnPAheDuyvEkEmw
+! Checksum: +TFb9PHXyN11BQRZgIJZ2A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209121039
-! Last Modified: 2022年09月12日 10:39
+! Version: 202209121457
+! Last Modified: 2022年09月12日 14:57
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -89622,9 +89622,6 @@ unblocknow.*##+js(aopw, _pop)
 unblocknow.*##.adstg
 unblocknow.*##.alert
 unblocknow.*###cookieConsentVPN666
-bluemediafiles.net##+js(acis, $, load)
-||bluemediafiles.net/sw.js$script,1p
-*$xhr,frame,3p,domain=bluemediafiles.net
 veoplanet.com##+js(ra, type, [src*="SPOT"], asap stay)
 veoplanet.com##^source[src*="SPOT"]
 link.asiaon.top##+js(aopr, app_vars.force_disable_adblock)
@@ -91409,6 +91406,7 @@ mangastream.mobi###myModal
 ||advice-ads.s3.amazonaws.com^$xhr,redirect-rule=noop.txt
 ||ads.youtube.com^$xhr,redirect-rule=noop.txt
 ||ads.reddit.com^$xhr,redirect-rule=noop.txt
+||ads-api.twitter.com^$xhr,redirect-rule=nooptext,domain=~twitter.com
 globfone.com##+js(no-xhr-if, ads)
 donugdee.com##.ad-overlay-click
 donugdee.com##.moviePlayer
@@ -92967,7 +92965,6 @@ publicdomainq.net##ins.adsbygoogle
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,xhr,domain=netd.com
 @@||js.duhnet.tv/*/player/html5/*/comscore/streamsense$script,xhr,domain=netd.com
 @@||bom.gov.au/*/analytics.js$script,1p
-@@||static.chartbeat.com/js/chartbeat_video.js$script,domain=nbcwashington.com
 ||gcmgames.com.br/*/google.analytics.trackingcode.js$script,1p,redirect=noopjs
 @@||visa.com/*/analytics/analytics.js$script,1p
 @@||visa.com/*/analytics/ntpagetag.js$script,1p
@@ -93003,13 +93000,11 @@ arduino.cc#@#.addthis_toolbox
 @@||streamplay.to^*.mp4$xhr
 @@||streamplay.to^*.m4s$xhr
 ||frog.wix.com/da-client$image,redirect=1x1-transparent.gif,domain=deviantart.com
-@@||bostonglobe.com/js/*/chartbeat.js,dist/*$script,1p
 @@||pages.bostonglobe.com/login/js/lib/AppMeasurement.js$script,1p
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js?$script,domain=dugout.com
 @@||dugout.com/boxsets/js/videojs.ads.js?$script,1p
 @@||dugout.com/boxsets/js/prebid_$script,1p
 ||player.ooyala.com/*/analytics-plugin/$script,redirect=noopjs
-@@||cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/libs/chartbeat.js$script,domain=cbsnews.com
 @@||code.adsales.snidigital.com/conf/ads-config.js$script,domain=foodnetwork.com
 @@||googletagservices.com/tag/js/gpt.js$script,domain=blastingnews.com
 @@||ign.com/newsfeed-block$xhr,1p
@@ -93102,7 +93097,6 @@ techadvisor.co.uk#@#.adsbygoogle
 @@||cdn.scarabresearch.com/js/*/scarab-v*.js$script,domain=remixshop.com
 @@||recommender.scarabresearch.com/merchants/*$xhr,domain=remixshop.com
 @@||addthis.com/js/*/addthis_widget.js$script,domain=sainsburys.jobs
-@@||api.chartbeat.com/live/$xhr,domain=mystatesman.com
 ||nostv.pt/Scripts/fingerprint2.min.js$script,redirect=noopjs,1p
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=iheartradio.ca
 @@||iheartradio.ca^$ghide
@@ -93207,8 +93201,6 @@ mirror.co.uk##+js(set, pbjs_reachChunk, noopFunc)
 @@||hardware.support.eu.playstation.com/assets/js/tracking.js$script,1p
 @@||litix.io/core/$script,domain=velocity.com|motortrend.com
 @@||fusion.ddmcdn.com/app/*/comscore.streaming.$script,domain=velocity.com|motortrend.com
-@@||playstationlifestyle.net/wp-content/plugins/pb-bwp-minify/*chartbeat$script,1p
-@@||static.chartbeat.com/js/chartbeat_mab.js$script,domain=ny1.com
 @@||computerworld.com/*/jquery$script,1p
 @@||an.yandex.ru/system/context.js$script,domain=avito.ru
 @@||adverts.ie/css/$css,1p
@@ -94111,7 +94103,6 @@ druckerchannel.de###DCGA
 @@||widget-provider.production.ippen.space/widget-components/widget-quiz.bundle.js$script,domain=buzzfeed.de
 @@||widget-provider.production.ippen.space/api/widgets/*$xhr,domain=buzzfeed.de
 @@||a.realsrv.com/video-slider.js$script,domain=verhentai.top
-@@||chartbeat.com^$script,domain=hindustantimes.com
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
 independent.co.uk##article > div > div > div[data-tile-name="top_banner"]:upward(2)
 ||chartbeat.com^$badfilter
