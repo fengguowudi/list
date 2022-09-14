@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OpZASDKuCkwSXh4ql9s9EA
+! Checksum: foqR8Ua6Tdkai2vDRhdGIg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209140230
-! Last Modified: 2022年09月14日 02:30
+! Version: 202209141033
+! Last Modified: 2022年09月14日 10:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8388,7 +8388,6 @@ _800x80_
 ###buySellAds
 ###buysellads
 ###buysellads-4x1
-###bww-advertising-popup-overlay
 ###c-adzone
 ###c4_ad
 ###c4ad-Middle1
@@ -39976,6 +39975,7 @@ tf2r.com#@#.adverts
 ||shillivee.pro^
 ||shilternimpossip.xyz^
 ||shinasi.info^
+||shindysamania.com^
 ||shinearmor.space^
 ||shinebliss.com^
 ||shinyarcadiaproximity.com^
@@ -51223,6 +51223,7 @@ legacy.com###display-right-2
 legacy.com###display-right-inview-1
 legacy.com###display-right-inview-2
 legacy.com###display-top-1
+msn.com###displayAdCard
 tribunnews.com###div-Inside-MediumRectangle
 adtunes.com###div-atf-336x280
 designtaxi.com###div-center-wrapper
@@ -52278,6 +52279,7 @@ techspot.com##.billboard_placeholder_min
 dailymail.co.uk,thisismoney.co.uk##.billboard_wrapper
 netweather.tv##.billheight
 bundesliga.com##.bl-broadcaster
+ehftv.com##.blackPlayer
 nowsci.com##.black_overlay
 tvmaze.com##.blad
 fastpic.ru##.bleft
@@ -53906,6 +53908,7 @@ militarywatchmagazine.com##.theme--light.v-card--link
 hltv.org##.thunderpick
 coub.com##.timeline-banner
 aardvark.co.nz##.tinyprint
+msn.com##.title-ad-single
 primcloud.careers##.title-set
 onlinecourse24.com##.tl-topromote
 trademe.co.nz##.tm-display-ad__wrapper
@@ -68066,6 +68069,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||addtoany.com/menu/transparent.gif
 ||adfox.yandex.ru^
 ||adlog.com.com^
+||adobedc.net/collector/
 ||ads-trk.vidible.tv^
 ||affiliates.minglematch.com^
 ||affirm.com/api/v2/cookie_sent
@@ -90490,7 +90494,6 @@ deckbandit.com##+js(refresh-defuser)
 deckbandit.com##^meta[http-equiv="refresh"]
 kinas.tv##+js(nowoif)
 ||kinas.tv/info.mp4$media,1p,redirect=noopmp3-0.1s
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=romaniatv.net
 1stream.top##+js(acis, document.createElement, "script")
 1stream.top##+js(aopw, _pop)
 1stream.top##+js(nostif, "admc")
@@ -101557,7 +101560,7 @@ tcsjerky.com##body.body-load:style(overflow: auto !important;)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 18 Sep 2002 00:00:00
+# start date:    Thu, 19 Sep 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
