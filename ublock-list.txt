@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: V1ttAiwfgCXCjYzw1KO5Uw
+! Checksum: fs+Y2mW7eQz//UE00SWMtQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209141455
-! Last Modified: 2022年09月14日 14:55
+! Version: 202209142051
+! Last Modified: 2022年09月14日 20:51
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -275,7 +275,7 @@
 .adserver.
 .adserver1.
 .adService.$domain=~adservice.com
-.adspace.
+.adspace.$domain=~adspace.pro
 .adsremote.
 .adtech_
 .advert.$domain=~advert.ae|~advert.io|~advert.ly|~advert.media|~advert.org.pl
@@ -4397,7 +4397,6 @@
 ?adfox_
 ?adloc=
 ?adlocation=
-?adname=
 ?adPageCd=
 ?adsdata=
 ?adsite=
@@ -5670,6 +5669,7 @@ _800x80_
 ###HorizontalAd
 ###HouseAd
 ###HouseAdInsert
+###IB-ads
 ###IC1-ad
 ###IC2-ad
 ###IC3-ad
@@ -15186,6 +15186,7 @@ _800x80_
 ##.adherebox
 ##.adhesion-block
 ##.adhesion-header
+##.adhesiveAdWrapper
 ##.adhesive_holder
 ##.adhi
 ##.adhide
@@ -34838,7 +34839,6 @@ tf2r.com#@#.adverts
 ||leviol.com^
 ||levityprogramming.com^
 ||lfg5jnbi.com^
-||lfjack.com^
 ||lfjaqwwsgyu.com^
 ||lfjvvccsucsmxg.com^
 ||lfmfrsvguf.com^
@@ -44916,6 +44916,7 @@ tf2r.com#@#.adverts
 ||lcwfabt2.com^$third-party
 ||lcwfabt3.com^$third-party
 ||leadzu.com^$third-party
+||lfjack.com^$script,third-party
 ||linkexchangers.net^$third-party
 ||linkforyoud.com^$third-party
 ||linkgrand.com^$third-party
@@ -53916,6 +53917,7 @@ nybooks.com##.toast-cta
 last.fm##.tonefuze
 euobserver.com,medicinehatnews.com##.top
 mashable.com##.top-0.sticky > div
+dexerto.com##.top-10
 artistdirect.com##.top-add
 jamieoliver.com##.top-avocado
 automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,forbesindia.com,government-fleet.com,howsecureismypassword.net,ncaa.com,schoolbusfleet.com##.top-banner
@@ -68694,6 +68696,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dmdentertainment.com^*/video_debug.gif?
 ||dmdt.io/collect
 ||domodomain.com^*/ddsense.aspx?
+||doppler-beacons.cbsivideo.com^
 ||doppler-reporting.cbsivideo.com^
 ||dotaudiences.com^$third-party
 ||doug1izaerwt3.cloudfront.net^
@@ -85680,6 +85683,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||analytics.cocolog-nifty.com^
 ||analytics.ikyu.com^
 ||analytics.mbga.jp^
+||analytics.tver.jp^
 ||analyzer.fc2.com^
 ||analyzer2.fc2.com^
 ||astat.nikkei.com^
@@ -94362,8 +94366,6 @@ fontspace.com#@#.container-ads
 @@||cdn.appdynamics.com/adrum/adrum-*.js$domain=santander.cl
 ||ads.tiktok.com^$badfilter
 @@||api.enthusiastgaming.net/scripts/cdn.enthusiast.gg/script/eg-aps/release/*$xhr,domain=diep.io
-||lfjack.com^$badfilter
-||lfjack.com^$domain=ecchi.iwara.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=oe24.at
 @@||m.faz.net^$cname
 @@||last.fm/static/js-build/tracking/tealium-utag-set.js$script,1p
@@ -94461,6 +94463,7 @@ cnn.com##.OB_AR_2
 cnn.com##.m-outbrain
 tcsjerky.com##body.body-load:style(overflow: auto !important;)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$3p,script,redirect-rule=google-ima.js:5
+filecrypt.co#@?#form > .protection.online ul > li:not(.buttons):-abp-has(> div:not(.circle_captcha))
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
