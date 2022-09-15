@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vgcg/4ALRn/yqpKAyul4tA
+! Checksum: IAStYpa7p/M9/9yaoAc/jg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209152054
-! Last Modified: 2022年09月15日 20:54
+! Version: 202209160230
+! Last Modified: 2022年09月16日 02:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1073,7 +1073,7 @@
 /adlink.$domain=~adlink.com|adlink.guru|~adlinktech.com|~github.com
 /adlink/*$domain=~adlinktech.com|~github.com
 /adlink?
-/adlinks.$domain=~adlinks.to
+/adlinks.$domain=~adlinks.io|~adlinks.to
 /adlinks_
 /adload.
 /adloader/*
@@ -25188,6 +25188,7 @@ tf2r.com#@#.adverts
 ||19028a7caf.com^
 ||19273817.com^
 ||19528681.com^
+||19805d2bcb.com^
 ||19bk5lo5q2.com^
 ||1affmedia.com^
 ||1bcde.com^
@@ -25852,6 +25853,7 @@ tf2r.com#@#.adverts
 ||accordaudienceeducational.com^
 ||accordinglytongue.com^
 ||accordinglyvenisonelse.com^
+||accoul.com^
 ||accountryft.xyz^
 ||accusationcollegeload.com^
 ||accusationloop.com^
@@ -29744,6 +29746,7 @@ tf2r.com#@#.adverts
 ||cusecwhitten.com^
 ||cusptumbak.com^
 ||customads.co^
+||customapi.top^
 ||cuterbond.com^
 ||cutescale.online^
 ||cutestpotting.com^
@@ -34010,6 +34013,7 @@ tf2r.com#@#.adverts
 ||jobfilletfortitude.com^
 ||jobhonsh.com^
 ||jobsyndicate.com^
+||joccupangno.xyz^
 ||jockeryfgtu.club^
 ||jocowhab.com^
 ||jodellbrought.pro^
@@ -36133,6 +36137,7 @@ tf2r.com#@#.adverts
 ||ncncu.xyz^
 ||nctylivpwhpby.com^
 ||ncyveuecqsan.com^
+||ndbriolenproc.buzz^
 ||ndbspfpgynbt.com^
 ||nddqijavkbdvyn.com^
 ||ndegj3peoh.com^
@@ -36245,6 +36250,7 @@ tf2r.com#@#.adverts
 ||newsunads.com^
 ||newthuads.com^
 ||nextgencounter.com^
+||nextpsh.top^
 ||neyhdjwpumivpa.com^
 ||nezttolpyroty.com^
 ||nfadiivfibqrk.com^
@@ -45922,6 +45928,7 @@ tf2r.com#@#.adverts
 ||bimbim.com^$popup
 ||binaryoptionsgame.com^$popup
 ||bingohall.ag^$popup
+||bipedhematin.website^$popup
 ||bit-system.org^$popup
 ||bitadexchange.com^$popup
 ||bitterstrawberry.com^$popup
@@ -49149,6 +49156,7 @@ tf2r.com#@#.adverts
 ||d3vw4uehoh23hx.cloudfront.net^
 ||d4ngwggzm3w7j.cloudfront.net^
 ||d5g0nxmbdku6r.cloudfront.net^
+||d5onopbfw009h.cloudfront.net^
 ||d5pb47xzjz3fc.cloudfront.net^
 ||d63a3au5lqmtu.cloudfront.net^
 ||d6sav80kktzcx.cloudfront.net^
@@ -49326,6 +49334,7 @@ tf2r.com#@#.adverts
 ||serve.prestigecasino.com^$popup
 ||serve.williamhillcasino.com^$popup
 ||skiptheadz.com^$popup
+||skiptheadz.info^$popup
 ||skipvideoads.com^$popup
 ||smartblocker.org^$popup
 ||special-offers.online^$popup
@@ -54429,6 +54438,7 @@ opensubtitles.org##a[target="_blank"][href^="https://www.amazon.com/gp/search"]
 limetorrents.pro##a[title*="An‌on‌ymous Download"]
 searchenginereports.net##a[title="Ad"]
 hqq.tv##a[title="Free money easy"]
+kroger.com##a[title^="Advertisement:"]
 facebook.com,facebookcorewwwi.onion##article[data-ft*="\"ei\":\""]
 greatist.com##aside
 dictionary.com,thesaurus.com##aside[id$="728x90"]
@@ -54984,6 +54994,10 @@ digg.com#?#article.fp-vertical-story:-abp-has(a[href="/channel/promotion"])
 digg.com#?#article.fp-vertical-story:-abp-has(div:-abp-contains(SPONSORED))
 digg.com#?#.tracking-widest:-abp-contains(Sponsored)
 digg.com#?#article.relative:-abp-has(div:-abp-contains(SPONSORED))
+instagram.com#?#div[style="max-height: inherit; max-width: inherit;"]:-abp-has(span:-abp-contains(Paid partnership))
+instagram.com#?#div[style="max-height: inherit; max-width: inherit;"]:-abp-has(span:-abp-contains(Paid partnership with ))
+instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership))
+instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership with ))
 nationalgeographic.com#?#.FrameBackgroundFull--grey:-abp-has(.ad-wrapper)
 cheaptickets.com,expedia.com,ebookers.com,hotels.com,orbitz.com,travelocity.com,wotif.com#?#.uitk-card:-abp-has(.uitk-badge-sponsored)
 mg.co.za#?#.td_flex_block:-abp-has(span:-abp-contains(Sponsored))
@@ -55100,6 +55114,7 @@ windowsbulletin.com#?#.code-block:-abp-has(a[href^="http://www.reimageplus.com/"
 windowsbulletin.com#?#strong:-abp-has(a[href^="http://www.reimageplus.com/"])
 xing.com#?#div[class^="styles-grid-col-"]:-abp-has(span[class^="MediaObject-MediaObject-meta-"]:-abp-contains(/Gesponsert|Sponsored|Patrocinado|Sponsorisé|Sponsorizzato/))
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#div[class^=" container_"]:-abp-has(a[href^="/adredir?"])
+zalando.be,zalando.ch,zalando.co.uk,zalando.cz,zalando.de,zalando.dk,zalando.ee,zalando.es,zalando.fi,zalando.fr,zalando.ie,zalando.it,zalando.lv,zalando.no,zalando.pl,zalando.se,zalando.si#?#.DvypSJ:-abp-has(span:-abp-contains(/Gesponsert|Gesponsord|Patrocinado|Sponset|Sponsitud|Sponsored|Sponsoreret|Sponsorēts|Sponsorizzato|Sponsorisé|Sponsoroitu|Sponsorowane|Sponsrad|Sponzorirano|Sponzorováno/))
 1001tracklists.com#?#a[onclick^='gaLnkTr']
 virtuagirlgirls.com###DynamicBackgroundWrapper
 porndr.com###PD-Under-player
@@ -91486,7 +91501,6 @@ thepiratebay3.com^$all
 ||vid-adblocker.com^$all
 ||multiadblock.com^$all
 ||popsads.link^$all
-||rsafrwd.com^$all
 ||adverdirect.com^$all
 ||euphe-gun.com^$all
 ||shoppingsurveysonline.com^$all
@@ -91575,7 +91589,6 @@ thepiratebay3.com^$all
 ||trfrc.com^$all
 ||1ts11.top^$all
 ||dating.hdxvideos.ru^$all
-||0rg.link^$all
 ||15dfjkbvdf.club^$all
 ||1payxperxinst1.com^$all
 ||admntrk.com^$all
@@ -91598,7 +91611,6 @@ thepiratebay3.com^$all
 ||upshroomishtor.com^$all
 ||urtyert.com^$all
 ||youotube.com^$all
-||glosslogics.com^$all
 ||quellaplentyresolute.com^$all
 ||hsrvu.com^$all
 ||il119.com^$all
@@ -91775,8 +91787,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||ne04.biz^$all
 ||pu4.biz^$all
 ||ro4.biz^$all
-||happydays05.site^$all
-||happydays06.site^$all
 ||hotlady4you.com^$all
 ||privatesinglesmeet.com^$all
 ||readytosinglesmeet.com^$all
@@ -91789,7 +91799,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||flashymass.com^$all
 ||luckywinner-web1.com^$all
 ||girlssohorny.net^$all
-||traffichub01.online^$all
 ||theshoparound.com^$all
 ||asstok.com^$all
 ||loverfuck.com^$all
@@ -91803,11 +91812,9 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||royaljapan02.*^$all
 ||coinblog.site^$all
 ||lucky4wins.club^$all
-||serch10.biz^$all
 ||systemupdatix.club^$all
 ^phone=050-$doc
 ||lackystars.com^$all
-||improveprivacy.me^$all
 ||localchick-here.com^$all
 ||trafempire.com^$all
 ||findlovernow.com^$all
@@ -92109,7 +92116,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||adsbtc.org^$all
 ||youtuba.com^$all
 ||polyhymnia-mar.com^$all
-||virpropcnow.xyz^$all
 ||2xdoubles.com^$all
 ||bestbut.com^$all
 ||kuaizip.com^$all
@@ -94448,6 +94454,8 @@ filecrypt.co#@?#form > .protection.online ul > li:not(.buttons):-abp-has(> div:n
 ehftv.com##.blackPlayer
 thespruceeats.com#@#[data-ad-width]
 thespruceeats.com##.mntl-leaderboard-spacer
+@@||baidu.com/api/bidder/$domain=jump2.bdimg.com
+||baidu.com/*/track.gif?$image,redirect=1x1.gif,important,domain=jump2.bdimg.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
