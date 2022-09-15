@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wFQ7e7sYdbaOkGVeZBT4UA
+! Checksum: obPHQ5jFnomBATIR+6aoXQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209150230
-! Last Modified: 2022年09月15日 02:30
+! Version: 202209151041
+! Last Modified: 2022年09月15日 10:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -51218,6 +51218,7 @@ blastingnews.com###content-banner-dx1-p1
 classicreload.com###content-top
 kbb.com###contentFor_kbbAdsSimplifiedNativeAd
 lineageos18.com###contentLocker
+ezzocard.com###cookie
 123proxy.biz###cookieConsentUR99472
 g3g.sbs,nocensor.sbs###cookieConsentVPN666
 returnyoutubedislike.com###cool-people
@@ -58941,6 +58942,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /googleanalytics/*
 /googleAnalytics1.
 /googleAnalytics2.
+/googleAnalytics4.
 /GoogleAnalytics?utmac=
 /googleAnalytics_
 /googleAnalyticsBase_
@@ -62625,6 +62627,7 @@ _mongo_stats/
 ||cbdatatracker.com^
 ||cdnhst.xyz^
 ||ciqtracking.com^
+||clearbitscripts.com^
 ||click360.io^
 ||cloudwp.io^
 ||clrt.ai^
@@ -62727,12 +62730,14 @@ _mongo_stats/
 ||liveyield.com^
 ||lltrck.com^
 ||lmepbq.com^
+||logicanalytics.io^
 ||loloclicks.biz^
 ||lsdm.co^
 ||maggieeatstheangel.com^
 ||matheranalytics.com^
 ||mcangelus.com^
 ||mdhv.io^
+||mediapxv.com^
 ||micpn.com^
 ||mm-api.agency^
 ||mors22.com^
@@ -63302,6 +63307,7 @@ _mongo_stats/
 ||clarium.io^$third-party
 ||clarivoy.com^$third-party
 ||cleananalytics.com^$third-party
+||clearbit.com^$third-party
 ||clearbitjs.com^$third-party
 ||cleveritics.com^$third-party
 ||clevi.com^$third-party
@@ -65286,6 +65292,7 @@ _mongo_stats/
 ||va-endpoint.com^$third-party
 ||valuedopinions.co.uk^$third-party
 ||vbanalytics.com^$third-party
+||vbt.io^$third-party
 ||vdna-assets.com^$third-party
 ||veduy.com^$third-party
 ||veille-referencement.com^$third-party
@@ -68641,6 +68648,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||counter.top.ge^
 ||counter.yadro.ru^
 ||counters.freewebs.com^
+||coveo.com/coveo.analytics.js/
 ||covery.ai/fp/$third-party
 ||covet.pics/beacons
 ||creator.zmags.com^
@@ -69512,6 +69520,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||playtomic.com/Tracker/
 ||plista.com/activity
 ||pm.boostintegrated.com^
+||pmetrics.performancing.com^
 ||poool.fr/api/v3/access/event
 ||porpoise.azettl.net^
 ||postageapp.com/receipt/$third-party
@@ -70209,6 +70218,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webvoo.com^*/logtodb.
 ||webworx24.co.uk/123trace.php
 ||webzel.com/counter/
+||weglot.com/pageviews?
 ||wetpaint.com^*/track?
 ||whooshkaa.com/identify
 ||whooshkaa.com/listen/track
@@ -70460,7 +70470,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||realperson.de/system/third-party/rpfp/rpfp.min.js
 ||ref.dealerinspire.com^
 ||resu.io/scripts/resclient.min.js
-||risk.clearbit.com^
 ||socital.com^*/socital.js
 ||talkingdata.com^*/sdk_release.js
 ||targeting.voxus.tv^
@@ -86365,6 +86374,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||live.house.gov/js/analytics.$~third-party
 @@||logging.apache.org^$~third-party
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
+@@||logo.clearbit.com^$image,third-party
 @@||lowesgiftcardbonus.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||lr-ingest.io/logger.min.js$script,domain=pumpkin.care
 @@||material.io/inline-tools/direct-embed/bower_components/angularytics/$script,~third-party
@@ -101582,7 +101592,7 @@ thespruceeats.com##.mntl-leaderboard-spacer
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 19 Sep 2002 00:00:00
+# start date:    Fri, 20 Sep 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
