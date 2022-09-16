@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yUwTeDGDNb3OH14del5ndw
+! Checksum: DyP9Eq489hCE7Q8n3pPLQA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209161451
-! Last Modified: 2022年09月16日 14:51
+! Version: 202209162047
+! Last Modified: 2022年09月16日 20:47
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2578,6 +2578,7 @@
 /directadvert-
 /directadvert.
 /directrev.
+/discourse-adplugin-
 /discuss_ad/*
 /display-ad/*
 /display-ads-$domain=~google.co.uk|~google.com|~google.com.au
@@ -24321,6 +24322,7 @@ _800x80_
 ##div[data-subscript="Advertising"]
 ##div[data-test-id="AdBannerWrapper"]
 ##div[data-test-id="AdDisplayWrapper"]
+##div[id^="_vdo_ads_player_ai_"]
 ##div[id^="ad-cid-"]
 ##div[id^="ad-div-"]
 ##div[id^="ad-gpt-"]
@@ -25853,6 +25855,7 @@ tf2r.com#@#.adverts
 ||adkaora.space^
 ||adl-hunter.com^
 ||adlane.info^
+||adligature.com^
 ||adlook.net^
 ||adme-net.com^
 ||admenhost.com^
@@ -29649,6 +29652,7 @@ tf2r.com#@#.adverts
 ||dailyc24.com^
 ||dailydistanceparallel.com^
 ||dainaith.net^
+||daineely.net^
 ||daipeept.net^
 ||daipsuwi.net^
 ||dairma.com^
@@ -30973,6 +30977,7 @@ tf2r.com#@#.adverts
 ||erovinmo.com^
 ||erringcrambly.com^
 ||erscdf.com^
+||erstartirrel.buzz^
 ||ertyvaluation.lol^
 ||eru5tdmbuwxm.com^
 ||eruple.com^
@@ -32503,6 +32508,7 @@ tf2r.com#@#.adverts
 ||guiltypattern.com^
 ||guineapilotage.com^
 ||guisis.com^
+||guistspregna.xyz^
 ||gujace.com^
 ||gukmoduk.one^
 ||gulliblecontextsteed.com^
@@ -32728,6 +32734,7 @@ tf2r.com#@#.adverts
 ||hekowutus.com^
 ||helessenge.club^
 ||helic3oniusrcharithonia.com^
+||hellocaterersomeone.com^
 ||hellomybeuty.com^
 ||helltraffic.com^
 ||helodesdhoni.com^
@@ -33176,6 +33183,7 @@ tf2r.com#@#.adverts
 ||ie8eamus.com^
 ||ieboohdfxdc.com^
 ||iendoo.com^
+||ieqolrpujoc.com^
 ||ieroohhcytpar.xyz^
 ||iesboughts.xyz^
 ||ietyofedinj89yewtburgh.com^
@@ -33328,6 +33336,7 @@ tf2r.com#@#.adverts
 ||indexww.com^
 ||indiads.com^
 ||indictmentspan.com^
+||indictmentvehemently.com^
 ||indictoutgain.com^
 ||indigenousvarious.com^
 ||indirecttagordered.com^
@@ -38414,6 +38423,7 @@ tf2r.com#@#.adverts
 ||qrclevrfjw.com^
 ||qrctbsfk.com^
 ||qrlsx.com^
+||qrovihmhxbnnm.com^
 ||qrzlaatf.xyz^
 ||qscidskqz.com^
 ||qservz.com^
@@ -38503,6 +38513,7 @@ tf2r.com#@#.adverts
 ||radarconsultation.com^
 ||radeant.com^
 ||radiancethedevice.com^
+||radiancewoebun.com^
 ||radiantskilled.com^
 ||radiationcrag.com^
 ||radioearphonesaggravation.com^
@@ -42749,6 +42760,7 @@ tf2r.com#@#.adverts
 ||whiteboardnez.com^
 ||whitor.com^
 ||whixochyxy.pro^
+||whizduly.com^
 ||whkesznbi.com^
 ||whoachoh.com^
 ||whoansee.com^
@@ -42864,6 +42876,7 @@ tf2r.com#@#.adverts
 ||wkfdymfxmyckr.com^
 ||wkihmvgilwj.com^
 ||wknaczrxjrj.com^
+||wkqcnkstso.com^
 ||wkqpbketxqrl.com^
 ||wkxdaqojx.com^
 ||wkyfgxxabvu.xyz^
@@ -43162,6 +43175,7 @@ tf2r.com#@#.adverts
 ||xlhufubaul.com^
 ||xlirdr.com^
 ||xlivrdr.com^
+||xljlfxvyphvxta.com^
 ||xlmesapxahyi.xyz^
 ||xlmsvfqao.com^
 ||xlow.xyz^
@@ -43954,7 +43968,6 @@ tf2r.com#@#.adverts
 ||adlatch.com^$third-party
 ||adlayer.net^$third-party
 ||adlegend.com^$third-party
-||adligature.com^$third-party
 ||adlightning.com^$third-party
 ||adlink.net^$third-party
 ||adlive.io^$third-party
@@ -46639,6 +46652,7 @@ tf2r.com#@#.adverts
 ||o333o.com^$popup
 ||oackoubs.com^$popup
 ||oataltaul.com^$popup
+||obituaryfuneral.com^$popup
 ||objectionsdomesticatednagging.com^$popup
 ||obnarium.com^$popup
 ||oclaserver.com^$popup
@@ -46753,6 +46767,7 @@ tf2r.com#@#.adverts
 ||phaurtuh.net^$popup
 ||phirowhere.com^$popup
 ||phohothiptu.pro^$popup
+||phosphatepossible.com^$popup
 ||phu1aefue.com^$popup
 ||pickaflick.co^$popup
 ||picklesadamantempire.com^$popup
@@ -48873,6 +48888,7 @@ tf2r.com#@#.adverts
 ||d2r2yqcp8sshc6.cloudfront.net^
 ||d2r3rw91i5z1w9.cloudfront.net^
 ||d2rx475ezvxy0h.cloudfront.net^
+||d2s9nyc35a225l.cloudfront.net^
 ||d2sbzwmcg5amr3.cloudfront.net^
 ||d2sp5g360gsxjh.cloudfront.net^
 ||d2sucq8qh4zqzj.cloudfront.net^
@@ -52690,6 +52706,7 @@ saultonline.com##.gsmfab
 thelakewoodscoop.com##.gtlsad
 animenewsnetwork.com##.gutter
 buzzly.art##.h-min.overflow-hidden
+target.com##.h-position-fixed-bottom
 lyricsmode.com##.h113
 superiorpics.com##.h250
 lyricsmode.com##.h253
@@ -55559,6 +55576,7 @@ comicsxxxgratis.com,video.javdock.com##.video-container
 boyfriendtv.com##.video-extra-wrapper
 megatube.xxx##.video-filter-1
 theyarehuge.com##.video-holder > .box
+bdsmx.tube##.video-info > section
 videosection.com##.video-item--adv
 ok.xxx,pornhat.com##.video-link
 pornzog.com##.video-ntv
@@ -55599,6 +55617,7 @@ xhamster.com,xhamster2.com##.wio-xbanner
 xhamster2.com##.wio-xspa
 teenager365.com##.wps-player__happy-inside-btn-close
 pornrabbit.com##.wrap-spots
+bdsmx.tube##.wrapper > section
 porn300.com##.wrapper__related-sites
 upornia.com,upornia.tube##.wssvkvkyyee
 xhamster18.desi##.xplayer-banner
@@ -55688,6 +55707,7 @@ myreadingmanga.info##a[href^="https://www.gaming-adult.com/"]
 gotporn.com##a[href^="https://www.gotporn.com/click.php?id="]
 imagebam.com,vipergirls.to##a[href^="https://www.mrporngeek.com/"]
 barelist.com##a[onclick="CallServer('ad', '')"]
+bdsmx.tube##article > section
 girlonthenet.com##aside[data-adrotic]
 xpassd.co##aside[id^="tn_ads_widget-"]
 mysexgames.com##body > div[style*="z-index:"]
@@ -55734,7 +55754,6 @@ babeshows.co.uk,jessie-rogers.com##img[width="728"]
 kissjav.com##li[id^="video-interlacing"]
 boundhub.com##noindex
 pornhd.com##phd-floating-ad
-bdsmx.tube##section
 koreanstreamer.xyz##section.korea-widget
 porngifs2u.com##section[class*="elementor-hidden-"]
 buondua.com##small[style^="border-bottom: solid 1px;"]
@@ -58151,6 +58170,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /DigitalAnalytics.umd.
 /digitalice_tag.js
 /dil_v6.4.js
+/discourse-fingerprint_
 /disp_cnt.
 /dispatch.fcgi?
 /dist/analytics.
@@ -62424,6 +62444,7 @@ _mongo_stats/
 ||cbdatatracker.com^
 ||cdnhst.xyz^
 ||ciqtracking.com^
+||clarity.ms^
 ||clearbitscripts.com^
 ||click360.io^
 ||cloudwp.io^
@@ -62537,6 +62558,7 @@ _mongo_stats/
 ||mediapxv.com^
 ||micpn.com^
 ||mm-api.agency^
+||monu.delivery^
 ||mors22.com^
 ||mrpdata.net^
 ||mt48.net^
@@ -62585,6 +62607,7 @@ _mongo_stats/
 ||rlcdn.com^
 ||rtactivate.com^
 ||s-onetag.com^
+||salsify-ecdn.com^
 ||sbgsodufuosmmvsdf.info^
 ||sc-static.net^
 ||seadform.net^
@@ -62641,6 +62664,7 @@ _mongo_stats/
 ||z0uolej1qnxzub1.info^
 ||zdbb.net^
 ||zenaps.com^
+||zeronaught.com^
 ||zhctrack.net^
 ||zippyfrog.co^
 ||zononi.com^
@@ -63098,7 +63122,6 @@ _mongo_stats/
 ||chtbl.com^$script,third-party,xmlhttprequest
 ||cintnetworks.com^$third-party
 ||cityadstrack.com^$third-party
-||clarity.ms^$third-party
 ||claritytag.com^$third-party
 ||clarium.io^$third-party
 ||clarivoy.com^$third-party
@@ -64104,7 +64127,6 @@ _mongo_stats/
 ||monitus.net^$third-party
 ||monsido.com^$third-party
 ||monstat.com^$third-party
-||monu.delivery^$third-party
 ||mooseway.com^$third-party
 ||mopinion.com^$third-party
 ||motrixi.com^$third-party
@@ -64607,7 +64629,6 @@ _mongo_stats/
 ||salesviewer.com^$third-party
 ||salesviewer.org^$third-party
 ||saletrack.co.uk^$third-party
-||salsify-ecdn.com^$third-party
 ||san-spr-01.net^$third-party
 ||sapha.com^$third-party
 ||sas15k01.com^$third-party
@@ -65295,7 +65316,6 @@ _mongo_stats/
 ||zedwhyex.com^$third-party
 ||zeerat.com^$third-party
 ||zeotap.com^$third-party
-||zeronaught.com^$third-party
 ||zesep.com^$third-party
 ||zeustechnology.com^$third-party
 ||zoomanalytics.co^$third-party
@@ -65867,7 +65887,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||catschickens.com^
 ||causecherry.com^$third-party
 ||cautiouscrate.com^$third-party
-||cautiouscredit.com^$third-party
+||cautiouscredit.com^
 ||chairscrack.com^
 ||channelcamp.com^
 ||cheerfulrange.com^
@@ -66693,7 +66713,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stakingslope.com^
 ||stakingsmile.com^
 ||staleseat.com^
-||staleshow.com^$third-party
+||staleshow.com^
 ||stalesummer.com^
 ||standingnest.com^
 ||standingsack.com^
@@ -66791,7 +66811,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thinkablefloor.com^
 ||thinkablerice.com^
 ||thinkabletrick.com^
-||thirdrespect.com^$third-party
+||thirdrespect.com^
 ||thirstylettuce.com^
 ||thirstyswing.com^
 ||thirstytwig.com^$third-party
@@ -68481,6 +68501,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cws.conviva.com^
 ||d.rcmd.jp^$image
 ||d.shareaholic.com^
+||d2fuc4clr7gvcn.cloudfront.net/track.js
 ||dadi.technology^$third-party
 ||dash.getsitecontrol.com^
 ||data.alexa.com^
@@ -87948,12 +87969,6 @@ elitepvpers.com##[href^="https://funpay.com/"]
 ||playorigin.com^$3p
 elitepvpers.com#@#img[height="60"]
 ||elitepvpers.com/123/oddeven_btc_de_4x.png$image,1p
-||elitepvpers.com/*/*?$image,1p
-@@||elitepvpers.com/cdn-cgi/$image,1p
-elitepvpers.com##[style*="font-size"]:has-text(/Ad/i) + a[rel]:has(img)
-elitepvpers.com##[style]:has-text(/Аdvertise/i) + div > a[href^="https://www.elitepvpers.com"]:has(img)
-elitepvpers.com##body > table > tbody > tr > td > div > *:has(img)
-elitepvpers.com##div[style$="padding:0;"]:has-text(/Advertisement/i)
 send.cm##+js(aopw, decodeURIComponent)
 @@||gats.io^$ghide
 gats.io##+js(nosiif, 0x)
@@ -91856,7 +91871,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||familialsimulation.com^$all
 ||for-soft.com^$all
 ||of-soft.com^$all
-/\/(?:[0-9a-z]{7,20}-){13}[0-9a-z]{10,15}\/\?subsource=/$doc
+/\/(?:[0-9a-z]{7,25}-){9,13}[0-9a-z]{10,15}\/(?:[0-9a-z]+\/)+index\.php#?/$doc
 ||imilroshoors.com^$all
 ||trackhere.pl^$all
 ||benaughty.fun^$all
@@ -101378,7 +101393,7 @@ thespruceeats.com##.mntl-leaderboard-spacer
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Sun, 11 Sep 2022 10:18:00 GMT
-# entries:        3674
+# entries:        3672
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -102759,7 +102774,6 @@ thespruceeats.com##.mntl-leaderboard-spacer
 127.0.0.1 click.twcwigs.com
 127.0.0.1 click2freemoney.com
 127.0.0.1 click360v2-ingest.azurewebsites.net
-127.0.0.1 clickability.com
 127.0.0.1 clickadz.com
 127.0.0.1 clickagents.com
 127.0.0.1 clickbank.com
@@ -103845,7 +103859,6 @@ thespruceeats.com##.mntl-leaderboard-spacer
 127.0.0.1 newnet.qsrch.com
 127.0.0.1 newnudecash.com
 127.0.0.1 newopenx.detik.com
-127.0.0.1 newsadsppush.com
 127.0.0.1 newsletter-link.com
 127.0.0.1 newstarads.com
 127.0.0.1 newt1.adultadworld.com
@@ -104578,7 +104591,6 @@ thespruceeats.com##.mntl-leaderboard-spacer
 127.0.0.1 t.insigit.com
 127.0.0.1 t.irtyd.com
 127.0.0.1 t.leady.com
-127.0.0.1 t.news.browns-restaurants.co.uk
 127.0.0.1 t.notif-colissimo-laposte.info
 127.0.0.1 t.salesmatemail.com
 127.0.0.1 t.vacations.disneydestinations.com
@@ -104642,6 +104654,7 @@ thespruceeats.com##.mntl-leaderboard-spacer
 127.0.0.1 theadex.com
 127.0.0.1 theadhost.com
 127.0.0.1 thebugs.ws
+127.0.0.1 theclickads.com
 127.0.0.1 themoneytizer.com
 127.0.0.1 therapistla.com
 127.0.0.1 thinkablerice.com
