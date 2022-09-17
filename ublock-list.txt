@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sosjOoKe71KwFl6SIR89NA
+! Checksum: zSMZX2HFtD/6JywViIrcnw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209172041
-! Last Modified: 2022年09月17日 20:41
+! Version: 202209180229
+! Last Modified: 2022年09月18日 02:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -7456,6 +7456,7 @@ _800x80_
 ###adslot-homepage-middle
 ###adslot-infobox
 ###adslot-left-skyscraper
+###adslot-side-mrec
 ###adslot-site-footer
 ###adslot-site-header
 ###adslot-sticky-headerbar
@@ -23791,6 +23792,7 @@ _800x80_
 ##a[href^="https://chaturbate.jjgirls.com/?track="]
 ##a[href^="https://claring-loccelkin.com/"]
 ##a[href^="https://click.a-ads.com/"]
+##a[href^="https://click.dtiserv2.com/"]
 ##a[href^="https://click.hoolig.app/"]
 ##a[href^="https://click.linksynergy.com/fs-bin/"]
 ##a[href^="https://clickadilla.com/"]
@@ -26167,6 +26169,7 @@ tf2r.com#@#.adverts
 ||ajxx98.online^
 ||ajxylqiwtabiya.com^
 ||akdbr.com^
+||akdcunfxex.com^
 ||akdjnwil.com^
 ||akeaprhmebxfj.com^
 ||akelandord.buzz^
@@ -27426,6 +27429,7 @@ tf2r.com#@#.adverts
 ||bestwinterclck.name^
 ||bestzba.com^
 ||besullyatte.com^
+||beswarmfurless.cam^
 ||beta-news.org^
 ||betads.xyz^
 ||betahit.click^
@@ -27614,6 +27618,7 @@ tf2r.com#@#.adverts
 ||blissfulonline.com^
 ||blizzardstudyfavourite.com^
 ||blizzrubier.com^
+||blnclqnp.com^
 ||blockaddictioninterfere.com^
 ||blockadsnot.com^
 ||blockchain-ads.com^
@@ -28274,6 +28279,7 @@ tf2r.com#@#.adverts
 ||cd828.com^
 ||cdacb856b3.com^
 ||cdakuvuwekpvm.com^
+||cdceed.de^
 ||cdikrxknopf.com^
 ||cdn-server.cc^
 ||cdn-server.top^
@@ -28371,6 +28377,7 @@ tf2r.com#@#.adverts
 ||cessationbarrellocations.com^
 ||cestoshagli.com^
 ||cestyraten.club^
+||ceteembathe.com^
 ||cevementalc.xyz^
 ||cevowesty.com^
 ||cewaugaz.net^
@@ -28575,6 +28582,7 @@ tf2r.com#@#.adverts
 ||citydsp.com^
 ||citysite.net^
 ||civadsoo.net^
+||civilizationthose.com^
 ||ciwhacheho.pro^
 ||ciwigevy.com^
 ||ciwvkgthn.xyz^
@@ -32239,6 +32247,7 @@ tf2r.com#@#.adverts
 ||grotesquemoviemankind.com^
 ||grouac.com^
 ||groulrie.com^
+||grounded-card.pro^
 ||groundsstationeryglare.com^
 ||groupcommerce.com^
 ||groupian.io^
@@ -33190,6 +33199,7 @@ tf2r.com#@#.adverts
 ||inpage-push.com^
 ||inpage-push.net^
 ||inpagepush.com^
+||inquiriescape.com^
 ||inrhyhorntor.com^
 ||insanityoh.com^
 ||insectadvertisesecretly.com^
@@ -34252,6 +34262,7 @@ tf2r.com#@#.adverts
 ||larreedancy.com^
 ||larrenpicture.pro^
 ||larrenworld.pro^
+||larsenik.com^
 ||larverewish.com^
 ||las4srv.com^
 ||lashingabnaki.com^
@@ -35907,6 +35918,7 @@ tf2r.com#@#.adverts
 ||nickeeha.net^
 ||nicksstevmark.com^
 ||nicoug.com^
+||niececordthrone.com^
 ||niecefootagefastest.com^
 ||nieveni.com^
 ||niforniadistollie.info^
@@ -37037,6 +37049,7 @@ tf2r.com#@#.adverts
 ||pc20160301.com^
 ||pc2ads.com^
 ||pcdnlt.com^
+||pcgxusphvfgteg.com^
 ||pclk.name^
 ||pcmclks.com^
 ||pcpfxfqlpygr.com^
@@ -38169,6 +38182,7 @@ tf2r.com#@#.adverts
 ||qe0ckm024b.com^
 ||qegjhnnnte.com^
 ||qel-qel-fie.com^
+||qenfytykf.com^
 ||qertewrt.com^
 ||qetdeddkscgu.com^
 ||qewuipkgtpotyb.com^
@@ -41458,6 +41472,7 @@ tf2r.com#@#.adverts
 ||tykinggowd.com^
 ||tylistedpro.xyz^
 ||tylosischewer.com^
+||tyluslandmil.com^
 ||tymukyno.xyz^
 ||tynezozi.com^
 ||tynnikhb.com^
@@ -41978,6 +41993,7 @@ tf2r.com#@#.adverts
 ||vcommission.com^
 ||vczkzswrjais.com^
 ||vddf0.club^
+||vddmpnfku.com^
 ||vddoxukqwh.xyz^
 ||vdkejkyztas.com^
 ||vdopia.com^
@@ -90846,7 +90862,7 @@ mangastream.mobi###myModal
 ###outbrain-paid:not([style^="position: absolute; left: -5000px"])
 ###sponsored_link:not([style^="position: absolute; left: -5000px"])
 #@##ad-banner
-#@#.ad-banner
+~androidauthority.com#@#.ad-banner
 ###ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"])
 ~ananweb.jp##.ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"]):not(.blocker-tester + .ad-banner):not(:empty)
 #@#.adsBox
@@ -94167,6 +94183,7 @@ thespruceeats.com##.mntl-leaderboard-spacer
 @@||assets.evolutionadv.it/violations/comingsoon.it.violations.js$script,domain=comingsoon.it
 @@||ads.pubmatic.com/AdServer/js/pwt/*/3021/pwt.js$script,domain=comingsoon.it
 unrealengine.com##+js(no-xhr-if, /api/analytics)
+@@||smog.moja-ostroleka.pl/mapa/sensorsData.json$xhr,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -101261,8 +101278,8 @@ unrealengine.com##+js(no-xhr-if, /api/analytics)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Sun, 11 Sep 2022 10:18:00 GMT
-# entries:        3672
+# last updated:   Sat, 17 Sep 2022 14:54:28 GMT
+# entries:        3673
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -102583,6 +102600,7 @@ unrealengine.com##+js(no-xhr-if, /api/analytics)
 127.0.0.1 casinorewards.com
 127.0.0.1 casinotraffic.com
 127.0.0.1 causecherry.com
+127.0.0.1 cautiouscredit.com
 127.0.0.1 cbanners.virtuagirlhd.com
 127.0.0.1 cdn.bannerflow.com
 127.0.0.1 cdn.branch.io
