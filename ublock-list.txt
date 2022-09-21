@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mRd7Ye7zhSy8IfqPbyA3DQ
+! Checksum: m8MJtjOhrJF0rTql6hZ/Dg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209211458
-! Last Modified: 2022年09月21日 14:58
+! Version: 202209212054
+! Last Modified: 2022年09月21日 20:54
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12704,6 +12704,7 @@ _800x80_
 ##.ad-slot-inview
 ##.ad-slot-ph
 ##.ad-slot-placeholder
+##.ad-slot-rail
 ##.ad-slot-replies
 ##.ad-slot-replies-header
 ##.ad-slot-responsive
@@ -48806,6 +48807,7 @@ tf2r.com#@#.adverts
 ||canyoublockit.com/wp-content/uploads/nzraxtwifgbg/
 ||carfinderph.com/popup/
 ||cdn.http.anno.channel4.com/m/1/$media,domain=uktvplay.co.uk
+||cdnads.geeksforgeeks.org^
 ||cdnpure.com/static/js/ads-
 ||celebjihad.com/celeb-jihad/pu_stc.js
 ||celebstoner.com/assets/components/bdlistings/uploads/
@@ -50040,6 +50042,8 @@ healthline.com###DMR1__slot
 tweaktown.com###DesktopTop
 road.cc###Footer-Billboard
 geeksforgeeks.org###GFG_AD_Desktop_BTF_Postcontent_728x280
+geeksforgeeks.org###GFG_AD_Desktop_MTF_Postcontent_728x90
+geeksforgeeks.org###GFG_AD_Desktop_PostContent_300x250
 titantv.com###GridPlayer
 fanlesstech.com###HTML2 > .widget-content
 fanlesstech.com###HTML3
@@ -50110,6 +50114,7 @@ exportfromnigeria.info###affs
 systutorials.com###after-content-1
 amgreatness.com###ag-lead
 pcmag.com###alertbar
+djchuang.com###amazon3
 wtechnews.com###aniBox
 timesofmalta.com###article-sponsored
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au###articlePartnerStories
@@ -50257,6 +50262,7 @@ smbc-comics.com###comicright > div[style]
 mirror.co.uk###comments-standalone-mpu
 kotaku.com###commerce-inset-wrapper
 cpuid.com###console_log
+miniwebtool.com###contain300-2
 gearspace.com###container__DesktopFDAdBanner
 gearspace.com###container__DesktopForumdisplayHalfway
 modshost.com###content > .ast-container > .ast-row
@@ -52362,6 +52368,7 @@ androidcentral.com,imore.com##.no-amazon
 publishedreporter.com##.no-bg-box-model
 fiercetelecom.com,fiercevideo.com##.node--type-embed-promo
 ferrarichat.com##.node_sponsor
+miniwebtool.com##.normalvideo
 chipchick.com##.noskim.ntv-moap
 helpnetsecurity.com##.not-empty
 beforeitsnews.com##.notTwitterCardsGrid
@@ -61462,6 +61469,7 @@ cgi-bin/counter
 ://email.*/e/o/
 _ad_impression.
 _track_pixel.gif?
+/otlp/traces
 /_/trace/trace/*
 /rrweb-script.
 /rrweb.js
@@ -61805,6 +61813,7 @@ _mongo_stats/
 ||insigit.com^
 ||instantfox.co^
 ||intelligenceretarget.com^
+||intellimizeio.com^
 ||irs01.com^
 ||jcpclick.com^
 ||k5a.io^
@@ -64333,6 +64342,7 @@ _mongo_stats/
 ||tuinfra.com^$third-party
 ||tunnl.com^$third-party
 ||turn.com^$third-party
+||tvsquared.com^$third-party
 ||twcount.com^$third-party
 ||tynt.com^$third-party
 ||tyxo.com^$third-party
@@ -67680,7 +67690,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collect.rewardstyle.com^
 ||collect.usefathom.com^
 ||collector-*.px-client.net^
-||collector-*.tvsquared.com^
 ||collector-api.99designs.com^
 ||collector.automote.co.nz^
 ||collector.clareity.net^
@@ -67841,6 +67850,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dw.cbsimg.net^$script
 ||dw.com.com^$script
 ||dx.mountain.com^
+||dynamicyield.com/imp?
 ||dynamicyield.com/st?
 ||dynamicyield.com/uia?
 ||dynamicyield.com/var?
@@ -67954,6 +67964,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fast.fonts.net/jsapi/core/mt.js
 ||fast.wistia.net/assets/external/googleAds.js
 ||fastcdn.co/js/sptw.
+||fbot.me/error
 ||fbot.me/events/
 ||fcmatch.google.com^
 ||fcmatch.youtube.com^
@@ -71511,6 +71522,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||time.is/img/nod.png
 ||tms.delta.com/privacy/$image
 ||tms.eharmony.ca^
+||tms.hft.everyplate.com^
+||tms.hft.factor75.com^
+||tms.hft.greenchef.com^
+||tms.hft.hellofresh.com^
 ||tnaflix.com/stats.php
 ||tongji.meizu.com^
 ||top.gg/api/auctions/impression
@@ -84196,6 +84211,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||pi.technik3d.com^
 ||powercount.jswelt.de^
 ||px.derstandard.at^
+||pxc.otto.de^
 ||rem-track.bild.de^
 ||responder.wt.heise.de^
 ||ricardo.ch/api/browser-statistics/
@@ -92664,8 +92680,6 @@ order-order.com#@#.tag-sponsored
 ||treasuredata.com^$badfilter
 ||treasuredata.com^$3p
 @@||log.mmstat.com/eg.js$script,domain=youku.com
-||cdn.permutive.com/*-web.js$script,redirect=noop.js,domain=independent.co.uk
-@@||imasdk.googleapis.com/js/sdkloader/ima3.$script,domain=independent.co.uk
 @@||insights-collector.newrelic.com/*/events$xhr,domain=diariosur.es|diariovasco.com|elcorreo.com
 ||sibautomation.com^$frame,redirect=noopframe
 @@||api.ipstack.com/*access_key=$xhr,domain=acehardware.com
@@ -92970,8 +92984,11 @@ druckerchannel.de###DCGA
 @@||widget-provider.production.ippen.space/widget-components/widget-quiz.bundle.js$script,domain=buzzfeed.de
 @@||widget-provider.production.ippen.space/api/widgets/*$xhr,domain=buzzfeed.de
 @@||a.realsrv.com/video-slider.js$script,domain=verhentai.top
+@@||imasdk.googleapis.com/js/sdkloader/ima3.$script,domain=independent.co.uk
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
 independent.co.uk##article > div > div > div[data-tile-name="top_banner"]:upward(2)
+@@||pub.pixels.ai/wrap-independent-prebid-lib.js$script,domain=independent.co.uk
+@@||static.adsafeprotected.com/iasPET.1.js$script,domain=independent.co.uk
 ||chartbeat.com^$badfilter
 ||chartbeat.net^$badfilter
 ||chartbeat.com^$3p
@@ -93575,6 +93592,7 @@ unrealengine.com##+js(no-xhr-if, /api/analytics)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=zee5.com
 @@||assets.adobedtm.com/*source.min.js$script,domain=msds.open.ac.uk
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=rumble.com
+@@||googletagmanager.com/gtag/*$script,domain=redx.com.bd
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
