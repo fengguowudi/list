@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: n44q/xgs76gSY+N9b7xT6Q
+! Checksum: vRXVWvRku1DF827X5JZqLQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209221029
-! Last Modified: 2022年09月22日 10:29
+! Version: 202209221455
+! Last Modified: 2022年09月22日 14:55
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21907,6 +21907,7 @@ _800x80_
 ##.ss-ad-tower
 ##.ss-ad_mrec
 ##.ss_advertising
+##.ssp-advert
 ##.st-adunit
 ##.stProAd
 ##.stack-ad-container
@@ -53386,7 +53387,7 @@ trakt.tv##a[class^="hu-ck-s-t-er-"][target="_blank"]
 3dnatives.com##a[data-bid][target="_blank"]
 namepros.com##a[data-tag="backer"]
 sashares.co.za##a[data-wpel-link="external"]
-linuxjournal.com,threatpost.com##a[href*="&utm_campaign="]
+imgpile.com,linuxjournal.com,threatpost.com##a[href*="&utm_campaign="]
 msn.com##a[href*=".booking.com/"]
 walmart.ca##a[href*=".criteo.com/"]
 chicagoprowrestling.com##a[href*="//thecmf.com/"] > img
@@ -91383,6 +91384,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||odulunual.sa.com^
 ||postlakemug.live^
 ||ucetnictvi-liberec.eu^$all
+||skymods.net^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
