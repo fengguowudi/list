@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: V4y3IMk2o5ifA1cMT01xYw
+! Checksum: g4tr0HJwkZdP81tFCLAZ+A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209230229
-! Last Modified: 2022年09月23日 02:29
+! Version: 202209231035
+! Last Modified: 2022年09月23日 10:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -37282,6 +37282,7 @@ tf2r.com#@#.adverts
 ||ptljkekttqf.com^
 ||ptlrchrsgpbak.com^
 ||ptlwm.com^
+||ptlwmstc.com^
 ||ptmzr.com^
 ||ptoafauz.net^
 ||ptoahaistais.com^
@@ -85338,7 +85339,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||decision.taplytics.com^$domain=royalbank.com
 @@||dev.visualwebsiteoptimizer.com/j.php$script,domain=wakefit.co
 @@||dev.visualwebsiteoptimizer.com/web/$script,domain=wakefit.co
-@@||developers.google.com/analytics/devguides/collection/analyticsjs/$~third-party,xmlhttprequest
+@@||developers.google.*/analytics/$~third-party,xmlhttprequest
 @@||digitalgov.gov/Universal-Federated-Analytics-Min.js?$script,domain=travel.state.gov
 @@||docodoco.jp^*/docodoco?key=$script,domain=nidec-copal-electronics.com
 @@||docs.amplify.aws^*/platform/js/autotrack.json$~third-party
@@ -87357,7 +87358,6 @@ menjelajahi.com##.alert-danger.alert-dismissable.alert
 ukrainesmodels.com##+js(aopw, atOptions)
 *$script,3p,domain=ukrainesmodels.com
 7hitmovies.*##+js(aopw, _pop)
-@@||netfi.me^$ghide
 onlinepornhub.net##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/)
 *$script,3p,domain=onlinepornhub.net,denyallow=k2s.cc
 nepaliputi.net##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/)
@@ -87437,6 +87437,7 @@ driveddl.xyz##center > div[class][style="width:320px;height:50px;display: inline
 ||cdn.700tb.com^$script,domain=driveddl.xyz
 ||rawcdn.githack.com/*/adbdetect.packed.js^$script
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=skmedix.pl
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_with_ama_fy2021.js$script,domain=skmedix.pl
 @@||skmedix.pl^$ghide
 skmedix.pl##.adsbygoogle:style(max-height: 1px !important;)
 teknolojihabercim.com##+js(acis, addEventListener, google_ad_client)
@@ -100659,7 +100660,7 @@ javcrave.com#@#.widget_custom_html
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 27 Sep 2002 00:00:00
+# start date:    Sat, 28 Sep 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
