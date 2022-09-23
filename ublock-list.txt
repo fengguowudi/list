@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: g4tr0HJwkZdP81tFCLAZ+A
+! Checksum: GcbZtcQBvDInR4YvB46wSQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209231035
-! Last Modified: 2022年09月23日 10:35
+! Version: 202209231452
+! Last Modified: 2022年09月23日 14:52
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -19310,6 +19310,7 @@ _800x80_
 ##.latest-ad
 ##.latest-articles-ad
 ##.latest-news__ad--desktop
+##.latestStoriesAd
 ##.law_center_ad
 ##.layer-ad-bottom
 ##.layer-ad-top
@@ -51139,7 +51140,7 @@ onlineradious.com##.ai-placement
 uploadvr.com##.ai-sticky-widget
 androidpolice.com,constructionreviewonline.com,cryptobriefing.com,dereeze.com,tyretradenews.co.uk##.ai-track
 getdroidtips.com,journeybytes.com,thebeaverton.com,thisisanfield.com,unfinishedman.com##.ai-viewport-1
-bizpacreview.com,browserhow.com,constructionreviewonline.com,planetanalog.com,windowslatest.com,yugatech.com##.ai_widget
+beckernews.com,bizpacreview.com,browserhow.com,constructionreviewonline.com,planetanalog.com,windowslatest.com,yugatech.com##.ai_widget
 apkmirror.com,net-load.com##.ai_widget.widget
 tennistemple.com##.akcelo-wrapper
 wikihow.com##.al_method
@@ -52457,6 +52458,8 @@ mediakix.com##.post-widget__banner
 newagebd.net##.postPageRightInTop
 newagebd.net##.postPageRightInTopIn
 fastcompany.com##.post__promotion
+redketchup.io##.potato_sticky
+redketchup.io##.potato_viewer
 thetowner.com##.powered
 theportugalnews.com##.ppp-banner
 theportugalnews.com##.ppp-inner-banner
@@ -53225,6 +53228,7 @@ target.com##[data-test="featuredProducts"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
 washingtonpost.com##[data-testid="placeholder-box"]
 gadgetsnow.com##[data-type="mtf"]
+axios.com##[data-vars-category="sidebar_promo"]
 builtbybit.com##[data-xf-click^="fong-adsmanager"]
 cnn.com##[data-zone-label="Paid Partner Content"]
 complaintsingapore.com##[href*="/adv.php"]
@@ -93421,7 +93425,6 @@ duckduckgo.com#@#.js-sidebar-ads
 ||lacentrale.fr/static/fragment-layout/tracking-$badfilter
 @@||app.detrack.com/api/v2/tracking$xhr
 @@||cdnjs.cloudflare.com/cdn-cgi/trace$xhr,domain=piliapp.com
-@@||index.hr/thirdparty/brid/*$script,1p
 @@||google-analytics.com/analytics.js$script,redirect-rule=google-analytics.com/analytics.js:5,domain=stern.de
 @@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager_gtm.js:5,domain=stern.de
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=oggi.it
@@ -93557,6 +93560,8 @@ unrealengine.com##+js(no-xhr-if, /api/analytics)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=rumble.com
 @@||googletagmanager.com/gtag/*$script,domain=redx.com.bd
 javcrave.com#@#.widget_custom_html
+@@||index.hr/thirdparty/brid/*$script,1p
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=index.hr
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
