@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GcbZtcQBvDInR4YvB46wSQ
+! Checksum: hL0uX+2rheF6PPkiXxHnxw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209231452
-! Last Modified: 2022年09月23日 14:52
+! Version: 202209232049
+! Last Modified: 2022年09月23日 20:49
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1021,7 +1021,6 @@
 /adimage/*
 /adimage?
 /adimages.
-/adimages/*$~subdocument
 /adimg.$domain=~adimg.ru|~nate.com
 /adimg/*
 /adinclude.
@@ -3121,6 +3120,7 @@
 /livejasmin.$domain=~livejasmin.com
 /livejasmin2.
 /livejasmin_
+/livejasminpopupunder.
 /load_ad?
 /local-ad.
 /local_ads_
@@ -4977,6 +4977,7 @@ _prebid_
 /adblock.gif?
 /adblock_detect.
 /adblock_detector.
+/adblock_detector2.
 /adblock_logger.
 /adblockdetect.
 /adblockdetect/*$~image
@@ -22542,7 +22543,6 @@ _800x80_
 ##.vl-header-ads
 ##.vlog-ad
 ##.vmp-ad
-##.voc-advertising
 ##.vod_ad
 ##.vodl-ad__bigsizebanner
 ##.vpnad
@@ -26147,6 +26147,7 @@ tf2r.com#@#.adverts
 ||aufr67i8sten.com^
 ||augaufta.com^
 ||augheguw.net^
+||augnolru.com^
 ||augrezoa.net^
 ||augu3yhd485st.com^
 ||auguredmorns.com^
@@ -34201,6 +34202,7 @@ tf2r.com#@#.adverts
 ||mallowsmother.com^
 ||malthustutball.com^
 ||mambkooocango.com^
+||mambobuyback.com^
 ||mamboedclarine.com^
 ||mamihlapinatana.xyz^
 ||mammalbuy.com^
@@ -36647,6 +36649,7 @@ tf2r.com#@#.adverts
 ||pipeschannels.com^
 ||piplep.com^
 ||pipsol.net^
+||piquetmuriti.com^
 ||piquperkin.com^
 ||pirtecho.net^
 ||pisism.com^
@@ -38167,6 +38170,7 @@ tf2r.com#@#.adverts
 ||riderfabric.com^
 ||ridexasperateunstable.com^
 ||ridferbad.com^
+||ridiculousatta.xyz^
 ||ridingintractable.com^
 ||ridsaich.com^
 ||rifsjest.com^
@@ -38899,6 +38903,7 @@ tf2r.com#@#.adverts
 ||shakydeploylofty.com^
 ||shalleda.com^
 ||shamelessnullneutrality.com^
+||shammarfinew.com^
 ||shampooattackalways.com^
 ||shanaurg.net^
 ||shanozoje.com^
@@ -40926,6 +40931,7 @@ tf2r.com#@#.adverts
 ||ukbanners.com^
 ||ukcomparends.pro^
 ||ukdliketobepa.monster^
+||ukectivetrai.one^
 ||ukentaspects.autos^
 ||ukfareputfea.xyz^
 ||ukfpibeyfjwhp.xyz^
@@ -43302,6 +43308,7 @@ tf2r.com#@#.adverts
 ||adstatic.com^$third-party
 ||adsterra.com^$third-party
 ||adstock.pro^$third-party
+||adstoo.com^$third-party
 ||adstudio.cloud^$third-party
 ||adstuna.com^$third-party
 ||adsummos.net^$third-party
@@ -48075,6 +48082,7 @@ tf2r.com#@#.adverts
 ||d2lahoz916es9g.cloudfront.net^
 ||d2lp70uu6oz7vk.cloudfront.net^
 ||d2mic0r0bo3i6z.cloudfront.net^
+||d2mqdhonc9glku.cloudfront.net^
 ||d2muzdhs7lpmo0.cloudfront.net^
 ||d2n726m6x5iwwx.cloudfront.net^
 ||d2na2p72vtqyok.cloudfront.net^
@@ -90102,6 +90110,7 @@ freedownloadvideo.net##+js(aeld, DOMContentLoaded, adsBlocked)
 freedownloadvideo.net##a[href^="https://www.videoproc.com/"]:upward(1)
 raky.in##+js(no-fetch-if, googlesyndication)
 raky.in##+js(nano-sib)
+titantv.com##+js(acis, document.createElement, admiral)
 titantv.com##+js(aeld, load, player)
 titantv.com###GridPlayer
 @@||ntv.io/serve/load.js$script,domain=titantv.com
@@ -92503,7 +92512,6 @@ bearteach.com###externalinject-gpt-passback-iframe
 @@||4strokemedia.com^$xhr,script,domain=ilmeteo.it
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect-rule=noopjs,domain=ilmeteo.it
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl#@#+js(set-constant, pp_adblock_is_off, trueFunc)
-*$script,redirect-rule=noopjs,domain=insideedition.com
 ||px.moatads.com/pixel.gif$image,domain=abcya.com,redirect-rule=1x1.gif
 ||metaffiliation.com^$badfilter
 ||metaffiliation.com^$3p,domain=~netaffiliation.com
@@ -100657,7 +100665,7 @@ javcrave.com#@#.widget_custom_html
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Sat, 17 Sep 2022 14:54:28 GMT
-# entries:        3673
+# entries:        3669
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -100766,7 +100774,6 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 ad.abum.com
 127.0.0.1 ad.admitad.com
 127.0.0.1 ad.allboxing.ru
-127.0.0.1 ad.allstar.cz
 127.0.0.1 ad.altervista.org
 127.0.0.1 ad.amgdgt.com
 127.0.0.1 ad.anuntis.com
@@ -101561,7 +101568,6 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 adworldnetwork.com
 127.0.0.1 adworx.at
 127.0.0.1 adworx.nl
-127.0.0.1 adx.allstar.cz
 127.0.0.1 adx.atnext.com
 127.0.0.1 adx.gayboy.at
 127.0.0.1 adxpansion.com
@@ -101575,7 +101581,6 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 adzerk.net
 127.0.0.1 adzerk.s3.amazonaws.com
 127.0.0.1 adzestocp.com
-127.0.0.1 adzones.com
 127.0.0.1 adzrevads.com
 127.0.0.1 aerserv.com
 127.0.0.1 af-ad.co.uk
@@ -102863,7 +102868,6 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 linkrain.com
 127.0.0.1 linkreferral.com
 127.0.0.1 links-ranking.de
-127.0.0.1 linkshighway.com
 127.0.0.1 linkstorms.com
 127.0.0.1 linkswaper.com
 127.0.0.1 linktarget.com
@@ -103095,7 +103099,6 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 naradxb.com
 127.0.0.1 nastydollars.com
 127.0.0.1 nativeroll.tv
-127.0.0.1 naturalbid.com
 127.0.0.1 navegg.com
 127.0.0.1 navigator.io
 127.0.0.1 navrcholu.cz
@@ -103856,6 +103859,7 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 t.insigit.com
 127.0.0.1 t.irtyd.com
 127.0.0.1 t.leady.com
+127.0.0.1 t.news.browns-restaurants.co.uk
 127.0.0.1 t.notif-colissimo-laposte.info
 127.0.0.1 t.salesmatemail.com
 127.0.0.1 t.vacations.disneydestinations.com
