@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0UVsSxskYONLkCoGjQzzcg
+! Checksum: V/kRIiA1VtAJvhvoYcc7cQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209240233
-! Last Modified: 2022年09月24日 02:33
+! Version: 202209241037
+! Last Modified: 2022年09月24日 10:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18655,6 +18655,7 @@ _800x80_
 ##.header-ads-wrapper
 ##.header-adsense
 ##.header-adslot-container
+##.header-adspace
 ##.header-adv
 ##.header-advert
 ##.header-advert-wrapper
@@ -18748,6 +18749,7 @@ _800x80_
 ##.hioxInternalAd
 ##.hm-ad
 ##.hm-sec-ads
+##.hm-vertical-ad
 ##.hm_adlist
 ##.hm_advertisment
 ##.hmad
@@ -20558,6 +20560,7 @@ _800x80_
 ##.primary-ad-widget
 ##.primary-advertisment
 ##.primary_sidebar_ad
+##.primis-video
 ##.print-ad-wrapper
 ##.print-adslot
 ##.printAds
@@ -21835,6 +21838,7 @@ _800x80_
 ##.square-ad-pane
 ##.square-ads
 ##.square-advt
+##.square-adwrap
 ##.square-sidebar-ad
 ##.square-sponsorship
 ##.squareAd
@@ -51851,7 +51855,7 @@ transfermarkt.com##.fniNGHn
 gamespot.com##.follow-buy__link
 gamespot.com##.followBuy__body
 radiozindagi.com##.foot_top
-donegaltv.ie,emergencyemail.org##.footer
+donegaltv.ie,emergencyemail.org,out.com##.footer
 allthatsinteresting.com,scientificamerican.com##.footer-banner
 tribuna.com##.footer-helper__min-height-after-header
 supercars.com##.footer-promo
@@ -52897,6 +52901,7 @@ geoguessr.com##.start__display-ad
 pcgamesn.com##.static_mpu_wrap
 bostonglobe.com##.stick_1200--tablet
 kathmandupost.com##.sticky--bottom
+rugbyonslaught.com##.sticky-add
 gr8.cc,psycatgames.com##.sticky-banner
 nocable.org##.sticky-banner-section
 note.nkmk.me##.sticky-block
@@ -53006,6 +53011,7 @@ last.fm##.tonefuze
 euobserver.com,medicinehatnews.com##.top
 mashable.com##.top-0.sticky > div
 dexerto.com##.top-10
+freedomleaf.com##.top-ab
 artistdirect.com##.top-add
 jamieoliver.com##.top-avocado
 automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,forbesindia.com,government-fleet.com,howsecureismypassword.net,ncaa.com,schoolbusfleet.com##.top-banner
@@ -61832,6 +61838,7 @@ _mongo_stats/
 ||nigelmidnightrappers.com^
 ||nimblebird.co^
 ||nimbleswan.io^
+||notifpush.com^
 ||ns1p.net^
 ||nxakpj4ac8gkd53.info^
 ||omappapi.com^
@@ -64645,7 +64652,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||najva.com^$third-party
 ||nativesubscribe.pro^$third-party
 ||notifadz.com^$third-party
-||notifpush.com^$third-party
 ||notify.solutions^$third-party
 ||notix.io^$third-party
 ||olgtex.com^$third-party
@@ -65855,11 +65861,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||seatsmoke.com^
 ||secretivecub.com^
 ||secretspiders.com^
-||secretturtle.com^$third-party
+||secretturtle.com^
 ||seedscissors.com^
 ||selectionship.com^
 ||selectivesummer.com^$third-party
-||selfishsea.com^$third-party
+||selfishsea.com^
 ||selfishsnake.com^
 ||separateshow.com^
 ||separatesilver.com^$third-party
@@ -100689,7 +100695,7 @@ javcrave.com#@#.widget_custom_html
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 28 Sep 2002 00:00:00
+# start date:    Sun, 29 Sep 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
