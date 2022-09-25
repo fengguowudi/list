@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OnDYmSzvfd2o33i741+oHQ
+! Checksum: CjLb53DgOpk5bCo/oD/mBQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209252044
-! Last Modified: 2022年09月25日 20:44
+! Version: 202209260230
+! Last Modified: 2022年09月26日 02:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -89184,9 +89184,9 @@ web4free.in##+js(set, tie.ad_blocker_detector, '')
 charexempire.com##+js(aopr, app_vars.please_disable_adblock)
 charexempire.com##+js(aopr, open)
 charexempire.com##+js(set, blurred, false)
-@@||charexempire.com^$ghide
 ||i.imgur.com/*.gif$image,domain=charexempire.com
 charexempire.com##.banner
+charexempire.com##+js(aopw, _pop)
 xn--swqq1zt9i.net##+js(acis, document.addEventListener, nextFunction)
 xvideos2020.me##+js(acis, decodeURI, decodeURIComponent)
 xvideos2020.me##+js(nostif, loadScripts)
@@ -91135,7 +91135,7 @@ search.brave.com##+js(no-fetch-if, body:browser)
 /^\w+://[\w.\-]+\.www\.cybernetman\.com//$1p,script
 /^\w+://[\w.\-]+\.www\.logology\.co//$1p,script
 /^\w+://[\w.\-]+\.www\.atlaslane\.com//$1p,script
-/^\w+://[0-9a-z]{12}\.grundbuch\.zentraler-antragsservice\.com//$1p,script
+/^\w+://[0-9a-z]{12}\.adria\.gg//$1p,script
 /^\w+://[0-9a-z]{11}\.taxliencode\.com//$1p,script
 fjlaboratories.com##+js(aost, Math.floor, injectedScript)
 stoic.ai##^script:has-text(\x3c)
@@ -91143,8 +91143,8 @@ stoic.ai##+js(aost, Math.floor, injectedScript)
 ||ampl.cinotes.com^
 ||data-saver-cindi.herokuapp.com^
 ||cdn.cindicator.com/$script,3p
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,monumentmetals.com,nikita.tk,nookgaming.com,ping.gg,tapmyback.com,revistaferramental.com.br,hawpar.com,accuretawealth.com,resourceya.com,camberlion.com,adaptive.marketing,datree.io,alpacafinance.org##+js(acis, String.fromCharCode, join)
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com##^script:has-text(join(''))
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,monumentmetals.com,nikita.tk,nookgaming.com,ping.gg,tapmyback.com,revistaferramental.com.br,hawpar.com,accuretawealth.com,resourceya.com,camberlion.com,adaptive.marketing,datree.io,alpacafinance.org,enkeleksamen.no,adria.gg,kvest.ee##+js(acis, String.fromCharCode, join)
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee##^script:has-text(join(''))
 alpacafinance.org##^script:has-text(join(""))
 nikita.tk##+js(aost, document.cookie)
 ||nikita.tk/*-$script,1p
