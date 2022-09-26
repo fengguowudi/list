@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q/r4FOKxCjZMC3qJA9NOKQ
+! Checksum: iY3Cw5uMes2DtsiyyRKEqg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209261454
-! Last Modified: 2022年09月26日 14:54
+! Version: 202209262053
+! Last Modified: 2022年09月26日 20:53
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -702,7 +702,6 @@
 /ad_delivery?
 /ad_display.
 /ad_display_
-/ad_drivers/*
 /ad_engine?
 /ad_entry_
 /ad_exo.
@@ -890,7 +889,6 @@
 /adbridg.
 /adbrite-
 /adbrite.
-/adbrite/*$~image
 /adbrite2.
 /adbrite_
 /adbroker.
@@ -928,10 +926,8 @@
 /adclient.
 /adclix.$~image
 /adcode_
-/adcodes/*
 /adcollector.
 /adcommon?
-/adcomp.
 /adconfig.
 /adconfigproxy.
 /adcontainer?
@@ -1122,13 +1118,10 @@
 /adning/*
 /adnostic/*
 /adnotice.
-/adnow-
 /adobject.
 /adocean.
-/adometry-
 /adometry.
 /adometry?
-/adonline.
 /adops.$domain=~adops.co.il
 /adopspush-
 /ados.js
@@ -1141,14 +1134,10 @@
 /adpage-$domain=~adpage.com.ua|~adpage.io
 /adpage.$domain=~adpage.com.ua|~adpage.io
 /adpage/*$domain=~adpage.com.ua|~adpage.io
-/adpeeps.
 /adphoto.$domain=~adphoto.eu|~adphoto.fr|~adphoto.pl
-/adpic.
 /adpicture.
 /adPlaceholder.
 /adplacement.
-/adplay.
-/adplayer-
 /adplayer.$domain=~adplayer.media|~adplayer.pro
 /adplayer/*
 /adplugin.
@@ -1162,17 +1151,9 @@
 /adprovider.
 /adproxy.
 /adrec.$domain=~adrec.paris-sorbonne.fr
-/adreclaim-
-/adrectanglebanner?
 /adrefresh-
 /adrefresh.
-/adrelated.
-/adreload.
-/adreload?
-/adremote.
-/adreplace/*
 /adrequest.$domain=~adrequest.com
-/adrich.
 /adright.$domain=~adright.com
 /adright/*
 /adrightcol.
@@ -1180,20 +1161,14 @@
 /adriver/*$domain=~adriver.co|~adriver.io|~adriver.tech
 /adriver_$~object
 /adrobot.$domain=~adrobot.com.au
-/adrot.$domain=~adrot.hu
-/adrotat.
 /adrotate-
 /adrotate.
 /adrotate/*
 /adrotator.
 /adrotator/*
 /adrotator_
-/adroute_
-/adrun.
 /adrunner.$domain=~adrunner.io
-/adruptive.
 /ads-250.
-/ads-300-
 /ads-300.
 /ads-admin.
 /ads-api.
@@ -1212,9 +1187,6 @@
 /ads-home.
 /ads-inside-
 /ads-loader.
-/ads-mobileweb-
-/ads-module.
-/ads-module/*
 /ads-rectangle.
 /ads-request.
 /ads-right.
@@ -3415,7 +3387,6 @@
 /pd-ads/*
 /pdpads.
 /peel.php?
-/peel1.js
 /peel_ads/*
 /peelad/*
 /peelads/*
@@ -21463,10 +21434,13 @@ _800x80_
 ##.strack_bnr
 ##.strawberry-ads
 ##.strawberry-ads__pretty-container
+##.stream-ad
 ##.streamAd
 ##.strip-ad
 ##.stripad
 ##.sub-ad
+##.subAdBannerArea
+##.subAdBannerHeader
 ##.subNavAd
 ##.subad
 ##.subheader_adsense
@@ -52160,6 +52134,7 @@ teamfortress.tv##.sau
 point2homes.com##.saved-search-banner-list
 pcgamesn.com##.saw-wrap
 animehub.ac##.sb-subs
+kotaku.com##.sc-6zn1bq-0
 fortune.com##.sc-efBctP
 radaronline.com##.sc-gXZlrW
 scotsman.com##.sc-igwadP
@@ -53087,6 +53062,7 @@ stakingrewards.com##div[class^="assetFilters_desktop-banner_"]
 technical.city##div[class^="banner_"]
 theculturetrip.com##div[class^="billboard_"]
 timesnownews.com##div[class^="bottomStickyAd-"]
+avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,qz.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##div[class^="bxm4mm-"]
 historycollection.com##div[class^="cis_add_block"]
 3dnatives.com##div[class^="dnati-"]
 groovypost.com##div[class^="groov-adsense-"]
@@ -66858,7 +66834,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||apple.com/hvr/mw/v1/spile
 ||apple.com/mw/v1/reportAnalytics
 ||apple.www.letv.com^
-||applicationinsights.azure.com^
+||applicationinsights.azure.com^$third-party
 ||appliedsemantics.com/images/x.gif
 ||appmifile.com^*/stat/
 ||appsolutions.com/hitme?$third-party
@@ -90693,6 +90669,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||adserveryo3.xyz^$all
 /index.php?uid=*&code=ad^$doc
 ||mcclick.online^$all
+||koitushinterneinnehmen.s3.eu-central-1.amazonaws.com^$all
 ||securitydefender.xyz^$all
 ||kuminaluna.xyz^$all
 ||maslootok.xyz^$all
