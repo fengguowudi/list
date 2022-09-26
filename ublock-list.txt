@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CjLb53DgOpk5bCo/oD/mBQ
+! Checksum: 9WvDpgJKSCq4RnQ6yYbzZA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209260230
-! Last Modified: 2022年09月26日 02:30
+! Version: 202209261039
+! Last Modified: 2022年09月26日 10:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -85400,7 +85400,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/gtm/js?$script,domain=unicef.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtag/js$script,domain=modehasen.de
-@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|karriere.at|radiorur.de|saturn.at|spektrum.de|sport1.de|vox.de
+@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|karriere.at|oetker-shop.de|radiorur.de|saturn.at|spektrum.de|sport1.de|vox.de
 @@||gymnasedeburier.ch/themes/segment/js/$~third-party
 @@||home.mobile.de^*/trackingService.js$script,~third-party
 @@||img.adnz.co^$image,domain=finanzen.ch
@@ -100310,7 +100310,7 @@ javcrave.com#@#.widget_custom_html
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 30 Sep 2002 00:00:00
+# start date:    Tue, 01 Oct 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
