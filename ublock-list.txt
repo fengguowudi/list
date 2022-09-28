@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K5HVC0Nd/Mi2ZfMSC/a5+A
+! Checksum: ep92h1RqR9xfaFPORWm14w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209281456
-! Last Modified: 2022年09月28日 14:56
+! Version: 202209282051
+! Last Modified: 2022年09月28日 20:51
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8664,6 +8664,7 @@ _800x80_
 ###homeSideAd
 ###homeTopRightAd
 ###home_ad
+###home_ad_b_1
 ###home_ads_vert
 ###home_advertising_block
 ###home_bottom_ad
@@ -8741,7 +8742,6 @@ _800x80_
 ###in-article-ad
 ###in-article-mpu
 ###in-content-ad
-###inVideoAd
 ###inarticlead
 ###inc-ads-bigbox
 ###incontentAd1
@@ -9065,16 +9065,11 @@ _800x80_
 ###midrect_ad
 ###midstrip_ad
 ###mini-ad
-###miniAdsAd
 ###mobile-adhesion
 ###mobile-ads-ad
-###mobile-ads-link
 ###mobileAdContainer
 ###mobile_ad_main
 ###mobile_ads_block
-###mod-ad-msu-1
-###mod-ad-msu-2
-###mod-partner-center
 ###mod-tafad
 ###mod_ad
 ###mod_ad_top
@@ -9085,18 +9080,6 @@ _800x80_
 ###module_box_ad
 ###module_sky_scraper
 ###monsterAd
-###moogleAd
-###more_ad
-###moreads
-###morefooterads
-###most_popular_ad
-###motionAd
-###movads10
-###move-ad
-###movieads
-###mozo-ad
-###mph-rightad
-###mpl_adv_text
 ###mpu-ad
 ###mpu-advert
 ###mpu-cont
@@ -9105,7 +9088,6 @@ _800x80_
 ###mpu1_parent
 ###mpu2
 ###mpu2_container
-###mpu300250
 ###mpuAd
 ###mpuAdvert
 ###mpuAdvertMob
@@ -9127,24 +9109,14 @@ _800x80_
 ###mpu_box
 ###mpu_container
 ###mpu_div
-###mpu_firstpost
 ###mpu_holder
 ###mpu_text_ad
 ###mpu_top
 ###mpuad
 ###mpubox
 ###mpuholder
-###mpuholder01
-###mpusLeftAd
-###mr_banner_topad
-###mrec-advertisement
-###mrecAdContainer
-###mrecPlacement
-###multi_ad
-###multibar-ads
 ###mvp-foot-ad-wrap
 ###mvp-post-bot-ad
-###mvp_160_ad
 ###my-ads
 ###my-adsFPAD
 ###my-adsFPL
@@ -9172,47 +9144,17 @@ _800x80_
 ###navbar_ads
 ###navigation-ad
 ###navlinkad
-###nbaHeaderAds
-###nbaMidAds
-###nbaVid300Ad
-###nbabot728ad
 ###nbcShowcaseAds
 ###newAd
 ###newPostProfileAd
 ###newPostProfileVerticalAd
 ###ng-ad
 ###ng-ad-lbl
-###ng_rtcol_ad
 ###ni-ad-row
-###nia_ad
-###nib-ad
 ###nk_ad_top
-###nlrightsponsorad
-###noresults_ad_container
 ###northad
 ###notify_ad
-###np_content_ads_module
-###nrAds
-###nrcAd_Top
-###ns_ad1
-###ns_ad2
-###ns_ad3
-###ntvAdZone
 ###ntvads
-###nuevo_ad
-###oanda_ads
-###oas_Middle
-###oas_Middle1
-###oas_Middle2
-###oas_Right
-###oas_Right1
-###oas_Right2
-###oas_Top
-###oas_Top1
-###oas_asponsor
-###oas_wide_skyscraper
-###oem_ad
-###ofie_ad
 ###omnibar_ad
 ###online_ad
 ###openx-text-ad
@@ -14391,6 +14333,7 @@ _800x80_
 ##.ads_medium_rectangle
 ##.ads_medrect
 ##.ads_middle
+##.ads_middle-container
 ##.ads_middle_container
 ##.ads_mpu
 ##.ads_outer
@@ -15830,6 +15773,7 @@ _800x80_
 ##.aside-ad-space
 ##.aside-ad-wrapper
 ##.aside-ads
+##.aside-ads-top
 ##.aside-collection-ad-slot
 ##.asideAd
 ##.aside_ad
@@ -22324,6 +22268,7 @@ _800x80_
 ##a[href^="https://pcm.bannerator.com/"]
 ##a[href^="https://pl.premium4kflix.website/"]
 ##a[href^="https://playuhd.host/"]
+##a[href^="https://pongidsrunback.com/"]
 ##a[href^="https://porngames.adult/?SID="]
 ##a[href^="https://porntubemate.com/"]
 ##a[href^="https://prf.hn/click/"][href*="/adref:"] > img
@@ -26691,6 +26636,7 @@ tf2r.com#@#.adverts
 ||casterpretic.com^
 ||castpallium.com^
 ||catalpaaxillae.com^
+||cataractoutputprogramming.com^
 ||cataractsallydeserves.com^
 ||catastropheillusive.com^
 ||catastrophetray.com^
@@ -30926,6 +30872,7 @@ tf2r.com#@#.adverts
 ||hatefulredheadstone.com^
 ||hats-47b.com^
 ||hatsadamantpushed.com^
+||hatsheisaco.xyz^
 ||haubar.com^
 ||haughtydropszoology.com^
 ||hauglees.net^
@@ -32102,6 +32049,7 @@ tf2r.com#@#.adverts
 ||jksdcwgjfm.xyz^
 ||jlklnwmj.com^
 ||jlvqhftliz.com^
+||jmmunnojlcwgsrt.com^
 ||jmnvxpgmcbrk.xyz^
 ||jmpmedia.club^
 ||jmrnews.pro^
@@ -32298,6 +32246,7 @@ tf2r.com#@#.adverts
 ||jwjocqgh.xyz^
 ||jwplayer.space^
 ||jwt8e5vzc1.com^
+||jwuyjehlbndrkd.com^
 ||jwyiyqptg.com^
 ||jxdqawzenrpw.com^
 ||jxfkevszqqdb.com^
@@ -35102,6 +35051,7 @@ tf2r.com#@#.adverts
 ||oovofcsyxayy.com^
 ||oowelamdgta.com^
 ||oozyunmix.com^
+||op00.biz^
 ||op01.biz^
 ||op02.biz^
 ||opawyzoh.xyz^
@@ -37220,6 +37170,7 @@ tf2r.com#@#.adverts
 ||resemblanceilluminatedcigarettes.com^
 ||resentmentveneering.com^
 ||reservehearingmissing.com^
+||resetmascara.com^
 ||resetoccultkeeper.com^
 ||residebroadly.com^
 ||residelikingminister.com^
@@ -37256,6 +37207,7 @@ tf2r.com#@#.adverts
 ||resultsz.com^
 ||resumedelayed.com^
 ||resurnommions.xyz^
+||reswsentativ.xyz^
 ||retaea.com^
 ||retagro.com^
 ||retailgobioid.com^
@@ -38568,6 +38520,7 @@ tf2r.com#@#.adverts
 ||soperatory.xyz^
 ||sophiasearch.com^
 ||sophisticatedindignant.com^
+||sophomoreclassicoriginally.com^
 ||sordidstir.com^
 ||sordorcourtin.com^
 ||soritesacarian.com^
@@ -40473,6 +40426,7 @@ tf2r.com#@#.adverts
 ||uzcdnzta.com^
 ||uzehen.com^
 ||uzxkuwalnjp.com^
+||v00ske77693f.com^
 ||v11media.com^
 ||v1pweb.rocks^
 ||v2cigs.com^
@@ -47433,6 +47387,7 @@ tf2r.com#@#.adverts
 ||d3qilfrpqzfrg4.cloudfront.net^
 ||d3qinhqny4thfo.cloudfront.net^
 ||d3qu0b872n4q3x.cloudfront.net^
+||d3rb9wasp2y8gw.cloudfront.net^
 ||d3rjndf2qggsna.cloudfront.net^
 ||d3rp5jatom3eyn.cloudfront.net^
 ||d3rxqouo2bn71j.cloudfront.net^
@@ -50173,7 +50128,6 @@ dappradar.com##.Container--bottomBanners
 swarajyamag.com##.CrIrA
 johnogroat-journal.co.uk##.DMPU
 realityblurb.com##.Desktop-Sticky
-nba.com##.DisplayAd_genericAd__22Dlg
 charismanews.com##.FpFeaturedBoxWrap
 askapache.com##.GAD
 google.co.uk##.GBTLFYRDM0
@@ -52702,6 +52656,7 @@ depositfiles.com,dfiles.eu##a[href^="http://ads.depositfiles.com/"]
 dvdtalk.com##a[href^="http://dvdtalk.pricegrabber.com/"]
 iamdisappoint.com,shitbrix.com,tattoofailure.com##a[href^="http://goo.gl/"]
 notbanksyforum.com##a[href^="http://l-13.org/"]
+inquirer.net##a[href^="http://ruby.inquirer.net/"]
 wjbc.com##a[href^="http://sweetdeals.com/bloomington/deals"]
 jpost.com##a[href^="http://www.danhotels.com/JerusalemHotels/?utm_"]
 vgleaks.com##a[href^="http://www.dhgate.com/"]
@@ -52822,7 +52777,7 @@ apnews.com##div[class^="Component-rectanglePlaceholderWrapper-"]
 donedeal.ie##div[class^="DFP__StyledAdSlot-"]
 genius.com##div[class^="DfpAd__Container-"]
 dailymotion.com##div[class^="DisplayAd"]
-games.dailymail.co.uk##div[class^="DisplayAd_"]
+games.dailymail.co.uk,nba.com##div[class^="DisplayAd_"]
 games.dailymail.co.uk##div[class^="GameTemplate__displayAdTop_"]
 livescore.com##div[class^="HeaderAdsHolder_"]
 games.dailymail.co.uk##div[class^="HomeCategory__adWrapper_"]
