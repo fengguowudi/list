@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7WWlO4JlTwVE3mBBg9dXHg
+! Checksum: +ZIOwWfA5D5l5wL/bxj4fw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209291037
-! Last Modified: 2022年09月29日 10:37
+! Version: 202209291459
+! Last Modified: 2022年09月29日 14:59
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8783,6 +8783,7 @@ _800x80_
 ###inside-page-ad
 ###insideCubeAd
 ###instant_ad
+###insticator-container
 ###instoryad
 ###int-ad
 ###int_ad
@@ -49435,6 +49436,7 @@ battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,me
 northcountrypublicradio.org###business
 music-news.com###buy-tickets
 channel4.com###c4ad-Top
+timesofindia.indiatimes.com###c_wdt_sports_rhs_atf_ad_1
 coinlisting.info###carousel-example-generic
 csdb.dk###casdivhor
 csdb.dk###casdivver
@@ -51841,6 +51843,7 @@ justthenews.com##.region-pre-content
 futbol24.com##.rek
 wcostream.com##.reklam_pve
 idropnews.com##.related-posts
+timesofindia.indiatimes.com##.relatedVideoWrapper
 4shared.com##.remove-rekl
 runningmagazine.ca##.repeater-bottom-leaderboard
 bbjtoday.com##.replacement
@@ -51920,7 +51923,7 @@ newindianexpress.com##.scc
 radiotimes.com##.schedule__row-list-item-advert
 hentaihaven.icu,hentaihaven.xxx,hentaistream.tv,nhentai.io##.script_manager_video_master
 readmng.com##.scroll_target_top
-9anime.to,tennisuptodate.com##.sda
+9anime.to,cyclinguptodate.com,tennisuptodate.com##.sda
 apotelyt.com##.sdbrUnit-Flex100
 apotelyt.com##.sdbrUnitFlex250a
 userscript.zone##.searcad
@@ -52090,6 +52093,7 @@ salixos.org##.sponsors-container
 libhunt.com##.sponsors-list-content
 hacksplaining.com##.sponsorship-message
 newswiretoday.com,przoom.com##.sponsortd
+timesofindia.indiatimes.com##.sports_ad_wrapper
 alexandriagazette.com,arlingtonconnection.com,burkeconnection.com,centre-view.com,connection-sports.com,fairfaxconnection.com,fairfaxstationconnection.com,forum.xda-developers.com,greatfallsconnection.com,herndonconnection.com,kusports.com,mcleanconnection.com,mountvernongazette.com,phonearena.com,potomacalmanac.com,reston-connection.com,springfieldconnection.com,union-bulletin.com,viennaconnection.com##.spot
 phonearena.com##.spot-sticky-container
 freepik.com##.spr-plc
@@ -52312,6 +52316,7 @@ videogameschronicle.com##.vgc-boxout
 bestlifeonline.com,eatthis.com##.vi-video-wrapper
 express.co.uk##.viafoura-standalone-mpu
 vice.com##.vice-ad__container
+cyclinguptodate.com##.video-container
 forbes.com,nasdaq.com##.video-placeholder
 guru99.com##.videocontentmobile
 koreabiomed.com##.view-aside
@@ -62437,7 +62442,6 @@ _mongo_stats/
 ||leadchampion.com^$third-party
 ||leaddyno.com^$third-party
 ||leadelephant.com^$third-party
-||leadfamly.com^$third-party
 ||leadfeeder.com^$third-party
 ||leadforce1.com^$third-party
 ||leadforensics.com^$third-party
@@ -68805,6 +68809,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ds-aksb-a.akamaihd.net^
 ||e77lmzbqou0n-a.akamaihd.net^
 ||ninja.akamaized.net^
+||pnekru6pxrum-a.akamaihd.net^
 ||pxlgnpgecom-a.akamaihd.net^
 ||rndntpmgnj-a.akamaihd.net^
 ||sgphctileh-a.akamaihd.net^
@@ -69792,6 +69797,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analyselog.dx.com^
 ||analytics-api.dvdfab.cn^
 ||analytics-proxy.springboard.com^
+||analytics-zone-1.api.leadfamly.com^
 ||analytics.academy.com^
 ||analytics.adfreetime.com^
 ||analytics.archive.org^
@@ -84684,6 +84690,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||indeed.com/rpc/log/myjobs/$~third-party
 @@||infowarsmedia.com/videojs-event-tracking/dist/videojs-event-tracking.js$script,~third-party
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|tesco.com
+@@||interactives.ap.org^*/bower_components/ap/lib/analytics.js$~third-party
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
 @@||iwin.com/gtm.json$~third-party,xmlhttprequest
@@ -92838,7 +92845,6 @@ javcrave.com#@#.widget_custom_html
 @@||index.hr/thirdparty/brid/*$script,1p
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=index.hr
 ||sohu.com/cityjson$script,domain=netac.com,redirect=noopjs,important
-@@||interactives.ap.org/hurricane-tracker/bower_components/ap/lib/analytics.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
