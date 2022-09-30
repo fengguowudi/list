@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UtQaoX9pqMZq9Dpx/O072Q
+! Checksum: DKVG6RSLfCsFs6IMBM2b3g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202209301453
-! Last Modified: 2022年09月30日 14:53
+! Version: 202209302056
+! Last Modified: 2022年09月30日 20:56
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16424,6 +16424,7 @@ _800x80_
 ##.c-advertisement--billboard
 ##.c-advertisement--rectangle
 ##.c-advertising
+##.c-advertising__banner-area
 ##.c-advscrollingzone
 ##.c-box--advert
 ##.c-button--adchoices
@@ -46668,7 +46669,6 @@ tf2r.com#@#.adverts
 ||ads.sportradar.com^
 ||adsales.snidigital.com^
 ||adserving.unibet.com^
-||adv.r7.com^
 ||advast.sibnet.ru^
 ||adzmoney.linkyqueen.ga^
 ||aff.bstatic.com^
@@ -84791,6 +84791,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|argos.co.uk|att.com|homedepot.com|swisscom.ch|t-mobile.com
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.co.uk|ancestry.com|ancestry.com.au|ancestry.it|blogtalkradio.com|swisscom.ch
 @@||ondemand.sas.com^$subdocument
+@@||onenote.com^*/aria-web-telemetry
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
@@ -99960,7 +99961,7 @@ javcrave.com#@#.widget_custom_html
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Sat, 24 Sep 2022 04:31:57 GMT
-# entries:        3670
+# entries:        3664
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -100868,7 +100869,6 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 adxpansion.com
 127.0.0.1 adxpose.com
 127.0.0.1 adxvalue.com
-127.0.0.1 adyea.com
 127.0.0.1 adyoulike.com
 127.0.0.1 adz.rashflash.com
 127.0.0.1 adz2you.com
@@ -101618,8 +101618,6 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 edaa.eu
 127.0.0.1 edgexads.com
 127.0.0.1 educationdynamics.com
-127.0.0.1 effectivemeasure.com
-127.0.0.1 effectivemeasure.net
 127.0.0.1 efficaciouscactus.com
 127.0.0.1 eiv.baidu.com
 127.0.0.1 ejyymghi.com
@@ -101866,7 +101864,6 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 gp.dejanews.com
 127.0.0.1 gracefulsock.com
 127.0.0.1 graizoah.com
-127.0.0.1 grandioseguide.com
 127.0.0.1 grapeshot.co.uk
 127.0.0.1 greetzebra.com
 127.0.0.1 greyinstrument.com
@@ -102214,7 +102211,6 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 madinad.com
 127.0.0.1 madisonavenue.com
 127.0.0.1 madvertise.de
-127.0.0.1 magicadz.co
 127.0.0.1 magicaljoin.com
 127.0.0.1 magicalmonth.com
 127.0.0.1 magnificentmist.com
@@ -102504,7 +102500,6 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 openx.smcaen.fr
 127.0.0.1 openx2.kytary.cz
 127.0.0.1 operationchicken.com
-127.0.0.1 operationkettle.com
 127.0.0.1 opienetwork.com
 127.0.0.1 opmnstr.com
 127.0.0.1 oppuz.com
