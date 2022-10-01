@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +davM7IAfLVUSdQEMVVhBg
+! Checksum: 6u6IZB22wltRZFeV9KsFyg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210010233
-! Last Modified: 2022年10月01日 02:33
+! Version: 202210011048
+! Last Modified: 2022年10月01日 10:48
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -22992,7 +22992,6 @@ tf2r.com#@#.adverts
 ||059e025e7484.com^
 ||05ee3a24ed11df058c8.com^
 ||06a2b66f11.com^
-||06e17e67683b95.com^
 ||06f09b1008ae993a5a.com^
 ||0735ce74e7.com^
 ||0898hhh.com^
@@ -60457,6 +60456,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ?pageviews=$third-party
 ?sponsor_pixel=
 ?statify_referrer=
+?type=page&event=
 ?type=pageview&
 _adcenterconversion.
 _adobe_analytics.
@@ -99979,7 +99979,7 @@ javcrave.com#@#.widget_custom_html
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 05 Oct 2002 00:00:00
+# start date:    Sun, 06 Oct 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
