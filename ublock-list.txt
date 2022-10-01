@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y8RLkQsx86Q30lJawAQZLg
+! Checksum: JqI9jQY322EbrXtc3T/rsQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210011440
-! Last Modified: 2022年10月01日 14:40
+! Version: 202210012048
+! Last Modified: 2022年10月01日 20:48
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -261,6 +261,7 @@
 .ch/adv/
 .clkads.
 .club/ads.
+.club/js/popunder.js
 .co/ads?
 .com/?ad=
 .com/a?pagetype
@@ -3345,7 +3346,6 @@
 /popshow.$~stylesheet
 /popu.js
 /popunder-
-/popunder.
 /popunder/*
 /popunder1.
 /popunder1_
@@ -3736,6 +3736,7 @@
 /sponsoredlisting.
 /sponsors-ads/*
 /sponsors/ads/*
+/sponsors/popunder.
 /sponsors_box.
 /spotx_adapter.
 /spotxchangeplugin.
@@ -46691,6 +46692,7 @@ tf2r.com#@#.adverts
 ||ah.pricegrabber.com^
 ||ak.imgaft.com^
 ||akamacdn.com/api/spots/
+||akamaized.net/mr/popunder.js
 ||alpsat.com/banner/
 ||amazonaws.com/mailcache.appinthestore.com/
 ||amazonaws.com^$domain=1337x.to|1337xx.to|bluemediafiles.com|daddylive.click|downloadpirate.com|hexupload.net|igg-games.com|krunkercentral.com|s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|shrinke.me|soap2day.ac|soap2day.cc|soap2day.cx|soap2day.sh|soap2day.to|torrentgalaxy.to|torrentgalaxy.tv|torrentmac.net|upload-4ever.com|vshare.eu|yify-movies.net
@@ -47053,6 +47055,7 @@ tf2r.com#@#.adverts
 ||sascdn.com/tag/
 ||saveit.us/img/$third-party
 ||sbhc.portalhc.com^
+||scriptadmin.com/scripts/popunder.js
 ||secure.money.com^$third-party
 ||servedby.keygamesnetwork.com^
 ||servedby.yell.com^
@@ -47098,6 +47101,7 @@ tf2r.com#@#.adverts
 ||thefreesite.com/nov99bannov.gif
 ||ti.tradetracker.net^
 ||tillertag-a.akamaihd.net^
+||toplist.raidrush.ws^$third-party
 ||torrindex.net/images/epv/
 ||torrindex.net/static/tinysort.min.js
 ||track.10bet.com^
@@ -90428,6 +90432,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||datingformeeting.com^$all
 ||serving-passthrough.com^$all
 ||soft-little.com^$all
+||week-tale.xyz^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
