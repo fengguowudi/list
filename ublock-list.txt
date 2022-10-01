@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6u6IZB22wltRZFeV9KsFyg
+! Checksum: Y8RLkQsx86Q30lJawAQZLg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210011048
-! Last Modified: 2022年10月01日 10:48
+! Version: 202210011440
+! Last Modified: 2022年10月01日 14:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -26545,6 +26545,7 @@ tf2r.com#@#.adverts
 ||canoevaguely.com^
 ||canonch.pro^
 ||canstrm.com^
+||cantateremiss.com^
 ||cantpastelli.one^
 ||canvassblanketjar.com^
 ||caoinelining.com^
@@ -31105,6 +31106,7 @@ tf2r.com#@#.adverts
 ||hmikxktkmccfoyq.xyz^
 ||hmtacaizmmzpxv.com^
 ||hmuxsxuqhnptfq.com^
+||hmychtanrj.com^
 ||hmyjpt.com^
 ||hnfuboqaopdweu.com^
 ||hnpvnnhzazkl.com^
@@ -33105,6 +33107,7 @@ tf2r.com#@#.adverts
 ||loreps.com^
 ||lorimertoned.com^
 ||lorybnfh.com^
+||loshrhaphae.com^
 ||losingfoundation.com^
 ||losingoldfry.com^
 ||lotionmodule.com^
@@ -36811,6 +36814,7 @@ tf2r.com#@#.adverts
 ||qwpetywdh.com^
 ||qwwjgmpfpthke.com^
 ||qxazefkhgayy.com^
+||qxihapln.com^
 ||qxniowwbdnhnn.com^
 ||qxtcgrkqlgjcvg.com^
 ||qydhjirz.com^
@@ -50937,6 +50941,7 @@ dailycaller.com##.dc-sticky
 ohiostatebuckeyes.com##.dcad
 wuxiaworld.site##.dcads
 theguardian.com##.dcr-1aq0rzi
+sgcarmart##.dealer_banner
 ign.com##.deals-block
 slashdot.org##.deals-wrapper
 kusports.com##.deals_widget
@@ -51371,6 +51376,7 @@ mytempsms.com##.layui-col-md12
 filmdaily.co##.lazyloaded.aligncenter
 trueachievements.com##.lb_holder
 versus.com##.lead_top
+sgcarmart.com##.leadbadv
 thepcguild.com##.leader
 zdnet.com##.leader-top
 blaauwberg.net##.leaderBoardContainer
@@ -54458,6 +54464,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||kotaku.com/x-kinja-static/assets/new-client/adManager.$~third-party
 @@||lastpass.com/ads.php$subdocument,domain=chrome-extension-scheme
 @@||lastpass.com/images/ads/$image,~third-party
+@@||letocard.fr/wp-content/uploads/$image,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com
 @@||lokopromo.com^*/adsimages/$~third-party
@@ -62733,7 +62740,6 @@ _mongo_stats/
 ||netaffiliation.com^$script,third-party
 ||netapplications.com^$third-party
 ||netbiscuits.net^$third-party
-||netcentric.biz^$third-party
 ||netclickstats.com^$third-party
 ||netcore.co.in^$third-party
 ||netcoresmartech.com^$third-party
@@ -70319,6 +70325,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mcloud.to/log/
 ||mcs-va.tiktokv.com^
 ||mdmpix.com/js/connector.php?
+||medium.com/_/batch
 ||medium.com/_/clientele/reports/performance/
 ||meduza.io/stat/
 ||messari.io/js/wutangtrack.js
