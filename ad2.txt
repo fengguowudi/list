@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PK6NgU9UOKo/ZAIeyS7IXQ
+! Checksum: pRkL0d8ip4Dcx3aYUJ7Vrg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202210021041
-! Last Modified: 2022年10月02日 10:41
+! Version: 202210021436
+! Last Modified: 2022年10月02日 14:36
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -3806,6 +3806,7 @@ ubmcmm.baidustatic.com
 ||heip3keop.cyou^
 ||dukesike.top^
 ||nt6f.top^
+||mzlas.xyz^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
