@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EJQcJpqoDpTpCCONU1HLeg
+! Checksum: q/2gXrQ2lzs5RQ0Fet/lMg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210021436
-! Last Modified: 2022年10月02日 14:36
+! Version: 202210022047
+! Last Modified: 2022年10月02日 20:47
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53459,7 +53459,8 @@ mtgarena.pro#?##root > div > div:-abp-has(> .vm-placement)
 mtgarena.pro#?##root > div:-abp-has(a[href*=casino])
 sbs.com.au#?#.c9 > div:-abp-contains(Advertisement)
 seattleweekly.com#?#.marketplace-row-item-wrapper:-abp-has(.sponsored)
-shopee.ph#?#.col-xs-2-4:-abp-has(div[data-sqe="ad"])
+shopee.co.id,shopee.ph#?#.col-xs-2-4:-abp-has(div[data-sqe="ad"])
+shopee.co.id,shopee.ph#?#.item-card-list__item-card-wrapper:-abp-has(div[data-sqe="ad"])
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
 target.com#?#.ProductRecsLink-sc-4mw94v-0:-abp-has(p:-abp-contains(sponsored))
 target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
@@ -100024,8 +100025,8 @@ javcrave.com#@#.widget_custom_html
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 30 Sep 2022 12:31:31 GMT
-# entries:        3665
+# last updated:   Sun, 02 Oct 2022 08:28:35 GMT
+# entries:        3669
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -101029,6 +101030,7 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 analytics.samdd.me
 127.0.0.1 analytics.siliconexpert.com
 127.0.0.1 analytics.swiggy.com
+127.0.0.1 analytics.tiktok.com
 127.0.0.1 analytics.xelondigital.com
 127.0.0.1 analytics.yahoo.com
 127.0.0.1 analyticsapi.happypancake.net
@@ -102313,6 +102315,8 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 maxonclick.com
 127.0.0.1 mbs.megaroticlive.com
 127.0.0.1 mcdlks.com
+127.0.0.1 mcs-va.tiktok.com
+127.0.0.1 mcs-va.tiktokv.com
 127.0.0.1 measure.office.com
 127.0.0.1 measuremap.com
 127.0.0.1 meatydime.com
@@ -102402,6 +102406,7 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 modernpricing.com
 127.0.0.1 modifyeyes.com
 127.0.0.1 moldyicicle.com
+127.0.0.1 mon-va.byteoversea.com
 127.0.0.1 mon.byteoversea.com
 127.0.0.1 monarchads.com
 127.0.0.1 monetate.net
