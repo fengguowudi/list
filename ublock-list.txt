@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0gnF+V20j/4HK7GirYYXxA
+! Checksum: +wKygOFQ8pO9AVo0zBtUyg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210030231
-! Last Modified: 2022年10月03日 02:31
+! Version: 202210031006
+! Last Modified: 2022年10月03日 10:06
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -90415,6 +90415,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||clearblueline.com^$all
 ||di5.biz^$all
 ||bettershitecolumn.com^$all
+||weatherplllatform.com^$all
 /prize/luckyus-ad/*$doc
 ||mauptaub.com^$all
 ||see-what-is-trending.com^$all
@@ -100036,7 +100037,7 @@ javcrave.com#@#.widget_custom_html
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 07 Oct 2002 00:00:00
+# start date:    Tue, 08 Oct 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
