@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: glNd5FdUgf2QS/MtQEEZmg
+! Checksum: 0Ius4Ip+/wjvDdtvKWfemg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210040236
-! Last Modified: 2022年10月04日 02:36
+! Version: 202210041019
+! Last Modified: 2022年10月04日 10:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -92958,6 +92958,7 @@ javcrave.com#@#.widget_custom_html
 @@||cdn.optimizely.com/datafiles/*.json$xhr,domain=upgrade.com
 @@||soapps.net^*live/loader/counter.js$script
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=amachamusic.chagasi.com
+@@||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js,domain=weather.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -100066,8 +100067,8 @@ javcrave.com#@#.widget_custom_html
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Sun, 02 Oct 2022 08:28:35 GMT
-# entries:        3669
+# last updated:   Mon, 03 Oct 2022 21:29:14 GMT
+# entries:        3670
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -100075,7 +100076,7 @@ javcrave.com#@#.widget_custom_html
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Tue, 08 Oct 2002 00:00:00
+# start date:    Wed, 09 Oct 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -101951,6 +101952,7 @@ javcrave.com#@#.widget_custom_html
 127.0.0.1 go-clicks.de
 127.0.0.1 go-mpulse.net
 127.0.0.1 go-rank.de
+127.0.0.1 go.dhs.gov
 127.0.0.1 go.eu.sparkpostmail1.com
 127.0.0.1 go.icann.org
 127.0.0.1 go.usa.gov
