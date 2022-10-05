@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aPpY1C05FYRF3orlGfT/Eg
+! Checksum: W8yczCTPtBWyU6uxULmwgA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210051020
-! Last Modified: 2022年10月05日 10:20
+! Version: 202210051445
+! Last Modified: 2022年10月05日 14:45
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -86523,7 +86523,7 @@ alohatube.xyz##+js(set, popit, false)
 solotrend.net##+js(aopr, b2a)
 solotrend.net##[href^="https://www.hoster.co.id/"]
 solotrend.net###text-9 > .textwidget > p
-freevstplugins.net##+js(aopr, b2a)
+freevstplugins.net##+js(acs, document.getElementById, adsBlocked)
 @@||freevstplugins.net^$ghide
 freevstplugins.net##.adsbygoogle
 freevstplugins.net##.advert-wrap
