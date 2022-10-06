@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +eDt7oxAG9I8cwrZIjPAAg
+! Checksum: tqmWGVzpqPO27N6BWC8mnQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210061010
-! Last Modified: 2022年10月06日 10:10
+! Version: 202210061436
+! Last Modified: 2022年10月06日 14:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -70575,6 +70575,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.kobo.com^
 ||rumble.com/l/
 ||rv.modanisa.com^$script
+||s.deepl.com^
 ||s.infogram.com^
 ||saa.insideedition.com^
 ||sciencechannel.com/events/
@@ -70879,6 +70880,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tube8live.com/api/metrics
 ||tubepornstars.com/js/analytics
 ||tumblr.com/impixu?
+||tumblr.com/services/bblog
 ||tunein.com/api/v1/log/
 ||tweakers.net/ajax/$ping
 ||twitter.com/1.1/jot/client_event.json
@@ -83656,6 +83658,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||leparking-moto.fr/jsV155/Tracker.js
 ||leparking.fr/*/Tracker.js
 ||liberation.fr/newsite/js/cmp/
+||logstash-3.radio-canada.ca^
 ||ma-petite-recette.fr/visites
 ||neko-san.fr/stats
 ||ouedkniss.com/spf/page-view
