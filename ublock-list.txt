@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5kXe1oNO13Bi9GCmR+8oKQ
+! Checksum: +eDt7oxAG9I8cwrZIjPAAg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210060240
-! Last Modified: 2022年10月06日 02:40
+! Version: 202210061010
+! Last Modified: 2022年10月06日 10:10
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52889,6 +52889,7 @@ goodrx.com##div[class^="adWrapper-"]
 constative.com##div[class^="ad_placeholder_"]
 ehitavada.com##div[class^="ad_space_"]
 greatandhra.com##div[class^="add"]
+ntdeals.net,psdeals.net,xbdeals.net##div[class^="ads-"]
 stakingrewards.com##div[class^="assetFilters_desktop-banner_"]
 technical.city##div[class^="banner_"]
 theculturetrip.com##div[class^="billboard_"]
@@ -54654,7 +54655,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||drive.google.com^$generichide
 @@||dropbox.com^$generichide
 @@||fastmail.com^$generichide
-@@||figma.com^$generichide
 @@||github.com^$generichide
 @@||gitlab.com^$generichide
 @@||hbomax.com^$generichide
@@ -69797,6 +69797,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aftonbladet.se/blogportal/view/statistics?$third-party
 ||collector.schibsted.io^
 ||counter.mtgnewmedia.se^
+||eniro.com/pixel/
 ||vizzit.se^$third-party
 ||pixel.smartmedia.tj^
 ||sal.isanook.com^
@@ -92965,6 +92966,7 @@ javcrave.com#@#.widget_custom_html
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=amachamusic.chagasi.com
 @@||amazon-adsystem.com/*/apstag.js$script,redirect-rule,domain=weather.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule,domain=honestjohn.co.uk
+@@||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:5,domain=contactpoints.org
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -100082,7 +100084,7 @@ javcrave.com#@#.widget_custom_html
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 10 Oct 2002 00:00:00
+# start date:    Fri, 11 Oct 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
