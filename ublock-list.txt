@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: O2j1q1u2jjmWAXO3zekWhA
+! Checksum: /jI513bW4jVFp5ArgfP0pQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210070235
-! Last Modified: 2022年10月07日 02:35
+! Version: 202210071028
+! Last Modified: 2022年10月07日 10:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -47772,6 +47772,7 @@ tf2r.com#@#.adverts
 ||br.fling.com^
 ||br.realitykings.com^
 ||brazzers.com/ads/
+||byxxxporn.com/300x250.html
 ||cam-content.com/banner/$third-party
 ||cams.com/go/$third-party
 ||cams.enjoy.be^
@@ -60518,7 +60519,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
-://posthog.$domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
 ://stats.*/index.js
@@ -85407,7 +85407,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
 @@||api.cxense.com/document/search?$script,domain=tv-tokyo.co.jp
 @@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
-@@||api.cxense.com/public/widget/data?$script,domain=mainichi.jp|wpb.shueisha.co.jp
+@@||api.cxense.com/persisted/execute$script,domain=nippon.com
+@@||api.cxense.com/public/widget/data?$script,domain=mainichi.jp|nippon.com|wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data?$xmlhttprequest,domain=cyclestyle.net
 @@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.gold|friday.kodansha.co.jp
 @@||api.ipify.org^$xmlhttprequest,domain=offering-flower.com
@@ -85474,7 +85475,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||scdn.cxense.com/cx.cce.js$domain=mainichi.jp|wpb.shueisha.co.jp
-@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net|mainichi.jp
+@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net|mainichi.jp|nippon.com
 @@||science-net.kahaku.go.jp/app/js/analytics.js$~third-party
 @@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||staff-start.com/js/track/$domain=enoteca.co.jp|francfranc.com|store.alpen-group.jp
@@ -100150,7 +100151,7 @@ javcrave.com#@#.widget_custom_html
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 11 Oct 2002 00:00:00
+# start date:    Sat, 12 Oct 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
