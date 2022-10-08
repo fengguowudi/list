@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PXbvD8eUZ8VqD52V0NmWpg
+! Checksum: QcKIhqn1/x6UTbuQ4yXg8w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210080235
-! Last Modified: 2022年10月08日 02:35
+! Version: 202210081005
+! Last Modified: 2022年10月08日 10:05
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -90900,6 +90900,11 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||redeem-hypixel.store^$all
 ||hypixel-gifts.net^$all
 ||claim.hypixel.gifts^$all
+||146.190.12.4^
+||landkemoty.click^$all
+||slugmefilehos.xyz^$all
+||tinyurl.com/setup-full-version$doc
+torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -100183,7 +100188,7 @@ javcrave.com#@#.widget_custom_html
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 12 Oct 2002 00:00:00
+# start date:    Sun, 13 Oct 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
