@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dPGq7dQW40pkaRDNoI3L+Q
+! Checksum: UdGZE1DqRVuPBgpLkf6NOw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210081433
-! Last Modified: 2022年10月08日 14:33
+! Version: 202210082047
+! Last Modified: 2022年10月08日 20:47
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8046,6 +8046,7 @@ _800x80_
 ###div-insticator-ad-5
 ###div-insticator-ad-6
 ###div-insticator-ad-9
+###div-leader-ad
 ###div-social-ads
 ###divAd
 ###divAdDetail
@@ -11525,6 +11526,8 @@ _800x80_
 ##.ad-mobile-mpu-plus-outstream-inc
 ##.ad-mobile-nav-ad-plus
 ##.ad-mod
+##.ad-mod-section
+##.ad-mod-section-728-90
 ##.ad-module
 ##.ad-mount
 ##.ad-mpl
@@ -51317,7 +51320,7 @@ plos.org##.head-top
 worldpress.org##.header-b
 adswikia.com,freemalaysiatoday.com,landandfarm.com,pointblanknews.com,runt-of-the-web.com,warisboring.com##.header-banner
 mercurynews.com,nssmag.com##.header-banners
-apptrigger.com,fansided.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.header-billboard
+apptrigger.com,fansided.com,hiddenremote.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.header-billboard
 lyricsmode.com##.header-block
 worldpress.org##.header-bnr
 autental.com##.header-grid-items
@@ -54843,6 +54846,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||insurglobal.xyz^$generichide
 @@||manhwaid.org^$generichide
 @@||maxstream.video^$generichide
+@@||megaup.net/*.gif$image,~third-party
+@@||megaup.net^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cpu-world.com|megaleech.us
 @@||premiumleecher.com^$generichide
 @@||receive-a-sms.com^$generichide
@@ -87361,6 +87366,7 @@ gay4porn.com##+js(acis, document.querySelectorAll, popMagic)
 gay4porn.com##.exbanner
 gay4porn.com###int-over:remove()
 gay4porn.com###intt-layer:remove()
+/s/s/sum.php
 charbelnemnom.com##+js(nostif, ai)
 @@||charbelnemnom.com^$ghide
 charbelnemnom.com##.adsbygoogle
