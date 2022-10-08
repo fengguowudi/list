@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QcKIhqn1/x6UTbuQ4yXg8w
+! Checksum: dPGq7dQW40pkaRDNoI3L+Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210081005
-! Last Modified: 2022年10月08日 10:05
+! Version: 202210081433
+! Last Modified: 2022年10月08日 14:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -87359,6 +87359,8 @@ lite.qwant.com##.ad:upward(article.result.web)
 gay4porn.com##+js(set, flashvars.adv_start_html, '')
 gay4porn.com##+js(acis, document.querySelectorAll, popMagic)
 gay4porn.com##.exbanner
+gay4porn.com###int-over:remove()
+gay4porn.com###intt-layer:remove()
 charbelnemnom.com##+js(nostif, ai)
 @@||charbelnemnom.com^$ghide
 charbelnemnom.com##.adsbygoogle
