@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RR4resxWto7vlHM1TjQk5Q
+! Checksum: flb/AjP8FjWp+ehtp1x9qQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210151437
-! Last Modified: 2022年10月15日 14:37
+! Version: 202210152048
+! Last Modified: 2022年10月15日 20:48
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -7769,6 +7769,7 @@ _800x80_
 ###customAd
 ###customAds
 ###customad
+###darazAd
 ###dashboardFeaturedEventAd
 ###dashboardRectangleAd
 ###daumAd
@@ -16378,6 +16379,7 @@ _800x80_
 ##.custom-sticky-ad-container
 ##.customAd
 ##.custom_ad
+##.custom_ad_responsive
 ##.custom_ads
 ##.custom_banner_ad
 ##.custom_footer_ad
@@ -55484,6 +55486,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /atapixel.js
 /atatus.js
 /athena.gif?
+/athena/tracking/*
 /athenastgbeacon.
 /atlas_track.
 /atr_events_
@@ -62817,7 +62820,6 @@ _mongo_stats/
 ||sexcounter.com^$third-party
 ||sexystat.com^$third-party
 ||sf14g.com^$third-party
-||shalltry.com^$third-party
 ||shareasale.com^$third-party
 ||sharedid.org^$third-party
 ||sharpspring.com^$third-party
