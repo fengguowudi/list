@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FONp0Hwj95rfEGyVXRHhXw
+! Checksum: vRL5heHs+S9TRNv/3EZkQQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210150233
-! Last Modified: 2022年10月15日 02:33
+! Version: 202210151037
+! Last Modified: 2022年10月15日 10:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -51455,6 +51455,7 @@ slickdeals.net##.rightRailBannerSection
 gamemodding.com##.right_banner
 softicons.com##.right_ga
 talksms.com##.righttd
+smartasset.com##.riklam-container
 songlyrics.com##.ringtone-matcher
 rocket-league.com##.rlg-footer-ads-container
 rocket-league.com##.rlg-trading-ad
@@ -51813,6 +51814,7 @@ freedomleaf.com##.top-ab
 artistdirect.com##.top-add
 jamieoliver.com##.top-avocado
 automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,forbesindia.com,government-fleet.com,howsecureismypassword.net,ncaa.com,schoolbusfleet.com##.top-banner
+smartasset.com##.top-banner-ctr
 gptoday.net##.top-banner-leaderboard
 gamewatcher.com##.top-banners-wrapper
 blockchair.com##.top-buttons-wrap
@@ -54088,7 +54090,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||player.aniview.com/script/$script,domain=odysee.com
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com|videos.heute.at
-@@||player.avplayer.com^$script,domain=explosm.net
+@@||player.avplayer.com^$script,domain=explosm.net|justthenews.com
 @@||playwire.com/bolt/js/zeus/embed.js$script,third-party
 @@||pngimg.com/distr/$image,~third-party
 @@||pntrac.com/b/$image,domain=extrarebates.com
@@ -62678,6 +62680,7 @@ _mongo_stats/
 ||reson8.com^$third-party
 ||responsetap.com^$third-party
 ||resulticks.com^$third-party
+||retargetapp.com^$third-party
 ||retargetly.com^$third-party
 ||retargettracker.com^$third-party
 ||retentionscience.com^$third-party
@@ -67742,7 +67745,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.myangular.life^
 ||stats.nebula.fi^
 ||stats.netbopdev.co.uk^
-||stats.netdna-storage.com^
 ||stats.olark.com^
 ||stats.ozwebsites.biz^
 ||stats.phoenix-widget.com^
@@ -88509,7 +88511,9 @@ shorte.anxcinema.com##+js(aopr, app_vars.force_disable_adblock)
 shorte.anxcinema.com##+js(set, blurred, false)
 shorte.anxcinema.com##+js(aopr, open)
 mejoresmodsminecraft.site##+js(acis, decodeURIComponent, ai_adb)
+watchdoctorwhoonline.com##+js(aopr, mm)
 watchdoctorwhoonline.com##.custom-html-widget.textwidget > .close
+watchdoctorwhoonline.com##.sidebar_episodes2
 synonyms.com##+js(set, canRunAds, true)
 pcgamesn.com##header:style(top:0 !important)
 pcgamesn.com##.legion_primiswrapper
@@ -92564,6 +92568,8 @@ wco.tv##+js(no-xhr-if, api)
 palatifini.it##.show.fade.modal-backdrop
 palatifini.it##body:style(overflow: auto !important;)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=raiplay.it
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=kotaku.com
+||imasdk.googleapis.com^$frame,domain=kotaku.com,important
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -99681,7 +99687,7 @@ palatifini.it##body:style(overflow: auto !important;)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 19 Oct 2002 00:00:00
+# start date:    Sun, 20 Oct 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
