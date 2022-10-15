@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: flb/AjP8FjWp+ehtp1x9qQ
+! Checksum: pRIwCAe8Zu/qLmZCFiF/kg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210152048
-! Last Modified: 2022年10月15日 20:48
+! Version: 202210160230
+! Last Modified: 2022年10月16日 02:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -26715,6 +26715,7 @@ tf2r.com#@#.adverts
 ||coinverti.com^
 ||colanbalkily.com^
 ||colanderofficiallycase.com^
+||colarak.com^
 ||cold-cold-freezing.com^
 ||coldflownews.com^
 ||coldhardcash.com^
@@ -27421,6 +27422,7 @@ tf2r.com#@#.adverts
 ||dealsfor.life^
 ||dealtsowbite.com^
 ||dearestimmortality.com^
+||dearwbdikfecdvc.com^
 ||debadu.com^
 ||debatenell.com^
 ||debitswiping.com^
@@ -29366,6 +29368,7 @@ tf2r.com#@#.adverts
 ||formfulerses.com^
 ||formingcunninghump.com^
 ||formulacountess.com^
+||forognal.com^
 ||forsarrooving.com^
 ||fortaillowon.com^
 ||forthcomingpropelwho.com^
@@ -30158,6 +30161,7 @@ tf2r.com#@#.adverts
 ||gritchuw.com^
 ||grivupie.net^
 ||grjjngkemtpjqp.com^
+||grjywdbqepxhcc.com^
 ||grmtas.com^
 ||grmtmuabcrss.xyz^
 ||groajert.com^
@@ -30796,6 +30800,7 @@ tf2r.com#@#.adverts
 ||humejylu.com^
 ||humiliateirresistiblesore.com^
 ||humorshieldrecede.com^
+||humpdecompose.com^
 ||humpzip.com^
 ||humsoolt.net^
 ||hunchbackimpulse.com^
@@ -32147,6 +32152,7 @@ tf2r.com#@#.adverts
 ||kybladfrtfc.com^
 ||kychajuza.com^
 ||kykelped.com^
+||kylkmpenyjv.top^
 ||kymagachu.pro^
 ||kymirasite.pro^
 ||kyriod.com^
@@ -33314,6 +33320,7 @@ tf2r.com#@#.adverts
 ||mmotraffic.com^
 ||mn1nm.com^
 ||mnbvjhg.com^
+||mndsrv.com^
 ||mnemicguaza.cam^
 ||mnetads.com^
 ||mng-ads.com^
@@ -35731,6 +35738,7 @@ tf2r.com#@#.adverts
 ||proeroclips.pro^
 ||profbigo.com^
 ||professionallycloudlessbarber.com^
+||professionalsly.com^
 ||profi-para.com^
 ||profileknee.com^
 ||profitablecpmgate.com^
@@ -36388,6 +36396,7 @@ tf2r.com#@#.adverts
 ||rawasy.com^
 ||rawjeansadvertising.com^
 ||rawoarsy.com^
+||rawxgnuwolda.com^
 ||rayingburiat.com^
 ||raylnk.com^
 ||rayrecollect.com^
@@ -38089,6 +38098,7 @@ tf2r.com#@#.adverts
 ||spirliesalse.com^
 ||spirub.com^
 ||spitzerpfunde.com^
+||spiuft.com^
 ||spkcmgydiuin.com^
 ||spklmis.com^
 ||spkoevngk.com^
@@ -38470,6 +38480,7 @@ tf2r.com#@#.adverts
 ||suozmtcc.com^
 ||superadbid.com^
 ||superbdolly.com^
+||superbisle.com^
 ||superfastcdn.com^
 ||superfolder.net^
 ||superintendfancystrangely.com^
@@ -43993,6 +44004,7 @@ tf2r.com#@#.adverts
 ||fastmtn.com^$popup
 ||fatstepn.click^$popup
 ||fbmedia-bls.com^$popup
+||fbmedia-ckl.com^$popup
 ||fdelphaswcealifornica.com^$popup
 ||feastoffortuna.com^$popup
 ||featassuage.com^$popup
@@ -45047,6 +45059,7 @@ tf2r.com#@#.adverts
 ||spenttabsnail.com^$popup
 ||sperans-beactor.com^$popup
 ||spinaleighth.com^$popup
+||spiuft.com^$popup
 ||spklmis.com^$popup
 ||sponsorselect.com^$popup
 ||sports-streams-online.best^$popup
@@ -86124,8 +86137,8 @@ videowood.tv##+js(aopr, _wm)
 videowood.tv##+js(aopw, _pop)
 videowood.tv##+js(aopw, adcashMacros)
 hideandseek.world##+js(set, canRunAds, true)
-speedostream.com##+js(aost, JSON.parse, computed)
-||s.speedostream.com^$script,1p
+speedostream.*##+js(aost, JSON.parse, computed)
+||s.speedostream.*^$script,1p
 @@||nnaa66.xyz^$ghide
 nexusmods.com##+js(nano-stb, timer)
 nexusmods.com##.ad-section__skyscraper
@@ -87370,8 +87383,6 @@ pajalusta.club##div[style="position: fixed; display: block; width: 100%; height:
 serialeonlinesubtitrate.ro###text-6
 ||filmeserialehd.biz^$3p
 @@/wp-content/plugins/dh-new-anti-adblocker$script,1p
-||smartmediarep.com^$media,redirect=noop-0.1s.mp3,domain=sbs.co.kr
-sbs.co.kr##.ad_skip_area_w
 javhd.icu##+js(acis, decodeURI, decodeURIComponent)
 javhdfree.icu##+js(nowoif)
 ||javhd.icu/ads/
