@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +VjdRzibkpcWMnC9dHvPmQ
+! Checksum: fhi7McuoM1I7pD7lrzHqSw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210200242
-! Last Modified: 2022年10月20日 02:42
+! Version: 202210201034
+! Last Modified: 2022年10月20日 10:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -49983,6 +49983,7 @@ satdl.com##.advertizement
 148apps.com##.advnote
 swisscows.com##.advrts
 gcn.com,groovyhistory.com,lifebuzz.com,toocool2betrue.com,videogameschronicle.com##.adwrapper
+9anime.to##.adx
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
 revolver.news##.af-slim-promo
 fandom.com##.aff-unit__wrapper
@@ -57660,7 +57661,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /mintstats/?js
 /mistat-data/*
 /mistats/*
-/mixpanel-*.js
+/mixpanel-init.
 /mixpanel-measurement.
 /mixpanel.$domain=~mixpanel.com
 /mixpanel_beacon.
@@ -69414,6 +69415,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||advgo.net/hits/
 ||advgo.net/mushroom/
 ||analitica.webrpp.com^
+||citiservi.es/adstrack?
 ||contadores.miarroba.com^
 ||contadores.miarroba.es^
 ||creatives.sunmedia.tv^
@@ -69997,6 +69999,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ledger-enquirer.com/lz-isbnoyo/pdp.gif?
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
+||letsdoeit.com/tracking/
 ||lexology.com/pd.js
 ||libhunt.com/api/ahoy/event
 ||lightstep.medium.systems^*/reports
@@ -70608,6 +70611,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||walmart.com/client/api/logs
 ||walmart.com/client/api/metrics
 ||walmartimages.com^*/cdn-perf.min.js$domain=walmart.com
+||watchsomuch.to/AD/
 ||wblt.oui.sncf^
 ||wc.yahoodns.net^$image
 ||wccftech.com/cnt7vfDVvWa3.js
@@ -85264,6 +85268,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/satelliteLib-$script,domain=crackle.com.ar|crackle.com.ec|crackle.com.mx|crackle.com.pe|crackle.com.py|fcbarcelona.cat|fcbarcelona.es|laredoute.es|vtr.com
 @@||amplitude.com/libs/$script,domain=elconfidencial.com
 @@||ampproject.org/v0/amp-analytics-$script,domain=cnnespanol.cnn.com
+@@||api.apolomedia.com/static/libs/event-tracking.min.js$script
 @@||api.cxense.com/public/widget/$domain=tn.com.ar
 @@||ara.cat/static/BB3Core/images/pixel.gif?hash=$image,domain=ara.cat
 @@||bancosantander.es/pagos-inmediatos/common/js/modules/tealium.js$~third-party
@@ -90502,7 +90507,8 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||tinyurl.com/setup-full-version$doc
 torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||qolhub.info^$all
-||fragbot.net^all
+||fragbot.net^$all
+||haxsoft.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -99804,7 +99810,7 @@ dmzj.com##body:style(overflow: auto !important;)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 24 Oct 2002 00:00:00
+# start date:    Fri, 25 Oct 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
