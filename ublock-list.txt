@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fhi7McuoM1I7pD7lrzHqSw
+! Checksum: jpzzZKRwSqeSd4GD2WphsQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210201034
-! Last Modified: 2022年10月20日 10:34
+! Version: 202210201441
+! Last Modified: 2022年10月20日 14:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16437,6 +16437,7 @@ _800x80_
 ##.desktop.ad
 ##.desktopAd
 ##.desktop_ad
+##.desktop_mpu
 ##.desktop_only_ad
 ##.desktopads
 ##.detail-ad
@@ -49596,6 +49597,7 @@ fool.com###sticky-wrapper
 standard.co.uk###stickyFooterRoot
 afr.com###stickyLeaderboard
 bostonglobe.com###sticky_container.width_full
+eurogamer.net,rockpapershotgun.com###sticky_leaderboard
 medicinehatnews.com###stickyleaderboard
 semiconductor-today.com###storyHorAdd
 afkgaming.com###story_sticky_footer
@@ -50037,6 +50039,7 @@ yts.mx##.aoiwjs
 motor1.com##.ap
 thinkcomputers.org##.apPluginContainer
 motor1.com##.apb
+eurogamer.net##.apester_block
 ebay.com##.app-rtm-pid-wrapper
 classicfm.com##.apple_music
 icon-icons.com##.apu
@@ -50556,7 +50559,6 @@ kusports.com##.deals_widget
 forex-gold.net,mangarockteam.com##.demand-supply
 cardealermagazine.co.uk##.desktop
 nextcity.org##.desktop-display
-eurogamer.net##.desktop-mpu
 rok.guide##.desktop-promo-banner
 tiermaker.com##.desktop-sticky
 hanime.tv##.desktop.htvad
@@ -50714,6 +50716,7 @@ satbeams.com##.footer_banner
 tiresandparts.net##.footer_top_banner
 eurocupbasketball.com,euroleague.net##.footersponsors-container
 nintendolife.com,purexbox.com,pushsquare.com##.for-desktop
+purexbox.com,pushsquare.com##.for-mobile.below-article
 flatpanelshd.com##.forsideboks2
 permies.com##.forum-top-banner
 newsroom.co.nz##.foundingpartners
