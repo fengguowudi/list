@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GbNDJuEWLAIypRXBvrSCTw
+! Checksum: TMWEPY/aA92s2QM/zvn3vw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210230231
-! Last Modified: 2022年10月23日 02:31
+! Version: 202210231033
+! Last Modified: 2022年10月23日 10:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -89979,7 +89979,6 @@ thepiratebay3.com^$all
 ||womeniovers.net^$all
 ||yougames.fun^$all
 ||antig-hra.com^$all
-||chestuwygli.com^$all
 ||fictiongroin.com^$all
 ||sendyou123.com^$all
 ||searching-place.com^$all
@@ -90001,7 +90000,6 @@ thepiratebay3.com^$all
 ||eneverals.biz^$all
 ||harzfriends.de^$all
 ||holofiber.xyz^$all
-||ichaichat.xyz^$all
 ||jobrave.live^$all
 ||moviesboys.com/*.shtml$doc
 ||name0fbestway.com^$all
@@ -90018,13 +90016,9 @@ thepiratebay3.com^$all
 ||adserveryo.xyz^$all
 ||adtr1.com^$all
 ||axdsz.pro^$all
-||employeebabyman.xyz^$all
-||surfacesbusinesss.xyz^$all
-||worldbeyondleft.xyz^$all
 ||click2click.xyz^$all
 ||datingapp.live^$all
 ||dracenic-gravinyl.icu^$all
-||ktfckd.com^$all
 ||retargetcore.com^$all
 .com/c/*?s1=$doc,domain=com
 .net/c/*?s1=$doc,domain=net
@@ -90039,7 +90033,6 @@ thepiratebay3.com^$all
 ||benaughty.com^$all
 ||searchdatestoday.com^$all
 ||robin201.xyz^$all
-||amata-syb.com^$all
 /track/click.php?c=*&zoneid=$doc
 ||o-uccino.top^$all
 ||fattykettleinexpedient.com^$all
@@ -90085,7 +90078,6 @@ thepiratebay3.com^$all
 okashimag.com,tech4yougadgets.com##^meta[http-equiv="refresh"]
 okashimag.com,tech4yougadgets.com##^script[src^="data:text/javascript;base64,"]
 okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
-||ads.sophiapoole.com^
 ||adstellar.icu^
 ||aleks-avto-rnd.ru^$all
 ||trk.setting-nervous-steady-noted.xyz^$all
@@ -90094,7 +90086,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||bestlifeoffer20.com^$all
 ||adlogists.com^
 ||clicks.affstrack.com^
-||track.date-secure.com^
 ||tribalcellular.com^
 ||weledying-jessed.com^$all
 ?zoneid=*&cost=0.$doc
@@ -90115,7 +90106,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||adserver5.sbs^$all
 ||trwl1.com^$all
 ||clixwells.com^$all
-||shinearmor.space^$all
 ||wxhiojortldjyegtkx.bid^$all
 ||pushmeup.art^$all
 ||pushub.net^$all
@@ -90203,7 +90193,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||asstok.com^$all
 ||loverfuck.com^$all
 ||profi-para.com^$all
-||bedcity-lake.top^$all
 ||onlineplus.click^$all
 ||dirtyteenagers.com^$all
 ||adulttdates.com^$all
@@ -90247,7 +90236,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||totaltopposts.com^$all
 /?%7B%7Bip%7D%7D*&clickId=$doc
 ||djin.site^$all
-||windows-scan.com^$all
 ||ourhypewords.com^$all
 ||antivirus.landerhd.com^$all
 ||findyour-realsex2.com^$all
@@ -90287,7 +90275,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||besty-deals.com^$all
 ||beta-one.net^$all
 ||kokotrokot.com^$all
-||clean-protection.xyz^$all
 ||security-scanner.xyz^$all
 /werrx01/?$doc
 ||maxy-tax.com^$all
@@ -90749,6 +90736,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||sxfyjygs.com^$all
 ||verifyhypixel.com^$all
 ||zenlytrade.com^$all
+||verifyhypixel.net^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -92803,6 +92791,7 @@ fontspace.com#@#.container-ads
 @@||hb.improvedigital.com/pbw/prebid/*$script,domain=html5.gamedistribution.com
 ||tag.atom.gamedistribution.com^$xhr,redirect-rule=nooptext,1p
 gamedistribution.com##+js(no-fetch-if, /^/)
+@@||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=html5.gamedistribution.com
 ||cdn.branch.io^$badfilter
 @@||cdn.branch.io/branch-latest.min.js$script
 @@||ad.doubleclick.net/clk*travel*&destinationURL=$doc
@@ -100050,7 +100039,7 @@ dmzj.com##body:style(overflow: auto !important;)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 27 Oct 2002 00:00:00
+# start date:    Mon, 28 Oct 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
