@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: id+PEXRKFYkl5pNsHQZ/SQ
+! Checksum: gkA77tYSvb6MuOqtfydiWQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210241045
-! Last Modified: 2022年10月24日 10:45
+! Version: 202210241502
+! Last Modified: 2022年10月24日 15:02
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -58896,6 +58896,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /shopify_stats.js
 /showcounter.$domain=~showcounter.com
 /showhits.php?
+/shreddit/perfMetrics
 /si-tracking.
 /sidebarAnalytic?
 /sidtracker.
@@ -92948,6 +92949,7 @@ palatifini.it##body:style(overflow: auto !important;)
 @@||cmp.dmgmediaprivacy.co.uk/gdpr/*$xhr,domain=gbnews.uk
 dmzj.com##body:style(overflow: auto !important;)
 @@||pnp.co.za/pnpstorefront/_ui/shared/js/analyticsmediator.js$script,1p
+||cdn.optimizely.com/js/$script,redirect=noopjs,domain=myscore.cibil.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
