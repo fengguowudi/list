@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DF43k0C1yl322/HSdwdGQw
+! Checksum: L9X2UJIRdba8big7T2f6DQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210242057
-! Last Modified: 2022年10月24日 20:57
+! Version: 202210250248
+! Last Modified: 2022年10月25日 02:48
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17737,6 +17737,7 @@ _800x80_
 ##.island_ad_right_top
 ##.islandad
 ##.isocket_ad_row
+##.item--ad
 ##.item-ad
 ##.item-ad-leaderboard
 ##.item-ads
@@ -21510,6 +21511,7 @@ _800x80_
 ##a[href^="https://trappist-1d.com/"]
 ##a[href^="https://trf.bannerator.com/"]
 ##a[href^="https://trk.moviesflix4k.xyz/"]
+##a[href^="https://trk.watchlivesports4k.club/"]
 ##a[href^="https://trusted-click-host.com/"]
 ##a[href^="https://ttf.trmobc.com/"]
 ##a[href^="https://tupitea.co/"]
@@ -22486,6 +22488,7 @@ tf2r.com#@#.adverts
 ||4c935d6a244f.com^
 ||4d4ac172b7.com^
 ||4dex.io^
+||4dfdf752cc.com^
 ||4dsbanner.net^
 ||4dtrk.com^
 ||4e37b45877.com^
@@ -32269,6 +32272,7 @@ tf2r.com#@#.adverts
 ||legerikath.com^
 ||legime.com^
 ||leginsi2leopard1oviy1hf.com^
+||legrea.com^
 ||lehechapunevent.com^
 ||lehtymns.com^
 ||leigunfax.com^
@@ -32515,6 +32519,7 @@ tf2r.com#@#.adverts
 ||locomotiveconvenientriddle.com^
 ||loctic.com^
 ||lodder6.biz^
+||loddingtoto.one^
 ||loedtamanac.com^
 ||loeingroost.com^
 ||loftiernucule.com^
@@ -32610,6 +32615,7 @@ tf2r.com#@#.adverts
 ||loxedchazan.com^
 ||loxitdat.com^
 ||loxtk.com^
+||lphkquhbxakveo.com^
 ||lplimjxiyx.com^
 ||lpnottech.com^
 ||lpuhcdnyejf.com^
@@ -34363,6 +34369,7 @@ tf2r.com#@#.adverts
 ||ofphanpytor.com^
 ||ofseedotom.com^
 ||ofslakotha.com^
+||ofthecathedral.xyz^
 ||oftheussi.one^
 ||ogercron.com^
 ||oggifinogi.com^
@@ -38260,6 +38267,7 @@ tf2r.com#@#.adverts
 ||spuezain.com^
 ||spurproteinopaque.com^
 ||spyafoepeyddb.xyz^
+||spybuildsoccasional.com^
 ||spzqxefawfeubq.com^
 ||sq2trk2.com^
 ||sqacbhlngoxw.com^
@@ -39009,6 +39017,7 @@ tf2r.com#@#.adverts
 ||thepopads.com^
 ||therapistpopulationcommentary.com^
 ||theraprecramp.com^
+||thereuponcanadian.com^
 ||therubiqube.com^
 ||thesaurussurf.com^
 ||thesesooey.com^
@@ -39645,6 +39654,7 @@ tf2r.com#@#.adverts
 ||tyjawhesu.com^
 ||tykinggowd.com^
 ||tylistedpro.xyz^
+||tylocinpechan.com^
 ||tylosischewer.com^
 ||tyluslandmil.com^
 ||tymukyno.xyz^
@@ -40648,6 +40658,7 @@ tf2r.com#@#.adverts
 ||watchercasketremained.com^
 ||watchingthat.com^
 ||watchingthat.net^
+||watchlivesports4k.club^
 ||watchmytopapp.top^
 ||watchtaro.com^
 ||waterproofmanipulativereunion.com^
@@ -44648,6 +44659,7 @@ tf2r.com#@#.adverts
 ||lowtyruntor.com^$popup
 ||lplimjxiyx.com^$popup
 ||lpnottech.com^$popup
+||luckyforbet.com^$popup
 ||lucretius-ada.com^$popup
 ||lurgaimt.net^$popup
 ||luublimaluulo.com^$popup
@@ -45600,7 +45612,9 @@ tf2r.com#@#.adverts
 ||waredscots.casa^$popup
 ||warilyaggregation.com^$popup
 ||warten-sie-mal.xyz^$popup
+||watch-now.club^$popup
 ||watchadsfree.com^$popup
+||watchlivesports4k.club^$popup
 ||watchtaro.com^$popup
 ||wautoosa.net^$popup
 ||wboux.com^$popup
@@ -47256,6 +47270,7 @@ tf2r.com#@#.adverts
 ||d6wzv57amlrv3.cloudfront.net^
 ||d7016uqa4s0lw.cloudfront.net^
 ||d7dza8s7j2am6.cloudfront.net^
+||d7gse3go4026a.cloudfront.net^
 ||d8cxnvx3e75nn.cloudfront.net^
 ||d91i6bsb0ef59.cloudfront.net^
 ||da3uf5ucdz00u.cloudfront.net^
@@ -89480,104 +89495,43 @@ mangastream.mobi###myModal
 ||doubleclickbygoogle.com/favicon.ico$image,3p,redirect-rule=32x32.png
 ||google.com/adsense/start/images/favicon.ico$image,3p,redirect-rule=32x32.png
 ||gstatic.com/adx/doubleclick.ico$image,3p,redirect-rule=32x32.png
-#@##Ad728x90
-#@##AdArea
-#@##AdBox160
-#@##AdContainer
-#@##AdDiv
-#@##AdImage
-#@##AdFrame1
-#@##AdFrame2
-#@##AdFrame4
-#@##AdLayer1
-#@##AdLayer2
-#@##DivAd
-#@##ad-container
-#@##ad-container-1
-#@##ad-container-2
-#@##ad-footer
-#@##ad-frame
-#@##ad-header
-#@##ad-img
-#@##ad-label
-#@##ad-lb
-#@##ad-left
-#@##adAd
-#@##adBanner
-#@##adBannerWrap
-#@##adTeaser
 #@##ad_300
 #@##ad_728
 #@##ad_area
 #@##ad_big
 #@##ad_box
-#@##ad_channel
 #@##ad_footer
 #@##ad_slot
 #@##ad_space
-#@##adbanner
 #@##adframe:not(frameset)
 #@##adheader
 #@##ads-1
 #@##ads-banner
 #@##ads-footer
-#@##adslot
 #@##adspace
 #@##adsquare
 #@##banner468
 #@##banner728x90
-#@##google_ad
-#@##outbrain-paid
-#@##sponsored_link
-###Ad728x90:not([style^="position: absolute; left: -5000px"])
-###AdArea:not([style^="position: absolute; left: -5000px"])
-###AdBox160:not([style^="position: absolute; left: -5000px"])
-~lalovings.com###AdContainer:not([style^="position: absolute; left: -5000px"])
-###AdDiv:not([style^="position: absolute; left: -5000px"])
-###AdImage:not([style^="position: absolute; left: -5000px"])
-###AdFrame1:not([style^="position: absolute; left: -5000px"])
-###AdFrame2:not([style^="position: absolute; left: -5000px"])
-###AdFrame4:not([style^="position: absolute; left: -5000px"])
-###AdLayer1:not([style^="position: absolute; left: -5000px"])
-###AdLayer2:not([style^="position: absolute; left: -5000px"])
-###DivAd:not([style^="position: absolute; left: -5000px"])
-###ad-container:not([style^="position: absolute; left: -5000px"])
-###ad-container-1:not([style^="position: absolute; left: -5000px"])
-###ad-container-2:not([style^="position: absolute; left: -5000px"])
-###ad-footer:not([style^="position: absolute; left: -5000px"])
-###ad-frame:not([style^="position: absolute; left: -5000px"])
-~apnaohio.com,~miradiorumba.com###ad-header:not([style^="position: absolute; left: -5000px"])
-###ad-img:not([style^="position: absolute; left: -5000px"])
-###ad-label:not([style^="position: absolute; left: -5000px"])
-###ad-lb:not([style^="position: absolute; left: -5000px"])
-###ad-left:not([style^="position: absolute; left: -5000px"])
-###adAd:not([style^="position: absolute; left: -5000px"])
-###adBanner:not([style^="position: absolute; left: -5000px"])
-###adBannerWrap:not([style^="position: absolute; left: -5000px"])
-###adTeaser:not([style^="position: absolute; left: -5000px"])
 ###ad_300:not([style^="position: absolute; left: -5000px"])
 ###ad_728:not([style^="position: absolute; left: -5000px"])
 ###ad_area:not([style^="position: absolute; left: -5000px"])
 ###ad_big:not([style^="position: absolute; left: -5000px"])
 ###ad_box:not([style^="position: absolute; left: -5000px"])
-###ad_channel:not([style^="position: absolute; left: -5000px"])
 ###ad_footer:not([style^="position: absolute; left: -5000px"])
 ###ad_slot:not([style^="position: absolute; left: -5000px"])
 ~streetinsider.com###ad_space:not([style^="position: absolute; left: -5000px"])
-###adbanner:not([style^="position: absolute; left: -5000px"])
 ###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
 ###adheader:not([style^="position: absolute; left: -5000px"])
 ###ads-1:not([style^="position: absolute; left: -5000px"])
 ###ads-banner:not([style^="position: absolute; left: -5000px"])
 ###ads-footer:not([style^="position: absolute; left: -5000px"])
-###adslot:not([style^="position: absolute; left: -5000px"])
 ~ma-bank.net,~video.tv-tokyo.co.jp###adspace:not([style^="position: absolute; left: -5000px"])
 ###adsquare:not([style^="position: absolute; left: -5000px"])
 ###banner468:not([style^="position: absolute; left: -5000px"])
 ###banner728x90:not([style^="position: absolute; left: -5000px"])
-###google_ad:not([style^="position: absolute; left: -5000px"])
-###outbrain-paid:not([style^="position: absolute; left: -5000px"])
-###sponsored_link:not([style^="position: absolute; left: -5000px"])
+xnxx.com,xvideos.*###ad-footer
+retrostic.com,sickchirpse.com###ad-header
+chortle.co.uk,coloring.ws,dltk-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com,primeraescuela.com###adBanner
 #@##ad-banner
 ~androidauthority.com,~soundguys.com#@#.ad-banner
 ###ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"]):not([style*="width: 1px;"])
