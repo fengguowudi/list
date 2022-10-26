@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5CnBohaGcRwGVOeY0qDgKw
+! Checksum: vDjA3p5pTmMSgxGqDGbLkQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210262056
-! Last Modified: 2022年10月26日 20:56
+! Version: 202210270229
+! Last Modified: 2022年10月27日 02:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3432,7 +3432,7 @@
 /reklam-ads2.
 /reklam.$domain=~github.com|~reklam.com.tr
 /reklam/*$domain=~github.com|~reklam.com.tr
-/reklama.$~stylesheet,domain=~github.com|~pracuj.pl|~reklama.cinema.sk|~reklama.citylink.pro|~reklama.grajewo.net.pl|~reklama.mariafm.ru|~reklama.ringieraxelspringer.pl|~reklama.tochka.com
+/reklama.$~stylesheet,domain=~blaudirekt.de|~github.com|~pracuj.pl|~reklama.cinema.sk|~reklama.citylink.pro|~reklama.grajewo.net.pl|~reklama.mariafm.ru|~reklama.ringieraxelspringer.pl|~reklama.tochka.com
 /reklama/*$domain=~github.com
 /reklama1.
 /reklama2.
@@ -22745,6 +22745,7 @@ tf2r.com#@#.adverts
 ||8dc832e7e4.com^
 ||8dfaa2dc76855.com^
 ||8eca555d94.com^
+||8f28049c79.com^
 ||8ff01bde37db289d5.com^
 ||8gs4unh05aq6.com^
 ||8jay04c4q7te.com^
@@ -26128,6 +26129,7 @@ tf2r.com#@#.adverts
 ||cheno3yp5odt7iume.com^
 ||chepsigrade.pro^
 ||cherniy2sviter11j.com^
+||chestfoollo.one^
 ||chestors.com^
 ||cheumy.com^
 ||chewsrompedhemp.com^
@@ -27116,6 +27118,7 @@ tf2r.com#@#.adverts
 ||dairyabreast.com^
 ||daischerendragkur.ga^
 ||daisycontroversy.com^
+||daitoase.com^
 ||daizoode.com^
 ||dakolk.com^
 ||dalarorganic.casa^
@@ -28337,6 +28340,7 @@ tf2r.com#@#.adverts
 ||emmermyotic.com^
 ||emolah.com^
 ||emolapnay.com^
+||emostbeautif.xyz^
 ||emphen.com^
 ||empill.com^
 ||empirelayer.club^
@@ -28772,6 +28776,7 @@ tf2r.com#@#.adverts
 ||faithcollarhook.com^
 ||faithfulfacultativeladder.com^
 ||faithfullyfridge.com^
+||faitis.com^
 ||fakeallow.com^
 ||fakeerupriser.com^
 ||fakesorange.com^
@@ -35096,6 +35101,7 @@ tf2r.com#@#.adverts
 ||pc2ads.com^
 ||pcdnlt.com^
 ||pclk.name^
+||pclrwuqv.com^
 ||pcmclks.com^
 ||pctlwm.com^
 ||pctsrv.com^
@@ -38366,6 +38372,7 @@ tf2r.com#@#.adverts
 ||ssyajuhvf.com^
 ||st-rdirect.com^
 ||st1net.com^
+||stabbr.com^
 ||stabilityvatinventory.com^
 ||stackattacka.com^
 ||stadiumembezzlementoil.com^
@@ -39563,6 +39570,7 @@ tf2r.com#@#.adverts
 ||truthfulstem.com^
 ||trybulgingcoefficient.com^
 ||trymynewspirit.com^
+||trymysadoroh.site^
 ||tryq.xyz^
 ||trytipemo.com^
 ||trzi30ic.com^
@@ -40573,6 +40581,7 @@ tf2r.com#@#.adverts
 ||vtfdfrxfxktq.xyz^
 ||vth05dse.com^
 ||vubihowhe.com^
+||vucdmuvavnu.com^
 ||vuclmvrq.xyz^
 ||vudoutch.com^
 ||vueqfdry.com^
@@ -47000,6 +47009,7 @@ tf2r.com#@#.adverts
 ||s3.amazonaws.com^*/secure.js
 ||tsbluebox.com^$third-party
 ||vidoplay.com^$third-party
+||d10ce3z4vbhcdd.cloudfront.net^
 ||d10lumateci472.cloudfront.net^
 ||d10lv7w3g0jvk9.cloudfront.net^
 ||d10nkw6w2k1o10.cloudfront.net^
@@ -86587,8 +86597,8 @@ hideandseek.world##+js(set, canRunAds, true)
 speedostream.*##+js(aost, JSON.parse, computed)
 ||s.speedostream.*^$script,1p
 @@||nnaa66.xyz^$ghide
-nexusmods.com##+js(acs, document.getElementById, true)
 nexusmods.com##+js(nano-stb, timer)
+nexusmods.com##+js(set, areAdsBlocked, false)
 nexusmods.com##.ad-section__skyscraper
 discovermagazine.com##.adunitContainer:upward(1)
 discovermagazine.com##a > img + div[class]:last-of-type:has-text(Sponsored):upward(div[sizes])
@@ -89502,11 +89512,11 @@ dash-free.com,softairbay.com,urlfiles.com##+js(aopr, app_vars.force_disable_adbl
 autofaucet.dutchycorp.space##[href^="https://enicyvys.xyz/"]
 autofaucet.dutchycorp.space##[href*="banner"]
 autofaucet.dutchycorp.space##[src^="blob:https://autofaucet.dutchycorp.space/"]:remove()
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=coin-free.com|kienthucrangmieng.com|techmart4u.in|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tremamnon.com|tai-mui-hong.com
-*$script,3p,domain=coin-free.com|kienthucrangmieng.com|techmart4u.in|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tai-mui-hong.com,denyallow=iconify.design
-coin-free.com,kienthucrangmieng.com##[id^="wpsafe-wait"]
-coin-free.com,kienthucrangmieng.com###wpsafe-generate, #wpsafe-link:style(display: block !important)
-*$script,redirect-rule=noopjs,domain=coin-free.com|kienthucrangmieng.com|techmart4u.in|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tai-mui-hong.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=coin-free.com|kienthucrangmieng.com|techmart4u.in|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tremamnon.com|tai-mui-hong.com|95news.com|vnpttelle.com|dhlgame.com|nhacremix.biz|hynews.biz|fanclup.info
+*$script,3p,domain=coin-free.com|kienthucrangmieng.com|techmart4u.in|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tai-mui-hong.com|95news.com|95news.com|vnpttelle.com|dhlgame.com|nhacremix.biz|hynews.biz|fanclup.info,denyallow=iconify.design
+coin-free.com,kienthucrangmieng.com,thuocdangian.net,fanclup.info##[id^="wpsafe-wait"]
+coin-free.com,kienthucrangmieng.com,thuocdangian.net,fanclup.info###wpsafe-generate, #wpsafe-link:style(display: block !important)
+*$script,redirect-rule=noopjs,domain=coin-free.com|kienthucrangmieng.com|techmart4u.in|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tai-mui-hong.com|95news.com|vnpttelle.com|dhlgame.com|nhacremix.biz|hynews.biz|fanclup.info
 techmart4u.in##+js(nano-sib)
 techmart4u.in##+js(noeval)
 @@||ovlinks.com^$ghide
