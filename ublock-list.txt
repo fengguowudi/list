@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LHyG13fQzIriuK7nY22x5g
+! Checksum: Eh7QhTRMuFpJ4QwaQpHstg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210282052
-! Last Modified: 2022年10月28日 20:52
+! Version: 202210290229
+! Last Modified: 2022年10月29日 02:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15726,6 +15726,7 @@ _800x80_
 ##.br-banner-ad
 ##.br-right-rail-ad
 ##.brand_ad
+##.branded-sponsored-result
 ##.branding-ad-gallery
 ##.branding-ad-wrapper
 ##.bravo-ad
@@ -85200,11 +85201,13 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/satelliteLib-$script,domain=dhl.de|sbb.ch
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
 @@||api-v4.trbo.com/r.php?$script,domain=blau.de
-@@||api.cxense.com/public/widget/data?$script,domain=handelsblatt.com
+@@||api.cxense.com/public/widget/data?$script,domain=businessinsider.de|handelsblatt.com
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||assets.adobedtm.com^*-source.min.js$domain=manager-magazin.de
 @@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|rtl.de|toggo.de|vip.de
 @@||businessclick.ch/index.js$domain=finanzen.ch
+@@||cdn.cxense.com/cx.cce.js$domain=businessinsider.de
+@@||cdn.cxense.com/cx.js$domain=businessinsider.de
 @@||cdn.cxense.com/cx.js$script,domain=handelsblatt.com
 @@||classic.comunio.de/clubImg.phtml/$image,~third-party
 @@||cleverpush.com/channel/loader/$domain=prosieben.de
