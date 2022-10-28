@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VqI4uNWmHMLYWEMWsRfrwQ
+! Checksum: LHyG13fQzIriuK7nY22x5g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210281430
-! Last Modified: 2022年10月28日 14:30
+! Version: 202210282052
+! Last Modified: 2022年10月28日 20:52
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3431,7 +3431,7 @@
 /refreshads-
 /reklam-ads2.
 /reklam.$domain=~github.com|~reklam.com.tr
-/reklam/*$domain=~github.com|~reklam.com.tr
+/reklam/*$domain=~cloudflare.com|~github.com|~reklam.com.tr
 /reklama.$~stylesheet,domain=~blaudirekt.de|~github.com|~pracuj.pl|~reklama.cinema.sk|~reklama.citylink.pro|~reklama.grajewo.net.pl|~reklama.mariafm.ru|~reklama.ringieraxelspringer.pl|~reklama.tochka.com
 /reklama/*$domain=~github.com
 /reklama1.
@@ -3735,6 +3735,7 @@
 /tag_oas.
 /tag_sys.
 /tagadv_
+/tardisrocinante/austin.js
 /targetingAd.
 /targetpushad.
 /td-ads-
@@ -17130,6 +17131,7 @@ _800x80_
 ##.gpt-ad
 ##.gpt-ad-container
 ##.gpt-ad-sidebar-wrap
+##.gpt-ad-wrapper
 ##.gpt-ads
 ##.gpt-billboard
 ##.gpt-breaker-container
@@ -50246,6 +50248,7 @@ allscrabblewords.com,famously-dead.com,famouslyarrested.com,famouslyscandalous.c
 allscrabblewords.com,famously-dead.com,famouslyarrested.com,famouslyscandalous.com,khaama.com,mpog100.com##.ad2
 allscrabblewords.com,mpog100.com##.ad3
 khaama.com##.ad8
+sfchronicle.com,thetelegraph.com,timesunion.com##.adBanner
 ndtv.com##.adBg
 afar.com,m.economictimes.com,trailspace.com##.adContainer
 luscious.net##.adDisplay-module__ad_banner--Drna4
@@ -55266,6 +55269,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /0c.gif?
 /0pixel.php?
 /1.gif?
+/1pixel.php
 /1px.gif?
 /1px.php?
 /1x1.a?
@@ -60696,6 +60700,7 @@ cgi-bin/counter
 /mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
 /mail.sparksport.co.nz/mail/read/*
+/MailIsRead?$image
 /maillist.*/t/$image
 /media.sailthru.com/5ik/1k4/9/*.gif
 /newsletter/log/*$image
@@ -61030,6 +61035,7 @@ _mongo_stats/
 ||fastgull.io^
 ||fasttiger.io^
 ||ffbbbdc6d3c353211fe2ba39c9f744cd.com^
+||ffe390afd658c19dcbf707e0597b846d.de^
 ||fixel.ai^
 ||fleraprt.com^
 ||fn-pz.com^
@@ -89588,8 +89594,9 @@ plotaroute.com###RightPanelAds
 plotaroute.com###AdPanelRight
 plotaroute.com###Page:style(right: 0px !important;)
 @@||newscon.net^$script,1p
-newscon.net##+js(set, clearInterval, noopFunc)
 newscon.net##+js(nano-sib, hard_work)
+newscon.net##+js(nosiif, checkads)
+newscon.net##+js(set, clearInterval, noopFunc)
 newscon.net##+js(set, initAds, noopFunc)
 gomovies.lv##+js(ra, href, #clickfakeplayer)
 javside.com##+js(aopr, __Y)
@@ -90621,6 +90628,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||sxfyjygs.com^$all
 ||zenlytrade.com^$all
 ||fragbot.ru^$all
+||rubika.ir^$all,domain=~web.rubika.ir
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -99912,7 +99920,7 @@ dmzj.com##body:style(overflow: auto !important;)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Fri, 14 Oct 2022 16:04:50 GMT
-# entries:        3671
+# entries:        3669
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -100826,6 +100834,7 @@ dmzj.com##body:style(overflow: auto !important;)
 127.0.0.1 adzerk.net
 127.0.0.1 adzerk.s3.amazonaws.com
 127.0.0.1 adzestocp.com
+127.0.0.1 adzones.com
 127.0.0.1 adzrevads.com
 127.0.0.1 aerserv.com
 127.0.0.1 af-ad.co.uk
@@ -101408,7 +101417,6 @@ dmzj.com##body:style(overflow: auto !important;)
 127.0.0.1 counting.kmindex.ru
 127.0.0.1 coupling-media.de
 127.0.0.1 coxmt.com
-127.0.0.1 cp.abbp1.pw
 127.0.0.1 cpalead.com
 127.0.0.1 cpays.com
 127.0.0.1 cpmstar.com
@@ -101528,7 +101536,6 @@ dmzj.com##body:style(overflow: auto !important;)
 127.0.0.1 dogcollarfavourbluff.com
 127.0.0.1 domaining.in
 127.0.0.1 domainsponsor.com
-127.0.0.1 domainsteam.de
 127.0.0.1 domdex.com
 127.0.0.1 dotmetrics.net
 127.0.0.1 doubleclick.com
@@ -102000,7 +102007,6 @@ dmzj.com##body:style(overflow: auto !important;)
 127.0.0.1 is-tracking-pixel-api-prod.appspot.com
 127.0.0.1 itop.cz
 127.0.0.1 its-that-easy.com
-127.0.0.1 iubzka.online
 127.0.0.1 ivwbox.de
 127.0.0.1 ivykiosk.com
 127.0.0.1 iyfnzgb.com
@@ -102114,6 +102120,7 @@ dmzj.com##body:style(overflow: auto !important;)
 127.0.0.1 linkrain.com
 127.0.0.1 linkreferral.com
 127.0.0.1 links-ranking.de
+127.0.0.1 linkshighway.com
 127.0.0.1 linkstorms.com
 127.0.0.1 linkswaper.com
 127.0.0.1 linktarget.com
@@ -102491,7 +102498,6 @@ dmzj.com##body:style(overflow: auto !important;)
 127.0.0.1 padsbrown.com
 127.0.0.1 pagead.l.google.com
 127.0.0.1 pagefair.com
-127.0.0.1 pagefair.net
 127.0.0.1 pagerank-ranking.de
 127.0.0.1 pageranktop.com
 127.0.0.1 paleleaf.com
@@ -103320,7 +103326,6 @@ dmzj.com##body:style(overflow: auto !important;)
 127.0.0.1 tranquilside.com
 127.0.0.1 travis.bosscasinos.com
 127.0.0.1 trck.a8.net
-127.0.0.1 trcked.me
 127.0.0.1 trcklion.com
 127.0.0.1 treasuredata.com
 127.0.0.1 trekdata.com
@@ -103333,6 +103338,7 @@ dmzj.com##body:style(overflow: auto !important;)
 127.0.0.1 trickycelery.com
 127.0.0.1 triplelift.com
 127.0.0.1 triptease.io
+127.0.0.1 trk.bad-tool-tell-doubt.xyz
 127.0.0.1 trk.bc.shutterfly.com
 127.0.0.1 trk.bee-data.com
 127.0.0.1 trk.pinterest.com
