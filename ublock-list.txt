@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: t5ltV+FYHGUehBUfD38A0g
+! Checksum: lTC8b6bp1NOlU/Dn5+2unA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210291005
-! Last Modified: 2022年10月29日 10:05
+! Version: 202210291428
+! Last Modified: 2022年10月29日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -92810,6 +92810,8 @@ dmzj.com##body:style(overflow: auto !important;)
 @@||pnp.co.za/pnpstorefront/_ui/shared/js/analyticsmediator.js$script,1p
 ||cdn.optimizely.com/js/$script,redirect=noopjs,domain=myscore.cibil.com
 ||encar.com/js/*/analytics.js$script,1p,redirect-rule=noop.js
+@@||cdn.logrocket.io/LogRocket.min.js$script,domain=webappui.jobnimbus.com
+@@||cdn.logrocket.io/logger-1.min.js$script,domain=webappui.jobnimbus.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
