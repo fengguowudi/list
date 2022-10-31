@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nduDvyPNv3FEWBEPHRQDUQ
+! Checksum: NCGcwigsh5TUHJJgZ+3RCQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202210310229
-! Last Modified: 2022年10月31日 02:29
+! Version: 202210311027
+! Last Modified: 2022年10月31日 10:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12753,6 +12753,7 @@ _800x80_
 ##.ad_square_r_top
 ##.ad_square_top
 ##.ad_start
+##.ad_static
 ##.ad_station
 ##.ad_story_island
 ##.ad_stream
@@ -21111,7 +21112,6 @@ _800x80_
 ##AD-TRIPLE-BOX
 ##ADS-RIGHT
 ##DFP-AD
-##gpt-ad
 ##[class^="amp-ad-"]
 ##[class^="div-gpt-ad"]
 ##[data-ad-cls]
@@ -21642,6 +21642,7 @@ _800x80_
 ##div[id^="sticky_ad_"]
 ##div[id^="vuukle-ad-"]
 ##div[id^="yandex_ad"]
+##gpt-ad
 ##guj-ad
 ##hl-adsense
 ##iframe[id^="google_ads_frame"]
@@ -49666,6 +49667,7 @@ legacy.com###display-right-inview-1
 legacy.com###display-right-inview-2
 legacy.com###display-top-1
 msn.com###displayAdCard
+realclearpolitics.com###distro_right_rail
 tribunnews.com###div-Inside-MediumRectangle
 adtunes.com###div-atf-336x280
 designtaxi.com###div-center-wrapper
@@ -50263,6 +50265,7 @@ realclearhistory.com###warning_empty_div
 opensubtitles.org###watch_online
 xxxporn.tube###watch_sidevide
 xxxporn.tube###watch_undervideo
+worldcrunch.com###wc_leaderboard
 topfiveforex.com###wcfloatDiv
 santacruzsentinel.com###weeklybar2
 webfail.com###wf-d-300x250
@@ -51205,6 +51208,8 @@ might.net##.fat-container
 smarter.com##.favboxmiddlesearch
 thepointsguy.com##.favorite-cards
 triangletribune.com##.fba_links
+forbes.com##.fbs-ad--ntv-deskchannel-wrapper
+forbes.com##.fbs-ad--ntv-home-wrapper
 whatismyipaddress.com##.fbx-player-wrapper
 filmdaily.co##.fd-article-sidebar-ad
 filmdaily.co##.fd-article-top-banner
@@ -51987,6 +51992,7 @@ appleinsider.com##.push
 the18.com##.push-downv
 2conv.com##.push-offer
 happymod.com##.pvpbar_ad
+onmsft.com##.pw-gtr-box
 bleedingcool.com##.pw-in-article
 thedirect.com##.pw-in-article-container
 giantfreakinrobot.com##.pw-leaderboard-atf-container
@@ -52960,6 +52966,7 @@ domaintyper.com##a[href^="https://www.kqzyfj.com/"]
 wgrr.com##a[href^="https://www.mccabelumber.com/"]
 wbnq.com,wbwn.com,wjbc.com##a[href^="https://www.menards.com/main/home.html"]
 jox2fm.com,joxfm.com##a[href^="https://www.milb.com/"]
+thelibertydaily.com##a[href^="https://www.mypillow.com"]
 who.is##a[href^="https://www.name.com/redirect/"]
 kollelbudget.com##a[href^="https://www.oorahauction.org/"][target="_blank"] > img
 lite105.com##a[href^="https://www.pellabranch.com/"]
@@ -100140,7 +100147,7 @@ dmzj.com##body:style(overflow: auto !important;)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 04 Nov 2002 00:00:00
+# start date:    Tue, 05 Nov 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
