@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Xr2IvLu2JmTfLfO3dqqxKg
+! Checksum: CXrntQipw3dhm4xysKKc5Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211011434
-! Last Modified: 2022年11月01日 14:34
+! Version: 202211012055
+! Last Modified: 2022年11月01日 20:55
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -50814,6 +50814,7 @@ browardpalmbeach.com,dallasobserver.com,houstonpress.com,miaminewtimes.com,phoen
 renonr.com##.below-header-widgets
 gobankingrates.com##.bestbanks-slidein
 aiscore.com##.bet365
+nationalworld.com##.bfQGof
 republicworld.com##.bg-f0f0f0
 amgreatness.com##.bg-gray-200.mx-auto
 wccftech.com##.bg-horizontal
@@ -51193,6 +51194,7 @@ dailycaller.com##.dc-sticky
 ohiostatebuckeyes.com##.dcad
 wuxiaworld.site##.dcads
 theguardian.com##.dcr-1aq0rzi
+fxempire.com##.ddAwpw
 sgcarmart##.dealer_banner
 ign.com##.deals-block
 slashdot.org##.deals-wrapper
@@ -51251,6 +51253,7 @@ nytimes.com##.e1xxpj0j1.css-4vtjtj
 arabtimesonline.com,independent.co.ug,nigerianobservernews.com##.e3lan
 presskitaquat.com##.e3lan-top
 tiresandparts.net##.e3lanat-layout-rotator
+fxempire.com##.eLQRRm
 euractiv.com##.ea-gat-slot-wrapper
 expats.cz##.eas
 itwire.com##.eb-init
@@ -51369,6 +51372,7 @@ freedomfirstnetwork.com##.freed-content_4
 freedomfirstnetwork.com##.freed-content_7
 moviemistakes.com##.freestarad
 sciencenews.org##.from-nature-index__wrapper___2E2Z9
+fxempire.com##.frzZuq
 tripstodiscover.com##.fs-dynamic
 tripstodiscover.com##.fs-dynamic__label
 alphr.com##.fs-pushdown-sticky
@@ -52549,6 +52553,7 @@ spectrum.ieee.org##.top-leader-container
 1071thepeak.com,gpfans.com,thedailystar.net##.top-leaderboard
 webmd.com##.top-picks
 speedtest.net##.top-placeholder
+cryptoslate.com##.top-sticky
 playbuzz.com##.top-stickyplayer-container
 ada.org,globes.co.il,techcentral.ie,texteditor.co,versus.com##.topBanner
 pcworld.com##.topDeals
@@ -52565,7 +52570,7 @@ eurointegration.com.ua##.topban_r
 axisbank.com##.topbandBg_New
 allmonitors24.com,streamable.com##.topbanner
 drugs.com##.topbanner-wrap
-cambridge-news.co.uk##.topbox-cls-placeholder
+cambridge-news.co.uk,glasgowlive.co.uk##.topbox-cls-placeholder
 blabber.buzz##.topfeed
 drivespark.com##.topsection div[style^="float"]
 cambridge.org##.topslot-container
@@ -53110,6 +53115,7 @@ issuu.com##div[class*="adPlacement"]
 issuu.com##div[class*="adSkyscraper"]
 ladbible.com,unilad.co.uk##div[class*="margin-Advert"]
 apkcombo.com##div[class*="revamp-ads"]
+cryptoslate.com##div[class*="sticky-header"]
 informer.com##div[class="a2"]
 walmart.com##div[class="mv3 ml3 mv4-xl mh0-xl"][data-testid="sp-item"]
 arkadium.com##div[class^="Ad-adContainer"]
@@ -61022,6 +61028,7 @@ cgi-bin/counter
 /notifications/beacon/*
 /open.aspx?
 /open.html?$image
+/opens.jscrambler.com/*$image
 /p/rp/*?mi_u=*=&sap_id=$image
 /p1x1.gif
 /page.bsigroup.com/*
@@ -93134,6 +93141,7 @@ dmzj.com##body:style(overflow: auto !important;)
 /1pixel.php$badfilter
 /1pixel.php$domain=~1lib.domains|~singlelogin.app|~z-lib.org
 @@||my.hrw.com/dashboard/js/workbench/utils/analytics.js$script,1p
+@@||google-analytics.com/analytics.js$script,redirect-rule,domain=youtube.videodeck.net
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
