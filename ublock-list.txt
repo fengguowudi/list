@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NULZrhBJGCQZ5scA3McXoA
+! Checksum: Xr2IvLu2JmTfLfO3dqqxKg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211011033
-! Last Modified: 2022年11月01日 10:33
+! Version: 202211011434
+! Last Modified: 2022年11月01日 14:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8468,6 +8468,7 @@ _800x80_
 ###js-image-ad-mpu
 ###js-page-ad-top
 ###js-wide-ad
+###js_commerceInsetModule
 ###jsid-ad-container-post_above_comment
 ###jsid-ad-container-post_below_comment
 ###large-ads
@@ -93132,6 +93133,7 @@ dmzj.com##body:style(overflow: auto !important;)
 @@||cdn.logrocket.io/logger-1.min.js$script,domain=webappui.jobnimbus.com
 /1pixel.php$badfilter
 /1pixel.php$domain=~1lib.domains|~singlelogin.app|~z-lib.org
+@@||my.hrw.com/dashboard/js/workbench/utils/analytics.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
