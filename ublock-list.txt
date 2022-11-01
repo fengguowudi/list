@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CXrntQipw3dhm4xysKKc5Q
+! Checksum: gR+6qGvGuCpYOdraktj2KA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211012055
-! Last Modified: 2022年11月01日 20:55
+! Version: 202211020231
+! Last Modified: 2022年11月02日 02:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -87672,6 +87672,7 @@ dubzstreams.com###id-custom_banner
 bleepingcomputer.com###bc-home-news-main-wrap > li a[href$="/deals/"]:upward(li)
 @@||getpaidstock.com^$ghide
 getpaidstock.com##.adsbygoogle
+||antiblock.b-cdn.net/banner_ad.png$image,redirect-rule=1x1.gif,domain=getpaidstock.com
 *$frame,redirect-rule=noopframe,domain=getpaidstock.com
 myabandonware.com##+js(set, canRunAds, true)
 myabandonware.com##.items > .item[id]:not(.itemListGame)
@@ -88755,7 +88756,7 @@ stiflersmoms.com##.line3
 wallpapers.ispazio.net##.box-apples_single_reclame
 ispazio.net##.stream-item
 ispazio.net##.stream-item-widget
-shineads.in##+js(acs, eval, replace, /^data:/)
+shineads.in##+js(nostif, ai_adb)
 /nb/f_ls.js
 ||bluffyporn.com^$3p
 ||quinporn.com^$3p
@@ -93142,6 +93143,9 @@ dmzj.com##body:style(overflow: auto !important;)
 /1pixel.php$domain=~1lib.domains|~singlelogin.app|~z-lib.org
 @@||my.hrw.com/dashboard/js/workbench/utils/analytics.js$script,1p
 @@||google-analytics.com/analytics.js$script,redirect-rule,domain=youtube.videodeck.net
+@@||pearson.com/osbrowserchecker/prd/thirdPartyCookie.html$frame,1p
+port.hu#@##qc-cmp2-container
+port.hu#@#.qc-cmp2-container
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
