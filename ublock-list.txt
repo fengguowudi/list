@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gR+6qGvGuCpYOdraktj2KA
+! Checksum: HJslvEBDAw7zfoyf76GHcw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211020231
-! Last Modified: 2022年11月02日 02:31
+! Version: 202211021023
+! Last Modified: 2022年11月02日 10:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -11927,6 +11927,7 @@ _800x80_
 ##.ad728x90-2
 ##.ad728x90box
 ##.ad728x90btf
+##.ad970_250
 ##.adActive
 ##.adAlert
 ##.adArea
@@ -42503,6 +42504,7 @@ tf2r.com#@#.adverts
 ||adserve.com^$third-party
 ||adservingfactory.com^$third-party
 ||adservme.com^$third-party
+||adsexse.com^$third-party
 ||adsfast.com^$third-party
 ||adsforallmedia.com^$third-party
 ||adshot.de^$third-party
@@ -49084,6 +49086,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockeronstape.me
 ||biqle.org/swp.js
 ||bit.ly^$script,domain=hayjav.com
 ||blasensex.com/extras/
+||bodsforthemods.com/srennab/
 ||boysfood.com/d5.html
 ||bravoteens.com/ta/
 ||bravotube.net/cc/
@@ -49405,6 +49408,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockeronstape.me
 ||wcareviews.com/bh/
 ||wcareviews.com/bv/
 ||wetpussygames.com/t78d42b806a3.js
+||wwwxxx.uno/pop-code.js
 ||x.vipergirls.to^
 ||x0r.urlgalleries.net^
 ||xbooru.com/script/application.js
@@ -50550,6 +50554,8 @@ wordfind.com##.adbl
 dataversity.net,sakshi.com,songlyrics.com,yallamotor.com##.adblock
 entrepreneur.com,interglot.com,pricespy.co.nz##.adbox
 moviechat.org##.adc
+boards.4channel.org##.adc-resp
+boards.4channel.org##.adc-resp-bg
 ancient.eu,fanatix.com,gamertweak.com,gematsu.com,tucsonsentinel.com,worldhistory.org##.adcontainer
 sumanasa.com##.adcontent
 edutourism.in,news24online.com,online-image-editor.com,thehindu.com##.add
@@ -50879,6 +50885,7 @@ weather-forecast.com##.bn-placeholder
 gearspace.com##.bnb--inline
 bnonews.com##.bnone-widget
 mediamanager.co.za##.bnr
+windowsreport.com##.bnr-block
 thecompleteuniversityguide.co.uk##.bnr_out
 armenpress.am##.bnrcontainer
 southerntimesafrica.com##.body-header-banner
@@ -51238,6 +51245,7 @@ techspot.com##.downText
 capitalfm.com,radiox.co.uk,smoothradio.com##.download
 thepiratebay3.to##.download_buutoon
 thesun.co.uk##.dpa-slot
+cryptonews.com##.dslot
 kickasstorrents.to##.dssdffds
 designtaxi.com##.dt_rcjs
 digitaltrends.com##.dtads-slot
@@ -52185,6 +52193,7 @@ songlyrics.com##.ringtone-matcher
 rocket-league.com##.rlg-footer-ads-container
 rocket-league.com##.rlg-trading-ad
 rocket-league.com##.rlg-trading-spacer
+windowsreport.com##.rm-card-program
 indiatimes.com##.rmfp
 rebelnews.com##.rn-article-ad
 rebelnews.com##.rn-sidebar-ad
@@ -67108,6 +67117,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.s.llnwi.net^
 ||beacon.searchspring.io^
 ||beacon.securestudies.com^
+||beacon.sftoaa.com^
 ||beacon.sojern.com^
 ||beacon.squixa.net^
 ||beacon.statful.com^
@@ -67512,6 +67522,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||epl.paypal-communication.com^$script
 ||epromote.co.za/track/
 ||eq.userneeds.com^
+||equalweb.com/statistics.taf
 ||erne.co/tags?
 ||errors.snackly.co^
 ||etahub.com^*/track?site_id
@@ -70581,6 +70592,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gamivo.com/tcllc?
 ||gc.newsweek.com/front/js/counter.js
 ||gekko.spiceworks.com^
+||geo.brobible.com^
 ||geo.gfycat.com^
 ||geo.nbcsports.com^
 ||geo.yahoo.com^
@@ -84064,6 +84076,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||liberation.fr/newsite/js/cmp/
 ||logstash-3.radio-canada.ca^
 ||ma-petite-recette.fr/visites
+||medoucine.com/tracking/
 ||neko-san.fr/stats
 ||ouedkniss.com/spf/page-view
 ||ouedkniss.com/static/alexa.js
@@ -85001,6 +85014,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com|ubisoftconnect.com
 @@||akamaized.net^*/resource/assets/$xmlhttprequest,domain=funplusgame.com
 @@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
+@@||amagi.tv/beacon?$xmlhttprequest
 @@||amazonaws.com/production$xmlhttprequest,domain=ipa-reader.xyz
 @@||amplitude.com/libs/amplitude-4.5.2-min.gz.js$script,domain=pdfexpert.com
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
@@ -93146,6 +93160,8 @@ dmzj.com##body:style(overflow: auto !important;)
 @@||pearson.com/osbrowserchecker/prd/thirdPartyCookie.html$frame,1p
 port.hu#@##qc-cmp2-container
 port.hu#@#.qc-cmp2-container
+@@||xweb.instagram.com/ads/preferences/ad_topics/$frame,1p
+mail.google.com#@#div[aria-label="Ads"]
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -100268,7 +100284,7 @@ port.hu#@#.qc-cmp2-container
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 06 Nov 2002 00:00:00
+# start date:    Thu, 07 Nov 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
