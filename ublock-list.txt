@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sK8rFC5WvhjVOJCGPvUe3g
+! Checksum: OfmtfTyJHTgR/0uT8Fa8bg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211031429
-! Last Modified: 2022年11月03日 14:29
+! Version: 202211032048
+! Last Modified: 2022年11月03日 20:48
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20456,6 +20456,7 @@ _800x80_
 ##.tf_page_ad_search
 ##.tgads-box
 ##.th-ad
+##.thb_ad_before_header
 ##.thb_ad_header
 ##.theAdvert
 ##.theads
@@ -55140,7 +55141,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ads.pubmatic.com/AdServer/js/pwtSync/$subdocument,domain=independent.co.uk|independentespanol.com
 @@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
 @@||ads.rubiconproject.com/prebid/$script,domain=everydayhealth.com
-@@||ads.viralize.tv/player/$third-party,xmlhttprequest,domain=quotidiano.net
 @@||ads1.atpclick.com/atpClick.aspx?$image,script,domain=jobnet.co.il|jobs-israel.com
 @@||adsafeprotected.com/iasPET.$script,domain=reuters.com
 @@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com
@@ -93210,6 +93210,7 @@ adyou.me#@#+js(no-setInterval-if, (), 500)
 @@||ssl.p.jwpcdn.com/player/plugins/googima/$script,domain=weather.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect-rule=noopjs,domain=weather.com
 @@||jssdkcdns.mparticle.com/js/*/mparticle.js$script,domain=weather.com
+@@||micro.rubiconproject.com/prebid/dynamic/$script,domain=weather.com
 coolmathgames.com##+js(set, network_user_id, '')
 @@||b-cdn.net^*-adap.jpg$image,domain=techxplore.com
 @@||prtawe.com/embed/tbplyr/?$script,domain=camsexbabe.nl
