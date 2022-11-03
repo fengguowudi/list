@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OfmtfTyJHTgR/0uT8Fa8bg
+! Checksum: o1jIBRiawRqydCTP9gOFjw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211032048
-! Last Modified: 2022年11月03日 20:48
+! Version: 202211040233
+! Last Modified: 2022年11月04日 02:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -93674,6 +93674,11 @@ port.hu#@#.qc-cmp2-container
 @@||xweb.instagram.com/ads/preferences/ad_topics/$frame,1p
 mail.google.com#@#div[aria-label="Ads"]
 @@||c950.chronicle.com/script.js$script,1p
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=gala.fr
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=gala.fr
+@@||tra.scds.pmdstatic.net/$xhr,domain=gala.fr
+gala.fr#@#[data-ads-core]
+gala.fr##+js(no-xhr-if, doubleclick)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
