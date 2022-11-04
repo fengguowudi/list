@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MG3+fKb86u35JRbT5E5UqQ
+! Checksum: EkSZyd4GyL5zQGNeeYh35w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211042047
-! Last Modified: 2022年11月04日 20:47
+! Version: 202211050228
+! Last Modified: 2022年11月05日 02:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -89159,6 +89159,15 @@ fapnado.*##[class^="zpot"]
 ||oi.fapnado.xxx^
 ||io.fapnado.com^
 pogolinks.*##+js(nostif, showModal)
+pogolinks.*##+js(acs, setTimeout, admc)
+||cdn.applixir.com^$script,3p
+||check-update-today.me^doc
+||fbmedia-ckl.com^
+||hamply.com^
+||tech4town.com^$3p
+||track-ufocleaner.top^
+||yellow-record.pro^
+||37.1.213.100^
 independent.co.uk##.jnzTeZ.sc-qYGWS.bSwWwA.sc-qQKeD:style(max-height:0px !important)
 ilifehacks.com##+js(aost, String.prototype.charCodeAt, ai_)
 pclicious.net##+js(acis, quadsOptions)
