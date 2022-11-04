@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0QXv3OafIdWpO/fgeFzYbQ
+! Checksum: MG3+fKb86u35JRbT5E5UqQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211041431
-! Last Modified: 2022年11月04日 14:31
+! Version: 202211042047
+! Last Modified: 2022年11月04日 20:47
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -93742,8 +93742,6 @@ dmzj.com##body:style(overflow: auto !important;)
 @@||my.hrw.com/dashboard/js/workbench/utils/analytics.js$script,1p
 @@||google-analytics.com/analytics.js$script,redirect-rule,domain=youtube.videodeck.net
 @@||pearson.com/osbrowserchecker/prd/thirdPartyCookie.html$frame,1p
-port.hu#@##qc-cmp2-container
-port.hu#@#.qc-cmp2-container
 @@||xweb.instagram.com/ads/preferences/ad_topics/$frame,1p
 mail.google.com#@#div[aria-label="Ads"]
 @@||c950.chronicle.com/script.js$script,1p
@@ -93758,6 +93756,7 @@ gala.fr##+js(no-xhr-if, doubleclick)
 @@||cmp.lemonde.fr/js/lemonde.min.js$script,1p
 @@||cmp.lemonde.fr/html/lemonde/wall-tunnel-abo-essential.html?css=/css/lemonde/wall.min.css$xhr,1p
 @@||cmp.lemonde.fr/api/consent$xhr,1p
+@@||taximail.com/js/analytics.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -100872,7 +100871,7 @@ gala.fr##+js(no-xhr-if, doubleclick)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Fri, 14 Oct 2022 16:04:50 GMT
-# entries:        3669
+# entries:        3667
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -103705,7 +103704,6 @@ gala.fr##+js(no-xhr-if, doubleclick)
 127.0.0.1 referralware.com
 127.0.0.1 referrer.disqus.com
 127.0.0.1 reflectivereward.com
-127.0.0.1 reforge.in
 127.0.0.1 regnow.com
 127.0.0.1 regularplants.com
 127.0.0.1 reklam.rfsl.se
@@ -104179,7 +104177,6 @@ gala.fr##+js(no-xhr-if, doubleclick)
 127.0.0.1 toplist.pornhost.com
 127.0.0.1 toplista.mw.hu
 127.0.0.1 toplistcity.com
-127.0.0.1 topping.com.ua
 127.0.0.1 toprebates.com
 127.0.0.1 topsir.com
 127.0.0.1 topsite.lv
