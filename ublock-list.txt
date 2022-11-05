@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 15S7UzaTJcoJJl0/8UgcgA
+! Checksum: i+xMYrWlUwhW97DzD5D1ww
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211052038
-! Last Modified: 2022年11月05日 20:38
+! Version: 202211060225
+! Last Modified: 2022年11月06日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21595,6 +21595,7 @@ _800x80_
 ##bottomadblock
 ##display-ads
 ##div[aria-label="Ads"]
+##div[class^="Adstyled__AdWrapper-"]
 ##div[class^="Display_displayAd"]
 ##div[class^="kiwi-ad-wrapper"]
 ##div[class^="native-ad-"]
@@ -87920,7 +87921,6 @@ sbplay.*##^script:has-text(debugger)
 ||eisasbeau.buzz^
 ||incasapritif.tech^
 ||obstanceder.pro^
-||riolenproce.xyz^
 ||linkspoint.xyz/sw.js$script,1p
 ||weakermumrespect.com^
 blisseyhusband.in##+js(acis, eval, replace)
@@ -88639,11 +88639,8 @@ pogolinks.*##+js(nostif, showModal)
 pogolinks.*##+js(acs, setTimeout, admc)
 ||cdn.applixir.com^$script,3p
 ||check-update-today.me^doc
-||fbmedia-ckl.com^
-||hamply.com^
 ||tech4town.com^$3p
 ||track-ufocleaner.top^
-||yellow-record.pro^
 ||37.1.213.100^
 independent.co.uk##.jnzTeZ.sc-qYGWS.bSwWwA.sc-qQKeD:style(max-height:0px !important)
 ilifehacks.com##+js(aost, String.prototype.charCodeAt, ai_)
@@ -89409,7 +89406,6 @@ tinyurl.is##.navbar-brand
 tinyurl.is##+js(acis, JSON, interactive)
 tinyurl.is##+js(no-fetch-if, xhr0)
 tinyurl.is##div[style="border-radius: 20px;padding: 25px;font-weight: bold;background-color: #452d38;color: #ffffff;"]
-||wrigin.com^
 thienhatruyen.com##+js(nowoif)
 sexphimhd.net##+js(aopr, decodeURI)
 sexphimhd.net##div.row.body:nth-of-type(1):style(padding:0px !important)
@@ -92728,15 +92724,6 @@ demae-can.com##+js(ra, data-trm-action|data-trm-category|data-trm-label, .trm_ev
 @@||cloudfront.net/ad-navi/$css,image,domain=kinro.ntv.co.jp
 @@||minnanokaigo.com/img/page/ad-navi/parts/$image,1p
 @@||googletagmanager.com/gtm.js$script,domain=girlsnews.tv
-*$script,redirect-rule=noop.js,domain=soranews24.com
-@@||googletagmanager.com/gtm.js$script,redirect-rule,domain=soranews24.com
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=soranews24.com
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl*$script,domain=soranews24.com
-@@||securepubads.g.doubleclick.net/gampad/ads$xhr,domain=soranews24.com
-@@||fundingchoicesmessages.google.com/i/pub-*$script,domain=soranews24.com
-@@||fundingchoicesmessages.google.com/f/$script,domain=soranews24.com
-soranews24.com#@#.ad
-soranews24.com##.ads-relatedbottom
 @@||googletagmanager.com/gtm.js$script,redirect-rule,domain=lingvolive.com
 @@||boots.*/wcsstore/eBootsStorefrontAssetStore/javascript/Analytics.js$xhr,1p
 @@||google-analytics.com/analytics.js$script,redirect-rule=google-analytics.com/analytics.js,domain=ultimateclassicrock.com
