@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dWG709ZPhOCFQ76zAYCBBw
+! Checksum: Qhk9sb6OaYJ9jCTq+xFYPA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211062039
-! Last Modified: 2022年11月06日 20:39
+! Version: 202211070226
+! Last Modified: 2022年11月07日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -31646,8 +31646,8 @@ tf2r.com#@#.adverts
 ||hecticpassenger.com^
 ||hecticprofitable.com^
 ||hedgehoghugsyou.com^
-||hedmisrepu.com^
 ||hedmisrepu.co^
+||hedmisrepu.com^
 ||hedrvszms.com^
 ||heebauch.com^
 ||heedenglish.com^
@@ -31873,8 +31873,8 @@ tf2r.com#@#.adverts
 ||holiestcoseys.com^
 ||holitt.com^
 ||hollekeamboina.com^
-||hollercatastrophe.com^
 ||hollercatastrophe.co^
+||hollercatastrophe.com^
 ||hollerscanelos.com^
 ||holptimawa.com^
 ||holydelicatessen.com^
@@ -36496,8 +36496,8 @@ tf2r.com#@#.adverts
 ||paiwhisep.com^
 ||paiwhoki.com^
 ||pajikrqhbqth.xyz^
-||palama2.com^
 ||palama2.co^
+||palama2.com^
 ||palasidesdoor.com^
 ||paletteadulatory.com^
 ||palibs.tech^
@@ -40381,8 +40381,8 @@ tf2r.com#@#.adverts
 ||surv2you.net^
 ||surv2you.org^
 ||surveillancelandmorgue.com^
-||survey2you.com^
 ||survey2you.co^
+||survey2you.com^
 ||survey2you.net^
 ||survey2you.org^
 ||survey4you.co^
@@ -44624,6 +44624,7 @@ tf2r.com#@#.adverts
 ||googletrackmanager.com^$third-party
 ||goraps.com^$third-party
 ||gourmetads.com^$third-party
+||goutee.top^$third-party
 ||goverua.com^$third-party
 ||goviral-content.com^$third-party
 ||gpsecureads.com^$third-party
@@ -67723,7 +67724,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||galaxiemedia.fr^$third-party
 ||geocompteur.com^$third-party
 ||geovisite.ovh^$third-party
-||goutee.top^$third-party
 ||graphinsider.com^$third-party
 ||hunkal.com^$third-party
 ||ivitrack.com^$third-party
@@ -92427,6 +92427,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ^cep=*&lptoken=
 ||privatespace.click^$all
 ||ww-softs.com^$all
+||updatemobilee.com^$all
 ||tekhacks.net^$all
 ||freedownloadfiles.org^$all
 ||tw-goldenwinner-57.com^$doc
@@ -94716,6 +94717,8 @@ gala.fr##+js(no-xhr-if, doubleclick)
 @@||cmp.lemonde.fr/api/consent$xhr,1p
 lemonde.fr#@#.gdpr-lmd-wall
 @@||taximail.com/js/analytics.js$script,1p
+@@||assets.adobedtm.com/*.js$script,domain=accounts.o2.co.uk
+||assets.adobedtm.com/*source.min.js$script,domain=accounts.o2.co.uk,important
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
