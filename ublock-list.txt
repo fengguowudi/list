@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0LwcufWNnoxSjG+bi3/YXw
+! Checksum: 3fhAqLAWmEAC+W+/R0eoqg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211061007
-! Last Modified: 2022年11月06日 10:07
+! Version: 202211061426
+! Last Modified: 2022年11月06日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21998,6 +21998,7 @@ livedoorblogstyle.jp#@#.ad-center
 pokeminers.com#@#.ad-container
 backcar.fr,flat-ads.com,job.inshokuten.com#@#.ad-content
 dbook.docomo.ne.jp,dmagazine.docomo.ne.jp#@#.ad-cover
+nolotiro.org#@#.ad-hero
 transparencyreport.google.com#@#.ad-icon
 flat-ads.com,lastpass.com#@#.ad-img
 dbook.docomo.ne.jp,docomo.ne.jp#@#.ad-label
@@ -89594,6 +89595,8 @@ thecustomrom.com##+js(acis, decodeURIComponent, ai_)
 111.90.159.132##.mfp-ready
 ||111.90.159.132/*.gif$image
 phsensei.com##+js(acis, String.fromCharCode, decodeURIComponent)
+homeairquality.org,techtrim.tech##+js(no-fetch-if, googlesyndication)
+homeairquality.org,techtrim.tech##+js(no-xhr-if, googlesyndication)
 techsolveprac.com##+js(nostif, display, 5000)
 fileborder.com##+js(acis, String.fromCharCode, decodeURIComponent)
 insider.com##.in-post-sticky > .ad-wrapper:upward(1)
