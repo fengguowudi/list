@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MR71YNOjX+DrmFlOoVzIxg
+! Checksum: DFUYVXnhbeiBPdO2Oa5OmA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211072050
-! Last Modified: 2022年11月07日 20:50
+! Version: 202211080227
+! Last Modified: 2022年11月08日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8778,6 +8778,7 @@ _800x80_
 ###navigation-ad
 ###navlinkad
 ###nbcShowcaseAds
+###networkads
 ###newAd
 ###newPostProfileAd
 ###newPostProfileVerticalAd
@@ -16607,6 +16608,7 @@ _800x80_
 ##.fixedLeftAd
 ##.fixedRightAd
 ##.fixed_ad
+##.fixed_adslot
 ##.fixed_advert_banner
 ##.fjs-ad-hide-empty
 ##.flashAd
@@ -94716,6 +94718,8 @@ mail.google.com#@#div[aria-label="Ads"]
 @@||tra.scds.pmdstatic.net/$xhr,domain=gala.fr
 gala.fr#@#[data-ads-core]
 gala.fr##+js(no-xhr-if, doubleclick)
+@@||tra.scds.pmdstatic.net/sourcepoint/$script,domain=programme-tv.net
+@@||securepubads.g.doubleclick.net/gampad/ads$xhr,domain=programme-tv.net
 @@||cmp.huffingtonpost.fr/js/huffpost.min.js$script,1p
 @@||cmp.huffingtonpost.fr/html/huffpost/wall-large.html?css=/css/huffpost/wall-large.min.css$xhr,1p
 @@||cmp.huffingtonpost.fr/api/consent$xhr,1p
