@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qhk9sb6OaYJ9jCTq+xFYPA
+! Checksum: 4CrwlcDkUr86drCQhMhMpw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211070226
-! Last Modified: 2022年11月07日 02:26
+! Version: 202211071000
+! Last Modified: 2022年11月07日 10:00
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15538,6 +15538,7 @@ _800x80_
 ##.bn_textads
 ##.bnr-adbutler
 ##.bnr_ad
+##.board-layout-ad
 ##.body-ad
 ##.body-ads
 ##.body-adzone
@@ -52142,7 +52143,7 @@ androidauthority.com,imgmak.com,infobel.com,linkedin.com##.ad-banner
 aminoapps.com,crash.net,home-designing.com,inc.com,trustpilot.com##.ad-block
 sciencenews.org##.ad-block-leaderboard__freestar___Ologr
 sciencenewsforstudents.org##.ad-block-leaderboard__wrapper___1rR0c
-9to5google.com,9to5mac.com,audiokarma.org,beeradvocate.com,beliefnet.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,computerworld.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,etcanada.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,gmanetwork.com,grammarbook.com,hbr.org,insidehook.com,intouchweekly.com,khou.com,ktvu.com,lifeandstylemag.com,macstories.net,memuplay.com,metro.us,miningweekly.com,mobilesyrup.com,modernhealthcare.com,my9nj.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,physiology.org,pixiv.net,politico.com,punchng.com,realsport101.com,reason.com,refinery29.com,scroll.in,seattletimes.com,slideshare.net,sportskeeda.com,theglobeandmail.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,toofab.com,usmagazine.com,wogx.com##.ad-container
+9to5google.com,9to5mac.com,audiokarma.org,beeradvocate.com,beliefnet.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,computerworld.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,etcanada.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,gmanetwork.com,grammarbook.com,hbr.org,insidehook.com,intouchweekly.com,khou.com,ktvu.com,lifeandstylemag.com,macstories.net,mail.com,memuplay.com,metro.us,miningweekly.com,mobilesyrup.com,modernhealthcare.com,my9nj.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,physiology.org,pixiv.net,politico.com,punchng.com,realsport101.com,reason.com,refinery29.com,scroll.in,seattletimes.com,slideshare.net,sportskeeda.com,theglobeandmail.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,toofab.com,usmagazine.com,wogx.com##.ad-container
 sciencealert.com##.ad-desktop\:block
 mobilesyrup.com##.ad-goes-here
 dailyuptea.com##.ad-info
@@ -54730,6 +54731,7 @@ nexusradio.com##div[align=center]
 independent.co.uk##div[class*="Ad__Wrapper-"]
 sportbible.com##div[class*="Advert"]
 theatlantic.com##div[class*="Leaderboard_placeholder_"]
+thingiverse.com##div[class*="SearchResult__adBanner"]
 independent.co.uk##div[class*="TopBanner_"]
 wsj.com##div[class*="WSJTheme--adWrapper"]
 pcgamer.com,techcrunch.com,tomsguide.com,tomshardware.com##div[class*="ad-unit"]
@@ -62961,6 +62963,7 @@ _mongo_stats/
 ||emycewiw.xyz^
 ||enthusiastgaming.net^
 ||eqy.link^
+||etop.ro^
 ||everesttech.net^
 ||experianmatch.info^
 ||ezodn.com^
@@ -63023,6 +63026,7 @@ _mongo_stats/
 ||impactradius-event.com^
 ||imrworldwide.com^
 ||imzahrwl.xyz^
+||ineed2s.ro^
 ||innerskinresearch.com^
 ||insigit.com^
 ||instantfox.co^
@@ -90258,6 +90262,7 @@ quizlet.com##.StickyAdz
 quizlet.com##+js(rc, has-sidebar-adz|DashboardPage-inner, div[class^="DashboardPage-inner"], stay)
 quizlet.com##+js(rc, hasStickyAd, div.hasStickyAd[class^="SetPage"], stay)
 quizlet.com##+js(rc, has-adz, div.has-adz, stay)
+quizlet.com##+js(nano-stb)
 vivo.st##+js(aeld, , preventDefault)
 vivo.st##+js(aeld, click, tabunder)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=vivo.st
@@ -101832,8 +101837,8 @@ lemonde.fr#@#.gdpr-lmd-wall
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 14 Oct 2022 16:04:50 GMT
-# entries:        3667
+# last updated:   Sun, 06 Nov 2022 21:41:50 GMT
+# entries:        3668
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -101841,7 +101846,7 @@ lemonde.fr#@#.gdpr-lmd-wall
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 11 Nov 2002 00:00:00
+# start date:    Tue, 12 Nov 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -105047,6 +105052,7 @@ lemonde.fr#@#.gdpr-lmd-wall
 127.0.0.1 tamgrt.com
 127.0.0.1 tangerinenet.biz
 127.0.0.1 tangibleteam.com
+127.0.0.1 tangyamount.com
 127.0.0.1 tapad.com
 127.0.0.1 tapfiliate.com
 127.0.0.1 tapinfluence.com
