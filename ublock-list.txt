@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: edpL1QHpui4qfnc43md13g
+! Checksum: lt6x0kRtZXKLDB91JpMrDQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211082050
-! Last Modified: 2022年11月08日 20:50
+! Version: 202211090233
+! Last Modified: 2022年11月09日 02:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52990,6 +52990,7 @@ dg-premium.com##.footer__partner-logo
 businessnow.mt,igamingcapital.mt,maltaceos.mt,whoswho.mt##.footer__second
 pbs.org##.footer__sub
 satbeams.com##.footer_banner
+realmadrid.com##.footer_rm_sponsors_container
 tiresandparts.net##.footer_top_banner
 eurocupbasketball.com,euroleague.net##.footersponsors-container
 nintendolife.com,purexbox.com,pushsquare.com##.for-desktop
@@ -53105,6 +53106,7 @@ trendhunter.com##.hcamp
 webtoolhub.com##.hdShade > div
 biztechmagazine.com##.hdr-btm
 plos.org##.head-top
+realmadrid.com##.head_sponsors
 worldpress.org##.header-b
 adswikia.com,freemalaysiatoday.com,landandfarm.com,pointblanknews.com,runt-of-the-web.com,warisboring.com##.header-banner
 mercurynews.com,nssmag.com##.header-banners
@@ -55270,6 +55272,7 @@ msn.com##.dynamicRRWrapper
 msn.com##.galleryPage_eoabNativeAd-DS-EntryPoint1-1
 msn.com##.intra-article-ad
 msn.com##.medianetintraarticlenativead
+msn.com##.msft-content-native-ad-preview-wrapper
 msn.com##.nativeadserversidecontentmodule
 msn.com##.sameoab_ad_container
 msn.com##.serversidenativead.secondary
@@ -56399,7 +56402,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
 @@||image.shutterstock.com^$image,domain=icons8.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|rte.ie|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|watch.nba.com|worldsurfleague.com|wsj.com|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|realmadrid.com|rte.ie|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|watch.nba.com|worldsurfleague.com|wsj.com|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|embed.comicbook.com|sbs.com.au|worldsurfleague.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|insideedition.com|pch.com
 @@||img-cdn.mediaplex.com^$image,domain=betfair.com
@@ -91437,10 +91440,6 @@ mangastream.mobi###myModal
 xnxx.com,xvideos.*###ad-footer
 retrostic.com,sickchirpse.com###ad-header
 chortle.co.uk,coloring.ws,dltk-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com,primeraescuela.com###adBanner
-#@##ad-banner
-~androidauthority.com,~soundguys.com#@#.ad-banner
-###ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"]):not([style*="width: 1px;"])
-~ananweb.jp##.ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"]):not(.blocker-tester + .ad-banner):not(:empty)
 #@#.adsBox
 ##.adsBox:not([style$="-99999px;"])
 #@#.ad-placement
