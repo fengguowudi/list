@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tBTIJMVmQkkOtXrD5RCx9Q
+! Checksum: +K3XTXK/yXysx51c0dCsXA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211092051
-! Last Modified: 2022年11月09日 20:51
+! Version: 202211100227
+! Last Modified: 2022年11月10日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16605,6 +16605,8 @@ _800x80_
 ##.first_party_ad_wrapper
 ##.first_post_ad
 ##.firstad
+##.firstpost_advert
+##.firstpost_advert_container
 ##.fix_ad
 ##.fixadheight
 ##.fixed-ad-aside
@@ -19232,6 +19234,7 @@ _800x80_
 ##.region-interstitial-ads
 ##.region-middle-ad
 ##.region-top-ad
+##.region-top-ad-block
 ##.region-top-advertisement
 ##.region-widget-ad-top-0
 ##.regular-ads
@@ -26500,6 +26503,7 @@ tf2r.com#@#.adverts
 ||brighteroption.com^
 ||brightonclick.com^
 ||brightshare.com^
+||brigi-jar.com^
 ||brillspedlars.com^
 ||briolenproc.pics^
 ||brioletredeyes.com^
@@ -92736,7 +92740,7 @@ reddit.com##+js(set, Object.prototype.allowClickTracking, false)
 /?h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,1p
 /?v=eyJoIjoiaHR0cHM6Ly9$image,1p
 /?v=eyI*sImgiOiJodHRwczovL$image,1p
-/^https?:\/\/[-.0-9a-z]+\.(?:com|de)\/script\.js$/$script,1p,strict3p,match-case,domain=com|de
+/^https?:\/\/[-.0-9a-z]+\.[a-z]{2,6}\/script\.js$/$script,1p,strict3p,match-case
 webtoons.com##+js(set, ccsrv, '')
 webtoons.com##+js(set, lcs_SerName, '')
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js$script,redirect=noop.js,domain=bilibili.com,important
