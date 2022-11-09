@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0303g7Lokw/JF1NxT8LTIw
+! Checksum: tBTIJMVmQkkOtXrD5RCx9Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211091434
-! Last Modified: 2022年11月09日 14:34
+! Version: 202211092051
+! Last Modified: 2022年11月09日 20:51
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2933,6 +2933,7 @@
 /leftad.
 /leftad_
 /leftads.
+/legion-advertising-atlasastro/*
 /lg.php?adid=
 /lib/ad.js
 /lijit-ad-
@@ -21524,6 +21525,7 @@ _800x80_
 ##a[href^="https://topoffers.com/"][href*="/?pid="]
 ##a[href^="https://torrentsafeguard.com/?aid="]
 ##a[href^="https://tour.mrskin.com/"]
+##a[href^="https://track.adform.net/"]
 ##a[href^="https://track.afcpatrk.com/"]
 ##a[href^="https://track.afftck.com/"]
 ##a[href^="https://track.bruceads.com/"]
@@ -51694,6 +51696,7 @@ techraptor.net,unite-db.com###nn_lb1
 techraptor.net,unite-db.com###nn_lb2
 techraptor.net###nn_lb3
 techraptor.net###nn_lb4
+tftactics.gg###nn_player
 boxingstreams.cc,crackstreams.gg,cricketstreams.cc,footybite.cc,formula1stream.cc,mlbshow.com,nbabite.com###nordd
 forums.somethingawful.com###notregistered
 freeaddresscheck.com,freecallerlookup.com,freecarrierlookup.com,freeemailvalidator.com,freegenderlookup.com,freeiplookup.com,freephonevalidator.com###offers
@@ -54396,6 +54399,7 @@ theregister.com##.wptl
 windowsreport.com##.wr-marketing-cta-alt
 memeburn.com,ventureburn.com##.wrapper--grey
 paultan.org##.wrapper-footer
+tftactics.gg##.wrapper-lb1
 webtoolhub.com##.wth_zad_text
 mcpmag.com##.xContent
 drivehub.in,indidrive.in,metamoviez.xyz##.xc449bad4854773ff
