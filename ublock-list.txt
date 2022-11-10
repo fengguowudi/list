@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +K3XTXK/yXysx51c0dCsXA
+! Checksum: mhfQj702JKwcE1I9yPLyiQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211100227
-! Last Modified: 2022年11月10日 02:27
+! Version: 202211101004
+! Last Modified: 2022年11月10日 10:04
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -5030,6 +5030,7 @@ _800x80_
 ###AdServer_Banner_8
 ###AdServer_Banner_9
 ###AdSkyscraper
+###AdSlot_megabanner
 ###AdSpaceLeaderboard
 ###AdTop
 ###AdTopLeader
@@ -16354,6 +16355,7 @@ _800x80_
 ##.dfp-block
 ##.dfp-bottom
 ##.dfp-button
+##.dfp-close-ad
 ##.dfp-double-mpu
 ##.dfp-dynamic-tag
 ##.dfp-fixedbar
@@ -43218,6 +43220,7 @@ tf2r.com#@#.adverts
 ||xmsflzmygw.com^
 ||xmvusqpp.com^
 ||xmykvlmvbghko.com^
+||xn--r1a.website^
 ||xndcnnkygvd.com^
 ||xnnfchykwvgjmoh.com^
 ||xoalt.com^
@@ -53633,6 +53636,7 @@ nhentai.com##.pb-0.w-100[style]
 wweek.com##.pb-f-phanzu-phanzu-ad-code
 washingtonpost.com##.pb-lgmod
 playbuzz.com##.pb-site-player
+washingtonpost.com##.pb-sm.pt-sm.b
 caixinglobal.com##.pc-ad-left01
 thegatewaypundit.com,westernjournal.com,wnd.com##.persistent-footer
 apkmb.com##.personalizadas
@@ -54477,7 +54481,7 @@ complaintsingapore.com##[href*="/adv.php"]
 libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com##[href*="://go.nordvpn.net/"]
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
 9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,biblestudytools.com,carmag.co.za,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,forum.ragezone.com,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,katfile.com,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,newsfirst.lk,nexter.org,owaahh.com,parkablogs.com,pastemytxt.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,thinknews.com.ng,timesuganda.com,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,wccftech.com,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
-beforeitsnews.com,bigleaguepolitics.com,in5d.com,thetruedefender.com##[href*="hop.clickbank.net"]
+beforeitsnews.com,bigleaguepolitics.com,in5d.com,mytruthnews.com,thetruedefender.com##[href*="hop.clickbank.net"]
 steroid.com##[href*="https://www.anabolics.com"]
 yesflicks.com##[href="/location/amazon"]
 2pass.co.uk##[href="bicycle-insurance.htm"]
@@ -86645,7 +86649,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api-js.datadome.co/js/$domain=sso.garena.com
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
-@@||api.ipify.org^$script,domain=right-on.co.jp
+@@||api.ipify.org^$script,domain=medexpress.com|right-on.co.jp
 @@||api.ipify.org^$xmlhttprequest,domain=247sports.com|account.pennytel.com.au|bicyclebluebook.com|equinoxplus.com|speedcheck.ky|urbanswan.com
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.ipstack.com/check$domain=blockfi.com|get-in.com|withpersona.com
@@ -88201,7 +88205,7 @@ uproxy.*##+js(nowoif)
 readyssh.net##+js(aeld, load, nextFunction)
 akvi.icu##+js(acis, $, show)
 akvi.icu##[style='display: none;']:has(#vplayer):style(display:block!important;)
-akvi.icu##:xpath(//*[contains(text(),"Disable")])
+akvi.icu##:xpath('//*[contains(text(),"Disable")]')
 convert2mp3.club##+js(nowoif)
 convert2mp3.club###idIframe
 libertinga.net##+js(aopw, open)
@@ -90569,6 +90573,8 @@ pobre.*##.generalModal
 ||pobre.*/wp-banners.js
 ||cloclo60.datacloudmail.ru/public/view/*.mp4|$media,domain=pobre.*,redirect=noopmp3-0.1s
 coinsparty.com##+js(nowoif)
+coinsparty.com##+js(no-xhr-if, wpadmngr)
+coinsparty.com###captchaShortlink:upward(form#coinsparty > div):style(display: block !important;)
 coinsparty.com##form[action$="/links/popad"]:remove()
 coinsparty.com##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 ||ad4point.nyc3.digitaloceanspaces.com^
@@ -91059,6 +91065,9 @@ gotxx.com##+js(aopw, _pop)
 gotxx.com##+js(aost, Element.prototype.matches, litespeed)
 sturls.com##+js(acis, decodeURI, decodeURIComponent)
 gotxx.com##div[class][style^="position: absolute; cursor: pointer; z-index: 2147483646"]
+sturls.com##+js(set, blurred, false)
+sturls.com###cc:style(display: block !important;)
+sturls.com###timer
 edealinfo.com##+js(acis, $, offsetHeight)
 mlsbd.shop##+js(aopw, _pop)
 mlsbd.shop##+js(aost, Math.random, inlineScript)
@@ -92588,6 +92597,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||rubika.ir^$all,domain=~web.rubika.ir
 ||nighbullce.ga^$all
 ||gilimp.org^$all
+||luckypatchers.net^$all,domain=~luckypatchers.com
+||luckypatcherwin.com^$all,domain=~luckypatchers.com
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -101906,7 +101917,7 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 14 Nov 2002 00:00:00
+# start date:    Fri, 15 Nov 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
