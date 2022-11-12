@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cg8IgJ4e59IJWmeGWzAUXw
+! Checksum: JYqBb3n2GsHl2DDB29NusQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211121427
-! Last Modified: 2022年11月12日 14:27
+! Version: 202211122039
+! Last Modified: 2022年11月12日 20:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -30853,7 +30853,6 @@ tf2r.com#@#.adverts
 ||getjad.io^
 ||getmari.com^
 ||getnewsfirst.com^
-||getnotix.co^
 ||getoptad360.com^
 ||getp.xyz^
 ||getpdaiddaily.com^
@@ -35496,8 +35495,6 @@ tf2r.com#@#.adverts
 ||notifyoutspoken.com^
 ||notifypicture.info^
 ||notifysrv.com^
-||notiks.io^
-||notiksio.com^
 ||notionnalisent.xyz^
 ||notix.io^
 ||notorietycheerypositively.com^
@@ -53692,6 +53689,7 @@ realitytea.com##.roadblock
 surinenglish.com##.roba
 roblox.com##.roblox-skyscraper
 mdisk.me##.robot
+boxrox.com##.rolling-mrt
 atalayar.com##.rotulo-publi
 flightconnections.com##.route-display-box
 elnacional.cat##.row-top-banner
@@ -65750,6 +65748,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||foxpush.com^$third-party
 ||foxpush.net^$third-party
 ||getback.ch^$third-party
+||getnotix.co^$third-party
 ||getpush.net^$third-party
 ||getpushmonkey.com^$third-party
 ||gravitec.net^$third-party
@@ -65767,6 +65766,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nativesubscribe.pro^$third-party
 ||notifadz.com^$third-party
 ||notify.solutions^$third-party
+||notiks.io^$third-party
+||notiksio.com^$third-party
 ||notix.io^$third-party
 ||olgtex.com^$third-party
 ||on-push.com^$third-party
@@ -71869,7 +71870,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consent.ghostery.com/v1.js
 ||console-telemetry.oci.oraclecloud.com^
 ||consumer.org.nz/session/ping/
-||contents2.00110.citi.com^
+||content22.citi.eu^$script
+||content22.online.citi.com^$script
 ||copilot-telemetry.githubusercontent.com^
 ||count.rin.ru^
 ||coursehero.com/v1/data-tracking
@@ -88942,6 +88944,7 @@ rtxkeeda.com###vipada
 samfw.com##[href^="https://samfw.com/clicks/"]
 samfw.com##[href^="https://samfw.com/link/"]
 ||i.imgur.com^$domain=samfw.com
+samfw.com##+js(acis, jQuery, banner)
 lewdstars.com##+js(acis, document.querySelectorAll, popMagic)
 lewdstars.com##.ads-muted-control
 lewdstars.com##.widget_custom_html
@@ -94654,6 +94657,7 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 @@||video.qq.com/getvinfo$script,1p
 @@||cedaron.visualstudio.com/*TrackingData.cs$1p
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect-rule,domain=ici.tou.tv
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect-rule,domain=ign.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
