@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fKcavt8ns+1c/albEZ6mww
+! Checksum: RZpncTWRBT/8uOcZxOmzNQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211130226
-! Last Modified: 2022年11月13日 02:26
+! Version: 202211130959
+! Last Modified: 2022年11月13日 09:59
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -44082,6 +44082,7 @@ tf2r.com#@#.adverts
 ||affiliategroove.com^$third-party
 ||afrikad.com^$third-party
 ||afy11.net^$third-party
+||afyads.com^$third-party
 ||ahvclick.com^$third-party
 ||aim4media.com^$third-party
 ||akavita.com^$third-party
@@ -50238,7 +50239,7 @@ tf2r.com#@#.adverts
 ||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph
 ||go.trvdp.com^
 ||jwpcdn.com^$script,domain=bgr.com|dexerto.com|zimbio.com
-||jwplayer.com^$domain=dexerto.com|gamesradar.com|ginx.tv|spokesman-recorder.com|tomshardware.com|whathifi.com
+||jwplayer.com^$domain=americansongwriter.com|dexerto.com|gamesradar.com|ginx.tv|spokesman-recorder.com|tomshardware.com|whathifi.com
 ||live.primis.tech^$third-party
 ||minute.ly^$third-party
 ||minutemedia-prebid.com^$third-party
@@ -52530,7 +52531,7 @@ careerindia.com##.cmscontent-top
 cnn.com##.cn--expandable.cn--idx-1
 thisismoney.co.uk##.cnr5
 letras.com##.cnt-space-top
-180gadgets.com,anoopcnair.com,browserhow.com,charlieintel.com,chromeunboxed.com,crimereads.com,cryptoslate.com,eurweb.com,fandomwire.com,flickeringmyth.com,gameinfinitus.com,hdmovies4u.live,indianhealthyrecipes.com,iotwreport.com,lithub.com,notalwaysright.com,pureinfotech.com,quickanswer.blog,reneweconomy.com.au,rezence.com,rok.guide,simscommunity.info,thecinemaholic.com,twistedvoxel.com,walletinvestor.com,welovetrump.com,zerohanger.com##.code-block
+180gadgets.com,americansongwriter.com,anoopcnair.com,browserhow.com,charlieintel.com,chromeunboxed.com,crimereads.com,cryptoslate.com,eurweb.com,fandomwire.com,flickeringmyth.com,gameinfinitus.com,hdmovies4u.live,indianhealthyrecipes.com,iotwreport.com,lithub.com,notalwaysright.com,pureinfotech.com,quickanswer.blog,reneweconomy.com.au,rezence.com,rok.guide,simscommunity.info,thecinemaholic.com,twistedvoxel.com,walletinvestor.com,welovetrump.com,zerohanger.com##.code-block
 conservativebrief.com##.code-block > span
 androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,techpp.com,whats-on-netflix.com##.code-block-1
 trendingpolitics.com##.code-block-12
@@ -72723,6 +72724,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tiendeo.*/_statsapi/
 ||tiktok.com/captcha/report
 ||tiktok.com/v1/list
+||tiktok.com/web/report?
 ||tiktok.com/whale/
 ||tiktokv.com/monitor_browser/
 ||tilanalytics.timesinternet.in^
@@ -88103,7 +88105,7 @@ embedstream.me,nolive.me##+js(aopw, _pop)
 embedstream.me##+js(nowebrtc)
 embedstream.me##+js(nowoif)
 *$script,3p,denyallow=nolive.me|plyjam.me,domain=embedstream.me
-*$script,3p,denyallow=fastly.net|jsdelivr.net,domain=nolive.me
+*$script,3p,denyallow=cloudflare.net|fastly.net|jsdelivr.net,domain=nolive.me
 embedstream.me##body > .position-absolute
 embedstream.me###aff-click
 @@||embedstream.me/cash.min.js$script,1p
@@ -94678,8 +94680,11 @@ lemonde.fr#@#.gdpr-lmd-wall
 ||assets.adobedtm.com/*source.min.js$script,domain=accounts.o2.co.uk,important
 instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:has-text(Paid partnership with ))
 @@||video.qq.com/getvinfo$script,1p
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect-rule,domain=ici.tou.tv
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect-rule,domain=ici.radio-canada.ca|ici.tou.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect-rule,domain=ign.com
+||wisepops.com^$badfilter
+||activity.wisepops.com^
+||tracking.wisepops.com^
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -101802,7 +101807,7 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 17 Nov 2002 00:00:00
+# start date:    Mon, 18 Nov 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
