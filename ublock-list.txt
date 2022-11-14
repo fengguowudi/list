@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lOTWpiibl0w5gh5ZoKabrA
+! Checksum: EHKVzzhWKCCq1JSJDCLdnw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211142054
-! Last Modified: 2022年11月14日 20:54
+! Version: 202211150227
+! Last Modified: 2022年11月15日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1874,6 +1874,7 @@
 /advertisingbutton.
 /advertisingmodule.
 /advertisings.
+/advertisingWebRenderer.min.js
 /advertisment-
 /advertisment/*
 /advertisment1-
@@ -55243,6 +55244,11 @@ msn.com##[class^="nativeAd"]
 msn.com##[data-test-id="mrr-nativead"]
 msn.com##[id^="native_ad_"]
 msn.com##a.nativead[target="_blank"]
+msn.com##a[aria-label="Amazon Assistant"]
+msn.com##a[href^="https://disneyplus.bn5x.net/"]
+msn.com##a[href^="https://rover.ebay.com/rover/"]
+msn.com##a[href^="https://ww55.affinity.net/"]
+msn.com##a[href^="https://www.jdoqocy.com/"]
 msn.com##div[aria-label="promotions"]
 msn.com##div[class^="articlePage_topBannerAdContainer_"]
 msn.com##div[class^="galleryPage_bannerAd"]
@@ -62512,6 +62518,8 @@ cgi-bin/counter
 .eventim.de/op/$image
 .everestengagement.com/$image
 .eviq.org.au/CMSModules/$image
+.facebook.com/tr/$image
+.facebook.com/tr?$image
 .flipboard.com/usage?
 .getblueshift.com/q/
 .getsendmail.com/p/$image
@@ -62593,6 +62601,7 @@ cgi-bin/counter
 /clicks.email.$image
 /cmail2.com/t/*
 /coherentpath.link/o/*$image
+/condor.slgnt.eu/optiext/optiextension.dll?$image
 /cp.gap.com/o/*$image
 /email-pixel?
 /email.t.*/o/*$image
@@ -87777,6 +87786,7 @@ dirtyship.com##+js(acis, onload)
 tubxporn.xxx##+js(aeld, click, popMagic)
 hotscopes.*,setfilmizlee.com##+js(aopw, puShown)
 afrodity.sk,alimentprofi.ru,brato.bg,chuguevforum.com,cinema21fullmovie.com,cotannualconference.org.uk,couponsuniverse.com,cycraracing.com,dahh.net,dlhe-videa.sk,elmalajeno.com,extreme-board.com,fotopoisk.com.ua,free-famous-toons.com,igra-tv.ru,istanbulescortnetworks.com,krassota.com,ok-th.com,payt.com,pcparsi.com,podkontrola.pl,pornopissing.ru,redtubemov.com,shkolazhisni.ru,shtab.su,spiritword.net##+js(acis, document.createElement, 'script')
+elmalajeno.com##^script:has-text(d.createElement('script'))
 elmalajeno.com##^script:has-text(d.createElement(\'script\'))
 @@||onlinefetishporn.cc^$ghide
 @@||streamextreme.cc^$ghide
@@ -87969,6 +87979,7 @@ shrinkforearn.in##.banner-page .box-main > .row
 shrinkforearn.in##.box-main .blog-item
 aagmaal.com##+js(acis, document.querySelectorAll, popMagic)
 aagmaal.xyz##+js(nostif, css_class.show)
+aagmaal.live##^script:has-text('shift')
 aagmaal.live##^script:has-text(\'shift\')
 aagmaal.cyou,oomaal.com,supaavdo.com##.widget_text.widget
 makaveli.xyz##+js(no-fetch-if, pop)
@@ -88170,6 +88181,7 @@ readyssh.net##+js(aeld, load, nextFunction)
 akvi.icu##+js(acis, $, show)
 akvi.icu##[style='display: none;']:has(#vplayer):style(display:block!important;)
 akvi.icu##:xpath('//*[contains(text(),"Disable")]')
+akvi.icu##:xpath(//*[contains(text(),"Disable")])
 convert2mp3.club##+js(nowoif)
 convert2mp3.club###idIframe
 libertinga.net##+js(aopw, open)
@@ -88257,6 +88269,7 @@ links.worldfree4u-lol.online##+js(aopw, _pop)
 ||olymptrade.com^$3p
 mysexgames.com##+js(aopr, loadTool)
 mysexgames.com##+js(set, createCanvas, noopFunc)
+ebookbb.com##^script:has-text('shift')
 ebookbb.com##^script:has-text(\'shift\')
 ebookbb.com##+js(aopw, _pop)
 *$3p,script,denyallow=google.com|gstatic.com|recaptcha.net|hcaptcha.com,domain=ebookbb.com
@@ -90633,6 +90646,7 @@ eplayer.click##+js(aeld, error)
 hdsport.biz##+js(no-fetch-if, method:HEAD)
 eplayer.click,hdsport.biz##+js(aopr, AaDetector)
 hdsport.biz,ustream.click##+js(acis, RegExp, 'shift')
+hdsport.biz,ustream.click##^script:has-text('shift')
 hdsport.biz,ustream.click##^script:has-text(\'shift\')
 hdsport.biz##+js(set, canRunAds, true)
 @@||fotbaltv.biz/reclama/*.php?id=$frame
@@ -92668,8 +92682,10 @@ stoic.ai##+js(aost, Math.floor, injectedScript)
 ||data-saver-cindi.herokuapp.com^
 ||cdn.cindicator.com/$script,3p
 botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,monumentmetals.com,nikita.tk,nookgaming.com,ping.gg,tapmyback.com,revistaferramental.com.br,hawpar.com,accuretawealth.com,resourceya.com,camberlion.com,adaptive.marketing,datree.io,alpacafinance.org,enkeleksamen.no,adria.gg,kvest.ee,controlconceptsusa.com,tt.live,creatordrop.com##+js(acis, String.fromCharCode, join)
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,controlconceptsusa.com,creatordrop.com##^script:has-text(join(\'\'))
-alpacafinance.org,tt.live##^script:has-text(join(\"\"))
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,controlconceptsusa.com,creatordrop.com##^script:has-text(join(''))
+alpacafinance.org,tt.live##^script:has-text(join(""))
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,controlconceptsusa.com,creatordrop.com##^script:has-text("join('')")
+alpacafinance.org,tt.live##^script:has-text('join("")')
 nikita.tk##+js(aost, document.cookie)
 ||nikita.tk/*-$script,1p
 ||washpost.nile.works^
