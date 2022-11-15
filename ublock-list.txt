@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ShvsLTMiFuMiCyKa4Vg3Lw
+! Checksum: cGt8whO5JxKNLjMFhQHLRA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211151426
-! Last Modified: 2022年11月15日 14:26
+! Version: 202211152044
+! Last Modified: 2022年11月15日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -55323,8 +55323,6 @@ instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: non
 alternativeto.net#?#div[class^="AppList"]:-abp-has([class^="AppListItem_sponsored"])
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership with ))
 instagram.com#?#article[role="presentation"] > div[style]:-abp-has(span:-abp-contains(/Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
-just-eat.co.uk,just-eat.es,just-eat.ie,justeat.it#?#a[data-test-id]:-abp-has(span:-abp-contains(/Promoted|Patrocinado|Sponsorizzato/))
-just-eat.dk,just-eat.fr,lieferando.at,lieferando.de,pyszne.pl,takeaway.com#?#div[data-qa]:-abp-has(span:-abp-contains(/Спонсорирано|Gesponsert|Gesponsord|Sponsored|Sponsoreret|Sponsorisé|Sponsorizzato|Sponsorowane/))
 nationalgeographic.com#?#.FrameBackgroundFull--grey:-abp-has(.ad-wrapper)
 cheaptickets.com,expedia.com,ebookers.com,hotels.com,orbitz.com,travelocity.com,wotif.com#?#.uitk-card:-abp-has(.uitk-badge-sponsored)
 mg.co.za#?#.td_flex_block:-abp-has(span:-abp-contains(Sponsored))
@@ -89150,13 +89148,11 @@ pinayvids.com##+js(acis, document.querySelectorAll, popMagic)
 pinayvids.com##+js(aopr, decodeURI)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=10play.com.au
 10play.com.au##.content__ad__content
-aztecafaucet.space##div.text-white.active.transparent.col-md-3.col-xs-6
 ||sered.net^$3p
 ||grab.tc^$3p
 ||ad-doge.com^$3p
 ||addoge.cc^$3p
 ||clicksgenie.com^$3p
-||i.imgur.com^$image,domain=aztecafaucet.space
 dogeatm.com##+js(acis, String.fromCharCode, 'replace')
 dogeatm.com##+js(aopw, puShown)
 dogeatm.com##+js(nano-sib, seconds)
@@ -89266,6 +89262,7 @@ empregovaga.online###banner
 getpaste.link##+js(set, isAdBlockActive, false)
 unlimitmovies.com##+js(aopr, JSON.stringify)
 4movierulz1.*,filmygod6.*##+js(nowoif)
+4movierulz1.*##[href^="https://api.whatsapp.com/send"]
 kitabmarkaz.xyz##+js(aopr, __Y)
 movieplex.*##+js(aopw, _pop)
 givemeredditstreams.com##+js(acis, String.prototype.charCodeAt, 'shift')
@@ -89286,7 +89283,7 @@ short.croclix.me##.banner-container
 short.goldenfaucet.io##.rectangles
 ||offers4all.net^$frame,3p
 icttipsandtricks.nl##+js(aost, String.prototype.charCodeAt, ai_)
-*$script,redirect-rule=noopjs,domain=ver-television.online|red-point.xyz
+*$script,redirect-rule=noopjs,domain=ver-television.online
 lite.qwant.com##.ad:upward(article.result.web)
 gay4porn.com##+js(set, flashvars.adv_start_html, '')
 gay4porn.com##+js(acis, document.querySelectorAll, popMagic)
