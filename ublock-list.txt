@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FzyHIEpzs/SxLle2iuWuJg
+! Checksum: EKsbIjnEPzmr7EmeCou7VA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211160227
-! Last Modified: 2022年11月16日 02:27
+! Version: 202211160956
+! Last Modified: 2022年11月16日 09:56
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -31770,8 +31770,8 @@ tf2r.com#@#.adverts
 ||hecticprofitable.com^
 ||hedgehoghugsyou.com^
 ||hedgehogpoachsay.com^
-||hedmisrepu.com^
 ||hedmisrepu.co^
+||hedmisrepu.com^
 ||hedrvszms.com^
 ||heebauch.com^
 ||heedenglish.com^
@@ -31998,8 +31998,8 @@ tf2r.com#@#.adverts
 ||holiestcoseys.com^
 ||holitt.com^
 ||hollekeamboina.com^
-||hollercatastrophe.com^
 ||hollercatastrophe.co^
+||hollercatastrophe.com^
 ||hollerscanelos.com^
 ||holptimawa.com^
 ||holydelicatessen.com^
@@ -36660,8 +36660,8 @@ tf2r.com#@#.adverts
 ||paiwhisep.com^
 ||paiwhoki.com^
 ||pajikrqhbqth.xyz^
-||palama2.com^
 ||palama2.co^
+||palama2.com^
 ||palasidesdoor.com^
 ||paletteadulatory.com^
 ||palibs.tech^
@@ -38106,7 +38106,6 @@ tf2r.com#@#.adverts
 ||qstukqmsddqgs.com^
 ||qtbb6.com^
 ||qthynj2.com^
-||qt.upwithpansit.com^
 ||qtvbgetlfxnw.com^
 ||qtzvsufbkpxin.com^
 ||quackdamaging.com^
@@ -40577,8 +40576,8 @@ tf2r.com#@#.adverts
 ||surv2you.net^
 ||surv2you.org^
 ||surveillancelandmorgue.com^
-||survey2you.com^
 ||survey2you.co^
+||survey2you.com^
 ||survey2you.net^
 ||survey2you.org^
 ||survey4you.co^
@@ -42044,6 +42043,7 @@ tf2r.com#@#.adverts
 ||upush.co^
 ||upwate.com^
 ||upwelf.com^
+||upwithpansit.com^
 ||uqbeohoajdqvcfe.xyz^
 ||uqimgeulpygyo.com^
 ||uqsgsfhd.com^
@@ -54905,9 +54905,9 @@ amsterdamnews.com,sundayworld.co.za,universityaffairs.ca##a[href*="/sponsored-co
 biznews.com,burnabynow.com,businessdailyafrica.com,coastreporter.net,financialexpress.com,irishtimes.com,komonews.com,newwestrecord.ca,nsnews.com,prpeak.com,richmond-news.com,seattletimes.com,spokesman.com##a[href*="/sponsored/"]
 isaidubb.net,orutamil.com##a[href*="/ucdownloader.php?"]
 isaidubb.net,orutamil.com##a[href*="/ucmini.php?"]
-uploadrar.com##a[href*="?"][target="_blank"]
 distrowatch.com##a[href*="3cx.com"]
 97rock.com,wedg.com##a[href*="716jobfair.com"]
+uploadrar.com##a[href*="?"][target="_blank"]
 filefleck.com,sadeempc.com,upload4earn.org##a[href*="javascript:"]
 twitter.com##a[href*="src=promoted_trend_click"]
 twitter.com##a[href*="src=promoted_trend_click"] + div
@@ -55630,6 +55630,7 @@ tripadvisor.com#?#.cAWGu:-abp-has(a:-abp-contains(Similar Sponsored Properties))
 outlook.live.com#?#div:-abp-has(> div > div.fbAdLink)
 mylivewallpapers.com#?#.posts > div.posts:-abp-has(.adsbygoogle)
 bbc.com#?##sticky-mpu:-abp-has(.dotcom-ad-inner)
+bbc.com#?#li[class*="-ListItem"]:-abp-has(div.dotcom-ad)
 cults3d.com#?#div.grid-cell:-abp-contains(/AD •/i)
 doordash.com#?#[data-testid="card.store"] > div:-abp-has(div[data-anchor-id="SponsoredBadge"])
 bleepingcomputer.com#?##bc-home-news-main-wrap > li:-abp-contains(Sponsored Content)
@@ -67599,6 +67600,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tastelesstrucks.com^
 ||tawdryson.com^$third-party
 ||tdzvm.pw^
+||tediousticket.com^
 ||tedioustooth.com^
 ||teenytinycellar.com^$third-party
 ||teenytinyshirt.com^
@@ -87211,6 +87213,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
 @@||maxmind.com^*/geoip2.js$domain=boostedboards.com|donorschoose.org|driftinnovation.com|elgato.com|fallout4.com|filld.com|ibanez.com|instamed.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
 @@||mclo.gs/js/logview.js$~third-party
+@@||metrics.bangbros.com/tk.js$~third-party
 @@||metrics.torproject.org^$~third-party
 @@||mlbstatic.com/mlb.com/adobe-analytics/$script,domain=mlb.com
 @@||moengage.com/v2/$xmlhttprequest,domain=olx.com.lb
@@ -88542,7 +88545,7 @@ taxidrivermovie.com##.thumb-holder[style="height:250px;"]:upward(1)
 taxidrivermovie.com##[href="/category/taxi-fares/"]:upward(.thumb)
 embedstream.me,nolive.me##+js(aopw, _pop)
 embedstream.me##+js(nowebrtc)
-embedstream.me##+js(nowoif)
+embedstream.me,nolive.me##+js(nowoif)
 *$script,3p,denyallow=nolive.me|plyjam.me,domain=embedstream.me
 *$script,3p,denyallow=cloudflare.net|fastly.net|jsdelivr.net,domain=nolive.me
 embedstream.me##body > .position-absolute
@@ -95131,6 +95134,7 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,domain=ici.tou.tv
 @@||aniview.com/api/$script,domain=gamingbible.co.uk
 @@||player.avplayer.com/script/*/avcplayer.js$script,domain=gamingbible.co.uk
+@@||metrics.bangbros.com/tk.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -102244,8 +102248,8 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 15 Nov 2022 12:26:52 GMT
-# entries:        3671
+# last updated:   Tue, 15 Nov 2022 20:12:04 GMT
+# entries:        3673
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -102253,7 +102257,7 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 20 Nov 2002 00:00:00
+# start date:    Thu, 21 Nov 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -103621,6 +103625,7 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 127.0.0.1 click.hooligapps.com
 127.0.0.1 click.kmindex.ru
 127.0.0.1 click.news.vans.com
+127.0.0.1 click.nl.npr.org
 127.0.0.1 click.redditmail.com
 127.0.0.1 click.twcwigs.com
 127.0.0.1 click2freemoney.com
@@ -105484,6 +105489,7 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 127.0.0.1 tealium.cbsnews.com
 127.0.0.1 tealium.com
 127.0.0.1 tealiumiq.com
+127.0.0.1 tediousticket.com
 127.0.0.1 tedioustooth.com
 127.0.0.1 teenrevenue.com
 127.0.0.1 teenyvolcano.com
