@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K1ImQhVUIO5rPeh3jlCUkQ
+! Checksum: IQnvucobPrbLB0fIbI0PEQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202211161426
-! Last Modified: 2022年11月16日 14:26
+! Version: 202211162043
+! Last Modified: 2022年11月16日 20:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -59283,6 +59283,7 @@ ubmcmm.baidustatic.com
 ||ljrot.icu^
 ||ozngisyk.xyz^
 ||pinkboy.fun^
+||nhtieoo.cn^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -68095,7 +68096,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||99youmeng.com/pc/js/g_top_ban.js
 ||99youmeng.com/pc/js/global_latest.js
 ||99zuowen.com^*/gg.js
-||9c9t.cn/public/*/plugins/
+||1vkx.cn/public/*/plugins/
 ||9duw.com/js/sj
 ||9duw.com/pic/
 ||9ez.me/embd.php?type=
@@ -71951,6 +71952,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||vkandian.cn/footjs/
+||vkandian.cn/peitu/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -77524,6 +77527,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||1vkx.cn/public/1/assets/js/common/plugins/jquery/jquery.min.jss
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -78221,6 +78225,9 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+||jmcomic1.*/media/albums/*?$media
+||18comic.*/media/albums/*?$media
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
 ##.col-lg-3.col-xs-6 > .well
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
@@ -95570,7 +95577,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||overstock.com/analytics/
 ||overstock.com/dlp?
 ||p.ctpost.com/article?
-||p.sfx.ms^
+||p.sfx.ms/is/invis.gif
 ||pac.thesun.co.uk^
 ||pagesix.com/blaize/datalayer
 ||pappagallu.onefootball.com^
