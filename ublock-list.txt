@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4rhAfFu+U+gHyPCateNn4A
+! Checksum: rJ8FHcYvSJTljjSMa0GZ0g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211170956
-! Last Modified: 2022年11月17日 09:56
+! Version: 202211171426
+! Last Modified: 2022年11月17日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12262,6 +12262,7 @@ _800x80_
 ##.adZoneRight
 ##.ad_0
 ##.ad_1
+##.ad_1000_125
 ##.ad_120x60
 ##.ad_120x600
 ##.ad_120x90
@@ -12285,6 +12286,7 @@ _800x80_
 ##.ad_250x200
 ##.ad_250x250
 ##.ad_250x250_w
+##.ad_290_290
 ##.ad_3
 ##.ad_300
 ##.ad_300250
@@ -15016,6 +15018,7 @@ _800x80_
 ##.amazonads
 ##.amis-advert
 ##.amp-ad
+##.amp-ad__wrapper
 ##.amp-ads
 ##.amp-ads-container
 ##.amp-adv-wrapper
@@ -21734,6 +21737,7 @@ _800x80_
 ##.mm-widget--sendtonews
 ##.oovvuu-embed-player
 ##.pbs__player
+##.pmc-contextual-player
 ##.pop-out-eplayer-container
 ##.primis-ad-wrap
 ##.primis-custom
@@ -32486,7 +32490,6 @@ tf2r.com#@#.adverts
 ||inclk.com^
 ||incloak.com^
 ||includemodal.com^
-||incolumitas.com^
 ||incomethoroughabjure.com^
 ||incomprehensibleacrid.com^
 ||inconceivableascertained.com^
@@ -50669,7 +50672,7 @@ tf2r.com#@#.adverts
 ||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph
 ||go.trvdp.com^
 ||jwpcdn.com^$script,domain=bgr.com|dexerto.com|zimbio.com
-||jwplayer.com^$domain=americansongwriter.com|dexerto.com|gamesradar.com|ginx.tv|spokesman-recorder.com|tomshardware.com|whathifi.com
+||jwplayer.com^$domain=americansongwriter.com|dexerto.com|gamesradar.com|ginx.tv|spokesman-recorder.com|tomshardware.com|variety.com|whathifi.com
 ||live.primis.tech^$third-party
 ||minute.ly^$third-party
 ||minutemedia-prebid.com^$third-party
@@ -54078,6 +54081,8 @@ rappler.com##.rappler-ad-container
 gobankingrates.com##.rate-table-header
 mydorpie.com##.rbancont
 forebet.com##.rbannerDiv
+spectrum.ieee.org##.rblad-ieee_in_content
+spectrum.ieee.org##.rblad-ieee_infinite_new
 reverso.net##.rcacontent
 just-dice.com##.realcontent
 bettycrocker.com##.recipeAd
@@ -55438,6 +55443,7 @@ taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
 ibtimes.sg##.featured_video
 thestar.co.uk##.gOoqzH
+anandtech.com##.jwplayer
 gamesradar.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
 southernliving.com##.karma-sticky-rail
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
@@ -59320,6 +59326,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /fp/clear1.png
 /fp/clear2.png
 /fp/clear3.png
+/fp/es.js
 /fp/fp.swf
 /fp/HP?session_id
 /fp/ls_fp.
