@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gS9r5T2jGd0qzadTdnIzXQ
+! Checksum: 6pLxS3SEvF/GiiSYNsXWsA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211180226
-! Last Modified: 2022年11月18日 02:26
+! Version: 202211181000
+! Last Modified: 2022年11月18日 10:00
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -362,7 +362,7 @@
 .topad.
 .tv/adl.
 .tv/ads.
-.tv/ads/
+.tv/ads/$image,script,subdocument
 .twoads.
 .tz/ads/
 .ug/ads/
@@ -53135,6 +53135,7 @@ total-croatia-news.com##.custombanner
 coincarp.com##.customspon
 jobhits.co.uk##.cvads
 futurecurrencyforecast.com##.cwc-tor-widget
+usmagazine.com##.cy-storyblock
 bleepingcomputer.com##.cz-toa-wrapp
 blockchair.com##.d-block
 mangamiso.net##.d-flex-row
@@ -102313,8 +102314,8 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Thu, 17 Nov 2022 13:13:28 GMT
-# entries:        3674
+# last updated:   Thu, 17 Nov 2022 19:59:12 GMT
+# entries:        3675
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -102322,7 +102323,7 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 22 Nov 2002 00:00:00
+# start date:    Sat, 23 Nov 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -105470,6 +105471,7 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 127.0.0.1 storygize.net
 127.0.0.1 stoveseashore.com
 127.0.0.1 straightnest.com
+127.0.0.1 stretchsquirrel.com
 127.0.0.1 stripedburst.com
 127.0.0.1 strivesidewalk.com
 127.0.0.1 structurerod.com
