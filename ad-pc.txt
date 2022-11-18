@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rf7vV+6aZRtCQN2CpDR2zA
+! Checksum: 47pv8OgesiEcqK8KCxj1IQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202211181000
-! Last Modified: 2022年11月18日 10:00
+! Version: 202211181427
+! Last Modified: 2022年11月18日 14:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -110139,6 +110139,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||nintendo.com/apps/noa/scripts/analytics.js$~third-party
 @@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
 @@||noaa.gov/maps/resources/scripts/ga.js$script,~third-party
+@@||nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||noodid.ee/chordQuiz/$~third-party
 @@||noxgroup.com/noxinfluencer/sensor_sdk/$script,domain=noxinfluencer.com
 @@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
@@ -110248,7 +110249,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||static.atgsvcs.com/js/atgsvcs.js$domain=lenovo.com|officedepot.com|shop.lego.com
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
 @@||static.okccdn.com/builds/desktop/js/tracking_center.$script,domain=okcupid.com
-@@||static.wikia.nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||staticflickr.com^*/analytics-min.js$domain=flickr.com
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
