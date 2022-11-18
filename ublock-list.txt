@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qrFDffnU/ITFWhRewAn7IQ
+! Checksum: 8ZfgIpgCP533c/8s2+sgog
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211181427
-! Last Modified: 2022年11月18日 14:27
+! Version: 202211182040
+! Last Modified: 2022年11月18日 20:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52343,7 +52343,7 @@ androidauthority.com##.-Ci
 androidauthority.com##.-Yc
 voiceofsandiego.org##.-sponsored
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se##.ABP
-bendsource.com,federalnewsnetwork.com,lonelyplanet.com,sevendaysvt.com,styleweekly.com,tasty.co,tucsonweekly.com##.Ad
+bendsource.com,federalnewsnetwork.com,imgur.io,lonelyplanet.com,sevendaysvt.com,styleweekly.com,tasty.co,tucsonweekly.com##.Ad
 thescore.com##.Ad__container--2fhQb
 greatandhra.com##.AdinHedare
 stadiumastro.com##.Ads
@@ -52850,6 +52850,7 @@ armenpress.am##.bnrcontainer
 southerntimesafrica.com##.body-header-banner
 btcmanager.com##.boo_3oo_6oo
 cmo.com.au,interiordesign.net##.boombox
+everydayrussianlanguage.com##.border
 washingtonpost.com##.border-box.dn-hp-sm-to-mx
 washingtonpost.com##.border-box.dn-hp-xs
 standardmedia.co.ke##.border-thick-branding
@@ -55081,6 +55082,7 @@ hqq.tv##a[title="Free money easy"]
 kroger.com##a[title^="Advertisement:"]
 facebook.com,facebookcorewwwi.onion##article[data-ft*="\"ei\":\""]
 greatist.com##aside
+everydayrussianlanguage.com##aside img[src^="/wp-content/themes/edr/img/"]
 dictionary.com,thesaurus.com##aside[id$="728x90"]
 apotelyt.com##aside[id^="hedoApp"]
 apotelyt.com##aside[id^="widoApp"]
@@ -61917,6 +61919,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /track_click?
 /track_clicks_
 /track_event.
+/track_framework_metrics?
 /track_general_stat.
 /track_google.
 /track_js/?
@@ -102019,6 +102022,10 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||qlogo.cn^
+||baiducdnimages.com^
+||528791725.com^
+||8499223.com^
 ||sx.fakjkwp.cn^
 ||yu.dlxxjsh.top^
 ||zs.rzijjeb.cn^
@@ -102315,7 +102322,7 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 17 Nov 2022 19:59:12 GMT
-# entries:        3675
+# entries:        3668
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -102466,7 +102473,6 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 127.0.0.1 ad.nttnavi.co.jp
 127.0.0.1 ad.nwt.cz
 127.0.0.1 ad.period-calendar.com
-127.0.0.1 ad.preferances.com
 127.0.0.1 ad.profiwin.de
 127.0.0.1 ad.prv.pl
 127.0.0.1 ad.reachlocal.com
@@ -102492,14 +102498,12 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 127.0.0.1 ad1.emule-project.org
 127.0.0.1 ad1.eventmanager.co.kr
 127.0.0.1 ad1.kde.cz
-127.0.0.1 ad1.pamedia.com.au
 127.0.0.1 ad2.iinfo.cz
 127.0.0.1 ad2.lupa.cz
 127.0.0.1 ad2.netriota.hu
 127.0.0.1 ad2.nmm.de
 127.0.0.1 ad2.xrea.com
 127.0.0.1 ad3.iinfo.cz
-127.0.0.1 ad3.pamedia.com.au
 127.0.0.1 ad3.xrea.com
 127.0.0.1 ad4game.com
 127.0.0.1 ad4mat.com
@@ -102659,7 +102663,6 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 127.0.0.1 adreclaim.com
 127.0.0.1 adrecover.com
 127.0.0.1 adrecreate.com
-127.0.0.1 adremedy.com
 127.0.0.1 adreporting.com
 127.0.0.1 adrevolver.com
 127.0.0.1 adriver.ru
@@ -102737,7 +102740,6 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 127.0.0.1 ads.com.com
 127.0.0.1 ads.comeon.com
 127.0.0.1 ads.contactmusic.com
-127.0.0.1 ads.contentabc.com
 127.0.0.1 ads.creative-serving.com
 127.0.0.1 ads.cybersales.cz
 127.0.0.1 ads.dada.it
@@ -103600,7 +103602,6 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 127.0.0.1 buzzonclick.com
 127.0.0.1 bwp.download.com
 127.0.0.1 c.bigmir.net
-127.0.0.1 c1.nowlinux.com
 127.0.0.1 c1exchange.com
 127.0.0.1 c212.net
 127.0.0.1 calculatingcircle.com
@@ -103808,7 +103809,6 @@ instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:h
 127.0.0.1 counter.dreamhost.com
 127.0.0.1 counter.mirohost.net
 127.0.0.1 counter.mojgorod.ru
-127.0.0.1 counter.nowlinux.com
 127.0.0.1 counter.rambler.ru
 127.0.0.1 counter.search.bg
 127.0.0.1 counter.snackly.co
