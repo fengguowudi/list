@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Uc+0ur1f9MsDPs0ugvFCOA
+! Checksum: GsYJ+Ghzz2f7F6mgUNuimg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211232040
-! Last Modified: 2022年11月23日 20:40
+! Version: 202211240224
+! Last Modified: 2022年11月24日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -13,7 +13,6 @@
 &AdType=
 &cbrandom=
 &clicktag=http
--ad-300x250.
 -ad-300x600-
 -ad-336x280-
 -ad-458x80.
@@ -180,7 +179,6 @@
 .ad.footer.
 .ad.wrapper.
 .ad6media.$domain=~ad6media.fr
-.adbanner.
 .adbutler-
 .adnetwork.$domain=~adnetwork.ie|~adnetwork.sk
 .adpartner.$domain=~adpartner.cz|~adpartner.de|~adpartner.jp
@@ -4233,7 +4231,6 @@ _ads_top.
 _ads_updater-
 _adscommon.
 _adscript.
-_adsense.
 _adserve.
 _adserve/
 _adserver.
@@ -10023,7 +10020,6 @@ _800x80_
 ###zone-adsense
 ###zsAdvertisingBanner
 ###zztextad
-##.--ads
 ##.-advertsSidebar
 ##.AD-POST
 ##.AD300
@@ -22512,6 +22508,7 @@ tf2r.com#@#.adverts
 ||349c3c0859.com^
 ||34c2f22e9503ace.com^
 ||34pavouhj7.com^
+||3574fd3373.com^
 ||35caec29d1.com^
 ||360popads.com^
 ||360protected.com^
@@ -24488,6 +24485,7 @@ tf2r.com#@#.adverts
 ||anonima.to^
 ||anonymousads.com^
 ||anopportuni.lol^
+||anorrecenturybr.com^
 ||anotherconsult.com^
 ||anrlttkketcdw.com^
 ||ansctpsarnj.xyz^
@@ -25395,6 +25393,7 @@ tf2r.com#@#.adverts
 ||b81oidrmy82w.com^
 ||b852e3606e.com^
 ||b88f1c5cda.com^
+||b89d654db3.com^
 ||b8cf0fd3179ef.com^
 ||b8e437d3a3.com^
 ||b8pfulzbyj7h.com^
@@ -27013,6 +27012,7 @@ tf2r.com#@#.adverts
 ||casualproof.com^
 ||casulatoyon.com^
 ||catalpaaxillae.com^
+||cataractencroach.com^
 ||cataractoutputprogramming.com^
 ||cataractsallydeserves.com^
 ||catastropheillusive.com^
@@ -28234,6 +28234,7 @@ tf2r.com#@#.adverts
 ||curriculture.com^
 ||currierfrank.com^
 ||currol.com^
+||curseintegralproduced.com^
 ||cursormedicabnormal.com^
 ||curtainsimplicitycoast.com^
 ||curtisfrierson.com^
@@ -29625,6 +29626,7 @@ tf2r.com#@#.adverts
 ||ejghgjhhgadcdchjaada.ru.^
 ||ejipaifaurga.com^
 ||ejkwgeanhw.com^
+||ejrhgbuhb.com^
 ||ejurzsax.com^
 ||ejwxiuhjxep.com^
 ||ekansovi.com^
@@ -31177,6 +31179,7 @@ tf2r.com#@#.adverts
 ||gixiluros.com^
 ||gizzenaceric.com^
 ||gjimhoiucmipo.xyz^
+||gjofwbjtvdfylt.com^
 ||gjonfartyb.com^
 ||gkdmqvqj.com^
 ||gkefsixxlzhn.com^
@@ -32351,6 +32354,7 @@ tf2r.com#@#.adverts
 ||iatmaihn.xyz^
 ||iaxibctn.com^
 ||iaxsmxdwokken.com^
+||iayuqfkerhs.xyz^
 ||ibanwatch.com^
 ||ibatom.com^
 ||ibbkuhwgqawhvt.com^
@@ -34019,6 +34023,7 @@ tf2r.com#@#.adverts
 ||lgiufpmd.com^
 ||lgkwytmgkcwgsa.com^
 ||lgpihaml.com^
+||lgpjasye.com^
 ||lgpumcja.com^
 ||lgse.com^
 ||lgtdkpfnor.com^
@@ -35713,6 +35718,7 @@ tf2r.com#@#.adverts
 ||nipwaghue.com^
 ||nirifude.com^
 ||nirisrutin.store^
+||nitheemp.net^
 ||nitrogendetestable.com^
 ||nitrogenpleahierarchy.com^
 ||nitytolearnan.biz^
@@ -38609,6 +38615,7 @@ tf2r.com#@#.adverts
 ||relappro.com^
 ||relapsereflectedreplace.com^
 ||relationshipregard.com^
+||relativelyweptcurls.com^
 ||relaxtime24.biz^
 ||relentfrance.com^
 ||relestar.com^
@@ -40738,6 +40745,7 @@ tf2r.com#@#.adverts
 ||sviter2s1olenyami1.com^
 ||svkmxwssih.com^
 ||svkxlfhrdrn.com^
+||svrvcnynsv.xyz^
 ||svsjfwwgatdxqr.com^
 ||svvcudoocwud.com^
 ||svyksa.info^
@@ -41122,6 +41130,7 @@ tf2r.com#@#.adverts
 ||thepopads.com^
 ||therapistpopulationcommentary.com^
 ||theraprecramp.com^
+||therebelfasters.com^
 ||thereuponcanadian.com^
 ||therubiqube.com^
 ||thesaurussurf.com^
@@ -42870,6 +42879,7 @@ tf2r.com#@#.adverts
 ||wardgrazeunarmed.com^
 ||warefulbesogne.com^
 ||warfareblameless.com^
+||warhui.com^
 ||warilyaggregation.com^
 ||warmlyusher.com^
 ||warswhitawe.com^
@@ -43085,6 +43095,7 @@ tf2r.com#@#.adverts
 ||whihauve.net^
 ||whilar.com^
 ||whilefitsaltered.com^
+||whilol.com^
 ||whilot.com^
 ||whimsoplynx.com^
 ||whippedfreezerbegun.com^
@@ -43468,6 +43479,7 @@ tf2r.com#@#.adverts
 ||xbcnvj2mdk1dn1.com^
 ||xbirmkzpgcnb.com^
 ||xbouyazk.com^
+||xbuiqhrbjlum.com^
 ||xbxhulfp.xyz^
 ||xcelltech.com^
 ||xcelsiusadserver.com^
@@ -43586,10 +43598,12 @@ tf2r.com#@#.adverts
 ||xrdkktrdgkvcpn.com^
 ||xrfabakydcwngov.xyz^
 ||xrqnhnxoj.xyz^
+||xruonpmunan.com^
 ||xryecggeczcvpk.com^
 ||xsrs.com^
 ||xsusmtvgvxp.xyz^
 ||xsvvmrhjztro.com^
+||xsvwvyewrlqdgw.com^
 ||xswvytnxkzkzq.com^
 ||xteedehi.com^
 ||xtfycjyzoqit.com^
@@ -43690,6 +43704,7 @@ tf2r.com#@#.adverts
 ||yakqgvuxijveh.com^
 ||yallarec.com^
 ||yallboen.com^
+||yampxuxrjyhv.com^
 ||yamspunkdew.com^
 ||yanend.com^
 ||yantrasbarges.com^
@@ -46323,6 +46338,7 @@ tf2r.com#@#.adverts
 ||clbanners16.com^$popup
 ||cldrck.com^$popup
 ||clean-1-clean.club^$popup
+||clean-blocker.com^$popup
 ||click-cdn.com^$popup
 ||clickbank.net/*offer_id=$popup,third-party
 ||clickcay.com^$popup,third-party
@@ -49387,6 +49403,7 @@ tf2r.com#@#.adverts
 ||d12t7h1bsbq1cs.cloudfront.net^
 ||d12ylqdkzgcup5.cloudfront.net^
 ||d12ysuoljjyfqa.cloudfront.net^
+||d13gni3sfor862.cloudfront.net^
 ||d13k7prax1yi04.cloudfront.net^
 ||d13vul5n9pqibl.cloudfront.net^
 ||d140sbu1b1m3h0.cloudfront.net^
@@ -57330,6 +57347,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||strangermeetup.com/socket.io/$~third-party
 @@||suntory.co.jp/beer/kinmugi/css2020/ad.css?
 @@||suntory.co.jp/beer/kinmugi/img/ad/$image,~third-party
+@@||supabase.co/rest/v1/advert$domain=matchers.fr
 @@||tabiat.gov.tr/KACMS/Files/ad-$image,~third-party
 @@||tcm-koko.ed.jp/images/ad.jpg
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
@@ -93076,10 +93094,11 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||stcverify.com^$doc
 ||1980s.click^$doc
 goharpc.com,procrackerz.org,pccrackbox.com,365crack.com,cracklabel.com,keystool.com,pcwarezbox.com,10crack.com,crackproductkey.com,profullversion.com,crackswall.com,crackpcsoft.net,proappcrack.com,flstudiocrack.org,crackwinz.com,crackedpcs.com,cracksmad.com,excrack.com,mahcrack.com,get4pcs.com,genuineactivator.com,keygenwin.com,crackedroot.com,topcracked.com,mycrackfree.com,crackfullpro.com,crackpro.org,fullcrackedpc.com,crackkey4u.com,rootcracks.org,getproductkey.co,idmfullcrack.info,fileserialkey.com,licensekeyup.com,thecrackbox.com,cracksway.com,clevercracks.com,idmpatched.com,autocracking.com,macwinsofts.com,productkeyfree.org,chcracked.com,cracksdat.com,patchcracks.com,piratpc.com,cracksole.com,finalcracked.com,activatorpros.com,miraclecrack.com,allsoftwarekeys.com,softwar2crack.com,procracks.net,productkeyforfree.com,crackgrid.com,licensekeysfree.com,crackedmod.com,crackedpc.org,whitecracked.com,kalicrack.com,bypassapp.com,zgamespc.com,cracksoon.com,boxcracked.com,activationkey.org,newproductkey.com,serialkeypatch.org,serialkeysfree.org,crackdev.com,wazusoft.com,getpcsofts.net,patchlinks.com,rootscrack.com,cracktel.com,crackedsoftpc.com,idmfullversion.com,activators4windows.com,crackfury.com,proapkcrack.com,up4crack.com,crackkeymac.com,softscracked.com,freeappstorepc.com,reallpccrack.com,cracknew.org,crackfullkey.net,torrentfilefree.com,hitcracker.com,fullactivationkey.com,hmzapc.com,9to5crack.com,greencracks.com,zcracked.com,masterkreatif.net,onhax.io,usecracked.com,crackedversion.com,freecrack4u.com,procrackhere.com,crackedmacapps.com,proproductkey.com,crackpckey.com,aryancrack.com,crack11.com,piratespc.net,freecracker.com,centergames.net,centerapps.net,sadeempc.com,getintomac.net,reallcrack.com,freelicensekey.org,masterkreatif.org,protocrack.com,pcsoftz.net,fultech.org##[onclick*="open"]
-filepapa.com,serialkey89.com,pclicensekeys.com,installcracks.com,keysfull.net,crackserialkey.co,maliksofts.com,crackpropc.com,ayeshapc.com,crackhomes.com,crackspro.co,cracksoftwareguru.com,crackknow.com,cracxpro.com,4howcrack.com,trycracksoftware.com,getprocrack.co,allpcsoftcrack.co,activationkeys.co,bulletcracks.com,organiccrack.com,softwarance.com,pcactivationkey.co,procrackkey.co,download4mac.com,freeactivationkeys.org,explorecrack.com,okproductkey.com,cracksmain.com,downloadpc.net,serialkey.info,up4pc.com,hitproversion.com,cracktube.net,abbaspc.net,crackdownload.org,crackdownload.me,corecrack.com,windowsactivator.info,keygenstore.com,procrackpc.co,getmacos.org,latestproductkey.co,shanpc.com,crackpckey.com,torrentfilefree.com,patchcracks.com,idmfullversion.com,wareskey.com,crackbell.com,newproductkey.com,osproductkey.com##center > [class*="buttonPress-"]
-free4pc.org,warezcrack.net,freeprosoftz.com,vcracks.com,crackthere.com,keygenfile.net,scracked.com,cyberspc.com,softzcrack.com,crackintopc.com,zslicensekey.com,procrackpc.com,crackshere.com,crackdj.com,cracktopc.com,serialsofts.com,prosoftlink.com,zscracked.com,crackvip.com,windowcrack.com,softsnew.com,licensecrack.net,vstpatch.net,newcrack.info,topkeygen.com,vsthomes.com,vstserial.com,procrackerz.com,pcfullcrack.org,keygenpc.com,bicfic.com,ikcrack.com,downloadcracker.com,karancrack.com,piratesfile.com,activatorwin.com,starcrack.net,crackproduct.com,dgkcrack.com,crackglobal.com,crackcan.com,keygendownloads.com,crackpatched.com,windowsactivators.org,serialsoft.org,crackit.org,productscrack.com,crackurl.info,crackroot.net,crackmak.com,seeratpc.com,crackmix.com,piratepc.me##div[class^="code-block code-block-"]
-crackkits.com,rootcracks.co,crackwatch.org,crackfix.net,origincrack.com,procrackerz.com,crackhub.org,crackrules.com,zeemalcrack.com##.getox
-alicracks.com,win-crack.com,productkeyfree.org,productkeyforfree.com##center > a
+filepapa.com,serialkey89.com,pclicensekeys.com,installcracks.com,keysfull.net,crackserialkey.co,maliksofts.com,crackpropc.com,ayeshapc.com,crackhomes.com,crackspro.co,cracksoftwareguru.com,crackknow.com,cracxpro.com,4howcrack.com,trycracksoftware.com,getprocrack.co,allpcsoftcrack.co,activationkeys.co,bulletcracks.com,organiccrack.com,softwarance.com,pcactivationkey.co,procrackkey.co,download4mac.com,freeactivationkeys.org,explorecrack.com,okproductkey.com,cracksmain.com,downloadpc.net,serialkey.info,up4pc.com,hitproversion.com,cracktube.net,abbaspc.net,crackdownload.org,crackdownload.me,corecrack.com,windowsactivator.info,keygenstore.com,procrackpc.co,getmacos.org,latestproductkey.co,shanpc.com,crackpckey.com,torrentfilefree.com,patchcracks.com,idmfullversion.com,wareskey.com,crackbell.com,newproductkey.com,osproductkey.com,serialkeysfree.org,autocracking.com,crackzoom.com##center > [class*="buttonPress-"]
+free4pc.org,warezcrack.net,freeprosoftz.com,vcracks.com,crackthere.com,keygenfile.net,scracked.com,cyberspc.com,softzcrack.com,crackintopc.com,zslicensekey.com,procrackpc.com,crackshere.com,crackdj.com,cracktopc.com,serialsofts.com,prosoftlink.com,zscracked.com,crackvip.com,windowcrack.com,softsnew.com,licensecrack.net,vstpatch.net,newcrack.info,topkeygen.com,vsthomes.com,vstserial.com,procrackerz.com,pcfullcrack.org,keygenpc.com,bicfic.com,ikcrack.com,downloadcracker.com,karancrack.com,piratesfile.com,activatorwin.com,starcrack.net,crackproduct.com,dgkcrack.com,crackglobal.com,crackcan.com,keygendownloads.com,crackpatched.com,windowsactivators.org,serialsoft.org,crackit.org,productscrack.com,crackurl.info,crackroot.net,crackmak.com,seeratpc.com,crackmix.com,piratepc.me,activators4windows.com##div[class^="code-block code-block-"]
+crackkits.com,rootcracks.co,crackwatch.org,crackfix.net,origincrack.com,procrackerz.com,crackhub.org,crackrules.com,zeemalcrack.com,haxmac.cc##.getox
+alicracks.com,win-crack.com,productkeyfree.org,productkeyforfree.com,procrackerz.org##center > a
+cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:center;"]
 cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:center;"]
 ||xforce-cracks.com^$doc
 ||premiumfullversion.com^$doc
@@ -93160,6 +93179,10 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||adminht.top^$all
 ||tjncw.com^$all
 ||give-crypto.com^$all
+||ngazi.co.tz^$all
+||video-watch1.com^$all
+||musicinmysoul.biz^$all
+||choseoffhandsight.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -95370,6 +95393,7 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 @@||aps.hearstnp.com/Scripts/loadAds.js$script,domain=sfchronicle.com
 @@||abcmouse.com/*/analytics.js$script,1p
 @@||argos.co.uk/utag/utag.sync.js$script,1p
+||samash.com^$script,redirect-rule=noopjs
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
