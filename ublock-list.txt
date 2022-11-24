@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LhW54b3u1gfFEg3JX+GNAQ
+! Checksum: nQ2JlkihsDfj5d2XQKyjHA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211240949
-! Last Modified: 2022年11月24日 09:49
+! Version: 202211241424
+! Last Modified: 2022年11月24日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8700,6 +8700,7 @@ _800x80_
 ###mini-ad
 ###mobile-adhesion
 ###mobile-ads-ad
+###mobile-footer-ad-wrapper
 ###mobileAdContainer
 ###mobile_ad_main
 ###mobile_ads_block
@@ -17756,6 +17757,7 @@ _800x80_
 ##.iqadlinebottom
 ##.iqadmarker
 ##.iqadtile_wrapper
+##.is-ad
 ##.is-carbon-ad
 ##.is-desktop-ads
 ##.is-mpu
@@ -22026,7 +22028,7 @@ soundandvision.com,stereophile.com#@##topbannerad
 gamingcools.com#@#.Adsense
 m.motonet.fi#@#.ProductAd
 job.inshokuten.com#@#.ad-area
-kincho.co.jp#@#.ad-block
+kincho.co.jp,niji-gazo.com#@#.ad-block
 job.inshokuten.com,sexgr.net,webbtelescope.org#@#.ad-box
 dbook.docomo.ne.jp,dmagazine.docomo.ne.jp#@#.ad-button
 livedoorblogstyle.jp#@#.ad-center
@@ -70685,6 +70687,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.smartclip.net^
 ||stats.topofblogs.com^
 ||stats.twistage.com^
+||stats.uscreen.io^
 ||stats.varrando.com^
 ||stats.viddler.com^
 ||stats.vliplatform.com^
@@ -71104,6 +71107,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wco.crownpeak.com^
 ||weather.ca/counter.gif?
 ||web-soft.in/counters/
+||web-tracker.smsbump.com^
 ||web1.51.la^
 ||webcare.byside.com^
 ||webedia.fr/js/gs.js
