@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Uk0DbSlbOrxbfdq2b5m4HA
+! Checksum: zzySMmzUSjBPd4QqrASvMg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211251425
-! Last Modified: 2022年11月25日 14:25
+! Version: 202211252038
+! Last Modified: 2022年11月25日 20:38
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -41864,7 +41864,6 @@ tf2r.com#@#.adverts
 ||tysolomona.co^
 ||tysolomonau.com^
 ||tytostaracar.lol^
-||tzegilo.com^
 ||tzhkydcgdmbz.com^
 ||u0054.com^
 ||u0064.com^
@@ -63736,6 +63735,7 @@ _mongo_stats/
 ||turbolion.io^
 ||tvpixel.com^
 ||tw.cx^
+||tzegilo.com^
 ||ugdturner.com^
 ||ustat.info^
 ||venusrevival.com^
@@ -69975,6 +69975,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||innogamescdn.com/media/js/metrics-
 ||inphonic.com/tracking/
 ||inq.com^*/onEvent?_
+||insiderdata360online.com/service/platform.js
 ||insight.mintel.com^$third-party
 ||insight.rapid7.com^$third-party
 ||insights.algolia.io^
@@ -72613,6 +72614,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.webullfintech.com/event/
 ||data.younow.com^
 ||datadome.patreon.com^
+||dbhsejcg-meetup-com.cdnjs.network^
 ||dc.banggood.com^
 ||dcf.espn.com/privacy/
 ||dd.auspost.com.au^
@@ -73183,6 +73185,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||silvergames.com/div/g.php?
 ||skyrock.net/stats/
 ||skyscanner.*/slipstream/view
+||slack-edge.com/bv1-10/slack_beacon.
 ||slack.com/beacon/
 ||slack.com/clog/track/
 ||slant.co/js/track.min.js
@@ -102550,7 +102553,7 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Mon, 21 Nov 2022 05:20:16 GMT
-# entries:        3669
+# entries:        3667
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -102665,7 +102668,6 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 127.0.0.1 ad.auditude.com
 127.0.0.1 ad.bitmedia.io
 127.0.0.1 ad.bizo.com
-127.0.0.1 ad.bnmla.com
 127.0.0.1 ad.bondage.com
 127.0.0.1 ad.centrum.cz
 127.0.0.1 ad.cgi.cz
@@ -103050,7 +103052,6 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 127.0.0.1 ads.icq.com
 127.0.0.1 ads.ign.com
 127.0.0.1 ads.imagistica.com
-127.0.0.1 ads.img.co.za
 127.0.0.1 ads.imgur.com
 127.0.0.1 ads.independent.com.mt
 127.0.0.1 ads.infi.net
@@ -103653,7 +103654,6 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 127.0.0.1 banner.eurogrand.com
 127.0.0.1 banner.finzoom.ro
 127.0.0.1 banner.goldenpalace.com
-127.0.0.1 banner.img.co.za
 127.0.0.1 banner.inyourpocket.com
 127.0.0.1 banner.linux.se
 127.0.0.1 banner.media-system.de
@@ -105178,6 +105178,7 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 127.0.0.1 piet2eix3l.com
 127.0.0.1 pietexture.com
 127.0.0.1 pimproll.com
+127.0.0.1 ping.ublock.org
 127.0.0.1 pipedream.wistia.com
 127.0.0.1 pippio.com
 127.0.0.1 piquantpigs.com
