@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zzySMmzUSjBPd4QqrASvMg
+! Checksum: POHvsq5BXRDA0xNHTBXWxQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211252038
-! Last Modified: 2022年11月25日 20:38
+! Version: 202211260224
+! Last Modified: 2022年11月26日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -29173,6 +29173,7 @@ tf2r.com#@#.adverts
 ||drishneheqn.com^
 ||drivecareveryday.com^
 ||driverpartially.com^
+||drizzlerules.com^
 ||drjgjngf.com^
 ||drkkydnkdvfosd.xyz^
 ||drkness.net^
@@ -32430,6 +32431,7 @@ tf2r.com#@#.adverts
 ||ietyofedinj89yewtburgh.com^
 ||ifinaukncecaf.xyz^
 ||ifjyo.com^
+||ifknittedhurtful.com^
 ||ifpwnlncxiikdd.com^
 ||iframe.mediaplazza.com^
 ||ifsmatbeg.site^
@@ -39722,6 +39724,7 @@ tf2r.com#@#.adverts
 ||shatoawussoo.com^
 ||shauksug.com^
 ||shaumtol.com^
+||shauptab.net^
 ||shaursar.net^
 ||shawashygy.com^
 ||shawlyni.name^
@@ -95437,6 +95440,7 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 @@||cdn.optimizely.com/js/*.js$script,domain=anwb.nl
 @@||cdn.optimizely.com/public/*$script,domain=anwb.nl
 @@||google.com/adsense/search/ads.js$script,domain=diigo.com
+@@||uplynk.com^$xhr,removeparam,domain=fifa.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
