@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AbjA/C2rJ05ywXGXz2y8mw
+! Checksum: S3WJNlQjD6TBp3zmsC0QPg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211261423
-! Last Modified: 2022年11月26日 14:23
+! Version: 202211262035
+! Last Modified: 2022年11月26日 20:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -33052,6 +33052,7 @@ tf2r.com#@#.adverts
 ||jecoglegru.com^
 ||jecromaha.info^
 ||jecumapu.com^
+||jeehaish.com^
 ||jeehathu.com^
 ||jeejeetauz.com^
 ||jeejujou.net^
@@ -73805,6 +73806,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||urbanoutfitters.com/0N3XMOl0/init.js
 ||walmart.ca/px/PXnp9B16Cq/init.js
 ||walmart.com/px/PXu6b0qd2S/init.js
+||walmartpetrx.com/1Ct9c6G3/init.js
 ||wayfair.com/px/client/main.min.js
 ||wine-searcher.com/K6S8okp3/init.js
 ||worthpoint.com/lIUjcOwl/init.js
@@ -87288,6 +87290,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||api.transcend.io/privacy/graphql$xmlhttprequest,domain=privacy.patreon.com
+@@||api.us1.exponea.com^$script,xmlhttprequest,domain=walmartpetrx.com
 @@||app.sushi.com/_next/static/chunks/pages/analytics$~third-party
 @@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
 @@||appspot.com/static/js/tracker/$script,domain=bugs.avm99963.com
@@ -88873,6 +88876,14 @@ nolive.me##+js(acs, JSON, break;case)
 embedstream.me##body > .position-absolute
 embedstream.me###aff-click
 @@||embedstream.me/cash.min.js$script,1p
+nolive.me,worldcupstream.pm##+js(acs, setTimeout, admc)
+worldcupstream.pm##+js(acs, navigator, FingerprintJS)
+worldcupstream.pm##+js(aopw, _pop)
+worldcupstream.pm##.position-absolute.bg-opacity-50.top-0[id]
+worldcupstream.pm##.m-1.fw-bold.btn-danger.btn 
+||eraltradiansid.com^
+||jmpcfxhkpf.com^
+||reprey.com^
 javmelon.com##+js(acis, document.querySelectorAll, popMagic)
 javporn18.com##+js(acis, mypop)
 javporn18.com###contentDiv
@@ -93000,6 +93011,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||familysimulators.$all
 ^apb=*&ata=mobilemdots^$doc
 ||uoutube.com^$all
+||ofchildr.buzz^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -93449,6 +93461,7 @@ ericdraken.com##+js(aopr, dataLayer)
 ericdraken.com##^script[async]
 /s/s/js/m/om.js?v=
 ||startpage.com/sp/dplpxs$xhr,1p
+://vip.*/?pge=$image,3p
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
@@ -95483,6 +95496,7 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 @@||google.com/adsense/search/ads.js$script,domain=diigo.com
 @@||uplynk.com^$xhr,removeparam,domain=fifa.com
 ||join.megaphonetv.com^$3p,badfilter
+@@||api.us1.exponea.com^$script,xhr,domain=walmartpetrx.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
