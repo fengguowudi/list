@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RxEWGeNn1pEbMPsgcyUxhQ
+! Checksum: AbjA/C2rJ05ywXGXz2y8mw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211260941
-! Last Modified: 2022年11月26日 09:41
+! Version: 202211261423
+! Last Modified: 2022年11月26日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3467,7 +3467,6 @@
 /script/wait.php?*=$xmlhttprequest
 /scripts/ad/*
 /scripts/ad_
-/scripts/ads/*
 /scripts/afc/*
 /scripts/chatur.js
 /scripts/zanox-
@@ -95483,6 +95482,7 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 @@||cdn.optimizely.com/public/*$script,domain=anwb.nl
 @@||google.com/adsense/search/ads.js$script,domain=diigo.com
 @@||uplynk.com^$xhr,removeparam,domain=fifa.com
+||join.megaphonetv.com^$3p,badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
