@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gQSCO1YKS/E5rpayLqn+yw
+! Checksum: Ky+1okS7tyydXB13otVeZQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211270223
-! Last Modified: 2022年11月27日 02:23
+! Version: 202211270950
+! Last Modified: 2022年11月27日 09:50
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -30918,6 +30918,7 @@ tf2r.com#@#.adverts
 ||gagpetwet.com^
 ||gaietyastonished.com^
 ||gaigroak.com^
+||gaijaupo.com^
 ||gaijiglo.net^
 ||gaimoupy.net^
 ||gainregister.com^
@@ -52902,6 +52903,7 @@ eonline.com##.article-detail__segment-ad
 christianpost.com##.article-divider
 scoop.co.nz##.article-left-box
 nintendolife.com,purexbox.com##.article-recommendations
+phillyvoice.com##.article-sponsor-sticky
 people.com##.articleContainer__rail
 theblockcrypto.com##.articleIAB
 audizine.com##.articleIMG
@@ -53697,6 +53699,7 @@ lyricsmode.com##.header-block
 worldpress.org##.header-bnr
 autental.com##.header-grid-items
 allmovie.com,realestate.com.au##.header-leaderboard
+realestate.com.au##.header-leaderboard-portal
 nationalheraldindia.com##.header-m__ad-top__36Hpg
 thenewspaper.gr##.header-promo
 times.co.zm##.header-pub
@@ -54059,6 +54062,7 @@ cryptobriefing.com##.na-item.item
 nascar.com##.nascar-ad-container
 allthatsinteresting.com##.native-box
 blockchair.com##.native-sentence
+phillyvoice.com##.native-sponsor
 tekno.kompas.com##.native-wrap
 seura.fi##.nativead:not(.list)
 thetechpoint.org##.navigation-banner
@@ -55550,6 +55554,7 @@ malaysiakini.com##div[style^="height:600px"]
 whatmobile.com.pk##div[style^="height:610px"]
 point2homes.com,propertyshark.com##div[style^="margin-bottom: 10px;"]
 google.co.in,google.co.uk,google.com,google.com.bd,google.com.pk##div[style^="margin-bottom:15px"][class^="jsx-"]
+unionpedia.org##div[style^="margin-top: 15px; min-width: 300px"]
 thetealmango.com##div[style^="margin: 8px auto; text-align:"]
 lasentinel.net##div[style^="min-height: 250px; width: 300px;"]
 point2homes.com,propertyshark.com##div[style^="min-height: 360px;"]
@@ -102646,7 +102651,7 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 01 Dec 2002 00:00:00
+# start date:    Mon, 02 Dec 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
