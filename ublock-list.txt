@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0dH+iMTp/TdjRuqdfn3xsw
+! Checksum: QA/+L6iZYQWDWX47d/3sxA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211291425
-! Last Modified: 2022年11月29日 14:25
+! Version: 202211292038
+! Last Modified: 2022年11月29日 20:38
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -55230,6 +55230,7 @@ coinpaprika.com##[href^="https://go2nft.io"]
 imagetwist.com##[href^="https://imagetwist.com/pxt/"]
 topfiveforex.com##[href^="https://iqoption.com/"]
 staticice.com.au##[href^="https://kogan.sjv.io/"]
+theburningplatform.com##[href^="https://libertasbella.com/collections/"]
 topfiveforex.com##[href^="https://luckyfish.io/"]
 manhuaplus.com##[href^="https://manhuaplussoulland.onelink.me/"]
 crypto-news-flash.com##[href^="https://med.etoro.com/"]
@@ -64477,7 +64478,6 @@ _mongo_stats/
 ||cnzz.com^$third-party
 ||cobaltgroup.com^$third-party
 ||codata.ru^$third-party
-||coefficy.com^$third-party
 ||cogmatch.net^$third-party
 ||cognativex.com^$third-party
 ||cognitivematch.com^$third-party
@@ -66045,6 +66045,7 @@ _mongo_stats/
 ||slingpic.com^$third-party
 ||smadex.com^$third-party
 ||smallseotools.com^$third-party
+||smart-data-systems.com^$third-party
 ||smart-digital-solutions.com^$third-party
 ||smart-dmp.com^$third-party
 ||smart-ip.net^$third-party
@@ -69470,6 +69471,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bc.marfeelcache.com^
 ||bc0a.com/api/
 ||bc0a.com/autopilot/
+||bc0a.com/be_ixf_js_sdk.js
 ||bdg.com/event?
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
@@ -69672,6 +69674,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnt.trvdp.com^
 ||cnzz.com/stat.
 ||cod.bitrec.com^
+||coefficy.com/ip/
 ||coherentpath.com/tracker/
 ||collect-ap2.attraqt.io^
 ||collect-eu.attraqt.io^
@@ -89054,8 +89057,12 @@ taxidrivermovie.com##[href="/category/taxi-fares/"]:upward(.thumb)
 embedstream.me,nolive.me##+js(aopw, _pop)
 embedstream.me##+js(nowebrtc)
 embedstream.me,nolive.me##+js(nowoif)
-nolive.me##+js(acs, JSON, break;case)
-*$script,3p,denyallow=nolive.me|plyjam.me,domain=embedstream.me
+embedstream.me,nolive.me##+js(acs, JSON, break;case)
+embedstream.me##+js(nostif, (), 150)
+embedstream.me##^script:has-text(FingerprintJS)
+embedstream.me##^script:has-text("admc")
+embedstream.me##^script:has-text(\"admc\")
+embedstream.me##^script[data-cfasync]:has-text(h=decodeURIComponent)
 *$script,3p,denyallow=cloudflare.net|fastly.net|gstatic.com|jsdelivr.net,domain=nolive.me
 embedstream.me##body > .position-absolute
 embedstream.me###aff-click
@@ -95685,6 +95692,7 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 ||join.megaphonetv.com^$3p,badfilter
 @@||api.us1.exponea.com^$script,xhr,domain=walmartpetrx.com
 @@||video.qq.com/getvinfo$script,1p
+||passion.com^$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
