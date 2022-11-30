@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MAEOVCeV4KcqOkvJWyonSg
+! Checksum: aJ3k/H+Los6vuG1wwvbGcA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211301425
-! Last Modified: 2022年11月30日 14:25
+! Version: 202211302040
+! Last Modified: 2022年11月30日 20:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16259,6 +16259,7 @@ _800x80_
 ##.custom_ad
 ##.custom_ad_responsive
 ##.custom_ads
+##.custom_ads_positions
 ##.custom_banner_ad
 ##.custom_footer_ad
 ##.customadvert
@@ -70845,7 +70846,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sharethis.com/increment_clicks?
 ||sharethis.com/pageviews?
 ||shopify.com/*/page?*&eventType=
-||shopify.com/s/javascripts/tricorder/$script
 ||shoplocal.com/it.ashx?
 ||shopnetic.com^$third-party
 ||shorthand.com/analytics/
@@ -73920,7 +73920,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||drfdisvc.walmart.com^
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js
-||ebaystatic.com/rs/v/enk4ekgiky2ufpj3l2fgfblxaqd.js
+||ebaystatic.com/rs/v/dxtuvtkk2q3hpkc1xveeo13iaek.js
+||ebaystatic.com/rs/v/klminxoj1uyzvo0p0qu4nhpg0qo.js
 ||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
 ||event.evtm.53.com^
 ||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
@@ -87812,6 +87813,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||pagure.io/static/issues_stats.js$~third-party
 @@||palmettostatearmory.com/static/$script,~third-party
+@@||parcel.app/webtrack.php?$~third-party
 @@||parsely.com/keys/$script,domain=wmmr.com|wrif.com
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
 @@||paypalobjects.com/*/pageView.js$script,domain=paypal.com
@@ -87881,6 +87883,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sophos.com^*/tracking/gainjectmin.js$script,domain=community.sophos.com
 @@||speakout7eleven.ca^*/Magento_GoogleTagManager/$~third-party
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
+@@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
 @@||ssl.gstatic.com/analytics/$script,domain=analytics.google.com
 @@||sst.soranews24.com/gtm.js$script,~third-party
@@ -95724,11 +95727,9 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 @@||google.com/adsense/search/ads.js$script,domain=diigo.com
 @@||uplynk.com^$xhr,removeparam,domain=fifa.com
 ||join.megaphonetv.com^$3p,badfilter
-@@||api.us1.exponea.com^$script,xhr,domain=walmartpetrx.com
 @@||video.qq.com/getvinfo$script,1p
-||passion.com^$badfilter
 filelu.com#@#.banner_ads
-@@||src.litix.io/shakaplayer/*/shakaplayer-mux.js$script,domain=showtimeanytime.com
+#@#.adv-title
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
