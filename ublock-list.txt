@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aJ3k/H+Los6vuG1wwvbGcA
+! Checksum: TK/gEHzcIJfY4qDlMK3QsA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211302040
-! Last Modified: 2022年11月30日 20:40
+! Version: 202212010225
+! Last Modified: 2022年12月01日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -87766,7 +87766,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||mozu.com^*/analytics.js$script,domain=acehardware.com
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|motortrendondemand.com
-@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|usbank.com|vitacost.com|westernunion.com
+@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|princessauto.com|usbank.com|vitacost.com|westernunion.com
 @@||msecnd.net/scripts/jsll-$script,domain=forms.microsoft.com|office.com|sharepoint.com|teams.microsoft.com
 @@||munchkin.marketo.net/munchkin.js$domain=telus.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
@@ -92374,7 +92374,7 @@ mangastream.mobi###myModal
 ###ad_footer:not([style^="position: absolute; left: -5000px"])
 ###ad_slot:not([style^="position: absolute; left: -5000px"])
 ~musmus.main.jp,~streetinsider.com###ad_space:not([style^="position: absolute; left: -5000px"])
-###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
+~kazukichi0914.hatenablog.com###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
 ###adheader:not([style^="position: absolute; left: -5000px"])
 ###ads-1:not([style^="position: absolute; left: -5000px"])
 ###ads-banner:not([style^="position: absolute; left: -5000px"])
@@ -95729,7 +95729,6 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 ||join.megaphonetv.com^$3p,badfilter
 @@||video.qq.com/getvinfo$script,1p
 filelu.com#@#.banner_ads
-#@#.adv-title
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -102846,8 +102845,8 @@ filelu.com#@#.banner_ads
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Mon, 28 Nov 2022 11:09:11 GMT
-# entries:        3677
+# last updated:   Wed, 30 Nov 2022 13:23:35 GMT
+# entries:        3678
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -104736,6 +104735,7 @@ filelu.com#@#.banner_ads
 127.0.0.1 go.dhs.gov
 127.0.0.1 go.eu.sparkpostmail1.com
 127.0.0.1 go.icann.org
+127.0.0.1 go.scmagazine.com
 127.0.0.1 go.usa.gov
 127.0.0.1 go2affise.com
 127.0.0.1 goingplatinum.com
