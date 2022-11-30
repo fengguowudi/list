@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Z0wcgOY5W8CmvBmcbWbeeQ
+! Checksum: MAEOVCeV4KcqOkvJWyonSg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202211300945
-! Last Modified: 2022年11月30日 09:45
+! Version: 202211301425
+! Last Modified: 2022年11月30日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -93461,6 +93461,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||fitgirls-repack.*^$all,domain=~fitgirl-repacks.site
 ||fitgirl-repacks-site.org^$doc
 @@||fitgirl-repacks.site^$image
+@@||fitgirl-repacks.site^$popup
 ||magiskmanager.com^$doc
 ||4rxworld.su^$doc
 ||geoflix.me^$all
