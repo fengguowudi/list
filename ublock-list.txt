@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q1J8AKhtF+FzAuPLB7bxSQ
+! Checksum: ZxumvkJ8RwDfrpAwpbbR7w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212022035
-! Last Modified: 2022年12月02日 20:35
+! Version: 202212030221
+! Last Modified: 2022年12月03日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -5462,6 +5462,7 @@ _800x80_
 ###ad-leaderboard-bottom
 ###ad-leaderboard-container
 ###ad-leaderboard-footer
+###ad-leaderboard-header
 ###ad-leaderboard-spot
 ###ad-leaderboard-top
 ###ad-leaderboard970x90home
@@ -11032,6 +11033,7 @@ _800x80_
 ##.ad-h-250
 ##.ad-h-60
 ##.ad-halfpage
+##.ad-halfpage-placeholder
 ##.ad-hdr
 ##.ad-head
 ##.ad-header
@@ -11063,6 +11065,7 @@ _800x80_
 ##.ad-holder-mob-300
 ##.ad-home-bottom
 ##.ad-home-featured-files
+##.ad-home-leaderboard-placeholder
 ##.ad-home-right
 ##.ad-homeleaderboard
 ##.ad-homepage
@@ -11143,7 +11146,9 @@ _800x80_
 ##.ad-leaderboard-container
 ##.ad-leaderboard-flex
 ##.ad-leaderboard-footer
+##.ad-leaderboard-header
 ##.ad-leaderboard-middle
+##.ad-leaderboard-placeholder
 ##.ad-leaderboard-slot
 ##.ad-leaderboard-splitter
 ##.ad-leaderboard-top
@@ -91665,9 +91670,14 @@ hdsport.biz##+js(set, canRunAds, true)
 @@||fotbaltv.biz/reclama/*.php?id=$frame
 ||ad.vhls.ru.com^
 *$script,redirect-rule=noopjs,domain=1cloudfile.com
+*$frame,redirect-rule=noopframe,domain=1cloudfile.com
 1cloudfile.com##+js(nowoif)
 1cloudfile.com##+js(nostif, _0x)
 1cloudfile.com##[href^="https://tivenorje.click/"]
+1cloudfile.com##[href^="https://mizalandz.click/"]
+||browsingcontredir.com^
+||mizalandz.click^
+||xforever3xfile.com^
 straatosphere.com##+js(nostif, showModal)
 straatosphere.com##html:style(overflow: auto !important;)
 animotvslashz.blogspot.com##+js(aopr, absda)
@@ -93633,6 +93643,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||messagesafe.net^$all
 ||msgsafe.net^$all
 ||downloadpro.online^$all
+||vipan.net^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -93817,6 +93828,7 @@ ericdraken.com##^script[async]
 ||startpage.com/sp/dplpxs$xhr,1p
 ://vip.*/?pge=$image,3p
 ||ganohr.net/gnr-access-analyze/
+||brave.com/static-assets/js/analysis.js
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
@@ -102674,6 +102686,8 @@ filelu.com#@#.banner_ads
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||kvbgoc.com^
+||jcreje.com^
 ||99886aaa.com^
 ||528791725.com^
 ||8499223.com^
