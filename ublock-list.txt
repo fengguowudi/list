@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WRbFX/gI7WeaBAPeKbCkdQ
+! Checksum: q1J8AKhtF+FzAuPLB7bxSQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212021424
-! Last Modified: 2022年12月02日 14:24
+! Version: 202212022035
+! Last Modified: 2022年12月02日 20:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -93632,6 +93632,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||tutanoto.com^$all
 ||messagesafe.net^$all
 ||msgsafe.net^$all
+||downloadpro.online^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -95854,7 +95855,7 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 ||join.megaphonetv.com^$3p,badfilter
 @@||video.qq.com/getvinfo$script,1p
 filelu.com#@#.banner_ads
-||slutroulette.com^$badfilter
+||arcgis.com/apps/instant/node_modules/templates-common-library/structuralFunctionality/telemetry/AppMeasurement.js$script,1p,redirect-rule=noopjs
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -102972,7 +102973,7 @@ filelu.com#@#.banner_ads
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Wed, 30 Nov 2022 17:59:08 GMT
-# entries:        3679
+# entries:        3675
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -103976,7 +103977,6 @@ filelu.com#@#.banner_ads
 127.0.0.1 analytics.posttv.com
 127.0.0.1 analytics.samdd.me
 127.0.0.1 analytics.santander.co.uk
-127.0.0.1 analytics.siliconexpert.com
 127.0.0.1 analytics.swiggy.com
 127.0.0.1 analytics.tiktok.com
 127.0.0.1 analytics.xelondigital.com
@@ -104052,7 +104052,6 @@ filelu.com#@#.banner_ads
 127.0.0.1 avazutracking.net
 127.0.0.1 avenuea.com
 127.0.0.1 avocet.io
-127.0.0.1 avpa.javalobby.org
 127.0.0.1 awakebird.com
 127.0.0.1 awempire.com
 127.0.0.1 awesomeagreement.com
@@ -104436,7 +104435,6 @@ filelu.com#@#.banner_ads
 127.0.0.1 consensad.com
 127.0.0.1 consensu.org
 127.0.0.1 contadores.miarroba.com
-127.0.0.1 contaxe.de
 127.0.0.1 content.acc-hd.de
 127.0.0.1 content.ad
 127.0.0.1 content22.online.citi.com
@@ -104591,6 +104589,7 @@ filelu.com#@#.banner_ads
 127.0.0.1 dogcollarfavourbluff.com
 127.0.0.1 domaining.in
 127.0.0.1 domainsponsor.com
+127.0.0.1 domainsteam.de
 127.0.0.1 domdex.com
 127.0.0.1 dotmetrics.net
 127.0.0.1 doubleclick.com
@@ -105127,7 +105126,6 @@ filelu.com#@#.banner_ads
 127.0.0.1 lead-analytics.nl
 127.0.0.1 leadboltads.net
 127.0.0.1 leadclick.com
-127.0.0.1 leadingedgecash.com
 127.0.0.1 leadplace.fr
 127.0.0.1 leadspace.com
 127.0.0.1 leadzupc.com
@@ -105259,7 +105257,6 @@ filelu.com#@#.banner_ads
 127.0.0.1 mathtag.com
 127.0.0.1 matomo.activate.cz
 127.0.0.1 matomo.crossiety.app
-127.0.0.1 matomo.hdweb.ru
 127.0.0.1 mautic.com
 127.0.0.1 max.i12.de
 127.0.0.1 maximiser.net
