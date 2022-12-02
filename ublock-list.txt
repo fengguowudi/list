@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rGvEBBZ43V0qtqL8+2/CXQ
+! Checksum: OftSMhAVZ22+ssFglsRzeg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212020225
-! Last Modified: 2022年12月02日 02:25
+! Version: 202212020937
+! Last Modified: 2022年12月02日 09:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53035,7 +53035,7 @@ scmp.com##.advertisers
 afrsmartinvestor.com.au,afternoondc.in,allmovie.com,allmusic.com,brw.com.au,cio.co.ke,gq.co.za,ocregister.com,online-convert.com,orangecounty.com,premier.org.uk,premierchristianity.com,premierchristianradio.com,premiergospel.org.uk,radio.com,sidereel.com,themonthly.com.au,yourdictionary.com##.advertising
 satdl.com##.advertizement
 148apps.com##.advnote
-swisscows.com##.advrts
+swisscows.com##.advrts--text
 gcn.com,groovyhistory.com,lifebuzz.com,toocool2betrue.com,videogameschronicle.com##.adwrapper
 9anime.gs,9anime.to,gogoanime.gs##.adx
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
@@ -53389,6 +53389,7 @@ thehustle.co##.c-layout--trends
 download.cnet.com##.c-pageFrontDoor_adWrapper
 download.cnet.com##.c-pageProductDetail-sidebarAd
 download.cnet.com##.c-pageProductDetail_productAlternativeAd
+cnet.com##.c-pageReviewContent_ad
 globalnews.ca##.c-stickyRail
 backpacker.com,betamtb.com,betternutrition.com,cleaneatingmag.com,climbing.com,gymclimber.com,outsideonline.com,oxygenmag.com,pelotonmagazine.com,rockandice.com,skimag.com,trailrunnermag.com,triathlete.com,vegetariantimes.com,velonews.com,womensrunning.com,yogajournal.com##.c-thinbanner
 mangarockteam.com,nitroscans.com##.c-top-second-sidebar
@@ -53684,6 +53685,7 @@ euractiv.com##.ea-gat-slot-wrapper
 expats.cz##.eas
 itwire.com##.eb-init
 nativenewsonline.net##.eb-visible
+fortune.com##.ecMcAt
 gumtree.com##.ecn-display-block
 teenvogue.com##.ecom-placement
 gfinityesports.com##.ecommerceUnit
@@ -54256,6 +54258,7 @@ motorsport.com##.ms-apb-dmpu
 autosport.com,motorsport.com##.ms-hapb
 autosport.com##.ms-side-items--with-banner
 codeproject.com##.msg-300x250
+presearch.com##.mt-4.mx-2
 marinetraffic.com##.mt-desktop-mode
 zerolives.com##.munder-fn5udnsn
 d123movies.to,yifymovies.one##.mvic-btn
@@ -54263,6 +54266,7 @@ cannabishealthnews.co.uk##.mvp-side-widget img
 malwaretips.com##.mwt_ads
 invezz.com,reviewparking.com##.mx-auto
 standardmedia.co.ke##.my-2
+presearch.com##.my-4.mx-2
 greatist.com,psychcentral.com##.myFinance-widget
 troypoint.com##.mysticky-welcomebar-fixed-wrap
 koreaherald.com##.mythiell-mid-container
@@ -54673,7 +54677,6 @@ point2homes.com##.saved-search-banner-list
 pcgamesn.com##.saw-wrap
 animehub.ac##.sb-subs
 kotaku.com##.sc-6zn1bq-0
-fortune.com##.sc-efBctP
 scotsman.com##.sc-igwadP
 distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.sc-oefIU
 sankakucomplex.com##.scad
@@ -55249,6 +55252,7 @@ target.com##[data-test="featuredProducts"]
 nytimes.com,nytimes3xbfgragh.onion##[data-testid="StandardAd"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
 washingtonpost.com##[data-testid="placeholder-box"]
+search.brave.com##[data-type="ad"]
 gadgetsnow.com##[data-type="mtf"]
 axios.com##[data-vars-category="sidebar_promo"]
 builtbybit.com##[data-xf-click^="fong-adsmanager"]
@@ -55414,7 +55418,6 @@ drwealth.com##[width="640"]
 4chan.org##[width="728"]
 elitepvpers.com##[width="729"]
 elitepvpers.com##[width="966"]
-presearch.com##[x-data*="kAdFirst"]
 mobiforge.com##a > img[alt="Ad"]
 eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
 freshplaza.com##a.banner
@@ -102950,7 +102953,7 @@ filelu.com#@#.banner_ads
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 06 Dec 2002 00:00:00
+# start date:    Sat, 07 Dec 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
