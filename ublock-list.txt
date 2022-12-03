@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ealaPYQfnwMDuX+U79iwGg
+! Checksum: JL826ik0SlANGqcCDvQcOg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212032033
-! Last Modified: 2022年12月03日 20:33
+! Version: 202212040221
+! Last Modified: 2022年12月04日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18576,6 +18576,7 @@ _800x80_
 ##.mu-ad-container
 ##.multiad2
 ##.multiadwrapper
+##.multiple-ads-container
 ##.mvAd
 ##.mvAdHdr
 ##.mv_atf_ad_holder
@@ -20001,6 +20002,7 @@ _800x80_
 ##.slideshow_ad_300
 ##.slideshow_ad_note
 ##.slideshowadvert
+##.slot-box-marker-ad
 ##.slot-customcontentad
 ##.slot__ad
 ##.sm-ad
@@ -66645,7 +66647,6 @@ _mongo_stats/
 ||waplog.net^$third-party
 ||waudit.cz^$third-party
 ||waust.at^$third-party
-||wazimo.com^$third-party
 ||wbdx.fr^$third-party
 ||wbtrk.net^$third-party
 ||wc4.net^$image,third-party
@@ -71507,6 +71508,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wallkit.net^*/user/event
 ||wantlive.com/pixel/
 ||warnermedia.com/api/v1/events?
+||wazimo.com/engine/common/widgets/mmlogger/main.js
 ||wco.crownpeak.com^
 ||weather.ca/counter.gif?
 ||web-soft.in/counters/
@@ -88114,6 +88116,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||vivocha.com^*/vivocha.js?$script,domain=kartell.com
 @@||waitrosecellar.com^*/eventTracking-Cellar.js$domain=waitrosecellar.com
 @@||walmart.ca/assets/store-selector-page/js/analytics.$script,~third-party
+@@||wazimo.com/engine/common/widgets/content/main.js$domain=showsnob.com
 @@||web.dev/patterns/web-vitals-$~third-party
 @@||webapp.simplisafe.com^*/angulartics-ga.min.js$script,~third-party
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
@@ -90514,8 +90517,8 @@ baikin.net##+js(aopr, google_jobrunner)
 comixzilla.com##+js(acis, document.createElement, 'script')
 unsurcoenlasombra.com##+js(aopr, google_jobrunner)
 watchmovierulz.*##+js(nowoif)
-anigogo.net,animepl.xyz,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,faptiti.com,gdpress.xyz,hlsplayer.xyz,javplaya.com,playersb.com,sbanh.com,sblanh.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbfull.com,sblongvu.com,sbplay1.com,sbplay2.*,sbspeed.com,sbthe.com,sbvideo.*,ssbstream.net,streamsb.*,streamsss.net,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*,vidmovie.xyz,view345.com,xvideostream.net##+js(aopr, __Y)
-anigogo.net,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,gdpress.xyz,hlsplayer.xyz,oxl.one,playersb.com,sbanh.com,sblanh.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sblongvu.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbspeed.com,sbthe.com,sbvideo.net,ssbstream.net,streamsb.*,streamsss.net,tubesb.com,viewsb.com,watchsb.com,vidmovie.xyz,view345.com##+js(aopr, mm)
+anigogo.net,animepl.xyz,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,faptiti.com,fbgo.*,gdpress.xyz,hlsplayer.xyz,javplaya.com,playersb.com,sbanh.com,sblanh.com,sbcloud1.com,sbchip.*,sbembed.com,sbembed1.com,sbembed2.com,sbfast.com,sbflix.*,sbfull.com,sblongvu.com,sbplay1.com,sbplay2.*,sbspeed.com,sbthe.com,sbvideo.*,ssbstream.net,streamsb.*,streamsss.net,tubesb.com,viewsb.com,watchsb.com,oxl.one,sbembed3.com,sbembed4.com,sbplay.*,sbplay3.*,sbrulz.*,vidmovie.xyz,view345.com,xvideostream.net##+js(aopr, __Y)
+anigogo.net,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,fbgo.*,gdpress.xyz,hlsplayer.xyz,oxl.one,playersb.com,sbanh.com,sblanh.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sblongvu.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.net,ssbstream.net,streamsb.*,streamsss.net,tubesb.com,viewsb.com,watchsb.com,vidmovie.xyz,view345.com##+js(aopr, mm)
 sbembed1.com,sbvideo.*##+js(aopr, console.clear)
 cloudemb.com##+js(nowoif, !/^\/d\//)
 cloudemb.com##+js(set, console.clear, noopFunc)
@@ -90527,6 +90530,7 @@ oxl.one,sbplay1.com,sbvideo.net##+js(nosiif, 0x)
 sbplay.*##^script:has-text(debugger)
 ||app.adjust.net.in^
 ||abusageqh.com^
+||bb5gt41h.cfd^
 ||eisasbeau.buzz^
 ||incasapritif.tech^
 ||obstanceder.pro^
