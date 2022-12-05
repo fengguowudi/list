@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bWjsKujIuhfZ7mk4OgwTQw
+! Checksum: 905SnFiOVXrlhZKVpEp1cw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212051424
-! Last Modified: 2022年12月05日 14:24
+! Version: 202212052036
+! Last Modified: 2022年12月05日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -37633,6 +37633,7 @@ tf2r.com#@#.adverts
 ||plungebackyard.com^
 ||pluraldispersegranary.com^
 ||plusclick.biz^
+||plutil.com^
 ||plutonactg.com^
 ||plutothejewel.com^
 ||plxserve.com^
@@ -44400,6 +44401,7 @@ tf2r.com#@#.adverts
 ||ypopaycisqh.com^
 ||yppreudkgmya.xyz^
 ||ypreferred.com^
+||ypring.com^
 ||yqanlvekcrfkd.xyz^
 ||yqeuu.com^
 ||yqmhehotfy.xyz^
@@ -94048,7 +94050,8 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||analytics.tiendaenoferta.com^
 ||zhihu.com^$removeparam=hybrid_search_source
 ||zhihu.com^$removeparam=hybrid_search_extra
-skk.moe##+js(aopr, btoa)
+blog.skk.moe##+js(no-fetch-if, body:/[\w\W]{700}/)
+blog.skk.moe##+js(no-fetch-if, method:Post)
 /cfga/jquery.js?$image
 /npm/sks@0.*/lazyload.js$script,3p
 /s/js/ta-2.3.js?
@@ -103257,8 +103260,8 @@ filelu.com#@#.banner_ads
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 30 Nov 2022 17:59:08 GMT
-# entries:        3675
+# last updated:   Mon, 05 Dec 2022 11:17:05 GMT
+# entries:        3676
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -104629,6 +104632,7 @@ filelu.com#@#.banner_ads
 127.0.0.1 click.fool.com
 127.0.0.1 click.hookupinyourcity.com
 127.0.0.1 click.hooligapps.com
+127.0.0.1 click.infoblox.com
 127.0.0.1 click.kmindex.ru
 127.0.0.1 click.news.vans.com
 127.0.0.1 click.nl.npr.org
