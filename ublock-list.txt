@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U/CF3SIvjosB7GCwdIlVQA
+! Checksum: HfK+csr8t4gWFsBpBjDQlQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212071424
-! Last Modified: 2022年12月07日 14:24
+! Version: 202212072035
+! Last Modified: 2022年12月07日 20:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -11689,6 +11689,7 @@ _800x80_
 ##.ad-wrap_wallpaper
 ##.ad-wrapp
 ##.ad-wrapper
+##.ad-wrapper--ad-unit-wrap
 ##.ad-wrapper--articletop
 ##.ad-wrapper--flexibleportrait
 ##.ad-wrapper--lg
@@ -15555,6 +15556,7 @@ _800x80_
 ##.blog_ad
 ##.blogads
 ##.blue-ad
+##.bmd_advert
 ##.bn_ads
 ##.bn_advert
 ##.bn_textads
@@ -32475,6 +32477,7 @@ tf2r.com#@#.adverts
 ||hrmationeng.xyz^
 ||hrptaxegfly.com^
 ||hrsaeecwvkg.com^
+||hrscompetepickles.com^
 ||hrsstrokecocoon.com^
 ||hrtennaarn.com^
 ||hrtyc.com^
@@ -39552,6 +39555,7 @@ tf2r.com#@#.adverts
 ||rothermophony.com^
 ||rothoglyro.pro^
 ||rothupegri.com^
+||rotondahogs.com^
 ||rotumal.com^
 ||rouar.com^
 ||rouinfernapean.com^
@@ -39879,6 +39883,7 @@ tf2r.com#@#.adverts
 ||sangogne.com^
 ||sanjibroupy.com^
 ||sankaudacityrefine.com^
+||sansaramedulla.website^
 ||santonpardal.com^
 ||santosseorita.com^
 ||saouknatst.com^
@@ -44917,6 +44922,7 @@ tf2r.com#@#.adverts
 ||zsxqjjobfb.com^
 ||ztech.gq^
 ||zubivu.com^
+||zudaichy.com^
 ||zughoocm.com^
 ||zugnogne.com^
 ||zugo.com^
@@ -52096,6 +52102,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockeronstape.me
 ||hentaiworld.tv/damp-smoke-a62a/
 ||here.xxx/ads.js
 ||here.xxx/pop_desc.js
+||herexxxtube.com/tmp/
 ||hitomi.la/ebJqXsy/
 ||hitprn.com/c_
 ||home-xxx-videos.com/snowy-
@@ -56099,7 +56106,6 @@ nexusradio.com##div[align=center]
 independent.co.uk##div[class*="Ad__Wrapper-"]
 sportbible.com##div[class*="Advert"]
 theatlantic.com##div[class*="Leaderboard_placeholder_"]
-thingiverse.com##div[class*="SearchResult__adBanner"]
 independent.co.uk##div[class*="TopBanner_"]
 wsj.com##div[class*="WSJTheme--adWrapper"]
 coincodex.com##div[class*="_sticky-header"]
@@ -56116,6 +56122,7 @@ informer.com##div[class="a2"]
 walmart.com##div[class="mv3 ml3 mv4-xl mh0-xl"][data-testid="sp-item"]
 arkadium.com##div[class^="Ad-adContainer"]
 dailymotion.com##div[class^="AdBanner"]
+thingiverse.com##div[class^="AdCard__card"]
 topgear.com##div[class^="AdContainer-"]
 reuters.com##div[class^="AdSlot__container"]
 tunefind.com##div[class^="AdSlot_inner_"]
@@ -96406,6 +96413,7 @@ filelu.com#@#.banner_ads
 @@||511tactical.com/*/Magento_GoogleTagManager/js/google-tag-manager.min.js$script,1p
 @@||herz-fuer-tiere.de^$cname
 @@||wikipedia.org/api/rest*$xhr,1p
+gizmodo.com#@#a[href^="https://www.amazon."][href*="tag="]
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -103224,6 +103232,7 @@ filelu.com#@#.banner_ads
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||gposrzz.cn^
 ||kvbgoc.com^
 ||jcreje.com^
 ||99886aaa.com^
