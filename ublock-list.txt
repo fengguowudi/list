@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cM1Q3DfjTxqH4E5Rjg7lSA
+! Checksum: i9xO/4LQld2CUYo8uSULBA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212080937
-! Last Modified: 2022年12月08日 09:37
+! Version: 202212081424
+! Last Modified: 2022年12月08日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63652,6 +63652,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /web-analytics.
 /web-analytics/*
 /web-api/log/*
+/web-data-ingress?
 /web-js-telemetry-service/*
 /web-vitals-
 /web-vitals.
@@ -94441,7 +94442,7 @@ webtoons.com##+js(set, lcs_SerName, '')
 ||imsdb.pw/player/ip.php
 tarnkappe.info##+js(aopr, Matomo)
 ://posthog.$script,domain=~posthog.com
-salsaposten.no,steinkjer-avisa.no,hamar-dagblad.no,lofot-tidende.no,avisa-valdres.no,amta.no,firdaposten.no,ringblad.no##+js(nostif, waiting) 
+||no/api/aid/users/self?filter=*tracking$xhr
 ||play.google.com/store/apps/*referrer$removeparam=referrer
 ||apps.apple.com/*/app/*referrer$removeparam=referrer
 ||securemetrics.apple.com/b/ss/*maps$image,important
@@ -96507,7 +96508,6 @@ filelu.com#@#.banner_ads
 @@||511tactical.com/*/Magento_GoogleTagManager/js/google-tag-manager.min.js$script,1p
 @@||herz-fuer-tiere.de^$cname
 @@||wikipedia.org/api/rest*$xhr,1p
-gizmodo.com#@#a[href^="https://www.amazon."][href*="tag="]
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
