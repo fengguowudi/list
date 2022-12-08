@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FfARgHaJiC5yLcPiNABkaQ
+! Checksum: hEkinDt5ND++DL9caLBkgA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212082036
-! Last Modified: 2022年12月08日 20:36
+! Version: 202212090223
+! Last Modified: 2022年12月09日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -94273,9 +94273,8 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||fitgirlrepacks.*^$all,domain=~fitgirl-repacks.site
 ||fitgirlrepack.*^$all,domain=~fitgirl-repacks.site
 ||fitgirls-repack.*^$all,domain=~fitgirl-repacks.site
-||fitgirl-repacks-site.org^$doc
-@@||fitgirl-repacks.site^$image
-@@||fitgirl-repacks.site^$popup
+||fitgirl-repacks-site.org^$doc,domain=~fitgirl-repacks.site
+@@||fitgirl-repacks.site^$image,popup
 ||magiskmanager.com^$doc
 ||4rxworld.su^$doc
 ||geoflix.me^$all
@@ -94504,7 +94503,6 @@ webtoons.com##+js(set, lcs_SerName, '')
 ||imsdb.pw/player/ip.php
 tarnkappe.info##+js(aopr, Matomo)
 ://posthog.$script,domain=~posthog.com
-||no/api/aid/users/self?filter=*tracking$xhr
 ||play.google.com/store/apps/*referrer$removeparam=referrer
 ||apps.apple.com/*/app/*referrer$removeparam=referrer
 ||securemetrics.apple.com/b/ss/*maps$image,important
