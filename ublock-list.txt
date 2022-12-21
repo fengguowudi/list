@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JChaz2CV0OtCwx2QEXlG/g
+! Checksum: YAybmY5j4v+pACOsKju5Wg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212210924
-! Last Modified: 2022年12月21日 09:24
+! Version: 202212211422
+! Last Modified: 2022年12月21日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -27519,6 +27519,7 @@ tf2r.com#@#.adverts
 ||d29gqcij.com^
 ||d2e48d0dce.com^
 ||d2gc6r1h15ux9j.cloudfront.net^
+||d2j71mqxljhlck.cloudfront.net^
 ||d2ship.com^
 ||d31c6d951c.com^
 ||d37aacdbcc.com^
@@ -33797,6 +33798,7 @@ tf2r.com#@#.adverts
 ||nhpfvdlbjg.com^
 ||nhqxzqvkj.com^
 ||nhvoorsdekcind.com^
+||nhxwksmsyvmpkj.com^
 ||nibzitgas.com^
 ||nicertie.com^
 ||nicesthoarfrostsooner.com^
@@ -35448,6 +35450,7 @@ tf2r.com#@#.adverts
 ||pppbr.com^
 ||pppbrkwd.xyz^
 ||pprq7.com^
+||pqjtlmraesiie.com^
 ||pqztggmplviyxy.com^
 ||practitionermonsieurstable.com^
 ||practthreat.club^
@@ -36044,6 +36047,7 @@ tf2r.com#@#.adverts
 ||quensillo.com^
 ||querylead.com^
 ||questionsadjournasleep.com^
+||quiapountaxed.com^
 ||quiaresp.com^
 ||quickads.net^
 ||quickeryes.com^
@@ -36560,6 +36564,7 @@ tf2r.com#@#.adverts
 ||rgverkqcpahaqcqtmpksxicmtno.com^
 ||rgvqcsxqge.com^
 ||rgyxispegu.xyz^
+||rhadivnckulnr.com^
 ||rhearthinkchlo.xyz^
 ||rhendam.com^
 ||rhfgjld.com^
@@ -92434,6 +92439,8 @@ nicoad.nicovideo.jp#@#.ad-point
 @@||id.flybuys.com.au/assets/scripts/fingerprint2.min.js$script,domain=id.flybuys.com.au
 @@||pubads.g.doubleclick.net/ssai/event/*/master.m3u8$xhr,domain=atishmkv.best
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js:5,domain=aibusiness.com
+@@||nr-data.net^$domain=chaturbate.com
+@@||js-agent.newrelic.com^$script,domain=chaturbate.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
