@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RNgrmC0OoHMHOlT9IxR7rA
+! Checksum: fvP4T43tdP+l9BD6RDxuYQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212212034
-! Last Modified: 2022年12月21日 20:34
+! Version: 202212220222
+! Last Modified: 2022年12月22日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1695,8 +1695,8 @@
 /adtaily_
 /adtaobao.
 /adTargeting.$domain=~adtargeting.com
-/adtech.$~script,domain=~adtech.co.uk|~adtech.io|~adtech.md
-/adtech/*
+/adtech.$~script,domain=~adtech.co.uk|~adtech.io|~adtech.md|~adtech.org
+/adtech/*$domain=~adtech.org
 /adtech;
 /adtech_$domain=~adtech.co.uk
 /adTemplates/*
@@ -5002,7 +5002,6 @@ _800x80_
 ###AdMiddle
 ###AdPanel
 ###AdPopUp
-###AdRectangle
 ###AdRectangleBanner
 ###AdSense1
 ###AdSense2
@@ -5325,7 +5324,6 @@ _800x80_
 ###ad-affiliate
 ###ad-after
 ###ad-anchor
-###ad-area
 ###ad-around-the-web
 ###ad-article
 ###ad-article-in
@@ -5826,7 +5824,6 @@ _800x80_
 ###adRight5
 ###adScraper
 ###adSection
-###adSense
 ###adSenseBox
 ###adSenseModule
 ###adSenseWrapper
@@ -6073,6 +6070,8 @@ _800x80_
 ###ad_mrec
 ###ad_mrec1
 ###ad_mrec2
+###ad_mrec_intext
+###ad_mrec_intext2
 ###ad_new
 ###ad_news_article
 ###ad_newsletter
@@ -6353,7 +6352,6 @@ _800x80_
 ###adpostloader
 ###adpromo
 ###adrect
-###adrectangle
 ###adrhs
 ###adrig
 ###adright
@@ -8918,6 +8916,8 @@ _800x80_
 ###pre-adv
 ###pre-footer-ad
 ###pre-main-banner-ad
+###preAds_ad_mrec_intext
+###preAds_ad_mrec_intext2
 ###pre_advertising_wrapper
 ###pregame_header_ad
 ###preloaded-ad-frame
@@ -10146,6 +10146,7 @@ _800x80_
 ##.Ad_container
 ##.Adgrid_footboard
 ##.Adgrid_right_rail
+##.Ads--center
 ##.Ads-768x90
 ##.Ads-leaderboard
 ##.Ads-slot
@@ -10690,7 +10691,6 @@ _800x80_
 ##.ad-970x90
 ##.ad-980-1
 ##.ad-Advert_Placeholder
-##.ad-BANNER
 ##.ad-CUSTOM
 ##.ad-E
 ##.ad-LREC
@@ -13369,7 +13369,6 @@ _800x80_
 ##.ads-homepage-2
 ##.ads-horizontal
 ##.ads-horizontal-banner
-##.ads-iframe
 ##.ads-image
 ##.ads-in-content
 ##.ads-in-previews
@@ -13588,7 +13587,6 @@ _800x80_
 ##.adsBlockContainerHorizontal
 ##.adsBot
 ##.adsBottom
-##.adsBox
 ##.adsBoxTop
 ##.adsCap
 ##.adsCell
@@ -13661,6 +13659,7 @@ _800x80_
 ##.ads_728x90
 ##.ads_Header
 ##.ads__article__header
+##.ads__aside
 ##.ads__claim-item
 ##.ads__container
 ##.ads__header
@@ -13670,10 +13669,13 @@ _800x80_
 ##.ads__interstitial
 ##.ads__link
 ##.ads__listing
+##.ads__mid
+##.ads__middle
 ##.ads__midpage-fullwidth
 ##.ads__native
 ##.ads__right-rail-ad
 ##.ads__sidebar
+##.ads__top
 ##.ads_ad_box
 ##.ads_admeld
 ##.ads_adsense1
@@ -16404,6 +16406,7 @@ _800x80_
 ##.dfp-interstitial
 ##.dfp-leaderboard
 ##.dfp-leaderboard-container
+##.dfp-mrec
 ##.dfp-panel
 ##.dfp-plugin-advert
 ##.dfp-position
@@ -19698,6 +19701,7 @@ _800x80_
 ##.sector-widget__tiny-ad
 ##.selfServeAds
 ##.sense-adhesion
+##.seoAdWrapper
 ##.seoTopAds
 ##.sepContentAd
 ##.series-ad
@@ -21717,6 +21721,7 @@ _800x80_
 ##div[id^="ad-server-"]
 ##div[id^="ad_bnr_"]
 ##div[id^="ad_position_"]
+##div[id^="ad_rect_"]
 ##div[id^="ad_script_"]
 ##div[id^="adfox_"]
 ##div[id^="adngin-"]
@@ -89161,8 +89166,6 @@ mangastream.mobi###myModal
 xnxx.com,xvideos.*###ad-footer
 retrostic.com,sickchirpse.com###ad-header
 chortle.co.uk,coloring.ws,dltk-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com,primeraescuela.com###adBanner
-#@#.adsBox
-##.adsBox:not([style$="-99999px;"])
 #@#.ad-placement
 ##.ad-placement:not(.adsbox):not(.afs_ads):not(#ablockercheck)
 #@#.adBanner
