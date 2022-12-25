@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0SLZmXCQMrrR2otrbY9zAA
+! Checksum: lJmCi6uD4ArWtzQfK34mWg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212251421
-! Last Modified: 2022年12月25日 14:21
+! Version: 202212252032
+! Last Modified: 2022年12月25日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21783,6 +21783,7 @@ _800x80_
 ##.gnt_tb.gnt_tbb
 ##.gnt_tbr.gnt_tb
 ##.gnt_x
+###cmg-video-player-placeholder
 ###jwplayer-container-div
 ###jwplayer_contextual_player_div
 ###mplayer-embed
@@ -49069,6 +49070,7 @@ datamation.com,esecurityplanet.com,eweek.com,serverwatch.com,webopedia.com###sti
 fool.com###sticky-wrapper
 independent.co.uk,standard.co.uk###stickyFooterRoot
 afr.com###stickyLeaderboard
+daily-choices.com###sticky_82613959
 bostonglobe.com###sticky_container.width_full
 eurogamer.net,rockpapershotgun.com###sticky_leaderboard
 medicinehatnews.com###stickyleaderboard
@@ -89443,6 +89445,7 @@ thepiratebay3.com^$all
 ||techgadgetsy.com^$all
 /apop/redirect/zone/*$doc,popup
 ||gayfeetbusy.link^$all
+||5754909.com^$all
 okashimag.com,tech4yougadgets.com##^meta[http-equiv="refresh"]
 okashimag.com,tech4yougadgets.com##^script[src^="data:text/javascript;base64,"]
 okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
