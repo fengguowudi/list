@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lJmCi6uD4ArWtzQfK34mWg
+! Checksum: kfU9seoHTnH4b12rqa77fA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212252032
-! Last Modified: 2022年12月25日 20:32
+! Version: 202212260220
+! Last Modified: 2022年12月26日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -90128,7 +90128,6 @@ frogogo.ru##+js(aopw, ADMITAD)
 ||quizlookup.com^
 ||studyeffect.com^
 ||testbooksolutions.com^
-@@||googletagmanager.com/gtm.js$script,redirect-rule,domain=rocketnews24.com
 /stats.php?*event=$image
 /check.php?t=*&rand=$image,1p
 /jquery.js?*&rx=*&foxtail=$image,1p
