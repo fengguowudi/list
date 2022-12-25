@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RltiR8alAH/tfbUlQjZLrA
+! Checksum: 0SLZmXCQMrrR2otrbY9zAA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212250937
-! Last Modified: 2022年12月25日 09:37
+! Version: 202212251421
+! Last Modified: 2022年12月25日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -50636,6 +50636,7 @@ color-hex.com##.margin10
 fandom.com##.marketplace
 designtaxi.com##.masonry-brick.nt
 imgur.com,pushsquare.com,songlyrics.com##.masthead
+timeextension.com##.masthead > .insert
 eetimes.eu,powerelectronicsnews.com##.masthead-banner
 racgp.org.au##.mb-1.small
 amgreatness.com##.mb-10.mx-auto
@@ -51084,6 +51085,7 @@ middleeasteye.net##.region-before-navigation
 justthenews.com##.region-pre-content
 futbol24.com##.rek
 wcostream.com##.reklam_pve
+timeextension.com##.related-group > .insert
 idropnews.com##.related-posts
 timesofindia.indiatimes.com##.relatedVideoWrapper
 4shared.com##.remove-rekl
@@ -90716,7 +90718,6 @@ tubewolf.com##.bnnr
 |https://$3p,image,script,domain=damimage.com|imagedecode.com|imageteam.org,badfilter
 @@||imgview.pw^$ghide
 @@||imgdew.com/js/*$script,domain=imgdew.pw
-pasteboard.co##+js(set, nads, trueFunc)
 pasteboard.co##+js(set, nads.createAd, trueFunc)
 go.com#@#.has-ad
 @@||googletagmanager.com/gtm.js$script,domain=mirror.co.uk
