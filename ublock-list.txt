@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PmwV9DjXS1prHiJ4mX9N4Q
+! Checksum: pzW0nFWkHB0clnG8MVwiIw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212261423
-! Last Modified: 2022年12月26日 14:23
+! Version: 202212262033
+! Last Modified: 2022年12月26日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -51455,6 +51455,7 @@ who.is##.teaser-bar
 sporcle.com##.temp-unit
 macrumors.com##.tertiary
 ericpetersautos.com##.text-109
+royalroad.com##.text-center.light
 dexerto.com##.text-center.min-h-\[20rem\]
 upi.com##.text-center.mt-5
 businessonhome.com##.text-info
@@ -51792,6 +51793,7 @@ cq-esports.com##[href][target*="blank"]
 bittools.net##[href^="//www.bittools.net/binance"]
 shroomery.org##[href^="//www.shroomery.org/ads/"]
 unogs.com##[href^="/ad/"]
+royalroad.com##[href^="/advertising/redirect"]
 discord.me##[href^="/cr/"]
 audiobookbay.nl##[href^="/down-"]
 steroid.com##[href^="/out.php"]
@@ -84669,6 +84671,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||hk.on.cc/js/v4/urchin.js
 @@||hm.baidu.com/hm.gif$image,domain=clgod.com
 @@||line-scdn.net^*/torimochi.js$script,domain=web-tw-pay.line.me
+@@||nobook.com/open-interface/official-sensors.git/$script,~third-party
 @@||pv.sohu.com/cityjson$domain=vip.jsjinfu.com
 @@||schlr.cnki.net/detailstatic/js/tracker.js$script,~third-party
 @@||tianxun.com^*/js/tracker.js
@@ -90209,7 +90212,7 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||zhihu.com^$removeparam=hybrid_search_source
 ||zhihu.com^$removeparam=hybrid_search_extra
 blog.skk.moe##+js(no-fetch-if, body:/[\w\W]{700}/)
-blog.skk.moe##+js(no-fetch-if, method:Post)
+skk.moe##+js(no-fetch-if, method:/post|posT|poSt|poST|pOst|pOsT|pOSt|pOST|Post|PosT|PoSt|PoST|POst|POsT|POSt|POST/)
 /cfga/jquery.js?$image
 /npm/sks@0.*/lazyload.js$script,3p
 /s/js/ta-2.3.js?
@@ -90259,6 +90262,8 @@ ericdraken.com##^script[async]
 ||ganohr.net/gnr-access-analyze/
 ||brave.com/static-assets/js/analysis.js
 /images/*/analytics.js$domain=girlsofdesire.org
+||cl.t3n.de^
+||c2shb.pubgw.yahoo.com/admax/bid/partners/PBJS
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
