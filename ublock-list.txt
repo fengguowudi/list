@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kfU9seoHTnH4b12rqa77fA
+! Checksum: s2BZaWViTwCa+qTXcUeArw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212260220
-! Last Modified: 2022年12月26日 02:20
+! Version: 202212260933
+! Last Modified: 2022年12月26日 09:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -50290,6 +50290,7 @@ geoguessr.com##.game-layout__in-game-ad
 amoyshare.com##.game-poster
 pokernews.com##.gameCards
 monstertruckgames.org##.gamecatbox
+graviti.com##.gas-cookie-bar
 home-assistant-guide.com##.gb-container-429fcb03
 home-assistant-guide.com##.gb-container-5698cb9d
 home-assistant-guide.com##.gb-container-bbc771af
@@ -84401,7 +84402,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
 @@||ssl.gstatic.com/analytics/$script,domain=analytics.google.com
-@@||sst.soranews24.com/gtm.js$script,~third-party
 @@||starbucks.ca^*/optimizely.$script,~third-party
 @@||starbucks.com^*/optimizely.$script,~third-party
 @@||starbucksassets.com/weblx/static/optimizely.$script,domain=starbucks.ca|starbucks.com
@@ -99453,7 +99453,7 @@ nicoad.nicovideo.jp#@#.ad-point
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 30 Dec 2002 00:00:00
+# start date:    Tue, 31 Dec 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
