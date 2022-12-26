@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: s2BZaWViTwCa+qTXcUeArw
+! Checksum: PmwV9DjXS1prHiJ4mX9N4Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212260933
-! Last Modified: 2022年12月26日 09:33
+! Version: 202212261423
+! Last Modified: 2022年12月26日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -86800,6 +86800,7 @@ simplebits.io##div[class][style="min-height: 60px;"]
 @@||satoshilabs.net/$script,1p
 ||satoshilabs.net/sh/ads/$frame
 ||simplebits.io/sh/ads/
+simplebits.io##+js(no-xhr-if, /ads)
 gtoys.blog.fc2.com##+js(acis, document.addEventListener, google_ad_client)
 ||prairiemountainmedia.com^$3p
 ||dailycamera.com^$3p
@@ -90128,6 +90129,7 @@ frogogo.ru##+js(aopw, ADMITAD)
 ||quizlookup.com^
 ||studyeffect.com^
 ||testbooksolutions.com^
+@@||googletagmanager.com/gtm.js$script,redirect-rule,domain=rocketnews24.com
 /stats.php?*event=$image
 /check.php?t=*&rand=$image,1p
 /jquery.js?*&rx=*&foxtail=$image,1p
