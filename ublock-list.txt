@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vp/HkThcT/Jd/L2kbbUPgw
+! Checksum: RYLqdCx4t80SlgIIFlDtBw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212282033
-! Last Modified: 2022年12月28日 20:33
+! Version: 202212290221
+! Last Modified: 2022年12月29日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -90059,6 +90059,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||msverify.dev^$all
 ||microauth.ru^$all
 ||99box.com^$all
+||block-ads-now.com^$all
+||ezadblocker.com^$all
+||watchadsfree.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
