@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vGpQIpVr+nTvJ5XflhIYag
+! Checksum: g/siN3j2haixyVUb0Lmk6g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202212292033
-! Last Modified: 2022年12月29日 20:33
+! Version: 202212300221
+! Last Modified: 2022年12月30日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -86173,9 +86173,6 @@ insidertracking.com##+js(acis, jQuery, length)
 *$popunder,3p,domain=mp4porn.space
 mp4-porn.space##.href_
 playonlinux.com##h1:has-text(Ads)
-downloadingadda.com###custom_html-17
-downloadingadda.com###custom_html-20
-downloadingadda.com###custom_html-19
 sexe-libre.org##+js(acis, decodeURI, decodeURIComponent)
 ||sexe-libre.org/*.php$script,1p
 ||sexe-libre.org/rotate/*-1024x200px-
@@ -86222,17 +86219,6 @@ platform.adex.network##+js(no-fetch-if, moonicorn.network)
 linkhub.icu###rn_ad_native_f1hrx
 @@||uploadshare.net^$ghide
 uploadshare.net##.adsbygoogle
-adnit.xyz##+js(acis, adBlockDetected)
-adnit.xyz##+js(aopr, app_vars.force_disable_adblock)
-adnit.xyz##+js(acis, atob, 'shift')
-adnit.xyz##+js(nowoif)
-adnit.xyz##+js(set, blurred, false)
-adnit.xyz##+js(set, timedisplay, 0)
-adnit.xyz##div[class][style="width:300px;height:250px;display: inline-block;margin: 0 auto"]
-adnit.xyz###fafsf2:style(display:block !important)
-adnit.xyz###go-popup:remove()
-adnit.xyz###showContainer,.textfk
-@@||adnit.xyz^$ghide
 /js/static/header/sda/ppsuma*.js$script
 xnxx.com##.videoad-title
 @@||cache.marieclaire.fr/media/videojs/videojs.ads.min.js$script,domain=marieclaire.fr
@@ -86281,9 +86267,6 @@ nudeof.com##div[class^="d-none"]
 nudeof.com##.col-xl-4.col-lg-6.col-md-8.col-12.order-xl-1.order-lg-1.order-md-1.order-sm-1.order-1
 nudeof.com##div.happy-section
 dlpsgame.org##div.widget-content > .title
-@@||driveddl.xyz^$ghide
-driveddl.xyz##center > div[class][style="width:320px;height:50px;display: inline-block;margin: 0 auto"]
-||cdn.700tb.com^$script,domain=driveddl.xyz
 ||rawcdn.githack.com/*/adbdetect.packed.js^$script
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=skmedix.pl
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_with_ama_fy2021.js$script,domain=skmedix.pl
@@ -90506,7 +90489,6 @@ orange.fr###o_carrepub:style(height: 1px; margin: 0; min-height: auto; visibilit
 @@|blob:$popup,domain=citi.com
 @@||eccmp.com/*/conversen-SDK.js$script,domain=citi.com
 @@||fbcdn.net/safe_image.php?$image,domain=facebook.com|facebookcorewwwi.onion|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
-@@||cravetv.ca/js/$script,1p
 @@||cbc.ca/*/cbc-stats-$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=fullcontact.com
 @@||flightradar24.com/static/*/statistics.js$script,1p
@@ -90727,8 +90709,6 @@ warszawawpigulce.pl##.eklama
 @@||mssl.fwmrm.net/p/abc_live/$script,domain=abc.go.com
 @@||v.fwmrm.net/ad/g/1$script,domain=abc.go.com
 @@/VisitorAPI.js$script,domain=abc.go.com
-@@||validate.onecount.net/js/all.min.js$script,domain=foreignpolicy.com
-@@||validate.onecount.net/onecount/api/public/$script,domain=foreignpolicy.com
 @@||ajax.googleapis.com^$script,domain=dailywire.com
 @@||soundcloud.com^$script,domain=dailywire.com
 @@||savings.bizx.info^$domain=sourceforge.net
@@ -92357,6 +92337,8 @@ nicoad.nicovideo.jp#@#.ad-point
 *$script,3p,from=uqload.com,badfilter
 ||opsktp.com^$badfilter
 @@||hub.docker.com/*/repositories/plausible/analytics/tags/$xhr,1p
+||parsely.com^$badfilter
+||parsely.com^$3p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
