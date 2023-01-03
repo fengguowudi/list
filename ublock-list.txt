@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nBWAxSwryc2QFwBngDhbZA
+! Checksum: KXWwbQVcBSTdFCz5dD3JaQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301032036
-! Last Modified: 2023年01月03日 20:36
+! Version: 202301040221
+! Last Modified: 2023年01月04日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -89404,7 +89404,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||nitro*.gifts^$all
 ||steamcommunity-nitro.$all
 ||steamgiftnitro.$all
-^cep=*&lptoken=$doc
 ||privatespace.click^$all
 ||ww-softs.com^$all
 ||updatemobilee.com^$all
@@ -89557,6 +89556,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||discordoauthverification.onrender.com^$all
 ||smbci.shop^$all
 ||antoniop.shop/all/login.php$all
+||barlear.ru^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
