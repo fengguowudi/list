@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j4E48prMYeKXc9pwmFJOqQ
+! Checksum: nBWAxSwryc2QFwBngDhbZA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301031421
-! Last Modified: 2023年01月03日 14:21
+! Version: 202301032036
+! Last Modified: 2023年01月03日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -48139,6 +48139,8 @@ lifenews.com###adds
 onworks.net###adonworksbot
 192-168-1-1-ip.co,receivesms.co###adresp
 3g2upl4pq6kufc4m.onion,audioreview.com,carlow-nationalist.ie,cellmapper.net,craigclassifiedads.com,dekhobd.com,duckduckgo.com,g.doubleclick.net,irannewsdaily.com,kildare-nationalist.ie,laois-nationalist.ie,lorempixel.com,photographyreview.com,quiz4fun.com,roscommonherald.ie,waterford-news.ie###ads
+ventoy.net###adv_titles
+ventoy.net###adv_titles_foot
 radioonline.fm###advertise_center
 unshorten.it###advertisement
 lifenews.com###advertisement-top
@@ -48756,7 +48758,6 @@ newcartestdrive.com###static-asset-placeholder-3
 datamation.com,esecurityplanet.com,eweek.com,serverwatch.com,webopedia.com###sticky-bottom
 independent.co.uk,standard.co.uk###stickyFooterRoot
 afr.com###stickyLeaderboard
-daily-choices.com###sticky_82613959
 bostonglobe.com###sticky_container.width_full
 eurogamer.net,rockpapershotgun.com###sticky_leaderboard
 medicinehatnews.com###stickyleaderboard
@@ -51215,6 +51216,7 @@ hotnewhiphop.com##.wrapper-Desktop_Header
 paultan.org##.wrapper-footer
 tftactics.gg##.wrapper-lb1
 webtoolhub.com##.wth_zad_text
+forums.ventoy.net##.wwads-cn
 mcpmag.com##.xContent
 drivehub.in,indidrive.in,metamoviez.xyz##.xc449bad4854773ff
 theseotools.net##.xd_top_box
@@ -51409,6 +51411,7 @@ eatthis.com##[id^="gm_karmaadunit_widget"]
 designtaxi.com##[id^="in-news-link-"]
 comicbook.com,popculture.com##[id^="native-plus-"]
 noqreport.com##[id^="oqre-"]
+daily-choices.com##[id^="sticky_"]
 wuxiaworld.site##[id^="wuxia-"]
 apkcombo.com##[onclick*="_blank"]
 filecrypt.cc,filecrypt.co##[onclick^="var lj"]
@@ -53086,12 +53089,12 @@ motherless.com##div > table[style][border]
 publicflashing.me##div.hentry
 xxxdl.net##div.in_thumb.thumb
 redtube.com##div[class*="display: block; height:"]
-darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="after-boxes"]
-darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="beside-video"]
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="after-boxes"]
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="beside-video"]
 hpjav.top##div[class^="happy-"]
-darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="native-boxes"]
-darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="related-boxes-footer"]
-darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="textovka"]
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="native-boxes"]
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="related-boxes-footer"]
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="textovka"]
 hentaistream.com##div[id^="adx_ad-"]
 pornez.net##div[id^="cb0"]
 pornstarbyface.com##div[id^="sponcored-content-"]
@@ -53127,8 +53130,8 @@ porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
 crocotube.com#?#.ct-related-videos-title:-abp-contains(Advertisement)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(You may also like)
-darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-1:-abp-has(> div[class^="inside-list-boxes"])
-darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-2:-abp-has(.duration-ad)
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-1:-abp-has(> div[class^="inside-list-boxes"])
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-2:-abp-has(.duration-ad)
 erofus.com#?#div:-abp-has(> .ad)
 kbjfree.com#?#.relative.w-full:-abp-has(> .video-card[target="_blank"])
 pornhub.com#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
@@ -69104,9 +69107,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||imdb.com/tr/
 ||imgur.com/albumview.gif?
 ||imgur.com/imageview.gif?
+||indeed.com/cmp/_rpc/flog
 ||indeed.com/hp/log/
 ||indeed.com/rpc/$~xmlhttprequest
 ||indeed.com/rpc/log/
+||indeed.com/survey/_/log
 ||indiatimes.com/personalisation/logdata/
 ||indiatimes.com/savelogs?
 ||indmetric.rediff.com^
@@ -86973,9 +86978,6 @@ samehadaku.*##.box_item_berlangganan_popup
 ||bp.blogspot.com^*/s720/$domain=samehadaku.*
 *$script,3p,denyallow=cloudfront.net|disqus.com|disquscdn.com|fastlylb.net,domain=samehadaku.*
 ||yimg.com/nn/lib/metro/g/sda/$domain=yahoo.com
-9anime.work##.banner_center
-9anime.work##div[style="height:250px;overflow:hidden;"]
-9anime.*##+js(aopw, _pop)
 spele.nl##.is-skyscraper
 spele.nl##.is-billboard
 mediapemersatubangsa.com##+js(acis, document.addEventListener, google_ad_client)
@@ -89272,6 +89274,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||downloadset2you.com^$all
 ||galaxy-swaper.site^$all
 ||sncrack.xyz^$doc
+||funnycrack.com^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
 .systems/signup?ad_domain=$doc,popup
