@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RqfNjZpsGfvhd2yjuNMrAQ
+! Checksum: DhOBsBKb+Lsu6zTPjlOh6A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301061423
-! Last Modified: 2023年01月06日 14:23
+! Version: 202301062034
+! Last Modified: 2023年01月06日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -84732,7 +84732,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||collect.igodigital.com/collect.js$domain=enoteca.co.jp
 @@||cxense.com/cx.cce.js$domain=mainichi.jp|tarzanweb.jp|wpb.shueisha.co.jp
 @@||cxense.com/cx.js$domain=cyclestyle.net|mainichi.jp|nippon.com|tarzanweb.jp|tv-tokyo.co.jp|wpb.shueisha.co.jp
-@@||d-card.jp/st/common/js/googleTagManager.js
+@@||dcard.docomo.ne.jp/st/common/js/googleTagManager.js
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
 @@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
@@ -88502,7 +88502,6 @@ tutele.sx##^script[data-cfasync]:has-text(h=decodeURIComponent)
 /script/nbsu.js$3p
 /script/ndsu.js$3p
 /^https?:\/\/[a-z]{6,12}\.com\/script\/n[a-z]su\.js$/$script,3p
-loticon.xyz##+js(acis, document.getElementById, 'OK')
 luotphimzz.com##.fakeplayer
 luotphim.net##.fakeplayer
 luotphim.cc##.fakeplayer
@@ -99303,7 +99302,7 @@ nicoad.nicovideo.jp#@#.ad-point
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Mon, 02 Jan 2023 13:19:33 GMT
-# entries:        3671
+# entries:        3669
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -99750,7 +99749,6 @@ nicoad.nicovideo.jp#@#.ad-point
 127.0.0.1 ads.epi.sk
 127.0.0.1 ads.epltalk.com
 127.0.0.1 ads.eu.msn.com
-127.0.0.1 ads.exactdrive.com
 127.0.0.1 ads.expat-blog.biz
 127.0.0.1 ads.fairfax.com.au
 127.0.0.1 ads.fastcomgroup.it
@@ -100767,6 +100765,7 @@ nicoad.nicovideo.jp#@#.ad-point
 127.0.0.1 consensad.com
 127.0.0.1 consensu.org
 127.0.0.1 contadores.miarroba.com
+127.0.0.1 contaxe.de
 127.0.0.1 content.acc-hd.de
 127.0.0.1 content.ad
 127.0.0.1 content22.online.citi.com
@@ -101567,7 +101566,6 @@ nicoad.nicovideo.jp#@#.ad-point
 127.0.0.1 marinsm.com
 127.0.0.1 markedcrayon.com
 127.0.0.1 markedpail.com
-127.0.0.1 market-buster.com
 127.0.0.1 marketing.888.com
 127.0.0.1 marketing.desertcart.com
 127.0.0.1 marketing.hearstmagazines.nl
@@ -101813,7 +101811,6 @@ nicoad.nicovideo.jp#@#.ad-point
 127.0.0.1 offer.sponsorpay.com
 127.0.0.1 offerforge.com
 127.0.0.1 offermatica.com
-127.0.0.1 offshoreanglehost.com
 127.0.0.1 oglasi.posjetnica.com
 127.0.0.1 ogury.com
 127.0.0.1 ojrq.net
