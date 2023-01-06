@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DhOBsBKb+Lsu6zTPjlOh6A
+! Checksum: 57/4b6PqTZnaNFtNqsNzmA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301062034
-! Last Modified: 2023年01月06日 20:34
+! Version: 202301070222
+! Last Modified: 2023年01月07日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -84512,9 +84512,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
-@@||showheroes.com/publishertag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
-@@||showheroes.com/pubtag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
+@@||showheroes.com/publishertag.js$domain=bz-berlin.de|kochbar.de|rollingstone.de|rtl.de|rtl2.de
+@@||showheroes.com/pubtag.js$domain=bz-berlin.de|kochbar.de|rollingstone.de|rtl.de|rtl2.de
+@@||showheroes.com/spot/$xmlhttprequest,domain=rollingstone.de
 @@||showheroes.com/spot/iframe?pageurl=$script,subdocument,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
+@@||showheroes.com/spot/iframe?$script,domain=rollingstone.de
 @@||spatialbuzz.com/piwik/piwik.js$domain=spatialbuzz.com
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||stuttgarter-nachrichten.de/cre-1.0/tracking/call.js?$script,~third-party
@@ -92169,6 +92171,9 @@ nicoad.nicovideo.jp#@#.ad-point
 @@||mcs-va.tiktok.com/v1/user/webid$xhr
 @@||tn.voyeurhit.com/contents/$image,domain=voyeurhit.tube
 @@||dcard.docomo.ne.jp/st/common/js/googleTagManager.js
+dobreprogramy.pl#@#script:-abp-contains(slotNumber):upward(2)
+dobreprogramy.pl##script:has-text(slotNumber):upward(2)
+@@||pals.pa.gov/vendor/analytics/$1p,script
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
