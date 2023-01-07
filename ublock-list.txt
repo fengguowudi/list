@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iHw5Bgo0Nn/7wwQIkXLPTg
+! Checksum: iqciXtCQMjSc2XquHUM9sA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301071421
-! Last Modified: 2023年01月07日 14:21
+! Version: 202301072031
+! Last Modified: 2023年01月07日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -85204,7 +85204,7 @@ pornez.net###cb01
 cnnamador.com##.cards__item--videos span.flag--banner:upward(.cards__item--videos)
 cutscenes.net##.item > div[id^="ts_ad_native"]:upward(1)
 cutscenes.net##.item > iframe[src^="https://go."]:upward(1)
-twinkybf.com##.happy-sidebar
+pornxday.com,twinkybf.com##.happy-sidebar
 twinkybf.com##.happy-under-player
 ###playerOverlay[style="position:absolute; z-index:3"]
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|jsdelivr.net|unpkg.com|zencdn.net,domain=xxxfiles.com
@@ -85825,6 +85825,7 @@ tvn.pl##+js(json-prune, movie.advertising.ad_server playlist.movie.advertising.a
 @@||hcdn.online^$ghide
 falixnodes.net##+js(nostif, [native code])
 falixnodes.net##+js(no-fetch-if, snigelweb)
+falixnodes.net##+js(no-xhr-if, securecheck)
 falixnodes.net##+js(no-xhr-if, securepubads)
 falixnodes.net##+js(nostif, _0x)
 falixnodes.net##+js(nostif, location)
@@ -92190,6 +92191,8 @@ dobreprogramy.pl#@#script:-abp-contains(slotNumber):upward(2)
 dobreprogramy.pl##script:has-text(slotNumber):upward(2)
 @@||pals.pa.gov/vendor/analytics/$1p,script
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=eitb.eus,redirect-rule=google-ima.js
+||counter2.blog.livedoor.com^$badfilter
+||counter2.blog.livedoor.com^$image
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
