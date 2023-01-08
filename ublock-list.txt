@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gA3MQ4qrHUf8OeAtIFMLkQ
+! Checksum: /QGZJrtfYWLWMaXs5gV5Fw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301081421
-! Last Modified: 2023年01月08日 14:21
+! Version: 202301082033
+! Last Modified: 2023年01月08日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2627,7 +2627,6 @@
 /google-ad-
 /google-ad?
 /Google-Ads-
-/google-ads.
 /google-ads/*
 /google-adsense-$domain=~webst8.com
 /google-adsense.
@@ -61109,6 +61108,7 @@ _mongo_stats/
 ||dashboard.io^$third-party
 ||data-dynamic.net^$third-party
 ||databrain.com^$third-party
+||databreakers.com^$third-party
 ||datacaciques.com^$third-party
 ||datacoral.com^$third-party
 ||datacoral.io^$third-party
@@ -68497,6 +68497,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.biano.cz^
 ||pixel.cpex.cz^
 ||r2b2.cz/events.php?
+||sdn.cz/*/loader.js
 ||ssp.seznam.cz^
 ||stat.cncenter.cz^
 ||stat.kununu.cz^$third-party
@@ -86202,7 +86203,7 @@ androidhexzone.blogspot.com##+js(aopr, absda)
 olympicstreams.me,vipboxtv.*##+js(nowoif, |)
 olympicstreams.me,vipboxtv.*##+js(aopw, _pop)
 ||raw.githubusercontent.com/*/just-detect-adblock/*$3p,xhr,redirect-rule=nooptext
-*$script,3p,denyallow=nolive.me|plyjam.me,domain=olympicstreams.me|vipboxtv.*
+*$script,3p,denyallow=nolive.me|plyjam.me|chatango.com,domain=olympicstreams.me|vipboxtv.*
 ||cdn.allsportsflix.xyz^$script
 olympicstreams.me##.position-absolute
 buffstreams.*##+js(nowoif)
@@ -89951,6 +89952,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||breadcat.cc^$all
 ||mc-hypixel.store^$all
 ||kaminarisubs.net^$all
+||kuronekoyamato-jp.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -99329,7 +99331,7 @@ dobreprogramy.pl##script:has-text(slotNumber):upward(2)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Mon, 02 Jan 2023 13:19:33 GMT
-# entries:        3669
+# entries:        3668
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -101139,7 +101141,6 @@ dobreprogramy.pl##script:has-text(slotNumber):upward(2)
 127.0.0.1 flurry.com
 127.0.0.1 fly-analytics.com
 127.0.0.1 foo.cosmocode.de
-127.0.0.1 foo.software
 127.0.0.1 foresee.com
 127.0.0.1 forex-affiliate.net
 127.0.0.1 forkcdn.com
