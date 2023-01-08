@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: D+6FK9pE4BbacKy7D7PNnA
+! Checksum: gA3MQ4qrHUf8OeAtIFMLkQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301080941
-! Last Modified: 2023年01月08日 09:41
+! Version: 202301081421
+! Last Modified: 2023年01月08日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -92195,6 +92195,7 @@ dobreprogramy.pl##script:has-text(slotNumber):upward(2)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=eitb.eus,redirect-rule=google-ima.js
 ||counter2.blog.livedoor.com^$badfilter
 ||counter2.blog.livedoor.com^$image
+#@#[id^="etarget"]
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
