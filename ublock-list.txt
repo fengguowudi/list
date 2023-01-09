@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hWdpJmVNxq7AStmACkYQsA
+! Checksum: leP5Tg0mSqnfa/8JGjUpUg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301091423
-! Last Modified: 2023年01月09日 14:23
+! Version: 202301092036
+! Last Modified: 2023年01月09日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -49611,7 +49611,7 @@ ebay.com##.app-rtm-pid-wrapper
 classicfm.com##.apple_music
 icon-icons.com##.apu
 adn.com,businessoffashion.com##.arcad-feature
-1news.co.nz,actionnewsjax.com,boston25news.com,easy93.com,kiro7.com,wftv.com,whio.com,wpxi.com,wsbradio.com,wsbtv.com,wsoctv.com##.arcad_feature
+1news.co.nz,actionnewsjax.com,boston25news.com,easy93.com,fox23.com,kiro7.com,wftv.com,whio.com,wpxi.com,wsbradio.com,wsbtv.com,wsoctv.com##.arcad_feature
 whatculture.com##.area-x__large
 arstechnica.com##.ars-component-buy-box
 ggrecon.com##.artSideBgBox
@@ -92268,6 +92268,7 @@ dobreprogramy.pl##script:has-text(slotNumber):upward(2)
 ||counter2.blog.livedoor.com^$badfilter
 ||counter2.blog.livedoor.com^$image
 #@#[id^="etarget"]
+@@||go.admost.com/adx/js/admost.js$script,domain=arsiv.mackolik.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
