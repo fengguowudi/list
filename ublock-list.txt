@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: leP5Tg0mSqnfa/8JGjUpUg
+! Checksum: BN/Wark8q+RYIzy0Zb3OLA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301092036
-! Last Modified: 2023年01月09日 20:36
+! Version: 202301100223
+! Last Modified: 2023年01月10日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -47378,6 +47378,8 @@ tf2r.com#@#.adverts
 ||engine.fxempire.com^
 ||engine.laweekly.com^
 ||eteknix.com/wp-content/uploads/*skin
+||etxt.biz/data/rotations/
+||etxt.biz/images/b/
 ||eurochannel.com/images/banners/
 ||exchangerates.org.uk/images/200x200_currency.gif
 ||excnn.com/templates/anime/sexybookmark/js/popup.js
@@ -50715,6 +50717,8 @@ pcmacstore.com##.mobileHide
 theblockcrypto.com##.mobileView
 thedailybeast.com##.mobiledoc-sizer
 criminaljusticedegreehub.com##.mobius-container
+etxt.biz##.mod-cabinet__sidebar-adv
+etxt.biz##.mod-cabinet__sidebar-info
 livelaw.in##.modal_wrapper_frame
 autoevolution.com##.modeladmid
 msn.com##.modernRightRail_stickyTopBannerAd-DS-EntryPoint1-1
@@ -60540,7 +60544,6 @@ _mongo_stats/
 ||trkn.us^
 ||tru.am^
 ||truffle.bid^
-||trust-provider.com^
 ||trx-hub.com^
 ||tryzens-analytics.com^
 ||turboeagle.co^
@@ -68165,6 +68168,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||siteintercept.allegiancetech.com^
 ||siteintercept.qualtrics.com^$third-party
 ||smart-widget-assets.ekomiapps.de^$third-party
+||trust-provider.com^*/trustlogo.js$third-party
 ||trusted-web-seal.cybertrust.ne.jp^
 ||trustev.com/trustev.min.js$third-party
 ||verify.authorize.net^$third-party
@@ -90020,7 +90024,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||kuronekoyamato-jp.com^$all
 ||hrkbs.com^$all
 ||iemqualifiers.com^$doc
-||intelauthpage.com^$doc
 ||paypay.srbxjd.com^$all
 ||galeden.cn^$all
 ||taboola.com^$3p
@@ -90322,6 +90325,7 @@ knowyourmeme.com##+js(nosiif, blogherads)
 @@||z.cdn.turner.com/analytics/cnnexpan/jsmd.min.js$script,domain=cnn.com
 @@||cdn.turner.com/cnn/van/resources/*/scripts/vendor/loggly.tracker.js$xhr,domain=trentonian.com
 @@||cdn.cnn.com/analytics/cnn_arabic/jsmd.min.js$script,1p
+@@||mssl.fwmrm.net/libs/*$script,domain=go.cnn.com
 ||ggwebcast.com/*/kaltura/ga/urchin.js$script,redirect=noopjs
 @@||shop.puppetlabs.com/store/js/services/googleAnalytics.js$script,1p
 @@||premium.soundcloud.com/*/js/tracking.js$script,1p
@@ -92269,6 +92273,7 @@ dobreprogramy.pl##script:has-text(slotNumber):upward(2)
 ||counter2.blog.livedoor.com^$image
 #@#[id^="etarget"]
 @@||go.admost.com/adx/js/admost.js$script,domain=arsiv.mackolik.com
+@@||content.gap.com/fp/*.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
