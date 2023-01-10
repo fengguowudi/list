@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HBk/FkcrG4QVADtejLCXbA
+! Checksum: Hb7ARNyKuhsYYG/nppSq+g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301102037
-! Last Modified: 2023年01月10日 20:37
+! Version: 202301110223
+! Last Modified: 2023年01月11日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -42424,6 +42424,7 @@ tf2r.com#@#.adverts
 ||meendocash.com^$third-party
 ||mellowads.com^$third-party
 ||meloads.com^$third-party
+||membrana.media^$third-party
 ||mentad.com^$third-party
 ||metaffiliation.com^$third-party,domain=~netaffiliation.com
 ||mezaa.com^$third-party
@@ -90386,10 +90387,10 @@ knowyourmeme.com##+js(nosiif, blogherads)
 @@||cdn.vurb.com/*/mixpanel.
 ||mopub.com^$badfilter
 ||mopub.com^$3p
-@@||safelinking.net^$1p
 ||outbrain.com^$badfilter
 ||outbrain.com^$3p
-@@||flurry.com^$1p
+||flurry.com^$badfilter
+||flurry.com^$3p
 ||top.mail.ru^$badfilter
 ||top.mail.ru^$3p
 @@||css.washingtonpost.com/*/ads.css$css,1p
@@ -90401,6 +90402,7 @@ knowyourmeme.com##+js(nosiif, blogherads)
 ||2o7.net^$badfilter
 ||2o7.net^$3p
 ||quantcast.com^$badfilter
+||quantcast.com^$3p
 @@||keen.github.io/*/keen.min.js$1p
 @@||cdn.phoenix.intergi.com^
 ||kissmetrics.com^$badfilter
@@ -90420,7 +90422,8 @@ knowyourmeme.com##+js(nosiif, blogherads)
 */b/ss/*&aqe=$image,redirect=1x1-transparent.gif
 ||cdn.taboola.com/libtrc/*/loader.js$script,redirect=noopjs,important,domain=cnet.com
 @@||sorted.org.nz/*/angulartics-google-tag-manager.js$script,1p
-@@||analytics.google.com^$1p
+||analytics.google.com^$badfilter
+||analytics.google.com^$3p
 @@||data.cnn.com/jsonp/cfg/*/videoconfig/cnn/desktop/domesticsectionconfig.json$script,domain=cnn.com
 @@||cnn.com/.element/apps/cvp/3.0/cfg/spider/cnn/expansion/ad_policy.xml$xhr,domain=cnn.com
 @@||z.cdn.turner.com/analytics/cnnexpan/jsmd.min.js$script,domain=cnn.com
@@ -90436,7 +90439,6 @@ knowyourmeme.com##+js(nosiif, blogherads)
 ||emarketer.com^$3p
 ||tapad.com^$badfilter
 ||tapad.com^$3p
-@@||localytics.com^$1p
 @@||media2.intoday.in/aajtak/$script,domain=aajtak.intoday.in|indiatoday.intoday.in
 @@||ahcdn.com/key=$xhr,domain=hdzog.com
 ||mouseflow.com^$badfilter
@@ -90459,7 +90461,6 @@ knowyourmeme.com##+js(nosiif, blogherads)
 @@||assets.adobedtm.com^$script,domain=rogers.com
 ||decknetwork.net^$badfilter
 ||decknetwork.net^$3p
-@@||upload.facebook.com^$1p
 @@||atlassian.com^*/analytics.js$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=cpap.com|mediamarkt.de|saturn.de
 @@||google-analytics.com/analytics.js$script,domain=cpap.com|mediamarkt.de|saturn.de
@@ -90499,7 +90500,6 @@ pythonjobshq.com##+js(aopr, Keen)
 @@||players.brightcove.net^$frame,domain=usatoday.com
 @@||cdn.ampproject.org/*/amp-geo-$script,domain=bozemandailychronicle.com|engadget.com|kmbc.com|koat.com|pilotonline.com|richmond.com|stltoday.com|amp.tmz.com|tucson.com|amp.usatoday.com|watchdog.org
 @@/blockadblock.$script,domain=blockadblock.com
-@@||secure.moneygram.com^$1p
 ||carambo.la^*/getAngularLayer$script,redirect=noopjs,domain=imleagues.com
 @@||cdn.optimizely.com/json/*$xhr,domain=dashboard.pantheon.io
 ||study.com/js/trcking/eventTracking*.js$script,1p,redirect=noopjs
@@ -90573,8 +90573,6 @@ hintergrundbild.org#@#.ads1
 @@||cloudflare.com/ajax/libs/*$script,domain=androidcentral.com
 @@||geonames.org/flags/x/ad.gif$image
 vhacks.org#@#.sponsor-logo
-@@||click.uol.com.br^$1p
-@@||adnews.com.br^$1p
 ||player.ooyala.com/*/ad-plugin/pulse.min.js$script,redirect=noopjs,domain=lpga.com
 @@||gemius.pl/xlgemius.js$script,domain=tsf.pt
 @@||secure.netscope.marktest.pt/netscope-gemius.js$script,domain=tsf.pt
