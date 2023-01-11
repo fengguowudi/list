@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pCh8RdtWW+5DNog68CBI0Q
+! Checksum: l3D6uJkJfCMYlkdYzSkdUQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301112036
-! Last Modified: 2023年01月11日 20:36
+! Version: 202301120227
+! Last Modified: 2023年01月12日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21718,6 +21718,7 @@ _800x80_
 ##article.ad
 ##aside[id^="adrotate_widgets-"]
 ##aside[id^="advads_ad_widget-"]
+##atf-ad-slot
 ##bottomadblock
 ##display-ads
 ##div[aria-label="Ads"]
@@ -59644,6 +59645,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /vstrack.
 /vtrack.aspx
 /vtrack.php?
+/vtrack?vid=
 /vtracker.$domain=~vtracker.org
 /vTracker_
 /vuukle-analytics.
@@ -66336,6 +66338,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfunctions.net/commonBonnierDataLayer
 ||cloudfunctions.net/function-record-stream-metric?
 ||cloudfunctions.net/ingest?
+||cloudfunctions.net/vanalytics
 ||cltgtstor001.blob.core.windows.net^
 ||clustrmaps.com/counter/$third-party
 ||cmail19.com/t/$image,third-party
@@ -92437,6 +92440,9 @@ dobreprogramy.pl##script:has-text(slotNumber):upward(2)
 @@||go.admost.com/adx/js/admost.js$script,domain=arsiv.mackolik.com
 @@||content.gap.com/fp/*.js$script,1p
 @@||cohesion.bankrate.com/cohesion/cohesion-latest.min.js$script,1p
+/api/v2/analytics$badfilter
+/_/api/v2/analytics/?
+hi.ru#@#div[id^="crt-"][style]
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
