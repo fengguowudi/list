@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rG3WmwMryFwOexrvUtcyQQ
+! Checksum: Qf5CRVXRg++N3c40E4yWYw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301130940
-! Last Modified: 2023年01月13日 09:40
+! Version: 202301131423
+! Last Modified: 2023年01月13日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62213,6 +62213,7 @@ _mongo_stats/
 ||livesession.io^$third-party
 ||livestat.com^$third-party
 ||livetrafficfeed.com^$third-party
+||llanalytics.com^$third-party
 ||lloogg.com^$third-party
 ||lngtd.com^$third-party
 ||localytics.com^$third-party
@@ -67730,6 +67731,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sourceforge.net/tracker/$~xmlhttprequest
 ||southafricahome.com/statsmodulev2/
 ||sp-wukong-tracker.b-cdn.net^
+||sp.tinymce.com^
 ||spaceprogram.com/webstats/
 ||sparklit.com/counter/
 ||speedtest.dailymotion.com/latencies.js
@@ -69922,6 +69924,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hulu.com/metricsconfig
 ||i.pokernews.com^
 ||ibt.com/front/js/counter.js
+||icgp.ie/overview/js/tracker.php
 ||idiva.com/analytics_
 ||iedc.fitbit.com^
 ||ign.com/metrics/
