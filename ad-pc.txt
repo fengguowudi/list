@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EICaMlFYuUbGGS1LVnExMg
+! Checksum: MJB/oDiPsHjQa2r8lzl4eA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202301130224
-! Last Modified: 2023年01月13日 02:24
+! Version: 202301130940
+! Last Modified: 2023年01月13日 09:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -56746,6 +56746,12 @@ ubmcmm.baidustatic.com
 ||zeipw.xyz^
 ||ztxstudy.club^
 ||zunnnh.xyz^
+||jfmfmgj.cn^
+||qvfkiwf.cn^
+||keysmw.xyz^
+||78dfvv.com^
+||37tek.fun^
+||mbepa.xyz^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -69562,7 +69568,7 @@ javhope.com###havhope
 chaidu.com,kdslife.com###hb
 macd.cn###hbad
 coolaler.com###hd
-jrfz.xyz###hd + .wp
+jrlt1.xyz###hd + .wp
 gdmm.com###hd > .wp > .module
 hackhw.com,ithome.com###hd_float
 ithome.com###hd_float1
@@ -73454,7 +73460,7 @@ szjjzs.com##a[href^="/pic/tiao/"]
 chinacsbs.com##a[href^="/plus/view.php?aid="]
 96weixin.com##a[href^="/show/ads/"]
 fx112.com##a[href^="/union."]
-jrfz.xyz##a[href^="ad."]
+jrlt1.xyz##a[href^="ad."]
 ixinshijue.com##a[href^="http"] > img[src*=".pstatp."]
 boniu123.cc##a[href^="http"] > img[src*="/bn_"]
 yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/tp/"]
@@ -78849,6 +78855,7 @@ fqsousou.com,kengso.com#@#.user-share
 /events/pixel/*$image
 /events/pixelEvent
 /events/track/*
+/events/view-form-open
 /events/view?
 /events?data=
 /events?rpId=
@@ -79484,7 +79491,6 @@ fqsousou.com,kengso.com#@#.user-share
 /insights-collector.
 /insights-emitter.
 /insights-emitter/*
-/insights/events/*
 /InsightTrk/*
 /insightXe.js
 /insitemetrics/*
@@ -79886,6 +79892,7 @@ fqsousou.com,kengso.com#@#.user-share
 /m360lib.js
 /ma.gif?cc=
 /madAnalytics.js
+/magento/page-visit?
 /magento2.js
 /magiq-
 /mail_tracking-cg.php
@@ -88644,6 +88651,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bc0a.com/api/
 ||bc0a.com/autopilot/
 ||bc0a.com/be_ixf_js_sdk.js
+||bc0a.com/marvel.js
 ||bdg.com/event?
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
