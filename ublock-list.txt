@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MPvykn0y9nzQ7NDNtkLwPg
+! Checksum: +6Hyl5Ofdymgql0I3THkjQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301141421
-! Last Modified: 2023年01月14日 14:21
+! Version: 202301142031
+! Last Modified: 2023年01月14日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -68969,7 +68969,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.biano.cz^
 ||pixel.cpex.cz^
 ||r2b2.cz/events.php?
-||sdn.cz/*/loader.js
 ||ssp.seznam.cz^
 ||stat.cncenter.cz^
 ||stat.kununu.cz^$third-party
@@ -85112,7 +85111,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||browser.sentry-cdn.com^$script,domain=podcasty.seznam.cz
 @@||googletagmanager.com/gtm.js?$domain=autorevue.cz|e15.cz|mobilmania.cz|zive.cz
 @@||hlidacstatu.cz/scripts/highcharts-6/modules/heatmap.js
-@@||sdn.cz/*/loader.js$domain=novinky.cz
 @@||seznam.cz/?spec=*&url=$image,domain=search.seznam.cz
 @@||tvcom-static.ssl.cdn.cra.cz/*/videojs.ga.js$script,domain=tvcom.cz
 !---------- Danish ----------
@@ -87513,12 +87511,12 @@ moviemakeronline.com##+js(nosiif, adsbygoogle)
 moviemakeronline.com##.bbbOwner
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect-rule=noopjs,domain=gbnews.uk
 oncast.xyz##+js(aopw, _pop)
-cinemakottaga.ml##+js(no-xhr-if, googlesyndication)
-cinemakottaga.ml##+js(aeld, DOMContentLoaded, adsBlocked)
-cinemakottaga.ml##+js(acis, document.addEventListener, adsbygoogle)
-*$image,redirect-rule=1x1.gif,domain=cinemakottaga.ml
-cinemakottaga.ml##+js(nano-sib, timePassed)
-*$3p,script,denyallow=arc.io|cloudflare.com|hcaptcha.com|google.com|gstatic.com|recaptcha.net,domain=cinemakottaga.ml
+cinemakottaga.*##+js(no-xhr-if, googlesyndication)
+cinemakottaga.*##+js(aeld, DOMContentLoaded, adsBlocked)
+cinemakottaga.*##+js(acis, document.addEventListener, adsbygoogle)
+*$image,redirect-rule=1x1.gif,domain=cinemakottaga.*
+cinemakottaga.*##+js(nano-sib, timePassed)
+*$3p,script,denyallow=arc.io|cloudflare.com|hcaptcha.com|google.com|gstatic.com|recaptcha.net,domain=cinemakottaga.*
 cryptotop.ga##+js(nano-sib, wpsafe-time)
 mysql2dumpcrypt.de,xn--stream-oe64e.*###abm
 webdeyazilim.com##+js(aost, String.prototype.charCodeAt, ai_)
@@ -91026,7 +91024,6 @@ techadvisor.co.uk#@#.adsbygoogle
 archive.org#@#.oasad
 @@*$media,domain=camwhores.tv
 @@||static.parsely.com/p.js$script,domain=nfl.com
-@@||coolblue.nl^*/ard.png$script,1p
 @@||a.4cdn.org/*.json$xhr,domain=4chan.org
 @@||4cdn.org/adv/*$image,domain=4channel.org
 @@||cdn.cxense.com/cx.js$script,domain=mega.cl
@@ -91316,7 +91313,6 @@ indoxx1.center#@#.lazy
 /^https?:\/\/(35|104)\.(\d){1,3}\.(\d){1,3}\.(\d){1,3}\//$popup,3p,badfilter
 @@||myreadingmanga.info/wp-content/uploads/*.jpg$image,1p
 ||myreadingmanga.info/wp-content/uploads/*.gif$image
-@@||2mdn.net/instream/html5/ima3.js$script,domain=geenstijl.nl
 ||pmdstatic.net^$3p,badfilter
 @@||api.infowarsmedia.com/videojs-event-tracking/$script,1p
 techradar.com#@#a[href^="https://amazon."][href*="tag="]
@@ -91757,7 +91753,6 @@ saltspringexchange.com#@#.single-ad
 *$script,1p,domain=unblocktheship.org,badfilter
 *$xhr,domain=unblocktheship.org,badfilter
 @@||pxys.ezoic.net^$domain=lanaciondigital.es
-@@||laredoute.com^$image,domain=laredoute.nl|laredoute.lu
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=mypodboxx.com
 *$popup,1p,domain=extreme-down.video,badfilter
 *$xhr,redirect-rule=noopjs,domain=themeslide.com
@@ -92157,10 +92152,6 @@ adyou.me#@#+js(no-setInterval-if, (), 500)
 @@||ssl.p.jwpcdn.com/player/*/googima.js$script,domain=weather.com
 coolmathgames.com##+js(set, network_user_id, '')
 @@||b-cdn.net^*-adap.jpg$image,domain=techxplore.com
-@@||prtawe.com/embed/tbplyr/?$script,domain=camsexbabe.nl
-@@||awemwh.com/$image,domain=camsexbabe.nl
-@@||potwm.com/tube-player/?$frame,domain=camsexbabe.nl
-@@||potwm.com/api/video-promotion/v1/get-$xhr,domain=camsexbabe.nl|potwm.com
 ||hb.afl.rakuten.co.jp^$badfilter
 ||hb.afl.rakuten.co.jp^$3p
 @@||names.org^$cname
