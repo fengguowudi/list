@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jbw+DIoM9/O1Q/yfYgCO8w
+! Checksum: Tq+krUAqF55reDKH4FK7SQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301160220
-! Last Modified: 2023年01月16日 02:20
+! Version: 202301160935
+! Last Modified: 2023年01月16日 09:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -22895,6 +22895,7 @@ tf2r.com#@#.adverts
 ||6bgaput9ullc.com^
 ||6c25910c97.com^
 ||6d79qh7j.com^
+||6db7837ac4.com^
 ||6dd4a8313e.com^
 ||6e3ee87ff2.com^
 ||6f0a737559.com^
@@ -40999,6 +41000,7 @@ tf2r.com#@#.adverts
 ||wittf.com^
 ||wittilyfrogleg.com^
 ||wivesdandyemulation.com^
+||wixorqoqmq.com^
 ||wizardmarndl.com^
 ||wizhumpgyros.com^
 ||wizliebeg.com^
@@ -41761,6 +41763,7 @@ tf2r.com#@#.adverts
 ||zunsavurdo.com^
 ||zunsoach.com^
 ||zuphaims.com^
+||zurwtuvt.com^
 ||zusholro.net^
 ||zutasrbu.com^
 ||zvkytbjimbhk.com^
@@ -48108,6 +48111,7 @@ tf2r.com#@#.adverts
 ||wall.vgr.com^
 ||waptrick.org/js/exo
 ||webconfs.com/wp-content/uploads/2017/08/300x250bw.png
+||welovemanga.one/uploads/bannerv.gif
 ||wikihow.com/x/zscsucgm?
 ||worldofmods.com/wompush-init.js
 ||wqah.com/images/banners/
@@ -70569,6 +70573,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.pandora.com^
 ||stats.paste2.org^
 ||stats.pstream.net^
+||stats.sandberg.world^
 ||stats.searchftps.net^
 ||stats.suenicholls.com^
 ||stats.trimbles.ie^
@@ -92771,6 +92776,7 @@ dobreprogramy.pl##script:has-text(slotNumber):upward(2)
 @@||cmp.quantcast.com/choice/*/www.express.co.uk/choice.js$script,domain=express.co.uk
 @@||quantcast.com^$script,xhr,domain=comingsoon.it
 ||mycourses.pearson.com/shared/static/*/component/ga.min.js$script,1p,redirect=google-analytics.com/analytics.js,important
+@@||player03.com/run/3/beta/img/ads/Spinner.png$image
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -99912,7 +99918,7 @@ dobreprogramy.pl##script:has-text(slotNumber):upward(2)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 20 Jan 2003 00:00:00
+# start date:    Tue, 21 Jan 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
