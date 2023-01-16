@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: olrAYHNxqIKmUmUu/ZGtKw
+! Checksum: Ni2Xz7l89MPxSjcol4qe6A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301162038
-! Last Modified: 2023年01月16日 20:38
+! Version: 202301170222
+! Last Modified: 2023年01月17日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20967,6 +20967,7 @@ _800x80_
 ##.vl-advertisment
 ##.vl-header-ads
 ##.vlog-ad
+##.vm-ad-horizontal
 ##.vmp-ad
 ##.vod_ad
 ##.vodl-ad__bigsizebanner
@@ -83872,7 +83873,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||statistics.csob.cz^
 ||2dehands.be/px/
 ||aa.hwigroup.com^$domain=hardware.info
-||aa.tweakers.nl^
 ||analytics.rambla.be^
 ||bc34.wijnvoordeel.nl^
 ||bol.com/tracking/
@@ -90218,6 +90218,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ^cep=*&zoneid=$doc
 ^cep=*&s1=$doc
 ||kewosi.live^$all
+.top/robot4/*&a=$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -92722,7 +92723,6 @@ lemonde.fr#@#.gdpr-lmd-wall
 @@||assets.adobedtm.com/*.js$script,domain=accounts.o2.co.uk
 ||assets.adobedtm.com/*source.min.js$script,domain=accounts.o2.co.uk,important
 instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:has-text(Paid partnership with ))
-@@||video.qq.com/getvinfo$script,1p
 ||wisepops.com^$badfilter
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,domain=ici.tou.tv
 @@||aniview.com/api/$script,domain=gamingbible.co.uk
@@ -92784,6 +92784,7 @@ dobreprogramy.pl##script:has-text(slotNumber):upward(2)
 @@||quantcast.com^$script,xhr,domain=comingsoon.it
 ||mycourses.pearson.com/shared/static/*/component/ga.min.js$script,1p,redirect=google-analytics.com/analytics.js,important
 /img/ads/Spinner.png$image,redirect-rule=1x1.gif
+lovepanky.com#@#.full-width.row > .medium-12:first-child
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -99916,7 +99917,7 @@ dobreprogramy.pl##script:has-text(slotNumber):upward(2)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Thu, 12 Jan 2023 04:23:50 GMT
+# last updated:   Mon, 16 Jan 2023 15:59:01 GMT
 # entries:        3666
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
