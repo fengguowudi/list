@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: J0I/9PNecUu08xVCTWxa+w
+! Checksum: nrpq53zCif/Ypsh79hTUbA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301191423
-! Last Modified: 2023年01月19日 14:23
+! Version: 202301192036
+! Last Modified: 2023年01月19日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -32052,7 +32052,6 @@ tf2r.com#@#.adverts
 ||joyvowdig.com^
 ||jpdniuaaqt.xyz^
 ||jpesfzcjob.com^
-||jpg.church^
 ||jpmpuxglivupwy.com^
 ||jqcache.ml^
 ||jqcgyjwidktu.xyz^
@@ -50392,6 +50391,7 @@ aiscore.com##.bet365
 nationalworld.com##.bfQGof
 whatismyisp.com##.bg-blue-50
 republicworld.com##.bg-f0f0f0
+iotworldtoday.com##.bg-gray-2
 amgreatness.com##.bg-gray-200.mx-auto
 wccftech.com##.bg-horizontal
 imagetotext.info##.bg-light.mt-2.text-center
@@ -50834,6 +50834,7 @@ thefinancialexpress-bd.com##.extraLink
 formula1.com##.f1-dfp-banner-wrapper
 audiophilereview.com##.f7e65-midcontent
 audiophilereview.com##.f7e65-sidebar-ad-widget
+datenna.com##.fPHZZA
 btcmanager.com##.f_man_728
 freeads.co.uk##.fa_box_m
 might.net##.fat-container
@@ -89535,6 +89536,7 @@ chortle.co.uk,coloring.ws,dltk-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com
 ||ads-api.twitter.com^$xhr,redirect-rule=nooptext,3p
 ||ads.pinterest.com^$xhr,redirect-rule=noop.txt
 ||adversal.com^$xhr,redirect-rule=noop.txt
+mymusicreviews.com,thechat.cafe##+js(aopr, chp_adblock_browser)
 globfone.com##+js(no-xhr-if, ads)
 donugdee.com##.ad-overlay-click
 donugdee.com##.moviePlayer
@@ -90337,14 +90339,17 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ^s=*&ssk=*&svar=*&z=$doc
 /?cid=*&dom=$doc
 /?s1=*&click_id=$doc
-.com/away.php^$doc
 ||totalrecaptcha.top^$all
+/?type=*&button=2&clickid=$doc
+||valrogrowth.com^$all
+^device_model=*&p1=https$doc
+||5.61.55.143^
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
-/^https?:\/\/((?!www)[a-z]{3,}|\d{2})?\.?[-0-9a-z]{6,}\.[a-z]{2,6}\/(?:[a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|site|space|top|us|xyz
-/^https?:\/\/((?!www)[a-z]{3,}|\d{2,3})?\.?[-0-9a-z]{6,}\.[a-z]{2,6}\/(?:[a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|site|space|top|us|xyz
+/^https?:\/\/((?!www)[a-z]+|\d{2,3})?\.?[-0-9a-z]{6,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|site|space|top|us|xyz
+/^https?:\/\/((?!www)[a-z]+|\d{2,3})?\.?[-0-9a-z]{6,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|site|space|top|us|xyz
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{10,36}(?:&qs\d=\S+)?&sid=[_0-9a-f]{1,32}(?:&s=0\.\d+)?$/$doc,match-case,domain=com|info|net|org
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?sid=[_0-9a-f]{1,32}(?:&qs\d=\S+)?&cid=[-_0-9a-zA-Z]{10,36}(?:&s=0\.\d+)?$/$doc,match-case,domain=com|info|net|org
 ||ogtrk.net^
@@ -90664,6 +90669,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||paypay.dinglike.com^$all
 ||3utilities.com^$all
 ||trustwallett.rest^$all
+||mail-paypay.secure-onamae.com^$all
+||netstation.ciokunu2xokia143xopt.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -90969,7 +90976,6 @@ knowyourmeme.com##+js(nosiif, blogherads)
 ||ggwebcast.com/*/kaltura/ga/urchin.js$script,redirect=noopjs
 @@||shop.puppetlabs.com/store/js/services/googleAnalytics.js$script,1p
 @@||premium.soundcloud.com/*/js/tracking.js$script,1p
-@@||googletagmanager.com/gtm.js?$domain=willyweather.com.au
 @@||static.adf.ly^$image,script,css,domain=q.gs
 ||emarketer.com^$badfilter
 ||emarketer.com^$3p
@@ -91019,7 +91025,6 @@ knowyourmeme.com##+js(nosiif, blogherads)
 @@||facebook.com/*_ad6.$script,1p
 @@||fbcdn.net/*_ad6.$script,domain=messenger.com
 ||lexus.com/lexus-share/js/tracking_omn/s_code.js$script,important,1p,redirect=noopjs
-@@||googletagmanager.com/gtm.js$script,domain=livescience.com|space.com|topspeed.com
 @@||sephora.com/js/ufe/isomorphic/thirdparty/VisitorAPI.js$script,1p
 @@||edge1.certona.net/*$script,domain=sephora.com
 @@||fls.doubleclick.net^$frame,domain=billpay.suntrust.com
@@ -91032,7 +91037,6 @@ pythonjobshq.com##+js(aopr, Keen)
 @@||myaccounts.capitalone.com^$script,1p
 ||cj.com^$badfilter
 ||cj.com^$3p
-@@||assets.adobedtm.com^$script,domain=linkinghub.elsevier.com
 @@||players.brightcove.net^$frame,domain=usatoday.com
 @@||cdn.ampproject.org/*/amp-geo-$script,domain=bozemandailychronicle.com|engadget.com|kmbc.com|koat.com|pilotonline.com|richmond.com|stltoday.com|amp.tmz.com|tucson.com|amp.usatoday.com|watchdog.org
 @@/blockadblock.$script,domain=blockadblock.com
@@ -91053,7 +91057,6 @@ orange.fr###o_carrepub:style(height: 1px; margin: 0; min-height: auto; visibilit
 @@||googletagmanager.com/gtm.js$script,domain=fullcontact.com
 @@||flightradar24.com/static/*/statistics.js$script,1p
 ||camping.info/*/fingerprint2.min.js$script,1p,redirect=noopjs
-@@||analytics.logsss.com^$script,domain=dresslily.com
 @@||google-analytics.com/analytics.js$script,domain=flipagram.com
 ||static.clmbtech.com^$script,redirect=noopjs,domain=businessinsider.in
 @@||businessinsider.in/analytics_js/*$script,1p
@@ -92912,6 +92915,8 @@ dobreprogramy.pl##script:has-text(slotNumber):upward(2)
 lovepanky.com#@#.full-width.row > .medium-12:first-child
 @@||p.typekit.net/p.css$stylesheet,domain=browserstack.com
 ||coveo.com^$script,domain=basspro.com,redirect-rule=noopjs
+@@||assets.adobedtm.com^$script,domain=myaetnasupplemental.com
+@@||js.monitor.azure.com/scripts/$script,domain=rubex.efilecabinet.net
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
