@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hzffX61vGNjBJB9+f04ZlA
+! Checksum: HfiYfGLWEV5KhaxdLqsvdQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301202036
-! Last Modified: 2023年01月20日 20:36
+! Version: 202301210223
+! Last Modified: 2023年01月21日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52750,6 +52750,7 @@ unmineablesbest.com##div[class^="uk-visible@"]
 whatsondisneyplus.com##div[class^="whats-"]
 unsplash.com##div[data-ad="true"]
 999thehawk.com##div[data-alias="Sweetjack"]
+theverge.com##div[data-concert]
 qwant.com##div[data-monitoring="adsWebSerpOk"]
 google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-section-id$="__adb"]
 ecosia.org##div[data-test-id="mainline-result-ad"]
@@ -90362,12 +90363,14 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 .biz/sw/w1s.js|$script,3p
 ||mo11.biz^$all
 ||musicinmysoul.biz^$all
+/click.php?key=*&cpc=0&$doc
+||winsafe.xyz^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
-/^https?:\/\/((?!www)[a-z]+|\d{2,3})?\.?[-0-9a-z]{6,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|site|space|top|us|xyz
-/^https?:\/\/((?!www)[a-z]+|\d{2,3})?\.?[-0-9a-z]{6,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|site|space|top|us|xyz
+/^https?:\/\/((?!www)[a-z]+|\d{2,4})?\.?[-0-9a-z]{6,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|site|space|top|us|xyz
+/^https?:\/\/((?!www)[a-z]+|\d{2,4})?\.?[-0-9a-z]{6,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|site|space|top|us|xyz
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{10,36}(?:&qs\d=\S+)?&sid=[_0-9a-f]{1,32}(?:&s=0\.\d+)?$/$doc,match-case,domain=com|info|net|org
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?sid=[_0-9a-f]{1,32}(?:&qs\d=\S+)?&cid=[-_0-9a-zA-Z]{10,36}(?:&s=0\.\d+)?$/$doc,match-case,domain=com|info|net|org
 ||ogtrk.net^
@@ -91004,7 +91007,6 @@ knowyourmeme.com##+js(nosiif, blogherads)
 @@||analytics.edgesuite.net/html5/akamaihtml5-min.js$script,domain=sky.de
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$script,domain=sky.de
 @@||assets.adobedtm.com^$script,domain=sky.de
-@@.php?ref=$domain=facebook.com|facebookcorewwwi.onion|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|materiel.net
 @@||d29xw9s9x32j3w.cloudfront.net/players/library/*$domain=seattlepi.com|sfgate.com
 @@||ensighten.com/hearst/news/Bootstrap.js$script,domain=ctpost.com|houstonchronicle.com|mysanantonio.com|newstimes.com|seattlepi.com|sfchronicle.com|sfgate.com|timesunion.com
 @@||googleapis.com/js/sdkloader/ima3.js$script,domain=seattlepi.com|sfgate.com
@@ -91033,13 +91035,10 @@ knowyourmeme.com##+js(nosiif, blogherads)
 -google-analytics.$badfilter
 /google-analytics.$script,badfilter
 /ga_setup.js$badfilter
-@@||facebook.com/*_ad6.$script,1p
-@@||fbcdn.net/*_ad6.$script,domain=messenger.com
 ||lexus.com/lexus-share/js/tracking_omn/s_code.js$script,important,1p,redirect=noopjs
 @@||sephora.com/js/ufe/isomorphic/thirdparty/VisitorAPI.js$script,1p
 @@||edge1.certona.net/*$script,domain=sephora.com
 @@||fls.doubleclick.net^$frame,domain=billpay.suntrust.com
-@@||tvpage.com/tvpa.min.js$script,domain=bleepingcomputer.com
 bleepingcomputer.com#@#.addthis_toolbox
 pythonjobshq.com##+js(aopr, Keen)
 @@||hdliveextra-a.akamaihd.net^$domain=nbcsports.com
@@ -91053,7 +91052,6 @@ pythonjobshq.com##+js(aopr, Keen)
 @@/blockadblock.$script,domain=blockadblock.com
 ||carambo.la^*/getAngularLayer$script,redirect=noopjs,domain=imleagues.com
 @@||cdn.optimizely.com/json/*$xhr,domain=dashboard.pantheon.io
-||study.com/js/trcking/eventTracking*.js$script,1p,redirect=noopjs
 ||oakley.com/_ui/dist/scripts/vendor/tealium.js$script,1p,redirect=noopjs,important
 ||oakleysi.com/_ui/dist/scripts/vendor/tealium.js$redirect=noopjs,important
 orange.fr#@##o_carrepub
@@ -92911,6 +92909,7 @@ lovepanky.com#@#.full-width.row > .medium-12:first-child
 @@||p.typekit.net/p.css$stylesheet,domain=browserstack.com
 ||coveo.com^$script,domain=basspro.com,redirect-rule=noopjs
 @@||googletagmanager.com/gtm.js$domain=pointmall.rakuten.co.jp
+@@||js-agent.newrelic.com/internal/$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -100044,7 +100043,7 @@ lovepanky.com#@#.full-width.row > .medium-12:first-child
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Wed, 18 Jan 2023 22:02:26 GMT
-# entries:        3668
+# entries:        3667
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -103349,7 +103348,6 @@ lovepanky.com#@#.full-width.row > .medium-12:first-child
 127.0.0.1 toplist.cz
 127.0.0.1 toplist.pornhost.com
 127.0.0.1 toplista.mw.hu
-127.0.0.1 toplistcity.com
 127.0.0.1 toprebates.com
 127.0.0.1 topsir.com
 127.0.0.1 topsite.lv
