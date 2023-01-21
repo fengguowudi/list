@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4sCjAermooiGBIn47vyPCQ
+! Checksum: MMV+I8pSEQxu1SFu+LYYWA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301212032
-! Last Modified: 2023年01月21日 20:32
+! Version: 202301220220
+! Last Modified: 2023年01月22日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53605,6 +53605,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ad.atown.jp/adserver/$domain=ad.atown.jp
 @@||ad.smartmediarep.com/NetInsight/video/smr$domain=programs.sbs.co.kr
 @@||admanager.clubzebra.se^$image,domain=ripshusvagnar.se
+@@||ads-i.org/images/ads3.jpg$~third-party
 @@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||ads-twitter.com/uwt.js$domain=factory.pixiv.net
 @@||ads.instacart.com/admin/$~third-party
@@ -85935,7 +85936,6 @@ ac24.cz##pp
 garaveli.de##+js(acis, addEventListener, google_ad_client)
 @@||yilmaztv.com^$ghide
 @@||alsancak-35.de^$ghide
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$redirect-rule=googlesyndication_adsbygoogle.js,script,domain=crypto-fun-faucet.de
 @@||crypto-fun-faucet.de^$ghide
 crypto-fun-faucet.de###top_adspace
 crypto-fun-faucet.de##[href^="https://r.honeygain.me"]
@@ -85971,7 +85971,6 @@ voxfilmeonline.biz##div.ss_left:style(padding-left:0 !important)
 voxfilmeonline.biz##.footer_floating_ads
 voxfilmeonline.biz##.post_video_banner
 unityassetcollection.com##+js(nano-sib, secs)
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$redirect-rule=googlesyndication_adsbygoogle.js,script,domain=unityassetcollection.com
 psdly.com##.widget_custom_html
 psdly.com##.widget_media_image
 *$frame,script,3p,domain=freeadultcomix.com
@@ -86007,8 +86006,6 @@ url4cut.xyz##+js(set, blurred, false)
 url4cut.xyz##.banner
 novelism.jp##+js(aeld, blur, native code)
 alphapolis.co.jp##+js(aeld, blur, event.simulate)
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$redirect-rule=googlesyndication_adsbygoogle.js,script,domain=persianhive.com
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$redirect-rule=googlesyndication_adsbygoogle.js,script,domain=andreyex.ru
 ||tinypass.com^$domain=crosswalk.com
 ||tinypass.com^$domain=christianity.com
 manyakan.com##+js(no-xhr-if, adsbygoogle)
@@ -90023,7 +90020,6 @@ orange.fr###o_carrepub:style(height: 1px; margin: 0; min-height: auto; visibilit
 @@||mpsnare.iesnare.com/snare.js$script,domain=costco.com
 @@||thermofisher.com/*/analytics.sitecatalyst.js$script,1p
 @@||citi.com/cards/*/tracking.js$script
-@@|blob:$popup,domain=citi.com
 @@||eccmp.com/*/conversen-SDK.js$script,domain=citi.com
 @@||fbcdn.net/safe_image.php?$image,domain=facebook.com|facebookcorewwwi.onion|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 @@||cbc.ca/*/cbc-stats-$script,1p
@@ -90235,7 +90231,6 @@ warszawawpigulce.pl##.eklama
 @@||vice.com/*/AdobeAnalyticsSDK$script,1p
 @@||twitter.com/*/profiles/show/*$xhr,1p
 @@||twitter.com/*/status/*conversation_id$xhr,1p
-@@|blob:$domain=hdfilme.tv
 @@||mssl.fwmrm.net/p/abc_live/$script,domain=abc.go.com
 @@||v.fwmrm.net/ad/g/1$script,domain=abc.go.com
 @@/VisitorAPI.js$script,domain=abc.go.com
@@ -90406,7 +90401,6 @@ kzstock.blogspot.com#@##ad-target
 @@||readcomiconline.to/$xhr,1p
 @@||adobedtm.com^*/satellitelib-$script,domain=skysportaustria.at
 ||miniusa.com/etc/designs/mini/js/vendor/tracking/*$script,1p,redirect=noopjs
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=nhl.com
 @@||doubleclick.net/gampad/ads*nhl.com$xhr,domain=imasdk.googleapis.com
 @@||static.adsafeprotected.com/vans-adapter-google-ima.js$script,domain=nhl.com
 @@||d8rk54i4mohrb.cloudfront.net/js/video.js$script,domain=forbes.com
@@ -90619,7 +90613,6 @@ pcgamer.com#@#.hawk-widget
 @@||cdn.mxpnl.com/libs/mixpanel-*-latest.min.js$script,domain=groupme.com
 @@||googletagmanager.com^$script,domain=subscriptions.amd.com
 @@/gtm.js$script,domain=subscriptions.amd.com
-@@|blob:$popup,domain=patient.labcorp.com
 @@||googletagmanager.com/gtm.js$script,domain=pochta.ru
 @@||google-analytics.com/analytics.js$script,domain=pochta.ru
 @@||moto.it/ads/bundle$script,1p
@@ -90753,7 +90746,6 @@ amnews.com###div-gpt-ad-instory-bottom
 @@||modules-prod.franklyinc.com/cml.js$script,domain=news9.com
 @@||nbc29.com/*/arcAdsJS/$script,1p
 ||anyporn.com^$script,badfilter
-youjizz.com#@#[src*="blob:"]
 realitatea.net#@#a[href^="https://ad.doubleclick.net/"]
 @@||cloudfront.net/wp-content/themes/visualdna-com/*$css,domain=visualdna.com
 @@||googletagmanager.com/gtm.js$script,domain=vier.be
@@ -90769,7 +90761,6 @@ realitatea.net#@#a[href^="https://ad.doubleclick.net/"]
 @@||pingjs.qq.com/h5/stats.js$script,domain=ushareit.com
 @@||coral.coralproject.net^
 @@||ak.sail-horizon.com/spm/spm$script,domain=cnbc.com
-@@|blob:$popup,domain=1800contacts.com
 examiner.com.au,theadvocate.com.au,thecourier.com.au##.subscriber-hider:style(display:inherit!important)
 examiner.com.au,theadvocate.com.au,thecourier.com.au##.subscribe-truncate:before:style(background:none!important)
 examiner.com.au,theadvocate.com.au,thecourier.com.au##.subscribe-truncate:style(order:0!important;max-height:inherit!important)
@@ -90850,7 +90841,6 @@ order-order.com#@#.tag-sponsored
 @@||moondoge.co.in/js/fingerprint2.js$script,1p
 *$script,3p,domain=cartoonth12.com,badfilter
 ||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js
-@@|blob:$popup,domain=web.whatsapp.com
 @@||reference.medscape.com/public/vptrack_iframe.html$frame,1p
 *$script,image,css,frame,3p,domain=animetrick.com,badfilter
 @@||dduhv0txi73d1.cloudfront.net^$script,domain=marmiton.org
@@ -91008,14 +90998,11 @@ hubblespacetelescope.blogspot.com#@#.vertical-ads
 ||circularhub.com^$3p,badfilter
 !#endif
 @@||static.wellsfargo.com/tracking/main/utag.js^$script,domain=wellsfargo.com
-@@|blob:resource://pdf.js/$popup
 @@||cdn-net.com/cc.js$script,domain=showroomprive.com
 eslint.org#@#.sponsor-link
 |https://$xhr,3p,domain=zippyshare.com,badfilter
 @@||privacy-mgmt.com^$script,domain=n-tv.de
 @@||privacy-mgmt.com^$script,domain=chip.de
-*$script,3p,domain=hentaiplay.net,badfilter
-hentaiplay.net###video_overlays
 @@||uid.mavencoalition.io^$xhr,domain=yogajournal.com
 @@||privacy-mgmt.com^$script,domain=bild.de
 @@||arthromed.de^$ghide
@@ -91036,7 +91023,6 @@ hentaiplay.net###video_overlays
 @@||promotique.com.au^*/Common/ga.js$script,1p
 ||vendigamus.com^$badfilter
 ||vendigamus.com^$3p
-*$script,3p,domain=bdsmstreak.com,badfilter
 *$script,3p,domain=pornvibe.org,badfilter
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=sun-sentinel.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=floridatravellife.com
