@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1fIiH7JHNHOie2lliKgmuw
+! Checksum: Svvmt/qQfyQUyBJVOODn1Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301222032
-! Last Modified: 2023年01月22日 20:32
+! Version: 202301230220
+! Last Modified: 2023年01月23日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -31084,6 +31084,7 @@ tf2r.com#@#.adverts
 ||ihjtrncfoha.com^
 ||ihoabsop.xyz^
 ||ihsarnaut.store^
+||ihykshjtsxrk.com^
 ||ihzuephjxb.com^
 ||iicheewi.com^
 ||iicsxxkdcy.com^
@@ -40901,6 +40902,7 @@ tf2r.com#@#.adverts
 ||yinthesprin.xyz^
 ||yiopse.com^
 ||yirtaycyytr.xyz^
+||yizldrdnegazw.com^
 ||yjustinge.xyz^
 ||ykjwjvxofc.xyz^
 ||ylasthepoityelthens.com.ua^
@@ -47678,6 +47680,14 @@ $image,script,subdocument,third-party,xmlhttprequest,domain=heapfiles.com|vidoza
 @@||ajax.googleapis.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdn.vidoza.co/js/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
+$stylesheet,subdocument,third-party,xmlhttprequest,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+.com.ua^$popup,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+.com.ua^$third-party,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+.xyz^$popup,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+.xyz^$third-party,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+@@||google.com/recaptcha/$subdocument,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+||amazonaws.com^$domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+||cloudfront.net^$domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
 $script,third-party,xmlhttprequest,domain=mixdrop.co
 @@||code.jquery.com^$domain=mixdrop.co
 @@||gstatic.com^$domain=mixdrop.co
@@ -84543,7 +84553,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
 @@||api.cxense.com/document/search?$script,xmlhttprequest,domain=friday.kodansha.co.jp|tv-tokyo.co.jp
 @@||api.cxense.com/persisted/execute$script,domain=nippon.com
-@@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=cyclestyle.net|friday.gold|friday.kodansha.co.jp|mainichi.jp|nippon.com|wpb.shueisha.co.jp
+@@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=cyclestyle.net|friday.gold|friday.kodansha.co.jp|mainichi.jp|nippon.com|shueisha.co.jp
 @@||api.ipify.org^$xmlhttprequest,domain=offering-flower.com
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
@@ -84563,7 +84573,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
 @@||collect.igodigital.com/collect.js$domain=enoteca.co.jp
 @@||cxense.com/cx.cce.js$domain=mainichi.jp|tarzanweb.jp|wpb.shueisha.co.jp
-@@||cxense.com/cx.js$domain=cyclestyle.net|mainichi.jp|nippon.com|tarzanweb.jp|tv-tokyo.co.jp|wpb.shueisha.co.jp
+@@||cxense.com/cx.js$domain=cyclestyle.net|mainichi.jp|nippon.com|shueisha.co.jp|tarzanweb.jp|tv-tokyo.co.jp
 @@||dcard.docomo.ne.jp/st/common/js/googleTagManager.js
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
@@ -91051,7 +91061,7 @@ nfmovies.com#@#+js(aopr, $myui)
 |https://$css,3p,domain=cloudvideo.tv,badfilter
 @@||cdn.plyr.io/*/plyr.svg$xhr,domain=mp4upload.com
 arthromed.de#@##ad_3
-@@||js.honeybadger.io^$script,domain=player.tubia.com
+@@||bitent.com/lock_html5/adPlayer/v*/adPlayer.js$script,domain=cookinggames.com
 saltspringexchange.com#@#.single-ad
 *$script,3p,domain=youav.com,badfilter
 @@||wp.com/*/wp-content/plugins/master-slider/public/assets/css/blank.gif$image,domain=hearthstone-decks.net
@@ -91109,10 +91119,7 @@ humanbenchmark.com##+js(set, pubg.unload, noopFunc)
 @@||treg.hearstnp.com/treg.js$script,domain=sfchronicle.com|sfgate.com
 politico.com##+js(set, generateGalleryAd, noopFunc)
 @@||gdpr-tcfv2.sp-prod.net/wrapperMessagingWithoutDetection.js$script,domain=ekstrabladet.dk
-||doubleclick.net/gampad/ads*mlb.com*preroll$xhr,important,domain=imasdk.googleapis.com
 ||googlevideo.com^$media,redirect=noopmp4-1s,domain=mlb.com
-@@||doubleclick.net/gampad/ads*mlb.com$xhr,domain=imasdk.googleapis.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=mlb.com
 @@||mlbstatic.com/*/VisitorAPI.js$script,domain=mlb.com
 @@||mlbstatic.com/mlb.com/*$script,domain=mlb.com
 @@||science-et-vie.com^$cname
@@ -91130,7 +91137,8 @@ hubblespacetelescope.blogspot.com#@#.vertical-ads
 @@||track.rundschau-online.de/cre-1.0/tracking/$script,1p
 @@||track.rundschau-online.de/*/static/jssdk.js$script,1p
 @@||track.rundschau-online.de/*/api/$xhr,1p
-@@||officedepot.co.cr/*/js/analyticsmediator.js$script,1p
+officedepot.co.cr##+js(set, mediator, noopFunc)
+officedepot.co.cr##+js(set, Object.prototype.subscribe, noopFunc)
 !#if env_firefox
 ||circularhub.com^$3p,badfilter
 !#endif
@@ -91154,8 +91162,7 @@ eslint.org#@#.sponsor-link
 @@||privacy-mgmt.com^$script,domain=handelsblatt.com
 @@||geo.leadboxer.com/GeoIpEngine/$script,domain=opentracker.net
 ||doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js,domain=usnews.com
-@@||unpkg.com/videojs-contrib-ads^*/videojs-contrib-ads.min.js$script,domain=usnews.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=usnews.com
+usnews.com##+js(set, Object.prototype.vjsPlayer.ads, noopFunc)
 @@||privacy-mgmt.com^$script,domain=faz.net|focus.de|golem.de|stern.de
 @@||promotique.com.au^*/Common/ga.js$script,1p
 ||vendigamus.com^$badfilter
@@ -91168,8 +91175,6 @@ eslint.org#@#.sponsor-link
 @@||torrage.info/download$popup
 @@||d28julafmv4ekl.cloudfront.net/*.mp3?$media,domain=imdb.com
 @@||googletagmanager.com/gtm.js$script,domain=lavanguardia.com
-@@||google-analytics.com/analytics.js$script,domain=lavanguardia.com
-@@||google-analytics.com/gtm/js$script,domain=lavanguardia.com
 |https://$script,3p,domain=cloudvideo.tv,badfilter
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=meilleurpronostic.fr
 |https://$xhr,3p,domain=imagefap.com,badfilter
