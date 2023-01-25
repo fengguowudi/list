@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zr393Vqia+RM+z11YzSFZA
+! Checksum: Gl3n77d0fnHRRw2xQgdAfA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301252036
-! Last Modified: 2023年01月25日 20:36
+! Version: 202301260221
+! Last Modified: 2023年01月26日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -7391,6 +7391,7 @@ _800x80_
 ###blkAds3
 ###blkAds4
 ###blkAds5
+###block-ad-articles
 ###block-adsense-0
 ###block-adsense-2
 ###block-adsense-banner-article-bottom
@@ -14099,6 +14100,7 @@ _800x80_
 ##.adspace-leaderboard
 ##.adspace-lr
 ##.adspace-mpu
+##.adspace-mtb
 ##.adspace-top
 ##.adspace-widget
 ##.adspace1
@@ -20780,6 +20782,7 @@ _800x80_
 ##.top_adbox2
 ##.top_adh
 ##.top_ads
+##.top_ads_container
 ##.top_adsense
 ##.top_adspace
 ##.top_adv
@@ -24144,6 +24147,7 @@ tf2r.com#@#.adverts
 ||ajointstalder.website^
 ||ajoqysuc.xyz^
 ||ajorinryeso.com^
+||ajsyxphfpr.com^
 ||ajuyacxneja.xyz^
 ||ajwbkgejrxxrr.xyz^
 ||ajxx98.online^
@@ -24158,6 +24162,7 @@ tf2r.com#@#.adverts
 ||akspecuaa.xyz^
 ||aktdrdfdconxvy.xyz^
 ||akutapro.com^
+||alanibelen.com^
 ||alanticgecking.uno^
 ||alas4kanmfa6a4mubte.com^
 ||alaskan4kleeskai.com^
@@ -24611,6 +24616,7 @@ tf2r.com#@#.adverts
 ||appzeyland.com^
 ||apricotaimless.com^
 ||aprilineffective.com^
+||apritifunbid.com^
 ||apromoweb.com^
 ||apsmediaagency.com^
 ||aptimorph.com^
@@ -25021,6 +25027,7 @@ tf2r.com#@#.adverts
 ||aurallyhypaton.com^
 ||aurdosti.com^
 ||aureigabelle.com^
+||aureliancathy.com^
 ||aurjueeh.com^
 ||ausoafab.net^
 ||ausomsup.net^
@@ -28481,6 +28488,7 @@ tf2r.com#@#.adverts
 ||eagerlyshuggy.com^
 ||eagernessstrongergreet.com^
 ||eagleapi.io^
+||eagletskoku.com^
 ||ealeo.com^
 ||eanddrsgankru.com.ua^
 ||eapdypexshbrps.com^
@@ -29785,6 +29793,7 @@ tf2r.com#@#.adverts
 ||fyglovilo.pro^
 ||fykdxpdnhy.com^
 ||fzbjzlwcnd.com^
+||fzommizpo.com^
 ||fztmn.top^
 ||g-statistic.com^
 ||g1sysa.com^
@@ -31921,6 +31930,7 @@ tf2r.com#@#.adverts
 ||kangaroohiccups.com^
 ||kankingwith.com^
 ||kanoodle.com^
+||kansanscichar.com^
 ||kantarmedia.com^
 ||kantiwl.com^
 ||kapotlyka.com^
@@ -35261,6 +35271,7 @@ tf2r.com#@#.adverts
 ||photographingmake.com^
 ||photographingstirinput.com^
 ||phouvemp.net^
+||phouwims.net^
 ||phrans.com^
 ||phrensaltier.com^
 ||phsism.com^
@@ -36751,6 +36762,7 @@ tf2r.com#@#.adverts
 ||rhythmxchange.com^
 ||ribsaiji.com^
 ||ribunews.com^
+||ribworkstylus.com^
 ||ric-ric-rum.com^
 ||ricead.com^
 ||ricettadellanonna.com^
@@ -37191,6 +37203,7 @@ tf2r.com#@#.adverts
 ||salutationcheerlessdemote.com^
 ||salutationdove.com^
 ||samage-bility.icu^
+||samaniclucked.com^
 ||samazd.com^
 ||sameplace.lol^
 ||samghasps.com^
@@ -38235,6 +38248,7 @@ tf2r.com#@#.adverts
 ||stempelcosier.com^
 ||stenadewy.pro^
 ||stenchdaltonrunaway.com^
+||stengskelped.com^
 ||step-step-go.com^
 ||stepkeydo.com^
 ||stepmotherincomingpluck.com^
@@ -38882,6 +38896,7 @@ tf2r.com#@#.adverts
 ||thoamike.xyz^
 ||thoartuw.com^
 ||thofandew.com^
+||tholedfubbery.com^
 ||thomasbarlowpro.com^
 ||thompaur.com^
 ||thongaspredo.com^
@@ -39055,6 +39070,7 @@ tf2r.com#@#.adverts
 ||toiletapparel.com^
 ||tojadeso.xyz^
 ||tokenads.com^
+||tokofyttes.com^
 ||tokyoredcirce.com^
 ||tolerableinflectionkazan.com^
 ||tollyeric.com^
@@ -41060,6 +41076,7 @@ tf2r.com#@#.adverts
 ||ylx-4.com^
 ||ym-a.cc^
 ||ym8p.net^
+||ymkomlhgzbpitp.com^
 ||ymqhiigpnt.com^
 ||ymzrrizntbhde.com^
 ||ynklendr.online^
@@ -49493,7 +49510,7 @@ uploadvr.com##.ai-sticky-widget
 androidpolice.com,constructionreviewonline.com,cryptobriefing.com,dereeze.com,tyretradenews.co.uk##.ai-track
 getdroidtips.com,journeybytes.com,thebeaverton.com,thisisanfield.com,unfinishedman.com,windowsreport.com##.ai-viewport-1
 anoopcnair.com,apkmirror.com,askpython.com,beckernews.com,bizpacreview.com,browserhow.com,constructionreviewonline.com,crankers.com,hard-drive.net,journeybytes.com,net-load.com,planetanalog.com,roadaheadonline.co.za,theamericantribune.com,windowslatest.com,yugatech.com##.ai_widget
-station-drivers.com,tennistemple.com##.akcelo-wrapper
+petitchef.com,station-drivers.com,tennistemple.com##.akcelo-wrapper
 wikihow.com##.al_method
 altfi.com##.alert
 majorgeeks.com##.alford > tbody > tr
@@ -91301,9 +91318,7 @@ bing.com##+js(nosiif, logQueue, 10000)
 ||appsflyer.com^$3p
 ||cdn.shopify.com/*assets/pixel.gif$image,redirect=1x1.gif,domain=metrovac.com,important
 ||actonsoftware.com^$badfilter
-@@||api2.branch.io/v1/open$xhr,domain=watcho.com
-@@||cdn.branch.io/branch-$script,xhr,domain=watcho.com
-@@||app.link/*branch_key$script,domain=watcho.com
+watcho.com##+js(nano-stb, isPeriodic, *)
 ||consensu.org^$badfilter
 @@||go-links.net/stylesheets/ads.css$css,1p
 ||news38.de/resources/*$image,1p,redirect-rule=1x1.gif
@@ -91980,6 +91995,7 @@ lovepanky.com#@#.full-width.row > .medium-12:first-child
 @@||akc.blueconic.net^$image,script,xhr,domain=akc.org
 ||permutive.com^$badfilter
 ||permutive.com^$3p
+@@||sisal.it/etc.clientlibs/sisal-fullresponsive/clientlibs/tealium.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
