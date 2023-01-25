@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Mu7wTHedP2twbat4T4D37w
+! Checksum: dxvAo23fl8xkz/t51xPOaA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301250934
-! Last Modified: 2023年01月25日 09:34
+! Version: 202301251422
+! Last Modified: 2023年01月25日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -91298,6 +91298,7 @@ bing.com##+js(nosiif, logQueue, 10000)
 ||appsflyer.com^$3p
 ||cdn.shopify.com/*assets/pixel.gif$image,redirect=1x1.gif,domain=metrovac.com,important
 ||actonsoftware.com^$badfilter
+@@||api2.branch.io/v1/open$xhr,domain=watcho.com
 @@||cdn.branch.io/branch-$script,xhr,domain=watcho.com
 @@||app.link/*branch_key$script,domain=watcho.com
 ||consensu.org^$badfilter
@@ -91335,7 +91336,8 @@ crxextractor.com#@#.adsense-wrapper
 johnhardy.com##+js(acis, $, optimoveSDK)
 @@||googleads.g.doubleclick.net/ads/preferences/*/opt*?continue$doc
 ||thepiratebay.$script,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org,badfilter
-@@||imasdk.googleapis.com/js/sdkloader/ima3$script,domain=rotana.net
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=rotana.net,redirect-rule=google-ima.js
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=rotana.net
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$xhr,domain=rotana.net
 @@||babiato.co/conversations/$1p
 @@||js.monitor.azure.com/scripts/c/ms.analytics-web-2.min.js^$script,domain=answers.microsoft.com
