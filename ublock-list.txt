@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dxvAo23fl8xkz/t51xPOaA
+! Checksum: zr393Vqia+RM+z11YzSFZA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301251422
-! Last Modified: 2023年01月25日 14:22
+! Version: 202301252036
+! Last Modified: 2023年01月25日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -47504,6 +47504,7 @@ tf2r.com#@#.adverts
 ||itweb.co.za^*/sponsors
 ||jobsora.com/img/banner/
 ||jordantimes.com/accu/
+||jpg.church/quicknoisilyheadbites.js
 ||kendrickcoleman.com/images/banners/
 ||kissanime.com.ru/api/pop*.php
 ||kissasian.li/ads/
@@ -47987,6 +47988,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||hltv.org^*=|$popup,domain=hltv.org
 ||hqq.tv/out.php?$popup
 ||hurawatch.ru/?$popup
+||jpg.church/*.php?cat$popup
 ||kissanimeonline.com/driectlink$popup
 ||link.advancedsystemrepairpro.com^$popup
 ||mercurybest.com^$popup,domain=hltv.org
@@ -89971,6 +89973,7 @@ ericdraken.com##^script[async]
 ||cl.t3n.de^
 ||c2shb.pubgw.yahoo.com/admax/bid/partners/PBJS
 ||blozoo.info/js/inouttool/
+||linkedin.com/li/track$xhr,1p
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
@@ -91957,8 +91960,6 @@ nicoad.nicovideo.jp#@#.ad-point
 @@||mcs-va.tiktok.com/v1/user/webid$xhr
 @@||tn.voyeurhit.com/contents/$image,domain=voyeurhit.tube
 @@||dcard.docomo.ne.jp/st/common/js/googleTagManager.js
-dobreprogramy.pl#@#script:-abp-contains(slotNumber):upward(2)
-dobreprogramy.pl##script:has-text(slotNumber):upward(2)
 @@||pals.pa.gov/vendor/analytics/$1p,script
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=eitb.eus,redirect-rule=google-ima.js
 ||counter2.blog.livedoor.com^$badfilter
