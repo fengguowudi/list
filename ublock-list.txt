@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tXhWxmHgS78yIVsXq52TGw
+! Checksum: tyFveDyL5k0Mw8GZdxOqGg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301262037
-! Last Modified: 2023年01月26日 20:37
+! Version: 202301270222
+! Last Modified: 2023年01月27日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -25272,6 +25272,7 @@ tf2r.com#@#.adverts
 ||bearerassistance.com^
 ||bearingpreoccupationadmonish.com^
 ||bearoner.com^
+||bearpawclouty.com^
 ||bearsdisdainmathematics.com^
 ||beassilentasaf.xyz^
 ||beastintruder.com^
@@ -28872,6 +28873,7 @@ tf2r.com#@#.adverts
 ||exposuremixed.com^
 ||expressalike.com^
 ||expressvampire.com^
+||expwyredocks.com^
 ||exrtbsrv.com^
 ||extend.tv^
 ||extendedcocktailchapel.com^
@@ -28998,6 +29000,7 @@ tf2r.com#@#.adverts
 ||falconisleclip.com^
 ||falkag.net^
 ||falsemulticultural.com^
+||falsenalice.com^
 ||falsifylilac.com^
 ||falsifythomas.com^
 ||falytjfsydnxstr.xyz^
@@ -31224,6 +31227,7 @@ tf2r.com#@#.adverts
 ||introfykeeler.tech^
 ||intrudeaccess.com^
 ||intrudesome.com^
+||intuitspisan.com^
 ||inuapixndextq.xyz^
 ||inurneddoggish.com^
 ||invadedwherevoluntary.com^
@@ -31384,6 +31388,7 @@ tf2r.com#@#.adverts
 ||jadeepso.net^
 ||jads.co^
 ||jaftouja.net^
+||jafwmixumww.com^
 ||jagged-yellow.pro^
 ||jaggiertridii.com^
 ||jailabridge.com^
@@ -31471,6 +31476,7 @@ tf2r.com#@#.adverts
 ||jestbiases.com^
 ||jestinvaderspeedometer.com^
 ||jetgatem.com^
+||jetsomkhulda.com^
 ||jetsowilk.com^
 ||jettrujole.com^
 ||jetx.info^
@@ -31898,6 +31904,7 @@ tf2r.com#@#.adverts
 ||knucklecivichereafter.com^
 ||knutenegros.pro^
 ||koabausu.com^
+||koabouch.net^
 ||koacojus.net^
 ||koalababy.net^
 ||koalaups.com^
@@ -33014,6 +33021,7 @@ tf2r.com#@#.adverts
 ||methodrumour.com^
 ||methoxyunpaled.com^
 ||methree-salien.icu^
+||metingsaeta.com^
 ||metopeharriet.com^
 ||metosk.com^
 ||metresetbackbayonet.com^
@@ -33123,6 +33131,7 @@ tf2r.com#@#.adverts
 ||miswirewittall.uno^
 ||miszonepionic.space^
 ||mitosesgawking.com^
+||mittylargen.com^
 ||mixandfun.com^
 ||mixnewsbest.com^
 ||mixpo.com^
@@ -36360,6 +36369,7 @@ tf2r.com#@#.adverts
 ||remarkablyson.com^
 ||remedyeloise.com^
 ||remembercompetitioninexplicable.com^
+||remexpeeks.com^
 ||remeyr.com^
 ||reminews.com^
 ||remintrex.com^
@@ -36729,6 +36739,7 @@ tf2r.com#@#.adverts
 ||rotondahogs.com^
 ||rotumal.com^
 ||rouar.com^
+||roucoutaivers.com^
 ||roudoduor.com^
 ||rouinfernapean.com^
 ||roujonoa.net^
@@ -39555,6 +39566,7 @@ tf2r.com#@#.adverts
 ||uponhariyamar.com^
 ||uponsurskita.com^
 ||uppardjets.com^
+||upperched.com^
 ||uppoin.com^
 ||uppsyduckan.com^
 ||upregisteelon.com^
@@ -40349,6 +40361,7 @@ tf2r.com#@#.adverts
 ||whuptaiz.net^
 ||wibtntmvox.com^
 ||wickedlongingbelfry.com^
+||wickiupcopalms.com^
 ||widaimty.com^
 ||wideeyedlady.pro^
 ||wideliber.com^
@@ -84712,6 +84725,7 @@ gainbtc.click##.panel-heading > center
 @@||deine-tierwelt.de^$ghide
 deine-tierwelt.de##.OUTBRAIN
 deine-tierwelt.de##.header-leaderboard
+deine-tierwelt.de##.js-sticky-ad
 hancinema.net##+js(acis, document.createElement, admiral)
 clipwatching.me##+js(acis, Math, break)
 *$script,3p,denyallow=cloudfront.net|disqus.com|disquscdn.com|fastlylb.net|bootstrapcdn.com,domain=clipwatching.me
@@ -85021,6 +85035,7 @@ javstream.top##+js(aopr, jwplayer.utils.Timer)
 javstream.top##+js(aopr, __Y)
 todaypk.*,todaypktv.*,1todaypk.*,watchtodaypk.com##+js(nowoif)
 1todaypk.*,todaypk.*,watchtodaypk.com##[href="/watchnow.php"]
+todaypk.*##[href="/watchfree.php"]
 todaypktv.*##.ad_watch_now
 todaypktv.*##.hd-buttons1
 ||azuresjukes.com^
@@ -87306,6 +87321,8 @@ dinamalar.com###taboola-below-article-thumbnails
 dinamalar.com##.topadtxt300
 dinamalar.com##div[style=" color: #999999;font-family: arial;font-size:10px;padding-right: 5px;text-align: right;width:640px;"]
 dinamalar.com##div[style^="width:728px; margin-right:2px; height:90px;"]
+dinamalar.com##.topadtxt728
+dinamalar.com###rladvt
 gagaltotal666.my.id##+js(acis, addEventListener, nextFunction)
 @@||animet.tv^$ghide
 animet.tv##.adsbygoogle
