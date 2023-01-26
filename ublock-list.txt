@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: f9mlTw5yLpc6QqKIzQdmkw
+! Checksum: tXhWxmHgS78yIVsXq52TGw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301261422
-! Last Modified: 2023年01月26日 14:22
+! Version: 202301262037
+! Last Modified: 2023年01月26日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -4423,6 +4423,12 @@ _widget_ad.
 /in/track?data=
 /senddata?site=banner
 /senddata?site=inpage
+.com/src/ppu/
+/ceef/gdt3g0/tbt/*
+/fyckld0t/ckp/fd3w4/*
+/sc4fr/rwff/f9ef/*
+/t/9/heis/svewg/*
+/yzfdmoan.js
 /cmbdv2.js
 /greenoaks.gif?
 /contents/other/player/*
@@ -5062,7 +5068,6 @@ _800x80_
 ###AdsenseBottom
 ###AdsenseTop
 ###Adsterra
-###Adv-div
 ###Adv10
 ###Adv11
 ###Adv8
@@ -5070,9 +5075,6 @@ _800x80_
 ###AdvArea
 ###AdvBody
 ###AdvContainer
-###AdvContainerMidCenter
-###AdvContainerTopCenter
-###AdvContainerTopRight
 ###AdvFooter
 ###AdvFrame1
 ###AdvHead
@@ -5092,10 +5094,7 @@ _800x80_
 ###AdvertisingDiv_0
 ###Advertorial
 ###Advertorials
-###AdvertsBottom
-###AfsAd_googleAdBlock1
 ###AnchorAd
-###ArticleBottomAd
 ###ArticleContentAd
 ###BB1-ad
 ###BandeauCNIL
@@ -5127,22 +5126,15 @@ _800x80_
 ###GoogleAdRight
 ###GoogleAdTop
 ###GoogleAdsense
-###GoogleRelatedAds
-###GoogleSponsored
-###GroupAdSenseVertical
 ###HP1-ad
 ###HP2-ad
 ###HeadAd
 ###HeaderAD
 ###HeaderAd
 ###HeaderAdBlock
-###HeaderAdSidebar
 ###HeaderAdsBlock
-###HeaderTextAd
 ###HeroAd
 ###HomeAd1
-###HometopAdOuter
-###HorizontalAd
 ###HouseAd
 ###IB-ads
 ###IC1-ad
@@ -5160,80 +5152,45 @@ _800x80_
 ###LeaderboardAdvertising
 ###LeftAd
 ###LeftAd1
-###LftAd
-###LittleAdvert
-###LowerContentAd
 ###MPUAdSpace
 ###MPUadvertising
 ###MPUadvertisingDetail
 ###MainAd
 ###MainAd1
 ###MainContent_ucTopRightAdvert
-###MainSponsoredLinks
-###MastheadAd
 ###MediumRectangleAD
 ###MidPageAds
 ###MiddleRightRadvertisement
 ###Mpu_Bottom
 ###Mpu_Top
-###MultiTextAd
-###MyAdHeader
-###MyAdSky
-###MyAdsId
 ###N-ad-article-rightRail-1
 ###NR-Ads
 ###NavAD
 ###OAS2
 ###OASMiddleAd
 ###OASRightAd
-###OAS_AD_TOPRIGHT
-###OAS_Top
-###OAS_posBottom
-###OAS_posRight
-###OAS_posTopRight
 ###OpenXAds
 ###PaneAdvertisingContainer
-###PhotoAd1
 ###PreRollAd
 ###PromotionAdBox
 ###PushDownAd
 ###RadAdSkyscraper
-###RelevantAds
 ###RightAd
 ###RightAdBlock
 ###RightAdSpace
 ###RightAdvertisement
-###RightRailSponsor
-###RightSponsoredAd
-###SearchAdsBottom
-###SearchAdsTop
-###Section-Ads
-###SectionSponsorAd
-###ServerAd
-###SideAdMpu
-###SideBarAdWidget
-###SideMpuAdBar
 ###SidebarAd
 ###SidebarAdContainer
 ###SitenavAdslot
 ###SkyAd
 ###SkyscraperAD
-###SlideShow_adv
-###SlideShow_adv2
-###SpecialAds
-###Spons-Link
-###SponsorBarWrap
 ###SponsoredAd
 ###SponsoredAds
 ###SponsoredLinks
 ###SponsoredResultsTop
 ###SponsorsAds
 ###StickyBannerAd
-###TDads
-###TOPADS
 ###TextLinkAds
-###ThreadAd
-###TipTopAdSpace
 ###TitleAD
 ###Top-Ad-Container
 ###Top-ad
@@ -5250,11 +5207,7 @@ _800x80_
 ###TopAdvert
 ###TopBannerAd
 ###TopRightRadvertisement
-###TopSideAd
-###TopTextAd
 ###VPNAdvert
-###VertAdBox
-###VertAdBox0
 ###WelcomeAd
 ###WidgetADVMIDDLE
 ###Zergnet
@@ -6439,7 +6392,6 @@ _800x80_
 ###ads-leaderboard1
 ###ads-left
 ###ads-left-top
-###ads-link
 ###ads-lrec
 ###ads-main
 ###ads-menu
@@ -6454,14 +6406,11 @@ _800x80_
 ###ads-right-skyscraper
 ###ads-right-top
 ###ads-slot
-###ads-sponsored-boxes
-###ads-submit
 ###ads-superBanner
 ###ads-text
 ###ads-top
 ###ads-top-728
 ###ads-under-rotator
-###ads-vers7
 ###ads-vertical
 ###ads-vertical-wrapper
 ###ads-wrap
@@ -6469,7 +6418,6 @@ _800x80_
 ###ads1
 ###ads120
 ###ads125
-###ads160left
 ###ads1_box
 ###ads2
 ###ads2_block
@@ -6501,14 +6449,11 @@ _800x80_
 ###adsHeadLine
 ###adsHeader
 ###adsHeading
-###adsID
-###adsIframe
 ###adsLREC
 ###adsLeft
 ###adsLinkFooter
 ###adsMobileFixed
 ###adsMpu
-###adsNarrow
 ###adsPanel
 ###adsRight
 ###adsRightDiv
@@ -6536,7 +6481,6 @@ _800x80_
 ###ads_banner
 ###ads_banner1
 ###ads_banner_header
-###ads_bar
 ###ads_belownav
 ###ads_big
 ###ads_block
@@ -6545,8 +6489,6 @@ _800x80_
 ###ads_body_3
 ###ads_body_4
 ###ads_bottom
-###ads_bottom_inner
-###ads_bottom_outer
 ###ads_box
 ###ads_box1
 ###ads_box2
@@ -6575,8 +6517,6 @@ _800x80_
 ###ads_horiz
 ###ads_horizontal
 ###ads_horz
-###ads_html1
-###ads_html2
 ###ads_in_modal
 ###ads_inline_z
 ###ads_inner
@@ -19700,6 +19640,7 @@ _800x80_
 ##.screen-ad-250x250
 ##.screenshots_ads
 ##.script-ad
+##.scroll-ad-item-container
 ##.scroll-ads
 ##.scrollableArticleAds
 ##.scroller-ad-place-holder
@@ -20701,6 +20642,7 @@ _800x80_
 ##.top-fixed-ad
 ##.top-half-page-ad
 ##.top-header-ad
+##.top-header-ad1
 ##.top-horiz-ad
 ##.top-horizontal-ad
 ##.top-item-ad
@@ -22865,6 +22807,7 @@ tf2r.com#@#.adverts
 ||7jrahgc.de^
 ||7lyonline.com^
 ||7me0ssd6.de^
+||7mmtv.top^
 ||7two0.rocks^
 ||80055404.vtt^
 ||800c7864eb.com^
@@ -50178,6 +50121,7 @@ aarp.org##.hot-deals
 dailyrecord.co.uk##.hotjobs
 distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.hrnSiz
 cryptorank.io##.hspOLW
+barstoolsports.com##.htl-ad__container
 nameberry.com##.htlad-InContent_Flex
 nameberry.com##.htlad-Leaderboard_Flex
 extremetech.com##.hybrid-bar + div
@@ -69803,6 +69747,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tags.news.com.au^$script
 ||tahoe.com/imp
 ||taiwanplus.com/api/video/startVideo
+||tao.barstoolsports.com^
 ||target.nationwide.com^
 ||target.nejm.org^
 ||targeting.washpost.nile.works^
@@ -83690,6 +83635,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||bjjhq.com/HttpCombiner.ashx?$script,~third-party
 @@||blackcircles.ca^*/gtm.js$~third-party
 @@||bluecare.express/js/tracking/$script,~third-party
+@@||bluesky-soft.com/common/script/ga.js$script,~third-party
 @@||bobbibrowncosmetics.com^*/analytics.min.js$~third-party
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||boots.com/wcsstore/ebootsstorefrontassetstore/javascript/analytics.js$~third-party
@@ -84433,6 +84379,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||mediaworld.it^*/GoogleTagManager.js?
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=vodafone.it
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
+@@||sisal.it/etc.clientlibs/sisal-fullresponsive/clientlibs/tealium.js$script,~third-party
 @@||thron.com/shared/plugins/tracking/current/tracking-library-min.js$domain=dainese.com
 @@||timvision.it/libs/fingerprint/fingerprint.js
 @@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it
@@ -85072,10 +85019,12 @@ javstream.top##+js(set, clientSide.adbDetect, noopFunc)
 javstream.top##+js(nowoif)
 javstream.top##+js(aopr, jwplayer.utils.Timer)
 javstream.top##+js(aopr, __Y)
-todaypktv.*,1todaypk.*,watchtodaypk.com##+js(nowoif)
-1todaypk.*,watchtodaypk.com##[href="/watchnow.php"]
+todaypk.*,todaypktv.*,1todaypk.*,watchtodaypk.com##+js(nowoif)
+1todaypk.*,todaypk.*,watchtodaypk.com##[href="/watchnow.php"]
 todaypktv.*##.ad_watch_now
 todaypktv.*##.hd-buttons1
+||azuresjukes.com^
+||multipledrawers.com^
 faptitans.com,pussysaga.com##.cross-promo-bnr
 ||faptitans.com^*/rc/logo.jpg
 ||pussysaga.com^*/footer/logo_ps.jpg
@@ -85999,6 +85948,7 @@ highstream.tv##+js(nowoif)
 highstream.tv##.tabs > button
 highstream.tv###container > div > .hidden-xs
 highstream.tv##.cover
+highstream.tv,wolfstream.tv###customAnnouncement
 *$script,3p,denyallow=cloudflare.com,domain=myadultanimes.com
 ||chandrabindu.net^$3p
 cekip.site###afw-myModal
@@ -88082,12 +88032,12 @@ gamingdeputy.com##+js(nostif, ai_adb)
 alphagames4u.com##+js(acis, addEventListener, ai_)
 wikirise.com##+js(acis, decodeURIComponent, ai_)
 hentai-asia.com##+js(acis, document.querySelectorAll, popMagic)
-filesus.com,gotxx.com,sturls.com##+js(nostif, getComputedStyle, 250)
-gotxx.com##+js(acis, document.querySelectorAll, popMagic)
-gotxx.com##+js(aopw, _pop)
-gotxx.com##+js(aost, Element.prototype.matches, litespeed)
-sturls.com##+js(acis, decodeURI, decodeURIComponent)
-gotxx.com##div[class][style^="position: absolute; cursor: pointer; z-index: 2147483646"]
+filesus.com,gotxx.*,sturls.com##+js(nostif, getComputedStyle, 250)
+gotxx.*##+js(acs, document.querySelectorAll, popMagic)
+gotxx.*##+js(aopw, _pop)
+gotxx.*##+js(aost, Element.prototype.matches, litespeed)
+sturls.com##+js(acs, decodeURI, decodeURIComponent)
+gotxx.*##div[class][style^="position: absolute; cursor: pointer; z-index: 2147483646"]
 sturls.com##+js(set, blurred, false)
 sturls.com###cc:style(display: block !important;)
 sturls.com###timer
@@ -89294,7 +89244,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||adultonlineplay.com^$all
 ||fastandslut.com^$all
 &click_price=0.*&click_id=$doc
-?brand=*&model=$doc
+?brand=*&model=*&clickid=$doc
+?brand=*&fingerprint_=$doc
 ||familialsimulation.com^$all
 /\/(?:[0-9a-z]{7,25}-){9,13}[0-9a-z]{10,15}\/(?:[0-9a-z]+\/)+index\.php/$doc
 ||imilroshoors.com^$all
@@ -89336,6 +89287,10 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /click.php?key=*&cpc=0&$doc
 ||winsafe.xyz^$all
 ||e0pxjz8hh09v.top^$all
+||pa5g7e5xs9.com^$all
+||mthzjfbnab.online^$all
+||sufcztdmwh.online^$all
+||37.1.213.100^
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -89831,6 +89786,7 @@ ericdraken.com##^script[async]
 /s/s/js/m/om.js?v=
 ||startpage.com/sp/dplpxs$xhr,1p
 ://vip.*/?pge=$image,3p
+://ply.*/?v=$image,3p
 ||brave.com/static-assets/js/analysis.js
 /images/*/analytics.js$domain=girlsofdesire.org
 ||cl.t3n.de^
@@ -90866,7 +90822,6 @@ order-order.com#@#.tag-sponsored
 *$frame,3p,domain=zt-za.com,badfilter
 *$script,3p,domain=zt-protect.com,badfilter
 *$script,3p,domain=zt-protect.net,badfilter
-||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js,domain=asmhentai.com
 @@||www.googletagmanager.com/gtm.js$script,domain=vw-sklep.pl
 getcoloringpages.com#@#.adsBlock
 *$script,redirect-rule=noopjs,domain=hopkinssports.com
@@ -91207,11 +91162,10 @@ johnhardy.com##+js(acis, $, optimoveSDK)
 @@||js.monitor.azure.com/scripts/c/ms.analytics-web-2.min.js^$script,domain=answers.microsoft.com
 @@||shahid.mbc.net^$cname
 @@||creator.zmags.com/channels.js^$script,domain=sallybeauty.com
-@@||cdn.segment.com/analytics.js/*/analytics.min.js$script,domain=outschool.com
 @@||powr.io/powr.js$script,3p
 @@||fluid.4strokemedia.com/www/delivery/asyncspc.php^$xhr,domain=formulapassion.it
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=formulapassion.it
 @@||cdnb.4strokemedia.com/carousel/v4/comScore-JS-$script,domain=formulapassion.it
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=formulapassion.it,redirect-rule=google-ima.js
 formulapassion.it#@#.qc-cmp2-container
 formulapassion.it#@##qc-cmp2-main
 formulapassion.it#@#.qc-cmp2-main
@@ -91841,8 +91795,6 @@ lovepanky.com#@#.full-width.row > .medium-12:first-child
 @@||akc.blueconic.net^$image,script,xhr,domain=akc.org
 ||permutive.com^$badfilter
 ||permutive.com^$3p
-@@||sisal.it/etc.clientlibs/sisal-fullresponsive/clientlibs/tealium.js$script,1p
-@@||bluesky-soft.com/common/script/ga.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
