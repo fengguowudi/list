@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Gl3n77d0fnHRRw2xQgdAfA
+! Checksum: OzF/Dq+PIBMTaVCA0fye7Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301260221
-! Last Modified: 2023年01月26日 02:21
+! Version: 202301260936
+! Last Modified: 2023年01月26日 09:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -91996,6 +91996,7 @@ lovepanky.com#@#.full-width.row > .medium-12:first-child
 ||permutive.com^$badfilter
 ||permutive.com^$3p
 @@||sisal.it/etc.clientlibs/sisal-fullresponsive/clientlibs/tealium.js$script,1p
+@@||bluesky-soft.com/common/script/ga.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -99137,7 +99138,7 @@ lovepanky.com#@#.full-width.row > .medium-12:first-child
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 30 Jan 2003 00:00:00
+# start date:    Fri, 31 Jan 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
