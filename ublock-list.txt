@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YRSeM68CncYSoSvUGFFTMg
+! Checksum: FWH+EOeD6yRqBA8VWvhjZQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301272034
-! Last Modified: 2023年01月27日 20:34
+! Version: 202301280222
+! Last Modified: 2023年01月28日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -91668,7 +91668,6 @@ filelu.com#@#.banner_ads
 @@||ads.pubmatic.com/AdServer/js/pwt$script,domain=zeenews.india.com
 @@||admin.thexyz.com/javascript/services/analytics.js$script,domain=admin.thexyz.com
 ||esputnik.com^$3p,badfilter
-nicoad.nicovideo.jp#@#.ad-point
 @@||id.flybuys.com.au/assets/scripts/fingerprint2.min.js$script,domain=id.flybuys.com.au
 @@||pubads.g.doubleclick.net/ssai/event/*/master.m3u8$xhr,domain=atishmkv.best
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js:5,domain=aibusiness.com
@@ -91697,11 +91696,8 @@ nicoad.nicovideo.jp#@#.ad-point
 @@||go.admost.com/adx/js/admost.js$script,domain=arsiv.mackolik.com
 @@||content.gap.com/fp/*.js$script,1p
 @@||cohesion.bankrate.com/cohesion/cohesion-latest.min.js$script,1p
-/api/v2/analytics$badfilter
-/_/api/v2/analytics/?
 ||mycourses.pearson.com/shared/static/*/component/ga.min.js$script,1p,redirect=google-analytics.com/analytics.js,important
 /img/ads/Spinner.png$image,redirect-rule=1x1.gif
-lovepanky.com#@#.full-width.row > .medium-12:first-child
 ||coveo.com^$script,domain=basspro.com,redirect-rule=noopjs
 @@||googletagmanager.com/gtm.js$domain=pointmall.rakuten.co.jp
 @@||h-microsoft.online-metrix.net^$xhr,domain=ave9858.github.io
@@ -91709,6 +91705,10 @@ lovepanky.com#@#.full-width.row > .medium-12:first-child
 @@||akc.blueconic.net^$image,script,xhr,domain=akc.org
 ||permutive.com^$badfilter
 ||permutive.com^$3p
+instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
+||missav.com^$badfilter
+@@||googletagmanager.com/gtm.js$script,domain=swarajyamag.com
+@@||uicdn.com/shared/sentry/*/bundle.min.js$script,domain=gmx.co.uk|gmx.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -98527,6 +98527,8 @@ lovepanky.com#@#.full-width.row > .medium-12:first-child
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||js.tianmel.xyz^
+||dian.brecm.xyz^
 ||fjttbkoxer.xyz^
 ||awoudsoo.xyz^
 ||aab-proxy.tld^
