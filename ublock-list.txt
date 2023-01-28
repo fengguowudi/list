@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TFgthpOkGmehXxFx202HEQ
+! Checksum: K2YzTL1EYeTN1UKtgTVm+w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301280938
-! Last Modified: 2023年01月28日 09:38
+! Version: 202301281421
+! Last Modified: 2023年01月28日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -49583,7 +49583,7 @@ boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.
 careerindia.com##.cmscontent-top
 thisismoney.co.uk##.cnr5
 letras.com##.cnt-space-top
-180gadgets.com,americansongwriter.com,androidsage.com,anoopcnair.com,askpython.com,bigleaguepolitics.com,bleachernation.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dexdotexe.com,eurweb.com,fandomwire.com,flickeringmyth.com,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,greekreporter.com,hard-drive.net,hdmovies4u.live,indianhealthyrecipes.com,iotwreport.com,journeybytes.com,lithub.com,notalwaysright.com,patriotfetch.com,pureinfotech.com,quickanswer.blog,reneweconomy.com.au,rezence.com,roadaheadonline.co.za,rok.guide,simscommunity.info,techpp.com,techrounder.com,thecinemaholic.com,thedriven.io,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,welovetrump.com,wisden.com,zerohanger.com##.code-block
+180gadgets.com,americansongwriter.com,androidsage.com,anoopcnair.com,askpython.com,bigleaguepolitics.com,bleachernation.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dexdotexe.com,eurweb.com,fandomwire.com,flickeringmyth.com,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,greekreporter.com,hard-drive.net,hdmovies4u.live,indianhealthyrecipes.com,iotwreport.com,journeybytes.com,lithub.com,notalwaysright.com,patriotfetch.com,pureinfotech.com,quickanswer.blog,reneweconomy.com.au,rezence.com,roadaheadonline.co.za,rok.guide,simscommunity.info,techpp.com,techrounder.com,thecinemaholic.com,thedriven.io,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,welovetrump.com,wepc.com,wisden.com,zerohanger.com##.code-block
 mydramalist.com##.col-lg-4 > .clear
 upi.com##.col-md-12 > table
 roseindia.net,tineye.com##.col-md-4
@@ -91184,6 +91184,7 @@ demae-can.com##+js(ra, data-trm-action|data-trm-category|data-trm-label, .trm_ev
 unito.life##^script:has-text(KeenTracking)
 unito.life##+js(acis, KeenTracking)
 @@||formulatv.com/js/cmp2.js$script,1p
+@@||googletagmanager.com/gtm.js$script,domain=formulatv.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=newsweek.com
 ||google-analytics.com/analytics.js$script,redirect-rule=noopjs,domain=hudsonvalleypost.com|seacoastcurrent.com|popcrush.com,important
 ||googletagmanager.com/gtm.js$script,redirect-rule=noopjs,domain=hudsonvalleypost.com|seacoastcurrent.com|popcrush.com,important
@@ -91291,7 +91292,6 @@ pewresearch.org##+js(set, ga, noopFunc)
 @@||geoip.redirect-ads.com/js/*$script,1p
 @@||quantcast.mgr.consensu.org^*tcfv2*cmp2.js?referer=$script
 kabutan.jp,saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
-@@||aps.hearstnp.com/Scripts/loadAds.js$script,domain=sfgate.com
 @@||cdn.questionpro.com^$css
 @@||rdstation.com.br^*api/$xhr
 @@||googletagmanager.com/gtm.js$script,domain=www.shockwave.com
