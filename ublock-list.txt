@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: u5kDkasDIv7sD2m5yO1YVA
+! Checksum: ePcHPxqOOnhYmyGHJf9vHw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301290942
-! Last Modified: 2023年01月29日 09:42
+! Version: 202301291421
+! Last Modified: 2023年01月29日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -48287,6 +48287,7 @@ all-nettools.com,britsabroad.com,filesharingtalk.com,kiwibiker.co.nz,printroot.c
 coinarbitragebot.com###adathm
 4qrcode.com###addContainer
 lifenews.com###adds
+englishclub.com###adhed
 onworks.net###adonworksbot
 192-168-1-1-ip.co,receivesms.co###adresp
 3g2upl4pq6kufc4m.onion,audioreview.com,carlow-nationalist.ie,cellmapper.net,craigclassifiedads.com,dekhobd.com,duckduckgo.com,g.doubleclick.net,irannewsdaily.com,kildare-nationalist.ie,laois-nationalist.ie,lorempixel.com,photographyreview.com,quiz4fun.com,roscommonherald.ie,waterford-news.ie###ads
@@ -51473,6 +51474,7 @@ searchcommander.com##[href^="https://www.searchcommander.com/rec/"]
 upload.ee##[href^="https://www.upload.ee/click.php"]
 gametracker.com##[href^="https://www.vultr.com/"]
 wakingtimes.com##[href^="https://www.wendymyersdetox.com/"]
+englishclub.com##[href^="https://www.wordupapp.co/"]
 gelbooru.com##[href^='https://realbooru.com/']
 smallseotools.com##[id*="gram"]
 beforeitsnews.com##[id^="banners_"]
@@ -63949,6 +63951,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||resonantbrush.com^$third-party
 ||resonantrock.com^$third-party
 ||respectrain.com^
+||restrainstorm.com^
 ||rhetoricalloss.com^
 ||rhetoricalveil.com^
 ||rhymezebra.com^
@@ -91345,6 +91348,7 @@ kabutan.jp,saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;heigh
 @@||cdn.questionpro.com^$css
 @@||rdstation.com.br^*api/$xhr
 @@||googletagmanager.com/gtm.js$script,domain=www.shockwave.com
+||videoplayerhub.com^$script,domain=shockwave.com,redirect-rule=noopjs
 ||natureetdecouvertes.com^$1p,image,redirect-rule=2x2.png
 !#if env_mobile
 ||cxense.com/cx.js$script,redirect-rule=noop.js,domain=itmedia.co.jp
@@ -91358,7 +91362,6 @@ ilbianconero.com##.no-scroll:style(overflow:auto!important)
 @@||gogoplay1.com/download?id=$popup
 @@||google-analytics.com/analytics.js$script,redirect-rule,domain=nordvpn.com
 @@||www.visibleoffers.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,1p
-@@||googletagmanager.com/gtm.js$script,domain=swisslos.ch
 ||static.chotot.com/storage/js/prebid-ads.js$script,important
 @@||cds.connatix.com/p/*/connatix.playspace.js$script,domain=adweek.com
 @@||cd.connatix.com/connatix.playspace.js$script,domain=adweek.com
