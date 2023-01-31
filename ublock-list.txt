@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j6kD4lX9+YFZSEo8HalBHw
+! Checksum: miVogn4wONMFFzaaA48t/w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202301310941
-! Last Modified: 2023年01月31日 09:41
+! Version: 202301311423
+! Last Modified: 2023年01月31日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -50831,6 +50831,7 @@ arras.io##.referral
 al-monitor.com##.region--after-content
 middleeasteye.net##.region-before-navigation
 justthenews.com##.region-pre-content
+mrctv.org##.region-sidebar
 futbol24.com##.rek
 wcostream.com##.reklam_pve
 cyclingnews.com##.related-articles-wrap
@@ -50890,6 +50891,7 @@ newstrackindia.com##.rt-add336x280
 nextofwindows.com##.rtsidebar-cm
 itweb.co.za##.s-logos
 hope1032.com.au##.s-supported-by
+japantoday.com##.s10r
 aniwatcher.com##.sa
 nodejs.libhunt.com##.saashub-ad
 steamladder.com##.salad
@@ -51339,7 +51341,9 @@ transfermarkt.co.uk,transfermarkt.com##.werbung-skyscraper-container
 tametimes.co.za##.white-background
 gadgethacks.com,reality.news,wonderhowto.com##.whtaph
 pch.com##.wide_banner
+japantoday.com##.widget--animated
 headforpoints.com##.widget--aside.widget
+japantoday.com##.widget--jobs
 fijisun.com.fj##.widget-1
 fijisun.com.fj##.widget-3
 kyivpost.com##.widget-300-250
@@ -91535,8 +91539,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 @@||googletagmanager.com/gtm.js$script,domain=microcenter.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=watch.plex.tv
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=eurogamer.net
-@@||googletagservices.com/tag/js/gpt.js$script,domain=thestar.co.uk
-@@||securepubads.g.doubleclick.net/gpt/*$script,domain=thestar.co.uk
 @@||cdn.vox-cdn.com/packs/js/concert_ads-*.js$script,domain=theverge.com
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=as.com
 @@||nocturnetls.net^$script,1p
@@ -91940,6 +91942,7 @@ instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Ges
 @@||googletagmanager.com/gtag/js$script,domain=ejgiftcards.com
 @@||cdn.bluebillywig.com/apps/player/*/admanager$script,domain=digital-photography-school.com
 @@||cloudfront.net/js/reflektion.js$script,domain=riteaid.com
+@@||js.monitor.azure.com/scripts/$script,domain=efilecabinet.net
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
