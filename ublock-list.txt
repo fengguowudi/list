@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p98Dx0xxlDyr00hOEM9i5g
+! Checksum: 5bobZ1Elp/yaY6+AYQQm7w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302022038
-! Last Modified: 2023年02月02日 20:38
+! Version: 202302030223
+! Last Modified: 2023年02月03日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -47267,7 +47267,7 @@ tf2r.com#@#.adverts
 ||cdn.ex.co^
 ||cdn.thejournal.ie/media/hpto/$image
 ||channelexco.com/player/$third-party
-||connatix.com^$third-party,domain=~accuweather.com|~miamiherald.com
+||connatix.com^$third-party,domain=~accuweather.com|~elnuevoherald.com|~miamiherald.com
 ||delivery.vidible.tv/jsonp/
 ||dywolfer.de^
 ||embed.comicbook.com^$subdocument
@@ -47434,7 +47434,7 @@ $webrtc,websocket,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepir
 /^https?:\/\/(.+?\.)?rightwingnews\.com[\/]{1,9}.*[a-zA-Z0-9]{8,}\/[a-zA-Z0-9]{6,}\/.*/$image,domain=rightwingnews.com
 /^https?:\/\/(.+?\.)?topminceur\.fr\/[a-zA-Z0-9]{6,}\/[a-zA-Z0-9]{3,}\/.*/$image,domain=topminceur.fr
 /^https?:\/\/(.+?\.)?vitamiiin\.com\/[\/][\/a-zA-Z0-9]{3,}\/[a-zA-Z0-9]{6,}\/.*/$image,domain=vitamiiin.com
-/^https?:\/\/(.+?\.)?writerscafe\.org[\/]{1,}.*[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/$image,domain=?writerscafe.org
+/^https?:\/\/(.+?\.)?writerscafe\.org[\/]{1,}.*[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/$image,domain=writerscafe.org
 $webrtc,domain=ack.net|allthetests.com|azvideo.net|champion.gg|clicknupload.link|colourlovers.com|csgolounge.com|dispatch.com|fastplay.to|go4up.com|janjua.pw|janjua.tv|jpost.com|megaup.net|merriam-webster.com|netdna-storage.com|ouo.io|ouo.press|rlslog.net|sourceforge.net|spanishdict.com|telegram.com|torlock.icu|torlock2.com|uptobox.com|vidtodo.com|yts.gs|yts.mx
 $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fastpic.ru|fileone.tv|filmlinks4u.is|flashx.tv|imagefap.com|keepvid.com|megaup.net|merriam-webster.com|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|powvideo.net|roadracerunner.com|shorte.st|tribune.com.pk|tune.pk|vcpost.com|vidmax.com|vidoza.net|vidtodo.com
 $csp=script-src 'self' '*' 'unsafe-inline',domain=pirateproxy.live|thehiddenbay.com|downloadpirate.com|thepiratebay10.org|ukpass.co|linksmore.site
@@ -53413,7 +53413,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||dlh.net^$script,subdocument,domain=dlh.net
 @@||etonline.com/modules/contrib/ctd_cvp/js/prebid-ads.js$script,~third-party
 @@||exponential.com^*/tags.js$domain=yellowbridge.com
-@@||fullmatchesandshows.com^$generichide
 @@||games.pch.com^$generichide
 @@||glokom.club/adv/ads/popunder.js$script
 @@||hqq.to/ad/api/popunder.js$script
@@ -89400,6 +89399,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||tiurll.com^$all
 ||neppe.studio^$all
 ||startex3download.com^$all
+||gowtos.com^$all
 /axad/?lpkey=$doc
 ||aeno.shop^$all
 ||vlcdownloads.com^$all
@@ -90463,7 +90463,6 @@ nowgoal.com##[href^="/ad/"]
 @@||connatix.com^$script,media,domain=realclearpolitics.com
 @@||capi.connatix.com/core/pls$xhr,domain=realclearpolitics.com
 @@||vid.connatix.com/*_media.bin$xhr,domain=realclearpolitics.com
-@@||fullmatchesandshows.com/wp$script,1p
 @@||apollo-ireland.akamaized.net/*/files/*$image,domain=otodom.pl
 @@||bloomberg.com/*/captcha/captcha.js$script,1p
 @@||hotelscombined.com/*/captcha/captcha.js$script,1p
@@ -91625,6 +91624,8 @@ instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Ges
 @@||js.monitor.azure.com/scripts/$script,domain=efilecabinet.net
 ||tweakers.net/*/?$image,badfilter
 eleconomista.es#@#[class*="banner"]
+@@/signup.php?mode=async&action=show_security_code$image,1p
+@@||js.sentry-cdn.com^$script,domain=app.homebinder.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
