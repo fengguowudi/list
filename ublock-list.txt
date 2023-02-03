@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: H/K4qP2UpvztG1kYM+aIcA
+! Checksum: RET4ldyZi/fIWjEtHt5s0Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302030941
-! Last Modified: 2023年02月03日 09:41
+! Version: 202302031423
+! Last Modified: 2023年02月03日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -51545,7 +51545,7 @@ issuu.com##div[class*="adPlacement"]
 issuu.com##div[class*="adSkyscraper"]
 ladbible.com,unilad.co.uk##div[class*="margin-Advert"]
 apkcombo.com##div[class*="revamp-ads"]
-cryptoslate.com,publish0x.com##div[class*="sticky-header"]
+cryptoslate.com,newsbtc.com,publish0x.com##div[class*="sticky-header"]
 politico.com##div[class*="styles_supercube_"]
 serverhunter.com##div[class*="why"]
 walmart.com##div[class="mv3 ml3 mv4-xl mh0-xl"][data-testid="sp-item"]
@@ -63882,6 +63882,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||selfishsnake.com^
 ||separateshow.com^
 ||separatesilver.com^$third-party
+||serpentshampoo.com^
 ||shaggytank.com^
 ||shakegoldfish.com^
 ||shakesuggestion.com^
@@ -65676,6 +65677,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collect-ap2.attraqt.io^
 ||collect-eu.attraqt.io^
 ||collect.*.miui.com^
+||collect.alphastream.io^
 ||collect.cloudsponge.com^
 ||collect.igodigital.com^
 ||collect.iteam-dress.com^
@@ -87845,6 +87847,8 @@ asiaon.*##+js(no-xhr-if, googlesyndication)
 m4news.com##.demand-supply
 m4news.com###id-custom_banner
 tv247.us##+js(aopw, _pop)
+tv247.us##+js(acs, navigator, FingerprintJS)
+tv247.us##^script:has-text(FingerprintJS)
 @@||tv247.us^$ghide
 tv247.us##.afc_popup
 calculator-online.net##+js(no-fetch-if, ads)
@@ -91299,8 +91303,7 @@ timesunion.com##div.setHeight.stickyWrapper
 ||prebid.elespectador.com^$script,redirect-rule=googletagservices_gpt.js,1p,important
 @@||googletagmanager.com/gtm.js$script,domain=blaklader.ca|blaklader.com|blaklader.uk
 @@||read.amazon.*/embed?$frame,3p,domain=goodreads.com
-@@||c.zontera.com/adv/b.js$script,domain=profit.ro
-@@||core.zontera.com^$script,domain=profit.ro
+profit.ro##.zc_top_mobil:style(display: block !important;)
 profit.ro##.zc_rectangle
 profit.ro##.zc_top
 himovies.to#@#a[onclick]
