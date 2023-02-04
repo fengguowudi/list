@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mYiGkOF8JpGJMRuoPLlBWA
+! Checksum: kMGPL25JOlpw8SvQ5Dxv1A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302042032
-! Last Modified: 2023年02月04日 20:32
+! Version: 202302050220
+! Last Modified: 2023年02月05日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -88534,6 +88534,7 @@ chortle.co.uk,coloring.ws,dltk-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com
 ||ads-api.twitter.com^$xhr,redirect-rule=nooptext,3p
 ||ads.pinterest.com^$xhr,redirect-rule=noop.txt
 ||adversal.com^$xhr,redirect-rule=noop.txt
+||sovrn.com^$xhr,redirect-rule=noop.txt
 mymusicreviews.com,thechat.cafe##+js(aopr, chp_adblock_browser)
 globfone.com##+js(no-xhr-if, ads)
 donugdee.com##.ad-overlay-click
@@ -89640,6 +89641,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||helene-de-beauvoir.com^$all
 ||bafybeidzp4sgidm4rvsc32fofkhbz5bdotbekov4mnwzejakvnzhhohysa.ipfs.dweb.link^$all
 ||cpu-id.top^$all
+||aida-64.com^$all
 ||obsproicet.net^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
