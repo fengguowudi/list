@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OkiEGTr1ZeiimH6jHJaU0Q
+! Checksum: 1I4XprEHntjZ/oXapmqufQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202302050944
-! Last Modified: 2023年02月05日 09:44
+! Version: 202302051421
+! Last Modified: 2023年02月05日 14:21
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2131,6 +2131,12 @@ ubmcmm.baidustatic.com
 ||shguy.cyou^
 ||ibgksw.xyz^
 ||vokmhydy.xyz^
+##a[href*="/7756ky.com:"]
+##a[href*="/x7458.cc"]
+||lktmgvw.cn^
+||aishan.shop^
+||u644.fun^
+||santou20230127.live^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -39796,6 +39802,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gog-statics.com/js/frontpagelogintracking-$script,domain=gog.com
 ||gog-statics.com/js/loginTracking-$script,domain=gog.com
 ||goodfon.com/stat/
+||goodreads.com/logging
+||goodreads.com/metrics_logging_batched
+||goodreads.com/report_metric
 ||goodreads.com/track/
 ||google.com/dssw.js
 ||google.com/images/phd/px.gif
