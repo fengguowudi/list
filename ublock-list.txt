@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FvYlUvy6uWLdRxtjiuB6uQ
+! Checksum: nqz6H/21jGmWw5SJ+yBiNA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302051421
-! Last Modified: 2023年02月05日 14:21
+! Version: 202302052032
+! Last Modified: 2023年02月05日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -11308,6 +11308,7 @@ _800x80_
 ##.ad-placeholder--mpu
 ##.ad-placeholder-leaderboard
 ##.ad-placeholder-wrapper
+##.ad-placeholder-wrapper-dynamic
 ##.ad-placeholder__inner
 ##.ad-placement
 ##.ad-placement-left
@@ -86280,8 +86281,6 @@ game3rb.com##+js(no-fetch-if, method:HEAD)
 ||game3rb.com/sw.js^$script,1p
 game3rb.com##[href^="http://pityhostngco2.xyz/"]
 *$script,3p,denyallow=bootstrapcdn.com|cloudflare.com|cloudfront.net|disqus.com|disquscdn.com|fastlylb.net|googleapis.com|wp.com,domain=game3rb.com
-@@||empregovaga.online^$ghide
-empregovaga.online###banner
 ||googletagmanager.com/gtag/js$script,redirect-rule=noopjs,domain=rotana.net
 getpaste.link##+js(set, isAdBlockActive, false)
 unlimitmovies.com##+js(aopr, JSON.stringify)
@@ -89693,6 +89692,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||obsproicet.net^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
+||browser-updating.com^$all
+||dokondigit.quest^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
