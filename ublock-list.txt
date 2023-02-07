@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6RL2vmUcQXAOLsbbDU6kqQ
+! Checksum: UYIzkzfbHGoo5z1WNRY4pQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302072036
-! Last Modified: 2023年02月07日 20:36
+! Version: 202302080222
+! Last Modified: 2023年02月08日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1548,7 +1548,7 @@
 /adsfuse-
 /adshandler.
 /adshandler/*
-/adshare.$domain=~adshare.io|~adshare.tv|~echosign.com
+/adshare.$domain=~accesdiffusion.com|~adshare.io|~adshare.tv|~echosign.com
 /adshare/*$domain=~adshare.io|~adsharetoolbox.com
 /adsheader.
 /adshider.
@@ -27227,6 +27227,7 @@ tf2r.com#@#.adverts
 ||d2ship.com^
 ||d31c6d951c.com^
 ||d37aacdbcc.com^
+||d3g5ovfngjw9bw.cloudfront.net^
 ||d4d48974197052ea.com^
 ||d576de5d7d.com^
 ||d5df191530.com^
@@ -32102,6 +32103,7 @@ tf2r.com#@#.adverts
 ||leftoverdense.com^
 ||legalledgtjuj.club^
 ||legcatastrophetransmitted.com^
+||legendsmaestri.com^
 ||legerbbs.com^
 ||legerikath.com^
 ||leggygagbighearted.com^
@@ -32588,6 +32590,7 @@ tf2r.com#@#.adverts
 ||mainnewsfuse.com^
 ||mainroll.com^
 ||maiptica.com^
+||mairunoa.xyz^
 ||maisvznypp.com^
 ||majasgaol.com^
 ||majestydeference.com^
@@ -35267,6 +35270,7 @@ tf2r.com#@#.adverts
 ||portoutsid.xyz^
 ||portserratic.com^
 ||poseidthewave.com^
+||poseurtwicet.digital^
 ||poshhateful.com^
 ||positive-news.net^
 ||positive-news.org^
@@ -36965,6 +36969,7 @@ tf2r.com#@#.adverts
 ||saviourketonic.com^
 ||savouryliaison.com^
 ||sawedhindgut.com^
+||sawmonwhomble.com^
 ||sawsdaggly.com^
 ||sawyerbravery.com^
 ||saycasksabnegation.com^
@@ -37246,6 +37251,7 @@ tf2r.com#@#.adverts
 ||shealapish.com^
 ||sheeftee.net^
 ||sheenaup.net^
+||sheengoa.com^
 ||sheerdaulpusher.com^
 ||sheeroop.com^
 ||sheetchi.net^
@@ -49178,6 +49184,7 @@ sciencealert.com##.ad-desktop\:block
 mobilesyrup.com##.ad-goes-here
 wionews.com##.ad-height
 dailyuptea.com##.ad-info
+freepressjournal.in##.ad-slots
 allscrabblewords.com,famously-dead.com,famouslyarrested.com,famouslyscandalous.com,iamgujarat.com,lolcounter.com,mpog100.com,samayam.com,timesofindia.com,vijaykarnataka.com##.ad1
 allscrabblewords.com,famously-dead.com,famouslyarrested.com,famouslyscandalous.com,mpog100.com##.ad2
 allscrabblewords.com,mpog100.com##.ad3
@@ -50130,6 +50137,7 @@ bizarrepedia.com##.holder
 finbold.com##.holder-bg
 radiocaroline.co.uk##.home-banner
 israelnationalnews.com##.home-subsections-banner
+freepressjournal.in##.homeMobileMiddleAdContainer
 newagebd.net##.homeSlideRightSecTwo
 pbs.org##.home__logo-pond
 carmag.co.za##.homepage-300x250-banner
@@ -87205,6 +87213,7 @@ ythub.cc##.btn-ads
 player.stv.tv##+js(json-prune, testadtags ad)
 player.stv.tv##div.vjs-cue-point
 ||sumologic.stv.tv^
+||brightcove.com^$removeparam=ad_config_id,domain=player.stv.tv
 60mins.online##+js(acis, document.addEventListener, nextFunction)
 bablyfeed.com##+js(acis, eval, replace)
 bablyfeed.com##+js(aeld, DOMContentLoaded, adsBlocked)
@@ -89687,6 +89696,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||neppe.studio^$all
 ||startex3download.com^$all
 ||gowtos.com^$all
+||lomogd.com^$all
 /axad/?lpkey=$doc
 ||aeno.shop^$all
 ||vlcdownloads.com^$all
@@ -89731,6 +89741,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||dokondigit.quest^$all
 ||ka4cv7yh4w.com^$all
 ||raedieshi.com^$all
+||webuzz.me^$doc
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
