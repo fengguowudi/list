@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dzomSVEIR9FRRPz8AIFcHg
+! Checksum: logl5yXAVC3PB+8N2meM2w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302070936
-! Last Modified: 2023年02月07日 09:36
+! Version: 202302071422
+! Last Modified: 2023年02月07日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -49457,6 +49457,7 @@ barrons.com##.barrons-body-ad-placement
 marketscreener.com##.bas
 euronews.com##.base-leaderboard
 teamfortress.tv##.bau
+propublica.org##.bb-ad
 doge-faucet.com##.bbb
 bbc.co.uk##.bbccom_companion
 ectnews.com,linuxinsider.com,macnewsworld.com,technewsworld.com##.bbframe
@@ -84773,6 +84774,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gruposantander.es^*/scripts/log.js
 @@||imprentaonline.net^*/js/gtm.min.js$~third-party
 @@||json.geoiplookup.io/?callback=$script,domain=chilepeajes.cl
+@@||media.aws.alkomprar.com/resources/assets/alkosto/_ui/responsive/common/js/modules/algolia/widgets/analytics.js$domain=alkosto.com
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
 @@||officedepot.com.mx/_ui/shared/js/analyticsmediator.js$~third-party
@@ -91934,7 +91936,7 @@ instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Ges
 @@/signup.php?mode=async&action=show_security_code$image,1p
 @@/akam/13/*$script,xhr,1p,domain=easyjet.com|ing.nl
 @@||collector-*.px-client.net/b/g$xhr,domain=www.crunchbase.com
-@@||media.aws.alkomprar.com/resources/assets/alkosto/_ui/responsive/common/js/modules/algolia/widgets/analytics.js$script,domain=alkosto.com
+@@||googletagmanager.com/gtm.js$script,domain=www.radiox.co.uk
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -99069,8 +99071,8 @@ instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Ges
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 03 Feb 2023 14:12:15 GMT
-# entries:        3667
+# last updated:   Tue, 07 Feb 2023 02:06:07 GMT
+# entries:        3668
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -102440,6 +102442,7 @@ instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Ges
 127.0.0.1 tracking.olx-st.com
 127.0.0.1 tracking.orixa-media.com
 127.0.0.1 tracking.pastapplauddeterseminarproof.makeup
+127.0.0.1 tracking.shopstyle.com
 127.0.0.1 tracking.thinkabt.com
 127.0.0.1 tracking.wetter.at
 127.0.0.1 tracking01.walmart.com
