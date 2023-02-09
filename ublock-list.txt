@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EoiwCowmxZs6a8RnycPN9w
+! Checksum: faacyOosnNmVzAht1P+Dbg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302090939
-! Last Modified: 2023年02月09日 09:39
+! Version: 202302091424
+! Last Modified: 2023年02月09日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -5431,6 +5431,7 @@ _800x80_
 ###ad-leader-container
 ###ad-leader-wrapper
 ###ad-leaderboard
+###ad-leaderboard-atf
 ###ad-leaderboard-bottom
 ###ad-leaderboard-container
 ###ad-leaderboard-footer
@@ -13811,6 +13812,7 @@ _800x80_
 ##.adsbyxa
 ##.adscaleTop
 ##.adscenter
+##.adscentertext
 ##.adsclick
 ##.adscontainer
 ##.adscontent250
@@ -64429,6 +64431,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||troubledtail.com^
 ||truckstomatoes.com^
 ||tumblebirds.com^
+||tumbleicicle.com^
 ||tutorthing.com^
 ||typicalairplane.com^
 ||typicalteeth.com^
@@ -86566,6 +86569,8 @@ xfiles.io##+js(set, blurred, false)
 @@||simplebits.io^$ghide
 @@||simplebits.io/$script,1p
 *$script,redirect-rule=noopjs,domain=simplebits.io
+*$xhr,redirect-rule=nooptext,domain=simplebits.io
+simplebits.io##.placeholder
 simplebits.io##div[class][style="min-height: 250px; height: 250px;"]
 simplebits.io##div[class][style="min-height: 90px;"]
 simplebits.io##div[class][style="min-height: 60px;"]
@@ -86573,6 +86578,7 @@ simplebits.io##div[class][style="min-height: 60px;"]
 @@||satoshilabs.net/$script,1p
 ||satoshilabs.net/sh/ads/$frame
 ||simplebits.io/sh/ads/
+||simplebits.io/ads/
 simplebits.io##+js(no-xhr-if, /ads)
 gtoys.blog.fc2.com##+js(acis, document.addEventListener, google_ad_client)
 ||prairiemountainmedia.com^$3p
@@ -91777,7 +91783,7 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 @@||google-analytics.com/analytics.js$script,redirect-rule=google-analytics.com/analytics.js:5,domain=stern.de
 @@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager_gtm.js:5,domain=stern.de
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=oggi.it
-@@||components2.rcsobjects.it/rcs_adv/v1/distro/dfp/common/prebid.js$script,domain=oggi.it
+@@||components2.rcsobjects.it/rcs_adv/v1/distro/dfp/common/prebid$script,domain=oggi.it
 @@||static.adsafeprotected.com/iasPET$script,domain=oggi.it
 @@||location.api.useinsider.com^$xhr,domain=nontongp.xyz
 @@||googletagmanager.com/gtm.js$script,domain=lacuracao.pe|mumzworld.com|teds.com.au|tsbohemia.cz
@@ -92032,6 +92038,9 @@ instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Ges
 @@/akam/13/*$script,xhr,1p,domain=easyjet.com|ing.nl
 @@||collector-*.px-client.net/b/g$xhr,domain=www.crunchbase.com
 @@||googletagmanager.com/gtm.js$script,domain=www.radiox.co.uk
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=yaktrinews.com,redirect-rule=google-ima.js
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=yaktrinews.com
+@@||pubads.g.doubleclick.net/ssai/event/*/streams$xhr,domain=yaktrinews.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
