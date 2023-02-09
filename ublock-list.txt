@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qj01z5udId+Ft6Jik0J8IA
+! Checksum: haZxu1sL1M5OIXUg0L6UXA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302092038
-! Last Modified: 2023年02月09日 20:38
+! Version: 202302100223
+! Last Modified: 2023年02月10日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -86099,6 +86099,8 @@ vipboxtv.*##+js(acis, navigator, FingerprintJS)
 *$script,3p,denyallow=nolive.me|plyjam.me|chatango.com,domain=olympicstreams.me|vipboxtv.*
 ||cdn.allsportsflix.xyz^$script
 olympicstreams.me##.position-absolute
+||dpipel.com^
+/vppdzdrw.js
 buffstreams.*##+js(nowoif)
 buffstreams.*##+js(aopw, _pop)
 buffstreams.*##+js(acis, setTimeout, admc)
@@ -88458,14 +88460,8 @@ filmyzilla-in.xyz##+js(set, blurred, false)
 ||tubebuddy.com^$domain=filmyzilla-in.xyz
 orgasmatrix.com##+js(acis, document.querySelectorAll, popMagic)
 orgasmatrix.com##.card.post:has([href*="landing."])
-@@||cd.connatix.com/connatix.player.js$script,domain=loot.tv
-@@||cds.connatix.com/*/connatix.player.dc.js$script,domain=loot.tv
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=loot.tv
-@@||cds.connatix.com/p/*/connatix.playspace.js$script,domain=loot.tv
-@@||cd.connatix.com/connatix.playspace.js$script,domain=loot.tv
-@@||cds.connatix.com/p/*/connatix.player.js$script,domain=loot.tv
-@@||cds.connatix.com/p/*/player.css$css,domain=loot.tv
-@@||connatix.com/core/pls$xhr,domain=loot.tv
+||connatix.com/tr/$xhr,domain=loot.tv,important
+@@||connatix.com^$script,xhr,css,domain=loot.tv
 @@||loot.tv^$ghide
 gifhq.com##+js(acis, document.dispatchEvent, myEl)
 gifhq.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
@@ -89530,8 +89526,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
-/^https?:\/\/((?!www)[a-z]+|\d{2,4})?\.?[-0-9a-z]{5,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|site|skin|space|top|us|xyz
-/^https?:\/\/((?!www)[a-z]+|\d{2,4})?\.?[-0-9a-z]{5,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|site|skin|space|top|us|xyz
+/^https?:\/\/((?!www)[a-z]+|\d{2,4})?\.?[-0-9a-z]{5,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|shop|site|skin|space|top|us|xyz
+/^https?:\/\/((?!www)[a-z]+|\d{2,4})?\.?[-0-9a-z]{5,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|shop|site|skin|space|top|us|xyz
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{10,36}(?:&qs\d=\S+)?&sid=[_0-9a-f]{1,32}(?:&s=0\.\d+)?$/$doc,match-case,domain=com|info|net|org
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?sid=[_0-9a-f]{1,32}(?:&qs\d=\S+)?&cid=[-_0-9a-zA-Z]{10,36}(?:&s=0\.\d+)?$/$doc,match-case,domain=com|info|net|org
 ||ogtrk.net^
@@ -89850,6 +89846,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||jlydxj.com^$all
 ||chargerlogistics-dot-exceldocsverification.uk.r.appspot.com^$all
 ||forum.square-enix.com-vu.top^$all
+||bizerba-dot-azure-projectfiles.uk.r.appspot.com^$all
 ||obsproicet.net^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
@@ -92060,6 +92057,12 @@ instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Ges
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=yaktrinews.com,redirect-rule=google-ima.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=yaktrinews.com
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$xhr,domain=yaktrinews.com
+/1.gif?$badfilter
+/2.gif?$badfilter
+/3.gif?$badfilter
+||i.jsrdn.com/i/1.gif?
+||qbk1.com/1.gif?
+||webd.home.news.cn/1.gif?
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
