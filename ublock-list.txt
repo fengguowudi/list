@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h3nWT6wvuPpOv/jd4FdlwA
+! Checksum: HJILeqvFME9K9mPxnVcgcA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302102035
-! Last Modified: 2023年02月10日 20:35
+! Version: 202302110224
+! Last Modified: 2023年02月11日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -85180,6 +85180,9 @@ twinkybf.com##.happy-under-player
 ||easyads28.*^
 .com/fr.js|$1p
 .com/v.js?v=3|$1p
+/static/js/abb.js|$script,1p
+/common-js/exit/om2.min.js
+||sextubexxl.com/includes/scripts/
 m-hentai.net##+js(aeld, click, popMagic)
 m-hentai.net##div.leaderboardcontainer
 m-hentai.net##div[class^="landingpageadcontainer_iframe"]
@@ -89011,7 +89014,6 @@ majorgeeks.com##b:has(a[target^="reimage"])
 ||cobalten.com^$all
 ||stremanp.com^$all
 ||nextyourcontent.com^$all
-||notification-centar.com^$all
 ||geniusdexchange.com^$all
 ||securecloud-smart.com^$all
 ||doctopdftech.com^$all
@@ -89241,7 +89243,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||pushmeup.art^$all
 ||pushub.net^$all
 ||adserver*/?sdomain=$doc,popup
-||aleppo.su^$all
 ||couponex.space^$all
 ||bismuni.com^$all
 ||date4sex.pro^$all
@@ -89396,13 +89397,11 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /ll/click.php?key=$doc
 ||maxhacks.pro^$all
 /?ip=*&uclickhash=$doc
-||brownsite.click^$all
 ||phoneapplicationlabs.top^$all
 /winXos/?$doc
 ||4qdx69gg2d.com^$all
 ||unogames.site^$all
 ||cheaterboss.com^$all
-||shopsales2022.com^$all
 ||dating-herenow3.com^$all
 ||conditioning1.space^$all
 ||wholewowblog.com^$all
@@ -89411,7 +89410,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||newlove.life^$all
 ||real-women-online.com^$all
 /?camp=*&cost=0.$doc
-||datedats2.com^$all
 ||monglitch.monster^$all
 ||d13nu0oomnx5ti.cloudfront.net^
 ||m-afee.com^$all
@@ -89426,13 +89424,11 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||feelmyfile.info^$all
 ||dougale.com^$all
 ||adblockfast.com^$all
-||xeoliders.com^$all
 ||bookofsex.com^$all
 ||webcams-chat.com^$all
 ||mydirtytinders.com^$all
 ||fuckmore.com^$all
 ||dotchaudou.com^$all
-||specialadves.com^$all
 ||classicpartnerships.com^$all
 ||legendarytable.com^$all
 ||traffmax-redirect.com^$all
@@ -89470,7 +89466,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||vehicle-insurance-quote.com^$all
 ^lpkey=*&uclickhash=$doc
 ||systemupdatesy.life^$all
-||chiarascanavino.de^$all
 ||d135aysof2oufc.cloudfront.net^$all
 ||blob.core.windows.net/$web/$doc
 /?banner=*&phone=$doc
@@ -89556,7 +89551,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||xsharenode.com^$all
 ||blowfood.website^$all
 ||xovilumium.space^$all
-||downloadset2you.com^$all
 ||galaxy-swaper.site^$all
 ||sncrack.xyz^$doc
 ||funnycrack.com^$doc
@@ -89651,6 +89645,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||eniedu.com^$doc
 ||gamletaarnhuset.no^$doc
 ||possessedcrackinghart.com^$all
+||adblock-pro-download.com^$all
+||reepratic.com^$all
 ||nbryb.com^$all
 ||onemacusa.com^$all
 ||realnetnews.com^$all
@@ -89696,7 +89692,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||yunosurveys.com^$all
 ||shadyclient.net^$all
 ||a1475.com^$all
-||shibatokenclaim.net^$all
 ||ts-group.com^$all
 ||2345.eyunsou.com^$all
 ||88btbtt.com^$all
@@ -89836,37 +89831,30 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||ezadblocker.com^$all
 ||watchadsfree.com^$all
 ||discordoauthverification.onrender.com^$all
-||smbci.shop^$all
-||antoniop.shop/all/login.php$all
 ||barlear.ru^$all
 ||breadcat.cc^$all
 ||mc-hypixel.store^$all
 ||kaminarisubs.net^$all
 ||hrkbs.com^$all
-||paypay.srbxjd.com^$all
 ||galeden.cn^$all
 ||3utilities.com^$all
 ||trustwallett.rest^$all
-||mail-paypay.secure-onamae.com^$all
-||pay.whzecy.com^$all
 ||kvwuugo.cn^$all
 ||engagingtheheart.com^$all
 ||cpuz.beerworldstore.com^$all
-||helene-de-beauvoir.com^$all
 ||bafybeidzp4sgidm4rvsc32fofkhbz5bdotbekov4mnwzejakvnzhhohysa.ipfs.dweb.link^$all
 ||cpu-id.top^$all
-||aida-64.com^$all
 .top/index-install.html|$doc
 ||r39-g003-h8ig0w-u8f0we8-fgw0rgf-0we880e-rhgth.obs.ap-southeast-2.myhuaweicloud.com^$all
 ||bafybeiexjty7qmufu5jvbyln5ce5mue2lqw2htafc3api4wwsefxet5k54.ipfs.dweb.link^$all
 ||jlydxj.com^$all
 ||chargerlogistics-dot-exceldocsverification.uk.r.appspot.com^$all
-||forum.square-enix.com-vu.top^$all
 ||bizerba-dot-azure-projectfiles.uk.r.appspot.com^$all
 ||aidla64.com^$all
 ||uahora.com^$all
 ||cpuild.app^$all
 ||alda64.com^$all
+||kiziiay.net^$all
 ||obsproicet.net^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
@@ -89875,7 +89863,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||ka4cv7yh4w.com^$all
 ||raedieshi.com^$all
 ||webuzz.me^$doc
-||best-exp.org^$all
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -99231,7 +99218,7 @@ instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Ges
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Wed, 08 Feb 2023 23:27:19 GMT
-# entries:        3681
+# entries:        3676
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -101442,7 +101429,6 @@ instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Ges
 127.0.0.1 linkstorms.com
 127.0.0.1 linkswaper.com
 127.0.0.1 linktarget.com
-127.0.0.1 liquidad.narrowcastmedia.com
 127.0.0.1 litix.io
 127.0.0.1 liveadexchanger.com
 127.0.0.1 liveintent.com
@@ -102148,7 +102134,6 @@ instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Ges
 127.0.0.1 s20dh7e9dh.com
 127.0.0.1 s2d6.com
 127.0.0.1 sabio.us
-127.0.0.1 sageanalyst.net
 127.0.0.1 sail-horizon.com
 127.0.0.1 samsungacr.com
 127.0.0.1 samsungads.com
@@ -102622,7 +102607,6 @@ instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Ges
 127.0.0.1 tracking22.com
 127.0.0.1 trackingfestival.com
 127.0.0.1 trackingsoft.com
-127.0.0.1 tracklink-tel.de
 127.0.0.1 trackmysales.com
 127.0.0.1 trackuhub.com
 127.0.0.1 tradeadexchange.com
@@ -102644,7 +102628,6 @@ instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Ges
 127.0.0.1 trafficz.com
 127.0.0.1 traffiq.com
 127.0.0.1 trafic.ro
-127.0.0.1 traildelsfars.com
 127.0.0.1 traktrafficflow.com
 127.0.0.1 tranquilside.com
 127.0.0.1 travis.bosscasinos.com
@@ -102807,7 +102790,6 @@ instagram.com#@#article[role="presentation"] > div[style]:has(span:has-text(/Ges
 127.0.0.1 webstat.com
 127.0.0.1 webstat.net
 127.0.0.1 webstats.one
-127.0.0.1 webstats4u.com
 127.0.0.1 webtracker.jp
 127.0.0.1 webtrackerplus.com
 127.0.0.1 webtracky.com
