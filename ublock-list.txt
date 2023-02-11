@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uPpjR1k+RjNG4i2wUd5Y+w
+! Checksum: eu/B81yuNYxJorqmL+tOlQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302111422
-! Last Modified: 2023年02月11日 14:22
+! Version: 202302112033
+! Last Modified: 2023年02月11日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -87659,6 +87659,7 @@ wallpapers.ispazio.net##.box-apples_single_reclame
 ispazio.net##.stream-item
 ispazio.net##.stream-item-widget
 shineads.in##+js(nostif, ai_adb)
+shineads.in##+js(aeld, DOMContentLoaded, popup)
 /nb/f_ls.js
 ||bluffyporn.com^$3p
 ||quinporn.com^$3p
