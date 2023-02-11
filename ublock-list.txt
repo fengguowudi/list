@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NToxs4IQ6O8jv2MX824eLg
+! Checksum: uPpjR1k+RjNG4i2wUd5Y+w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302110932
-! Last Modified: 2023年02月11日 09:32
+! Version: 202302111422
+! Last Modified: 2023年02月11日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -19025,6 +19025,7 @@ _800x80_
 ##.primary-advertisment
 ##.primary_sidebar_ad
 ##.primis-video
+##.primis-wrapper
 ##.print-ad-wrapper
 ##.print-adslot
 ##.printAds
@@ -51070,6 +51071,7 @@ spearswms.com##.sidebar-mpu-1
 middleeasteye.net##.sidebar-photo-extend
 comedy.com##.sidebar-prebid
 domainnamewire.com,repeatreplay.com##.sidebar-primary
+libhunt.com##.sidebar-promo-boxed
 davidwalsh.name##.sidebar-sda-large
 ldjam.com##.sidebar-sponsor
 abovethelaw.com##.sidebar-sponsored
@@ -51176,7 +51178,6 @@ timesofindia.indiatimes.com##.sports_ad_wrapper
 alexandriagazette.com,arlingtonconnection.com,burkeconnection.com,centre-view.com,coincost.net,connection-sports.com,fairfaxconnection.com,fairfaxstationconnection.com,forum.xda-developers.com,greatfallsconnection.com,herndonconnection.com,mcleanconnection.com,mountvernongazette.com,phonearena.com,potomacalmanac.com,reston-connection.com,springfieldconnection.com,viennaconnection.com##.spot
 phonearena.com##.spot-sticky-container
 freepik.com##.spr-plc
-libhunt.com##.sprd
 bizarrepedia.com##.spsnrd
 kissanimefree.tv##.spu-bg
 motorauthority.com##.sq-block
@@ -51340,7 +51341,6 @@ towleroad.com##.towletarget
 techreen.com##.tr-block-header-ad
 techreen.com##.tr-block-label
 torbay.gov.uk##.track
-libhunt.com##.track-event
 futurism.com##.tracking-wider
 futurism.com##.tracking-widest
 bincodes.com##.transferwise
@@ -53761,7 +53761,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hbomax.com^$generichide
 @@||icloud.com^$generichide
 @@||jsfiddle.net^$generichide
-@@||libhunt.com^$generichide
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
 @@||material.angular.io^$generichide
@@ -90430,6 +90429,9 @@ kotaku.com#@##dfp-ad-1
 ||x.kinja-static.com/assets/packaged-js/OnionAM.$script,domain=avclub.com|clickhole.com|deadspin.com|earther.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 @@||d1xrtnyoeeet33.cloudfront.net/assets/js/lib/*$script,domain=calgaryherald.com|calgarysun.com|canoe.com|edmontonsun.com|financialpost.com|leaderpost.com|lfpress.com|montrealgazette.com|nationalpost.com|ottawacitizen.com|ottawasun.com|theprovince.com|thestarphoenix.com|torontosun.com|vancouversun.com|windsorstar.com|winnipegsun.com
 @@||cbsistatic.com/*/comscore.streaming.$script,domain=cbsnews.com
+@@||tealium.cbsnews.com/*/prod/utag.js$script,1p
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai_debug.js$script,domain=cbsnews.com
+@@||pubads.g.doubleclick.net/ssai/event/*/streams$xhr,domain=cbsnews.com
 @@||pandora.com/web-version/*_comscore.$script,1p
 @@||pandora.com/web-version/*_googleAnalytics.$script,1p
 @@||ms-mt--api-web.*/ads/*$xhr,domain=coches.net
@@ -91479,7 +91481,6 @@ uschovna.cz##.branding:upward([target="_blank"])
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=discoveryplus.in
 vermangasporno.com#@#a[target="_blank"][rel="noopener noreferrer"] > img
 @@||fundingchoicesmessages.google.com^$script,domain=bbc.com
-@@||tealium.cbsnews.com/*/prod/utag.js$script,1p
 !#if env_firefox
 @@||dev.visualwebsiteoptimizer.com/j.php$domain=watch.impress.co.jp
 @@||dev.visualwebsiteoptimizer.com/v.gif$domain=watch.impress.co.jp
@@ -91914,7 +91915,7 @@ html5.gamedistribution.com##+js(no-fetch-if, api)
 @@||secure.quantserve.com/quant.js$script,domain=oasport.it
 oasport.it#@#.adv
 oasport.it#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
-@@||components2.rcsobjects.it/rcs_adv/*/distro/dfp/common/prebid.js$script,domain=video.gazzetta.it
+@@||components2.rcsobjects.it/rcs_adv/*/distro/dfp/common/prebid$script,domain=video.gazzetta.it
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=video.gazzetta.it
 ||sourcepoint.vice.com^$badfilter
 @@||tags.tiqcdn.com/utag/bluestem/main/prod/utag.sync.js$script,domain=fingerhut.com
@@ -91961,7 +91962,6 @@ scanurl.net##.adsbygoogle
 ||exponea.com^$badfilter
 ||exponea.com^$3p
 ||assets.springserve.com^$media,domain=app.plex.tv,redirect=noopmp3-0.1s
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=vtvgiaitri.vn
 @@||holidaypark.de/sites/default/files/public/google_tag/*$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=holidaypark.de
 mitula.com.br#@#.adsList
