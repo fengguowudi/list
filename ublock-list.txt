@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: r/999yeZWL9wkX7wYafdzg
+! Checksum: mUBJmgpol2qdLKzv8yp72g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302121422
-! Last Modified: 2023年02月12日 14:22
+! Version: 202302122033
+! Last Modified: 2023年02月12日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -41976,6 +41976,7 @@ tf2r.com#@#.adverts
 ||geo-idm.fr^$third-party
 ||geopromos.com^$third-party
 ||geovisite.com^$third-party
+||geozo.com^$third-party
 ||germaniavid.com^$third-party
 ||gestionpub.com^$third-party
 ||get.com^$third-party
@@ -89858,10 +89859,6 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||magiskmanager.com^$doc
 ||4rxworld.su^$doc
 ||geoflix.me^$all
-||usdtbang.com^$all
-||usdteng.com^$all
-||usdtbbc.com^$all
-||imtokenwallet.biz^$all
 ||ferme-lesca.fr^
 ||odulunual.sa.com^
 ||ucetnictvi-liberec.eu^$all
@@ -90486,6 +90483,7 @@ kotaku.com#@##dfp-ad-1
 @@||cbsistatic.com/*/comscore.streaming.$script,domain=cbsnews.com
 @@||tealium.cbsnews.com/*/prod/utag.js$script,1p
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=cbsnews.com,redirect=google-ima.js,important
+||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$script,domain=cbsnews.com,redirect-rule=google-ima.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai_debug.js$script,domain=cbsnews.com
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$xhr,domain=cbsnews.com
 @@||pandora.com/web-version/*_comscore.$script,1p
