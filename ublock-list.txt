@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mUBJmgpol2qdLKzv8yp72g
+! Checksum: 4c/Yk8yQSG2Wgy1DO2rYGw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302122033
-! Last Modified: 2023年02月12日 20:33
+! Version: 202302130221
+! Last Modified: 2023年02月13日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -87758,6 +87758,7 @@ cluset.com##.item > div.spot:upward(1)
 cluset.com##.table
 tumblr.com##header[role="banner"] > div > a[href="/docs/en/relevantads"]:upward(3)
 tumblr.com##a[href^="https://www.bonecoin.com/"]
+tumblr.com##div[style="top:69px"] > div[class] > div[class] > div[class] > div[class] > a[href="/settings/ad-free-browsing?source=rail"]:upward(3)
 mazystreams.xyz###id-custom_banner
 ||gazzettaobjects.it/rcs_anti-adblocker/$3p
 rincondelsazon.com##+js(nano-sib, timercounter)
@@ -89967,6 +89968,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||raedieshi.com^$all
 ||webuzz.me^$doc
 ||crosmall.homes^$all
+||coup-ling.net^$all
+||coup-ling-dm.net^$all
+||sossiotron.com^$all
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -92019,7 +92023,6 @@ scanurl.net##.adsbygoogle
 @@||holidaypark.de/sites/default/files/public/google_tag/*$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=holidaypark.de
 mitula.com.br#@#.adsList
-@@||media.ethicalads.io/media/client/ethicalads.min.js$script,domain=iconer.app
 @@||mpsnare.iesnare.com/snare.js$script,domain=lenovo.com
 dpp.org.tw#@#.ad_url
 @@||media.sailthru.com/composer/images$image,domain=link.square-enix-games.com
