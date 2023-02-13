@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9v7ZmhcW7D5K0bkJ6Dvkdw
+! Checksum: m1G8eo5nTNeCZaarWOEsEw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302132037
-! Last Modified: 2023年02月13日 20:37
+! Version: 202302140224
+! Last Modified: 2023年02月14日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3619,6 +3619,7 @@
 /special_ads.
 /special_ads/*
 /specialads/*
+/specialctrl.js
 /spiderad/*
 /splash_ads_
 /SplashAd_
@@ -25307,6 +25308,7 @@ tf2r.com#@#.adverts
 ||berhima.xyz^
 ||berkshiretoday.xyz^
 ||berlipurplin.com^
+||berses.com^
 ||berthformttet.com.ua^
 ||berthsorry.com^
 ||berush.com^
@@ -32228,6 +32230,7 @@ tf2r.com#@#.adverts
 ||lenmit.com^
 ||lensesunduke.website^
 ||leonbetvouum.com^
+||leonidwolvers.com^
 ||leonodikeu9sj10.com^
 ||leontius-eli.com^
 ||leoyard.com^
@@ -32598,6 +32601,7 @@ tf2r.com#@#.adverts
 ||lwgadm.com^
 ||lwjvyd.com^
 ||lwppiglets.website^
+||lwvtxpwjv.com^
 ||lx2rv.com^
 ||lxfsimoastsiite.xyz^
 ||lxphwibrkt.xyz^
@@ -34253,6 +34257,7 @@ tf2r.com#@#.adverts
 ||omphantumpom.com^
 ||omsawkan.com^
 ||omshedinjaor.com^
+||omxriphi.com^
 ||omzylhvhwp.com^
 ||onad.eu^
 ||onads.com^
@@ -37690,6 +37695,7 @@ tf2r.com#@#.adverts
 ||smirkscapos.com^
 ||smises.com^
 ||smisit.com^
+||smisto.com^
 ||smists.com^
 ||smoggydisplay.pro^
 ||smokesplical.com^
@@ -38786,6 +38792,7 @@ tf2r.com#@#.adverts
 ||thoseads.com^
 ||thosemethod.pro^
 ||thoudroa.net^
+||thouedslipped.life^
 ||thoughclassifiedjeff.com^
 ||thoughtleadr.com^
 ||thoughtsusta.xyz^
@@ -40042,6 +40049,7 @@ tf2r.com#@#.adverts
 ||vmhzvqzx.com^
 ||vmraahnmspzy.com^
 ||vmuid.com^
+||vnbgcquiihu.xyz^
 ||vneffwecka.com^
 ||vnfunsvrtm.com^
 ||vnjvupnrboobpz.com^
@@ -40087,6 +40095,7 @@ tf2r.com#@#.adverts
 ||vossulekuk.com^
 ||votemoodyexcavate.com^
 ||vouceeco.com^
+||vouglftxohkcuu.com^
 ||vouhecem.net^
 ||vounaipu.net^
 ||vowcertainly.com^
@@ -40269,6 +40278,7 @@ tf2r.com#@#.adverts
 ||waxpigbaa.com^
 ||waxtamnit.com^
 ||wayfarerspoutpraise.com^
+||waygatecrowbar.com^
 ||waymarkgentiin.com^
 ||waymentriddel.com^
 ||waynagmay.com^
@@ -48404,6 +48414,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||xxxvideotube.net/banner.gif
 ||xxxvogue.net/_ad
 ||xxxxsx.com/sw.js
+||ynoymse4.xhamster.com^
 ||yotta.scrolller.com^
 ||youporn.com^$script,subdocument,domain=youporn.com|youporngay.com
 ||yourlust.com*/serve
@@ -90056,6 +90067,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||coup-ling.net^$all
 ||coup-ling-dm.net^$all
 ||sossiotron.com^$all
+||usmall.xyz^$all
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -90067,6 +90079,10 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||tgram.ru^$all
 ||telegramm.site^$all
 ||web-telegram.net^$all
+||jNKmS0zFuEh.click^$all
+||pjljo54uk.click^$all
+||v1asy4ncr.click^$all
+||p5tvhrlw30h.click^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -99420,8 +99436,8 @@ wnynewsnow.com#@#.ez-video-wrap
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Mon, 13 Feb 2023 11:17:08 GMT
-# entries:        3678
+# last updated:   Mon, 13 Feb 2023 17:04:28 GMT
+# entries:        3680
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -100380,6 +100396,7 @@ wnynewsnow.com#@#.ez-video-wrap
 127.0.0.1 alexa-sitestats.s3.amazonaws.com
 127.0.0.1 alexametrics.com
 127.0.0.1 algorix.co
+127.0.0.1 aliasanvil.com
 127.0.0.1 alipromo.com
 127.0.0.1 all4spy.com
 127.0.0.1 allosponsor.com
@@ -100608,6 +100625,7 @@ wnynewsnow.com#@#.ez-video-wrap
 127.0.0.1 behavioralengine.com
 127.0.0.1 belstat.com
 127.0.0.1 belstat.nl
+127.0.0.1 benefits.sovendus.com
 127.0.0.1 benfly.net
 127.0.0.1 berp.com
 127.0.0.1 bestboundary.com
