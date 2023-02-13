@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4c/Yk8yQSG2Wgy1DO2rYGw
+! Checksum: VQvIssvvAY0mBm4H/MU3pQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302130221
-! Last Modified: 2023年02月13日 02:21
+! Version: 202302130943
+! Last Modified: 2023年02月13日 09:43
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -23216,7 +23216,6 @@ tf2r.com#@#.adverts
 ||adherencestated.com^
 ||adhoc4.net^
 ||adhub.digital^
-||adhunt.net^
 ||adiquity.com^
 ||adjectivedollaralmost.com^
 ||adjoincomprise.com^
@@ -41345,6 +41344,7 @@ tf2r.com#@#.adverts
 ||adhigh.net^$third-party
 ||adhitzads.com^$third-party
 ||adhostingsolutions.com^$third-party
+||adhunt.net^$third-party
 ||adicate.com^$third-party
 ||adikteev.com^$third-party
 ||adimise.com^$third-party
@@ -69059,6 +69059,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.archive.org^
 ||analytics.brave.com^
 ||analytics.chase.com^
+||analytics.dashboard.fingerprint.com^
 ||analytics.designspiration.com^
 ||analytics.ecosia.org^
 ||analytics.faceitanalytics.com^
@@ -69372,6 +69373,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||findmatches.com/bts.js
 ||findmatches.com/t/tr/lp/intg.js?
 ||findmatches.com/tri?tid=
+||fingerprint.com/events/
 ||fingerprintjs.com/visitors/
 ||firebaselogging.googleapis.com^
 ||fishki.net/counter/
@@ -88700,6 +88702,7 @@ dirp.me##[data-href^="/vpn"]
 dirp.me##[id]:has-text(Provider)
 boainformacao.com.br##+js(no-xhr-if, adsbygoogle)
 pinterest.*##div[data-test-id="pin"] span:not([class]):has-text(/Promoted by|広告/):upward([data-grid-item="true"])
+pinterest.*##:xpath('//*[contains(text(),"Promoted")]'):upward([data-grid-item])
 distrowatch.org##[href*="3cx"]:upward(tbody)
 distrowatch.org##[href^="https://pbxinaflash.com/"]
 ubuntudde.com##+js(aopw, b2a)
@@ -99340,7 +99343,7 @@ wnynewsnow.com#@#.ez-video-wrap
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 17 Feb 2003 00:00:00
+# start date:    Tue, 18 Feb 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
