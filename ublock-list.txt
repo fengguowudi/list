@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3im/Kcgd5CPY+yQ0z+hZvg
+! Checksum: c5MclDFDwvu8NOvZorxKDA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302161424
-! Last Modified: 2023年02月16日 14:24
+! Version: 202302162037
+! Last Modified: 2023年02月16日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -13807,7 +13807,6 @@ _800x80_
 ##.adsbyexoclick
 ##.adsbyexoclick-wrapper
 ##.adsbygalaksion
-##.adsbygoogle
 ##.adsbygoogle-box
 ##.adsbygoogle-noablate
 ##.adsbygoogle-wrapper
@@ -21510,6 +21509,7 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##topadblock
 ##zeus-ad
+##ins.adsbygoogle
 ###kt_player > a[target="_blank"]
 ###slashboxes > .deals-rail
 ##.scroll-fixable.rail-right > .deals-rail
@@ -50706,6 +50706,7 @@ flava.co.nz,hauraki.co.nz,mixonline.co.nz,thehits.co.nz,zmonline.com##.layout__b
 racingtv.com##.layout__promotion
 mytempsms.com##.layui-col-md12
 filmdaily.co##.lazyloaded.aligncenter
+iol.co.za##.lbMtEm
 trueachievements.com,truesteamachievements.com,truetrophies.com##.lb_holder
 coincodex.com##.ldb-top
 versus.com##.lead_top
@@ -60616,6 +60617,7 @@ _mongo_stats/
 ||mediapxv.com^
 ||micpn.com^
 ||mitour.de^
+||ml-sys.xyz^
 ||mm-api.agency^
 ||monu.delivery^
 ||mors22.com^
@@ -85923,6 +85925,8 @@ shooshtime.com##+js(acis, document.getElementsByTagName, adn)
 th-world.com##+js(nostif, nextFunction, 250)
 upload.ee##+js(nowebrtc)
 *$3p,script,xhr,denyallow=cloudflare.net|google.com|gstatic.com|googleapis.com|hcaptcha.com|jsdelivr.net|pvvstream.pro|recaptcha.net|userapi.com,domain=noodlemagazine.com
+noodlemagazine.com##noindex
+noodlemagazine.com##+js(nano-stb, download, 1100)
 links.worldfree4u-lol.online##+js(aopw, _pop)
 ||binpartner.com^$3p
 ||olymptrade.com^$3p
