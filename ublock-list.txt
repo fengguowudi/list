@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: c5MclDFDwvu8NOvZorxKDA
+! Checksum: ipYo5lKYl+gbuqCh2zxZog
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302162037
-! Last Modified: 2023年02月16日 20:37
+! Version: 202302170222
+! Last Modified: 2023年02月17日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21488,6 +21488,7 @@ _800x80_
 ##div[id^="ads300_100-widget-"]
 ##div[id^="ads300_250-widget-"]
 ##div[id^="adspot-"]
+##div[id^="advads_ad_"]
 ##div[id^="crt-"][style]
 ##div[id^="dfp-ad-"]
 ##div[id^="div-ads-"]
@@ -21896,7 +21897,6 @@ cars.mitula.ae#@#.adsList
 trustnet.com#@#.ads_right
 search.conduit.com#@#.ads_wrapper
 alluc.org#@#.adsbottombox
-advancedrenamer.com,cdromance.com,epicbundle.com,hs-exp.jp,korail.pe.kr,phcorner.net,teemo.gg,willyoupressthebutton.com#@#.adsbygoogle
 copart.com#@#.adscontainer
 starbike.com#@#.adsense_wrapper
 live365.com#@#.adshome
@@ -22030,13 +22030,14 @@ out.com#@#div[id^="dfp-ad-"]
 cancam.jp,saitama-np.co.jp#@#div[id^="div-gpt-"]
 xdpedia.com#@#div[id^="ezoic-pub-ad-"]
 forums.overclockers.ru#@#div[id^="yandex_ad"]
+advancedrenamer.com,cdromance.com,epicbundle.com,hs-exp.jp,korail.pe.kr,phcorner.net,teemo.gg,willyoupressthebutton.com#@#ins.adsbygoogle
 japan-webike.be,japan-webike.ca,japan-webike.ch,japan-webike.dk,japan-webike.ie,japan-webike.it,japan-webike.kr,japan-webike.nl,japan-webike.se,webike-china.cn,webike.ae,webike.co.at,webike.co.hu,webike.co.il,webike.co.uk,webike.com.ar,webike.com.bd,webike.com.gr,webike.com.kh,webike.com.mm,webike.com.ru,webike.com.tr,webike.com.ua,webike.cz,webike.de,webike.es,webike.fi,webike.fr,webike.hk,webike.id,webike.in,webike.la,webike.mt,webike.mx,webike.my,webike.net,webike.net.br,webike.net.pl,webike.ng,webike.no,webike.nz,webike.ph,webike.pk,webike.pt,webike.sg,webike.tw,webike.vn#@#.ad_box
 japan-webike.be,japan-webike.ca,japan-webike.ch,japan-webike.dk,japan-webike.ie,japan-webike.it,japan-webike.kr,japan-webike.nl,japan-webike.se,webike-china.cn,webike.ae,webike.co.at,webike.co.hu,webike.co.il,webike.co.uk,webike.com.ar,webike.com.bd,webike.com.gr,webike.com.kh,webike.com.mm,webike.com.ru,webike.com.tr,webike.com.ua,webike.cz,webike.de,webike.es,webike.fi,webike.fr,webike.hk,webike.id,webike.in,webike.la,webike.mt,webike.mx,webike.my,webike.net,webike.net.br,webike.net.pl,webike.ng,webike.no,webike.nz,webike.ph,webike.pk,webike.pt,webike.sg,webike.tw,webike.vn#@#.ad_title
 spoilertv.com#@##adsensewide
-androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkulubu.com,pixiz.com,spoilertv.com#@#.adsbygoogle
 apkmirror.com#@#.adslot
 browsershots.org#@#.advert_area
 tf2r.com#@#.adverts
+androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkulubu.com,pixiz.com,spoilertv.com#@#ins.adsbygoogle
 !---------------------------Third-party advertisers---------------------------!
 ||0-000.store^
 ||004809f9da.com^
@@ -23557,6 +23558,7 @@ tf2r.com#@#.adverts
 ||aeroded.com^
 ||aeroplaneversion.com^
 ||aeroselabite.space^
+||aerotowrefit.com^
 ||aerugosspritz.com^
 ||afbatqo.com^
 ||afcnuchxgo.com^
@@ -26784,6 +26786,7 @@ tf2r.com#@#.adverts
 ||coderformylife.info^
 ||codesbro.com^
 ||codezap.com^
+||codsooms.net^
 ||coedmediagroup.com^
 ||coeliacclung.com^
 ||coetusnappers.com^
@@ -31245,6 +31248,7 @@ tf2r.com#@#.adverts
 ||introfykeeler.tech^
 ||intrudeaccess.com^
 ||intrudesome.com^
+||intrustplatch.com^
 ||intuitspisan.com^
 ||inuapixndextq.xyz^
 ||inuregestura.com^
@@ -34993,6 +34997,7 @@ tf2r.com#@#.adverts
 ||peirs5tbakchios.com^
 ||pejzeexukxo.com^
 ||pelagicmismate.com^
+||peliomaafb.com^
 ||pemainedperio.com^
 ||pendulumkeg.com^
 ||pengobyzant.com^
@@ -35098,6 +35103,7 @@ tf2r.com#@#.adverts
 ||pharaohsteven.com^
 ||phardain.xyz^
 ||pharmcash.com^
+||phartemt.xyz^
 ||phastoag.com^
 ||phaudree.com^
 ||phaurtuh.net^
@@ -38220,6 +38226,7 @@ tf2r.com#@#.adverts
 ||step-step-go.com^
 ||stepkeydo.com^
 ||stepmotherincomingpluck.com^
+||steppedremold.com^
 ||steppesshirvan.com^
 ||stepsothohe.pro^
 ||sterilecute.com^
@@ -47572,6 +47579,7 @@ tf2r.com#@#.adverts
 ||designtaxi.com/js/dt-seo.js
 ||designtaxi.com/small-dt.php$subdocument
 ||detectiveconanworld.com/images/support-us-brave.png
+||developer.mozilla.org/pong/
 ||dianomi.com/brochures.epl?
 ||dianomi.com/click.epl
 ||digitalmediaworld.tv/images/banners/
@@ -47972,7 +47980,7 @@ $image,script,subdocument,third-party,xmlhttprequest,domain=heapfiles.com|vidoza
 @@||ajax.googleapis.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdn.vidoza.co/js/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
-$popup,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+$popup,third-party,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
 $stylesheet,subdocument,third-party,xmlhttprequest,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
 .com.ua^$popup,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
 .com.ua^$third-party,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
@@ -52708,6 +52716,7 @@ bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
 sbs.com.au#?#.MuiBox-root:-abp-has(>.desktop-ads)
 slashdot.org#?#article:-abp-has(.ntv-sponsored-question)
+imgur.com#?#div[style^="height:"]:-abp-has(.Ad)
 9gag.com#?#article:-abp-has(.promoted)
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(Sponsored))
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(SPONSORED))
@@ -86410,6 +86419,7 @@ android-apk.org##+js(nano-sib, time)
 aapks.com##+js(nano-stb, countDown)
 forobasketcatala.com##+js(acis, XMLHttpRequest, onreadystatechange)
 tny.so##+js(acis, atob, 'shift')
+||tny.so/sw-$script
 itsecuritynews.info##+js(aopr, b2a)
 itsecuritynews.info###secondary > .widget_custom_html.widget.widget_text
 ||pagead2.googlesyndication.com/pagead/$redirect-rule=noopjs,script,domain=overbits.herokuapp.com
@@ -87702,7 +87712,7 @@ userload.*##.adp-underlay
 ||binomo.com^$3p
 ||0x01n2ptpuz3.com^$all
 @@||js.hyra.io/$script,1p
-||imasdk.googleapis.com/js/sdkloader/$script,redirect-rule=noopjs,domain=timesnowhindi.com|tvid.in
+||imasdk.googleapis.com/js/sdkloader/$script,redirect-rule=noopjs,domain=timesnowhindi.com|timesnowmarathi.com|tvid.in
 timesnowhindi.com##.ad-section-three
 timesnowhindi.com##.ad-section-one
 timesnowhindi.com##.right-block > .section-one
@@ -87710,6 +87720,11 @@ timesnowhindi.com##.add-wrap
 timesnowhindi.com##div.square-adv
 timesnowhindi.com##.right-block > .section-four
 timesnowhindi.com##.ad-panel-wrap
+timesnowhindi.com##.bggrayAd
+timesnowhindi.com##div:not([class]) > div > .atfAdContainer:upward(1)
+timesnowhindi.com##div:not([class]) > div:empty
+timesnowhindi.com,timesnowmarathi.com##+js(no-fetch-if, tvid.in/log)
+timesnowmarathi.com##[class^="section"] > .ad-div:upward(1)
 isekaisubs.web.id##+js(aost, String.prototype.charCodeAt, ai_)
 isekaisubs.web.id###teaser3
 blasensex.com##+js(aopr, jsUnda)
@@ -88603,9 +88618,7 @@ tv247.us##^script:has-text(FingerprintJS)
 tv247.us##.afc_popup
 calculator-online.net##+js(no-fetch-if, ads)
 calculator-online.net##+js(set, load_ads, trueFunc)
-calculator-online.net#@#.adsbygoogle
 calculator-online.net##.sticky_ad
-calculator-online.net##.adsbygoogle:style(max-height: 1px !important;)
 calculator-online.net##.related_box:has(.adds):style(height: 1px !important;)
 prncomix.com##+js(aopr, absda)
 onionplay.*##+js(ra, href, a#clickfkplayer)
@@ -88931,7 +88944,7 @@ madouqu.com##+js(acis, document.querySelectorAll, popMagic)
 fembed-hd.com##+js(aopr, __Y)
 sonixgvn.net#@#.Ad-Container
 sonixgvn.net#@#.sidebar-ad
-sonixgvn.net#@#.adsbygoogle
+sonixgvn.net#@#ins.adsbygoogle
 mconverter.eu##+js(nostif, offsetHeight)
 sevenjournals.com##+js(nobab)
 sevenjournals.com###yuidea-generate:style(display: block !important;)
@@ -90817,7 +90830,6 @@ britannica.com###md-media-overlay-ad
 @@||cbs.wondershare.com/*pid=
 @@/mma/?t$image,domain=newsblaze.com
 ||tag.navdmp.com/$script,redirect=noopjs,domain=globoesporte.globo.com
-techadvisor.co.uk#@#.adsbygoogle
 @@||statics.estadao.com.br/*/portal/js/comscore/$script,domain=estadao.com.br
 @@||statics.estadao.com.br/*/utils/publicidade/dfp.min.js$script,domain=estadao.com.br
 @@||msecnd.net/scripts/a/ai.0.js$script,domain=msropendata.com
@@ -90944,7 +90956,6 @@ hwupgrade.it#@#a[href^="https://www.amazon."][href*="tag="]
 hdblog.it#@#a[href^="https://www.amazon."][href*="tag="]
 @@||ads.rogersmedia.com/cbc$frame,domain=cbc.ca
 @@||pubads.g.doubleclick.net/ssai/event/$xhr,domain=players.brightcove.net|cbc.ca
-gplcanyon.com#@#.adsbygoogle
 @@||startpage.com^$popup,domain=msn.com
 @@||bloomjoy.com^$image,domain=wokesloth.com
 @@||ticketonline.de^$frame,domain=stage-entertainment.de
@@ -92514,6 +92525,9 @@ wnynewsnow.com#@#.ez-video-wrap
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=mathgames.com,redirect-rule=google-ima.js
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=tunegenie.com,redirect-rule=google-ima.js
 tunegenie.com##.adcontainer
+@@||google-analytics.com/analytics.js$script,domain=by.tribuna.com|ua.tribuna.com
+@@||googletagmanager.com/gtm.js$script,domain=by.tribuna.com|ua.tribuna.com
+itmedia.co.jp###ulCommentWidget[style*="display"]:style(display: block !important;)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
