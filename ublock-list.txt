@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LGO5Cd3/T3ZQO2lO9CgIog
+! Checksum: 3im/Kcgd5CPY+yQ0z+hZvg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302160941
-! Last Modified: 2023年02月16日 09:41
+! Version: 202302161424
+! Last Modified: 2023年02月16日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -50452,6 +50452,8 @@ pcworld.co.nz##.gemini-loaded
 autoblog.com##.gemini-native
 thefederalist.com##.general-callout
 investing.com##.generalOverlay
+perfectdailygrind.com##.gengpdg-col
+perfectdailygrind.com##.gengpdg-single
 flickr.com##.getty-search-view
 ksl.com##.gfp-slot
 hltv.org##.gg-firstcol-box
@@ -51446,7 +51448,7 @@ newsroom.co.nz##.sponsor-logos2
 cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 blbclassic.org##.sponsorZone
-2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,dailymaverick.co.za,dailytarheel.com,duckduckgo.com,dunyanews.tv,fifplay.com,hbr.org,herald.co.zw,infoq.com,lawandcrime.com,libhunt.com,motherjones.com,msn.com,reviewjournal.com,saashub.com,samedicalspecialists.co.za,stocksnap.io,timeslive.co.za##.sponsored
+2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,dailymaverick.co.za,dailytarheel.com,duckduckgo.com,dunyanews.tv,fifplay.com,hbr.org,herald.co.zw,infoq.com,lawandcrime.com,libhunt.com,motherjones.com,msn.com,reviewjournal.com,saashub.com,samedicalspecialists.co.za,statnews.com,stocksnap.io,timeslive.co.za##.sponsored
 beincrypto.com##.sponsored-badge
 newegg.com##.sponsored-brands
 coinpaprika.com##.sponsored-buttons
@@ -92417,12 +92419,18 @@ lemonde.fr#@#.gdpr-lmd-wall
 instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:has-text(Paid partnership with ))
 ||wisepops.com^$badfilter
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,domain=ici.tou.tv
-@@||aniview.com/api/$script,domain=gamingbible.co.uk
-@@||player.avplayer.com/script/*/avcplayer.js$script,domain=gamingbible.co.uk
+@@||aniview.com/api/$script,xhr,domain=gamingbible.co.uk
+@@||player.avplayer.com/script/*/avcplayer.js$script,xhr,domain=gamingbible.com
+@@||micro.rubiconproject.com/prebid/dynamic/$script,xhr,domain=gamingbible.com
+||amazon-adsystem.com/aax2/apstag.js$script,xhr,redirect-rule=amazon_apstag.js:5
+*$script,redirect-rule=noopjs,domain=gamingbible.com
+*$xhr,redirect-rule=nooptext,domain=gamingbible.com
+gamingbible.com##[data-cypress="sticky-header"]
+gamingbible.com##[data-cypress="sticky-ads"]
+gamingbible.com##div[id] > .dfp-ad-unit:upward(1)
 *$popup,3p,domain=shavetape.cash,badfilter
 gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 /^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$3p,~media,domain=apiyoutube.cc|clicknupload.to|daddyhd.com|poscitech.click|sportcast.life,badfilter
-@@||aps.hearstnp.com/Scripts/loadAds.js$script,domain=sfchronicle.com
 @@||abcmouse.com/*/analytics.js$script,1p
 @@||argos.co.uk/utag/utag.sync.js$script,1p
 ||samash.com^$script,redirect-rule=noopjs
