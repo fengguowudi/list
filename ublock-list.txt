@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GDg3ydFc4gjHkVx7YmTxVg
+! Checksum: UNRdWcIE40nuGhPe4tmqjQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302180223
-! Last Modified: 2023年02月18日 02:23
+! Version: 202302180939
+! Last Modified: 2023年02月18日 09:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -14770,11 +14770,15 @@ _800x80_
 ##.advertising-right
 ##.advertising-right-d
 ##.advertising-right-i
+##.advertising-section
+##.advertising-side
+##.advertising-side-hp
 ##.advertising-srec
 ##.advertising-top
 ##.advertising-top-banner
 ##.advertising-top-box
 ##.advertising-top-category
+##.advertising-top-desktop
 ##.advertising-vert
 ##.advertising-wrapper
 ##.advertising1
@@ -50313,6 +50317,8 @@ flightconnections.com##.display-box
 flightconnections.com##.display-box-2
 legacy.com##.displayOverlay1
 designtaxi.com##.displayboard
+theodysseyonline.com##.distroscale_p2
+theodysseyonline.com##.distroscale_side
 readcomiconline.li##.divCloseBut
 jpost.com##.divConnatix
 tigerdroppings.com##.divHLeaderFull
@@ -51248,8 +51254,13 @@ rappler.com##.rappler-ad-container
 gobankingrates.com##.rate-table-header
 mydorpie.com##.rbancont
 forebet.com##.rbannerDiv
+theodysseyonline.com##.rblad-content
 spectrum.ieee.org##.rblad-ieee_in_content
 spectrum.ieee.org##.rblad-ieee_infinite_new
+theodysseyonline.com##.rblad-infinite
+theodysseyonline.com##.rblad-sidebar_1
+theodysseyonline.com##.rblad-sidebar_2
+theodysseyonline.com##.rblad-under_image
 reverso.net##.rcacontent
 just-dice.com##.realcontent
 bettycrocker.com##.recipeAd
@@ -90348,6 +90359,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 !#if !env_mobile
 ||n.fcd.su^$all
 !#endif
+||ru-torproject.ru^$all
+||anapatformacion.org/modules/file/tor/tor-browser.zip^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -92584,6 +92597,7 @@ tunegenie.com##.adcontainer
 @@||googletagmanager.com/gtm.js$script,domain=by.tribuna.com|ua.tribuna.com
 itmedia.co.jp###ulCommentWidget[style*="display"]:style(display: block !important;)
 @@||ftb.ca.gov/js/webtrends.min.js$script,1p
+@@||wordcounter.icu^$cname
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -99727,7 +99741,7 @@ itmedia.co.jp###ulCommentWidget[style*="display"]:style(display: block !importan
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 22 Feb 2003 00:00:00
+# start date:    Sun, 23 Feb 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
