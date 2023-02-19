@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RYm0e1y5mINUpCfRztyj8w
+! Checksum: YQ2wRNJc0WeFoIvaM8pzRQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302192034
-! Last Modified: 2023年02月19日 20:34
+! Version: 202302200221
+! Last Modified: 2023年02月20日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -23263,6 +23263,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||adlook.net^
 ||adlpkwew.xyz^
 ||adltserv.com^
+||admachina.com^
 ||adme-net.com^
 ||admenhost.com^
 ||admez.com^
@@ -25607,6 +25608,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||bleachfamouszinc.com^
 ||bleandworld.xyz^
 ||bleedingofficecontagion.com^
+||blehcourt.com^
 ||bleokerrie.com^
 ||blessingsome.com^
 ||blesspaleron.website^
@@ -26592,6 +26594,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||cipientco.com^
 ||cipledecline.buzz^
 ||circlegrandsonnod.com^
+||circuitedmund.com^
 ||circuitingratitude.com^
 ||circumscribevetofurther.com^
 ||circumstancesrectangle.com^
@@ -27933,6 +27936,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||dkrbus.com^
 ||dkswptmwowowp.xyz^
 ||dl-rms.com^
+||dladyeflt.com^
 ||dledthebarrowb.xyz^
 ||dlfvgndsdfsn.com^
 ||dlittlemen.xyz^
@@ -30488,6 +30492,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||hbfqcy.com^
 ||hbfulzie.life^
 ||hcritiesec.xyz^
+||hcuukwgpjiykapf.xyz^
 ||hd100546c.com^
 ||hd149026b.com^
 ||hdacode.com^
@@ -34817,6 +34822,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||oxrendflare.com^
 ||oxsng.com^
 ||oxtracking.com^
+||oxxolqgizza.com^
 ||oxybe.com^
 ||oxydaserucked.com^
 ||oxydend2r5umarb8oreum.com^
@@ -36906,6 +36912,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||rixaka.com^
 ||rjw4obbw.com^
 ||rkomf.com^
+||rkslxduqqtj.com^
 ||rkumsvlvfeeewog.xyz^
 ||rlaa.xyz^
 ||rlomivunesqal.com^
@@ -37891,6 +37898,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||slightcareconditions.com^
 ||slimelump.com^
 ||slimhousewifesubtle.com^
+||slimreply.pro^
 ||slimy-sport.pro^
 ||slimybaptism.com^
 ||slingstapeats.com^
@@ -85003,6 +85011,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||assets.adobedtm.com^*-source.min.js$domain=manager-magazin.de
 @@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|rtl.de|toggo.de|vip.de
 @@||businessclick.ch/index.js$domain=finanzen.ch
+@@||caritas-international.de^*/analyticsmediator.js$domain=caritas-international.de
 @@||classic.comunio.de/clubImg.phtml/$image,~third-party
 @@||cleverpush.com/channel/loader/$domain=prosieben.de
 @@||cleverpush.com/sdk/$domain=prosieben.de
@@ -85597,6 +85606,10 @@ xxvideoss.org##+js(acis, String.fromCharCode, 'shift')
 xxvideoss.org##+js(aopw, _pop)
 ||xxvideoss.org/wp-content/uploads/*/bannerrtx.jpg$image,1p
 /player/html.php?aid=post_roll_html^$redirect=noopframe,frame,1p
+/player/html.php?aid=start_html&*&referer=$frame,1p
+/player/html.php?aid=pause_html&*&referer=$frame,1p
+/player/html.php?aid=pre_roll_html&*&referer=$frame,1p
+xgirls.webcam###kt_player > div[style="position: absolute; inset: 0px; z-index: 170;"]
 temp-phone-number.com##+js(nostif, offsetHeight)
 temp-phone-number.com##+js(set, db.onerror, noopFunc)
 donghuanosekai.com##+js(nosiif, visibility, 1000)
@@ -87683,9 +87696,12 @@ ygoprodeck.com###deck-content-ad
 ygoprodeck.com##[id^="frontpage-ad-"]
 ygoprodeck.com##[id^="front-ad-"]
 *$script,3p,denyallow=bootstrapcdn.com|google.com|hwcdn.net|jquery.com,domain=kabegamipuloh.web.app
-urakamiblogjp.blogspot.com,web.app##img[onclick="kemana()"]
+blogspot.com,web.app##img[onclick="kemana()"]
 link.technics-goods.info,mysafe.stisda.ac.id##+js(acis, document.addEventListener, google_ad_client)
 link.technics-goods.info,mysafe.stisda.ac.id##.text-center > h3
+blogspot.com###fixedban
+ngprame.blogspot.com###AdsRyanAH
+ngprame.blogspot.com###tombol
 archpaper.com##+js(acis, fetch, result)
 archpaper.com##.an-ads
 tripadvisor.*###component_2 > div[class^="_"] > div > div[class^="iab_"][style="min-height:90px"]:upward(2)
@@ -89142,7 +89158,6 @@ wyze.com##+js(no-fetch-if, analytics)
 *$script,domain=wyze.com,redirect-rule=noopjs
 studyflix.de##.huge-notification
 camstreams.tv##div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent none repeat scroll 0% 0%; display: block;"]
-||camstreams.tv/player/html.php?aid=pre_roll_html
 ||networkbest.ru.com/include$script
 @@||leet365.cc^$ghide
 @@||ragnarp.net^$ghide
@@ -89201,7 +89216,6 @@ claimtrx.com##+js(nosiif, visibility, 1000)
 riadlink.top##+js(nosiif, visibility, 1000)
 autocoin.in##+js(nosiif, visibility, 1000)
 4kporn.xxx##+js(set, flashvars.popunder_url, '')
-4kporn.xxx##[src^="https://4kporn.xxx/player/html.php?aid=pause_html"]
 animelek.me##+js(aopw, _pop)
 arhplyrics.in##+js(no-fetch-if, googlesyndication)
 scrolller.com##.ad-block-popup:upward(2)
@@ -89372,6 +89386,7 @@ chortle.co.uk,coloring.ws,dltk-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com
 ||adversal.com^$xhr,redirect-rule=noop.txt
 ||sovrn.com^$xhr,redirect-rule=noop.txt
 ||ads.tiktok.com^$xhr,redirect-rule=noop.txt
+||propellerads.com^$xhr,redirect-rule=noop.txt
 mymusicreviews.com,thechat.cafe##+js(aopr, chp_adblock_browser)
 globfone.com##+js(no-xhr-if, ads)
 donugdee.com##.ad-overlay-click
@@ -92757,6 +92772,7 @@ tunegenie.com##.adcontainer
 itmedia.co.jp###ulCommentWidget[style*="display"]:style(display: block !important;)
 @@||ftb.ca.gov/js/webtrends.min.js$script,1p
 @@||wordcounter.icu^$cname
+@@||cdn.segment.com/analytics.js$script,domain=jacksonguitars.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
