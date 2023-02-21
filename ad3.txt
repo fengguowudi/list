@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KPJXKLvabc0D+S8oxwYZiw
+! Checksum: mPnnODFN3dYHR0XTiutElQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202302211424
-! Last Modified: 2023年02月21日 14:24
+! Version: 202302212036
+! Last Modified: 2023年02月21日 20:36
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2372,6 +2372,7 @@ newduba.cn###jq_youxi
 ||okmwfq.xyz^
 ||fn9u.fun^
 ||jiutou20230210.live^
+||chumeng.link^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -31196,6 +31197,7 @@ _mongo_stats/
 ||didit.com^$third-party
 ||didna.io^$third-party
 ||diffusion-tracker.com^$third-party
+||digianalytics.fr^$third-party
 ||digitaloptout.com^$third-party
 ||digitaltarget.ru^$third-party
 ||digitru.st^$third-party
@@ -36006,6 +36008,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||betano.de^*?btag=$subdocument,third-party
 ||bhphotovideo.com/imp/
 ||bi.medscape.com^
+||birdsend.co/assets/static/js/pixel/
 ||birdsend.email/pixel
 ||birdsend.net/pixel
 ||bit.ly/stats?
