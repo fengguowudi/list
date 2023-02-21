@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TFsiXaZo0MUqcYTDH1+zWQ
+! Checksum: ui4fGGv97dXYGouHCIsVJA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302212036
-! Last Modified: 2023年02月21日 20:36
+! Version: 202302220223
+! Last Modified: 2023年02月22日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -90665,6 +90665,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||taylormadesells.com^$all
 ||withaaglad.top^$all
 ||activacion-equipo.atsnx.com^$all
+||aajdrp.com^$all
 ||obsproicet.net^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
@@ -90694,7 +90695,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||tgram.ru^$all
 ||telegramm.site^$all
 ||web-telegram.net^$all
-||jNKmS0zFuEh.click^$all
+||jnkms0zfueh.click^$all
 ||pjljo54uk.click^$all
 ||v1asy4ncr.click^$all
 ||p5tvhrlw30h.click^$all
@@ -90703,8 +90704,11 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||9bghqk3avg2gnh.click^$all
 ||lrhxz60alkjtik.click^$all
 ||6t09fag307ep.click^$all
-||klwukospapf.click^
-||uerqelim91ut.click^
+||klwukospapf.click^$all
+||uerqelim91ut.click^$all
+||tvbxrr4ym3.click^$all
+||eicxz6jfjaw.click^$all
+||8ebtdbsjsu.click^$all
 ||pufgilsofp.sbs^$all
 !#if !env_mobile
 ||n.fcd.su^$all
@@ -90917,6 +90921,7 @@ heavyfetish.com##+js(cookie-remover, kt_referer)
 utreon.com##+js(no-xhr-if, utreon.com/pl/api/event method:POST)
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$script,xhr,3p,match-case
 zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST)
+||torimochi.line-apps.com^$image,redirect=1x1.gif
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
@@ -92955,6 +92960,9 @@ itmedia.co.jp###ulCommentWidget[style*="display"]:style(display: block !importan
 @@||cdn.segment.com/analytics.js$script,domain=jacksonguitars.com
 elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 @@||manchestereveningnews.co.uk^$xhr,script,1p
+@@||ads-twitter.com/oct.js$domain=ncsoft.jp
+@@||platform.twitter.com/oct.js$domain=ncsoft.jp
+||googleadservices.com/pagead/conversion.js$script,redirect=noop.js,domain=ncsoft.jp,important
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -100090,8 +100098,8 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 21 Feb 2023 12:18:15 GMT
-# entries:        3738
+# last updated:   Tue, 21 Feb 2023 16:07:00 GMT
+# entries:        3739
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -100309,6 +100317,7 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 127.0.0.1 adcomplete.com
 127.0.0.1 adconion.com
 127.0.0.1 adcontent.gamespy.com
+127.0.0.1 adcovery.com
 127.0.0.1 adcycle.com
 127.0.0.1 add.newmedia.cz
 127.0.0.1 addfreestats.com
