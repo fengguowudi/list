@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /+R5Z7RTJI2imjJE6tnX8Q
+! Checksum: MPFesai8WRS6Yc3LgIYn8g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302222037
-! Last Modified: 2023年02月22日 20:37
+! Version: 202302230224
+! Last Modified: 2023年02月23日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -26167,6 +26167,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||cabnnr.com^
 ||caboclonymphly.com^
 ||cabord.com^
+||cabotinbesnare.com^
 ||cachoustewing.com^
 ||cadbitff.com^
 ||cadencecovetousfireplace.com^
@@ -27744,6 +27745,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||desen4.info^
 ||deserted-employment.pro^
 ||deserterstrugglingdistil.com^
+||desgao1zt7irn.cloudfront.net^
 ||desigactinific.org^
 ||designatejumped.com^
 ||desktopnotificationshub.com^
@@ -30468,6 +30470,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||gyppedsquiss.com^
 ||gypsiedjilt.com^
 ||gypsyardently.com^
+||gyratesequal.website^
 ||gytychuna.com^
 ||gyyejoeqc.com^
 ||gziduzaj.com^
@@ -32766,6 +32769,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||lotteryhibernateauthorized.com^
 ||louchees.net^
 ||loud-tower.pro^
+||loughsquashee.com^
 ||louisaprocedureegoism.com^
 ||loukoost.net^
 ||loulauzo.com^
@@ -33581,6 +33585,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||moonprocessed.com^
 ||moontuftboy.com^
 ||moooginnumit.com^
+||moorscliv.life^
 ||mootermedia.com^
 ||moothbagel.com^
 ||mooxar.com^
@@ -36108,6 +36113,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||psozoult.net^
 ||pssy.xyz^
 ||pstreetma.com^
+||psubooth.com^
 ||psuhexitu.pro^
 ||psuphuns.net^
 ||psurdoak.com^
@@ -40918,6 +40924,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||whilar.com^
 ||whilefitsaltered.com^
 ||whileo.com^
+||whiletilth.com^
 ||whilol.com^
 ||whilot.com^
 ||whilov.com^
@@ -41766,6 +41773,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||zonupiza.com^
 ||zoopaweb.com^
 ||zoopsame.com^
+||zoopsiasaltire.com^
 ||zoopy.xyz^
 ||zoozistu.net^
 ||zorango.com^
@@ -90759,6 +90767,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||jpmalls.xyz^$all
 ||gokinjolove.jp^$all
 ||gokinjolove.net^$all
+||soreg.homes^$all
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -90784,6 +90793,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||tvbxrr4ym3.click^$all
 ||eicxz6jfjaw.click^$all
 ||8ebtdbsjsu.click^$all
+||zjzxtmhcldsb.click^$all
 .click/*?s=*&g=*&q=$script,3p
 .click/?h=*&user=$script,3p
 .one/?h=*&user=$script,3p
@@ -90795,6 +90805,25 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||ru-torproject.ru^$all
 ||anapatformacion.org/modules/file/tor/tor-browser.zip^$all
 /^https:\/\/[a-z]+\.com\/away\.php\?url=[%0-9A-z]{100,}$/$doc
+||a-new86.com^$all
+||ane102.net^$all
+||honey8.love^$all
+||honey888.love^$all
+||ima55notice.biz^$all
+||infozoomplus.biz^$all
+||koi2ru.com^$all
+||likechat33.net^$all
+||likechat33call.net^$all
+||pair55.net^$all
+||pair55call.net^$all
+||room2021.net^$all
+||roomoshirase.net^$all
+||smore91.net^$all
+||som419.net^$all
+||touchoshirase.net^$all
+||touchtacchi.net^$all
+||wsws1234.net^$all
+||wswsnews.net^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -93043,10 +93072,6 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 @@||platform.twitter.com/oct.js$domain=ncsoft.jp
 ||googleadservices.com/pagead/conversion.js$script,redirect=noop.js,domain=ncsoft.jp,important
 @@||matomo.paizo.com/piwik.js$1p
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=goplay.be
-@@||doubleclick.net^$xhr,domain=goplay.be
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=goplay.be,redirect-rule=google-ima.js
-goplay.be##+js(xml-prune, Period[id*="-roll-"][id*="-ad-"], , pubads.g.doubleclick.net/ondemand)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
