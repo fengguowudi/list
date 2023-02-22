@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oi/EIIHidFhADkmVfkW+xg
+! Checksum: s2di0KhqAiFUTy8/Az2xhA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302220940
-! Last Modified: 2023年02月22日 09:40
+! Version: 202302221424
+! Last Modified: 2023年02月22日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -92992,6 +92992,7 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 @@||ads-twitter.com/oct.js$domain=ncsoft.jp
 @@||platform.twitter.com/oct.js$domain=ncsoft.jp
 ||googleadservices.com/pagead/conversion.js$script,redirect=noop.js,domain=ncsoft.jp,important
+@@||matomo.paizo.com/piwik.js$1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
