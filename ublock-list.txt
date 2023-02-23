@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sltvjbujxVwfcG4ujw+0zQ
+! Checksum: WkLvnxV2qHYZVh/O36HdwQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302232039
-! Last Modified: 2023年02月23日 20:39
+! Version: 202302240224
+! Last Modified: 2023年02月24日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -90751,10 +90751,11 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
-/^https?:\/\/((?!www)[a-z]+|\d{2,4})?\.?[-0-9a-z]{5,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|shop|site|skin|space|top|us|xyz
-/^https?:\/\/((?!www)[a-z]+|\d{2,4})?\.?[-0-9a-z]{5,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|shop|site|skin|space|top|us|xyz
+/^https?:\/\/(?!www)[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|im|info|life|live|mobi|online|pw|quest|shop|site|skin|space|top|us|xyz|yachts
+/^https?:\/\/(?!www)[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|im|info|life|live|mobi|online|pw|quest|shop|site|skin|space|top|us|xyz|yachts
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{10,36}(?:&qs\d=\S+)?&sid=[_0-9a-f]{1,32}(?:&s=0\.\d+)?$/$doc,match-case,domain=com|info|net|org
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?sid=[_0-9a-f]{1,32}(?:&qs\d=\S+)?&cid=[-_0-9a-zA-Z]{10,36}(?:&s=0\.\d+)?$/$doc,match-case,domain=com|info|net|org
+/^https:\/\/\d{9}\.[a-z]*\.?[a-z]{3,}\.[a-z]{2}\/\d{6}\.html$/$document,domain=cl|eu|pl
 ||ogtrk.net^
 ||antivirus-protection.me^$all
 ||secureconv-dl.com^$all
@@ -91078,6 +91079,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||0982195999.com^$all
 ||italianlottery.com^$all
 ||rdagfaw.shop^$all
+||metamasek.cc^$all
 ||obsproicet.net^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
