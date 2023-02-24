@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Hh9+yHjscPAa80r89M8Fxw
+! Checksum: P3YZrQ7cPeayAO8sC+0poA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302242037
-! Last Modified: 2023年02月24日 20:37
+! Version: 202302250224
+! Last Modified: 2023年02月25日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -40644,7 +40644,6 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||vax-boost.com^
 ||vax-now.com^
 ||vazypteke.pro^
-||vb17121coramclean.pw^
 ||vbscgrnkoceya.com^
 ||vbtrax.com^
 ||vcdc.com^
@@ -89589,8 +89588,15 @@ pcworld.es##.stickyAdWrapper
 *$popunder,domain=ouo.io
 nowtolove.com.au##.page__content-header:style(height: 50px !important)
 @@||anime-king.com^$ghide
-/script/atg.js$script,3p
-/script/atga.js$script,3p
+/script/atg.js$3p
+/script/atga.js$3p
+/script/intrf.js$3p
+/script/ippg.js$3p
+/script/suv4r.js$3p
+.com/script/compatibility.js|$3p
+.org/script/compatibility.js|$3p
+/script/native_render.js$3p
+/script/native_server.js$3p
 sexlist.tv##+js(disable-newtab-links)
 sexlist.tv##.link-premium
 sexlist.tv##.camitems
@@ -90810,7 +90816,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /^https?:\/\/(?!www)[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|im|info|life|live|mobi|online|pw|quest|shop|site|skin|space|top|us|xyz|yachts
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{10,36}(?:&qs\d=\S+)?&sid=[_0-9a-f]{1,32}(?:&s=0\.\d+)?$/$doc,match-case,domain=com|info|net|org
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?sid=[_0-9a-f]{1,32}(?:&qs\d=\S+)?&cid=[-_0-9a-zA-Z]{10,36}(?:&s=0\.\d+)?$/$doc,match-case,domain=com|info|net|org
-/^https:\/\/\d{9}\.[a-z]*\.?[a-z]{3,}\.[a-z]{2}\/\d{6}\.html$/$document,domain=cl|eu|pl
+/^https:\/\/\d{9}\.[a-z]*\.?[a-z]{3,}\.[a-z]{2}\/\d{6}\.html$/$doc,domain=cl|eu|pl
 ||ogtrk.net^
 ||secureconv-dl.com^$all
 ||91.241.60.117^$all
@@ -91150,6 +91156,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||gokinjolove.jp^$all
 ||gokinjolove.net^$all
 ||soreg.homes^$all
+||misstt.top^$all
+||wonsy.top^$all
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -100594,8 +100602,8 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 24 Feb 2023 10:08:24 GMT
-# entries:        3747
+# last updated:   Fri, 24 Feb 2023 13:22:34 GMT
+# entries:        3749
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -103087,6 +103095,7 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 127.0.0.1 ncaudienceexchange.com
 127.0.0.1 ndparking.com
 127.0.0.1 nedstatbasic.net
+127.0.0.1 needlessnorth.com
 127.0.0.1 needyneedle.com
 127.0.0.1 neighborlywatch.com
 127.0.0.1 nend.net
@@ -103224,6 +103233,7 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 127.0.0.1 pagefair.com
 127.0.0.1 pagerank-ranking.de
 127.0.0.1 pageranktop.com
+127.0.0.1 painstakingpickle.com
 127.0.0.1 paleleaf.com
 127.0.0.1 panickycurtain.com
 127.0.0.1 panickypancake.com
