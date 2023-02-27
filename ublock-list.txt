@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q+GXl0vUaU3CmwTnIT/lGw
+! Checksum: 0Qtm5w1d9yBeTkatUsphbQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302270942
-! Last Modified: 2023年02月27日 09:42
+! Version: 202302271425
+! Last Modified: 2023年02月27日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -192,7 +192,7 @@
 .adspace.$domain=~adspace.pro
 .adsremote.
 .adtech_
-.advert.$domain=~advert.ae|~advert.io|~advert.ly|~advert.media|~advert.org.pl|~advert.ge
+.advert.$domain=~advert.ae|~advert.ge|~advert.io|~advert.ly|~advert.media|~advert.org.pl
 .advertrecycling.
 .ae/ads/
 .ai/ads.
@@ -1821,7 +1821,7 @@
 /adversting/*
 /adversting?
 /advert-$domain=~advert-ai-landing.firebaseapp.com|~advert-ai-landing.web.app|~advert-ai.com|~advert-solutions.com|~advert-technology.com|~advert-technology.ru
-/advert.$~script,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my|~advert.ge
+/advert.$~script,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advert01.
 /advert1.
 /advert1/*
@@ -49983,6 +49983,7 @@ icon-icons.com###istockphoto-placeholder
 fakeupdate.net###itemz
 googleping.com###itro_opaco
 googleping.com###itro_popup
+9gag.com###jsid-ad-container-page_adhesion
 ceoexpress.com###kalamazooDiv
 kbb.com###kbbLockedAd-container
 thesilphroad.com###keepinTheLightsOn
@@ -52317,6 +52318,8 @@ aniwatcher.com##.sa
 nodejs.libhunt.com##.saashub-ad
 steamladder.com##.salad
 salife.com.au##.salife-slot
+9gag.com##.salt-section
+9gag.com##.salt-wrapper
 softonic.com##.sam-slot
 beermoneyforum.com,forums.sailinganarchy.com,geekdoing.com,sportfishingbc.com,studentdoctor.net##.samBannerUnit
 racedepartment.com,resetera.com,satelliteguys.us##.samCodeUnit
