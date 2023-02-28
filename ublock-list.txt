@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HMyIRZCkaRWOU5D1vNXEgg
+! Checksum: KT69zZ7RGZPkgUYJiatL7A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202302282037
-! Last Modified: 2023年02月28日 20:37
+! Version: 202303010224
+! Last Modified: 2023年03月01日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -48686,7 +48686,6 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||fishki.net/code?
 ||footballtradedirectory.com/images/pictures/banner/
 ||fordforums.com.au/logos/
-||frameperfect.speedrun.com^
 ||free-webhosts.com/images/a/
 ||freebookspot.club/vernambanner.gif
 ||freedownloadmanager.org/js/achecker.js
@@ -85677,7 +85676,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
 @@||iwin.com/gtm.json$~third-party,xmlhttprequest
 @@||jbj.co.uk^*/analytics.js$script,~third-party
-@@||js-agent.newrelic.com^$domain=alliantcreditunion.com|kapwing.com
+@@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
 @@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com|rubex.efilecabinet.net
@@ -91683,19 +91682,20 @@ search.brave.com##+js(no-fetch-if, body:browser)
 /^\w+://[0-9a-z]{12}\.adria\.gg//$1p,script
 /^\w+://[0-9a-z]{11}\.taxliencode\.com//$1p,script
 /^\w+://[0-9a-z]{12}\.www\.sidsplumbing\.ie//$1p,script
-fjlaboratories.com##+js(aost, Math.floor, injectedScript)
+/^\w+://[0-9a-z]{12}\.www\.kodalia\.com//$1p,script
+fjlaboratories.com,stoic.ai##+js(aost, Math.floor, injectedScript)
 stoic.ai##^script:has-text(\x3c)
-stoic.ai##+js(aost, Math.floor, injectedScript)
 ||ampl.cinotes.com^
 ||data-saver-cindi.herokuapp.com^
 ||cdn.cindicator.com/$script,3p
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,monumentmetals.com,nikita.tk,nookgaming.com,ping.gg,tapmyback.com,revistaferramental.com.br,hawpar.com,accuretawealth.com,resourceya.com,camberlion.com,adaptive.marketing,datree.io,alpacafinance.org,enkeleksamen.no,adria.gg,kvest.ee,controlconceptsusa.com,tt.live,creatordrop.com##+js(acis, String.fromCharCode, join)
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,controlconceptsusa.com,creatordrop.com##^script:has-text(join(''))
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,monumentmetals.com,nikita.tk,nookgaming.com,ping.gg,tapmyback.com,revistaferramental.com.br,hawpar.com,accuretawealth.com,resourceya.com,camberlion.com,adaptive.marketing,datree.io,alpacafinance.org,enkeleksamen.no,adria.gg,kvest.ee,controlconceptsusa.com,tt.live,creatordrop.com,groove.so,cainthus.com,jaywilsonwebsolutions.com,tracktheta.com,panpots.com##+js(acis, String.fromCharCode, join)
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,controlconceptsusa.com,creatordrop.com,panpots.com##^script:has-text(join(''))
 alpacafinance.org,tt.live##^script:has-text(join(""))
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,controlconceptsusa.com,creatordrop.com##^script:has-text("join('')")
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,controlconceptsusa.com,creatordrop.com,panpots.com##^script:has-text("join('')")
 alpacafinance.org,tt.live##^script:has-text('join("")')
 nikita.tk##+js(aost, document.cookie)
 ||nikita.tk/*-$script,1p
+||groove.so/unlocker.js
 ||washpost.nile.works^
 /p13n/batch/action/*$image
 ppss.kr,ygosu.com,tgd.kr,inven.co.kr,loawa.com,feedclick.net,dailian.co.kr,algumon.com,sportalkorea.com##+js(aeld, DOMContentLoaded, _0x)
@@ -91801,6 +91801,7 @@ utreon.com##+js(no-xhr-if, utreon.com/pl/api/event method:POST)
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$script,xhr,3p,match-case
 zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST)
 ||torimochi.line-apps.com^$image,redirect=1x1.gif
+||windowspro.de/stats/mto.js
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
@@ -93857,6 +93858,9 @@ meaww.com##+js(json-prune, country region ip)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=doubtnut.com,redirect=google-ima.js,important
 @@||ads-api.twitter.com^$xhr,domain=analytics.twitter.com
 ||appcdn01.xyz^$badfilter
+||connatix.com^$3p,domain=~accuweather.com|~elnuevoherald.com|~loot.tv|~miamiherald.com,badfilter
+||connatix.com^*/pixel?
+||connatix.com^$domain=abcteach.com|realitysteve.com|softschools.com|turtlediary.com|wowprogress.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -100992,8 +100996,8 @@ meaww.com##+js(json-prune, country region ip)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 24 Feb 2023 13:22:34 GMT
-# entries:        3749
+# last updated:   Tue, 28 Feb 2023 14:20:45 GMT
+# entries:        3750
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -102377,6 +102381,7 @@ meaww.com##+js(json-prune, country region ip)
 127.0.0.1 click.classmates.com
 127.0.0.1 click.comm.rcibank.co.uk
 127.0.0.1 click.digital.metaquestmail.com
+127.0.0.1 click.e.bbcmail.co.uk
 127.0.0.1 click.e.progressive.com
 127.0.0.1 click.em.blizzard.com
 127.0.0.1 click.email.bbc.com
