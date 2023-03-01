@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: L1gMCBCHs01kJLIp/I/XrQ
+! Checksum: rPAGJQcvTg2AZ2a7g2Y+2A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202303010951
-! Last Modified: 2023年03月01日 09:51
+! Version: 202303011426
+! Last Modified: 2023年03月01日 14:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -21931,6 +21931,7 @@ _800x80_
 ##.van_vid_carousel
 ##.vid-present > .van_vid_carousel__padding
 ##.vidible-wrapper
+##.wps-player-wrap
 ##[class^="s2nPlayer"]
 ##.BeOpWidget
 ##a[href^="http://https://www.get-express-vpn.com/offer/"]
@@ -58384,6 +58385,9 @@ newduba.cn###jq_youxi
 ||zxtkfvm.cn^
 ||xnrcnz.xyz^
 ||ezwxia.xyz^
+||siejp.cyou^
+||okoc.top^
+||guoandong.ltd^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]

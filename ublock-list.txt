@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bXj1SzsD8daO+d+ZYiQbcw
+! Checksum: UhFk55Wq1KI9I9fcjr6pWw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303010951
-! Last Modified: 2023年03月01日 09:51
+! Version: 202303011426
+! Last Modified: 2023年03月01日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21593,6 +21593,7 @@ _800x80_
 ##.van_vid_carousel
 ##.vid-present > .van_vid_carousel__padding
 ##.vidible-wrapper
+##.wps-player-wrap
 ##[class^="s2nPlayer"]
 ##.BeOpWidget
 ##a[href^="http://https://www.get-express-vpn.com/offer/"]
@@ -90195,7 +90196,6 @@ filmyzilla-in.xyz##+js(set, blurred, false)
 ||tubebuddy.com^$domain=filmyzilla-in.xyz
 orgasmatrix.com##+js(acis, document.querySelectorAll, popMagic)
 orgasmatrix.com##.card.post:has([href*="landing."])
-||connatix.com/tr/$xhr,domain=loot.tv,important
 @@||loot.tv^$ghide
 gifhq.com##+js(acis, document.dispatchEvent, myEl)
 gifhq.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
@@ -92351,7 +92351,6 @@ hdblog.it#@#a[href^="https://www.amazon."][href*="tag="]
 @@||vidtodo.com^$css,image,domain=vidtudu.com
 @@||art19.com^$xhr,domain=merriam-webster.com
 @@||graph.facebook.com^$xhr,domain=merriam-webster.com
-||connatix.com^$badfilter
 tomsguide.com#@#.widget-ads
 @@||static.sunmedia.tv/integrations/*$script,domain=api.gooru.live|elespanol.com|periodistadigital.tv
 *$3p,script,redirect=noopjs,domain=lolalytics.com
@@ -92613,7 +92612,6 @@ los40.com##.publi_luto_vertical
 los40.com##.cont_webpush
 los40.com###adunit
 @@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$script,domain=los40.com
-@@||cds.connatix.com/embed/$frame,domain=rawstory.com
 @@||ipinfo.io/json$xhr,domain=futbollibre.online
 @@||safecurr.g2afse.com/click?pid=*&offer_id$popup
 @@||tvtime.com/ga-assets/*$1p
@@ -92641,7 +92639,6 @@ zone-anime.net##.code-block
 pcgamer.com#@#.hawk-widget
 @@||spankmasters.com/EmbedPlayer.aspx$frame
 @@||reutersmedia.net/*/js/rcom-scroll-tracker.js$script,domain=reuters.com
-@@||connatix.com/connatix.player.js$script,domain=reuters.com
 @@||cdn.permutive.com^$script,domain=reuters.com
 @@||api.permutive.com/*/batch/$xhr,domain=reuters.com
 @@||googletagmanager.com/gtm.js$script,domain=reuters.com
@@ -92715,9 +92712,6 @@ nowgoal.com##[href^="/ad/"]
 @@||ccdn.es/advertising-UseCases-factory-js-factory.$script,domain=coches.net
 @@||ms-mt--api-web.spain.schibsted.io^$xhr,domain=coches.net
 ||idealista.com^$3p,domain=~idealista.com,badfilter
-@@||connatix.com^$script,media,domain=realclearpolitics.com
-@@||capi.connatix.com/core/pls$xhr,domain=realclearpolitics.com
-@@||vid.connatix.com/*_media.bin$xhr,domain=realclearpolitics.com
 @@||apollo-ireland.akamaized.net/*/files/*$image,domain=otodom.pl
 @@||bloomberg.com/*/captcha/captcha.js$script,1p
 @@||hotelscombined.com/*/captcha/captcha.js$script,1p
@@ -93437,14 +93431,6 @@ ilbianconero.com##.no-scroll:style(overflow:auto!important)
 @@||google-analytics.com/analytics.js$script,redirect-rule,domain=nordvpn.com
 @@||www.visibleoffers.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,1p
 ||static.chotot.com/storage/js/prebid-ads.js$script,important
-@@||cds.connatix.com/p/*/connatix.playspace.js$script,domain=adweek.com
-@@||cd.connatix.com/connatix.playspace.js$script,domain=adweek.com
-@@||cds.connatix.com/p/*/connatix.playspace.css$css,domain=adweek.com
-@@||capi.connatix.com/core/story?v=*$xhr,domain=adweek.com
-@@||img.connatix.com^$image,domain=adweek.com
-@@||vid.connatix.com^$xhr,domain=adweek.com
-@@||cds.connatix.com/*/connatix.playspace.dc.js$script,domain=adweek.com
-||adweek.com^$removeparam=traffic_source
 @@||cibng.ibanking-services.com^$cname
 @@||ppl.ibanking-services.com^$cname
 @@||api.adinplay.com/libs/aiptag/pub/WRC/warscrap.io/tag.min.js$script,domain=warscrap.io
@@ -93928,9 +93914,22 @@ meaww.com##+js(json-prune, country region ip)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=doubtnut.com,redirect=google-ima.js,important
 @@||ads-api.twitter.com^$xhr,domain=analytics.twitter.com
 ||appcdn01.xyz^$badfilter
-||connatix.com^$3p,domain=~accuweather.com|~elnuevoherald.com|~loot.tv|~miamiherald.com,badfilter
-||connatix.com^*/pixel?
-||connatix.com^$domain=abcteach.com|allfreeprintable.com|cachevalleydaily.com|crosswordquiz.net|dailycheats.org|diabloprogress.com|historyforkids.org|likegeeks.com|railstream.net|realitysteve.com|softschools.com|studentladder.co.uk|turtlediary.com|wannawin.ca|wordscrush.com|wowprogress.com
+||connatix.com^$domain=abcteach.com|allfreeprintable.com|cachevalleydaily.com|crosswordquiz.net|dailycheats.org|diabloprogress.com|historyforkids.org|likegeeks.com|railstream.net|realitysteve.com|softschools.com|studentladder.co.uk|turtlediary.com|wannawin.ca|wordscrush.com|wowprogress.com,important
+@@||cd.connatix.com/connatix.player.js^$script
+@@||cds.connatix.com/p/*/connatix.player.dc.js^$script
+@@||cds.connatix.com/p/*/player.css^$css
+@@||connatix.com/core/pls^$xhr,method=post
+@@||img.connatix.com/pid-*.jpg^$image,method=get
+@@||vid.connatix.com/pid-*.bin^$xhr,method=get
+@@||vid.connatix.com/pid-*.m3u8^$xhr,method=get
+@@||vid.connatix.com/pid-*.mp4^$xhr,method=get|options
+@@||cds.connatix.com/p/*/elements.ui.*.js^$script
+@@||cds.connatix.com/p/*/hls.*.js^$script
+@@||cd.connatix.com/connatix.playspace.js^$script,domain=adweek.com
+@@||cds.connatix.com/p/*/connatix.playspace.dc.js^$script,domain=adweek.com
+@@||cds.connatix.com/p/*/connatix.playspace.css^$css,domain=adweek.com
+@@||connatix.com/core/story^$xhr,method=post,domain=adweek.com
+||adweek.com^$removeparam=traffic_source
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
