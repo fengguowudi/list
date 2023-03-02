@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gdGJfomASmBqWh857BDpjw
+! Checksum: eNe8GV2/RyPb6GlDRrRsIA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303020948
-! Last Modified: 2023年03月02日 09:48
+! Version: 202303021425
+! Last Modified: 2023年03月02日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21932,7 +21932,9 @@ javbix.com#@#.adsleft
 tuxpi.com#@#.adslot
 cutepdf-editor.com#@#.adtable
 gigazine.net#@#.adtag
-mediaite.com#@#.adthrive
+mediaite.com,packhacker.com#@#.adthrive
+packhacker.com#@#.adthrive-content
+packhacker.com#@#.adthrive-video-player
 brandexperience-group.com#@#.adv-banner
 dobro.systems#@#.adv-box
 dobro.systems#@#.adv-list
@@ -32924,7 +32926,6 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||libertystmedia.com^
 ||libihimu.com^
 ||librariessunflower.com^
-||librefutboltv.com^
 ||licantrum.com^
 ||licenceattribute.com^
 ||licencerings.com^
@@ -55068,7 +55069,10 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adjust.com/adjust-latest.min.js$domain=anchor.fm
 @@||adm.fwmrm.net^*/TremorAdRenderer.$object,domain=go.com
 @@||adm.fwmrm.net^*/videoadrenderer.$object,domain=cnbc.com|go.com|nbc.com|nbcnews.com
+@@||ads.adthrive.com/api/$domain=packhacker.com
 @@||ads.adthrive.com/builds/$script,domain=www.mediaite.com
+@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=packhacker.com
+@@||ads.adthrive.com/sites/$domain=packhacker.com
 @@||ads.adthrive.com/sites/$script,domain=www.mediaite.com
 @@||ads.dollartree.com/SneakPeek/$~third-party
 @@||ads.exoclick.com/*.js$script,domain=gelbooru.com
@@ -93981,17 +93985,17 @@ meaww.com##+js(json-prune, country region ip)
 ||connatix.com^$badfilter
 ||connatix.com^$3p
 ||connatix.com^*cid=$3p,removeparam=cid
-@@||cd.connatix.com/connatix.player.js$script,domain=accesousa.com|adweek.com|bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|easternstandardtimes.com|elnuevoherald.com|flkeysnews.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|loot.tv|macon.com|mahoningmatters.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|reuters.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
-@@||cds.connatix.com/p/*/connatix.player.$script
-@@||cds.connatix.com/p/*/player.css$css
-@@||assets.connatix.com/elements/*/cnx-lead-style.css$stylesheet
-@@||capi.connatix.com/core/pls$xhr,method=post
-@@||img.connatix.com/pid-*.jpg$image,method=get
-@@||vid.connatix.com/pid-*.bin$xhr,method=get
-@@||vid.connatix.com/pid-*.m3u8$xhr,method=get
-@@||vid.connatix.com/pid-*.mp4$xhr,method=get|options
-@@||cds.connatix.com/p/*/elements.ui.*.js$script
-@@||cds.connatix.com/p/*/hls.*.js$script
+@@||cd.connatix.com/connatix.player.js$3p,script,domain=accesousa.com|adweek.com|bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|easternstandardtimes.com|elnuevoherald.com|flkeysnews.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|loot.tv|macon.com|mahoningmatters.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|reuters.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
+@@||cds.connatix.com/p/*/connatix.player.$3p,script
+@@||cds.connatix.com/p/*/player.css$3p,css
+@@||assets.connatix.com/elements/*/cnx-lead-style.css$3p,css
+@@||capi.connatix.com/core/pls$3p,xhr,method=post
+@@||img.connatix.com/pid-*.jpg$3p,image,method=get
+@@||vid.connatix.com/pid-*.bin$3p,xhr,method=get
+@@||vid.connatix.com/pid-*.m3u8$3p,xhr,method=get
+@@||vid.connatix.com/pid-*.mp4$3p,xhr,method=get|options
+@@||cds.connatix.com/p/*/elements.ui.*.js$3p,script
+@@||cds.connatix.com/p/*/hls.*.js$3p,script
 #@#.wps-player-wrap
 @@||cd.connatix.com/connatix.playspace.js^$script,domain=adweek.com
 @@||cds.connatix.com/p/*/connatix.playspace.dc.js^$script,domain=adweek.com
