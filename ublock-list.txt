@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cYRE0aW0MFyvA9ywM7AhiA
+! Checksum: btnPgVtHTf5YiwdwKf1r7Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303040939
-! Last Modified: 2023年03月04日 09:39
+! Version: 202303041423
+! Last Modified: 2023年03月04日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -10163,6 +10163,7 @@ _800x80_
 ##.Advert-label
 ##.Advert300x250
 ##.AdvertContainer
+##.AdvertWrapper
 ##.AdvertisementAfterHeader
 ##.AdvertisementAfterPost
 ##.AdvertisementAsidePost
@@ -11480,6 +11481,7 @@ _800x80_
 ##.ad-slot--top
 ##.ad-slot--top-above-nav
 ##.ad-slot--top-banner-ad
+##.ad-slot--wrapper
 ##.ad-slot-1
 ##.ad-slot-2
 ##.ad-slot-234-60
@@ -52020,6 +52022,7 @@ careerindia.com##.inhouse-content
 bestlifeonline.com,eatthis.com##.inline
 manitobacooperator.ca##.inline--2
 kijiji.ca##.inline-banner
+freebeacon.com##.inline-campaign-wrapper
 stocksnap.io##.inline-carbon
 parkers.co.uk##.inline-leaderboard-ad-wrapper
 pcgamesn.com,pockettactics.com,theloadout.com##.inlinerail
@@ -86162,7 +86165,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||static.amazon.jobs/assets/analytics-$script,domain=amazon.jobs
 @@||static.atgsvcs.com/js/atgsvcs.js$domain=lenovo.com|officedepot.com|shop.lego.com
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
-@@||static.okccdn.com/builds/desktop/js/tracking_center.$script,domain=okcupid.com
 @@||static.tixr.com/static/*/Analytics.js$~third-party
 @@||staticflickr.com^*/analytics-min.js$domain=flickr.com
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
@@ -92687,7 +92689,6 @@ queerpride.de#@#.category-advertorial
 @@||estaticos.*/elementosWeb/ew/js/multimedia/player/videojs-contrib-ads/videojs.ads.min.js$xhr,domain=diaridegirona.cat|diariodeibiza.es|diariodemallorca.es|diarioinformacion.com|eldia.es|emporda.info|farodevigo.es|laopinioncoruna.es|laopiniondemalaga.es|laopiniondemurcia.es|laopiniondezamora.es|laprovincia.es|levante-emv.com|lne.es|mallorcazeitung.es|regio7.cat|superdeporte.es
 ||assets.adobedtm.com/launch-$script,important,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|theolympian.com|thenewstribune.com|thestate.com|tri-cityherald.com
 @@||media.nintendo.com/share/include/*/js/tracking/*$script,1p
-@@||adobedtm.com^*/satellitelib-$script,domain=auspost.com.au
 @@||cpt-static.gannettdigital.com/*-comscore$xhr
 @@||en25.com/*/DELOITTECENTRALEUROPELIMITED/*$image,css,script,domain=register.deloittece.com
 ||xtremetop100.com^$badfilter
@@ -92944,7 +92945,6 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 ||fox43.com/assets/js-libs/comscore/comscore.min.js$script,redirect=noop.js,1p
 @@||qualifioapp.com^$script,frame,domain=football365.fr
 ||5newsonline.com/assets/*/comscore.min.js$script,1p,redirect=noopjs
-@@||assets.adobedtm.com/*-source.min.js$script,domain=atresplayer.com
 ||blockadblock.com^$badfilter
 ||blockadblock.com^$3p
 @@||try.abtasty.com/$script,domain=shop.euromaster.de
@@ -93332,7 +93332,6 @@ researchgate.net##.lite-page__header-navigation--with-ad:style(top: 0 !important
 researchgate.net##.research-resources-summary__inner.is-sticky:style(top: 0 !important;)
 @@||adserver.va3.megaphone.cloud^$media,domain=podigee.com
 ||data.over-blog-kiwi.com^$badfilter
-@@||imobiliare.ro/js/gtm.js$script,1p
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=nydailynews.com
 ||mparticle.com^$badfilter
 ||mparticle.com^$3p
@@ -93432,7 +93431,6 @@ johnhardy.com##+js(acis, $, optimoveSDK)
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=rotana.net
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$xhr,domain=rotana.net
 @@||babiato.co/conversations/$1p
-@@||js.monitor.azure.com/scripts/c/ms.analytics-web-2.min.js^$script,domain=answers.microsoft.com
 @@||shahid.mbc.net^$cname
 @@||creator.zmags.com/channels.js^$script,domain=sallybeauty.com
 @@||powr.io/powr.js$script,3p
@@ -93468,7 +93466,6 @@ smartadserver.*#@#a[href*=".smartadserver.com"]
 @@||gannettdigital.com/universal-web-client/master/$xhr,domain=usatoday.com
 ||klaviyo.com^$badfilter
 @@||click.redditmail.com^*ref_source=email
-@@||googletagmanager.com/gtm.js$script,domain=viviennewestwood-tokyo.com
 brasilescola.uol.com.br#@#.banner
 ||tags.news.com.au/prod/heartbeat/*/MediaSDK.min.js$script,redirect=noop.js,important
 @@||googletagmanager.com/gtm.js$script,domain=coronavirus.vic.gov.au
@@ -93534,7 +93531,6 @@ coolmathgames.com##+js(set, network_user_id, '')
 @@||rmwilliams.com/on/demandware.static/Sites-rmwINTL-Site/*/modules/app/app.tealium.js$script,1p
 @@||player.avplayer.com/script/*/avcplayer.js$script,domain=bdnewszh.com
 @@||player.avplayer.com/script/*/libs/hls.min.js$script,domain=bdnewszh.com
-@@||googletagmanager.com/gtm.js$script,domain=iltalehti.fi
 ||ads.pinterest.com^$badfilter
 ||ads.pinterest.com^$3p
 @@||console.genieesspv.jp^$domain=admin.genieessp.com
@@ -93566,7 +93562,6 @@ safeframe.googlesyndication.com##.left-container
 @@||bigappboi.com/cp/js/captcha.js.php
 @@||chaturbate.com/in/$frame,domain=pussyspace.*
 @@||tra.scds.pmdstatic.net/advertising-core/$script,domain=businessinsider.fr
-@@||tra.scds.pmdstatic.net/sourcepoint/*/sourcepoint.min.js$script,domain=businessinsider.fr
 @@||googletagmanager.com/gtm.js$script,domain=gall.nl
 @@||wondrium.com/static/version1632408975/frontend/Wondrium/default/en_US/js/analytics.js$script,1p
 xunta.gal#@##anuncio
@@ -93621,7 +93616,6 @@ ilbianconero.com##.no-scroll:style(overflow:auto!important)
 @@||canale.live/player-tv/$css,1p
 @@||gogoplay1.com/download?id=$popup
 @@||google-analytics.com/analytics.js$script,redirect-rule,domain=nordvpn.com
-@@||www.visibleoffers.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,1p
 ||static.chotot.com/storage/js/prebid-ads.js$script,important
 @@||cibng.ibanking-services.com^$cname
 @@||ppl.ibanking-services.com^$cname
@@ -93667,7 +93661,6 @@ gumtree.com.au#@#.header--is-new-sticky-behaviour
 timesunion.com##div.setHeight.stickyWrapper
 @@||delmarlearning.com^$1p,script
 ||prebid.elespectador.com^$script,redirect-rule=googletagservices_gpt.js,1p,important
-@@||googletagmanager.com/gtm.js$script,domain=blaklader.ca|blaklader.com|blaklader.uk
 @@||read.amazon.*/embed?$frame,3p,domain=goodreads.com
 profit.ro##.zc_top_mobil:style(display: block !important;)
 profit.ro##.zc_rectangle
@@ -93710,8 +93703,6 @@ abczdrowie.pl#@#+js(aost, WP.prebid, onLoad)
 idnes.cz#@#+js(abort-current-script, String.fromCharCode)
 cyberstumble.com##.td-animation-stack-type0-1:style(opacity:1 !important)
 pearsonclinical.com##.aligner
-@@||cdn.trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
-@@||cdn.trustcommander.net/privacy/*/privacy$script,domain=tf1info.fr
 *$image,domain=asfan.as.com,redirect-rule=1x1.gif
 #@##banner_ad
 @@||mpsconline.gov.in^$ghide
@@ -93814,7 +93805,6 @@ job.mt.de,job.nw.de#@#+js(nostif, .call(null), 10)
 @@||api2.branch.io/v1/url$xhr,domain=ecwid.com
 @@||cdn.appdynamics.com/adrum/adrum-*.js$domain=santander.cl
 ||ads.tiktok.com^$badfilter
-@@||api.enthusiastgaming.net/scripts/cdn.enthusiast.gg/script/eg-aps/release/*$xhr,domain=diep.io
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=oe24.at
 @@||m.faz.net^$cname
 @@||last.fm/static/js-build/tracking/tealium-utag-set.js$script,1p
@@ -93920,7 +93910,6 @@ filecrypt.co#@?#form > .protection.online ul > li:not(.buttons):-abp-has(> div:n
 ehftv.com##.blackPlayer
 thespruceeats.com#@#[data-ad-width]
 thespruceeats.com##.mntl-leaderboard-spacer
-@@||baidu.com/api/bidder/$domain=jump2.bdimg.com
 ||baidu.com/*/track.gif?$image,redirect=1x1.gif,important,domain=jump2.bdimg.com
 @@||assets.evolutionadv.it/violations/comingsoon.it.violations.js$script,domain=comingsoon.it
 @@||ads.pubmatic.com/AdServer/js/pwt/*/3021/pwt.js$script,domain=comingsoon.it
@@ -94028,8 +94017,6 @@ filelu.com#@#.banner_ads
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gizmodo.com,redirect-rule=google-ima.js
 @@||mcs-va.tiktok.com/v1/user/webid$xhr
 @@||tn.voyeurhit.com/contents/$image,domain=voyeurhit.tube
-@@||dcard.docomo.ne.jp/st/common/js/googleTagManager.js
-@@||pals.pa.gov/vendor/analytics/$1p,script
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=eitb.eus,redirect-rule=google-ima.js
 ||counter2.blog.livedoor.com^$badfilter
 ||counter2.blog.livedoor.com^$image
@@ -94069,12 +94056,9 @@ instagram.com#@?#article[role="presentation"] > div[style]:-abp-has(span:-abp-co
 @@||api2.branch.io/v1/open$xhr,domain=fluz.app
 wnynewsnow.com#@#.ez-video-wrap
 @@||videosvc.ezoic.com/play$xhr,domain=wnynewsnow.com
-@@||mpsnare.iesnare.com/snare.js$script,domain=verkkokauppa.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=mathgames.com,redirect-rule=google-ima.js
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=tunegenie.com,redirect-rule=google-ima.js
 tunegenie.com##.adcontainer
-@@||google-analytics.com/analytics.js$script,domain=by.tribuna.com|ua.tribuna.com
-@@||googletagmanager.com/gtm.js$script,domain=by.tribuna.com|ua.tribuna.com
 itmedia.co.jp###ulCommentWidget[style*="display"]:style(display: block !important;)
 @@||ftb.ca.gov/js/webtrends.min.js$script,1p
 @@||wordcounter.icu^$cname
@@ -94092,7 +94076,6 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=lifehacker.com
 @@||pubads.g.doubleclick.net/gampad/ads*lifehacker$xhr,domain=imasdk.googleapis.com
 ||googlevideo.com/videoplayback?expire$media,domain=lifehacker.com,redirect=noopmp3-0.1s
-@@||cdn.viglink.com/api/vglnk.js$script,domain=9to5mac.com|electrek.co
 @@||m2d.m2.ai/pghb$script,domain=meaww.com
 @@||m2d.m2.ai/v/$script,domain=meaww.com
 @@||a3.pubguru.net/?device=desktop&domain=meaww.com$xhr,domain=meaww.com
@@ -94122,6 +94105,7 @@ mediaite.com#@#.adthrive-video-player
 mediaite.com##.adthrive-video-player:style(padding-bottom: 0 !important;)
 @@||googletagmanager.com/gtag/js$script,domain=independentespanol.com
 @@||api.aws.parking.godaddy.com/v1/parking/landers/$xhr
+@@||rt.rtoaster.jp/Rtoaster.js$script,domain=jreastmall.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
