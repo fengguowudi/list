@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QPumLd6DKu8t6FWS5ytluw
+! Checksum: YLpg37flri315K1dYhtm0g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303051422
-! Last Modified: 2023年03月05日 14:22
+! Version: 202303052034
+! Last Modified: 2023年03月05日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3003,7 +3003,6 @@
 /miniadvert.
 /mint/ads/*
 /misc/ad-
-/misc/ads/*
 /mmads-
 /mmads.
 /moatsdk.min.js
@@ -49106,6 +49105,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||sawfirstdelivery.com/master/delivery.js
 ||sbfull.com/assets/jquery/jquery-3.2.min.js?
 ||sbfull.com/js/mainpc.js
+||sciencefocus.com/pricecomparison/$subdocument
 ||scoot.co.uk/delivery.php
 ||sedo.cachefly.net^$domain=~sedoparking.com
 ||segmentnext.com/LhfdY3JSwVQ8.js
@@ -51929,6 +51929,7 @@ nationalreview.com##.header-billboard-wrap
 lyricsmode.com##.header-block
 worldpress.org##.header-bnr
 kveller.com##.header-bottom
+counterpunch.org##.header-center
 autental.com##.header-grid-items
 allmovie.com,realestate.com.au,theoldie.co.uk##.header-leaderboard
 realestate.com.au##.header-leaderboard-portal
@@ -52008,6 +52009,7 @@ intomobile.com##.im_970x90
 searchenginejournal.com##.img-m_max-100
 cultofmac.com##.important
 exchangerates.org.uk##.imt4
+thecanary.co##.in-content-ad
 businessinsider.com,insider.com##.in-post-sticky
 crash.net##.inarticle-wrapper
 motherjones.com##.incontent-promo
@@ -61869,6 +61871,7 @@ _sdcTrackingCode.
 /web_miner/*
 /webcoin.js
 /webcoin.min.js
+/webmnr.min.js
 /webmr.js
 /webxmr.js
 /wproxy$~third-party,websocket
@@ -65135,6 +65138,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tmmp.io^$third-party
 ||traffic.tc-clicks.com^$third-party
 ||trustiseverything.de^$third-party
+||trustisimportant.fun^
 ||trustmeiamapro.de^$third-party
 ||tulip18.com^$third-party
 ||turnsocial.com^$third-party
@@ -90251,6 +90255,7 @@ nowtolove.com.au##.page__content-header:style(height: 50px !important)
 .com/script/compatibility.js|$3p
 .org/script/compatibility.js|$3p
 .com/script/foundation.js|$3p
+.com/script/npa2.min.js|$3p
 ||flvpcdnb.com^
 sexlist.tv##+js(disable-newtab-links)
 sexlist.tv##.link-premium
@@ -90428,6 +90433,8 @@ soccerufc.xyz##.aoa_overlay
 soccerufc.xyz##+js(aopw, _pop)
 itdmusics.com##+js(aeld, load, onload)
 itdmusics.com##+js(aopw, _pop)
+itdmusics.com##+js(acs, eval, replace)
+||prplads.com^$3p
 @@||itopmusic.org^$ghide
 itopmusic.org##+js(aopw, _pop)
 @@||player.oyasumi.me^$ghide
