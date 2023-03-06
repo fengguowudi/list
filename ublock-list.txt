@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cK3JDcN8xPLGLdfSFmrBsw
+! Checksum: e2VQHJFDUk02RyollJEzfQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303060222
-! Last Modified: 2023年03月06日 02:22
+! Version: 202303060944
+! Last Modified: 2023年03月06日 09:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -51463,6 +51463,7 @@ money.com##.ca-widget-inline
 thecable.ng##.cableads_mid
 cafonline.com##.caf-o-sponsors-nav
 challonge.com##.cake-unit
+thedalesreport.com##.cap-container
 dllme.com##.captchabox > div
 u.today##.card--something-md
 devdiscourse.com##.carousel
@@ -52693,6 +52694,7 @@ infobel.com##.results-middle-banner-container
 infobel.com##.results-top-banner-container
 latimes.com,sandiegouniontribune.com##.revcontent
 al.com,cleveland.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,oregonlive.com,pennlive.com,silive.com,syracuse.com##.revenue-display
+grammar.yourdictionary.com##.revenue-placeholder
 hindustantimes.com##.rgtAdSection
 indianexpress.com##.rhs-banner-carousel
 siteslike.com##.rif
@@ -53134,6 +53136,7 @@ tumblr.com##.uOyjG
 ubergizmo.com##.ubergizmo-dfp-ad
 darko.audio##.ubm_widget
 momjunction.com##.ubvideoad
+grammar.yourdictionary.com##.ui-advertisement
 businessday.ng##.uiazojl
 nullpress.net##.uinyk-link
 zpaste.net##.uk-animation-shake
@@ -91526,6 +91529,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||expert-top.com^$doc
 ||m1shgan.app^$doc
 ||lead-software.run^$doc
+||leadsoftware.site^$doc
+||gamegrack.site^$all
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
 .systems/signup?ad_domain=$doc,popup
@@ -101306,7 +101311,7 @@ mediaite.com##.adthrive-video-player:style(padding-bottom: 0 !important;)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 10 Mar 2003 00:00:00
+# start date:    Tue, 11 Mar 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
