@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: e2VQHJFDUk02RyollJEzfQ
+! Checksum: GzYCmV/iFjAILSyH3HYsGw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303060944
-! Last Modified: 2023年03月06日 09:44
+! Version: 202303061425
+! Last Modified: 2023年03月06日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53304,7 +53304,7 @@ ign.com,mashable.com##.zad
 windows101tricks.com##.zanui-container
 antimusic.com##.zerg
 thehackernews.com##.zoho-box-1
-bellinghamherald.com,charlotteobserver.com,fresnobee.com,kansas.com,kansascity.com,macon.com,miamiherald.com,newsobserver.com##.zone
+bellinghamherald.com,charlotteobserver.com,fresnobee.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,newsobserver.com##.zone
 bellinghamherald.com##.zone-el
 exchangerates.org.uk##[alt="banner"]
 bbc.co.uk##[amp-access="toggles.ads.enabled"]
@@ -56223,7 +56223,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .web-vitals-reporting.
 .webmetrics.js
 .webstats.
-.wxAdTargeting.
 /0.gif?
 /0c.gif?
 /0pixel.php?
@@ -92133,6 +92132,7 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||api.bilibili.com/x/internal/gaia-gateway/ExClimbWuzhi$xhr,1p
 ||p.typekit.net/p.css$css,redirect-rule=noop.css
 ||p.typekit.net/p.css$css,domain=browserstack.com|bungie.net|robertsspaceindustries.com,redirect=noop.css,important
+||*-telemetry.officeapps.live.com
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script

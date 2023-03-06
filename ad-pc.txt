@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pkCJfT5AW+423f4x+LZEBQ
+! Checksum: 53dO/bxTRJeAzouffvMERQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202303060944
-! Last Modified: 2023年03月06日 09:44
+! Version: 202303061425
+! Last Modified: 2023年03月06日 14:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -53754,7 +53754,7 @@ ign.com,mashable.com##.zad
 windows101tricks.com##.zanui-container
 antimusic.com##.zerg
 thehackernews.com##.zoho-box-1
-bellinghamherald.com,charlotteobserver.com,fresnobee.com,kansas.com,kansascity.com,macon.com,miamiherald.com,newsobserver.com##.zone
+bellinghamherald.com,charlotteobserver.com,fresnobee.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,newsobserver.com##.zone
 bellinghamherald.com##.zone-el
 exchangerates.org.uk##[alt="banner"]
 bbc.co.uk##[amp-access="toggles.ads.enabled"]
@@ -58816,6 +58816,9 @@ newduba.cn###jq_youxi
 ||iauto.wang^
 ||lijie.in^
 ||vlbbxt.xyz^
+||feixun.info^
+||teowa.cyou^
+||okcf.top^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -77916,7 +77919,6 @@ fqsousou.com,kengso.com#@#.user-share
 .web-vitals-reporting.
 .webmetrics.js
 .webstats.
-.wxAdTargeting.
 /0.gif?
 /0c.gif?
 /0pixel.php?
