@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KsTUpCIV8DCDVV1R9EJ7Ew
+! Checksum: DOtgMCZ0OeIaKpVRD+/mbA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303110924
-! Last Modified: 2023年03月11日 09:24
+! Version: 202303111421
+! Last Modified: 2023年03月11日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -35841,7 +35841,6 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||partion-ricism.xyz^
 ||partnerlinks.io^
 ||partnershipknackcloset.com^
-||partnerstack.com^
 ||partoukfa.com^
 ||partsnoises.com^
 ||partyguarantee.com^
@@ -42865,7 +42864,6 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||zog.link^
 ||zolrauls.net^
 ||zomtanup.com^
-||zone-annuaire.onl^
 ||zonealta.com^
 ||zonupiza.com^
 ||zoopaweb.com^
@@ -44043,6 +44041,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||partner.video.syndication.msn.com^$~object,third-party
 ||partnerearning.com^$third-party
 ||partnermax.de^$third-party
+||partnerstack.com^$third-party
 ||partycasino.com^$third-party
 ||partypoker.com^$third-party
 ||passive-earner.com^$third-party
@@ -93001,7 +93000,6 @@ nypost.com,pagesix.com#@#.recirc
 @@||youtube.com/yts/jsbin/*$script,domain=breathecast.com|classicalite.com|crossmap.com|hallels.com|newseveryday.com|returnofkings.com
 @@||amazon.*/*uedata$image,1p
 @@||4cdn.org^$script,domain=4chan.org
-||d1z2jf7jlzjs58.cloudfront.net/p.js$script,redirect=noopjs,domain=voici.fr
 @@||api.coinmarketcap.com/$xhr,domain=unblock.net
 @@||adsynth-ofx-quotewidget-prod.herokuapp.com/api/$xhr,domain=widget-yahoo.ofx.com
 !#if !env_chromium
@@ -93258,7 +93256,6 @@ pcgamer.com#@#.hawk-widget
 @@||promo.com/shopify/shopify-store-script.js$script
 @@||promo.local/shopify/shopify-store-script.js$script
 @@||promo.com/shopify-backend/*/user-videos/public/video-urls$xhr
-@@||tra.scds.pmdstatic.net/pmd-browsertools/*$script,domain=gala.fr
 @@||googletagmanager.com/gtm.js$script,domain=thenorthface.com
 @@||tag.rightmessage.com^$domain=conservation-careers.com
 @@||tags.bkrtx.com/js/bk-coretag.js$script,domain=thequint.com
@@ -94358,6 +94355,7 @@ dmzj.com##body:style(overflow: auto !important;)
 @@||pearson.com/osbrowserchecker/prd/thirdPartyCookie.html$frame,1p
 @@||xweb.instagram.com/ads/preferences/ad_topics/$frame,1p
 mail.google.com#@#div[aria-label="Ads"]
+@@||tra.scds.pmdstatic.net/pmd-browsertools/$script,domain=gala.fr
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=gala.fr
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=gala.fr
 @@||tra.scds.pmdstatic.net/$xhr,domain=gala.fr
@@ -94365,6 +94363,9 @@ gala.fr#@#[data-ads-core]
 gala.fr##+js(no-xhr-if, doubleclick)
 @@||tra.scds.pmdstatic.net/sourcepoint/$script,domain=programme-tv.net
 @@||securepubads.g.doubleclick.net/gampad/ads$xhr,domain=programme-tv.net
+||d1z2jf7jlzjs58.cloudfront.net/p.js$script,redirect=noopjs,domain=voici.fr
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=voici.fr
+gala.fr,voici.fr##+js(set, DD_RUM.addTiming, noopFunc)
 @@||cmp.huffingtonpost.fr/js/huffpost.min.js$script,1p
 @@||cmp.huffingtonpost.fr/html/huffpost/wall-large.html?css=/css/huffpost/wall-large.min.css$xhr,1p
 @@||cmp.huffingtonpost.fr/api/consent$xhr,1p
