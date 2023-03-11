@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DOtgMCZ0OeIaKpVRD+/mbA
+! Checksum: V4JhibTW6mczaNMRmunAig
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303111421
-! Last Modified: 2023年03月11日 14:21
+! Version: 202303112033
+! Last Modified: 2023年03月11日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62934,6 +62934,7 @@ _mongo_stats/
 ||bjcathay.com^$third-party
 ||bkvtrack.com^$third-party
 ||blaick.com^$third-party
+||blisspointmedia.com^$third-party
 ||blockdetector.org^$third-party
 ||blockmetrics.com^$third-party
 ||blog-stat.com^$third-party
@@ -91861,10 +91862,10 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||crackwesoft.com^$doc
 ||telegra.ph/Installer-02-27$doc
 ||telegra.ph/PREMIUM-VPN-02-24$doc
+||telegra.ph/New-download-02-24$doc
 ||yuppdownload.com^$doc
 ||expert-top.com^$doc
 ||m1shgan.app^$doc
-||lead-software.run^$doc
 ||leadsoftware.site^$doc
 ||gamegrack.site^$all
 ||app-inject.com^$doc
@@ -92184,6 +92185,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||iecqkj.top^$all
 ||megancroft.bond^$all
 ||ehue77.cn^$all
+||fajdgx.shop^$all
 ||obsproicet.net^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
@@ -92478,6 +92480,7 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||p.typekit.net/p.css$css,redirect-rule=noop.css
 ||p.typekit.net/p.css$css,domain=browserstack.com|bungie.net|robertsspaceindustries.com,redirect=noop.css,important
 -telemetry.officeapps.live$ping,xhr
+||flow.microsoft.com/providers/Internal.Telemetry
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
