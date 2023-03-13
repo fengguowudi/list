@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gPg62UQNxNknq/n7L2ATOg
+! Checksum: UMB071G8TsdVGz4rvIT5Xg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303130221
-! Last Modified: 2023年03月13日 02:21
+! Version: 202303130937
+! Last Modified: 2023年03月13日 09:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52404,6 +52404,7 @@ si.com##.l-inline.m-detail--feature-container
 ptonline.com##.large-horizontal-banner
 weatherpro.com##.large-leaderboard
 democraticunderground.com##.largeleaderboard-container
+fantasygames.nascar.com##.larger-banner-wrapper
 golfworkoutprogram.com##.lasso-container
 tech-latest.com##.lates-art-top
 flava.co.nz,hauraki.co.nz,mixonline.co.nz,thehits.co.nz,zmonline.com##.layout__background
@@ -52571,6 +52572,7 @@ thedailybeast.com##.mobiledoc-sizer
 criminaljusticedegreehub.com##.mobius-container
 etxt.biz##.mod-cabinet__sidebar-adv
 etxt.biz##.mod-cabinet__sidebar-info
+notateslaapp.com##.mod-sponsors
 breakingenergy.com##.modal-backdrop
 livelaw.in##.modal_wrapper_frame
 autoevolution.com##.modeladmid
@@ -52671,6 +52673,7 @@ mondoweiss.net##.notrack
 bleepingcomputer.com##.noty_bar
 pcgamebenchmark.com##.nova_wrapper
 zimbio.com##.npd-video-break
+notateslaapp.com##.npwlwgucml
 crypto-news-flash.com##.nso_ad_under_article
 designtaxi.com##.nt
 designtaxi.com##.nt-displayboard
@@ -54388,6 +54391,9 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-mobile-top > div[data-pla="1"]
 duckduckgo.com##.js-results-ads
 duckduckgo.com##.js-sidebar-ads > .nrn-react-div
+history.com##.m-balloon-header--ad
+history.com##.m-in-content-ad
+history.com##.m-in-content-ad-row
 impartialreporter.com,polygon.com##.ob-smartfeed-wrapper
 duckduckgo.com##.results--ads
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##AMP-AD
@@ -71889,7 +71895,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ring.staticmoly.me^
 ||risextube.com/t/
 ||roblox.com/report
-||roblox.com/www/e.png?
 ||roblox.com^*/_/1px.gif
 ||rps-p2.rockpapershotgun.com^
 ||rps-uk.rockpapershotgun.com^
@@ -88126,7 +88131,7 @@ meganews.tech###custom_html-2
 ||fuqypaqu.xyz^$3p
 ||bestcripto.xyz^$3p
 pastebr.xyz##+js(set, isAdBlockActive, false)
-*$frame,3p,denyallow=facebook.com|google.com|hcaptcha.com|recaptcha.net|twitter.com|youtube.com|api.paymentwall.com|streamable.com|vimeo.com,domain=elitepvpers.com
+*$frame,3p,denyallow=facebook.com|google.com|hcaptcha.com|recaptcha.net|twitter.com|youtube.com|api.paymentwall.com|streamable.com|vimeo.com|challenges.cloudflare.com,domain=elitepvpers.com
 elitepvpers.com##[target="_blank"] [src^="https://aimex.xyz/"]
 elitepvpers.com##p > [href^="https://playorigin.com/"]
 elitepvpers.com##[href="https://skyredirect1.com/"]
@@ -88938,6 +88943,7 @@ sbembed.com,streamsb.*##body > div[style*="z-index:"]
 sbplay.*,sbplay1.com##+js(set, console.clear, noopFunc)
 oxl.one,sbplay1.com,sbvideo.net##+js(nosiif, 0x)
 sbplay.*##^script:has-text(debugger)
+cloudemb.com##+js(set, isadb, false)
 ||app.adjust.net.in^
 ||abusageqh.com^
 ||bb5gt41h.cfd^
@@ -101604,7 +101610,7 @@ muropaketti.com##body.noImages .content img:style(display: inline-block !importa
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 17 Mar 2003 00:00:00
+# start date:    Tue, 18 Mar 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
