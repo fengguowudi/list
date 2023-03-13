@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: V8CsFj+59cnTtSOxht4e+w
+! Checksum: yA9Fr/sXxbf4mxjuNpx57A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303131424
-! Last Modified: 2023年03月13日 14:24
+! Version: 202303132037
+! Last Modified: 2023年03月13日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20029,7 +20029,6 @@ _800x80_
 ##.sponsor-left
 ##.sponsor-link
 ##.sponsor-links
-##.sponsor-logo
 ##.sponsor-popup
 ##.sponsor-post
 ##.sponsor-right
@@ -61057,7 +61056,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /tracking_unitary/*
 /trackingab?
 /trackingamp.php
-/trackingapi.
 /TrackingBreadcrumbs.
 /TrackingCentral.js
 /trackingcheck.min.js
