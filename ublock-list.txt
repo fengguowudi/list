@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T4DWmaTst+nwcYH9JF6Zag
+! Checksum: HczqsiD+VPgtKnJoiUp30A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303150935
-! Last Modified: 2023年03月15日 09:35
+! Version: 202303151423
+! Last Modified: 2023年03月15日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -49411,6 +49411,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||hotstar.com^*/preroll?
 ||howtogeek.com/emv2/
 ||howtogermany.com/images/bnr-
+||hurawatch.at/AA/
 ||i-tech.com.au/media/wysiwyg/banner/
 ||iamcdn.net/players/playhydraxs.min.js$domain=player-cdn.com
 ||ice.hockey/images/sponsoren/
@@ -53925,6 +53926,7 @@ linkhub.icu##a[href^="/downloadnow.php?"]
 limetorrents.pro##a[href^="/leet/?"] > img[src^="/static/images/download"]
 lightreading.com##a[href^="/lg_redirect.asp?piddl_lgid_docid="]
 linkhub.icu##a[href^="/linknow.php?"]
+unblockit.boo##a[href^="/netflixPromo"]
 tehrantimes.com##a[href^="/redirect/ads/"]
 xbox-hq.com##a[href^="banners.php?"]
 dvdtalk.com##a[href^="http://dvdtalk.pricegrabber.com/"]
@@ -53976,6 +53978,7 @@ scaredstiffreviews.com##a[href^="https://www.amazon."][href*="ref="]
 ancient-origins.net,anisearch.com,catholicculture.org,deadspin.com,electrek.co,jalopnik.com,jezebel.com,kotaku.com,lewrockwell.com,lifehacker.com,ssbcrack.com,thetakeout.com##a[href^="https://www.amazon."][href*="tag="]
 mrchecker.net##a[href^="https://www.cardingmentor.org"]
 indusladies.com##a[href^="https://www.codewizardshq.com/?utm_"]
+unblockit.boo##a[href^="https://www.cricketbook.com/"]
 duplichecker.com##a[href^="https://www.duplichecker.com/"][target*="blank"][rel*="nofollow"] > img
 pooletown.co.uk##a[href^="https://www.easyfundraising.org.uk"]
 futbin.com##a[href^="https://www.eneba.com/"][href*="?af_id="]
@@ -54358,6 +54361,7 @@ comicbook.com##.embedVideoContainer
 taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
 ibtimes.sg##.featured_video
+redboing.com##.fw-ad
 thestar.co.uk##.gOoqzH
 givemesport.com##.gms-videos-container
 anandtech.com##.jwplayer
@@ -56912,6 +56916,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /analytics-endpoint.
 /analytics-event-
 /analytics-event.
+/analytics-event/*
 /analytics-events-
 /analytics-facade.
 /analytics-gcp.
@@ -69320,6 +69325,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reach-id.orbit.tm-awx.com^
 ||readcube.com/assets/track_
 ||realm.hearst3pcc.com^
+||rebelmouse.com/pharos/
 ||recart.com/tracking/
 ||recipefy.net/analytics.js
 ||recurly.com/js/v1/events
@@ -92518,6 +92524,7 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 -telemetry.officeapps.live$ping,xhr
 ||flow.microsoft.com/providers/Internal.Telemetry
 ||client-telemetry.roblox.com^
+||kemono.party/js/script.js
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
