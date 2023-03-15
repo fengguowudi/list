@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GZvu32hJm4mAtDfVBjUYSw
+! Checksum: T4DWmaTst+nwcYH9JF6Zag
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303150228
-! Last Modified: 2023年03月15日 02:28
+! Version: 202303150935
+! Last Modified: 2023年03月15日 09:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -44244,7 +44244,6 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||rubyblu.com^$third-party
 ||salvador24.com^$third-party
 ||sape.ru^$third-party
-||saymedia.com^$third-party
 ||sba.about.co.kr^$third-party
 ||sbaffiliates.com^$third-party
 ||sbcpower.com^$third-party
@@ -47862,6 +47861,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||adform.net/serving/$third-party
 ||ads-yallo-production.imgix.net^
 ||ads.linkedin.com^$third-party
+||ads.saymedia.com^
 ||ads.servebom.com^
 ||ads.sportradar.com^
 ||ads.yahoo.com^$~image
@@ -53866,6 +53866,7 @@ calendar-uk.co.uk,wahm.com##[style="min-height:250px;"]
 analyticsinsight.net##[style="text-align: center;"]
 vizzy.io##[style="width: 100%; font-family: Roboto; font-weight: 500; margin-bottom: 30px;"]
 forum.lowyat.net##[style^="height:100px;padding:5px"]
+decrypt.co##[style^="min-width: 728px;"]
 ttgmedia.com##[style^="position: fixed;"]
 meaww.com##[style^="text-align: center;"]
 zenger.news##[style^="text-align:center;min-height:"]
@@ -54168,7 +54169,6 @@ gizbot.com,goodreturns.in##div[style="min-height: 250px;"]
 nohat.cc##div[style="min-height:250px"]
 askdifference.com##div[style="min-height:280px;"]
 bulbagarden.net##div[style="min-height:315px;"]
-metabattle.com##div[style="min-width: 300px; max-width: 300px; min-height: 250px; max-height: 250px; background: #1d1d1d; overflow: hidden;"]
 technical.city##div[style="padding-bottom: 20px"] > div[style="min-height: 250px"]
 bitcoin-otc.com##div[style="padding-left: 10px; padding-bottom: 10px; text-align: center; font-family: Helvetica;"]
 shaaditimes.com##div[style="padding: 5 0 0 0px; height: 138px; text-align:center; width:780px; background: url('/imgs/top-ad-bg.gif') repeat-x left bottom; background-color:#FFF9D0;"]
@@ -54202,6 +54202,7 @@ abcnews.go.com##div[style^="min-height: 90px"]
 gamerdvr.com##div[style^="min-height:"]
 news18.com##div[style^="min-height:1170px"]
 add0n.com##div[style^="min-height:90px"]
+decrypt.co,metabattle.com##div[style^="min-width: 300px;"]
 9gag.com##div[style^="position: relative; z-index: 10;"]
 keybr.com##div[style^="position:relative;min-width:"]
 gtaforums.com##div[style^="text-align: center; margin: 0px 0px 10px;"]
@@ -54431,6 +54432,7 @@ youtube.com##.ytd-action-companion-ad-renderer
 youtube.com##.ytd-carousel-ad-renderer
 youtube.com##.ytd-compact-promoted-video-renderer
 youtube.com##.ytd-companion-slot-renderer
+youtube.com##.ytd-in-feed-ad-layout-renderer
 youtube.com##.ytd-merch-shelf-renderer
 youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
 youtube.com##.ytd-promoted-sparkles-text-search-renderer
@@ -54552,6 +54554,7 @@ independent.co.uk,standard.co.uk#?#article > div[class^="sc-"]:-abp-has(> div[cl
 sbs.com.au#?#.MuiBox-root:-abp-has(>.desktop-ads)
 slashdot.org#?#article:-abp-has(.ntv-sponsored-question)
 9gag.com#?#article:-abp-has(.promoted)
+decrypt.co#?#span:-abp-contains(AD)
 protrumpnews.com#?#.show-on-ptn:-abp-has(.pre-announcement)
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(Sponsored))
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(SPONSORED))
@@ -65672,6 +65675,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||billowybead.com^
 ||bitterbear.com^
 ||bizarrebaseball.com^
+||blackbrake.com^
 ||bleachbubble.com^
 ||blotburn.com^
 ||blushingbeast.com^
@@ -92514,7 +92518,6 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 -telemetry.officeapps.live$ping,xhr
 ||flow.microsoft.com/providers/Internal.Telemetry
 ||client-telemetry.roblox.com^
-||nomery.ru/p.php
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script
@@ -94354,6 +94357,7 @@ thespruceeats.com##.mntl-leaderboard-spacer
 ||baidu.com/*/track.gif?$image,redirect=1x1.gif,important,domain=jump2.bdimg.com
 @@||assets.evolutionadv.it/violations/comingsoon.it.violations.js$script,domain=comingsoon.it
 @@||ads.pubmatic.com/AdServer/js/pwt/*/3021/pwt.js$script,domain=comingsoon.it
+*$script,domain=comingsoon.it,redirect-rule=noopjs
 unrealengine.com##+js(no-xhr-if, /api/analytics)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=zee5.com,redirect-rule=google-ima.js
 zee5.com##+js(set, Object.prototype.setDisableFlashAds, noopFunc)
@@ -101709,7 +101713,7 @@ vrv.co##+js(set, analytics.options.integrations, noopFunc)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 19 Mar 2003 00:00:00
+# start date:    Thu, 20 Mar 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
