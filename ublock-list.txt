@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5BfelPKluZgE+DZNEqhJkg
+! Checksum: eLDLZE3VPWKilDcJtutU9g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303162037
-! Last Modified: 2023年03月16日 20:37
+! Version: 202303170223
+! Last Modified: 2023年03月17日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -22560,6 +22560,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||51cf9c517a.com^
 ||52c9f48b14.com^
 ||532xcxypmpnp.com^
+||53c2dtzsj7t1.top^
 ||54ec30c53d.com^
 ||550b3ikb9j.com^
 ||550c970411.com^
@@ -28238,6 +28239,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||dischargedecent.com^
 ||disconnectedponder.com^
 ||discordclosure.com^
+||discostcarafon.website^
 ||discountryvc.club^
 ||discounts4shops.com^
 ||discountwound.com^
@@ -37797,6 +37799,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||reople.co.kr^
 ||reoreexpresi.xyz^
 ||repairedbringstale.com^
+||repairedentrailstangle.com^
 ||repaul.com^
 ||repayrotten.com^
 ||repealamintor.com^
@@ -40477,6 +40480,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||tinbuadserv.com^
 ||tincalsamiably.website^
 ||tindocumentary.com^
+||tingedpapyrin.guru^
 ||tingshospical.xyz^
 ||tinkerta.com^
 ||tinkerwidth.com^
@@ -40492,6 +40496,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||tisate.com^
 ||tissuecameallowing.com^
 ||tissuespectrumadulthood.com^
+||tisszhb.cn^
 ||titanads1.com^
 ||titanads2.com^
 ||titanads3.com^
@@ -42256,6 +42261,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||win-bidding.com^
 ||winbestprizess.info^
 ||winbuyer.com^
+||windingnegotiation.com^
 ||windofaeolus.com^
 ||windoorsew.club^
 ||windowmentaria.com^
@@ -54620,6 +54626,8 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[jstcache] > a[href^="/aclk?"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[role="navigation"] + c-wiz > div > .kxhcC
 testpages.adblockplus.org###abptest
+msn.com###promotions
+msn.com##.bannerAdContainer-DS-EntryPoint1-1
 msn.com##.bing-native-ad
 msn.com##.dynamicRRWrapper
 msn.com##.galleryPage_eoabNativeAd-DS-EntryPoint1-1
@@ -54647,6 +54655,9 @@ msn.com##div[class^="articlePage_topBannerAdContainer_"]
 msn.com##div[class^="galleryPage_bannerAd"]
 msn.com##div[data-section-id="sponsored.stripe.shopping"]
 msn.com##div[data-section-id="stripe.bannernativead"]
+msn.com##div[data-t*="sponsored."]
+msn.com##msft-content-card[id^="contentcard_nativead-"]
+msn.com##msn-info-pane-panel[id^="tab_panel_nativead-"]
 bing.com###bepfo.popup[style^="visibility: visible"]
 bing.com##.ad_sc
 bing.com##.b_ad
@@ -54663,6 +54674,7 @@ sbs.com.au#?#.MuiBox-root:-abp-has(>.desktop-ads)
 slashdot.org#?#article:-abp-has(.ntv-sponsored-question)
 9gag.com#?#article:-abp-has(.promoted)
 decrypt.co#?#span:-abp-contains(AD)
+search.yahoo.com#?#div.mb-28:-abp-has(span:-abp-contains(Ads))
 protrumpnews.com#?#.show-on-ptn:-abp-has(.pre-announcement)
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(Sponsored))
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(SPONSORED))
@@ -92340,6 +92352,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||tonghongad.com^$all
 ||thndg.com^$all
 ||e-tax-nta.web.app^$all
+||ogdwild.bond^$all
 ||obsproicet.net^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
@@ -92427,6 +92440,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||imgfarm.com/images/dlp2/prod$3p
 ||myway.com^$all
 /anemone-*.min.js$script,1p
+||topcashback.co.uk^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -94366,8 +94380,6 @@ job.mt.de,job.nw.de#@#+js(nostif, .call(null), 10)
 @@||ak-ads-ns.prisasd.com/prebid/prebid_noticias.js$script,domain=as.com
 ||elpais.com/t.gif$image,1p,redirect-rule=1x1.gif,important
 ||fwcdn2.com^$badfilter
-||minute.ly^$3p,badfilter
-||tldw.me^$3p,badfilter
 @@||app.link/_r?sdk$script,domain=ecwid.com
 @@||api2.branch.io/v1/url$xhr,domain=ecwid.com
 @@||cdn.appdynamics.com/adrum/adrum-*.js$domain=santander.cl
