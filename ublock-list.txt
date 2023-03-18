@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bCM3ntNtwkwojUkInvo5YA
+! Checksum: pmD0RRPVGQ3Eqlu+zAlstQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303182033
-! Last Modified: 2023年03月18日 20:33
+! Version: 202303190221
+! Last Modified: 2023年03月19日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -89609,7 +89609,7 @@ vga4a.com##+js(set, tie.ad_blocker_detector, '')
 videoseyred.in##+js(nowoif)
 listendata.com##+js(acis, onload)
 spleaks.org##+js(acis, $, test)
-ads-ti9ni4.blogspot.com,bouamra.blogspot.com,cintateknologi.com,funnymadworld.blogspot.com,gfilex.blogspot.com,ishortlink.blogspot.com,pramejarab.blogspot.com,thelibrarydigital.blogspot.com,tienganhedu.com,tienichdienthoai.net,xbox360torrent.com##+js(acis, document.addEventListener, google_ad_client)
+ads-ti9ni4.blogspot.com,bouamra.blogspot.com,cintateknologi.com,este-walks.net,funnymadworld.blogspot.com,gfilex.blogspot.com,intest.tv,ishortlink.blogspot.com,laurasia.info,pramejarab.blogspot.com,thelibrarydigital.blogspot.com,tienganhedu.com,tienichdienthoai.net,xbox360torrent.com,xn--k9ja7fb0161b5jtgfm.jp##+js(acis, document.addEventListener, google_ad_client)
 www-daftarharga.blogspot.com##+js(nostif, nextFunction)
 www-daftarharga.blogspot.com##+js(nowoif)
 www-daftarharga.blogspot.com##+js(aeld, popstate)
@@ -89619,7 +89619,7 @@ playwatchnet.com##+js(nowoif)
 arenaboard.xyz##+js(nowoif)
 porno-japones.top##+js(acis, document.addEventListener, adsbygoogle)
 porno-japones.top##+js(acis, document.querySelectorAll, popMagic)
-aimasummd.blog.fc2.com,dokuo666.blog98.fc2.com,metamani.blog15.fc2.com,newssokuhou666.blog.fc2.com,touhoudougamatome.blog.fc2.com,youkaiwatch2345.blog.fc2.com##+js(acis, document.addEventListener, google_ad_client)
+aimasummd.blog.fc2.com,dokuo666.blog98.fc2.com,metamani.blog15.fc2.com,newssokuhou666.blog.fc2.com,touhoudougamatome.blog.fc2.com,xn--k9ja7fb0161b5jtgfm.jp,youkaiwatch2345.blog.fc2.com##+js(acis, document.addEventListener, google_ad_client)
 newssokuhou666.blog.fc2.com,youkaiwatch2345.blog.fc2.com##^script:has-text(google_ad_client)
 ygoprodeck.com###deck-content-ad
 ygoprodeck.com##[id^="frontpage-ad-"]
@@ -89644,15 +89644,6 @@ givemenbastreams.com,givemenflstreams.com##+js(acis, setTimeout, admc)
 givemenbastreams.com##+js(acis, String.prototype.charCodeAt, 'shift')
 givemenbastreams.com,givemenflstreams.com##+js(aopw, _pop)
 givemenbastreams.com,givemenflstreams.com##^script[data-cfasync]:has-text(h=decodeURIComponent)
-techpowerup.com##:matches-path(/29) body:not([data-template]):has(.imgcontainer) *:not([class="imgcontainer"]) > a:not([href^="https://www.techpowerup.com/img/"]) img:not([href^="https://tpucdn.com/img/"]):style(opacity: 0 !important; pointer-events: none !important;)
-techpowerup.com##:matches-path(/review/) body:not([data-template]) *:not(header.clearfix + script + .text) > *:not([class="responsive-image-xx"]) > * > a:not([href^="/review/"]) img:not([src^="/review/"]):style(opacity: 0 !important; pointer-events: none !important;)
-techpowerup.com##:matches-path(/gallery/) body:not([data-template]) *:not([class="gallery-box"]) > a:not([href^="/gallery/"]) img:not([src^="https://tpucdn.com/gallery/"]):style(opacity: 0 !important; pointer-events: none !important;)
-techpowerup.com##:matches-path(/vgabios/) body:not([data-template]) a:not([href^="/gpu-specs/"]) img:not([src^="/gpu-specs/"]):style(opacity: 0 !important; pointer-events: none !important;)
-techpowerup.com##:matches-path(/gpu-specs/) body:not([data-template]) a:not([href^="https://tpucdn.com/gpu-specs/"]) img:not([src^="https://tpucdn.com/gpu-specs/"]):style(opacity: 0 !important; pointer-events: none !important;)
-techpowerup.com##:matches-path(/cpu-specs/) body:not([data-template]) *:not(div[class="clearfix images"]) > * > a img:style(opacity: 0 !important; pointer-events: none !important;)
-techpowerup.com##:matches-path(/live/) body:not([data-template]) a[href^="/"]:not([href^="/live/images/"]) img[src^="/"]:not([src^="/live/images/"]):style(opacity: 0 !important; pointer-events: none !important;)
-techpowerup.com##:matches-path(/download/) body:not([data-template]) a:not([href^="/download/"]) img:not([src^="https://tpucdn.com/download/"]):style(opacity: 0 !important; pointer-events: none !important;)
-techpowerup.com##:matches-path(/articles/) body:not([data-template]) a:not([href^="http://www.techpowerup.com/articles/"]) img:not([src^="https://tpucdn.com/articles/"]):style(opacity: 0 !important; pointer-events: none !important;)
 techpowerup.com##body:not([data-template]) a[rel="nofollow"][href^="/reviyuu/b784/"]:style(pointer-events: none !important;)
 techpowerup.com##body:not([data-template]) a[rel*="nofollow"][target="_blank"][href$="er/images/gmchjhj.png"]
 ||www.techpowerup.com/reviyuu/$image,1p
@@ -91688,7 +91679,6 @@ thepiratebay3.com^$all
 ||quellaplentyresolute.com^$all
 ||hsrvu.com^$all
 ||il119.com^$all
-||adserveryo.xyz^$all
 ||adtr1.com^$all
 ||axdsz.pro^$all
 ||click2click.xyz^$all
@@ -91723,7 +91713,6 @@ thepiratebay3.com^$all
 ||postsupport.net^$all
 ||atzekromchan.com^$all
 ||pupok.link^$all
-||adserveryo2.xyz^$all
 ||ntvpevnts.com^$all
 ||google-yandex.info^$all
 ||aditserve.com^$all
@@ -91765,11 +91754,9 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||vviotaer.space^$all
 /pop-click?sid=*&data=$doc
 /click?a=*&aff_click_id=$doc
-||adserver7.sbs^$all
 ||pergames.fun^$all
 ||stils-top.space^$all
 ||actgames.site^$all
-||adserver5.sbs^$all
 ||trwl1.com^$all
 ||clixwells.com^$all
 ||wxhiojortldjyegtkx.bid^$all
@@ -91999,7 +91986,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ^lpkey=*&uclickhash=$doc
 ||systemupdatesy.life^$all
 ||d135aysof2oufc.cloudfront.net^$all
-||blob.core.windows.net/$web/$doc
 /?banner=*&phone=$doc
 ||chevrontax.info^$all
 ||advidates.com^$all
@@ -92073,6 +92059,9 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 .html?cep=*&cost=0.$doc
 /1/index.html?p1=https%$doc
 ||familysexsimulators.io^$all
+||23.109.87.170^
+||notificationsettings.com^$all
+.live/1*.html?cep=$doc
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -92101,6 +92090,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||soft-upd.com^$doc
 ||greatsofts.space^$doc
 ||pcworldgetin.net^$doc
+||topsoftfree.com^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
 .systems/signup?ad_domain=$doc,popup
@@ -92139,6 +92129,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||top-official-app.com^$all
 ||saworbpox.com^$all
 ||pornonenight.com^$all
+||smarttvnew.live^$all
 ||securitydefender.xyz^$all
 ||mandljigeografija.xyz^$all
 ||sladicagora.xyz^$all
@@ -94780,6 +94771,9 @@ vrv.co##+js(set, analytics.options, noopFunc)
 vrv.co##+js(set, analytics.options.integrations, noopFunc)
 @@||partner-api.sddan.com/api/*/public/partner/$xhr,domain=6play.fr
 @@||blogspot.com/b/stats$xhr,1p
+@@||securepubads.g.doubleclick.net/pagead/ppub_config$xhr,domain=telsu.fi
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=telsu.fi
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=telsu.fi
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
