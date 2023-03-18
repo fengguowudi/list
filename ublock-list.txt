@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wQoy+34dP0eyjrCZIAAPKg
+! Checksum: sq8lw8bzc+oSlpcq5gav8g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303180933
-! Last Modified: 2023年03月18日 09:33
+! Version: 202303181422
+! Last Modified: 2023年03月18日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2315,6 +2315,7 @@
 /customerad_
 /cutead.
 /cvs/ads/*
+/cxf-ad-banner
 /daily/ads/*
 /dart_ads.
 /dart_ads/*
@@ -5474,6 +5475,8 @@ _800x80_
 ###ad-performanceFullbanner1
 ###ad-performanceRectangle1
 ###ad-placeholder
+###ad-placeholder-horizontal
+###ad-placeholder-vertical
 ###ad-placement
 ###ad-plate
 ###ad-player
