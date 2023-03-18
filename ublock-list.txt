@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sq8lw8bzc+oSlpcq5gav8g
+! Checksum: bCM3ntNtwkwojUkInvo5YA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303181422
-! Last Modified: 2023年03月18日 14:22
+! Version: 202303182033
+! Last Modified: 2023年03月18日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -89973,7 +89973,7 @@ fapnado.*##[class^="zpot"]
 ||io.fapnado.com^
 pogolinks.*##+js(nostif, showModal)
 pogolinks.*##+js(acs, setTimeout, admc)
-||cdn.applixir.com^$script,3p
+!||cdn.applixir.com^$script,3p
 ||check-update-today.me^doc
 independent.co.uk##.jnzTeZ.sc-qYGWS.bSwWwA.sc-qQKeD:style(max-height:0px !important)
 ilifehacks.com##+js(aost, String.prototype.charCodeAt, ai_)
@@ -92426,6 +92426,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||thndg.com^$all
 ||e-tax-nta.web.app^$all
 ||ogdwild.bond^$all
+||haouwebb.bond^$all
 ||obsproicet.net^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
