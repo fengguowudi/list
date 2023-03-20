@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: anIZ/TSAGAHNHozovv9ntg
+! Checksum: wmtjEJYNx+Kl5/2YK4K7Dw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303200221
-! Last Modified: 2023年03月20日 02:21
+! Version: 202303200938
+! Last Modified: 2023年03月20日 09:38
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52912,6 +52912,7 @@ allnurses.com##.medrec
 techrepublic.com##.medusa-list
 compoundsemiconductor.net##.mega-bar
 theweather.net##.megabanner
+mentalmars.com##.menta-target
 2ip.me##.menu_banner
 gadgetsnow.com##.mercwapper
 audiokarma.org##.message > center b
@@ -58081,6 +58082,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /collector/beacon
 /collector/hit?
 /collector/pageview
+/collector/v1/event
 /collector?report=
 /collectStats;
 /collectsysteminfo?
@@ -92222,8 +92224,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||greatsofts.space^$doc
 ||pcworldgetin.net^$doc
 ||topsoftfree.com^$doc
-||topsoftfree.com^$doc
 ||evensoftware.xyz^$doc
+||crackwesofts.com^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
 .systems/signup?ad_domain=$doc,popup
@@ -102053,7 +102055,7 @@ vrv.co##+js(set, analytics.options.integrations, noopFunc)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 24 Mar 2003 00:00:00
+# start date:    Tue, 25 Mar 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
