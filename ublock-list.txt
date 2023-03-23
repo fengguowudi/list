@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qa/iU89rQGe2MPNALSZVNA
+! Checksum: 2DN2USL+r9HMJ3DM8JdDwg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303231422
-! Last Modified: 2023年03月23日 14:22
+! Version: 202303232036
+! Last Modified: 2023年03月23日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -72716,6 +72716,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||you.com/api/recordEvent
 ||youjizzlive.com/api/metrics
 ||youmaker.com/g/test
+||youtube-nocookie.com/api/stats/atr?
 ||youtube-nocookie.com/api/stats/delayplay?
 ||youtube-nocookie.com/api/stats/qoe?
 ||youtube-nocookie.com/ptracking?
@@ -91221,6 +91222,13 @@ ovlinks.com##+js(aopr, open)
 ccsl.xyz,techmart4u.in,urlfiles.com##+js(nosiif, visibility, 1000)
 ccsl.xyz##center > div.row
 ||understatedworking.com^
+rainurl.com,snowurl.com##+js(nowoif)
+rainurl.com,snowurl.com##+js(set, blurred, false)
+rainurl.com,snowurl.com##+js(set, go_popup, {})
+conghuongtu.net##+js(no-fetch-if, googlesyndication)
+thuocdangian.net,tremamnon.com##+js(aeld, DOMContentLoaded, adsBlocked)
+chinhnhacoban.com,hynews.biz,tremamnon.com,vnpttelle.com##[id^="wpsafe-generate"], #continue:style(display: block !important;)
+chamcuuhoc.com###wpsafe-link:style(display: block !important;)
 actresstoday.com##+js(acis, eval, replace)
 fastream.to##+js(aopr, afScript)
 @@||fastream.to^$script,1p
@@ -102310,7 +102318,7 @@ vrv.co##+js(set, analytics.options.integrations, noopFunc)
 # entries:        3752
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
-# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=233270
+# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
 # Patreon:        https://patreon.com/blocklist
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
