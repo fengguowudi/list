@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kiDKnDBs9V8h0iAXktoKGQ
+! Checksum: Qa/iU89rQGe2MPNALSZVNA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303230924
-! Last Modified: 2023年03月23日 09:24
+! Version: 202303231422
+! Last Modified: 2023年03月23日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21935,8 +21935,8 @@ tuxpi.com#@#.adslot
 cutepdf-editor.com#@#.adtable
 gigazine.net#@#.adtag
 mediaite.com,packhacker.com#@#.adthrive
-packhacker.com#@#.adthrive-content
-packhacker.com#@#.adthrive-video-player
+mediaite.com,packhacker.com#@#.adthrive-content
+mediaite.com,packhacker.com#@#.adthrive-video-player
 brandexperience-group.com#@#.adv-banner
 dobro.systems#@#.adv-box
 dobro.systems#@#.adv-list
@@ -56105,11 +56105,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adjust.com/adjust-latest.min.js$domain=anchor.fm
 @@||adm.fwmrm.net^*/TremorAdRenderer.$object,domain=go.com
 @@||adm.fwmrm.net^*/videoadrenderer.$object,domain=cnbc.com|go.com|nbc.com|nbcnews.com
-@@||ads.adthrive.com/api/$domain=packhacker.com
-@@||ads.adthrive.com/builds/$script,domain=www.mediaite.com
-@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=packhacker.com
-@@||ads.adthrive.com/sites/$domain=packhacker.com
-@@||ads.adthrive.com/sites/$script,domain=www.mediaite.com
+@@||ads.adthrive.com/api/$domain=mediaite.com|packhacker.com
+@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=mediaite.com|packhacker.com
+@@||ads.adthrive.com/sites/$script,domain=mediaite.com|packhacker.com
 @@||ads.dollartree.com/SneakPeek/$~third-party
 @@||ads.exoclick.com/*.js$script,domain=gelbooru.com
 @@||ads.freewheel.tv/|$media,domain=cnbc.com|fxnetworks.com|my.xfinity.com|nbc.com|nbcsports.com
@@ -57573,7 +57571,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /assets/ga.js
 /assets/smarttag-$script
 /assets/tracking-
-/assets/uts/*
 /assign.gif?
 /assignments/impressions
 /AssyncCSStats.aspx
@@ -61693,8 +61690,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /utag.loader.
 /utag.sync.
 /utag_data.
-/util/trk2.php?
-/util/trk3.php?
 /utils/analytics.js
 /utils~analytics.
 /utm-tracking.
@@ -61703,15 +61698,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /utrack.js?
 /utrack?
 /utracker.js
-/uts-no-vea.js
-/uts-vec.
-/uts/log?
-/uts/t/*
 /uutils.fcg?
-/uvstat.js
 /ux_analytics/*
 /ux_analytics_
-/uxm_tracking.
 /v.gif?
 /v1/adn/visit|
 /v1/analytics.js
@@ -61846,22 +61835,17 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /vtrack?vid=
 /vtracker.$domain=~vtracker.org
 /vTracker_
-/vuukle-analytics.
 /vwFiles/analytics/*
-/vztrack.gif?
-/vzTracker/*
 /w.gif?
 /wa.gif?
 /wa?ctag
 /wa_tracker.
 /wa_tracker_
-/wadsAdsLoaded/*
 /wanalytics/*
 /watchonline_cookies.
 /wbstats/index/*
 /wcount.php?
 /wdg/tracking-
-/wdg_tracking-
 /web-analytics.
 /web-analytics/*
 /web-api/log/*
@@ -61870,53 +61854,34 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /web-vitals-
 /web-vitals.
 /web-vitals/*
-/web.gif?*&referral_
 /web/analytics.$script
 /web/push?
 /web_analytics/*
 /web_answertip.
-/web_cm_event?
-/Web_JS.gif?
 /Web_JS_Stats.
 /web_logger/*
-/web_page_view?
 /web_tracking_
 /web_traffic_capture.js
 /webabacus-$script
 /WebAnalytics.$domain=~webanalytics.italia.it
 /webAnalytics/*
-/webanalytics3.
-/WebAnalyticsInclude.
-/webanalyticsssl.
-/webapiv2/log/*
-/webbug.png?
-/webbug/*
-/webbug_c.gif?
 /webc-tracking-
 /webc/tracking/*
 /webcounter/*
 /webdig.js
 /webdig_test.js
-/webforensics/*
 /webiq.$domain=~webiq.co.nz
 /webiq/*
 /webiq_
 /weblog.js?
 /weblog.php?
-/WebLogScript.
-/WebLogWriter.
-/webmetricstracking.
 /webmonitor/collect/*
-/WebPageEventLogger.
 /webstat.js
-/webstat/cei_count.asp?
 /WebStat2.
 /webstat_
 /webstatistics.php?
-/webstatistik/track.asp
 /webstats.js
 /webstats.php
-/webstats/index?
 /webstats/stat
 /webstats/track.php?
 /webstats_counter/*
@@ -61925,28 +61890,20 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /webtracker.
 /webTracking.$domain=~webtracking.girard-agediss.com
 /webtracking/*$~subdocument,domain=~wwwapps.ups.com
-/WebTrackingHandler.
-/WebTrackingService.
 /webtraffic.js
 /webtraxs.
 /webtrekk_mediaTracking.
 /webtrekk_teaserTracking.
 /webtrends.min.
 /webtrends/webtrends.
-/WebTrendsAnalytics/*
-/wego.farmer.
 /weizenbock/dist/*
 /wf-beacon-
 /wffm-cookies.
 /wfmanalytics/*
 /wh_tracking.
-/where-go-add.js
 /whisper?event=
 /white_pixel.gif?
-/whos.amung.us.classic.
 /widget/track_event
-/wijitTrack.gif?
-/WikiaStats/*
 /wildfire/i/CIMP.gif?
 /wisdom_tracking.
 /wiseRtSvcVisit.
@@ -61975,29 +61932,20 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /wp-statistics/v2/hit?
 /wp-stats-manager/js/wsm_new.js
 /wp-useronline/useronline.
-/wp.gif?wpi
 /wp_stat.php?
-/wpblog.gif?
 /wpengine-analytics/*
-/wprum.
 /wps-visitor-counter/*
 /wpstatistics/*
 /wrapper/metrics/*
-/Wrappers?cmd=
 /WRb.js
 /wreport.js
 /writeKAStats/*
 /writelog.js
-/writrak.
-/written-analytics.
 /wsStats.
 /wsStats_
 /wstat.pl
 /wstats.php?
 /wsTracking.
-/wt.js?http
-/wt.pl?p=
-/wt?p=
 /wt_capi.js
 /wtbase.js
 /wtbase2.
@@ -62005,8 +61953,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /wtcollect.
 /wtcore.js
 /wtd.gif?
-/WTdcsCollect.
-/WTFarmersSite.
 /wtid.js
 /wtinit.js
 /wtrack?event=
@@ -62021,68 +61967,36 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /x.gif?
 /x_track.php?
 /xgemius.
-/xgemius_lv.
-/xgemius_v2.
 /xgenius.
-/xhr/b/c
-/xhr/b/s|
-/xitcore-min.js
 /xiti.js
-/xiti_mesure_clics.
-/xiti_oas/*
-/xitistatus.js
-/xmint/?js
 /xn_track.
 /xstat.aspx?
 /xstat/*
-/xtanalyzer_roi.
 /xtclick.
 /xtclicks-$script
 /xtclicks.
 /xtclicks_
 /xtcore.js
 /xtcore_
-/xtcoreSimpleTag.
-/xtplug.
-/xtplugar.
-/xtrack.php?
-/xtrack.png?
 /xtroi.js
-/xy.gif?
 /yad_sortab_cetlog.js
 /yandex-metrica-watch/*
 /yandex-metrika.js
 /yastat.js
-/ybn_pixel/*
 /yell-analytics-
 /yell-analytics.
 /yna_stat.
 /youtubeVideoAnalytic.js
-/ystat.do
 /ystat.js
 /yt-track-streamer
 /z.gif?
-/z.inc.php?
-/zag.gif?
-/zagcookie.
 /zaguk.gif?
-/ZagUser.js
 /zaius-min.js
-/zaius.gif?
 /zaius.js
 /zanox.js
 /zdcc.min.js
-/zddmp.min.js
-/zdgurgler.min.js
-/zemtracker.
 /zhugeio.js
-/zig.js
-/zig_c.min.js
-/zonapixel.
-/zone-log.
-/ztagtrackedevent/*
 /ztracker.js
-/zxc.gif?
 ://analytics.*/collect
 ://analytics.*/event
 ://analytics.*/hits/
@@ -69678,7 +69592,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.perfops.net^
 ||rum.uptime.com^
 ||run.app/data.log
-||run.app/events
 ||run.app/metrics/
 ||s-microsoft.com/mscc/$~stylesheet
 ||s.autopilotapp.com^
@@ -72342,6 +72255,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.condenastdigital.com^
 ||rum.kobo.com^
 ||rumble.com/l/
+||run.app/events$domain=imgur.com
 ||rv.modanisa.com^$script
 ||s.infogram.com^
 ||saa.insideedition.com^
@@ -95256,6 +95170,7 @@ vrv.co##+js(set, analytics.options.integrations, noopFunc)
 ||trust-provider.com^*/trustlogo.js$3p,badfilter
 @@||myntra.com/beacon/user-data^$xhr,1p
 @@*google*$script,frame,xhr,domain=kulturalnemedia.pl
+@@||api.calven.app/analytics/$xhr,domain=calven.app|calven.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -102395,7 +102310,7 @@ vrv.co##+js(set, analytics.options.integrations, noopFunc)
 # entries:        3752
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
-# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
+# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=233270
 # Patreon:        https://patreon.com/blocklist
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
