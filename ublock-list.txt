@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: J2WMzuqv3ol7EBpu01tiGA
+! Checksum: yIT23A0QZw2bp64hfAvRNg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303252031
-! Last Modified: 2023年03月25日 20:31
+! Version: 202303260219
+! Last Modified: 2023年03月26日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -91293,7 +91293,6 @@ streamonfoot.xyz##[href="https://fcstream.com/banniere.html"]
 streamonfoot.xyz##[href^="/go.php"]
 burnbutt.com##+js(acis, document.addEventListener, google_ad_client)
 ||filma24.*/*.gif$image
-||vidmoly.to/static/vastAD.js$script
 filma24.*###vidad
 filma24.*##[href^="https://bit.ly/"]
 filma24.*##[href="https://codeit.al/services/"]
@@ -91496,13 +91495,11 @@ chortle.co.uk,coloring.ws,dltk-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com
 /prebid-ads/adsensebase.js$script,redirect-rule=prebid-ads.js
 /prebid-article-ad-ad-300x250.js$script,redirect-rule=prebid-ads.js
 @@/js/prebid-ads.js$script,1p
-#@#.ad-left
 #@#.ad-link
-##.ad-left:not(.adsbox)
 ##.ad-link:not(.adsbox)
 #@#.ad-unit
 #@#.ad_unit
-##.ad-unit:not(.text-ad)
+~lamire.jp##.ad-unit:not(.text-ad)
 ##.ad_unit:not(.text-ad)
 ||doubleclick.net^$xhr,redirect=noop.txt
 ||com/|$xhr,3p,redirect-rule=noop.txt
@@ -92276,6 +92273,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||jmdinfotechs.com^$all
 ||mjroulette.xyz^$all
 ||sakuriggd.online^$all
+||flexedfitt.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -92643,6 +92641,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||fapello.xyz^$all
 ||xmview.cn^$all
 ||jsbetzh.com^$all
+||sersdlos.cyou^$all
 ||obsproicet.net^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
@@ -93101,7 +93100,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||topcashback.*/*.aspx$all
 ||adblockers.b-cdn.net^$all
 ||pleasetrack.com^$all
-||tesla-online.net^$all
 ||tor-browser-rus.ru^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
