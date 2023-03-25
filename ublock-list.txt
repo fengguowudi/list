@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rRPzErcohHwvQGypAue54g
+! Checksum: J2WMzuqv3ol7EBpu01tiGA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303251421
-! Last Modified: 2023年03月25日 14:21
+! Version: 202303252031
+! Last Modified: 2023年03月25日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -91377,6 +91377,8 @@ go.fire-link.net##+js(ra, onclick, [onclick^="window.open"])
 yofaurls.com##+js(nowoif)
 go.fire-link.net##.banner-inner
 coin-free.com##+js(aopw, _pop)
+cryptopaid.net##+js(no-fetch-if, googlesyndication)
+dash-free.com##+js(set, go_popup, {})
 dash-free.com##+js(aopr, absda)
 dash-free.com##+js(set, blurred, false)
 dash-free.com,softairbay.com,urlfiles.com##+js(aopr, app_vars.force_disable_adblock)
@@ -93207,6 +93209,7 @@ nikita.tk##+js(aost, document.cookie)
 ppss.kr,ygosu.com,tgd.kr,inven.co.kr,loawa.com,feedclick.net,dailian.co.kr,algumon.com,sportalkorea.com##+js(aeld, DOMContentLoaded, _0x)
 ppss.kr,ygosu.com,tgd.kr,inven.co.kr,loawa.com,feedclick.net,dailian.co.kr,algumon.com,sportalkorea.com##^script:has-text(ad-shield)
 ||da29e6b8-f018-490f-b25f-39a887fc95e7.xyz^
+||15823f12-289e-4189-9e51-e2de1bf1a105.online^$xhr,ping
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,3p,match-case
 ||connectier.io^
 ||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,redirect=fingerprint2.js,important
