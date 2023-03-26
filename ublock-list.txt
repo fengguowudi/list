@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yIT23A0QZw2bp64hfAvRNg
+! Checksum: EW5VwJVX2jIwGF2UxhLeEw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303260219
-! Last Modified: 2023年03月26日 02:19
+! Version: 202303260937
+! Last Modified: 2023年03月26日 09:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16628,6 +16628,7 @@ _800x80_
 ##.firstpost_advert_container
 ##.fix_ad
 ##.fixadheight
+##.fixadheightbottom
 ##.fixed-ad-aside
 ##.fixed-ads
 ##.fixed-sidebar-ad
@@ -52067,7 +52068,7 @@ allscrabblewords.com,famously-dead.com,famouslyarrested.com,famouslyscandalous.c
 allscrabblewords.com,famously-dead.com,famouslyarrested.com,famouslyscandalous.com,mpog100.com##.ad2
 allscrabblewords.com,mpog100.com##.ad3
 cricketcountry.com##.ad90mob300
-chron.com,greenwichtime.com,sfchronicle.com,thetelegraph.com,timesunion.com##.adBanner
+chron.com,greenwichtime.com,mysanantonio.com,sfchronicle.com,thetelegraph.com,timesunion.com##.adBanner
 bigislandnow.com##.adBreak
 m.economictimes.com,trailspace.com##.adContainer
 anews.com.tr##.adControl
@@ -92347,6 +92348,14 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||saworbpox.com^$all
 ||pornonenight.com^$all
 ||smarttvnew.live^$all
+/asdfghjkl.tech/index.html$doc
+/mooncars/rover/chasra*/index.php$doc
+/systemerror-win-chx/?$doc
+/systemerror-win-chx1/?$doc
+/Win001Security000Er0Vis00Er007/index.php$doc
+||jamaretana.shop^$all
+||naramgaram.online^$all
+||windowshelps.site^$all
 ||securitydefender.xyz^$all
 ||my-hookup-clubs1.com^$all
 ||localsexfinderxxx4.com^$all
@@ -93097,7 +93106,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||imgfarm.com/images/dlp2/prod$3p
 ||myway.com^$all
 /anemone-*.min.js$script,1p
-||topcashback.*/*.aspx$all
 ||adblockers.b-cdn.net^$all
 ||pleasetrack.com^$all
 ||tor-browser-rus.ru^$all
@@ -95377,6 +95385,7 @@ vrv.co##+js(set, analytics.options.integrations, noopFunc)
 @@||myntra.com/beacon/user-data^$xhr,1p
 @@*google*$script,frame,xhr,domain=kulturalnemedia.pl
 @@||api.calven.app/analytics/$xhr,domain=calven.app|calven.com
+@@||googletagmanager.com/gtm.js$script,domain=nespresso.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -102521,7 +102530,7 @@ vrv.co##+js(set, analytics.options.integrations, noopFunc)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 30 Mar 2003 00:00:00
+# start date:    Mon, 31 Mar 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
