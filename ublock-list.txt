@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EZW8V6PorpjHyrL2h9M6BA
+! Checksum: 4JkyVju19ycdOWQbKdsNiA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303282036
-! Last Modified: 2023年03月28日 20:36
+! Version: 202303290222
+! Last Modified: 2023年03月29日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15024,6 +15024,7 @@ _800x80_
 ##.anzeige_banner
 ##.ap-ad-block
 ##.apadam-ads
+##.ape-ads-container
 ##.apexAd
 ##.apiAdMarkerAbove
 ##.apiAds
@@ -89176,6 +89177,9 @@ buffstreams.*##.m-1.fw-bold.btn-danger.btn
 tritinia.com##ins.adsbygoogle
 nsfwyoutube.com##pp
 *$xhr,3p,domain=nsfwyoutube.com
+/t.js?i=*&cb=$script,3p
+||sopalk.com^
+||wrufer.com^
 mypornstarbook.net##+js(acis, document.querySelectorAll, popMagic)
 i-bits.io##+js(nano-sib, seconds)
 i-bits.io##ins[class][style^="display:inline-block;width:"]
@@ -91752,7 +91756,7 @@ mangastream.mobi###myModal
 ###ad_728:not([style^="position: absolute; left: -5000px"])
 ###ad_area:not([style^="position: absolute; left: -5000px"])
 ###ad_big:not([style^="position: absolute; left: -5000px"])
-###ad_box:not([style^="position: absolute; left: -5000px"])
+~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 ###ad_footer:not([style^="position: absolute; left: -5000px"])
 ###ad_slot:not([style^="position: absolute; left: -5000px"])
 ~musmus.main.jp,~streetinsider.com###ad_space:not([style^="position: absolute; left: -5000px"])
@@ -92556,6 +92560,11 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||mjroulette.xyz^$all
 ||sakuriggd.online^$all
 ||flexedfitt.com^$all
+||grakorte.com^$all
+/click.php?key=*&zone_id=$doc
+||cxchutiyahotah.online^$all
+.online/a/eeeekayresrsammicraaajkaschhoilsebadhiyakuchtanahiaayaajturuionmeebbat/$doc
+||nothingworking.xyz^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
@@ -92944,6 +92953,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||crilnj.cn^$all
 ||pf0755.cn^$all
 ||fsvacations.com^$all
+||baoding66.top^$all
+||hohshops.com^$all
 ||obsproicet.net^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
@@ -94884,6 +94895,7 @@ lebigdata.fr##.background-cover
 ||bde4.cc^$csp=script-src 'self' * 'unsafe-inline',badfilter
 @@||javbucks.com^$css,domain=javhd.com
 ||otaserve.net^$frame,redirect-rule=noop.html,domain=chan.sankakucomplex.com
+chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
 @@||votespa.com/banners/*$image,1p
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$xhr,domain=cbssports.com
 uktvplay.uktv.co.uk##.video-overlay
