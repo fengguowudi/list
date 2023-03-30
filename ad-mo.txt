@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uYuV5epff7Asu5boZ0Y6SA
+! Checksum: r7Q2zU7e+CcGKgqatiayRw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202303300933
-! Last Modified: 2023年03月30日 09:33
+! Version: 202303301423
+! Last Modified: 2023年03月30日 14:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -52207,6 +52207,7 @@ planetradio.co.uk###inline-02
 planetradio.co.uk###inline-03
 datamation.com,esecurityplanet.com,eweek.com,serverwatch.com,webopedia.com###inline-top
 krnb.com###inner-footer
+workhouses.org.uk###inner-top-ad
 timesofmalta.com###inscroll-banner
 imagebam.com###inter > [src]
 booklife.com,yabeat.org###interstitial
@@ -52894,6 +52895,7 @@ dallasinnovates.com##.ads-article-body
 gosunoob.com,indianexpress.com,roblox.com,spotify.com,wccftech.com##.ads-container
 fintech.tv##.ads-img
 games2jolly.com##.ads_310_610_sidebar_new
+metro.co.uk##.ads__index__adWrapper--cz7QL
 glanceoflife.com##.ads_margin
 lightnovelpub.com##.adsbox
 informer.com##.adsbygoogle
@@ -54081,6 +54083,7 @@ gadgetsnow.com##.mercwapper
 audiokarma.org##.message > center b
 eawaz.com##.metaslider
 metro.co.uk##.metro-discounts
+metro.co.uk##.metro-ow-modules
 moviefone.com##.mf-incontent
 moneycontrol.com##.mf_radarad
 wethegeek.com##.mfp-content
@@ -55249,6 +55252,7 @@ beforeitsnews.com,highshortinterest.com##[href^="https://tinyurl.com/"]
 minidl.org##[href^="https://uploadgig.com/premium/index/"]
 cricket.com##[href^="https://www.a23.com/downloads.html?"] > img
 mailshub.in##[href^="https://www.amazon.in/"]
+workhouses.org.uk##[href^="https://www.awin1.com"]
 businessonhome.com##[href^="https://www.binance.com/en/register?ref="]
 bleepingcomputer.com##[href^="https://www.bleepingcomputer.com/go/"]
 health.news,naturalnews.com,newstarget.com##[href^="https://www.brighteon.tv"]
@@ -60559,6 +60563,10 @@ newduba.cn###jq_youxi
 ||bdcd2.com^
 ||tfcoverss.live^
 ||qbtd.xyz^
+||xiaozengyyds.com^
+||yangsir.xyz^
+||qianqian.red^
+||gcejdac.cn^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -88412,6 +88420,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||automaticflock.com^
 ||automaticside.com^$third-party
 ||avalonalbum.com^
+||averageactivity.com^
 ||averageamusement.com^
 ||awakebird.com^$third-party
 ||awarealley.com^
@@ -93088,6 +93097,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.nexx.cloud/*/session/
 ||artemis-cdn.ocdn.eu^
 ||audimark.de/tracking/
+||ba-content.de/cds/log/
 ||bcs-computersysteme.com/cgi-local/hiddencounter/
 ||beagle.prod.tda.link^
 ||blacktri-a.akamaihd.net^
@@ -107788,6 +107798,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||url9609.account.experience-muse.com^
 !-----------------International individual tracking systems-----------------!
 ||agnes.waz.de^
+||analytics.adliners.de^
 ||analytics.daasrv.net^
 ||analytics.deutscher-apotheker-verlag.de^
 ||analytics.moviepilot.de^
