@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: A8UKrsx36u76w2H7FugvBQ
+! Checksum: DSn0zzDauGVBhI6Eg+2q3A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202303310926
-! Last Modified: 2023年03月31日 09:26
+! Version: 202303311422
+! Last Modified: 2023年03月31日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52726,6 +52726,7 @@ imasdk.googleapis.com##.autoalign.nonLinearContainer
 iai.tv##.auw--container
 theblueoceansgroup.com##.av-label
 thehackernews.com##.av-side-box-1
+tutsplus.com##.avert
 airfactsjournal.com##.avia_image
 kisscenter.net,kissorg.net,ksnews.me##.avm
 gameplanet.co.nz##.avt-mr
@@ -96316,6 +96317,7 @@ vrv.co##+js(set, analytics.options.integrations, noopFunc)
 @@||googletagmanager.com/gtm.js$script,domain=nespresso.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=mediaite.com
 @@||cdn.viglink.com/api/$script,domain=9to5google.com
+jayisgames.com##.widget-topad:style(padding-bottom: 20px !important;)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
