@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nt4WO5b+5tc0VoHzg3mPZw
+! Checksum: cOIEg/BY1LpAZWt7cufPUg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304011420
-! Last Modified: 2023年04月01日 14:20
+! Version: 202304012030
+! Last Modified: 2023年04月01日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52327,7 +52327,9 @@ tumblr.com##.Yc2Sp
 olympics.com##.\-partners
 swarajyamag.com##._1eNH8
 afkgaming.com##._2-COY
+motortrend.com##._2IzhW
 jeffdornik.com##._2kEVY
+motortrend.com##._2xd_t
 coderwall.com##._300x250
 timesofindia.indiatimes.com##._3JJMX
 deviantart.com##._3bkGl
@@ -72204,7 +72206,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cultofmac.com/djrxqhzkbsgf.js
 ||cvs.com/tnadstlinj.js
 ||d.cdngeek.com^$domain=edugeek.net
-||d.getpocket.com^
 ||d.skk.moe^
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
@@ -89488,6 +89489,9 @@ pinayvids.com##+js(acis, document.querySelectorAll, popMagic)
 pinayvids.com##+js(aopr, decodeURI)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=10play.com.au
 10play.com.au##.content__ad__content
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=10play.com.au
+@@||global.ssl.fastly.net^$domain=10play.com.au
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10play.com.au
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/streams$xhr,domain=10play.com.au
 10play.com.au##+js(m3u-prune, /^https?:\/\/redirector\.googlevideo\.com.*/, /.*m3u8/)
 ||sered.net^$3p
@@ -91934,6 +91938,7 @@ javside.com##+js(aopr, AaDetector)
 imgflare.com##+js(acis, document.querySelectorAll, popMagic)
 steamcrackedgames.com##+js(set, document.onclick, null)
 katmoviefix.*##+js(aopr, Request)
+katmoviefix.*##+js(noeval-if, ads)
 livesexporn.net##+js(acis, onload, Math)
 g3g.*##+js(aopw, _pop)
 g3g.*##.text-center.alert-danger.alert-dismissible.alert
@@ -94108,6 +94113,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||adblockers.b-cdn.net^$all
 ||pleasetrack.com^$all
 ||tor-browser-rus.ru^$all
+||fillvpn.com^$all
+||sharapako.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -96394,8 +96401,10 @@ vrv.co##+js(set, analytics.options.integrations, noopFunc)
 @@||cdn.viglink.com/api/$script,domain=9to5google.com
 jayisgames.com##.widget-topad:style(padding-bottom: 20px !important;)
 @@||fpnpmcdn.net/v*/loader$script,domain=app.writesonic.com
-@@||cc-api-data.adobe.io/ingest/?api_key=cchome-web-service$xhr,domain=creativecloud.adobe.com
 *$image,redirect-rule=1x1.gif,domain=go-girl.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gem.cbc.ca
+/chartbeat/*$badfilter
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=pac-12.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
