@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cOIEg/BY1LpAZWt7cufPUg
+! Checksum: re/mSLqoBGXlIVySDkrpCg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304012030
-! Last Modified: 2023年04月01日 20:30
+! Version: 202304020219
+! Last Modified: 2023年04月02日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -10838,6 +10838,9 @@ _800x80_
 ##.ad-cat
 ##.ad-catfish
 ##.ad-cell
+##.ad-cen
+##.ad-cen2
+##.ad-cen3
 ##.ad-center
 ##.ad-centered
 ##.ad-centering
@@ -11107,6 +11110,8 @@ _800x80_
 ##.ad-large-1
 ##.ad-large-game
 ##.ad-last
+##.ad-lat
+##.ad-lat2
 ##.ad-layer
 ##.ad-lazy
 ##.ad-lb
@@ -20448,6 +20453,7 @@ _800x80_
 ##.tile_ad_container
 ##.tips_advertisement
 ##.title-ad
+##.tl-ad-container
 ##.tmiads
 ##.tmo-ad
 ##.tmo-ad-ezoic
@@ -48887,6 +48893,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||clicknplay.to/api/spots/
 ||cloud.setupad.com^
 ||cloudbet.com/ad/
+||cloudfront.net/js/script_tag/new/sca_affiliate_
 ||cloudfront.net^$domain=igg-games.com
 ||cloudfront.net^*/sponsors/$domain=pbs.org
 ||coinmama.com/assets/img/banners/
@@ -52640,7 +52647,7 @@ schoolguide.co.za##.banner-bar-bot
 pretoria.co.za##.banner-bg
 azernews.az##.banner-block
 dailycoffeenews.com##.banner-box
-nscreenmedia.com,whoscored.com##.banner-container
+countdown.co.nz,nscreenmedia.com,whoscored.com##.banner-container
 soccerway.com##.banner-content
 insidebitcoins.com##.banner-cta-wrapper
 news12.com##.banner-homePageSidebar-area
@@ -55605,6 +55612,7 @@ bing.com##.pa_sb
 bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
+countdown.co.nz#?#cdx-card:-abp-has(product-badge-list)
 pigglywigglystores.com#?#.fp-item:-abp-has(.fp-tag-ad)
 wowcher.co.uk#?#.two-by-two-deal:-abp-has(a[href*="src=sponsored_search_"])
 sainsburys.co.uk#?#.productESpot:-abp-has(.strapline:-abp-contains(Sponsored))
@@ -68589,6 +68597,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/storejs/a/JKRHRQG/ge.js
 ||amazonaws.com/v1/apps/*/events
 ||amazonaws.com^*/prod_analytics
+||amazonpay.com/customerInsight?
 ||amp-error-reporting.appspot.com^
 ||amplify.outbrain.com^$third-party
 ||amplifypixel.outbrain.com^
@@ -69915,6 +69924,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p0.com/1x1
 ||paddle.com^*/analytics.js
 ||page-events-ustats.udemy.com^
+||pagefly.io/pagefly/core/analytics.js
 ||pages-stats.rbl.ms^
 ||pagesense-collect.zoho.com^
 ||pagesocket.glam.com^
@@ -70183,6 +70193,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||shareit.com/affiliate.html$third-party
 ||sharethis.com/increment_clicks?
 ||sharethis.com/pageviews?
+||shopify.com/shopifycloud/consent-tracking-api/
 ||shopify.com/shopifycloud/web-pixels-manager/
 ||shoplocal.com/it.ashx?
 ||shopnetic.com^$third-party
@@ -86376,8 +86387,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||omataloyhtio.fi/statb.asp
 ||puutarha.net/ffsw-pushcrew.js
 ||puutarha.net/statb.asp
-||rac.ruutu.fi/rac.gif$image
-||rac.ruutu.fi/sat/sat.gif$image
+||rac.ruutu.fi^
 ||rakentaja.fi/kuvat/pi.gif$image
 ||rantapallo.fi/s/redirect/tracking?
 ||stat.mtv3.fi^
@@ -89843,7 +89853,7 @@ comixzilla.com##+js(acis, document.createElement, 'script')
 unsurcoenlasombra.com##+js(aopr, google_jobrunner)
 watchmovierulz.*##+js(nowoif)
 anigogo.net,animepl.xyz,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,faptiti.com,fbgo.*,gdpress.xyz,goana.xyz,gomovizplay.com,hlsplayer.xyz,javplaya.com,oxl.one,playersb.com,sbanh.com,sbbrisk.com,sbchill.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbhight.com,sblanh.com,sblongvu.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.*,ssbstream.net,streamsb.*,streamsss.net,subsb.net,tubesb.com,vidmovie.xyz,view345.com,viewsb.com,watchsb.com,xvideostream.net##+js(aopr, __Y)
-anigogo.net,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,fbgo.*,gdpress.xyz,gomovizplay.com,hlsplayer.xyz,oxl.one,playersb.com,sbanh.com,sbbrisk.com,sbchill.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbhight.com,sblanh.com,sblongvu.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.net,ssbstream.net,streamsb.*,streamsss.net,subsb.net,tubesb.com,vidmovie.xyz,view345.com,viewsb.com,watchsb.com##+js(aopr, mm)
+anigogo.net,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,fbgo.*,gdpress.xyz,gomovizplay.com,hlsplayer.xyz,oxl.one,playersb.com,sbanh.com,sbbrisk.com,sbchill.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbface.com,sbfast.com,sbflix.*,sbfull.com,sbhight.com,sblanh.com,sblongvu.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.net,ssbstream.net,streamsb.*,streamsss.net,subsb.net,tubesb.com,vidmovie.xyz,view345.com,viewsb.com,watchsb.com##+js(aopr, mm)
 sbembed1.com,sbvideo.*##+js(aopr, console.clear)
 cloudemb.com##+js(nowoif, !/^\/d\//)
 cloudemb.com##+js(set, console.clear, noopFunc)
@@ -89874,7 +89884,7 @@ theblissempire.com##+js(set, blurred, false)
 theblissempire.com##+js(aopr, open)
 uploadflix.org##+js(nano-stb, seconds)
 ||uploadflix.org/sw.js$xhr,1p
-*$3p,denyallow=bootstrapcdn.com|cloudflare.net|fontawesome.com,domain=uploadflix.org
+*$3p,denyallow=bootstrapcdn.com|cloudflare.net|fontawesome.com|hwcdn.net|jquery.com|uploadflix.cyou,domain=uploadflix.org
 kisscartoon.info##.offads
 kisscartoon.info##.countdown
 ||max-adserv.com^$3p
@@ -91892,7 +91902,7 @@ chortle.co.uk,coloring.ws,dltk-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com
 ##.ad-link:not(.adsbox)
 #@#.ad-unit
 #@#.ad_unit
-~lamire.jp##.ad-unit:not(.text-ad)
+~lamire.jp##.ad-unit:not(.text-ad):not(:empty)
 ##.ad_unit:not(.text-ad)
 ||doubleclick.net^$xhr,redirect=noop.txt
 ||com/|$xhr,3p,redirect-rule=noop.txt
@@ -91900,7 +91910,6 @@ chortle.co.uk,coloring.ws,dltk-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com
 ||realsrv.com/popunder1000.js$xhr,redirect=noop.txt
 ||exdynsrv.com/video-slider.js$xhr,redirect=noop.txt
 mymusicreviews.com,thechat.cafe##+js(aopr, chp_adblock_browser)
-diskizone.com,javboys.com,poapan.xyz##+js(noeval-if, fairAdblock)
 globfone.com##+js(no-xhr-if, ads)
 donugdee.com##.ad-overlay-click
 donugdee.com##.moviePlayer
@@ -94043,6 +94052,133 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||znapybthaneyjepbrinwitkc.com^$doc
 ||zu40z6f9eh7od5.jp^$doc
 ||taosaleset.com^$all
+||0281.jp^$doc
+||0909810.com^$doc
+||093093.jp^$doc
+||11093.jp^$doc
+||19093.jp^$doc
+||2349.jp^$doc
+||2h1.jp^$doc
+||39093.net^$doc
+||39093.tv^$doc
+||4151.biz^$doc
+||4151.tv^$doc
+||55093.com^$doc
+||55bdsm.com^$doc
+||aeru.tv^$doc
+||affairdating.com^$doc
+||aitai.biz^$doc
+||amantssexy.com^$doc
+||askme4date.com^$doc
+||b-7.jp^$doc
+||babaroa.net^$doc
+||bbs-7.jp^$doc
+||bbsdx.jp^$doc
+||benbbs.net^$doc
+||bnbn.jp^$doc
+||c-y.jp^$doc
+||celcol.jp^$doc
+||celebri.jp^$doc
+||choucreme.com^$doc
+||chy.jp^$doc
+||cjok.net^$doc
+||crostol.com^$doc
+||datenabi.com^$doc
+||doem.jp^$doc
+||ebifri.com^$doc
+||eraberu.jp^$doc
+||erocm.com^$doc
+||flirtanu.com^$doc
+||flirtmoms.com^$doc
+||freedom-garden.com^$doc
+||freesexmatch.com^$doc
+||geh.jp^$doc
+||getnaughty.com^$doc
+||gofun.jp^$doc
+||gspo.jp^$doc
+||guj.jp^$doc
+||guw.jp^$doc
+||h093.net^$doc
+||hipma.jp^$doc
+||hmai.jp^$doc
+||hmhm.jp^$doc
+||hoct.cc^$doc
+||hxh.jp^$doc
+||igetnaughty.com^$doc
+||irha.jp^$doc
+||jnjn.jp^$doc
+||jukcha.com^$doc
+||jukuana.net^$doc
+||jyk.jp^$doc
+||kadak.jp^$doc
+||kanbbs.net^$doc
+||kokanjo.net^$doc
+||koubi.jp^$doc
+||koy.jp^$doc
+||ksds.jp^$doc
+||linblog.info^$doc
+||linguette.net^$doc
+||locals.dating^$doc
+||loveju.net^$doc
+||mamak.jp^$doc
+||matchx2.com^$doc
+||meetdatekiss.com^$doc
+||meetpie.net^$doc
+||mejp.net^$doc
+||mgirl.jp^$doc
+||mland.jp^$doc
+||mmnav.jp^$doc
+||moecoco.com^$doc
+||mymymy.net^$doc
+||natadecoco.net^$doc
+||naughtydate.com^$doc
+||newhoney.jp^$doc
+||nuide.net^$doc
+||oneisan.net^$doc
+||oolontya.com^$doc
+||pair-pair.com^$doc
+||panacota.net^$doc
+||piparelli.net^$doc
+||pirikitos.com^$doc
+||pmew.jp^$doc
+||pnav.jp^$doc
+||quickflirt.com^$doc
+||ricopin.com^$doc
+||scnv.jp^$doc
+||serev.net^$doc
+||sfg.jp^$doc
+||sfge.jp^$doc
+||singles50.jp^$doc
+||smab.jp^$doc
+||smism.jp^$doc
+||smmax.jp^$doc
+||soha.jp^$doc
+||sok8.net^$doc
+||stomatico.com^$doc
+||suguaitaina.com^$doc
+||suguao.net^$doc
+||sumatuma.com^$doc
+||sxe.jp^$doc
+||syasei.com^$doc
+||tapi2.jp^$doc
+||tarto.net^$doc
+||tendermeetonline.com^$doc
+||tendermeets.com^$doc
+||tinql.com^$doc
+||together.com^$doc
+||topg.jp^$doc
+||tubakinohimitsu.amebaownd.com^$doc
+||tugonoyoi.com^$doc
+||twowife.com^$doc
+||txtx.jp^$doc
+||ulla.com^$doc
+||uniformdating.com^$doc
+||wantubad.com^$doc
+||wildmeets.com^$doc
+||xgal.jp^$doc
+||xzo.jp^$doc
+||yceleb.com^$doc
+||yourskiss.com^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -96405,6 +96541,7 @@ jayisgames.com##.widget-topad:style(padding-bottom: 20px !important;)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gem.cbc.ca
 /chartbeat/*$badfilter
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=pac-12.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=vtvgiaitri.vn,redirect-rule=google-ima.js
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
