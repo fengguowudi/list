@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +xXNCwFYxSJLMSacmLSiEA
+! Checksum: jtrTeOdF2ky3Mf7JUB1ZbA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304042033
-! Last Modified: 2023年04月04日 20:33
+! Version: 202304050219
+! Last Modified: 2023年04月05日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54914,7 +54914,7 @@ libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com##[hre
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
 steroid.com##[href*="anabolics.com"]
 9jaflaver.com,alaskapublic.org,allkeyshop.com,analyticsinsight.net,ancient-origins.net,animeidhentai.com,arabtimesonline.com,biblestudytools.com,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,katfile.com,khmertimeskh.com,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,newsfirst.lk,nexter.org,owaahh.com,parkablogs.com,pastemytxt.com,premiumtimesng.com,railcolornews.com,resultuniraj.co.in,retail.org.nz,ripplesnigeria.com,rtvonline.com,thinknews.com.ng,timesuganda.com,totemtattoo.com,trancentral.tv,vumafm.co.za,wccftech.com,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
-beforeitsnews.com,bigleaguepolitics.com,in5d.com,mytruthnews.com,thetruedefender.com##[href*="hop.clickbank.net"]
+beforeitsnews.com,in5d.com,mytruthnews.com,thetruedefender.com##[href*="hop.clickbank.net"]
 eevblog.com##[href*="https://jlcpcb.com/"]
 eevblog.com##[href*="https://saving.em.keysight.com/"]
 yesflicks.com##[href="/location/amazon"]
@@ -56939,6 +56939,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||cbsi.com/dist/optanon.js$script,domain=cbsnews.com|zdnet.com
 @@||cdn.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||cdn.bidder.dev/clients/$script,domain=forces.net
+@@||chycor.co.uk/cms/advert_search_thumb.php$image,domain=chycor.co.uk
 @@||cio.com/www/js/ads/gpt_includes.js$~third-party
 @@||cloud.google.com^$~third-party
 @@||commons.wikimedia.org/w/api.php?$~third-party,xmlhttprequest
@@ -56995,9 +56996,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||gpt-worldwide.com/js/gpt.js$~third-party
 @@||grapeshot.co.uk/main/channels.cgi$script,domain=telegraph.co.uk
 @@||gstatic.com/ads/external/images/$image,domain=support.google.com
-@@||guim.co.uk/uploader/$image,~third-party
 @@||gumtree.co.za/my/ads.html$~third-party
-@@||hackread.com/wp-content/uploads/$image,~third-party
 @@||hotstar.com/vs/getad.php$domain=hotstar.com
 @@||hp.com/in/*/ads/$script,stylesheet,~third-party
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
@@ -57035,12 +57034,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||media.kijiji.ca/api/$image,~third-party
 @@||mediaalpha.com/js/serve.js$domain=goseek.com
 @@||micro.rubiconproject.com/prebid/dynamic/$script,domain=gamingbible.co.uk|ladbible.com
-@@||mobygames.com/images/covers/$image,~third-party
-@@||mobygames.com/images/promo/$image,~third-party
-@@||moremoney.io/promo/Advertise.svg$~third-party
 @@||motortrader.com.my/advert/$image,~third-party
 @@||mtouch.facebook.com/ads/api/preview/$domain=business.facebook.com
-@@||netdna-ssl.com/sbly-ads/sbly-prebid-$domain=seeitlive.co
 @@||newscgp.com/prod/prebid/nyp/pb.js$domain=nypost.com
 @@||nextcloud.com/remote.php/$~third-party,xmlhttprequest
 @@||nflcdn.com/static/site/$script,domain=nfl.com
@@ -57063,7 +57058,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||payload.cargocollective.com^$image,~third-party
 @@||pbs.twimg.com/ad_img/$image,xmlhttprequest
 @@||pepperjamnetwork.com/banners/$image,domain=extrarebates.com
-@@||phatcatmedia.net/images/ad.jpg$image,domain=allsonicgames.net
 @@||photofunia.com/effects/$image,~third-party
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||player.aniview.com/script/$script,domain=odysee.com
@@ -57085,8 +57079,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|techrepublic.com|zdnet.com
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 @@||rubiconproject.com/prebid/dynamic/$script,domain=ask.com
-@@||rumble.com/embedJS/$script,domain=usawatchdog.com
-@@||rumble.com/j/p/$script,domain=usawatchdog.com
 @@||runescape.wiki^$image,~third-party
 @@||s.ntv.io/serve/load.js$domain=titantv.com
 @@||salfordonline.com/wp-content/plugins/wp_pro_ad_system/$script
@@ -57095,8 +57087,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||sdltutorials.com/Data/Ads/AppStateBanner.jpg$~third-party
 @@||securenetsystems.net/advertising/ad_campaign_get.cfm?$xmlhttprequest
 @@||securitytrails.com/app/api/domain/$~third-party,xmlhttprequest
-@@||served-by.pixfuture.com/www/delivery/gcws.php$xmlhttprequest,domain=premiumtimesng.com
-@@||server.cpmstar.com/view.aspx?poolid=$domain=newgrounds.com
 @@||serviceads.co.uk/api/ad/$~third-party,xmlhttprequest
 @@||shopping.naver.net/ad/$image,script,stylesheet,domain=naver.com
 @@||showcase.codethislab.com/banners/$image,~third-party
@@ -57108,18 +57098,14 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||stat-rock.com/player/$domain=4shared.com|adplayer.pro
 @@||static.ziffdavis.com/sitenotice/*/settings.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.c|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||static.ziffdavis.com/sitenotice/evidon-sitenotice-bundle.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.c|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
-@@||stives.co.uk/cms/advert_search_thumb.php$image,domain=chycor.co.uk
 @@||summitracing.com/global/images/bannerads/
 @@||sundaysportclassifieds.com/ads/$image,~third-party
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
-@@||techadvisor.com/cmsdata/$image,~third-party
-@@||texasmonthly.com/wp-content/plugins/txmo-header-bidding/dist/js/txmo-prebid.js
 @@||thdstatic.com/experiences/local-ad/$domain=homedepot.com
 @@||thepiratebay.org/cdn-cgi/challenge-platform/$~third-party
 @@||thetvdb.com/banners/$image,domain=tvtime.com
 @@||thingiverse.com/assets/ad/$image,~third-party
 @@||townhall.com/resources/dist/js/prebid-pjmedia.js$script,domain=pjmedia.com
-@@||tpdads.com/configs/bigleaguepolitics.js$script,domain=bigleaguepolitics.com
 @@||tractorshed.com/photoads/upload/$~third-party
 @@||tradingview.com/adx/$subdocument,domain=adx.ae
 @@||trustprofile.com/banners/$image
@@ -57131,8 +57117,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_desktop_$xmlhttprequest
 @@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|today.com
 @@||v.fwmrm.net/crossdomain.xml$xmlhttprequest
-@@||volterra.io^*/advertise_policy$~third-party
-@@||volterra.us^*/advertise_policy$~third-party
 @@||warpwire.com/AD/
 @@||warpwire.net/AD/
 @@||web-ads.pulse.weatherbug.net/api/ads/targeting/$domain=weatherbug.net
@@ -73490,6 +73474,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||z492.ctinsider.com^
 ||z680.beaumontenterprise.com^
 ||zion.qbo.intuit.com^
+|zazzle.de/svc/px
 ||anthropologie.com/XgWM9nuH/init.js
 ||apartmenttherapy.com/jAYekY18/init.js
 ||auctionzip.com/eKtvxkQ2/init.js
@@ -73560,10 +73545,21 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||whois.com/js/gtmDataLayer.js
 ||wine-searcher.com/K6S8okp3/init.js
 ||worthpoint.com/lIUjcOwl/init.js
-||zazzle.ca/a0o07ort/init.js
-||zazzle.co.uk/a0o07ort/init.js
-||zazzle.com.au/a0o07ort/init.js
-||zazzle.com/a0o07ort/init.js
+||zazzle.ca/botdefender/init.js
+||zazzle.ca/svc/px
+||zazzle.co.nz/botdefender/init.js
+||zazzle.co.nz/svc/px
+||zazzle.co.uk/botdefender/init.js
+||zazzle.co.uk/svc/px
+||zazzle.com.au/botdefender/init.js
+||zazzle.com.au/svc/px
+||zazzle.com/botdefender/init.js
+||zazzle.com/svc/px
+||zazzle.de/botdefender/init.js
+||zazzle.es/botdefender/init.js
+||zazzle.es/svc/px
+||zazzle.fr/botdefender/init.js
+||zazzle.fr/svc/px
 ||zillow.com/HYx10rg3/init.js
 ||zoominfo.com/osx7m0dx/init.js
 ://a02342.
@@ -92004,13 +92000,22 @@ chortle.co.uk,coloring.ws,dltk-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com
 #@#.ad_unit
 ~lamire.jp##.ad-unit:not(.text-ad):not(:empty)
 ##.ad_unit:not(.text-ad)
+#@#[data-ad-module]
+#@#[data-ad-width]
+#@#[data-adblockkey]
+#@#[data-advadstrackid]
+#@#[data-ad-manager-id]
+##[data-ad-module]:not([style$="left: -10000px !important; top: -1000px !important;"])
+##[data-ad-width]:not([style$="left: -10000px !important; top: -1000px !important;"])
+##[data-adblockkey]:not([style$="left: -10000px !important; top: -1000px !important;"])
+##[data-advadstrackid]:not([style$="left: -10000px !important; top: -1000px !important;"])
+##[data-ad-manager-id]:not([style$="left: -10000px !important; top: -1000px !important;"])
 ||doubleclick.net^$xhr,redirect=noop.txt
 ||com/|$xhr,3p,redirect-rule=noop.txt
 ||net/|$xhr,3p,redirect-rule=noop.txt
 ||realsrv.com/popunder1000.js$xhr,redirect=noop.txt
 ||exdynsrv.com/video-slider.js$xhr,redirect=noop.txt
 mymusicreviews.com,thechat.cafe##+js(aopr, chp_adblock_browser)
-kenkou-maintenance.com##+js(aopr, adsBlocked)
 globfone.com##+js(no-xhr-if, ads)
 donugdee.com##.ad-overlay-click
 donugdee.com##.moviePlayer
@@ -92611,11 +92616,9 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||1firstofall1.com^$all
 ||gegenhartz.de^$all
 ||marootrack.co^$all
-/?{BV_SRCID}&$doc
 ||besty-deals.com^$all
 ||beta-one.net^$all
 ||kokotrokot.com^$all
-/werrx01/?$doc
 ||maxy-tax.com^$all
 &dci=*&tds_campaign=$doc
 ||eudoxia-myr.com^$all
@@ -92628,7 +92631,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||maxhacks.pro^$all
 /?ip=*&uclickhash=$doc
 ||phoneapplicationlabs.top^$all
-/winXos/?$doc
 ||4qdx69gg2d.com^$all
 ||cheaterboss.com^$all
 ||dating-herenow3.com^$all
@@ -92773,24 +92775,12 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 .live/1*.html?cep=$doc
 ||edfringe.com/*.php$all
 ||guegnoswarwestpol.ga^
-/merrx01/?$doc
-||ondigitalocean.app/*^phone=+1-$doc
 ||jmdinfotechs.com^$all
 ||mjroulette.xyz^$all
-||sakuriggd.online^$all
-||flexedfitt.com^$all
 ||grakorte.com^$all
 /click.php?key=*&zone_id=$doc
-||cxchutiyahotah.online^$all
-.online/a/eeeekayresrsammicraaajkaschhoilsebadhiyakuchtanahiaayaajturuionmeebbat/$doc
-||nothingworking.xyz^$all
-||plesk.page/?phone=+1-$doc
-||aamraai.cloud^$all
 ||bestsportsite.autos^$all
 ||dearosaka.com^$all
-||satttawishonemottorecepi.online^$all
-||s3.ap-southeast-1.amazonaws.com/99991.675.7799.8989.2699.8899.0909.is.access.denied.us/honda+69/seahorsendigitalocean.app/0h0o0n0d0a0/index+(7).html
-/Win0xixm07/?phone=$doc
 ||baste-znl.com^
 /domredirect?visitid=$doc
 ||smart-redirecting.com^
@@ -92815,16 +92805,28 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 &tb=redirect&allb=redirect&ob=redirect&href=$doc
 ||belittlepads.com^$all
 ||bulochka.xyz^
-/DanBEr000CH0Er0Security07/index.html$doc
-||sanshuni-creeto-senfunamaki.online^$all
-/^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
+||go2click.online^$all
+||datingmeetnet.com^$all
+||bndl-trp.com^$all
+||clean-2-clean.club^$all
+||top-official-app.com^$all
+||saworbpox.com^$all
+||pornonenight.com^$all
+||smarttvnew.live^$all
+||youfindadate.top^$all
+?z=*&ymid=$doc
+||xypthe.com^
+||besluor.com^
+/jr.php?gz=$doc
+||jamaretana.shop^$all
+/g?visitorid=*&extra_data2=|$doc
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case
-/^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{10,36}(?:&qs\d=\S+)?&sid=[_0-9a-f]{1,32}(?:&s=0\.\d+)?(?:#\S+)?$/$doc,match-case,domain=com|info|net|org
-/^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?sid=[_0-9a-f]{1,32}(?:&qs\d=\S+)?&cid=[-_0-9a-zA-Z]{10,36}(?:&s=0\.\d+)?(?:#\S+)?$/$doc,match-case,domain=com|info|net|org
+/^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{10,36}(?:&qs\d=\S+)?&sid=[_0-9a-z{}]{1,32}(?:&s=0\.\d+)?(?:#\S+)?$/$doc,match-case,domain=com|info|net|org
+/^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?sid=[_0-9a-z{}]{1,32}(?:&qs\d=\S+)?&cid=[-_0-9a-zA-Z]{10,36}(?:&s=0\.\d+)?(?:#\S+)?$/$doc,match-case,domain=com|info|net|org
 ||ogtrk.net^
 ||secureconv-dl.com^$all
 ||91.241.60.117^$all
@@ -92856,6 +92858,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||linksoft.site^$all
 ||pcworldgetin.com^$doc
 ||gamecenter.pro^$doc
+||softforall.art^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
 .systems/signup?ad_domain=$doc,popup
@@ -92887,27 +92890,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /index.php?uid=*&code=ad^$doc
 ||mcclick.online^$all
 ||koitushinterneinnehmen.s3.eu-central-1.amazonaws.com^$all
-||go2click.online^$all
-||datingmeetnet.com^$all
-||bndl-trp.com^$all
-||clean-2-clean.club^$all
-||top-official-app.com^$all
-||saworbpox.com^$all
-||pornonenight.com^$all
-||smarttvnew.live^$all
-/asdfghjkl.tech/index.html$doc
-/mooncars/rover/chasra*/index.php$doc
-/systemerror-win-chx/?$doc
-/systemerror-win-chx1/?$doc
-/Win001Security0*00Er007/index.php$doc
-||jamaretana.shop^$all
-||naramgaram.online^$all
-||windowshelps.site^$all
-||youfindadate.top^$all
-?z=*&ymid=$doc
-||xypthe.com^
-||besluor.com^
-/jr.php?gz=$doc
 ||securitydefender.xyz^$all
 ||my-hookup-clubs1.com^$all
 ||localsexfinderxxx4.com^$all
@@ -94301,6 +94283,28 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||tgram.ru^$all
 ||telegramm.site^$all
 ||web-telegram.net^$all
+||abacus-prefix.com^$doc
+||aj5sa87e.com^$doc
+||celezma.net^$doc
+||dismay-sacred.com^$doc
+||hamfqppcycjiskc.com^$doc
+||loveru.jp^$doc
+||match-1match.jp^$doc
+||mopo.vv-pb1salon.com^$doc
+||morale-yellow.com^$doc
+||quq.ygdd7ssl.com^$doc
+||shining.relief-lives.net^$doc
+||t1amo.jp^$doc
+||g5h3pt.shop^$doc
+||gswwichggroup.top^$doc
+||k.buybagnow.com^$doc
+||pffawtchpoffical.buzz^$doc
+||qswwichqhood.top^$doc
+||shop.gsawichgcenter.top^$doc
+||tswwichtband.top^$doc
+||tzfritt.shop^$doc
+||uggstore.online^$doc
+||jampamn.online^$doc
 ||jnkms0zfueh.click^$all
 ||pjljo54uk.click^$all
 ||v1asy4ncr.click^$all
@@ -94327,6 +94331,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 .cfd/?h=*&user=$script,3p
 .xyz/*?s=*&g=*&q=$script,3p
 .click/*/?partner=*&pg=$script,3p
+.xyz/*/?partner=*&pg=$script,3p
 ||xfiley.me^$all
 !#if !env_mobile
 ||n.fcd.su^$all
@@ -94362,6 +94367,31 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||tor-browser-rus.ru^$all
 ||fillvpn.com^$all
 ||sharapako.com^$all
+/?{BV_SRCID}&$doc
+/werrx01/?$doc
+/winXos/?$doc
+/merrx01/?$doc
+||nothingworking.xyz^$all
+||ondigitalocean.app/*^phone=+1-$doc
+||sakuriggd.online^$all
+||flexedfitt.com^$all
+||cxchutiyahotah.online^$all
+.online/a/eeeekayresrsammicraaajkaschhoilsebadhiyakuchtanahiaayaajturuionmeebbat/$doc
+||plesk.page/?phone=+1-$doc
+||aamraai.cloud^$all
+||satttawishonemottorecepi.online^$all
+||s3.ap-southeast-1.amazonaws.com/99991.675.7799.8989.2699.8899.0909.is.access.denied.us/honda+69/seahorsendigitalocean.app/0h0o0n0d0a0/index+(7).html
+/Win0xixm07/?phone=$doc
+/DanBEr000CH0Er0Security07/index.html$doc
+||sanshuni-creeto-senfunamaki.online^$all
+/asdfghjkl.tech/index.html$doc
+/mooncars/rover/chasra*/index.php$doc
+/systemerror-win-chx/?$doc
+/systemerror-win-chx1/?$doc
+/Win001Security0*00Er007/index.php$doc
+||naramgaram.online^$all
+||windowshelps.site^$all
+||orfon.site^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
