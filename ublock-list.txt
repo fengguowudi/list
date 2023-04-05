@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jtrTeOdF2ky3Mf7JUB1ZbA
+! Checksum: Wy7NgSFKifzHops3n/IObA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304050219
-! Last Modified: 2023年04月05日 02:19
+! Version: 202304050910
+! Last Modified: 2023年04月05日 09:10
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -949,7 +949,7 @@
 /adman/*
 /adman_
 /admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com
-/admanager/*$~object,domain=~konograma.com
+/admanager/*$~object,domain=~blog.google|~konograma.com
 /admanager3.
 /admanager_$domain=~konograma.com
 /admanagers/*
@@ -2628,7 +2628,6 @@
 /google-afc.
 /google-dfp-
 /google/ad?
-/google_ad_
 /google_ads/*
 /google_adsense-
 /google_adv/*
@@ -52266,6 +52265,7 @@ drivespark.com,goodreturns.in###taboola-mid-category-thumbnails
 comicbookrealm.com###tad
 google.com###tadsc
 cyclingtips.com###takeover
+romsgames.net###td-top-leaderboard
 based-politics.com###tdi_107
 linuxtoday.com###tdi_46
 cornish-times.co.uk###teads
@@ -52634,7 +52634,7 @@ timesofindia.indiatimes.com##.addblock
 aish.com##.adholder-sidebar
 auto-data.net##.adin
 boards.4channel.org##.adl
-animalfactguide.com,portlandmonthlymag.com,sportsmediawatch.com##.adlabel
+animalfactguide.com,portlandmonthlymag.com,romsgames.net,sportsmediawatch.com##.adlabel
 prokerala.com##.adm-unit
 goldderby.com##.adma
 brickset.com##.admin.buy
@@ -56018,6 +56018,7 @@ javhd.today###ics
 guyswithiphones.com###imglist > .noshadow
 maturesladies.com###inVideoInner
 hotmovs.com###in_va
+youngamateursporn.com###inplayer_block
 freebunker.com,imagesnake.com,imgcarry.com,pornbus.org###introOverlayBg
 hentaiprn.com###l_340
 postyourpuss.com###leaderboard
@@ -59940,8 +59941,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /jscripts/analytics.js
 /jserrLog?
 /jslogger.php?ref=
-/jsnlog.js
-/jsnlog.min.js
 /json/stats?
 /json/tracking/*
 /json?mbox=
@@ -87358,7 +87357,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||mxpnl.com^$domain=mixpanel.com
 @@||my.dxdelivery.com/js/tracking.js$script,~third-party
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
-@@||myaccount.depositprotection.com/Scripts/lib/jsnlog/$script,~third-party
 @@||mycourses.pearson.com/shared/static/*/component/ga.min.js$~third-party
 @@||mywebar.com/js/tracking_worker.js$~third-party
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
@@ -87389,7 +87387,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ondemand.sas.com^$subdocument
 @@||onenote.com^*/aria-web-telemetry
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
-@@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||open.spotifycdn.com/cdn/build/embed/overture.$script,domain=open.spotify.com
@@ -87467,6 +87464,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sephora-track.inside-graph.com/gtm/$domain=sephora.com
 @@||sephora-track.inside-graph.com/ig.js$domain=sephora.com
 @@||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js$script,~third-party
+@@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
@@ -92934,6 +92932,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||skyblockmods.com^$doc
 ||foxmods.xyz^$doc
 ||octopus-warriors.com^$all
+||futuretesla.net^$all
 ||gesas.it^$doc
 ||techinnsrl.com^$doc
 ||studiogiamberardino.it^$doc
@@ -103819,8 +103818,8 @@ hornoxe.com##.ivycat-post:has(a[href^="https://www.amazon.de/"])
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Sat, 01 Apr 2023 21:36:12 GMT
-# entries:        3752
+# last updated:   Tue, 04 Apr 2023 21:08:49 GMT
+# entries:        3753
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -103828,7 +103827,7 @@ hornoxe.com##.ivycat-post:has(a[href^="https://www.amazon.de/"])
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 09 Apr 2003 00:00:00
+# start date:    Thu, 10 Apr 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -105768,6 +105767,7 @@ hornoxe.com##.ivycat-post:has(a[href^="https://www.amazon.de/"])
 127.0.0.1 groundtruth.com
 127.0.0.1 gscontxt.net
 127.0.0.1 gstaticx.com
+127.0.0.1 guardeddirection.com
 127.0.0.1 guardedschool.com
 127.0.0.1 guffawdecipher.com
 127.0.0.1 gunggo.com
