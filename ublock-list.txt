@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jq6LP8AeyNhdn2TFock3Iw
+! Checksum: AhDyf8ugyem8mreB8p16dg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304060920
-! Last Modified: 2023年04月06日 09:20
+! Version: 202304061421
+! Last Modified: 2023年04月06日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -91092,7 +91092,8 @@ fifaultimateteam.it##+js(aost, Math, inlineScript)
 fifaultimateteam.it##+js(nowoif)
 ||fifaultimateteam.it/*skin$image
 fifaultimateteam.it##.ai_widget
-itopmusic.com,itopmusicx.com##+js(aopr, absda)
+itopmusic.com,itopmusicx.com##^script:has-text(chp_adblock)
+itopmusic.com,itopmusicx.com##+js(aopr, chp_adblock_browser)
 *$xhr,redirect-rule=noop.txt,domain=itopmusic.com|itopmusicx.com
 bshopme.site##+js(nosiif, visibility, 1000)
 mikl4forex.com##+js(nano-sib, counter, 2000)
@@ -96096,11 +96097,6 @@ unito.life##+js(acis, KeenTracking)
 @@||googletagmanager.com/gtm.js$script,domain=megacritic.ru
 @@||googletagmanager.com^$redirect-rule,domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com
 @@||google-analytics.com^$redirect-rule,domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com
-@@||thefamouspeople.com^$ghide
-thefamouspeople.com##.adsbygoogle
-thefamouspeople.com##.tfp_master_left_ad
-thefamouspeople.com###left_sticky_ad
-thefamouspeople.com###content10 > .topmenu-cls
 adyou.me##button.flleft.btn-lg.btn-warning.btn.skip:style(display:block !important)
 adyou.me#@#+js(addEventListener-defuser, /^(?:click|mousedown)$/, bypassEventsInProxies)
 adyou.me#@#+js(no-setInterval-if, (), 500)
@@ -96737,7 +96733,6 @@ hornoxe.com#@#div.post:has(a[href^="https://www.amazon.de/"])
 hornoxe.com##.ivycat-post:has(a[href^="https://www.amazon.de/"])
 outlook.live.com#@?#div.customScrollBar > div > div > div > div > div > div:-abp-has(div[class] > div[class] > div[class] > div[class] > i[data-icon-name="Delete"] + div[class])
 @@||googletagmanager.com/gtag/js$script,domain=undawn.game
-@@||scribble.website/sources/$xhr,domain=scribble.ninja
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=jn.pt
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
