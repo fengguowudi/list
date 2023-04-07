@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UKrqOSpjxQQ3bzO5oUJ2yQ
+! Checksum: tsHPJjdoBJIDBD5Oz/NDJA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304072031
-! Last Modified: 2023年04月07日 20:31
+! Version: 202304080220
+! Last Modified: 2023年04月08日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54323,6 +54323,7 @@ bing.com##a[href*="/aclick?ld="]
 booking.com#?#div[data-testid="property-card"]:-abp-has(div[data-testid="new-ad-design-badge"])
 booking.com#?#div[data-testid="property-card"]:-abp-has(span[data-testid="new-ad-design-badge"])
 countdown.co.nz#?#cdx-card:-abp-has(product-badge-list)
+macys.com#?#li.productThumbnailItem:-abp-has(.sponsored-items-label)
 pigglywigglystores.com#?#.fp-item:-abp-has(.fp-tag-ad)
 priceline.com#?#div[data-testid="HTL_NEW_LISTING_CARD_RESP"]:-abp-has(span[aria-label="Promoted"])
 wowcher.co.uk#?#.two-by-two-deal:-abp-has(a[href*="src=sponsored_search_"])
@@ -54360,7 +54361,6 @@ digg.com#?#article.relative:-abp-has(div:-abp-contains(SPONSORED))
 inverse.com#?#div > p + div:-abp-has(amp-ad)
 bleepingcomputer.com#?#.post_wrap:-abp-contains(AdBot)
 cointalk.com#?#li.message:-abp-contains(hide this ad)
-outlook.live.com#?#div.customScrollBar > div > div > div > div > div > div:-abp-has(div[class] > div[class] > div[class] > div[class] > i[data-icon-name="Delete"] + div[class])
 instagram.com#?#div[style="max-height: inherit; max-width: inherit;"]:-abp-has(span:-abp-contains(Paid partnership with ))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership))
 alternativeto.net#?#div[class^="AppList"]:-abp-has([class^="AppListItem_sponsored"])
@@ -91696,6 +91696,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||mymagicguide.com^$all
 ||yanrefael.com^$all
 ||laolao8.top^$all
+||hangthailangiare.net^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
 ||browser-updating.com^$all
@@ -92960,6 +92961,33 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||zfyx8ht.jp^$doc
 ||zrkp7fgmcdwe.com^$doc
 ||feemwshape.sbs^$doc
+||6xy-zg.com^$doc
+||bvnx599app.com^$doc
+||cwa-2020.com^$doc
+||dwoetbarcrooplsloiwh.com^$doc
+||gargar.making-garden.com^$doc
+||gate-way110.com^$doc
+||happy-popice.com^$doc
+||kronos2022.com^$doc
+||like-baloon-leaf.com^$doc
+||mor.chance-10dayful.com^$doc
+||mugi--cha.com^$doc
+||octagongon.com^$doc
+||pa-ha8.com^$doc
+||qfmjw.arpviufltwiostoegrm.com^$doc
+||s.meru.jp^$doc
+||ts7nept8.com^$doc
+||vcrwv.monster^$doc
+||x-yz6asktoi.com^$doc
+||x-yzn6.com^$doc
+||x6-yz-kzyx0.com^$doc
+||x6-yzk.com^$doc
+||xy-z0-ra-had0.com^$doc
+||xy-z6goo-xyz.com^$doc
+||xy-z6x.com^$doc
+||xyz-xy.com^$doc
+||ytjon-d2s1ah.com^$doc
+||yuetp7hj.com^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
