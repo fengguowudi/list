@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kzuqvY6EVsBtzifjXP4mRQ
+! Checksum: /b6HFvPrzVClE8WcYpO9uA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304081420
-! Last Modified: 2023年04月08日 14:20
+! Version: 202304082029
+! Last Modified: 2023年04月08日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17865,6 +17865,7 @@ _800x80_
 ##.js_ad_wrapper
 ##.js_contained-ad-container
 ##.js_deferred-ad
+##.js_midbanner_ad_slot
 ##.js_movable_ad_slot
 ##.js_preheader-ad-container
 ##.js_slideshow-full-width-ad
@@ -52832,7 +52833,7 @@ sassymamahk.com##.pre_header_widget
 vivo.sx##.preload
 premiumtimesng.com##.premi-texem-campaign
 sulekha.com##.premium-banner-advertisement
-pixabay.com##.present-gtty-item
+pixabay.com##.present-g-item
 flobzoo.com##.preview2bannerspot
 astrology.com##.primis-video-module-horoscope
 setlist.fm##.prmtnTop
@@ -87665,6 +87666,7 @@ file.wapka.org##.btn-fast-download
 gaminggorilla.com##+js(aopr, history.replaceState)
 pagalworld.us##+js(nowoif)
 anidl.org##+js(aopw, _pop)
+anidl.org##+js(set, tie.ad_blocker_detector, '')
 @@||freecoursewebsite.com^$ghide
 freecoursewebsite.com##ins.adsbygoogle
 codesnail.com##+js(nostif, css_class.show)
@@ -93315,6 +93317,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||windowshelps.site^$all
 ||orfon.site^$all
 ||pinkpussy.one^$all
+||smalldingdong.top^$all
+||sportwebsforu.site^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -95612,6 +95616,7 @@ scotsman.com##[class*="AdLoading"]
 scotsman.com##[class*="Ads__Container"]
 scotsman.com##[class*="Billboard__Root"]
 @@||taboola.com/magazine/$domain=taboolanews.com
+dark-gaming.com##+js(no-xhr-if, lr-ingest.io)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
