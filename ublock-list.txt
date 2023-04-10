@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zA2DTMs5IUAY3wTkHVhlnA
+! Checksum: NO0FVPHhw5qnKgLmNa/GHw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304102032
-! Last Modified: 2023年04月10日 20:32
+! Version: 202304110220
+! Last Modified: 2023年04月11日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2761,7 +2761,6 @@
 /img/_ad.
 /img/ad-
 /img/ad/*
-/img/ad_$domain=~kazi.co.jp|~rakuten.co.jp
 /img/ads/*$domain=~save.ca
 /img/adv.
 /img/adv/*
@@ -5483,6 +5482,7 @@ _800x80_
 ###ad-right-top
 ###ad-right2
 ###ad-right3
+###ad-rotator
 ###ad-row
 ###ad-section
 ###ad-separator
@@ -21284,6 +21284,7 @@ _800x80_
 ##a[href^="https://chaturbate.com/in/?track="]
 ##a[href^="https://chaturbate.jjgirls.com/?track="]
 ##a[href^="https://claring-loccelkin.com/"]
+##a[href^="https://click.candyoffers.com/"]
 ##a[href^="https://click.dtiserv2.com/"]
 ##a[href^="https://click.hoolig.app/"]
 ##a[href^="https://click.linksynergy.com/fs-bin/"]
@@ -56072,7 +56073,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||borneobulletin.com.bn/wp-content/banners/bblogo.jpg$~third-party
 @@||brave.com/static-assets/$image,~third-party
 @@||britannica.com/mendel-resources/3-52/js/libs/prebid4.$script,~third-party
-@@||canadianlisted.com/img/ad_img/$~third-party
 @@||canadianlisted.com^*/ad/index.css$stylesheet,~third-party
 @@||capitolbroadcasting.blueconic.net^$image,script,xmlhttprequest,domain=wral.com
 @@||carandclassic.co.uk/images/free_advert/$image,~third-party
@@ -56109,7 +56109,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||forum.miuiturkiye.net/konu/reklam.$~third-party,xmlhttprequest
 @@||forums.opera.com/api/topic/$~third-party,xmlhttprequest
 @@||franklymedia.com/*/300x150_WBNQ_TEXT.png$image,domain=wbnq.com
-@@||freelitecoin.vip/assets/img/ad_$~third-party
 @@||fuseplatform.net^*/fuse.js$script,domain=broadsheet.com.au|friendcafe.jp
 @@||fwmrm.net^*/AdManager.js$script
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=bloomberg.com|chromatographyonline.com|formularywatch.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com
@@ -91953,6 +91952,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 .com/play-2?h=*=eyJ&si1=$doc
 ||cacto.cyou^
 ||intrlguingdates.net^$all
+||prize-deals-today.click^$all
+/\.com\/proc\.php\?[0-9a-f]{40}$/$doc
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
@@ -92335,6 +92336,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||laolao8.top^$all
 ||hangthailangiare.net^$all
 ||amzpma.com^$all
+||hjxvcyu.com^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
 ||browser-updating.com^$all
@@ -93751,6 +93753,23 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||teresangyara.online^$all
 ||hotchicks.one^$all
 ||sportwebsforu.xyz^$all
+||s3.ap-northeast-1.amazonaws.com/tedex.com/*/index.html$all
+/^https:\/\/(?:www\.)?[a-z]{9}\.one\/V1\/$/$document,domain=one,match-case
+||cj.dotomi.com^
+||contentads.click^
+||dpbolvw.net^
+||frdjs-2.co^
+||new-twinks.com^
+||octopuspop.com^
+||pingleflavor.xyz^
+||suptrkdisplay.com^
+||terperbelomo.info^
+||thebestoffers4you.net^
+||trck.eczyl.com^
+||trcp.gamefantech.com^
+||turbotrck.art^
+||gmkail.com^
+||yautube.com^
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -96049,6 +96068,7 @@ dark-gaming.com##+js(no-xhr-if, lr-ingest.io)
 @@||user.userguiding.com/sdk/identify$xhr,domain=xaris.ai
 ||nettix.fi/*/nettiauto_analytics.js$script,domain=nettiauto.com,important
 nettiauto.com##+js(set, listingGoogleEETracking, noopFunc)
+@@||simcotools.app/assets/adsense-*.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
