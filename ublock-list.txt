@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RBUfww5L568G9VOzm3TREQ
+! Checksum: 7FhEhqvE8hcV7uS0LA9QnQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304111421
-! Last Modified: 2023年04月11日 14:21
+! Version: 202304112033
+! Last Modified: 2023年04月11日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -43100,7 +43100,6 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||zabanit.xyz^
 ||zacleporis.com^
 ||zadauque.net^
-||zaful.com^
 ||zaglushkaaa.com^
 ||zagtertda.com^
 ||zagvee.com^
@@ -53204,6 +53203,7 @@ hamodia.com##.oiomainlisting
 forums.somethingawful.com##.oma_pal
 oneindia.com##.one-ad
 techspot.com##.oneText
+decrypt.co##.opacity-75
 lowtoxlife.com##.openpay-footer
 thedigitalfix.com##.ot-widget-banner
 otakuusamagazine.com##.otaku_big_ad
@@ -62080,6 +62080,7 @@ cgi-bin/counter
 /link.e-mail.*/mo/*$image
 /link.morningbrew.com/img/*.gif
 /link.news.*/mo/*$image
+/link.oneplus.com/mo$image
 /link.pbtech.co.nz/mo/*$image
 /link.theatlantic.com/img/*
 /links1.strava.com/*$image
@@ -86702,6 +86703,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||signalshares.com/webtrends.min.js$script,~third-party
+@@||simcotools.app/assets/adsense-*.js$~third-party
 @@||siteapps.caa.co.uk/scripts/plugins/analytics/ga.min.js$script,~third-party
 @@||smartrevise.online/css/analytics.min.css$~third-party
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
@@ -92181,6 +92183,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||bbynetwork.nl^$all
 ||deltaproject.dev^$all
 ||cs2code.com^$all
+||rblx.land^$all
 ||nbryb.com^$all
 ||onemacusa.com^$all
 ||realnetnews.com^$all
@@ -93852,7 +93855,10 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||hotchicks.one^$all
 ||sportwebsforu.xyz^$all
 ||s3.ap-northeast-1.amazonaws.com/tedex.com/*/index.html$all
-/^https:\/\/(?:www\.)?[a-z]{9}\.one\/V1\/$/$document,domain=one,match-case
+/^https:\/\/(?:www\.)?[a-z]{8,15}\.[a-z]{3}\/V1\/$/$document,domain=one|top,match-case
+||d188l1lq8frqfz.cloudfront.net^$all
+||horenshi-receptte.online^$all
+||smarttvnew.vercel.app^$all
 ||cj.dotomi.com^
 ||contentads.click^
 ||dpbolvw.net^
@@ -93868,6 +93874,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||turbotrck.art^
 ||gmkail.com^
 ||yautube.com^
+||gateway.pinata.cloud^$3p
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -96168,6 +96175,7 @@ dark-gaming.com##+js(no-xhr-if, lr-ingest.io)
 nettiauto.com##+js(set, listingGoogleEETracking, noopFunc)
 @@||simcotools.app/assets/adsense-*.js$script,1p
 ||startpage.com/sp/adsense/$script,redirect-rule=noopjs
+@@||api.aws.parking.godaddy.com/*/domains/*$xhr,3p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
