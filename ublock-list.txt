@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1MkSDdhHpMnMXh+HrvvSpw
+! Checksum: fZzJQtyQGlUfVH4YJAFZtA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304120922
-! Last Modified: 2023年04月12日 09:22
+! Version: 202304121421
+! Last Modified: 2023年04月12日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54241,7 +54241,7 @@ wccftech.com##[href^="https://cutt.ly/"]
 topfiveforex.com##[href^="https://fbs.com/promo/"]
 torrentgalaxy.to##[href^="https://gen4ever.com/"]
 pastemytxt.com##[href^="https://geturl.us/"]
-ahaan.co.uk,emailnator.com,scrolller.com##[href^="https://go.nordvpn.net/"]
+ahaan.co.uk,emailnator.com,myip.is,scrolller.com##[href^="https://go.nordvpn.net/"]
 bitcoiner.tv##[href^="https://go.stormgain.com/"]
 coinpaprika.com##[href^="https://go2nft.io"]
 imagetwist.com##[href^="https://imagetwist.com/pxt/"]
@@ -64812,6 +64812,7 @@ _mongo_stats/
 ||stats4you.com^$third-party
 ||statsbox.nl^$third-party
 ||statsig.com^$third-party
+||statsigapi.net^$third-party
 ||statsinsight.com^$third-party
 ||statsit.com^$third-party
 ||statsmachine.com^$third-party
@@ -68633,7 +68634,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.shareably.net^
 ||events.splash-screen.net^
 ||events.split.io^
-||events.statsigapi.net^
 ||events.tubecup.org^
 ||events.ubembed.com^
 ||events.whisk.com^
@@ -89579,6 +89579,8 @@ maxstream.video##+js(ra, style, div[style="display: none;"])
 host-cdn.net^$image,redirect-rule=32x32.png,domain=maxstream.video
 maxstream.video###adsads:style(height: 9px !important;)
 maxstream.video##h1:has-text(/adblock|supporter/)
+||maxstream.video/*.php
+maxstream.video##^responseheader(location)
 tamilmovierockers.info##+js(acis, document.addEventListener, google_ad_client)
 tamilmovierockers.info##+js(aopw, _pop)
 vga4a.com##+js(set, tie.ad_blocker_detector, '')
@@ -92487,6 +92489,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||powerpointpalooza.com^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
+||adblock-one-protection.com^$all
 ||browser-updating.com^$all
 ||dokondigit.quest^$all
 ||ka4cv7yh4w.com^$all
