@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nlYrRmRrUy4MjLTi0B8L0A
+! Checksum: 4bXfbLjJD8cInDBGOXtuUg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304132034
-! Last Modified: 2023年04月13日 20:34
+! Version: 202304140221
+! Last Modified: 2023年04月14日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20889,6 +20889,7 @@ _800x80_
 ##.wide-ad-new-layout
 ##.wide-ad-outer
 ##.wide-ad2015
+##.wide-ads-container
 ##.wide-advert
 ##.wide-footer-ad
 ##.wide-header-ad
@@ -48757,6 +48758,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||vidcrunch.com/integrations/$script,third-party
 ||video-ads.a2z.com^
 ||videosvc.ezoic.com^
+||vidoomy.com/api/adserver/
 ||viralize.tv/t-bid-opportunity/
 ||virool.com/widgets/
 ||vrixon.com/adsdk/
@@ -62215,6 +62217,7 @@ cgi-bin/counter
 .sendibt2.com/tr/op/$image
 .simplicitycrm.com/rd/
 .smartrmail.co/o/$image
+.smtp.net/o/$image
 .southwest.com/r/$image
 .sparkpostmail.com/q/$image
 .sparkpostmail2.com/q/$image
