@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AHP269YQsnOdSKRMmKR25w
+! Checksum: aMjEtCVY/NbgPRQFUacZtg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304160927
-! Last Modified: 2023年04月16日 09:27
+! Version: 202304161420
+! Last Modified: 2023年04月16日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57217,6 +57217,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 &action=js_stats&
 &action=js_stats_
 &callback=hitStats_
+&ev=PageView&
 &event=view&
 &EventType=Impression&
 &hitType=pageview&
@@ -92080,10 +92081,6 @@ thepiratebay3.com^$all
 ||procdnvids.net^
 ||prostream.to^
 ||storageplay.net^
-||comparetvs.net^$csp=child-src
-||find-me-now.com^$3p
-||clickenhanced.com^$3p
-||marketenhanced.com^$3p
 ||mybestclick.net^$3p
 ||verified-extensions.com^
 ||smsiak.pl^$doc
@@ -92696,6 +92693,30 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||polyhymnia-mar.com^$all
 ||2xdoubles.com^$all
 ||bestbut.com^$all
+||gmkail.com^$all
+||yautube.com^$all
+||yourube.com^$all
+||youtubee.com^$all
+||youtunbe.com^$all
+||youutube.com^$all
+||youvetube.com^$all
+||wanderlust.rocks^$all
+||harmlessmessage.com^$all
+||hushemail.net^$all
+||hushmailservice.com^$all
+||lavaboom.net^$all
+||privacyharbor.net^$all
+||privacyharbors.com^$all
+||prontonmailpro.com^$all
+||protonmails.com^$all
+||protonmails.net^$all
+||safemessagesystems.com^$all
+||silencemail.com^$all
+||tutamail.net^$all
+||tutanoto.com^$all
+||messagesafe.net^$all
+||msgsafe.net^$all
+||best4fuck.com^$all
 ||kuaizip.com^$all
 ||helooworld.us^$all
 ||win.zjwhr.top^$all
@@ -92878,23 +92899,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||musicinmysoul.biz^$all
 ||choseoffhandsight.com^$all
 ||metamasku.cc^$all
-||wanderlust.rocks^$all
-||harmlessmessage.com^$all
-||hushemail.net^$all
-||hushmailservice.com^$all
-||lavaboom.net^$all
-||privacyharbor.net^$all
-||privacyharbors.com^$all
-||prontonmailpro.com^$all
-||protonmails.com^$all
-||protonmails.net^$all
-||safemessagesystems.com^$all
-||silencemail.com^$all
-||tutamail.net^$all
-||tutanoto.com^$all
-||messagesafe.net^$all
-||msgsafe.net^$all
-||best4fuck.com^$all
 ||downloadpro.online^$all
 ||vipan.net^$all
 ||install1nstall1.com^
@@ -94457,10 +94461,10 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||trcp.gamefantech.com^
 ||turbotrck.art^
 ||new-psh.com^
-||gmkail.com^
-||yautube.com^
 ||gateway.pinata.cloud^$3p
 ||japanonlinebroadcast.live^$all
+||crackedpc.org^$all
+||cracksway.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
