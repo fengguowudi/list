@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +1NoF2GiLdCxFH2bJwCJ4Q
+! Checksum: S1rDh0YmPl763Jg80Ciwmw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304171422
-! Last Modified: 2023年04月17日 14:22
+! Version: 202304172034
+! Last Modified: 2023年04月17日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52127,7 +52127,9 @@ porndoe.com##.-h-banner-svg-desktop
 hellomagazine.com##.-variation-megabanner
 advfn.com##.APS_TOP_BANNER_468_X_60_container
 bendsource.com,federalnewsnetwork.com,imgur.io,lonelyplanet.com,sevendaysvt.com,styleweekly.com,tasty.co,tucsonweekly.com##.Ad
+therealdeal.com##.AdUnit_adUnitCenter__FKOWE
 thescore.com##.Ad__container--2fhQb
+therealdeal.com##.Ad_rootHomepage__mSzqh
 greatandhra.com##.AdinHedare
 coingape.com##.AdsMid
 iogames.onl##.Adv
@@ -53807,6 +53809,7 @@ playbuzz.com##.pb-site-player
 washingtonpost.com##.pb-sm.pt-sm.b
 recipesandcooker.com##.pbl
 caixinglobal.com##.pc-ad-left01
+bestbuy.ca##.pencilAd_EE9DV
 thegatewaypundit.com,westernjournal.com,wnd.com##.persistent-footer
 apkmb.com##.personalizadas
 post-gazette.com##.pg-mobile-adhesionbanner
@@ -55389,6 +55392,8 @@ consequence.net##.video_container
 hollywoodreporter.com##[id^="jwplayer"]
 wlevradio.com##a[href^="https://omny.fm/shows/just-start-the-conversation"]
 firstforwomen.com##div[class^="article-content__www_ex_co_video_player_"]
+booking.com##.js_sr_persuation_msg
+booking.com##.sr-motivate-messages
 ##.section-subheader > .section-hotel-prices-header
 yahoo.com###defaultLREC
 yahoo.com###sda-LDRB
@@ -67125,6 +67130,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||selfishsnake.com^
 ||separateshow.com^
 ||separatesilver.com^$third-party
+||serioussuit.com^
 ||serpentshampoo.com^
 ||shaggytank.com^
 ||shakegoldfish.com^
@@ -90906,9 +90912,6 @@ fifaultimateteam.it##+js(aost, Math, inlineScript)
 fifaultimateteam.it##+js(nowoif)
 ||fifaultimateteam.it/*skin$image
 fifaultimateteam.it##.ai_widget
-itopmusic.com,itopmusicx.com##^script:has-text(chp_adblock)
-itopmusic.com,itopmusicx.com##+js(aopr, chp_adblock_browser)
-*$xhr,redirect-rule=noop.txt,domain=itopmusic.com|itopmusicx.com
 bshopme.site##+js(nosiif, visibility, 1000)
 mikl4forex.com##+js(nano-sib, counter, 2000)
 michaelemad.com##+js(nano-sib, timer)
@@ -92684,6 +92687,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||djpjwf.com^$all
 ||iwinprize.xyz^$all
 ||shosril.com^
+||back-call.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
@@ -92995,6 +92999,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||munkop.com^$all
 ||voutew.com^$all
 ||abukss.com^$all
+||amonro.com^$all
 /axad/?lpkey=$doc
 ||vlcdownloads.com^$all
 ||borntiecalm.live^$all
