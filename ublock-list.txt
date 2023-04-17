@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XOH8JFfm6iAh2k+LSKd+aw
+! Checksum: +1NoF2GiLdCxFH2bJwCJ4Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304170923
-! Last Modified: 2023年04月17日 09:23
+! Version: 202304171422
+! Last Modified: 2023年04月17日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53831,6 +53831,7 @@ hagerty.com##.placements
 plagiarismtoday.com##.plagi-widget
 trakt.tv##.playwire
 advfn.com##.plus500
+thepinknews.com##.pn-ad-container
 thepinknews.com##.pn-remove-ads-container
 freewebarcade.com##.pnum
 pedestrian.tv##.popular-jobs-widget
@@ -96867,6 +96868,9 @@ doodle.com#@#.AdsSlot
 doodle.com#@#.AdsLayout
 doodle.com##.AdsLayout__top-container
 ||hager.com/*/youtubeblocker.js$script,1p
+||ensighten.com^$badfilter
+||ensighten.com^$3p
+||measure.ensighten.com^
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
