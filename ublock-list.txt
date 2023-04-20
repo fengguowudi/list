@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0EQpOk8LYRyGBXBGSGy/BQ
+! Checksum: K62ELrrf3r6ZHy84J3exrQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304202033
-! Last Modified: 2023年04月20日 20:33
+! Version: 202304210220
+! Last Modified: 2023年04月21日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -94956,6 +94956,11 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||happy-classic.com^$doc
 ||poiu7895123.jp^$doc
 ||rea-love.net^$doc
+||bvjdogmfommbobmedmf.com^$doc
+||ggtt-more-special.com^$doc
+||lpdoinoibnsndoppigh.com^$doc
+||natu.natural-natural-pure.com^$doc
+||npafnapnnapfpaengdf.com^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -97403,7 +97408,6 @@ jayisgames.com##.widget-topad:style(padding-bottom: 20px !important;)
 @@||fpnpmcdn.net/v*/loader$script,domain=app.writesonic.com
 *$image,redirect-rule=1x1.gif,domain=go-girl.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gem.cbc.ca
-/chartbeat/*$badfilter
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=pac-12.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=vtvgiaitri.vn,redirect-rule=google-ima.js
 stylist.co.uk##+js(set, Object.prototype.isInitialLoadDisabled, noopFunc)
@@ -97449,7 +97453,10 @@ doodle.com##.AdsLayout__top-container
 ||sho.com/www/sho/lib/omniture/AppMeasurement.js$xhr,1p,redirect-rule=noop.js
 cerbahealthcare.it##+js(set, pa, {})
 cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
-@@||googletagmanager.com/gtm.js$script,domain=dzonline.de|wn.de
+@@||googletagmanager.com/gtm.js$script,domain=dzonline.de|marveloptics.com|wn.de
+/chartbeat/*$badfilter
+/chartbeat-$badfilter
+/chartbeat_$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
