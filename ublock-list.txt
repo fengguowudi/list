@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0q5PNG5Rf4/76x+l4sNRWg
+! Checksum: GVUhorguLas3AcflcowHfw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304210921
-! Last Modified: 2023年04月21日 09:21
+! Version: 202304211422
+! Last Modified: 2023年04月21日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -39910,6 +39910,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||smart2cnjuh34jb.com^
 ||smartlnk.com^
 ||smarttopchain.nl^
+||smartytech.io^
 ||smashnewtab.com^
 ||smashseek.com^
 ||smearedbin.com^
@@ -45202,6 +45203,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||nitmus.com^$third-party
 ||nitropay.com^$third-party
 ||njih.net^$third-party
+||notsy.io^$third-party
 ||nsstatic.com^$third-party
 ||nsstatic.net^$third-party
 ||nster.net^$third-party
@@ -51808,6 +51810,9 @@ today.az###TODAY_Slot_Vertical_01_240x400
 road.cc###Top-Billboard
 carsdirect.com###TopBanner
 the-scientist.com###Torpedo
+utne.com###URTK_Bottom_728x90
+utne.com###URTK_Middle_300x250
+utne.com###URTK_Right_300x600
 scrabble-solver.com###Upper
 newstarget.com###Widget11
 newstarget.com###Widget14
@@ -52513,6 +52518,7 @@ digitalartsonline.co.uk###topLeaderContainer
 mautofied.com###topLeaderboard
 forum.wordreference.com###topSupp
 walterfootball.com###top_S
+utne.com###top_advertisement
 chicagotribune.com###top_article_fluid_wrapper
 indy100.com,sportsclimax.com###top_banner
 caribpress.com###top_banner_container
@@ -52771,7 +52777,7 @@ allscrabblewords.com,mpog100.com##.ad3
 cricketcountry.com##.ad90mob300
 chron.com,greenwichtime.com,mysanantonio.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##.adBanner
 bigislandnow.com##.adBreak
-m.economictimes.com,trailspace.com##.adContainer
+m.economictimes.com,someecards.com,trailspace.com##.adContainer
 anews.com.tr##.adControl
 bramptonguardian.com##.adSlot___3IQ8M
 drive.com.au##.adSpacing_drive-ad-spacing__g09um
@@ -67317,6 +67323,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||longinglettuce.com^
 ||longingtrees.com^
 ||lorenzourban.com^$third-party
+||losslace.com^
 ||loudlunch.com^$third-party
 ||lovelydrum.com^
 ||lowlocket.com^$third-party
@@ -73589,7 +73596,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.carsales.com.au^
 ||tracking.digitalocean.com^
 ||tracking.engineering.cloud.seek.com.au^
-||tracking.epicgames.com^
 ||tracking.hsn.com^
 ||tracking.shopstyle.co.uk^
 ||tracking.shopstyle.com^
@@ -97453,6 +97459,9 @@ cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 /chartbeat/*$badfilter
 /chartbeat-$badfilter
 /chartbeat_$badfilter
+||indianexpress.com/*/chartbeat-event-tracking-config.js
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=today.line.me
+@@||ua.indianexpress.com/api/geoip/resolve$xhr,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
