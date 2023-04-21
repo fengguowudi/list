@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yHuVHQV3bKlW80w4r9hh2g
+! Checksum: F2gT7SMYVspAw5pJqU0pFQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304212032
-! Last Modified: 2023年04月21日 20:32
+! Version: 202304220220
+! Last Modified: 2023年04月22日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -48913,6 +48913,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||trafficholder.com^$third-party
 ||trafficlearn.com^$third-party
 ||trafficmagnates.com^$third-party
+||trafficmanager.com^
 ||trafficpimps.com^$third-party
 ||trafficstars.com^$third-party
 ||traffictraffickers.com^$third-party
@@ -50538,7 +50539,6 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||livecams.com^$popup
 ||livehotty.com/landing/$popup,third-party
 ||livejasmin.com^$popup,third-party
-||mafia-linkz.to^$popup,third-party
 ||mrskin.com/?_$popup
 ||offersuperhub.com/landing/$popup,third-party
 ||porngames.adult^*=$popup,third-party
@@ -92399,13 +92399,13 @@ chortle.co.uk,coloring.ws,dltk-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com
 #@#[data-adblockkey]
 #@#[data-advadstrackid]
 #@#[data-ad-manager-id]
-##[data-ad-module]:not([style$="left: -10000px !important; top: -1000px !important;"])
-##[data-ad-width]:not([style$="left: -10000px !important; top: -1000px !important;"])
-##[data-adblockkey]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(html)
-##[data-advadstrackid]:not([style$="left: -10000px !important; top: -1000px !important;"])
-##[data-ad-manager-id]:not([style$="left: -10000px !important; top: -1000px !important;"])
+##[data-ad-module]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(div.adsbygoogle)
+##[data-ad-width]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(div.adsbygoogle)
+##[data-adblockkey]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(html):not(div.adsbygoogle)
+##[data-advadstrackid]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(div.adsbygoogle)
+##[data-ad-manager-id]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(div.adsbygoogle)
 #@#.ad-slot
-##.ad-slot:not(.adsbox)
+##.ad-slot:not(.adsbox):not(div.adsbygoogle)
 ||doubleclick.net^$xhr,redirect=noop.txt
 ||media.fastclick.net/|$xhr,3p,redirect-rule=noop.txt
 ||ads.facebook.com/|$xhr,3p,redirect-rule=noop.txt
@@ -92959,7 +92959,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||royaljapan02.*^$all
 ||lucky4wins.club^$all
 ||systemupdatix.club^$all
-^phone=050-$doc
 ||lackystars.com^$all
 ||localchick-here.com^$all
 ||trafempire.com^$all
@@ -93638,6 +93637,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||hehekakao.com^$all
 ||teiegram.link^$all
 ||bavaria-cup.ru^$all
+||famlepay.com^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
 ||adblock-one-protection.com^$all
@@ -97457,6 +97457,7 @@ cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 ||indianexpress.com/*/chartbeat-event-tracking-config.js
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=today.line.me
 @@||ua.indianexpress.com/api/geoip/resolve$xhr,1p
+@@||googletagmanager.com/gtm.js$script,domain=radio-canada.ca
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -104275,6 +104276,8 @@ cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||pnez8.rut6m.xyz^
+||eq.af31f.site^
 ||ra1.xyz^
 ||fq67.top^
 ||okmwfq.xyz^
