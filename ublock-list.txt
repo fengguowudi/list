@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K62ELrrf3r6ZHy84J3exrQ
+! Checksum: 0q5PNG5Rf4/76x+l4sNRWg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304210220
-! Last Modified: 2023年04月21日 02:20
+! Version: 202304210921
+! Last Modified: 2023年04月21日 09:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57195,6 +57195,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ads.kbmax.com^$domain=adspipe.com
 @@||ads.pubmatic.com/AdServer/js/pwtSync/$subdocument,domain=independent.co.uk
 @@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
+@@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
 @@||ads.rubiconproject.com/prebid/$script,domain=everydayhealth.com
 @@||ads3.xumo.com^$domain=2vnews.com|redbox.com
 @@||adsafeprotected.com/iasPET.$script,domain=reuters.com
@@ -57308,7 +57309,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
 @@||image.shutterstock.com^$image,domain=icons8.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|delish.com|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|irctc.co.in|metacritic.com|missoulian.com|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|realmadrid.com|rte.ie|rumble.com|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|watch.nba.com|weather.com|wellgames.com|worldsurfleague.com|wsj.com|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|delish.com|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|irctc.co.in|metacritic.com|missoulian.com|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|realmadrid.com|rte.ie|rumble.com|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|watch.nba.com|weather.com|wellgames.com|worldsurfleague.com|wsj.com|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|embed.comicbook.com|sbs.com.au|worldsurfleague.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|cbsnews.com|insideedition.com|pch.com
 @@||improvedigital.com/pbw/headerlift.min.js$domain=games.co.uk|kizi.com|zigiz.com
@@ -87421,7 +87422,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|backcountry.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
-@@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|ally.com|americanexpress.com|argos.co.uk|auspost.com.au|backcountry.com|bmw.com.au|collegeboard.org|costco.com|crackle.com|crave.ca|crimewatchdaily.com|directline.com|eonline.com|fcbarcelona.com|firststatesuper.com.au|godigit.com|hellobank.fr|hgtv.com|hrw.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|myaetnasupplemental.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|oprah.com|oracle.com|pnc.com|realtor.com|redbull.tv|repco.co.nz|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|stuff.co.nz|subaru.com|telegraph.co.uk|timewarnercable.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
+@@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|ally.com|americanexpress.com|argos.co.uk|auspost.com.au|backcountry.com|bmw.com.au|collegeboard.org|costco.com|crackle.com|crave.ca|crimewatchdaily.com|directline.com|eonline.com|fcbarcelona.com|firststatesuper.com.au|godigit.com|hellobank.fr|hgtv.com|hrw.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|myaetnasupplemental.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|oprah.com|oracle.com|pnc.com|realtor.com|redbull.tv|repco.co.nz|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|stuff.co.nz|subaru.com|telegraph.co.uk|timewarnercable.com|usanetwork.com|vanityfair.com|wayin.com|wired.com|wowway.net
 @@||adobedtm.com^*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||aeries.net^*/require/analytics/views/$script,~third-party
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
@@ -95109,6 +95110,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||gamingnewsanalyst.com^$all
 ||gamingdebates.com^$all
 ||flirt4free.com^$all
+||revanced.io^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -95264,7 +95266,7 @@ old.reddit.com##+js(ra, data-outbound-url, .outbound)
 /?h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,1p
 /?v=eyJoIjoiaHR0cHM6Ly9$image,1p
 /?v=eyI*sImgiOiJodHRwczovL$image,1p
-/^https?:\/\/[-.0-9a-z]+\/script\.js$/$script,1p,strict3p,match-case
+!/^https?:\/\/[-.0-9a-z]+\/script\.js$/$script,1p,strict3p,match-case
 webtoons.com##+js(set, ccsrv, '')
 webtoons.com##+js(set, lcs_SerName, '')
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js$script,redirect=noop.js,domain=bilibili.com,important
@@ -95437,7 +95439,6 @@ knowyourmeme.com##+js(nosiif, blogherads)
 ||2o7.net^$badfilter
 ||2o7.net^$3p
 ||quantcast.com^$badfilter
-@@||keen.github.io/*/keen.min.js$1p
 @@||cdn.phoenix.intergi.com^
 ||kissmetrics.com^$badfilter
 ||kissmetrics.com^$3p
@@ -96020,7 +96021,6 @@ ebay.com#@#li.s-item:has(span:has-text(SPONSORED))
 @@||viafoura.*^$script,domain=20minutes.fr
 @@||rcijeux.fr/game/20minutes/$frame,domain=20minutes.fr
 @@||opgg-static.akamaized.net/*/tracker.js$script,domain=op.gg
-||trustedform.com^$3p,badfilter
 twitter.com#@#article[role="article"]:has-text(Promoted)
 @@||ekstat.com/js/ek$script,domain=eksisozluk.com
 ||adswizz.com^$badfilter
@@ -96043,7 +96043,6 @@ twitter.com#@#article[role="article"]:has-text(Promoted)
 @@||x.kinja-static.com/assets/packaged-js/trackers$script
 ||x.kinja-static.com/assets/packaged-js/trackers$script,domain=avclub.com|clickhole.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theinventory.com|theonion.com|theroot.com|thetakeout.com,important
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##+js(set, ga, noopFunc)
-||ultimedia.com/api/widget/$xhr,badfilter
 ||ultimedia.com/api/widget/$xhr,domain=techradar.com|tomsguide.com|tomshardware.com|videogamer.com
 @@||bazaarvoice.com/prod/static/*/bv-analytics.js$script,domain=chemistwarehouse.com.au
 @@||authorityhacker.com/wp-content/*/plugins/duracelltomi-google-tag-manager/*$script,1p
@@ -96105,9 +96104,6 @@ mac-torrent-download.net##[href^="//sundhopen.site/"]
 @@||pngfind.com^$css,1p
 @@||automate-prod.s3.amazonaws.com/minified_logic.js$xhr,domain=kotaku.com.au
 @@||googletagservices.com/tag/js/gpt.js$script,domain=phonearena.com
-|https://$script,3p,domain=zone-anime.net,badfilter
-*.gif$domain=www.zone-anime.net,image
-zone-anime.net##.code-block
 pcgamer.com#@#.hawk-widget
 @@||spankmasters.com/EmbedPlayer.aspx$frame
 @@||reutersmedia.net/*/js/rcom-scroll-tracker.js$script,domain=reuters.com
@@ -104603,7 +104599,7 @@ cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 25 Apr 2003 00:00:00
+# start date:    Sat, 26 Apr 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
