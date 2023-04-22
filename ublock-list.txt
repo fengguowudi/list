@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4N4rPidMI+1a0hsVNUnoRQ
+! Checksum: 3FDXg6zmx2x3484MKYJXnw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304222031
-! Last Modified: 2023年04月22日 20:31
+! Version: 202304230219
+! Last Modified: 2023年04月23日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -55405,6 +55405,7 @@ probuilds.net##a[class^="dl-blitz-"]
 trakt.tv##a[class^="hu-ck-s-t-er-"][target="_blank"]
 namepros.com##a[data-tag="backer"]
 sashares.co.za##a[data-wpel-link="external"]
+aliexpress.com,aliexpress.us##a[href*="&ad_pvid="]
 imgpile.com,linuxjournal.com,threatpost.com##a[href*="&utm_campaign="]
 walmart.ca##a[href*=".criteo.com/"]
 ghostbin.me##a[href*=".short.gy/"]
@@ -55637,6 +55638,7 @@ theverge.com##div[data-concert]
 bedbathandbeyond.com##div[data-cta="plpSponsoredProductClick"]
 wayfair.com##div[data-enzyme-id="WssBannerContainer"]
 qwant.com##div[data-monitoring="adsWebSerpOk"]
+opentable.ae,opentable.ca,opentable.co.th,opentable.co.uk,opentable.com,opentable.com.au,opentable.com.mx,opentable.de,opentable.es,opentable.hk,opentable.ie,opentable.it,opentable.jp,opentable.nl,opentable.sg##div[data-promoted="true"]
 linustechtips.com##div[data-role="sidebarAd"]
 google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-section-id$="__adb"]
 ecosia.org##div[data-test-id="mainline-result-ad"]
@@ -93646,6 +93648,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||teiegram.link^$all
 ||bavaria-cup.ru^$all
 ||famlepay.com^$all
+||maurine.co^$all
+||reviewspay.cc^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
 ||adblock-one-protection.com^$all
@@ -94974,6 +94978,12 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||lpdoinoibnsndoppigh.com^$doc
 ||natu.natural-natural-pure.com^$doc
 ||npafnapnnapfpaengdf.com^$doc
+||b6s4as9myw75g877krwp.com^$doc
+||hr7sy8fpw7tr43u3dab2.com^$doc
+||loving-happy.com^$doc
+||pw3a2rps8p97x2u5-2rf.com^$doc
+||wzbrughrw9a63hnfurap.com^$doc
+||xa7f8d9i9su2pchn6mps.com^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -95438,8 +95448,6 @@ knowyourmeme.com##+js(nosiif, blogherads)
 ||mopub.com^$3p
 ||outbrain.com^$badfilter
 ||outbrain.com^$3p
-||flurry.com^$badfilter
-||flurry.com^$3p
 ||top.mail.ru^$badfilter
 ||top.mail.ru^$3p
 @@||css.washingtonpost.com/*/ads.css$css,1p
@@ -97466,6 +97474,10 @@ cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 @@||ua.indianexpress.com/api/geoip/resolve$xhr,1p
 @@||googletagmanager.com/gtm.js$script,domain=radio-canada.ca
 @@||static.chartbeat.com^$domain=repubblica.it
+||ad-link.jp/sugoroku64/static/img/promotion_5/spacer.gif$image,redirect-rule=1x1.gif,domain=sugoroku64.ad-link.jp
+@@||cdn.flurry.com/js/flurry.js$script,domain=securegames.iwin.com
+pcwelt.de#@#a[href^="https://pvn.mediamarkt.de/"]
+pcwelt.de#@#a[href^="https://pvn.saturn.de/"]
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
