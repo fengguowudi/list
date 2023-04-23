@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rXyWSmToSqvBBznM6sdRyQ
+! Checksum: 2rfEd/zMh9Z0tZJ/uKdoRA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304230938
-! Last Modified: 2023年04月23日 09:38
+! Version: 202304231420
+! Last Modified: 2023年04月23日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -55147,7 +55147,7 @@ tekdeeps.com##.zAzfDBzdxq3
 windows101tricks.com##.zanui-container
 antimusic.com##.zerg
 thehackernews.com##.zoho-box-1
-bellinghamherald.com,charlotteobserver.com,fresnobee.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,newsobserver.com##.zone
+bellinghamherald.com,charlotteobserver.com,fresnobee.com,heraldonline.com,idahostatesman.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,modbee.com,newsobserver.com,sacbee.com,thenewstribune.com,thestate.com,tri-cityherald.com##.zone
 bellinghamherald.com##.zone-el
 exchangerates.org.uk##[alt="banner"]
 urbandictionary.com##[aria-label*="Advertise"]
@@ -67251,6 +67251,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hatefulrequest.com^
 ||hauntlist.com^
 ||headyhook.com^
+||healflowers.com^
 ||hearinglizards.com^
 ||hearthorn.com^$third-party
 ||heavyplayground.com^
@@ -67384,6 +67385,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||materialisticmark.com^
 ||materialisticmoon.com^
 ||materialmoon.com^$third-party
+||materialplayground.com^
 ||measlymiddle.com^
 ||measurecaption.com^
 ||meatydime.com^
@@ -95143,6 +95145,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||gamingdebates.com^$all
 ||flirt4free.com^$all
 ||revanced.io^$all
+||bonzi.link^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -97488,6 +97491,12 @@ cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 @@||cdn.flurry.com/js/flurry.js$script,domain=securegames.iwin.com
 pcwelt.de#@#a[href^="https://pvn.mediamarkt.de/"]
 pcwelt.de#@#a[href^="https://pvn.saturn.de/"]
+@@||s0.2mdn.net/instream/html5/ima3.js$script,domain=playhub.com
+playhub.com##.ad-title-megaban
+playhub.com##.ad-title-pave
+playhub.com##.ad-title-sky
+playhub.com##.promo-game
+play.turbommo.com$3p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
