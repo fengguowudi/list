@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AHSGsDkOtNv+mljR0/+Hsg
+! Checksum: tTyQxn20nUb9MLZeG6TjVA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304241422
-! Last Modified: 2023年04月24日 14:22
+! Version: 202304242033
+! Last Modified: 2023年04月24日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -51964,6 +51964,8 @@ breitbart.com###HavDW
 sitelike.org###HeaderAdsenseCLSFix
 fortune.com###Leaderboard0
 motortrend.com###MT_Articles_300x250_top
+medicalnewstoday.com###MyFiAd
+medicalnewstoday.com###MyFiAd0
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
 audioz.download###PromoHead
@@ -54184,6 +54186,7 @@ getbukkit.org##.limit
 linuxize.com##.linaff
 jpost.com##.line-left-side-before-and-after-container
 jpost.com##.line-one-row-before-and-after-container
+architecturesideas.com##.linkpub_right_img
 babynamegenie.com,forless.com,worldtimeserver.com##.links
 weatherpro.com##.list-city-ad
 nationalmemo.com##.listicle--ad-tag
@@ -54322,6 +54325,7 @@ dailymail.co.uk##.mpu_puff_wrapper
 mapquest.com##.mq-bizLocs-container
 mapquest.co.uk,mapquest.com##.mqBizLocsContainer
 10play.com.au,geo.tv,jozifm.co.za,nwherald.com,runt-of-the-web.com,thewest.com.au,topgear.com.ph##.mrec
+auto.economictimes.indiatimes.com##.mrec-ads-slot
 dkoding.in##.mrf-adv__wrapper
 motorsport.com##.ms-ap
 autosport.com##.ms-apb
@@ -55527,6 +55531,7 @@ linuxtopia.org##[src^="/includes/index.php/?img="]
 academictorrents.com##[src^="/pic/sponsors/"]
 tampermonkey.net##[src^="data:image"]
 exportfromnigeria.info##[src^="http://storage2.proboards.com/"]
+medicalnewstoday.com##[src^="https://healthline-activation-prod.healthline.com/driver-images/"]
 noqreport.com##[src^="https://media.mercola.com/assets/html/"]
 exportfromnigeria.info##[src^="https://storage2.proboards.com/"]
 buzzly.art##[src^="https://submissions.buzzly.art/CANDY/"]
@@ -88897,7 +88902,7 @@ xxxymovies.com##+js(set, flashvars.adv_pause_html, '')
 dirtyship.com##+js(acis, onload)
 tubxporn.xxx##+js(aeld, click, popMagic)
 hotscopes.*,setfilmizle.tv##+js(aopw, puShown)
-afrodity.sk,alimentprofi.ru,brato.bg,chuguevforum.com,cinema21fullmovie.com,cotannualconference.org.uk,couponsuniverse.com,cycraracing.com,dahh.net,dlhe-videa.sk,elmalajeno.com,extreme-board.com,free-famous-toons.com,igra-tv.ru,istanbulescortnetworks.com,krassota.com,ok-th.com,payt.com,pcparsi.com,podkontrola.pl,pornopissing.ru,redtubemov.com,shkolazhisni.ru,shtab.su,spiritword.net##+js(acis, document.createElement, 'script')
+afrodity.sk,brato.bg,cinema21fullmovie.com,cotannualconference.org.uk,couponsuniverse.com,cycraracing.com,dahh.net,dlhe-videa.sk,elmalajeno.com,extreme-board.com,free-famous-toons.com,istanbulescortnetworks.com,ok-th.com,payt.com,pcparsi.com,podkontrola.pl,redtubemov.com,shtab.su,spiritword.net##+js(acis, document.createElement, 'script')
 elmalajeno.com##^script:has-text(d.createElement('script'))
 elmalajeno.com##^script:has-text(d.createElement(\'script\'))
 @@||onlinefetishporn.cc^$ghide
@@ -88907,7 +88912,7 @@ streamlare.com##body > div[style^="position: fixed; display: block"][style*="ins
 shegotass.info##+js(aopr, popunder)
 shegotass.info##+js(set, flashvars.adv_pre_vast, '')
 xxxshake.com##+js(set, flashvars.adv_pause_html, '')
-de-sexy-tube.ru,tubsxxx.com##+js(nostif, window.location.href)
+tubsxxx.com##+js(nostif, window.location.href)
 animeplanet.cc##+js(aopw, __C)
 536sdms.com##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/)
 camlovers.tv##+js(acis, crakPopInParams)
@@ -91223,7 +91228,7 @@ m.mobile.de##[data-label="Anzeige"]
 m.mobile.de##div.He1bX
 pornsai.com##+js(acis, document.querySelectorAll, popMagic)
 pornsai.com##.table
-adrianoluis.net,altevolkstrachten.de,animecast.net,armyranger.com,articletz.com,boxylucha.com,chibchat.com,descargasmix.xyz,duniailkom.com,enciclopediaonline.com,entano.jp,eyalo.com,fosslovers.com,fotopixel.es,hairstylesthatwork.com,hello-e1.com,ichberlin.com,ireez.com,keepkoding.com,latribunadeautomocion.es,linemarlin.com,lumpiastudio.com,miaandme.org,mobility.com.ng,mygardening411.com,newstvonline.com,organismes.org,papagiovannipaoloii.altervista.org,playlists.rocks,relatosdesexo.xxx,rencah.com,riverdesdelatribuna.com.ar,sarkarinaukry.com,seamanmemories.com,socialmediaverve.com,solnechnyj-kitaj.ru,theorie-musik.de,topperpoint.com,transformator220.ru,travel-the-states.com,vita-water.ru,vozz.vn##+js(aost, String.prototype.charCodeAt, ai_)
+adrianoluis.net,altevolkstrachten.de,animecast.net,armyranger.com,articletz.com,boxylucha.com,chibchat.com,descargasmix.xyz,duniailkom.com,enciclopediaonline.com,entano.jp,eyalo.com,fosslovers.com,fotopixel.es,hairstylesthatwork.com,hello-e1.com,ichberlin.com,ireez.com,keepkoding.com,latribunadeautomocion.es,linemarlin.com,lumpiastudio.com,miaandme.org,mobility.com.ng,mygardening411.com,newstvonline.com,organismes.org,papagiovannipaoloii.altervista.org,playlists.rocks,relatosdesexo.xxx,rencah.com,riverdesdelatribuna.com.ar,sarkarinaukry.com,seamanmemories.com,socialmediaverve.com,theorie-musik.de,topperpoint.com,travel-the-states.com,vozz.vn##+js(aost, String.prototype.charCodeAt, ai_)
 animecast.net##+js(acis, document.querySelectorAll, popMagic)
 @@||user.pnetlab.com/store/advs/check
 oosex.net,theteensexy.com,xteensex.net##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
@@ -93089,7 +93094,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||tobmyfile.info^$all
 ||lone1y.com^$all
 ||tr1net.com^$all
-||homuradu.com^$all
 ||usdownload.widost.com^$all
 ||fast-date.site^$all
 ||redirectto.fun^$all
@@ -93284,9 +93288,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||systemupdatesy.life^$all
 ||d135aysof2oufc.cloudfront.net^$all
 /?banner=*&phone=$doc
-||chevrontax.info^$all
 ||advidates.com^$all
-||josannastudio.co^$all
 ||scan-scan.com^$all
 ||dvjqvdfujjvvkuyvhjqdvbjcmioljbhjmijq.s3.ap-northeast-1.amazonaws.com^$all
 /2/index.html#|$doc
@@ -93422,6 +93424,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||meetamate.site^
 ||niceelitdating.top^$all
 ||dm09.biz^$all
+/click.php?key=*&dj_placement=$doc
+||7c67f.gybapas.top^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
@@ -93576,7 +93580,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||cosmicdrift.co^$all
 ||bbynetwork.nl^$all
 ||deltaproject.dev^$all
-||cs2code.com^$all
 ||rblx.land^$all
 ||csnegotiable.com^$all
 ||nbryb.com^$all
@@ -93645,7 +93648,6 @@ crackkits.com,rootcracks.co,crackwatch.org,crackfix.net,origincrack.com,procrack
 alicracks.com,win-crack.com,productkeyfree.org,productkeyforfree.com,procrackerz.org,crackdev.com,wazusoft.com,piratesfile.com,piratpc.com##center > a
 cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:center;"]
 ||xforce-cracks.com^$doc
-||premiumfullversion.com^$doc
 ||fileisready.com^$doc
 /?act=*&epcVIP=$doc
 ||kirov1.xyz^$all
@@ -93828,12 +93830,13 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||ukrose.net^$all
 ||zyczdwu.cn^$all
 ||hehekakao.com^$all
-||teiegram.link^$all
 ||bavaria-cup.ru^$all
 ||famlepay.com^$all
 ||maurine.co^$all
 ||ugrvjkj.cn^$all
 ||patriothomestore.com^$all
+||ameixosszpxpass.top^$all
+||buyshflat.life^$all
 ||reviewspay.cc^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
@@ -94263,7 +94266,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||betonclickone.com^$all
 ||japanshopforsale.online^$all
 ||jpsilversingle.com^$all
-||lockingdefender.z13.web.core.windows.net^$all
 ||omiaijapan.net^$all
 ||bestsportsite.shop^$all
 ||guide-antivirus.com^$all
@@ -94273,8 +94275,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||windowliveinfo.live^$all
 ||wwworiginal.com^$all
 ||buynewrvsbuyonline.com^$all
-||quicklydefender.z13.web.core.windows.net^$all
-||seosupport.z13.web.core.windows.net^$all
 ||skyonelendings.com^$all
 ||swaws.link^$all
 ||thakthukgye.blob.core.windows.net^$all
@@ -95274,7 +95274,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||cxchutiyahotah.online^$all
 .online/*/eeeekayresrsammicraaajkaschhoilsebadhiyakuchtanahiaayaajturuionmeebbat/$doc
 ||plesk.page/?phone=+1-$doc
-||aamraai.cloud^$all
 ||satttawishonemottorecepi.online^$all
 ||s3.ap-southeast-1.amazonaws.com/99991.675.7799.8989.2699.8899.0909.is.access.denied.us/honda+69/seahorsendigitalocean.app/0h0o0n0d0a0/index+(7).html$all
 /Win0xixm07/?phone=$doc
@@ -95288,27 +95287,59 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||naramgaram.online^$all
 ||windowshelps.site^$all
 ||orfon.site^$all
-||pinkpussy.one^$all
 ||smalldingdong.top^$all
 ||sportwebsforu.site^$all
 ||teresangyara.online^$all
-||hotchicks.one^$all
 ||sportwebsforu.xyz^$all
 ||s3.ap-northeast-1.amazonaws.com/tedex.com/*/index.html$all
 /^https:\/\/(?:www\.)?[a-z]{8,15}\.[a-z]{3}\/V1\/$/$document,domain=one|top,match-case
-||d188l1lq8frqfz.cloudfront.net^$all
 ||horenshi-receptte.online^$all
 ||smarttvnew.vercel.app^$all
 ||sportwebsforu.shop^$all
 /systemerror-mac/?$doc
-||d20czoh4nqf3iu.cloudfront.net^$all
-||d1owqt0pbd956t.cloudfront.net^$all
 ||microflexed.shop^$all
 ||slotsgaming.online^$all
-||d2im6xeq9wu8jh.cloudfront.net^$all
-||d3tv5eczhfomaf.cloudfront.net^$all
 /Win0SecurityEr0CH0700Err0rSt/index.html$doc
 ||vicrok.site^$all
+/werrx01/index.html$doc
+||1party.org^$all
+||activexsportswear.com^$all
+||assistancetechnique.org^$all
+||besttreasurecoastroofing.com^$all
+||d37nnl0j2dkmye.cloudfront.net^$all
+||digistand.online^$all
+||eharmonysingle.online^$all
+||error-defender.online^$all
+||errorordufhwe.s3.ap-south-1.amazonaws.com^$all
+||gofud.store^$all
+||healthbenefitnewsandoffers.com^$all
+||istheuksolarserviceonline.com^$all
+||kartawishlive.xyz^$all
+||kbklgtigkhykmjh.azurewebsites.net^$all
+||klfgdjkgteftrefgdhf.xyz^$all
+||masterclassesforexperts40.xyz^$all
+||microsoftsupportservices.com^$all
+||onlinemessage.z13.web.core.windows.net^$all
+||pornspywarealert.shop^$all
+||premiumexpertclass84.xyz^$all
+||premiumexpertclass86.xyz^$all
+||premiumexpertclass89.xyz^$all
+||spfbelgium.com^$all
+||superfparentho.cloud^$all
+||systemerrorswithreport.xyz^$all
+||teszoom.com^$all
+||tftgirkjgdhdjhdggcjhd.azurewebsites.net^$all
+||tiffanyandtoke.com^$all
+||travelsnapy.com^$all
+||versanity8373.z13.web.core.windows.net^$all
+||winofficeorders.com^$all
+||yewojoshi.shop^$all
+||banfalem.blob.core.windows.net/$web/crodfdde/$all
+||s3.ap-northeast-2.amazonaws.com/%*!!%*/index.html$doc
+||s3.amazonaws.com/securityfotrus.1.13/index.html$all
+||s3.eu-west-2.amazonaws.com/675.88.u6.8878/index.html$all
+||s3.us-west-1.amazonaws.com/security.uni.firewall.$all
+||westernbible.edu^$doc
 ||gateway.pinata.cloud^$3p
 ||japanonlinebroadcast.live^$all
 ||crackedpc.org^$all
