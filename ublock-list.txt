@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uZzCxmFZEXTFr2Xb8ok0Kw
+! Checksum: sH0xxoqq/g6rlJ2yl0HMsQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304252033
-! Last Modified: 2023年04月25日 20:33
+! Version: 202304260220
+! Last Modified: 2023年04月26日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3018,6 +3018,7 @@
 /nativead/*
 /nativeads.
 /nativeads/*
+/nativebanner/ane-native-banner.js
 /nav_ad/*
 /navad/*
 /navads/*
@@ -3202,6 +3203,7 @@
 /plugins/ads/*
 /plugins/adsanity-
 /plugins/advanced-ads/*$domain=~wordpress.org
+/plugins/ane-preroll-
 /plugins/cactus-ads/*$script,stylesheet
 /plugins/cpx-advert/*$script
 /plugins/dx-ads/*$script
@@ -56609,6 +56611,7 @@ amateur8.com,maturetubehere.com###nopp
 flashx.tv###nuevoa
 youjizz.com###onPausePrOverlay
 hentaimama.io###overlay
+porn300.com###overlay-video
 22pixx.xyz,imagevenue.com###overlayBg
 hentaiff.com###overplay
 video.laxd.com###owDmcIsUc
@@ -91189,7 +91192,6 @@ samehadaku.*###playVideo:style(display: block !important; visibility: visible !i
 samehadaku.*###player_embed:style(display: block !important; visibility: visible !important;)
 samehadaku.*###skipbtn
 samehadaku.*##.box_item_berlangganan_popup
-||bp.blogspot.com^*/s720/$domain=samehadaku.*
 *$script,3p,denyallow=cloudfront.net|disqus.com|disquscdn.com|fastlylb.net,domain=samehadaku.*
 ||yimg.com/nn/lib/metro/g/sda/$domain=yahoo.com
 spele.nl##.is-skyscraper
