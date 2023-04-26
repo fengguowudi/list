@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UeNUa37IbPwJGrJSL8vOxQ
+! Checksum: lofrnZ6FNoaw4VpaKapVFQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304261421
-! Last Modified: 2023年04月26日 14:21
+! Version: 202304262033
+! Last Modified: 2023年04月26日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -117,7 +117,6 @@
 -gpt-ad-$~xmlhttprequest
 -housead-
 -iframe-ad.
--image-ad.
 -image/Ads/
 -images/ad-
 -layer-ad.
@@ -31774,7 +31773,6 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||hb-247.com^
 ||hbfqcy.com^
 ||hbfulzie.life^
-||hboav.com^
 ||hcritiesec.xyz^
 ||hcuukwgpjiykapf.xyz^
 ||hd100546c.com^
@@ -55835,6 +55833,7 @@ greekreporter.com##center > p > [href]
 builtbybit.com##center[style="margin-top: 20px"]
 readonepiece.com##div > b
 coffeeordie.com##div.HtmlModule > [href]
+steamgifts.com##div.dont_block_me
 baking-forums.com,windows10forums.com##div.message--post.message
 inverse.com##div.zz
 liverpoolway.co.uk##div[align="center"] > a[href]
@@ -56501,7 +56500,7 @@ gamersnexus.net#?##right_col > div:-abp-has(p:-abp-contains(Advertisement))
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#._6y8t:-abp-has(a[href="/ads/about/?entry_product=ad_preferences"])
 gankrin.org#?#.code-block:-abp-has(.adsbygoogle)
-youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
+youtube.com#?#ytd-rich-item-renderer.style-scope.ytd-rich-grid-row:-abp-has(ytd-display-ad-renderer)
 gankrin.org#?#.widget_custom_html:-abp-has(.adsbygoogle)
 geekzone.co.nz#?#.container:-abp-has(.adsbygoogle)
 geekzone.co.nz#?#.container:-abp-has(a[title="Affiliate link"])
@@ -65255,6 +65254,7 @@ _mongo_stats/
 ||ivwbox.de^$third-party
 ||iwebtrack.com^$third-party
 ||ixiaa.com^$third-party
+||izatcloud.net^$third-party
 ||izea.com^$third-party
 ||izearanks.com^$third-party
 ||izooto.com^$third-party
@@ -90658,7 +90658,7 @@ comixzilla.com##+js(acis, document.createElement, 'script')
 unsurcoenlasombra.com##+js(aopr, google_jobrunner)
 watchmovierulz.*##+js(nowoif)
 anigogo.net,animepl.xyz,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,faptiti.com,fbgo.*,goana.xyz,gomovizplay.com,hlsplayer.xyz,javplaya.com,oxl.one,playersb.com,sbanh.com,sbbrisk.com,sbchill.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbhight.com,sblanh.com,sblongvu.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.*,ssbstream.net,streamsb.*,streamsss.net,subsb.net,tubesb.com,vidmovie.xyz,view345.com,viewsb.com,watchsb.com,xvideostream.net##+js(aopr, __Y)
-anigogo.net,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,fbgo.*,gomovizplay.com,hlsplayer.xyz,lvturbo.com,oxl.one,playersb.com,sbanh.com,sbbrisk.com,sbchill.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbface.com,sbfast.com,sbflix.*,sbfull.com,sbhight.com,sblanh.com,sblongvu.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.net,ssbstream.net,streamsb.*,streamsss.net,subsb.net,tubesb.com,vidmovie.xyz,view345.com,viewsb.com,watchsb.com##+js(aopr, mm)
+anigogo.net,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,fbgo.*,gomovizplay.com,hlsplayer.xyz,lvturbo.com,oxl.one,playersb.com,sbanh.com,sbbrisk.com,sbchill.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbface.com,sbfast.com,sbflix.*,sbfull.com,sbhight.com,sblanh.com,sblongvu.com,sbnet.one,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.net,ssbstream.net,streamsb.*,streamsss.net,subsb.net,tubesb.com,vidmovie.xyz,view345.com,viewsb.com,watchsb.com##+js(aopr, mm)
 sbembed1.com,sbvideo.*##+js(aopr, console.clear)
 cloudemb.com##+js(nowoif, !/^\/d\//)
 cloudemb.com##+js(set, console.clear, noopFunc)
@@ -104566,6 +104566,7 @@ tiendaenlinea.claro.com.ni##+js(set, Object.prototype.bk_doJSTag, noopFunc)
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||ad.zui.com^
 ||pnez8.rut6m.xyz^
 ||eq.af31f.site^
 ||ra1.xyz^

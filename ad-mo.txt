@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WplhVx9sjo4VvFwb9jUU5Q
+! Checksum: Z7jRS8jVs+MdT1ms/0DeIw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202304261421
-! Last Modified: 2023年04月26日 14:21
+! Version: 202304262033
+! Last Modified: 2023年04月26日 20:33
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -455,7 +455,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 -gpt-ad-$~xmlhttprequest
 -housead-
 -iframe-ad.
--image-ad.
 -image/Ads/
 -images/ad-
 -layer-ad.
@@ -32112,7 +32111,6 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||hb-247.com^
 ||hbfqcy.com^
 ||hbfulzie.life^
-||hboav.com^
 ||hcritiesec.xyz^
 ||hcuukwgpjiykapf.xyz^
 ||hd100546c.com^
@@ -56173,6 +56171,7 @@ greekreporter.com##center > p > [href]
 builtbybit.com##center[style="margin-top: 20px"]
 readonepiece.com##div > b
 coffeeordie.com##div.HtmlModule > [href]
+steamgifts.com##div.dont_block_me
 baking-forums.com,windows10forums.com##div.message--post.message
 inverse.com##div.zz
 liverpoolway.co.uk##div[align="center"] > a[href]
@@ -56839,7 +56838,7 @@ gamersnexus.net#?##right_col > div:-abp-has(p:-abp-contains(Advertisement))
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#._6y8t:-abp-has(a[href="/ads/about/?entry_product=ad_preferences"])
 gankrin.org#?#.code-block:-abp-has(.adsbygoogle)
-youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
+youtube.com#?#ytd-rich-item-renderer.style-scope.ytd-rich-grid-row:-abp-has(ytd-display-ad-renderer)
 gankrin.org#?#.widget_custom_html:-abp-has(.adsbygoogle)
 geekzone.co.nz#?#.container:-abp-has(.adsbygoogle)
 geekzone.co.nz#?#.container:-abp-has(a[title="Affiliate link"])
@@ -86848,6 +86847,7 @@ _mongo_stats/
 ||ivwbox.de^$third-party
 ||iwebtrack.com^$third-party
 ||ixiaa.com^$third-party
+||izatcloud.net^$third-party
 ||izea.com^$third-party
 ||izearanks.com^$third-party
 ||izooto.com^$third-party
