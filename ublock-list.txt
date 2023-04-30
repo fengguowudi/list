@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yNa/zI44z9zBf6Fp8a5Ubg
+! Checksum: 4PV167hxOXmOUsU/QOzliA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202304302030
-! Last Modified: 2023年04月30日 20:30
+! Version: 202305010218
+! Last Modified: 2023年05月01日 02:18
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54824,6 +54824,7 @@ mlsbd.shop##.notice-board
 cityam.com##.notice-header
 computing.co.uk##.notice-slot-full-below-header
 forum.xda-developers.com##.notices--thnoticesplus_topbar
+all3dp.com##.notification
 mondoweiss.net##.notrack
 bleepingcomputer.com##.noty_bar
 pcgamebenchmark.com##.nova_wrapper
@@ -58296,7 +58297,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hinagiku-u.ed.jp/wp54/wp-content/themes/hinagiku/images/$image,~third-party
 @@||ias.global.rakuten.com/adv/$script,domain=rakuten.co.jp
 @@||iejima.org/ad-banner/$image,~third-party
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=autokult.pl|bloomberg.co.jp|bsfuji.tv|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|klix.ba|locipo.jp|maharashtratimes.com|minigame.aeriagames.jp|nettavisen.no|pointmall.rakuten.co.jp|s.yimg.jp|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|univtec.com|video.tv-tokyo.co.jp|vlive.tv|webdunia.com|wowbiz.ro|wtk.pl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=autokult.pl|bloomberg.co.jp|bsfuji.tv|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|klix.ba|locipo.jp|maharashtratimes.com|minigame.aeriagames.jp|nettavisen.no|pointmall.rakuten.co.jp|s.yimg.jp|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|video.tv-tokyo.co.jp|vlive.tv|webdunia.com|wowbiz.ro|wtk.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=s.yimg.jp|vk.sportsbull.jp
 @@||innervision.co.jp/var/ezwebin_site/storage/images/ad/$image,~third-party
 @@||jmedj.co.jp/files/$image,~third-party
@@ -69045,6 +69046,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adblockmetrics.ru^$third-party
 ||admile.ru^$third-party
 ||adx.com.ru^$third-party
+||airlogs.ru^$third-party
 ||announcement.ru^$third-party
 ||apkonline.ru^$third-party
 ||audsp.com^$third-party
@@ -69099,6 +69101,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mediatoday.ru^$third-party
 ||metaversn.site^$third-party
 ||metrika-informer.com^$third-party
+||mobtop.com^$third-party
+||mobtop.ru^$third-party
 ||mokuz.ru^$third-party
 ||more-data.ru^$third-party
 ||musiccounter.ru^$third-party
@@ -69315,6 +69319,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analyticcdn.globalmailer.com^
 ||analytics-1.cavai.com^
 ||analytics-cms.whitebeard.me^
+||analytics-consent-manager-v2-prod.azureedge.net^
 ||analytics-production.hapyak.com^
 ||analytics-scripts.cablelabs.com^
 ||analytics-sg.tiktok.com^
@@ -73888,7 +73893,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||twitter.com/i/csp_report?
 ||twitter.com/i/jot
 ||typepad.com/t/stats?
-||u989.theweek.com^
 ||ua.indianexpress.com^
 ||uber.com/_events
 ||uber.com/_track
@@ -74218,7 +74222,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zoominfo.com/osx7m0dx/init.js
 ://a02342.
 ||cb-mms.carbuyer.co.uk^
-||cdn-alliancegravity.s3.amazonaws.com^
 ||cmp.courrierinternational.com^
 ||cmp.finn.no^
 ||cmp.huffingtonpost.fr^
@@ -74231,19 +74234,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cmp.tek.no^
 ||cmp.telerama.fr^
 ||d.sourcepoint.capitalfm.com^
-||eurogamer-it.eurogamer.it^
-||eurogamer-pl.eurogamer.pl^
-||eurogamer-pt.eurogamer.pt^
 ||fuse.forbes.com^
 ||h-bid.com^$third-party
-||mms.wwe.com^
 ||sourcepoint-mms.aetv.com^
 ||sourcepoint-mms.history.com^
 ||sourcepoint-mms.mylifetime.com^
 ||trustarc.mgr.consensu.org/get?
-||twus-mms.theweek.com^
-||usgamer-us.usgamer.net^
 ||vg247-p2.vg247.com^
+||vg247-uk.vg247.com^
 /misites/*
 /yozons-lib/*
 ||aerlingus.com/ahktqsewxjhguuxe.js
@@ -90485,6 +90483,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
+@@||h-cast.jp^$script,domain=bookoffonline.co.jp
 @@||howtonote.jp/google-analytics/$image,~third-party
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
@@ -94109,7 +94108,6 @@ camstreams.tv##div[style="position: absolute; inset: 0px; overflow: hidden; z-in
 ||networkbest.ru.com/include$script
 @@||leet365.cc^$ghide
 @@||ragnarp.net^$ghide
-ragnarp.net##div[style="position:absolute;top:0;left:0;width: 100%;height: 100%;z-index:2147483647"]
 streamonfoot.xyz##[href="https://fcstream.com/banniere.html"]
 streamonfoot.xyz##[href^="/go.php"]
 burnbutt.com##+js(acis, document.addEventListener, google_ad_client)
@@ -95570,6 +95568,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||patriothomestore.com^$all
 ||ameixosszpxpass.top^$all
 ||buyshflat.life^$all
+||jdongktx.com^$all
+||techguykev.com^$all
 ||reviewspay.cc^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
