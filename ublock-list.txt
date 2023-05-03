@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HSDGwZZPS8EcoOksTl094w
+! Checksum: +Ew7tueLfk0zqQdPdnfqHA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305032033
-! Last Modified: 2023年05月03日 20:33
+! Version: 202305040220
+! Last Modified: 2023年05月04日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -93831,6 +93831,9 @@ ravenmanga.xyz##[href^="https://a-ads.com"]
 usagoals.*##+js(aopw, _pop)
 ||cdn777.net/site/usagoals/sitelinks/xpopme_in.js^
 toxicwap.us##+js(aost, Math, https)
+toxicwap.us##+js(aopr, mm)
+||brackenclomped.com^
+||babup.com^$3p
 ||toxicwap.us/sw.js$script,1p
 ||free.xjs.lol/js/pub.min.js$script,3p
 dotadostube.com,dvdgayonline.com,dvdgayporn.com,hotxfans.com,taradinhos.com##+js(aeld, DOMContentLoaded, adsBlocked)
@@ -94105,6 +94108,7 @@ av01.tv##+js(ra, onclick, a[onclick^="setTimeout"])
 av01.tv##.row > div > #tile-ad:upward(1)
 av01.tv##div[style="width: 100%; height: 100%; top: 0px; position: fixed; z-index: 1; background-color: rgba(0, 0, 0, 0.8); overflow-x: hidden; transition: all 0.2s ease 0s; padding: 5%;"]
 av01.tv##+js(rc, vjs-hidden, .vjs-control-bar, stay)
+av01.tv##iframe[width="728"]
 plugintorrent.com##+js(aopw, _pop)
 freewp.io##+js(no-xhr-if, /^/)
 dlgal.com##+js(acs, document.querySelectorAll, popMagic)
@@ -95287,6 +95291,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 &srv_id=terra#$doc
 ||ultimate-clean.club^$all
 ||pcconelove.xyz^$all
+||premiumapps.cfd^
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
@@ -97070,6 +97075,19 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||p-chi.tech^$doc
 ||rearea2022.com^$doc
 ||vanilla-japan.love^$doc
+||jtybleua.jp^$doc
+||mai-tel.jp^$doc
+||micugqmr.givu.mom^$doc
+||sfc.bz^$doc
+||sfget.jp^$doc
+||download-campaign.com^$doc
+||fine-cloud.net^$doc
+||float-next.com^$doc
+||matomenever.com^$doc
+||mid-round.com^$doc
+||otonanojikan13579.net^$doc
+||up-loop.net^$doc
+||videochat-fan.com^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -97204,6 +97222,11 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||s3.eu-west-2.amazonaws.com/675.88.u6.8878/index.html$all
 ||s3.us-west-1.amazonaws.com/security.uni.firewall.$all
 ||westernbible.edu^$doc
+/Win00Security07/index.html$document
+||02051.azureedge.net^$all
+||gcx4e-i7ygbv-okmn-iuhb-o6pqb.ondigitalocean.app^$all
+||varchardetection777.site^$all
+||xngqoc.com^$all
 ||gateway.pinata.cloud^$3p
 ||japanonlinebroadcast.live^$all
 ||crackedpc.org^$all
@@ -97224,6 +97247,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||hiphopde.com^$all
 ||samsonghiphop.org^$all
 ||zamusic.org^$all
+||adblock.click^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -97472,6 +97496,7 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||driversign.click^
 ||ketekbisokaliau.com^
 ||sarang77skuy.com^
+||smartaccess.biz^
 ||top-staging.mail.ru^
 ||trk.mail.ru^$image,ping
 ||adthrive.com^$removeparam
