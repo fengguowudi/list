@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eLvOz9SMEi+xUIw+R1nQlg
+! Checksum: sNUj0rD5CJXSj+8ZebqoIA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305062030
-! Last Modified: 2023年05月06日 20:30
+! Version: 202305070219
+! Last Modified: 2023年05月07日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -94424,6 +94424,7 @@ nowtolove.com.au##.page__content-header:style(height: 50px !important)
 /script/ddfhhqxx.js$3p
 /script/tailwind.js$3p
 /script/yzfdmoan.js$3p
+/script/tbeomspv.js$3p
 .com/script/compatibility.js|$3p
 .org/script/compatibility.js|$3p
 .com/script/foundation.js|$3p
@@ -94432,6 +94433,8 @@ nowtolove.com.au##.page__content-header:style(height: 50px !important)
 ||flvpcdnb.com^
 ||bgcold.com^
 ||irries.com^
+||feript.com^
+||stitor.com^
 sexlist.tv##+js(disable-newtab-links)
 sexlist.tv##.link-premium
 sexlist.tv##.camitems
@@ -95690,8 +95693,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case
-/^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{10,36}(?:&qs\d=\S+)?&(?:s|pub)id=[_0-9a-z{}]{1,32}(?:&s=0\.\d+)?(?:#\S+)?$/$doc,match-case,domain=com|info|net|org
-/^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?(?:pub|s)id=[_0-9a-z{}]{1,32}(?:&qs\d=\S+)?&cid=[-_0-9a-zA-Z]{10,36}(?:&s=0\.\d+)?(?:#\S+)?$/$doc,match-case,domain=com|info|net|org
+/^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{10,36}(?:&qs\d=\S+)?&(?:s|pub)id=[-_0-9a-z{}]{1,32}(?:&s=0\.\d+)?(?:#\S+)?$/$doc,match-case,domain=com|info|net|org
+/^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?(?:pub|s)id=[-_0-9a-z{}]{1,32}(?:&qs\d=\S+)?&cid=[-_0-9a-zA-Z]{10,36}(?:&s=0\.\d+)?(?:#\S+)?$/$doc,match-case,domain=com|info|net|org
 ||ogtrk.net^
 ||secureconv-dl.com^$all
 ||91.241.60.117^$all
@@ -96107,6 +96110,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||paekatcerd.com^$all
 ||easy-vipmarkets.com^$all
 ||pppfgz.wiki^$all
+||luckypapa.xyz^$doc
 ||reviewspay.cc^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
@@ -97496,6 +97500,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||2chlovers.web.fc2.com^$doc
 ||lovez.jp^$doc
 ||hfmarkets001.com^$all
+||letakgrab.com^$doc
+||pinskscope.life^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -97644,7 +97650,6 @@ d2qwd57yatypx.cloudfront.net/Win/index.html$all
 ||123moviesgo.ga^$all
 ||gamingnewsanalyst.com^$all
 ||gamingdebates.com^$all
-||flirt4free.com^$all
 ||revanced.io^$all
 ||bonzi.link^$all
 ||gomovies.ltd^$all
