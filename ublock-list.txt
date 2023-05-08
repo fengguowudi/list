@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xDMs9Ntm5P3cRFAF1n+JMQ
+! Checksum: nKUcudd44vGbG3O0Dxj++g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305081421
-! Last Modified: 2023年05月08日 14:21
+! Version: 202305082033
+! Last Modified: 2023年05月08日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -93006,7 +93006,7 @@ kisscartoon.info##.offads
 kisscartoon.info##.countdown
 ||max-adserv.com^$3p
 newsinlevels.com,videosinlevels.com##+js(set, sgpbCanRunAds, true)
-knightnoscanlation.com##+js(acs, document.getElementById, adsBlocked)
+knightnoscanlation.com##+js(acs, eval, replace)
 knightnoscanlation.com##.c-sidebar
 m2list.com##+js(nostif, debugger)
 @@||posttrack.com/$xhr,1p
@@ -96223,6 +96223,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||pppfgz.wiki^$all
 ||luckypapa.xyz^$doc
 ||reviewspay.cc^$all
+||jsdushid.com^$all
+||manage-fpw-my-sakura-fpw-jp-fpw.impulsion.mu^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
 ||adblock-one-protection.com^$all
@@ -97765,7 +97767,6 @@ d2qwd57yatypx.cloudfront.net/Win/index.html$all
 ||bonzi.link^$all
 ||bestgames-2022.com^$all
 ||videoadblocker.pro^$all
-||adblock.click^$all
 ||pccdirect.site^$all
 ||templatesearch.org^$all
 ||f-i-n-d.onlyfuns.win^$all
@@ -100125,6 +100126,7 @@ hihonor.com#@#.ad-wrap
 @@||collect.mopinion.com/assets/surveys/*/js/survey.min.js$script,domain=findmystreet.co.uk
 @@||deploy.mopinion.com^$script,xhr,domain=findmystreet.co.uk
 @@||googletagmanager.com/gtm.js$script,domain=findmystreet.co.uk
+filelu.com#@#.banner_ads:not(:empty)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
