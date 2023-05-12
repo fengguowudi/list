@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ImibWYWM5SYs9jhCvJJnYw
+! Checksum: Rpexf2sKZibtcFaPlDFI8Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305122031
-! Last Modified: 2023年05月12日 20:31
+! Version: 202305130219
+! Last Modified: 2023年05月13日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54724,7 +54724,7 @@ boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.
 careerindia.com##.cmscontent-top
 thisismoney.co.uk##.cnr5
 letras.com##.cnt-space-top
-180gadgets.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,bigleaguepolitics.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hdmovies4u.live,indianhealthyrecipes.com,iotwreport.com,journeybytes.com,lithub.com,nationalfile.com,notalwaysright.com,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,superwatchman.com,techpp.com,techrounder.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
+180gadgets.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,bigleaguepolitics.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hdmovies4u.live,indianhealthyrecipes.com,iotwreport.com,journeybytes.com,lithub.com,nationalfile.com,notalwaysright.com,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,superwatchman.com,techpp.com,techrounder.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
 streamtelly.com##.code-block-1
 coinpaprika.com##.coinzilla-ad--desktop
 mydramalist.com##.col-lg-4 > .clear
@@ -55043,6 +55043,7 @@ theblock.co##.fixedUnit
 fixya.com##.fixya_primis_container
 whatismyipaddress.com##.fl-module-wipa-concerns
 omniglot.com##.flex-container
+bgr.com##.flex.bg-black
 libhunt.com##.flex.mt-5.boxed
 ice.hockey##.flex_container_werbung
 klmanga.net,shareae.com##.float-ck
@@ -57525,6 +57526,7 @@ msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
 msn.com##.articlePage_eoabNativeAd_new-DS-EntryPoint1-1
 msn.com##.bannerAdContainer-DS-EntryPoint1-1
 msn.com##.drrTopAdWrapper
+msn.com##.galleryPage_eoabContent_new-DS-EntryPoint1-1
 msn.com##.galleryPage_eoabNativeAd_new-DS-EntryPoint1-1
 msn.com##.intra-article-ad-full
 msn.com##.intra-article-ad-half
@@ -57607,7 +57609,7 @@ outlook.live.com#?#div.customScrollBar > div > div[id][class]:-abp-has(img[src$=
 search.yahoo.com#?#div.mb-28:-abp-has(span:-abp-contains(Ads))
 playpilot.com#?#.search-preview .side:-abp-has(> .provider)
 protrumpnews.com#?#.show-on-ptn:-abp-has(.easylist-sucks)
-amazon.com#?#div.s-inner-result-item > div.sg-col-inner:-abp-has(a.puis-sponsored-label-text)
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg#?#div.s-inner-result-item > div.sg-col-inner:-abp-has(a.puis-sponsored-label-text)
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(Sponsored))
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(SPONSORED))
 imgur.com#?#.Post-item:-abp-has(.AdHomeContainer)
@@ -65996,7 +65998,6 @@ _mongo_stats/
 ||iocnt.net^$third-party
 ||iotechnologies.com^$third-party
 ||iovation.com^$third-party
-||ip-api.com^$third-party
 ||ip-label.net^$third-party
 ||ip-tracker.org^$third-party
 ||ip2c.org^$third-party
@@ -90981,7 +90982,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||plugins.matomo.org^$image,~third-party
 @@||postex.com/api/ping?$~third-party
 @@||powerquality.eaton.com/include/js/elqScr.js$~third-party
-@@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|nontongp.xyz|sheee.co.il|walla.co.il|weatherscan.tk
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
@@ -100349,6 +100349,7 @@ vindobona.org##.sponsored
 @@||analytics.google.com^$domain=firebase.google.com
 @@||kleinanzeigen.de^$ghide
 kleinanzeigen.de###liberty-vip-billboard
+/images/ad/*$badfilter
 decathlon.in##body:style(opacity: 1 !important;)
 hihonor.com#@#.ad-section
 hihonor.com#@#.ad-wrap
@@ -100361,6 +100362,7 @@ filelu.com#@#.banner_ads:not(:empty)
 ||click.allkeyshop.com^$inline-script
 click.allkeyshop.com##+js(refresh-defuser)
 @@||autocomplete.clearbit.com^$xhr
+neilpatel.com##+js(no-xhr-if, ip-api)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
