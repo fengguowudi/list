@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lvPxfdNXH6djw3/BCJTX6A
+! Checksum: LxBggWG+mNuDOMNrWCDgyQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202305130921
-! Last Modified: 2023年05月13日 09:21
+! Version: 202305131420
+! Last Modified: 2023年05月13日 14:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -12464,6 +12464,7 @@ _800x80_
 ##.adRect
 ##.adRectangle
 ##.adRectangle-pos-large
+##.adRectangle-pos-small
 ##.adRectangleBanner
 ##.adRectangleUnit
 ##.adRemove
@@ -51332,6 +51333,7 @@ browsershots.org#@#.advert_area
 ||wp.com/assets.sheetmusicplus.com/banner/
 ||wp.com/assets.sheetmusicplus.com/smp/
 ||wp.com/bugsfighter.com/wp-content/uploads/2016/07/adguard-banner.png
+||wpengine.com/wp-json/api/advanced_placement/api-in-article-ad/
 ||wpzoom.com/images/aff/
 ||ws.amazon.*/widgets/$third-party
 ||yahoo.com/bidRequest
@@ -53983,6 +53985,7 @@ downloadsafer.com###homebannerbottom
 hometheaterreview.com###homepagehorizontalad
 semiconductor-today.com###homeright
 nutritioninsight.com,packaginginsights.com###horizontalblk
+webmd.com###hp-ad-container
 blog.hubspot.com###hs_cos_wrapper_blog_post_sticky_cta
 nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivene.com,nettivuokraus.com###huge_banner
 robbreport.com###icon-sprite
@@ -55597,6 +55600,7 @@ hltv.org##.gg-firstcol-box
 cometbird.com##.gg_250x250
 cornish-times.co.uk,farnhamherald.com,iomtoday.co.im##.ggzoWi
 ghacks.net##.ghacks-ad
+ghacks.net##.ghacks_ad_code
 goodmenproject.com##.gmp-instream-wrap
 givemesport.com##.gms-ad
 givemesport.com##.gms-billboard-container
@@ -61895,6 +61899,8 @@ newduba.cn###jq_youxi
 ||zbbvhj.xyz^
 ||xbldocp.xyz^
 ||zebjlt.buzz^
+||rdtjkwy.cn^
+||yttc.ren^
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$="/1c626.com"]
@@ -82395,7 +82401,6 @@ fqsousou.com,kengso.com#@#.user-share
 /geocc.$domain=~geocc.ru
 /geocoding.ash
 /geocompteur.
-/geocounter.
 /geoip.html
 /geoip/detect?
 /geoip?
@@ -111811,6 +111816,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 ||matt.mercadolibre.
 ||mercadolibre.com/tracks^
 ||pixel.europapress.net^
+||px-intl.ucweb.com^
 ||rvv.emol.com^
 ||statsmp2.emol.com^
 ||t-pan.triodos.com^

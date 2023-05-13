@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WRC05XdJL6j3KHsE8qQIzg
+! Checksum: IAc32sgHF/+VUu5oCbfPVQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305130921
-! Last Modified: 2023年05月13日 09:21
+! Version: 202305131420
+! Last Modified: 2023年05月13日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12014,6 +12014,7 @@ _800x80_
 ##.adRect
 ##.adRectangle
 ##.adRectangle-pos-large
+##.adRectangle-pos-small
 ##.adRectangleBanner
 ##.adRectangleUnit
 ##.adRemove
@@ -50882,6 +50883,7 @@ browsershots.org#@#.advert_area
 ||wp.com/assets.sheetmusicplus.com/banner/
 ||wp.com/assets.sheetmusicplus.com/smp/
 ||wp.com/bugsfighter.com/wp-content/uploads/2016/07/adguard-banner.png
+||wpengine.com/wp-json/api/advanced_placement/api-in-article-ad/
 ||wpzoom.com/images/aff/
 ||ws.amazon.*/widgets/$third-party
 ||yahoo.com/bidRequest
@@ -53533,6 +53535,7 @@ downloadsafer.com###homebannerbottom
 hometheaterreview.com###homepagehorizontalad
 semiconductor-today.com###homeright
 nutritioninsight.com,packaginginsights.com###horizontalblk
+webmd.com###hp-ad-container
 blog.hubspot.com###hs_cos_wrapper_blog_post_sticky_cta
 nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivene.com,nettivuokraus.com###huge_banner
 robbreport.com###icon-sprite
@@ -55147,6 +55150,7 @@ hltv.org##.gg-firstcol-box
 cometbird.com##.gg_250x250
 cornish-times.co.uk,farnhamherald.com,iomtoday.co.im##.ggzoWi
 ghacks.net##.ghacks-ad
+ghacks.net##.ghacks_ad_code
 goodmenproject.com##.gmp-instream-wrap
 givemesport.com##.gms-ad
 givemesport.com##.gms-billboard-container
@@ -61193,7 +61197,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /geocc.$domain=~geocc.ru
 /geocoding.ash
 /geocompteur.
-/geocounter.
 /geoip.html
 /geoip/detect?
 /geoip?
@@ -90609,6 +90612,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 ||matt.mercadolibre.
 ||mercadolibre.com/tracks^
 ||pixel.europapress.net^
+||px-intl.ucweb.com^
 ||rvv.emol.com^
 ||statsmp2.emol.com^
 ||t-pan.triodos.com^
