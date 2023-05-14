@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8A08t2S9e54zj7Qng1wRig
+! Checksum: HYfVlDJpoqLU0vXbsMWNTw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305140219
-! Last Modified: 2023年05月14日 02:19
+! Version: 202305140933
+! Last Modified: 2023年05月14日 09:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -92748,10 +92748,6 @@ jujmanga.com##+js(acs, document.querySelectorAll, popMagic)
 jujmanga.com##.code-block
 *$script,3p,denyallow=disqus.com|edgecastcdn.net|fastlylb.net|kxcdn.com|twitcount.com|twitter.com,domain=jujmanga.com
 coursewikia.com##+js(nostif, brave_load_popup)
-url4cut.xyz##+js(aopr, app_vars.force_disable_adblock)
-url4cut.xyz##+js(aopw, _pop)
-url4cut.xyz##+js(set, blurred, false)
-url4cut.xyz##.banner
 novelism.jp##+js(aeld, blur, native code)
 alphapolis.co.jp##+js(aeld, blur, event.simulate)
 ||tinypass.com^$domain=crosswalk.com
@@ -92973,7 +92969,6 @@ unlimitmovies.com##+js(aopr, JSON.stringify)
 4movierulz1.*##[href^="https://api.whatsapp.com/send"]
 kitabmarkaz.xyz##+js(aopr, __Y)
 movieplex.*##+js(aopw, _pop)
-givemeredditstreams.com##+js(acs, String.prototype.charCodeAt, 'shift')
 @@||flipboard.com/webu/*-contrib-ads*.bundle.js$script,1p
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=flipboard.com
 rumahfilm.stream##+js(nowoif)
@@ -107511,7 +107506,7 @@ neilpatel.com##+js(no-xhr-if, ip-api)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 18 May 2003 00:00:00
+# start date:    Mon, 19 May 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
