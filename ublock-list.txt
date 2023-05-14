@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Nw1qwuauoV4lW5F8ZXvJZg
+! Checksum: 4nJPTokZMaSifXKZmYi0CA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305141419
-! Last Modified: 2023年05月14日 14:19
+! Version: 202305142030
+! Last Modified: 2023年05月14日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53614,6 +53614,8 @@ assamtribune.com###left_level_before_tags
 nitrome.com###left_skyscraper_container
 nitrome.com###left_skyscraper_shadow
 kitco.com###left_square
+liverpoolfc.com###lfc_ads_article_pos_one
+liverpoolfc.com###lfc_ads_home_pos_one
 closerweekly.com,intouchweekly.com,lifeandstylemag.com###listProductWidgetData
 wormate.io###loa831pibur0w4gv
 lordz.io###lordz-io_300x250
@@ -53870,6 +53872,7 @@ the-star.co.ke###teasers
 eetimes.com###techpaperSliderContainer
 worldtribune.com###text-101
 geeky-gadgets.com###text-105335641
+hpcwire.com###text-115
 cathnews.co.nz,cryptoreporter.info,net-load.com,wakingtimes.com###text-12
 radiosurvivor.com,thewashingtonstandard.com###text-13
 ericpetersautos.com###text-133
@@ -56571,7 +56574,7 @@ screencrush.com##.widget-widget_third_party_content
 gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,shtfplan.com,tech-latest.com,usmagazine.com##.widget_block
 wplift.com##.widget_bsa
-4sysops.com,9to5linux.com,backthetruckup.com,catcountry941.com,cnx-software.com,dailyveracity.com,gamingonphone.com,gizmochina.com,hardwaretimes.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,quickanswer.blog,sashares.co.za,techdows.com,thinkcivics.com,tooxclusive.com,torrentfreak.com,trendingpoliticsnews.com##.widget_custom_html
+4sysops.com,9to5linux.com,backthetruckup.com,catcountry941.com,cnx-software.com,dailyveracity.com,gamingonphone.com,gizmochina.com,hardwaretimes.com,macsources.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,quickanswer.blog,sashares.co.za,techdows.com,thinkcivics.com,tooxclusive.com,torrentfreak.com,trendingpoliticsnews.com##.widget_custom_html
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
@@ -58937,6 +58940,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||pub.pixels.ai/wrap-independent-no-prebid-lib.js$script,domain=independent.co.uk
 @@||pubads.g.doubleclick.net/ssai/$domain=newson.us|worldsurfleague.com
 @@||radiotimes.com/static/advertising/$script,~third-party
+@@||recoco.it^$image,xmlhttprequest,domain=bodysize.org|heavy-r.com|porngo.com|showbiz.cz|tostreamit.com|vumoo.to
 @@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|techrepublic.com|zdnet.com
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 @@||rubiconproject.com/prebid/dynamic/$script,domain=ask.com
@@ -92593,7 +92597,6 @@ dlpsgame.org##div.widget-content > .title
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=skmedix.pl
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_with_ama_fy2021.js$script,domain=skmedix.pl
 @@||skmedix.pl^$ghide
-skmedix.pl##.adsbygoogle:style(max-height: 21px !important;)
 yxoshort.com##+js(aopr, app_vars.force_disable_adblock)
 yxoshort.com##+js(set, blurred, false)
 yxoshort.com##.banner
@@ -100335,6 +100338,7 @@ delta.com#@#.adv-container
 ||statcounter.com^$badfilter
 ||statcounter.com^$domain=~gs.statcounter.com
 ||c.statcounter.com^
+||statcounter.com/counter/counter.js
 vindobona.org#@#.ads_footer
 vindobona.org##.adZoneM
 vindobona.org##.adZonePC
@@ -100358,6 +100362,8 @@ click.allkeyshop.com##+js(refresh-defuser)
 @@||autocomplete.clearbit.com^$xhr
 neilpatel.com##+js(no-xhr-if, ip-api)
 @@||cdn.logly.co.jp^$image,domain=www.asahi.com
+@@||dti.ne.jp/cgi-bin/Count.cgi?$image,1p
+/^https?:\/\/www\.halifax-online\.co\.uk\/[A-Za-z0-9]{4,6}\/[A-Za-z0-9]{2}\/[A-Za-z0-9]{2}\//$script,xmlhttprequest,domain=halifax-online.co.uk,badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
