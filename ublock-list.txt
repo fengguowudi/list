@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HYfVlDJpoqLU0vXbsMWNTw
+! Checksum: Nw1qwuauoV4lW5F8ZXvJZg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305140933
-! Last Modified: 2023年05月14日 09:33
+! Version: 202305141419
+! Last Modified: 2023年05月14日 14:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54746,7 +54746,7 @@ thefastmode.com##.channel_long
 coincodex.com##.chart-pos.mobile-b
 sevenforums.com,tenforums.com##.chill
 bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonewsz.com##.clickout-banner-native_table_box-bottom
-cryptonews.com##.clickout-native_table_box-a
+cryptonews.com,insidebitcoins.com##.clickout-native_table_box-a
 businessinsider.in##.clmb_eoa
 kissanime.com.ru##.close_ad_button
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
@@ -71893,6 +71893,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||storage.googleapis.com/tm-frend-graffiti/
 ||storage.syncmedia.io/libs/sm_capture_
 ||streamads.com/view?
+||streamoptim.com/log.js
+||streamoptim.com/log/report?
 ||streamtheworld.com/imp?
 ||stripe.com/?event=
 ||sts.eccmp.com^
