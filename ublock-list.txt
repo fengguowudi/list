@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 96TSNsSFBSl6q1sjIoC83A
+! Checksum: ieog4aunQx+ZFS4A9MzJWw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305161421
-! Last Modified: 2023年05月16日 14:21
+! Version: 202305162035
+! Last Modified: 2023年05月16日 20:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53779,6 +53779,7 @@ wrestlingnews.co###mvp-head-top
 atlantatribune.com,barrettsportsmedia.com,footballleagueworld.co.uk,ioncinema.com,marijuanamoment.net,ripplecoinnews.com,tribune.net.ph###mvp-leader-wrap
 twinfinite.net###mvp-main-content-wrap
 hotklix.com###mvp-main-nav-top > .mvp-main-box
+dailyboulder.com###mvp-post-bot-ad
 barrettsportsmedia.com###mvp-wallpaper
 manganatos.com,mangareader.cc###myModal
 fileproinfo.com###myNav
@@ -56069,7 +56070,7 @@ breakingnews.ie,canberratimes.com.au,theland.com.au##.py-2.bg-gray-100
 euronews.com##.qa-dfpLeaderBoard
 thegatewaypundit.com##.qh1aqgd
 revolution935.com##.qt-sponsor
-coingape.com,townflex.com##.quads-location
+coingape.com,dailyboulder.com,townflex.com##.quads-location
 surfline.com##.quiver-google-dfp
 tgstat.com##.r1-aors
 calendar-canada.ca##.r89-outstream-video
@@ -56427,6 +56428,7 @@ inyourarea.co.uk##.style_advertisementMark_1Jki4
 inyourarea.co.uk##.style_cardWrapper_ycKf8
 nationalheraldindia.com##.styles-m__dfp__3T0-C
 troypoint.com##.su-box
+buzzfeed.com##.subbuzz-bfp--connatix_video
 gearspace.com##.subforum-sponsor
 monocle.com##.super-leaderboard
 atalayar.com,express.co.uk##.superbanner
@@ -56716,7 +56718,7 @@ twistedsifter.com##.widget_sifter_ad_bigbox_widget
 acprimetime.com,androidpctv.com,brigantinenow.com,downbeachbuzz.com##.widget_sp_image
 screenbinge.com,streamingrant.com##.widget_sp_image-image-link
 gamertweak.com##.widget_srlzycxh
-lostintechnology.com,ripplecoinnews.com,webkinznewz.ganzworld.com##.widget_text
+dailyboulder.com,lostintechnology.com,ripplecoinnews.com,webkinznewz.ganzworld.com##.widget_text
 nypost.com##.widget_text.no-mobile.box
 tutorialink.com##.widget_ti_add_widget
 techpout.com##.widget_xyz_insert_php_widget
@@ -62515,6 +62517,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /piwikapi.js
 /piwikC_
 /piwikTracker.
+/pix-ddc-fp.min.js
 /pix.fcg?
 /pix.fly/*
 /pix.gif?
@@ -64849,6 +64852,7 @@ _mongo_stats/
 ||hsleadflows.net^
 ||hubty.network^
 ||i218435.net^
+||iconnode.com^
 ||id5-sync.com^
 ||idx.lat^
 ||impactcdn.com^
@@ -64895,6 +64899,7 @@ _mongo_stats/
 ||mitour.de^
 ||ml-sys.xyz^
 ||mm-api.agency^
+||monicaatron.com^
 ||monu.delivery^
 ||mors22.com^
 ||mrpdata.net^
@@ -65707,6 +65712,7 @@ _mongo_stats/
 ||dropboxfingerprintjs.com^$third-party
 ||dsail-tech.com^$third-party
 ||dsmmadvantage.com^$third-party
+||dsmstats.com^$third-party
 ||dsparking.com^$third-party
 ||dsply.com^$third-party
 ||dtc-v6t.com^$third-party
@@ -65927,6 +65933,7 @@ _mongo_stats/
 ||geistm.com^$third-party
 ||gemius.pl^$third-party
 ||genieesspv.jp^$third-party
+||geniuslinkcdn.com^$third-party
 ||geo-targetly.com^$third-party
 ||geobytes.com^$third-party
 ||geoip-db.com^$third-party
@@ -66636,6 +66643,7 @@ _mongo_stats/
 ||pclicks.com^$third-party
 ||pcspeedup.com^$third-party
 ||pdbu.net^$third-party
+||pdmntn.com^$third-party
 ||pdst.fm^$script,third-party
 ||peerius.com^$third-party
 ||pendo.io^$third-party
@@ -67040,6 +67048,7 @@ _mongo_stats/
 ||smart-digital-solutions.com^$third-party
 ||smart-dmp.com^$third-party
 ||smart-ip.net^$third-party
+||smart-pixl.com^$third-party
 ||smartclip-services.com^$third-party
 ||smartctr.com^$third-party
 ||smarterhq.io^$third-party
@@ -67643,6 +67652,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hrbpark.bid^$third-party
 ||jeeng.com^$third-party
 ||kattepush.com^$third-party
+||letreach.com^$third-party
+||lifterpopup.com^$third-party
 ||master-push.com^$third-party
 ||master-push.net^$third-party
 ||misrepush.com^$third-party
@@ -67677,7 +67688,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pushible.com^$third-party
 ||pushify.com^$third-party
 ||pushmaster-cdn.xyz^
-||pushnami.com^$third-party
 ||pushowl.com^$third-party
 ||pushprofit.ru^$third-party
 ||pushpushgo.com^$third-party
@@ -70438,6 +70448,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.wipmania.com^
 ||apm-engine.meteor.com^$third-party,xmlhttprequest
 ||app.adjust.com^$third-party
+||app.carnow.com/dealers/track_visitor
 ||app.cdn-cs.com/__t.png?
 ||app.link/_r?$script,third-party
 ||app.opmnstr.com/v2/geolocate/
@@ -70817,6 +70828,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||covet.pics/beacons
 ||cp.official-coupons.com^
 ||cp.official-deals.co.uk^
+||crall.io/beacon/
 ||creator.zmags.com^
 ||credible.com/api/logs-fe
 ||crm-vwg.com/tracker/
@@ -70938,6 +70950,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||edgesuite.net^*/googleanalyt
 ||edkt.io^*/edgekit.min.js
 ||edrone.me/trace?
+||edw.edmunds.com/edw/edw1x1.gif
 ||eel.transistor.fm^
 ||egmontpublishing.dk/tracking/
 ||ele26126.jscrambler.com^
@@ -71089,6 +71102,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||frog.editorx.com^
 ||fs-client-logger.herokuapp.com^
 ||ftimg.net/js/log.js?
+||ftm.fluencyinc.co^
 ||future-fie-assets.co.uk^
 ||future-price.co.uk^
 ||futurecdn.net/bordeaux.js$xmlhttprequest
@@ -71242,6 +71256,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||imp.constantcontact.com^$third-party
 ||imp.pvnsolutions.com^
 ||impdesk.com/smartpix/
+||impel.io/releases/analytics/
 ||impress.vcita.com^
 ||impressionmedia.cz/statistics/
 ||inbound-analytics.pixlee.co^
@@ -71835,6 +71850,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||routeapp.io/route-analytics/
 ||rs.sinajs.cn^
 ||rt.flix360.com^
+||rtc.multiscreensite.com^
 ||rtxpx-a.akamaihd.net^
 ||rum.azion.com^
 ||rum.azioncdn.net^
@@ -72067,6 +72083,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||syteapi.com/et?
 ||t.91syun.com^
 ||t.a3cloud.net^
+||t.adx.opera.com^
 ||t.auditedmedia.org.au^
 ||t.beop.io^
 ||t.bimvid.com^
@@ -72099,6 +72116,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tag.atom.gamedistribution.com^
 ||tag.aumago.com^
 ||tag.brandcdn.com^
+||tag.digops.sincro.io^
 ||tag.elevaate.io^
 ||tag.flagship.io^
 ||tag.imagino.com^
@@ -72329,7 +72347,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||travel-assets.com/datacapture/
 ||travix.com/log
 ||traxex.gannettdigital.com^
-||trc.pushnami.com^
 ||tree-nation.com/js/track.js
 ||trends.newsmaxwidget.com^
 ||trib.al^$image,third-party
@@ -72628,6 +72645,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d3mapax0c3izpi.cloudfront.net/lib/ajax/events.js
 ||d3mskfhorhi2fb.cloudfront.net^
 ||d3n6i6eorggdxk.cloudfront.net^
+||d3oodlxb1rw3kg.cloudfront.net^
+||d3pi0tys5sdysl.cloudfront.net^
 ||d3plfjw9uod7ab.cloudfront.net^
 ||d3q7vxy7usqoub.cloudfront.net^
 ||d3qxef4rp70elm.cloudfront.net/m.js
@@ -73450,6 +73469,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.novem.pl^
 ||trc.gpcdn.pl^
 ||wymiana.org/stat/
+||youlead.pl/st?browserid
 ||ad-tracker-api.luizalabs.com^
 ||analytics-coletor-site.ojc.com.br^
 ||analytics.spun.com.br^
@@ -95164,7 +95184,6 @@ xnxx.com,xvideos.*###ad-footer
 retrostic.com,sickchirpse.com###ad-header
 chortle.co.uk,coloring.ws,dltk-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com,primeraescuela.com###adBanner
 #@#.ad-placement
-##.ad-placement:not(.adsbox):not(.afs_ads):not(#ablockercheck)
 #@#.google-ad
 ~mmiyue.com##.google-ad:not(.testAd)
 /ads-prebid.js$script,redirect-rule=prebid-ads.js
@@ -95601,7 +95620,6 @@ thepiratebay3.com^$all
 ||gotohouse2.cc^$all
 ||nyalacornily.cam^$all
 ||adalgard-wol.com^$all
-||b38.info^$all
 ||chintsressels.com^$all
 ||gopagefast.ru^$all
 ||letmessagenow.com^$all
@@ -95682,7 +95700,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||usdownload.widost.com^$all
 ||fast-date.site^$all
 ||redirectto.fun^$all
-||sopertyvalua.com^$all
 ||cpttrcklnk.com^$all
 ||neighborhoodsluts.com^$all
 .xyz/video.php?=*&dating_xyz_0&&0$frame
@@ -96074,11 +96091,9 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||mfroute.com^
 ||miserve-chanics.com^
 ||rhopalium-convolve-mozettas.xyz^
-||stuiop.com^
 ||survey2you.bid^
 ||track-149uew.link^
 ||tratbc.com^
-||update-incentives-rutidosis-pretenceless.xyz^
 ||update-phone-today.com^
 ||webpushcloud.top^
 ||workerz1.com^
@@ -96446,6 +96461,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||jsdushid.com^$all
 ||manage-fpw-my-sakura-fpw-jp-fpw.impulsion.mu^$all
 ||honda-law-office.jp/wp-includes/70038/Earthcorejp/|$doc
+||metamasktoken.cc^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
 ||adblock-one-protection.com^$all
@@ -97837,6 +97853,47 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||letakgrab.com^$doc
 ||pinskscope.life^$doc
 ||moremorelove.net^$doc
+||accidentalunderground.jp^$doc
+||after-noon.jp^$doc
+||bse.bb64bb8.com^$doc
+||chatchu.jp^$doc
+||cupid-chat.net^$doc
+||docommo.com^$doc
+||doconno.com^$doc
+||f9ng8gb.com^$doc
+||feig04.com^$doc
+||fn5.isjasmo1oc.com^$doc
+||friendmail.work^$doc
+||fx640b4a8v2n.net^$doc
+||grace-pot.com^$doc
+||h76-hng7gvn.com^$doc
+||latterinformation.jp^$doc
+||leaf.lau-rier.com^$doc
+||maiwai2.jp^$doc
+||m0onet.com^$doc
+||mo6nri.com^$doc
+||mon1it.com^$doc
+||moon1hit.com^$doc
+||moonlight-ebbandflow.com^$doc
+||multiplelucky.jp^$doc
+||nanroom.net^$doc
+||nowtuma.net^$doc
+||ny-ms.jp^$doc
+||ownpayment.jp^$doc
+||p39ztyx.com^$doc
+||pastelism02.jpn.com^$doc
+||pineapplecake-yummy.com^$doc
+||platinum-center.com^$doc
+||retailaudio.jp^$doc
+||ssq.spofbd99.com^$doc
+||sss-sidejob.com^$doc
+||t26dmg9.com^$doc
+||tokuyama-kaiun.com^$doc
+||vy8monlf1t.com^$doc
+||wifekai.net^$doc
+||yummy-yuy.com^$doc
+||yummy2-yuy.com^$doc
+||zerocha.jp^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -97913,9 +97970,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 /werrx01/^$doc
 /winXos/?$doc
 /merrx01/^$doc
-||nothingworking.xyz^$all
 ||ondigitalocean.app/*^phone=+1-$doc
-||sakuriggd.online^$all
 ||flexedfitt.com^$all
 ||cxchutiyahotah.online^$all
 .online/*/eeeekayresrsammicraaajkaschhoilsebadhiyakuchtanahiaayaajturuionmeebbat/$doc
@@ -97930,35 +97985,20 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 /systemerror-win-chx/?$doc
 /systemerror-win-chx1/?$doc
 /W*ity0*00Er00*/index.$doc
-||naramgaram.online^$all
-||windowshelps.site^$all
-||orfon.site^$all
-||smalldingdong.top^$all
-||sportwebsforu.site^$all
 ||teresangyara.online^$all
-||sportwebsforu.xyz^$all
 ||s3.ap-northeast-1.amazonaws.com/tedex.com/*/index.html$all
 /^https:\/\/(?:www\.)?[a-z]{8,15}\.[a-z]{3}\/V1\/$/$document,domain=one|top,match-case
-||horenshi-receptte.online^$all
 ||smarttvnew.vercel.app^$all
-||sportwebsforu.shop^$all
 /systemerror-mac/?$doc
-||slotsgaming.online^$all
 /Win0SecurityEr0CH0700Err0rSt/index.html$doc
-||vicrok.site^$all
 /werrx01/index.html$doc
 ||activexsportswear.com^$all
-||assistancetechnique.org^$all
 ||besttreasurecoastroofing.com^$all
 ||eharmonysingle.online^$all
-||error-defender.online^$all
 ||errorordufhwe.s3.ap-south-1.amazonaws.com^$all
-||gofud.store^$all
 ||kbklgtigkhykmjh.azurewebsites.net^$all
 ||microsoftsupportservices.com^$all
 ||onlinemessage.z13.web.core.windows.net^$all
-||pornspywarealert.shop^$all
-||spfbelgium.com^$all
 ||teszoom.com^$all
 ||tftgirkjgdhdjhdggcjhd.azurewebsites.net^$all
 ||tiffanyandtoke.com^$all
@@ -98213,8 +98253,6 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||client-telemetry.roblox.com^
 ||kemono.party/js/script.js
 ||subdl.net/statsLog
-||run.app/events$badfilter
-||run.app/events$domain=imgur.com
 /api/click/*?c=$image
 ||cj.dotomi.com^
 ||contentads.click^
@@ -107169,6 +107207,7 @@ neilpatel.com##+js(no-xhr-if, ip-api)
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||jp.twww.sbs^
 ||002777.xyz^
 ||app2.10090dfs.com^
 ||w94.1qlgi.top^
