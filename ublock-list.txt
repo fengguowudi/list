@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2fV1ewpd5B6auVbGH/pu0g
+! Checksum: cW1fYoC/0lcV9yPcF7Ng+g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305171420
-! Last Modified: 2023年05月17日 14:20
+! Version: 202305172032
+! Last Modified: 2023年05月17日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -50995,6 +50995,7 @@ browsershots.org#@#.advert_area
 ||widgets.business.com^
 ||widgets.lendingtree.com^
 ||widgets.oddschecker.com^
+||widgets.outbrain.com^*/widget.js
 ||widgets.progrids.com^
 ||widgets.tree.com^
 ||windows.net/banners/$domain=hortidaily.com
@@ -57438,7 +57439,6 @@ linkedin.com##li[data-is-sponsored="true"]
 linkvertise.com##lv-taboola-ctr-ad-dummy
 aniwatcher.com##main > [href] > [src]
 hentai-foundry.com##main > p
-porsche.com##myservices-cookie-banner
 escorenews.com##noindex
 adblock-tester.com##object[width="240"]
 mrchecker.net##p > [href^="https://www.mrchecker.net/"]
@@ -95766,6 +95766,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||video.redwap.cam^$all
 ||play.freeplayvideo.com^
 ||cractica.xyz^$doc
+||beyourxfriend.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
@@ -96084,6 +96085,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||amonro.com^$all
 ||kiknu.com^$all
 ||konmm.com^$all
+||bibtu.com^$all
 /axad/?lpkey=$doc
 ||vlcdownloads.com^$all
 ||borntiecalm.live^$all
