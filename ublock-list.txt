@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cW1fYoC/0lcV9yPcF7Ng+g
+! Checksum: kKj8Bqzbuc9srxpJQkGFeA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305172032
-! Last Modified: 2023年05月17日 20:32
+! Version: 202305180219
+! Last Modified: 2023年05月18日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12224,6 +12224,7 @@ _800x80_
 ##.ad_970x250_300x250
 ##.ad_970x250_container
 ##.ad_970x90_prog
+##.ad_Bumper
 ##.ad_CustomAd
 ##.ad_Flex
 ##.ad_Flexi_LowerRight
@@ -17644,6 +17645,7 @@ _800x80_
 ##.itinerary-index-advertising
 ##.its_all_for_ads
 ##.its_for_ads
+##.itsanad
 ##.j-ad
 ##.jLinkSponsored
 ##.jannah_ad
@@ -20877,6 +20879,7 @@ _800x80_
 ##.widget_wp-bannerize-widget
 ##.widget_wp_ads_gpt_widget
 ##.widget_wp_insert_ad_widget
+##.widget_wpex_advertisement
 ##.widget_wpstealthads_widget
 ##.widgetads
 ##.width-ad-slug
@@ -20896,6 +20899,7 @@ _800x80_
 ##.wp_bannerize_container
 ##.wpadvert
 ##.wpd-advertisement
+##.wpex-ads-widget
 ##.wppaszone
 ##.wpvqgr-a-d-s
 ##.wpx-bannerize
@@ -52181,6 +52185,8 @@ browsershots.org#@#.advert_area
 ||fentent.streampiay.fun^
 ||fentent.streampiay.me^
 ||file-upload.site/page.js
+||filehippo.com/best-recommended-apps^
+||filehippo.com/revamp.js
 ||filemoon.*/js/baf.js
 ||filemoon.*/js/dola.js
 ||filemoon.*/js/skrrt.js
@@ -59489,7 +59495,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 &http_referer=$script,xmlhttprequest,domain=~facebook.com|~jobscore.com
 &refer=http$script
 &t=pageview&
-&tag=IMPRESSION&
 &visitorUuid=
 -ad-targeting?
 -adobe-analytics.
@@ -59503,10 +59508,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -analytics/analytics.
 -appanalytics-
 -click-tracker.
--content-tracking.
 -datacollection.
 -didomi.js
--dspcookiematching.
 -event-tracking.
 -ga-tracker.
 -ga-tracking/
@@ -59514,8 +59517,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -geoIP.js
 -heatmaps-analytics/
 -inview-tracker.
--krux-tag/
--landing-tracking-
 -optimization-metrics.
 -optimost-
 -page-analytics.
@@ -59566,9 +59567,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .com/stats.aspx?
 .com/track?$~object
 .com/tracking?
-.com/vtrack|
 .content_tracking.
-.d-engine.js
 .de/h.gif?
 .de/l.gif?
 .drive-analytics.
@@ -59588,8 +59587,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .net/ping.php?
 .ntpagetag.
 .org/js/ga-
-.PageHitServlet?
-.pageVisitCounter_
 .php?action=browse&
 .php?action_name=
 .php?hey_stat=
@@ -59602,23 +59599,16 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .php?self=
 .php?stats=
 .php?tracking=
-.pixel.archive.
-.pl?trans.gif&ref=
 .pt/n.gif?
-.redux-logger-
 .sharecounter.$third-party
 .sitecatalyst.js
 .siteclarity.
 .sitetracking.
 .skimlinks.js
 .snowplowanalytics.$domain=~snowplowanalytics.com
-.statData-eup.
 .stats?action=
 .svc/?tracking_id=
-.track_apply_impression/
 .track_Visit?
-.trafficTracking.
-.tstracker.
 .tv/log?event
 .v4.analytics.
 .vsTracking.
@@ -59641,11 +59631,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /?dm=*&blogid=$script
 /?dsp_uid=
 /?essb_counter_
-/?fp=*&prvtof=
 /?livehit=
 /?log=experiment&
 /?log=performance-
-/?mob.ct=
 /?record&key=
 /?sentry_key=
 /?sentry_version=
@@ -59675,23 +59663,14 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /_stat/log_
 /_tracking/*
 /_visitcount?
-/a-stat.
 /a.gif?
 /a8c-analytics.
 /a8c-analytics/*
 /aap/stats
-/abp-analytics.
-/abp.gif?
-/abstat.
-/abtestInit-
-/abtshield-snippet.js
-/ac-site-tracking-
 /ac.fcgi?
-/acbeacon2.
 /accessanalyzer/tracker?
 /AccessCounter/*
 /accesstracking/*
-/accip_script.js
 /acclog.cgi?
 /acecounter/*
 /acecounter_
@@ -59704,13 +59683,11 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /AD/PageHits.
 /ad/statistic
 /ad_tracking.
-/AdAppSettings/*
 /adb-analytics
 /adb1.gif?
 /adblock_logging.
 /AdCookies.js
 /AdCount/*
-/add_anonymous_identifier
 /add_page_view?
 /add_stats
 /add_utm_links.
@@ -90970,6 +90947,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|toggo.de|vip.de
 @@||businessclick.ch/index.js$domain=finanzen.ch
 @@||classic.comunio.de/clubImg.phtml/$image,~third-party
+@@||digitale-sammlungen.gwlb.de^*/pageview.js$script,domain=digitale-sammlungen.gwlb.de
 @@||energy.de^*/ivw.js?$domain=energy.de
 @@||ens.nzz.ch^$~third-party
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
@@ -94502,6 +94480,7 @@ nowtolove.com.au##.page__content-header:style(height: 50px !important)
 /script/yzfdmoan.js$3p
 /script/tbeomspv.js$3p
 /script/ksoxqhlw.js$3p
+/script/nhasrogr.js$3p
 .com/script/compatibility.js|$3p
 .org/script/compatibility.js|$3p
 .com/script/foundation.js|$3p
@@ -94515,6 +94494,7 @@ nowtolove.com.au##.page__content-header:style(height: 50px !important)
 ||stitor.com^
 ||neburn.com^
 ||borhod.com^
+||ugalia.com^
 sexlist.tv##+js(disable-newtab-links)
 sexlist.tv##.link-premium
 sexlist.tv##.camitems
