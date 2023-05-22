@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k1RXLNIrOaeDX7EMaJKGTw
+! Checksum: H2jEI/2WgkixOscGG0Bf0g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305220935
-! Last Modified: 2023年05月22日 09:35
+! Version: 202305221421
+! Last Modified: 2023年05月22日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56220,6 +56220,7 @@ newtimes.co.rw##.nt-vertical-ad
 english.nv.ua##.nts-video-wrapper
 marineelectronics.com,marinetechnologynews.com##.nwm-banner
 kueez.com,trendexposed.com,wackojacko.com##.nya-slot
+nypost.com##.nyp-s2n-wrapper
 golfdigest.com##.o-ArticleRecirc
 lawandcrime.com,mediaite.com##.o-promo-unit
 afkgaming.com##.o-yqC
@@ -69183,6 +69184,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||readysnails.com^
 ||realizerecess.com^$third-party
 ||realizevacation.com^$third-party
+||rebelhen.com^
 ||rebelsubway.com^
 ||receptivebranch.com^
 ||receptiveink.com^
@@ -93539,6 +93541,7 @@ flightsim.to##+js(acs, fetch, status)
 flightsim.to##+js(acs, document.getElementById, adsblock)
 flightsim.to##+js(nano-sib, timer)
 @@||flightsim.to^$script,1p
+@@||pub.network/flightsim-to/pubfig.min.js$script,xhr,domain=flightsim.to
 moviemakeronline.com##+js(nosiif, adsbygoogle)
 moviemakeronline.com##.bbbOwner
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect-rule=noopjs,domain=gbnews.uk
