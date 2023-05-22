@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: H2jEI/2WgkixOscGG0Bf0g
+! Checksum: 5XJ3d99fGNjZh/2kK2oJ4w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305221421
-! Last Modified: 2023年05月22日 14:21
+! Version: 202305222032
+! Last Modified: 2023年05月22日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56031,6 +56031,7 @@ fandom.com##.marketplace
 imgur.com,pushsquare.com,songlyrics.com##.masthead
 timeextension.com##.masthead > .insert
 eetimes.eu,korinthostv.gr,powerelectronicsnews.com##.masthead-banner
+mayoclinic.org##.mayoad
 racgp.org.au##.mb-1.small
 amgreatness.com##.mb-10.mx-auto
 wccftech.com##.mb-11
@@ -67476,6 +67477,7 @@ _mongo_stats/
 ||sqate.io^$third-party
 ||squeezely.tech^$third-party
 ||squidanalytics.com^$third-party
+||srmdata-us.com^$third-party
 ||srmdata.com^$third-party
 ||srpx.net^$third-party
 ||ssm.codes^$third-party
@@ -96414,6 +96416,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||borntiecalm.live^$all
 &t=main9|$doc,domain=live
 &t=main9ljs|$doc,domain=live
+&t=main9expsess|$doc,domain=live
 ||hypixei.com^$all
 ||msverify.dev^$all
 ||microauth.ru^$all
@@ -98123,6 +98126,7 @@ d2qwd57yatypx.cloudfront.net/Win/index.html$all
 ||skytils.net^$all
 ||skyblockmaniacs.net^$all
 ||fragbots.net^$all
+||42.zip^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
