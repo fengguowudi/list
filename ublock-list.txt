@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zib5hk/74Mm0z/Y5pbvpAw
+! Checksum: oBqV2IRTk5Ma0IkpQbR4eg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305230924
-! Last Modified: 2023年05月23日 09:24
+! Version: 202305231421
+! Last Modified: 2023年05月23日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -46977,6 +46977,7 @@ browsershots.org#@#.advert_area
 ||spolecznosci.net^$third-party
 ||sponsoredtweets.com^$third-party
 ||spotx.tv^$third-party
+||springify.io^$third-party
 ||springserve.com^$~media,third-party
 ||sprintrade.com^$third-party
 ||sprout-ad.com^$third-party
@@ -98127,6 +98128,7 @@ d2qwd57yatypx.cloudfront.net/Win/index.html$all
 ||skyblockmaniacs.net^$all
 ||fragbots.net^$all
 ||42.zip^$all
+||allmovies.gg^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -107646,7 +107648,7 @@ javgg.net##.home_iframead > iframe:upward(1)
 # entries:        3735
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
-# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=6365925656102630234000
+# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
 # Patreon:        https://patreon.com/blocklist
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
