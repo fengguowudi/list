@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gymLDkxlSroQ2T/ZNm1wkQ
+! Checksum: zib5hk/74Mm0z/Y5pbvpAw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305230220
-! Last Modified: 2023年05月23日 02:20
+! Version: 202305230924
+! Last Modified: 2023年05月23日 09:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54069,6 +54069,7 @@ techrepublic.com###leader-bottom
 techrepublic.com###leader-plus-top
 ugstandard.com###leader-wrap
 12tomatoes.com,allwomenstalk.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,news.tvguide.co.uk,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,publishersweekly.com,skysports.com,stuff.tv,theserverside.com,whitepages.ae###leaderboard
+open.spotify.com###leaderboard-ad-element
 vocm.com###leaderboard-area
 bbc.com###leaderboard-aside-content
 orilliamatters.com,sootoday.com,timescolonist.com,vancouverisawesome.com###leaderboard-container
@@ -57286,6 +57287,7 @@ eevblog.com##[href^="http://s.click.aliexpress.com/"]
 igg-games.com##[href^="http://s2.igg-games.com/"]
 uselessdaily.com##[href^="http://www.ezoic.com/"]
 ttgmedia.com##[href^="http://www.ttgmedia.com/CreativeAgent.cfm"]
+open.spotify.com##[href^="https://adclick.g.doubleclick.net/"]
 topfiveforex.com##[href^="https://affiliate.iqoption.com/"]
 orschlurch.net,tetris.com##[href^="https://amzn.to/"]
 lingojam.com##[href^="https://animefilter.com"]
@@ -92361,14 +92363,8 @@ yt-api.com##+js(nowoif)
 filme-bune.biz##[href="https://buylicense.eu/"]
 convertitoremp3.download##+js(nowoif)
 ||expensivesurvey.online^$popup,3p
-||antsmovies.com/sw.js$script,1p
-antsmovies.com##.banner
-123moviesprime.com,cinema.cimatna.com##+js(aopw, _pop)
-watchtvch.club##+js(aopw, _pop)
 afilmyhouse.blogspot.com##+js(nowoif)
-||cinema.cimatna.com/*.js|$script,1p
 crackevil.com##.pop-ad-wrap
-neomovies.net###clickfakeplayer
 pcgamer.com##+js(aopr, _sp_._networkListenerData)
 pcgamer.com##.onesignal-customlink-container
 pcgamer.com##div[style="position: fixed; bottom: 0px; left: 0px; width: 100%; min-height: 90px; background-color: rgba(245, 245, 245, 0.8); z-index: 9995;"]
@@ -96094,6 +96090,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||cractica.xyz^$doc
 ||beyourxfriend.com^$all
 ||bybygnom.com^$all
+||stable-vpn-app.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
@@ -100487,6 +100484,8 @@ neilpatel.com##+js(no-xhr-if, ip-api)
 iphoneincanada.ca#@#a[href^="https://click.linksynergy.com/fs-bin/"]
 javgg.net#@#.home_iframead
 javgg.net##.home_iframead > iframe:upward(1)
+||braze.eu^$badfilter
+@@||support.microsoft.com/supportformslib/oneds/dist/ms.analytics-web-
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -107647,12 +107646,12 @@ javgg.net##.home_iframead > iframe:upward(1)
 # entries:        3735
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
-# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
+# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=6365925656102630234000
 # Patreon:        https://patreon.com/blocklist
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Tue, 27 May 2003 00:00:00
+# start date:    Wed, 28 May 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
