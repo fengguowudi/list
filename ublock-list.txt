@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PBKtdUU1U89uBsKU/m7i0w
+! Checksum: hSxizayl9LEOzG6w33O9Sg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305232032
-! Last Modified: 2023年05月23日 20:32
+! Version: 202305240220
+! Last Modified: 2023年05月24日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12585,6 +12585,7 @@ _800x80_
 ##.ad_size_160x600
 ##.ad_skin
 ##.ad_sky
+##.ad_sky2
 ##.ad_sky2_2
 ##.ad_skyscpr
 ##.ad_skyscraper
@@ -21484,14 +21485,6 @@ _800x80_
 ##.ddb
 ###ultimedia_wrapper
 ##.brandpost_inarticle
-###atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top
-###taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top
-###topstuff > #tads
-##.commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > .vci
-##.commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > div > .vci
-##.commercial-unit-mobile-top > .v7hl4d
-##.commercial-unit-mobile-top > div[data-pla="1"]
-##div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"]
 ##.container-content__container-relatedlinks
 ###pubexchange_below_content
 ##.pubexchange_module
@@ -51069,6 +51062,7 @@ browsershots.org#@#.advert_area
 ||fembedta.com/pub?
 ||fileboom.me/images/i/$third-party
 ||filterforge.com/images/banners/
+||financeads.net/tb.php$third-party
 ||flowplayer.com/releases/ads/
 ||free-btc.org/banner/$third-party
 ||free.xjs.lol^
@@ -51331,6 +51325,7 @@ browsershots.org#@#.advert_area
 ||webseed.com/WP/
 ||weby.aaas.org^
 ||whatismyipaddress.cyou/assets/images/ip-banner.png
+||wheelify.cartzy.com^
 ||widenetworks.net^$domain=flysat.com
 ||widget.engageya.com/engageya_loader.js
 ||widget.golfscape.com^
@@ -57864,6 +57859,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg###sc-rec-bottom
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg###sc-rec-right
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg###sponsoredProducts2_feature_div
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg###sponsoredProducts_feature_div
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##.amzn-safe-frame-container
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##.sbv-video-single-product
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##[cel_widget_id*="-creative-desktop_loom-desktop-"]
@@ -58061,6 +58057,7 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##body#yDmH0d [data-is-promoted="true"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-attrid="kc:/local:promotions"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-crl="true"][data-id^="CarouselPLA-"]
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-is-ad="1"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[jsdata*="SinglePLA-"][data-id^="SinglePLA-"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##html[itemtype="http://schema.org/SearchResultsPage"] #cnt div[class$="sh-sr__tau"][style]
@@ -69370,6 +69367,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sortsail.com^
 ||sortstructure.com^
 ||sortsummer.com^
+||soundstocking.com^
 ||sowlettuce.com^
 ||spadelocket.com^
 ||sparklesleet.com^
@@ -95681,7 +95679,6 @@ thepiratebay3.com^$all
 ||nyalacornily.cam^$all
 ||adalgard-wol.com^$all
 ||chintsressels.com^$all
-||gopagefast.ru^$all
 ||letmessagenow.com^$all
 ||x-soft.club^$all
 ||apilond.com^$all
@@ -95710,9 +95707,9 @@ thepiratebay3.com^$all
 ||5754909.com^$all
 ||belbenback.live^$all
 /?pl=*&sm=$doc
-okashimag.com,tech4yougadgets.com##^meta[http-equiv="refresh"]
-okashimag.com,tech4yougadgets.com##^script[src^="data:text/javascript;base64,"]
-okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
+tech4yougadgets.com##^meta[http-equiv="refresh"]
+tech4yougadgets.com##^script[src^="data:text/javascript;base64,"]
+tech4yougadgets.com##+js(aopr, Notification)
 ||adstellar.icu^
 ||aleks-avto-rnd.ru^$all
 ||trk.setting-nervous-steady-noted.xyz^$all
@@ -95758,7 +95755,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||lone1y.com^$all
 ||tr1net.com^$all
 ||usdownload.widost.com^$all
-||fast-date.site^$all
 ||redirectto.fun^$all
 ||cpttrcklnk.com^$all
 ||neighborhoodsluts.com^$all
@@ -95789,7 +95785,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||worldactualstories.com^$all
 ||allhugenewz.com^$all
 ||fdgdfgdf.space^$all
-||1wat.ru^$all
 ||download-app.net^$all
 ||lib2.biz^$all
 ||myactualblog.com^$all
@@ -95852,7 +95847,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||findyour-realsex2.com^$all
 ||loveiswaiting.net^$all
 ||world-news-filter.info^$all
-||peliculas3.me^$all
 ||instahookupxxx.com^$all
 ||securesystemguide.com^$all
 ||to6s.biz^$all
@@ -96153,7 +96147,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||illuminatelocks.com^
 ||mfroute.com^
 ||miserve-chanics.com^
-||rhopalium-convolve-mozettas.xyz^
 ||survey2you.bid^
 ||track-149uew.link^
 ||tratbc.com^
@@ -96326,7 +96319,6 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||xforce-cracks.com^$doc
 ||fileisready.com^$doc
 /?act=*&epcVIP=$doc
-||kirov1.xyz^$all
 ||theannoyingsite.com^$all
 .top/vpnupdate/*/index.html$doc
 ||smartklick.biz^$all
@@ -96342,7 +96334,6 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||junk-cleaner.org^$all
 ||hdvideosnet.com^
 ||shaktilar.xyz^$all
-||flippingcharts.com^$all
 ||fullcrack.vn^$all
 ||vi-vn.vn^$doc
 /rtbfeed.php?$image,3p
@@ -96362,6 +96353,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||fitgirlrepack.*^$all,domain=~fitgirl-repacks.site
 ||fitgirls-repack.*^$all,domain=~fitgirl-repacks.site
 ||fitgirl-repacks-site.org^$doc,domain=~fitgirl-repacks.site
+||fitgirl.cc^$doc
 @@||fitgirl-repacks.site^$image,popup
 ||magiskmanager.com^$doc
 ||4rxworld.su^$doc
@@ -96371,7 +96363,6 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||skymods.net^$all
 ||hypixelstorexyz.pages.dev^$all
 ||claims-hypixel.com^$all
-||146.190.12.4^
 ||landkemoty.click^$all
 ||slugmefilehos.xyz^$all
 ||tinyurl.com/setup-full-version$doc
@@ -96435,7 +96426,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||kaminarisubs.net^$all
 ||galeden.cn^$all
 ||3utilities.com^$all
-||kvwuugo.cn^$all
 ||engagingtheheart.com^$all
 ||cpuz.beerworldstore.com^$all
 ||bafybeidzp4sgidm4rvsc32fofkhbz5bdotbekov4mnwzejakvnzhhohysa.ipfs.dweb.link^$all
@@ -96488,7 +96478,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||jsbetzh.com^$all
 ||sersdlos.cyou^$all
 ||vertec.com.cn^$all
-||fsxingfuju.com.cn^$all
 ||crilnj.cn^$all
 ||pf0755.cn^$all
 ||fsvacations.com^$all
@@ -97294,7 +97283,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||5jd2tj2idrool.com^$doc
 ||6zgak8az1b8wn3.com^$doc
 ||777.funnyy.net^$doc
-||abc.sns-5987.com^$doc
 ||advancedaily711.com^$doc
 ||again.lrwxrawroemtghrmzbn.com^$doc
 ||ai-ne.net^$doc
@@ -97596,7 +97584,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||life-is-luminous.com^$doc
 ||00ebjdbagyqwt.club^$doc
 ||0didjsgheje.club^$doc
-||174gla.milk-neo-memories.com^$doc
 ||1ix-c.jp^$doc
 ||5050.fm^$doc
 ||54z8xf.jp^$doc
@@ -97726,7 +97713,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||mother-sku.jp^$doc
 ||okanekasegeru.com^$doc
 ||online-777.jp^$doc
-||onpiurbhviusd.com^$doc
 ||p-mel.net^$doc
 ||paknz.star-superstar-yellow.com^$doc
 ||part-ner01.jp^$doc
@@ -97837,7 +97823,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||friends-connect.com^$doc
 ||kinun-2023.com^$doc
 ||madonnaoasis.com^$doc
-||market-price.jp^$doc
 ||msg.metamessen.net^$doc
 ||o-cean-fortune.biz^$doc
 ||o-cean-fortune.com^$doc
@@ -97898,7 +97883,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||vanilla-japan.love^$doc
 ||jtybleua.jp^$doc
 ||mai-tel.jp^$doc
-||micugqmr.givu.mom^$doc
 ||sfc.bz^$doc
 ||sfget.jp^$doc
 ||download-campaign.com^$doc
@@ -97929,7 +97913,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||doconno.com^$doc
 ||f9ng8gb.com^$doc
 ||feig04.com^$doc
-||fn5.isjasmo1oc.com^$doc
 ||friendmail.work^$doc
 ||fx640b4a8v2n.net^$doc
 ||grace-pot.com^$doc
@@ -98105,11 +98088,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||s3.us-west-1.amazonaws.com/security.uni.firewall.$all
 ||westernbible.edu^$doc
 /Win00Security07/index.html$document
-||02051.azureedge.net^$all
-||gcx4e-i7ygbv-okmn-iuhb-o6pqb.ondigitalocean.app^$all
 ||varchardetection777.site^$all
 ||xngqoc.com^$all
-d2qwd57yatypx.cloudfront.net/Win/index.html$all
 /Er0Wind0fsd0Security087/index.html$doc
 ||gateway.pinata.cloud^$3p
 ||japanonlinebroadcast.live^$all
@@ -98119,6 +98099,8 @@ d2qwd57yatypx.cloudfront.net/Win/index.html$all
 ||gamingnewsanalyst.com^$all
 ||gamingdebates.com^$all
 ||revanced.io^$all
+||vanced-official.com^$all
+||vanced.pro^$all
 ||bonzi.link^$all
 ||bestgames-2022.com^$all
 ||videoadblocker.pro^$all
@@ -98134,6 +98116,7 @@ d2qwd57yatypx.cloudfront.net/Win/index.html$all
 ||fragbots.net^$all
 ||42.zip^$all
 ||allmovies.gg^$all
+||hard-configurator.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -100494,6 +100477,7 @@ javgg.net##.home_iframead > iframe:upward(1)
 ||braze.eu^$badfilter
 @@||support.microsoft.com/supportformslib/oneds/dist/ms.analytics-web-
 ||success.act-on.com^$badfilter
+/tagcommander.$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
