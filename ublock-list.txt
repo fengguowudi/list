@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oBqV2IRTk5Ma0IkpQbR4eg
+! Checksum: PBKtdUU1U89uBsKU/m7i0w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305231421
-! Last Modified: 2023年05月23日 14:21
+! Version: 202305232032
+! Last Modified: 2023年05月23日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -33117,7 +33117,6 @@ browsershots.org#@#.advert_area
 ||intelligenceretarget.com^
 ||intellipopup.com^
 ||intellitxt.com^
-||intensedebate.com^
 ||intentanalysis.com^
 ||intentionallyathwart.com^
 ||intentionsplacingextraordinary.com^
@@ -50905,7 +50904,6 @@ browsershots.org#@#.advert_area
 ||1080872514.rsc.cdn77.org^
 ||1183537888.rsc.cdn77.org^
 ||1380535010.rsc.cdn77.org^
-||1454623486.rsc.cdn77.org^
 ||1675450967.rsc.cdn77.org^
 ||1698632923.rsc.cdn77.org^
 ||1728445846.rsc.cdn77.org^
@@ -59145,6 +59143,7 @@ analpornpix.com##[src^="https://analpornpix.com/t/153"]
 tubedupe.com##[src^="https://tubedupe.com/player/html.php?aid="]
 hentai-gamer.com##[src^="https://www.hentai-gamer.com/pics/"]
 pornhub.com##[srcdoc]
+pornhub.com##[srcset*="bloB:"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]:not(video)
 xozilla.com##[style="height: 220px !important; overflow: hidden;"]
@@ -72143,6 +72142,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||px.mountain.com^
 ||px.owneriq.net^
 ||px.spiceworks.com^
+||pxchk.net/api/v2/collector$xmlhttprequest
 ||pxchk.net/b/s
 ||pylon.micstatic.com^
 ||qcloud.com/report.go?
@@ -74207,6 +74207,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||binocule21c.merriam-webster.com^
 ||biomedcentral.com/track/
 ||blitz-analytics-batch-server.blitz.gg^
+||blockworks.co/_vercel/insights/
 ||bmoharris.com/www/assets/analytics/loader.js
 ||booking.com/c360/v1/track
 ||booking.com/collector/
@@ -93531,6 +93532,10 @@ unblockweb.me##+js(aopw, _pop)
 @@||codingnepalweb.com^$ghide
 codingnepalweb.com##.adsbygoogle
 codingnepalweb.com##+js(no-fetch-if, googlesyndication)
+!#if ext_devbuild
+||googlesyndication.com^$domain=codingnepalweb.com,important
+codingnepalweb.com##+js(sed, script, return showAdblockPopup)
+!#endif
 cozumpark.com##.adv-link
 lordhd.com##+js(nowoif)
 embed-channel.stream##+js(acs, document.addEventListener, nextFunction)
@@ -100488,6 +100493,7 @@ javgg.net#@#.home_iframead
 javgg.net##.home_iframead > iframe:upward(1)
 ||braze.eu^$badfilter
 @@||support.microsoft.com/supportformslib/oneds/dist/ms.analytics-web-
+||success.act-on.com^$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
