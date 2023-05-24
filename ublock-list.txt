@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6RxRTJU97j5JTp+R++JZwQ
+! Checksum: TpvTSPgCNNEvZWRnIt/olQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305242032
-! Last Modified: 2023年05月24日 20:32
+! Version: 202305250220
+! Last Modified: 2023年05月25日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -46027,6 +46027,7 @@ browsershots.org#@#.advert_area
 ||ads01.com^$third-party
 ||adsbookie.com^$third-party
 ||adscendmedia.com^$third-party
+||adscout.io^$third-party
 ||adscpm.net^$third-party
 ||adserve.com^$third-party
 ||adservingfactory.com^$third-party
@@ -55977,7 +55978,7 @@ iconfinder.com##.istockphoto-placeholder
 nintendolife.com,purexbox.com,pushsquare.com##.item-insert
 explorecams.com##.item-row--desktop
 cryptocompare.com##.item-special
-alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.net,dawsoncreekmirror.ca,delta-optimist.com,moosejawtoday.com,newwestrecord.ca,nsnews.com,piquenewsmagazine.com,princegeorgecitizen.com,prpeak.com,richmond-news.com,squamishchief.com,tricitynews.com##.item-sponsored
+alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.net,delta-optimist.com,moosejawtoday.com,newwestrecord.ca,nsnews.com,piquenewsmagazine.com,princegeorgecitizen.com,prpeak.com,richmond-news.com,squamishchief.com,tricitynews.com##.item-sponsored
 newegg.com##.item-sponsored-box
 pocketgamer.com##.item-unit
 gamereactor.eu##.itsanad
@@ -56821,7 +56822,7 @@ thebestcakerecipes.com##.slick-film-strip
 zimbio.com##.slide-break
 as.com##.slider-producto
 inbox.com##.slinks
-alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.net,dawsoncreekmirror.ca,delta-optimist.com,moosejawtoday.com,newwestrecord.ca,nsnews.com,piquenewsmagazine.com,princegeorgecitizen.com,prpeak.com,richmond-news.com,squamishchief.com,stalbertgazette.com,townandcountrytoday.com,tricitynews.com,vancouverisawesome.com##.slot
+alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.net,delta-optimist.com,moosejawtoday.com,newwestrecord.ca,nsnews.com,piquenewsmagazine.com,princegeorgecitizen.com,prpeak.com,richmond-news.com,sasktoday.ca,squamishchief.com,stalbertgazette.com,townandcountrytoday.com,tricitynews.com,vancouverisawesome.com##.slot
 iheartradio.ca##.slot-topNavigation
 independent.ie##.slot1
 independent.ie##.slot4
@@ -58640,6 +58641,7 @@ porngals4.com##.afb2
 hentai2w.com##.aff-col
 hentai2w.com##.aff-content-col
 porngals4.com##.affl
+cockdude.com##.after-boxes-ver2
 hentaidude.xxx##.ai_widget
 hentai2read.com##.alert-danger
 freeadultcomix.com##.anuncios
@@ -58691,6 +58693,7 @@ fap18.net,fuck55.net,tube.ac,tube.bz##.bb_desktop
 mofosex.net##.bb_show_5
 hotcelebshome.com##.bcpsttl_name_listing
 ok.xxx,pornhat.com##.before-player
+cockdude.com##.beside-video-ver2
 wapbold.com,wapbold.net##.bhor-box
 hqporner.com##.black_friday
 babestare.com##.block
@@ -58878,6 +58881,7 @@ javhhh.com##.inplayer
 vivud.com##.inplayer_banners
 anyporn.com,bravoporn.com,bravoteens.com,bravotube.net##.inplb
 anyporn.com,bravotube.net##.inplb3x2
+cockdude.com##.inside-list-boxes-ver2
 playvids.com,pornflip.com##.invideoBlock
 amateur8.com##.is-av
 usasexguide.nl##.isg_background_border_banner
@@ -58933,6 +58937,8 @@ xnxxvideos.rest##.mult
 javfor.tv##.my-2.container
 jagaporn.com##.nativad
 pornhd.com##.native-banner-wrapper
+cockdude.com##.native-boxes-2-ver2
+cockdude.com##.native-boxes-ver2
 fetishshrine.com,pornwhite.com,sleazyneasy.com##.native-holder
 ggjav.com##.native_ads
 anysex.com##.native_middle
@@ -59007,6 +59013,7 @@ vxxx.com##.recltiecrrllt
 xnxxvideos.rest##.refr
 svscomics.com##.regi
 nuvid.com##.rel_right
+cockdude.com##.related-boxes-footer-ver2
 cumlouder.com##.related-sites
 sexhd.pics##.relativebottom
 jav.work##.releated_video[style^="overflow: hidden;"]
@@ -59092,6 +59099,7 @@ pronpic.org##.teaser
 onlytik.com##.temporary-real-extra-block
 avn.com##.text-center.mb-10
 javfor.tv##.text-md-center
+cockdude.com##.textovka
 wichspornos.com##.tf-sp
 chikiporn.com,pornq.com##.thumb--adv
 xnxx.com,xvideos.com##.thumb-ad
@@ -93773,6 +93781,7 @@ link.technics-goods.info,mysafe.stisda.ac.id##.text-center > h3
 blogspot.com###fixedban
 ngprame.blogspot.com###AdsRyanAH
 ngprame.blogspot.com###tombol
+###fixedban
 archpaper.com##+js(acs, fetch, result)
 archpaper.com##.an-ads
 tripadvisor.*###component_2 > div[class^="_"] > div > div[class^="iab_"][style="min-height:90px"]:upward(2)
@@ -96189,6 +96198,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||beyourxfriend.com^$all
 ||bybygnom.com^$all
 ||stable-vpn-app.com^$all
+||paderrer.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
@@ -96451,7 +96461,8 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 ||fitgirlrepack.*^$all,domain=~fitgirl-repacks.site
 ||fitgirls-repack.*^$all,domain=~fitgirl-repacks.site
 ||fitgirl-repacks-site.org^$doc,domain=~fitgirl-repacks.site
-||fitgirl.cc^$doc
+||fitgirlrepacksite.com^$all,domain=~fitgirl-repacks.site
+||fitgirl.cc^$all,domain=~fitgirl-repacks.site
 @@||fitgirl-repacks.site^$image,popup
 ||magiskmanager.com^$doc
 ||4rxworld.su^$doc
@@ -98335,7 +98346,6 @@ reddit.com##+js(no-fetch-if, url:/^https:\/\/www\.reddit\.com$/ method:post)
 reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||tr.jianshu.com^
 /lib/f_ad_code.js
-||159.203.84.58^
 /\.com\/[-_0-9a-zA-Z]{4,}\/[-\/_0-9a-zA-Z]{25,}$/$script,1p,domain=gu-global.com|uniqlo.com
 ||metrics.surinenglish.com^
 @@||natureetdecouvertes.com^*/pixel.png$~third-party,badfilter
@@ -98566,7 +98576,6 @@ knowyourmeme.com##+js(nosiif, blogherads)
 ||sumo.com^$3p,domain=~beewits.com|~dante-ri.hr
 @@||sumo.com^$domain=shopify.com
 @@||sumome.com^$domain=shopify.com
-@@||data.edinburghopendata.info^$doc
 ||bbci.co.uk^*/analytics.js$script,redirect=noopjs,domain=bbc.co.uk
 ||static.bbc.co.uk/bbcdotcom/*/adverts.js$script,1p,important,redirect=noopjs
 ||googletagmanager.com/gtm.js$script,redirect=noopjs,domain=homes.co.nz
@@ -98992,9 +99001,8 @@ detroitnews.com###partner-poster-0
 ||curalate.com/api/v1/metrics/
 /api/v1/metrics$badfilter
 @@||nbc*.com/includes/AppMeasurement.js$script,1p
-://adv.$domain=~adv.asahi.com|~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com,badfilter
-://adv.$domain=~adv.asahi.com|~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.chunichi.co.jp|~adv.cr|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.lack-girl.com|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
-@@||adv.lack-girl.com^$popup
+://adv.$domain=adv.asahi.com|~adv.bet|~adv.blue|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.lack-girl.com|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com,badfilter
+://adv.$domain=adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.lack-girl.com|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ||amazonaws.com^*/funders-$domain=globalvoices.org,badfilter
 calgaryherald.com#@#.local-branding
 /google-analytics-$~image,badfilter
@@ -99238,7 +99246,6 @@ nowgoal.com##[href^="/ad/"]
 @@||afcs.dellcdn.com^$css,domain=dell.com
 @@||downloadgameps3.com/wp-content/plugins/*/wpdcookiejs/customcookie.js$script,1p
 @@||ccdn.es/advertising-UseCases-factory-js-factory.$script,domain=coches.net
-@@||ms-mt--api-web.spain.schibsted.io^$xhr,domain=coches.net
 ||idealista.com^$3p,domain=~idealista.com,badfilter
 @@||apollo-ireland.akamaized.net/*/files/*$image,domain=otodom.pl
 @@||bloomberg.com/*/captcha/captcha.js$script,1p
@@ -99393,7 +99400,6 @@ order-order.com#@#.tag-sponsored
 ||amazon-adsystem.com/*/apstag.js$script,xhr,redirect-rule=amazon_apstag.js:5
 @@||reference.medscape.com/public/vptrack_iframe.html$frame,1p
 *$script,image,css,frame,3p,domain=animetrick.com,badfilter
-@@||dduhv0txi73d1.cloudfront.net^$script,domain=marmiton.org
 ||treasuredata.com^$badfilter
 ||treasuredata.com^$3p
 @@||log.mmstat.com/eg.js$script,domain=youku.com
@@ -99446,7 +99452,6 @@ getcoloringpages.com#@#.adsBlock
 !#endif
 @@||choice.faktor.io^$frame,script,xhr,domain=gids.tv
 @@||alibaba.tanx.com^$domain=alidns.com
-*$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.cloudflare.com *.google.com *.addthis.com *.addthisedge.com *.facebook.net *.twitter.com *.jquery.com *.zencdn.net,domain=kinox.to|kinos.to|kinox.si|kinox.io|kinox.sx|kinox.am|kinox.nu|kinox.sg|kinox.gratis|kinox.mobi|kinox.sh|kinox.lol|kinox.wtf|kinox.fun|kinox.fyi|kinox.cloud|kinox.ai|kinox.club|kinox.digital|kinox.tube|kinox.direct|kinox.pub|kinox.express|kinox.party|kinox.space|kinoz.to,badfilter
 @@||adobedtm.com^*/satellitelib-$script,domain=finishlibrary.steelcase.com
 |https://$xhr,3p,domain=kimcartoon.to,badfilter
 @@||mensjournal.com.cdn.ezoic.net^$domain=mensjournal.com
@@ -99513,8 +99518,6 @@ humanbenchmark.com##+js(set, pubg.unload, noopFunc)
 ||doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js,domain=aristeguinoticias.com
 @@||news12.com^$frame,1p
 *$image,3p,domain=waudeesestew.com,badfilter
-*$image,3p,domain=h-98reale.com,badfilter
-*$css,3p,domain=h-98reale.com,badfilter
 *$image,3p,domain=shugraithou.com,badfilter
 *$image,3p,domain=q1-tdsge.com,badfilter
 *$css,3p,domain=q1-tdsge.com,badfilter
@@ -99894,7 +99897,6 @@ xunta.gal#@##anuncio
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule,domain=gamedeveloper.com
 @@||cdn.optimizely.com/js/$script,domain=santanderbank.com
 @@tracking/ninja.js$script,domain=olx.ro,badfilter
-||wss.analyticacdn.com^$badfilter
 ||tealium.com^$badfilter
 ||tealium.com^$3p
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=heim.jp
@@ -100044,7 +100046,6 @@ docer.pl#@##ad
 docer.pl#@#[class^="ad-"]
 @@||webshark.pl^$script,domain=doceru.com
 @@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=trygghansa.se
-@@||giantbomb.redvideo.redventures.io^$xhr,domain=giantbomb.com
 @@||cdn.mavic.com/sites/default/files/google_tag/google_tag/*$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=mavic.com
 @@||ad.doubleclick.net/ddm/trackclk/*https://www.unieuro.it
@@ -100354,7 +100355,6 @@ filelu.com#@#.banner_ads
 /img/ads/Spinner.png$image,redirect-rule=1x1.gif
 ||coveo.com^$script,domain=basspro.com,redirect-rule=noopjs
 @@||googletagmanager.com/gtm.js$domain=pointmall.rakuten.co.jp
-@@||h-microsoft.online-metrix.net^$xhr,domain=ave9858.github.io
 @@||cdn.blueconic.net/akc.js$script,domain=akc.org
 @@||akc.blueconic.net^$image,script,xhr,domain=akc.org
 ||permutive.com^$badfilter
