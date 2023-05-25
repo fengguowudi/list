@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1PvuZKaCsYc1S3Rt2ktc6A
+! Checksum: bG7SFjDgFTzv7rIPC5m9UA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305252034
-! Last Modified: 2023年05月25日 20:34
+! Version: 202305260220
+! Last Modified: 2023年05月26日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -93666,7 +93666,7 @@ codingnepalweb.com##.adsbygoogle
 codingnepalweb.com##+js(no-fetch-if, googlesyndication)
 !#if ext_devbuild
 ||googlesyndication.com^$domain=codingnepalweb.com,important
-codingnepalweb.com##+js(sed, script, return showAdblockPopup)
+codingnepalweb.com##+js(rpnt, script, return showAdblockPopup)
 !#endif
 cozumpark.com##.adv-link
 lordhd.com##+js(nowoif)
@@ -96244,13 +96244,11 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||gamesfuny.space^$all
 ||telegra.ph/Installer-02-27$doc
 ||telegra.ph/PREMIUM-VPN-02-24$doc
-||telegra.ph/New-download-02-24$doc
 ||yuppdownload.com^$doc
 ||expert-top.com^$doc
 ||m1shgan.app^$all
 ||gamegrack.site^$all
 ||greatsofts.space^$doc
-||pcworldgetin.net^$doc
 ||topsoftfree.com^$doc
 ||crackwesofts.com^$doc
 ||mega-share.pro^$doc
@@ -96268,7 +96266,8 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||official-expert.site^$doc
 ||file-prog.site^$all
 ||portsoft2022.ru^$doc
-||freeforyou.art^$doc
+||softeall.su^$all
+||hackdeversion.com^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
 .systems/signup?ad_domain=$doc,popup
@@ -98106,6 +98105,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||whuaqdsfjktgr.info^$doc
 ||ykeykfuyfpkkb.jp^$doc
 ||z4e2yem9edj.com^$doc
+||vanillafrappuccino.jp^$doc
+||vegansweeets.jp^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -98227,6 +98228,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||varchardetection777.site^$all
 ||xngqoc.com^$all
 /Er0Wind0fsd0Security087/index.html$doc
+||chuberanetto.tech^$all
+||starglaxyheritez.tech^$all
+||websafety.online^$all
 ||gateway.pinata.cloud^$3p
 ||japanonlinebroadcast.live^$all
 ||crackedpc.org^$all
@@ -98548,7 +98552,6 @@ knowyourmeme.com##+js(nosiif, blogherads)
 *$websocket,domain=linuxtracker.org
 ||dek5iqd53g59a.cloudfront.net^
 ||cdn-prod.securiti.ai/consent/auto_blocking/$domain=xfinity.com
-||static.cimcontent.net/data-layer/$domain=xfinity.com
 @@||google-analytics.com/plugins/$script
 ||adf.ly^$badfilter
 ||2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=video.foxnews.com
