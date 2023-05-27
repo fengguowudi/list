@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ckYXy7jYe87sx8dvRRvv7A
+! Checksum: BWJ97ob86QNz7HZn+RPJDw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305272030
-! Last Modified: 2023年05月27日 20:30
+! Version: 202305280219
+! Last Modified: 2023年05月28日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -60112,8 +60112,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -amp-error-reporting.
 -analytics-events.
 -analytics-state?
--analytics-wi.
--analytics/analytics.
 -appanalytics-
 -click-tracker.
 -datacollection.
@@ -60125,20 +60123,16 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -heatmaps-analytics/
 -inview-tracker.
 -optimization-metrics.
--optimost-
 -page-analytics.
 -pixelfront-analytics.
 -quantcast-measurement.
--realtime-logging-
 -rttracking.
 -sa-tracker-
 -scroll-tracker.js
 -track-inview.
--tracker-geoip.
 -tracking-pixel.
 -tracking?referrer=
 -trackingScript.
--unbxdAnalytics.
 -universal-analytics/
 .analytics.min.
 .asp?t=*&c=$image
@@ -60178,7 +60172,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .content_tracking.
 .de/h.gif?
 .de/l.gif?
-.drive-analytics.
 .eloqua.js
 .EventTracking.
 .gatracker.
@@ -60714,15 +60707,12 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /backlink.php?
 /backlink2.
 /baiduStatistics.js
-/BALinkImpressionTracking/*
-/banner-tracker.
 /banner.stats?
 /banners-stat.
 /base/es5/bundle.js
 /base/es6/bundle.js
 /basesdc.js
 /basicMetricsTracking.
-/basilic.php
 /batch.gif?
 /batch/1/OE/*
 /batch/1/OP/*
@@ -60730,10 +60720,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /baynote-$script
 /baynote.
 /baynote/*
-/baynote3.
-/baynote80.
 /baynote_
-/baynoteobserver/*
 /bb-analytics-
 /bc-track.
 /bc/clk?
@@ -60749,10 +60736,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /beacon.html?
 /beacon.js
 /beacon.min.js
-/beacon/*?appKey=
 /beacon/affiliates
 /beacon/b.ashx?
-/beacon/baminsights.
 /beacon/collector/*
 /beacon/cpcookie.
 /beacon/error?
@@ -60771,7 +60756,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /beacon/track/*
 /beacon/user-data
 /beacon/v1/batch?
-/beacon/vtn_loader.gif?
 /beacon?cust=
 /beacon_async.
 /beacon_img?
@@ -71132,6 +71116,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.cdnma.com^
 ||beacon.errorception.com^
 ||beacon.flow.io^
+||beacon.klm.com^
 ||beacon.riskified.com^
 ||beacon.s.llnwi.net^
 ||beacon.searchspring.io^
@@ -98167,6 +98152,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||z4e2yem9edj.com^$doc
 ||vanillafrappuccino.jp^$doc
 ||vegansweeets.jp^$doc
+||getmatch.jp^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -98291,6 +98277,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||chuberanetto.tech^$all
 ||starglaxyheritez.tech^$all
 ||websafety.online^$all
+||chuibesumeru.shop^$all
+||windwserror.com^$all
 ||gateway.pinata.cloud^$3p
 ||japanonlinebroadcast.live^$all
 ||crackedpc.org^$all
