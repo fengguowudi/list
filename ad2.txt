@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: awI5XSELO2F5uxCrBK0UFg
+! Checksum: Yk3tAaPNK410sLlrpA8YCw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202305270219
-! Last Modified: 2023年05月27日 02:19
+! Version: 202305270924
+! Last Modified: 2023年05月27日 09:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1715,6 +1715,7 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.video-info-aux + div[style^="border-radius: 5px;"]
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -2486,6 +2487,14 @@ newduba.cn###jq_youxi
 ||zscgoqt.cn^
 ||zvfaxh.xyz^
 ||zxgko.cn^
+||zhalinylqq.com^
+||yjgqpfj.cn^
+||celeste.work^
+||yhgumcr.xyz^
+||lydrnj.xyz^
+||vezvpd.xyz^
+||kuuda.xyz^
+||vezvpd.xyz^
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$="/1c626.com"]
