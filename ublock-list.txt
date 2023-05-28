@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: t60rK3pO8Lu9DTQvAOYxIg
+! Checksum: 2MorIYUplDAisMfHAknigg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305282029
-! Last Modified: 2023年05月28日 20:29
+! Version: 202305290218
+! Last Modified: 2023年05月29日 02:18
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -99568,6 +99568,7 @@ saltspringexchange.com#@#.single-ad
 @@||ezodn.com/cmp/v2/cmp.js$script
 @@||gvl.ezodn.com/gvlcache/GVL.json$xhr
 @@||ezodn.com/v2/cmp.js$script
+###ez-sidebar-wall-left
 @@||xozilla.com^$cname
 ||cxense.com^$badfilter
 ||cxense.com^$3p
@@ -100116,7 +100117,9 @@ docer.pl#@#[class^="ad-"]
 @@||cdn.mavic.com/sites/default/files/google_tag/google_tag/*$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=mavic.com
 @@||ad.doubleclick.net/ddm/trackclk/*https://www.unieuro.it
-@@||outbrain.com^$script,domain=welt.de
+@@||widgets.outbrain.com/outbrain.js$script,domain=welt.de
+@@||mv.outbrain.com/Multivac/api/get?url=$script,domain=welt.de
+@@||images.outbrainimg.com/transform/v3/$image,domain=welt.de
 shiropro-re.net#@##ad_link
 @@||assets.shiropro-re.net/html/image/ad5.png
 ||zdf.de/atinternet/live/smarttag.js$badfilter
