@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BWJ97ob86QNz7HZn+RPJDw
+! Checksum: COW6oV0X8fkBVkoqi3DNQA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305280219
-! Last Modified: 2023年05月28日 02:19
+! Version: 202305280941
+! Last Modified: 2023年05月28日 09:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -37175,7 +37175,6 @@ browsershots.org#@#.advert_area
 ||orbsrv.com^
 ||orbthindicab.cc^
 ||orchestraanticipation.com^
-||orchestrator.strn.pl^
 ||orchidreducedbleak.com^
 ||orcjagpox.com^
 ||orderfritter.com^
@@ -41428,7 +41427,6 @@ browsershots.org#@#.advert_area
 ||sotetahe.pro^
 ||sottagejalur.uno^
 ||soulfulinevitable.pro^
-||soulgen.net^
 ||soulsglovesacid.com^
 ||sounct.com^
 ||soundelktemper.com^
@@ -51223,6 +51221,7 @@ browsershots.org#@#.advert_area
 ||fancybar.net/ac/fancybar.js?zoneid
 ||fapturbo.com/testoid/
 ||fc.lc/CustomTheme/img/ref$third-party
+||feedads.feedblitz.com^
 ||fembedta.com/pub?
 ||fileboom.me/images/i/$third-party
 ||filterforge.com/images/banners/
@@ -84233,7 +84232,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 ||ezgo.advancedtech.com^
 ||featured.bradyid.com^
 ||feedback.aon.com^
-||fme.safe.com^
 ||form.harvardbusiness.org^
 ||form.vocalink.com^
 ||forms-emea.lenovo.com^
@@ -90084,9 +90082,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 ||ianimes.org/img/tracker.gif
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
-||l.bfmtv.com^
-||l.franceculture.fr^
-||l.gentside.com^
 ||lacentrale.fr/collect
 ||lacentrale.fr/static/fragment-layout/tracking-
 ||lacoccinelle.net/g.js
@@ -90969,7 +90964,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 ||d.haberler.com^
 ||haberler.com/dinamik/
 ||hstats.hepsiburada.com^
-||mark.isbank.com.tr^
 ||p.milliyet.com.tr^
 ||sahibinden.com/sbbi/
 ||stats.birgun.net^
@@ -107816,7 +107810,7 @@ tieba.baidu.com##+js(set, passFingerPrint, noopFunc)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 01 Jun 2003 00:00:00
+# start date:    Mon, 02 Jun 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
