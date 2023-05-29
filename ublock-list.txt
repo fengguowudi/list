@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B/O5FeJzz3fNvjNuQ9j9nw
+! Checksum: DM3Ic6wzkslUc9+CGh9D3g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305292032
-! Last Modified: 2023年05月29日 20:32
+! Version: 202305300219
+! Last Modified: 2023年05月30日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -46650,7 +46650,6 @@ browsershots.org#@#.advert_area
 ||hotwords.com^$third-party
 ||hover.in^$third-party
 ||hprofits.com^$third-party
-||hsoub.com^$third-party
 ||httpool.com^$third-party
 ||ibannerexchange.com^$third-party
 ||ibillboard.com^$third-party
@@ -51132,6 +51131,7 @@ browsershots.org#@#.advert_area
 ||ads.servebom.com^
 ||ads.sportradar.com^
 ||ads.yahoo.com^$~image
+||ads2.hsoub.com^
 ||adsales.snidigital.com^
 ||adserving.unibet.com^
 ||adtechvideo.s3.amazonaws.com^
@@ -92602,7 +92602,7 @@ vexfile.com##.title-box > [href] > [src]
 manga18fx.com##+js(acs, document.querySelectorAll, popMagic)
 manga18fx.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
 manga18fx.com##.kadx
-||manga18fx.com/bmo/*.php
+||manga18fx.com/nmme2023/nmme_frend.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=sudoku-aktuell.de
 sudoku-aktuell.de###ajax
 sudoku-aktuell.de###billboard
@@ -96248,6 +96248,9 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||bybygnom.com^$all
 ||stable-vpn-app.com^$all
 ||paderrer.com^$all
+||best-site-online.com^
+||haffnetworkmm.com^$all
+/jump/next.php?r=$doc
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
@@ -96677,6 +96680,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||itsaol.com^$all
 ||guiyangouya.com^$all
 ||fenglaila.com^$all
+||hbjingyao.com^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
 ||adblock-one-protection.com^$all
@@ -98131,6 +98135,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||vanillafrappuccino.jp^$doc
 ||vegansweeets.jp^$doc
 ||getmatch.jp^$doc
+||mcpoc.linenet.top^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -107448,6 +107453,7 @@ tieba.baidu.com##+js(set, passFingerPrint, noopFunc)
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||kkkjpg-522.cc^$third-party
 ||mg.nezqmud.com^
 ||ekofelj.xyz^
 ||cadke.xyz^
