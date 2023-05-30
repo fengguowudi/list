@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DM3Ic6wzkslUc9+CGh9D3g
+! Checksum: ufo3Qy7iTybjyUitJNUApg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305300219
-! Last Modified: 2023年05月30日 02:19
+! Version: 202305300936
+! Last Modified: 2023年05月30日 09:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -100635,6 +100635,9 @@ tieba.baidu.com##+js(set, passFingerPrint, noopFunc)
 @@||googletagmanager.com/gtm.js$script,domain=laptopsdirect.co.uk
 @@||analytics-*.clickdimensions.com/*/pages/$frame,domain=crm.digital.nhs.uk
 @@||h-microsoft.online-metrix.net^$xhr,domain=ave9858.github.io|massgrave.dev
+sofascore.com#@#[display^="block,none"]
+sofascore.com#@#[display^="none,none"]
+sofascore.com##.adUnitBox
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -107802,7 +107805,7 @@ tieba.baidu.com##+js(set, passFingerPrint, noopFunc)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Tue, 03 Jun 2003 00:00:00
+# start date:    Wed, 04 Jun 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
