@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7Vt3hIEfox3PIYVlKwEZUQ
+! Checksum: ptdUOB8/6w7Y8M8kHFzuDw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202305312034
-! Last Modified: 2023年05月31日 20:34
+! Version: 202306010220
+! Last Modified: 2023年06月01日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -68409,7 +68409,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||moneroocean.stream^$third-party
 ||mutinyhq.com^$third-party
 ||nabaza.com^$third-party
-||nablabee.com^$third-party
 ||nametraff.com^$third-party
 ||nathetsof.com^$third-party
 ||nerohut.com^$third-party
@@ -96109,6 +96108,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||best-site-online.com^
 ||haffnetworkmm.com^$all
 /jump/next.php?r=$doc
+||softronline.click^
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
@@ -97994,6 +97994,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||vegansweeets.jp^$doc
 ||getmatch.jp^$doc
 ||mcpoc.linenet.top^$doc
+||hn-mizuki.com^$doc
+||urara02032023.com^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -100497,6 +100499,7 @@ sofascore.com#@#[display^="block,none"]
 sofascore.com#@#[display^="none,none"]
 sofascore.com##.adUnitBox
 /mixpanel.$domain=~mixpanel.com,badfilter
+/comscore.$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -107315,6 +107318,7 @@ sofascore.com##.adUnitBox
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||ra5.xyz^
 ||joiwnq2.cn^
 ||2tyne.ic^
 ||kkkjpg-522.cc^$third-party
