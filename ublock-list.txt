@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eaX1jdmEhVOou/M6oHmexw
+! Checksum: k8r7T0+rFadvOcJgQ383zw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306011005
-! Last Modified: 2023年06月01日 10:05
+! Version: 202306011422
+! Last Modified: 2023年06月01日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57606,6 +57606,7 @@ cheaptickets.com,ebookers.com,expedia.com,hotels.com,orbitz.com,travelocity.com,
 coingecko.com##[data-target="ads.banner"]
 woot.com##[data-test-ui^="advertisementLeaderboard"]
 target.com##[data-test="featuredProducts"]
+reuters.com##[data-testid="ResponsiveAdSlot"]
 nytimes.com,nytimes3xbfgragh.onion##[data-testid="StandardAd"]
 coles.com.au##[data-testid="banner-container-desktop"]
 forbes.com##[data-testid="locked-top-ad-container"]
@@ -57792,7 +57793,6 @@ ttgmedia.com##[style^="position: fixed;"]
 meaww.com##[style^="text-align: center;"]
 zenger.news##[style^="text-align:center;min-height:"]
 filmdaily.co,gelbooru.com,integral-calculator.com,live365.com,passiveaggressivenotes.com,twcenter.net##[style^="width: 728px;"]
-reuters##[testid="ResponsiveAdSlot"]
 myfitnesspal.com##[title*="Ad"]
 check-host.net##[title="DDOS-Guard"]
 modrinth.com##[type="banner"]
@@ -72774,6 +72774,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||telemetry.reembed.com^
 ||telemetry.soundcloud.com^
 ||telemetry.tableausoftware.com^
+||terabox.fun/api/analytics
+||terabox.fun/api/getsyscfg?*web_share_ads_adsterra_config
 ||th.bing.com/th/*&riu=$image,third-party
 ||the-group.net/aether/
 ||themesltd.com/online-users-counter/$third-party
@@ -73290,6 +73292,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dxwgpw0lkcum5.cloudfront.net^
 ||dy2xcjk8s1dbz.cloudfront.net^
 ||dyv1bugovvq1g.cloudfront.net^
+||firebase.googleapis.com^$domain=terabox.fun
+||firebaseinstallations.googleapis.com^$domain=terabox.fun
 ||am-vid-events.taboola.com^
 ||convsgmp.taboola.com^
 ||la-sync.taboola.com^
@@ -98254,6 +98258,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||42.zip^$all
 ||allmovies.gg^$all
 ||hard-configurator.com^$all
+||filmshngjbzix.blogspot.com^
+||mopiez.com^
+||goglel.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -100605,7 +100612,7 @@ sofascore.com#@#[display^="block,none"]
 sofascore.com#@#[display^="none,none"]
 sofascore.com##.adUnitBox
 /mixpanel.$domain=~mixpanel.com,badfilter
-/comscore.$badfilter
+linktr.ee##+js(set, DD_LOGS, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
