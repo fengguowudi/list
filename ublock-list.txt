@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Tpndkp1qzS3dZhNtRhInpQ
+! Checksum: gr8ixaFo+FsCQdlN4B1Bmg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306012034
-! Last Modified: 2023年06月01日 20:34
+! Version: 202306020222
+! Last Modified: 2023年06月02日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8180,6 +8180,7 @@ _800x80_
 ###in-article-ad
 ###in-article-mpu
 ###in-content-ad
+###inArticleAdv
 ###inarticlead
 ###inc-ads-bigbox
 ###incontent-ad-2
@@ -13734,6 +13735,7 @@ _800x80_
 ##.adsenseformat
 ##.adsenseframe
 ##.adsenseleaderboard
+##.adsensemobile
 ##.adsep
 ##.adserve_728
 ##.adserverBox
@@ -15073,6 +15075,7 @@ _800x80_
 ##.banner-adsense
 ##.banner-adv
 ##.banner-advert
+##.banner-advert-wrapper
 ##.banner-advertisement
 ##.banner-advertising
 ##.banner-adverts
@@ -73587,11 +73590,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c.woopic.com/tools/pdb.min.js
 ||caast.tv/v1/record.gif?
 ||calcul-pagerank.fr/client/$third-party
+||canalplus-bo.net/web/*/tracker/?
 ||capping.sirius.press^
 ||cdn-files.prsmedia.fr^*/xiti/
 ||ced-ns.sascdn.com/diff/js/smart.js
 ||cloudfront.net^$script,domain=gentside.com
-||canalplus-bo.net/web/*/tracker/?
 ||collect-v6.51.la^
 ||compteur.websiteout.net^
 ||core.unit-sense.net^
@@ -96662,6 +96665,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||guiyangouya.com^$all
 ||fenglaila.com^$all
 ||hbjingyao.com^$all
+||tokyu-dept.site^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
 ||adblock-one-protection.com^$all
@@ -98252,9 +98256,12 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||123moviesgo.ga^$all
 ||gamingnewsanalyst.com^$all
 ||gamingdebates.com^$all
-||revanced.io^$all
-||vanced-official.com^$all
-||vanced.pro^$all
+||revanced.io^$all,domain=~revanced.app
+||vanced-official.com^$all,domain=~revanced.app
+||vanced.pro^$all,domain=~revanced.app
+||revanced.*^$doc,domain=~revanced.app
+||revanceddl.com^$doc,domain=~revanced.app
+||tuberevanced.com^$doc,domain=~revanced.app
 ||bonzi.link^$all
 ||bestgames-2022.com^$all
 ||videoadblocker.pro^$all
@@ -98579,7 +98586,6 @@ knowyourmeme.com##+js(nosiif, blogherads)
 @@||global.fncstatic.com^*/ads.js$script,domain=foxnews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=insider.foxnews.com
 @@||s0.2mdn.net/instream/*$domain=cnet.com
-@@||cdn.vurb.com/*/mixpanel.
 ||top.mail.ru^$badfilter
 ||top.mail.ru^$3p
 @@||css.washingtonpost.com/*/ads.css$css,1p
@@ -100628,6 +100634,13 @@ sofascore.com#@#[display^="none,none"]
 sofascore.com##.adUnitBox
 /mixpanel.$domain=~mixpanel.com,badfilter
 linktr.ee##+js(set, DD_LOGS, noopFunc)
+/webTracking.$domain=~webtracking.girard-agediss.com,badfilter
+/webtracking.min.js
+||qualzz.com/assets/trackingScript/webtracking.js
+||webtracking.fe.union-investment.de^
+@@||imasdk.googleapis.com/pal/sdkloader/pal.js$script,domain=pluto.tv
+metastats.net##.col-md-6:style(height: 150px !important;)
+metastats.net###page-wrapper > div.row:nth-of-type(1)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
