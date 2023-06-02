@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cJJ001PAfYxLw6MhkqKjXQ
+! Checksum: yWKMQL7TzX4YyL6SMLy3XQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306021420
-! Last Modified: 2023年06月02日 14:20
+! Version: 202306022034
+! Last Modified: 2023年06月02日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -13947,6 +13947,7 @@ _800x80_
 ##.adthrive-content
 ##.adthrive-header
 ##.adthrive-header-container
+##.adthrive-placeholder-content
 ##.adthrive-video-player
 ##.adthrive_custom_ad
 ##.adthx
@@ -55151,6 +55152,7 @@ gosunoob.com,indianexpress.com,roblox.com,spotify.com,wccftech.com##.ads-contain
 fintech.tv##.ads-img
 gameshub.com##.ads-slot
 auto.hindustantimes.com##.adsHeight300x600
+tech.hindustantimes.com##.adsHeight720x90
 auto.hindustantimes.com##.adsHeight970x250
 dailyo.in##.adsWrp
 games2jolly.com##.ads_310_610_sidebar_new
@@ -55274,6 +55276,7 @@ ggrecon.com##.artSideBgBox
 ggrecon.com##.artSideBgBoxBig
 ggrecon.com##.artSideWrapBoxSticky
 thelocal.at,thelocal.ch,thelocal.de,thelocal.es,thelocal.fr,thelocal.it,thelocal.no##.article--sponsored
+thehindu.com##.article-ad
 coindesk.com##.article-com-wrapper
 firstforwomen.com##.article-content__sponsored_tout_ad___1iSJm
 eonline.com##.article-detail__right-rail--topad
@@ -55559,6 +55562,8 @@ radiotoday.co.uk##.byglhsmf
 insurancejournal.com##.bzn
 insidebitcoins.com##.c-FloatingPrompt
 globalnews.ca##.c-ad
+stuff.tv##.c-ad--mpu-bottom
+stuff.tv##.c-ad--mpu-top
 zdnet.com##.c-adDisplay_container_incontent-all-top
 tuko.co.ke##.c-adv
 legit.ng##.c-adv--video-placeholder
@@ -55748,6 +55753,7 @@ noqreport.com##.custom-html-widget [href] > [src]
 breakingnews.ie##.custom-mpu-container
 ehitavada.com##.custom-popup
 trancentral.tv##.custom_banners_big_link
+fandomwire.com##.customad
 total-croatia-news.com##.custombanner
 coincarp.com##.customspon
 futurecurrencyforecast.com##.cwc-tor-widget
@@ -55793,7 +55799,7 @@ flashscore.co.za,soccer24.com##.detailLeaderboard
 floridapolitics.com##.dfad
 coingape.com##.dfd
 nationaljeweler.com,pastemagazine.com,theonion.com##.dfp
-gazette.com##.dfp-ad
+gazette.com,thehindu.com##.dfp-ad
 investing.com##.dfp-native
 investing.com##.dfpVideo
 dailyfx.com##.dfx-article__sidebar
@@ -56324,7 +56330,7 @@ blaauwberg.net##.leaderBoardContainer
 techadvisor.com##.leaderBoardHolder
 coin360.com##.leader_wrapper
 coveteur.com##.leaderboar_promo
-agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,boardgamegeek.com,bravewords.com,broadcastnow.co.uk,cantbeunseen.com,chairmanlol.com,chemistryworld.com,citynews.ca,comingsoon.net,crn.com.au,diyfail.com,dogtime.com,edmunds.com,europeanpharmaceuticalreview.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,nfcw.com,objectiface.com,passedoutphotos.com,playstationlifestyle.net,precisionvaccinations.com,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thedriven.io,thefashionspot.com,thestar.com.my,titantv.com,tutorialrepublic.com,where.ca,yoimaletyoufinish.com##.leaderboard
+agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,boardgamegeek.com,bravewords.com,broadcastnow.co.uk,cantbeunseen.com,chairmanlol.com,chemistryworld.com,citynews.ca,comingsoon.net,crn.com.au,diyfail.com,dogtime.com,drugtargetreview.com,edmunds.com,europeanpharmaceuticalreview.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,nfcw.com,objectiface.com,passedoutphotos.com,playstationlifestyle.net,precisionvaccinations.com,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thedriven.io,thefashionspot.com,thestar.com.my,titantv.com,tutorialrepublic.com,where.ca,yoimaletyoufinish.com##.leaderboard
 edarabia.com##.leaderboard-728
 abcnews.go.com,edarabia.com##.leaderboard-970
 roblox.com##.leaderboard-abp
@@ -57137,6 +57143,7 @@ hellomagazine.com##.sponsored-news
 search.brave.com##.sponsored-unit_wrapper
 coingecko.com##.sponsored-v2
 investing.com##.sponsoredArticle
+tech.hindustantimes.com##.sponsoredBox
 coinmarketcap.com##.sponsoredMark
 circleid.com##.sponsoredTopicCard
 ar15.com,armageddonexpo.com,audiforums.com,f1gamesetup.com,ferrarichat.com,hotrodhotline.com,jaguarforums.com,pypi.org,thebugle.co.za,waamradio.com,wbal.com,webtorrent.io##.sponsors
@@ -57563,7 +57570,7 @@ yellowpages.co.za##.yp-object-ad-modal
 buzzly.art##.z-10.w-max
 howstuffworks.com##.z-999
 tekdeeps.com##.zAzfDBzdxq3
-ign.com##.zad
+ign.com,pcmag.com##.zad
 windows101tricks.com##.zanui-container
 antimusic.com##.zerg
 thehackernews.com##.zoho-box-1
@@ -74730,6 +74737,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||html5games.com/event/
 ||hulkshare.com/ajax/tracker.php
 ||hulu.com/metricsconfig
+||hypebeast.com/firebase-messaging-sw.js
 ||i.pokernews.com^
 ||ibtimes.com/front/js/counter.js
 ||icgp.ie/overview/js/tracker.php
@@ -92375,7 +92383,7 @@ clickscoin.com##+js(set, blurred, false)
 clickscoin.com##.box-main > center
 dogeclick.net##+js(nosiif, visibility, 1000)
 scnlog.me##+js(aopw, _pop)
-*$3p,script,denyallow=google.com|gstatic.com|recaptcha.net|hcaptcha.com,domain=scnlog.me
+*$script,3p,denyallow=cloudflare.com|google.com|gstatic.com|recaptcha.net|hcaptcha.com,from=scnlog.me
 mangaonline.fun##+js(acs, document.querySelectorAll, popMagic)
 youtubemp3.us##+js(nowoif)
 ancient-origins.*##+js(set, document.bridCanRunAds, true)
@@ -98436,6 +98444,9 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||top-staging.mail.ru^
 ||adthrive.com^$removeparam,domain=~mediaite.com
 ||onesignal.com^$domain=iphoneincanada.ca|senpa.io
+!#if ext_devbuild
+mozilla.org##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?redirect="], ?redirect)
+!#endif
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -100547,6 +100558,7 @@ linktr.ee##+js(set, DD_LOGS, noopFunc)
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$script,domain=pluto.tv
 metastats.net##.col-md-6:style(height: 150px !important;)
 metastats.net###page-wrapper > div.row:nth-of-type(1)
+@@||4chan.org/adv/$image,domain=boards.4channel.org
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -107709,7 +107721,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Fri, 26 May 2023 13:10:46 GMT
-# entries:        3359
+# entries:        3364
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -108646,6 +108658,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 awakebird.com
 127.0.0.1 awempire.com
 127.0.0.1 awesomeagreement.com
+127.0.0.1 awesomeattack.com
 127.0.0.1 awin1.com
 127.0.0.1 awstrack.me
 127.0.0.1 awzbijw.com
@@ -108742,6 +108755,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 bigreal.org
 127.0.0.1 biosda.com
 127.0.0.1 bitmedianetwork.com
+127.0.0.1 bizarrebaseball.com
 127.0.0.1 bizible.com
 127.0.0.1 bizographics.com
 127.0.0.1 bizrate.com
@@ -108976,7 +108990,6 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 complextoad.com
 127.0.0.1 comprabanner.it
 127.0.0.1 concernedcondition.com
-127.0.0.1 concerneddrink.com
 127.0.0.1 conditionchange.com
 127.0.0.1 conductrics.com
 127.0.0.1 connatix.com
@@ -108998,7 +109011,6 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 conversionruler.com
 127.0.0.1 convertingtraffic.com
 127.0.0.1 convrse.media
-127.0.0.1 cookchalk.com
 127.0.0.1 coordinatedcub.com
 127.0.0.1 cootlogix.com
 127.0.0.1 copperchickens.com
@@ -109189,7 +109201,6 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 email-open.adtidy.net
 127.0.0.1 email-open.adtidy.org
 127.0.0.1 email-opn.adguard.com
-127.0.0.1 email.m1.bktrksmail.com
 127.0.0.1 emaillinks.soundiiz.com
 127.0.0.1 emebo.io
 127.0.0.1 emerse.com
@@ -109442,6 +109453,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 hfc195b.com
 127.0.0.1 hgads.com
 127.0.0.1 highfalutinroom.com
+127.0.0.1 hilariouscap.com
 127.0.0.1 hilariouszinc.com
 127.0.0.1 histats.com
 127.0.0.1 historicalrequest.com
@@ -109460,6 +109472,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 hocgeese.com
 127.0.0.1 hollowafterthought.com
 127.0.0.1 homelycrown.com
+127.0.0.1 homelysleep.com
 127.0.0.1 homepageking.de
 127.0.0.1 honeygoldfish.com
 127.0.0.1 honorablehall.com
@@ -109723,6 +109736,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 madvertise.de
 127.0.0.1 magicadz.co
 127.0.0.1 magicaljoin.com
+127.0.0.1 magicalmonth.com
 127.0.0.1 magnificentmist.com
 127.0.0.1 mail-ads.google.com
 127.0.0.1 maltiverse.lt.acemlnc.com
@@ -110121,6 +110135,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 prchecker.info
 127.0.0.1 prebid.org
 127.0.0.1 predictad.com
+127.0.0.1 presentbedroom.com
 127.0.0.1 presetrabbits.com
 127.0.0.1 previousplayground.com
 127.0.0.1 previouspotato.com
@@ -110245,7 +110260,6 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 reactx.com
 127.0.0.1 readgoldfish.com
 127.0.0.1 readingguilt.com
-127.0.0.1 readingopera.com
 127.0.0.1 readserver.net
 127.0.0.1 readymoon.com
 127.0.0.1 realcastmedia.com
@@ -110470,6 +110484,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 smilingwaves.com
 127.0.0.1 smoggysnakes.com
 127.0.0.1 smrtb.com
+127.0.0.1 snailscart.com
 127.0.0.1 snapads.com
 127.0.0.1 snoobi.com
 127.0.0.1 socialspark.com
@@ -110497,10 +110512,10 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 speedshiftmedia.com
 127.0.0.1 spidersboats.com
 127.0.0.1 spiffymachine.com
-127.0.0.1 spikyslave.com
 127.0.0.1 spinbox.versiontracker.com
 127.0.0.1 spinnaker-js.com
 127.0.0.1 spirebaboon.com
+127.0.0.1 spitefulstop.com
 127.0.0.1 sponsorads.de
 127.0.0.1 sponsorpro.de
 127.0.0.1 sponsors.thoughtsmedia.com
@@ -110677,6 +110692,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 tend.io
 127.0.0.1 tendertest.com
 127.0.0.1 terriblethumb.com
+127.0.0.1 teststocking.com
 127.0.0.1 text-link-ads.com
 127.0.0.1 textad.sexsearch.com
 127.0.0.1 textads.biz
@@ -110877,6 +110893,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 ultramercial.com
 127.0.0.1 ultraoranges.com
 127.0.0.1 unarmedindustry.com
+127.0.0.1 unbecomingbikes.com
 127.0.0.1 unbecominglamp.com
 127.0.0.1 understoodocean.com
 127.0.0.1 undertone.com
