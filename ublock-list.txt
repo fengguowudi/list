@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QhAuZUGIypUOoEiz0/PSkQ
+! Checksum: bMk2840yBjYsbEqFD9nquQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306030219
-! Last Modified: 2023年06月03日 02:19
+! Version: 202306030944
+! Last Modified: 2023年06月03日 09:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -31238,6 +31238,7 @@ browsershots.org#@#.advert_area
 ||functionspresidespiral.com^
 ||fundamentalenvironmental.com^
 ||fundardsesaz.club^
+||fundsbe.com^
 ||fungianjaggier.digital^
 ||fungus.online^
 ||funkerpep.com^
@@ -32710,6 +32711,7 @@ browsershots.org#@#.advert_area
 ||hpk42r7a.de^
 ||hpmarzhnny.com^
 ||hppvkbfcuq.com^
+||hpychofen.com^
 ||hpyjmp.com^
 ||hpyrdr.com^
 ||hq3x.com^
@@ -48568,6 +48570,7 @@ browsershots.org#@#.advert_area
 ||fstsrv.com^$popup
 ||ftte.xyz^$popup
 ||functionsprecision.com^$popup
+||fundsbe.com^$popup
 ||funmatrix.net^$popup
 ||furrowparabledisplay.com^$popup
 ||furstraitsbrowse.com^$popup
@@ -65439,6 +65442,7 @@ _mongo_stats/
 ||hsleadflows.net^
 ||hubty.network^
 ||i218435.net^
+||ia-dmp.com^
 ||iconnode.com^
 ||id5-sync.com^
 ||idx.lat^
@@ -71001,6 +71005,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.ziftsolutions.com^
 ||analytics1.vdo.ai^
 ||analyticsehnwe.servicebus.windows.net^
+||analyticssec.overwolf.com^
 ||analyze.full-marke.com^
 ||ancestrycdn.com/tao/at/
 ||ao-freegeoip.herokuapp.com^
@@ -73447,6 +73452,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sim-technik.de^*&uniqueTrackId=
 ||skoom.de/gratis-counter/
 ||somquery.sqrt-5041.de/tv/tracking-event
+||sp.data.funkedigital.de^
 ||spox.com/pub/js/track.js
 ||ss4w.de/counter.php?
 ||stat.clichehosting.de^
@@ -89957,6 +89963,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 ||tgw.gmx.ch^
 ||tgw.gmx.net^
 ||tgw.web.de^
+||timing.uhrforum.de^
 ||tm.swp.de^
 ||tracer.autoscout24.ch^
 ||track.dws.de^
@@ -91550,6 +91557,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=raiplay.it
 @@||clerk.io/clerk.js$script,domain=trony.it
 @@||codicefl.shinystat.com/cgi-bin/getserver.cgi?$script,domain=3bmeteo.com|quotidiano.net
+@@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs.ga.js?$script,domain=vrsicilia.it
 @@||jsdelivr.net^*/keen-tracking.min.js$domain=nextquotidiano.it
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
 @@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,third-party
@@ -107734,7 +107742,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Fri, 02 Jun 2023 12:23:49 GMT
-# entries:        3368
+# entries:        3364
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -107742,7 +107750,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 07 Jun 2003 00:00:00
+# start date:    Sun, 08 Jun 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 180hits.de
@@ -108264,7 +108272,6 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 ads.townhall.com
 127.0.0.1 ads.travelaudience.com
 127.0.0.1 ads.trinitymirror.co.uk
-127.0.0.1 ads.tripod.lycos.co.uk
 127.0.0.1 ads.tripod.lycos.de
 127.0.0.1 ads.tripod.lycos.es
 127.0.0.1 ads.tripod.lycos.it
@@ -108694,7 +108701,6 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 banner.goldenpalace.com
 127.0.0.1 banner.inyourpocket.com
 127.0.0.1 banner.linux.se
-127.0.0.1 banner.mindshare.de
 127.0.0.1 banner.noblepoker.com
 127.0.0.1 banner.rbc.ru
 127.0.0.1 banner.reinstil.de
@@ -109716,7 +109722,6 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 locked4.com
 127.0.0.1 lockerdome.com
 127.0.0.1 locpub.com
-127.0.0.1 log.btopenworld.com
 127.0.0.1 log.logrocket.io
 127.0.0.1 log.pinterest.com
 127.0.0.1 log.videocampaign.co
@@ -111061,7 +111066,6 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 xertive.com
 127.0.0.1 xfreeservice.com
 127.0.0.1 xg4ken.com
-127.0.0.1 xiti.com
 127.0.0.1 xovq5nemr.com
 127.0.0.1 xplusone.com
 127.0.0.1 xponsor.com
