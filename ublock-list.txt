@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ecc3PRKFtCZKr62tmbMj1w
+! Checksum: nbdFNO+JDIxHhN7NhSbXIA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306040219
-! Last Modified: 2023年06月04日 02:19
+! Version: 202306041001
+! Last Modified: 2023年06月04日 10:01
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -432,7 +432,6 @@
 /ad-top-
 /ad-top.
 /ad-unit-
-/ad-units.
 /ad-vert.
 /ad-view-
 /ad-web.
@@ -57606,6 +57605,7 @@ barandbench.com##[class*="ad-slot"]
 usnews.com##[class*="ad-spacer"]
 beincrypto.com,bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonewsz.com,insidebitcoins.com##[class*="clickout-"]
 smallseotools.com##[class*="gram"]
+levels.fyi##[class*="submissions-table-promo_promoContainer"]
 alternativeto.net##[class^="AdsenseAd"]
 thesouthafrican.com##[class^="Advertisement_"]
 games.washingtonpost.com##[class^="DisplayAd_"]
@@ -94994,7 +94994,7 @@ dirp.me##+js(aopr, puShown)
 dirp.me##[data-href^="/vpn"]
 dirp.me##[id]:has-text(Provider)
 boainformacao.com.br##+js(no-xhr-if, adsbygoogle)
-pinterest.*##:xpath('//*[(contains(text(),"Promoted") and contains(text(),"by")) or contains(text(),"広告")]'):upward([data-grid-item])
+pinterest.*##:xpath('//*[(contains(text(),"Promoted") and contains(text(),"by")) or contains(text(),"広告") or contains(text(),"Sponsorizzato")]'):upward([data-grid-item])
 distrowatch.org##[href*="3cx"]:upward(tbody)
 distrowatch.org##[href^="https://pbxinaflash.com/"]
 ubuntudde.com##+js(aopw, b2a)
@@ -107558,7 +107558,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 08 Jun 2003 00:00:00
+# start date:    Mon, 09 Jun 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 180hits.de
