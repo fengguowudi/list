@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UOG3Tl702QOeG0ntobVHig
+! Checksum: enNCX9e2K3ky6bDzzsDDyQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306052037
-! Last Modified: 2023年06月05日 20:37
+! Version: 202306060219
+! Last Modified: 2023年06月06日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -358,6 +358,7 @@
 .zm/ads/
 .zw/ads/
 /?affiliateId=*&realDomain=
+/?fp=*&poru=$subdocument
 /?view=ad
 /_adslot/*
 /_global/ads/*
@@ -11432,6 +11433,7 @@ _800x80_
 ##.ad-tower-container
 ##.ad-towers
 ##.ad-transition
+##.ad-trck
 ##.ad-two
 ##.ad-twos
 ##.ad-txt
@@ -21000,6 +21002,7 @@ _800x80_
 ##[name^="google_ads_iframe"]
 ##[onclick^="location.href='http://www.reimageplus.com"]
 ##a-ad
+##a[href*=".cfm?fp="][href*="&maxads="]
 ##a[href*=".engine.adglare.net/"]
 ##a[href*="//lkstrck2.com/"]
 ##a[href^="//a.bestcontentfare.top/"]
@@ -21089,7 +21092,7 @@ _800x80_
 ##a[href^="https://click.candyoffers.com/"]
 ##a[href^="https://click.dtiserv2.com/"]
 ##a[href^="https://click.hoolig.app/"]
-##a[href^="https://click.linksynergy.com/fs-bin/"]
+##a[href^="https://click.linksynergy.com/fs-bin/"] > img
 ##a[href^="https://clickadilla.com/"]
 ##a[href^="https://clicks.pipaffiliates.com/"]
 ##a[href^="https://clixtrac.com/"]
@@ -30023,6 +30026,7 @@ browsershots.org#@#.advert_area
 ||entigatenturge.pro^
 ||entirelysacrament.com^
 ||entitledbalcony.com^
+||entjgcr.com^
 ||entrecard.s3.amazonaws.com^
 ||entreeselegist.com^
 ||entrepreneurrestorationthereby.com^
@@ -35150,6 +35154,7 @@ browsershots.org#@#.advert_area
 ||makemehappy.space^
 ||makemyvids.com^
 ||makesboundlessvirtue.com^
+||makingdevil.com^
 ||makingnude.com^
 ||makoglassen.website^
 ||makotruong.live^
@@ -37410,6 +37415,7 @@ browsershots.org#@#.advert_area
 ||oumtoujo.net^
 ||ouncillorswhow.info^
 ||oungimuk.net^
+||ounojushyxb.xyz^
 ||ounsoopt.xyz^
 ||oupaumul.net^
 ||oupe71eiun.com^
@@ -40764,6 +40770,7 @@ browsershots.org#@#.advert_area
 ||sealedsimplicitynoun.com^
 ||sealeryshilpit.com^
 ||sealerysuppler.com^
+||sealthatleak.com^
 ||seamankidding.com^
 ||seamloring.life^
 ||seapolo.com^
@@ -42596,6 +42603,7 @@ browsershots.org#@#.advert_area
 ||thecoolposts.com^
 ||thecred.info^
 ||thecurtainied.xyz^
+||theedrem.xyz^
 ||theelrou.net^
 ||theensos.xyz^
 ||theerdax.com^
@@ -43952,6 +43960,7 @@ browsershots.org#@#.advert_area
 ||vaccinationwear.com^
 ||vaccinegrownparliamentary.com^
 ||vacuolewhilter.com^
+||vacuomedogeys.com^
 ||vacuomehautain.tech^
 ||vacuts.com^
 ||vacwrite.com^
@@ -45247,6 +45256,7 @@ browsershots.org#@#.advert_area
 ||wypydowhi.com^
 ||wysasys.com^
 ||wysyshypti.pro^
+||wytxjmow.com^
 ||wyypykoenie.xyz^
 ||wzdzht7am5.com^
 ||wzk5ndpc3x05.com^
@@ -45417,6 +45427,7 @@ browsershots.org#@#.advert_area
 ||xvderylqps.xyz^
 ||xvika.com^
 ||xviperonec.com^
+||xvpqmcgf.com^
 ||xvuslink.com^
 ||xvwebllndr.com^
 ||xwlketvkzf.com^
@@ -47799,6 +47810,7 @@ browsershots.org#@#.advert_area
 ||affelseaeinera.org^$popup
 ||affiliate-wg.com^$popup
 ||affilirise.com^$popup
+||affinity.net^$popup
 ||afflat3e1.com^$popup
 ||affluentshinymulticultural.com^$popup
 ||afk-i.com^$popup
@@ -48431,6 +48443,7 @@ browsershots.org#@#.advert_area
 ||enlightencentury.com^$popup
 ||enloweb.com^$popup
 ||entainpartners.com^$popup,third-party
+||entjgcr.com^$popup
 ||entlyhaveb.autos^$popup
 ||entry-system.xyz^$popup
 ||eonsmedia.com^$popup
@@ -49092,6 +49105,7 @@ browsershots.org#@#.advert_area
 ||maddenbusy.com^$popup
 ||magicads.nl^$popup
 ||majorityevaluatewiped.com^$popup
+||makingdevil.com^$popup
 ||maltunfaithfulpredominant.com^$popup
 ||mambkooocango.com^$popup
 ||manbycus.com^$popup
@@ -49721,6 +49735,7 @@ browsershots.org#@#.advert_area
 ||relievedgeoff.com^$popup
 ||remaysky.com^$popup
 ||remedyeloise.com^$popup
+||remembergirl.com^$popup
 ||reminews.com^$popup
 ||remove-ads.xyz^$popup
 ||renownsimultaneouslyunresolved.com^$popup
@@ -49834,6 +49849,7 @@ browsershots.org#@#.advert_area
 ||scenbe.com^$popup
 ||schemeabsolutejanuary.com^$popup
 ||screenov.site^$popup
+||sealthatleak.com^$popup
 ||search4y.com^$popup
 ||searchenhancements.com^$popup
 ||searchmulty.com^$popup
@@ -51237,6 +51253,7 @@ browsershots.org#@#.advert_area
 ||1183537888.rsc.cdn77.org^
 ||1206335544.rsc.cdn77.org^
 ||1380535010.rsc.cdn77.org^
+||1502649226.rsc.cdn77.org^
 ||1675450967.rsc.cdn77.org^
 ||1678776982.rsc.cdn77.org^
 ||1698632923.rsc.cdn77.org^
@@ -54082,6 +54099,7 @@ exchangerates.org.uk,investing.com###ad3
 comicbookmovie.com###adATFLeaderboard
 mdpi.com###adBannerContent
 moomoo.io###adCard
+globimmo.net###adConH
 sainsburysmagazine.co.uk###adSlot-featuredInBlue
 sherdog.com###adViAi
 cheatcodes.com###ad_atf_970
@@ -54095,6 +54113,7 @@ lifenews.com###adds
 englishclub.com###adhed
 freepik.com###adobe-pagination-mkt-copy
 onworks.net###adonworksbot
+globimmo.net###adplus-anchor
 192-168-1-1-ip.co,receivesms.co###adresp
 3g2upl4pq6kufc4m.onion,audioreview.com,carlow-nationalist.ie,cellmapper.net,craigclassifiedads.com,dekhobd.com,duckduckgo.com,g.doubleclick.net,ip-address.org,irannewsdaily.com,kildare-nationalist.ie,laois-nationalist.ie,lorempixel.com,photographyreview.com,quiz4fun.com,roscommonherald.ie,waterford-news.ie###ads
 lingojam.com###adsense-area-label
@@ -55941,6 +55960,7 @@ futuregaming.io##.ez-video-wrap
 formula1.com##.f1-dfp-banner-wrapper
 audiophilereview.com##.f7e65-midcontent
 audiophilereview.com##.f7e65-sidebar-ad-widget
+globimmo.net##.fAdW
 datenna.com##.fPHZZA
 btcmanager.com##.f_man_728
 freeads.co.uk##.fa_box_m
@@ -92175,7 +92195,9 @@ tvn.pl##+js(json-prune, movie.advertising.ad_server playlist.movie.advertising.a
 @@||hcdn.online^$ghide
 @@||cdn.snigelweb.com/adengine/falixnodes.net/loader.js$script,xhr,domain=client.falixnodes.net|dev-panel.falixnodes.net
 @@||falixnodes.net^$ghide
-falixnodes.net##+js(nostif, location)
+@@*$xhr,domain=client.falixnodes.net
+@@||static.ads-twitter.com^$xhr,domain=mqrio.dev
+||analytics.twitter.com^$image,redirect-rule=1x1.gif
 imginn.com,finchtechs.com##+js(acs, document.createElement, unblocker)
 ||copyrightcontent.org/unblocker/
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=noop.js,domain=anidraw.net
@@ -97747,6 +97769,16 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||mcpoc.linenet.top^$doc
 ||hn-mizuki.com^$doc
 ||urara02032023.com^$doc
+||ang.el-mail.online^$doc
+||atre-frer6.com^$doc
+||berate-expressive.com^$doc
+||comcom0511.com^$doc
+||gloria-divination.$doc
+||mothersmilk.jp^$doc
+||otomachi.jp^$doc
+||smoothie-smoothie.jp^$doc
+||suffix-consignment.com^$doc
+||amazonlogistics.jp^$all
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -98211,6 +98243,7 @@ knowyourmeme.com##+js(nosiif, blogherads)
 *$websocket,domain=linuxtracker.org
 ||dek5iqd53g59a.cloudfront.net^
 ||cdn-prod.securiti.ai/consent/auto_blocking/$domain=xfinity.com
+deviantart.com##+js(acs, Math.random, Math.sqrt)
 @@||google-analytics.com/plugins/$script
 ||adf.ly^$badfilter
 ||2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=video.foxnews.com
@@ -99863,7 +99896,7 @@ thequint.com##span:has-text(ADVERTISEMENT)
 @@||gstatic.*/recaptcha/
 ||wpfc.ml^$image,redirect-rule=1x1.gif,domain=thestoryexchange.org
 ||da-services.ch^$3p,badfilter
-@@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager_gtm.js:5,domain=ebay-kleinanzeigen.de
+@@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager_gtm.js:5,domain=kleinanzeigen.de
 @@||novelgames.com^$script,1p
 @@||cdn.intergi.com^$script,domain=bestiefy.com|novelgames.com
 @@||cdn.intergient.com^$domain=bestiefy.com|novelgames.com
@@ -100027,7 +100060,7 @@ filelu.com#@#.banner_ads
 @@||discover.com/*/visitorAPI.js$script,1p
 @@||discover.com/*/AppMeasurement.js$script,1p
 @@||discover.com/*/AppMeasurement.min.js$script,1p
-@@||img.ebay-kleinanzeigen.de/api/$image,1p
+@@||img.kleinanzeigen.de/api/$image,1p
 *$script,3p,from=uqload.com,badfilter
 ||opsktp.com^$badfilter
 @@||hub.docker.com/*/repositories/plausible/analytics/tags/$xhr,1p
