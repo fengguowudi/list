@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dsylfOGFI4r3Ohc9QOfYIQ
+! Checksum: pGFkUqd0bmgaCbZYLwyT3g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306061421
-! Last Modified: 2023年06月06日 14:21
+! Version: 202306062034
+! Last Modified: 2023年06月06日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -4390,7 +4390,6 @@ _widget_ad.
 /prebidlink/*
 /prebidtest.
 /prodprebidheader-
-/pubfig.js
 /pubfig.min.js
 /tagman/*
 _prebid-$script
@@ -56191,6 +56190,7 @@ phonearena.com##.heading-deal
 autoplius.lt##.headtop
 igorslab.de##.herald-sidebar
 provideocoalition.com##.hero-promotions
+azuremagazine.com##.hero__metadata-left-rail
 freeads.co.uk##.hero_banner1
 filecrypt.cc,filecrypt.co##.hghspd
 filecrypt.cc,filecrypt.co##.hghspd + *
@@ -58051,6 +58051,7 @@ baking-forums.com,windows10forums.com##div.message--post.message
 inverse.com##div.zz
 liverpoolway.co.uk##div[align="center"] > a[href]
 nexusradio.com##div[align=center]
+azuremagazine.com##div[class$="azoa"]
 independent.co.uk##div[class*="Ad__Wrapper-"]
 sportbible.com##div[class*="Advert"]
 theatlantic.com##div[class*="Leaderboard_placeholder_"]
@@ -90942,7 +90943,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
 @@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
-@@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
 @@||s.btstatic.com/tag.js$domain=sephora.com
 @@||s.thebrighttag.com/tag?site=$domain=sephora.com
@@ -90982,7 +90982,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||statcounter.com/css/packed/statcounter-$stylesheet,~third-party
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
 @@||static.amazon.jobs/assets/analytics-$script,domain=amazon.jobs
-@@||static.atgsvcs.com/js/atgsvcs.js$domain=lenovo.com|officedepot.com|shop.lego.com
+@@||static.atgsvcs.com/js/atgsvcs.js$domain=officedepot.com|shop.lego.com
 @@||static.cloud.coveo.com/coveo.analytics.js/$domain=cabelas.com
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
@@ -91063,7 +91063,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 !! adobedtm.com^*_source.min.js
 @@||adobedtm.com^*_source.min.js$domain=ally.com|americanexpress.com|backcountry.com|crave.ca|disneyplus.disney.co.jp|hilton.com|hl.co.uk|homedepot.ca|kroger.com|mora.jp|nbarizona.com|pnc.com|telus.com
 !! adobedtm.com^*-source.min.js
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|pnc.com|ralphlauren.com|samsung.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|pnc.com|ralphlauren.com|samsung.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 !! adobedtm.com^*/mbox-contents-
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|usanetwork.com|vanityfair.com|wired.com|wowway.net
 !! adobedtm.com/extensions/
@@ -92154,11 +92154,6 @@ forex-trnd.com###link-view > [style*="width:300px"]
 tvn.pl##+js(json-prune, movie.advertising.ad_server playlist.movie.advertising.ad_server)
 @@||cdntvn.pl/*/advert.js$xhr,domain=tvn.pl
 @@||hcdn.online^$ghide
-@@||cdn.snigelweb.com/adengine/falixnodes.net/loader.js$script,xhr,domain=client.falixnodes.net|dev-panel.falixnodes.net
-@@||falixnodes.net^$ghide
-@@*$xhr,domain=client.falixnodes.net
-@@||static.ads-twitter.com^$xhr,domain=mqrio.dev
-||analytics.twitter.com^$image,redirect-rule=1x1.gif
 imginn.com,finchtechs.com##+js(acs, document.createElement, unblocker)
 ||copyrightcontent.org/unblocker/
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=noop.js,domain=anidraw.net
@@ -98152,6 +98147,7 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||top-staging.mail.ru^
 ||adthrive.com^$removeparam,domain=~mediaite.com
 ||onesignal.com^$domain=iphoneincanada.ca|senpa.io
+||geoip.cdn.arkadiumhosted.com^$domain=bestforpuzzles.com|charlotteobserver.com
 !#if ext_devbuild
 mozilla.org##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?redirect="], ?redirect)
 !#endif
@@ -98204,7 +98200,7 @@ knowyourmeme.com##+js(nosiif, blogherads)
 *$websocket,domain=linuxtracker.org
 ||dek5iqd53g59a.cloudfront.net^
 ||cdn-prod.securiti.ai/consent/auto_blocking/$domain=xfinity.com
-deviantart.com##+js(acs, Math.random, Math.sqrt)
+deviantart.com##+js(aost, Math.sqrt, update)
 @@||google-analytics.com/plugins/$script
 ||adf.ly^$badfilter
 ||2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=video.foxnews.com
