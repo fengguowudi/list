@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rA1XVQjLLzjCtOdBQ7NSaw
+! Checksum: NJo4GtjeovJNhAmxkcqx0w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306070950
-! Last Modified: 2023年06月07日 09:50
+! Version: 202306071421
+! Last Modified: 2023年06月07日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -93420,6 +93420,9 @@ host-cdn.net^$image,redirect-rule=32x32.png,domain=maxstream.video
 maxstream.video###adsads:style(height: 9px !important;)
 maxstream.video##h1:has-text(/adblock|supporter/)
 ||maxstream.video/*.php$doc
+@@||uprot.net^$ghide
+uprot.net##*[style="display:none;"]:style(display:block !important)
+@@||ads.host-cdn.net/ads2.js$script,domain=maxstream.video|uprot.net
 videoseyred.in##+js(nowoif)
 listendata.com##+js(acs, onload)
 spleaks.org##+js(acs, $, test)
@@ -98167,7 +98170,7 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||top-staging.mail.ru^
 ||adthrive.com^$removeparam,domain=~mediaite.com
 ||onesignal.com^$domain=iphoneincanada.ca|senpa.io
-||geoip.cdn.arkadiumhosted.com^$domain=bestforpuzzles.com|charlotteobserver.com
+||geoip.cdn.arkadiumhosted.com^$domain=bestforpuzzles.com|charlotteobserver.com|independent.co.uk
 !#if ext_devbuild
 mozilla.org##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?redirect="], ?redirect)
 !#endif
