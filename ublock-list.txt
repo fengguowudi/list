@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NJo4GtjeovJNhAmxkcqx0w
+! Checksum: Ri4oDtfP8uM8KM+jEQFvaQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306071421
-! Last Modified: 2023年06月07日 14:21
+! Version: 202306072034
+! Last Modified: 2023年06月07日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54238,6 +54238,7 @@ game-news24.com###block-50
 ericpetersautos.com###block-6
 systutorials.com###block-7
 slideme.org###block-block-31
+ancient-origins.net###block-block-49
 infoplease.com###block-ipabovethefold
 infoplease.com###block-ipbtfad
 infoplease.com###block-ipleaderboardad
@@ -64403,6 +64404,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /web-api/log/*
 /web-data-ingress?
 /web-js-telemetry-service/*
+/web-pixel-shopify-app-pixel@
 /web-vitals-
 /web-vitals.
 /web-vitals/*
@@ -97891,12 +97893,20 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||123moviesgo.ga^$all
 ||gamingnewsanalyst.com^$all
 ||gamingdebates.com^$all
-||revanced.io^$all,domain=~revanced.app
+||revanced.*^$all,domain=~revanced.app
+||revancedapk.*^$all,domain=~revanced.app
+||youtuberevanced.*^$all,domain=~revanced.app
+||re-vanced.com^$all,domain=~revanced.app
+||revancedio.com^$all,domain=~revanced.app
+||revanceddl.com^$all,domain=~revanced.app
+||revancedapp.net^$all,domain=~revanced.app
+||revancedmusic.com^$all,domain=~revanced.app
+||revancedyoutube.org^$all,domain=~revanced.app
+||revancedextended.com^$all,domain=~revanced.app
+||ytrevanced.com^$all,domain=~revanced.app
+||tuberevanced.com^$all,domain=~revanced.app
 ||vanced-official.com^$all,domain=~revanced.app
 ||vanced.pro^$all,domain=~revanced.app
-||revanced.*^$doc,domain=~revanced.app
-||revanceddl.com^$doc,domain=~revanced.app
-||tuberevanced.com^$doc,domain=~revanced.app
 ||bonzi.link^$all
 ||bestgames-2022.com^$all
 ||videoadblocker.pro^$all
@@ -98169,12 +98179,21 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||smartaccess.biz^
 ||top-staging.mail.ru^
 ||adthrive.com^$removeparam,domain=~mediaite.com
-||onesignal.com^$domain=iphoneincanada.ca|senpa.io
+||onesignal.com^$domain=androidauthority.com|iphoneincanada.ca|senpa.io
 ||geoip.cdn.arkadiumhosted.com^$domain=bestforpuzzles.com|charlotteobserver.com|independent.co.uk
 !#if ext_devbuild
 mozilla.org##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?redirect="], ?redirect)
 !#endif
 *$ping,domain=webnovel.com
+*$xhr,3p,denyallow=github.com|stripe.com|fpjs.pro,domain=fingerprint.com|~dev.fingerprint.com
+||fingerprint.com^$strict3p,domain=fingerprint.com|~dev.fingerprint.com|~dashboard.fingerprint.com
+||dashboard.fingerprint.com^$strict3p,xhr,domain=dashboard.fingerprint.com
+fingerprint.com,~dev.fingerprint.com##+js(no-xhr-if, method:POST)
+androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.com/wp-json/api/advanced_redirect?ref="], ?ref)
+||androidauthority.com/api/locate/
+||lightboxcdn.com^$domain=androidauthority.com
+||lightboxcdn.com/*/digibox.gif?
+||lightboxcdn.com/*/jsonp/z?
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
