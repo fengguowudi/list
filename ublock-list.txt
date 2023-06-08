@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QPB/IYO5CqUYYs4O+EqJXw
+! Checksum: jpcNTTeq6NN70FRJA8Gpog
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306080221
-! Last Modified: 2023年06月08日 02:21
+! Version: 202306080947
+! Last Modified: 2023年06月08日 09:47
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54420,6 +54420,7 @@ atptour.com###footerPartners
 phpbb.com###footer_banner_leaderboard
 forums.anandtech.com,forums.pcgamer.com,forums.tomsguide.com,forums.tomshardware.com###footer_leaderboard
 feedicons.com###footerboard
+wanderlustcrew.com###fpub-popup
 blenderartists.org,stonetoss.com###friends
 peacemakeronline.com###front_mid_right > center
 mangaku.vip###ftads
@@ -55058,6 +55059,7 @@ news18.com##.NAT_add
 mangasect.com,manhuaplus.com##.OUTBRAIN
 kentonline.co.uk##.PSDRGC
 govtech.com##.Page-billboard
+afar.com##.Page-header-hat
 ask.com##.PartialKelkooResults
 hulu.com##.PauseAdCreative-wrap
 imgur.com##.PrimisPlayerContainer
@@ -55209,6 +55211,8 @@ asianjournal.com##.ad_before_title
 cheatcodes.com##.ad_btf_728
 auto-data.net##.ad_incar
 bigislandnow.com##.ad_mobileleaderboard
+housing.com##.ad_pushup_paragraph
+housing.com##.ad_pushup_subtitle
 upi.com##.ad_slot_inread
 kitco.com##.ad_space_730
 outlookindia.com##.ad_unit_728x90
@@ -57631,7 +57635,7 @@ thebeet.com##.widget-promotion
 dawn.com##.widget-sponsoredcontent
 screencrush.com##.widget-widget_third_party_content
 gsmserver.com##.widget_banner-container_three-horizontal
-discussingfilm.net,shtfplan.com,tech-latest.com,usmagazine.com##.widget_block
+discussingfilm.net,shtfplan.com,tech-latest.com,thestrongtraveller.com,usmagazine.com##.widget_block
 wplift.com##.widget_bsa
 4sysops.com,9to5linux.com,backthetruckup.com,catcountry941.com,cnx-software.com,dailyveracity.com,fastestvpns.com,gamingonphone.com,gizmochina.com,hardwaretimes.com,macsources.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,quickanswer.blog,sashares.co.za,techdows.com,techjuice.pk,thinkcivics.com,tooxclusive.com,torrentfreak.com,trendingpoliticsnews.com##.widget_custom_html
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
@@ -57810,6 +57814,7 @@ anitube.biz##[href="https://otpokemon.com/animes/"]
 conservativeplaybook.com##[href="https://ourgoldguy.com/contact/"]
 davidwalsh.name##[href="https://requestmetrics.com/"]
 unknowncheats.me##[href="https://securecheats.com/"]
+slaynews.com##[href="https://slaynews.com/ads/"]
 complaintsingapore.com##[href="https://thechillipadi.com/"]
 walletinvestor.com##[href="https://walletinvestor.com/u/gnrATE"]
 semiconductor-today.com##[href="https://www.appliedenergysystems.com/stakes/"]
@@ -57893,6 +57898,7 @@ wakingtimes.com##[href^="https://www.wendymyersdetox.com/"]
 englishclub.com##[href^="https://www.wordupapp.co/"]
 gelbooru.com##[href^='https://realbooru.com/']
 smallseotools.com##[id*="gram"]
+producebluebook.com##[id^="BBS"]
 beforeitsnews.com##[id^="banners_"]
 pluggedingolf.com##[id^="black-studio-tinymce-"]
 scmp.com##[id^="div-ad-"]
@@ -58324,6 +58330,7 @@ interglot.com,sodapdf.com,stopmalvertising.com##div[style^="width:728px;"]
 tvtv.us##div[style^="z-index: 1100; position: fixed;"]
 ebay.com##div[title="ADVERTISEMENT"]
 adblock-tester.com##embed[width="240"]
+groupon.com##figure[data-clickurl^="https://api.groupon.com/sponsored/"]
 imgburn.com##font[face="Arial"][size="1"]
 realitytvworld.com##font[size="1"][color="gray"]
 dailydot.com,grammar-monster.com##footer
@@ -58688,7 +58695,6 @@ bing.com##.pa_sb
 bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
-groupon.com##figure[data-clickurl^="https://api.groupon.com/sponsored/"]
 nordstrom.com#?#.ivm_G:-abp-contains(Sponsored)
 noon.com#?#span[class*="productContaine"]:-abp-has(div:-abp-contains(Sponsored))
 mg.co.za#?#article:-abp-has(.sponsored-single)
@@ -74630,6 +74636,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.china.cn^
 ||log.genyt.net^
 ||log.hypebeast.com^
+||log.klook.com^
 ||log.quora.com^
 ||log.snapdeal.com^
 ||log.webnovel.com^
@@ -107533,8 +107540,8 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 02 Jun 2023 12:23:49 GMT
-# entries:        3364
+# last updated:   Wed, 07 Jun 2023 21:28:48 GMT
+# entries:        3366
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -107542,7 +107549,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 12 Jun 2003 00:00:00
+# start date:    Fri, 13 Jun 2003 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 180hits.de
@@ -109152,6 +109159,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 freewebcounter.com
 127.0.0.1 freewheel.com
 127.0.0.1 freewheel.tv
+127.0.0.1 freezingbuilding.com
 127.0.0.1 freshrelevance.com
 127.0.0.1 friendwool.com
 127.0.0.1 frightenedpotato.com
@@ -110081,6 +110089,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 realtechnetwork.com
 127.0.0.1 rebelhen.com
 127.0.0.1 rebelsubway.com
+127.0.0.1 rebelswing.com
 127.0.0.1 rec5.visualwebsiteoptimizer.com
 127.0.0.1 recapture.io
 127.0.0.1 receptiveink.com
