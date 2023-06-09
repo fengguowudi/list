@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sX6aHLrGxc1IEbGtlurvpw
+! Checksum: buSqT6rTkoA8EREpczLzgw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306090948
-! Last Modified: 2023年06月09日 09:48
+! Version: 202306091421
+! Last Modified: 2023年06月09日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -55479,7 +55479,6 @@ kyivpost.com##.b-title
 bizcommunity.com##.b-topbanner
 maritimeprofessional.com##.b300x250
 coin360.com##.b5BiRm
-distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.bDBSfh
 iol.co.za##.bDEZXQ
 vidcloud9.me##.backdrop
 namepros.com##.backer
@@ -55989,6 +55988,7 @@ capitalfm.com,radiox.co.uk,smoothradio.com##.download
 thepiratebay3.to##.download_buutoon
 drivespark.com##.dp-add-block
 thesun.co.uk##.dpa-slot
+distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.dpbdIG
 dola.com##.ds-brand
 dola.com##.ds-display-ad
 cryptonews.com##.dslot
@@ -56227,6 +56227,7 @@ gulf-times.com##.gt-square-desktop-ad
 gulf-times.com##.gt-vertical-ad
 animenewsnetwork.com##.gutter
 cnx-software.com##.gvoodoo
+distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.gwofgg
 thetimes.co.uk##.gyLkkj
 tvcancelrenew.com##.h-72
 buzzly.art##.h-min.overflow-hidden
@@ -56234,7 +56235,6 @@ target.com##.h-position-fixed-bottom
 lyricsmode.com##.h113
 opoyi.com##.hLYYlN
 marketscreener.com##.hPubRight2
-distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.hTgZCF
 gifcompressor.com,heic2jpg.com,imagecompressor.com,jpg2png.com,png2jpg.com,webptojpeg.com,wordtojpeg.com##.ha
 anime-planet.com##.halo
 whistleout.com.au##.has-hover
@@ -56537,7 +56537,6 @@ privateproperty.co.za##.listingResultPremiumCampaign
 researchgate.net##.lite-page__above
 reviewparking.com##.litespeed-loaded
 ottverse.com##.livevideostack-ad
-distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.ljqtHz
 lightnovelpub.com##.lnadcontainer
 dayspring.com##.loading-mask
 reverso.net##.locd-rca
@@ -57121,8 +57120,8 @@ animehub.ac##.sb-subs
 sabcsport.com##.sbac_header_top_ad
 mindbodygreen.com##.sc-10p0iao-0
 kotaku.com##.sc-6zn1bq-0
+distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.sc-fTZrbU
 scotsman.com##.sc-igwadP
-distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.sc-oefIU
 sankakucomplex.com##.scad
 bangordailynews.com##.scaip
 newindianexpress.com##.scc
@@ -58301,8 +58300,6 @@ metabattle.com##div[style="display: flex; justify-content: center; align-items: 
 aceshowbiz.com##div[style="display:inline-block;min-height:300px"]
 comics.org##div[style="height:90px"]
 gsmarena.com##div[style="margin-left: -10px; margin-top: 30px; height: 145px;"]
-gizbot.com,goodreturns.in##div[style="min-height: 250px;"]
-nohat.cc##div[style="min-height:250px"]
 askdifference.com##div[style="min-height:280px;"]
 technical.city##div[style="padding-bottom: 20px"] > div[style="min-height: 250px"]
 bitcoin-otc.com##div[style="padding-left: 10px; padding-bottom: 10px; text-align: center; font-family: Helvetica;"]
@@ -58331,11 +58328,13 @@ unionpedia.org##div[style^="margin-top: 15px; min-width: 300px"]
 bleachernation.com##div[style^="margin: 25px 0px 35px 0px;"]
 thetealmango.com##div[style^="margin: 8px auto; text-align:"]
 vallejosun.com##div[style^="max-width:1200px;min-height:300px;"]
+gizbot.com,goodreturns.in,inc.com##div[style^="min-height: 250px"]
 lasentinel.net##div[style^="min-height: 250px; width: 300px;"]
 point2homes.com,propertyshark.com##div[style^="min-height: 360px;"]
 abcnews.go.com##div[style^="min-height: 90px"]
 gamerdvr.com##div[style^="min-height:"]
 news18.com##div[style^="min-height:1170px"]
+nohat.cc##div[style^="min-height:250px"]
 add0n.com##div[style^="min-height:90px"]
 decrypt.co,metabattle.com##div[style^="min-width: 300px;"]
 9gag.com##div[style^="position: relative; z-index: 10;"]
@@ -61948,6 +61947,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /google/autotrack.
 /google_analitycs.
 /google_analytics3_
+/google_analytics4.js
 /google_page_track
 /google_tag.
 /google_tag/*
@@ -70542,6 +70542,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/analytics.
 ||amazonaws.com/appmonitors/
 ||amazonaws.com/avsmetrics/
+||amazonaws.com/beacon^
 ||amazonaws.com/cdn.barilliance.com/
 ||amazonaws.com/j.kissinsights.com/
 ||amazonaws.com/js/reach.js
@@ -70958,6 +70959,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/autotracker
 ||cloudfront.net/beaver.js
 ||cloudfront.net/bti/
+||cloudfront.net/clipkit_assets/beacon-
 ||cloudfront.net/code/keen-2.1.0-min.js
 ||cloudfront.net/dough/*/recipe.js
 ||cloudfront.net/esf.js
@@ -98146,7 +98148,6 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 /api/click/*?c=$image
 ||cj.dotomi.com^
 ||contentads.click^
-||dpbolvw.net^
 ||frdjs-2.co^
 ||new-twinks.com^
 ||octopuspop.com^
@@ -98188,6 +98189,8 @@ androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.
 ||lightboxcdn.com^$domain=androidauthority.com
 ||lightboxcdn.com/*/digibox.gif?
 ||lightboxcdn.com/*/jsonp/z?
+pcgamingwiki.com##+js(href-sanitizer, a[href^="https://www.dpbolvw.net/click-"][href*="?url="], ?url)
+pcgamingwiki.com##+js(href-sanitizer, a[href^="https://greenmangaming.sjv.io/c/"][href*="?u="], ?u)
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
