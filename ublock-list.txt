@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xtMLmycIWBCXTdkG/AAQ3Q
+! Checksum: sX6aHLrGxc1IEbGtlurvpw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306090219
-! Last Modified: 2023年06月09日 02:19
+! Version: 202306090948
+! Last Modified: 2023年06月09日 09:48
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -25973,7 +25973,6 @@ browsershots.org#@#.advert_area
 ||bigotpenniless.com^
 ||bigprizesonline.com^
 ||bigrourg.net^
-||bigsport.today^
 ||bijitsoa.com^
 ||bijwawr.com^
 ||bikehowfaded.com^
@@ -27501,7 +27500,6 @@ browsershots.org#@#.advert_area
 ||click.scour.com^
 ||click4free.info^
 ||clickadin.com^
-||clickadu.com^
 ||clickagy.com^
 ||clickallow.net^
 ||clickaslu.com^
@@ -46622,6 +46620,7 @@ browsershots.org#@#.advert_area
 ||clickable.com^$third-party
 ||clickad.pl^$third-party
 ||clickadilla.com^$third-party
+||clickadu.com^$third-party
 ||clickbet88.com^$third-party
 ||clickcertain.com^$third-party
 ||clickdaly.com^$third-party
@@ -50746,7 +50745,6 @@ browsershots.org#@#.advert_area
 ||chatinator.com^$third-party
 ||chereogatsa.art^
 ||citysex.com^$third-party
-||clickadu.com^$third-party
 ||clickaine.com^$third-party
 ||clipxn.com^$third-party
 ||cross-system.com^$script,third-party
@@ -52821,6 +52819,7 @@ browsershots.org#@#.advert_area
 ||fantasti.cc/ajax/gw.php?$popup
 ||fapcandy.com^$popup,third-party
 ||flirthits.com/landing/$popup
+||go.xhamsterlive.com^$popup
 ||hdporn.to^$popup,third-party
 ||hentaiheroes.com/landing/$popup,third-party
 ||icgirls.com^$popup
@@ -58716,6 +58715,7 @@ bing.com##.pa_sb
 bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
+fairwaymarket.com,thefreshgrocer.com#?#div[class^="ProductCard"]:-abp-has(div[data-testid^="Sponsored"])
 nordstrom.com#?#.ivm_G:-abp-contains(Sponsored)
 noon.com#?#span[class*="productContaine"]:-abp-has(div:-abp-contains(Sponsored))
 mg.co.za#?#article:-abp-has(.sponsored-single)
@@ -59064,6 +59064,7 @@ topinsearch.com##.TelkiTeasersBlock
 hentaivideo.tube##.UVPAnnotationJavascriptNormal
 xtube.com##.ZBTBTTr93ez9.ktZk9knDKFfB
 porndoe.com##.\-f-banners
+xhamster.com##._029ef-containerBottomSpot
 xhamster.com##._80e65-containerBottomSpot
 xhamster.com##._80e65-containerPauseSpot
 tubepornclassic.com##.___it0h1l3u2se2lo
@@ -59188,6 +59189,7 @@ pornwhite.com##.bottom-items
 teenpornvideo.xxx##.bottom-spots
 youtubelike.com##.bottom-thumbs
 youtubelike.com##.bottom-top
+xhamster.com##.bottom-widget-section
 rexxx.com##.bottom_banners
 porn-plus.com##.bottom_player_a
 dixyporn.com##.bottom_spot
@@ -59680,6 +59682,8 @@ xhamster.com##.yfd-fdcam-thumb
 xhamster.com##.yfd-fdcams-widget
 xhamster.com##.yfd-fdclipstore-bottom
 xhamster.com##.yfd-fdsp-b
+xhamster.com##.yld-mdcam-thumb
+xhamster.com##.yld-mdsp-b
 xhamster.com##.ytd-jcam-thumb
 xhamster.com##.ytd-jcams-widget
 xhamster.com##.ytd-jsp-a
@@ -74458,6 +74462,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||iheart.com/api/v3/playback/reporting
 ||ihg.com/logging/
 ||imagefap.com/images/yes.gif?
+||imagetwistcams.com/pixel/
 ||imdb.com/api/_ajax/metrics/
 ||imgur.com/albumview.gif?
 ||imgur.com/imageview.gif?
@@ -75126,6 +75131,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||xero.com/api/events/
 ||xfinity.com/event/
 ||xfinity.com/prod/event/
+||xhamsterlive.com/pixel/
 ||xhcdn.com/js/*.track.min.js
 ||xing.com/logjam/
 ||xstats.evoload.io^
@@ -107470,7 +107476,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 27 Jul 1823 00:00:00
+# start date:    Mon, 28 Jul 1823 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
