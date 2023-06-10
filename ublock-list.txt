@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6GkPeEffbYeSud0pqhfv9g
+! Checksum: a4PhGiLZA+jkemgmDVEs8A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306100938
-! Last Modified: 2023年06月10日 09:38
+! Version: 202306101420
+! Last Modified: 2023年06月10日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56369,6 +56369,7 @@ live94today.com##.js-demo-avd
 musescore.com##.js-musescore-hb-728--wrapper
 beermoneyforum.com##.js-notices
 formula1.com##.js-promo-item
+investing.com##.js-promotional
 theguardian.com##.js-top-banner
 chewy.com##.js-tracked-ad-product
 iobroker.net##.jss125
@@ -107425,8 +107426,8 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 07 Jun 2023 21:28:48 GMT
-# entries:        3733
+# last updated:   Sat, 10 Jun 2023 02:09:43 GMT
+# entries:        3734
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -111039,6 +111040,7 @@ metastats.net###page-wrapper > div.row:nth-of-type(1)
 127.0.0.1 web2.deja.com
 127.0.0.1 webads.co.nz
 127.0.0.1 webads.nl
+127.0.0.1 webanalytics.zohodcm.com
 127.0.0.1 webcash.nl
 127.0.0.1 webcontentassessor.com
 127.0.0.1 webcounter.cz
