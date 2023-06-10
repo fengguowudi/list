@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: a4PhGiLZA+jkemgmDVEs8A
+! Checksum: CP8j/EUT3Y090jKdR+FxdQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306101420
-! Last Modified: 2023年06月10日 14:20
+! Version: 202306102029
+! Last Modified: 2023年06月10日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54047,6 +54047,7 @@ advfn.com###APS_300_X_600
 advfn.com###APS_BILLBOARD
 webcarstory.com###Ads
 search.avast.com###AsbAdContainer
+ranker.com###BLOG_AD_SLOT_1
 weegy.com###BannerDiv
 citynews.ca###Bigbox_300x250
 calculatorsoup.com###Bottom
@@ -55575,6 +55576,7 @@ simkl.com##.blockplacecente
 wowhead.com##.blocks
 mail.com##.blocks-3
 wowway.net##.blocks_container-size_containerSize
+failory.com##.blog-column-ad
 blogto.com##.blogto-sticky-banner
 manhwaindo.id##.blox
 techspot.com##.blu
@@ -56887,7 +56889,7 @@ filehippo.com##.program-description__slot
 as.com,gokunming.com##.prom
 delicious.com.au,taste.com.au##.prom-header
 babynamegenie.com,ecaytrade.com,nbcbayarea.com,nwherald.com,planetsourcecode.com,sciagaj.org,themuslimvibe.com,totalxbox.com,varsity.com,w3techs.com,wgxa.tv##.promo
-thesaturdaypaper.com.au##.promo-banner
+setapp.com,thesaturdaypaper.com.au##.promo-banner
 winscp.net##.promo-block
 drweil.com##.promo-blurb
 drweil.com##.promo-blurb-label
@@ -57126,6 +57128,7 @@ cartoq.com##.side-a
 chaseyoursport.com##.side-adv-block-blog-open
 news.am,nexter.org,viva.co.nz##.side-banner
 myanimelist.net##.side-koukoku
+setapp.com##.side-scrolling__banner
 gfycat.com##.side-slot
 idropnews.com##.side-title-wrap
 vpnmentor.com##.side-top-vendors-wrap
@@ -64121,7 +64124,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /tunestats.
 /turn-proxy.html?
 /tw-track.js
-/twdc-dtci/prod/servercomponent.php?
 /TwitterTracking.
 /tynt.js
 /tzr.fcgi?
@@ -74386,6 +74388,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gurgle.pcmag.com^
 ||hankookilbo.com/service/kt/trk.js$script,domain=koreatimes.co.kr
 ||harryrosen.com/analytics/
+||health-metrics-api.setapp.com^
 ||healthline.com/api/metrics
 ||heap.drop.com^
 ||hilton.com/zJbufaUX/
@@ -75296,6 +75299,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||studeersnel.nl/27m703Hm/init.js
 ||studocu.com/27m703Hm/init.js
 ||sweetwater.com/p2TBVNJZ/init.js
+||thehill.com/6zcfGH4h/init.js
 ||therealreal.com/ev56mY37/init.js
 ||tumi.com/4i06uv8M/init.js
 ||twentytwowords.com/static/clients/twentytwowords/3CVQBi14_init.js
@@ -93876,8 +93880,6 @@ stiflersmoms.com##.line3
 wallpapers.ispazio.net##.box-apples_single_reclame
 ispazio.net##.stream-item
 ispazio.net##.stream-item-widget
-shineads.in##+js(nostif, ai_adb)
-shineads.in##+js(aeld, DOMContentLoaded, popup)
 /nb/f_ls.js
 ||bluffyporn.com^$3p
 ||quinporn.com^$3p
@@ -94428,7 +94430,7 @@ thetruedefender.com##.adsbyvli
 thetruedefender.com###text-4
 asiaon.*,pornpaw.com##+js(acs, document.querySelectorAll, popMagic)
 asiaon.*##+js(no-xhr-if, googlesyndication)
-||cse.google.com/adsense/search/async-ads.js$xhr,redirect-rule=noop.txt,domain=asiaon.top
+*$xhr,3p,method=head,redirect-rule=nooptext,domain=asiaon.*|asiaontop.com
 m4news.com##.demand-supply
 m4news.com###id-custom_banner
 tv247.us##+js(aopw, _pop)
@@ -98131,7 +98133,7 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||top-staging.mail.ru^
 ||adthrive.com^$removeparam,domain=~mediaite.com
 ||narrativ.com^$domain=androidauthority.com
-||onesignal.com^$domain=androidauthority.com|iphoneincanada.ca|senpa.io
+||onesignal.com^$domain=androidauthority.com|iphoneincanada.ca|senpa.io|shineads.*
 ||geoip.cdn.arkadiumhosted.com^$domain=bestforpuzzles.com|charlotteobserver.com|independent.co.uk|standard.co.uk
 mozilla.org##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?redirect="], ?redirect)
 *$ping,domain=webnovel.com
@@ -99424,7 +99426,7 @@ uschovna.cz##.branding:upward([target="_blank"])
 ||3r1kwxcd.top^$popup,3p,badfilter
 ||3r1kwxcd.top^$popup,badfilter
 @@||google.com^$font,domain=voe.sx
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=discoveryplus.in
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=discoveryplus.in
 vermangasporno.com#@#a[target="_blank"][rel="noopener noreferrer"] > img
 @@||fundingchoicesmessages.google.com^$script,domain=bbc.com
 !#if env_firefox
