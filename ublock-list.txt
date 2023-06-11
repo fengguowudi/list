@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9k6Y3qOTdV8LTDxe6jADlQ
+! Checksum: 1GrvyE5CwpOOaYyfrQvK4w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306112030
-! Last Modified: 2023年06月11日 20:30
+! Version: 202306120219
+! Last Modified: 2023年06月12日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -93227,9 +93227,9 @@ unblockweb.me##+js(aopw, _pop)
 @@||codingnepalweb.com^$ghide
 codingnepalweb.com##.adsbygoogle
 codingnepalweb.com##+js(no-fetch-if, googlesyndication)
+codingnepalweb.com##+js(rpnt, script, return showAdblockPopup)
 !#if ext_devbuild
 ||googlesyndication.com^$domain=codingnepalweb.com,important
-codingnepalweb.com##+js(rpnt, script, return showAdblockPopup)
 !#endif
 cozumpark.com##.adv-link
 lordhd.com##+js(nowoif)
@@ -95829,6 +95829,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||hackdeversion.com^$doc
 ||crackprogs.com^$doc
 ||firstsoftapp.com^$doc
+||expertstudiopro.com^$doc
 ||oceanofgame.net^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
