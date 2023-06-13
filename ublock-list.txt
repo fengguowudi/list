@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NdqrRnUkvGNaXzDdM6+Hng
+! Checksum: DmAC6s6J/UJsnZOwAyrYSQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306130220
-! Last Modified: 2023年06月13日 02:20
+! Version: 202306130941
+! Last Modified: 2023年06月13日 09:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -96179,6 +96179,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||kiknu.com^$all
 ||konmm.com^$all
 ||bibtu.com^$all
+||xiuty.com^$all
 /axad/?lpkey=$doc
 ||vlcdownloads.com^$all
 ||borntiecalm.live^$all
@@ -107517,7 +107518,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 31 Jul 1823 00:00:00
+# start date:    Fri, 01 Aug 1823 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
