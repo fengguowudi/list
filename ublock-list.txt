@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9A2INOQXp/s/flkV75w9lQ
+! Checksum: d9Ii0YMW7xT+GsNX15eP0w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306132033
-! Last Modified: 2023年06月13日 20:33
+! Version: 202306140220
+! Last Modified: 2023年06月14日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -94084,6 +94084,7 @@ nowtolove.com.au##.page__content-header:style(height: 50px !important)
 .com/script/image.js|$3p
 .com/script/document.js|$3p
 .com/script/asset.js|$3p
+.com/script/file.js|$3p
 /deity.php?q=$xhr,3p
 ||flvpcdnb.com^
 ||bgcold.com^
@@ -94095,6 +94096,7 @@ nowtolove.com.au##.page__content-header:style(height: 50px !important)
 ||dozard.com^
 ||diated.com^
 .php?s=su&r=*&sadbl=1&$xhr,3p
+||eukova.com^
 sexlist.tv##+js(disable-newtab-links)
 sexlist.tv##.link-premium
 sexlist.tv##.camitems
@@ -95362,6 +95364,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||crackprogs.com^$doc
 ||firstsoftapp.com^$doc
 ||expertstudiopro.com^$doc
+||pcworlds.us^$doc
 ||oceanofgame.net^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
@@ -95756,6 +95759,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||fairymeeting.com^$all
 ||qhigh.com^$all
 ||yoinst.com^$doc
+||shindaan.com^$doc
+||smbc-kjgf.shop^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
 ||adblock-one-protection.com^$all
@@ -98166,7 +98171,6 @@ nypost.com,pagesix.com#@#.recirc
 @@||naver.com/adcall$xhr,script,domain=vlive.tv
 @@||scripts.agilone.com^$frame,domain=davidstea.com
 @@||vlscppe.microsoft.com/fp/tags.js$script,1p
-@@||imasdk.googleapis.com/pal/sdkloader/pal.js$script,domain=20min.ch
 @@||cdnperf.com/js/rollbar.js$script,1p
 @@||perfops.net^$script,domain=cdnperf.com
 ||dccss.banggood.com^$badfilter
@@ -106635,6 +106639,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||jciwztfj.com^
 ||zhengliyqq.com^
 ||ra5.xyz^
 ||joiwnq2.cn^

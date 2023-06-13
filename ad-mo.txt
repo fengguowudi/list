@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wbKKASWcKajXYjzPJLQwng
+! Checksum: /dFzGc3XK4Vn1v2uOKfyTA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202306132033
-! Last Modified: 2023年06月13日 20:33
+! Version: 202306140220
+! Last Modified: 2023年06月14日 02:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -80360,6 +80360,7 @@ fqsousou.com,kengso.com#@#.user-share
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@/analytics.php?$domain=xcar.com.cn
+@@/fingerprint.$domain=abchina.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|hnair.com|pop-fashion.com
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/fingerprintjs2.min.js$domain=imooc.com
