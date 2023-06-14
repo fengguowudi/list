@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Z4kuJYsXTOZ9O8Xfg22SHA
+! Checksum: pX3uv6PIahWhJiQzjPV+Aw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306142033
-! Last Modified: 2023年06月14日 20:33
+! Version: 202306150220
+! Last Modified: 2023年06月15日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -26590,6 +26590,7 @@ browsershots.org#@#.advert_area
 ||cdrvrs.com^
 ||cdsbnrs.com^
 ||cdtbox.rocks^
+||cdwehdnnprdntse.com^
 ||ceamtaaprhha.xyz^
 ||ceawoment.info^
 ||ceboidbusting.com^
@@ -36854,6 +36855,7 @@ browsershots.org#@#.advert_area
 ||osifelanseante.lol^
 ||oskiwood.com^
 ||oskxpvmnalfb.com^
+||osmanlikaraite.com^
 ||osmoticchalah.com^
 ||ospicalad.buzz^
 ||osrhdsoeqhos.com^
@@ -39614,6 +39616,7 @@ browsershots.org#@#.advert_area
 ||rimefatling.com^
 ||riminghoggoofy.com^
 ||rimstipulatedeputy.com^
+||rinceaskedase.com^
 ||rindingreb.ru^
 ||ringairs.xyz^
 ||ringedtusher.com^
@@ -41091,6 +41094,7 @@ browsershots.org#@#.advert_area
 ||sourne.com^
 ||sourtophulsean.space^
 ||sousefulhea.buzz^
+||sousefulhead.com^
 ||souvamoo.net^
 ||souvenirsconsist.com^
 ||souvenirsflex.com^
@@ -44000,6 +44004,7 @@ browsershots.org#@#.advert_area
 ||vuvoti.xyz^
 ||vuwmxjusucnh.com^
 ||vv8h9vyjgnst.com^
+||vvfrdcuxrergrjy.com^
 ||vvickycira.com^
 ||vvvljeqasz.com^
 ||vvyqxxgxlnptc.com^
@@ -44957,6 +44962,7 @@ browsershots.org#@#.advert_area
 ||xvuslink.com^
 ||xvwebllndr.com^
 ||xwlketvkzf.com^
+||xwnqmrdi.com^
 ||xwqvytuiko.com^
 ||xxaparfuel.xyz^
 ||xxccdshj.com^
@@ -48386,6 +48392,7 @@ browsershots.org#@#.advert_area
 ||illuminateinconveniencenutrient.com^$popup
 ||imaxcash.com^$popup
 ||imitrk13.com^$popup
+||immigrateskating.com^$popup
 ||impactserving.com^$popup
 ||impliedbusinessmencompletion.com^$popup
 ||impresseastsolo.com^$popup
@@ -48992,6 +48999,7 @@ browsershots.org#@#.advert_area
 ||outlineappearbar.com^$popup
 ||outlookabsorb.com^$popup
 ||ovdimin.buzz^$popup
+||owrkwilxbw.com^$popup
 ||oxbbzxqfnv.com^$popup
 ||oxfoadv.store^$popup
 ||oxtsale1.com^$popup
@@ -49515,6 +49523,7 @@ browsershots.org#@#.advert_area
 ||soulgen.net^$popup
 ||soulsglovesacid.com^$popup
 ||soundelktemper.com^$popup
+||sousefulhead.com^$popup
 ||souvenirsflex.com^$popup
 ||spankdrearystroll.com^$popup
 ||sparkstudios.com^$popup
@@ -50794,6 +50803,7 @@ browsershots.org#@#.advert_area
 ||1003454530.rsc.cdn77.org^
 ||1035360789.rsc.cdn77.org^
 ||1080872514.rsc.cdn77.org^
+||1099476806.rsc.cdn77.org^
 ||1183537888.rsc.cdn77.org^
 ||1206335544.rsc.cdn77.org^
 ||1380535010.rsc.cdn77.org^
@@ -51783,6 +51793,7 @@ browsershots.org#@#.advert_area
 ||d5pb47xzjz3fc.cloudfront.net^
 ||d5wxfe8ietrpg.cloudfront.net^
 ||d63a3au5lqmtu.cloudfront.net^
+||d6cto2pyf2ks.cloudfront.net^
 ||d6deij4k3ikap.cloudfront.net^
 ||d6sav80kktzcx.cloudfront.net^
 ||d6wzv57amlrv3.cloudfront.net^
@@ -57471,6 +57482,7 @@ trakt.tv##a[class^="hu-ck-s-t-er-"][target="_blank"]
 namepros.com##a[data-tag="backer"]
 sashares.co.za##a[data-wpel-link="external"]
 aliexpress.com,aliexpress.us##a[href*="&ad_pvid="]
+aliexpress.com,aliexpress.us##a[href*="&detail_p4p_id="]
 pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt##a[href*="&epik="]
 aliexpress.com,aliexpress.us##a[href*="&p4p_pvid="]
 imgpile.com,linuxjournal.com,threatpost.com##a[href*="&utm_campaign="]
@@ -95183,6 +95195,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 /?clickid=*&t2=.$doc
 ||skipalos.xyz^$all
 ||makenoads.com^$all
+||dateclique.life^
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
@@ -97108,6 +97121,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||weekenddogkeep.com^$doc
 ||koundayori.com^$doc
 ||second-love-love.jp^$doc
+||chuchu2.jp^$doc
+||deaiai55.com^$doc
+||kokocha.site^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -97308,9 +97324,13 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||google-analytics.com/analytics.js$important,script,redirect=google-analytics.com/analytics.js,domain=support.amd.com
 ||googletagmanager.com/gtm.js$important,script,redirect=googletagmanager.com/gtm.js,domain=support.amd.com
 teamskeet.com##+js(set, $.tstracker, noopFunc)
-rediff.com##+js(ra, onclick, [onclick^="track"])
-rediff.com##+js(ra, onmousedown, [onmousedown^="return enc(this,'https://track.rediff.com"])
-||reddit.com/api/jail/$xhr,1p
+rediff.com##a[onclick^="trackURL"]:remove-attr(onclick)
+rediff.com##a[onmousedown^="return enc(this,'https://track.rediff.com"]:remove-attr(onmousedown)
+||reddit.com/api/jail^$xhr,1p
+reddit.com##+js(no-fetch-if, url:/^https:\/\/www\.reddit\.com$/ method:post)
+reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
+old.reddit.com##a.outbound[data-outbound-url]:remove-attr(data-outbound-url)
+!reddit.com##+js(set, Object.prototype.allowClickTracking, false)
 ||colpirio.com^$3p
 docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
 liberation.fr,officedepot.fr,oui.sncf##+js(acs, document.createElement, '.js')
@@ -97399,8 +97419,6 @@ tacobell.com##+js(set, bmak.js_post, false)
 ||cloudflare.com/ajax/libs/fingerprintjs2/$script,redirect=fingerprint2.js,important,domain=gamebox.gesoten.com
 ||gamerch.com/s3-assets/library/js/fingerprint2.min.js$script,redirect=fingerprint2.js,important
 ||ahentai.top/counter.php
-reddit.com##+js(no-fetch-if, url:/^https:\/\/www\.reddit\.com$/ method:post)
-reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ||tr.jianshu.com^
 /lib/f_ad_code.js
 /\.com\/[-_0-9a-zA-Z]{4,}\/[-\/_0-9a-zA-Z]{25,}$/$script,1p,domain=gu-global.com|uniqlo.com
@@ -97429,8 +97447,6 @@ endbasic.dev,jmmv.dev##+js(no-xhr-if, method:POST)
 ||jsdelivr.net^*/fp.min.js$script,redirect-rule=fingerprint3.js:10
 /log/*$xhr,domain=vizcloud.*|vizcloud2.*
 ||serasaexperian.com.br/dist/scripts/fingerprint2.js^$redirect=fingerprint2.js,script,important
-old.reddit.com##+js(ra, data-outbound-url, .outbound)
-!reddit.com##+js(set, Object.prototype.allowClickTracking, false)
 /?p=%2F*&h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,1p
 /?h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,1p
 /?v=eyJoIjoiaHR0cHM6Ly9$image,1p
@@ -97544,9 +97560,6 @@ androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.
 ||gstatic.com/firebase$domain=gamezhero.com|zefoy.com
 pcgamingwiki.com##+js(href-sanitizer, a[href^="https://www.dpbolvw.net/click-"][href*="?url="], ?url)
 pcgamingwiki.com##+js(href-sanitizer, a[href^="https://greenmangaming.sjv.io/c/"][href*="?u="], ?u)
-||epicgames.com^$doc,removeparam=epic_affiliate
-||gamersgate.com^$doc,removeparam=caff
-||humblebundle.com^$doc,removeparam=partner
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -99677,6 +99690,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 ||inference.api.useinsider.com^$domain=akbank.com,important
 ||useinsider.com^$image,redirect-rule=2x2.png,domain=akbank.com
 @@||googletagmanager.com/gtm.js$script,domain=nrj-play.fr
+@@||www.googletagmanager.com/gtm.js$script,domain=nykaa.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
