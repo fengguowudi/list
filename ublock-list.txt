@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Sol+ejZ5ga0Fvj+Gg3kjUw
+! Checksum: krvjhyExNfAkRDA9SY6yNQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306152033
-! Last Modified: 2023年06月15日 20:33
+! Version: 202306160220
+! Last Modified: 2023年06月16日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -25908,6 +25908,7 @@ browsershots.org#@#.advert_area
 ||br3azil334nutsz.com^
 ||brabywig.live^
 ||bracaetimbers.com^
+||bracketcalculator.com^
 ||bracketknolls.uno^
 ||bradleysolarconstant.com^
 ||braggingbegefficiency.com^
@@ -27210,6 +27211,7 @@ browsershots.org#@#.advert_area
 ||coffeeuphold.com^
 ||cofounderspecials.com^
 ||cogentpatientmama.com^
+||cogenttriprepel.com^
 ||coggingilya.com^
 ||cogitateseparated.com^
 ||cogleapad.com^
@@ -31707,6 +31709,7 @@ browsershots.org#@#.advert_area
 ||handsenvious.com^
 ||handspiketha.xyz^
 ||handtub.com^
+||handwritingnomad.com^
 ||handy-tab.com^
 ||hangdogferfel.com^
 ||hangersbozal.com^
@@ -32904,6 +32907,7 @@ browsershots.org#@#.advert_area
 ||isanikcieontap.com.ua^
 ||isawthenews.com^
 ||isboost.co.jp^
+||iseatheadline.com^
 ||isegeowrvnxorj.com^
 ||ishedtotigai.info^
 ||ishinedmin.lol^
@@ -45270,6 +45274,7 @@ browsershots.org#@#.advert_area
 ||yupfiles.net^
 ||yuppads.com^
 ||yuppyads.com^
+||yuprggtdvdalo.com^
 ||yusukqwlukvw.com^
 ||yvmads.com^
 ||yvoria.com^
@@ -47785,6 +47790,7 @@ browsershots.org#@#.advert_area
 ||codedexchange.com^$popup
 ||codeonclick.com^$popup
 ||cogentpatientmama.com^$popup
+||cogenttriprepel.com^$popup
 ||cognitionmesmerize.com^$popup
 ||colmcweb.com^$popup
 ||colonistnobilityheroic.com^$popup
@@ -48026,6 +48032,7 @@ browsershots.org#@#.advert_area
 ||eloquentformallyrelapse.com^$popup
 ||elsewherebuckle.com^$popup
 ||elvermowed.uno^$popup
+||embodimentpronounrunway.com^$popup
 ||emeraldhecticteapot.com^$popup
 ||emonito.xyz^$popup
 ||employmentsuppressedbeautiful.com^$popup
@@ -48324,6 +48331,7 @@ browsershots.org#@#.advert_area
 ||hallucinatebotany.com^$popup
 ||hallucinatepromise.com^$popup
 ||handbaggather.com^$popup
+||handwritingnomad.com^$popup
 ||happypasteheat.com^$popup
 ||harsh-definition.pro^$popup
 ||harshlygiraffediscover.com^$popup
@@ -48502,6 +48510,7 @@ browsershots.org#@#.advert_area
 ||irrelevantassassinclaim.com^$popup
 ||irtya.com^$popup
 ||isawthenews.com^$popup
+||iseatheadline.com^$popup
 ||ismlks.com^$popup
 ||isohuntx.com/vpn/$popup
 ||istlnkcl.com^$popup
@@ -94307,7 +94316,10 @@ dirp.me##+js(aopr, puShown)
 dirp.me##[data-href^="/vpn"]
 dirp.me##[id]:has-text(Provider)
 boainformacao.com.br##+js(no-xhr-if, adsbygoogle)
-pinterest.*##:xpath('//*[(contains(text(),"Promoted") and contains(text(),"by")) or contains(text(),"広告") or contains(text(),"Sponsorizzato")]'):upward([data-grid-item])
+!pinterest.*##:xpath('//*[(contains(text(),"Promoted") and contains(text(),"by")) or contains(text(),"広告") or contains(text(),"Sponsorizzato")]'):upward([data-grid-item])
+!pinterest.com##:xpath('//*[(contains(text(),"P") and contains(text(),"b") and contains(text(),"y")) ]'):upward([data-grid-item]) 
+pinterest.com#@#a[href*="&epik="]
+pinterest.com##a[href*="&epik="]:upward([data-grid-item])
 distrowatch.org##[href*="3cx"]:upward(tbody)
 distrowatch.org##[href^="https://pbxinaflash.com/"]
 ubuntudde.com##+js(aopw, b2a)
@@ -95342,6 +95354,10 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||onetalkit.com^$doc
 ||gopcworlds.net^$doc
 ||extrasofts.org^$doc
+||link-ii.info^$all
+||all-softs.net^$doc
+||gramaindoor.com/hack/$all
+||expertprosoft.com^$all
 ||oceanofgame.net^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
@@ -97364,6 +97380,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||govimpot.com^$all
 ||premiumexpertclass87.xyz^$all
 ||pressanddresses.com^$all
+||g1idyf0ml96b.azureedge.net^$all
+||hrmntrimagukeazctesto.shop^$all
+||stb-media.xyz^$all
 ||gateway.pinata.cloud^$3p
 ||japanonlinebroadcast.live^$all
 ||crackedpc.org^$all
@@ -97409,6 +97428,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||roundyearfun.org^$all
 ||anyplacehere.me^$all
 ||funaroundy.click^$all
+||anyplacehere.live^$all
 ||bestextensionegde.com^$all
 ||sexus.ml^
 ||taboola.com^$3p
@@ -106969,8 +106989,8 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 13 Jun 2023 11:59:22 GMT
-# entries:        3735
+# last updated:   Thu, 15 Jun 2023 15:15:38 GMT
+# entries:        3738
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -108295,6 +108315,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 127.0.0.1 cdn.freshmarketer.com
 127.0.0.1 cdn.heapanalytics.com
 127.0.0.1 cdn.keywee.co
+127.0.0.1 cdn.mouseflow.com
 127.0.0.1 cdn.onesignal.com
 127.0.0.1 cdn.segment.com
 127.0.0.1 cdnondemand.org
@@ -109395,7 +109416,6 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 127.0.0.1 mookie1.com
 127.0.0.1 mopub.com
 127.0.0.1 motionspots.com
-127.0.0.1 mouseflow.com
 127.0.0.1 mousestats.com
 127.0.0.1 movad.net
 127.0.0.1 movemeal.com
@@ -109433,6 +109453,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 127.0.0.1 mysteriousmonth.com
 127.0.0.1 mytop-in.net
 127.0.0.1 myvisualiq.net
+127.0.0.1 n2.mouseflow.com
 127.0.0.1 n69.com
 127.0.0.1 naj.sk
 127.0.0.1 naj22.proasdf.com
@@ -109494,6 +109515,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 127.0.0.1 nuseek.com
 127.0.0.1 nuttyorganization.com
 127.0.0.1 nzaza.com
+127.0.0.1 o2.mouseflow.com
 127.0.0.1 o333o.com
 127.0.0.1 oafishobservation.com
 127.0.0.1 oas.benchmark.fr
@@ -109925,6 +109947,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 127.0.0.1 sail-horizon.com
 127.0.0.1 samsungacr.com
 127.0.0.1 samsungads.com
+127.0.0.1 sanalytics.disneyplus.com
 127.0.0.1 sanity-dataplane.rudderstack.com
 127.0.0.1 savoryorange.com
 127.0.0.1 saysidewalk.com
