@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: krvjhyExNfAkRDA9SY6yNQ
+! Checksum: jWWuPmnYyMFt4UjojEHYbA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306160220
-! Last Modified: 2023年06月16日 02:20
+! Version: 202306160940
+! Last Modified: 2023年06月16日 09:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1563,7 +1563,7 @@
 /advertbuttons_
 /advertical.$domain=~advertical.hu
 /advertise-$~script,domain=~ads.microsoft.com|~advertise-solution.nl|~bingads.microsoft.com
-/advertise/*$domain=~legl.co
+/advertise/*$domain=~legl.co|~payju.ir
 /advertise_
 /advertisehere.
 /advertisement-$~script,domain=~berlin-airport.de
@@ -59476,7 +59476,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ads.pubmatic.com/AdServer/js/pwtSync/$subdocument,domain=independent.co.uk
 @@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
 @@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
-@@||ads.rubiconproject.com/prebid/$script,domain=everydayhealth.com
+@@||ads.rubiconproject.com/prebid/$script,domain=drudgereport.com|everydayhealth.com
 @@||ads3.xumo.com^$domain=2vnews.com|redbox.com
 @@||adsafeprotected.com/iasPET.$script,domain=independent.co.uk|reuters.com
 @@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com
@@ -73719,7 +73719,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dropbox.com/log/
 ||dropbox.com/log_
 ||drudgereport.com/204.png
-||drudgereport.com/js/responsive-
 ||drugs.com/api/logger/
 ||drugs.com/img/pixel.gif
 ||dtag.breadfinancial.com^
@@ -94521,9 +94520,6 @@ plotaroute.com###Page:style(right: 0px !important;)
 javside.com##+js(aopr, __Y)
 javside.com##+js(aopr, AaDetector)
 imgflare.com##+js(acs, document.querySelectorAll, popMagic)
-steamcrackedgames.com##+js(set, document.body.onclick, null)
-steamcrackedgames.com##[href^="https://startgaming.net/"]
-steamcrackedgames.com##.blink
 katmoviefix.*##+js(aopr, Request)
 katmoviefix.*##+js(noeval-if, ads)
 livesexporn.net##+js(acs, onload, Math)
@@ -98915,6 +98911,7 @@ druckerchannel.de###DCGA
 @@||static.adsafeprotected.com/iasPET.1.js$script,domain=independent.co.uk
 @@||independent.co.uk/*/prebid.*.js$script,1p
 independent.co.uk##+js(no-fetch-if, doubleclick)
+@@||adsafeprotected.com/services/$xhr,domain=independent.co.uk
 ||chartbeat.com^$badfilter
 ||chartbeat.net^$badfilter
 ||chartbeat.com^$3p
@@ -106998,7 +106995,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 03 Aug 1823 00:00:00
+# start date:    Mon, 04 Aug 1823 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
