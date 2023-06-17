@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: H3j4RwmVVnmAMmWYOjMQ6g
+! Checksum: pSCekwoS5yLxysvAuVBVlw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306172029
-! Last Modified: 2023年06月17日 20:29
+! Version: 202306180219
+! Last Modified: 2023年06月18日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21404,6 +21404,7 @@ reimageplus.com#@#[href^="https://www.reimageplus.com/"]
 restoro.com#@#[href^="https://www.restoro.com/"]
 zstacklife.com#@#[href^="https://zstacklife.com/"] img
 amazon.com,cancam.jp,faceyourmanga.com,isc2.org,liverc.com,mit.edu,muscatdaily.com,olx.pl,saitama-np.co.jp,timesofoman.com,virginaustralia.com#@#[id^="div-gpt-ad"]
+ignboards.com#@#[id^="google_ads_iframe"]
 revimedia.com#@#a[href*=".revimedia.com/"]
 dr.dk,smartadserver.de#@#a[href*=".smartadserver.com"]
 slickdeals.net#@#a[href*="adzerk.net"]
@@ -59784,6 +59785,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||somewheresouth.net/banner/banner.php$image
 @@||sportsnet.ca/wp-content/plugins/bwp-minify/$domain=sportsnet.ca
 @@||stat-rock.com/player/$domain=4shared.com|adplayer.pro
+@@||static.doubleclick.net/instream/ad_status.js$script,domain=ignboards.com
 @@||summitracing.com/global/images/bannerads/
 @@||sundaysportclassifieds.com/ads/$image,~third-party
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
@@ -59945,7 +59947,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||yimg.com/dy/ads/native.js$script,domain=animedao.to
 @@||tab.gladly.io/newtab/|$document,subdocument
 !! imasdk.googleapis.com/js/sdkloader/ima3.js
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|delish.com|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|games.usatoday.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|irctc.co.in|klix.ba|locipo.jp|maharashtratimes.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|nettavisen.no|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|popculture.com|realmadrid.com|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|truvid.com|tubitv.com|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|delish.com|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|games.usatoday.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|ignboards.com|iheart.com|insideedition.com|irctc.co.in|klix.ba|locipo.jp|maharashtratimes.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|nettavisen.no|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|popculture.com|realmadrid.com|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|truvid.com|tubitv.com|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
 !! imasdk.googleapis.com/js/sdkloader/ima3_dai.js
 !! @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|embed.comicbook.com|s.yimg.jp|sbs.com.au|tv.rakuten.co.jp|vk.sportsbull.jp|worldsurfleague.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js
@@ -94073,6 +94075,7 @@ nowtolove.com.au##.page__content-header:style(height: 50px !important)
 /script/ippg.js$3p
 /script/native_render.js$3p
 /script/native_server.js$3p
+/script/antd.js$3p
 .com/script/compatibility.js|$3p
 .org/script/compatibility.js|$3p
 .com/script/foundation.js|$3p
@@ -94094,6 +94097,7 @@ nowtolove.com.au##.page__content-header:style(height: 50px !important)
 ||diated.com^
 .php?s=su&r=*&sadbl=1&$xhr,3p
 ||eukova.com^
+||diplic.com^
 sexlist.tv##+js(disable-newtab-links)
 sexlist.tv##.link-premium
 sexlist.tv##.camitems
@@ -97259,6 +97263,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||chuchu2.jp^$doc
 ||deaiai55.com^$doc
 ||kokocha.site^$doc
+||hjytu75fro0.jp^$doc
+||secssnetplan.jp^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -97403,6 +97409,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||ojosclear.com^$all
 ||tankien.land^$all
 ||pguilford.com^$all
+||theweddingmahotsav.com^$all
+||d2o907u2tcfbck.cloudfront.net^$all
+||xac2gjx.autos^$all
 ||gateway.pinata.cloud^$3p
 ||japanonlinebroadcast.live^$all
 ||crackedpc.org^$all
@@ -97711,7 +97720,8 @@ androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.
 ||lightboxcdn.com^$domain=androidauthority.com|variety.com
 ||lightboxcdn.com/*/digibox.gif?
 ||lightboxcdn.com/*/jsonp/z?
-||gstatic.com/firebase$domain=gamezhero.com|zefoy.com
+/firebase-analytics.js$script,domain=zefoy.com
+zefoy.com##+js(set, firebase.analytics, noopFunc)
 pcgamingwiki.com##+js(href-sanitizer, a[href^="https://www.dpbolvw.net/click-"][href*="?url="], ?url)
 pcgamingwiki.com##+js(href-sanitizer, a[href^="https://greenmangaming.sjv.io/c/"][href*="?u="], ?u)
 /pmc-plugins/pmc-social-share-bar/*/tracking.js
@@ -98398,6 +98408,7 @@ los40.com##.cont_webpush
 los40.com###adunit
 @@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$script,domain=los40.com
 los40.com##+js(set, DTM.trackAsyncPV, noopFunc)
+los40.com##+js(no-fetch-if, googlesyndication)
 @@||ipinfo.io/json$xhr,domain=futbollibre.online
 @@||safecurr.g2afse.com/click?pid=*&offer_id$popup
 @@||tvtime.com/ga-assets/*$1p
@@ -99764,6 +99775,7 @@ pcwelt.de#@#a[href^="https://pvn.saturn.de/"]
 @@||wgplayer.com/*/wgAds.$script,domain=brightygames.com|eminiclip.ro|sisigames.com|yoho.games
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=brightygames.com|eminiclip.ro|sisigames.com|yoho.games
 brightygames.com,yoho.games##^html > head > meta[property="og:url"]:not([content*="/games/"], [content*="/play/"]):upward(1) > script:has-text(wgplayer)
+sisigames.com##^#index-games:upward(html) > head > script:has-text(wgplayer)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=canvids.com
 @@||afv.wgplayer.com/*/wgPlayer.js$script,domain=canvids.com
 @@||afv.wgplayer.com/*/conf.json$xhr,domain=canvids.com
@@ -99820,8 +99832,6 @@ javgg.net##.home_iframead > iframe:upward(1)
 @@||mark.isbank.com.tr^$script,image,1p
 @@||proton.me/*/google-ads-$image,1p
 tieba.baidu.com##+js(set, passFingerPrint, noopFunc)
-@@||googletagmanager.com/gtm.js$script,domain=laptopsdirect.co.uk
-laptopsdirect.co.uk##^html > head > meta[property="og:type"]:not([content="product"]):upward(1) > script:has-text(googletagmanager)
 @@||analytics-*.clickdimensions.com/*/pages/$frame,domain=crm.digital.nhs.uk
 @@||h-microsoft.online-metrix.net^$xhr,domain=ave9858.github.io|massgrave.dev
 sofascore.com#@#[display^="block,none"]
@@ -107021,7 +107031,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 15 Jun 2023 15:15:38 GMT
-# entries:        3736
+# entries:        3735
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -108442,7 +108452,6 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 127.0.0.1 clicktrack.ziyu.net
 127.0.0.1 clicktracks.com
 127.0.0.1 clicktrade.com
-127.0.0.1 clickwith.bid
 127.0.0.1 clickxchange.com
 127.0.0.1 clickyab.com
 127.0.0.1 clickz.com
