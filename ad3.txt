@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DzP+0nv7N49pFSRSF05Brg
+! Checksum: TmgCHn+Hp7fHE/zJdbItGQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202306190219
-! Last Modified: 2023年06月19日 02:19
+! Version: 202306190940
+! Last Modified: 2023年06月19日 09:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2807,6 +2807,14 @@ newduba.cn###jq_youxi
 ||zxcrr.com^
 ||zxgko.cn^
 ||zzqrr.com^
+||brfvyrrp.com^
+||ykotyeo.cn^
+||thesac8.top^
+||bsanciv.top^
+||rvlgrb.xyz^
+||zeookuv.xyz^
+||bbhktv.xyz^
+||fooid.xyz^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -32061,7 +32069,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d-markets.net^$third-party
 ||d2-apps.net^$third-party
 ||d2c.ne.jp^$third-party
-||datasign.co^$third-party
 ||dbfocus.jp^$third-party
 ||deteql.net^$third-party
 ||dmtag.jp^$third-party
@@ -32948,6 +32955,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cmail19.com/t/$image,third-party
 ||cmmeglobal.com/evt?
 ||cmmeglobal.com^*/page-view?
+||cmp.datasign.co^
 ||cnetcontent.com/log?
 ||cnevids.com/metrics/
 ||cnnx.io^*/tracker.js
@@ -33097,6 +33105,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.woosmap.com^
 ||data2.gosquared.com^
 ||datadog-service.mvfglobal.com^
+||datasign.co/js/opn.js
 ||daxab.com/logger/
 ||dcinfos-cache.abtasty.com^
 ||dditscdn.com/*fingerprints
