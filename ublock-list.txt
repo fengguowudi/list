@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6JSK9MZKHxiB7ah3xgQ5ag
+! Checksum: otn4xj6P6XVjOmq2nYs6cA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306200935
-! Last Modified: 2023年06月20日 09:35
+! Version: 202306201422
+! Last Modified: 2023年06月20日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -51531,6 +51531,8 @@ browsershots.org#@#.advert_area
 ||sbhc.portalhc.com^
 ||screen13.com/publishers/
 ||scriptadmin.com/scripts/popunder.js
+||sdk.apester.com/*.adsbygoogle.min.js
+||sdk.apester.com/*.Monetization.min.js
 ||secure.money.com^$third-party
 ||service.smscoin.com/js/sendpic.js
 ||services.zam.com^
@@ -54841,10 +54843,9 @@ marketscreener.com###zppMiddle2
 ultrabookreview.com###zzifhome
 ultrabookreview.com###zzifhome2
 arydigital.tv###zzright
-androidauthority.com##.--qc
 talkingpointsmemo.com##.--span\:12.AdSlot
-androidauthority.com##.-Ci
-androidauthority.com##.-Yc
+androidauthority.com##.-__1b
+androidauthority.com##.-__Gb
 bigissue.com##.-ad
 porndoe.com##.-h-banner-svg-desktop
 hellomagazine.com##.-variation-megabanner
@@ -55000,7 +55001,6 @@ fastweb.com##.a_cls_s
 fastfoodnutrition.org##.a_leader
 premierguitar.com##.a_promo
 fastfoodnutrition.org##.a_rect
-androidauthority.com##.aa
 informer.com##.aa-728
 informer.com##.aa0
 ncomputers.org,servertest.online##.ab
@@ -72566,24 +72566,24 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dyv1bugovvq1g.cloudfront.net^
 ||firebase.googleapis.com^$domain=terabox.fun
 ||firebaseinstallations.googleapis.com^$domain=terabox.fun
-||cefgo.com^
-||domaincontrol.com^
-||fbi.com^
-||lacolhost.com^
-||lndo.site^$third-party
-||local.computer^
-||local.qinlili.bid^
-||local.sisteminha.com^
-||localho.st^
-||localhost.direct^
-||localtest.me^
-||lvh.me^
-||netfinity.hostedrmm.com^
-||nip.io^$third-party
-||ssh.town^
-||supercalifragilisticexpialidocious.co.uk^
-||xip.io^
-||yoogle.com^
+!||cefgo.com^
+!||domaincontrol.com^
+!||fbi.com^
+!||lacolhost.com^
+!||lndo.site^$third-party
+!||local.computer^
+!||local.qinlili.bid^
+!||local.sisteminha.com^
+!||localho.st^
+!!||localhost.direct^
+!||localtest.me^
+!||lvh.me^
+!||netfinity.hostedrmm.com^
+!||nip.io^$third-party
+!||ssh.town^
+!||supercalifragilisticexpialidocious.co.uk^
+!||xip.io^
+!||yoogle.com^
 ||am-vid-events.taboola.com^
 ||convsgmp.taboola.com^
 ||la-sync.taboola.com^
@@ -73707,6 +73707,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||androidfilehost.com/libs/otf/stats.otf.php?
 ||anon-stats.eff.org^
 ||apartments.com/clientvisit/al.gif?
+||apester.com/cookie/bundle.js
 ||api-js.mixpanel.com^
 ||api-router.kaspersky-labs.com/logger2/metrics/
 ||api.ffm.to/sl/e/$image
@@ -74846,6 +74847,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s3.amazonaws.com/downloads.mailchimp.com/$script,domain=confection.io
 ||substation.confection.io^
 ||lightning.ncaa.com/launch/$script
+||onesignal.com^$domain=androidauthority.com|iphoneincanada.ca|rockpapershotgun.com|senpa.io|shineads.org
 ||bing.com/fd/ls/l?IG=
 ||bing.com/fd/ls/lsp.aspx
 ||bing.com^*/glinkping.aspx$ping,xmlhttprequest
@@ -90523,6 +90525,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||noodid.ee/chordQuiz/$~third-party
 @@||noxgroup.com/noxinfluencer/sensor_sdk/$script,domain=noxinfluencer.com
 @@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
+@@||nypost.com/blaize/datalayer$~third-party
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||ondemand.sas.com^$subdocument
 @@||onenote.com^*/aria-web-telemetry
@@ -97831,6 +97834,8 @@ pcgamingwiki.com##+js(href-sanitizer, a[href^="https://greenmangaming.sjv.io/c/"
 !yle.fi##+js(set, yleAnalytics, noopFunc)
 ||dax.yle.fi^
 bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not([content*="/details/"]):upward(1) > script[src*="optimizely"]
+nypost.com,pagesix.com##+js(json-prune, dataLayer.trackingId user.trackingId)
+nypost.com,pagesix.com##+js(cookie-remover, blaize_tracking_id)
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
