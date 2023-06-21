@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +YGc/bGoyKV7GcERth/now
+! Checksum: xm0Ei/PgGcWlrWXLCSx3sw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306212034
-! Last Modified: 2023年06月21日 20:34
+! Version: 202306220220
+! Last Modified: 2023年06月22日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -50956,7 +50956,6 @@ browsershots.org#@#.advert_area
 ||mobilerevenu.com^$third-party
 ||mobtop.ru^$third-party
 ||modelsgonebad.com^$third-party
-||monetizze.com.br^$third-party
 ||morehitserver.com^$third-party
 ||mp-https.info^$third-party
 ||mpmcash.com^$third-party
@@ -53243,6 +53242,7 @@ browsershots.org#@#.advert_area
 ||sonichits.com/tf.php
 ||sontent.powzers.lol^
 ||sorcerers.net/images/aff/
+||soundcloud.com/audio-ads?
 ||southfloridagaynews.com/images/banners/
 ||sportshub.to/player-source/images/banners/
 ||spox.com/daznpic/
@@ -58058,6 +58058,7 @@ presearch.com##[x-data*="kwrdAdFirst"]
 mobiforge.com##a > img[alt="Ad"]
 eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
 freshplaza.com##a.banner
+aliexpress.com,aliexpress.us##a.search-card-item[href*="&aem_p4p_detail="]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[ajaxify*="&eid="] + a[href^="https://l.facebook.com/l.php?u="]
 newstalkflorida.com##a[alt="Ad"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[aria-label="Advertiser link"]
@@ -58069,7 +58070,6 @@ trakt.tv##a[class^="hu-ck-s-t-er-"][target="_blank"]
 namepros.com##a[data-tag="backer"]
 sashares.co.za##a[data-wpel-link="external"]
 aliexpress.com,aliexpress.us##a[href*="&ad_pvid="]
-aliexpress.com,aliexpress.us##a[href*="&aem_p4p_detail="]
 aliexpress.com,aliexpress.us##a[href*="&detail_p4p_id="]
 pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt##a[href*="&epik="]
 aliexpress.com,aliexpress.us##a[href*="&p4p_pvid="]
