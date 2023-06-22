@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eCQ85LMLh2PLA5jTnCNDtg
+! Checksum: t/KpDpnVfLb6yHqzIC5lOw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306222034
-! Last Modified: 2023年06月22日 20:34
+! Version: 202306230220
+! Last Modified: 2023年06月23日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -107090,6 +107090,9 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||tfcdn.jingmiuyyds.com^$all
+||vzttq.brfvyrrp.com^$all
+||sncop.uioozpxq.com^$all
 ||jciwztfj.com^
 ||zhengliyqq.com^
 ||ra5.xyz^
