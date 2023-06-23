@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pn8qrSeMr7rO10V4lMsC1Q
+! Checksum: SsLIru57fJKpLW/Q/9DDwg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306230951
-! Last Modified: 2023年06月23日 09:51
+! Version: 202306231425
+! Last Modified: 2023年06月23日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16026,6 +16026,7 @@ _800x80_
 ##.ezo_ad
 ##.ezoic-ad
 ##.ezoic-ad-adaptive
+##.ezoic-adpicker-ad
 ##.ezoic-floating-bottom
 ##.f-ad
 ##.f-item-ad
@@ -56505,6 +56506,7 @@ businessinsider.com,insider.com##.in-post-sticky
 faithpot.com##.inarticle-ad
 crash.net##.inarticle-wrapper
 motherjones.com##.incontent-promo
+truckinginfo.com##.incontent02Ad
 brudirect.com##.index-banner
 katv.com##.index-module_adAfterContent__1cww
 theinertia.com##.inertia-ad-300x250
@@ -57932,6 +57934,7 @@ theblaze.com##[data-category="SPONSORED"]
 gab.com##[data-comment="gab-ad-comment"]
 curbed.com##[data-concert="prelude"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-empty]
+ginx.tv##[data-ez-ph-id]
 tvzoneuk.com##[data-hook="HtmlComponent"]
 jeffdornik.com##[data-image-info]
 phoneia.com##[data-index]
@@ -94730,8 +94733,9 @@ dirp.me##+js(aopr, puShown)
 dirp.me##[data-href^="/vpn"]
 dirp.me##[id]:has-text(Provider)
 boainformacao.com.br##+js(no-xhr-if, adsbygoogle)
-pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#@#a[href*="&epik="]
-pinterest.*##[data-test-id="gestalt-avatar-svg"]:xpath('//*[(contains(text(),"P") and contains(text(),"r") and contains(text(),"m") and contains(text(),"o") and contains(text(),"t") and contains(text(),"e") and contains(text(),"d") and contains(text(),"b") and contains(text(),"y")) ]'):upward([data-grid-item])
+!pinterest.*##:xpath('//*[(contains(text(),"P") and contains(text(),"r") and contains(text(),"m") and contains(text(),"o") and contains(text(),"t") and contains(text(),"e") and contains(text(),"d") and contains(text(),"b") and contains(text(),"y")) ]'):upward([data-grid-item])
+pinterest.*##+js(rpnt, script, /web_hide_epik_param_in_promoted_urls.*?enabled"/, web_hide_epik_param_in_promoted_urls":"disabled")
+pinterest.*##a[href*="&epik="]:upward([data-grid-item])
 distrowatch.org##[href*="3cx"]:upward(tbody)
 distrowatch.org##[href^="https://pbxinaflash.com/"]
 ubuntudde.com##+js(aopw, b2a)
@@ -98139,7 +98143,7 @@ pcgamingwiki.com##+js(href-sanitizer, a[href^="https://greenmangaming.sjv.io/c/"
 bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not([content*="/details/"]):upward(1) > script[src*="optimizely"]
 nypost.com,pagesix.com##+js(json-prune, dataLayer.trackingId user.trackingId)
 nypost.com,pagesix.com##+js(cookie-remover, blaize_tracking_id)
-||telemetry.transcend.io^$domain=12thman.com
+||telemetry.transcend.io/collect
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -100095,7 +100099,7 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 @@||cds.connatix.com/*/hls$script,3p
 #@#.wps-player-wrap
 @@||img.connatix.com/*.jpg$3p,image,domain=accuweather.com
-bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,miamiherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,miamiherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
 thestate.com##^html > head > script:has-text(connatix.id):upward(1) > script:has-text(window.cnx)
 variety.com##^html > head > link[rel="canonical"]:not([href*="/video/"]):upward(1) > script[src*="connatix"]
 @@||cd.connatix.com/connatix.playspace.js^$script,3p,domain=adweek.com
@@ -100144,6 +100148,7 @@ scotsman.com##[class*="AdContainer"]
 scotsman.com##[class*="AdLoading"]
 scotsman.com##[class*="Ads__Container"]
 scotsman.com##[class*="Billboard__Root"]
+scotsman.com##^html:not(:has([class^="Dailymotion__Wrapper"])) > head > script:has-text(gptScript)
 @@||taboola.com/magazine/$domain=taboolanews.com
 dark-gaming.com##+js(no-xhr-if, lr-ingest.io)
 @@||user.userguiding.com/sdk/identify$xhr,domain=xaris.ai
