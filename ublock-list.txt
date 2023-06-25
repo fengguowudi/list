@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9vw5npTfJdwsQx/AfrnV+g
+! Checksum: 96u22IIB0l5SQuYB3w0ZlA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306251002
-! Last Modified: 2023年06月25日 10:02
+! Version: 202306252036
+! Last Modified: 2023年06月25日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -28328,6 +28328,7 @@ browsershots.org#@#.advert_area
 ||declaredjuvenile.com^
 ||declaredpolitics.com^
 ||declarefollowersuspected.com^
+||declinebladdersbed.com^
 ||declinedmildlyreckon.com^
 ||declinetongarage.com^
 ||declk.com^
@@ -32820,6 +32821,7 @@ browsershots.org#@#.advert_area
 ||igameunion.com^
 ||igaming-warp-service.io^
 ||igarabealing.website^
+||igbiraintsv.com^
 ||iglephoo.xyz^
 ||igloohq.com^
 ||igmcsvrgxpebh.xyz^
@@ -38679,6 +38681,7 @@ browsershots.org#@#.advert_area
 ||poushoza.net^
 ||poutauge.net^
 ||povoarge.com^
+||powdermealfilth.com^
 ||powerad.ai^
 ||poweradblocker.com^
 ||powerain.biz^
@@ -39668,6 +39671,7 @@ browsershots.org#@#.advert_area
 ||raudeecu.com^
 ||raufoomoochi.com^
 ||raujurum.net^
+||raukaury.com^
 ||raunowhy.xyz^
 ||raupsica.net^
 ||raupsoap.com^
@@ -39913,6 +39917,7 @@ browsershots.org#@#.advert_area
 ||regnumyelp.digital^
 ||regott.com^
 ||regretfactor.com^
+||regrettabletoken.com^
 ||regrowsmudless.com^
 ||regrupontihe.com^
 ||reguid.com^
@@ -40215,9 +40220,11 @@ browsershots.org#@#.advert_area
 ||rhiospsea.one^
 ||rhkaljxsxlxn.xyz^
 ||rhkyufodw8ochdr3ogsite.com^
+||rhoecusteased.life^
 ||rhombicsomeday.com^
 ||rhubarbraise.com^
 ||rhudsplm.com^
+||rhungs.com^
 ||rhvdsplm.com^
 ||rhxdsplm.com^
 ||rhythmxchange.com^
@@ -40891,6 +40898,7 @@ browsershots.org#@#.advert_area
 ||scarletcashwi5.com^
 ||scarofnght.com^
 ||scarwan.com^
+||scbvydod.xyz^
 ||scenbe.com^
 ||scenespathreconciliation.com^
 ||schavsorpines.guru^
@@ -44271,6 +44279,7 @@ browsershots.org#@#.advert_area
 ||usnindioxime.website^
 ||usounoul.com^
 ||ussive.com^
+||ussord.com^
 ||ustithoo.net^
 ||ustive.com^
 ||usuade.com^
@@ -45453,6 +45462,7 @@ browsershots.org#@#.advert_area
 ||wnjjhksaue.com^
 ||wnp.com^
 ||wnrrhcyok.xyz^
+||wnutysqavt.com^
 ||wnyuehqewfisvby.com^
 ||woaembayed.uno^
 ||woafoame.net^
@@ -45614,6 +45624,7 @@ browsershots.org#@#.advert_area
 ||wrkl.xyz^
 ||wronal.com^
 ||wronti.com^
+||wrotad.com^
 ||wrotop.com^
 ||wrotov.com^
 ||wrotus.com^
@@ -45694,6 +45705,7 @@ browsershots.org#@#.advert_area
 ||wzdzht7am5.com^
 ||wzk5ndpc3x05.com^
 ||wzlbhfldl.com^
+||wzmidfgwyxfrd.com^
 ||wzogiwfapo.com^
 ||wzxty168.com^
 ||x-adservice.com^
@@ -45761,6 +45773,7 @@ browsershots.org#@#.advert_area
 ||xijojwonz.com^
 ||xilbalar.com^
 ||xilqhukky.com^
+||xilrajmzyvar.com^
 ||xineday.com^
 ||xipaaqgnrehpdns.com^
 ||xiryrnrz.com^
@@ -46003,6 +46016,7 @@ browsershots.org#@#.advert_area
 ||yinthesprin.xyz^
 ||yirtaycyytr.xyz^
 ||yiteattends.tech^
+||yixios.com^
 ||yizawe.xyz^
 ||yjgkcbvmnqnicep.xyz^
 ||ylasthepoityelthenl.xyz^
@@ -58493,7 +58507,6 @@ presearch.com##[x-data*="kwrdAdFirst"]
 mobiforge.com##a > img[alt="Ad"]
 eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
 freshplaza.com##a.banner
-aliexpress.com,aliexpress.us##a.search-card-item[href*="&aem_p4p_detail="]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[ajaxify*="&eid="] + a[href^="https://l.facebook.com/l.php?u="]
 newstalkflorida.com##a[alt="Ad"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[aria-label="Advertiser link"]
@@ -64863,6 +64876,8 @@ _trackWebtrekkEvents.
 _view_pixel&$image
 _webanalytics.
 _WebVitalsReporter_
+/ls.php?t=
+/track.php?domain=
 /action-impressions/*
 /ajax/counter?ctr=
 /batch/1/OE/*
@@ -92079,6 +92094,10 @@ mundowuxia.com##+js(aopw, _pop)
 kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekickass.*,kickassz.*,kickasstorrents2.*,topkickass.*,kickassgo.*,kkickass.*,kkat.*,kickasst.*,kick4ss.*,katbay.*,kickasshydra.*,kickasskat.*,kickassbay.*,torrentkat.*,kickassuk.*,torrentskickass.*,kickasspk.*,kickasstrusty.*,katkickass.*,kickassindia.*,kickass-usa.*,kickassaustralia.*,kickassdb.*,kathydra.*,kickassminds.*,katkickass.*,kickassunlocked.*,kickassmovies.*,kickassfull.*,bigkickass.*,kickasstracker.*,katfreak.*##[style*="decoration"]:not([style^="width"])
 kat.*,katbay.*,kickass.*,kickasshydra.*,kickasskat.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekickass.*,kickassz.*,kickasstorrents2.*,topkickass.*,kickassgo.*,kkickass.*,kkat.*,kickasst.*,kick4ss.*##[href="/k.php?q=q"]
 @@||kickasstorrents.*/static/js/all.js$script,1p
+kickass.*###notification-bar
+kickass.*##.alert
+kickass.*##+js(rmnt, style, text-decoration)
+kickass.*##[id]:matches-attr(id=/[a-zA-Z]{40,}/)
 *.js|$script,1p,domain=isohuntz.*|isohunt.*|isohunts.*|isohuntx.*|isohunthydra.*|isohunters.*|isohunting.*|myisohunt.*
 *$csp=script-src *,domain=isohuntz.*|isohunt.*|isohunts.*|isohuntx.*|isohunthydra.*|isohunters.*|isohunting.*|myisohunt.*
 *$frame,domain=isohuntz.*|isohunt.*|isohunts.*|isohuntx.*|isohunthydra.*|isohunters.*|isohunting.*|myisohunt.*
@@ -98266,6 +98285,8 @@ reddit.com##+js(no-fetch-if, url:/^https:\/\/www\.reddit\.com$/ method:post)
 reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 old.reddit.com##a.outbound[data-outbound-url]:remove-attr(data-outbound-url)
 !reddit.com##+js(set, Object.prototype.allowClickTracking, false)
+reddit.com,~old.reddit.com##+js(rpnt, script, "outboundUrl", "outbound")
+reddit.com,~old.reddit.com##+js(json-prune, data.*.elements.edges.[].node.outboundLink)
 ||colpirio.com^$3p
 docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
 liberation.fr,officedepot.fr,oui.sncf##+js(acs, document.createElement, '.js')
@@ -98478,6 +98499,7 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||adonsonlyd.xyz^
 ||top-staging.mail.ru^
 ||adthrive.com^$removeparam,domain=~mediaite.com
+||cdn.branch.io/branch-latest.min.js$important,domain=pac-12.com
 ||onesignal.com^$domain=gamersdiscussionhub.com
 ||narrativ.com^$domain=androidauthority.com
 ||geoip.cdn.arkadiumhosted.com^$domain=bestforpuzzles.com|charlotteobserver.com|independent.co.uk|standard.co.uk
@@ -100461,7 +100483,7 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 @@||cds.connatix.com/*/hls$script,3p
 #@#.wps-player-wrap
 @@||img.connatix.com/*.jpg$3p,image,domain=accuweather.com
-bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,flkeysnews.com,miamiherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,flkeysnews.com,fresnobee.com,miamiherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
 thestate.com##^html > head > script:has-text(connatix.id):upward(1) > script:has-text(window.cnx)
 variety.com##^html > head > link[rel="canonical"]:not([href*="/video/"]):upward(1) > script[src*="connatix"]
 @@||cd.connatix.com/connatix.playspace.js^$script,3p,domain=adweek.com
