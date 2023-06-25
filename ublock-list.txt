@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 96u22IIB0l5SQuYB3w0ZlA
+! Checksum: hwroK2NxsgAZ9YphPlakxA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306252036
-! Last Modified: 2023年06月25日 20:36
+! Version: 202306260222
+! Last Modified: 2023年06月26日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -23936,6 +23936,7 @@ browsershots.org#@#.advert_area
 ||amusingsnow.pro^
 ||amuyonpastour.top^
 ||amwoukrks.autos^
+||amwswkqh.com^
 ||amyeubhbnugjum.xyz^
 ||amygdalbrittle.com^
 ||amylatesating.com^
@@ -36830,6 +36831,7 @@ browsershots.org#@#.advert_area
 ||objureexamen.life^
 ||oblivionwatcherrebellious.com^
 ||oblong-pool.pro^
+||oblongcondition.com^
 ||oblongseller.com^
 ||obmnimarmos.com^
 ||obnarium.com^
@@ -44284,6 +44286,7 @@ browsershots.org#@#.advert_area
 ||ustive.com^
 ||usuade.com^
 ||usuadr.com^
+||usuads.com^
 ||usuage.com^
 ||usualaurated.com^
 ||usuallyaltered.com^
@@ -45094,6 +45097,7 @@ browsershots.org#@#.advert_area
 ||weaselbubblehue.com^
 ||weatherpeanutnegligence.com^
 ||weatherplllatform.com^
+||weatherpopularitypassage.com^
 ||weavelurkwiden.com^
 ||weaveradrenaline.com^
 ||web-affiliation.com^
@@ -54891,7 +54895,6 @@ openloading.com###fakeplayer
 asianjournal.com###fancybox-overlay
 asianjournal.com###fancybox-wrap
 thedrinknation.com###fcBanner
-fandom.com###featured-video__player
 fandom.com###featured-video__player-container
 investing.com###findABroker
 healthshots.com###fitnessTools
@@ -56649,6 +56652,7 @@ savemyexams.co.uk##.fuse-h-90
 fxstreet.com##.fxs_leaderboard
 aframnews.com,afro.com,aurn.com,aviacionline.com,borneobulletin.com.bn,businessday.ng,businessofapps.com,chicagodefender.com,chimpreports.com,coinweek.com,dailynews.co.zw,dailysport.co.uk,dallasvoice.com,draxe.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,jacksonvillefreepress.com,mediaplaynews.com,moviemaker.com,newpittsburghcourier.com,nondoc.com,richmondshiretoday.co.uk,sammobile.com,savannahtribune.com,talkers.com,talkradioeurope.com,thegolfnewsnet.com,waamradio.com,womensagenda.com.au##.g
 coinweek.com##.g-389
+nytimes.com##.g-paid
 domainnamewire.com,goodthingsguy.com##.g-single
 yellowise.com##.g-widget-block
 titantv.com##.gAd
@@ -96084,6 +96088,8 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||skipalos.xyz^$all
 ||makenoads.com^$all
 ||dateclique.life^
+||family-simulators.io^$doc
+||familyfornicate.com^$doc
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
@@ -98049,6 +98055,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||vjybuykaxz4.com^$doc
 ||willgood-will.com^$doc
 ||y2sysagetf.com^$doc
+||san-dast.net^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
