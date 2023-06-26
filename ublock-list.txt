@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: D7QQLLMTjep8fPyjAGLuDg
+! Checksum: qNdXHHQVGlH4Hcc8qJZGjA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306261426
-! Last Modified: 2023年06月26日 14:26
+! Version: 202306262037
+! Last Modified: 2023年06月26日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2155,7 +2155,6 @@
 /eureka/eureka.js
 /eureka_ban/*
 /event.ng/*
-/exads/*
 /exitpop.
 /exitpopunder.
 /exitpopunder_
@@ -20955,6 +20954,7 @@ _800x80_
 ##.card-captioned.crd > .crd--cnt > .s2nPlayer
 ##.ck-anyclips
 ##.ck-anyclips-article
+##.exco-container
 ##.ez-sidebar-wall-ad
 ##.ez-video-wrap
 ##.inline-iframe.article--content-embed
@@ -55571,6 +55571,7 @@ quora.com##.PageContentsLayout___StyledBox-d2uxks-0 > .q-box > .q-sticky > .qu-p
 ask.com##.PartialKelkooResults
 hulu.com##.PauseAdCreative-wrap
 imgur.com##.PrimisPlayerContainer
+stocktwits.com##.Primis_container__KwtjV
 tech.hindustantimes.com##.ProductAffilateWrapper
 citybeat.com,clevescene.com,cltampa.com##.PromoTopBar
 sciencealert.com##.Purch_Y_C_0_1-container
@@ -58300,6 +58301,7 @@ goal.com##[data-name="ad-leaderboard"]
 polygon.com##[data-native-ad-id^="container"]
 namepros.com##[data-np-ga-event="ad"]
 jeffdornik.com##[data-pin-url]
+stocktwits.com##[data-pos]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
 ginx.tv##[data-ref]
@@ -61338,7 +61340,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /analytics.gif?
 /analytics.html?
 /analytics.js/v1/*
-/analytics.prod.
+/analytics.prod.$domain=~fifteen.eu
 /analytics.v1.js
 /analytics/?event
 /analytics/abtest/*
@@ -70043,6 +70045,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sitealyse.de^$third-party
 ||sitebro.de^$third-party
 ||slogantrend.de^$third-party
+||smarketer.de^$third-party
 ||space-link.de^$third-party
 ||spacehits.net^$third-party
 ||speedcount.de^$third-party
@@ -107858,8 +107861,8 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 23 Jun 2023 12:23:53 GMT
-# entries:        3737
+# last updated:   Mon, 26 Jun 2023 11:53:23 GMT
+# entries:        3738
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -111378,6 +111381,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 127.0.0.1 ultimateclixx.com
 127.0.0.1 ultramercial.com
 127.0.0.1 ultraoranges.com
+127.0.0.1 unaccountablepie.com
 127.0.0.1 unarmedindustry.com
 127.0.0.1 unbecomingbikes.com
 127.0.0.1 unbecominglamp.com
