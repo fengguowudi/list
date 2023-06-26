@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qNdXHHQVGlH4Hcc8qJZGjA
+! Checksum: Grn5PEL95BXPd03mCwpJPQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306262037
-! Last Modified: 2023年06月26日 20:37
+! Version: 202306270224
+! Last Modified: 2023年06月27日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21020,6 +21020,7 @@ _800x80_
 ##.rec_container_right
 ##.rec_title_footer
 ##[onclick*="content.ad/"]
+##.amp-ad-container
 ##.amp-adv-container
 ##.amp-article-ad-element
 ##.amp-flying-carpet-text-border
@@ -22623,6 +22624,7 @@ browsershots.org#@#.advert_area
 ||acceptabletally.com^
 ||access-mc.com^
 ||access.vidox.net^
+||accessdatatrack.com^
 ||accesshomeinsurance.co^
 ||accessiblescopevisitor.com^
 ||accessorydistantdepths.com^
@@ -24008,6 +24010,7 @@ browsershots.org#@#.advert_area
 ||anguishexperimental.com^
 ||anguishleague.com^
 ||anguishlonesome.com^
+||anguishworst.com^
 ||angularconstitution.com^
 ||anhdqnhxtx.xyz^
 ||anida.info^
@@ -24033,6 +24036,7 @@ browsershots.org#@#.advert_area
 ||annesuspense.com^
 ||annihilationefficient.com^
 ||anniversaryblaspheme.com^
+||annotationdiverse.com^
 ||annotationpushy.com^
 ||annotationsolely.com^
 ||annotationwednesdayplayground.com^
@@ -27683,6 +27687,7 @@ browsershots.org#@#.advert_area
 ||coronetkittles.com^
 ||coronisabv.com^
 ||corporategarnish.com^
+||corpulentoverdoselucius.com^
 ||corpulentrubber.com^
 ||corruptheedless.com^
 ||corsakpeize.com^
@@ -28088,6 +28093,7 @@ browsershots.org#@#.advert_area
 ||d869381a42af33b.com^
 ||d8b6aa51fe.com^
 ||d8b805b9a9.com^
+||d90be87e47.com^
 ||d95d7d7060.com^
 ||d9kvn70l4ogn.com^
 ||da-ads.com^
@@ -31872,6 +31878,7 @@ browsershots.org#@#.advert_area
 ||grooveworship.space^
 ||groowzer.com^
 ||grortalt.xyz^
+||gross-success.com^
 ||grosseaffiche.com^
 ||grossedoicks.com^
 ||grouisamrehr.com^
@@ -32258,7 +32265,6 @@ browsershots.org#@#.advert_area
 ||henoticpipi.com^
 ||henrithisheprat.com^
 ||hentaibiz.com^
-||hentaiheroes.com^
 ||hentaionline.net^
 ||henwilethysen.com^
 ||heodeidsoanadthe.info^
@@ -37729,6 +37735,7 @@ browsershots.org#@#.advert_area
 ||pampela.lol^
 ||pamperencourage.com^
 ||pampimty.com^
+||pamtuea.xyz^
 ||panaservers.com^
 ||panchaxcorylet.com^
 ||panchaxumbilic.com^
@@ -41915,6 +41922,7 @@ browsershots.org#@#.advert_area
 ||spinbiased.com^
 ||spinbox.net^
 ||spinbox1.com^
+||spinna.online^
 ||spinsterremnantstooped.com^
 ||spiralewiverns.website^
 ||spiralstab.com^
@@ -53368,6 +53376,7 @@ browsershots.org#@#.advert_area
 ||armyrecognition.com/images/stories/customer/
 ||artdaily.cc/banners/
 ||asgg.ghostbin.me^
+||atoplay.com/js/rtads.js
 ||atptour.com^*/sponsors/
 ||audiotag.info/images/banner_
 ||aurn.com/wp-content/banners/
@@ -91098,6 +91107,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com
+@@||d347cldnsmtg5x.cloudfront.net/util/1x1.gif$image,domain=aplaceforeverything.co.uk
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
 @@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|dashboard.getdriven.app|hungryroot.com|usa.experian.com
@@ -96146,14 +96156,15 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||mesoftwares.vip^$all
 ||onetalkit.com^$doc
 ||gopcworlds.net^$doc
-||extrasofts.org^$doc
 ||link-ii.info^$all
 ||all-softs.net^$doc
 ||gramaindoor.com/hack/$all
 ||expertprosoft.com^$all
 ||thepcworld.net^$all
 ||lead-soft.vip^$all
-||extrasofts.net^$doc
+||extrasofts.world^$doc
+||evensoft.us^$doc
+||lorealis.vip^$doc
 ||oceanofgame.net^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
@@ -98218,6 +98229,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||auditedmicros.website^$all
 ||checkedservices.website^$all
 ||tumhiho.site^$all
+||jkbyuf756d5d.z13.web.core.windows.net^$all
+||oyster-app-j2arr.ondigitalocean.app^$all
+||truht7h4587hg4f5-secondary.z13.web.core.windows.net^$all
 ||gateway.pinata.cloud^$3p
 ||japanonlinebroadcast.live^$all
 ||crackedpc.org^$all
@@ -98268,6 +98282,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||anyplacehere.live^$all
 ||bestextensionegde.com^$all
 ||sexus.ml^
+||nekogram.org^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -107861,8 +107876,8 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Mon, 26 Jun 2023 11:53:23 GMT
-# entries:        3738
+# last updated:   Mon, 26 Jun 2023 17:38:22 GMT
+# entries:        3739
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -110090,6 +110105,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 127.0.0.1 linkrain.com
 127.0.0.1 linkreferral.com
 127.0.0.1 links-ranking.de
+127.0.0.1 links.email.crunchbase.com
 127.0.0.1 links.zoopla.co.uk
 127.0.0.1 linkshighway.com
 127.0.0.1 linkstorms.com
