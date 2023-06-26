@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hwroK2NxsgAZ9YphPlakxA
+! Checksum: MkXCr9Zlb56UBbS3TTTaFg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306260222
-! Last Modified: 2023年06月26日 02:22
+! Version: 202306260955
+! Last Modified: 2023年06月26日 09:55
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -55093,7 +55093,7 @@ pastemagazine.com###middle_rectangle
 myjoyonline.com###mjo-article-left_rectangle_mid
 dbltap.com###mm-player-placeholder-large-screen
 mmorpg.com###mmorpg_desktop_list_1
-byrdie.com,instyle.com,investopedia.com,thespruce.com,verywellhealth.com###mntl-leaderboard-header_1-0
+brides.com,byrdie.com,instyle.com,investopedia.com,lifewire.com,thespruce.com,verywellhealth.com###mntl-leaderboard-header_1-0
 sportskeeda.com###mob3-cnx-container-bottom
 pocketgamer.com###mobile-background
 express.co.uk###mobile_floating_test
@@ -56291,7 +56291,7 @@ goal.com,thisislondon.co.uk##.commercial
 telegraph.co.uk##.commercial-unit
 goal.com##.component-ad
 hunker.com,livestrong.com##.component-article-section-jwplayer-wrapper
-binnews.com,iheart.com##.component-pushdown
+binnews.com,iheart.com,steveharveyfm.com##.component-pushdown
 binnews.com,iheart.com##.component-recommendation
 dailymail.co.uk,thisismoney.co.uk##.connatix-wrapper
 realsport101.com##.connatixPS
@@ -57539,6 +57539,7 @@ redferret.net##.redfads
 arras.io##.referral
 al-monitor.com##.region--after-content
 middleeasteye.net##.region-before-navigation
+steveharveyfm.com##.region-recommendation-right
 mrctv.org##.region-sidebar
 futbol24.com##.rek
 wcostream.com##.reklam_pve
@@ -58254,6 +58255,7 @@ bellinghamherald.com##.zone-el
 exchangerates.org.uk##[alt="banner"]
 urbandictionary.com##[aria-label*="Advertise"]
 gab.com##[aria-label*="Sponsored:"]
+thepointsguy.com##[aria-label="Advertisement"]
 wsj.com##[aria-label="Sponsored Offers"]
 everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
 everydaykoala.com,playjunkie.com##[class*="__adv-block"]
@@ -91346,7 +91348,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! omtrdc.net
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
 !! tags.tiqcdn.com
-@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=hsbc.co.uk|sony.jp|vmware.com
+@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|sony.jp|vmware.com
 @@||gs.statcounter.com/chart.php$script,third-party
 @@||statcounter.com/js//fusioncharts.charts.js
 @@||statcounter.com/js/fusioncharts.js
@@ -100686,6 +100688,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 ||analytics.google.com^$3p
 @@||google-analytics.com^$domain=analytics.google.com
 ||click.aliexpress.com^$badfilter
+/statspage.$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -107861,7 +107864,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 13 Aug 1823 00:00:00
+# start date:    Thu, 14 Aug 1823 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
