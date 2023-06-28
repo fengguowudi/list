@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0UEvNPqAp0r5gYZN3hf5jg
+! Checksum: h4/ME28SeosWr7UUhAz2vw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306280223
-! Last Modified: 2023年06月28日 02:23
+! Version: 202306280952
+! Last Modified: 2023年06月28日 09:52
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -46189,6 +46189,7 @@ browsershots.org#@#.advert_area
 ||yvoria.com^
 ||yvzgazds6d.com^
 ||ywasnothyc.buzz^
+||ywvhxymyk.com^
 ||ywyeetvrjx.xyz^
 ||yx-ads6.com^
 ||yxajqsrsij.com^
@@ -46429,6 +46430,7 @@ browsershots.org#@#.advert_area
 ||zurakjapbq.com^
 ||zurwtuvt.com^
 ||zusholro.net^
+||zustaque.net^
 ||zutasrbu.com^
 ||zutorcagvmas.com^
 ||zuzodoad.com^
@@ -47946,6 +47948,7 @@ browsershots.org#@#.advert_area
 ||viewtraff.com^$third-party
 ||vitalads.net^$third-party
 ||vlyby.com^$third-party
+||vmonetize.com^$third-party
 ||voodoo.com^$third-party
 ||vungle.com^$third-party
 ||vupulse.com^$third-party
@@ -56732,6 +56735,7 @@ givemesport.com##.gms-sidebar-ad
 usatoday.com##.gnt_tb
 usatoday.com##.gnt_tbr
 usatoday.com##.gnt_x__lbl
+guides.gamepressure.com##.go20-pl-guide-right-baner-fix
 coinmarketcap.com##.goXFFk
 dallasinnovates.com,thecoastnews.com##.gofollow
 golf.com##.golf-ad
@@ -56886,6 +56890,7 @@ infobetting.com##.ibBanner
 ice.hockey##.ice_ner
 ice.hockey##.ice_werbung
 fifetoday.co.uk##.iehxDO
+guides.gamepressure.com##.if-no-baner
 techmeme.com##.ifsp
 flicksmore.com##.image_auto
 exchangerates.org.uk##.imt4
@@ -65279,7 +65284,6 @@ _track_pixel.gif?
 /client_204?$image,other,ping,script
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
-/generate_204$~xmlhttprequest
 ||google.com/gen_204?
 ||googleapis.com^*/gen_204?
 ||gstatic.com/gen_204?
@@ -92431,8 +92435,6 @@ anidl.org##+js(aopw, _pop)
 freecoursewebsite.com##ins.adsbygoogle
 codesnail.com##+js(nostif, css_class.show)
 codesnail.com##.widget_custom_html
-beautifulero.com##+js(aopr, loadTool)
-||12.beautifulero.com^
 babytorrent.*,eztv-torrent.net##+js(aopr, decodeURI)
 pops.tv#@##adsContainer
 rojadirectatvhd.*##+js(aeld, , _0x)
@@ -93473,11 +93475,6 @@ descargaspcpro.net##.stickywrap
 finanzas-vida.com##[href="https://zplayer.live/"]
 finanzas-vida.com##+js(set, blurred, false)
 hurirk.net,regecish.net##+js(adfly-defuser)
-amazingdarpon.com###wpsafe-generate:style(display: block !important;)
-amazingdarpon.com###wpsafe-wait1
-amazingdarpon.com##.wpsafe-top ~ #content
-go.zolomix.in##+js(set, blurred, false)
-go.zolomix.in##.banner-inner
 mettablog.com##+js(aost, String.prototype.charCodeAt, ai_)
 skiplink.org##+js(aopr, app_vars.force_disable_adblock)
 skiplink.org##+js(nowoif)
@@ -93501,9 +93498,6 @@ clikern.com##+js(set, blurred, false)
 clikern.com##+js(aopr, open)
 clikern.com##.banner-inner
 clikern.com##.blog-item
-cashathome.online##+js(acs, document.querySelectorAll, popMagic)
-cashathome.online##+js(set, blurred, false)
-cashathome.online##.banner
 ofilmywap.*,kannadamasti.*,buyjiocoin.*,filmygod13.*##+js(nowoif)
 fiedrive.com##+js(aopr, app_vars.force_disable_adblock)
 veryfastdownload.pw##+js(aopr, SmartPopunder.make)
@@ -93521,10 +93515,6 @@ uproxy2.*##+js(aost, Math.floor, )
 *$script,3p,domain=uproxy2.biz
 18tube.sex##+js(aeld, getexoloader)
 18tube.sex##.opt
-shrinkin.xyz##+js(aopr, app_vars.force_disable_adblock)
-shrinkin.xyz##+js(set, blurred, false)
-shrinkin.xyz##.banner
-shrinkin.xyz##div.col-md-6:first-child
 pix4link.com##+js(set, blurred, false)
 ||doubleclick.net^$xhr,redirect-rule=nooptext,domain=liveschauen.com
 liveschauen.com##.banner
@@ -93537,7 +93527,6 @@ naturalnews.com##+js(aost, $, :1:1)
 naturalnews.com##.Header
 ||naturalnews.com^$script
 @@||naturalnews.com/*=$script,1p
-subscene.vip##+js(nano-sib, #timer)
 civilenggforall.com##+js(aopr, blockAdBlock)
 *$script,3p,denyallow=chatango.com|cloudflare.net|cloudfront.net|disqus.com|disquscdn.com|fastlylb.net,domain=rawkuma.com
 rawkuma.com##+js(aeld, readystatechange, document.removeEventListener)
@@ -93612,25 +93601,8 @@ onlynudes.tv##+js(acs, document.addEventListener, adsbygoogle)
 onlynudes.tv##.wps-iframe-loader
 openloading.com##+js(ra, href, #clickfakeplayer)
 openloading.com###clickfakeplayer
-cryptoforu.org##+js(nowoif)
-cryptoforu.org##[href^="https://a-ads.com/"]
-cryptoforu.org##div.row:first-child > .col-xs-12
-cryptoforu.org##div.row:nth-of-type(3) > .col-xs-12
-cryptoforu.org###custom_html-28
-cryptoforu.org###custom_html-23
-cryptoforu.org###custom_html-26
-cryptoforu.org##.xc449bad4854773ff
 codare.fun##+js(acs, document.addEventListener, google_ad_client)
 javsex.guru##+js(acs, document.querySelectorAll, popMagic)
-@@||lilymanga.com^$ghide
-lilymanga.com##.c-bottom-sidebar
-lilymanga.com##.ai-block-number
-lilymanga.com##body:not(.home) .c-sidebar:has(.ai-track)
-lilymanga.com##.body-wrap > .c-top-second-sidebar[style=""]
-lilymanga.com##.wp-manga.c-top-sidebar.c-sidebar[style=""]
-lilymanga.com##+js(aost, String.prototype.charCodeAt, ai_)
-lilymanga.com##+js(nostif, document.createElement)
-lilymanga.com##.ad
 mhdtvworld.*##+js(acs, eval, replace)
 @@||explosivemenu.com^$ghide
 explosivemenu.com##ins.adsbygoogle
@@ -93958,15 +93930,6 @@ manganelo.tv##+js(aopr, JSON.parse)
 1piecemanga.com##+js(acs, document.querySelectorAll, popMagic)
 movizland.*##+js(aopr, open)
 upstore.net##+js(nano-sib, countDown, 1150, 0.5)
-@@||downloads.descendant.me^$ghide
-downloads.descendant.me##[id^="aswift"]:style(visibility: collapse !important;)
-downloads.descendant.me##+js(set, descendant.counter.isStopped, false)
-downloads.descendant.me##+js(nosiif, disabled=!0)
-@@||fundingchoicesmessages.google.com^$script,domain=downloads.descendant.me
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=downloads.descendant.me
-@@||googletagservices.com/activeview/js/current/osd.js$domain=downloads.descendant.me
-@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl$domain=downloads.descendant.me
-@@||googleads.g.doubleclick.net/pagead/ads$frame,domain=downloads.descendant.me
 vcdn2.space##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01;"]
 vcdn2.space##+js(disable-newtab-links)
 ythub.cc##+js(nowoif, !dropbox)
@@ -98660,8 +98623,6 @@ duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports
 @@||s0.2mdn.net/instream/*$domain=cnet.com
 ||top.mail.ru^$badfilter
 ||top.mail.ru^$3p
-@@||css.washingtonpost.com/*/ads.css$css,1p
-@@||washingtonpost.com/*/default-article/tools/feature-loader/render.js$script,1p
 ||2o7.net^$badfilter
 ||2o7.net^$3p
 ||quantcast.com^$badfilter
@@ -98780,8 +98741,6 @@ reyada.com#@#.ads_area
 @@||visa.com/*/analytics/ntpagetag.js$script,1p
 @@||gemius.pl/xlgemius.js$script,domain=jn.pt
 @@||secure.netscope.marktest.pt/netscope-gemius.js$script,domain=jn.pt
-/ads6.$badfilter
-/ads6.$domain=~ads6.adesignstudio.eu
 @@||gemius.pl/xlgemius.js$script,domain=dn.pt
 @@||marktest.pt/netscope-gemius.js$script,domain=dn.pt
 hintergrundbild.org#@#.ads1
@@ -98951,7 +98910,6 @@ warszawawpigulce.pl##.eklama
 @@||soundcloud.com^$script,domain=dailywire.com
 @@||savings.bizx.info^$domain=sourceforge.net
 @@||bizx.info^$websocket,domain=sourceforge.net
-@@||quantcast.mgr.consensu.org^$script,domain=sourceforge.net
 @@||cdn.gotraffic.net^$domain=bloomberg.*
 @@||js.spotx.tv/directsdk/$script,domain=bloomberg.*
 @@||spotxcdn.com/integration/directsdk/$script,domain=bloomberg.*
@@ -99138,8 +99096,6 @@ calgaryherald.com#@#.local-branding
 @@*$csp,domain=activistpost.com
 @@||d24n15hnbwhuhn.cloudfront.net/libs/amplitude-$script,domain=gethuman.com
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.css$stylesheet,domain=abcya.com
-larena.it#@#.v3_horz-banner
-@@||media.larena.it/media/lib/cmp/cmp.bundle.js$script,domain=larena.it
 @@||hyundaiusa.com/js/analytics/analytics.js$script,1p
 @@||appspot.com/api/*/feed/tag$xhr,domain=apnews.com
 @@||djnf6e5yyirys.cloudfront.net/js/friendbuy.min.js$script,domain=imperfectfoods.com|imperfectproduce.com
@@ -99193,7 +99149,6 @@ rte.ie###gpt-leaderboard
 #@#a[href^="https://laptop-updates.brave.com/download/"]
 motherless.com#@#.media-linked
 indoxx1.center#@#.lazy
-@@||cmp.macworld.com/get_site_data?$xhr,1p
 /^https?:\/\/(35|104)\.(\d){1,3}\.(\d){1,3}\.(\d){1,3}\//$popup,3p,badfilter
 @@||myreadingmanga.info/wp-content/uploads/*.jpg$image,1p
 ||myreadingmanga.info/wp-content/uploads/*.gif$image
@@ -99657,7 +99612,6 @@ humanbenchmark.com##+js(set, pubg.unload, noopFunc)
 *$css,3p,domain=gamez1a.com,badfilter
 @@||treg.hearstnp.com/treg.js$script,domain=sfchronicle.com|sfgate.com
 politico.com##+js(set, generateGalleryAd, noopFunc)
-@@||gdpr-tcfv2.sp-prod.net/wrapperMessagingWithoutDetection.js$script,domain=ekstrabladet.dk
 ||googlevideo.com^$media,redirect=noopmp4-1s,domain=mlb.com
 @@||mlbstatic.com/*/VisitorAPI.js$script,domain=mlb.com
 @@||mlbstatic.com/mlb.com/*$script,domain=mlb.com
@@ -100056,7 +100010,6 @@ travelerdoor.com##+js(no-xhr-if, cloudflare.com/cdn-cgi/trace)
 @@||wewon.to^$xhr,media,domain=soap2day.*
 pewresearch.org##+js(set, ga, noopFunc)
 @@||asset.fwcdn2.com/js/storyblock.js$script,domain=narcity.com
-@@||quantcast.mgr.consensu.org^*tcfv2*cmp2.js?referer=$script
 @@||cdn.questionpro.com^$css
 @@||rdstation.com.br^*api/$xhr
 @@||googletagmanager.com/gtm.js$script,domain=www.shockwave.com
@@ -107928,7 +107881,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 15 Aug 1823 00:00:00
+# start date:    Sat, 16 Aug 1823 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
