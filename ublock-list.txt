@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CFkEiJftrwAuor4y56nwaQ
+! Checksum: IaHzGH8XiaoOwuzCEXoWYQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202306291425
-! Last Modified: 2023年06月29日 14:25
+! Version: 202306292037
+! Last Modified: 2023年06月29日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -41530,7 +41530,6 @@ browsershots.org#@#.advert_area
 ||sixtybirthsuperstition.com^
 ||sizeilksohs.com^
 ||siziermamas.com^
-||sizyreelingly.com^
 ||sizzlerisoflor.com^
 ||sjhfnmfki.com^
 ||sjomilbedwarf.digital^
@@ -55278,6 +55277,7 @@ hardwaretimes.com###tie-block_1077
 hardwaretimes.com###tie-block_1239
 hardwaretimes.com###tie-block_2144
 hardwaretimes.com###tie-block_3197
+siasat.com###tie-block_3274
 supercheats.com###titlebar
 supercheats.com###titlebar_banner
 box-core.net,mma-core.com###tlbrd
@@ -57786,7 +57786,7 @@ coinpedia.org,siasat.com##.stream-item-inline-post
 conservativebrief.com##.stream-item-mag
 how2electronics.com##.stream-item-top
 todayuknews.com##.stream-item-top-wrapper
-hardwaretimes.com##.stream-item-widget
+hardwaretimes.com,siasat.com##.stream-item-widget
 coinpedia.org##.stream-title
 stellar.ie##.stuck
 news.stv.tv##.stv-article-gam-slot
@@ -60941,10 +60941,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -geoIP.js
 -inview-tracker.
 -optimization-metrics.
--page-analytics.
 -quantcast-measurement.
--rttracking.
--sa-tracker-
 -scroll-tracker.js
 -track-inview.
 -tracking-pixel.
@@ -60965,8 +60962,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .com/hitlog?
 .com/log/?
 .com/log?event
-.com/log?srvc
-.com/log?type
 .com/mm.gif?
 .com/pvlog?
 .com/s/at?site
@@ -60995,14 +60990,11 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .ntpagetag.
 .php?action=browse&
 .php?action_name=
-.php?hey_stat=
 .php?logRefer=
 .php?logType=
 .php?notrack=
 .php?p=stats&
 .php?ping=
-.php?refcode=
-.php?self=
 .php?stats=
 .php?tracking=
 .sharecounter.$third-party
@@ -61010,12 +61002,11 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .siteclarity.
 .sitetracking.
 .skimlinks.js
-.snowplowanalytics.$domain=~snowplowanalytics.com
+.snowplowanalytics.
 .stats?action=
 .svc/?tracking_id=
 .tv/log?event
 .v4.analytics.
-.vsTracking.
 .web-vitals-reporting.
 /.well-known/shopify/monorail
 /0.gif?
@@ -61138,7 +61129,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /adv?pixel_
 /adviewtrack.
 /advstats/*
-/adwords-conversion-tracking.
 /adwords-tracker.
 /adx_remote.
 /aff_i?offer_id=
@@ -63290,7 +63280,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /pageview_candidate.
 /pageviews-counter-
 /pageviews.gif?
-/pageviews/*$domain=~mediawiki.org|~pageviews.wmcloud.org|~quiz.mkpo.li|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
 /pageviews?token=
 /pageviews_counter.
 /PageviewsTracker.
@@ -64552,7 +64541,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /vtrack.aspx
 /vtrack.php?
 /vtrack?vid=
-/vtracker.$domain=~vtracker.org
 /vTracker_
 /vwFiles/analytics/*
 /w.gif?
@@ -64603,7 +64591,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /webstats/track.php?
 /webstats_counter/*
 /webtag.js
-/webtrack.$domain=~webtrack.ballcolegrave.co.uk|~webtrack.ballseed.com|~webtrack.dhlecs.com|~webtrack.dhlglobalmail.com
 /webtracker.
 /webtracking/*$~subdocument,domain=~wwwapps.ups.com
 /webtraffic.js
@@ -64630,6 +64617,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /wlexpert_tracker.
 /wlexpert_tracker/*
 /wmxtracker.js
+/woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
 /worldwide_analytics/*
 /wp-click-track/*
@@ -72177,6 +72165,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pico.tools/metrics/
 ||ping-admin.ru^$third-party
 ||ping.dozuki.com^
+||ping.fastsimon.com^
 ||ping.instantsearchplus.com^
 ||pings.conviva.com^
 ||pings.vidpulse.com^
@@ -98441,7 +98430,7 @@ pcgamingwiki.com##+js(href-sanitizer, a[href^="https://greenmangaming.sjv.io/c/"
 bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not([content*="/details/"]):upward(1) > script[src*="optimizely"]
 nypost.com,pagesix.com##+js(json-prune, dataLayer.trackingId user.trackingId)
 nypost.com,pagesix.com##+js(cookie-remover, blaize_tracking_id)
-||telemetry.transcend.io/collect
+||telemetry*.transcend.io^
 fandom.com##+js(set-cookie, tracking_session_id, OK, , reload, 1)
 fandom.com##+js(set-cookie, Geo, OK)
 !#include resource-abuse.txt
@@ -100357,7 +100346,7 @@ tunegenie.com##.adcontainer
 itmedia.co.jp###ulCommentWidget[style*="display"]:style(display: block !important;)
 @@||ftb.ca.gov/js/webtrends.min.js$script,1p
 @@||wordcounter.icu^$cname
-@@||cdn.segment.com/analytics.js$script,domain=jacksonguitars.com
+jacksonguitars.com##+js(set, analytics, {})
 elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 @@||manchestereveningnews.co.uk^$xhr,script,1p
 @@||mirror.co.uk^$script,xhr,1p
@@ -100389,7 +100378,7 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 @@||cds.connatix.com/*/hls$script,3p
 #@#.wps-player-wrap
 @@||img.connatix.com/*.jpg$3p,image,domain=accuweather.com
-bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,flkeysnews.com,fresnobee.com,miamiherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,flkeysnews.com,fresnobee.com,heraldonline.com,miamiherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
 thestate.com##^html > head > script:has-text(connatix.id):upward(1) > script:has-text(window.cnx)
 variety.com##^html > head > link[rel="canonical"]:not([href*="/video/"]):upward(1) > script[src*="connatix"]
 @@||cd.connatix.com/connatix.playspace.js^$script,3p,domain=adweek.com
@@ -100592,9 +100581,10 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 ||cdn.optimizely.com/js/$important,domain=fandom.com
 fandom.com##+js(set, optimizely, {})
 fandom.com##+js(set, optimizely.initialized, true)
-@@||googletagmanager.com^$script,domain=festool.*|festoolcanada.com|festoolusa.com
+@@||googletagmanager.com/gtm.js$script,domain=festool.*|festoolcanada.com|festoolusa.com
 uqload.co#@#+js(abort-current-script, document.createElement, break;case $.)
 @@||areaclienti.generali.it/AreaClienti/plugins/dynatrace-cordova-plugin/$script,1p
+eksisozluk1923.com##.ad-banner:remove()
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
