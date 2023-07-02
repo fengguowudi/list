@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UIB+AWEGI05bNDGhqnYXHA
+! Checksum: ZTcmCj1UYLy0Ll0eVkbpsg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307021422
-! Last Modified: 2023年07月02日 14:22
+! Version: 202307022034
+! Last Modified: 2023年07月02日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3628,7 +3628,7 @@
 ://adn.*/zone/$subdocument
 ://ads.$~image,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cafebazaar.ir|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.elevateplatform.co.uk|~ads.finance|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lollipod.de|~ads.magalu.com|~ads.mba|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ://ads2.
-://adv.$domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.lack-girl.com|~adv.michaelgat.com|~adv.msk.ru|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
+://adv.$domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.kompas.id|~adv.lack-girl.com|~adv.michaelgat.com|~adv.msk.ru|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://affiliate.$third-party
 ://affiliates.$third-party
 ://affiliates2.$third-party
@@ -4528,7 +4528,7 @@ _800x80_
 /zp-redirect?$popup
 ://adn.*/zone/$popup
 ://ads.$popup,domain=~smartnews.com
-://adv.$popup,domain=~adv.lack-girl.com
+://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
 |javascript:*setTimeout$popup
 |javascript:*window.location$popup
 |data:text$popup,domain=~clker.com
@@ -61448,7 +61448,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /analytics/trackevent
 /analytics/visit/*
 /Analytics/Visitor.
-/analytics/web/*
 /analytics/wss?
 /analytics?body=
 /analytics?http_referer
@@ -64714,7 +64713,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /web-vitals-
 /web-vitals.
 /web-vitals/*
-/web/analytics.$script
 /web/push?
 /web_analytics/*
 /web_answertip.
@@ -67212,7 +67210,6 @@ _mongo_stats/
 ||opstag.com^$third-party
 ||optify.net^$third-party
 ||optimix.asia^$third-party
-||optimizely.com^$third-party
 ||optimost.com^$third-party
 ||optimove.net^$third-party
 ||optorb.com^$third-party
@@ -69123,6 +69120,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||headyhook.com^
 ||healflowers.com^
 ||hearinglizards.com^
+||heartbreakingmind.com^
 ||hearthorn.com^
 ||heavyplayground.com^
 ||helpcollar.com^
@@ -71053,7 +71051,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.firespring.com^
 ||analytics.foresee.com^
 ||analytics.formstack.com^
-||analytics.google.com^$third-party
 ||analytics.gooogol.com^
 ||analytics.groupe-seb.com^
 ||analytics.growthphysics.com^
@@ -71332,6 +71329,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cc.swiftype.com^
 ||ccexperimentsstatic.oracleoutsourcing.com^
 ||cdn-channels-pixel.ex.co^
+||cdn-pci.optimizely.com^
 ||cdn.trafficexchangelist.com^$third-party
 ||cdn.usefathom.com^
 ||cdn3.net/pixe/
@@ -72353,6 +72351,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||open.delivery.net^
 ||openxcdn.net^$third-party
 ||optimeeze.appspot.com^
+||optimizely.com/log
 ||optmn.cloud/hb/
 ||ora.tv/j/ora_evttracking.js
 ||orb.ee/collect
@@ -84997,7 +84996,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||info.kubotausa.com^
 ||intelpartneralliance.intel.com^
 ||learn.liensolutions.com^
-||seek.intel.com^
 ||smb.info.shutterstock.com^
 ||tracking.aconex.com^
 ||tracking.guidehouse.com^
@@ -91434,7 +91432,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
-@@||ssl.gstatic.com/analytics/$script,domain=analytics.google.com
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 @@||statcounter.com/css/packed/statcounter-$stylesheet,~third-party
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
@@ -91517,9 +91514,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! imrworldwide.com/*ggc
 @@||imrworldwide.com/novms/js/2/ggc$script,domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|espn.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|la7.it|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sky.it|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|tvnow.de|video.corriere.it|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|corriereadriatico.it|couriermail.com.au|dailyexaminer.com.au|fanpage.it|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ipswichadvertiser.com.au|la7.it|last.fm|leggo.it|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|quotidianodipuglia.it|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
-!! optimizely.com
-@@||cdn.optimizely.com/js/$domain=bikesales.com.au|compassion.com|creditsesame.com|fandom.com|fedex.com|freeshipping.com|heroku.com|kabeleins.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tcgplayer.com
-@@||optimizely.com/datafiles/$domain=alaskaair.com|guildeducation.com|hm.com|nike.com|printify.me|talktalk.co.uk|tommy.com|wallapop.com
 !! mpsnare.iesnare.com
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 !! tag.aticdn.net
@@ -91551,7 +91545,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||omtrdc.net/b/ss/$image,domain=britishairways.com|halifax-online.co.uk
 @@||omtrdc.net/rest/$xmlhttprequest
 @@||heatmap.it^$domain=heatmap.com|heatmap.it|heatmap.me|heatmap.org
-@@||google.com/analytics/$domain=analytics.google.com
 !----------------Allowlists to fix broken international sites-----------------!
 !---------- German ----------
 @@||adconsole.ch/api/ws-businessclick/*/data.json$domain=finanzen.ch
@@ -95350,6 +95343,7 @@ xnxx.com,xvideos.*###ad-footer
 retrostic.com,sickchirpse.com###ad-header
 chortle.co.uk,coloring.ws,dltk-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com,primeraescuela.com###adBanner
 #@#.ad-placement
+live.cricket.com.au##.ad-placement, .yes
 #@#.google-ad
 ~mmiyue.com##.google-ad:not(.testAd)
 /ads-prebid.js$script,redirect-rule=prebid-ads.js
@@ -96546,6 +96540,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||bibtu.com^$all
 ||xiuty.com^$all
 ||pejik.com^$all
+||oyndr.com^$all
 /axad/?lpkey=$doc
 ||vlcdownloads.com^$all
 ||borntiecalm.live^$all
@@ -98805,7 +98800,6 @@ pythonjobshq.com##+js(aopr, Keen)
 @@||cdn.ampproject.org/*/amp-geo-$script,domain=bozemandailychronicle.com|engadget.com|kmbc.com|koat.com|pilotonline.com|richmond.com|stltoday.com|amp.tmz.com|tucson.com|amp.usatoday.com|watchdog.org
 @@/blockadblock.$script,domain=blockadblock.com
 ||carambo.la^*/getAngularLayer$script,redirect=noopjs,domain=imleagues.com
-@@||cdn.optimizely.com/json/*$xhr,domain=dashboard.pantheon.io
 ||oakley.com/_ui/dist/scripts/vendor/tealium.js$script,1p,redirect=noopjs,important
 ||oakleysi.com/_ui/dist/scripts/vendor/tealium.js$redirect=noopjs,important
 orange.fr#@##o_carrepub
@@ -98965,7 +98959,6 @@ britannica.com###md-media-overlay-ad
 ||tagcommander.com/*/tc_$script,important,domain=n-tv.de
 @@||static-olxeu.akamaized.net/static/olxbg/*/js/tracking/ninja.js$script,domain=olx.bg
 ||optimizely.com^$badfilter
-||optimizely.com^$3p
 @@||cc.naver.com/cc$frame,1p
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=sbs.com.au
 ||src.litix.io/core/*/mux.js$script,redirect=noopjs,domain=kanald.com.tr
@@ -99083,7 +99076,6 @@ hdblog.it#@#a[href^="https://www.amazon."][href*="tag="]
 @@||ticketonline.de^$frame,domain=stage-entertainment.de
 ||marketo.com^$badfilter
 @@||aparat.com/public/public/player/sabaplayer-vjs/videojs-contrib-ads$script,1p
-@@||cdn.optimizely.com/public/*$script,domain=nytimes.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=classicreload.com
 @@||easyweb.td.com/*/loggingService.js$script,1p
 @@||plugin.intuitcdn.net/ua-parser-js/*/ua-parser.min.js$script,domain=qbo.intuit.com
@@ -99113,7 +99105,6 @@ tomsguide.com#@#.widget-ads
 ||evergage.com^$3p
 ||ti.com/assets/js/headerfooter/$script,badfilter
 @@||texasinstruments.evergage.com^$script,domain=ti.com
-@@||cdn.optimizely.com/js/*$script,domain=aetv.com
 hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com#@#.header-ad
 @@||vshare.eu/$popup,domain=putlockers.fm
 @@||adobedtm.com^*/satellitelib-$script,domain=virginmobile.ca
@@ -99429,7 +99420,6 @@ yugioh.com##.cookie-policy-container-invisible.cookie-policy-container
 viu.com##.ad-ph
 viu.com##.banner_ad_label
 viu.com##+js(no-xhr-if, mobileanalytics)
-@@||cdn.optimizely.com/js/*$script,domain=hbo.com
 @@||ak.sail-horizon.com/spm/spm$script,domain=watch.wwe.com
 @@||aliexpress.com^*?af=$3p,popup,domain=umidigi.com
 qqcinema21.com#@#.headads
@@ -100010,7 +100000,6 @@ picoworkers.com##+js(fingerprint2)
 @@||malwaretips.com/blogs/wp-content/uploads/*/Sponsored-Links$image,1p
 @@||jep-asset.akamaized.net/jiostaticresources/*/js/adobe-analytics.js$script,domain=jio.com
 ||googletagmanager.com/gtag/js$script,redirect=noop.js,domain=video.isilive.ca
-@@||cdn.optimizely.com/js/$script,domain=foxsports.com
 bestofcomicbooks.com##+js(aeld, load, "undefined")
 #@#a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="]
 #@#a[href^="https://www.sheetmusicplus.com/?aff_id="]
@@ -100099,7 +100088,6 @@ safeframe.googlesyndication.com##.left-container
 xunta.gal#@##anuncio
 @@||googletagmanager.com/gtm.js$script,redirect-rule,domain=corsair.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule,domain=gamedeveloper.com
-@@||cdn.optimizely.com/js/$script,domain=santanderbank.com
 @@tracking/ninja.js$script,domain=olx.ro,badfilter
 ||tealium.com^$badfilter
 ||tealium.com^$3p
@@ -100150,7 +100138,6 @@ warscrap.io##.squareAdContainer
 warscrap.io##.main-menu-bottom
 warscrap.io###warscrap-io_336x280
 warscrap.io###warscrap-io_728x90
-@@||cdn.optimizely.com/datafiles/*.json$xhr,domain=myaccount.amfam.com
 @@||fmkorea.com/modules/point/icons/*$image,1p
 *$script,3p,domain=animeflv.net,badfilter
 kurashiru.com#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
@@ -100449,7 +100436,6 @@ javcrave.com#@#.widget_custom_html
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=index.hr
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=index.hr
 ||sohu.com/cityjson$script,domain=netac.com,redirect=noopjs,important
-@@||cdn.optimizely.com/datafiles/*.json$xhr,domain=upgrade.com
 @@||soapps.net^*live/loader/counter.js$script
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=amachamusic.chagasi.com
 @@||amazon-adsystem.com/*/apstag.js$script,redirect-rule,domain=weather.com
@@ -100467,7 +100453,6 @@ palatifini.it##body:style(overflow: auto !important;)
 @@||cmp.dmgmediaprivacy.co.uk/gdpr/*$xhr,domain=gbnews.uk
 dmzj.com##body:style(overflow: auto !important;)
 @@||pnp.co.za/pnpstorefront/_ui/shared/js/analyticsmediator.js$script,1p
-||cdn.optimizely.com/js/$script,redirect=noopjs,domain=myscore.cibil.com
 ||encar.com/js/*/analytics.js$script,1p,redirect-rule=noop.js
 @@||cdn.logrocket.io/LogRocket.min.js$script,domain=webappui.jobnimbus.com
 @@||cdn.logrocket.io/logger-1.min.js$script,domain=webappui.jobnimbus.com
@@ -100518,8 +100503,6 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 @@||abcmouse.com/*/analytics.js$script,1p
 @@||argos.co.uk/utag/utag.sync.js$script,1p
 ||samash.com^$script,redirect-rule=noopjs
-@@||cdn.optimizely.com/js/*.js$script,domain=anwb.nl
-@@||cdn.optimizely.com/public/*$script,domain=anwb.nl
 @@||google.com/adsense/search/ads.js$script,domain=diigo.com
 ||join.megaphonetv.com^$3p,badfilter
 @@||video.qq.com/getvinfo$script,1p
@@ -100550,7 +100533,8 @@ filelu.com#@#.banner_ads
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gizmodo.com,redirect-rule=google-ima.js
 @@||mcs-va.tiktok.com/v1/user/webid$xhr
 @@||tn.voyeurhit.com/contents/$image,domain=voyeurhit.tube
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=eitb.eus
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=eitb.eus
+eitb.eus##.body--onPlayer--ads:remove-class(body--onPlayer--ads)
 ||counter2.blog.livedoor.com^$badfilter
 ||counter2.blog.livedoor.com^$image
 #@#[id^="etarget"]
@@ -100629,7 +100613,7 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 @@||cds.connatix.com/*/hls$script,3p
 #@#.wps-player-wrap
 @@||img.connatix.com/*.jpg$3p,image,domain=accuweather.com
-bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,flkeysnews.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,miamiherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,flkeysnews.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,miamiherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
 thestate.com##^html > head > script:has-text(connatix.id):upward(1) > script:has-text(window.cnx)
 variety.com##^html > head > link[rel="canonical"]:not([href*="/video/"]):upward(1) > script[src*="connatix"]
 @@||cd.connatix.com/connatix.playspace.js^$script,3p,domain=adweek.com
