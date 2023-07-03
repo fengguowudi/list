@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jdQPqCoPUNYnptFld+EOZw
+! Checksum: iRBIdVZE0BWLBaPe9I8tjw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307030951
-! Last Modified: 2023年07月03日 09:51
+! Version: 202307031424
+! Last Modified: 2023年07月03日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52153,7 +52153,6 @@ browsershots.org#@#.advert_area
 ||media.netrefer.com^
 ||mediaplex.com/ad/
 ||memesng.com/ads
-||metabet.io/js/global.js
 ||mmosale.com/baner_images/
 ||mmwebhandler.888.com^
 ||msn.com/images/v9/en-us/game/tw48/960x300_$third-party
@@ -55034,6 +55033,8 @@ cheatcodes.com###game_details_ad
 geekwire.com###geekwork
 engadget.com###gemini-right-rail-thumbnails
 investing.com###generalOverlay
+getvideobot.com###getvideobot_com_300x250_responsive
+getvideobot.com###getvideobot_com_980x250_billboard_responsive
 glowstery.com###ghostery-highlights
 freegames.org###gla
 wordcounter.net###glya
@@ -62246,6 +62247,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /etracker.
 /etracker/*
 /eu-survey.js
+/eumcollector/*
 /eva-analytics.
 /event-log/*
 /event-log?
@@ -71394,7 +71396,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cc.swiftype.com^
 ||ccexperimentsstatic.oracleoutsourcing.com^
 ||cdn-channels-pixel.ex.co^
-||cdn-pci.optimizely.com^
 ||cdn.trafficexchangelist.com^$third-party
 ||cdn.usefathom.com^
 ||cdn3.net/pixe/
@@ -72416,7 +72417,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||open.delivery.net^
 ||openxcdn.net^$third-party
 ||optimeeze.appspot.com^
-||optimizely.com/log
 ||optmn.cloud/hb/
 ||ora.tv/j/ora_evttracking.js
 ||orb.ee/collect
@@ -72601,6 +72601,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||recipefy.net/analytics.js
 ||recs.shareaholic.com^
 ||recurly.com/js/v1/events
+||redditsave.com/api/event
 ||redditstatic.com/ads/pixel.js
 ||redfast.com/ping/
 ||reelevant.dev/tracker
@@ -73446,6 +73447,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dxwgpw0lkcum5.cloudfront.net^
 ||dy2xcjk8s1dbz.cloudfront.net^
 ||dyv1bugovvq1g.cloudfront.net^
+||optimizely.com/client_storage/
+||optimizely.com/js/geo
+||optimizely.com/log
+||optimizely.com/public/
 ||firebase.googleapis.com^$domain=terabox.fun
 ||firebaseinstallations.googleapis.com^$domain=terabox.fun
 !||cefgo.com^
@@ -97962,10 +97967,6 @@ sevenjournals.com###yuidea-wait1
 joomlabeginner.com##+js(nostif, eb)
 joomlabeginner.com##.bannergroup
 learnclax.com##+js(acs, $, fetch)
-@@||games.miamiherald.com^$ghide
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=games.miamiherald.com
-games.miamiherald.com##[class*="displayAd"]
-games.miamiherald.com##+js(nano-sib, game)
 jpoplibs.us##+js(nosiif, visibility, 1000)
 reit-tirement.com##+js(nosiif, visibility, 1000)
 ytmp3x.com##+js(nowoif)
@@ -101441,7 +101442,8 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||cdn.branch.io/branch-latest.min.js$important,domain=pac-12.com
 ||onesignal.com^$domain=gamersdiscussionhub.com
 ||narrativ.com^$domain=androidauthority.com
-||geoip.cdn.arkadiumhosted.com^$domain=bestforpuzzles.com|charlotteobserver.com|independent.co.uk|standard.co.uk
+||optimizely.techtarget.com^
+||geoip.cdn.arkadiumhosted.com^$domain=bestforpuzzles.com|charlotteobserver.com|independent.co.uk|miamiherald.com|standard.co.uk
 mozilla.org##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?redirect="], ?redirect)
 *$ping,domain=webnovel.com
 *$xhr,3p,denyallow=github.com|stripe.com|fpjs.pro,domain=fingerprint.com|~dev.fingerprint.com
@@ -103407,7 +103409,7 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 @@||cds.connatix.com/*/hls$script,3p
 #@#.wps-player-wrap
 @@||img.connatix.com/*.jpg$3p,image,domain=accuweather.com
-bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,flkeysnews.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,miamiherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,flkeysnews.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,miamiherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
 thestate.com##^html > head > script:has-text(connatix.id):upward(1) > script:has-text(window.cnx)
 variety.com##^html > head > link[rel="canonical"]:not([href*="/video/"]):upward(1) > script[src*="connatix"]
 @@||cd.connatix.com/connatix.playspace.js^$script,3p,domain=adweek.com
