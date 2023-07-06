@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bRzyx2oRTiHGRWb/RJ1WMg
+! Checksum: VHosIEHBC3Ski9vT3KvqrA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307060224
-! Last Modified: 2023年07月06日 02:24
+! Version: 202307060954
+! Last Modified: 2023年07月06日 09:54
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57414,6 +57414,7 @@ fandom.com##.marketplace
 imgur.com,pushsquare.com,songlyrics.com##.masthead
 timeextension.com##.masthead > .insert
 eetimes.eu,korinthostv.gr,powerelectronicsnews.com##.masthead-banner
+merriam-webster.com##.max-h-\[94px\].min-h-\[94px\].max-w-\[730px\]
 mayoclinic.org##.mayoad
 racgp.org.au##.mb-1.small
 amgreatness.com##.mb-10.mx-auto
@@ -99218,6 +99219,8 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||cyber-template.com^$all
 ||mirrorbangla24.com/best/$all
 ||top-cheats.com^$all
+||thepcworlds.com^$doc
+||fortnitehack.creatium.site^$doc
 ||oceanofgame.net^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
@@ -110903,8 +110906,8 @@ epson.com.cn##+js(set, _gsq.push, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Mon, 03 Jul 2023 14:14:42 GMT
-# entries:        3739
+# last updated:   Wed, 05 Jul 2023 19:10:28 GMT
+# entries:        3740
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -110912,7 +110915,7 @@ epson.com.cn##+js(set, _gsq.push, noopFunc)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 23 Aug 1823 00:00:00
+# start date:    Sun, 24 Aug 1823 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -114644,6 +114647,7 @@ epson.com.cn##+js(set, _gsq.push, noopFunc)
 127.0.0.1 zeus.developershed.com
 127.0.0.1 zeusclicks.com
 127.0.0.1 zion-telemetry.api.cnn.io
+127.0.0.1 zippingcare.com
 127.0.0.1 zlp6s.pw
 127.0.0.1 zm232.com
 127.0.0.1 zmedia.com
