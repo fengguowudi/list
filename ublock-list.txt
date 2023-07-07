@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SouW6vFrKCjUcd6jvEZESw
+! Checksum: TEI4s5nO3gUAoE5EetdHrQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307071425
-! Last Modified: 2023年07月07日 14:25
+! Version: 202307072038
+! Last Modified: 2023年07月07日 20:38
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -96531,7 +96531,7 @@ comixzilla.com##+js(acs, document.createElement, 'script')
 unsurcoenlasombra.com##+js(aopr, google_jobrunner)
 watchmovierulz.*##+js(nowoif)
 anigogo.net,animepl.xyz,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,faptiti.com,fbgo.*,goana.xyz,gomovizplay.com,hlsplayer.xyz,javplaya.com,oxl.one,playersb.com,sbanh.com,sbbrisk.com,sbchill.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbhight.com,sblanh.com,sblongvu.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.*,ssbstream.net,streamsb.*,streamsss.net,subsb.net,tubesb.com,vidmovie.xyz,view345.com,viewsb.com,watchsb.com,xvideostream.net##+js(aopr, __Y)
-anigogo.net,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,fbgo.*,gomovizplay.com,hlsplayer.xyz,lvturbo.com,oxl.one,playersb.com,sbanh.com,sbbrisk.com,sbchill.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbface.com,sbfast.com,sbflix.*,sbfull.com,sbhight.com,sblanh.com,sblongvu.com,sbnet.one,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.net,ssbstream.net,streamsb.*,streamsss.net,subsb.net,tubesb.com,vidmovie.xyz,view345.com,viewsb.com,watchsb.com##+js(aopr, mm)
+anigogo.net,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,fbgo.*,gomovizplay.com,hlsplayer.xyz,kinoking.cc,lvturbo.com,oxl.one,playersb.com,sbanh.com,sbbrisk.com,sbchill.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbface.com,sbfast.com,sbflix.*,sbfull.com,sbhight.com,sblanh.com,sblona.com,sblongvu.com,sbnet.one,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.net,ssbstream.net,streamsb.*,streamsss.net,subsb.net,tubesb.com,vidmovie.xyz,view345.com,viewsb.com,watchsb.com##+js(aopr, mm)
 sbembed1.com,sbvideo.*##+js(aopr, console.clear)
 cloudemb.com##+js(nowoif, !/^\/d\//)
 cloudemb.com##+js(set, console.clear, noopFunc)
@@ -101367,6 +101367,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||revancedapp.net^$all,domain=~revanced.app
 ||revancedmusic.com^$all,domain=~revanced.app
 ||revancedyoutube.org^$all,domain=~revanced.app
+||revancedextended.com^$all,domain=~revanced.app
 ||ytrevanced.com^$all,domain=~revanced.app
 ||tuberevanced.com^$all,domain=~revanced.app
 ||vanced-official.com^$all,domain=~revanced.app
@@ -101687,6 +101688,7 @@ factable.com##+js(cookie-remover, hive_geoloc)
 ||eevblog.com/forum/fp.php
 ||2cnt.net/j0=$image,domain=s4c.cymru
 ||player-api.s4c-cdn.co.uk/analytics/$domain=s4c.cymru
+lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -111010,7 +111012,7 @@ yandex.*#@#+js(aopr, Object.prototype.renderDirect):matches-path(/\/(?:weather\/
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Wed, 05 Jul 2023 19:10:28 GMT
-# entries:        3740
+# entries:        3739
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -111513,7 +111515,6 @@ yandex.*#@#+js(aopr, Object.prototype.renderDirect):matches-path(/\/(?:weather\/
 127.0.0.1 ads.internic.co.il
 127.0.0.1 ads.ipowerweb.com
 127.0.0.1 ads.itv.com
-127.0.0.1 ads.iwon.com
 127.0.0.1 ads.jewishfriendfinder.com
 127.0.0.1 ads.jobsite.co.uk
 127.0.0.1 ads.justhungry.com
@@ -112443,6 +112444,7 @@ yandex.*#@#+js(aopr, Object.prototype.renderDirect):matches-path(/\/(?:weather\/
 127.0.0.1 clk1015.com
 127.0.0.1 clkrev.com
 127.0.0.1 clksite.com
+127.0.0.1 cloisteredcord.com
 127.0.0.1 cloisteredhydrant.com
 127.0.0.1 closedcows.com
 127.0.0.1 cloudcoins.biz
@@ -113469,7 +113471,6 @@ yandex.*#@#+js(aopr, Object.prototype.renderDirect):matches-path(/\/(?:weather\/
 127.0.0.1 mystat.pl
 127.0.0.1 mysteriousmonth.com
 127.0.0.1 mytop-in.net
-127.0.0.1 myvisualiq.net
 127.0.0.1 n2.mouseflow.com
 127.0.0.1 n69.com
 127.0.0.1 naj.sk
