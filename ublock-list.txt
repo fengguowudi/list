@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TEI4s5nO3gUAoE5EetdHrQ
+! Checksum: vomyaLt0Ia/KEuNwT9zhXg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307072038
-! Last Modified: 2023年07月07日 20:38
+! Version: 202307080223
+! Last Modified: 2023年07月08日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -27722,6 +27722,7 @@ browsershots.org#@#.advert_area
 ||cosmeticsgenerosity.com^
 ||cosmicpartially.com^
 ||cosmismnatchez.com^
+||cosseterrits.com^
 ||costaquire.com^
 ||costatevamped.com^
 ||costhandbookfolder.com^
@@ -32800,6 +32801,7 @@ browsershots.org#@#.advert_area
 ||hunterlead.com^
 ||huntingarroyo.website^
 ||huppahshoras.com^
+||huradisbud.com^
 ||hurced.com^
 ||hurdlesmuchel.com^
 ||hurdleyreer.info^
@@ -32933,6 +32935,7 @@ browsershots.org#@#.advert_area
 ||idioticdeprint.com^
 ||idiotproprietary.com^
 ||idiotyet.com^
+||iditolshewn.com^
 ||idledifficulty.pro^
 ||idnbckbknxurmf.xyz^
 ||idownloadgalore.com^
@@ -37974,6 +37977,7 @@ browsershots.org#@#.advert_area
 ||paifemouchoa.com^
 ||paigna.com^
 ||paikaufy.com^
+||paikoaza.net^
 ||painfulpropaganda.com^
 ||painlessassumedbeing.com^
 ||painmidsummer.com^
@@ -53011,6 +53015,7 @@ browsershots.org#@#.advert_area
 ||d33nui33dvl0el.cloudfront.net^
 ||d33otidwg56k90.cloudfront.net^
 ||d347nuc6bd1dvs.cloudfront.net^
+||d34cixo0lr52lw.cloudfront.net^
 ||d34opff713c3gh.cloudfront.net^
 ||d34qb8suadcc4g.cloudfront.net^
 ||d34rdvn2ky3gnm.cloudfront.net^
@@ -61531,7 +61536,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .siteclarity.
 .sitetracking.
 .skimlinks.js
-.snowplowanalytics.
+.snowplowanalytics.$domain=~snowplowanalytics.com
 .stats?action=
 .svc/?tracking_id=
 .tv/log?event
@@ -64595,6 +64600,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /thermostat.js
 /thixel.js
 /tiara/tracker/*
+/ticimax/analytics.js
 /tide_stat.js
 /tilda-stat-
 /timingcg.
@@ -74853,6 +74859,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.productreview.com.au^
 ||analytics.realestate.com.au^
 ||analytics.send.cm^
+||analytics.silktide.com^
 ||analytics.slashdotmedia.com^
 ||analytics.synchrony.com^
 ||analytics.synedat.com^
@@ -75493,6 +75500,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||opendesktop.org/l/fp
 ||ophan.theguardian.com^
 ||optimizely.com/js/geo.js
+||optimizely.techtarget.com^
 ||oracle.com/visitorinfo/
 ||oracleimg.com^*/metrics/
 ||outbound.io/v2/identify
@@ -75590,6 +75598,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reichelt.com/setsid.php?
 ||relay.fiverr.com^
 ||reports.tunein.com^
+||researchgate.net/track/
 ||reverbnation.com/api/user/app_events
 ||rfk.biglots.com^
 ||rfk.dsw.com/api/init/1/init.js
@@ -98426,7 +98435,7 @@ live.cricket.com.au##.ad-placement, .yes
 ##.ad-link:not(.adsbox)
 #@#.ad-unit
 #@#.ad_unit
-~lamire.jp##.ad-unit:not(.text-ad):not(:empty):not(.textads)
+~lamire.jp##.ad-unit:not(.text-ad):not(.textads)
 ##.ad_unit:not(.text-ad)
 #@#[data-ad-module]
 #@#[data-ad-width]
@@ -98458,7 +98467,7 @@ live.cricket.com.au##.ad-placement, .yes
 mymusicreviews.com,thechat.cafe##+js(aopr, chp_adblock_browser)
 nj.com##.ad-unit[id]
 kiplinger.com##.ad-unit, .fake
-livescience.com,space.com##div.ad-unit
+livescience.com##.widget-ads
 globfone.com##+js(no-xhr-if, ads)
 donugdee.com##.ad-overlay-click
 donugdee.com##.moviePlayer
@@ -99321,8 +99330,8 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||thepcworlds.com^$doc
 ||fortnitehack.creatium.site^$doc
 ||waregamesoft.space^$all
-||hilsofts.site^$all
 ||extsoft.app^$all
+||mesoftwares.app^$all
 ||oceanofgame.net^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
@@ -101188,6 +101197,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||matchingsite.jp^$doc
 ||for.life-thrones.com^$doc
 ||7wbb.com^$doc
+||me-ru.jp^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
