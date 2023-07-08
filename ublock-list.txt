@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SCBsMP/vVckLMRWUpmGx9w
+! Checksum: PESrir2c+ezV690JCxkd7g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307081422
-! Last Modified: 2023年07月08日 14:22
+! Version: 202307082034
+! Last Modified: 2023年07月08日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -101832,6 +101832,9 @@ factable.com##+js(cookie-remover, hive_geoloc)
 ||2cnt.net/j0=$image,domain=s4c.cymru
 ||player-api.s4c-cdn.co.uk/analytics/$domain=s4c.cymru
 lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
+/app/aas/a$ping
+||aas.medialaben.no/a/
+||no/blink-sw.js|$script
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -103765,6 +103768,7 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 #@#.wps-player-wrap
 @@||img.connatix.com/*.jpg$3p,image,domain=accuweather.com
 bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,flkeysnews.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,miamiherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
+loot.tv##^html:not(:has(#connatixPlayerID)) > head > script[src*="connatix"]
 thestate.com##^html > head > script:has-text(connatix.id):upward(1) > script:has-text(window.cnx)
 variety.com##^html > head > link[rel="canonical"]:not([href*="/video/"]):upward(1) > script[src*="connatix"]
 @@||cd.connatix.com/connatix.playspace.js^$script,3p,domain=adweek.com
