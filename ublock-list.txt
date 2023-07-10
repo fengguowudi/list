@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T959MiLENEJy/KLijVAW+A
+! Checksum: OEnhsQBz/XloIg030t0sIQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307100221
-! Last Modified: 2023年07月10日 02:21
+! Version: 202307100952
+! Last Modified: 2023年07月10日 09:52
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -47641,6 +47641,7 @@ browsershots.org#@#.advert_area
 ||gururevenue.com^$third-party
 ||havetohave.com^$third-party
 ||headbidder.net^$third-party
+||headerlift.com^$third-party
 ||healthtrader.com^$third-party
 ||horse-racing-affiliate-program.co.uk^$third-party
 ||hot-mob.com^$third-party
@@ -54123,6 +54124,7 @@ browsershots.org#@#.advert_area
 ||srilankamirror.com/images/banners/
 ||srware.net/iron/assets/img/av/
 ||startpage.com/sp/adsense/
+||startpage.com/sp/cdn/*/TotalAdBlockAdultWidget.js
 ||static.fastpic.org^$subdocument
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
 ||steamanalyst.com/steem/delivery/
@@ -57381,6 +57383,7 @@ mydramalist.com##.is-desktop
 thestreet.com##.is-video-footer-enabled
 speedcheck.org##.isg-container
 iconfinder.com##.istockphoto-placeholder
+albertsonsmarket.com,marketstreetunited.com,unitedsupermarkets.com##.item-citrus
 nintendolife.com,purexbox.com,pushsquare.com##.item-insert
 explorecams.com##.item-row--desktop
 cryptocompare.com##.item-special
@@ -58524,6 +58527,7 @@ blabber.buzz##.topfeed
 drivespark.com##.topsection div[style^="float"]
 cambridge.org##.topslot-container
 collinsdictionary.com##.topslot_container
+startpage.com##.total-adblock-desktop
 moviemistakes.com##.tower
 towleroad.com##.towletarget
 utahgunexchange.com##.tp-revslider-mainul
@@ -59229,6 +59233,7 @@ appsample.com##div[class^="MapLayout_Bottom"]
 dailymotion.com##div[class^="NewWatchingDiscovery__adSection"]
 dsearch.com##div[class^="PreAd_"]
 games.dailymail.co.uk##div[class^="RightRail__displayAdRight_"]
+genius.com##div[class^="SidebarAd_"]
 chloeting.com##div[class^="StickyFooterAds__Wrapper"]
 newyorker.com##div[class^="StickyHeroAdWrapper-"]
 scotsman.com##div[class^="TopBanner"]
@@ -59261,6 +59266,7 @@ imagetopdf.com,pdfkit.com,pdftoimage.com,topdf.com,webpconverter.com##div[class^
 technologyreview.com##div[class^="headerTemplate__leaderboardRow-"]
 localjewishnews.com##div[class^="local-feed-banner-ads"]
 nationalmemo.com,spectrum.ieee.org,theodysseyonline.com##div[class^="rblad-"]
+staples.com##div[class^="sku-configurator__banner"]
 mydramalist.com##div[class^="spnsr"]
 kijiji.ca##div[class^="sponsored-"]
 semafor.com##div[class^="styles_ad"]
@@ -59750,6 +59756,8 @@ bing.com##.pa_sb
 bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
+acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:-abp-contains(Sponsored)
+acmemarkets.com,albertsons.com,andronicos.com,Carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.master-product-carousel:-abp-has([data-carousel-driven="sponsored-products"])
 asda.com#?#.co-item:-abp-has(.co-item__sponsored-label)
 albertsons.com,jewelosco.com#?#div.product-card-col:-abp-has(div[data-qa="prd-itm-spnsrd"])
 fanatics.com#?#.product-card:-abp-has(.sponsored-badge)
@@ -67664,6 +67672,7 @@ _mongo_stats/
 ||personalicanvas.com^$third-party
 ||personyze.com^$third-party
 ||peruse.ai^$third-party
+||petametrics.com^$third-party
 ||pghub.io^$third-party
 ||pgs.io^$third-party,domain=~publicgood.com
 ||phonalytics.com^$third-party
@@ -73343,6 +73352,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.cdnbye.com^
 ||tracker.downdetector.com^
 ||tracker.financialcontent.com^
+||tracker.gamedock.io^
+||tracker.gamemonkey.org^
 ||tracker.gleanview.com^
 ||tracker.hdtvcloud.com^
 ||tracker.icerocket.com^
@@ -111103,7 +111114,7 @@ oe24.at##+js(set, iom.c, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 05 Jul 2023 19:10:28 GMT
+# last updated:   Sun, 09 Jul 2023 22:06:43 GMT
 # entries:        3739
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
@@ -111112,7 +111123,7 @@ oe24.at##+js(set, iom.c, noopFunc)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 27 Aug 1823 00:00:00
+# start date:    Thu, 28 Aug 1823 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -113479,7 +113490,6 @@ oe24.at##+js(set, iom.c, noopFunc)
 127.0.0.1 metrics.govexec.com
 127.0.0.1 metrics.icloud.com
 127.0.0.1 metrics.mzstatic.com
-127.0.0.1 metricswave.com
 127.0.0.1 metrilo.com
 127.0.0.1 mfadsrvr.com
 127.0.0.1 mg2connext.com
@@ -114507,6 +114517,7 @@ oe24.at##+js(set, iom.c, noopFunc)
 127.0.0.1 tracker.cdnbye.com
 127.0.0.1 tracker.comunidadmarriott.com
 127.0.0.1 tracker.icerocket.com
+127.0.0.1 tracker.metricswave.com
 127.0.0.1 tracker.mmdlv.it
 127.0.0.1 tracker.samplicio.us
 127.0.0.1 tracker.vgame.us
