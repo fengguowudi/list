@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jiYcRLzDi2VTqPldAErjDg
+! Checksum: HpnOEkK7Ewm9i7+1ptEkxA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307110223
-! Last Modified: 2023年07月11日 02:23
+! Version: 202307110943
+! Last Modified: 2023年07月11日 09:43
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -5706,7 +5706,6 @@ _800x80_
 ###adblock2
 ###adblock4
 ###adblockbottom
-###adblockerMess
 ###adbn
 ###adbnr
 ###adboard
@@ -6078,12 +6077,6 @@ _800x80_
 ###adsbox
 ###adsbox-left
 ###adsbox-right
-###adsbox1
-###adsbox2
-###adsbox3
-###adsbox336x280
-###adsbox4
-###adsbox728x90
 ###adscenter
 ###adscolumn
 ###adscontainer
@@ -6094,16 +6087,13 @@ _800x80_
 ###adsense-468x60
 ###adsense-area
 ###adsense-bottom
-###adsense-head-spacer
 ###adsense-header
 ###adsense-link
 ###adsense-links
 ###adsense-middle
 ###adsense-post
-###adsense-post-300x250
 ###adsense-right
 ###adsense-sidebar
-###adsense-slot-1
 ###adsense-tag
 ###adsense-text
 ###adsense-top
@@ -6118,7 +6108,6 @@ _800x80_
 ###adsenseContainer
 ###adsenseHeader
 ###adsenseLeft
-###adsenseOne
 ###adsenseWrap
 ###adsense_300x250
 ###adsense_banner_top
@@ -6134,7 +6123,6 @@ _800x80_
 ###adsense_r_side_sticky_container
 ###adsense_sidebar
 ###adsense_top
-###adsense_unit5
 ###adsenseheader
 ###adsensehorizontal
 ###adsensempu
@@ -6186,7 +6174,6 @@ _800x80_
 ###adsmiddle
 ###adsnews
 ###adsonar
-###adsonarBlock
 ###adspace
 ###adspace-1
 ###adspace-2
@@ -6326,23 +6313,13 @@ _800x80_
 ###advBoxBottom
 ###advCarrousel
 ###advHome
-###advHomevideo
 ###advHook-Middle1
 ###advRectangle
 ###advRectangle1
 ###advSkin
 ###advTop
 ###advWrapper
-###adv_01
-###adv_02
-###adv_11
 ###adv_300
-###adv_5
-###adv_52
-###adv_6
-###adv_62
-###adv_65
-###adv_7
 ###adv_728
 ###adv_728x90
 ###adv_BoxBottom
@@ -6351,19 +6328,11 @@ _800x80_
 ###adv_LdbMastheadPush
 ###adv_Reload
 ###adv_Skin
-###adv_SkinLdb
-###adv_adsense_300_dx
-###adv_adsense_300_m
 ###adv_bootom
 ###adv_border
-###adv_box_a
 ###adv_center
 ###adv_config
 ###adv_contents
-###adv_google_300
-###adv_google_728
-###adv_halfpage
-###adv_halfpage_title
 ###adv_holder
 ###adv_leaderboard
 ###adv_mob
@@ -6638,15 +6607,10 @@ _800x80_
 ###after-dfp-ad-mid3
 ###after-dfp-ad-mid4
 ###after-dfp-ad-top
-###after-download-ad
-###after-header-ad-left
-###after-header-ad-right
 ###after-header-ads
 ###after-top-menu-ads
 ###after_ad
 ###after_bottom_ad
-###after_bottom_ad_2
-###after_button_ad_desktop
 ###after_heading_ad
 ###after_title_ad
 ###amazon-ads
@@ -6852,7 +6816,6 @@ _800x80_
 ###block-openads-5
 ###block-sidebarad1
 ###block-sponsors
-###block-vh-dfp-dfp-ad-r2
 ###blockAd
 ###blockAds
 ###block_ad
@@ -6888,6 +6851,7 @@ _800x80_
 ###bodyAd4
 ###body_728_ad
 ###body_ad
+###body_centered_ad
 ###bodymainAd
 ###book-ad
 ###bordeaux-preemptive-ad-0
@@ -18504,7 +18468,6 @@ _800x80_
 ##.railad
 ##.railadspace
 ##.ray-floating-ads-container
-##.razon_stickyad
 ##.rc-sponsored
 ##.rcom-freestar-ads-widget
 ##.re-AdTop1Container
@@ -18991,10 +18954,6 @@ _800x80_
 ##.sheknows-infuse-ad
 ##.shift-ad
 ##.shoppingGoogleAdSense
-##.short-ad
-##.short-sidebar-ad-bottom
-##.short-sidebar-ad-component
-##.short-sidebar-ad-sticky
 ##.shortads
 ##.shortadvertisement
 ##.show-desk-ad
@@ -20887,6 +20846,7 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##topadblock
 ##zeus-ad
+##.mntl-leaderboard-spacer
 ##a[href*=".cfm?fp="][href*="&maxads="]
 ##.CitrusBannerWrapper--enollj
 ##[class^="tile-picker__CitrusBannerContainer-sc-"]
@@ -54056,6 +54016,7 @@ browsershots.org#@#.advert_area
 ||manytoon.com/script/$script
 ||marineterms.com/images/banners/
 ||marketscreener.com/content_openx.php
+||marketwatch.com/asset/ace/ace.min.js
 ||mas.martech.yahoo.com^$domain=mail.yahoo.com
 ||masternodes.online/baseimages/
 ||maxgames.com/img/sponsor_
@@ -55580,7 +55541,6 @@ pastemagazine.com###middle_rectangle
 myjoyonline.com###mjo-article-left_rectangle_mid
 dbltap.com###mm-player-placeholder-large-screen
 mmorpg.com###mmorpg_desktop_list_1
-brides.com,byrdie.com,instyle.com,investopedia.com,lifewire.com,people.com,shape.com,thespruce.com,travelandleisure.com,verywellhealth.com###mntl-leaderboard-header_1-0
 sportskeeda.com###mob3-cnx-container-bottom
 pocketgamer.com###mobile-background
 express.co.uk###mobile_floating_test
@@ -57209,6 +57169,7 @@ cometbird.com##.gg_250x250
 cornish-times.co.uk,farnhamherald.com,iomtoday.co.im##.ggzoWi
 ghacks.net##.ghacks-ad
 ghacks.net##.ghacks_ad_code
+cnx-software.com##.ghelpme
 goodmenproject.com##.gmp-instream-wrap
 givemesport.com##.gms-ad
 givemesport.com##.gms-billboard-container
@@ -57254,7 +57215,6 @@ gulf-times.com##.gt-horizontal-ad
 gulf-times.com##.gt-square-desktop-ad
 gulf-times.com##.gt-vertical-ad
 animenewsnetwork.com##.gutter
-cnx-software.com##.gvoodoo
 distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.gwofgg
 thetimes.co.uk##.gyLkkj
 tvcancelrenew.com##.h-72
@@ -111154,8 +111114,8 @@ oe24.at##+js(set, iom.c, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Sun, 09 Jul 2023 22:06:43 GMT
-# entries:        3739
+# last updated:   Mon, 10 Jul 2023 22:23:29 GMT
+# entries:        3740
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -111163,7 +111123,7 @@ oe24.at##+js(set, iom.c, noopFunc)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 28 Aug 1823 00:00:00
+# start date:    Fri, 29 Aug 1823 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -112527,6 +112487,7 @@ oe24.at##+js(set, iom.c, noopFunc)
 127.0.0.1 click.discord.com
 127.0.0.1 click.e.bbcmail.co.uk
 127.0.0.1 click.e.progressive.com
+127.0.0.1 click.e.zoom.us
 127.0.0.1 click.em.blizzard.com
 127.0.0.1 click.email.bbc.com
 127.0.0.1 click.email.sonos.com
