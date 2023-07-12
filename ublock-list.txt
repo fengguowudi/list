@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gIIbEIivACGyKhQT71bZEA
+! Checksum: DMlQIqzgHXOZtOaIXpCEpw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307121424
-! Last Modified: 2023年07月12日 14:24
+! Version: 202307122039
+! Last Modified: 2023年07月12日 20:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20848,6 +20848,7 @@ _800x80_
 ##topadblock
 ##zeus-ad
 ##.mntl-leaderboard-spacer
+##.shopee-search-user-brief
 ##a[href*=".cfm?fp="][href*="&maxads="]
 ##.CitrusBannerWrapper--enollj
 ##[class^="tile-picker__CitrusBannerContainer-sc-"]
@@ -55760,7 +55761,6 @@ dict.cc###recthomebot
 tapatalk.com###relatedblogbar
 10minutemail.net,eel.surf7.net.my,javatpoint.com###right
 msguides.com###right-bottom-camp
-rustlabs.com###right-column > .sub-info-block
 comicbookrealm.com###right-rail > .module
 purewow.com###right-rail-ad
 gogetaroomie.com###right-space
@@ -59896,6 +59896,7 @@ noon.com#?#span[class*="productContaine"]:-abp-has(div:-abp-contains(Sponsored))
 mg.co.za#?#article:-abp-has(.sponsored-single)
 metager.org#?#.result:-abp-has(.mark:-abp-contains(Ad))
 metager.org#?#.result:-abp-has(span:-abp-contains(partnershop))
+rustlabs.com#?#.sub-info-block:-abp-has(#banner)
 rakuten.com#?#div[data-productid]:-abp-has(div.productList_sponsoredAds_RUS)
 alibaba.com#?#.J-offer-wrapper:-abp-contains(Top sponsor listing)
 officedepot.com#?#.od-col:-abp-has(.od-product-card-region-colors-sponsored)
@@ -99478,6 +99479,8 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||extsoft.app^$all
 ||mesoftwares.app^$all
 ||extra-softs.org^$doc
+||hifix.pro^$doc
+||softlab.pw^$doc
 ||oceanofgame.net^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
@@ -103712,7 +103715,7 @@ eitb.eus##.body--onPlayer--ads:remove-class(body--onPlayer--ads)
 ||counter2.blog.livedoor.com^$badfilter
 ||counter2.blog.livedoor.com^$image
 #@#[id^="etarget"]
-@@||go.admost.com/adx/js/admost.js$script,domain=arsiv.mackolik.com
+arsiv.mackolik.com##+js(set, AdmostClient, {})
 @@||content.gap.com/fp/*.js$script,1p
 @@||cohesion.bankrate.com/cohesion/cohesion-latest.min.js$script,1p
 ||mycourses.pearson.com/shared/static/*/component/ga.min.js$script,1p,redirect=google-analytics.com/analytics.js,important
@@ -103787,7 +103790,7 @@ elle.com.tr#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;
 @@||cds.connatix.com/*/hls$script,3p
 #@#.wps-player-wrap
 @@||img.connatix.com/*.jpg$3p,image,domain=accuweather.com
-bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,flkeysnews.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mahoningmatters.com,mcclatchydc.com,miamiherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,flkeysnews.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mahoningmatters.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
 loot.tv##^html:not(:has(#connatixPlayerID)) > head > script[src*="connatix"]
 thestate.com##^html > head > script:has-text(connatix.id):upward(1) > script:has-text(window.cnx)
 variety.com##^html > head > link[rel="canonical"]:not([href*="/video/"]):upward(1) > script[src*="connatix"]
