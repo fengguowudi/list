@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZNbwaZy+BGbutFnRM+RkhQ
+! Checksum: yDE5TNvEUED4Rdyy2LsyAA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307140222
-! Last Modified: 2023年07月14日 02:22
+! Version: 202307140954
+! Last Modified: 2023年07月14日 09:54
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56387,10 +56387,10 @@ coin360.com##.azJOX6
 smallseotools.com##.b
 dailyvoice.com##.b-banner
 hypestat.com##.b-error
-seattlepi.com##.b-gray300.bt
-chron.com##.b-gray300.bt.bb
-seattlepi.com##.b-gray300.md\:bt
-chron.com##.b-gray300.md\:bt.md\:bb
+seattlepi.com,sfgate.com##.b-gray300.bt
+chron.com,sfgate.com##.b-gray300.bt.bb
+seattlepi.com,sfgate.com##.b-gray300.md\:bt
+chron.com,sfgate.com##.b-gray300.md\:bt.md\:bb
 china.ahk.de##.b-header__banner
 dnserrorassist.att.net,search.frontier.com,searchguide.level3.com##.b-links
 kyivpost.com##.b-title
@@ -99346,13 +99346,13 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||top-cheats.com^$all
 ||thepcworlds.com^$doc
 ||fortnitehack.creatium.site^$doc
-||waregamesoft.space^$all
 ||extsoft.app^$all
 ||mesoftwares.app^$all
-||extra-softs.org^$doc
 ||hifix.pro^$doc
 ||softlab.pw^$doc
 ||extra-soft.org^$doc
+||self-games.com^$doc
+||hillsoft.fun^$all
 ||oceanofgame.net^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
@@ -101446,6 +101446,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||anyplacehere.live^$all
 ||funtwitter.games^$all
 ||twitter-circle.com^$all
+||funroundy.click^$all
 ||bestextensionegde.com^$all
 ||nekogram.org^$all
 ||anglebank.space^$all
@@ -111071,8 +111072,8 @@ oe24.at##+js(set, iom.c, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Mon, 10 Jul 2023 22:23:29 GMT
-# entries:        3740
+# last updated:   Thu, 13 Jul 2023 17:36:33 GMT
+# entries:        3741
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -111080,7 +111081,7 @@ oe24.at##+js(set, iom.c, noopFunc)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 31 Aug 1823 00:00:00
+# start date:    Mon, 01 Sep 1823 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -112998,6 +112999,7 @@ oe24.at##+js(set, iom.c, noopFunc)
 127.0.0.1 gp.dejanews.com
 127.0.0.1 gracefulsock.com
 127.0.0.1 graizoah.com
+127.0.0.1 grandfatherguitar.com
 127.0.0.1 grapeshot.co.uk
 127.0.0.1 greetzebra.com
 127.0.0.1 greyinstrument.com
