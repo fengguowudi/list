@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IrDOC+lC3zOtpOgfWgwNqA
+! Checksum: e5LOZgBnx+iX80foIk2iJQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307150222
-! Last Modified: 2023年07月15日 02:22
+! Version: 202307150952
+! Last Modified: 2023年07月15日 09:52
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -61802,7 +61802,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /acecounter_
 /acounter.php?
 /action/analytics
-/ActionLogger?
 /activity-track/?
 /activity.gif?
 /AD/PageHits.
@@ -61825,7 +61824,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /adds/counter.js
 /adlogger.
 /adm_tracking.js
-/AdmitadTagTag.js
 /adobe-analytics-$domain=~business.adobe.com
 /adobe-analytics.
 /adobe-analytics/*
@@ -61836,7 +61834,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /adobe/AppMeasurement-
 /adobe/logging/*
 /adobe/target/*
-/adobe/VideoHeartbeat-
+/adobe/VideoHeartbeat.
 /adobe/visitor-
 /adobe/VisitorAPI-
 /adobeAnalytics/*
@@ -61989,7 +61987,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /analytics/collect?
 /analytics/collector.
 /analytics/collector/*
-/analytics/dealerfire/*
 /analytics/dist/*
 /analytics/embed/*
 /analytics/engine/*
@@ -61997,12 +61994,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /analytics/ga.
 /analytics/ga/*
 /analytics/ga?
-/analytics/gallup/*
 /analytics/geoip/*
-/analytics/google/*
 /analytics/inboundAnalytics.
 /analytics/initSession
-/analytics/klaviyo_
 /analytics/layer
 /analytics/mbox_
 /analytics/metric/*
@@ -62089,7 +62083,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v2/collector
-/api/v2/jsonlogger
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
@@ -62142,15 +62135,12 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /audience_science.
 /audience_science_
 /audienceScience.
-/audiweb.js
-/audsci.js
 /autotrack.carbon.js
 /autotrack.custom.js
 /autotrack.custom.min.js
 /autotrack.js
 /autotrack.min.js
 /AutoTracker.js
-/aux/collect?
 /avtstats.
 /aw-tracker.
 /awAnalytics.
@@ -62224,7 +62214,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /bf.gif?ac=
 /bicomscore.
 /bicomscore_
-/bin/stats?
 /bineos.min.js
 /bing-bat.js
 /bingimpression?
@@ -62235,7 +62224,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /blaize/datalayer
 /blank.gif?*%
 /blank.gif?*&
-/blockstat?
 /blogcounter.js
 /bluekai.
 /bluekai/*
@@ -62348,9 +62336,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /click-analytics.
 /click-count.
 /click-logger.$image,script
-/click-stat.js
 /click-tracker
-/click.php?c=
 /click?track=
 /click_metrics-jquery.js
 /click_stat/*
@@ -62361,9 +62347,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /clickability-
 /clickability.$domain=~clickability.com.au
 /clickability/*
-/clickability2/*
-/clickability?
-/clickAnalyse.
 /clickcount.
 /clickcount/*
 /clickcount_
@@ -62936,7 +62919,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /fusion/lucid/data/*
 /g-track/*
 /g2insights.
-/g=analytics&
 /g_track.php?
 /ga-affiliates.
 /ga-async-
@@ -63454,7 +63436,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /loadcounter.
 /loader-counter.
 /loader/counter.js
-/loadJsFingerprint.js
 /localga.js
 /locotrack.js
 /log-ads.
@@ -64839,10 +64820,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /track.v2.js
 /track/?*&event=
 /track/?data=
-/track/?s=
-/track/?site
 /track/aggregate?
-/track/alooma-
 /track/batch?
 /Track/Capture.aspx?
 /track/client-event/*
@@ -65346,7 +65324,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /wrapper/metrics/*
 /WRb.js
 /wreport.js
-/writeKAStats/*
 /writelog.js
 /wsStats.
 /wsStats_
@@ -65415,7 +65392,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ://blue.*/script.js
 ://collect.*/pageview
 ://collector.*/event
-://email.*/blankpixel.gif
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://internal-matomo.
 ://lightning.*/launch/
@@ -111213,7 +111189,7 @@ oe24.at##+js(set, iom.c, noopFunc)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 01 Sep 1823 00:00:00
+# start date:    Tue, 02 Sep 1823 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
