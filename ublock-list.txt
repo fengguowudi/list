@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Tghg6hd/RUd124pZ9WDVtA
+! Checksum: 2jO8uvkPzpPSa5Yx2iMBrw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307162034
-! Last Modified: 2023年07月16日 20:34
+! Version: 202307170221
+! Last Modified: 2023年07月17日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1211,7 +1211,6 @@
 /adserv2.
 /adserv3.
 /adserve-
-/adserve.
 /adserve/*
 /adserve_
 /adserver-
@@ -22731,6 +22730,7 @@ browsershots.org#@#.advert_area
 ||adrokt.com^
 ||adrunnr.com^
 ||ads-delivery.b-cdn.net^
+||ads-static.conde.digital^
 ||ads-twitter.com^
 ||ads.rd.linksynergy.com^
 ||ads2550.bid^
@@ -53554,6 +53554,9 @@ browsershots.org#@#.advert_area
 ||pinklabel.com/live-banners?
 ||pinkvisualgames.com/?revid=
 ||pirogad.tophosting101.com^
+||placeholder.com/300x250?
+||placeholder.com/728x90?
+||placeholder.com/900x250?
 ||pod.xpress.com^
 ||pokazuwka.com/popu/
 ||porndeals.com^$subdocument,third-party
@@ -59261,6 +59264,7 @@ linustechtips.com##div[data-role="sidebarAd"]
 ecosia.org##div[data-test-id="mainline-result-ad"]
 investing.com##div[data-test="ad-slot-visible"]
 qwant.com##div[data-testid="productAdsMicrosoft.container"]
+chrome-stats.com##div[id*="billboard_responsive"]
 thenewspaper.gr##div[id*="thene-"]
 diskingdom.com##div[id="diski-"]
 geeksforgeeks.org##div[id^="GFG_AD_"]
@@ -60033,7 +60037,7 @@ youporngay.com###pbs_block
 ggjav.com###pc_instant
 imagearn.com###picBanner
 7mmtv.tv###player-container[style="width:300px;height:250px"]
-hentai2w.com,pornxt.com,xhentai.tv###playerOverlay
+hentai2w.com,iporntoo.com,pornxt.com,xhentai.tv###playerOverlay
 ebony8.com,lesbian8.com,maturetubehere.com###player_add
 redtube.com###popsByTrafficJunky
 jav321.com###popup-container
@@ -60120,6 +60124,7 @@ cambb.xxx,chaturbate.com,playboy.com,rampant.tv,sex.com,signbucks.com,tallermain
 x13x.space##.ad-banner
 kemono.party,kemono.su,pinflix.com,urlgalleries.net##.ad-container
 xtube.com##.adContainer
+iporntoo.com##.adbox-inner
 ftopx.com##.add-block
 sex3.com##.add-box
 playvids.com##.add_href_jsclick
@@ -65747,7 +65752,6 @@ _mongo_stats/
 ||fn-pz.com^
 ||fpapi.io^
 ||fpcdn.io^
-||fpnpmcdn.net^
 ||fptls.com^
 ||fptls2.com^
 ||funnelserv.systems^
@@ -75998,6 +76002,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zillowstatic.com/contact-pixel/$image,domain=zillow.com
 ||zion-telemetry.api.cnn.io^
 ://track.opentable.
+://www.vinted.*/relay/events
 ||akamaihd.net^$image,domain=globalnews.ca|nycgo.com|stcatharinesstandard.ca
 ||jeremiahlee.com/fanboynz.js
 ||hubspot.com/collected-forms/$xmlhttprequest,domain=confection.io
@@ -97223,11 +97228,7 @@ www.sainsburys.co.uk#?#li:has(.product-header):has-text(Sponsored)
 123moviesto.to###bar-player
 123moviesto.to##.mvic-bmt
 mp3snow.com##+js(nowoif)
-*$3p,denyallow=googleapis.com|dropbox-dns.com|cloudflare.com|cloudflare.net|dropbox.com|ggpht.com|googleusercontent.com|google.com|gstatic.com|ytimg.com|youtube.com|youtube-nocookie.com|plyr.io|noembed.com,domain=mp3download.to
-mp3download.to##+js(nowoif)
-||mp3download.to/js/propellerads*.js$script,1p
-mp3download.to##.ads-container
-mp3download.to/_nuxt/img/dom-banner$image
+mp3dl.cc##+js(nowoif)
 tryvaga.com##+js(acs, document.addEventListener, adsBlocked)
 ||tryvaga.com/wp-content/themes/retrotube/assets/img/banners$image
 /images/ads.$image,redirect-rule=1x1.gif
@@ -97954,7 +97955,6 @@ freexcafe.com##div.bottom-300x250
 freexcafe.com###txtbanner
 ||mtvnservices.com/aria/bentojs.js
 *$media,redirect=noopmp3-0.1s,domain=paramountnetwork.com
-pcworld.es##+js(nostif, .call(null), 10)
 pcworld.es##.stickyAdWrapper
 *$popunder,domain=ouo.io
 nowtolove.com.au##.page__content-header:style(height: 50px !important)
@@ -103838,6 +103838,9 @@ platform.autods.com##+js(set, _conv_q, {})
 platform.autods.com##+js(set, _conv_q.push, noopFunc)
 indiatimes.com#@#div:has(> div[id^="div-gpt-ad-"])
 indiatimes.com##.nonAppView > div div[class]:not([id]) > div[id^="div-gpt-ad"]:upward(1)
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=wcvb.com
+||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,redirect-rule=noopjs,domain=wcvb.com
+wcvb.com##+js(set, google.ima.settings.setDisableFlashAds, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
