@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2jO8uvkPzpPSa5Yx2iMBrw
+! Checksum: dsh5ac7acJEUJZrzRkzAtw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307170221
-! Last Modified: 2023年07月17日 02:21
+! Version: 202307170957
+! Last Modified: 2023年07月17日 09:57
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -99283,6 +99283,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||extra-software.com^$doc
 ||caritasmadrededios.org^$doc
 ||rivalsoftware.xyz^$doc
+||softextra.org^$doc
 ||oceanofgame.net^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
@@ -111024,7 +111025,7 @@ wcvb.com##+js(set, google.ima.settings.setDisableFlashAds, noopFunc)
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 03 Sep 1823 00:00:00
+# start date:    Thu, 04 Sep 1823 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
