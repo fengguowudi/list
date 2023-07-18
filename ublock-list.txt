@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gKFR2ceX/tNFG9vyGF4gKw
+! Checksum: ctk1hkFey7/dwuIvuCyiIg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307182036
-! Last Modified: 2023年07月18日 20:36
+! Version: 202307190222
+! Last Modified: 2023年07月19日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -4302,7 +4302,6 @@ _800x80_
 /adClick?$popup
 /AdHandler.aspx?$popup
 /adpreview?$popup
-/ads.htm$popup
 /ads/click?$popup
 /adServe/*$popup
 /adserver.$popup
@@ -20371,6 +20370,7 @@ _800x80_
 ##a[href^="https://reinstandpointdumbest.com/"]
 ##a[href^="https://s.optzsrv.com/"]
 ##a[href^="https://s.zlinkc.com/"]
+##a[href^="https://sTARtgamIng.net/tienda/"]
 ##a[href^="https://safesurfingtoday.com/"][href*="?skip="]
 ##a[href^="https://see.kmisln.com/"]
 ##a[href^="https://serve.awmdelivery.com/"]
@@ -27052,6 +27052,7 @@ browsershots.org#@#.advert_area
 ||cohabitrecipetransmitted.com^
 ||coherentinflationescort.com^
 ||coherepeasant.com^
+||coholy.com^
 ||coilincomplete.com^
 ||coinad.media^
 ||coinadster.com^
@@ -27992,6 +27993,7 @@ browsershots.org#@#.advert_area
 ||debitswiping.com^
 ||debonairseashore.com^
 ||debrium-surbara.com^
+||debsis.com^
 ||debutedhogward.com^
 ||decademical.com^
 ||decatorfending.uno^
@@ -28938,6 +28940,7 @@ browsershots.org#@#.advert_area
 ||dwoopjvhazta.com^
 ||dwrdjfdxtoel.com^
 ||dwwboxlnrlek.xyz^
+||dwwjlvpja.com^
 ||dxajhcdz.com^
 ||dxmjyxksvc.com^
 ||dxmnqojbhimay.com^
@@ -30807,6 +30810,7 @@ browsershots.org#@#.advert_area
 ||funtoday.info^
 ||furiosocomique.com^
 ||furlsstealbilk.com^
+||furnacemanagerstates.com^
 ||furnishedleggysoak.com^
 ||furnishedsalonherring.com^
 ||furorshahdon.com^
@@ -31841,6 +31845,7 @@ browsershots.org#@#.advert_area
 ||hambul.com^
 ||hamletuponcontribute.com^
 ||hammaidentomb.guru^
+||hammaidreswill.com^
 ||hammalorphans.com^
 ||hammerhewer.top^
 ||hammockpublisherillumination.com^
@@ -32639,6 +32644,7 @@ browsershots.org#@#.advert_area
 ||ifinaukncecaf.xyz^
 ||ifknittedhurtful.com^
 ||ifsmatbeg.site^
+||ifvxoluyhof.com^
 ||ifzpvnrjp.com^
 ||ig0nr8hhhb.com^
 ||igameunion.com^
@@ -35832,6 +35838,7 @@ browsershots.org#@#.advert_area
 ||mpay69.com^
 ||mpbngxooxgwkxri.xyz^
 ||mpk01.com^
+||mplayeranyd.info^
 ||mployeesihi.xyz^
 ||mpmant.com^
 ||mpnrs.com^
@@ -36147,6 +36154,7 @@ browsershots.org#@#.advert_area
 ||nceqpmxyhqo.com^
 ||ncernedas.one^
 ||ncesprin.buzz^
+||ncpxhrurirscgsd.com^
 ||ncugaxoxh.com^
 ||ncuwtufam.com^
 ||ndandinter.hair^
@@ -49904,6 +49912,7 @@ browsershots.org#@#.advert_area
 ||moviesflix4k.club^$popup
 ||moviesflix4k.xyz^$popup
 ||movingfwd.co^$popup
+||mplayeranyd.info^$popup
 ||mscoldness.com^$popup
 ||muddychronicstuffed.com^$popup
 ||mudfishatabals.com^$popup
@@ -50187,6 +50196,7 @@ browsershots.org#@#.advert_area
 ||palpablefungussome.com^$popup
 ||palundrus.com^$popup
 ||parachuteeffectedotter.com^$popup
+||paradiseannouncingnow.com^$popup
 ||parchedscrew.pro^$popup
 ||pardonsuccessionassassin.com^$popup
 ||parentlargevia.com^$popup
@@ -50449,6 +50459,7 @@ browsershots.org#@#.advert_area
 ||recentrecentturf.com^$popup
 ||recessioncomply.com^$popup
 ||rechanque.com^$popup
+||reciteimplacablepotato.com^$popup
 ||reclod.com^$popup
 ||recodetime.com^$popup
 ||recommendedseizedbewildered.com^$popup
@@ -103824,6 +103835,13 @@ indiatimes.com##.nonAppView > div div[class]:not([id]) > div[id^="div-gpt-ad"]:u
 wcvb.com##+js(set, google.ima.settings.setDisableFlashAds, noopFunc)
 @@||ads.pubmatic.com/AdServer/js/pwt/*/pwt.js$script,domain=wionews.com
 wionews.com##^link[rel="canonical"]:not([href^="https://www.wionews.com/videos/"]) ~ script#pwt_script
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*$script,domain=moviepilot.de
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=filmstarts.de
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=filmstarts.de
+@@||securepubads.g.doubleclick.net/gampad/ads$xhr,domain=filmstarts.de
+@@||cdn.lib.getjad.io/library/*$script,domain=filmstarts.de
+@@||cdn.lib.getjad.io/prebid/*$script,domain=filmstarts.de
+@@||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js:5,domain=filmstarts.de
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
