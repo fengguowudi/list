@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mSLh2+wKRDoHJ7dMcgWQLA
+! Checksum: jEgXQJFGnQ8WRVSxhXkqUw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307200220
-! Last Modified: 2023年07月20日 02:20
+! Version: 202307200933
+! Last Modified: 2023年07月20日 09:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -27568,6 +27568,7 @@ browsershots.org#@#.advert_area
 ||crottlerennin.com^
 ||crowbarorchat.uno^
 ||crowdgravity.com^
+||crpcruynxxc.com^
 ||crptentry.com^
 ||crptgate.com^
 ||crrepo.com^
@@ -30286,6 +30287,7 @@ browsershots.org#@#.advert_area
 ||fierysolemncow.com^
 ||fifishlbs.com^
 ||fifteenthhardboiledbanker.com^
+||fifthjournalisminadequate.com^
 ||figgleimpregn.com^
 ||fighes.com^
 ||fighla.com^
@@ -32973,6 +32975,7 @@ browsershots.org#@#.advert_area
 ||inlandpiereel.com^
 ||inmespritr.com^
 ||inminuner.com^
+||inncreasukedrev.info^
 ||innessabigeat.space^
 ||innity.net^
 ||innocenceexpeditionsensation.com^
@@ -35724,6 +35727,7 @@ browsershots.org#@#.advert_area
 ||momentpalpate.store^
 ||momijoy.ru^
 ||mommaseclat.com^
+||mommygravelyslime.com^
 ||monadplug.com^
 ||monadvs.com^
 ||monarchracistsparkle.com^
@@ -49584,6 +49588,7 @@ browsershots.org#@#.advert_area
 ||initialbanisters.com^$popup
 ||initiateheavilycurrentinfo-product.info^$popup
 ||injusticeamend.com^$popup
+||inncreasukedrev.info^$popup
 ||innocenceexpeditionsensation.com^$popup
 ||innovid.com^$popup,third-party
 ||inoradde.com^$popup
@@ -53134,6 +53139,7 @@ browsershots.org#@#.advert_area
 ||d3lvr7yuk4uaui.cloudfront.net^
 ||d3lw2k94jnkvbs.cloudfront.net^
 ||d3m4hp4bp4w996.cloudfront.net^
+||d3m8nzcefuqu7h.cloudfront.net^
 ||d3m9ng807i447x.cloudfront.net^
 ||d3mr7y154d2qg5.cloudfront.net^
 ||d3mshiiq22wqhz.cloudfront.net^
@@ -71216,7 +71222,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||leadhit.ru^$third-party
 ||leadslabpixels.net^$third-party
 ||lentainform.com^$third-party
-||livetex.ru^$third-party
+||livetex.ru^$third-party,domain=~livetex.github.io
 ||logua.com^$third-party
 ||logxp.ru^$third-party
 ||logz.ru^$third-party
@@ -111115,7 +111121,7 @@ wionews.com##^link[rel="canonical"]:not([href^="https://www.wionews.com/videos/"
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 06 Sep 1823 00:00:00
+# start date:    Sun, 07 Sep 1823 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
