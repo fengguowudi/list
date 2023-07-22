@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DL4VYN7eoBQ4kNwR6dTLEA
+! Checksum: JUZYTyWBI2eFv2A3KfaJYQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307220221
-! Last Modified: 2023年07月22日 02:21
+! Version: 202307220930
+! Last Modified: 2023年07月22日 09:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -75056,9 +75056,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||affiliates.vpn.ht^
 ||agoda.com/api/pixel/
 ||agoda.net/v2/track
-||airtable.com/internal/$xmlhttprequest
-||airtable.com/internal/page_view
-||airtable.com^*/reports
+||airtable.com/internal/
 ||aiv-delivery.net/Events/
 ||aiv-delivery.net/v1/ReportEvent
 ||akamaihd.net/paay6hyr.gif?
@@ -111305,7 +111303,7 @@ wionews.com##^link[rel="canonical"]:not([href^="https://www.wionews.com/videos/"
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 08 Sep 1823 00:00:00
+# start date:    Tue, 09 Sep 1823 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
