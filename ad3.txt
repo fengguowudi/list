@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yRJyCY+pu/lDXsaw9E7x2Q
+! Checksum: 6QdoR7GY+X7MWekgTPp9sA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202307230939
-! Last Modified: 2023年07月23日 09:39
+! Version: 202307231420
+! Last Modified: 2023年07月23日 14:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2002,6 +2002,10 @@ newduba.cn###jq_youxi
 ||kasiklz.cc^
 ||kv8899.com^
 ||cslbahf.top^
+||cdmjur.xyz^
+||nunxhv.com^
+||dghhot.com^
+||hiqua.xyz^
 ||ziravd.xyz^
 ||zonyff.xyz^
 ||zxrcfw.com^
@@ -25820,6 +25824,7 @@ m.babytree.com##script + a[class]
 /visit_pixel?
 /visit_tracking.
 /VisitCounter.
+/visitinfo.js
 /VisitLog.asmx
 /visitor-event?
 /visitor-js/?
@@ -26572,6 +26577,7 @@ _mongo_stats/
 ||hubty.network^
 ||i218435.net^
 ||ia-dmp.com^
+||iconmediapixel.com^
 ||iconnode.com^
 ||id5-sync.com^
 ||idx.lat^
@@ -33824,6 +33830,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||st.cdnco.us^
 ||st.linkfire.com^
 ||stacksocialcontent.com/event/
+||staging-pt.ispot.tv^
 ||starman.fathomdns.com^
 ||stas.outbrain.com^
 ||stat.absolutist.com^
