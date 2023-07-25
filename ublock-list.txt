@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: t0CJo3gA1m78566PXfdFsA
+! Checksum: j8y6PFQ2Oi167O6OviqUzQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307251421
-! Last Modified: 2023年07月25日 14:21
+! Version: 202307252035
+! Last Modified: 2023年07月25日 20:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -25669,6 +25669,7 @@ browsershots.org#@#.advert_area
 ||bourranuncurbs.com^
 ||boustahe.com^
 ||bousyshock.com^
+||bouwehee.xyz^
 ||bovemtou.xyz^
 ||bowed-common.pro^
 ||boweddemand.com^
@@ -25970,6 +25971,7 @@ browsershots.org#@#.advert_area
 ||burstcravecraving.com^
 ||burstingdipper.com^
 ||bursulasnags.com^
+||burtonsugar.com^
 ||burydibase.com^
 ||bushesawaitfeminine.com^
 ||bushicitrals.com^
@@ -37157,6 +37159,7 @@ browsershots.org#@#.advert_area
 ||oaujswgofu.com^
 ||oaxoulro.com^
 ||oaxpcohp.com^
+||oazartie.com^
 ||oazoorse.com^
 ||obbdarhmos.com^
 ||obbfpykcoa.com^
@@ -104744,6 +104747,8 @@ wionews.com##^link[rel="canonical"]:not([href^="https://www.wionews.com/videos/"
 @@||hs.eloqua.com^$frame,domain=anthology.com
 @@||mindbodygreen.com/ads-leaderboard-ad-$script,domain=www.mindbodygreen.com
 @@||cjisonline.com^$permissions=browsing-topics=()
+futura-sciences.com##+js(set, pa, {})
+futura-sciences.com##+js(set, pa.privacy, {})
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
