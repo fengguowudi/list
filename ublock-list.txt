@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sBgMNC+0bowCEzD1IBo6uw
+! Checksum: 3It0DRDS8n8zgK4aA9XtnA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307260935
-! Last Modified: 2023年07月26日 09:35
+! Version: 202307261420
+! Last Modified: 2023年07月26日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -104790,6 +104790,8 @@ wionews.com##^link[rel="canonical"]:not([href^="https://www.wionews.com/videos/"
 @@||cjisonline.com^$permissions=browsing-topics=()
 futura-sciences.com##+js(set, pa, {})
 futura-sciences.com##+js(set, pa.privacy, {})
+||adobe.com/newrelic.js$script,redirect-rule=noopjs,1p
+wikihow.com##+js(set, Object.prototype.getTargetingMap, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
