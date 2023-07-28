@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wejb6q2EvT5o1ncNF8EpxA
+! Checksum: aa/h6f2AGrkBWGeX/kHLnQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307280919
-! Last Modified: 2023年07月28日 09:19
+! Version: 202307281420
+! Last Modified: 2023年07月28日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20388,6 +20388,7 @@ _800x80_
 ##hl-adsense
 ##img[src^="https://images.purevpnaffiliates.com"]
 ##ps-connatix-module
+##span[data-ez-ph-id]
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##topadblock
 ##zeus-ad
@@ -56809,6 +56810,7 @@ planningportal.co.uk##.HeaderAdArea__HeaderAdContainer-sc-1lqw6d0-0
 mope.io##.Home__home-ad-wrapper
 artsy.net##.IITnS
 sporcle.com##.IMGgi
+streamingsites.com##.IPdetectCard
 inverness-courier.co.uk##.LLKGTX
 kentonline.co.uk##.LeaderBack
 apnews.com##.Leaderboard
@@ -59224,6 +59226,8 @@ dbltap.com##.style_7z5va1-o_O-style_48hmcm-o_O-style_1ts1q2h
 inyourarea.co.uk##.style_advertisementMark_1Jki4
 inyourarea.co.uk##.style_cardWrapper_ycKf8
 nationalheraldindia.com##.styles-m__dfp__3T0-C
+streamingsites.com##.styles_adverticementBlock__FINvH
+streamingsites.com##.styles_backdrop__8uFQ4
 troypoint.com##.su-box
 buzzfeed.com##.subbuzz-bfp--connatix_video
 gearspace.com##.subforum-sponsor
@@ -102593,7 +102597,7 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||adonsonlyd.xyz^
 ||top-staging.mail.ru^
 ||adthrive.com^$removeparam,domain=~mediaite.com
-||cdn.branch.io/branch-latest.min.js$important,domain=pac-12.com
+||cdn.branch.io/branch-latest.min.js$important,domain=nbc.com|pac-12.com
 ||onesignal.com^$domain=freecoursesonline.me|ftuapps.dev|gamersdiscussionhub.com|onehack.us|xiaomitools.com
 ||narrativ.com^$domain=androidauthority.com
 ||optimizely.com^$domain=mindbodygreen.com
@@ -102647,6 +102651,7 @@ lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?
 ||tags.tiqcdn.com^$domain=nickjr.com
 ||events.paramount.tech^$redirect=nooptext,domain=nickjr.com
 watchporn.to##+js(cookie-remover, kt_ips)
+||mps.nbcuni.com/images/MPS-STATISTIC-REPORTING.png
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
