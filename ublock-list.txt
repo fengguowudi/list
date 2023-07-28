@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aa/h6f2AGrkBWGeX/kHLnQ
+! Checksum: StHcpnRKLnoIpzHs3m8UrQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202307281420
-! Last Modified: 2023年07月28日 14:20
+! Version: 202307282032
+! Last Modified: 2023年07月28日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -28864,6 +28864,7 @@ browsershots.org#@#.advert_area
 ||drjgjngf.com^
 ||drkness.net^
 ||dronedgentile.com^
+||dronelskipper.com^
 ||droppalpateraft.com^
 ||droppedbanking.com^
 ||drovernomine.com^
@@ -33571,6 +33572,7 @@ browsershots.org#@#.advert_area
 ||jarvispopsu.com^
 ||jaseysbionomy.com^
 ||jashautchord.com^
+||jasheest.xyz^
 ||jaspercrozes.com^
 ||jatostepa.com^
 ||jatsekse.net^
@@ -37838,6 +37840,7 @@ browsershots.org#@#.advert_area
 ||otween.com^
 ||otwwtutujwa.com^
 ||ouaker.com^
+||oucaibie.net^
 ||ouchojig.xyz^
 ||ouchruse.com^
 ||oudseroa.com^
@@ -42498,6 +42501,7 @@ browsershots.org#@#.advert_area
 ||soupevents.com^
 ||soupteep.xyz^
 ||souptrip.com^
+||sourishpuler.com^
 ||sourne.com^
 ||sourtophulsean.space^
 ||sousefulhea.buzz^
@@ -48678,6 +48682,7 @@ browsershots.org#@#.advert_area
 ||trustx.org^$third-party
 ||trytada.com^$third-party
 ||tubeadvertising.eu^$third-party
+||twads.gg^$third-party
 ||tyroo.com^$third-party
 ||ubercpm.com^$third-party
 ||ultrapartners.com^$third-party
@@ -76099,6 +76104,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||freepik.*/download.gif?
 ||freepik.com/_ga?
 ||freeplayervideo.com/cdn-cgi/trace
+||freeprivacypolicy.com/track/
 ||fresnel-events.vimeocdn.com^
 ||ft.com/ingest?
 ||fullscreen.nz/v1/tracking/$domain=threenow.co.nz
@@ -102604,6 +102610,7 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||mindbodygreen.com/js/optimizely-$script,1p
 ||optimizely.techtarget.com^
 mindbodygreen.com##+js(set-local-storage-item, segmentDeviceId, $remove$)
+||pl.kukaj.to/kukac.js
 ||geoip.cdn.arkadiumhosted.com^$domain=bestforpuzzles.com|charlotteobserver.com|independent.co.uk|miamiherald.com|standard.co.uk|word.tips
 mozilla.org##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?redirect="], ?redirect)
 *$ping,domain=webnovel.com
@@ -104845,6 +104852,7 @@ wikihow.com##.wh_ad_active:style(margin: 0 !important; visibility: collapse !imp
 !#endif
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=startrek.com
 citibank.com.sg##+js(set, populateClientData4RBA, noopFunc)
+@@||hikmall.com/js/sensorsdata.min.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -112020,7 +112028,7 @@ citibank.com.sg##+js(set, populateClientData4RBA, noopFunc)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 13 Jul 2023 17:36:33 GMT
-# entries:        3720
+# entries:        3717
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -112586,7 +112594,6 @@ citibank.com.sg##+js(set, populateClientData4RBA, noopFunc)
 127.0.0.1 ads.paymonex.net
 127.0.0.1 ads.pexi.nl
 127.0.0.1 ads.pfl.ua
-127.0.0.1 ads.phpclasses.org
 127.0.0.1 ads.pinterest.com
 127.0.0.1 ads.planet.nl
 127.0.0.1 ads.pni.com
@@ -114804,7 +114811,6 @@ citibank.com.sg##+js(set, populateClientData4RBA, noopFunc)
 127.0.0.1 quantummetric.com
 127.0.0.1 quarterbean.com
 127.0.0.1 quarterserver.de
-127.0.0.1 questaffiliates.net
 127.0.0.1 quickkoala.io
 127.0.0.1 quicksandear.com
 127.0.0.1 quietknowledge.com
@@ -115566,7 +115572,6 @@ citibank.com.sg##+js(set, populateClientData4RBA, noopFunc)
 127.0.0.1 verblife-5.co
 127.0.0.1 vericlick.com
 127.0.0.1 vertamedia.com
-127.0.0.1 verticalmass.com
 127.0.0.1 vervewireless.com
 127.0.0.1 vibrantmedia.com
 127.0.0.1 vidcpm.com
