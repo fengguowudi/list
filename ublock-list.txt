@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EK4YZIaugMwsZ7cztfy3Wg
+! Checksum: 6hxkuIsS3LjtErFRZJHjng
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308020919
-! Last Modified: 2023年08月02日 09:19
+! Version: 202308021420
+! Last Modified: 2023年08月02日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -282,13 +282,8 @@
 .us/ads/
 .vert.ad.
 .weborama.js
-.widgets.ad?
 .xxx/ads/
 .xyz/ads/
-.za/ads.
-.za/ads/$domain=~ananzi.co.za
-.zm/ads/
-.zw/ads/
 /?fp=*&poru=$subdocument
 /?view=ad
 /_adslot/*
@@ -735,9 +730,6 @@
 /adiframe?
 /adiframe_
 /adiframe|*|adtech;
-/adify_
-/adifyad.
-/adifyids.
 /adimage.
 /adimage/*
 /adimage?
@@ -985,7 +977,6 @@
 /ads/tags?
 /ads/text/*
 /ads/third-
-/ads/tile-
 /ads/top-
 /ads/top.
 /ads/tracker/*
@@ -2469,13 +2460,10 @@
 /nav_ad/*
 /navads/*
 /nb/frot_lod.
-/neo/ads/*
 /neverblock/*
 /new-ads/*
 /new/ad/*
 /new/ads/*
-/new_ads/*
-/new_oas.
 /newad.
 /newAd/*
 /newad2?
@@ -2490,10 +2478,6 @@
 /nwm-fcn.min.js
 /nwm-pw2.min.js
 /oas-config.
-/oas.aspx
-/oas/ad/*
-/oas/banners/*
-/oas/iframe.
 /oas_ad.
 /oas_ad/*
 /oas_ad_
@@ -2501,10 +2485,8 @@
 /oascentral.$~object
 /oascentral/*
 /oasconfig/*
-/oasdefault/*
 /oiopub-direct/*$~stylesheet
 /oncc-ad.
-/online-ad_
 /openad.$domain=~openad.lv
 /openads-
 /openads.
@@ -2515,11 +2497,7 @@
 /openx.
 /openx/*
 /openx_
-/other/ads/*
 /outbrain-min.
-/outline-ads-
-/outstream_ad-
-/outWebAd_
 /overlay-ad.
 /overlay_ad_
 /overlayad.$domain=~buliba.pl
@@ -2545,7 +2523,6 @@
 /pagead/osd.
 /pagead?
 /PageBottomAD.
-/pagecurl/*
 /pageear.
 /pageear/*
 /pageear_
@@ -54895,6 +54872,7 @@ browsershots.org#@#.advert_area
 ||pimpandhost.com/mikakoki/
 ||plagiarismdetector.net/img-pop/
 ||planetlotus.org/images/partners/
+||plutonium.cointelegraph.com^
 ||poedb.tw/image/torchlight/
 ||pontent.powzers.lol^
 ||ports.co.za/banners/
@@ -57366,7 +57344,7 @@ mamul.am##.bannerb
 gamertweak.com##.bannerdiv
 flatpanelshd.com##.bannerdiv_twopage
 arcadebomb.com##.bannerext
-2merkato.com,2mfm.org,aps.dz,armyrecognition.com,cbn.co.za,dailynews.co.tz,digitalmediaworld.tv,eprop.co.za,finchannel.com,i-programmer.info,killerdirectory.com,pamplinmedia.com,radiolumiere.org,rapidtvnews.com,southfloridagaynews.com,thepatriot.co.bw,usedcarnews.com##.bannergroup
+2merkato.com,2mfm.org,aps.dz,armyrecognition.com,cbn.co.za,dailynews.co.tz,digitalmediaworld.tv,eprop.co.za,finchannel.com,i-programmer.info,killerdirectory.com,limesurvey.org,pamplinmedia.com,radiolumiere.org,rapidtvnews.com,southfloridagaynews.com,thepatriot.co.bw,usedcarnews.com##.bannergroup
 saigoneer.com##.bannergroup-main
 asianmirror.lk,catholicregister.org,crown.co.za,marengo-uniontimes.com,nikktech.com##.banneritem
 domainnamewire.com,ghostbin.me,i24news.tv,marinetechnologynews.com,maritimepropulsion.com,mumbrella.com.au,paste.fo,petapixel.com,rapidtvnews.com,telesurtv.net,travelpulse.com##.banners
@@ -57408,6 +57386,7 @@ overclock3d.net##.bglink
 bhamnow.com##.bhamn-adlabel
 bhamnow.com##.bhamn-story
 blackhatworld.com##.bhw-advertise-link
+blackhatworld.com##.bhw-banners
 viva.co.nz##.big-banner
 cbc.ca##.bigBoxContainer
 newzit.com##.big_WcxYT
@@ -58406,7 +58385,6 @@ getbukkit.org##.limit
 linuxize.com##.linaff
 jpost.com##.line-left-side-before-and-after-container
 jpost.com##.line-one-row-before-and-after-container
-blackhatworld.com##.link--external
 architecturesideas.com##.linkpub_right_img
 babynamegenie.com,forless.com,worldtimeserver.com##.links
 weatherpro.com##.list-city-ad
@@ -59548,7 +59526,7 @@ technclub.com##.wbyqkx-container
 wccftech.com##.wccf_video_tag
 glamourvanity.com##.wdt_gads
 probuilds.net##.welcome-bnr
-limesurvey.org,mobygames.com,taskcoach.org##.well
+mobygames.com,taskcoach.org##.well
 gearlive.com##.wellvert
 cpu-monkey.com,gpu-monkey.com##.werb
 best-faucets.com,transfermarkt.co.uk,transfermarkt.com##.werbung
@@ -62101,6 +62079,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||player.aniview.com/script/$script,domain=odysee.com
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
+@@||player.odycdn.com/api/$xmlhttprequest,domain=odysee.com
 @@||playwire.com/bolt/js/zeus/embed.js$script,third-party
 @@||pngimg.com/distr/$image,~third-party
 @@||pntrac.com/b/$image,domain=extrarebates.com
@@ -63354,8 +63333,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /counter/ashow/*
 /counter/collect?
 /counter/ct.php?
-/counter/process.asp?
-/counter/r.pl
 /counter/stat.
 /counter/views/*
 /counter1.gif?
@@ -63397,7 +63374,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /csi?v=*&action=
 /csi?v=2&s=
 /csi?v=3&s=
-/csm/analytics;
 /csp_204?
 /csp_log?
 /cta-loaded.js
@@ -63416,7 +63392,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /cx_tracking.js
 /cxense-candy.js
 /cxense-entitlement.js
-/cxense-video/*
 /cxense/cx.js
 /cxf-tracking
 /d.gif?
@@ -63504,7 +63479,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /e.gif?
 /e_stat?g_id=
 /eatms.js
-/ebay_analytics.
 /ebonetag.js
 /ebs/tracking.
 /ebs/tracking/*
@@ -63577,7 +63551,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /event.cgi?
 /event.gif?
 /event.php?campaign=
-/event/?ra=
 /event/beacon|
 /event/fingerprint
 /event/img?type=
@@ -63592,14 +63565,12 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /event/visit?
 /event?&event=
 /event?adblk=
-/event?auditLinkReceived=
 /event?event_id=
 /event?eventType=
 /event?pmo=
 /event?ref=
 /event?sendBeacon=
 /event?stat_
-/event?t=view&
 /event?token=
 /event?tub_id=
 /event_log/*
@@ -64042,26 +64013,17 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /iframe-tracker.js
 /iframe.tracker.js
 /iframetracker.
-/image.articleview?
 /image.ng/*
 /imageTracking.
 /iMAWebCookie.
-/img/gnt.gif?
-/img/gut.gif?
 /img?eid=
-/img_stat2.
 /imgcount.cgi?
 /imgcount.php?
 /imgevent?
 /imgtracker.
 /imp.gif?
 /imp.php?
-/imp/nurl?
-/imp/rtm?
-/imp/www.
 /imp2.js?
-/imp?reqid=
-/imp?sid=
 /imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
@@ -64074,9 +64036,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /impression.php?
 /impression.pl?
 /impression.track?
-/impression/cmp2?
 /impression/inline?
-/impression/stream/*
 /impression/track?
 /impression/widget?
 /impression?ad=
@@ -64726,7 +64686,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /PageHit.ashx
 /PageHitPixel.
 /pagehits/*
-/pageLevelOmniture.
 /pagelogger/connector.php?
 /pageloggerobyx.
 /pagestat/*
@@ -64848,29 +64807,20 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /pixel-caffeine/*
 /pixel-events.
 /pixel-manager.js?
-/pixel-page.html
-/pixel-prometeo.
 /pixel-render/*
 /pixel-track.
 /pixel-track/*
 /pixel-tracking.
 /pixel.*/track/*
-/pixel.ashx?
-/pixel.aspx?
 /pixel.cgi?
 /pixel.fingerprint.
-/pixel.gif/sensor?
 /pixel.gif?
 /pixel.track
-/pixel/?__tracker
-/pixel/?random_number=
 /pixel/email/*$image
 /pixel/impression/*
 /pixel/impression?
 /pixel/nvrwe?
-/pixel/PageStatistics.gif?
 /pixel/sbs?
-/Pixel/Script/Behavior?
 /pixel/stats/?
 /pixel/stream/*
 /pixel/view?
@@ -64878,8 +64828,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /pixel1/impression.
 /pixel2.gif?
 /pixel?id=
-/pixel?m=
-/pixel?sm_
 /pixel?tag=
 /pixel?type=
 /pixel_event_data?
@@ -74529,6 +74477,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yahoo.co.jp/js/s_retargeting.js
 ||yahoo.com/sync/casale/
 ||yandex.*/data?referrer=
+||yandex.ru/click/
 ||yandex.ru/cycounter?
 ||yarpp.org/pixels/
 ||yext.com/plpixel?
@@ -76790,6 +76739,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thtk.temu.com^
 ||tiendeo.*/_statsapi/
 ||tiktok.com/captcha/report
+||tiktok.com/ttwid/check/
 ||tiktok.com/v1/list
 ||tiktok.com/web/report?
 ||tiktok.com/whale/
