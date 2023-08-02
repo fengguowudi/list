@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 62ocg0gYpuQPh+54CT5VHQ
+! Checksum: EK4YZIaugMwsZ7cztfy3Wg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308020220
-! Last Modified: 2023年08月02日 02:20
+! Version: 202308020919
+! Last Modified: 2023年08月02日 09:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -14327,6 +14327,7 @@ _800x80_
 ##.billboard__advert
 ##.billboard_ad
 ##.billboard_ad_desktop
+##.billboard_ad_wrap
 ##.billboard_adwrap
 ##.bin-ads
 ##.bing-ads-wrapper
@@ -14900,6 +14901,7 @@ _800x80_
 ##.clever-core-ads
 ##.clickads
 ##.clickforceads
+##.clickio-side-ad
 ##.client-ad
 ##.client-ad-container
 ##.close-ad-wrapper
@@ -22825,7 +22827,6 @@ browsershots.org#@#.advert_area
 ||africaewgrhdtb.com^
 ||africawin.com^
 ||afriflatry.co^
-||afront.io^
 ||afshanthough.pro^
 ||afssdmin.com^
 ||afswkdjdma.com^
@@ -24749,6 +24750,7 @@ browsershots.org#@#.advert_area
 ||bbmrraevnevnk.top^
 ||bbyavrykjopnnx.xyz^
 ||bc5c04eefb.com^
+||bcae944449.com^
 ||bcb3da3ac8.com^
 ||bccda4ab57.com^
 ||bcd7ad4271.com^
@@ -25418,6 +25420,7 @@ browsershots.org#@#.advert_area
 ||boistyaya.com^
 ||bokeden.com^
 ||boldboycott.com^
+||boldinsect.pro^
 ||boldtur.xyz^
 ||bolofoak.net^
 ||boloingopulent.guru^
@@ -33185,6 +33188,7 @@ browsershots.org#@#.advert_area
 ||interestededit.com^
 ||interesting-vids.space^
 ||interestingpics.space^
+||interestingvids.online^
 ||interestmoments.com^
 ||interestsubsidereason.com^
 ||intergient.com^
@@ -35747,6 +35751,7 @@ browsershots.org#@#.advert_area
 ||milvagomarica.website^
 ||mimicbeeralb.com^
 ||mimilcnf.pro^
+||mimxdsqiativb.com^
 ||mincesecondaryinset.com^
 ||mincethingsmarch.com^
 ||mindactual.com^
@@ -37289,6 +37294,7 @@ browsershots.org#@#.advert_area
 ||oherhome.xyz^
 ||ohfoqpsrufi.com^
 ||ohhonkowjag.com^
+||ohibal.com^
 ||ohkdsplu.com^
 ||ohktpaajnzk.com^
 ||ohldsplu.com^
@@ -37672,6 +37678,7 @@ browsershots.org#@#.advert_area
 ||ordinaryleaving.com^
 ||ordisposableado.com^
 ||ordxcutu.com^
+||ordzimwtaa.com^
 ||oreakingoutin.info^
 ||orecticconchae.com^
 ||oremuspolynoe.digital^
@@ -37833,6 +37840,7 @@ browsershots.org#@#.advert_area
 ||ourtecads.com^
 ||ourteeko.com^
 ||ourtetotum.com^
+||ouryretyequirem.info^
 ||ourzitemu.com^
 ||ousinouk.xyz^
 ||ousouzay.net^
@@ -39042,6 +39050,7 @@ browsershots.org#@#.advert_area
 ||portkingric.net^
 ||portoteamo.com^
 ||portoutsid.xyz^
+||posaul.com^
 ||posawaj.com^
 ||poseidthewave.com^
 ||poseurtwicet.digital^
@@ -41404,6 +41413,7 @@ browsershots.org#@#.advert_area
 ||saycasksabnegation.com^
 ||sayelo.xyz^
 ||saylnk.com^
+||sazute.uno^
 ||sb-stat1.com^
 ||sb4you1.com^
 ||sb89347.com^
@@ -42921,6 +42931,7 @@ browsershots.org#@#.advert_area
 ||strickenenergetic.com^
 ||strictgrittwine.com^
 ||strident-writing.com^
+||striperewind.com^
 ||strivefoetus.com^
 ||strivenramplor.com^
 ||strobesfalsity.digital^
@@ -46592,6 +46603,7 @@ browsershots.org#@#.advert_area
 ||wukbgater.buzz^
 ||wukoopicee.com^
 ||wuksaiho.net^
+||wuluju.uno^
 ||wumpeeps.net^
 ||wumteecoodsu.com^
 ||wumufama.com^
@@ -46704,6 +46716,7 @@ browsershots.org#@#.advert_area
 ||xfcpdigfsx.xyz^
 ||xfileload.com^
 ||xfimwjibh.top^
+||xfvvygrv.com^
 ||xfwblpomxc.com^
 ||xfxssqakis.com^
 ||xgraph.net^
@@ -46917,6 +46930,7 @@ browsershots.org#@#.advert_area
 ||yearlylight.com^
 ||yearnwillowconsumption.com^
 ||yeesdiapase.website^
+||yeioreo.net^
 ||yelledvotable.com^
 ||yellow-record.pro^
 ||yellowacorn.net^
@@ -47746,6 +47760,7 @@ browsershots.org#@#.advert_area
 ||affiliateedge.com^$third-party
 ||affiliategroove.com^$third-party
 ||afrikad.com^$third-party
+||afront.io^$third-party
 ||afy11.net^$third-party
 ||afyads.com^$third-party
 ||ahvclick.com^$third-party
@@ -50962,6 +50977,7 @@ browsershots.org#@#.advert_area
 ||ourdailystories.com^$popup
 ||ourhotfeed.com^$popup
 ||ouropenin.club^$popup
+||ouryretyequirem.info^$popup
 ||ourzitemu.com^$popup
 ||outaipoma.com^$popup
 ||outdoeslegacy.uno^$popup
@@ -52245,6 +52261,8 @@ browsershots.org#@#.advert_area
 ||yearbookhobblespinal.com^$popup
 ||yearlingpreferablyperiods.com^$popup
 ||yeesshh.com^$popup
+||yeioreo.net.^$popup
+||yeioreo.net^$popup
 ||yestilokano.top^$popup
 ||ygamey.com^$popup
 ||yhbcii.com^$popup
@@ -57029,6 +57047,7 @@ tellymix.co.uk##.adb_top
 wordfind.com##.adbl
 dataversity.net,sakshi.com,songlyrics.com,yallamotor.com##.adblock
 bookriot.com##.adblock-content
+domaingang.com##.adblock_sales
 entrepreneur.com,interglot.com,pricespy.co.nz,sourcedigit.com,telegraphindia.com##.adbox
 moviechat.org##.adc
 boards.4channel.org##.adc-resp
@@ -59554,6 +59573,7 @@ gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,shtfplan.com,tech-latest.com,thestrongtraveller.com,usmagazine.com##.widget_block
 wplift.com##.widget_bsa
 4sysops.com,9to5linux.com,backthetruckup.com,catcountry941.com,cnx-software.com,corvetteblogger.com,dailyveracity.com,fastestvpns.com,gamingonphone.com,gizmochina.com,guides.wp-bullet.com,hardwaretimes.com,macsources.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,quickanswer.blog,sashares.co.za,scienceabc.com,techdows.com,techjuice.pk,thinkcivics.com,tooxclusive.com,torrentfreak.com,trendingpoliticsnews.com##.widget_custom_html
+domaingang.com##.widget_execphp
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
@@ -59956,6 +59976,7 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[hr
 coolors.co##a[href*="srv.Buysellads.com"]
 unitconversion.org##a[href="../noads.html"]
 osradar.com##a[href="http://insiderapps.com/"]
+linkz.fun##a[href="https://cozmo.fun/"]
 ghostbin.me##a[href="https://paste.fo/adspot"]
 nzbstars.com##a[href="usenetbucket.php"]
 techporn.ph##a[href][target*="blank"]
@@ -60213,6 +60234,7 @@ timesofindia.com##div[id^="custom_ad_"]
 cyprus-mail.com##div[id^="cypru-"]
 football-tribe.com##div[id^="da-article-"]
 hellomagazine.com##div[id^="div-hola-slot-"]
+domaingang.com##div[id^="domai-"]
 thewrap.com##div[id^="dsk-box-ad"]
 memedroid.com##div[id^="freestar-ad-"]
 maltadaily.mt##div[id^="malta-"]
@@ -100235,10 +100257,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||pengwinhack.fun^$doc
 ||software-extra.org^$doc
 ||kzsoftgame.site^$all
-||ewapps.top^$all
-||awapps.cfd^$all
-||cleansoft.online^$doc
-||softlab.fun^$doc
 ||reportandrepair.com^$doc
 ||soft-lab.fun^$doc
 ||oceanofgame.net^$doc
@@ -102162,6 +102180,13 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||mobileverify.net^$doc
 ||grabgiftcard.net^$doc
 ||giftcardhero.net^$doc
+||ewapps.top^$all
+||awapps.cfd^$all
+||awapp.store^$doc
+||cleansoft.online^$doc
+||softlab.fun^$doc
+||appxfree.com^$doc
+||appxfree.top^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -103820,8 +103845,6 @@ lebigdata.fr##.background-cover
 ||lebigdata.fr/wp-content/uploads/*/cote.png$image
 @@||objetconnecte.net/detroitchicago/dayton.js$script,1p
 @@||crooksandliars.com/*/admiral.js$script,1p
-@@||akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$script,domain=tvnow.*
-@@||googletagmanager.com/gtm.js$script,domain=tvnow.*
 ||bde4.com^$csp=script-src 'self' * 'unsafe-inline',badfilter
 ||bde4.cc^$csp=script-src 'self' * 'unsafe-inline',badfilter
 @@||javbucks.com^$css,domain=javhd.com
