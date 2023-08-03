@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mnoahjP3MNO57ahAtWT14g
+! Checksum: obPl7+cHv0mA/uoWiv6wFg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308031420
-! Last Modified: 2023年08月03日 14:20
+! Version: 202308032033
+! Last Modified: 2023年08月03日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -60955,6 +60955,7 @@ linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__
 lovenovels.net#?#center:-abp-contains(Advertisement)
 mirrored.to#?#tr:-abp-has([alt="UseNet"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#.tweet:-abp-has(.promo)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article[data-testid="tweet"]:-abp-has(span:-abp-contains(Ad))
 moonastro.com#?#div[style^="background-color:"]:-abp-contains(Advertisement)
 multiup.eu,multiup.org#?#.alert:-abp-contains(VPN)
 multiup.eu,multiup.org#?#.col-md-4:-abp-contains(Usenet.nl)
