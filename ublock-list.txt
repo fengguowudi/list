@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: egDdlrvrpR/Yhgjnfs3kOA
+! Checksum: e18zR8Thff89Hy2YRgUXpQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308041420
-! Last Modified: 2023年08月04日 14:20
+! Version: 202308042031
+! Last Modified: 2023年08月04日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57892,7 +57892,6 @@ wikiwand.com##.content_headerAd__USjzd
 nationalmemo.com##.content_nm_placeholder
 usedcarnews.com##.continut
 metar-taf.com##.controls-right
-stalirov.lawyer##.cookies_ntf
 live-tennis.eu##.copyright
 imdb.com##.cornerstone_slot
 physicsworld.com##.corporate-partners
@@ -61117,9 +61116,8 @@ titantv.com#?#tr:-abp-has(> td[align="center"][valign="middle"][colspan="2"][cla
 tossinggames.com#?#tbody:-abp-contains(Please visit our below advertisers)
 tripadvisor.at,tripadvisor.be,tripadvisor.ca,tripadvisor.ch,tripadvisor.cl,tripadvisor.cn,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.il,tripadvisor.co.kr,tripadvisor.co.nz,tripadvisor.co.uk,tripadvisor.co.za,tripadvisor.com,tripadvisor.com.ar,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.eg,tripadvisor.com.gr,tripadvisor.com.hk,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.pe,tripadvisor.com.ph,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.com.ve,tripadvisor.com.vn,tripadvisor.de,tripadvisor.dk,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.pt,tripadvisor.ru,tripadvisor.se#?#.listItem:-abp-has(.sponsored_v2)
 tumblr.com#?#.ge_yK:-abp-has(.hM19_)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article[data-testid="tweet"]:-abp-has(a[href*="?twclid="])
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article[data-testid="tweet"]:-abp-has(a[href*="&twclid="])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid="UserCell"]:-abp-has(path[d$="10H8.996V8h7v7z"])
+twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid="eventHero"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article[data-testid="tweet"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid="trend"]:-abp-has(path[d$="10H8.996V8h7v7z"])
@@ -61312,7 +61310,7 @@ pichunter.com##.__autofooterwidth
 sunporno.com##.a-block
 porngem.com,uiporn.com##.a-d-v
 bravoteens.com##.a352
-de-sexy-tube.ru##.aBlock
+china-tubex.site,de-sexy-tube.ru##.aBlock
 namethatporn.com##.a_br_b
 upornia.com##.aa_label
 pimpandhost.com##.aaablock_yes
@@ -61892,6 +61890,7 @@ thegay.com##.video-slider-container
 kisscos.net##.video-sponsor
 senzuri.tube##.video-tube-friends
 xhamster.com##.video-view-ads
+china-tubex.site##.videoAd
 javynow.com##.videos-ad__ad
 porndoe.com##.videos-tsq
 zbporn.tv##.view-aside
@@ -112317,7 +112316,7 @@ mytempsms.com#@##container-ad
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 13 Jul 2023 17:36:33 GMT
-# entries:        3717
+# entries:        3716
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -113433,6 +113432,7 @@ mytempsms.com#@##container-ad
 127.0.0.1 bannerconnect.net
 127.0.0.1 bannergrabber.internet.gr
 127.0.0.1 bannerimage.com
+127.0.0.1 bannerlandia.com.ar
 127.0.0.1 bannermall.com
 127.0.0.1 bannermanager.bnr.bg
 127.0.0.1 bannermarkt.nl
@@ -113997,13 +113997,11 @@ mytempsms.com#@##container-ad
 127.0.0.1 elitedollars.com
 127.0.0.1 elitetoplist.com
 127.0.0.1 em1.yoursantander.co.uk
-127.0.0.1 email-clk.adguard.com
 127.0.0.1 email-link.adtidy.net
 127.0.0.1 email-link.adtidy.org
 127.0.0.1 email-links.crowdfireapp.com
 127.0.0.1 email-open.adtidy.net
 127.0.0.1 email-open.adtidy.org
-127.0.0.1 email-opn.adguard.com
 127.0.0.1 emaillinks.soundiiz.com
 127.0.0.1 emebo.io
 127.0.0.1 emerse.com
@@ -115100,6 +115098,7 @@ mytempsms.com#@##container-ad
 127.0.0.1 quantummetric.com
 127.0.0.1 quarterbean.com
 127.0.0.1 quarterserver.de
+127.0.0.1 questaffiliates.net
 127.0.0.1 quickkoala.io
 127.0.0.1 quicksandear.com
 127.0.0.1 quietknowledge.com
@@ -115144,7 +115143,6 @@ mytempsms.com#@##container-ad
 127.0.0.1 reactx.com
 127.0.0.1 readgoldfish.com
 127.0.0.1 readingguilt.com
-127.0.0.1 readingopera.com
 127.0.0.1 readserver.net
 127.0.0.1 readymoon.com
 127.0.0.1 realcastmedia.com
