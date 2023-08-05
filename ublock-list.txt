@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NsWTb7QEtwbtsXCmdWu2DQ
+! Checksum: HsTWFLF99lrFzeBiA42rTQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308050219
-! Last Modified: 2023年08月05日 02:19
+! Version: 202308050918
+! Last Modified: 2023年08月05日 09:18
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -27173,6 +27173,7 @@ browsershots.org#@#.advert_area
 ||confessedensure.com^
 ||confidentexplanationillegal.com^
 ||confideshrinebuff.com^
+||confidethirstyfrightful.com^
 ||configurationluxuriantinclination.com^
 ||confinehindrancethree.com^
 ||confirmationefficiency.com^
@@ -36413,6 +36414,7 @@ browsershots.org#@#.advert_area
 ||myfreshposts.com^
 ||myfreshspot.com^
 ||mygoodlives.com^
+||mygsyv.com^
 ||mygtmn.com^
 ||myhypestories.com^
 ||myimagetracking.com^
@@ -45872,6 +45874,7 @@ browsershots.org#@#.advert_area
 ||vknrfwwxhxaxupqp.pro^
 ||vknvimxmvsndhx.com^
 ||vkosaqcacra.com^
+||vlbbyi.com^
 ||vlitag.com^
 ||vlnk.me^
 ||vlqllpeevoch.com^
@@ -57289,7 +57292,8 @@ chron.com,crypto-news-flash.com,greenwichtime.com,houstonchronicle.com,mysananto
 bigislandnow.com##.adBreak
 m.economictimes.com,someecards.com,trailspace.com##.adContainer
 anews.com.tr##.adControl
-bramptonguardian.com##.adLabelWrapper
+bramptonguardian.com,insideottawavalley.com##.adLabelWrapper
+insideottawavalley.com##.adLabelWrapperManual
 bramptonguardian.com##.adSlot___3IQ8M
 drive.com.au##.adSpacing_drive-ad-spacing__g09um
 healthnfitness.net##.adTrack
@@ -59052,7 +59056,7 @@ advfn.com##.plus500
 thepinknews.com##.pn-ad-container
 thepinknews.com##.pn-remove-ads-container
 freewebarcade.com##.pnum
-bramptonguardian.com##.polarBlock
+bramptonguardian.com,insideottawavalley.com##.polarBlock
 autoexpress.co.uk##.polaris__below-header-ad-wrapper
 bigissue.com##.polaris__simple-grid--full
 compoundsemiconductor.net##.popular__section-newsx
@@ -95569,7 +95573,6 @@ arketing.indianadunes.com^
 @@||console.statsig.com/_next/$~third-party
 @@||content.gap.com/fp/check.js$script,domain=oldnavy.gap.com
 @@||content.gap.com/fp/tags.js$script,domain=oldnavy.gap.com
-@@||cookielaw.org^*/OtAutoBlock.js$domain=darkreading.com
 @@||coremetrics.com*/eluminate.js
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
 @@||cqcounter.com^$domain=cqcounter.com
@@ -95817,6 +95820,8 @@ arketing.indianadunes.com^
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|usanetwork.com|vanityfair.com|wired.com|wowway.net
 !! adobedtm.com/extensions/
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com
+!! OtAutoBlock.js
+@@||cookielaw.org^*/OtAutoBlock.js$domain=bancsabadell.com|darkreading.com
 !! cxense.com/public/widget/
 @@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|wsj.com
 !! cxense.com/cx.cce.js
@@ -105192,6 +105197,7 @@ mytempsms.com#@##container-ad
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=247sports.com,important
 @@||hcjs.nv7s.com/xxxmas/*$script,domain=hclips.com
 @@||hcjs.nv7s.com/zjwiarda/*$script,domain=hclips.com
+@@||mpsnare.iesnare.com/snare.js$script,domain=elgiganten.dk|elgiganten.se|elkjop.no|gigantti.fi|power.fi
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
