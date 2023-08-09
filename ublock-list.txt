@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cPQOdxRHW5lAY2OuiPweEA
+! Checksum: ip0tQHxvXO184A1W1l+UPA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308090221
-! Last Modified: 2023年08月09日 02:21
+! Version: 202308090923
+! Last Modified: 2023年08月09日 09:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -61350,7 +61350,6 @@ autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span
 dearbornmarket.com,fairwaymarket.com,gourmetgarage.com,priceritemarketplace.com,shoprite.com,thefreshgrocer.com#?#div[class^="ColListing"]:-abp-has(div[data-testid^="Sponsored"])
 nordstrom.com#?#.ivm_G:-abp-contains(Sponsored)
 noon.com#?#span[class*="productContaine"]:-abp-has(div:-abp-contains(Sponsored))
-indiatimes.com#?#div:-abp-has(> div[id^="div-gpt-ad-"])
 mg.co.za#?#article:-abp-has(.sponsored-single)
 rustlabs.com#?#.sub-info-block:-abp-has(#banner)
 rakuten.com#?#div[data-productid]:-abp-has(div.productList_sponsoredAds_RUS)
