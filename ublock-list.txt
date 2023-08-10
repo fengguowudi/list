@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cKBPy9c/fYkm3F3yTP0L9g
+! Checksum: J4WDSY4x9JqRed75HAcCtQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308102035
-! Last Modified: 2023年08月10日 20:35
+! Version: 202308110219
+! Last Modified: 2023年08月11日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -5496,6 +5496,8 @@ _800x80_
 ###ads_body_2
 ###ads_body_3
 ###ads_body_4
+###ads_body_5
+###ads_body_6
 ###ads_bottom
 ###ads_box
 ###ads_box1
@@ -17417,6 +17419,7 @@ _800x80_
 ##.news_article_ad_google
 ##.news_footer_ad_container
 ##.news_imgad
+##.news_vibrant_ads_banner
 ##.newsad
 ##.newsblock-ads
 ##.newsfeed_adunit
@@ -17473,6 +17476,7 @@ _800x80_
 ##.nuffnangad
 ##.nui-ad-layout
 ##.nuk-ad-placeholder
+##.nv-ads-wrapper
 ##.nw-ad
 ##.nw-ad-468x60
 ##.nw-ad-label
@@ -27786,6 +27790,7 @@ browsershots.org#@#.advert_area
 ||dartg665moetyor.com^
 ||dartonim.com^
 ||darvorn.com^
+||darzeegobble.com^
 ||dasesiumworkhovdimi.info^
 ||dasfelynsaterr.webcam^
 ||dasfelynsaterr.win^
@@ -28099,6 +28104,7 @@ browsershots.org#@#.advert_area
 ||dentofinauk.shop^
 ||dentwithought.com^
 ||deostr.com^
+||deotarevalue.com^
 ||deparn.com^
 ||departedbeings.com^
 ||departgross.com^
@@ -30507,6 +30513,7 @@ browsershots.org#@#.advert_area
 ||flexlinks.com^
 ||flickerbridge.com^
 ||flickeringintention.pro^
+||fliddercharm.space^
 ||fliedridgin.com^
 ||fligha.com^
 ||flintedkickers.com^
@@ -31314,6 +31321,7 @@ browsershots.org#@#.advert_area
 ||ginnycleanedfeud.com^
 ||ginnymulberryincompetent.com^
 ||ginnyweakeland.info^
+||ginsicih.xyz^
 ||gipaxqfpopu.com^
 ||gipeucn.icu^
 ||gipostart-1.co^
@@ -31656,6 +31664,7 @@ browsershots.org#@#.advert_area
 ||gowhutho.com^
 ||gowpengagster.com^
 ||gpnjknuqas.xyz^
+||gporkecpyttu.com^
 ||gpozmocm.com^
 ||gpuqizoz.com^
 ||gpuskmmm.com^
@@ -31710,6 +31719,7 @@ browsershots.org#@#.advert_area
 ||graniteacquitcharacteristic.com^
 ||grannysteer.com^
 ||granular-picture.pro^
+||graphnitriot.com^
 ||grapiercaproyl.com^
 ||grappamacram.com^
 ||grasshopperprudencecondiment.com^
@@ -31863,6 +31873,7 @@ browsershots.org#@#.advert_area
 ||gsiswensaido.xyz^
 ||gtbdhr.com^
 ||gtdmtjebafo.com^
+||gthfwcjhbxbq.xyz^
 ||gtiqmsbpor.com^
 ||gtoonfd.com^
 ||gtrd.xyz^
@@ -36056,6 +36067,7 @@ browsershots.org#@#.advert_area
 ||mixpo.com^
 ||mixykails.com^
 ||mizensdisney.com^
+||mjehvuwgy.com^
 ||mjjjhfgqqpt.com^
 ||mjnomtahm.com^
 ||mjtwoqupix.com^
@@ -38978,6 +38990,7 @@ browsershots.org#@#.advert_area
 ||piloteraser.com^
 ||pilpulbagmen.com^
 ||pilsarde.net^
+||pilularatavist.com^
 ||piluleruggy.com^
 ||pimlicoouranos.space^
 ||pimpleinterference.com^
@@ -43202,6 +43215,7 @@ browsershots.org#@#.advert_area
 ||steeltour.pro^
 ||steep-secretary.pro^
 ||steepto.com^
+||steeringsunshine.com^
 ||steessay.com^
 ||steghaiwhy.com^
 ||steinfqwe6782beck.com^
@@ -46415,6 +46429,7 @@ browsershots.org#@#.advert_area
 ||warpassistrefrain.com^
 ||warswhitawe.com^
 ||warten-sie-mal.xyz^
+||wartletkenn.com^
 ||warumbistdusoarm.space^
 ||wary-pressure.pro^
 ||waryboot.pro^
@@ -48583,6 +48598,7 @@ browsershots.org#@#.advert_area
 ||crispads.com^$third-party
 ||croea.com^$third-party
 ||cryptoads.space^$third-party
+||cryptocoinsad.com^$third-party
 ||ctrhub.com^$third-party
 ||ctrip.com^$third-party
 ||ctrmanager.com^$third-party
@@ -60030,6 +60046,7 @@ forbes.com##.top-ed-placeholder
 forexlive.com##.top-forex-brokers__wrapper
 debka.com##.top-full-width-sidebar
 reverso.net##.top-horizontal
+india.com##.top-horizontal-banner
 spectrum.ieee.org##.top-leader-container
 1071thepeak.com,gpfans.com,thedailystar.net##.top-leaderboard
 webmd.com##.top-picks
@@ -61333,6 +61350,7 @@ bing.com##.pa_sb
 bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
+skyscanner.com,skyscanner.net#?#div:-abp-has(>a[data-testid="inline-brand-banner"])
 aliexpress.com,aliexpress.us#?#a[class*="manhattan--container"]:-abp-has(span[class^="manhattan--ad"])
 skyscanner.com,skyscanner.net#?#div>a:-abp-has(div[class^="DefaultBanner_sponsorshipRow"])
 meijer.com#?#.product-grid__product:-abp-has(.product-tile__sponsored)
@@ -63634,6 +63652,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /b/ss/*/JS-
 /b/ss?AQB=
 /b/stats?
+/ba_tracking.js
 /baiduStatistics.js
 /banalytics.js
 /base/es5/bundle.js
@@ -95402,8 +95421,6 @@ arketing.indianadunes.com^
 ||next.rikunabi.com/api/logRecommendRealtimeI2AV2
 ||nhk.or.jp^*/bc.js
 ||nicovideo.jp/api/counter/
-||nicovideo.jp/v1/recommend/log/
-||nicovideo.jp/v2/user/actions/watch-events.json
 ||nikkei.com/.resources/tracking/
 ||pvtag.yahoo.co.jp^
 ||pw.gigazine.net^
@@ -102748,6 +102765,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||lucksignpost0804.org^$doc
 ||lightning02s.com^$doc
 ||lightning0707.com^$doc
+||jkytd-rd3.com^$doc
+||le.tter99.com^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
