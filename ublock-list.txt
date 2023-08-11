@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 94CyFO1lHxAr+j30KzyYIw
+! Checksum: y7+XZNL+e/emmeoLABGRng
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308112029
-! Last Modified: 2023年08月11日 20:29
+! Version: 202308120219
+! Last Modified: 2023年08月12日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21124,6 +21124,7 @@ browsershots.org#@#.advert_area
 ||30koqnlks.de^
 ||30pk41r1i.de^
 ||314d7d699d.com^
+||314gqd3es.de^
 ||316feq0nc.de^
 ||31bqljnla.de^
 ||31cm5fq78.de^
@@ -22951,6 +22952,7 @@ browsershots.org#@#.advert_area
 ||aklsyovkpoyv.com^
 ||akmxts.com^
 ||aktvzyaht.com^
+||aktwusgwep.com^
 ||akutapro.com^
 ||akzfxmgcq.com^
 ||akzvponimot.com^
@@ -25186,6 +25188,7 @@ browsershots.org#@#.advert_area
 ||blastedlurched.com^
 ||blastsbigener.com^
 ||blatwalm.com^
+||blaze-media.com^
 ||blazeobservancebough.com^
 ||blazingswatstated.com^
 ||blbazybajvzvw.top^
@@ -29107,6 +29110,7 @@ browsershots.org#@#.advert_area
 ||eatlengthanid.xyz^
 ||eatsidebicep.com^
 ||eautifulasawea.com^
+||eavailandproc.info^
 ||eavesdroppingsickleemotionally.com^
 ||eavesofefinegoldf.info^
 ||eawp2ra7.top^
@@ -29635,6 +29639,7 @@ browsershots.org#@#.advert_area
 ||eraltradiansid.com^
 ||eraseficins.website^
 ||eraserindecent.com^
+||erbiscusys.info^
 ||ercockremarkedo.info^
 ||ercoeteasacom.com^
 ||erconditingde.info^
@@ -32364,6 +32369,7 @@ browsershots.org#@#.advert_area
 ||hhklc.com^
 ||hhkld.com^
 ||hhrsecure.com^
+||hhtxjoa.com^
 ||hhyalsk.com^
 ||hiadone.com^
 ||hiasor.com^
@@ -33454,6 +33460,7 @@ browsershots.org#@#.advert_area
 ||ipsowrite.com^
 ||iptautup.com^
 ||iqimwsctvgbvqx.xyz^
+||iqkjrwf.com^
 ||iqnevmje.com^
 ||iqpkee.com^
 ||iqtest365.online^
@@ -33961,6 +33968,7 @@ browsershots.org#@#.advert_area
 ||jswww.net^
 ||jsyfqeynrvg.com^
 ||jtdqxsfzi.com^
+||jtjtqar.com^
 ||ju427bv7an9n.com^
 ||jubileeirresponsibilityforfeit.com^
 ||jubnaadserve.com^
@@ -34241,6 +34249,7 @@ browsershots.org#@#.advert_area
 ||kidnapbushesfuse.com^
 ||kidsboilingbeech.com^
 ||kidslinecover.com^
+||kifdngi.com^
 ||kihudevo.pro^
 ||kihwmtvzvi.com^
 ||kikibobo.top^
@@ -35396,6 +35405,7 @@ browsershots.org#@#.advert_area
 ||lyingdownt.xyz^
 ||lyingshayride.com^
 ||lyjegushe.pro^
+||lyjznnanareay.top^
 ||lylufhuxqwi.com^
 ||lympin.com^
 ||lynormationpas.com^
@@ -45155,6 +45165,7 @@ browsershots.org#@#.advert_area
 ||txouliypi.com^
 ||txzaazmdhtw.com^
 ||tyatedgrogs.xyz^
+||tychismfeasts.com^
 ||tychon.bid^
 ||tydevelelastic.com^
 ||tydouke.com^
@@ -45808,6 +45819,7 @@ browsershots.org#@#.advert_area
 ||vaipsona.com^
 ||vaipsouw.com^
 ||vaisheph.xyz^
+||vaitotoo.net^
 ||vajoru.xyz^
 ||vak345.com^
 ||valack.com^
@@ -54923,6 +54935,7 @@ browsershots.org#@#.advert_area
 ||evanetwork.com^$popup
 ||fast-vpn.me^$popup
 ||fastclick.net^$popup
+||fewrandomfacts.com^$popup
 ||firstload.com^$popup
 ||firstload.de^$popup
 ||fleshlight.com/?link=$popup
@@ -60898,6 +60911,7 @@ timeout.com##div[class^="_sponsoredContainer_"]
 crictracker.com##div[class^="ad-block-"]
 sfchronicle.com##div[class^="ad-module-"]
 fodors.com##div[class^="ad-placeholder"]
+cointelegraph.com##div[class^="ad-slot_"]
 reuters.com##div[class^="ad-slot__"]
 kijiji.ca##div[class^="adChoices-"]
 goodrx.com##div[class^="adContainer"]
@@ -63828,6 +63842,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /bundle/analytics.
 /bundles/metrics.
 /bunsen/events/*
+/bv-analytics.js
 /byside_webcare.
 /bytro/logs/*
 /c.gif?
@@ -99612,7 +99627,7 @@ pcworld.es##.stickyAdWrapper
 *$popunder,domain=ouo.io
 nowtolove.com.au##.page__content-header:style(height: 50px !important)
 @@||anime-king.com^$ghide
-/^https?:\/\/[a-z]{5,6}\.com\/script\/[-_0-9a-z]+(\.min)?\.js$/$script,3p,match-case,domain=~edu|~gov
+/^https?:\/\/[a-z]{5,7}\.com\/script\/[-_0-9a-z]+(\.min)?\.js$/$script,3p,match-case,domain=~edu|~gov
 /script/atg.js$3p
 /script/atga.js$3p
 /script/suv4r.js$3p
@@ -112413,6 +112428,10 @@ mytempsms.com#@##container-ad
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||3337126.com^
+||yruws6.com^
+||3338637.com^
+||3338652.com^
 ||mlstx.cn^
 ||yh18h8s.com^
 ||qhx1h2g.com^
