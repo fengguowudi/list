@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: J4WDSY4x9JqRed75HAcCtQ
+! Checksum: YfPumaRtO3nM7B0al+zefA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308110219
-! Last Modified: 2023年08月11日 02:19
+! Version: 202308110907
+! Last Modified: 2023年08月11日 09:07
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -5393,6 +5393,7 @@ _800x80_
 ###ads-header-728
 ###ads-home-468
 ###ads-horizontal
+###ads-inread
 ###ads-inside-content
 ###ads-leader
 ###ads-leaderboard
@@ -12094,6 +12095,7 @@ _800x80_
 ##.ads-decorator
 ##.ads-desktop
 ##.ads-div
+##.ads-end-content
 ##.ads-express
 ##.ads-favicon
 ##.ads-feed
@@ -12161,6 +12163,7 @@ _800x80_
 ##.ads-mini-3rows
 ##.ads-mobile
 ##.ads-module
+##.ads-module-alignment
 ##.ads-movie
 ##.ads-mpu
 ##.ads-narrow
@@ -60943,7 +60946,7 @@ elitepvpers.com##div[style^="font-size:11px;"]
 manga-raw.club##div[style^="height: 250px;"]
 manga-raw.club##div[style^="height: 300px;"]
 add0n.com,crazygames.com##div[style^="height: 90px;"]
-apkdone.com,crazygames.com,english-hindi.net,livesoccertv.com,malaysiakini.com##div[style^="height:250px"]
+apkdone.com,crazygames.com,english-hindi.net,livesoccertv.com,malaysiakini.com,sporticos.com##div[style^="height:250px"]
 titantv.com##div[style^="height:265px;"]
 malaysiakini.com##div[style^="height:600px"]
 whatmobile.com.pk##div[style^="height:610px"]
@@ -103307,6 +103310,10 @@ watchporn.to##+js(cookie-remover, kt_ips)
 ||mps.nbcuni.com/images/MPS-STATISTIC-REPORTING.png
 bing.com##+js(cookie-remover, MicrosoftApplicationsTelemetryDeviceId)
 ||ab.blogs.es/abtest.png^$image,3p,domain=xataka.com|trendencias.com,redirect=1x1.gif,important
+nowinstock.net##+js(href-sanitizer, a[href^="https://click.linksynergy.com/deeplink?id="][href*="&murl="], ?murl)
+nowinstock.net##+js(href-sanitizer, a[href^="http://go.redirectingat.com"][href*="&url="], ?url)
+nowinstock.net##+js(href-sanitizer, a[href^="https://redirect.viglink.com?key="][href*="&u="]\, a[href^="https://bestbuy.7tiv.net/c/"][href*="&u="], ?u)
+fap18.net##+js(href-sanitizer, a[href^="/vp/player/to/?u="], ?u)
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -112677,8 +112684,8 @@ mytempsms.com#@##container-ad
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Thu, 13 Jul 2023 17:36:33 GMT
-# entries:        3715
+# last updated:   Thu, 10 Aug 2023 21:58:27 GMT
+# entries:        3717
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -113856,6 +113863,7 @@ mytempsms.com#@##container-ad
 127.0.0.1 benfly.net
 127.0.0.1 berp.com
 127.0.0.1 bestboundary.com
+127.0.0.1 bestbuy.7tiv.net
 127.0.0.1 bestsearch.net
 127.0.0.1 bewilderedblade.com
 127.0.0.1 bfmio.com
@@ -114898,6 +114906,7 @@ mytempsms.com#@##container-ad
 127.0.0.1 linkshighway.com
 127.0.0.1 linkstorms.com
 127.0.0.1 linkswaper.com
+127.0.0.1 linksynergy.com
 127.0.0.1 linktarget.com
 127.0.0.1 liquidad.narrowcastmedia.com
 127.0.0.1 litix.io
