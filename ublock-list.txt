@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dhtrjOoH1MZIQE0vv+OTeg
+! Checksum: qG/W/gr/XZwT68qCI7LyDg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308121418
-! Last Modified: 2023年08月12日 14:18
+! Version: 202308122027
+! Last Modified: 2023年08月12日 20:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -329,7 +329,6 @@
 /ad.html?
 /ad.min.
 /ad.php?
-/ad.popup?
 /ad.skin.
 /ad.slot.
 /ad.view?
@@ -451,11 +450,8 @@
 /ad_horisontal.
 /ad_horiz.
 /ad_horizontal.
-/ad_html/*
-/ad_icons/*
 /ad_iframe.
 /ad_iframe_
-/ad_ima-
 /ad_image.
 /ad_image2.
 /ad_images/*
@@ -666,10 +662,7 @@
 /adheader.
 /adheading_
 /adhelper.
-/adhost.$domain=~adhost.dk
-/adhref.$domain=~adhref.com
 /adiframe?
-/adiframe_
 /adiframe|*|adtech;
 /adimage.
 /adimage/*
@@ -683,8 +676,6 @@
 /adinjector_
 /adinsert.
 /adj.php?
-/adjk.
-/adjoin.
 /adjs.php
 /adjs/*$~image
 /adjs?
@@ -1157,7 +1148,7 @@
 /adStrip.
 /adstub.
 /adstx.
-/adstyle.$~stylesheet,domain=~adstyle.com
+/adstyle.$~stylesheet,domain=~adstyle.com|~adstyle.jp
 /adsup.$domain=~adsup.lk|~adsup.me|~adsup.pl
 /adsvr.
 /adsweb.
@@ -1336,7 +1327,6 @@
 /advertss/*
 /adverttop.
 /advideo.$domain=~advideo.pro|~advideo.site
-/adview.$domain=~adview.mu|~adview.mx|~adview.online|~adview.su
 /adview/*
 /adview?
 /adview_
@@ -1352,12 +1342,6 @@
 /adwidgets/*
 /adwiz.
 /adwiz/*
-/adwizard.
-/adwizard/*
-/adwizard_
-/adwolf.
-/adword.
-/adworks.$domain=~adworks.att.com|~adworks.co.il|~adworks.fi|~adworks.jobijoba.io|~adworks.net
 /adwrapper/*
 /adx.$domain=~adx.acrosspf.com|~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.rs|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu|~solutionshill.com
 /adx/ads?
@@ -2254,9 +2238,6 @@
 /mainad.$domain=~mainad.ru
 /manageads/*
 /marfeel_sw.
-/markpop.js
-/masonad.gif
-/masterad.
 /mbads?
 /mbn_ad.
 /mcad.php
@@ -2632,7 +2613,6 @@
 /related-ads.
 /relatedads.
 /relevance_ad.
-/remaven.
 /remove-ads.
 /remove_ads.
 /ren.gif?
@@ -2656,7 +2636,6 @@
 /rightad.
 /rightad/*
 /rightads.$domain=~rightads.co.uk
-/rollad.
 /rolloverads/*
 /rotatingad.
 /rotationad.
@@ -2671,7 +2650,6 @@
 /script/suurl4.php?$third-party
 /script/ut.js?cb=$third-party
 /script/wait.php?*=$xmlhttprequest
-/scripts/ad_
 /scripts/afc/*
 /scripts/chatur.js
 /scripts/zanox-
@@ -2762,10 +2740,6 @@
 /skinad.
 /skinads/*
 /skins/ads/*
-/skn_ad/*
-/skyad.
-/skyad_
-/skyadjs/*
 /skyadright.
 /skyplayer-ads-
 /skyscraper_ad_
@@ -2783,8 +2757,6 @@
 /sliderAds.
 /slideshow/ads.
 /slidetopad.
-/slot/dfp/*
-/smalAds.
 /small_ad.
 /small_ads/*
 /smallad-
@@ -2818,7 +2790,6 @@
 /spiderad/*
 /splash_ads_
 /sponlink.
-/spons/banners/*
 /sponslink_
 /sponsor-ad
 /sponsor-banner.
@@ -2993,8 +2964,6 @@
 /vast_ads_
 /VASTAdPlugin.
 /vastVpaid.
-/vb/ads/*
-/vboard/ads/*
 /vclkads.
 /vendor-ads-
 /vendors~ads.
@@ -3236,7 +3205,6 @@ _ad_slot=
 _ad_small.
 _ad_sponsor/
 _ad_square.
-_ad_template_
 _ad_top_
 _ad_units_
 _ad_utils-
@@ -3253,7 +3221,6 @@ _adcall.
 _adcall_
 _adchoice.
 _adchoices.
-_adcount=
 _adengage.
 _adengage_
 _adframe.$domain=~adsystem.pl
@@ -3261,7 +3228,6 @@ _adframe/
 _adframe_
 _adfunction.
 _adhesion.
-_adhoc?
 _adhome.
 _adhome_
 _adlabel_
@@ -3295,7 +3261,6 @@ _adserver.
 _adsetup.
 _adsframe.
 _adshow.
-_adsjs.
 _adskin.
 _adskin_
 _adtech-
@@ -3342,9 +3307,6 @@ _bannerads_
 _bottom_ads.
 _bottom_ads_
 _box_ad_
-_btnad_
-_bucks_ad.
-_button_ad_
 _buttonad.
 _centre_ad.
 _collect/ads/
@@ -3386,7 +3348,6 @@ _pop_under.
 _popunder_
 _popupunder.
 _post_ads.
-_preorderad.
 _pushads.
 _railads.
 _rectangle_ads.
@@ -3402,7 +3363,6 @@ _right_ads_
 _rightad.
 _rightad1.
 _rightad_
-_show_ads=
 _side-ad_
 _sidead.
 _sidebar_ad.
@@ -61593,6 +61553,7 @@ pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.c
 pollunit.com#?#.owl-carousel:-abp-has(.carousel-ad)
 porn-w.org#?#.align-items-center.list-row:-abp-has(.col:empty)
 porn-w.org#?#.row:-abp-contains(Promotion Bot)
+radio.net#?#div:-abp-has(> div > div > [id^="RAD_D_"])
 radioreference.com#?#.box.gradient:-abp-has(a[href*="&Click="])
 rawstory.com#?#.body-description > div:-abp-contains(ADVERTISEMENT)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#article.Post:-abp-has(a[rel="nofollow noopener sponsored"])
@@ -65056,14 +65017,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /logviewedpage?
 /logViewImpression/*
 /logwebhit.
-/logwriter.php
-/lotame_audiences.
 /ls.gif?
 /lunametrics-
-/lycostrack.js
 /m.gif?
-/m1x1.jpg
-/m360lib.js
 /madAnalytics.js
 /magento/page-visit?
 /magento2.js
@@ -65075,16 +65031,10 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /matomo/*$domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 /maxymiser.
 /Maxymiser/*
-/mbcom.tracking.
-/mbox/at/*
 /mcookie.aspx
 /mcount.cgi?
 /mcounter/*
-/md.js?country=
-/mdwtc/click_thru/*
-/measure/data-capture/*
 /measure/pixel/*
-/measure/spring.
 /measure/visit/*
 /media-analytics.min.
 /media-analytics/*
@@ -65104,8 +65054,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /metrics-backend/*
 /metrics-ga.
 /metrics/event?
-/metrics/ga.html?
-/metrics/image.gif?
 /metrics/init?
 /metrics/metrics$domain=~docs.datadoghq.com|~spatineo.com
 /metrics/onload
@@ -65114,18 +65062,14 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /metrics/stat.
 /metrics/statsd/*
 /metrics/survey/*
-/metrics/tpi?
 /metrics/track/*
 /metrics/v1/frontend/*
 /metrics/vanity/?
-/metricsISCS.
 /metrika/tag.js
 /mi/insite/*
 /mianalytics.
-/micro.php?action=view&
 /microsoft.cognitiveservices.speech.sdk.bundle.js
 /min/gtm/*
-/minder-tracker.
 /mint/?js
 /mint/?record
 /mintstats/?js
@@ -77108,6 +77052,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||newzit.com/setABframe.html
 ||nextdoor.com/events/
 ||nflshop.com/api/track
+||nike.com/assets/measure/data-capture/
 ||nimbusweb.me/gtlytics.js
 ||no9pldds1lmn3.soundcloud.com^
 ||noodle.backmarket.io^
