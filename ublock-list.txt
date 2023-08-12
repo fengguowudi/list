@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KmJzOLkkXWLrEZ2jYL1LBQ
+! Checksum: dhtrjOoH1MZIQE0vv+OTeg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308120906
-! Last Modified: 2023年08月12日 09:06
+! Version: 202308121418
+! Last Modified: 2023年08月12日 14:18
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -605,7 +605,6 @@
 /adcheck?
 /adchoice.
 /adchoice_
-/adchoices.
 /adchoices/*
 /adchoices_
 /adchoicesicon.
@@ -44927,6 +44926,7 @@ browsershots.org#@#.advert_area
 ||trollwarningpaws.com^
 ||tromairiememasdaq.com^
 ||trombocrack.com^
+||tronads.io^
 ||troncomelets.com^
 ||troolyhonks.com^
 ||troozescript.store^
@@ -48072,6 +48072,7 @@ browsershots.org#@#.advert_area
 ||zylytavo.com^
 ||zypenetwork.com^
 ||zypy2h6rgfux.com^
+||adservice.google.$document
 ||bet365.com/*?affiliate=$document
 ||dianomi.com^$document
 ||maquiags.com^$document
@@ -60425,6 +60426,7 @@ stocktwits.com##[data-pos]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
 ginx.tv##[data-ref]
+disqus.com##[data-role="ad-content"]
 washingtonpost.com##[data-sc-c="adslot"]
 trakt.tv##[data-snigel-id]
 amp.theguardian.com##[data-sort-time="1"]
@@ -61198,6 +61200,7 @@ europeanpharmaceuticalreview.com##.europ-fixed-footer
 ibtimes.sg##.featured_video
 redboing.com##.fw-ad
 thestar.co.uk##.gOoqzH
+electricianforum.co.uk##.gb-sponsored
 givemesport.com##.gms-videos-container
 anandtech.com##.jwplayer
 gamesradar.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
@@ -67340,7 +67343,6 @@ _mongo_stats/
 ||ffe390afd658c19dcbf707e0597b846d.de^
 ||firstblackphase.com^
 ||fleraprt.com^
-||fmhy.net^
 ||fn-pz.com^
 ||fourtimessmelly.com^
 ||fpapi.io^
@@ -68388,6 +68390,7 @@ _mongo_stats/
 ||flxpxl.com^$third-party
 ||flyingpt.com^$third-party
 ||flyspy.co^$third-party
+||fmhy.net^$third-party
 ||fndrsp.net^$third-party
 ||followercounter.com^$third-party
 ||footprintdns.com^$third-party
@@ -76357,6 +76360,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.kkb.com.tr^
 ||collector.wawlabs.com^
 ||hulyagedikci.com/vhit.php?
+||iyzipay.com/buyer-protection/assets/js/analytics.js
 ||statistics.daktilo.com^
 ||stats.vidyome.com^
 ||tracking.venturify.at^
@@ -77121,6 +77125,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ohm-dot-hackster-io.appspot.com^
 ||okx.com/jsstat/sb?
 ||online-umwandeln.de/analytics.js
+||ontraport.com/opt_assets/static/js/logging.js
 ||opendesktop.org/l/fp
 ||ophan.theguardian.com^
 ||optimizely.com/js/geo.js
@@ -94924,6 +94929,7 @@ arketing.indianadunes.com^
 ||compteur.developpez.com^
 ||courrierinternational.com/*&vtag=
 ||developpez.com/public/js/log.js
+||donnons.org/log.js
 ||e.legalstart.fr^
 ||e.m6web.fr/events
 ||easeus.com/default/js/aff_buy_tracking.js
