@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lKfYwvcpdjdtGp/j3LcKdA
+! Checksum: tmB9HspQo1Ehz4/rg+ybvw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308140217
-! Last Modified: 2023年08月14日 02:17
+! Version: 202308140909
+! Last Modified: 2023年08月14日 09:09
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62849,6 +62849,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||gumtree.co.za/my/ads.html$~third-party
 @@||hotstar.com/vs/getad.php$domain=hotstar.com
 @@||hp.com/in/*/ads/$script,stylesheet,~third-party
+@@||htlbid.com^*/htlbid.js$domain=hodinkee.com
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
 @@||image.shutterstock.com^$image,domain=icons8.com
@@ -103424,6 +103425,8 @@ lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?
 !#if env_chromium
 *$permissions=browsing-topics=(),from=~localhost
 *$permissions=idle-detection=(),from=~localhost
+*$permissions=join-ad-interest-group=(),from=~localhost
+*$permissions=run-ad-auction=(),from=~localhost
 !#endif
 /^https:\/\/kick\.com\/[0-9A-z]{16}\/[0-9A-z]{16}\?apiKey=/$script,1p,match-case,domain=kick.com
 ||protesidenext.com^
