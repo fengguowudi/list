@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fW2rp+woadX6NK+A1/aRGQ
+! Checksum: IPBBWzkMFjlMYCzKEpqsMg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202308150219
-! Last Modified: 2023年08月15日 02:19
+! Version: 202308150908
+! Last Modified: 2023年08月15日 09:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1146,8 +1146,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/default_
 /ads/delivery.
 /ads/delivery?
-/ads/design-
-/ads/desktop-
 /ads/dfp.
 /ads/dfp?
 /ads/display/*
@@ -1378,7 +1376,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adsfac.
 /adsfetch.
 /adsforwp-
-/adshandler.
 /adsheader.
 /adshider.
 /adshow-
@@ -2180,39 +2177,21 @@ pan.baidu.com##.upload-bar.global-clearfix
 /framead_
 /frameads.
 /frameads_
-/frameadsz.
-/freead.
-/freead2.
 /frequencyads.
-/frnads.
 /fro_lo.js
 /froloa.js
-/front/ad/*
-/front/ads-
 /frontend/ads/*
 /frontend_loader.js
 /frontpagead/*
 /funcript*.php?pub=
-/gam_ad.
-/gam_ad_
-/gam_ads.
-/gamads/*
 /gdpr-ad-script.
-/geminivideoads/*
-/gen-ad-
-/gen_ads_
-/genads.
-/genads/*
-/general-ad-
 /generate_ad.
 /generate_ads.
 /generateAds.
 /generateadtag.
 /generic.ads.
 /get-ads-by-zones/*
-/get.ad?
 /get/?go=1&data=
-/get/ad.
 /get/ad/*
 /get/ad?
 /get_ad_
@@ -2289,8 +2268,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /horizontal_ad.
 /horizontalAd.
 /hostedads.
-/hostgator-ad.
-/hosting/ads/*
 /House-Ad-
 /house-ad.
 /house-ad/*
@@ -2408,30 +2385,13 @@ pan.baidu.com##.upload-bar.global-clearfix
 /innerads.
 /insertAd.
 /insertads.
-/insideAD.
 /instreamad/*
 /intelliad.
-/intellitext.$domain=~intellitext.com|~intellitext.hu|~intellitext.us
-/interad.$domain=~interad.gr
 /internAds.
 /internal-ad-
-/internet_ad_
 /intextads.
-/inv/ads/*
-/invideoad.
-/inviteads/*
-/invoke-2.js
-/inx-ad.
-/ipadad.
-/iserver/ccid=
-/iserver/site=
-/JavaScript/Ads-
-/javascript/gpt-
-/javascript/oas.
-/javascript/oas?
-/javascripts/ads/*
+/invoke.js
 /Javascripts/SBA-
-/jetpack-ads/*
 /jquery-ads.
 /jquery.ad.
 /jquery.adi.
@@ -48717,6 +48677,7 @@ browsershots.org#@#.advert_area
 ||advertstream.com^$third-party
 ||advertur.ru^$third-party
 ||advg.jp^$third-party
+||adviad.com^$third-party
 ||advideum.com^$third-party
 ||advinci.net^$third-party
 ||advmd.com^$third-party
@@ -61967,7 +61928,6 @@ pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.c
 pollunit.com#?#.owl-carousel:-abp-has(.carousel-ad)
 porn-w.org#?#.align-items-center.list-row:-abp-has(.col:empty)
 porn-w.org#?#.row:-abp-contains(Promotion Bot)
-radio.net#?#div:-abp-has(> div > div > [id^="RAD_D_"])
 radioreference.com#?#.box.gradient:-abp-has(a[href*="&Click="])
 rawstory.com#?#.body-description > div:-abp-contains(ADVERTISEMENT)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#article.Post:-abp-has(a[rel="nofollow noopener sponsored"])
@@ -65703,6 +65663,11 @@ newduba.cn###jq_youxi
 ||zifyeldq.top^
 ||ziravd.xyz^
 ||znyjmbh.icu^
+||higefa.site^
+||huaxia.name^
+||tggsd07.com^
+||byvlph.xyz^
+||jqkcett.icu^
 ||zonyff.xyz^
 ||zvasuzb.icu^
 ||zxrcfw.com^
