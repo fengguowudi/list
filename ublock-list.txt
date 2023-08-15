@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LnmJYnPHqCmfSA1WpCs/QA
+! Checksum: OR45HR7xV5wq3rIsTDiqUQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308152029
-! Last Modified: 2023年08月15日 20:29
+! Version: 202308160218
+! Last Modified: 2023年08月16日 02:18
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20354,7 +20354,7 @@ cancam.jp,saitama-np.co.jp#@#div[id^="div-gpt-"]
 xdpedia.com#@#div[id^="ezoic-pub-ad-"]
 forums.overclockers.ru#@#div[id^="yandex_ad"]
 !! ins.adsbygoogle
-advancedrenamer.com,androidrepublic.org,anonymousemail.me,apkmirror.com,cdromance.com,demos.krajee.com,epicbundle.com,game.goo.ne.jp,hs-exp.jp,kadinlarkulubu.com,korail.pe.kr,nextbigtrade.com,phcorner.net,pixiz.com,spoilertv.com,teemo.gg,willyoupressthebutton.com#@#ins.adsbygoogle
+advancedrenamer.com,androidrepublic.org,anonymousemail.me,apkmirror.com,cdromance.com,demos.krajee.com,epicbundle.com,game.goo.ne.jp,kadinlarkulubu.com,korail.pe.kr,nextbigtrade.com,phcorner.net,pixiz.com,spoilertv.com,teemo.gg,willyoupressthebutton.com#@#ins.adsbygoogle
 !! .adslot
 apkmirror.com,tuxpi.com#@#.adslot
 !! .adverts
@@ -60773,7 +60773,7 @@ greatist.com##aside
 everydayrussianlanguage.com##aside img[src^="/wp-content/themes/edr/img/"]
 thefinancialbrand.com##aside[class][style*="cursor:"]
 geoguessr.com##aside[class^="ad_"]
-filecrypt.cc,filecrypt.co##button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownload):not(.pff):not(.addnew):not(.submit)
+filecrypt.cc,filecrypt.co##button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownload):not(.addnew):not(.submit):not(.download)
 psycom.net##center > .vh-quiz-qborder
 mangas-raw.com##center > div[style]
 greekreporter.com##center > p > [href]
@@ -61413,7 +61413,6 @@ rustlabs.com#?#.sub-info-block:-abp-has(#banner)
 rakuten.com#?#div[data-productid]:-abp-has(div.productList_sponsoredAds_RUS)
 alibaba.com#?#.J-offer-wrapper:-abp-contains(Top sponsor listing)
 officedepot.com#?#.od-col:-abp-has(.od-product-card-region-colors-sponsored)
-tesco.com#?#.product-list--list-item:-abp-contains(Sponsored)
 cargurus.com#?#div[data-cg-ft="car-blade"]:-abp-has(div[data-cg-ft="sponsored-listing-badge"])
 sephora.com#?#div[class^="css-"]:-abp-has(>a:-abp-has(span:-abp-contains(Sponsored)))
 sephora.com#?#div[data-comp^="RmnBanner"]:-abp-has(p:-abp-contains(Sponsored))
@@ -61624,6 +61623,7 @@ hentaiprn.com###custom_html-19
 celebritymovieblog.com,interracial-girls.com###custom_html-2
 watchjavonline.com###custom_html-3
 dpfantasy.org,hotcelebshome.com###custom_html-4
+hentai7.top###custom_html-6
 eporner.com###deskadmiddle
 hentai-cosplays.com,hentai-img.com###display_image_detail > span
 thehun.net###dyk_right
@@ -63024,6 +63024,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adfurikun.jp/adfurikun/images/$~third-party
 @@||admanager.clubzebra.se^$image,domain=ripshusvagnar.se
 @@||ads-i.org/images/ads3.jpg$~third-party
+@@||ads-twitter.com/oct.js$domain=ncsoft.jp
 @@||ads-twitter.com/uwt.js$domain=factory.pixiv.net
 @@||aiasahi.jp/ads/$image,domain=japan.techrepublic.com|japan.zdnet.com
 @@||amebame.com/pub/ads/$image,domain=abema.tv|ameba.jp|ameblo.jp
@@ -63059,6 +63060,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ganma.jp/view/magazine/viewer/pages/advertisement/googleAdSense.html|$~third-party,xmlhttprequest
 @@||getjad.io/library/$script,domain=allocine.fr
 @@||google.com/adsense/search/ads.js$domain=news.biglobe.ne.jp
+@@||googleadservices.com/pagead/conversion.js$domain=ncsoft.jp
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||hinagiku-u.ed.jp/wp54/wp-content/themes/hinagiku/images/$image,~third-party
 @@||ias.global.rakuten.com/adv/$script,domain=rakuten.co.jp
@@ -96379,6 +96381,7 @@ arketing.indianadunes.com^
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp|myna.go.jp
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
+@@||platform.twitter.com/oct.js$domain=ncsoft.jp
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||rtoaster.jp/Rtoaster.js$domain=peachjohn.co.jp|satofull.jp
@@ -98408,6 +98411,7 @@ themosvagas.com.br##ins.adsbygoogle
 themosvagas.com.br##.ads300x600
 youtubemp3donusturucu.net##+js(aeld, click, t(a))
 novelmultiverse.com##+js(nostif, disableDeveloperTools)
+maxstream.video##+js(nostif, alert)
 maxstream.video##+js(nano-stb, .fadeIn(), 3000)
 maxstream.video##+js(nowoif)
 maxstream.video##+js(ra, style, div[style="display: none;"])
@@ -102793,6 +102797,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||jkytd-rd3.com^$doc
 ||le.tter99.com^$doc
 ||silversex.com^$doc
+||flirttime.com^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -103340,7 +103345,7 @@ starstyle.com##+js(href-sanitizer, a[href^="https://go.skimresources.com/"][href
 insidehook.com##+js(href-sanitizer, a[href^="https://click.linksynergy.com/deeplink?id="][href*="&murl="], ?murl)
 insidehook.com##+js(href-sanitizer, a[href*="?"][href*="&url=http], ?url)
 insidehook.com##+js(href-sanitizer, a[href*="?"][href*="&u=http"], ?u)
-fap18.net##+js(href-sanitizer, a[href^="/vp/player/to/?u="], ?u)
+fap18.net##+js(href-sanitizer, a[href^="/vp/player/to/?u=http"]\, a[href^="/vp/download/goto/?u=http"], ?u)
 nowinstock.net##+js(href-sanitizer, a[href^="https://click.linksynergy.com/deeplink?id="][href*="&murl="], ?murl)
 nowinstock.net##+js(href-sanitizer, a[href^="http://go.redirectingat.com"][href*="&url="], ?url)
 nowinstock.net##+js(href-sanitizer, a[href*="?"][href*="&u=http"], ?u)
@@ -105546,6 +105551,7 @@ szbz.de##+js(set, iom, {})
 @@||a.omappapi.com/app/campaign-views/*-optin.json$xhr,domain=app.monstercampaigns.com
 @@||a.omappapi.com/users/*/images/$image,domain=app.monstercampaigns.com
 @@||googletagmanager.com/gtm.js$script,domain=villeroy-boch.fr
+filecrypt.co#@#button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownload):not(.pff):not(.addnew):not(.submit)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
