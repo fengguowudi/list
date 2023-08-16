@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SE2DVFGJGEzPk1BqQ/DCBw
+! Checksum: kjrxBpiyvCIB03GaR0uDWA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308160908
-! Last Modified: 2023年08月16日 09:08
+! Version: 202308161420
+! Last Modified: 2023年08月16日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -19795,6 +19795,7 @@ _800x80_
 ###mplayer-embed
 ###primis-holder
 ###primis_intext
+###vidazoo-player
 ##.GRVPrimisVideo
 ##.GRVVideo
 ##.ac-lre-desktop
@@ -57412,6 +57413,7 @@ petfinder.com##.AdUnitParagraph-module--adunitContainer--2b7a6
 therealdeal.com##.AdUnit_adUnitCenter__FKOWE
 earth.com##.AdZone_adZone__2w4TC
 thescore.com##.Ad__container--2fhQb
+charlieintel.com##.Ad_ad__SqDQA
 therealdeal.com##.Ad_rootHomepage__mSzqh
 greatandhra.com##.AdinHedare
 coingape.com##.AdsMid
@@ -58301,6 +58303,7 @@ physicsworld.com##.corporate-partners
 kiss-anime.asia,kissanime.mobi##.countdown.btn
 pcworld.com##.coupons
 coursedrive.org##.cours-adsense-in-feed
+ivytech.bncollege.com##.course-finder-google-ads-body-top-content-slot
 wolfstream.tv##.cover2
 coinpaprika.com##.cp-table__row--ad-row
 realsport101.com##.cpaAd
@@ -59034,7 +59037,6 @@ dailyo.in##.lhsAdvertisement300
 latestly.com##.lhs_adv_970x90_div
 gadgets360.com##.lhs_top_banner
 mobygames.com##.lifesupport-header
-trakt.tv##.light
 iheartradio.ca##.lightbox-wrapper
 rebelnews.com##.lighter-gray-bg
 getbukkit.org##.limit
@@ -103252,7 +103254,7 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||adonsonlyd.xyz^
 ||adthrive.com^$removeparam,domain=~mediaite.com
 ||cdn.branch.io/branch-latest.min.js$important,domain=nbc.com|pac-12.com
-||onesignal.com^$domain=freecoursesonline.me|ftuapps.dev|gamersdiscussionhub.com|onehack.us|xiaomitools.com
+||onesignal.com^$domain=columbian.com|freecoursesonline.me|ftuapps.dev|gamersdiscussionhub.com|onehack.us|xiaomitools.com
 ||narrativ.com^$domain=androidauthority.com
 ||optimizely.com^$domain=mindbodygreen.com
 ||mindbodygreen.com/js/optimizely-$script,1p
@@ -103277,7 +103279,7 @@ zefoy.com##+js(set, firebase.analytics, noopFunc)
 !yle.fi##+js(set, yleAnalytics, noopFunc)
 bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not([content*="/details/"]):upward(1) > script[src*="optimizely"]
 nypost.com,pagesix.com##+js(json-prune, dataLayer.trackingId user.trackingId)
-nypost.com,pagesix.com##+js(cookie-remover, blaize_tracking_id)
+columbian.com,nypost.com,pagesix.com##+js(cookie-remover, blaize_tracking_id)
 ||telemetry*.transcend.io^
 fandom.com##+js(set-cookie, tracking_session_id, OK, , reload, 1)
 fandom.com##+js(set-cookie, Geo, OK)
