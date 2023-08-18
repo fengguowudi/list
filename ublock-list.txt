@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5O694sl3Y8Lbuu39XvV2iA
+! Checksum: B1G/C0r1+qkLpOqt+dMBkQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308181419
-! Last Modified: 2023年08月18日 14:19
+! Version: 202308182029
+! Last Modified: 2023年08月18日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -673,7 +673,6 @@
 /adlabel_
 /adlantis.
 /adlayer.
-/adlead.$domain=~adlead.co.il|~adlead.com|~adlead.pro|~adlead.ru
 /adleft.
 /adlib.$domain=~adlib.info|~adlib.mu|~catharijneconvent.nl|~rws.nl
 /adlink?
@@ -689,16 +688,8 @@
 /adMarketplace.$domain=~admarketplace.brave.com
 /admaster.$domain=~admaster.biz
 /admaster?
-/admatcher.$~object,~xmlhttprequest
 /admaven.
-/admax.$domain=~admax.cn|~admax.co|~admax.co.jp|~admax.eu|~admax.fi|~admax.hu|~admax.info|~admax.jp|~admax.net|~admax.nu|~admax.org|~admax.se|~admax.shinobi.jp|~admax.us
-/admeasure.$domain=~admeasure.ster.nl
-/admedia.$domain=~admedia.ae|~admedia.agency|~admedia.az|~admedia.co.il|~admedia.com|~admedia.net.au
-/admega.
-/admeld.
-/admeld/*
 /admeld_
-/admeta.$domain=~admeta.network
 /admgr.
 /admin/ad_
 /admixer-
@@ -713,9 +704,6 @@
 /adnetmedia.$domain=~adnetmedia.ee|~adnetmedia.hu|~adnetmedia.lt|~adnetmedia.lv
 /adnetwork.$domain=~adnetwork.ai|~adnetwork.ie|~adnetwork.selmans.net
 /adnetwork/*
-/adnews.$domain=~adnews.com.br|~adnews.galitt.com|~adnews.pl
-/adnex.
-/adnext.$domain=~adnext.lt|~adnext.pl
 /adning/*
 /adnostic/*
 /adnotice.
@@ -9206,7 +9194,6 @@ _800x80_
 ##.ad-block
 ##.ad-block--300
 ##.ad-block--leader
-##.ad-block--leader-extra
 ##.ad-block-300
 ##.ad-block-banner-container
 ##.ad-block-big
@@ -9224,9 +9211,6 @@ _800x80_
 ##.ad-block-wk
 ##.ad-block-wrapper
 ##.ad-block-wrapper-dev
-##.ad-block__ad300
-##.ad-block__inner
-##.ad-blog2biz
 ##.ad-blogads
 ##.ad-bnr
 ##.ad-body
@@ -9332,7 +9316,6 @@ _800x80_
 ##.ad-container-bot
 ##.ad-container-bottom
 ##.ad-container-box
-##.ad-container-dk
 ##.ad-container-embedded
 ##.ad-container-header
 ##.ad-container-inner
@@ -9631,15 +9614,11 @@ _800x80_
 ##.ad-med-rec
 ##.ad-med-rect
 ##.ad-med-rect-tmp
-##.ad-medRec
-##.ad-media-marquee
-##.ad-media-marquee-btn
 ##.ad-medium
 ##.ad-medium-container
 ##.ad-medium-content
 ##.ad-medium-rectangle
 ##.ad-medium-rectangle-base
-##.ad-medium-rectangle-item
 ##.ad-medium-two
 ##.ad-medium-widget
 ##.ad-medrect
@@ -9647,7 +9626,6 @@ _800x80_
 ##.ad-message
 ##.ad-messaging
 ##.ad-microsites
-##.ad-mid-article-container
 ##.ad-midleader
 ##.ad-mobile
 ##.ad-mobile--sticky
@@ -9762,7 +9740,6 @@ _800x80_
 ##.ad-position
 ##.ad-position-1
 ##.ad-position-2
-##.ad-position-especial
 ##.ad-poss
 ##.ad-post
 ##.ad-post-footer
@@ -9780,8 +9757,6 @@ _800x80_
 ##.ad-program-list
 ##.ad-program-top
 ##.ad-promo
-##.ad-promoted-game
-##.ad-promotion-native
 ##.ad-pub
 ##.ad-push
 ##.ad-pushdown
@@ -9883,8 +9858,6 @@ _800x80_
 ##.ad-skyscraper3
 ##.ad-slider
 ##.ad-slot
-##.ad-slot--billboard--article--wrapper
-##.ad-slot--container-inline
 ##.ad-slot--inline
 ##.ad-slot--leaderboard--article--wrapper
 ##.ad-slot--mostpop
@@ -9996,7 +9969,6 @@ _800x80_
 ##.ad-takeover
 ##.ad-takeover-homepage
 ##.ad-tall
-##.ad-target2-wrapper
 ##.ad-tech-widget
 ##.ad-temp
 ##.ad-text
@@ -11479,6 +11451,7 @@ _800x80_
 ##.adhesion-block
 ##.adhesion-header
 ##.adhesiveAdWrapper
+##.adhesiveWrapper
 ##.adhesive_holder
 ##.adhi
 ##.adhide
@@ -58469,6 +58442,7 @@ sbs.com.au##.dNXvOT
 cryptorank.io##.dPbBGP
 standard.co.uk##.dXaqls
 counter.dev,lindaikejisblog.com##.da
+engadget.com##.da-container
 smartprix.com##.dadow-box
 lifewire.com##.daily-deal
 boards.4chan.org,boards.4channel.org##.danbo-slot
@@ -59498,6 +59472,7 @@ welovemanga.one##.popup-wrap
 battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,lethbridgenewsnow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.pos-top
 charlieintel.com##.position-sticky
 wtop.com##.post--sponsored
+engadget.com##.post-article-ad
 kiplinger.com##.post-gallery-item-ad
 hackread.com##.post-review-li
 hellocare.com.au##.post-wrapper__portrait-ads
@@ -61283,6 +61258,7 @@ yahoo.com##li[data-test-locator="stream-related-ad-item"]
 youtube.com###YtKevlarVisibilityIdentifier
 youtube.com###YtSparklesVisibilityIdentifier
 youtube.com###feed-pyv-container
+youtube.com###masthead-ad > .ytd-rich-grid-renderer
 youtube.com###merch-shelf
 youtube.com###pla-shelf
 youtube.com###player-ads
@@ -105630,6 +105606,8 @@ szbz.de##+js(set, iom, {})
 @@||a.omappapi.com/users/*/images/$image,domain=app.monstercampaigns.com
 @@||googletagmanager.com/gtm.js$script,domain=villeroy-boch.fr
 filecrypt.co#@#button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownload):not(.pff):not(.addnew):not(.submit)
+||tradeinsights.net^$badfilter
+||tradeinsights.net^$3p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -112809,7 +112787,7 @@ filecrypt.co#@#button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownlo
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 17 Aug 2023 13:17:58 GMT
-# entries:        3720
+# entries:        3721
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -113816,6 +113794,7 @@ filecrypt.co#@#button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownlo
 127.0.0.1 anstrex.com
 127.0.0.1 anuncios.edicaoms.com.br
 127.0.0.1 anxiousapples.com
+127.0.0.1 apathetictheory.com
 127.0.0.1 api.amplitude.com
 127.0.0.1 api.eu.amplitude.com
 127.0.0.1 api.intensifier.de
@@ -113892,6 +113871,7 @@ filecrypt.co#@#button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownlo
 127.0.0.1 backbeatmedia.com
 127.0.0.1 balloontexture.com
 127.0.0.1 banik.redigy.cz
+127.0.0.1 banner-exchange-24.de
 127.0.0.1 banner.ambercoastcasino.com
 127.0.0.1 banner.buempliz-online.ch
 127.0.0.1 banner.casino.net
@@ -114380,6 +114360,7 @@ filecrypt.co#@#button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownlo
 127.0.0.1 de17a.com
 127.0.0.1 deadpangate.com
 127.0.0.1 deadpanmarble.com
+127.0.0.1 deadpantruck.com
 127.0.0.1 dealdotcom.com
 127.0.0.1 debonairway.com
 127.0.0.1 debtbusterloans.com
@@ -114390,6 +114371,7 @@ filecrypt.co#@#button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownlo
 127.0.0.1 decknetwork.net
 127.0.0.1 decoycreation.com
 127.0.0.1 deepintent.com
+127.0.0.1 defectivesun.com
 127.0.0.1 delegatediscussion.com
 127.0.0.1 deloo.de
 127.0.0.1 deloplen.com
@@ -114512,7 +114494,6 @@ filecrypt.co#@#button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownlo
 127.0.0.1 engine.espace.netavenir.com
 127.0.0.1 enginenetwork.com
 127.0.0.1 enormousearth.com
-127.0.0.1 enquisite.com
 127.0.0.1 ensighten.com
 127.0.0.1 entercasino.com
 127.0.0.1 enthusiasticdad.com
@@ -116061,7 +116042,6 @@ filecrypt.co#@#button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownlo
 127.0.0.1 tailsweep.com
 127.0.0.1 tailsweep.se
 127.0.0.1 takethatad.com
-127.0.0.1 takru.com
 127.0.0.1 talentedsteel.com
 127.0.0.1 tamgrt.com
 127.0.0.1 tangerinenet.biz
@@ -116195,7 +116175,6 @@ filecrypt.co#@#button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownlo
 127.0.0.1 tracker-pm2.spilleren.com
 127.0.0.1 tracker.bannerflow.com
 127.0.0.1 tracker.cdnbye.com
-127.0.0.1 tracker.comunidadmarriott.com
 127.0.0.1 tracker.icerocket.com
 127.0.0.1 tracker.metricswave.com
 127.0.0.1 tracker.mmdlv.it
@@ -116357,6 +116336,7 @@ filecrypt.co#@#button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownlo
 127.0.0.1 verblife-5.co
 127.0.0.1 vericlick.com
 127.0.0.1 vertamedia.com
+127.0.0.1 verticalmass.com
 127.0.0.1 vervewireless.com
 127.0.0.1 vibrantmedia.com
 127.0.0.1 vidcpm.com
@@ -116401,7 +116381,6 @@ filecrypt.co#@#button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownlo
 127.0.0.1 wdads.sx.atl.publicus.com
 127.0.0.1 wdfl.co
 127.0.0.1 wearbasin.com
-127.0.0.1 web-redirecting.com
 127.0.0.1 web-stat.com
 127.0.0.1 web.informer.com
 127.0.0.1 web2.deja.com
