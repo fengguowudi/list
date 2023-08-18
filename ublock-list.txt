@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LGmJLTwG/rGF2blcOGiYJA
+! Checksum: 5O694sl3Y8Lbuu39XvV2iA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308180908
-! Last Modified: 2023年08月18日 09:08
+! Version: 202308181419
+! Last Modified: 2023年08月18日 14:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54120,6 +54120,7 @@ browsershots.org#@#.advert_area
 ||wpzoom.com/images/aff/
 ||ws.amazon.*/widgets/$third-party
 ||yahoo.com/bidRequest
+||yastatic.net/pcode/adfox/header-bidding.js
 ||yield-op-idsync.live.streamtheworld.com^
 ||yieldmanager.edgesuite.net^
 ||yimg.com/dy/ads/readmo.js
@@ -59835,6 +59836,7 @@ dbknews.com##.sidekick-wrap
 kit.co##.sidekit-banner
 linuxtopia.org##.sidelinks > .sidelinks
 atlasobscura.com##.siderail-bottom-affix-placeholder
+rockradio.com##.sidewall-ad-component
 sifted.eu##.sifted_advert_block
 wncv.com##.simple-image
 metalsucks.net##.single-300-insert
@@ -62883,6 +62885,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||summitracing.com/global/images/bannerads/
 @@||sundaysportclassifieds.com/ads/$image,~third-party
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
+@@||tcbk.com/application/files/4316/7521/1922/Q1-23-CD-Promo-Banner-Ad.png^$~third-party
 @@||thdstatic.com/experiences/local-ad/$domain=homedepot.com
 @@||thepiratebay.org/cdn-cgi/challenge-platform/$~third-party
 @@||thetvdb.com/banners/$image,domain=tvtime.com
@@ -76842,6 +76845,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geolocation.forbes.com^
 ||getadblock.com/js/log.js
 ||getpocket.com/t/
+||getpocket.com/web-client-api/braze
 ||getpocket.com/web-utilities/public/static/te.js
 ||gettyimages.*/pulse$ping
 ||ghacks.net/statics/px.gif
@@ -96275,7 +96279,7 @@ arketing.indianadunes.com^
 !! omtrdc.net
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
 !! tags.tiqcdn.com
-@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|sony.jp|vmware.com
+@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|vmware.com
 @@||gs.statcounter.com/chart.php$script,third-party
 @@||statcounter.com/js//fusioncharts.charts.js
 @@||statcounter.com/js/fusioncharts.js
