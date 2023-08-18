@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MjKFYdMdEs2RjpyUvZuw/g
+! Checksum: LGmJLTwG/rGF2blcOGiYJA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308180219
-! Last Modified: 2023年08月18日 02:19
+! Version: 202308180908
+! Last Modified: 2023年08月18日 09:08
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -77193,6 +77193,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||plausible.omgapi.org^
 ||plausible.ripped.guide^
 ||plausible.safing.io^
+||play.google.com/log
 ||player-cdn.com/cdn-cgi/trace
 ||player-telemetry.vimeo.com^
 ||plenty.vidio.com^
@@ -77324,6 +77325,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||solidtorrents.to/ping
 ||solvusoft.com^*/scripts/visitor.js
 ||soundcloud.com^$ping
+||source.chromium.org/v1/logging
 ||sourcesync.io/analytics
 ||sp.cargurus.co.uk^
 ||sp.ecosia.org^
@@ -103445,7 +103447,6 @@ djs.sk##+js(aopr, miner)
 ||sickrage.ca^$csp=worker-src 'none'
 ||sorteosrd.com^$csp=worker-src 'none'
 ./M5q5.js$script
-||jshosting.*^
 ||hostingcloud.*^$3p
 ||hdvid.tv^$csp=worker-src 'none'
 ||void.cat^$csp=worker-src 'none'
@@ -104117,6 +104118,8 @@ pcgamer.com#@#.hawk-widget
 @@||googletagmanager.com/gtm.js$script,domain=reuters.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$script,domain=reuters.com
 @@||pixel.adsafeprotected.com/services/pub$xhr,domain=reuters.com
+@@||try.abtasty.com^$script,domain=reuters.com
+||try.abtasty.com/shared/analytics$script,domain=reuters.com,important
 @@||cdn.mxpnl.com/libs/mixpanel-*-latest.min.js$script,domain=groupme.com
 @@||googletagmanager.com^$script,domain=subscriptions.amd.com
 @@/gtm.js$script,domain=subscriptions.amd.com
