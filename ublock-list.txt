@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PhDjeFsvGAsBe/cBW357aw
+! Checksum: 7gzVB21ulUJ/p/DkLj/qQA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308210217
-! Last Modified: 2023年08月21日 02:17
+! Version: 202308210908
+! Last Modified: 2023年08月21日 09:08
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -14415,7 +14415,6 @@ _800x80_
 ##.cpg-ad-placeholder-mobile
 ##.cpmstarHeadline
 ##.cpmstarText
-##.cpoma-adlabel
 ##.cpp-text-ad
 ##.cr_ad
 ##.crain-advertisement
@@ -57066,6 +57065,7 @@ pikalytics.com###pokedex-top-ad
 politico.com###pol-01-wrap
 pons.com###pons-ad-leaderboard__container
 safetydetectives.com###popup
+bankinfosecurity.com###popup-interstitial-full-page
 chaseyoursport.com###popup1
 quickmeme.com###post[style="display: block;min-height: 290px; padding:0px;"]
 ultrabookreview.com###postadsside
@@ -57402,6 +57402,7 @@ bendsource.com,buzzfeed.com,federalnewsnetwork.com,imgur.io,lonelyplanet.com,sev
 deseret.com##.Ad-space
 petfinder.com##.AdUnitParagraph-module--adunitContainer--2b7a6
 therealdeal.com##.AdUnit_adUnitCenter__FKOWE
+complex.com##.AdWrapper__AdPlaceholderContainer-sc-15idjh1-0
 earth.com##.AdZone_adZone__2w4TC
 thescore.com##.Ad__container--2fhQb
 charlieintel.com##.Ad_ad__SqDQA
@@ -58305,6 +58306,9 @@ ivytech.bncollege.com##.course-finder-google-ads-body-top-content-slot
 wolfstream.tv##.cover2
 coinpaprika.com##.cp-table__row--ad-row
 realsport101.com##.cpaAd
+cpomagazine.com##.cpoma-adlabel
+cpomagazine.com##.cpoma-main-header
+cpomagazine.com##.cpoma-target
 chronline.com##.cq-creative
 theweather.net##.creatividad
 mma-core.com##.crec
@@ -66991,6 +66995,7 @@ _WebVitalsReporter_
 .spreadshirt.net/mo/$image
 .starbucks.com/a/
 .substack.com/o/$image
+.substackcdn.com/open?$image
 .theatlantic.com/email.gif?
 .titus.de/oo/$image
 .travis-ci.com/r/$image
