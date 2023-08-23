@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 620mmgp3aMEt13tIn6filQ
+! Checksum: LEwoSyJ3KhMFZQ8Bo8hVeg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308230219
-! Last Modified: 2023年08月23日 02:19
+! Version: 202308230908
+! Last Modified: 2023年08月23日 09:08
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -103199,6 +103199,7 @@ nowinstock.net##+js(href-sanitizer, a[href^="http://go.redirectingat.com"][href*
 nowinstock.net##+js(href-sanitizer, a[href*="?"][href*="&u=http"], ?u)
 paypal.com##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?fallback=http"], ?fallback)
 elotrolado.net##+js(href-sanitizer, a[href^="https://go.redirectingat.com?url=http"], ?url)
+tube188.com##+js(href-sanitizer, a[href^="/check.php?"][href*="&url=http"], ?url)
 /detroitchicago/dpv.gif?$image
 /detroitchicago/imp.gif$ping
 $removeparam=gbraid
