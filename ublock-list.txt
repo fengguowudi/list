@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eJQEqpkTZTcz7r+OnxAJwA
+! Checksum: 36Dg3YVGmRo8YH+M1xm8eQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308232031
-! Last Modified: 2023年08月23日 20:31
+! Version: 202308240217
+! Last Modified: 2023年08月24日 02:17
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1829,6 +1829,7 @@
 /images/adv_
 /images/adz/*
 /images/vghd
+/images2/Ads/*
 /imfloat.
 /img-ads.
 /img-ads/*
@@ -2339,17 +2340,13 @@
 /realmedia_mjx.
 /realmedia_mjx_
 /reclama/*
-/reclame/*$domain=~github.com
 /recommendations/ad.
 /rect_ad.
 /rectangle_ad.
 /redirect/?spot_id=
 /redirect?tid=
 /redirect_awe.
-/redpop_ads/*
-/refads/*
 /refreshads-
-/reklam-ads2.
 /reklam.$domain=~github.com|~reklam.com.tr
 /reklam/*$domain=~cloudflare.com|~github.com|~reklam.com.tr
 /reklama/*$domain=~github.com
@@ -2361,13 +2358,9 @@
 /reklame/*
 /related-ads.
 /relatedads.
-/relevance_ad.
 /remove-ads.
 /remove_ads.
 /ren.gif?
-/render-ad/*
-/renewalad/*
-/repeat_adv.
 /report_ad.
 /report_ad_
 /requirejs/ads/*
@@ -2436,8 +2429,6 @@
 /show_ads_
 /showad/*
 /showad_
-/showadcode.
-/showadcode2.
 /showads_
 /showadvert.
 /showadvertising.
@@ -2448,7 +2439,6 @@
 /side-ads-
 /side-ads/*
 /side_ads/*
-/side_adverts.
 /sidead.
 /sidead1.
 /sidead2.
@@ -2689,6 +2679,7 @@
 /v9/adv/*
 /valnet-header-ads.
 /valuad.
+/vast/?zid=
 /vast/ads-
 /vast_ads_
 /VASTAdPlugin.
@@ -46030,6 +46021,7 @@ browsershots.org#@#.advert_area
 ||waymarkgentiin.com^
 ||waymentriddel.com^
 ||waynagmay.com^
+||wazaki.xyz^
 ||wazbuvdcij.com^
 ||wazensee.net^
 ||wbdds.com^
@@ -54609,6 +54601,8 @@ browsershots.org#@#.advert_area
 ||br.fling.com^
 ||br.realitykings.com^
 ||brazzers.com/ads/
+||bullz-eye.com/blog_ads/
+||bullz-eye.com/images/ads/
 ||bursa.conxxx.pro^
 ||byxxxporn.com/300x250.html
 ||c3s.bionestraff.pro^
@@ -55875,6 +55869,9 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||jennylist.xyz/t63fd79f7055.js
 ||jhat1n4.xhamster.com^
 ||joysporn.sex/js/kj.js
+||justthegays.com/agent.php
+||justthegays.com/api/spots/
+||justthegays.com/api/users/
 ||jy8dc.xhamster.com^
 ||k-teen.com/banner/
 ||kafdlwyw4z.xhamster.com^
@@ -56737,6 +56734,7 @@ asura.gg,nacm.xyz###noktaplayercontainer
 boxingstreams.cc,crackstreams.gg,cricketstreams.cc,footybite.cc,formula1stream.cc,mlbshow.com,nbabite.com###nordd
 forums.somethingawful.com###notregistered
 freeaddresscheck.com,freecallerlookup.com,freecarrierlookup.com,freeemailvalidator.com,freegenderlookup.com,freeiplookup.com,freephonevalidator.com###offers
+streetdirectory.com###offers_splash_screen
 gizbot.com###oi-custom-camp
 kohls.com###open-drawer
 livestreamfails.com###oranum_livefeed_container_0
@@ -56882,6 +56880,7 @@ hilltimes.com###sp-mini-box
 toumpano.net###sp-right
 coingape.com###spinbtn
 fastseduction.com###splash
+streetdirectory.com###splash_screen_overlay
 downloads.codefi.re###spo
 downloads.codefi.re###spo2
 firmwarefile.com###spon
@@ -57542,6 +57541,7 @@ teslaoracle.com##.amp-wp-539b047
 teslaoracle.com##.amp-wp-53ff299
 thepostemail.com##.amp-wp-b194b9a
 letras.com##.an-pub
+streetdirectory.com##.anchor_bottom
 rok.guide##.ancr-sticky
 rok.guide##.ancr-top-spacer
 eprinkside.com##.annons
@@ -63245,6 +63245,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /analytics/collect?
 /analytics/collector.
 /analytics/collector/*
+/analytics/comscore.js
 /analytics/dist/*
 /analytics/embed/*
 /analytics/engine/*
@@ -64347,7 +64348,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /hash_stat_bulk/*
 /hc/activity
 /hc_pixel.gif?
-/headerpixel.gif?
 /headupstats.gif?
 /healthanalytics.js
 /heatmap_log.js
@@ -100574,7 +100574,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||gamesfuny.space^$all
 ||yuppdownload.com^$doc
 ||expert-top.com^$doc
-||topsoftfree.com^$doc
 ||mega-share.pro^$doc
 ||soft-updt.com^$doc
 ||faslhd.com^$all
@@ -100585,18 +100584,12 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||progtechguru.com^$doc
 ||progtechguru.org^$doc
 ||pcworlds.net^$doc
-||progexpertguru.com^$doc
 ||portsoft2022.ru^$doc
-||softeall.su^$all
-||hackdeversion.com^$doc
-||crackprogs.com^$doc
 ||firstsoftapp.com^$doc
 ||expertstudiopro.com^$doc
 ||pcworlds.us^$doc
-||onetalkit.com^$doc
 ||gopcworlds.net^$doc
 ||link-ii.info^$all
-||all-softs.net^$doc
 ||expertprosoft.com^$all
 ||thepcworld.net^$all
 ||lorealis.vip^$doc
@@ -100612,24 +100605,17 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||extra-software.com^$doc
 ||rivalsoftware.xyz^$doc
 ||mega-gratis.com^$doc
-||zensoft.fun^$all
 ||softextra.net^$doc
 ||pcworld-one.net^$doc
 ||pc-gratis.com^$doc
-||free-downloading.space^$doc
 ||progamerhack.com^$doc
 ||zensoft.online^$doc
 ||gratissofts.com^$doc
-||pengwinhack.fun^$doc
-||reportandrepair.com^$doc
 ||soft-lab.fun^$doc
-||extracloud.org^$doc
-||crackprogs.org^$doc
 ||edelw.online.swtest.ru^$all
-||happysoftware.tech^$doc
-||modmenus.live^$doc
 ||socialsparknb.com/pc/|$all
 ||orchk.com/pc/|$all
+||winterseyegaming.com^$doc
 ||oceanofgame.net^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
@@ -102811,6 +102797,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||asdmcm.com^$all
 .com/bot-captcha-1?h=$doc
 ||vencord.app^$all,domain=~vencord.dev
+/^https:\/\/[a-z]{5,7}\.[0-9a-z]{12}\.top\/[0-9a-f]{32}\/[0-9-a-f]{32}\/$/$doc,match-case,domain=top
+/\/[0-9a-f]{32}\/maq\/$/$doc,match-case,domain=com|top
+/antivirus/main/cleaner-default/*$doc
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
