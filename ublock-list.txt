@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: motfM/pjgTy5HG7+iEigvg
+! Checksum: eJQEqpkTZTcz7r+OnxAJwA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308231420
-! Last Modified: 2023年08月23日 14:20
+! Version: 202308232031
+! Last Modified: 2023年08月23日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -9026,6 +9026,7 @@ _800x80_
 ##.ad-calendar
 ##.ad-call-300x250
 ##.ad-callout
+##.ad-callout-wrapper
 ##.ad-caption
 ##.ad-card
 ##.ad-card-container
@@ -55380,7 +55381,7 @@ browsershots.org#@#.advert_area
 ||g.ibtimes.sg/sys/js/minified-video.js
 ||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph|philstarlife.com
 ||go.trvdp.com^
-||jwpcdn.com^$script,domain=bgr.com|dexerto.com|zimbio.com
+||jwpcdn.com^$script,domain=bgr.com|decider.com|dexerto.com|zimbio.com
 ||jwplayer.com^$domain=americansongwriter.com|dexerto.com|gamesradar.com|ginx.tv|kiplinger.com|soulbounce.com|spokesman-recorder.com|thestreet.com|tomshardware.com|variety.com|videogames.si.com|whathifi.com
 ||live.primis.tech^$third-party
 ||minute.ly^$third-party
@@ -58778,6 +58779,7 @@ greatbritishlife.co.uk##.lp_track_vertical2
 thestreet.com##.m-balloon-header
 si.com##.m-balloon-header--spacer
 politifact.com##.m-billboard
+aol.com##.m-gam__container
 aol.com##.m-healthgrades
 techraptor.net##.m-lg-70
 euronews.com##.m-object--is-branded
@@ -59001,6 +59003,7 @@ english.nv.ua##.nts-video-wrapper
 marineelectronics.com,marinetechnologynews.com##.nwm-banner
 kueez.com,trendexposed.com,wackojacko.com##.nya-slot
 nypost.com##.nyp-s2n-wrapper
+decider.com##.nyp-video-player
 golfdigest.com##.o-ArticleRecirc
 lawandcrime.com,mediaite.com##.o-promo-unit
 afkgaming.com##.o-yqC
@@ -99750,7 +99753,8 @@ tv-sport-hd.com###reklama1
 tvs-widget.com##+js(aopw, _pop)
 ||tvs-widget.com/sticker.jpg$image
 ||tvs-widget.com/rcl/
-androidacy.com##+js(no-fetch-if, method:HEAD)
+www.androidacy.com##+js(no-fetch-if, method:HEAD)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,domain=production-api.androidacy.com
 film01stream.ws##+js(ra, href, .mvi-cover)
 film01stream.ws##.f-inner
 movies7.pro##+js(disable-newtab-links)
@@ -100624,6 +100628,8 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||edelw.online.swtest.ru^$all
 ||happysoftware.tech^$doc
 ||modmenus.live^$doc
+||socialsparknb.com/pc/|$all
+||orchk.com/pc/|$all
 ||oceanofgame.net^$doc
 ||app-inject.com^$doc
 ||tophacks.pro^$doc
