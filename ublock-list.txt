@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 36Dg3YVGmRo8YH+M1xm8eQ
+! Checksum: gZSC/n4x95W8iOgc2nlwwQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308240217
-! Last Modified: 2023年08月24日 02:17
+! Version: 202308240908
+! Last Modified: 2023年08月24日 09:08
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -100878,6 +100878,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||lpoms.com^$all
 ||psfmi.com^$all
 ||gftet.com^$all
+||fwern.com^$all
 /axad/?lpkey=$doc
 ||vlcdownloads.com^$all
 ||borntiecalm.live^$all
@@ -105391,6 +105392,7 @@ uol.com.br##+js(set, UOLPD, {})
 uol.com.br##+js(set, UOLPD.dataLayer, {})
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=myspace.com,important
 ||bauersecure.com/dist/js/prebid/$script,redirect=noopjs,important
+@@||googletagmanager.com/gtm.js$script,domain=abcam.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
