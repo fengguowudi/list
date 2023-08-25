@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TcImqzqNjvCkCNG3U/W99A
+! Checksum: bcOq/auYE320tmat/Spy7g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308250219
-! Last Modified: 2023年08月25日 02:19
+! Version: 202308250910
+! Last Modified: 2023年08月25日 09:10
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1089,12 +1089,6 @@
 /advanced-ads-$domain=~wordpress.org
 /advbanner/*$~image
 /advbanners/*$~image
-/adver.$domain=~adver.biz|~adver.by|~adver.live|~adver.media|~adver.vn
-/adverfisement.
-/adverfisement2.
-/adverserve.
-/adversting/*
-/adversting?
 /advert.$~script,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advert01.
 /advert1.
@@ -1110,11 +1104,6 @@
 /advert_$domain=~canalplus.com
 /advertbanner.
 /advertbox.
-/advertise-$~script,domain=~ads.microsoft.com|~advertise-solution.nl|~bingads.microsoft.com
-/advertisements-
-/advertisements?
-/advertisements_
-/advertiserwidget.
 /advertising/banner_
 /advertising/banners/*
 /advertising2.
@@ -1974,8 +1963,6 @@
 /mac-ad?
 /mad_ad.
 /mads.php?
-/magic-ad/*
-/magic-ads/*
 /main/ad/*
 /main/ad_
 /main_ad.
@@ -57928,6 +57915,7 @@ businessinsider.in##.clmb_eoa
 kissanime.com.ru##.close_ad_button
 news18.com##.closestickybtn
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
+mayoclinic.org##.cmp-advertisement__wrapper
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com##.cmscontent-article1
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com##.cmscontent-article2
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com,oneindia.com##.cmscontent-left-article
@@ -59076,6 +59064,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 dzone.com##.partner-resources-block
 nationtalk.ca##.partner-slides
 artasiapacific.com##.partner_container
+advocate.com##.partners__container
 motachashma.com,ordertracker.com##.partnerbanner
 bundesliga.com##.partnerbar
 freshnewgames.com##.partnercontent_box
@@ -72586,6 +72575,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||3p-geo.yahoo.com^
 ||3p-udc.yahoo.com^
 ||4e4356b68404a5138d2d-33393516977f9ca8dc54af2141da2a28.ssl.cf1.rackcdn.com/sa7d76sa/
+||4taps.me/analytics/
 ||51network.com^$third-party
 ||99widgets.com/counters/
 ||9w2zed1szg.execute-api.us-east-1.amazonaws.com^
