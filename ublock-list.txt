@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /47GrfNzjJPLfQs/hjEBIQ
+! Checksum: aFpCciNsOibwT3j7v5P7Cg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308260907
-! Last Modified: 2023年08月26日 09:07
+! Version: 202308261419
+! Last Modified: 2023年08月26日 14:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -367,7 +367,6 @@
 /ad/skyscraper.
 /ad/sponsored-
 /ad/sponsors/*
-/ad/thumbs/*
 /ad/top.
 /ad/top_
 /ad/view/*
@@ -546,12 +545,10 @@
 /adback.
 /adback?
 /AdBackground.
-/adban.
 /adbanner2.
 /adBanner?
 /adbanner_
 /adbanners/*
-/adbar.$domain=~adbar.fi|~adbar.io|~adbar.jp
 /adbeacon.
 /adbottom.
 /adbox.
@@ -767,9 +764,6 @@
 /ads/header.
 /ads/header/*
 /ads/header_
-/ads/home/*
-/ads/homepage/*
-/ads/horizontal/*
 /ads/house_
 /ads/html/*
 /ads/iframe
@@ -1144,13 +1138,11 @@
 /adwiz.
 /adwiz/*
 /adwrapper/*
-/adx.$domain=~adx.acrosspf.com|~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.rs|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu|~solutionshill.com
 /adx/ads?
 /adx2.
 /adx_exo_
 /adx_flash.
 /adx_iframe_
-/adyoulike.$domain=~adyoulike.com
 /adz/js/*
 /adzerk2_
 /adzones.
@@ -1191,7 +1183,6 @@
 /ak-ads-ns.
 /amazon-ad-
 /amazon-associates-link-$~stylesheet
-/amazon/widget/*
 /ame-dfp/*
 /amp-ad-
 /amp-connatix-
@@ -1203,7 +1194,6 @@
 /annonse/*
 /annonser.
 /annonser/*$domain=~billink.no
-/announce/adv/*
 /ape-ad-
 /api-ads.
 /api.ad.
@@ -1212,10 +1202,8 @@
 /api/ad/*
 /api/ads/*
 /api/ads?
-/api/getcreatives?
-/api/handshake?site=$xmlhttprequest
 /api/v1/ad/*
-/apopwin.
+/apopwin.js
 /app.ads-
 /app.ads.
 /app/ads.
@@ -1489,7 +1477,6 @@
 /defersds.
 /delay-ad.
 /delayedad.
-/deliver/wr?
 /deliverad/*
 /deliverads.
 /deliversd/*
@@ -1498,13 +1485,10 @@
 /delivery.php?pool_id=
 /delivery.php?rnd=
 /delivery.php?zone=
-/delivery/afr.
 /delivery/ag.
-/delivery/al.php
 /delivery/apu.php
 /delivery/avw.
 /delivery/fc.
-/delivery/fl.
 /delivery/jsonp/?zoneid=
 /delivery/spc.
 /delivery_ads/*
@@ -1572,17 +1556,12 @@
 /exitpopunder_
 /exitpopup.
 /exitsplash.
-/exo_bck_
 /exoads/*
 /exobanner.
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
-/exopopunderdesktop.js
-/exosrvcode-
 /expads-
 /exports/tour/*$third-party
 /exports/tour_20/*
-/ext/adform-
-/ext/ads/*
 /extban/*/creatives/*
 /external/ad.
 /external/ad/*
@@ -1592,27 +1571,15 @@
 /externalad.
 /externalads/*
 /fc_ads.
-/feature/ads/*
 /fel456.js$script
-/file/ad.
 /files/ad-
 /files/ad/*
-/files/ads-
-/files/ads/*
-/fimserve.
-/finads.
-/fixSpecialAdHome.
-/flag_ads.
-/flash/ad/*
-/flash/ad_
-/flash/ads/*
 /flashad.
 /flashad3.
 /flashads.$domain=~flashads.co.id
 /flashads/*
 /flashpeelads/*
 /flatad.
-/flesh_banner
 /fleshlight.$domain=~fleshlight.com|~fleshlight.zendesk.com
 /fleshlightcash_
 /fload.js
@@ -58622,6 +58589,7 @@ essentiallysports.com##.jsx-4249843366
 conservativefiringline.com##.jtpp53
 theartnewspaper.com##.justify-center.flex.w-full
 aiscore.com##.justify-center.w100
+anandtech.com##.jw-reset
 issuu.com##.jzWDOE
 mamieastuce.com##.k39oyi
 qz.com##.k3mqd
@@ -68969,6 +68937,7 @@ _mongo_stats/
 ||qflm.net^$third-party
 ||qlitics.com^$third-party
 ||qoijertneio.com^$third-party
+||qortex.ai^$third-party
 ||qsstats.com^$third-party
 ||quadran.eu^$third-party
 ||qualaroo.com^$third-party
@@ -73356,7 +73325,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.medio.com^
 ||events.missena.io^
 ||events.ocdn.eu^
-||events.qortex.ai^
 ||events.realgravity.com^
 ||events.release.narrativ.com^$subdocument,xmlhttprequest
 ||events.shareably.net^
@@ -103160,11 +103128,11 @@ $removeparam=mtm_source
 $removeparam=pk_campaign
 $removeparam=pk_medium
 $removeparam=pk_source
-||reddit.com^$removeparam=rdt
 @@||web.archive.org/*/http$removeparam
 natgeotv.com##+js(no-xhr-if, /VisitorAPI|AppMeasurement/)
 natgeotv.com##+js(set, Visitor, {})
 ||fichub.com/plugins/adobe/lib/$xhr,domain=natgeotv.com,important
+||house.comikey.com/unw.gif?$image,1p
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
