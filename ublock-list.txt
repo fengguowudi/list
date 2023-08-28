@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jljASxM67ADJmIc1jXRN2Q
+! Checksum: ODGTqrZffdEbB1lo3HdeNQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308280218
-! Last Modified: 2023年08月28日 02:18
+! Version: 202308280910
+! Last Modified: 2023年08月28日 09:10
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24139,6 +24139,7 @@ browsershots.org#@#.advert_area
 ||bmcdn4.com^
 ||bmcdn5.com^
 ||bmcdn6.com^
+||bmgipyr.com^
 ||bmhenchlyica.xyz^
 ||bmjlzyjwwmwaw.top^
 ||bmkz57b79pxk.com^
@@ -54780,6 +54781,7 @@ browsershots.org#@#.advert_area
 ||cricbuzz.com/api/adverts/
 ||cricketireland.ie//images/sponsors/
 ||cript.to/dlm.png
+||cript.to/z-
 ||crn.com.au/scripts/js_$script
 ||cyberscoop.com/advertising/
 ||d1lxz4vuik53pc.cloudfront.net^$domain=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.br|amazon.com.mx|amazon.com.tr|amazon.de|amazon.eg|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.nl|amazon.pl|amazon.sa|amazon.se|amazon.sg
@@ -57712,6 +57714,7 @@ mangable.com,tutorial9.net,webdesign.org##.bsarocks
 doge-faucet.com##.bspot
 cricwaves.com##.btm728
 helensburghadvertiser.co.uk,the-gazette.co.uk##.btn
+snaptik.app##.btn-download-hd[data-ad="true"]
 files.im##.btn-success
 sbenny.com##.btnDownload5
 pollunit.com##.btn[href$="?feature=ads"]
@@ -59139,6 +59142,7 @@ forebet.com##.rbannerDiv
 reverso.net##.rcacontent
 bookriot.com##.rcp-wrapper
 just-dice.com##.realcontent
+shareus.io##.recent-purchased
 bettycrocker.com##.recipeAd
 nypost.com,pagesix.com##.recirc
 videocelebs.net##.recl
@@ -59283,6 +59287,7 @@ pipeflare.io##.section-promo-banner
 seattlepride.org##.section_sponsorship
 brandsoftheworld.com##.seedling
 hypestat.com##.sem_banner
+shareus.io##.seperator-tag
 shortorial.com##.sgpb-popup-dialog-main-div-wrapper
 analyticsinsight.net,shortorial.com##.sgpb-popup-overlay
 stockhouse.com##.sh-ad
@@ -95813,6 +95818,7 @@ arketing.indianadunes.com^
 @@||tokbox.com/prod/logging/ClientEvent$domain=examroom.ai
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
 @@||track.shipstation.com/collections/trackingEvents.js$~third-party
+@@||trackjs.com/agent/$script,domain=delta.com
 @@||trackonomics.net/client/$script,domain=popsugar.com
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||tunein.com/api/v1/comscore$~third-party
@@ -112492,7 +112498,7 @@ abcam.com##^link[rel="canonical"]:not([href*="pageconfig=contactus"]):upward(htm
 # entries:        3724
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
-# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
+# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1
 # Patreon:        https://patreon.com/blocklist
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
