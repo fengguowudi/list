@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rOOXBk3aPLiA+6F/al7YRA
+! Checksum: rNIHC5rZYe21FNgsj1o1VA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308290910
-! Last Modified: 2023年08月29日 09:10
+! Version: 202308291421
+! Last Modified: 2023年08月29日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1057,7 +1057,6 @@
 /advertisment/*$~image
 /advertisment_
 /advertisments/*$~image
-/advertlayer.
 /advertright.
 /adverts.$~script,domain=~adverts.ie|~adverts.org.ua
 /adverts/*$~xmlhttprequest
@@ -1065,8 +1064,6 @@
 /advertserve.
 /advertsky.
 /advertsquare.
-/adverttop.
-/advideo.$domain=~advideo.pro|~advideo.site
 /adviewas3.
 /advrotator.
 /advrotator_
@@ -1075,19 +1072,12 @@
 /advtBanner.
 /adwidget_
 /adwidgets/*
-/adwrapper/*
 /adx/ads?
 /adx2.
 /adx_exo_
-/adx_flash.
-/adx_iframe_
 /adz/js/*
-/adzerk2_
 /adzones.js
-/afcads.
 /aff-ads.
-/aff-exchange/*
-/aff.htm
 /aff/ads_
 /aff/banners/*
 /aff/images/*
@@ -1156,8 +1146,6 @@
 /asyncadload.
 /asyncjs.$domain=~asyncjs.com|~asyncjs.today
 /asyncspc.
-/attractivebuilt.com/*
-/audio-ads/*
 /audioads/*
 /auditudeadunit.
 /auditudebanners.
@@ -1185,18 +1173,14 @@
 /banner-adv-
 /banner-affiliate-
 /banner-sponsor/*
-/banner-sponsors.
 /banner.asp?$third-party
 /banner.cgi?
 /banner.php
 /banner/ad/*
 /banner/ad_
 /banner/ads/*
-/banner/adv/*
-/banner/adv_
 /banner/affiliate/*
 /banner/amazon/*
-/banner/hit?
 /banner/sponsor_
 /banner/sponsors.
 /banner468.
@@ -1314,10 +1298,8 @@
 /code/native.js?h=$script
 /code/pops.js?h=$script
 /code/silent.js?h=$script
-/column-ad-
+/com/superherosnout/*
 /combo?darla/*
-/comment-ad-
-/comment-ad.
 /common-ads/*
 /common/ad.
 /common/ads?
@@ -1325,7 +1307,6 @@
 /common/adv_
 /common_ad.
 /commons/ad/*
-/commspace_ad.
 /companion_ad.
 /companion_ads.
 /components/ads/*
@@ -28123,6 +28104,7 @@ browsershots.org#@#.advert_area
 ||efinauknceiwou.info^
 ||efvheaepmbgicx.xyz^
 ||efvpufdjd.com^
+||egallsylvate.com^
 ||egcqohrksmlmu.xyz^
 ||eggcupsfriends.com^
 ||eggerscorr.com^
@@ -29247,6 +29229,7 @@ browsershots.org#@#.advert_area
 ||fiinann.com^
 ||fijekone.com^
 ||fijetuxa.com^
+||filasseseeder.com^
 ||filese.me^
 ||filetarget.com^
 ||filetarget.net^
@@ -33584,6 +33567,7 @@ browsershots.org#@#.advert_area
 ||landupoatouwe.xyz^
 ||landwaycru.com^
 ||lanentablelanentablefantasy.com^
+||languewauchts.com^
 ||lanistaads.com^
 ||laniusburkei.com^
 ||lanksnail.com^
@@ -36010,6 +35994,7 @@ browsershots.org#@#.advert_area
 ||nicknameuntie.com^
 ||nicksstevmark.com^
 ||nidredra.net^
+||nidudihideout.com^
 ||niececordthrone.com^
 ||nieveni.com^
 ||nifiel.com^
@@ -38668,6 +38653,7 @@ browsershots.org#@#.advert_area
 ||pressize.com^
 ||prestadsng.com^
 ||prestigefunction.com^
+||prestlyamylan.com^
 ||prestoris.com^
 ||prestsusie.com^
 ||presumeauthorizationcamping.com^
@@ -56670,6 +56656,7 @@ geekwire.com###startup-resources-sidebar
 newcartestdrive.com###static-asset-placeholder-2
 newcartestdrive.com###static-asset-placeholder-3
 dvdsreleasedates.com###sticky
+guelphmercury.com###sticky-ad-1
 datamation.com,esecurityplanet.com,eweek.com,serverwatch.com,webopedia.com###sticky-bottom
 ccm.net###sticky1
 independent.co.uk,standard.co.uk###stickyFooterRoot
@@ -57109,7 +57096,7 @@ bigislandnow.com##.adBreak
 m.economictimes.com,someecards.com,trailspace.com##.adContainer
 etymonline.com##.adContainer--6CVz1
 anews.com.tr##.adControl
-bramptonguardian.com,insideottawavalley.com##.adLabelWrapper
+bramptonguardian.com,guelphmercury.com,insideottawavalley.com##.adLabelWrapper
 insideottawavalley.com##.adLabelWrapperManual
 bramptonguardian.com##.adSlot___3IQ8M
 drive.com.au##.adSpacing_drive-ad-spacing__g09um
@@ -57198,6 +57185,7 @@ dnaindia.com,wionews.com##.ads-box-970x90
 dnaindia.com,wionews.com##.ads-box-d90-m300
 gosunoob.com,indianexpress.com,roblox.com,spotify.com,wccftech.com##.ads-container
 fintech.tv##.ads-img
+kiz10.com##.ads-medium
 gameshub.com##.ads-slot
 wallpapers.com##.ads-unit-fts
 auto.hindustantimes.com##.adsHeight300x600
@@ -57604,12 +57592,14 @@ timesofindia.com##.bottomnative
 canonsupports.com##.box
 filmbooster.com,ghacks.net##.box-banner
 mybroadband.co.za##.box-sponsored
+kiz10.com##.box-topads-x2
 fctables.com##.box-width > .hidden-xs
 wahm.com##.box2
 flashscore.co.za##.boxOverContent--a
 flashscore.co.uk,soccer24.com##.boxOverContent__banner
 tribunnews.com##.box__reserved
 functions-online.com##.box_wide
+kiz10.com##.boxadsmedium
 retailgazette.co.uk##.boxzilla-overlay
 retailgazette.co.uk##.boxzilla-popup-advert
 wbur.org##.bp--native
@@ -58806,6 +58796,7 @@ jpost.com##.ob-widget
 comiko.net##.ob-widget-items-container
 officedepot.com##.od-search-piq-banner-ads__lower-leaderboard
 flashscore.co.za##.oddsPlacement
+guelphmercury.com##.offcanvas-inner > .tncms-region
 softexia.com##.offer
 oneindia.com##.oi-add-block
 oneindia.com##.oi-recom-art-wrap
@@ -58928,7 +58919,7 @@ advfn.com##.plus500
 thepinknews.com##.pn-ad-container
 thepinknews.com##.pn-remove-ads-container
 freewebarcade.com##.pnum
-bramptonguardian.com,insideottawavalley.com##.polarBlock
+bramptonguardian.com,guelphmercury.com,insideottawavalley.com##.polarBlock
 autoexpress.co.uk##.polaris__below-header-ad-wrapper
 bigissue.com##.polaris__simple-grid--full
 compoundsemiconductor.net##.popular__section-newsx
@@ -59206,6 +59197,7 @@ seattlepride.org##.section_sponsorship
 brandsoftheworld.com##.seedling
 hypestat.com##.sem_banner
 shareus.io##.seperator-tag
+searchencrypt.com##.serp__top-ads
 shortorial.com##.sgpb-popup-dialog-main-div-wrapper
 analyticsinsight.net,shortorial.com##.sgpb-popup-overlay
 stockhouse.com##.sh-ad
@@ -59725,6 +59717,7 @@ wbal.com##.wbal-banner
 technclub.com##.wbyqkx-container
 wccftech.com##.wccf_video_tag
 glamourvanity.com##.wdt_gads
+searchencrypt.com##.web-result.unloaded.sr
 probuilds.net##.welcome-bnr
 mobygames.com,taskcoach.org##.well
 gearlive.com##.wellvert
@@ -68707,7 +68700,7 @@ _mongo_stats/
 ||personaclick.com^$third-party
 ||personyze.com^$third-party
 ||peruse.ai^$third-party
-||petametrics.com^$third-party
+||petametrics.com^$image,third-party
 ||pghub.io^$third-party
 ||pgs.io^$third-party,domain=~publicgood.com
 ||phonalytics.com^$third-party
@@ -74827,6 +74820,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2t77mnxyo7adj.cloudfront.net^
 ||d2tgfbvjf3q6hn.cloudfront.net^
 ||d2wu036mkcz52n.cloudfront.net^
+||d2wy8f7a9ursnm.cloudfront.net^
 ||d31bfnnwekbny6.cloudfront.net/customers/
 ||d31y97ze264gaa.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
@@ -96670,9 +96664,9 @@ shooshtime.com##+js(acs, document.getElementsByTagName, adn)
 th-world.com##+js(nostif, nextFunction, 250)
 upload.ee##+js(nowebrtc)
 *$3p,script,xhr,denyallow=cloudflare.net|google.com|gstatic.com|googleapis.com|hcaptcha.com|jsdelivr.net|pvvstream.pro|recaptcha.net|userapi.com,domain=noodlemagazine.com
-noodlemagazine.com##div[style] > ins:upward(1)
-noodlemagazine.com##noindex
-noodlemagazine.com##+js(nano-stb, download, 1100)
+actionviewphotography.com,exporntoons.net,mat6tube.com,noodlemagazine.com,tyler-brown.com,ukdevilz.com##div[style] > ins:upward(1)
+actionviewphotography.com,exporntoons.net,mat6tube.com,noodlemagazine.com,tyler-brown.com,ukdevilz.com##noindex
+actionviewphotography.com,exporntoons.net,mat6tube.com,noodlemagazine.com,tyler-brown.com,ukdevilz.com##+js(nano-stb, download, 1100)
 links.worldfree4u-lol.online##+js(aopw, _pop)
 ||binpartner.com^$3p
 ||olymptrade.com^$3p
