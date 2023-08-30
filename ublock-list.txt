@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6loJYpdMTOhugk9R4FRmKA
+! Checksum: lm0gYv8vEXFb0T/hC68L9Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202308300910
-! Last Modified: 2023年08月30日 09:10
+! Version: 202308301420
+! Last Modified: 2023年08月30日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -995,7 +995,6 @@
 /adv/preroll_
 /adv/skin.
 /adv/skin_
-/adv/sponsor/*
 /adv1.
 /adv2.$domain=~adv2.com
 /adv3.
@@ -1011,9 +1010,6 @@
 /adv_head.
 /adv_horiz.
 /adv_left_
-/adv_out.
-/adv_player_
-/adv_server.
 /adv_teasers.js
 /adv_vert.js
 /advanced-ads-$domain=~wordpress.org
@@ -1046,14 +1042,9 @@
 /adverts.$~script,domain=~adverts.ie|~adverts.org.ua
 /adverts/*$~xmlhttprequest
 /adverts_
-/advertserve.
-/advertsky.
-/advertsquare.
-/adviewas3.
-/advrotator.
+/advrotator.js
 /advrotator_
-/advscript.
-/advshow.
+/advscript.js
 /advtBanner.
 /adwidget_
 /adwidgets/*
@@ -1067,7 +1058,6 @@
 /aff/banners/*
 /aff/images/*
 /aff_ad?$script
-/aff_banner/*
 /aff_banners/*
 /affad?
 /affads/*
@@ -1099,7 +1089,6 @@
 /annonse/*
 /annonser.
 /annonser/*$domain=~billink.no
-/ape-ad-
 /api-ads.
 /api.ad.
 /api.ads.$domain=~ads.instacart.com
@@ -1123,19 +1112,12 @@
 /article_ads-
 /asrv/campaign/*
 /asset/ad/*
-/asset/adv/*
 /assets/ad/*
 /assets/ads-
 /assets/ads/*$domain=~outlook.live.com
-/assets/ads_
-/asyncadload.
-/asyncjs.$domain=~asyncjs.com|~asyncjs.today
-/asyncspc.
-/audioads/*
-/auditudeadunit.
-/auditudebanners.
+/asyncjs.php
+/asyncspc.php
 /auto.ad.
-/auto_ad_
 /awaps-ad-sdk-$script
 /awe2.js
 /awempire.
@@ -1469,7 +1451,6 @@
 /framead_
 /frameads.
 /frameads_
-/frequencyads.
 /fro_lo.js
 /froloa.js
 /frontend/ads/*
@@ -21054,6 +21035,7 @@ browsershots.org#@#.advert_area
 ||ads-twitter.com^
 ||ads.lemmatechnologies.com^
 ||ads.rd.linksynergy.com^
+||ads1-adnow.com^
 ||ads2550.bid^
 ||ads2ads.net^
 ||ads3-adnow.com^
@@ -48604,6 +48586,7 @@ browsershots.org#@#.advert_area
 ||unblockia.com^$third-party
 ||undertone.com^$third-party
 ||unibots.in^$third-party
+||unibotscdn.com^$third-party
 ||urlcash.net^$third-party
 ||usemax.de^$third-party
 ||usenetjunction.com^$third-party
@@ -53091,6 +53074,7 @@ browsershots.org#@#.advert_area
 ||amazonaws.com^$domain=downloadpirate.com|hexupload.net|krunkercentral.com|uploadhaven.com
 ||an.yandex.ru^$domain=~e.mail.ru
 ||any.gs/visitScript/
+||api-player.globalsun.io/api/publishers/player/content?category_id=*&adserver_id=$xmlhttprequest
 ||api.140proof.com^
 ||api.bitp.it^
 ||apps.media-lab.ai^
@@ -53333,6 +53317,7 @@ browsershots.org#@#.advert_area
 ||pjatr.com^$image,script
 ||pjtra.com^$image,script
 ||play-asia.com^$image,subdocument,third-party
+||player.globalsun.io/player/videojs-contrib-ads$script,third-party
 ||plista.com/async_lib.js?
 ||plista.com/tiny/$third-party
 ||plus.net/images/referrals/
@@ -62776,6 +62761,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||vk.com/ads?$popup,domain=vk.com
 @@||www.google.*/search?q=*&oq=*&aqs=chrome.*&sourceid=chrome&$popup,third-party
 @@||www.ticketmaster.$popup,domain=adclick.g.doubleclick.net
+@@/api/models?$domain=tik.porn
+@@/api/v2/models-online?$domain=tik.porn
 @@||exosrv.com/video-slider.js$domain=xfreehd.com
 @@||gaynetwork.co.uk/Images/ads/bg/$image,~third-party
 @@||spankbang.com^*/prebid-ads.js$domain=spankbang.com
@@ -62956,6 +62943,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /addon/analytics/*
 /addpageview/*
 /adds/counter.js
+/adf-tm-base-min.js
 /adlogger.
 /adm_tracking.js
 /adobe-analytics-$domain=~business.adobe.com
@@ -64809,63 +64797,33 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /ocount.php
 /ocounter.
 /odoscope.js
-/oewa_pixel_
-/olx/tracker.
 /om.gif?
-/om_ctrack.
 /om_tracking_
-/omni-tracking.
-/omniture-scode-prod.
-/omniture.do;
+/omni-tracking.min.js
 /omniture/script.
-/omniture/sphere
 /omniture/tracking.
-/Omniture/Tracking/*
 /omniture/uuid.
-/omniture/visitorapi.
+/omniture/visitorapi.js
 /omniture?
 /omniture_tracking.
-/OmnitureAkamai.
-/omnitureAMP.
-/OmnitureAnalytics.
-/OmnitureTracking_
 /omniunih.js
-/oms_analytics_
 /onedot.php?
 /onestat.js
 /onetag/*
 /onl/track.php?
 /onlinecount.php
-/onsitegeo.
-/onstuimig-tag-
-/opdc.gif?
 /opdc.js
 /open/log/*
 /opentag-
 /opentag/*
-/openxblank.gif?
-/openxtargeting.js
 /opinionlab.js
-/OpinionLab_Tag.
 /optiextension.dll?$script
-/optimization-perf.js
 /optimizelyjs/*
 /optimost-
 /optimost.
 /Optimost/*
 /optimost_
-/optimostBody1.
-/optimostBody2.
-/optimostfoot.
-/OptimostFooter.
-/optimosthead.
-/optimosthead/*
-/optimostHeader.
-/optimostHeader1.
-/optimostHeader2.
-/OptimostPageCode.
 /optmzly/*
-/ositTracker.
 /ossleads_analytics.js
 /ot_e404.gif?
 /OtAutoBlock.js
@@ -67366,6 +67324,7 @@ _mongo_stats/
 ||awin1.com^$third-party
 ||awstats.cloud^$third-party
 ||awstrack.me^$third-party
+||awswaf.com^$third-party
 ||axf8.net^$third-party
 ||azalead.com^$third-party
 ||azera-s014.com^$third-party
@@ -69628,6 +69587,7 @@ _mongo_stats/
 ||ybotvisit.com^$third-party
 ||yellowbrix.com^$third-party
 ||yext-pixel.com^$third-party
+||yextevents.com^$third-party
 ||ygsm.com^$third-party
 ||yieldbot.com^$third-party
 ||yieldify.com^$third-party
@@ -74070,6 +74030,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reporting.cdndex.io^
 ||reporting.singlefeed.com^
 ||reports-api.sqreen.io^
+||reports.hibu.com^
 ||reports.pagesuite-professional.co.uk^
 ||reports.sdiapi.com^
 ||res.rbl.ms^
@@ -74085,6 +74046,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||routeapp.io/route-analytics/
 ||rs.sinajs.cn^
 ||rt.flix360.com^
+||rtc.hibuwebsites.com/feature/metrics
 ||rtc.multiscreensite.com^
 ||rtxpx-a.akamaihd.net^
 ||rum.azion.com^
@@ -95337,6 +95299,7 @@ arketing.indianadunes.com^
 ||yast.rutube.ru^
 ||24ur.com/bin/player/?mod=statistics&
 ||dnevnik.si/tracker/
+||ninja.data.olxcdn.com/ninja-olxba.js
 ||tracker.azet.sk^
 ||abc.es/pixel/
 ||aemet.es/js/stats.js
@@ -105293,6 +105256,7 @@ uol.com.br##+js(set, UOLPD.dataLayer, {})
 @@||googletagmanager.com/gtm.js$script,domain=abcam.com
 abcam.com##^link[rel="canonical"]:not([href*="pageconfig=contactus"]):upward(html) script.optanon-category-C0001
 @@||my.petinsurance.com/assets/js/new-relic.js$script,1p
+gazzetta.gr##+js(set, Adman, {})
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
