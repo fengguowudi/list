@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gQGSfFP41+Tp8qgNfDHgAw
+! Checksum: SBWd2FGzML51S13rYp7YQg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309060220
-! Last Modified: 2023年09月06日 02:20
+! Version: 202309060910
+! Last Modified: 2023年09月06日 09:10
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -21057,6 +21057,7 @@ browsershots.org#@#.advert_area
 ||aesand.com^
 ||aesary.com^
 ||aesaul.com^
+||aevpinebvmdhih.com^
 ||afbatqo.com^
 ||afboskruta.com^
 ||afcnuchxgo.com^
@@ -23890,6 +23891,7 @@ browsershots.org#@#.advert_area
 ||bonesinoffensivebook.com^
 ||bonfiresaltymilk.com^
 ||bongacams7.com^
+||bongauns.xyz^
 ||bonnetiere-infrangible-burthening.xyz^
 ||bonnettaking.com^
 ||bonnnesfoxily.com^
@@ -24359,6 +24361,7 @@ browsershots.org#@#.advert_area
 ||bwbmyzvjnqlwv.top^
 ||bwjjrmmxgdax.xyz^
 ||bwmvzwkbqlmrz.top^
+||bwnmwhblsf.com^
 ||bwpcsycysm.xyz^
 ||bwvqjqmlkezkl.top^
 ||bwzlmmqwrrarv.top^
@@ -34394,6 +34397,7 @@ browsershots.org#@#.advert_area
 ||lxfsimoastsiite.xyz^
 ||lxheot.com^
 ||lxmwfqqvyvmsxlw.com^
+||lxmynmdcsavsdl.com^
 ||lxstat.com^
 ||lxudshpck.com^
 ||lybunbacwf.com^
@@ -34447,6 +34451,7 @@ browsershots.org#@#.advert_area
 ||ma2gs3wne3gfej70osium.com^
 ||ma3ryh8l6v.de^
 ||maboazolsamp.com^
+||mabtcaraqdho.com^
 ||macan-native.com^
 ||macedonjesse.life^
 ||macemaninbond.com^
@@ -37775,6 +37780,7 @@ browsershots.org#@#.advert_area
 ||pbcde.com^
 ||pbdjtlghawpiuoq.com^
 ||pbdo.net^
+||pbhjohrx.xyz^
 ||pbkqidejmes.ru^
 ||pblcpush.com^
 ||pblinq.com^
@@ -46080,6 +46086,7 @@ browsershots.org#@#.advert_area
 ||waushool.com^
 ||waust.at^
 ||wauthaik.net^
+||wauwitew.net^
 ||wavablehood.com^
 ||waveclks.com^
 ||wavermerchandiseweird.com^
@@ -46114,6 +46121,7 @@ browsershots.org#@#.advert_area
 ||wboptim.online^
 ||wboux.com^
 ||wbsads.com^
+||wbvjhlaljp.com^
 ||wcadlvruvrq.xyz^
 ||wccprfxgbes.com^
 ||wchctzzkzkhx.com^
@@ -60616,6 +60624,7 @@ bikeroar.com##[href^="https://www.roaradventures.com/"]
 searchcommander.com##[href^="https://www.searchcommander.com/rec/"]
 censored.news,newstarget.com##[href^="https://www.survivalnutrition.com"]
 protrumpnews.com##[href^="https://www.twc.health/"]
+ultimate-guitar.com##[href^="https://www.ultimate-guitar.com/send?ug_from=redirect"]
 upload.ee##[href^="https://www.upload.ee/click.php"]
 gametracker.com##[href^="https://www.vultr.com/"]
 wakingtimes.com##[href^="https://www.wendymyersdetox.com/"]
@@ -99144,9 +99153,7 @@ chess.com##body.board-layout.with-und:style(margin-right:0px!important)
 chess.com##.game-over-ad-legacy-component:style(height: 0 !important)
 funker530.com##+js(rc, cnx-ad-container|cnx-ad-bid-slot)
 ||funker530-ads.azurewebsites.net^
-reset-scans.com##+js(acs, eval, replace)
-reset-scans.com##+js(nostif, showModal)
-reset-scans.com##[href="https://www.bilibilicomics.com/"]:not(li[class] > a[href="https://www.bilibilicomics.com/"])
+reset-scans.com##+js(rmnt, script, /replace|adsbygoogle/)
 uyduportal.net##+js(acs, document.addEventListener, nextFunction)
 newsalret.com##+js(aopr, app_vars.force_disable_adblock)
 newsalret.com##+js(set, blurred, false)
