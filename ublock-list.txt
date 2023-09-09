@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: O8ehkiet/qf1ssLGjzFKKg
+! Checksum: pFi7m6vCeyPwjXnW76gXow
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309090219
-! Last Modified: 2023年09月09日 02:19
+! Version: 202309090908
+! Last Modified: 2023年09月09日 09:08
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -148,9 +148,7 @@
 .lk/ads/
 .mx/ads/
 .my/ads/
-.name/ads/
 .nativeads.
-.net/_adv/
 .net/ad2/$~xmlhttprequest
 .net/ads?
 .net/noidadx/
@@ -328,9 +326,6 @@
 /ad_link.
 /ad_loader.
 /ad_manager/*
-/ad_medium_
-/ad_mobile.
-/ad_mobile_
 /ad_notice.
 /ad_overlay.
 /ad_page_
@@ -358,7 +353,6 @@
 /ad_square.
 /ad_square_
 /ad_sticky.
-/ad_text.
 /ad_top.
 /ad_txt.
 /ad_util.
@@ -371,30 +365,20 @@
 /adaptvadplayer.
 /adasset/*
 /adasync.
-/adback.
-/adback?
 /AdBackground.
 /adbanner2.
 /adBanner?
 /adbanner_
 /adbanners/*
-/adbeacon.
 /adbottom.
 /adbox.
-/adbreak_
-/adbrite.
 /adbucket.
-/adbutler-
 /adbutler.
-/adcache.
 /adcall?
 /adcalloverride.
-/adcash-
 /adcash.
-/adcast_
 /adcgi?
 /adcheck.
-/adcheck?
 /adchoice.
 /adchoice_
 /adchoices_
@@ -670,16 +654,12 @@
 /adscontrol.
 /adscontroller.
 /adscript?
-/adscript_
 /adscroll.
 /adsdaq_
 /adsdelivery.
 /adsdelivery/*
-/adsDesktop.
-/adsense?
-/adsensegoogle.
+/adsensegoogle.js
 /adserv.
-/adserve-
 /adserve/*
 /adserve_
 /adserver-
@@ -704,7 +684,6 @@
 /adsetup.
 /adsfetch.
 /adsheader.
-/adshider.
 /adshow-
 /adshow.
 /adshow/*
@@ -733,8 +712,6 @@
 /adsmm.dll/*
 /adsnative_
 /adsonar.
-/adspace.$~stylesheet,domain=~adspace.pro
-/adspace?
 /adspan.
 /adsplay.
 /AdsPlugin.
@@ -742,15 +719,12 @@
 /adsponsor.
 /adspot.$domain=~adspot.lt
 /adspot/*
-/adspromo-
 /adspromo.
-/adsquare.$domain=~adsquare.com|~adsquare.ma
 /adsremote.
 /adsright.$domain=~adsright.pl
 /adsrotate.
 /adsrotator.
 /adsrv.
-/adsrv/*
 /adsscript.
 /adsserv.
 /adsserver.
@@ -758,28 +732,20 @@
 /adstracking.
 /adstream.
 /adstream_
-/adswide.
-/adsword.
 /adswrapper.
 /adsystem/*
 /ads~adsize~
-/adtable_
 /adtabs.
 /adtag.
 /adtag?
 /adtag_
-/adtago.
 /adtags.
 /adtech;
 /adtext.
-/adtext_
 /adtitle.
 /adTools.
 /adtop.
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
-/adtracker.
-/adttext-
-/adttext.
 /adultadworldpop_
 /adunit/track-view
 /adunits.
@@ -24168,6 +24134,7 @@ browsershots.org#@#.advert_area
 ||budapebluest.com^
 ||buddedpetrie.space^
 ||buddhamoduli.com^
+||budroups.xyz^
 ||budsminepatent.com^
 ||budvawshes.ru^
 ||buench.com^
@@ -26016,6 +25983,7 @@ browsershots.org#@#.advert_area
 ||crimeansnakily.com^
 ||criminalmention.pro^
 ||criminalweightforetaste.com^
+||crimpedmelanic.com^
 ||crimsondozeprofessional.com^
 ||crisdomson.com^
 ||crisistuesdayartillery.com^
@@ -28274,6 +28242,7 @@ browsershots.org#@#.advert_area
 ||eoafgbgyebbcy.com^
 ||eoaktaposh.com^
 ||eofst.com^
+||eogaeapolaric.com^
 ||eondunpea.com^
 ||eonsmedia.com^
 ||eonwayaha.com^
@@ -29637,6 +29606,7 @@ browsershots.org#@#.advert_area
 ||fripth.xyz^
 ||friskbiscuit.com^
 ||fristminyas.com^
+||fritdugs.com^
 ||frittercommittee.com^
 ||fritue.com^
 ||frivolous-copy.pro^
@@ -41769,6 +41739,7 @@ browsershots.org#@#.advert_area
 ||shatoawussoo.com^
 ||shattermessseedling.com^
 ||shaufoal.com^
+||shauhacm.net^
 ||shauhaik.xyz^
 ||shauksug.com^
 ||shaumtol.com^
@@ -44718,7 +44689,6 @@ browsershots.org#@#.advert_area
 ||tuitionpancake.com^
 ||tujajnatzbmo.com^
 ||tujourda.net^
-||tukipasti.com^
 ||tulasitoughie.com^
 ||tuleceti.com^
 ||tulipsameedge.com^
@@ -98575,6 +98545,7 @@ cloudrls.com##+js(nowoif)
 javtsunami.com##+js(acs, document.querySelectorAll, popMagic)
 javtsunami.com##+js(aeld, getexoloader)
 ||javtsunami.com/crimson-unit-$script
+descargaspcpro.net##+js(noeval-if, ads)
 descargaspcpro.net###AdSense1
 descargaspcpro.net###HTML90
 descargaspcpro.net##.stickywrap
@@ -98582,13 +98553,6 @@ finanzas-vida.com##[href="https://zplayer.live/"]
 finanzas-vida.com##+js(set, blurred, false)
 hurirk.net,regecish.net##+js(adfly-defuser)
 mettablog.com##+js(aost, String.prototype.charCodeAt, ai_)
-skiplink.org##+js(aopr, app_vars.force_disable_adblock)
-skiplink.org##+js(nowoif)
-skiplink.org##+js(set, blurred, false)
-skiplink.org##.banner-inner
-coinunit.ashortstory.in,seowebnews.com##+js(nano-sib)
-techmyhub.com##+js(set, blurred, false)
-techmyhub.com##+js(aopr, open)
 adurly.cc##+js(aopr, app_vars.force_disable_adblock)
 adurly.cc##+js(set, blurred, false)
 @@||starfaucet.net^$ghide
@@ -104783,11 +104747,8 @@ saltspringexchange.com#@#.single-ad
 *$xhr,domain=unblocktheship.org,badfilter
 @@||pxys.ezoic.net^$domain=lanaciondigital.es
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=mypodboxx.com
-*$popup,1p,domain=extreme-down.video,badfilter
 *$xhr,redirect-rule=noopjs,domain=themeslide.com
-/advertisement/*$badfilter
 @@||front.usereserva.com/libraries/*/GTM.min.js$script,1p
-|https://$xhr,3p,domain=putlocker.style,badfilter
 @@||fhi.no^$cname
 ||logsss.com^$badfilter
 @@||google.*^$cname
@@ -105985,7 +105946,6 @@ szbz.de##+js(set, iom, {})
 @@||a.omappapi.com/app/campaign-views/*-optin.json$xhr,domain=app.monstercampaigns.com
 @@||a.omappapi.com/users/*/images/$image,domain=app.monstercampaigns.com
 @@||googletagmanager.com/gtm.js$script,domain=villeroy-boch.fr
-filecrypt.co#@#button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownload):not(.pff):not(.addnew):not(.submit)
 ||tradeinsights.net^$badfilter
 ||tradeinsights.net^$3p
 /^https?:\/\/[www.0-9a-z]{7,}\.com\/.*\/invoke\.js$/$script,3p,badfilter
@@ -106012,6 +105972,7 @@ neurotray.com##+js(nano-stb, /EzoIvent|TDELAY/, 5000)
 @@||sf.ezoiccdn.com/ezoimgfmt/$image,domain=neurotray.com
 @@||sf.ezoiccdn.com/ezossp/$script,domain=neurotray.com
 ||sf.ezoiccdn.com/ezossp/https/neurotray.com/?local_ga_js=$script,domain=neurotray.com,important
+@@||receiita.xyz^$popup,domain=animexhd.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
