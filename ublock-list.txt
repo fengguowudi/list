@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UpNt+c261LgKrgVzs73xzg
+! Checksum: cZ5f/rmo3OM+F1PAmTq2Bw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309122031
-! Last Modified: 2023年09月12日 20:31
+! Version: 202309130219
+! Last Modified: 2023年09月13日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24005,6 +24005,7 @@ browsershots.org#@#.advert_area
 ||bryond.com^
 ||bryovo.com^
 ||bs50tds.com^
+||bsfofnphcuj.com^
 ||bsgbd77l.de^
 ||bsgeneral.com^
 ||bshifsasgnpgqf.com^
@@ -26961,6 +26962,7 @@ browsershots.org#@#.advert_area
 ||dissipatecombinedcolon.com^
 ||dissipatedifficulty.com^
 ||dissolveretinue.com^
+||distant-session.pro^
 ||distantsoil.com^
 ||distilinborn.com^
 ||distilled.ie^
@@ -27034,6 +27036,7 @@ browsershots.org#@#.advert_area
 ||dmlkzmg.com^
 ||dmm-video.online^
 ||dmnprx.com^
+||dmopqjaswvmvopm.com^
 ||dmowvblljmkqx.com^
 ||dmsrlnssynhqhl.com^
 ||dmvbdfblevxvx.com^
@@ -29026,6 +29029,7 @@ browsershots.org#@#.advert_area
 ||ficusoid.xyz^
 ||fidelity-media.com^
 ||fidelitybask.com^
+||fidelitybearer.com^
 ||fieldofbachus.com^
 ||fiendrhythm.com^
 ||fienttestor.guru^
@@ -31534,6 +31538,7 @@ browsershots.org#@#.advert_area
 ||htsysxlupdqe.com^
 ||htthereflewove.xyz^
 ||httpsecurity.org^
+||htufhvsglyoy.com^
 ||htwrildnk.xyz^
 ||huanez.xyz^
 ||hubakba.com^
@@ -33293,6 +33298,7 @@ browsershots.org#@#.advert_area
 ||kjgzctn.com^
 ||kjheamwouk.xyz^
 ||kjisypvbsanmlem.xyz^
+||kjjbgclciiay.xyz^
 ||kjotkqyzxe.com^
 ||kjqlmeaykennr.top^
 ||kjsvvnzcto.com^
@@ -34489,6 +34495,7 @@ browsershots.org#@#.advert_area
 ||lythonefa.com^
 ||lythrumnoetics.website^
 ||lyvbqbvwllblj.top^
+||lyvbqbvwllvnb.top^
 ||lywasnothycant.info^
 ||lyzenoti.pro^
 ||lyzvbjmeybyqj.top^
@@ -44252,6 +44259,7 @@ browsershots.org#@#.advert_area
 ||tnpads.xyz^
 ||tntgfyivhgz.com^
 ||tnudztz.com^
+||toabaise.net^
 ||toabuck.xyz^
 ||toaioi.lol^
 ||toaioi.xyz^
@@ -46208,6 +46216,7 @@ browsershots.org#@#.advert_area
 ||vungqwclop.xyz^
 ||vuuwd.com^
 ||vuvacu.xyz^
+||vuvcroguwtuk.com^
 ||vuvoti.uno^
 ||vuvoti.xyz^
 ||vuvscoqafva.com^
@@ -59973,6 +59982,7 @@ lawandcrime.com,themarysue.com##.promo-unit
 texasmonthly.com##.promo__vertical
 uxmatters.com##.promo_block
 reviversoft.com##.promo_dr
+macworld.com##.promo_wrap
 core77.com##.promo_zone
 fool.com##.promobox-container
 thedailydigest.com##.promocion_celda
@@ -60059,6 +60069,7 @@ dosgamesarchive.com##.rectangle
 knowyourmeme.com##.rectangle-unit-wrapper
 redferret.net##.redfads
 arras.io##.referral
+windowsreport.com##.refmedprd-b
 al-monitor.com##.region--after-content
 middleeasteye.net##.region-before-navigation
 steveharveyfm.com##.region-recommendation-right
@@ -62451,6 +62462,7 @@ pornpics.vip,xxxporn.pics##.cam
 xnxxvideos.rest##.camitems
 winporn.com##.cams
 theyarehuge.com##.cams-button
+tnapics.com##.cams_small
 peekvids.com##.card-deck-promotion
 sxyprn.com##.cbd
 stepmom.one##.cblidovr
@@ -62822,6 +62834,7 @@ hclips.com##.suggestions
 pornmd.com##.suggestions-box
 simply-hentai.com##.superbanner
 holymanga.net##.svl_ads_right
+tnapics.com##.sy_top_wide
 exhibporno.com##.syn
 boundhub.com##.t2op
 boundhub.com##.tab7le
@@ -103285,6 +103298,13 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||shop20.cheapsalesstore2023.com^$doc
 ||gallery-sight.com^$doc
 ||yurizono.com^$doc
+||9gcpz8hu.com^$doc
+||bobonheur.com^$doc
+||cit-rine.com^$doc
+||ctn-ctn.com^$doc
+||holy-kantei.com^$doc
+||sk3-renew.com^$doc
+||unki-max.com^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -103498,6 +103518,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||koskdd.sbs^$all
 ||liqftt.sbs^$all
 ||k7ahm75fimizl0v9y8.azureedge.net^$all
+/^https:\/\/[a-z]{6}\.shop\/ed\/$/$doc,domain=shop
+||s3.ap-northeast-1.amazonaws.com/ongoing.com/aanoitmessure/index.html^$all
 ||gateway.pinata.cloud^$3p
 ||japanonlinebroadcast.live^$all
 ||crackedpc.org^$all
@@ -106212,6 +106234,7 @@ neurotray.com##+js(nano-stb, /EzoIvent|TDELAY/, 5000)
 @@||sf.ezoiccdn.com/ezossp/$script,domain=neurotray.com
 ||sf.ezoiccdn.com/ezossp/https/neurotray.com/?local_ga_js=$script,domain=neurotray.com,important
 @@||receiita.xyz^$popup,domain=animexhd.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js:5,domain=abczdrowie.pl|animezone.pl|antyradio.pl|chillizet.pl|claudia.pl|echirurgia.pl|elevensports.pl|elle.pl|elleman.pl|fm.tuba.pl|focusnauka.pl|games.cdn.famobi.com|glamour.pl|grydladzieci.pl|ipla.tv|ipla.tv|kobieta.pl|meloradio.pl|mojegotowanie.pl|mojpieknyogrod.pl|money.pl|national-geographic.pl|parenting.pl|partner.redefine.pl|player.pl|playpuls.pl|pluscdn.pl|polsatgo.pl|polsatnews.pl|polsatsport.pl|przyslijprzepis.pl|radioplus.pl|radiozet.pl|sadeczanin.info|tvokazje.pl|tvp.pl|twojapogoda.pl|video.onnetwork.tv|videotarget.pl|wp.pl|wtk.pl|interia.pl|www.polsatnews.pl|autocentrum.pl
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
