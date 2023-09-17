@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ly+Tdf1j0aNfmbJLK/mz2Q
+! Checksum: lwAOa8fhcEyVJCa2l8+RLg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309170218
-! Last Modified: 2023年09月17日 02:18
+! Version: 202309170914
+! Last Modified: 2023年09月17日 09:14
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57743,6 +57743,7 @@ steamidfinder.com###nn_player_wrapper
 asura.gg,nacm.xyz###noktaplayercontainer
 boxingstreams.cc,crackstreams.gg,cricketstreams.cc,footybite.cc,formula1stream.cc,mlbshow.com,nbabite.com###nordd
 forums.somethingawful.com###notregistered
+allaboutcookies.org###offer-review-widget-container
 freeaddresscheck.com,freecallerlookup.com,freecarrierlookup.com,freeemailvalidator.com,freegenderlookup.com,freeiplookup.com,freephonevalidator.com###offers
 streetdirectory.com###offers_splash_screen
 gizbot.com###oi-custom-camp
@@ -74604,6 +74605,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||id.google.com/verify/
 ||id.verticalhealth.net/script.js?partnerid=
 ||iddu1vvb7sk8-a.akamaihd.net^
+||identification.hotmart.com^
 ||iheart.com/events
 ||imageshack.us^*/thpix.gif
 ||imgfarm.com/images/nocache/tr/*.gif?$image
@@ -75638,6 +75640,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trackerapi.truste.com^
 ||trackicollect.ibase.fr^$third-party
 ||tracking-api-4lasu2nlcq-ew.a.run.app^
+||tracking-api.hotmart.com^
 ||tracking.adalyser.com^
 ||tracking.ads.global-fashion-group.com^
 ||tracking.aegpresents.com^
@@ -77218,6 +77221,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||antiadtape.com/stat/
 ||apartments.com/clientvisit/al.gif?
 ||apester.com/cookie/bundle.js
+||api-hotmart-tracking-manager.hotmart.com^
 ||api-js.mixpanel.com^
 ||api-router.kaspersky-labs.com/logger2/metrics/
 ||api.ffm.to/sl/e/$image
@@ -96405,11 +96409,13 @@ arketing.indianadunes.com^
 ||horizon.globo.com^
 ||jsuol.com.br/aud/$script
 ||lancenet.com.br/pw.js
+||log-ads.r7.com^
 ||logger.rm.uol.com.br^
 ||logger.uol.com.br^
 ||matt.mercadolivre.com.br^
 ||metrics.uol.com.br^
 ||olx.com.br^*/lurker.
+||passeidireto.com/pd-tracking-lib/
 ||poder360.com.br/_tracker
 ||r7.com/comscore/
 ||sapo.*/clk?u=
@@ -99042,10 +99048,10 @@ liveschauen.com##pjsdiv[style="position: absolute; top: -7px; left: -111px; poin
 @@||therokuchannel.roku.com/$xhr,1p
 ||googleads.g.doubleclick.net^$xhr,redirect-rule=nooptext,domain=weltwebcams.com
 nulljungle.com##+js(nostif, innerHTML)
-naturalnews.com##+js(aost, $, :1:1)
 naturalnews.com##.Header
 ||naturalnews.com^$script
 @@||naturalnews.com/*=$script,1p
+@@||naturalnews.com/wp-content/themes/$script,1p
 civilenggforall.com##+js(aopr, blockAdBlock)
 *$script,3p,denyallow=chatango.com|cloudflare.net|cloudfront.net|disqus.com|disquscdn.com|fastlylb.net,domain=rawkuma.com
 rawkuma.com##+js(aeld, readystatechange, document.removeEventListener)
