@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qAPjQhdD41/iEFHWu8ewfg
+! Checksum: 9VLPV51sxDYRdNsBdLom2A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309180218
-! Last Modified: 2023年09月18日 02:18
+! Version: 202309180911
+! Last Modified: 2023年09月18日 09:11
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -100278,17 +100278,9 @@ mlsbd.shop##+js(aopw, _pop)
 mlsbd.shop##+js(aost, Math, inlineScript)
 tinytranslation.xyz###HTML5
 *$xhr,redirect-rule=nooptext,domain=paraphrasetool.com
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=paraphraser.io
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=paraphraser.io
-@@||cdn.snigelweb.com^$script,domain=paraphraser.io
-@@||cdn.snigelweb.com/gvl/vendor-list.json$xhr,domain=paraphraser.io
-@@||adengine.snigelweb.com/paraphraser.io/$script,domain=paraphraser.io
 paraphraser.io##body > .justify-content-center
 @@||paraphraser.io^$ghide
-@@||cdn.snigelweb.com/adengine/rephrase.info/loader.js$script,domain=rephrase.info
-@@||adengine.snigelweb.com/rephrase.info/*/adngin.js$script,domain=rephrase.info
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=rephrase.info
-@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=rephrase.info
+paraphraser.io##.adsenbox
 rephrase.info##.text-center:not([id]) [id^="adngin-"]:upward(.text-center:not([id]))
 wouterplanet.com##+js(nostif, Ads)
 wouterplanet.com##div.panel-primary.panel:nth-of-type(3)
