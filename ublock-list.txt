@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Mk8ABWk2Y7usH+ctbMpu5Q
+! Checksum: 66+zdlqgynebfKK2g+tzeA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309190911
-! Last Modified: 2023年09月19日 09:11
+! Version: 202309191421
+! Last Modified: 2023年09月19日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -32,13 +32,8 @@
 -ads-manager/$domain=~wordpress.org
 -ads-right.
 -ads/assets/$domain=~web-ads.org
--adskin.
--adspace.$domain=~metaverse-adspace.com
--advertisement_
 -adverts.min.
--article-ad-
 -article-ad.
--article-ads-
 -assets/ads.$~script
 -auto-ads-
 -banner-ad-
@@ -120,12 +115,8 @@
 .nativeads.
 .net/ad2/$~xmlhttprequest
 .net/ads?
-.net/noidadx/
-.net/pfadj/
 .ng/ads/
 .nu/ads/
-.openad.$domain=~openad.lv
-.openx.$domain=~openx.com|~openx.solar
 .org/ad/$domain=~ylilauta.org
 .org/ads/
 .org/pops.js
@@ -229,8 +220,6 @@
 /ad_banner/*
 /ad_base.
 /ad_bottom.
-/ad_box.
-/ad_box_
 /ad_break?
 /ad_campaign?
 /ad_caption.
@@ -320,14 +309,11 @@
 /addyn/3.0/*
 /addyn|*;adtech;
 /addyn|*|adtech;
-/adengage.
 /adengine.
 /adfallback.
 /adfeed.
 /adfooter.
 /adfshow?
-/adfunction.
-/adfunctions.
 /adfurikun/*$~image
 /adhandler/*$~subdocument
 /adheader.
@@ -1285,16 +1271,11 @@
 /oasconfig/*
 /oiopub-direct/*$~stylesheet
 /oncc-ad.
-/openad.$domain=~openad.lv
-/openads-
+/openad.js
 /openads.
 /openads/*
-/openads2/*
-/openads_
-/openx-$domain=~openx.com
 /overlay-ad.
 /overlay_ad_
-/overlayad.$domain=~buliba.pl
 /overlayads.
 /owa.MessageAdList.
 /p2/ads/*
@@ -57141,12 +57122,13 @@ doubtnut.com###Desktop_VideoPage_Side_Banner_1-container
 stripes.com###FeatureAd
 howlongagogo.com###FreeStarVideoAdContainer
 titantv.com###GridPlayer
-appatic.com###HTML2
+appatic.com,gamescensor.com###HTML2
 fanlesstech.com###HTML2 > .widget-content
 messitv.net###HTML23
 fanlesstech.com###HTML3
 fanlesstech.com###HTML4 > .widget-content
 fanlesstech.com###HTML5 > .widget-content
+gamescensor.com###HTML6
 fanlesstech.com###HTML6 > .widget-content
 breitbart.com###HavDW
 sitelike.org###HeaderAdsenseCLSFix
