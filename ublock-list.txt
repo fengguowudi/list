@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wD1zD5poO/1ZhzZPHITYYg
+! Checksum: AbuIK9FaZmhCE9bw67dWqQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309201421
-! Last Modified: 2023年09月20日 14:21
+! Version: 202309202032
+! Last Modified: 2023年09月20日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57778,7 +57778,7 @@ dokicloud.one,fmoviefree.net###overlay-center
 mzzcloud.life,rabbitstream.net,rapid-cloud.ru,streamrapid.ru###overlay-container
 drivevideo.xyz###overlays
 animexin.vip###overplay
-aninews.in,gadgets360.com,hardwaretimes.com,justthenews.com,ndtv.com,oneindia.com,wionews.com###parentDiv0
+aninews.in,gadgets360.com,hardwaretimes.com,justthenews.com,ndtv.com,oneindia.com,wionews.com,zeebiz.com###parentDiv0
 mg.co.za###partner-content
 hwbot.org###partner-tiles
 cnn.com###partner-zone
@@ -63528,6 +63528,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com
 @@||ads.freewheel.tv/|$media,domain=cnbc.com|fxnetworks.com|my.xfinity.com|nbc.com|nbcsports.com
 @@||ads.kbmax.com^$domain=adspipe.com
+@@||ads.pubmatic.com/adserver/js/$script,domain=zeebiz.com
 @@||ads.pubmatic.com/AdServer/js/pwtSync/$subdocument,domain=independent.co.uk
 @@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
 @@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
@@ -63762,6 +63763,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||yaytrade.com^*/chunks/pages/advert/$~third-party
 @@||yimg.com/rq/darla/*/g-r-min.js$domain=yahoo.com
 @@||z.moatads.com^$script,domain=standard.co.uk
+@@||zeebiz.com/ads/$image,~third-party
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
 @@||challenges.cloudflare.com/turnstile/$script
 @@||google.com/recaptcha/$csp,subdocument
@@ -65570,8 +65572,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /KISSmetricsTrackCode.
 /klaviyo_analytics.
 /KochavaAnalytics.
-/koko-analytics-
-/koko-analytics/*/script.js
+/koko-analytics-collect.php
+/koko-analytics/assets/dist/js/*
 /kontera.js
 /krux-sass-helper.js
 /krux.js
@@ -99150,6 +99152,7 @@ codare.fun##+js(acs, document.addEventListener, google_ad_client)
 javsex.guru##+js(acs, document.querySelectorAll, popMagic)
 mhdtvworld.*##+js(acs, eval, replace)
 mhdtvworld.*##+js(no-xhr-if, /ads|doubleclick/)
+mhdtvworld.*##+js(aost, document.getElementsByTagName, adsBlocked)
 @@||explosivemenu.com^$ghide
 explosivemenu.com##ins.adsbygoogle
 ||explosivemenu.com^$image,redirect-rule=1x1.gif,1p
@@ -101528,6 +101531,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||matches4you.info^$all
 ||reifenachbarn.com^$all
 /zclkredirect?visitid=$doc
+||done-install.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
@@ -101592,6 +101596,9 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||fortnite-gamerz-team.shop^$doc
 ||hotelbirlapalace.com^$doc
 ||drop-cloud.org^$all
+||soft-lab.pw^$doc
+||trumpcheat.com^$doc
+||cheatname.xyz^$doc
 ||oceanofgame.net^$doc
 ||tophacks.pro^$doc
 ||lavacheat.com^$doc
