@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eFRJ0+bxZ68xcoTTy3jTrg
+! Checksum: +gcnp8P6Z9+kN93oOIDPPQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309220221
-! Last Modified: 2023年09月22日 02:21
+! Version: 202309220911
+! Last Modified: 2023年09月22日 09:11
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -775,11 +775,9 @@
 /bnr_ad_
 /bnrsrv.
 /bottom-ads.
-/bottom-advert-
 /bottom_ad.
 /bottom_ads.
 /bottom_adv.
-/bottom_adv_
 /bottomad.
 /bottomads.
 /Box-ad-
@@ -788,15 +786,12 @@
 /bsa-plugin-pro-
 /bsa-pro-
 /buttonads.
-/buysellads-
 /buysellads.
 /call/pubif/*
 /call/pubj/*
 /call_ads/*
 /callAdserver?
-/carbonads-
 /CarbonAds.
-/carbonads/*
 /cdn.ad.
 /cdn.ads.
 /cgi-bin/ad/*
@@ -824,31 +819,20 @@
 /common/adv_
 /common_ad.
 /commons/ad/*
-/companion_ad.
-/companion_ads.
 /components/ads/*
 /concert_ads-
-/contads.
-/content-ads.
+/content-ads.js
 /content/ad/*
-/content/ad_
 /content/ads/*
 /content_ad.
-/content_ad_
 /contentAd.
-/contentad/*
-/contentad_
 /context_ad/*
 /context_ads.
 /contextad.
 /contextads.
-/controller.ad.
-/controller/ad-
 /core-ads.
 /corner-ad.
-/corner_ads/*
 /couponAd.
-/cover_ad.
 /cpm_ad.
 /cpmbanner.
 /cpx-ad.
@@ -856,11 +840,7 @@
 /css/ads-
 /css/adsense.
 /css/adv.
-/css/adz.
-/cube_ads/*
 /cubead.
-/cubeads/*
-/cubeads_
 /curveball/ads/*
 /custom_ads.
 /customad.
@@ -976,16 +956,10 @@
 /forum/ads_
 /forum_ad.
 /forums/ad/*
-/frame_ads_
-/framead-
-/framead_
-/frameads.
-/frameads_
 /fro_lo.js
 /froloa.js
 /frontend/ads/*
 /frontend_loader.js
-/frontpagead/*
 /funcript*.php?pub=
 /gdpr-ad-script.
 /generate_ad.
@@ -1046,8 +1020,6 @@
 /html/ad.
 /html/ad/*
 /html/ads/*
-/iframead.
-/iframead/*
 /im-popup/*
 /im.cams.
 /ima/ads_
@@ -1066,7 +1038,6 @@
 /images/adz/*
 /images2/Ads/*
 /imfloat.
-/img/ad-
 /img/ad/*
 /img/ads/*$domain=~save.ca
 /img/aff/*
@@ -1075,10 +1046,7 @@
 /in/show/?mid=$third-party
 /include/ad/*
 /include/ad_
-/includes/ad.
-/includes/ad_
 /includes/ads/*
-/includes/ads_
 /index-ad-
 /index-ad.
 /index_ad/*
@@ -4597,6 +4565,7 @@ _800x80_
 ###banner-ads
 ###banner-advert
 ###banner-lg-ad
+###banner-native-ad
 ###banner-skyscraper
 ###banner300x250
 ###banner468
@@ -17881,6 +17850,7 @@ _800x80_
 ##a[href^="https://frameworkdeserve.com/"]
 ##a[href^="https://funkydaters.com/"]
 ##a[href^="https://geniusdexchange.com/"]
+##a[href^="https://ggbetpromo.com/"]
 ##a[href^="https://go.247traffic.com/"]
 ##a[href^="https://go.admjmp.com/"]
 ##a[href^="https://go.cmtaffiliates.com/"]
@@ -19806,6 +19776,7 @@ browsershots.org#@#.advert_area
 ||abombu.com^
 ||abomisi.com^
 ||abonnementpermissiveenliven.com^
+||abopeol.com^
 ||abordy.com^
 ||aboriginalhubby.com^
 ||aborld.com^
@@ -22784,6 +22755,7 @@ browsershots.org#@#.advert_area
 ||becramcreeky.com^
 ||becrustleom.com^
 ||becuboneor.com^
+||becutblipped.uno^
 ||bedaslonej.com^
 ||bedaslonejul.cc^
 ||bedbaatvdc.com^
@@ -24403,6 +24375,7 @@ browsershots.org#@#.advert_area
 ||cdsbnrs.com^
 ||cdtbox.rocks^
 ||cduamwclb.com^
+||cduygiph.com^
 ||cdwehdnnprdntse.com^
 ||ce2c208e9f.com^
 ||ceamtaaprhha.xyz^
@@ -24499,6 +24472,7 @@ browsershots.org#@#.advert_area
 ||cfrtvwybx.com^
 ||cfts1tifqr.com^
 ||cfubdjsolbs.com^
+||cgbaybqywso.com^
 ||cgbmjsasm.xyz^
 ||cgeckmydirect.biz^
 ||cglrsebnjptukjx.xyz^
@@ -27972,6 +27946,7 @@ browsershots.org#@#.advert_area
 ||enicyvys.xyz^
 ||enjoyedestrangeapplication.com^
 ||enjoyedtool.com^
+||enlales.com^
 ||enlargementillegal.com^
 ||enlightencentury.com^
 ||enlightenedinterest.pro^
@@ -28072,6 +28047,7 @@ browsershots.org#@#.advert_area
 ||epigeicnarthex.com^
 ||epigyneleonora.digital^
 ||epiloiawhilter.com^
+||epimacevseirm.com^
 ||epimerbeep.top^
 ||epists.com^
 ||epithetduler.com^
@@ -32836,6 +32812,7 @@ browsershots.org#@#.advert_area
 ||jouzoapi.com^
 ||jowarblushed.space^
 ||jowlishdiviner.com^
+||joycreatorheader.com^
 ||joyfulfearsome.com^
 ||joygaskin.com^
 ||joylessstarted.com^
@@ -36430,6 +36407,7 @@ browsershots.org#@#.advert_area
 ||notorietynoblemanproposition.com^
 ||notoriousentice.com^
 ||notos-yty.com^
+||notwithstandingpeel.com^
 ||noucoush.net^
 ||nougacoush.com^
 ||noughtefface.com^
@@ -37141,6 +37119,7 @@ browsershots.org#@#.advert_area
 ||onlinepromousa.com^
 ||onlineuserprotector.com^
 ||onlombreor.com^
+||onlyfansrips.com^
 ||onlylookupsud.info^
 ||onlyry.net^
 ||onlyyourbiglove.com^
@@ -37404,6 +37383,7 @@ browsershots.org#@#.advert_area
 ||ossgogoaton.com^
 ||osshydreigonan.com^
 ||osskanger.com^
+||osskugvirs.com^
 ||ossmightyenar.net^
 ||ossnatuer.com^
 ||osspalkiaom.com^
@@ -37949,6 +37929,7 @@ browsershots.org#@#.advert_area
 ||patioeasternopera.com^
 ||patiotheoretical.com^
 ||patodonalgomball.store^
+||patoionanrumand.com^
 ||patrickcodens.life^
 ||patriotapelles.com^
 ||patronageunlock.com^
@@ -40380,6 +40361,7 @@ browsershots.org#@#.advert_area
 ||reencoccous.store^
 ||reenginee.club^
 ||reerfdfgourgo.xyz^
+||reerfdfgourgoldpie.com^
 ||reesterzeniths.guru^
 ||reevoopt.com^
 ||refban.com^
@@ -44422,6 +44404,7 @@ browsershots.org#@#.advert_area
 ||tmjhdyghjm.com^
 ||tmmkhspf.xyz^
 ||tmnbocewmddu.com^
+||tmrjaghtledm.com^
 ||tmrjmp.com^
 ||tmyzer.com^
 ||tncomg.com^
@@ -46128,6 +46111,7 @@ browsershots.org#@#.advert_area
 ||vidghjlgkuyfk.site^
 ||vids-fun.online^
 ||vidsbig.online^
+||vidsbig.space^
 ||vidsforyou.mom^
 ||vidsforyou.online^
 ||vidsfun.info^
@@ -50473,6 +50457,7 @@ browsershots.org#@#.advert_area
 ||coalbagbices.website^$popup
 ||codedexchange.com^$popup
 ||codeonclick.com^$popup
+||coffee2play.com^$popup
 ||cogentpatientmama.com^$popup
 ||cogenttriprepel.com^$popup
 ||cognitionmesmerize.com^$popup
@@ -51790,6 +51775,7 @@ browsershots.org#@#.advert_area
 ||nannyamplify.com^$popup
 ||nanoadexchange.com^$popup
 ||nanouwho.com^$popup
+||nanrumandbac.com^$popup
 ||naoprj.com^$popup
 ||napkinlucent.com^$popup
 ||nasssmedia.com^$popup
@@ -52067,6 +52053,7 @@ browsershots.org#@#.advert_area
 ||passeura.com^$popup
 ||passfixx.com^$popup
 ||pasxfixs.com^$popup
+||patoionanrumand.com^$popup
 ||patrondescendantprecursor.com^$popup
 ||patronimproveyourselves.com^$popup
 ||paxxfiss.com^$popup
@@ -53337,6 +53324,7 @@ browsershots.org#@#.advert_area
 ||witalfieldt.com^$popup
 ||withdrawcosmicabundant.com^$popup
 ||withholdstandstill.com^$popup
+||withmefeyauknaly.com^$popup
 ||wlafx4trk.com^$popup
 ||woafoame.net^$popup
 ||woffxxx.com^$popup
@@ -54891,6 +54879,7 @@ browsershots.org#@#.advert_area
 ||d276dyxkw9wo01.cloudfront.net^
 ||d27genukseznht.cloudfront.net^
 ||d27gtglsu4f4y2.cloudfront.net^
+||d27pxpvfn42pgj.cloudfront.net^
 ||d27qffx6rqb3qm.cloudfront.net^
 ||d27x9po2cfinm5.cloudfront.net^
 ||d28exbmwuav7xa.cloudfront.net^
@@ -55449,6 +55438,8 @@ browsershots.org#@#.advert_area
 ||getflowads.net^$popup
 ||ggbet-online.net^$popup
 ||ggbetapk.com^$popup,third-party
+||ggbetery.net^$popup
+||ggbetpromo.com^$popup
 ||go.aff.estrelabetpartners.com^$popup
 ||go.camterest.com^$popup
 ||google.com/favicon.ico$popup
@@ -64515,6 +64506,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /api/cmp_tracker
 /api/ComScorePageView
 /api/drpStats
+/api/event-rfkj/*
 /api/ipv4check?
 /api/log-visit
 /api/log?
@@ -104310,19 +104302,14 @@ knowyourmeme.com##+js(nosiif, blogherads)
 deviantart.com##+js(aost, Math.sqrt, update)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##*:style(animation: none !important;)
 tapewithadblock.org##+js(rmnt, script, /RegExp\(\'/, condition, RegExp)
-@@||google-analytics.com/plugins/$script
 ||2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=video.foxnews.com
 ||cdn.krxd.net^$script,redirect=noopjs,domain=video.foxnews.com
 @@||akamaihd.net/player/*/akamai/amp/prebid/*$script,domain=static.foxnews.com
 @@||global.fncstatic.com^*/ads.js$script,domain=foxnews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=insider.foxnews.com
-@@||s0.2mdn.net/instream/*$domain=cnet.com
 ||top.mail.ru^$badfilter
 ||top.mail.ru^$3p
-||2o7.net^$badfilter
-||2o7.net^$3p
 ||quantcast.com^$badfilter
-@@||cdn.phoenix.intergi.com^
 @@||img.echosting.cafe24.com/design$image,domain=jolse.com
 @@||ssl.cdn-redfin.com/*/redfin/common/analytics/PixelTracking.js$script,domain=redfin.com
 ||amazon-adsystem.com/aax2/amzn_ads.js$script,redirect=amazon-adsystem.com/aax2/amzn_ads.js
@@ -104362,11 +104349,6 @@ tapewithadblock.org##+js(rmnt, script, /RegExp\(\'/, condition, RegExp)
 @@||sumome.com^$domain=shopify.com
 ||bbci.co.uk^*/analytics.js$script,redirect=noopjs,domain=bbc.co.uk
 ||static.bbc.co.uk/bbcdotcom/*/adverts.js$script,1p,important,redirect=noopjs
-||googletagmanager.com/gtm.js$script,redirect=noopjs,domain=homes.co.nz
-/google-analytics.$~image,badfilter
-/googleanalytics.js$badfilter
--google-analytics.$badfilter
-/google-analytics.$script,badfilter
 /ga_setup.js$badfilter
 ||lexus.com/lexus-share/js/tracking_omn/s_code.js$script,important,1p,redirect=noopjs
 @@||sephora.com/js/ufe/isomorphic/thirdparty/VisitorAPI.js$script,1p
