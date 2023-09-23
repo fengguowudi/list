@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rlnqVRZ0Lm9925ZiujuH+w
+! Checksum: APRTSrjUIOKeanM/F8+j2g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309230220
-! Last Modified: 2023年09月23日 02:20
+! Version: 202309230909
+! Last Modified: 2023年09月23日 09:09
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -74312,6 +74312,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||e-activist.com^*/broadcast.record.message.open.do?
 ||e-merchant.com/^*/edr.js$third-party
 ||e.ebidtech.com/cv/
+||e.htplayground.com^
 ||e.metarouter.io^
 ||ea.youmaker.com^
 ||early-birds.fr/tracker/
@@ -113681,8 +113682,8 @@ larazon.es##+js(set, gfkS2sExtension.HTML5VODExtension, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 22 Sep 2023 13:45:05 GMT
-# entries:        3718
+# last updated:   Fri, 22 Sep 2023 19:16:51 GMT
+# entries:        3719
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -117053,6 +117054,7 @@ larazon.es##+js(set, gfkS2sExtension.HTML5VODExtension, noopFunc)
 127.0.0.1 track.mailerlite.com
 127.0.0.1 track.miro.com
 127.0.0.1 track.nationalgunrights.org
+127.0.0.1 track.privacyatclearbit.com
 127.0.0.1 track.segmetrics.io
 127.0.0.1 track.software-codes.com
 127.0.0.1 track.spe.schoolmessenger.com
