@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hU3QxHt62V1JUUliyHgb/Q
+! Checksum: 1qvI3q8wowsR7UFOyNro3g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309231419
-! Last Modified: 2023年09月23日 14:19
+! Version: 202309232028
+! Last Modified: 2023年09月23日 20:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57534,7 +57534,7 @@ wolfstream.tv###customAnnouncement
 miloserdov.org,playstore.pw,reneweconomy.com.au,wpneon.com###custom_html-10
 miloserdov.org,playstore.pw###custom_html-11
 theregister.co.nz###custom_html-13
-colombiareports.com,miloserdov.org,mostlyblogging.com###custom_html-14
+cdromance.com,colombiareports.com,miloserdov.org,mostlyblogging.com###custom_html-14
 mostlyblogging.com,sonyalpharumors.com###custom_html-15
 eetimes.eu,miloserdov.org###custom_html-16
 budgetbytes.com,ets2.lt,miloserdov.org###custom_html-2
@@ -59074,6 +59074,7 @@ hannaford.com##.citrus_ad_banner
 businessinsider.in##.clmb_eoa
 kissanime.com.ru##.close_ad_button
 news18.com##.closestickybtn
+cdromance.com##.cls
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
 mayoclinic.org##.cmp-advertisement__wrapper
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com##.cmscontent-article1
@@ -65163,8 +65164,10 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /facebook_fbevents.js
 /facebook_pixel_3_1_2.js
 /facebookpixel.js
+/facebookproductad/views/js/pixel.
 /faciliti-tag.min.js
-/fb-pixel-scripts?
+/fairfax_tracking.js
+/fb-pixel-$script
 /fb-tracking.js
 /fb_pixel_page_view
 /fbanalytics.js
@@ -75321,6 +75324,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||session.timecommerce.net^
 ||sexhd.pics/x/x.js
 ||sezzle.com/v1/event/log
+||sfstatic.net/build/js/basicMetricsTracking.
 ||sftrack.searchforce.net^
 ||sgali-mcs.byteoversea.com^
 ||share-online.biz/affiliate/$third-party
@@ -78175,6 +78179,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.vk-portal.net^
 ||stats.wordpress.com^
 ||stats.wwitv.com^
+||stayz.com.au/cl/data/omgpixel.json
 ||strcloud.in/stat/
 ||streamadblocker.com/stat/
 ||streamadblocker.store/stat/
@@ -93442,7 +93447,6 @@ arketing.indianadunes.com^
 ||c917.pandasuite.io^
 ||caapp.levi.com^
 ||cakep.indonesiya.com^
-||calculator.maplesoft.com^
 ||campaigns.impactive.io^
 ||card.pingpro.com^
 ||cartoon.hardalist.com^
@@ -105545,7 +105549,6 @@ vermangasporno.com#@#a[target="_blank"][rel="noopener noreferrer"] > img
 @@||dev.visualwebsiteoptimizer.com/j.php$domain=watch.impress.co.jp
 @@||dev.visualwebsiteoptimizer.com/v.gif$domain=watch.impress.co.jp
 !#endif
-crxextractor.com#@#.adsense-wrapper
 @@||googleads.g.doubleclick.net/ads/preferences/*/opt*?continue$doc
 ||thepiratebay.$script,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org,badfilter
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=rotana.net,redirect-rule=google-ima.js
@@ -105589,7 +105592,6 @@ smartadserver.*#@#a[href*=".smartadserver.com"]
 brasilescola.uol.com.br#@#.banner
 ||tags.news.com.au/prod/heartbeat/*/MediaSDK.min.js$script,redirect=noop.js,important
 @@||googletagmanager.com/gtm.js$script,domain=coronavirus.vic.gov.au
-picoworkers.com##+js(fingerprint2)
 @@||drive.google.com/file/*/preview?*-auto-ads-$frame,domain=kntstuff.blogspot.com
 @@||malwaretips.com/blogs/wp-content/uploads/*/Sponsored-Links$image,1p
 @@||jep-asset.akamaized.net/jiostaticresources/*/js/adobe-analytics.js$script,domain=jio.com
@@ -106498,7 +106500,9 @@ virginmediatelevision.ie##+js(set, google.ima.dai, {})
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=virginmediatelevision.ie
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=3bmeteo.com,important
 3bmeteo.com##+js(nano-sib, adv, *)
-/fingerprint2.min.js$script,3p,redirect-rule=fingerprint2.js
+/fingerprint2.min.js$script,3p,redirect=fingerprint2.js,important
+/fingerprint2.js$script,3p,redirect=fingerprint2.js,important
+sproutgigs.com##+js(fingerprint2)
 larazon.es##+js(set, gfkS2sExtension, {})
 larazon.es##+js(set, gfkS2sExtension.HTML5VODExtension, noopFunc)
 @@||toolbaz.com/tardisrocinante/screx.js$script,1p
