@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qVjxX1yJgZDOavwnoBQwZQ
+! Checksum: UGKH6tD1s4aWnktclZsjCw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309241419
-! Last Modified: 2023年09月24日 14:19
+! Version: 202309242028
+! Last Modified: 2023年09月24日 20:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -77357,6 +77357,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c.fingerprint.com^
 ||c.paypal.com^$script
 ||c.thredup.com^
+||c.vogue.com^
 ||c.wort-suche.com^
 ||c.xbox.com^
 ||c.ypcdn.com^$domain=yellowpages.com
@@ -78032,6 +78033,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pushsquare.com/blank.gif
 ||px.srvcs.tumblr.com^
 ||pxl.indeed.com^
+||qc.vogue.com^
 ||qm.redbull.com^
 ||quibids.com/marketing/pixels/
 ||quickmeme.com/tracker/
@@ -106527,6 +106529,7 @@ larazon.es##+js(set, gfkS2sExtension.HTML5VODExtension, noopFunc)
 ||rays-counter.com^$3p,badfilter
 ||d347cldnsmtg5x.cloudfront.net/util/1x1.gif$image,domain=aplaceforeverything.co.uk,redirect=1x1.gif,important
 ||linkvertise.com^$badfilter
+@@||sparrow.paramountplus.com/streamer/$xhr,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
