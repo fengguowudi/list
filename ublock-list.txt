@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UGKH6tD1s4aWnktclZsjCw
+! Checksum: 4H2aHYWOY1VgwSv+bUqF0A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309242028
-! Last Modified: 2023年09月24日 20:28
+! Version: 202309250218
+! Last Modified: 2023年09月25日 02:18
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57445,6 +57445,7 @@ gumtree.com###bing-text-ad-3
 plagiarismdetector.net###bio_ep
 plagiarismdetector.net###bio_ep_bg
 chilltracking.com###blink
+hawaiisbesttravel.com###block-103
 theneworleanstribune.com###block-15
 appleworld.today###block-26
 game-news24.com###block-50
@@ -61971,6 +61972,7 @@ bailagentnetwork.com##img[alt*="Affiliate_BailAgentNetwork"]
 windycitymediagroup.com,windycitytimes.com##img[alt*="Sponsor"]
 hiphopkit.com##img[alt="Zappy"]
 therainbowtimesmass.com##img[alt="banner ad"]
+inkbotdesign.com##img[decoding="async"]
 nepallivetoday.com,wjr.com##img[height="100"]
 prawfsblawg.blogs.com,thomhartmann.com##img[height="200"]
 myanimelist.net##img[height="250"]
@@ -62121,6 +62123,7 @@ givemesport.com##.gms-videos-container
 videogames.si.com##.is-exco-player
 anandtech.com##.jwplayer
 gamesradar.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
+space.com##.jwplayer__wrapper
 southernliving.com##.karma-sticky-rail
 gearjunkie.com##.ldm_ad
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
@@ -62375,6 +62378,7 @@ corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:-abp-has(>h4.
 templateshub.net#?#.col-lg-4.col-md-6:-abp-has(>div.singel-course)
 bailagentnetwork.com#?#div.box-bottom:-abp-has(a[rel="noopener nofollow"])
 thebay.com#?#div.product:-abp-has(div.citrus-sponsored)
+healthyrex.com#?#div.textwidget:-abp-has(a[rel="nofollow sponsored"])
 oneindia.com#?#.one-news-links ul li:-abp-has(> div:only-child)
 autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="FEATURED_LISTING"])
 autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="PROMOTED_LISTING"])
@@ -101019,7 +101023,6 @@ majorgeeks.com##b:has(a[target^="reimage"])
 ||geniusdexchange.com^$all
 ||securecloud-smart.com^$all
 ||doctopdftech.com^$all
-||palundrus.com^$all
 ||best2019-games-web4.com^$all
 ||track-enable.com^$all
 ||searchdimension.com^$all
@@ -101037,11 +101040,9 @@ howtoremove.guide###gray_de
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##a:has-text(SpyHunter)
 ||tncrun.net^$all
 ||d3125zvx5yi5sj.cloudfront.net^$all
-||mp3hub.com^$doc
 thepiratebay3.com^$all
 ||procdnvids.net^
 ||prostream.to^
-||storageplay.net^
 ||mybestclick.net^$3p
 ||verified-extensions.com^
 ||smsiak.pl^$doc
@@ -101053,32 +101054,23 @@ thepiratebay3.com^$all
 ||adverdirect.com^$all
 ||euphe-gun.com^$all
 ||bestwinexperience.com^$all
-||triumphantplace.com^$all
 ||traffic-go.com^$all
 ||bainushe.com^$all
 ||streamssitesearch.com^$all
 ||trackertrak.com^$all
-||acceder.gratis^$all
 ||catbeardx.com^$all
 ||newsinform.net^$all
 ||wdeliv.net^$all
-||watch-video.net^$all
 ||findmedia.biz^$all
-||polimer.xyz^$all
 ||bingstyle.com^$all
-||zctrack.com^$all
 ||redirekted.com^$all
 ||ptookaih.net^$all
 ||blockskipad.com^$all
 ||adpopblocker.com^$all
 ||newsurprizeforyou.com^$all
-||oldharper.xyz^$all
 ||teenyreligious.com^$all
-||goto2021.top^$all
 ||redirectsstm.click^$all
 ||horried.pro^$all
-||investing-fund.com^$all
-||investing-bank.com^$all
 ||trafficjunction.com^$all
 ||arclk.net^$all
 ||clkepd.com^$all
@@ -101087,9 +101079,7 @@ thepiratebay3.com^$all
 ||litance-viestside.icu^$all
 ||omgtnc.com^$all
 ||bector-blotance.xyz^$all
-||revercecaptcha.com^$all
 ||bestoffer21.info^$all
-||express-news.me^$all
 ||n06.biz^$all
 ||um-bredirect.com^$all
 ||terlaby.com^$all
@@ -101097,34 +101087,26 @@ thepiratebay3.com^$all
 ||claspedtwelve.com^$all
 ||glbltraffic.com^$all
 ||0redirc.com^$all
-||rsafrwdr.com^$all
 ||sexyladydesire.xyz^$all
-||expmediadirect1.com^
 ||inspirationhistorical.com^$all
 ||maroohost.online^$all
 ||rollmeout.xyz^$all
 ||rouonixon.com^$all
 ||amigosdetuciudad.com^$all
-||no1-casino.com^$all
 ||bb-delivery.icu^$all
 ||incorphishor.com^$all
 ||phygical-questall.icu^$all
 ||praterage-colled.com^$all
 ||wwtracking.net^$all
 ||womeniovers.net^$all
-||antig-hra.com^$all
 ||fictiongroin.com^$all
-||sendyou123.com^$all
 ||goaffmy.com^$all
 ||pwrtds.com^$all
 ||trackbyfast.com^$all
 ||trfrc.com^$all
 ||1ts11.top^$all
 ||dating.hdxvideos.ru^$all
-||admntrk.com^$all
-||bnmu.xyz^$all
 ||cngcpy.com^$all
-||cpmstatsart.com^$frame
 ||elevisions.biz^$all
 ||eneverals.biz^$all
 ||harzfriends.de^$all
@@ -101132,17 +101114,14 @@ thepiratebay3.com^$all
 ||moviesboys.com/*.shtml$doc
 ||name0fbestway.com^$all
 ||netund.com^$all
-||onetouch7.info^$all
 ||sex-is-here.com/*.shtml$doc
 ||sexall.net/*.shtml$doc
 ||upshroomishtor.com^$all
 ||urtyert.com^$all
 ||quellaplentyresolute.com^$all
 ||hsrvu.com^$all
-||il119.com^$all
 ||adtr1.com^$all
 ||axdsz.pro^$all
-||click2click.xyz^$all
 ||datingapp.live^$all
 ||retargetcore.com^$all
 .com/c/*?s1=$doc,domain=com
@@ -101153,19 +101132,15 @@ thepiratebay3.com^$all
 ||aslnk.link^$all
 ||benaughty.com^$all
 ||searchdatestoday.com^$all
-||robin201.xyz^$all
 ||bnewsblite.me^$all
 ||ckre.net^$all
 ||doprinplupr.com^$all
 ||gotohouse2.cc^$all
-||nyalacornily.cam^$all
-||adalgard-wol.com^$all
 ||chintsressels.com^$all
 ||letmessagenow.com^$all
 ||x-soft.club^$all
 ||apilond.com^$all
 ||tracklyfast.com^$all
-||ytbgamer.space^$all
 ||atzekromchan.com^$all
 ||pupok.link^$all
 ||ntvpevnts.com^$all
@@ -101175,13 +101150,10 @@ thepiratebay3.com^$all
 /bdv_rd.dbm?ownid=$doc
 ?bid=0.*&search_referrer_domain=$doc
 ||btpnav.com^$all
-||magnus-beo.com^$all
 ||veysag.com^$all
 ||fecebook.com^$all
 ||festinus.xyz^$all
-||newssocial.org^$all
 ||secureleadsforever.com^$all
-||techgadgetsy.com^$all
 /apop/redirect/zone/*$doc,popup
 ||gayfeetbusy.link^$all
 ||belbenback.live^$all
@@ -101651,20 +101623,16 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||pc-gratis.com^$doc
 ||progamerhack.com^$doc
 ||zensoft.online^$doc
-||gratissofts.com^$doc
-||edelw.online.swtest.ru^$all
 ||orchk.com/pc/|$all
 ||winterseyegaming.com^$doc
-||fortnite-gamerz.shop^$doc
-||quantummods.eu^$doc
 ||secretcheatz.site^$doc
-||rivalhacks.site^$doc
 ||fortnite-gamerz-team.shop^$doc
 ||hotelbirlapalace.com^$doc
 ||drop-cloud.org^$all
 ||soft-lab.pw^$doc
 ||trumpcheat.com^$doc
 ||cheatname.xyz^$doc
+||cheats.ink^$doc
 ||oceanofgame.net^$doc
 ||tophacks.pro^$doc
 ||lavacheat.com^$doc
