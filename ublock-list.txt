@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h/OgYWpU50kUQpTjhsDPog
+! Checksum: i8jPrrBoI4YTlllAjTVgPA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309261421
-! Last Modified: 2023年09月26日 14:21
+! Version: 202309262033
+! Last Modified: 2023年09月26日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -45852,7 +45852,6 @@ browsershots.org#@#.advert_area
 ||valemedia.net^
 ||valencevinyls.life^
 ||valerainingexplain.com^
-||valeronevijao.com^
 ||valetedmasaris.website^
 ||valeuceplangka.com^
 ||valgoidaguglia.guru^
@@ -54628,6 +54627,7 @@ browsershots.org#@#.advert_area
 ||snacklink.co/js/web-script.js
 ||snacktools.net/bannersnack/$domain=~bannersnack.dev
 ||socialmonkee.com/images/
+||sorcerers.net/includes/butler/
 ||squirrels.getsquirrel.co^
 ||srv.dynamicyield.com^
 ||srv.tunefindforfans.com^
@@ -61215,7 +61215,7 @@ cryptofeeds.news,defence-industry.eu,gamenguides.com,millennial-grind.com,teslao
 livability.com##.wp-block-jci-ad-area-two
 bangordailynews.com,michigandaily.com##.wp-block-newspack-blocks-wp-block-newspack-ads-blocks-ad-unit
 pedestrian.tv##.wp-block-ped-theme-blocks-pedestrian-recent-jobs
-hyperallergic.com,repeatreplay.com##.wp-block-spacer
+hyperallergic.com,repeatreplay.com,steamdeckhq.com##.wp-block-spacer
 c19-worldnews.com##.wp-caption
 onepagerules.com##.wp-container-6.wp-block-columns
 strangesounds.org##.wp-image-281312
@@ -104667,8 +104667,6 @@ tubewolf.com##.bnnr
 @@||imgdew.com/js/*$script,domain=imgdew.pw
 pasteboard.co##+js(set, nads.createAd, trueFunc)
 go.com#@#.has-ad
-@@||google-analytics.com/analytics.js$script,domain=experience.amd.com
-@@||googletagmanager.com/gtm.js$script,domain=experience.amd.com
 @@||edgedatg.com/aws/assets/cp/web/assets/js/*/AppMeasurement.js$script,domain=disneynow.go.com
 @@||static.adsnative.com/static/js/render.*.js$script,domain=streamable.com
 @@||litix.io/core/$script,domain=velocity.com|motortrend.com
@@ -106513,6 +106511,8 @@ larazon.es##+js(set, gfkS2sExtension.HTML5VODExtension, noopFunc)
 3djuegos.com##+js(nano-stb, jad['timeline'], *)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=cbc.ca,important
 @@||moja-ostroleka.pl/mapa/sensorsData.json$xhr,1p
+2.87.160.7$badfilter
+||2.87.160.7^
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
