@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xJzt90rynL9TTh8BrkFWFQ
+! Checksum: gWBMUR93ypvjBYdnmwgkVw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309281421
-! Last Modified: 2023年09月28日 14:21
+! Version: 202309282032
+! Last Modified: 2023年09月28日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -106565,6 +106565,10 @@ larazon.es##+js(set, gfkS2sExtension.HTML5VODExtension, noopFunc)
 @@||moja-ostroleka.pl/mapa/sensorsData.json$xhr,1p
 2.87.160.7$badfilter
 ||2.87.160.7^
+||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com,important
+waitrosecellar.com##+js(set, AnalyticsEventTrackingJS, {})
+waitrosecellar.com##+js(set, AnalyticsEventTrackingJS.addToBasket, noopFunc)
+waitrosecellar.com##+js(set, AnalyticsEventTrackingJS.trackErrorMessage, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -113745,8 +113749,8 @@ larazon.es##+js(set, gfkS2sExtension.HTML5VODExtension, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 26 Sep 2023 20:52:40 GMT
-# entries:        3720
+# last updated:   Thu, 28 Sep 2023 08:27:02 GMT
+# entries:        3721
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -115117,6 +115121,7 @@ larazon.es##+js(set, gfkS2sExtension.HTML5VODExtension, noopFunc)
 127.0.0.1 click.email.bbc.com
 127.0.0.1 click.email.microsoftemail.com
 127.0.0.1 click.email.sonos.com
+127.0.0.1 click.email.strawberry.no
 127.0.0.1 click.fool.com
 127.0.0.1 click.hookupinyourcity.com
 127.0.0.1 click.hooligapps.com
