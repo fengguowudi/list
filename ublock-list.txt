@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wfJxzneuI/TMiQd4WatQqw
+! Checksum: Eo0Df++8sTpEyA5HdcTgbA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202309290911
-! Last Modified: 2023年09月29日 09:11
+! Version: 202309291421
+! Last Modified: 2023年09月29日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -104575,7 +104575,6 @@ orange.fr###o_carrepub:style(height: 1px; margin: 0; min-height: auto; visibilit
 @@||citi.com/cards/*/tracking.js$script
 @@||eccmp.com/*/conversen-SDK.js$script,domain=citi.com
 @@||fbcdn.net/safe_image.php?$image,domain=facebook.com|facebookcorewwwi.onion|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
-@@||cbc.ca/*/cbc-stats-$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=fullcontact.com
 @@||flightradar24.com/static/*/statistics.js$script,1p
 ||camping.info/*/fingerprint2.min.js$script,1p,redirect=noopjs
@@ -104821,7 +104820,6 @@ adproceed.com#@#.single-ad
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=wwm.rtl.de
 hwupgrade.it#@#a[href^="https://www.amazon."][href*="tag="]
 hdblog.it#@#a[href^="https://www.amazon."][href*="tag="]
-@@||ads.rogersmedia.com/cbc$frame,domain=cbc.ca
 @@||startpage.com^$popup,domain=msn.com
 @@||ticketonline.de^$frame,domain=stage-entertainment.de
 ||marketo.com^$badfilter
@@ -106368,7 +106366,6 @@ muropaketti.com##body.noImages .content img:style(display: inline-block !importa
 jayisgames.com##.widget-topad:style(padding-bottom: 20px !important;)
 @@||fpnpmcdn.net/v*/loader$script,domain=app.writesonic.com
 *$image,redirect-rule=1x1.gif,domain=go-girl.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gem.cbc.ca
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=pac-12.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=vtvgiaitri.vn,redirect-rule=google-ima.js
 stylist.co.uk##+js(set, Object.prototype.isInitialLoadDisabled, noopFunc)
@@ -106646,7 +106643,10 @@ larazon.es##+js(set, gfkS2sExtension.HTML5VODExtension, noopFunc)
 ||d347cldnsmtg5x.cloudfront.net/util/1x1.gif$image,domain=aplaceforeverything.co.uk,redirect=1x1.gif,important
 ||linkvertise.com^$badfilter
 @@||sparrow.paramountplus.com/streamer/$xhr,1p
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=cbc.ca,important
+@@||cbc.ca/*/cbc-stats-$script,1p
+@@||ads.rogersmedia.com/cbc$frame,domain=cbc.ca
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=cbc.ca|~gem.cbc.ca,important
+cbc.ca##+js(aeld, click, /event_callback=function\(\){window\.location=t\.getAttribute\("href"\)/)
 @@||moja-ostroleka.pl/mapa/sensorsData.json$xhr,1p
 2.87.160.7$badfilter
 ||2.87.160.7^
@@ -106654,6 +106654,7 @@ larazon.es##+js(set, gfkS2sExtension.HTML5VODExtension, noopFunc)
 waitrosecellar.com##+js(set, AnalyticsEventTrackingJS, {})
 waitrosecellar.com##+js(set, AnalyticsEventTrackingJS.addToBasket, noopFunc)
 waitrosecellar.com##+js(set, AnalyticsEventTrackingJS.trackErrorMessage, noopFunc)
+@@||jobillico.com/js/vuejs/gtag/gtag.js$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
