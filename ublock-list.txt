@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cG6s5r/KV8aZl4SKX9sr8g
+! Checksum: 7CuMrH9P2K5O7p5CkCTyqg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310011420
-! Last Modified: 2023年10月01日 14:20
+! Version: 202310012029
+! Last Modified: 2023年10月01日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -104178,7 +104178,8 @@ www.reddit.com##+js(json-prune, data.*.elements.edges.[].node.outboundLink)
 www.reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 ||redditstatic.com/shreddit/sentry-$domain=reddit.com
 reddit.com##+js(aopw, STICKY_CANARY)
-reddit.com##+js(no-fetch-if, url:/svc/shreddit method:/post/i headers:text/plain)
+reddit.com##+js(aost, fetch, Ee/</<)
+reddit.com##reddit-breadcrumbs
 ||www.reddit.com/|$xhr,1p,method=post
 ||colpirio.com^$3p
 docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
