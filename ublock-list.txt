@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nux5X8qiGqOaib2Q9na5jw
+! Checksum: he+uXEMda83FlYJwsckPVg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310021422
-! Last Modified: 2023年10月02日 14:22
+! Version: 202310022032
+! Last Modified: 2023年10月02日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56335,6 +56335,7 @@ browsershots.org#@#.advert_area
 ||illicium.web.money^$subdocument
 ||illicium.wmtransfer.com^$subdocument
 ||imagetwist.com/b9ng.js
+||imdb.com/_json/getads/
 ||imgadult.com/ea2/
 ||imgdrive.net/a78bc9401d16.js
 ||imgdrive.net/anex/
@@ -59116,8 +59117,8 @@ amgreatness.com##.bg-gray-200.mx-auto
 wccftech.com##.bg-horizontal
 wccftech.com##.bg-horizontal-2
 imagetotext.info##.bg-light.mt-2.text-center
-dexerto.com##.bg-neutral-grey-4.items-center
-dexerto.com##.bg-neutral-grey.justify-center
+charlieintel.com,dexerto.com##.bg-neutral-grey-4.items-center
+charlieintel.com,dexerto.com##.bg-neutral-grey.justify-center
 wccftech.com##.bg-square
 wccftech.com##.bg-square-mobile
 wccftech.com##.bg-vertical
@@ -61177,7 +61178,7 @@ hackread.com##.text-61
 vuejs.org##.text-ad
 how2shout.com##.text-ads
 skylinewebcams.com##.text-center.cam-light
-dexerto.com##.text-center.italic
+charlieintel.com,dexerto.com##.text-center.italic
 royalroad.com##.text-center.light
 ascii-code.com##.text-center.mb-3
 upi.com##.text-center.mt-5
@@ -61203,9 +61204,9 @@ nybooks.com##.toast-cta
 spy.com##.todays-top-deals-widget
 last.fm##.tonefuze
 euobserver.com,medicinehatnews.com##.top
-dexerto.com##.top-0.justify-center
+charlieintel.com,dexerto.com##.top-0.justify-center
 mashable.com##.top-0.sticky > div
-dexerto.com##.top-10
+charlieintel.com,dexerto.com##.top-10
 cartoq.com##.top-a
 freedomleaf.com##.top-ab
 cartoq.com##.top-ad-blank-div
@@ -68135,7 +68136,6 @@ _mongo_stats/
 ||btloader.com^
 ||bx-cloud.com^
 ||bydst.com^
-||byspotify.com^
 ||cadsuta.net^
 ||captcha-display.com^
 ||cbdatatracker.com^
@@ -75385,6 +75385,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.ampry.com^
 ||pixel.archipro.co.nz^
 ||pixel.blivenyc.com^
+||pixel.byspotify.com^
 ||pixel.condenastdigital.com^
 ||pixel.inforsea.com^
 ||pixel.lilystyle.ai^
@@ -77520,6 +77521,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.faceitanalytics.com^
 ||analytics.footballdb.com^
 ||analytics.freemake.com^
+||analytics.gamesdrive.net^
 ||analytics.getshogun.com^
 ||analytics.global.sky.com^
 ||analytics.hashnode.com^
