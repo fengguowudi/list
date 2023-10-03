@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IUquKEvbdXeU927F+5nD5Q
+! Checksum: eiXvhZBEokYvldmKIxMWLw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310031421
-! Last Modified: 2023年10月03日 14:21
+! Version: 202310032033
+! Last Modified: 2023年10月03日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -49405,7 +49405,6 @@ browsershots.org#@#.advert_area
 ||links2revenue.com^$third-party
 ||linkslot.ru^$third-party
 ||linksmart.com^$third-party
-||linkspy.cc^$third-party
 ||linkstorm.net^$third-party
 ||linkwash.de^$third-party
 ||linkworth.com^$third-party
@@ -54783,6 +54782,7 @@ browsershots.org#@#.advert_area
 ||linkconnector.com/tr.php
 ||linkconnector.com/traffic_record.php
 ||linkshrink.net^$script,third-party
+||linkspy.cc/js/fullPageScript.min.js
 ||lottoelite.com/banners/
 ||ltkcdn.net/ltkrev.js
 ||marketing.888.com^
@@ -62405,6 +62405,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##span[cel_widget_id^="MAIN-loom-desktop-brand-footer-slot_hsa-id-CARDS-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##span[cel_widget_id^="MAIN-loom-desktop-top-slot_hsa-id-CARDS-"]
+google.com###google-s-ad
 usnews.com###ac-lre-player-ph
 howstuffworks.com###brid-wrap
 ginx.tv###ginx-floatingvod-containerspacer
@@ -68226,6 +68227,7 @@ _mongo_stats/
 ||cybba.solutions^
 ||czx5eyk0exbhwp43ya.biz^
 ||da29e6b8-f018-490f-b25f-39a887fc95e7.xyz^
+||dataofpages.com^
 ||datatechonert.com^
 ||demdex.net^
 ||digi-ping.com^
