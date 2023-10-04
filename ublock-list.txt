@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Vxl/syUC2bATixAGIH7g4Q
+! Checksum: qQltsAcHqYEKCZTTr5ljPA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310041422
-! Last Modified: 2023年10月04日 14:22
+! Version: 202310042033
+! Last Modified: 2023年10月04日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -104128,7 +104128,6 @@ www.reddit.com##+js(json-prune, data.*.elements.edges.[].node.outboundLink)
 www.reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 ||redditstatic.com/shreddit/sentry-$domain=reddit.com
 reddit.com##+js(aopw, STICKY_CANARY)
-reddit.com##+js(aost, fetch, Ee/</<)
 reddit.com##reddit-breadcrumbs
 ||www.reddit.com/|$xhr,1p,method=post
 ||colpirio.com^$3p
@@ -106710,6 +106709,7 @@ waitrosecellar.com##+js(set, AnalyticsEventTrackingJS.trackErrorMessage, noopFun
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gospodari.com,redirect=google-ima.js,important
 @@||googletagmanager.com/gtm.js$script,domain=freepik.com
 @@||googletagmanager.com/gtag/js$script,domain=freepik.com
+kicker.de##+js(set, initializeslideshow, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
