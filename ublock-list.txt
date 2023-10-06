@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WawlG1HzUigWwe9k8sVgng
+! Checksum: XEkTrQyciNTVWaAORx9GFA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310061421
-! Last Modified: 2023年10月06日 14:21
+! Version: 202310062033
+! Last Modified: 2023年10月06日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62530,7 +62530,7 @@ electricianforum.co.uk##.gb-sponsored
 givemesport.com##.gms-videos-container
 videogames.si.com##.is-exco-player
 anandtech.com##.jwplayer
-gamesradar.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
+gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
 space.com##.jwplayer__wrapper
 southernliving.com##.karma-sticky-rail
 gearjunkie.com##.ldm_ad
@@ -62542,7 +62542,7 @@ swimswam.com##.polls-461
 kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
 mentalfloss.com##.style_k8mr7b-o_O-style_1ts1q2h
-gamesradar.com,tomshardware.com,whathifi.com##.vid-present
+gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 petapixel.com##.video-aspect-wrapper
 gearjunkie.com##.video-jwplayer
 consequence.net##.video_container
@@ -101982,6 +101982,9 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||cheatname.xyz^$doc
 ||cheats.ink^$doc
 ||gamesoftware.xyz^$doc
+||tautaracheats.fun^$doc
+||elitcorp.space^$doc
+||dload.site^$doc
 ||oceanofgame.net^$doc
 ||tophacks.pro^$doc
 ||lavacheat.com^$doc
@@ -105901,8 +105904,6 @@ coolmathgames.com##+js(set, network_user_id, '')
 !#endif
 ||azadify.com^$3p,badfilter
 @@||googletagmanager.com/gtm.js$script,domain=giftcards.com
-||anrdoezrs.net^$badfilter
-||anrdoezrs.net^$3p
 ||smart-traffik.com^$badfilter
 ||googlevideo.com/videoplayback?$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com
 safeframe.googlesyndication.com##.left-container
@@ -113588,6 +113589,8 @@ kicker.de##+js(set, initializeslideshow, noopFunc)
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||lqxbkqdtvtdhw.xyz^
+||noafoaji.xyz^
 ||bilec.xyz^
 ||vkjsnvk.com^
 ||3337126.com^
@@ -113950,8 +113953,8 @@ kicker.de##+js(set, initializeslideshow, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Sat, 30 Sep 2023 15:25:13 GMT
-# entries:        3720
+# last updated:   Fri, 06 Oct 2023 08:05:20 GMT
+# entries:        3717
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -114858,7 +114861,6 @@ kicker.de##+js(set, initializeslideshow, noopFunc)
 127.0.0.1 affiliate.1800flowers.com
 127.0.0.1 affiliate.dtiserv.com
 127.0.0.1 affiliate.gamestop.com
-127.0.0.1 affiliate.mogs.com
 127.0.0.1 affiliate.rusvpn.com
 127.0.0.1 affiliate.travelnow.com
 127.0.0.1 affiliate.treated.com
@@ -114875,7 +114877,6 @@ kicker.de##+js(set, initializeslideshow, noopFunc)
 127.0.0.1 affiliatetracking.com
 127.0.0.1 affiliatetracking.net
 127.0.0.1 affiliatewindow.com
-127.0.0.1 affiliation-france.com
 127.0.0.1 afftracking.justanswer.com
 127.0.0.1 afraidlanguage.com
 127.0.0.1 agkn.com
@@ -115684,6 +115685,7 @@ kicker.de##+js(set, initializeslideshow, noopFunc)
 127.0.0.1 eusta.de
 127.0.0.1 evadav.com
 127.0.0.1 evadavdsp.pro
+127.0.0.1 eventexistence.com
 127.0.0.1 events-eu.freshsuccess.com
 127.0.0.1 events-us.freshsuccess.com
 127.0.0.1 everestads.net
@@ -116108,6 +116110,7 @@ kicker.de##+js(set, initializeslideshow, noopFunc)
 127.0.0.1 larati.net
 127.0.0.1 largebrass.com
 127.0.0.1 laughablecopper.com
+127.0.0.1 laughcloth.com
 127.0.0.1 launchbit.com
 127.0.0.1 layer-ad.de
 127.0.0.1 layer-ads.de
@@ -116762,7 +116765,6 @@ kicker.de##+js(set, initializeslideshow, noopFunc)
 127.0.0.1 railwayreason.com
 127.0.0.1 rambunctiousflock.com
 127.0.0.1 rampidads.com
-127.0.0.1 rank-master.com
 127.0.0.1 rankchamp.de
 127.0.0.1 ranking-charts.de
 127.0.0.1 ranking-hits.de
@@ -116820,7 +116822,6 @@ kicker.de##+js(set, initializeslideshow, noopFunc)
 127.0.0.1 remox.com
 127.0.0.1 republika.onet.pl
 127.0.0.1 resalag.com
-127.0.0.1 research.de.com
 127.0.0.1 resolutekey.com
 127.0.0.1 resonantbrush.com
 127.0.0.1 resonate.com
@@ -117288,7 +117289,6 @@ kicker.de##+js(set, initializeslideshow, noopFunc)
 127.0.0.1 toecircle.com
 127.0.0.1 toothbrushnote.com
 127.0.0.1 top-casting-termine.de
-127.0.0.1 top-site-list.com
 127.0.0.1 top.list.ru
 127.0.0.1 top.mail.ru
 127.0.0.1 top100-images.rambler.ru
@@ -117308,7 +117308,6 @@ kicker.de##+js(set, initializeslideshow, noopFunc)
 127.0.0.1 topstats.com
 127.0.0.1 totemcash.com
 127.0.0.1 touchclarity.com
-127.0.0.1 touchclarity.natwest.com
 127.0.0.1 tour.brazzers.com
 127.0.0.1 track.adform.net
 127.0.0.1 track.anchorfree.com
@@ -117373,6 +117372,7 @@ kicker.de##+js(set, initializeslideshow, noopFunc)
 127.0.0.1 tracking.shopstyle.com
 127.0.0.1 tracking.theoceanac.online
 127.0.0.1 tracking.thinkabt.com
+127.0.0.1 tracking.utlservice.com
 127.0.0.1 tracking.vagueunlikecowerscreamforbid.hair
 127.0.0.1 tracking.wetter.at
 127.0.0.1 tracking01.walmart.com
