@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UuLMS+v37VwFdti5+A3xUA
+! Checksum: +Lq/5Ys7ZqAenO04m2KDEQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310070910
-! Last Modified: 2023年10月07日 09:10
+! Version: 202310071420
+! Last Modified: 2023年10月07日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -104581,6 +104581,8 @@ natgeotv.com##+js(set, Visitor, {})
 ||fichub.com/plugins/adobe/lib/$xhr,domain=natgeotv.com,important
 ||house.comikey.com/unw.gif?$image,1p
 ||googletagmanager.com/gtag/js$domain=starblast.io,important
+||cdn.cuty.io/fps.js^$domain=tickzoo.tv
+||roshy.tv/wp-content/uploads/perfmatters/gtagv4.js
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -106784,6 +106786,10 @@ waitrosecellar.com##+js(set, AnalyticsEventTrackingJS.trackErrorMessage, noopFun
 kicker.de##+js(set, initializeslideshow, noopFunc)
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=sonyliv.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=sonyliv.com,important
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=theonion.com
+||adsafeprotected.com^$script,redirect-rule=noopjs,domain=theonion.com
+theonion.com##+js(nano-stb, b(), 3000)
+theonion.com##+js(nano-stb, ads, *)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
