@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vWQhZtk5vbaCbZsTubur0Q
+! Checksum: m1dIDFfQd/3Stk0eOQfjZw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310081420
-! Last Modified: 2023年10月08日 14:20
+! Version: 202310082029
+! Last Modified: 2023年10月08日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17999,7 +17999,7 @@ _800x80_
 ##.scroll-fixable.rail-right > .deals-rail
 ##.click-track.partner
 ##[href^="https://freecourseweb.com/"] > .sitefriend
-##.index-module_adBeforeContent__LLBk
+##.index-module_adBeforeContent__UYZT
 ##.interstory_first_mobile
 ##.interstory_second_mobile
 ###gnt_atomsnc
@@ -59023,6 +59023,7 @@ momjunction.com,stylecraze.com##.advertinside
 freeaddresscheck.com,freecallerlookup.com,freecarrierlookup.com,freeemailvalidator.com,freegenderlookup.com,freeiplookup.com,freephonevalidator.com,kpopping.com,zimbabwesituation.com##.advertise
 gpfans.com##.advertise-panel
 cointelegraph.com##.advertise-with-us-link_O9rIX
+salon.com##.advertise_text
 aan.com,aarp.org,additudemag.com,animax-asia.com,apkforpc.com,audioxpress.com,axn-asia.com,bravotv.com,citiblog.co.uk,cnbctv18.com,cnn59.com,controleng.com,downzen.com,dw.com,dwturkce.com,escapeatx.com,foodsforbetterhealth.com,gemtvasia.com,hcn.org,huffingtonpost.co.uk,inqld.com.au,inspiredminds.de,investmentnews.com,jewishworldreview.com,legion.org,lifezette.com,livestly.com,magtheweekly.com,moneyland.ch,offshore-energy.biz,onetvasia.com,oxygen.com,pch.com,prospectmagazine.co.uk,readamericanfootball.com,readarsenal.com,readastonvilla.com,readbasketball.com,readbetting.com,readbournemouth.com,readboxing.com,readbrighton.com,readbundesliga.com,readburnley.com,readcars.co,readceltic.com,readchampionship.com,readchelsea.com,readcricket.com,readcrystalpalace.com,readeverton.com,readeverything.co,readfashion.co,readfilm.co,readfood.co,readfootball.co,readgaming.co,readgolf.com,readhorseracing.com,readhuddersfield.com,readhull.com,readinternationalfootball.com,readlaliga.com,readleicester.com,readliverpoolfc.com,readmancity.com,readmanutd.com,readmiddlesbrough.com,readmma.com,readmotorsport.com,readmusic.co,readnewcastle.com,readnorwich.com,readnottinghamforest.com,readolympics.com,readpl.com,readrangers.com,readrugbyunion.com,readseriea.com,readshowbiz.co,readsouthampton.com,readsport.co,readstoke.com,readsunderland.com,readswansea.com,readtech.co,readtennis.co,readtottenham.com,readtv.co,readussoccer.com,readwatford.com,readwestbrom.com,readwestham.com,readwsl.com,reason.com,redvoicemedia.com,revolver.news,rogerebert.com,smithsonianmag.com,streamingmedia.com,the-scientist.com,thecatholicthing.org,therighthairstyles.com,weatherwatch.co.nz,wheels.ca,woot.com,worldofbitco.in##.advertisement
 business-standard.com##.advertisement-bg
 atlasobscura.com##.advertisement-disclaimer
@@ -59143,6 +59144,7 @@ theinertia.com##.asc-ad
 asianjournal.com##.asian-widget
 pickmypostcode.com##.aside-right.aside
 goal.com##.aside_ad-rail__cawG6
+theadvocate.com##.asset-breakout-ads
 releasestv.com##.ast-above-header-wrap
 animalcrossingworld.com##.at-sidebar-1
 guidingtech.com##.at1
@@ -60030,6 +60032,7 @@ webtoolhub.com##.hdShade > div
 biztechmagazine.com##.hdr-btm
 analyticsinsight.net##.head-banner
 plos.org##.head-top
+hindustantimes.com##.headBanner
 realmadrid.com##.head_sponsors
 additudemag.com,organicfacts.net##.header-ad
 boldsky.com##.header-ad-block
@@ -60631,6 +60634,7 @@ mma-core.com##.outVidAd
 egmnow.com##.outbrain-wrapper
 businesstoday.in##.outer-add-section
 techadvisor.com##.outer-wrapper
+salon.com##.outer_ad_container
 aminoapps.com##.overflow-scroll-sidebar > div
 shtfplan.com##.overlay-container
 golfweather.com##.ox300x250
@@ -77889,6 +77893,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consumer.org.nz/session/ping/
 ||containers.appdomain.cloud/api/send-log$domain=ibm.com
 ||conversion.mooncard.co^
+||coomer.party/api/event
+||coomer.su/api/event
 ||copilot-telemetry.githubusercontent.com^
 ||count.rin.ru^
 ||coursehero.com/v1/data-tracking
@@ -78226,6 +78232,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kbb.com/pixall/
 ||kck.st/web/track
 ||kemono.party/api/event
+||kemono.su/api/event
 ||kinesis.us-east-1.analytics.edmentum.com^
 ||kkam.com/rest/high/api/cogitoergosum^
 ||klm.us/CWZUvc/
@@ -98618,10 +98625,6 @@ pcgamer.com##+js(aopr, _sp_._networkListenerData)
 pcgamer.com##.onesignal-customlink-container
 pcgamer.com##div[style="position: fixed; bottom: 0px; left: 0px; width: 100%; min-height: 90px; background-color: rgba(245, 245, 245, 0.8); z-index: 9995;"]
 pcgamer.com##.listingResult > div.sponsored-post:upward(1)
-@@||puretoons.*^$ghide
-shortz.one##+js(aopr, app_vars.force_disable_adblock)
-file.wapka.org###sam
-file.wapka.org##.btn-fast-download
 gaminggorilla.com##+js(aopr, history.replaceState)
 pagalworld.us##+js(nowoif)
 anidl.org##+js(aopw, _pop)
@@ -98633,15 +98636,6 @@ babytorrent.*,eztv-torrent.net##+js(aopr, decodeURI)
 pops.tv#@##adsContainer
 rojadirectatvhd.*##+js(aeld, , _0x)
 *$script,3p,domain=tanix.net
-forex-trnd.com##+js(acs, document.createElement, themoneytizer)
-forex-trnd.com##+js(aopr, app_vars.force_disable_adblock)
-forex-trnd.com##+js(aopw, _pop)
-forex-trnd.com##+js(nano-sib, timer)
-forex-trnd.com##+js(nowebrtc)
-forex-trnd.com##+js(set, blurred, false)
-forex-trnd.com##.banner-inner
-forex-trnd.com###link-view > [style*="width:300px"]
-*$script,3p,denyallow=google.com|googleapis.com|gstatic.com|recaptcha.net,domain=forex-trnd.com
 tvn.pl##+js(json-prune, movie.advertising.ad_server playlist.movie.advertising.ad_server)
 @@||cdntvn.pl/*/advert.js$xhr,domain=tvn.pl
 @@||hcdn.online^$ghide
@@ -98696,9 +98690,6 @@ kiiw.icu##.banner
 kiiw.icu##.fade
 ||developerity.com^$3p
 @@||kiiw.icu^$ghide
-vshort.link##+js(aopr, app_vars.force_disable_adblock)
-vshort.link##+js(aopr, open)
-vshort.link##+js(set, blurred, false)
 !#if env_firefox
 qub.ca##.jss2
 !#endif
@@ -99249,8 +99240,6 @@ movieplex.*##+js(aopw, _pop)
 @@||flipboard.com/webu/*-contrib-ads*.bundle.js$script,1p
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=flipboard.com
 short-zero.com##+js(nosiif, visibility, 1000)
-jp88.xyz##+js(aopr, app_vars.force_disable_adblock)
-jp88.xyz##+js(set, blurred, false)
 @@/viewad.$css,script,domain=adz7short.space|short.croclix.me|short.goldenfaucet.io
 adz7short.space##+js(aopw, _pop)
 adz7short.space##+js(ra, href, #continue)
@@ -99545,10 +99534,6 @@ kpopsea.com##.g-ads-kpop-wrapper
 kpopsea.com##div[style="border: 1px solid black;animation: blink 1s;animation-iteration-count: infinite;"]
 kpopsea.com##.inner-arrow:has-text(#AD)
 kpopsea.com##span:has-text(/AD$/)
-zipurls.com##+js(aopr, app_vars.force_disable_adblock)
-zipurls.com##+js(aopr, open)
-zipurls.com##+js(set, blurred, false)
-||www-moviesflix.com^$domain=zipurls.com
 electricaltechnology.org###stream-item-widget-7
 electricaltechnology.org###stream-item-widget-2
 ezbit.co.in##+js(aopr, adBlockDetected)
@@ -100073,8 +100058,6 @@ pclicious.net###text-3
 85tube.com##+js(set, flashvars.protect_block, '')
 85tube.com##+js(set, console.clear, noopFunc)
 pastebin.com##div[style]:not([class]):not([id]) > .adsbyvli:first-child:upward(1)
-linkres.in##+js(aopr, app_vars.force_disable_adblock)
-linkres.in##+js(set, blurred, false)
 @@||feyorra.top^$ghide
 feyorra.top##.ads
 feyorra.top##+js(aeld, load, 'block')
@@ -100130,13 +100113,9 @@ semprot.com,93.115.24.210##a[href^="/yum.php"]
 ||img.topddl.net^$image,domain=nanimex.com
 ||nanime.biz^$3p
 nanimex.com##.iklan-tengah
-webo.one##+js(aopr, app_vars.force_disable_adblock)
-webo.one##+js(set, blurred, false)
-automotur.club,link.rota.cc##+js(aopr, adssBlocked)
-automotur.club,link.rota.cc##+js(nowoif)
+automotur.club##+js(aopr, adssBlocked)
+automotur.club##+js(nowoif)
 automotur.club##+js(set, blurred, false)
-link.rota.cc##+js(aopr, app_vars.force_disable_adblock)
-||doubleclick.net/tag/js/gpt.js$xhr,redirect-rule=noop.txt,domain=link.rota.cc
 elahmad.com##+js(nostif, debugger)
 *$image,redirect-rule=1x1.gif,domain=elahmad.com
 *$redirect-rule=noopjs,script,domain=elahmad.com
@@ -100166,12 +100145,6 @@ tamilbrahmins.com##+js(acs, $, test)
 @@||panelist.cint.com/$frame,domain=surveyrewardz.com
 gab.com##div[class] > span[class]:has-text(Sponsored):upward(5)
 gab.com#?#:matches-path(/\/posts/) div[data-comment*="gab-ad"]:has(span[class]:has-text(Sponsored))
-pandarticles.com##+js(aopr, app_vars.force_disable_adblock)
-pandarticles.com##+js(set, blurred, false)
-pandarticles.com##.banner
-pandarticles.com##.blog-item
-pandarticles.com##.box-main > b
-||cdn.wallpaperhub.app/$image,domain=pandarticles.com
 quizlet.com##.StickyAdz
 quizlet.com##+js(rc, has-sidebar-adz|DashboardPage-inner, div[class^="DashboardPage-inner"], stay)
 quizlet.com##+js(rc, hasStickyAd, div.hasStickyAd[class^="SetPage"], stay)
@@ -100184,9 +100157,7 @@ oneotv.com##+js(acs, document.addEventListener, google_ad_client)
 *$script,redirect-rule=noopjs,domain=rbxscripts.xyz
 @@/wp-content/plugins/dh-anti-adblocker/*$script,1p
 goldenmanga.top##+js(nosiif, visibility, 1000)
-linkfly.io##+js(aopr, app_vars.force_disable_adblock)
 linkfly.*##+js(set, blurred, false)
-linkfly.io##.short
 keeplinks.*##+js(aopw, _pop)
 @@||dinamalar.com^$ghide
 dinamalar.com###taboola-below-article-thumbnails
@@ -100212,15 +100183,6 @@ beingtek.com##+js(aopr, app_vars.force_disable_adblock)
 beingtek.com##+js(set, blurred, false)
 *$script,3p,denyallow=gstatic.com|recaptcha.net,domain=beingtek.com
 pcbeta.com##+js(aost, document.createElement, make_rand_div)
-katflys.com##+js(aopr, app_vars.force_disable_adblock)
-katflys.com##+js(acs, document.addEventListener, nextFunction)
-katflys.com##+js(nowoif)
-katflys.com##+js(set, blurred, false)
-katflys.com##+js(noeval)
-katflys.com##+js(aeld, DOMContentLoaded, iframe_id)
-||bitfly.io^$script,domain=katflys.com
-katflys.com###overlay
-katflys.com##.ads
 sqlserveregitimleri.com##+js(aeld, DOMContentLoaded, adsBlocked)
 sqlserveregitimleri.com##.ai_widget
 *$3p,script,denyallow=cloudflare.com|cloudflare.net|hwcdn.net|jquery.com|fontawesome.com,domain=dekhobd.com
@@ -100266,7 +100228,6 @@ wcofun.*##+js(nostif, AdBlock)
 wcofun.*##+js(set, isAdBlockActive, false)
 wcofun.*##.anti-ad
 wcofun.*##.reklam_kapat
-pnds.live##+js(aopr, app_vars.force_disable_adblock)
 maxpixel.net##+js(nostif, ads_block)
 q1003.com##+js(nostif, google_ad)
 ||adbox.lv^$script,redirect-rule=noop.js,domain=mail.ee
@@ -100321,14 +100282,6 @@ disheye.com##+js(no-fetch-if, googlesyndication)
 disheye.com##+js(nano-sib, count, *)
 disheye.com,techymedies.com,techysuccess.com##+js(set, blurred, false)
 blogpascher.com##+js(nostif, document.location)
-toptap.website##+js(aopr, app_vars.force_disable_adblock)
-toptap.website##+js(set, blurred, false)
-toptap.website##+js(set, timedisplay, 0)
-za.uy##^script:has-text(tabunder)
-za.uy##+js(acs, $, tabunder)
-za.uy##+js(nowoif)
-za.uy###go-popup:remove()
-za.uy##[id*="-banner-"][class*="-banner"]
 za.gl##+js(set, blurred, false)
 readytechflip.com##+js(aeld, DOMContentLoaded, adsBlocked)
 readytechflip.com##.widget_custom_html
@@ -100343,7 +100296,8 @@ notformembersonly.com###post-separate > p > .local-link
 unsplash.com##div[style^="--row-gutter"] > div a[href="/brands"]:upward(div[style^="--row-gutter"] > div)
 unsplash.com##div[data-test="SearchInFeedAd-AffiliateFallback-Container"]
 unsplash.com##div[data-affiliates-grid-container]:upward(1)
-@@||wa.cdn-surfline.com/quiver/0.18.5/scripts/ad/$script,domain=surfline.com
+surfline.com##+js(nano-stb, adFreePopup, 15000, 0.02)
+surfline.com##+js(set, Object.prototype.isPremium, true)
 @@||samuraiscan.com^$ghide
 samuraiscan.com##+js(acs, eval, replace)
 milanworld.net##+js(acs, $, test)
@@ -100354,8 +100308,6 @@ funker530.com##+js(rc, cnx-ad-container|cnx-ad-bid-slot)
 ||funker530-ads.azurewebsites.net^
 reset-scans.com##+js(rmnt, script, /replace|adsbygoogle/)
 uyduportal.net##+js(acs, document.addEventListener, nextFunction)
-newsalret.com##+js(aopr, app_vars.force_disable_adblock)
-newsalret.com##+js(set, blurred, false)
 businessinsider.fr##[id^="bin-ads"]
 ahentai.top##+js(acs, document.querySelectorAll, popMagic)
 ahentai.top##div[id^="read_online_ads"]
@@ -100447,8 +100399,8 @@ bowfile.com##+js(acs, JSON, break;case)
 bowfile.com##^script:has-text(FingerprintJS)
 *$xhr,redirect-rule=nooptext,domain=bowfile.com
 javfor.tv##+js(acs, addEventListener, -0x)
-abre.click,adlinkweb.com,linkbr.xyz##+js(aopr, app_vars.force_disable_adblock)
-abre.click,linkbr.xyz,myad.biz##+js(set, blurred, false)
+adlinkweb.com,linkbr.xyz##+js(aopr, app_vars.force_disable_adblock)
+linkbr.xyz,myad.biz##+js(set, blurred, false)
 linkbr.xyz##+js(acs, document.querySelectorAll, popMagic)
 adlinkweb.com,vklinks.com##.banner-inner
 ||i.ibb.co^$image,domain=adlinkweb.com
@@ -100461,11 +100413,6 @@ girls-like.me##div[style$="width:728px;height:90px;"]
 try2link.com##+js(aopr, app_vars.force_disable_adblock)
 try2link.com##+js(set, blurred, false)
 try2link.com##+js(aopr, popUp)
-forex-gold.net##+js(nano-sib, timeleft)
-world-trips.net##+js(nano-sib, timer)
-forex-gold.net,mobi2c.com,newforex.online,world-trips.net###devozon-snp ~ *:not(div)
-forex-gold.net,mobi2c.com,newforex.online,world-trips.net###devozon-snp:style(display: block !important;)
-forex-gold.net,mobi2c.com,newforex.online,world-trips.net##[id^="devozon-wait"]
 streamingsites.com##.OUTBRAIN:upward(2)
 schoolcheats.net##+js(nosiif, Adblocker)
 schoolcheats.net##+js(nostif, googletag)
@@ -101102,25 +101049,18 @@ ubuntudde.com##+js(aopw, b2a)
 @@||elwood.io^$ehide
 pigeonburger.xyz##+js(no-xhr-if, googlesyndication)
 dl.apkmb.com##.btnDownload:has-text(SHARE)
-go.fire-link.net,yofaurls.com##+js(aopr, app_vars.force_disable_adblock)
-go.fire-link.net##+js(ra, onclick, [onclick^="window.open"])
-yofaurls.com##+js(nowoif)
-go.fire-link.net##.banner-inner
 coin-free.com##+js(aopw, _pop)
 dash-free.com##+js(set, go_popup, {})
 dash-free.com##+js(set, blurred, false)
-dash-free.com,softairbay.com,urlfiles.com##+js(aopr, app_vars.force_disable_adblock)
+dash-free.com##+js(aopr, app_vars.force_disable_adblock)
 autofaucet.dutchycorp.space##[href^="https://enicyvys.xyz/"]
 autofaucet.dutchycorp.space##[href*="banner"]
 autofaucet.dutchycorp.space##[src^="blob:https://autofaucet.dutchycorp.space/"]:remove()
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=coin-free.com|kienthucrangmieng.com|techmart4u.in|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tremamnon.com|tai-mui-hong.com|95news.com|vnpttelle.com|dhlgame.com|hynews.biz|fanclup.info
-*$script,3p,domain=coin-free.com|kienthucrangmieng.com|techmart4u.in|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tai-mui-hong.com|95news.com|vnpttelle.com|dhlgame.com|hynews.biz|fanclup.info,denyallow=iconify.design|cloudflare.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=coin-free.com|kienthucrangmieng.com|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tremamnon.com|tai-mui-hong.com|95news.com|vnpttelle.com|dhlgame.com|hynews.biz|fanclup.info
+*$script,3p,domain=coin-free.com|kienthucrangmieng.com|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tai-mui-hong.com|95news.com|vnpttelle.com|dhlgame.com|hynews.biz|fanclup.info,denyallow=iconify.design|cloudflare.com
 coin-free.com,kienthucrangmieng.com,thuocdangian.net,fanclup.info##[id^="wpsafe-wait"]
 coin-free.com,kienthucrangmieng.com,thuocdangian.net,fanclup.info###wpsafe-generate, #wpsafe-link:style(display: block !important)
-*$script,redirect-rule=noopjs,domain=coin-free.com|kienthucrangmieng.com|techmart4u.in|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tai-mui-hong.com|95news.com|vnpttelle.com|dhlgame.com|hynews.biz|fanclup.info
-techmart4u.in##+js(nano-sib)
-techmart4u.in##+js(noeval)
-techmart4u.in,urlfiles.com##+js(nosiif, visibility, 1000)
+*$script,redirect-rule=noopjs,domain=coin-free.com|kienthucrangmieng.com|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tai-mui-hong.com|95news.com|vnpttelle.com|dhlgame.com|hynews.biz|fanclup.info
 rainurl.com,snowurl.com##+js(nowoif)
 rainurl.com,snowurl.com##+js(set, blurred, false)
 rainurl.com,snowurl.com##+js(set, go_popup, {})
