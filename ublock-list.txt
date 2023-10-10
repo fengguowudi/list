@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gi0Nw5VPP+CdB0/FlW7J/w
+! Checksum: AICS56IHb7ykjK7Hope4UQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310101422
-! Last Modified: 2023年10月10日 14:22
+! Version: 202310102032
+! Last Modified: 2023年10月10日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -34321,6 +34321,7 @@ browsershots.org#@#.advert_area
 ||lognegee.com^
 ||logystowtencon.info^
 ||loinpriestinfected.com^
+||loketsaucy.com^
 ||lokinatoer5.com^
 ||loktrk.com^
 ||lolco.net^
@@ -39600,6 +39601,7 @@ browsershots.org#@#.advert_area
 ||psoageph.com^
 ||psoalreh.com^
 ||psognaih.xyz^
+||psojeeng.com^
 ||psoogaix.net^
 ||psoolikoagy.com^
 ||psoompou.xyz^
@@ -42044,6 +42046,7 @@ browsershots.org#@#.advert_area
 ||selfpua.com^
 ||selfpuc.com^
 ||selfreliantboot.pro^
+||selfswayjay.com^
 ||sellbleatregistry.com^
 ||sellingtandays.com^
 ||sellisteatin.com^
@@ -48474,6 +48477,7 @@ browsershots.org#@#.advert_area
 ||zedsapp.com^
 ||zedswrathed.website^
 ||zedxknzlwyofh.com^
+||zeebaith.xyz^
 ||zeeca4u.com^
 ||zeechumy.com^
 ||zeecoomi.net^
@@ -100630,7 +100634,8 @@ coursesghar.com##+js(acs, eval, replace)
 coursesghar.com###custom_html-6
 joyhints.com##+js(aeld, DOMContentLoaded, disableDeveloperTools)
 joyhints.com###blocksy_ct_advertisement-2
-mydramalist.com##.mdl-gpt-tag:upward(div[class])
+mydramalist.com##.ad-removal-info:upward([style])
+mydramalist.com##.is-desktop-ads
 gogoplay1.com##+js(aeld, click, 0x)
 stardeos.com##+js(no-xhr-if, url:googlesyndication)
 stooq.*##div[style="position:relative;width:970px;height:250px"]
@@ -106824,7 +106829,6 @@ theonion.com##+js(nano-stb, b(), 3000)
 theonion.com##+js(nano-stb, ads, *)
 instapundit.com#@#.postad
 instapundit.com#@#.ad-space:not(.textads)
-salutbonjour.ca#@#+js(set, initDetectAdBlock, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -114007,8 +114011,8 @@ salutbonjour.ca#@#+js(set, initDetectAdBlock, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Sat, 07 Oct 2023 10:07:38 GMT
-# entries:        3718
+# last updated:   Tue, 10 Oct 2023 09:27:54 GMT
+# entries:        3719
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -116941,6 +116945,7 @@ salutbonjour.ca#@#+js(set, initDetectAdBlock, noopFunc)
 127.0.0.1 ruralrobin.com
 127.0.0.1 ruthlessrobin.com
 127.0.0.1 s.adroll.com
+127.0.0.1 s.dmmew.com
 127.0.0.1 s1-adfly.com
 127.0.0.1 s20dh7e9dh.com
 127.0.0.1 s2d6.com
