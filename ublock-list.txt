@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AT0O9V5mg99f29W2XN4Sww
+! Checksum: XU7E9DGK2T5oPUluxoRIdw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310110911
-! Last Modified: 2023年10月11日 09:11
+! Version: 202310111422
+! Last Modified: 2023年10月11日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -72006,6 +72006,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||defectivesun.com^
 ||defiantrice.com^
 ||delegatediscussion.com^
+||delicatecascade.com^
 ||delicateducks.com^
 ||delightfulhour.com^
 ||desertedbreath.com^
@@ -73134,6 +73135,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||whiskyqueue.com^
 ||whisperingbadge.com^
 ||whisperingcrib.com^
+||whisperingsummit.com^
 ||whispermeeting.com^
 ||wigglygeese.com^
 ||wigglyindustry.com^
@@ -104209,6 +104211,17 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||reink2.top^
 ||86pmafno21mst.com^$all
 ||akyr3h9x5mb.com^$all
+/\.br\/(?:[a-z]{4,8}\/){1,2}\?(?:app|patt|videos?)=\S+\.shtml$/$doc,match-case,domain=gov.br
+/\.br/[a-z]{2,4}/[0-9a-z]{5}\.html$/$doc,match-case,domain=www.paranhos.ms.gov.br
+||7r51g.bugre.mg.gov.br/qfb74.html$doc
+||camarauchoa.sp.gov.br/video/10*.html$doc
+||central156.osasco.sp.gov.br/video/video_$doc
+||crasp.gov.br/poker*.html$doc
+||cruzeiro.rs.gov.br/uploads/tinymce/files/files/Nova/video_$doc
+||diamantedonorte.pr.gov.br/slot/addressrjz-xtipv9qew.html$doc
+||paranhos.ms.gov.br/ios/waykls/$doc
+||ssp.sp.gov.br/ead/cache/video/video_$doc
+||tempeorek.org^
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -106835,6 +106848,7 @@ theonion.com##+js(nano-stb, b(), 3000)
 theonion.com##+js(nano-stb, ads, *)
 instapundit.com#@#.postad
 instapundit.com#@#.ad-space:not(.textads)
+@@||adobedtm.com^*/satelliteLib-$script,domain=costco.*
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
