@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XU7E9DGK2T5oPUluxoRIdw
+! Checksum: zOyLSgjB452gYwBqsILgUg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310111422
-! Last Modified: 2023年10月11日 14:22
+! Version: 202310112032
+! Last Modified: 2023年10月11日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -104211,6 +104211,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||reink2.top^
 ||86pmafno21mst.com^$all
 ||akyr3h9x5mb.com^$all
+||tiger.qnews.media^$3p
+||imbolexabc.top^$all
+||s8bet.com^$doc
 /\.br\/(?:[a-z]{4,8}\/){1,2}\?(?:app|patt|videos?)=\S+\.shtml$/$doc,match-case,domain=gov.br
 /\.br/[a-z]{2,4}/[0-9a-z]{5}\.html$/$doc,match-case,domain=www.paranhos.ms.gov.br
 ||7r51g.bugre.mg.gov.br/qfb74.html$doc
@@ -114031,8 +114034,8 @@ instapundit.com#@#.ad-space:not(.textads)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 10 Oct 2023 22:29:45 GMT
-# entries:        3720
+# last updated:   Wed, 11 Oct 2023 08:14:14 GMT
+# entries:        3722
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -115613,6 +115616,7 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 decoycreation.com
 127.0.0.1 deepintent.com
 127.0.0.1 delegatediscussion.com
+127.0.0.1 delicatecascade.com
 127.0.0.1 deloo.de
 127.0.0.1 deloplen.com
 127.0.0.1 deloton.com
@@ -117663,6 +117667,7 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 whiskyqueue.com
 127.0.0.1 whispa.com
 127.0.0.1 whisperingcrib.com
+127.0.0.1 whisperingsummit.com
 127.0.0.1 whoisonline.net
 127.0.0.1 wickedreports.com
 127.0.0.1 widespace.com
