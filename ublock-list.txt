@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zOyLSgjB452gYwBqsILgUg
+! Checksum: 05I9S+2o29fFP2R+PvZbSg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310112032
-! Last Modified: 2023年10月11日 20:32
+! Version: 202310120222
+! Last Modified: 2023年10月12日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -9341,6 +9341,7 @@ _800x80_
 ##.ad_break_container
 ##.ad_btf
 ##.ad_btn
+##.ad_btn-white
 ##.ad_btn1
 ##.ad_btn2
 ##.ad_by
@@ -9677,6 +9678,7 @@ _800x80_
 ##.ad_w_us_a300
 ##.ad_warn
 ##.ad_warning
+##.ad_watch_now
 ##.ad_watermark
 ##.ad_wid300
 ##.ad_wide
@@ -17638,6 +17640,7 @@ _800x80_
 ##[onclick^="location.href='http://www.reimageplus.com"]
 ##a-ad
 ##a[href*=".engine.adglare.net/"]
+##a[href*=".g2afse.com/"]
 ##a[href*="//lkstrck2.com/"]
 ##a[href^="//a.bestcontentfare.top/"]
 ##a[href^="//ardslediana.com/"]
@@ -17833,6 +17836,7 @@ _800x80_
 ##a[href^="https://refpazkjixes.top/"]
 ##a[href^="https://reinstandpointdumbest.com/"]
 ##a[href^="https://s.optzsrv.com/"]
+##a[href^="https://s.zlinkb.com/"]
 ##a[href^="https://s.zlinkc.com/"]
 ##a[href^="https://sTARtgamIng.net/tienda/"]
 ##a[href^="https://sTaRTgamInG.net/tienda/"]
@@ -19566,6 +19570,9 @@ browsershots.org#@#.advert_area
 ||a5e04df959f1af34.com^
 ||a5ff528ff9.com^
 ||a5g.oves.biz^
+||a5game.win^
+||a5jogo.biz^
+||a5jogo.club^
 ||a6436650df.com^
 ||a64x.com^
 ||a67z.com^
@@ -28250,6 +28257,7 @@ browsershots.org#@#.advert_area
 ||evencontinuallyclaim.com^
 ||eveningproclamationarched.com^
 ||eveningsfleawhatsoever.com^
+||eventbr.xyz^
 ||eventhenherthis.info^
 ||eventhenherthisi.com^
 ||eventrhina.com^
@@ -30351,6 +30359,7 @@ browsershots.org#@#.advert_area
 ||goodweet.xyz^
 ||goodyflicks.digital^
 ||googleapi.club^
+||googleseo.life^
 ||googletagservices.com^
 ||goohimom.net^
 ||goomaphy.com^
@@ -30525,6 +30534,7 @@ browsershots.org#@#.advert_area
 ||greenplasticdua.com^
 ||greeter.me^
 ||greetpanda.org^
+||greewaih.xyz^
 ||greewepi.net^
 ||greezoob.net^
 ||grefutiwhe.com^
@@ -30973,6 +30983,7 @@ browsershots.org#@#.advert_area
 ||hdbkell.com^
 ||hdbkome.com^
 ||hditers.com^
+||hdjfeed.top^
 ||hdpreview.com^
 ||hdsqvypdt.com^
 ||hdvcode.com^
@@ -31909,6 +31920,7 @@ browsershots.org#@#.advert_area
 ||imbalmenvy.website^
 ||imbalmscashews.com^
 ||imblic.com^
+||imbolexabc.top^
 ||imemediatesuper.info^
 ||imgfeedget.com^
 ||imghst-de.com^
@@ -35817,6 +35829,7 @@ browsershots.org#@#.advert_area
 ||muhobbab.com^
 ||muirpekvl.com^
 ||mujilora.com^
+||mukhtarproving.com^
 ||mulesto.com^
 ||muletatyphic.com^
 ||mulserebush.digital^
@@ -39701,6 +39714,7 @@ browsershots.org#@#.advert_area
 ||ptp24.com^
 ||ptpfict.space^
 ||pttsite.com^
+||ptufihie.net^
 ||ptuglupyli.com^
 ||ptugneez.net^
 ||ptugnins.net^
@@ -44205,6 +44219,7 @@ browsershots.org#@#.advert_area
 ||tembetachasmic.guru^
 ||tembetanymil.com^
 ||tempbugs.com^
+||tempeorek.org^
 ||temperacaimans.com^
 ||tempergleefulvariability.com^
 ||temperrunnersdale.com^
@@ -48595,6 +48610,7 @@ browsershots.org#@#.advert_area
 ||zljwhbuagdvl.com^
 ||zlx.com.br^
 ||zm232.com^
+||zmdesf.cn^
 ||zmenmuol.com^
 ||zmivcara.com^
 ||zmjagawa.com^
@@ -54735,6 +54751,7 @@ browsershots.org#@#.advert_area
 ||affiliate.juno.co.uk^
 ||affiliate.mediatemple.net^
 ||affiliatepluginintegration.cj.com^
+||affiliates.fantasticbet.com^$popup
 ||ah.pricegrabber.com^
 ||akamaized.net/mr/popunder.js
 ||alarmsportsnetwork.com^$third-party
@@ -54782,6 +54799,7 @@ browsershots.org#@#.advert_area
 ||bluehost.com/web-hosting/domaincheckapi/?affiliate=
 ||bluepromocode.com/images/widgets/
 ||bookingdragon.com^$subdocument,third-party
+||br.coe777.com^
 ||btcnews.one/adsbanner_
 ||btguard.com/images/
 ||btr.domywife.com^
@@ -56591,6 +56609,7 @@ browsershots.org#@#.advert_area
 ||js.mangajp.top^
 ||kaas.am/hhapia/
 ||kendrickcoleman.com/images/banners/
+||kentent.streampiay.fun^
 ||kissanime.com.ru/api/pop*.php
 ||kissanimes.net/30$subdocument
 ||kissasians.org/banners/
@@ -57122,6 +57141,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||ientent.streampiay.fun^$popup
 ||jentent.streampiay.fun^$popup
 ||jpg.church/*.php?cat$popup
+||kentent.streampiay.fun^$popup
 ||kissanimeonline.com/driectlink$popup
 ||link.advancedsystemrepairpro.com^$popup
 ||listentoyt.com/button/$popup
@@ -57662,7 +57682,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 /^https?:\/\/.*\/[a-z]{4,}\/[a-z]{4,}\.js/$script,~third-party,domain=bdsmx.tube|bigdick.tube|desiporn.tube|hclips.com|hdzog.com|hdzog.tube|hotmovs.com|inporn.com|porn555.com|pornzog.com|shemalez.com|tubepornclassic.com|txxx.com|upornia.com|vjav.com|vxxx.com|youteenporn.net
 /^https?:\/\/.*\.(club|news|live|online|store|tech|guru|cloud|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|photos|re|casa|top|today|space|network|live|work|systems|ml|world|life)\/.*/$domain=1vag.com|4tube.com|asianpornmovies.com|getsex.xxx|glam0ur.com|hclips.com|hdzog.com|homemadevids.org|hotmovs.com|milfzr.com|porn555.com|pornforrelax.com|pornj.com|pornl.com|puporn.com|see.xxx|shemalez.com|sss.xxx|streanplay.cc|thegay.com|thegay.porn|tits-guru.com|tubepornclassic.com|tuberel.com|txxx.com|txxx.tube|upornia.com|vjav.com|voyeurhit.com|xozilla.com
 /^https?:\/\/.*\/.*sw[0-9._].*/$script,xmlhttprequest,domain=1vag.com|4tube.com|adult-channels.com|analdin.com|biguz.net|bogrodius.com|chikiporn.com|fantasti.cc|fuqer.com|fux.com|hclips.com|heavy-r.com|hog.tv|megapornx.com|milfzr.com|mypornhere.com|porn555.com|pornchimp.com|pornerbros.com|pornj.com|pornl.com|pornototale.com|porntube.com|sexu.com|sss.xxx|thisav.com|titkino.net|tubepornclassic.com|tuberel.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|xozilla.com|youporn.lc|youpornhub.it|yourdailypornstars.com
-/^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$script,subdocument,domain=4kporn.xxx|4tube.com|alotporn.com|alphaporno.com|alrincon.com|amateur8.com|anyporn.com|badjojo.com|bdsmstreak.com|bestfreetube.xxx|bigtitslust.com|bravotube.net|cockmeter.com|crazyporn.xxx|daftporn.com|ebony8.com|erome.com|exoav.com|fantasti.cc|fapality.com|fapnado.com|fetishshrine.com|freeporn8.com|gfsvideos.com|gotporn.com|hdporn24.org|hdpornmax.com|hdtube.porn|hellporno.com|hottorrent.org|hqsextube.xxx|hqtube.xxx|iceporn.com|imgderviches.work|imx.to|its.porn|katestube.com|lesbian8.com|love4porn.com|lustypuppy.com|manhwa18.cc|maturetubehere.com|megatube.xxx|milffox.com|momxxxfun.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornid.xxx|pornotrack.net|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|redhdtube.xxx|rule34.art|sexvid.porn|sexvid.pro|sexvid.xxx|sexytorrents.info|shameless.com|sleazyneasy.com|sortporn.com|stepmom.one|stileproject.com|str8ongay.com|tnaflix.com|urgayporn.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xhqxmovies.com|xxx-torrent.net|xxxdessert.com|xxxextreme.org|xxxonxxx.com|yourlust.com|youx.xxx|zbporn.com|zbporn.tv
+/^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$script,subdocument,domain=3movs.com|4kporn.xxx|4tube.com|alotporn.com|alphaporno.com|alrincon.com|amateur8.com|anyporn.com|badjojo.com|bdsmstreak.com|bestfreetube.xxx|bigtitslust.com|bravotube.net|cockmeter.com|crazyporn.xxx|daftporn.com|ebony8.com|erome.com|exoav.com|fantasti.cc|fapality.com|fapnado.com|fetishshrine.com|freeporn8.com|gfsvideos.com|gotporn.com|hdporn24.org|hdpornmax.com|hdtube.porn|hellporno.com|hottorrent.org|hqsextube.xxx|hqtube.xxx|iceporn.com|imgderviches.work|imx.to|its.porn|katestube.com|lesbian8.com|love4porn.com|lustypuppy.com|manga18fx.com|manhwa18.cc|maturetubehere.com|megatube.xxx|milffox.com|momxxxfun.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornid.xxx|pornotrack.net|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|redhdtube.xxx|rule34.art|rule34pornvids.com|runporn.com|sexvid.porn|sexvid.pro|sexvid.xxx|sexytorrents.info|shameless.com|sleazyneasy.com|sortporn.com|stepmom.one|stileproject.com|str8ongay.com|tnaflix.com|urgayporn.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xhqxmovies.com|xxx-torrent.net|xxxdessert.com|xxxextreme.org|xxxonxxx.com|yourlust.com|youx.xxx|zbporn.com|zbporn.tv
 /^https?:\/\/.*\.eporner\.com\/[0-9a-f]{10,}\/$/$script,domain=eporner.com
 @@||thegay.com/assets//jwplayer-*/jwplayer.core.controls.html5.js|$domain=thegay.com
 @@||thegay.com/assets//jwplayer-*/jwplayer.core.controls.js|$domain=thegay.com
@@ -64402,6 +64422,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||zeebiz.com/ads/$image,~third-party
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
 @@||challenges.cloudflare.com/turnstile/$script
+@@||gmail.com^$generichide
 @@||google.com/recaptcha/$csp,subdocument
 @@||google.com/recaptcha/api.js
 @@||google.com/recaptcha/enterprise.js
@@ -78374,6 +78395,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.v.ssp.yahoo.com^
 ||log.webnovel.com^
 ||logger.nerdwallet.com^
+||logger007.cam4.com^
 ||logging.api.intuit.com^
 ||loglady.kiwi.com^
 ||logs.hotstar.com^
@@ -97577,6 +97599,7 @@ arketing.indianadunes.com^
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
 @@||s.btstatic.com/tag.js$domain=sephora.com
 @@||s.thebrighttag.com/tag?site=$domain=sephora.com
+@@||sc.youmaker.com/site/article/count?
 @@||scorecardresearch.com^*/streamingtag_plugin_jwplayer.js
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
@@ -103914,6 +103937,21 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||htjrs-fgds.com^$doc
 ||recklessdroughtburglar.com^$doc
 ||the-match.jp^$doc
+||ambition-1122.com^$doc
+||decision-1122.com^$doc
+||grateful-1122.com^$doc
+||intimate-1122.com^$doc
+||superior-1122.com^$doc
+||arms-1122.com^$doc
+||dawn-1122.com^$doc
+||gain-1122.com^$doc
+||live-1122.com^$doc
+||soar-1122.com^$doc
+||axis073236.com^$doc
+||gekkei-jyu-gekkei-jyu.com^$doc
+||gekkeijyu-gekkeijyu.com^$doc
+||lemonadebb.net^$doc
+||naruf4253090.com^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
@@ -104223,8 +104261,17 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||cruzeiro.rs.gov.br/uploads/tinymce/files/files/Nova/video_$doc
 ||diamantedonorte.pr.gov.br/slot/addressrjz-xtipv9qew.html$doc
 ||paranhos.ms.gov.br/ios/waykls/$doc
-||ssp.sp.gov.br/ead/cache/video/video_$doc
-||tempeorek.org^
+||ssp.sp.gov.br/ead/*/video/video_$doc
+cmpa.mg.gov.br##+js(noeval-if, p=p.replace)
+cambe.pr.gov.br,paranhos.ms.gov.br##^script[language][type]:has-text(window.location.href)
+7r51g.bugre.mg.gov.br,c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
+||azure.z97z.com/go.html$doc
+||br.zmdesf.cn/br.js
+||js.eventbr.xyz/vip/crazy.js
+||sites.uft.edu.br/topama/news.php$doc
+||cutterbijes.com^$all
+||dhotelzao.com^$all
+||tamilislamgate.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -114034,8 +114081,8 @@ instapundit.com#@#.ad-space:not(.textads)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 11 Oct 2023 08:14:14 GMT
-# entries:        3722
+# last updated:   Wed, 11 Oct 2023 16:08:49 GMT
+# entries:        3724
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -115537,6 +115584,7 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 counting.kmindex.ru
 127.0.0.1 coupling-media.de
 127.0.0.1 coxmt.com
+127.0.0.1 cozyhillside.com
 127.0.0.1 cpalead.com
 127.0.0.1 cpays.com
 127.0.0.1 cpmstar.com
@@ -117666,6 +117714,7 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 whirlwealth.com
 127.0.0.1 whiskyqueue.com
 127.0.0.1 whispa.com
+127.0.0.1 whisperingcascade.com
 127.0.0.1 whisperingcrib.com
 127.0.0.1 whisperingsummit.com
 127.0.0.1 whoisonline.net
