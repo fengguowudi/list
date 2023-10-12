@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HhKqhBnoRqsuVO2VNasS9Q
+! Checksum: oCaHhGVrN8iwXcUciH4N7w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310120909
-! Last Modified: 2023年10月12日 09:09
+! Version: 202310121422
+! Last Modified: 2023年10月12日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -99074,7 +99074,6 @@ buffstreams.*##+js(nowoif)
 buffstreams.*##+js(aopw, _pop)
 buffstreams.*##+js(acs, setTimeout, admc)
 buffstreams.*##+js(acs, navigator, FingerprintJS)
-*$script,3p,denyallow=nolive.me,domain=buffstreams.*
 buffstreams.*##.position-absolute
 buffstreams.*##.m-1.fw-bold.btn-danger.btn
 nsfwyoutube.com##pp
@@ -106902,6 +106901,7 @@ theonion.com##+js(nano-stb, ads, *)
 instapundit.com#@#.postad
 instapundit.com#@#.ad-space:not(.textads)
 @@||adobedtm.com^*/satelliteLib-$script,domain=costco.*
+@@||googletagmanager.com/gtm.js$script,domain=aarhustech.dk
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
