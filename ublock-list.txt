@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oCaHhGVrN8iwXcUciH4N7w
+! Checksum: wqTxQ1Cdf5LF69RSiRpRcA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310121422
-! Last Modified: 2023年10月12日 14:22
+! Version: 202310122033
+! Last Modified: 2023年10月12日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62317,6 +62317,7 @@ sfchronicle.com##div[class^="ad-module-"]
 fodors.com##div[class^="ad-placeholder"]
 cointelegraph.com##div[class^="ad-slot_"]
 reuters.com##div[class^="ad-slot__"]
+gamingdeputy.com##div[class^="ad-wrapper-"]
 kijiji.ca##div[class^="adChoices-"]
 goodrx.com##div[class^="adContainer"]
 statsroyale.com##div[class^="adUnit_"]
@@ -62345,6 +62346,7 @@ kijiji.ca##div[class^="sponsored-"]
 target.com##div[class^="styles__PubAd"]
 semafor.com##div[class^="styles_ad"]
 unmineablesbest.com##div[class^="uk-visible@"]
+gamingdeputy.com##div[class^="vb-"]
 whatsondisneyplus.com##div[class^="whats-"]
 unsplash.com##div[data-ad="true"]
 999thehawk.com##div[data-alias="Sweetjack"]
@@ -64285,6 +64287,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||global-uploads.webflow.com/*_dimensions-$image,domain=dimensions.com
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
 @@||go.ezodn.com/tardisrocinante/lazy_load.js?$script,domain=raiderramble.com
+@@||go.xlirdr.com/api/models/vast$xmlhttprequest
 @@||gocomics.com/assets/ad-dependencies-$script,~third-party
 @@||google.com/images/integrations/$image,~third-party
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=zubizu.com
@@ -71966,6 +71969,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||courageousbaby.com^
 ||coverapparatus.com^
 ||cowscrayon.com^
+||cozyhillside.com^
 ||crabbychin.com^
 ||crafthenry.com^
 ||crashchance.com^
@@ -106902,6 +106906,8 @@ instapundit.com#@#.postad
 instapundit.com#@#.ad-space:not(.textads)
 @@||adobedtm.com^*/satelliteLib-$script,domain=costco.*
 @@||googletagmanager.com/gtm.js$script,domain=aarhustech.dk
+@@||go.xlirdr.com/api/models/vast$xhr
+||go.xlirdr.com^$xhr,removeparam
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -114084,8 +114090,8 @@ instapundit.com#@#.ad-space:not(.textads)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 11 Oct 2023 16:08:49 GMT
-# entries:        3724
+# last updated:   Thu, 12 Oct 2023 08:55:19 GMT
+# entries:        3726
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -114297,6 +114303,7 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 adcenter.net
 127.0.0.1 adclick.com
 127.0.0.1 adclient1.tucows.com
+127.0.0.1 adclixx.net
 127.0.0.1 adcolony.com
 127.0.0.1 adcomplete.com
 127.0.0.1 adconion.com
@@ -114397,6 +114404,7 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 adnet.biz
 127.0.0.1 adnet.de
 127.0.0.1 adnet.ru
+127.0.0.1 adnetasia.com
 127.0.0.1 adnetwork.net
 127.0.0.1 adnetworkperformance.com
 127.0.0.1 adnews.maddog2000.de
