@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3nPouMn46E5UzpiYuPbnsA
+! Checksum: 9EP3z1dVqNDqDFbUaID9Xw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310130913
-! Last Modified: 2023年10月13日 09:13
+! Version: 202310131422
+! Last Modified: 2023年10月13日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -104607,7 +104607,8 @@ paypal.com##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?fallb
 elotrolado.net##+js(href-sanitizer, a[href^="https://go.redirectingat.com?url=http"], ?url)
 tube188.com##+js(href-sanitizer, a[href^="/check.php?"][href*="&url=http"], ?url)
 tomshardware.com##+js(href-sanitizer, a[href^="https://click.linksynergy.com/deeplink?id="][href*="&murl=http"], ?murl)
-disqus.com##+js(href-sanitizer, a[href^="https://disq.us/url?url="][title^="http"], [title])
+disqus.com##+js(href-sanitizer, a[href^="https://disq.us/"][href*="?url=http"], ?url)
+disqus.com##a[href][data-link-out]:remove-attr(data-link-out)
 steamcommunity.com##+js(href-sanitizer, a[href^="https://steamcommunity.com/linkfilter/?url=http"], ?url)
 /detroitchicago/dpv.gif?$image
 /detroitchicago/imp.gif$ping
