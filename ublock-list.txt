@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ExNKPbufgw6V0+XZW1vBMA
+! Checksum: EjYIoQiWmb5qLug3gK1YIA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310132032
-! Last Modified: 2023年10月13日 20:32
+! Version: 202310140221
+! Last Modified: 2023年10月14日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -22389,6 +22389,7 @@ browsershots.org#@#.advert_area
 ||badspads.com^
 ||badtopwitch.work^
 ||badubaho.com^
+||badujaub.xyz^
 ||badword.xyz^
 ||baect.com^
 ||baelungilt.guru^
@@ -30932,6 +30933,7 @@ browsershots.org#@#.advert_area
 ||hazelmutenessorchard.com^
 ||hazelnutshighs.com^
 ||hazicu.hothomefuck.com^
+||hazoopso.net^
 ||hazydespise.com^
 ||hazymarvellous.com^
 ||hb-247.com^
@@ -45416,6 +45418,7 @@ browsershots.org#@#.advert_area
 ||tvprocessing.com^
 ||tvqqrycnutpp.com^
 ||tvxetxjvobm.com^
+||tvxrpdfgitlbsb.xyz^
 ||twaonhcjwoaouj.com^
 ||twazzyoidwlfe.com^
 ||tweenydone.website^
@@ -51581,6 +51584,7 @@ browsershots.org#@#.advert_area
 ||harshlygiraffediscover.com^$popup
 ||hauchiwu.com^$popup
 ||havegrosho.com^$popup
+||hazoopso.net^$popup
 ||hcritiesec.xyz^$popup
 ||headlightgranulatedflee.com^$popup
 ||heappyrinceas.info^$popup
@@ -56063,6 +56067,7 @@ browsershots.org#@#.advert_area
 ||premium-news-for.me^$popup
 ||profitsurvey365.live^$popup
 ||promo.20bet.partners^$popup
+||promo.pixelsee.app^$popup
 ||quantumadblocker.com^$popup
 ||record.affiliatelounge.com^$popup
 ||redir.tradedoubler.com/projectr/$popup
@@ -98190,13 +98195,9 @@ thecartoonporntube.com##[href="/go/tube.php"]
 thecartoonporntube.com###advertising [href]
 vidsvidsvids.com##.zone
 womennaked.net##.hrcht6
-camsexbabe.nl##.happy-player-beside
-camsexbabe.nl##.happy-section
 pt.potwm.com##.pausedView
 pt.potwm.com##.shown.visible.onlineIndicator
 ||protoawegw.com^$3p
-||pornokartel.nl^$3p
-camsexbabe.nl##.d-md-block.d-none.video-sidebar
 tubsxxx.com##.aBlock
 tubsxxx.com##.videoAd
 pornez.net###cb00
@@ -98727,7 +98728,7 @@ dekki.com##div[pb-serve-label*="advert"]:upward(2)
 pcso-lottoresults.com##+js(nosiif, visibility, 1000)
 bittools.net##+js(acs, onload, fetch)
 otomi-games.com##+js(nano-sib)
-@@*$ghide,domain=fastcoin.ga|quickclaims.nl|dropcoins.xyz|faucetbr.tk|is2btc.com
+@@*$ghide,domain=fastcoin.ga|dropcoins.xyz|faucetbr.tk|is2btc.com
 fastcoin.ga##div[style="height: 90px;"]
 fastcoin.ga##div[style="width:728px;height:90px;display: inline-block;margin: 0 auto"]
 fastcoin.ga##.justify-content-center.col-sm-12.row > .overflow > center > .slide.carousel
@@ -99388,7 +99389,6 @@ adz7short.space,short.croclix.me##.leaderboard
 short.croclix.me##.banner-container
 short.goldenfaucet.io##.rectangles
 ||offers4all.net^$frame,3p
-icttipsandtricks.nl##+js(aost, String.prototype.charCodeAt, ai_)
 lite.qwant.com##.ad:upward(article.result.web)
 gay4porn.com##+js(set, flashvars.adv_start_html, '')
 gay4porn.com##+js(acs, document.querySelectorAll, popMagic)
@@ -100083,8 +100083,6 @@ samehadaku.*###skipbtn
 samehadaku.*##.box_item_berlangganan_popup
 *$script,3p,denyallow=cloudfront.net|disqus.com|disquscdn.com|fastlylb.net,domain=samehadaku.*
 ||yimg.com/nn/lib/metro/g/sda/$domain=yahoo.com
-spele.nl##.is-skyscraper
-spele.nl##.is-billboard
 mediapemersatubangsa.com##+js(acs, document.addEventListener, google_ad_client)
 mediapemersatubangsa.com##+js(aopw, _pop)
 *$script,3p,denyallow=gstatic.com,domain=la123movies.com
@@ -105650,9 +105648,6 @@ getcoloringpages.com#@#.adsBlock
 ||opensubtitles.org^*.js|$script,domain=opensubtitles.org,badfilter
 @@||bullads.net^$script,frame,xhr,domain=filecrypt.co|cutcaptcha.com|filecrypt.cc
 @@||static.motortrader.com.my/advert/$image,domain=motortrader.com.my
-!#if env_firefox
-@@||markup.nieuwsblad.be/extra/assets/advertising/prebid.js$script,1p
-!#endif
 @@||choice.faktor.io^$frame,script,xhr,domain=gids.tv
 @@||alibaba.tanx.com^$domain=alidns.com
 @@||adobedtm.com^*/satellitelib-$script,domain=finishlibrary.steelcase.com
@@ -106141,11 +106136,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 @@||p04a.hs.eloqua.com^$frame,domain=agilent.com
 @@||video.repubblica.it^$cname
 @@||cloudflare.com/cdn-cgi/trace$xhr,redirect-rule=noop.txt,domain=benchmarkuniverse.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=dagelijksekost.een.be
-@@||shared.mediahuis.be/ka-ching/prebid.js$script,domain=dagelijksekost.een.be
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=dagelijksekost.een.be
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=dagelijksekost.een.be
-@@||assets.adobedtm.com/*-source.min.js$script,domain=dagelijksekost.een.be
 ||sammobile.com^*/newrelic.js$script,1p,redirect=noop.js,important
 ||plausible.io/js/plausible.js$script,redirect=noopjs,important
 *$script,redirect-rule=noopjs,domain=sammobile.com
