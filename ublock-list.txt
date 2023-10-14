@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EjYIoQiWmb5qLug3gK1YIA
+! Checksum: iythmO34fUB99Sg6eh2eiQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310140221
-! Last Modified: 2023年10月14日 02:21
+! Version: 202310140909
+! Last Modified: 2023年10月14日 09:09
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -84,7 +84,6 @@
 .com/adz/
 .com/sc/*?n=$script,third-party
 .com/ss/ad/
-.com/tsf/
 .cz/adv/
 .cz/affil/
 .cz/bannery/
@@ -58766,6 +58765,7 @@ gamesadshopper.com##.AD
 advfn.com##.APS_TOP_BANNER_468_X_60_container
 bendsource.com,buzzfeed.com,federalnewsnetwork.com,imgur.io,iotworldtoday.com,lonelyplanet.com,naturalproductsinsider.com,sevendaysvt.com,styleweekly.com,tasty.co,tucsonweekly.com##.Ad
 deseret.com##.Ad-space
+thingiverse.com##.AdBanner__adBanner--GpB5d
 petfinder.com##.AdUnitParagraph-module--adunitContainer--2b7a6
 therealdeal.com##.AdUnit_adUnitCenter__FKOWE
 complex.com##.AdWrapper__AdPlaceholderContainer-sc-15idjh1-0
@@ -59607,6 +59607,7 @@ thecable.ng##.cableads_mid
 cafonline.com##.caf-o-sponsors-nav
 clutchpoints.com##.cafemedia-clutchpoints-header
 challonge.com##.cake-unit
+skylinewebcams.com##.cam-vert
 thedalesreport.com##.cap-container
 dllme.com##.captchabox > div
 speakerdeck.com##.carbon-container
@@ -65647,6 +65648,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /dataunlocker.js
 /datawrapper.gif?
 /dcjs/prod/*
+/dcs.gif?
 /dcs_tag.js
 /default/pAnalytics
 /delivery/lg.
@@ -68692,6 +68694,7 @@ _mongo_stats/
 ||spinnaker-js.com^
 ||stack-sonar.com^
 ||stat.ovh^
+||statisticsplatform.com^
 ||statsbox.info^
 ||stpmgo.com^
 ||summerhamster.com^
@@ -71996,9 +71999,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||crawlclocks.com^
 ||crayoncompetition.com^
 ||creditcreature.com^
+||crimsonmeadow.com^
 ||critictruck.com^
 ||crookedcreature.com^
 ||crowdedmass.com^
+||crystalboulevard.com^
 ||cubchannel.com^
 ||cuddlycake.com^
 ||culturedcamera.com^
@@ -77189,11 +77194,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.tomwx.net^
 ||track.unidata.ai^
 ||tracking.cat898.com^
+||trail.71baomu.com^
 ||union.360.cn/1899.js
 ||videostats.kakao.com^
 ||w3t.cn^*/fx.js
 ||web-trace.ksapisrv.com^
 ||webtrack.pospal.cn^
+||wlog.kuaishou.com^
 ||yigouw.com/c.js
 ||tracking.vid4u.org^
 ||a.centrum.cz^
@@ -96488,6 +96495,7 @@ arketing.indianadunes.com^
 ||55bbs.com/east.html
 ||591.com.tw/stats/
 ||a.itsmore.cn^
+||accwww9.53kf.com^
 ||adstats.tencentmusic.com^
 ||al.autohome.com.cn^
 ||alicdn.com/f/pcdn/i.php?
@@ -96498,6 +96506,8 @@ arketing.indianadunes.com^
 ||analytics.cnblogs.com^
 ||analytics.oceanengine.com^
 ||analytics.shop.hisense.com^
+||apilog-web.acfun.cn^
+||apiwmda.58.com.cn^
 ||applog.yiche.com^
 ||audit.qiuwen.net.cn^
 ||autohome.com.cn/impress?
@@ -96589,6 +96599,7 @@ arketing.indianadunes.com^
 ||pingjs.qq.com^
 ||pinkoi.com/_log/
 ||pixel.kknews.cc^
+||poro.58.com^
 ||pptv.com/stg/add?
 ||pptv.com/webdelivery/
 ||pressplay.cc/marketing/event
@@ -96639,6 +96650,7 @@ arketing.indianadunes.com^
 ||soufun.com/stats/
 ||ssp.hinet.net^
 ||stadig.ifeng.com^
+||stat-58home.58che.com^
 ||stat.*.v-56.com^
 ||stat.caijing.com.cn^
 ||stat.funshion.net^
@@ -96673,6 +96685,7 @@ arketing.indianadunes.com^
 ||trackcommon.hujiang.com^
 ||tracker.ai.xiaomi.com^
 ||trackjay.cool3c.com^
+||trail.53kf.com^
 ||uestat.video.qiyi.com^
 ||utrack.hexun.com^
 ||v.blog.sohu.com/dostat.do?
@@ -97020,7 +97033,9 @@ arketing.indianadunes.com^
 ||yahoo.co.jp/s?s=
 ||yjtag.yahoo.co.jp^
 ||zatsubitown.com/mailfriend/kaiseki
+||11st.co.kr/st/
 ||ad-log.dable.io^
+||adoffice.11st.co.kr^
 ||aem-collector.daumkakao.io^
 ||auction.co.kr/ad/log.js
 ||auction.co.kr/montelena.js
@@ -97036,6 +97051,7 @@ arketing.indianadunes.com^
 ||log.zdnet.co.kr^
 ||naver.com/PostView.nhn?$image
 ||nil.naver.com^
+||rake.11st.co.kr^
 ||seoul.co.kr/weblog/
 ||sp.naver.com^
 ||stat.i3.dmm.com^
@@ -97657,7 +97673,6 @@ arketing.indianadunes.com^
 @@||statcounter.com/css/packed/statcounter-$stylesheet,~third-party
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
 @@||static.amazon.jobs/assets/analytics-$script,domain=amazon.jobs
-@@||static.atgsvcs.com/js/atgsvcs.js$domain=officedepot.com|shop.lego.com
 @@||static.cloud.coveo.com/coveo.analytics.js/$domain=cabelas.com
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
@@ -97882,7 +97897,7 @@ arketing.indianadunes.com^
 @@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs.ga.js?$script,domain=vrsicilia.it
 @@||jsdelivr.net^*/keen-tracking.min.js$domain=nextquotidiano.it
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
-@@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,third-party
+@@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
 @@||thron.com/shared/plugins/tracking/current/tracking-library-min.js$domain=dainese.com
 @@||timvision.it/libs/fingerprint/fingerprint.js
@@ -114111,8 +114126,8 @@ instapundit.com#@#.ad-space:not(.textads)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Thu, 12 Oct 2023 08:55:19 GMT
-# entries:        3724
+# last updated:   Fri, 13 Oct 2023 21:36:50 GMT
+# entries:        3729
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -115634,6 +115649,7 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 crazyegg.com
 127.0.0.1 crazypopups.com
 127.0.0.1 creatives.livejasmin.com
+127.0.0.1 crimsonmeadow.com
 127.0.0.1 criteo.com
 127.0.0.1 criteo.net
 127.0.0.1 critictruck.com
@@ -115644,6 +115660,7 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 crtv.mate1.com
 127.0.0.1 crwdcntrl.net
 127.0.0.1 crypto-loot.org
+127.0.0.1 crystalboulevard.com
 127.0.0.1 cs.co
 127.0.0.1 ctnetwork.hu
 127.0.0.1 culturedcrayon.com
@@ -116614,6 +116631,8 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 novem.pl
 127.0.0.1 npttech.com
 127.0.0.1 nr-data.net
+127.0.0.1 nr.mmcdn.com
+127.0.0.1 nr.static.mmcdn.com
 127.0.0.1 ns1p.net
 127.0.0.1 ntv.io
 127.0.0.1 ntvk1.ru
@@ -117564,6 +117583,7 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 trafic.ro
 127.0.0.1 traildelsfars.com
 127.0.0.1 traktrafficflow.com
+127.0.0.1 tranquilcanyon.com
 127.0.0.1 tranquilside.com
 127.0.0.1 travis.bosscasinos.com
 127.0.0.1 traytouch.com
