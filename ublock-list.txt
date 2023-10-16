@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q2vYusKFnVCVzq+SwV6mkw
+! Checksum: ZIndWGRt2nLvolCqr9EASw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310162033
-! Last Modified: 2023年10月16日 20:33
+! Version: 202310170222
+! Last Modified: 2023年10月17日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -22554,6 +22554,7 @@ browsershots.org#@#.advert_area
 ||bassdyemanipulate.com^
 ||bassengravefascinated.com^
 ||bassistscrap.com^
+||bassoonavatara.com^
 ||bastardminims.com^
 ||baste-znl.com^
 ||bastesgaltrap.com^
@@ -25613,6 +25614,7 @@ browsershots.org#@#.advert_area
 ||creamssicsite.com^
 ||creaperu.com^
 ||create2fear.com^
+||createsgummous.com^
 ||creationaleprose.com^
 ||creative-bars1.com^
 ||creative-serving.com^
@@ -28673,6 +28675,7 @@ browsershots.org#@#.advert_area
 ||fatchilli.media^
 ||fatebbc.pro^
 ||fathuntsgall.com^
+||fatimacapos.com^
 ||fatlossremedies.com^
 ||fatowzsis.com^
 ||fatsosjogs.com^
@@ -30924,6 +30927,7 @@ browsershots.org#@#.advert_area
 ||haustoam.com^
 ||hauthoun.xyz^
 ||hauufhgezl.com^
+||havagedhyana.com^
 ||havamedia.net^
 ||havan3eab9row2n.com^
 ||havanese.top^
@@ -35708,6 +35712,7 @@ browsershots.org#@#.advert_area
 ||mothdiscussioncrest.com^
 ||motherehoom.pro^
 ||motherhoodlimiteddetest.com^
+||mothifta.xyz^
 ||motille.com^
 ||motionsaucermentioned.com^
 ||motionspots.com^
@@ -38606,6 +38611,7 @@ browsershots.org#@#.advert_area
 ||phulaque.com^
 ||phulrauftoa.com^
 ||phultems.net^
+||phultids.com^
 ||phumpauk.com^
 ||phuteheglu.com^
 ||physical-flow-i-255.site^
@@ -39235,6 +39241,7 @@ browsershots.org#@#.advert_area
 ||prdredir.com^
 ||pre4sentre8dhf.com^
 ||preachribbonsummoned.com^
+||preampribbony.com^
 ||prearmscachet.uno^
 ||precedechampion.com^
 ||precedenowadaysbarbecue.com^
@@ -42807,6 +42814,7 @@ browsershots.org#@#.advert_area
 ||smg8oo4njst45oene.com^
 ||smigro.info^
 ||smileoffennec.com^
+||smiletkandol.com^
 ||smilewanted.com^
 ||smirkscapos.com^
 ||smisit.com^
@@ -43687,6 +43695,7 @@ browsershots.org#@#.advert_area
 ||suctionspelts.com^
 ||sudden-great.pro^
 ||sudorwauve.com^
+||sudsguidon.com^
 ||suescollum.com^
 ||sufeismmitered.digital^
 ||suffertreasureapproval.com^
@@ -45824,6 +45833,7 @@ browsershots.org#@#.advert_area
 ||unflamewandoo.com^
 ||unfolded-economics.com^
 ||unforgivablegrowl.com^
+||unglazeclassic.com^
 ||ungloomnisnas.com^
 ||ungolbator.com^
 ||ungoutylensmen.website^
@@ -59422,7 +59432,6 @@ news12.com##.banner-homePageSidebar-area
 411mania.com##.banner-homebottom-all
 security.org##.banner-img-container
 wireshark.org##.banner-img-downloads
-oko.sh##.banner-inner
 balkangreenenergynews.com##.banner-l
 news12.com##.banner-middleboard-area
 bsc.news,web3wire.news##.banner-one
@@ -66360,7 +66369,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /log_amp_item_set?
 /log_beacon.
 /log_e.php?id=
-/log_event?
 /log_h.jsp
 /log_hit.
 /log_impression.
@@ -67766,7 +67774,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /v.gif?
 /v1/adn/visit|
 /v1/impressions
-/v1/log_event
 /v1/page-hit
 /v1/pixel.js
 /v1/pixel?
@@ -100758,7 +100765,6 @@ joyhints.com##+js(aeld, DOMContentLoaded, disableDeveloperTools)
 joyhints.com###blocksy_ct_advertisement-2
 mydramalist.com##.is-desktop-ads
 mydramalist.com##.ad-removal-info:has-text(ads):upward([class])
-gogoplay1.com##+js(aeld, click, 0x)
 stardeos.com##+js(no-xhr-if, url:googlesyndication)
 stooq.*##div[style="position:relative;width:970px;height:250px"]
 stooq.*##div[style="position:relative;width:300px;height:250px"]
@@ -100776,7 +100782,6 @@ freevpn4you.net##.adsbygoogle:upward(1)
 vevioz.com##+js(aopr, app_vars.force_disable_adblock)
 vevioz.com##+js(aopr, open)
 vevioz.com##+js(set, blurred, false)
-fplayer.info##+js(aopr, __Y)
 watchtheofficetv.com###custom_html-4
 pelis-online.net##.adv
 advertiserandtimes.co.uk##+js(nostif, enforceAdStatus)
@@ -100800,12 +100805,6 @@ charexempire.com##.banner
 charexempire.com##+js(aopw, _pop)
 xn--swqq1zt9i.net##+js(acs, document.addEventListener, nextFunction)
 xvideos2020.me##+js(nostif, loadScripts)
-pobre.tv##+js(acs, document.getElementById, false)
-pobre.tv##+js(nostif, debugger)
-pobre.tv##+js(set, console.clear, noopFunc)
-pobre.tv##+js(nowoif)
-||cloclo11.cloud.mail.ru/weblink/$redirect=noopmp4-1s,media,domain=pobre.tv
-||pobre.tv/videos/$redirect=noopmp4-1s,media
 mejoresmodsminecraft.site##+js(acs, decodeURIComponent, ai_adb)
 watchdoctorwhoonline.com##+js(aopr, mm)
 watchdoctorwhoonline.com##.custom-html-widget.textwidget > .close
@@ -100842,14 +100841,6 @@ taradinhos.com##.under-player-ad
 ||hotxfans.com^$3p
 ||dvdgayonline.com^$3p
 ||taradinhos.com^$3p
-live7v.com##+js(aopw, _pop)
-live7v.com##+js(nowoif)
-live7v.com##+js(acs, decodeURIComponent, atob)
-||sportkart.xyz^$csp=script-src *
-allfoot.info##+js(nostif, nextFunction)
-assia.org##[class^="ban"]
-ootech.vn##+js(acs, $, test)
-||add.pics^$3p,script
 /px.gif?$image,redirect-rule=1x1.gif
 buffstream.*##+js(aopr, mm)
 ytmp3eu.*##+js(aopw, _pop)
@@ -100883,15 +100874,7 @@ stocktwits.com###ad_header_leaderboard:upward(1)
 genius.com##div[class^="TopContentdesktop__PromoContainer-"]:upward(1)
 xxxdl.net##.banners
 ||xxxdl.net/nothing.aspx?
-tinyurl.is##+js(rc, disabled, #skip-btn)
-tinyurl.is##.navbar-brand
-*$frame,xhr,script,css,3p,denyallow=cloudfront.net|cloudflare.com|bootstrapcdn.com,domain=tinyurl.is
-tinyurl.is##+js(acs, JSON, interactive)
-tinyurl.is##+js(no-fetch-if, xhr0)
-tinyurl.is##div[style="border-radius: 20px;padding: 25px;font-weight: bold;background-color: #452d38;color: #ffffff;"]
 thienhatruyen.com##+js(nowoif)
-sexphimhd.net##+js(aopr, decodeURI)
-sexphimhd.net##div.row.body:nth-of-type(1):style(padding:0px !important)
 @@||futbolfullenvivo.com^$ghide
 shuajota.com##+js(acs, document.addEventListener, nextFunction)
 shuajota.com###HTML8
@@ -100927,10 +100910,6 @@ clk.asia##+js(nowoif)
 clk.asia##+js(set, blurred, false)
 ||clk.asia/ads/*$frame
 ||clicksfly.com/img/ref/clicksglygifbanner2.gif
-@@||rancah.com^$ghide
-rancah.com##+js(nowoif)
-rancah.com##+js(set, blurred, false)
-rancah.com##.separator
 yifysubtitles.vip##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/)
 bigwank.com##+js(acs, document.querySelectorAll, popMagic)
 bigwank.com###mobile_pop
@@ -101048,8 +101027,6 @@ letsmakeiteasy.tech###quads-myModal
 ytsubme.com##+js(nowoif, youtube)
 ytsubme.com##+js(nano-stb, aTagChange, 12000)
 @@||filmpertutti.*^$ghide
-filmpertutti.center##.ads
-filmpertutti.center##[href*=".php"]
 dragontranslation.com##+js(aost, String.prototype.charCodeAt, https)
 dragontranslation.com##+js(aopw, _pop)
 dragontranslation.com###teaser2
@@ -101125,7 +101102,6 @@ weszlo.com##+js(no-fetch-if, ad)
 @@||weszlo.com^$ghide
 weszlo.com##.ad-placeholder-bg
 moviemad.*##+js(nowoif)
-svzcdn.xyz##+js(aopr, __Y)
 cotravinh.blogspot.com##+js(aeld, load, nextFunction)
 chicagobearshq.com,chicagobullshq.com,chicagosportshq.com,cubshq.com,tigernet.com##+js(acs, document.getElementById, JSON)
 ytube2dl.com##+js(aeld, , pop)
@@ -104042,6 +104018,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||wa-nago-wagona.com^$doc
 ||chi-yo-1807chiyo.com^$doc
 ||fd-2.shop^$doc
+||cuddle.koi-ba-na.com^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||download2348.mediafire.com/ewjzz8pmn7rg/4n5bc37ank892fh/Expert-PC_2023.rar^$all
