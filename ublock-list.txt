@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: c6aUXgu6B/ujSbCY6YLlmQ
+! Checksum: EKkLYO5TaQ+0Qq5A5RffSA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310172033
-! Last Modified: 2023年10月17日 20:33
+! Version: 202310180222
+! Last Modified: 2023年10月18日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1702,7 +1702,6 @@
 ?ab=1&zoneid=
 ?adspot_
 ?adunitid=
-?advertiser=
 ?advertiser_id=$domain=~ads.pinterest.com|~panel.rightflow.com
 ?bannerid=
 ?category=ad&
@@ -24082,6 +24081,7 @@ browsershots.org#@#.advert_area
 ||canastagruff.com^
 ||candiruarf.com^
 ||candypeaches.com^
+||candyprotected.com^
 ||canelastram.com^
 ||cangatu.xyz^
 ||canhamrolltop.uno^
@@ -26576,6 +26576,7 @@ browsershots.org#@#.advert_area
 ||dilliskunhome.com^
 ||dillsloppy.com^
 ||dilruwha.net^
+||diluterwearers.com^
 ||dilutionavailstoker.com^
 ||dimcarnie.com^
 ||dimedoncywydd.com^
@@ -28495,6 +28496,7 @@ browsershots.org#@#.advert_area
 ||f4235693e4.com^
 ||f48d1c06e4.com^
 ||f4906b7c15ba.com^
+||f4961f1b2e.com^
 ||f5080f5cee5a00.com^
 ||f52a1ac6d9.com^
 ||f55f5b7e4b.com^
@@ -34604,6 +34606,7 @@ browsershots.org#@#.advert_area
 ||lvnmzhhod.com^
 ||lvntekpejrmtb.com^
 ||lvodomo.info^
+||lvomenbxbyl.com^
 ||lvpcxqcoohcviks.com^
 ||lvskhjsloiqviv.xyz^
 ||lvwdrsrerso.com^
@@ -42043,6 +42046,7 @@ browsershots.org#@#.advert_area
 ||securesmrt-dt.com^
 ||securesurf.biz^
 ||sedatecompulsiveout.com^
+||sedatenerves.com^
 ||sedatingnews.com^
 ||sednerenforbo.com^
 ||sedodna.com^
@@ -46270,6 +46274,7 @@ browsershots.org#@#.advert_area
 ||valvalnumbest.com^
 ||valvedreknow.top^
 ||valvyre.com^
+||vamjfssdvjit.com^
 ||vampedcortine.com^
 ||vampersmutuary.com^
 ||vampersogmic.com^
@@ -46870,6 +46875,7 @@ browsershots.org#@#.advert_area
 ||vvwbjuaerbgmrjm.com^
 ||vvyqxxgxlnptc.com^
 ||vwedfijcm.xyz^
+||vwegihahkos.com^
 ||vwgtbnamrvg.com^
 ||vwhnfwdbf.com^
 ||vwiftixryzfo.com^
@@ -50258,7 +50264,6 @@ browsershots.org#@#.advert_area
 ||51.89.187.143^
 ||88.42.84.136^
 ||167.206.10.148^
-||atresadvertising.com^$third-party
 ||0265331.com^$popup
 ||0a8d87mlbcac.top^$popup
 ||0byv9mgbn0.com^$popup
@@ -50858,6 +50863,7 @@ browsershots.org#@#.advert_area
 ||camptrck.com^$popup
 ||cams.com/go/$popup
 ||camscaps.net^$popup
+||candyprotected.com^$popup
 ||capableimpregnablehazy.com^$popup
 ||captivatepestilentstormy.com^$popup
 ||careerjournalonline.com^$popup
@@ -53083,6 +53089,7 @@ browsershots.org#@#.advert_area
 ||secureleadsrn.com^$popup
 ||securesmrt-dt.com^$popup
 ||sedatecompulsiveout.com^$popup
+||sedatenerves.com^$popup
 ||sednerenforbo.com^$popup
 ||sedodna.com^$popup
 ||seethisinaction.com^$popup
@@ -55257,7 +55264,6 @@ browsershots.org#@#.advert_area
 ||s3.amazonaws.com^*/f10ac63cd7
 ||s3.amazonaws.com^*/secure.js
 ||tsbluebox.com^$third-party
-!! cloudfront hosted
 ||d10ce3z4vbhcdd.cloudfront.net^
 ||d10lumateci472.cloudfront.net^
 ||d10lv7w3g0jvk9.cloudfront.net^
@@ -62136,6 +62142,7 @@ gelbooru.com##[href^='https://realbooru.com/']
 cars.com##[id$="-sponsored"]
 smallseotools.com##[id*="gram"]
 producebluebook.com##[id^="BBS"]
+ldoceonline.com##[id^="ad_contentslot"]
 beforeitsnews.com##[id^="banners_"]
 filext.com##[id^="billboard_"]
 pluggedingolf.com##[id^="black-studio-tinymce-"]
@@ -63036,8 +63043,7 @@ lowes.com#?#.tile_group:-abp-has(.sponsored-badge)
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
 hannaford.com#?#.header-2:-abp-contains(Sponsored Suggestions)
 hannaford.com#?#.plp_thumb_wrap:-abp-has([data-citrusadimpressionid])
-truthsocial.com#?#.relative > .p-4:-abp-has(a[href*="/@TruthAds"])
-truthsocial.com#?#.status-unlisted.status__wrapper:-abp-has(div:-abp-contains(Sponsored Truth))
+truthsocial.com#?#div[item="[object Object]"]:-abp-has(path[d="M9.83333 1.83398H16.5M16.5 1.83398V8.50065M16.5 1.83398L9.83333 8.50065L6.5 5.16732L1.5 10.1673"])
 freshdirect.com#?#.swiper-slide:-abp-contains(Sponsored)
 giantfood.com,giantfoodstores.com,martinsfoods.com#?#.product-cell:-abp-has(.flag_label--sponsored)
 giantfood.com,giantfoodstores.com,martinsfoods.com#?#.zone-block:-abp-contains(Sponsored Suggestions)
