@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dHbeC0Va58S+DVsVpnCDOg
+! Checksum: c6aUXgu6B/ujSbCY6YLlmQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310171422
-! Last Modified: 2023年10月17日 14:22
+! Version: 202310172033
+! Last Modified: 2023年10月17日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63036,6 +63036,8 @@ lowes.com#?#.tile_group:-abp-has(.sponsored-badge)
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
 hannaford.com#?#.header-2:-abp-contains(Sponsored Suggestions)
 hannaford.com#?#.plp_thumb_wrap:-abp-has([data-citrusadimpressionid])
+truthsocial.com#?#.relative > .p-4:-abp-has(a[href*="/@TruthAds"])
+truthsocial.com#?#.status-unlisted.status__wrapper:-abp-has(div:-abp-contains(Sponsored Truth))
 freshdirect.com#?#.swiper-slide:-abp-contains(Sponsored)
 giantfood.com,giantfoodstores.com,martinsfoods.com#?#.product-cell:-abp-has(.flag_label--sponsored)
 giantfood.com,giantfoodstores.com,martinsfoods.com#?#.zone-block:-abp-contains(Sponsored Suggestions)
@@ -97596,6 +97598,7 @@ arketing.indianadunes.com^
 @@||github.com/gorhill/uBlock/*/src/web_accessible_resources/fingerprint2.js$~third-party
 @@||glookup.info/api/json/$domain=grabify.link
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
+@@||gsuite.tools/js/gtag.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$~third-party
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|furniturevillage.co.uk|luggagehero.com
@@ -104833,7 +104836,6 @@ tapewithadblock.org##+js(rmnt, script, /RegExp\(\'/, condition, RegExp)
 @@||cdn.cnn.com/analytics/cnn_arabic/jsmd.min.js$script,1p
 @@||mssl.fwmrm.net/libs/*$script,domain=go.cnn.com
 ||ggwebcast.com/*/kaltura/ga/urchin.js$script,redirect=noopjs
-@@||static.adf.ly^$image,script,css,domain=q.gs
 @@||media2.intoday.in/aajtak/$script,domain=aajtak.intoday.in|indiatoday.intoday.in
 @@||ahcdn.com/key=$xhr,domain=hdzog.com
 @@||jimmyjohns.com/Scripts/angularytics*.js$1p,script
@@ -104845,7 +104847,6 @@ tapewithadblock.org##+js(rmnt, script, /RegExp\(\'/, condition, RegExp)
 @@||googleapis.com/js/sdkloader/ima3.js$script,domain=seattlepi.com|sfgate.com
 @@||spotxcdn.com/integration/directsdk/*$script,domain=seattlepi.com|sfgate.com
 @@||spotx.tv/directsdk/*$script,domain=seattlepi.com|sfgate.com
-@@||healthline.com/resources/base/js/util/ga-custom-vars.js$script,domain=healthline.com
 @@||assets.adobedtm.com^$script,domain=rogers.com
 @@||atlassian.com^*/analytics.js$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=mediamarkt.de|saturn.de
@@ -104903,7 +104904,6 @@ energy.de#@##ad_home
 @@||recipes.timesofindia.com/*ads.cms$script
 @@||honeybadger.io/*/honeybadger.min.js$script,domain=clark.de
 @@||rtl.be/videos/player/vp4_webanalytics.js$script,1p
-@@||videoplaza.tv/*/pulse-sdk-html5/*$script,domain=rtl.be
 reyada.com#@#.ads_area
 @@||ads.adaptv.advertising.com/*einthusan.tv*$xhr,domain=imasdk.googleapis.com
 @@||js.center.io^$domain=randpac.com
@@ -104931,8 +104931,6 @@ hintergrundbild.org#@#.ads1
 @@||ak.sail-horizon.com/scout/$script,domain=businessinsider.com
 @@||tracker.btorrent.xyz^$websocket
 @@||cloudflare.com/ajax/libs/*$script,domain=androidcentral.com
-@@||geonames.org/flags/x/ad.gif$image
-vhacks.org#@#.sponsor-logo
 ||player.ooyala.com/*/ad-plugin/pulse.min.js$script,redirect=noopjs,domain=lpga.com
 @@||gemius.pl/xlgemius.js$script,domain=tsf.pt
 @@||secure.netscope.marktest.pt/netscope-gemius.js$script,domain=tsf.pt
@@ -104946,9 +104944,6 @@ vhacks.org#@#.sponsor-logo
 @@||streamplay.to^*.m4s$xhr
 ||frog.wix.com/da-client$image,redirect=1x1-transparent.gif,domain=deviantart.com
 @@||pages.bostonglobe.com/login/js/lib/AppMeasurement.js$script,1p
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js?$script,domain=dugout.com
-@@||dugout.com/boxsets/js/videojs.ads.js?$script,1p
-@@||dugout.com/boxsets/js/prebid_$script,1p
 ||player.ooyala.com/*/analytics-plugin/$script,redirect=noopjs
 @@||code.adsales.snidigital.com/conf/ads-config.js$script,domain=foodnetwork.com
 @@||googletagservices.com/tag/js/gpt.js$script,domain=blastingnews.com
@@ -105043,10 +105038,8 @@ britannica.com###md-media-overlay-ad
 @@||evidon.com/geo/*$script,domain=cnet.com|marieclaire.com|techrepublic.com|zdnet.com
 @@||cdn.amplitude.com/libs/amplitude-*.gz.js$script,domain=letgo.com
 @@||gateway.reddit.com/desktopapi/*$xhr,1p
-@@||cdn.fluidplayer.com/$script,domain=desixnxx.net
 ||fuegodevida.com^$popup,3p,badfilter
 @@||nxp.com/*/resources/scripts/analytics/webanalytics.js$script,1p
-@@||kimcartoon.cc/ajax-get-link-stream/*$xhr,1p
 @@||apply.indeed.com/$frame,1p
 @@||anyporn.com/key.jsx$script,1p
 @@||static.iqiyi.com/js/player_v1/sdk/*$script,1p
@@ -105743,7 +105736,6 @@ saltspringexchange.com#@#.single-ad
 ||cxense.com^$3p
 @@||api.ipstack.com/check?access_key=$xhr
 ||ipstack.com^$badfilter
-@@||geoip-db.com/jsonp/*$script,domain=justinto.xyz
 ||sedoparking.com^$badfilter
 verizon.com##+js(set, newPageViewSpeedtest, noopFunc)
 *$script,3p,domain=hentaihaven.org,badfilter
