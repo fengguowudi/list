@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9ALlJqlWxXNLGpu/MofkWQ
+! Checksum: hSw1cSYDutTDIdH0mBZ5Pw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310180912
-! Last Modified: 2023年10月18日 09:12
+! Version: 202310181422
+! Last Modified: 2023年10月18日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -100569,7 +100569,7 @@ instaanime.com##+js(nowoif)
 alueviesti.fi,kiuruvesilehti.fi,lempaala.ideapark.fi,olutposti.fi,urjalansanomat.fi##+js(aeld, scroll, innerHeight)
 watashiwasugoidesu.com##.watas-adlabel
 watashiwasugoidesu.com##.watas-bottom-vi
-@@||freereceivesms.com/ados.js$script,1p
+@@||freereceivesms.com^$script,1p
 freereceivesms.com##+js(nosiif, 0x)
 freereceivesms.com##a[href^="https://www.18sex.org/"]
 /wp-content/plugins/wp-banners/js/wp-banners.js
@@ -104784,6 +104784,7 @@ natgeotv.com##+js(set, Visitor, {})
 ||googletagmanager.com/gtag/js$domain=starblast.io,important
 ||cdn.cuty.io/fps.js^$domain=tickzoo.tv
 ||roshy.tv/wp-content/uploads/perfmatters/gtagv4.js
+www.lenovo.com##+js(aost, history.replaceState, injectedScript)
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
