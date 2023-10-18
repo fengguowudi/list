@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hSw1cSYDutTDIdH0mBZ5Pw
+! Checksum: mjp6bV9HxmigzRzl7NNbqQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310181422
-! Last Modified: 2023年10月18日 14:22
+! Version: 202310182033
+! Last Modified: 2023年10月18日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -58383,7 +58383,7 @@ techgeek365.com###leader-wrapper
 open.spotify.com###leaderboard-ad-element
 vocm.com###leaderboard-area
 bbc.com###leaderboard-aside-content
-orilliamatters.com,sootoday.com,timescolonist.com,vancouverisawesome.com###leaderboard-container
+orilliamatters.com,sootoday.com,time.com,timescolonist.com,vancouverisawesome.com###leaderboard-container
 variety.com###leaderboard-no-padding
 alternet.org###leaderboard-placeholder
 foodnetwork.com###leaderboard-wrap
@@ -64373,6 +64373,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||api.paymentwall.com^$domain=adguard.com
 @@||apis.kostprice.com/fapi/$script,domain=gadgets.ndtv.com
 @@||apmebf.com/ad/$domain=betfair.com
+@@||app.hubspot.com/api/ads/$~third-party
 @@||app.veggly.net/plugins/cordova-plugin-admobpro/www/AdMob.js$script,~third-party
 @@||apv-launcher.minute.ly/api/$script
 @@||archive.org/BookReader/$image,~third-party,xmlhttprequest
@@ -101127,6 +101128,8 @@ cotravinh.blogspot.com##+js(aeld, load, nextFunction)
 chicagobearshq.com,chicagobullshq.com,chicagosportshq.com,cubshq.com,tigernet.com##+js(acs, document.getElementById, JSON)
 ytube2dl.com##+js(aeld, , pop)
 xenvn.com##+js(nostif, ads)
+@@||xenvn.com^$ghide
+xenvn.com##.ad_block:style(visibility: hidden !important;)
 tvhai.org##+js(aeld, , open)
 plhqtvhay.xyz##+js(nosiif, 0x)
 glotorrents.fr-proxy.com##+js(aopw, decodeURI)
