@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EKkLYO5TaQ+0Qq5A5RffSA
+! Checksum: 9ALlJqlWxXNLGpu/MofkWQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310180222
-! Last Modified: 2023年10月18日 02:22
+! Version: 202310180912
+! Last Modified: 2023年10月18日 09:12
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -22400,6 +22400,7 @@ browsershots.org#@#.advert_area
 ||bagelinterest.com^
 ||bagfulcoughwallow.com^
 ||baggageconservationcaught.com^
+||baggalaresaid.com^
 ||baggy-fail.pro^
 ||baglikeurging.com^
 ||bagnuterosive.com^
@@ -22457,6 +22458,7 @@ browsershots.org#@#.advert_area
 ||ballotsevicts.space^
 ||ballroomexhibitionmid.com^
 ||balneasoucars.website^
+||baloneyunraked.com^
 ||balspaulite.com^
 ||baltchd.net^
 ||balvalur.com^
@@ -34749,6 +34751,7 @@ browsershots.org#@#.advert_area
 ||mahaplinths.com^
 ||maharbandi.tech^
 ||mahdicrofter.com^
+||mahonetranvia.com^
 ||mahourup.xyz^
 ||mahsirlaurite.guru^
 ||mahuangperosis.cfd^
@@ -39809,6 +39812,7 @@ browsershots.org#@#.advert_area
 ||puhtml.com^
 ||puitaexb.com^
 ||pujuco.uno^
+||pulayanyet.com^
 ||pulfrnaewqrkuqg.com^
 ||pullcattishwidth.com^
 ||pulpix.com^
@@ -40898,6 +40902,7 @@ browsershots.org#@#.advert_area
 ||requotehocker.com^
 ||rerackbirma.com^
 ||rereddit.com^
+||rergeema.com^
 ||reroplittrewheck.pro^
 ||reryn2ce.com^
 ||resailsgyse.com^
@@ -47438,6 +47443,7 @@ browsershots.org#@#.advert_area
 ||wichauru.xyz^
 ||wichtstoppit.space^
 ||wickedhumankindbarrel.com^
+||wicketfumage.com^
 ||wickiupcopalms.com^
 ||widaimty.com^
 ||wideeyed-painting.com^
@@ -56093,6 +56099,7 @@ browsershots.org#@#.advert_area
 ||bettingpremier.com/direct/$popup
 ||betzone2000.com^$popup
 ||brazzers.com/click/$popup
+||browsekeeper.com^$popup
 ||canyoublockit.com^$popup,third-party
 ||cdn.optmd.com^$popup
 ||chaturbate.com/affiliates/$popup
@@ -58182,6 +58189,7 @@ theteche.com###custom_html-8
 laineygossip.com###date-banner
 helpwithwindows.com###desc
 fastfoodnutrition.org###desk_leader_ad
+deccanherald.com###desktop-ad
 republicworld.com###desktop-livetv-728-90
 infotel.ca###desktopBannerBottom
 infotel.ca###desktopBannerFooter
@@ -63062,6 +63070,8 @@ yovizag.com#?#.jeg_column:-abp-has(>.jeg_wrapper > .jeg_ad)
 fanatics.com#?#.product-card:-abp-has(.sponsored-badge)
 walmart.ca#?#div[data-automation="product"]:-abp-has(div[data-automation="sponsored-indicator-wrapper"])
 boots.com#?#li.estore_product_container:-abp-has(.sponsored)
+deccanherald.com#?#div#container-text:-abp-contains(ADVERTISEMENT)
+deccanherald.com#?#span.container-text:-abp-contains(ADVERTISEMENT)
 ulta.com#?#li.ProductListingResults__productCard:-abp-has(.ProductCard__badge>p:-abp-contains(Sponsored))
 kroger.com#?#.AutoGrid-cell:-abp-has(.ProductCard-tags>div>svg.kds-Icon)
 kroger.com#?#.KDSProductCarouselView--default:-abp-has(>.kds-Card>.ProductCard-tags>div>svg.kds-Icon)
@@ -102146,6 +102156,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||dload.site^$doc
 ||kloagamelf.site^$doc
 ||mewteam.store^$doc
+||mewhack.com^$doc
 ||oceanofgame.net^$doc
 ||tophacks.pro^$doc
 ||lavacheat.com^$doc
@@ -102160,7 +102171,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||mfroute.com^
 ||miserve-chanics.com^
 ||track-149uew.link^
-||tratbc.com^
 ||update-phone-today.com^
 ||webpushcloud.top^
 ||workerz1.com^
@@ -106968,6 +106978,7 @@ instapundit.com#@#.ad-space:not(.textads)
 @@||adobedtm.com^*/satelliteLib-$script,domain=costco.*
 @@||googletagmanager.com/gtm.js$script,domain=aarhustech.dk
 ||go.xlirdr.com^$xhr,removeparam
+@@||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:5,domain=trovvve.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
