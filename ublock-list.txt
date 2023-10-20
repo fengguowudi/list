@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZVaXeaoH7O28UND/ii/Gug
+! Checksum: iQwGq4DwrbRYjKjhjJMvtA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310201422
-! Last Modified: 2023年10月20日 14:22
+! Version: 202310202032
+! Last Modified: 2023年10月20日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24278,6 +24278,7 @@ browsershots.org#@#.advert_area
 ||ccaahdancza.com^
 ||ccdneniusruhebl.com^
 ||ccgkudwutf.com^
+||ccgzcavzbmztk.com^
 ||ccieoqej.xyz^
 ||ccjzuavqrh.com^
 ||ccmdcinut.com^
@@ -27506,6 +27507,7 @@ browsershots.org#@#.advert_area
 ||ecipientconcertain.info^
 ||ecityalittl.buzz^
 ||eclatedpewy.com^
+||eclebgjz.com^
 ||eclkmpbn.com^
 ||eclkmpsa.com^
 ||eclogicmeows.com^
@@ -60964,6 +60966,7 @@ thebarentsobserver.com##.pane-title
 comedycentral.com.au##.pane-vimn-coda-gpt-panes
 wunderground.com##.pane-wu-fullscreenweather-ad-box-atf
 khmertimeskh.com##.panel-grid-cell
+tutorialspoint.com##.panel-htop.layout-panel-east
 panarmenian.net##.panner_2
 battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.parallax-breakout
 hltv.org##.parimatch-firstcol-box
@@ -104715,6 +104718,7 @@ natgeotv.com##+js(set, Visitor, {})
 ||cdn.cuty.io/fps.js^$domain=tickzoo.tv
 ||roshy.tv/wp-content/uploads/perfmatters/gtagv4.js
 www.lenovo.com##+js(aost, history.replaceState, injectedScript)
+*$1p,strict3p,script,header=via:1.1 google
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -114093,7 +114097,7 @@ instapundit.com#@#.ad-space:not(.textads)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Fri, 13 Oct 2023 21:36:50 GMT
-# entries:        3729
+# entries:        3724
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -114140,6 +114144,7 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 a-ads.com
 127.0.0.1 a.mktw.net
 127.0.0.1 a.muloqot.uz
+127.0.0.1 a.sakh.com
 127.0.0.1 a.ucoz.net
 127.0.0.1 a.ucoz.ru
 127.0.0.1 a.vartoken.com
@@ -114631,7 +114636,6 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 ads.mvscoelho.com
 127.0.0.1 ads.myadv.org
 127.0.0.1 ads.nccwebs.com
-127.0.0.1 ads.ndtv1.com
 127.0.0.1 ads.networksolutions.com
 127.0.0.1 ads.newgrounds.com
 127.0.0.1 ads.newmedia.cz
@@ -117449,7 +117453,6 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 toplist.pornhost.com
 127.0.0.1 toplista.mw.hu
 127.0.0.1 toplistcity.com
-127.0.0.1 toprebates.com
 127.0.0.1 topsir.com
 127.0.0.1 topsite.lv
 127.0.0.1 topsites.com.br
@@ -117498,8 +117501,6 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 tracking.39-bb4a9-osm.co.uk
 127.0.0.1 tracking.42-01pr5-osm-secure.co.uk
 127.0.0.1 tracking.5-47737-bi.co.uk
-127.0.0.1 tracking.baypacketaddressepisode.makeup
-127.0.0.1 tracking.concedehousingstrainnotice.hair
 127.0.0.1 tracking.emilyclarkconsulting.com
 127.0.0.1 tracking.epicgames.com
 127.0.0.1 tracking.exipure.com
@@ -117511,23 +117512,21 @@ instapundit.com#@#.ad-space:not(.textads)
 127.0.0.1 tracking.jiffyworld.com
 127.0.0.1 tracking.markethero.io
 127.0.0.1 tracking.miui.com
-127.0.0.1 tracking.namerealopendrawflesh.makeup
 127.0.0.1 tracking.netalerts.io
 127.0.0.1 tracking.olx-st.com
 127.0.0.1 tracking.orixa-media.com
 127.0.0.1 tracking.pastapplauddeterseminarproof.makeup
-127.0.0.1 tracking.playerobjectwordingbasinbank.makeup
 127.0.0.1 tracking.shopstyle.com
 127.0.0.1 tracking.theoceanac.online
 127.0.0.1 tracking.thinkabt.com
 127.0.0.1 tracking.utlservice.com
-127.0.0.1 tracking.vagueunlikecowerscreamforbid.hair
 127.0.0.1 tracking.wetter.at
 127.0.0.1 tracking01.walmart.com
 127.0.0.1 tracking101.com
 127.0.0.1 tracking22.com
 127.0.0.1 trackingsoft.com
 127.0.0.1 trackmysales.com
+127.0.0.1 trackuhub.com
 127.0.0.1 tradeadexchange.com
 127.0.0.1 tradedoubler.com
 127.0.0.1 traffic-exchange.com
