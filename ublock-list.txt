@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Vw/0mld+3qXpwrIvdhBi/g
+! Checksum: /bYmhSNONsgVkh8EzP+/+w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310200221
-! Last Modified: 2023年10月20日 02:21
+! Version: 202310200911
+! Last Modified: 2023年10月20日 09:11
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3741,6 +3741,7 @@ _800x80_
 ###ads-text
 ###ads-top
 ###ads-top-728
+###ads-top-wrap
 ###ads-under-rotator
 ###ads-vertical
 ###ads-vertical-wrapper
@@ -21173,6 +21174,7 @@ browsershots.org#@#.advert_area
 ||amuseglide.com^
 ||amusingsnow.pro^
 ||amuyonpastour.top^
+||amvmzbmzaryya.top^
 ||amwoukrks.autos^
 ||amwswkqh.com^
 ||amyeubhbnugjum.xyz^
@@ -24480,6 +24482,7 @@ browsershots.org#@#.advert_area
 ||chancellorharrowbelieving.com^
 ||chandoowitumki.guru^
 ||changarreviver.com^
+||changerwauking.com^
 ||changesshortly.com^
 ||channelvids.online^
 ||channelvids.space^
@@ -33049,6 +33052,7 @@ browsershots.org#@#.advert_area
 ||jujaufur.net^
 ||jujwhjmtidgp.com^
 ||julia-liz.com^
+||julidanroebuck.com^
 ||julkkoazfkh.com^
 ||jullyambery.net^
 ||julolecalve.website^
@@ -33490,6 +33494,7 @@ browsershots.org#@#.advert_area
 ||knucklecivichereafter.com^
 ||knurryaikuchi.guru^
 ||knutenegros.pro^
+||knvjwrwvaqvll.top^
 ||knziesxepvaina.com^
 ||koabouch.net^
 ||koabukedosi.com^
@@ -37029,6 +37034,7 @@ browsershots.org#@#.advert_area
 ||ocuwyfarlvbq.com^
 ||ocwagmlizb.com^
 ||odbjmugzoq.com^
+||odbxgdxgvo.com^
 ||oddauthorscreative.com^
 ||oddlyogeed.com^
 ||oddsserve.com^
@@ -58242,7 +58248,10 @@ allafrica.com###div-clickio-ad-superleaderboard-a
 herfamily.ie,sportsjoe.ie###div-gpt-top_page
 abovethelaw.com###div-id-for-middle-300x250
 abovethelaw.com###div-id-for-top-300x250
+newser.com###divImageAd
+newser.com###divMobileHeaderAd
 abbotsfordgasprices.com,albertagasprices.com,barriegasprices.com,bcgasprices.com,calgarygasprices.com,edmontongasprices.com,gasbuddy.com,halifaxgasprices.com,hamiltongasprices.com,kwgasprices.com,londongasprices.com,manitobagasprices.com,montrealgasprices.com,newbrunswickgasprices.com,newfoundlandgasprices.com,novascotiagasprices.com,nwtgasprices.com,ontariogasprices.com,ottawagasprices.com,peigasprices.com,quebeccitygasprices.com,quebecgasprices.com,reginagasprices.com,saskatoongasprices.com,saskgasprices.com,torontogasprices.com,vancouvergasprices.com,victoriagasprices.com,winnipeggasprices.com###divSky
+newser.com###divStoryBigAd1
 newser.com###divWhizzcoRightRail
 hometheaterreview.com###div_block-382-13
 hindustantimes.com###divshopnowRight
@@ -60002,6 +60011,7 @@ nottinghampost.com##.div-gpt-ad-vip-slot-wrapper
 readcomiconline.li##.divCloseBut
 jpost.com##.divConnatix
 tigerdroppings.com##.divHLeaderFull
+newser.com##.divNColAdRepeating
 animefire.net##.divSection3
 ebaumsworld.com,greedyfinance.com##.divider
 thelist.com##.divider-heading-container
@@ -62622,6 +62632,7 @@ filesharingtalk.com##div[style="background-color: white; border-width: 2px; bord
 askdifference.com##div[style="color: #aaa"]
 metabattle.com##div[style="display: flex; justify-content: center; align-items: center; margin-top: 60px; min-height: 250px;"]
 aceshowbiz.com##div[style="display:inline-block;min-height:300px"]
+kimcartoon.li##div[style="font-size: 0; position: relative; text-align: center; margin: 10px auto; width: 300px; height: 250px; overflow: hidden;"]
 wikibrief.org##div[style="height:302px;width:auto;text-align:center;"]
 comics.org##div[style="height:90px"]
 streamingsites.com##div[style="margin-bottom: 10px; display: flex;"]
@@ -62999,7 +63010,7 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.OcdnDb
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-desktop-rhs:not(.mnr-c)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-mobile-top > div[data-pla="1"]
-google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.kpih0e
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.ltJjte
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.uEierd
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##a[href^="/aclk?sa="][href*="&adurl=&placesheetAdFix=1"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##a[href^="/aclk?sa="][href*="&adurl=&placesheetAdFix=1"] + button
@@ -63906,6 +63917,7 @@ hotgirlclub.com##.spnsrd-block-aside-250
 teenpornvideo.fun##.sponsor-link-desk
 teenpornvideo.fun##.sponsor-link-mob
 pornpics.com,pornpics.de##.sponsor-type-4
+nakedpornpics.com##.sponsor-wrapper
 hoes.tube,love4porn.com##.sponsorbig
 fux.com,pornerbros.com,porntube.com,tubedupe.com##.sponsored
 hoes.tube##.sponsorsmall
@@ -74062,6 +74074,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pocitadlo.sk^$third-party
 ||toplist.sk^$third-party
 ||24log.es^$third-party
+||agency360.io^$third-party
 ||botize.com^$third-party
 ||ccrtvi.com^$third-party
 ||certifica.com^$third-party
@@ -74604,6 +74617,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||client.tahono.com^$third-party
 ||clinch.co/a_js/client_pixels/
 ||clipsyndicate.com/cs_api/cliplog?
+||clixtell.com/track.js
 ||cloudapp.net/l/
 ||clouderrorreporting.googleapis.com^
 ||cloudflare-quic.com/cdn-cgi/trace
@@ -75333,6 +75347,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||levelaccess.net/analytics/
 ||lhinsights.com/collect?
 ||libcdnjs.com/api/event
+||libs.platform.californiatimes.com/meteringjs/
 ||licdn.com/*.gif?rnd=
 ||licensing.bitmovin.com/impression
 ||lift.acquia.com^
@@ -75566,6 +75581,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nojscontainer.pepperjam.com^$third-party
 ||nol.yahoo.com^
 ||nova.dice.net^
+||nr.static.mmcdn.com^
 ||ns-cdn.com^*/ns_vmtag.js
 ||ns.rvmkitt.com^
 ||nude.hu/html/track.js
@@ -102519,7 +102535,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||entertainment-undamped.net^$doc
 ||epel-felmier.com^$doc
 ||everyinfox2023.com^$doc
-||ex-fami.net^$doc
 ||eyes-luv-u.com^$doc
 ||f2f-free.biz^$doc
 ||fallenw8bi.jp^$doc
@@ -102545,7 +102560,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||gm-free.biz^$doc
 ||gokusenn.jp^$doc
 ||goldenluck.jp^$doc
-||hapabb.com^$doc
 ||happy468.net^$doc
 ||happymethod55.com^$doc
 ||hi-a-so-bi.net^$doc
@@ -102557,7 +102571,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||hori-hori.xyz^$doc
 ||hp-dy.net^$doc
 ||hphp-dy.net^$doc
-||htpgkd.xyz^$doc
 ||i.redi-ana.jp^$doc
 ||i2019.jp^$doc
 ||in.other-geronica.com^$doc
@@ -102565,16 +102578,13 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||infoemphasiseleventh.com^$doc
 ||infooperationsqueeze.com^$doc
 ||infosmellleather.com^$doc
-||infostakewit.com^$doc
 ||indi-ana.jp^$doc
-||information2022.com^$doc
 ||ir0d0ri.jp^$doc
 ||iri195.net^$doc
 ||irie3.net^$doc
 ||iuckgzcbceycgjs.com^$doc
 ||ivy2241u.jp^$doc
 ||jamjamjam.biz^$doc
-||jewelry-2018.net^$doc
 ||job0w4zjnk.jp^$doc
 ||k-colorful.jp^$doc
 ||k-smilegallery.com^$doc
@@ -102607,10 +102617,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||love-letter.info^$doc
 ||love.sweet199.com^$doc
 ||loveaholics.com^$doc
-||loveclinic.info^$doc
 ||lovemelo.jp^$doc
 ||lover-stream.com^$doc
-||lx8jq.nydlaepytwuekwhfyvivsf.com^$doc
 ||luuce.jp^$doc
 ||lzogdlorkfssui.net^$doc
 ||machi-match.info^$doc
@@ -102623,14 +102631,12 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||match-mate.net^$doc
 ||matimati.site^$doc
 ||maytail.jp^$doc
-||me22se2255.com^$doc
 ||meetingc5owe.jp^$doc
 ||meguri-eye.net^$doc
 ||meguri-y.net^$doc
 ||meltiness.jp^$doc
 ||message117.jp^$doc
 ||mith-ril.net^$doc
-||ml.ml.advice-obtrusive.com^$doc
 ||mobaapo.net^$doc
 ||moody-night.net^$doc
 ||moogle-set.space^$doc
@@ -102639,15 +102645,11 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||muhamed-online.com^$doc
 ||my7love.xyz^$doc
 ||mystic-wonder.com^$doc
-||mzyg882a63.com^$doc
 ||naja59jg.com^$doc
-||nanaprof.com^$doc
 ||navi-match.net^$doc
 ||near-s.com^$doc
 ||nearing.jp^$doc
-||nebueb.click^$doc
 ||neverthelessadvertising.com^$doc
-||new-match.com^$doc
 ||new.hpk0fu9.jp^$doc
 ||newencounter.pw^$doc
 ||nexttvuo1z.jp^$doc
@@ -102671,18 +102673,14 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||p2p-ent.biz^$doc
 ||paesbeaqerdrsheuboapyh.com^$doc
 ||pair-online.jp^$doc
-||permanent.wwtrend.com^$doc
 ||piasukai.xyz^$doc
 ||pinkredwhitereef.greenreef.net^$doc
-||pjmze.site^$doc
 ||plati-num.com^$doc
 ||pockpocket.com^$doc
 ||poorup2zo.jp^$doc
 ||pr0m.site^$doc
 ||privatelife.jp^$doc
 ||psg.make9-salon.com^$doc
-||ptt3bzstch2.com^$doc
-||purapuraichiban.com^$doc
 ||purpleiyvf.com^$doc
 ||r30address.com^$doc
 ||r30deai.com^$doc
@@ -102695,9 +102693,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||royalclass-dm.com^$doc
 ||royalclass.info^$doc
 ||s4fk.destin0.jp^$doc
-||s5dgy389z7.com^$doc
 ||salon1999.net^$doc
-||salon2022champagne.digital^$doc
 ||salonoshirase.net^$doc
 ||sen-no-y-t.com^$doc
 ||shells.pairapple.net^$doc
@@ -104386,16 +104382,23 @@ search.brave.com##+js(no-fetch-if, body:browser)
 /^\w+://[0-9a-z]{11}\.taxliencode\.com//$1p,script
 /^\w+://[0-9a-z]{12}\.www\.sidsplumbing\.ie//$1p,script
 /^\w+://[0-9a-z]{12}\.www\.kodalia\.com//$1p,script
-fjlaboratories.com,stoic.ai##+js(aost, Math.floor, injectedScript)
-stoic.ai##^script:has-text(\x3c)
+/^\w+://[0-9a-z]{12}\.quine\.sh//$1p,script
+/^\w+://[0-9a-z]{12}\.controlconceptsusa\.com//$1p,script
+/^\w+://[0-9a-z]{12}\.www\.emanualonline\.com//$1p,script
+/www\.eldorado\.gg\/[a-zA-Z]{10}\.js/$1p,script,domain=eldorado.gg
 ||ampl.cinotes.com^
 ||data-saver-cindi.herokuapp.com^
 ||cdn.cindicator.com/$script,3p
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,monumentmetals.com,nookgaming.com,ping.gg,tapmyback.com,revistaferramental.com.br,hawpar.com,accuretawealth.com,resourceya.com,camberlion.com,adaptive.marketing,datree.io,alpacafinance.org,enkeleksamen.no,adria.gg,kvest.ee,controlconceptsusa.com,tt.live,creatordrop.com,groove.so,cainthus.com,jaywilsonwebsolutions.com,tracktheta.com,panpots.com##+js(acs, String.fromCharCode, join)
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,controlconceptsusa.com,creatordrop.com,panpots.com##^script:has-text(join(''))
-alpacafinance.org,tt.live##^script:has-text(join(""))
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,controlconceptsusa.com,creatordrop.com,panpots.com##^script:has-text("join('')")
-alpacafinance.org,tt.live##^script:has-text('join("")')
+cefirates.com,freecodecamp.org,monumentmetals.com,nookgaming.com,ping.gg,resourceya.com,camberlion.com,alpacafinance.org,groove.so,jaywilsonwebsolutions.com,bitdomain.biz,madrigalmaps.com,tapmyback.com,revistaferramental.com.br,kvest.ee,creatordrop.com,cybernetman.com,adaptive.marketing,future-fortune.com,panprices.com,adria.gg##+js(acs, String.fromCharCode, join)
+!#if cap_html_filtering
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,creatordrop.com,panpots.com,cybernetman.com,bitdomain.biz,gerardbosch.xyz,fort-shop.kiev.ua,accuretawealth.com,resourceya.com,tracktheta.com,adaptive.marketing##^script:has-text("join('')")
+alpacafinance.org,tt.live,future-fortune.com,abhijith.page,furucombo.app,madrigalmaps.com,adventuretix.com##^script:has-text('join("")')
+panprices.com,intercity.technology,freelancer.taxmachine.be,kodalia.com,adria.gg,fjlaboratories.com##^script:has-text(api.dataunlocker.com)
+!#else
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,creatordrop.com,panpots.com,cybernetman.com,bitdomain.biz,gerardbosch.xyz,fort-shop.kiev.ua,accuretawealth.com,resourceya.com,tracktheta.com##+js(rmnt, script, /join\(\'\'\)/)
+alpacafinance.org,tt.live,future-fortune.com,abhijith.page,madrigalmaps.com,adventuretix.com##+js(rmnt, script, /join\(\"\"\)/)
+panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaboratories.com##+js(rmnt, script, api.dataunlocker.com)
+!#endif
 ||washpost.nile.works^
 /p13n/batch/action/*$image
 ||da29e6b8-f018-490f-b25f-39a887fc95e7.xyz^
@@ -114089,7 +114092,7 @@ instapundit.com#@#.ad-space:not(.textads)
 # entries:        3729
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
-# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
+# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=12
 # Patreon:        https://patreon.com/blocklist
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
