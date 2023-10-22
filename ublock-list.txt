@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nts3CPS8XUvy4DZbF1zu/g
+! Checksum: o66V+B0RsiLHyRkbM/izHQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310220219
-! Last Modified: 2023年10月22日 02:19
+! Version: 202310220916
+! Last Modified: 2023年10月22日 09:16
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -58383,6 +58383,7 @@ investing.com###generalOverlay
 getvideobot.com###getvideobot_com_300x250_responsive
 getvideobot.com###getvideobot_com_980x250_billboard_responsive
 thingstodovalencia.com###getyourguide-widget
+dotesports.com###gg-masthead
 glowstery.com###ghostery-highlights
 freegames.org###gla
 wordcounter.net###glya
@@ -65225,18 +65226,14 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /analytic-client.
 /analytic/pageview
 /analytics-amplitude-
-/analytics-beacon-
 /analytics-cdn.
-/analytics-client-
+/analytics-client-identification/*
 /analytics-collector
-/analytics-core-bundle-
-/analytics-data-collector.
+/analytics-data-collector.js
+/analytics-data-collector.min.js
 /analytics-dotcom/*
 /analytics-efukt.
-/analytics-endpoint.
-/analytics-event-
-/analytics-event.
-/analytics-event/*
+/analytics-event.js
 /analytics-events-
 /analytics-facade.
 /analytics-gjc-min.js
@@ -65244,18 +65241,14 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /analytics-hit?
 /analytics-ingestion/*
 /analytics-ingress-
-/analytics-initial-
 /analytics-js/*
-/analytics-minimal.
-/analytics-ping.
-/analytics-plugin/*
-/analytics-pusher/*
-/analytics-reporter/*
+/analytics-minimal-v4.js
+/analytics-minimal.js
+/analytics-ping.js
 /analytics-sdk.
-/analytics-secure.
-/analytics-tag.
+/analytics-secure.js
 /analytics-tracker/*
-/analytics-tracking.
+/analytics-tracking.js
 /analytics.*/event?
 /analytics.*/ping/?
 /analytics.*/track
@@ -65315,6 +65308,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /Analytics/Visitor.
 /analytics?http_referer
 /analytics?token=
+/analytics_events.js
 /analytics_js/client.js
 /analytics_prod.js
 /analytics_tag.js
@@ -66338,6 +66332,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /kissmetrics.js
 /klaviyo_analytics.js
 /koko-analytics-collect.php
+/koko-analytics-pro/assets/dist/js/script.js
 /koko-analytics/assets/dist/js/*script.js
 /kontera.js
 /krux-sass-helper.js
@@ -76235,6 +76230,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tm.tradetracker.net^
 ||tm.vendemore.com^
 ||tms.fmm.io^
+||tmtarget.com/tracking/
 ||to.getnitropack.com^
 ||toast.com/log
 ||toast.com/sendid?
@@ -107015,6 +107011,7 @@ instapundit.com#@#.ad-space:not(.textads)
 ||go.xlirdr.com^$xhr,removeparam
 @@||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:5,domain=trovvve.com
 @@||sonar.viously.com^$script,domain=aufeminin.com|consoglobe.com|cuisineaz.com|deco.fr|demotivateur.fr|fourchette-et-bikini.fr|futura-sciences.com|passeportsante.net|rustica.fr|wamiz.com|turbo.fr
+@@||cmp.quantcast.com^$script,domain=formulatv.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
