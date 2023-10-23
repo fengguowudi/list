@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tmGWIpTnDbMFuEJpj9Y3NA
+! Checksum: SjfhUl9h+ivPrCF2BJMYEw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310231422
-! Last Modified: 2023年10月23日 14:22
+! Version: 202310232033
+! Last Modified: 2023年10月23日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57030,7 +57030,7 @@ browsershots.org#@#.advert_area
 ||startpage.com/sp/cdn/*/TotalAdBlockAdultWidget.js
 ||static.fastpic.org^$subdocument
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
-||steamanalyst.com/steem/delivery/
+||steamanalyst.com/steeem/delivery/
 ||strcloud.club/mainstream
 ||streamoupload.*/api/spots/$script
 ||streams.tv/js/slidingbanner.js
@@ -58694,6 +58694,7 @@ msguides.com###right-bottom-camp
 comicbookrealm.com###right-rail > .module
 purewow.com###right-rail-ad
 gogetaroomie.com###right-space
+openspeedtest.com###rightArea
 medicaldialogues.in###right_level_8
 numista.com###right_pub
 yardbarker.com###right_top_sticky
@@ -58893,6 +58894,7 @@ globalwaterintel.com###top-banner-image
 independent.co.uk,the-independent.com###top-banner-wrapper
 missingremote.com###top-bar
 returnyoutubedislike.com###top-donors
+openspeedtest.com###top-lb
 capetownmagazine.com###top-leader-wrapper
 austinchronicle.com,carmag.co.za,thegazette.com###top-leaderboard
 gogetaroomie.com###top-space
@@ -58927,6 +58929,7 @@ worldtimebuddy.com###toprek
 macmillandictionary.com,macmillanthesaurus.com,oxfordlearnersdictionaries.com###topslot_container
 atomic-robo.com###topspace
 charlieintel.com###topunit
+techspot.com###tsadvideo
 pcworld.com,techhive.com###tso
 trumparea.com###udmvid
 planetminecraft.com###ultra_wide
@@ -59230,6 +59233,7 @@ beincrypto.com##.ad-post-right-sidebar-1
 beincrypto.com##.ad-post-right-sidebar-2
 atlasobscura.com##.ad-site-top-full-width
 nationalreview.com##.ad-skeleton
+accesswdun.com##.ad-slider-block
 cnn.com##.ad-slot-header__wrapper
 cointelegraph.com##.ad-slot_NjPAE
 oann.com##.ad-slot__ad-label
@@ -59910,6 +59914,7 @@ businessinsider.com,insider.com##.commerce-coupons-module
 goal.com,thisislondon.co.uk##.commercial
 telegraph.co.uk##.commercial-unit
 bitdegree.org##.comparison-suggestion
+linguisticsociety.org##.component-3
 goal.com##.component-ad
 hunker.com,livestrong.com##.component-article-section-jwplayer-wrapper
 binnews.com,iheart.com,jessekellyshow.com,steveharveyfm.com##.component-pushdown
@@ -60000,6 +60005,7 @@ infowars.com##.css-1upmbem
 ladbible.com##.css-1v521fz
 infowars.com##.css-1vj1npn
 healthline.com,medicalnewstoday.com##.css-1wm8u43
+gamingbible.com##.css-1z9hhh
 stylist.co.uk##.css-8me5ln
 eviemagazine.com##.css-9n98hk
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.css-bs95eu
@@ -60009,6 +60015,7 @@ nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.css
 eviemagazine.com##.css-re7z9l
 stylist.co.uk##.css-rybqcx
 healthline.com##.css-umsscj
+unilad.com##.css-zmf6il
 unmineablesbest.com##.ct_ipd728x90
 comparitech.com##.ct_popup_modal
 techspot.com##.cta
@@ -60508,6 +60515,7 @@ adweek.com##.htl-ad-wrapper
 barstoolsports.com##.htl-ad__container
 nameberry.com##.htlad-InContent_Flex
 nameberry.com##.htlad-Leaderboard_Flex
+themessenger.com##.htlad-leaderboard_top
 wtop.com##.hubb-at-rad-header
 huddle.today##.huddle-big-box-placement
 techspree.net##.hustle-popup
@@ -61286,6 +61294,7 @@ mrctv.org##.region-sidebar
 futbol24.com##.rek
 wcostream.com##.reklam_pve
 cyclingnews.com##.related-articles-wrap
+engadget.com##.related-content-lazyload
 idropnews.com##.related-posts
 ranker.com##.relatedInline_container__Ux4lS
 timesofindia.indiatimes.com##.relatedVideoWrapper
@@ -61343,6 +61352,7 @@ rebelnews.com##.rn-sidebar-ad
 realitytea.com##.roadblock
 surinenglish.com##.roba
 boxrox.com##.rolling-mrt
+beforeitsnews.com##.rotating_text_link
 superhumanradio.net##.rotating_zone
 atalayar.com##.rotulo-publi
 flightconnections.com##.route-display-box
@@ -61666,9 +61676,7 @@ inyourarea.co.uk##.style_advertisementMark_1Jki4
 inyourarea.co.uk##.style_cardWrapper_ycKf8
 amazonadviser.com,apptrigger.com,arrowheadaddict.com,bamsmackpow.com,fansided.com,gamesided.com,gojoebruin.com,hiddenremote.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,stormininnorman.com,winteriscoming.net##.style_k8mr7b-o_O-style_1ts1q2h
 nationalheraldindia.com##.styles-m__dfp__3T0-C
-cmswire.com##.styles_ad-block__2OJmV
 streamingsites.com##.styles_adverticementBlock__FINvH
-cmswire.com##.styles_article__top-ad-wrapper__35zg2
 streamingsites.com##.styles_backdrop__8uFQ4
 troypoint.com##.su-box
 cfoc.org##.su-button-style-glass
@@ -61698,6 +61706,7 @@ khmertimeskh.com##.swiper-wrapper
 patriotnationpress.com##.t2ampmgy
 sbenny.com##.t3-masthead
 emoneyspace.com##.t_a_c
+theanalyst.com##.ta-ad
 ucompares.com##.tablepress-id-46
 6abc.com,abcnews.go.com##.taboola
 gizmodo.com,kotaku.com,theonion.com,theroot.com##.taboola-container
@@ -62109,6 +62118,9 @@ romhustler.org##[class^="leaderboard_ad"]
 noqreport.com##[class^="noqre-"]
 nofilmschool.com##[class^="rblad-nfs_content"]
 thetimes.co.uk##[class^="responsive__InlineAdWrapper-"]
+cmswire.com##[class^="styles_ad-block"]
+cmswire.com##[class^="styles_article__text-ad"]
+cmswire.com##[class^="styles_article__top-ad-wrapper"]
 hancinema.net##[class^="wmls_"]
 torlock.com##[class^="wrn"]
 mydramalist.com##[class^="zrsx_"]
@@ -62355,6 +62367,7 @@ cbn.com##[style="display:block !important; min-height:90px;"]
 fandomwire.com##[style="height: 120px; width: 100%; margin: 5px auto; display: block; clear: both; text-align: center;"]
 guides.wp-bullet.com##[style="height: 288px;"]
 tenforums.com##[style="height:280px;"]
+kingmodapk.net##[style="height:300px"]
 geekzone.co.nz##[style="height:90px"]
 realitytvworld.com##[style="margin: 5px 0px 5px; display: inline-block; text-align: center; height: 250;"]
 timesnownews.com##[style="min-height: 181px;"]
@@ -62486,6 +62499,7 @@ listland.com##a[href^="https://shareasale.com/r.cfm?"]
 everybithelps.co.uk##a[href^="https://shop.trezor.io/"]
 wbnq.com,wbwn.com,wjbc.com##a[href^="https://stjude.org/radio/"]
 glory985.com##a[href^="https://sweetbidsflo.irauctions.com/listing/0"]
+accesswdun.com##a[href^="https://tinyurl.com"] > img
 mastercomfig.com##a[href^="https://tradeit.gg/"]
 scrolller.com##a[href^="https://trk.scrolller.com/"]
 primewire.link##a[href^="https://url.rw/"]
@@ -62576,7 +62590,7 @@ issuu.com##div[class*="adPlacement"]
 issuu.com##div[class*="adSkyscraper"]
 justthenews.com##div[class*="block-simple-blockad-"]
 dallasnews.com##div[class*="features-ads"]
-ladbible.com,unilad.co.uk##div[class*="margin-Advert"]
+gamingbible.com,ladbible.com,unilad.co.uk,unilad.com##div[class*="margin-Advert"]
 apkcombo.com##div[class*="revamp-ads"]
 cryptoslate.com,newsbtc.com##div[class*="sticky-header"]
 politico.com##div[class*="styles_supercube_"]
@@ -62667,6 +62681,7 @@ walmart.ca##div[data-automation^="HookLogicCarousel"]
 reddit.com##div[data-before-content="advertisement"]
 theverge.com##div[data-concert]
 bedbathandbeyond.com##div[data-cta="plpSponsoredProductClick"]
+gamingbible.com,unilad.com##div[data-cypress^="sticky-header"]
 analyticsindiamag.com##div[data-elementor-type="header"] > section.elementor-section-boxed
 wayfair.com##div[data-enzyme-id="WssBannerContainer"]
 qwant.com##div[data-monitoring="adsWebSerpOk"]
@@ -63246,6 +63261,7 @@ digg.com#?#article.fp-vertical-story:-abp-has(a[href="/channel/promotion"])
 digg.com#?#article.fp-vertical-story:-abp-has(a[href="/channel/promotion"])
 digg.com#?#article.relative:-abp-has(div:-abp-contains(SPONSORED))
 digg.com#?#article.relative:-abp-has(div:-abp-contains(SPONSORED))
+engadget.com#?#div:-abp-has(> div > div > #RR-MULTI_BTF)
 eztv.tf,eztv.yt,123unblock.bar#?#tbody:-abp-contains(WARNING! Use a)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#._6y8t:-abp-has(a[href="/ads/about/?entry_product=ad_preferences"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"])
@@ -64978,6 +64994,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ads.midwayusa.com^$popup
 @@||ads.pinterest.com^$popup
 @@||ads.shopee.*/$popup
+@@||ads.snapchat.com^$popup
 @@||ads.spotify.com^$popup
 @@||ads.taboola.com^$popup
 @@||ads.twitter.com^$popup
@@ -77952,6 +77969,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.shutterfly.com^
 ||beacon.walmart.com^
 ||beacon.wikia-services.com^
+||beforeitsnews.com/core/ajax/counter/count.php^
 ||behance.net/log
 ||behance.net/v2/logs
 ||bfp.capitalone.com^
@@ -97594,7 +97612,7 @@ arketing.indianadunes.com^
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
 @@||extreme-ip-lookup.com^$script,domain=bulkbarn.ca
 @@||ezodn.com/cmp/gvl.json$xmlhttprequest
-@@||fast.fonts.net/jsapi/core/mt.js$script,domain=eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
+@@||fast.fonts.net/jsapi/core/mt.js$script,domain=bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
 @@||fichub.com/plugins/adobe/lib/AppMeasurement.js$domain=natgeotv.com
 @@||fichub.com/plugins/adobe/lib/VisitorAPI.js$domain=natgeotv.com
 @@||firebase.google.com/docs/analytics/$~third-party
@@ -102314,17 +102332,20 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||stc.tools^$doc
 ||stcverify.com^$doc
 ||1980s.click^$doc
-goharpc.com,procrackerz.org,pccrackbox.com,365crack.com,cracklabel.com,keystool.com,pcwarezbox.com,10crack.com,crackproductkey.com,profullversion.com,crackswall.com,crackpcsoft.net,proappcrack.com,crackwinz.com,genuineactivator.com,crackedroot.com,topcracked.com,crackpro.org,fullcrackedpc.com,rootcracks.org,idmfullcrack.info,thecrackbox.com,idmpatched.com,autocracking.com,macwinsofts.com,productkeyfree.org,patchcracks.com,piratpc.com,cracksole.com,allsoftwarekeys.com,softwar2crack.com,procracks.net,productkeyforfree.com,bypassapp.com,zgamespc.com,newproductkey.com,serialkeysfree.org,crackdev.com,wazusoft.com,getpcsofts.net,rootscrack.com,cracktel.com,activators4windows.com,crackfury.com,up4crack.com,torrentfilefree.com,9to5crack.com,greencracks.com,procrackhere.com,proproductkey.com,crack11.com,centerapps.net,freelicensekey.org,pcsoftz.net,freecrackdownload.com,f4file.com,serialkey360.com##[onclick*="open"]
-serialkey89.com,installcracks.com,crackserialkey.co,maliksofts.com,crackpropc.com,ayeshapc.com,crackhomes.com,crackspro.co,crackknow.com,4howcrack.com,trycracksoftware.com,getprocrack.co,activationkeys.co,organiccrack.com,softwarance.com,procrackkey.co,download4mac.com,freeactivationkeys.org,explorecrack.com,okproductkey.com,downloadpc.net,up4pc.com,hitproversion.com,cracktube.net,abbaspc.net,crackdownload.org,crackdownload.me,corecrack.com,windowsactivator.info,keygenstore.com,procrackpc.co,getmacos.org,latestproductkey.co,shanpc.com,crackpckey.com,torrentfilefree.com,patchcracks.com,idmfullversion.com,wareskey.com,crackbell.com,newproductkey.com,osproductkey.com,serialkeysfree.org,autocracking.com,crackzoom.com,greencracks.com,profullversion.com,crackswall.com,rootcracks.org,licensekeys.org,softserialkey.com,free4pc.org,productkeys.org,crackedfine.com,idmcrackeys.com,crackedhere.com,licensekeysfree.org,trycracksetup.com,crackedroot.com,crackedsoft.org,assadpc.com,thecrackbox.com,crackproductkey.com,cracklabel.com,keystool.com,crackedpcs.com,cracksmad.com,licensekeyup.com,chcracked.com,finalcracked.com,activatorpros.com,crackedmod.com,whitecracked.com,cracksoon.com,boxcracked.com,activationkey.org,serialkeypatch.org,crackedsoftpc.com,proapkcrack.com,softscracked.com,freeappstorepc.com,reallpccrack.com,crackfullkey.net,hmzapc.com,zcracked.com,usecracked.com,crackedversion.com,aryancrack.com,piratespc.net,reallcrack.com,fultech.org##center > [class*="buttonPress-"]
-free4pc.org,warezcrack.net,freeprosoftz.com,vcracks.com,crackthere.com,keygenfile.net,scracked.com,cyberspc.com,softzcrack.com,crackintopc.com,zslicensekey.com,procrackpc.com,crackshere.com,crackdj.com,cracktopc.com,serialsofts.com,prosoftlink.com,zscracked.com,crackvip.com,windowcrack.com,softsnew.com,licensecrack.net,vstpatch.net,newcrack.info,topkeygen.com,vsthomes.com,vstserial.com,procrackerz.com,pcfullcrack.org,keygenpc.com,bicfic.com,ikcrack.com,downloadcracker.com,karancrack.com,piratesfile.com,activatorwin.com,starcrack.net,crackproduct.com,dgkcrack.com,crackglobal.com,crackcan.com,keygendownloads.com,crackpatched.com,windowsactivators.org,serialsoft.org,crackit.org,productscrack.com,crackurl.info,crackroot.net,crackmak.com,seeratpc.com,crackmix.com,piratepc.me,activators4windows.com,letcracks.com,latestcracked.com,proproductkey.com,fullversionforever.com,vlsoft.net,topcracked.com,goharpc.com,crackeado.net,freecrackdownload.com,assadpc.com,fileoye.com,f4file.com,crackpcsoft.net,crackwinz.com,excrack.com,mahcrack.com,get4pcs.com,keygenwin.com,mycrackfree.com,crackfullpro.com,crackkey4u.com,fileserialkey.com,cracksdat.com,crackgrid.com,licensekeysfree.com,crackkeymac.com,freecrack4u.com,getintomac.net,protocrack.com,crackreview.com,activatorskey.com,kuyhaa.cc##div[class^="code-block code-block-"]
-crackkits.com,rootcracks.co,crackwatch.org,crackfix.net,origincrack.com,procrackerz.com,crackhub.org,crackrules.com,zeemalcrack.com,haxmac.cc,cracka2zsoft.com,clevercracks.com,crackpropc.com,crackspro.co,crackknow.com##.getox
-alicracks.com,win-crack.com,productkeyfree.org,productkeyforfree.com,procrackerz.org,crackdev.com,wazusoft.com,piratesfile.com,piratpc.com,kalicrack.com,sadeempc.com,letcracks.com##center > a
+goharpc.com,pccrackbox.com,cracklabel.com,keystool.com,pcwarezbox.com,10crack.com,crackproductkey.com,profullversion.com,crackswall.com,crackpcsoft.net,proappcrack.com,crackwinz.com,genuineactivator.com,topcracked.com,fullcrackedpc.com,rootcracks.org,idmfullcrack.info,thecrackbox.com,idmpatched.com,autocracking.com,productkeyfree.org,patchcracks.com,cracksole.com,allsoftwarekeys.com,softwar2crack.com,procracks.net,productkeyforfree.com,bypassapp.com,zgamespc.com,newproductkey.com,serialkeysfree.org,wazusoft.com,getpcsofts.net,rootscrack.com,activators4windows.com,crackfury.com,torrentfilefree.com,9to5crack.com,greencracks.com,procrackhere.com,proproductkey.com,crack11.com,centerapps.net,freelicensekey.org,pcsoftz.net,freecrackdownload.com,f4file.com,serialkey360.com##[onclick*="open"]
+serialkey89.com,installcracks.com,crackserialkey.co,maliksofts.com,crackpropc.com,ayeshapc.com,crackhomes.com,crackspro.co,crackknow.com,4howcrack.com,trycracksoftware.com,getprocrack.co,activationkeys.co,organiccrack.com,softwarance.com,procrackkey.co,download4mac.com,freeactivationkeys.org,explorecrack.com,okproductkey.com,downloadpc.net,up4pc.com,hitproversion.com,cracktube.net,abbaspc.net,crackdownload.org,crackdownload.me,corecrack.com,windowsactivator.info,keygenstore.com,procrackpc.co,getmacos.org,latestproductkey.co,shanpc.com,crackpckey.com,torrentfilefree.com,patchcracks.com,idmfullversion.com,wareskey.com,crackbell.com,newproductkey.com,osproductkey.com,serialkeysfree.org,autocracking.com,crackzoom.com,greencracks.com,profullversion.com,crackswall.com,rootcracks.org,licensekeys.org,softserialkey.com,free4pc.org,productkeys.org,crackedfine.com,idmcrackeys.com,crackedhere.com,licensekeysfree.org,trycracksetup.com,crackedsoft.org,assadpc.com,thecrackbox.com,crackproductkey.com,cracklabel.com,keystool.com,crackedpcs.com,cracksmad.com,licensekeyup.com,chcracked.com,finalcracked.com,activatorpros.com,crackedmod.com,whitecracked.com,cracksoon.com,boxcracked.com,activationkey.org,serialkeypatch.org,crackedsoftpc.com,proapkcrack.com,softscracked.com,freeappstorepc.com,reallpccrack.com,crackfullkey.net,hmzapc.com,zcracked.com,usecracked.com,crackedversion.com,aryancrack.com,piratespc.net,reallcrack.com,fultech.org,crackpro.org,cracksray.com##center > [class*="buttonPress-"]
+free4pc.org,warezcrack.net,freeprosoftz.com,vcracks.com,crackthere.com,keygenfile.net,scracked.com,cyberspc.com,softzcrack.com,crackintopc.com,zslicensekey.com,procrackpc.com,crackshere.com,crackdj.com,cracktopc.com,serialsofts.com,prosoftlink.com,zscracked.com,crackvip.com,windowcrack.com,softsnew.com,licensecrack.net,vstpatch.net,newcrack.info,topkeygen.com,vsthomes.com,vstserial.com,procrackerz.com,pcfullcrack.org,keygenpc.com,bicfic.com,ikcrack.com,downloadcracker.com,karancrack.com,piratesfile.com,activatorwin.com,starcrack.net,crackproduct.com,dgkcrack.com,crackglobal.com,crackcan.com,keygendownloads.com,crackpatched.com,windowsactivators.org,serialsoft.org,crackit.org,productscrack.com,crackurl.info,crackroot.net,crackmak.com,seeratpc.com,crackmix.com,piratepc.me,activators4windows.com,letcracks.com,latestcracked.com,proproductkey.com,fullversionforever.com,vlsoft.net,topcracked.com,goharpc.com,crackeado.net,freecrackdownload.com,assadpc.com,fileoye.com,f4file.com,crackpcsoft.net,crackwinz.com,excrack.com,mahcrack.com,get4pcs.com,keygenwin.com,mycrackfree.com,crackfullpro.com,crackkey4u.com,fileserialkey.com,cracksdat.com,crackgrid.com,licensekeysfree.com,crackkeymac.com,freecrack4u.com,getintomac.net,protocrack.com,crackreview.com,activatorskey.com,kuyhaa.cc,cracktel.com,up4crack.com##div[class^="code-block code-block-"]
+crackkits.com,rootcracks.co,crackwatch.org,crackfix.net,origincrack.com,procrackerz.com,crackhub.org,crackrules.com,zeemalcrack.com,haxmac.cc,cracka2zsoft.com,clevercracks.com,crackpropc.com,crackspro.co,crackknow.com,onhax.in##.getox
+alicracks.com,win-crack.com,productkeyfree.org,productkeyforfree.com,wazusoft.com,piratesfile.com,kalicrack.com,sadeempc.com,letcracks.com##center > a
+cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:center;"]
+haxnode.net##[id^="haxno-"]
 ||xforce-cracks.com^$doc
 ||fileisready.com^$doc
 /?act=*&epcVIP=$doc
 ||yip.su/latestfiles|$all
 ||cli.re/premiumfiles|$all
 ||coronasfapps.net^$doc
+||sustac.com^$all
 ||theannoyingsite.com^$all
 .top/vpnupdate/*/index.html$doc
 ||smartklick.biz^$all
@@ -104789,7 +104810,7 @@ natgeotv.com##+js(set, Visitor, {})
 ||cdn.cuty.io/fps.js^$domain=tickzoo.tv
 ||roshy.tv/wp-content/uploads/perfmatters/gtagv4.js
 www.lenovo.com##+js(aost, history.replaceState, injectedScript)
-*$1p,strict3p,script,header=via:1.1 google
+!*$1p,strict3p,script,header=via:1.1 google
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
