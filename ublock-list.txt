@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3HGh+/a+6tmF155WhsrL0w
+! Checksum: yi8OdGQbrblSntMo/PAPvg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310230219
-! Last Modified: 2023年10月23日 02:19
+! Version: 202310230912
+! Last Modified: 2023年10月23日 09:12
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -49674,6 +49674,7 @@ browsershots.org#@#.advert_area
 ||insurads.com^$third-party
 ||integr8.digital^$third-party
 ||intenthq.com^$third-party
+||intentiq.com^$third-party
 ||intentmedia.net^$third-party
 ||interactiveads.ai^$third-party
 ||interadv.net^$third-party
@@ -61388,6 +61389,7 @@ bangordailynews.com##.scaip
 newindianexpress.com##.scc
 radiotimes.com##.schedule__row-list-item-advert
 hentaihaven.icu,hentaihaven.xxx,hentaistream.tv,nhentai.io##.script_manager_video_master
+eatsmarter.com##.scroll-creatives
 readmng.com##.scroll_target_top
 lethbridgenewsnow.com##.scroller
 cyclinguptodate.com,tennisuptodate.com##.sda
@@ -73159,6 +73161,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||verdantanswer.com^
 ||verifyvegetable.com^
 ||verseballs.com^
+||vibranthaven.com^
 ||victoriousrequest.com^
 ||virgoplato.com^
 ||virtualvincent.com^
@@ -78806,6 +78809,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||speed.cloudflare.com/__log
 ||sportsmansguide.com/scripts/vendor/at_
 ||spotifycdn.com/cdn/js/retargeting-pixels-
+||spt.ahram.org.eg^
 ||squarespace.com/api/1/performance/
 ||squirrel.malaynahocker.com^
 ||srchoffer.com/tracking/
@@ -102173,7 +102177,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||dload.site^$doc
 ||kloagamelf.site^$doc
 ||mewteam.store^$doc
-||mewhack.com^$doc
 ||www.youtube.com/@Download-Links$doc
 ||www.youtube.com/@download-link$doc
 ||www.youtube.com/@Download_Link929$doc
@@ -102329,7 +102332,6 @@ serialkey89.com,installcracks.com,crackserialkey.co,maliksofts.com,crackpropc.co
 free4pc.org,warezcrack.net,freeprosoftz.com,vcracks.com,crackthere.com,keygenfile.net,scracked.com,cyberspc.com,softzcrack.com,crackintopc.com,zslicensekey.com,procrackpc.com,crackshere.com,crackdj.com,cracktopc.com,serialsofts.com,prosoftlink.com,zscracked.com,crackvip.com,windowcrack.com,softsnew.com,licensecrack.net,vstpatch.net,newcrack.info,topkeygen.com,vsthomes.com,vstserial.com,procrackerz.com,pcfullcrack.org,keygenpc.com,bicfic.com,ikcrack.com,downloadcracker.com,karancrack.com,piratesfile.com,activatorwin.com,starcrack.net,crackproduct.com,dgkcrack.com,crackglobal.com,crackcan.com,keygendownloads.com,crackpatched.com,windowsactivators.org,serialsoft.org,crackit.org,productscrack.com,crackurl.info,crackroot.net,crackmak.com,seeratpc.com,crackmix.com,piratepc.me,activators4windows.com,letcracks.com,latestcracked.com,proproductkey.com,fullversionforever.com,vlsoft.net,topcracked.com,goharpc.com,crackeado.net,freecrackdownload.com,assadpc.com,fileoye.com,f4file.com,crackpcsoft.net,crackwinz.com,excrack.com,mahcrack.com,get4pcs.com,keygenwin.com,mycrackfree.com,crackfullpro.com,crackkey4u.com,fileserialkey.com,cracksdat.com,crackgrid.com,licensekeysfree.com,crackkeymac.com,freecrack4u.com,getintomac.net,protocrack.com,crackreview.com,activatorskey.com,kuyhaa.cc##div[class^="code-block code-block-"]
 crackkits.com,rootcracks.co,crackwatch.org,crackfix.net,origincrack.com,procrackerz.com,crackhub.org,crackrules.com,zeemalcrack.com,haxmac.cc,cracka2zsoft.com,clevercracks.com,crackpropc.com,crackspro.co,crackknow.com##.getox
 alicracks.com,win-crack.com,productkeyfree.org,productkeyforfree.com,procrackerz.org,crackdev.com,wazusoft.com,piratesfile.com,piratpc.com,kalicrack.com,sadeempc.com,letcracks.com##center > a
-cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:center;"]
 ||xforce-cracks.com^$doc
 ||fileisready.com^$doc
 /?act=*&epcVIP=$doc
