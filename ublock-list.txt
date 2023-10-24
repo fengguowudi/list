@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CF1P5OiaHXdd08Y0Ye91lw
+! Checksum: 7Jouwjhedclx1F6acVkebw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310242031
-! Last Modified: 2023年10月24日 20:31
+! Version: 202310250221
+! Last Modified: 2023年10月25日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1015,6 +1015,7 @@
 /js_interstitial.
 /jsad.php
 /jsAds-$script
+/jsblob.hj?lb=
 /jspopunder.
 /keyade.js
 /keyword_ad.
@@ -56841,6 +56842,7 @@ browsershots.org#@#.advert_area
 ||generalblue.com/js/pages/shared/lazyads.min.js
 ||gentent.streampiay.fun^
 ||gocdkeys.com/images/background
+||gontent.powzers.lol^
 ||googlesyndication.com^$domain=blogto.com|youtube.com
 ||govevents.com/display-file/
 ||graphicdesignforums.co.uk/banners/
@@ -66348,7 +66350,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /js/_analytics/*
 /js/analitics.js
 /js/count.js.
-/js/counter.js
+/js/counter.js?
 /js/dart.js
 /js/hbx.js
 /js/lead-tracking/*
@@ -66406,6 +66408,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /library/svy/broker.js
 /libs/tracker.js
 /liferay-analytics-api.js
+/liferay-analytics-processor.js
 /lightspeed_tracker.js
 /link-tracker-
 /link_track.js
@@ -66704,7 +66707,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /NitroCookies.js
 /njs.gif?
 /nlogger.js
+/nLoggerJB_
 /nm/itracking?
+/NNAnalyticsWPSites.js
 /no-impression.gif?
 /np?log=
 /npm/perfops-rom
@@ -67948,6 +67953,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /wp-content/plugins/wp-clickmap/clickmap.js
 /wp-content/tracker.js
 /wp-js/analytics.js
+/wp-slimstat.js
 /wp-slimstat.min.js
 /wp-statistics-tracker.min.js
 /wp-statistics/assets/js/tracker.js
@@ -98714,8 +98720,8 @@ javynow.com##.videos-ad__wrap:style(background-color: transparent !important)
 javynow.com##.banner-player
 st23q.com##+js(aopr, app_vars.force_disable_adblock)
 st23q.com##+js(set, blurred, false)
-beautyram.info,gonety.com,viraloc.com##+js(aopr, app_vars.force_disable_adblock)
-beautyram.info,gonety.com,viraloc.com##+js(set, blurred, false)
+beautyram.info,viraloc.com##+js(aopr, app_vars.force_disable_adblock)
+beautyram.info,viraloc.com##+js(set, blurred, false)
 @@||escapegames24.com^$ghide
 escapegames24.com##ins.adsbygoogle
 escapegames24.com###HTML13
@@ -99629,9 +99635,6 @@ netpornix.*###videoadsid
 netpornix.*##[href^="https://bit.ly/"]
 netpornix.*##.videoads
 netxwatch.*##+js(aopr, __Y)
-arab-chat.club##+js(aopr, app_vars.force_disable_adblock)
-arab-chat.club##+js(set, blurred, false)
-arab-chat.club##.banner
 dz-linkk.com##+js(aopr, app_vars.force_disable_adblock)
 dz-linkk.com##+js(set, blurred, false)
 dz-linkk.com##.banner
@@ -102555,6 +102558,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||tokyobag.shop^$all
 ||zozo-jp.shop^$all
 ||erdfkhxrnanm.top^$all
+||tfehmsag.xyz^$all
+||authority-uspser.top^$all
+||www.uspertest.vip^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
 ||adblock-one-protection.com^$all
@@ -104523,6 +104529,7 @@ panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaborator
 ||31830fbc-adbf-11ed-afa1-0242ac120002.site^$xhr,ping
 ||15823f12-289e-4189-9e51-e2de1bf1a105.online^$xhr,ping
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,3p,match-case
+loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
 ||connectier.io^
 ||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,redirect=fingerprint2.js,important
 ||collector.xhwebsite.com^
