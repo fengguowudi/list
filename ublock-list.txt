@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hiyctGJwLtrK17pTtlL+fQ
+! Checksum: LKGzw6ieHKorfAo40d58Zg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310280220
-! Last Modified: 2023年10月28日 02:20
+! Version: 202310280909
+! Last Modified: 2023年10月28日 09:09
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16832,6 +16832,7 @@ _800x80_
 ##.tcf-ad
 ##.td-a-ad
 ##.td-a-rec-id-custom_ad_1
+##.td-a-rec-id-custom_ad_2
 ##.td-a-rec-id-custom_ad_3
 ##.td-a-rec-id-custom_ad_4
 ##.td-a-rec-id-custom_ad_5
@@ -22545,6 +22546,7 @@ browsershots.org#@#.advert_area
 ||beastsclassbiscuit.com^
 ||beastsmalefic.uno^
 ||beatifulapplabland.com^
+||beatifulllhistory.com^
 ||beautifulasaweath.info^
 ||beaverculbert.uno^
 ||beavertron.com^
@@ -62313,7 +62315,6 @@ elitepvpers.com##[width="966"]
 presearch.com##[x-data*="kwrdAdFirst"]
 mobiforge.com##a > img[alt="Ad"]
 eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
-freshplaza.com##a.banner
 cript.to##a.btn[target="_blank"][href^="https://cript.to/"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[ajaxify*="&eid="] + a[href^="https://l.facebook.com/l.php?u="]
 newstalkflorida.com##a[alt="Ad"]
@@ -62393,6 +62394,7 @@ cript.to##a[href^="https://cript.to/link/"][href*="?token="]
 moddroid.co##a[href^="https://doodoo.love/"]
 pluggedingolf.com##a[href^="https://edisonwedges.com/"]
 files.im##a[href^="https://galaxyroms.net/?scr="]
+odin-valhallarising.com,tarislandglobal.com##a[href^="https://get.surfshark.net/"]
 warm98.com##a[href^="https://giving.cincinnatichildrens.org/donate"]
 disasterscans.com##a[href^="https://go.onelink.me/"]
 etherscan.io##a[href^="https://goto.etherscan.com/"] > img
@@ -62926,6 +62928,8 @@ booking.com##.js_sr_persuation_msg
 booking.com##.sr-motivate-messages
 ##.section-subheader > .section-hotel-prices-header
 yahoo.com###Horizon-ad
+yahoo.com###Lead-0-Ad-Proxy
+yahoo.com###adsStream
 yahoo.com###defaultLREC
 finance.yahoo.com###mrt-node-Lead-0-Ad
 sports.yahoo.com###mrt-node-Lead-1-Ad
@@ -62945,6 +62949,7 @@ yahoo.com###sda-MON
 yahoo.com###sda-WFPAD
 mail.yahoo.com###slot_LREC
 yahoo.com###viewer-LDRB
+yahoo.com###viewer-LREC2
 yahoo.com###viewer-LREC2-iframe
 yahoo.com##.Feedback
 finance.yahoo.com##.ad-lrec3
@@ -62965,7 +62970,9 @@ yahoo.com##.searchCenterTopAds
 yahoo.com##.sys_shopleguide
 yahoo.com##.viewer-sda-container
 groupon.com##[data-bhc$="sponsored_carousel"]
+yahoo.com##[data-content="Advertisement"]
 mail.yahoo.com##[data-test-id^="pencil-ad"]
+yahoo.com##[data-wf-beacons]
 finance.yahoo.com##[id^="defaultLREC"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
 yahoo.com##a[data-test-id="large-image-ad"]
@@ -64982,7 +64989,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 &EventType=DataDealImpression&
 &EventType=Impression&
 &hitType=pageview&
-&http_referer=$script,xmlhttprequest,domain=~facebook.com|~jobscore.com
+&http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &refer=http$script
 &t=pageview&
 -adobe-analytics.
@@ -66733,7 +66740,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /plugins/vdz-google-analytics/*
 /plugins/visitors-traffic-
 /plugins/wordfence/visitor.php?
-/plugins/wp-monero-miner/*
 /pm/pixel.
 /pmc-cxense.js
 /pointeur.gif?
@@ -67412,46 +67418,36 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /tracking/log?
 /tracking/networktrackingservlet
 /tracking/open?
-/tracking/pageview.
 /tracking/pixel.
 /tracking/referrer?
 /tracking/thirdpartytag.js
 /tracking/trackpageview
 /tracking/user_sync_widget?
 /tracking/views/*
-/tracking/xtcore.
-/tracking202/*
+/tracking/xtcore.js
+/tracking202/static/landing.php
 /Tracking?id=
 /tracking?referrer
 /Tracking?t=
 /tracking?vs=
-/tracking_ajax.
-/tracking_frame_
-/tracking_headerJS_
 /tracking_id_
-/tracking_iframe.
-/tracking_pix.
 /tracking_pixel
 /tracking_unitary/*
-/trackingab?
 /trackingCode-
 /trackingCode.js
-/TrackingCookieCheck.
-/TrackingCookieCheck?
 /trackingcookies.
 /trackingDTM.js
 /trackingEventsBlocks/*
-/trackingFooter.
+/trackingFooter.js
 /trackingGA.js
-/TrackingHandler.
-/trackingheader.
+/TrackingHandler.js
+/trackingheader.js
 /trackingImpression/*
 /trackingp.gif
 /trackingPixel.
 /TrackingPixel/*
-/trackingScriptLoader.
 /trackingTools.
-/trackingVtm.
+/trackingVtm.js
 /trackIt.js
 /trackit.php?
 /trackit.pl?
@@ -67460,11 +67456,11 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /tracklog.
 /trackmerchant.js
 /trackmvisit?
-/tracknat.
 /trackopen.cgi?
 /trackPage.js?
 /trackpagecover?
-/trackpageview.
+/trackpageview.js
+/trackpageview.php
 /trackPageView/*
 /TrackPageview?
 /trackpixel?
@@ -67480,10 +67476,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /trackvisit?
 /TrackVisitors/*
 /TrackWebPage?
-/traffic-source-cookie.
-/traffic-source-cookie/*
+/traffic-source-cookie.min.js
 /traffic/status.gif?
-/traffic/track^
 /traffic_record.php?
 /TrafficCookie.js
 /traffictrade/*
@@ -67695,7 +67689,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /wp-content/tracker.js
 /wp-js/analytics.js
 /wp-monero-miner-class.js
+/wp-monero-miner-util.min.js
 /wp-monero-miner.js
+/wp-monero-miner.min.js
 /wp-slimstat.js
 /wp-slimstat.min.js
 /wp-statistics-tracker.min.js
@@ -69458,6 +69454,7 @@ _mongo_stats/
 ||haveamint.com^$third-party
 ||hbwrapper.com^$third-party
 ||heapanalytics.com^$third-party
+||heatmap.com^$third-party
 ||heatmap.it^$third-party
 ||heatmap.services^$third-party
 ||hellosherpa.com^$third-party
@@ -73654,6 +73651,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.4u.pl^$third-party
 ||stat.pl^$third-party
 ||tagcdn.com^$third-party
+||trafficscanner.pl^$third-party
 ||volvelle.tech^$third-party
 ||way2traffic.com^$third-party
 ||ad5track.com^$third-party
@@ -97544,6 +97542,7 @@ arketing.indianadunes.com^
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 @@||www.ups.com/WebTracking/processInputRequest
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
+@@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 !! amplitude.com/libs
@@ -101252,8 +101251,8 @@ onlytech.com##+js(acs, $, test)
 ||vlc.de^$doc
 ||audacity.de^$doc
 ||havenworks.com^$doc
-ublock.org##main::before:style(content: 'uBlock has nothing in common with the well-known uBlock Origin.' !important; font-size: 32px !important; color: red !important; font-weight: bold !important;)
-support.ublock.org##div.hero-unit > div.search-box--hero-unit::before:style(content: 'uBlock has nothing in common with the well-known uBlock Origin.' !important; font-size: var(--font-size-h2) !important; color: red !important; font-weight: bold !important;)
+~support.ublock.org,ublock.org##main::before:style(content: 'uBlock is unrelated to the well-known uBlock Origin.' !important; font-size: 32px !important; color: red !important; font-weight: bold !important;)
+support.ublock.org##div.hero-unit > div.search-box--hero-unit::before:style(content: 'uBlock is unrelated to the well-known uBlock Origin.' !important; font-size: var(--font-size-h2) !important; color: red !important; font-weight: bold !important;)
 ||7zip.es^$doc
 ||7zip.fr^$doc
 ||7zip.it^$doc
@@ -106793,6 +106792,7 @@ buytesmart.com##body[style*="display: none"]:remove-attr(style)
 /nielsen.js$badfilter
 help.cashctrl.com##+js(set, Origami, {})
 help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
+@@||microsoft.com/*/aria-web-telemetry$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -113979,7 +113979,7 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 # entries:        3722
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
-# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
+# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1
 # Patreon:        https://patreon.com/blocklist
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
