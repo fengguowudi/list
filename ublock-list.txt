@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VAqvDpmcBgFh3iNL0gkWjA
+! Checksum: ZVcGy26YpQgMTxIDqCurXQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310281419
-! Last Modified: 2023年10月28日 14:19
+! Version: 202310282028
+! Last Modified: 2023年10月28日 20:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -104156,6 +104156,7 @@ cambe.pr.gov.br,paranhos.ms.gov.br##^script[language][type]:has-text(window.loca
 ||newupdatesnow.com^$all
 ||thefinanceadvice.com^$all
 ||fralstamp-genglyric.icu^$all
+||ilil.in^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -104458,7 +104459,8 @@ starstyle.com##+js(href-sanitizer, a[href^="https://go.skimresources.com/"][href
 insidehook.com##+js(href-sanitizer, a[href^="https://click.linksynergy.com/deeplink?id="][href*="&murl="], ?murl)
 insidehook.com##+js(href-sanitizer, a[href*="?"][href*="&url=http], ?url)
 insidehook.com##+js(href-sanitizer, a[href*="?"][href*="&u=http"], ?u)
-fap18.net##+js(href-sanitizer, a[href^="/vp/player/to/?u=http"]\, a[href^="/vp/download/goto/?u=http"], ?u)
+fap18.net,xxxmom.net,fuck55.net,gofucker.com,sexu.tv,vid123.net,babe8.net,beeg.porn##+js(href-sanitizer, a[href^="/vp/player/to/?u=http"]\, a[href^="/vp/download/goto/?u=http"], ?u)
+losporn.org,streamporn.li,pandamovies.org,bananamovies.org,xopenload.net,adultdvdparadise.com,speedporn.net,mangoporn.net,pandamovie.info,mangoporn.co,mangoparody.com,xxxscenes.net,pornkino.cc,watchxxxfree.pw,pandamovie.in,speedporn.pw,watchfreexxx.net,youwatchporn.com,watchpornfree.info,pandamovies.me,xtapes.me,netflixporno.net,pornwish.org,freeomovie.info,fullxxxmovies.me,watchpornx.com,xxxparodyhd.net,xxxstream.me,pornwatch.ws,xopenload.pw,onstreams.net,playpornfree.xyz,pandamovies.pw,streamporn.pw,xopenload.me##+js(href-sanitizer, a[href^="https://drivevideo.xyz/link?link=http"], ?link)
 nowinstock.net##+js(href-sanitizer, a[href^="https://click.linksynergy.com/deeplink?id="][href*="&murl="], ?murl)
 nowinstock.net##+js(href-sanitizer, a[href^="http://go.redirectingat.com"][href*="&url="], ?url)
 nowinstock.net##+js(href-sanitizer, a[href*="?"][href*="&u=http"], ?u)
@@ -104471,7 +104473,6 @@ disqus.com##+js(href-sanitizer, a[href^="https://disq.us/?url=http"], ?url)
 disqus.com##a[href][data-link-out]:remove-attr(data-link-out)
 steamcommunity.com##+js(href-sanitizer, a[href^="https://steamcommunity.com/linkfilter/?url=http"], ?url)
 colab.research.google.com##+js(href-sanitizer, a[href^="https://colab.research.google.com/corgiredirector?site=http"], ?site)
-losporn.org##+js(href-sanitizer, a[href^="https://drivevideo.xyz/link?link=http"], ?link)
 /detroitchicago/dpv.gif?$image
 /detroitchicago/imp.gif$ping
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,newstimes.com,nhregister.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,timesunion.com##+js(cookie-remover, realm.cookiesAndJavascript)
