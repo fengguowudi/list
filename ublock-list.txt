@@ -1,16 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: LKGzw6ieHKorfAo40d58Zg
+! Checksum: VAqvDpmcBgFh3iNL0gkWjA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310280909
-! Last Modified: 2023年10月28日 09:09
+! Version: 202310281419
+! Last Modified: 2023年10月28日 14:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
 !-----------------------General advert blocking filters-----------------------!
 -ad-300x600-
 -ad-458x80.
--ad-banner-
 -ad-bottom-
 -ad-column-
 -ad-manager/$~stylesheet
@@ -104472,6 +104471,7 @@ disqus.com##+js(href-sanitizer, a[href^="https://disq.us/?url=http"], ?url)
 disqus.com##a[href][data-link-out]:remove-attr(data-link-out)
 steamcommunity.com##+js(href-sanitizer, a[href^="https://steamcommunity.com/linkfilter/?url=http"], ?url)
 colab.research.google.com##+js(href-sanitizer, a[href^="https://colab.research.google.com/corgiredirector?site=http"], ?site)
+losporn.org##+js(href-sanitizer, a[href^="https://drivevideo.xyz/link?link=http"], ?link)
 /detroitchicago/dpv.gif?$image
 /detroitchicago/imp.gif$ping
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,newstimes.com,nhregister.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,timesunion.com##+js(cookie-remover, realm.cookiesAndJavascript)
@@ -113979,7 +113979,7 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 # entries:        3722
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
-# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1
+# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
 # Patreon:        https://patreon.com/blocklist
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
