@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: C5L64JMQjV2w6LG1ZRICcA
+! Checksum: S0/+JMiypUktCDliKzF2mw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310292028
-! Last Modified: 2023年10月29日 20:28
+! Version: 202310300219
+! Last Modified: 2023年10月30日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -65127,6 +65127,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /_vercel/insights/script.js
 /_visitcount?
 /a.gif?
+/a/performance_timing/*
 /a8c-analytics.
 /a8c-analytics/*
 /aap/stats
@@ -65160,6 +65161,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /adm_tracking.js
 /adobe-analytics-$domain=~business.adobe.com
 /adobe-analytics.js
+/adobe-analytics/*$script
 /adobe-analytics2.js
 /adobe-prd/*
 /adobe.visitor-
@@ -65342,6 +65344,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /api-insights/log?
 /api/0/stats
 /api/adplogger/*
+/api/cmp_tracker|
 /api/drpStats
 /api/event-rfkj/*
 /api/ipv4check?
@@ -66626,6 +66629,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /page/page_view
 /page/unload?
 /page_analytics.js
+/page_counter.js
 /page_perf_log?
 /pagead/conversion_async.js
 /PageCount.php?
@@ -66659,6 +66663,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /pageviews.gif?
 /pageviews?token=
 /parsely.js
+/particles/analytics.js
 /partner-analytics/*
 /partner/transparent_pixel-$image
 /partnermetrics.js
@@ -66677,6 +66682,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /performance.fcgi?
 /performance/metrics
 /performanceMetrics?
+/perimeterx/px.
 /permutiveIdGenerator.js
 /ph-tracking-1.2.js
 /phenomtrack.min.js
@@ -98973,6 +98979,7 @@ tekfiz.com##ins.adsbygoogle
 @@||onepiece-streaming.co^$ghide
 files.fm##+js(aopr, canRunAds)
 ||cdn.flashtalking.com^$media,redirect=noopmp3-0.1s,domain=app.plex.tv
+app.plex.tv##+js(json-prune, MediaContainer.Metadata.[].Ad)
 ||neonime.*/wp-content/themes/grifus/images/donate/yunita/
 discoveryplus.in##+js(no-fetch-if, ads)
 ||appnext.hs.llnwd.net^
@@ -102324,6 +102331,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||maxwecor19.shop^$all
 ||natymano17.shop^$all
 ||roryeico21.shop^$all
+||xqfefdkey.xyz^$all
 ||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
 ||adblock-one-protection.com^$all
