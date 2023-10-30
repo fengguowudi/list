@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: S0/+JMiypUktCDliKzF2mw
+! Checksum: uhccMlTqkZD4iTvwfwsg8Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202310300219
-! Last Modified: 2023年10月30日 02:19
+! Version: 202310300912
+! Last Modified: 2023年10月30日 09:12
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57901,6 +57901,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ||icepbns.com^$popup,domain=iceporn.com
 ||livejasmin.com/pu/$popup
 ||missav.com/pop?$popup
+||nhentai.net/api/_/popunder?$popup
 ||porndude.link/porndudepass$popup,domain=theporndude.com
 ||videowood.tv/pop?$popup
 ||xtapes.to/out.php$popup
@@ -65128,8 +65129,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /_visitcount?
 /a.gif?
 /a/performance_timing/*
-/a8c-analytics.
-/a8c-analytics/*
+/a8c-analytics.js
 /aap/stats
 /abc.gif?
 /access.php?referrer=
@@ -65143,9 +65143,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /action/analytics
 /activity.gif?
 /AD/PageHits.
-/adb-analytics
 /adb1.gif?
-/adblock_logging.
 /add_page_view?
 /addEvent?action=
 /addLinker.js
@@ -65533,7 +65531,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /call.tracker.js
 /callbacks/stats?
 /capture_client.js
-/CaptureStat.
+/CaptureStat.asmx
 /cdn-cgi/beacon/*
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
@@ -66125,6 +66123,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /GTag/general_tracker.js
 /gtag/js?
 /gtm-listeners.js
+/gtm-suite.js
 /gtm.js
 /gtm.min.js
 /gtm/gtm-
@@ -67653,6 +67652,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /visscore.tag.min.js
 /visualrevenue.js
 /vjslog?
+/vli-platform/adb-analytics@
 /vs-track.js
 /vs.gif?
 /vsl/imp?
@@ -69417,7 +69417,6 @@ _mongo_stats/
 ||getclicky.com^$third-party
 ||getconversion.net^$third-party
 ||getdrip.com^$third-party
-||getelevar.com^$third-party
 ||getfreebl.com^$third-party
 ||getlasso.co^$third-party
 ||getpublica.com^$third-party
@@ -74909,6 +74908,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geoip.nekudo.com^
 ||geolocation.outreach.com^
 ||geoservice.curse.com^
+||getelevar.com/shops/*/events.js
 ||getglue.com^*/count?
 ||getkudos.me/a?$image
 ||getmetrical.com/storagesync
@@ -74981,6 +74981,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||highwebmedia.com/CACHE/js/output.92c98302d256.js
 ||hit.mybestpro.com^
 ||hits.dealer.com^
+||hits.getelevar.com^
 ||hits.informer.com^
 ||hktracker.hankookilbo.com^
 ||hm.baidu.com^$third-party
@@ -76071,6 +76072,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking-api-4lasu2nlcq-ew.a.run.app^
 ||tracking-api.hotmart.com^
 ||tracking-api.mangopulse.net^
+||tracking-na.hawksearch.com^
 ||tracking.adalyser.com^
 ||tracking.ads.global-fashion-group.com^
 ||tracking.aegpresents.com^
@@ -77843,8 +77845,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consumer.org.nz/session/ping/
 ||containers.appdomain.cloud/api/send-log$domain=ibm.com
 ||conversion.mooncard.co^
-||coomer.party/api/event
-||coomer.su/api/event
+||coomer.su/api/v1/event
 ||copilot-telemetry.githubusercontent.com^
 ||count.rin.ru^
 ||coursehero.com/v1/data-tracking
@@ -78186,8 +78187,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kayak.*/vestigo/measure
 ||kbb.com/pixall/
 ||kck.st/web/track
-||kemono.party/api/event
-||kemono.su/api/event
+||kemono.su/api/v1/event
 ||kinesis.us-east-1.analytics.edmentum.com^
 ||kkam.com/rest/high/api/cogitoergosum^
 ||klm.us/CWZUvc/
@@ -98810,11 +98810,9 @@ elitepvpers.com##[href^="https://funpay.com/"]
 @@||gats.io^$ghide
 gats.io##+js(nosiif, 0x)
 ||foxhq.com/gabtab.webm$media,redirect=noop-1s.mp4
-tipstertube.com##+js(ra, href|target, a[href^="https://tipstertube.com/bookmaker/"][target="_blank"], stay)
 *$script,redirect-rule=noopjs,domain=cozinha.minhasdelicias.com
 decomaniacos.es##+js(acs, addEventListener, google_ad_client)
 todoseriales1.blogspot.com##+js(nosiif, visibility, 1000)
-asiatv.online##+js(acs, $, /visible|adsEnabled/)
 dbsmanga.com,read7deadlysins.com,readdrstone.com,readfairytail.com,readhxh.com,readkaguyasama.com,readkingdom.com,readmha.com,readnaruto.com,readnoblesse.com,readonepiece.com,readopm.com,readsnk.com,readtowerofgod.com,readvinlandsaga.com,watchgoblinslayer.com,watchoverlord2.com,watchsao.tv##.js-a-container
 dbsmanga.com,demonslayermanga.com,read7deadlysins.com,readdrstone.com,readfairytail.com,readhxh.com,readjujutsukaisen.com,readkaguyasama.com,readkingdom.com,readmha.com,readnaruto.com,readnoblesse.com,readonepiece.com,readopm.com,readsnk.com,readtowerofgod.com,readvinlandsaga.com,watchgoblinslayer.com,watchoverlord2.com,watchsao.tv##.justify-center > div > b:first-child, .justify-center > div > br:nth-of-type(-n+5), .justify-center > div > center
 bitcoinly.in##+js(aopr, app_vars.force_disable_adblock)
@@ -98843,6 +98841,8 @@ jattmate.com,saveshared.com,simpledownload.net##+js(aopr, String.fromCharCode)
 inextmovies.*##+js(nowoif)
 asianembed.io##+js(aeld, click, 0x)
 emb.apl236.me###ads
+||livesport24.net/*.gif$image
+||emb.apl284.me/*.php
 hd44.com##+js(nowoif)
 hwnaturkya.com##+js(aopw, _pop)
 *$script,3p,domain=hwnaturkya.com,denyallow=gstatic.com|recaptcha.net
@@ -98890,10 +98890,7 @@ onlinepornhub.net##.header-area
 onlinepornhub.net###footer-widget
 nepaliputi.net##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/)
 downloadcursos.top##+js(acs, eval, replace)
-exhost.online##+js(nowoif)
 platform.adex.network##+js(no-fetch-if, moonicorn.network)
-@@||linkhub.icu^$ghide
-linkhub.icu###rn_ad_native_f1hrx
 @@||uploadshare.net^$ghide
 uploadshare.net##ins.adsbygoogle
 uploadshare.net##.advert-wrapper
@@ -98931,9 +98928,6 @@ pewgame.com##body.captcha-page > .short
 ||pewgame.com/sw.js^
 ||pewgame.com/js/hre.js^
 *$script,redirect-rule=noopjs,domain=pewgame.com
-mobileflasherbd.com##+js(nowoif)
-@@||mobileflasherbd.com^$ghide
-mobileflasherbd.com###ads-blog
 dndsearch.in##+js(acs, $, height)
 redhdtube.xxx##+js(aopr, popns)
 ||redhdtube.xxx/tmp/
@@ -99701,8 +99695,6 @@ paid4.link##+js(set, blurred, false)
 paid4.link##.banner-inner
 paid4.link##.blog-content
 paid4.link##.box > div[align="center"] > .card
-onlynudes.tv##+js(acs, document.addEventListener, adsbygoogle)
-onlynudes.tv##.wps-iframe-loader
 openloading.com##+js(ra, href, #clickfakeplayer)
 openloading.com###clickfakeplayer
 codare.fun##+js(acs, document.addEventListener, google_ad_client)
@@ -102207,6 +102199,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||vlyyg.com^$all
 ||pimlm.com^$all
 ||mciun.com^$all
+||sanff.com^$all
 /axad/?lpkey=$doc
 ||vlcdownloads.com^$all
 ||borntiecalm.live^$all
@@ -104528,7 +104521,7 @@ columbian.com,nypost.com,pagesix.com##+js(cookie-remover, blaize_tracking_id)
 factable.com##+js(cookie-remover, akaclientip)
 factable.com##+js(cookie-remover, hive_geoloc)
 watchporn.to##+js(cookie-remover, kt_ips)
-bing.com##+js(cookie-remover, MicrosoftApplicationsTelemetryDeviceId)
+bing.com,msn.com##+js(cookie-remover, MicrosoftApplicationsTelemetryDeviceId)
 fandom.com##+js(set-cookie, tracking_session_id, OK, , reload, 1)
 fandom.com##+js(set-cookie, Geo, OK)
 clickorlando.com##+js(set-cookie, bitmovin_analytics_uuid, OK)

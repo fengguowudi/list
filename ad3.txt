@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2ziFZitMOdtcG0CiSk2dlQ
+! Checksum: FD7/Z8D3xPeVSNGG/aozaQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310300219
-! Last Modified: 2023年10月30日 02:19
+! Version: 202310300912
+! Last Modified: 2023年10月30日 09:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2133,6 +2133,16 @@ newduba.cn###jq_youxi
 ||zcpsc.top^
 ||zents2.top^
 ||zjdruhn.xyz^
+||esnysd.icu^
+||pxxnejx.xyz^
+||gmx34.top^
+||hunklm.com^
+||jiangjinmoa.cn^
+||uuzsfpju.xyz^
+||bmxvxl.xyz^
+||gmx36.top^
+||n019q.com^
+||bdlexn.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -21584,8 +21594,7 @@ m.babytree.com##script + a[class]
 /_visitcount?
 /a.gif?
 /a/performance_timing/*
-/a8c-analytics.
-/a8c-analytics/*
+/a8c-analytics.js
 /aap/stats
 /abc.gif?
 /access.php?referrer=
@@ -21599,9 +21608,7 @@ m.babytree.com##script + a[class]
 /action/analytics
 /activity.gif?
 /AD/PageHits.
-/adb-analytics
 /adb1.gif?
-/adblock_logging.
 /add_page_view?
 /addEvent?action=
 /addLinker.js
@@ -21989,7 +21996,7 @@ m.babytree.com##script + a[class]
 /call.tracker.js
 /callbacks/stats?
 /capture_client.js
-/CaptureStat.
+/CaptureStat.asmx
 /cdn-cgi/beacon/*
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
@@ -22581,6 +22588,7 @@ m.babytree.com##script + a[class]
 /GTag/general_tracker.js
 /gtag/js?
 /gtm-listeners.js
+/gtm-suite.js
 /gtm.js
 /gtm.min.js
 /gtm/gtm-
@@ -24109,6 +24117,7 @@ m.babytree.com##script + a[class]
 /visscore.tag.min.js
 /visualrevenue.js
 /vjslog?
+/vli-platform/adb-analytics@
 /vs-track.js
 /vs.gif?
 /vsl/imp?
@@ -25873,7 +25882,6 @@ _mongo_stats/
 ||getclicky.com^$third-party
 ||getconversion.net^$third-party
 ||getdrip.com^$third-party
-||getelevar.com^$third-party
 ||getfreebl.com^$third-party
 ||getlasso.co^$third-party
 ||getpublica.com^$third-party
@@ -31365,6 +31373,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geoip.nekudo.com^
 ||geolocation.outreach.com^
 ||geoservice.curse.com^
+||getelevar.com/shops/*/events.js
 ||getglue.com^*/count?
 ||getkudos.me/a?$image
 ||getmetrical.com/storagesync
@@ -31437,6 +31446,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||highwebmedia.com/CACHE/js/output.92c98302d256.js
 ||hit.mybestpro.com^
 ||hits.dealer.com^
+||hits.getelevar.com^
 ||hits.informer.com^
 ||hktracker.hankookilbo.com^
 ||hm.baidu.com^$third-party
@@ -32527,6 +32537,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking-api-4lasu2nlcq-ew.a.run.app^
 ||tracking-api.hotmart.com^
 ||tracking-api.mangopulse.net^
+||tracking-na.hawksearch.com^
 ||tracking.adalyser.com^
 ||tracking.ads.global-fashion-group.com^
 ||tracking.aegpresents.com^
@@ -34299,8 +34310,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consumer.org.nz/session/ping/
 ||containers.appdomain.cloud/api/send-log$domain=ibm.com
 ||conversion.mooncard.co^
-||coomer.party/api/event
-||coomer.su/api/event
+||coomer.su/api/v1/event
 ||copilot-telemetry.githubusercontent.com^
 ||count.rin.ru^
 ||coursehero.com/v1/data-tracking
@@ -34642,8 +34652,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kayak.*/vestigo/measure
 ||kbb.com/pixall/
 ||kck.st/web/track
-||kemono.party/api/event
-||kemono.su/api/event
+||kemono.su/api/v1/event
 ||kinesis.us-east-1.analytics.edmentum.com^
 ||kkam.com/rest/high/api/cogitoergosum^
 ||klm.us/CWZUvc/
