@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yS1icd1Qxgf/B0dEVBToNg
+! Checksum: ZLUKqU865doxISLXm/nJGw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311020911
-! Last Modified: 2023年11月02日 09:11
+! Version: 202311021421
+! Last Modified: 2023年11月02日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -59414,6 +59414,8 @@ temporary-phone-number.com##.adsense-top-728
 bolnews.com##.adsheading
 nepallivetoday.com##.adsimage
 search.b1.org##.adslabel
+ev-database.org##.adslot_detail1
+ev-database.org##.adslot_detail2
 cdrab.com,cryptfaucet.com,offerinfo.net##.adslr
 bolnews.com##.adspadding
 downzen.com##.adt
@@ -65126,10 +65128,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||xfreehd.com^$generichide
 ! EasyPrivacy
 !-----------------General tracking systems-----------------!
-&action=confection_send_data&
 &action=js_stats&
-&action=js_stats_
-&callback=hitStats_
 &ev=PageView&
 &event=view&
 &EventType=DataDealImpression&
@@ -97405,6 +97404,7 @@ arketing.indianadunes.com^
 @@||c.lytics.io/api/tag/$script,domain=time.com
 @@||c.paypal.com/da/r/fb.js$script
 @@||c.webtrends-optimize.com/acs/$script,domain=tvlicensing.co.uk
+@@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-net.com/cc.js
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
