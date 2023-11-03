@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8dPdTNXov4I9KQ0fhtjGBw
+! Checksum: 3Mu0MWgnnMmsT/sji6fr6g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311030912
-! Last Modified: 2023年11月03日 09:12
+! Version: 202311031421
+! Last Modified: 2023年11月03日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -106964,7 +106964,6 @@ instapundit.com#@#.ad-space:not(.textads)
 ||go.xlirdr.com^$xhr,removeparam
 @@||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:5,domain=trovvve.com
 @@||sonar.viously.com^$script,domain=aufeminin.com|consoglobe.com|cuisineaz.com|deco.fr|demotivateur.fr|fourchette-et-bikini.fr|futura-sciences.com|passeportsante.net|rustica.fr|wamiz.com|turbo.fr
-@@||cmp.quantcast.com^$script,domain=formulatv.com
 as.com##+js(set, DTM.trackAsyncPV, noopFunc)
 ||cdn.usefathom.com/script.js$domain=sharpen-free-design-generator.netlify.app,important
 sharpen-free-design-generator.netlify.app##+js(set, fathom, {})
