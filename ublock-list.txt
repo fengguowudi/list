@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PTy1trJnUkPxcaJuFh+TjA
+! Checksum: U/Ui09dqX+637uYhL74Mhg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311050917
-! Last Modified: 2023年11月05日 09:17
+! Version: 202311051419
+! Last Modified: 2023年11月05日 14:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -11873,6 +11873,7 @@ _800x80_
 ##.article-ad-legend
 ##.article-ad-main
 ##.article-ad-placeholder
+##.article-ad-placement
 ##.article-ad-primary
 ##.article-ad-row
 ##.article-ad-row-inner
@@ -58760,6 +58761,7 @@ farminguk.com###newsadvert
 canberratimes.com.au,theland.com.au###newswell-leaderboard-container
 nextshark.com###nextshark_com_leaderboard_top
 searchfiles.de###nextuse
+nanoreview.net###nfloat-sb-right
 seroundtable.com###ninja_box
 pcgamebenchmark.com,pcgamesn.com,pockettactics.com,theloadout.com,wargamer.com###nn_astro_wrapper
 steamidfinder.com,trueachievements.com,truesteamachievements.com,truetrophies.com###nn_bfa_wrapper
@@ -60338,6 +60340,7 @@ euractiv.com##.ea-gat-slot-wrapper
 coin360.com##.earnMenuButton-link
 expats.cz##.eas
 itwire.com,nativenewsonline.net##.eb-init
+ablogtowatch.com##.ebay-placement
 gfinityesports.com##.ecommerceUnit
 newagebd.net##.editorialMid
 editpad.org##.edsec
@@ -61687,6 +61690,7 @@ atlasobscura.com##.siderail-bottom-affix-placeholder
 rockradio.com##.sidewall-ad-component
 sifted.eu##.sifted_advert_block
 wncv.com##.simple-image
+nanoreview.net##.sinad_only_desktop
 metalsucks.net##.single-300-insert
 9to5mac.com##.single-custom-post-ad
 kolompc.com##.single-post-content > center
@@ -114227,8 +114231,8 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 31 Oct 2023 21:51:43 GMT
-# entries:        3720
+# last updated:   Sun, 05 Nov 2023 02:35:40 GMT
+# entries:        3721
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -116734,6 +116738,7 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 127.0.0.1 ns1p.net
 127.0.0.1 ntv.io
 127.0.0.1 ntvk1.ru
+127.0.0.1 nullitics.com
 127.0.0.1 nuseek.com
 127.0.0.1 nuttyorganization.com
 127.0.0.1 nzaza.com
