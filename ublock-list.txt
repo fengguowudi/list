@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: N5SQXhM0AQIAokL5R8WEEg
+! Checksum: PTy1trJnUkPxcaJuFh+TjA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311050219
-! Last Modified: 2023年11月05日 02:19
+! Version: 202311050917
+! Last Modified: 2023年11月05日 09:17
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -58784,6 +58784,7 @@ ckk.ai###orquidea-slideup
 electronicproducts.com,powvideo.net,streamplay.to,uxstyle.com###overlay
 dokicloud.one,fmoviefree.net###overlay-center
 mzzcloud.life,rabbitstream.net,rapid-cloud.ru,streamrapid.ru###overlay-container
+mp4upload.com###overlayads
 drivevideo.xyz###overlays
 animexin.vip###overplay
 aninews.in,footballorgin.com,gadgets360.com,hardwaretimes.com,justthenews.com,ndtv.com,oneindia.com,wionews.com,zeebiz.com###parentDiv0
@@ -58855,7 +58856,8 @@ anisearch.com###rrightX
 noqreport.com###rumble_vj59vh
 protocol.com###sHome_0_0_3_0_0_5_1_0_2
 glennbeck.com###sPost_0_0_5_0_0_9_0_1_2_0
-advocate.com,out.com###sPost_Layout_Default_0_0_16_0_0_2_2
+advocate.com,out.com###sPost_Layout_Default_0_0_17_0_0_2_2
+out.com###sPost_Layout_Default_0_0_20_0_0_2_2
 digminecraft.com###sabl
 flatpanelshd.com###sb-site > .hidden-xs.container
 centurylink.net,wowway.net###sc_home_header_banner
@@ -59430,11 +59432,13 @@ politico.eu##.ad__mobile
 asianjournal.com##.ad_before_title
 cheatcodes.com##.ad_btf_728
 auto-data.net##.ad_incar
+advocate.com##.ad_leaderboard_wrap
 bigislandnow.com##.ad_mobileleaderboard
 housing.com##.ad_pushup_paragraph
 housing.com##.ad_pushup_subtitle
 upi.com##.ad_slot_inread
 kitco.com##.ad_space_730
+advocate.com##.ad_tag
 outlookindia.com##.ad_unit_728x90
 watchmovierulz.to##.ad_watch_now
 queerty.com##.adb-box-large
@@ -65430,6 +65434,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /ahoy/visits
 /AIT_Analytics.js
 /ajax-hits-counter/increment-hits/index.php
+/ajax-link-tracker.js
 /ajax-track-page-view/*
 /ajax/analytics/*
 /ajax/log?
@@ -65478,7 +65483,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /analytics-events-
 /analytics-facade.
 /analytics-gjc-min.js
-/analytics-helper.
+/analytics-helper.js
 /analytics-hit?
 /analytics-ingestion/*
 /analytics-ingress-
@@ -66134,9 +66139,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /fingerprint2.min.js
 /fingerprint3.js
 /fingerprint3.min.js
-/fingerprintjs2.
-/firebase-performance-
-/firestats/*
+/firebase-performance-compat.js
+/firebase-performance-standalone.js
+/firestats/js/fs.js.php
 /firm_tracking.js
 /fkounter/counter.js
 /fkounter5/counter.js
@@ -66254,7 +66259,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /geoAnalysis.js
 /geocc.js
 /geocompteur.php
-/geoip.html
 /geoip/detect?
 /geoip?
 /geoip_cc
@@ -66325,7 +66329,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /gtm.min.js
 /gtm/gtm-
 /gtmTracking.js
-/gv-analytics/*
+/gv-analytics/riveted.js
 /gweb/analytics/*
 /h.gif?
 /hc/activity
@@ -66395,7 +66399,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /imgcount.cgi?
 /imgcount.php?
 /imgevent?
-/imgtracker.
 /imp.gif?
 /imp.php?
 /imp2.js?
@@ -66419,16 +66422,16 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /in.gif?url=
 /in.php?referer=
 /inboundAnalytics.min.js
-/include/js/ga-
+/include/js/ga-set.js
 /increment_page_counter.jsp
 /index.track?
 /indextools.js
 /inline-pixel.js
 /inpl.measure.jssc
 /insales_counter.js?
-/insights-collector.
-/InsightTrk/*
-/insitemetrics/*
+/InsightTrk/guuidSkeleton.do?
+/InsightTrk/tracker.do?
+/insitemetrics/uRMJ/ujutilv2sll.js
 /instantpage.js
 /instart.js
 /interaction/beacon
@@ -66437,7 +66440,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /IPbeacon.min.js
 /ipdvdc.min.js
 /ips-invite.iperceptions.com/*
-/iterable/track/*
+/iterable/track/views/*
 /itgdtracksdk.js
 /itmdp_code.js
 /ivw/SP/*$image,script
@@ -66517,9 +66520,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /liferay-analytics-api.js
 /liferay-analytics-processor.js
 /lightspeed_tracker.js
-/link-tracker-
 /link_track.js
-/link_tracking/*
 /linkinformer.js
 /linkpulse.js
 /linktrack.js
@@ -66528,7 +66529,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /livecounter.php?wid=
 /livestats.js
 /livezilla/server.php?request=track&
-/ljcounter/*
 /load_analytics.php
 /loader/counter.js
 /localga.js
@@ -66660,8 +66660,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /mediateGA.js
 /megacounter/*
 /mendelstats.js
-/meta-analytics/*
-/meta-tracker/*
 /metatraffic/track.asp?
 /metric/?mid=
 /metric/?wid=
@@ -66689,14 +66687,11 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /mint/?js
 /mint/?record
 /mintstats/?js
-/mistat-data/*
-/mistats/*
-/mixpanel-init.
+/mistat-data/onetrack/onetrack.js
+/mixpanel-init.js
 /mixpanel.$domain=~mixpanel.com
-/mixpanel_tracker.
 /mlb-ml-analytics.min.js
 /mlopen_track.
-/mm_track/*
 /mmclient.js
 /mmcore.js
 /mmetrix.mobi/*
@@ -66706,11 +66701,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /mngi/tracking/*
 /mnppixellibrary.min.js
 /mnt/imp?
-/moapt-action-iq-analytics.
 /moat/yield.js
 /moatanalytics-
 /mobileanalytics.
-/modoweb-tracking/*
 /module/analytics/*
 /moksa.js
 /monetate.js
@@ -66741,7 +66734,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /naytev.min.js
 /ncj-pixel.js
 /neilson.js
-/neocounter/*
+/neoworx_tracker.php
 /netmining.js
 /netresults.js
 /neustar.beacon.js
@@ -66753,7 +66746,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /newrelic-browser.min.js
 /newrelic.js
 /newrelic.min.js
-/newSophus/*
 /nielsen.htm
 /nielsen.js
 /NitroCookies.js
@@ -66766,7 +66758,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /np?log=
 /npm/perfops-rom
 /nr-spa-1216.min.js
-/nsmg-tracking/*
 /ntpagetag.gif
 /ntpagetag.js
 /ntrack.asp?
@@ -66803,8 +66794,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /opinionlab.js
 /optiextension.dll?$script
 /optimizelyjs/*
-/optimost_
-/optmzly/*
 /ossleads_analytics.js
 /ot_e404.gif?
 /OtAutoBlock.js
@@ -66909,7 +66898,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /piwik1.
 /piwik2.
 /piwikapi.js
-/piwikTracker.
+/piwikTracker.js
 /pix-ddc-fp.min.js
 /pix.fcg?
 /pix.gif?
@@ -66958,6 +66947,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /plugins/duracelltomi-google-tag-manager/*
 /plugins/exactmetrics-
 /plugins/nimiq/*$script
+/plugins/nsmg-tracking/*
 /plugins/pageviews-counter/*
 /plugins/stat-dfp/*
 /plugins/status.gif?
@@ -67977,6 +67967,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ://elqtrk.
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
+://insights-collector.
 ://internal-matomo.
 ://lightning.*/launch/
 ://matomo.$domain=~matomo.org
@@ -70216,6 +70207,7 @@ _mongo_stats/
 ||nstracking.com^$third-party
 ||nuconomy.com^$third-party
 ||nuggad.net^$third-party
+||nullitics.com^$third-party
 ||nuloox.com^$third-party
 ||numerino.cz^$third-party
 ||nyltx.com^$third-party
@@ -78433,6 +78425,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||littlebigsnake.com/event?
 ||livehdcams.com/api/events
 ||livehdcams.com/api/metrics
+||livejournal.com/ljcounter/
 ||livejournal.com/log?
 ||liveperson.net/hc/*/?visitor=
 ||lnkd.in/li/track
@@ -107051,6 +107044,7 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 *$script,3p,denyallow=cloudflare.com|googleapis.com,domain=javgg.club|javgg.net,badfilter
 *$script,3p,denyallow=cloudflare.com|fluidplayer.com|googleapis.com,domain=javgg.club|javgg.net
 ||quantcast.com^$badfilter
+@@||wurfl.io/wurfl.js$script,domain=keukenatlas.nl
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
