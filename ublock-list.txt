@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NC41Jc8df4Ah21wpGuyOHA
+! Checksum: oo9IH2ufi0BMDNmMNGnP2A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311052029
-! Last Modified: 2023年11月05日 20:29
+! Version: 202311060219
+! Last Modified: 2023年11月06日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -27049,6 +27049,7 @@ browsershots.org#@#.advert_area
 ||druggedsilurid.com^
 ||drugue.com^
 ||drulwrbsmd.com^
+||drummerconvention.com^
 ||drumusherhat.com^
 ||drunkarddecentmeals.com^
 ||drust-gnf.com^
@@ -30816,6 +30817,7 @@ browsershots.org#@#.advert_area
 ||haphazardfraudulent.com^
 ||haplic.com^
 ||happeningdeliverancenorth.com^
+||happeningurinepomposity.com^
 ||happilydestructive.com^
 ||happy-davinci-53144f.netlify.com^
 ||happypasteheat.com^
@@ -68021,6 +68023,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /zaius-min.js
 /zaius.js
 /zanox.js
+/zaraz/s.js
 /zdcc.min.js
 /zhugeio.js
 /ztracker.js
@@ -102232,7 +102235,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||hacksworld.pro^$doc
 ||clc-link.me^$all
 ||soft-portal.me^$doc
-||oceanofgame.net^$doc
+||gamehacks.xyz^$doc
 ||tophacks.pro^$doc
 ||lavacheat.com^$doc
 .systems/signup?ad_domain=$doc,popup
@@ -104474,6 +104477,7 @@ cambe.pr.gov.br,paranhos.ms.gov.br##^script[language][type]:has-text(window.loca
 ||ets2.gr^$all
 ||api.quantiy.com^$all
 ||unitradingbot.com^$all
+||unitradingtool.info^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
