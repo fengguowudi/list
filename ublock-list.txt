@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KKtzz4At6uqPHIo3LG+jHA
+! Checksum: dcnGep22oxwAEW5yIcxVgQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311072031
-! Last Modified: 2023年11月07日 20:31
+! Version: 202311080220
+! Last Modified: 2023年11月08日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -67305,6 +67305,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /track_pixel?
 /track_proxy?
 /track_stat?
+/track_video.php?id=
 /track_visit.js
 /track_visit?
 /track_visitor?
@@ -78791,6 +78792,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||walmart.ca/api/home-page/logger
 ||walmart.ca/api/landing-page/beacon-logger
 ||walmartimages.com/dfw/4ff9c6c9-d9a0/$domain=walmart.com
+||wattpad.com/js/tracker/app.
 ||wc.yahoodns.net^$image
 ||wccftech.com/cnt7vfDVvWa3.js
 ||web.whatsapp.com/wam
@@ -104233,13 +104235,13 @@ panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaborator
 !#endif
 ||washpost.nile.works^
 /p13n/batch/action/*$image
-||da29e6b8-f018-490f-b25f-39a887fc95e7.xyz^
-||31830fbc-adbf-11ed-afa1-0242ac120002.site^$xhr,ping
-||15823f12-289e-4189-9e51-e2de1bf1a105.online^$xhr,ping
-/^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,3p,match-case
-loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
-apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com##+js(noeval-if, 07c225f3.online)
-apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com##^script:has-text(KCgpPT57bGV0IGU)
+loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
+apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com##+js(noeval-if, 07c225f3.online)
+!#if cap_html_filtering
+apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com##^script:has-text(KCgpPT57bGV0IGU)
+!#else
+apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com##+js(rmnt, script, KCgpPT57bGV0IGU)
+!#endif
 ||connectier.io^
 ||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,redirect=fingerprint2.js,important
 ||collector.xhwebsite.com^
@@ -104437,6 +104439,7 @@ disqus.com##a[href][data-link-out]:remove-attr(data-link-out)
 steamcommunity.com##+js(href-sanitizer, a[href^="https://steamcommunity.com/linkfilter/?url=http"], ?url)
 colab.research.google.com##+js(href-sanitizer, a[href^="https://colab.research.google.com/corgiredirector?site=http"], ?site)
 xda-developers.com##+js(href-sanitizer, a[href^="https://shop-links.co/link/?"][href*="&url=http"], ?url)
+isthereanydeal.com##+js(href-sanitizer, a[href^="http://www.jdoqocy.com/click-"][href*="?URL=http"], ?URL)
 /detroitchicago/dpv.gif?$image
 /detroitchicago/imp.gif$ping
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,newstimes.com,nhregister.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,timesunion.com##+js(cookie-remover, realm.cookiesAndJavascript)
@@ -106775,6 +106778,7 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 ||quantcast.com^$badfilter
 @@||wurfl.io/wurfl.js$script,domain=keukenatlas.nl
 *.gif$image,redirect=1x1.gif,domain=holybooks.com,important
+@@||src.litix.io/videojs/$script,domain=nasa.gov
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -113958,7 +113962,7 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Sun, 05 Nov 2023 02:35:40 GMT
-# entries:        3721
+# entries:        3720
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -117308,7 +117312,6 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 127.0.0.1 top123.ro
 127.0.0.1 top20free.com
 127.0.0.1 topforall.com
-127.0.0.1 topgamesites.net
 127.0.0.1 toplist.cz
 127.0.0.1 toplist.pornhost.com
 127.0.0.1 toplista.mw.hu
