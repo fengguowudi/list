@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dcnGep22oxwAEW5yIcxVgQ
+! Checksum: 1auTLhd4RghDr/ggxd0dCA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311080220
-! Last Modified: 2023年11月08日 02:20
+! Version: 202311080913
+! Last Modified: 2023年11月08日 09:13
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17671,6 +17671,7 @@ _800x80_
 ##a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="]
 ##a[href^="http://www.friendlyduck.com/AF_"]
 ##a[href^="http://www.gfrevenge.com/landing/"]
+##a[href^="http://www.h4trck.com/"]
 ##a[href^="http://www.iyalc.com/"]
 ##a[href^="http://www.mrskin.com/tour"]
 ##a[href^="http://www.onclickmega.com/jump/next.php?"]
@@ -25402,6 +25403,7 @@ browsershots.org#@#.advert_area
 ||cpahmeokparn.com^
 ||cpalabtracking.com^
 ||cpaoffers.network^
+||cpaokhfmaccu.com^
 ||cpaspeed.online^
 ||cpaway.com^
 ||cpays.com^
@@ -29662,6 +29664,7 @@ browsershots.org#@#.advert_area
 ||gbfgvzfcjfs.com^
 ||gbfwqsakvaysygn.xyz^
 ||gblcdn.com^
+||gbpkmltxpcsj.xyz
 ||gckkxvpbhhlx.com^
 ||gcqaxqowifrf.com^
 ||gcruperparverew.xyz^
@@ -32498,6 +32501,7 @@ browsershots.org#@#.advert_area
 ||jaggiertridii.com^
 ||jagice.uno^
 ||jagqrhvcvoqjw.com^
+||jaigaivi.xyz^
 ||jailabridge.com^
 ||jainbagong.com^
 ||jaireehu.net^
@@ -44459,6 +44463,7 @@ browsershots.org#@#.advert_area
 ||thewowfeed.com^
 ||thewscozier.uno^
 ||theyenglory.guru^
+||theyunm.com^
 ||thgebtibfyry.com^
 ||thick-ruin.pro^
 ||thickbabysittinghandled.com^
@@ -48399,6 +48404,7 @@ browsershots.org#@#.advert_area
 ||yummy-gap.pro^
 ||yumomis.com^
 ||yunded.com^
+||yunmaue.com^
 ||yunshipei.com^
 ||yupfiles.net^
 ||yuppads.com^
@@ -57954,6 +57960,8 @@ funkypotato.com###ads_header_home_970px
 lingojam.com###adsense-area-label
 ip-address.org###adsleft
 momjunction.com###adsolut
+byjus.com###adtech-related-links-container
+byjus.com###adtech-top-banner-container
 dict.leo.org###adv-drectangle1
 leo.org###adv-wbanner
 ventoy.net###adv_titles
@@ -58675,6 +58683,7 @@ oneindia.com###taboola-mid-article-thumbnails
 the-independent.com###taboola-mid-article-thumbnails-ii
 the-independent.com###taboola-mid-article-thumbnails-iii
 drivespark.com,goodreturns.in###taboola-mid-category-thumbnails
+lifeandstylemag.com###taboola-right-rail-thumbnails
 comicbookrealm.com###tad
 cyclingtips.com###takeover
 romsgames.net###td-top-leaderboard
@@ -58975,6 +58984,7 @@ coingape.com##.Sidemads
 simkl.com##.SimklTVDetailEpisodeLinksItemHref
 thedailybeast.com##.Sizer
 coingape.com##.SponserdBtn
+goodreads.com##.SponsoredProductAdContainer
 apartmenttherapy.com,cubbyathome.com,thekitchn.com##.StickyFooter
 coin360.com##.Sticky_Promo
 slant.co##.SummaryPage-LustreEmbed
@@ -59252,7 +59262,7 @@ ansamed.info,baltic-course.com,futbol24.com,gatewaynews.co.za,jetphotos.com,karg
 blastingnews.com##.adv-box-content
 healthleadersmedia.com##.adv-con
 junauza.com##.adv-hd
-48hills.org,audiobacon.net,bhamnow.com,coinedition.com,coinquora.com,iconeye.com,kdnuggets.com,londonnewsonline.co.uk,manageditmag.co.uk,mondoweiss.net,ottverse.com,smallarmsreview.com,sportsspectrum.com,sundayworld.co.za,tampabayparenting.com,theaudiophileman.com##.adv-link
+48hills.org,audiobacon.net,bhamnow.com,coinedition.com,coinquora.com,elements.visualcapitalist.com,iconeye.com,kdnuggets.com,londonnewsonline.co.uk,manageditmag.co.uk,mondoweiss.net,ottverse.com,smallarmsreview.com,sportsspectrum.com,sundayworld.co.za,tampabayparenting.com,theaudiophileman.com##.adv-link
 sneakernews.com##.adv-parent
 chaseyoursport.com##.adv-slot
 greencarreports.com,motorauthority.com##.adv-spacer
@@ -59333,6 +59343,7 @@ music-news.com,thebeet.com##.amazon
 orschlurch.net##.amazon-wrapper
 indiatimes.com##.amazonProductSidebar
 americafirstreport.com##.ameri-before-content
+closerweekly.com,intouchweekly.com,lifeandstylemag.com,usmagazine.com##.ami-video-placeholder
 faroutmagazine.co.uk##.amp-next-page-separator
 cyberciti.biz##.amp-wp-4ed0dd1
 thepostemail.com##.amp-wp-b194b9a
@@ -61539,6 +61550,7 @@ business2community.com##.sticky-header
 sciencing.com,sportsnet.ca##.sticky-leaderboard-container
 fastcompany.com##.sticky-outer-wrapper
 theportugalnews.com##.sticky-pub
+almanac.com##.sticky-right-sidebar
 thechinaproject.com##.sticky-spacer
 oilcity.news##.sticky-sponsors-large
 litecoin-faucet.com##.sticky-top1
@@ -61708,6 +61720,7 @@ procyclingstats.com##.top-cont
 foodrenegade.com##.top-cta
 forbes.com##.top-ed-placeholder
 forexlive.com##.top-forex-brokers__wrapper
+theguardian.com##.top-fronts-banner-ad-container
 debka.com##.top-full-width-sidebar
 reverso.net##.top-horizontal
 india.com##.top-horizontal-banner
@@ -61902,7 +61915,7 @@ domaingang.com##.widget_execphp
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
-247media.com.ng,aboutcrypto.info,appleworld.today,captainaltcoin.com,closerweekly.com,cozyberries.com,dbknews.com,deshdoaba.com,foreverconscious.com,glitched.online,granitegrok.com,intouchweekly.com,kashmirreader.com,kkfm.com,lifeandstylemag.com,londonnewsonline.co.uk,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,robinhoodnews.com,rok.guide,rsbnetwork.com,showbiz411.com,sportsspectrum.com,stacyknows.com,theoverclocker.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
+247media.com.ng,appleworld.today,captainaltcoin.com,closerweekly.com,cozyberries.com,dbknews.com,deshdoaba.com,foreverconscious.com,glitched.online,granitegrok.com,intouchweekly.com,kashmirreader.com,kkfm.com,lifeandstylemag.com,londonnewsonline.co.uk,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,robinhoodnews.com,rok.guide,rsbnetwork.com,showbiz411.com,sportsspectrum.com,stacyknows.com,theoverclocker.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
 cracked-games.org##.widget_metaslider_widget
 nypost.com##.widget_nypost_dfp_ad_widget
 nypost.com##.widget_nypost_vivid_concerts_widget
@@ -61996,7 +62009,7 @@ everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
 everydaykoala.com,playjunkie.com##[class*="__adv-block"]
 barandbench.com##[class*="ad-slot"]
 usnews.com##[class*="ad-spacer"]
-beincrypto.com,bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com##[class*="clickout-"]
+beincrypto.com,bitcoinist.com,captainaltcoin.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com##[class*="clickout-"]
 smallseotools.com##[class*="gram"]
 levels.fyi##[class*="submissions-table-promo_promoContainer"]
 alternativeto.net##[class^="AdsenseAd"]
@@ -66844,6 +66857,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /rtracker/ofs.rtt.js
 /rudder-analytics.js
 /rudder-analytics.min.js
+/rum-collector/*
 /rum-telemetry/*
 /rum-track?
 /rum.gif?
@@ -67906,6 +67920,7 @@ _WebVitalsReporter_
 /link.coindesk.com/img/*
 /link.divenewsletter.com/img/*$image
 /link.e-mail.*/mo/*$image
+/link.email.usmagazine.com/img/*$image
 /link.morningbrew.com/img/*.gif
 /link.news.*/mo/*$image
 /link.oneplus.com/mo$image
@@ -67926,6 +67941,7 @@ _WebVitalsReporter_
 /newsletter/read?s=$image
 /newslink.reuters.com/img/*$image
 /newtrackingscript.
+/notifications.google.com/g/img/*$image
 /notifications.googleapis.com/email/t/*
 /notifications/beacon/*
 /open.aspx?
@@ -69127,6 +69143,7 @@ _mongo_stats/
 ||ensighten.com^$third-party
 ||enticelabs.com^$third-party
 ||entravision.com^$third-party
+||envoke.com^$third-party
 ||eolcdn.com^$third-party
 ||ep4p.com^$third-party
 ||eperfectdata.com^$third-party
@@ -74559,6 +74576,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dmcdn.net/behavior/
 ||dmdentertainment.com^*/video_debug.gif?
 ||dmdt.io/collect
+||dnnapi.com/analytics/
 ||domodomain.com^*/ddsense.aspx?
 ||doppiocdn.com/healthcheck
 ||doppiocdn.org/healthcheck
@@ -104440,6 +104458,7 @@ steamcommunity.com##+js(href-sanitizer, a[href^="https://steamcommunity.com/link
 colab.research.google.com##+js(href-sanitizer, a[href^="https://colab.research.google.com/corgiredirector?site=http"], ?site)
 xda-developers.com##+js(href-sanitizer, a[href^="https://shop-links.co/link/?"][href*="&url=http"], ?url)
 isthereanydeal.com##+js(href-sanitizer, a[href^="http://www.jdoqocy.com/click-"][href*="?URL=http"], ?URL)
+isthereanydeal.com##+js(href-sanitizer, a[href^="https://track.adtraction.com/t/t?"][href*="&url=http"], ?url)
 /detroitchicago/dpv.gif?$image
 /detroitchicago/imp.gif$ping
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,newstimes.com,nhregister.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,timesunion.com##+js(cookie-remover, realm.cookiesAndJavascript)
