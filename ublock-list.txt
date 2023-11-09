@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vwY4d0QY+aJ+8ozqHIXHjw
+! Checksum: oDYZdVUoAKd9ks9pfpF+Zg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311091421
-! Last Modified: 2023年11月09日 14:21
+! Version: 202311092031
+! Last Modified: 2023年11月09日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -594,7 +594,6 @@
 /affbanner/*
 /affbanners/*
 /affclick/*
-/affilatebanner.
 /affiliate/ad/*
 /affiliate/ads/*
 /affiliate/banner/*
@@ -26256,6 +26255,7 @@ browsershots.org#@#.advert_area
 ||destinationoralairliner.com^
 ||destinedsponsornominate.com^
 ||destroyedspear.com^
+||desugeng.xyz^
 ||desxpbub.xyz^
 ||detachedbates.com^
 ||detachmentoccasionedarena.com^
@@ -39611,6 +39611,7 @@ browsershots.org#@#.advert_area
 ||ptechait.com^
 ||ptecmooz.net^
 ||ptecmuny.com^
+||ptedreer.com^
 ||ptedroab.xyz^
 ||pteeksou.xyz^
 ||pteevaih.xyz^
@@ -102165,6 +102166,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||pimlm.com^$all
 ||mciun.com^$all
 ||sanff.com^$all
+||gghhe.com^$all
 /axad/?lpkey=$doc
 ||vlcdownloads.com^$all
 ||borntiecalm.live^$all
@@ -104595,9 +104597,9 @@ web.bale.ai##+js(trusted-set, navigator.userAgent, Mozilla/5.0 (Windows NT 10.0;
 !#else
 web.bale.ai##+js(trusted-set, navigator.userAgent, Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML\, like Gecko) Chrome/119.0.6045.66 Mobile Safari/537.36)
 !#endif
-||agma-analytics.de^
 makeuseof.com##+js(cookie-remover, /articlesRead|previousPage/)
 /^https?:\/\/chat\.openai\.com\/ces\/v1\/[a-z]$/$xhr,1p,domain=chat.openai.com,method=post
+airtel.in##+js(no-xhr-if, analytics/bulk-pixel)
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -105008,7 +105010,7 @@ nypost.com,pagesix.com#@#.recirc
 @@||adobedtm.com^*/satellitelib-$script,domain=papers.ssrn.com
 @@||cdn.taplytics.com/taplytics.min.js$script,domain=es.wallapop.com
 @@||youtube.com/yts/jsbin/*$script,domain=breathecast.com|classicalite.com|crossmap.com|hallels.com|newseveryday.com|returnofkings.com
-@@||amazon.*/*uedata$image,1p
+@@||fls-na.amazon.*/1/batch/1/OP/$image,domain=amazon.*
 @@||4cdn.org^$script,domain=4chan.org
 @@||api.coinmarketcap.com/$xhr,domain=unblock.net
 @@||adsynth-ofx-quotewidget-prod.herokuapp.com/api/$xhr,domain=widget-yahoo.ofx.com
