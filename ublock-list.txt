@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LMu86a18O9z+SMakQCRT/g
+! Checksum: OCFtBOUbA+qI5fxuIc/70A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311101421
-! Last Modified: 2023年11月10日 14:21
+! Version: 202311102031
+! Last Modified: 2023年11月10日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -104100,13 +104100,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||magisk.download^$all
 ||magiskmanager.com^$all
 ||magisk.info^$all
-||magisk.$doc,domain=~topjohnwu.github.io
-||magiskzip.$doc,domain=~topjohnwu.github.io
-||magiskmanagerroot.$doc,domain=~topjohnwu.github.io
-||magiskmanager.$doc,domain=~topjohnwu.github.io
-||magiskcn.$doc,domain=~topjohnwu.github.io
-||magiskroot.$doc,domain=~topjohnwu.github.io
-||magiskapp.$doc,domain=~topjohnwu.github.io
 ||libretube.*^$all,domain=~libretube.dev,to=~libretube.dev
 ||libretubeapk.com^$all,domain=~libretube.dev
 ||revanced.*^$all,from=~revanced.app,to=~revanced.app
@@ -104589,6 +104582,7 @@ $removeparam=asc_campaign,domain=aboutamazon.com|amazon.*|amzn.to
 $removeparam=asc_refurl,domain=aboutamazon.com|amazon.*|amzn.to
 $removeparam=asc_source,domain=aboutamazon.com|amazon.*|amzn.to
 ||youtube.com^$removeparam=pp
+||youtu.be^$removeparam=si
 !#if env_firefox
 ||reddit.com^$removeparam=rdt,doc
 !#endif
@@ -106830,6 +106824,12 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 @@||src.litix.io/videojs/$script,domain=nasa.gov
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=moviesandtv.myvi.in
 @@||moviesandtv.myvi.in/videojs/videojs-contrib-ads.min.js$script,domain=moviesandtv.myvi.in
+@@||cdn.lib.getjad.io^$script,domain=vidaextra.com
+@@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=vidaextra.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=vidaextra.com
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=vidaextra.com
+@@||securepubads.g.doubleclick.net/gampad/ads$xhr,domain=vidaextra.com
+www.reddit.com,new.reddit.com##.subredditvars-r-ublockorigin [role="dialog"]>div:style(width: auto !important)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -114937,6 +114937,7 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 127.0.0.1 affiliatetracking.com
 127.0.0.1 affiliatetracking.net
 127.0.0.1 affiliatewindow.com
+127.0.0.1 affiliation-france.com
 127.0.0.1 afftracking.justanswer.com
 127.0.0.1 afraidlanguage.com
 127.0.0.1 agkn.com
@@ -115579,7 +115580,6 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 127.0.0.1 data.namesakeoscilloscopemarquis.com
 127.0.0.1 data8a8altrk.com
 127.0.0.1 daughterstone.com
-127.0.0.1 dbbsrv.com
 127.0.0.1 dc-storm.com
 127.0.0.1 de17a.com
 127.0.0.1 deadpangate.com
