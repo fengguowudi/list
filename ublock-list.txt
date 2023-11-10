@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: INRvaVJwqINRDLcnANMeBw
+! Checksum: L5YJYiy81ggKG4xjm95IIQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311100220
-! Last Modified: 2023年11月10日 02:20
+! Version: 202311100913
+! Last Modified: 2023年11月10日 09:13
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62046,6 +62046,7 @@ cmswire.com##[class^="styles_article__top-ad-wrapper"]
 hancinema.net##[class^="wmls_"]
 torlock.com##[class^="wrn"]
 mydramalist.com##[class^="zrsx_"]
+flatpanelshd.com##[data-aa-adunit]
 dribbble.com##[data-ad-data*="ad_link"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-ad]
 gamelevate.com##[data-adpath]
@@ -72787,6 +72788,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||torpidtongue.com^
 ||torpidtoothpaste.com^
 ||toweringrun.com^
+||tradetooth.com^
 ||tranquilside.com^
 ||translateoatmeal.com^
 ||trappush.com^
@@ -78779,7 +78781,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uber.com/_events
 ||uber.com/_track
 ||uber.com/careers/apply/_log
-||ubereats.com/_events
 ||ubereats.com/_track
 ||ubuyanalytics.ubuy.com^
 ||ucoz.com/stat/
@@ -104408,7 +104409,7 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||sarang77skuy.com^
 ||smartaccess.biz^
 ||adonsonlyd.xyz^
-||adthrive.com^$removeparam,domain=~mediaite.com
+||adthrive.com^$removeparam,from=~mediaite.com|~a-z-animals.com
 ||cdn.branch.io/branch-latest.min.js$important,domain=nbc.com|pac-12.com
 ||onesignal.com^$domain=blurayufr.xyz|columbian.com|faqwiki.us|freecoursesonline.me|ftuapps.dev|gamersdiscussionhub.com|levelupalone.com|onehack.us|xiaomitools.com
 ||narrativ.com^$domain=androidauthority.com
@@ -105698,10 +105699,12 @@ hero-magazine.com###header:style(position: inherit !important;)
 !#if env_firefox
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=caminogeek.com
 !#endif
-@@||ads.adthrive.com/sites/*/ads.min.js$script,domain=pimylifeup.com
-@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$script,domain=pimylifeup.com
+@@||ads.adthrive.com/sites/*/ads.min.js$script,domain=a-z-animals.com|pimylifeup.com
+@@||ads.adthrive.com/builds/core/*$script,domain=a-z-animals.com|pimylifeup.com
 pimylifeup.com##+js(no-fetch-if, marmalade)
 pimylifeup.com#@#.adthrive
+a-z-animals.com#@#.adthrive-video-player
+a-z-animals.com#@#.adthrive
 ||cdn-static.egybest.*/packed/$badfilter
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,important,redirect=noop.js,domain=indy100.com
 @@||googleads.github.io/videojs-ima/$css,domain=boysfood.com
@@ -106822,6 +106825,8 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 @@||wurfl.io/wurfl.js$script,domain=keukenatlas.nl
 *.gif$image,redirect=1x1.gif,domain=holybooks.com,important
 @@||src.litix.io/videojs/$script,domain=nasa.gov
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=moviesandtv.myvi.in
+@@||moviesandtv.myvi.in/videojs/videojs-contrib-ads.min.js$script,domain=moviesandtv.myvi.in
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
