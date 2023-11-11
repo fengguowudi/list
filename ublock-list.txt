@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vRZlQhVmmxsTskfpFpPb0w
+! Checksum: 9lJsu5QJaZKUYFs0lcMcew
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311112029
-! Last Modified: 2023年11月11日 20:29
+! Version: 202311120219
+! Last Modified: 2023年11月12日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63358,6 +63358,8 @@ wayfair.com#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-
 webtools.fineaty.com#?#div[class*=" hidden-"]:-abp-has(.adsbygoogle)
 winaero.com#?#p:-abp-contains(Advertisement)
 windowsreport.com#?#section.hide-mbl:-abp-has(a[href^="https://out.reflectormedia.com/"])
+wish.com#?#div[class^="WishExpressProductsRow__FeedTileColumnWrapper-"]:-abp-has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
+wish.com#?#div[class^="ProductGrid__FeedTileWidthWrapper-"]:-abp-has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
 wowcher.co.uk#?#.two-by-two-deal:-abp-has(a[href*="src=sponsored_search_"])
 youtube.com#?#ytd-rich-item-renderer:-abp-has(> .ytd-rich-item-renderer > ytd-ad-slot-renderer)
 youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
@@ -78893,6 +78895,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wikimonde.com/matom.js
 ||wikipedia.org/beacon/
 ||windy.com/sedlina/ga/
+||wish.com/api/analytics/
 ||wiztube.xyz/cdn-cgi/trace
 ||wnyc.org/analytics/
 ||wolfram.com/common/javascript/analytics.js
@@ -104643,7 +104646,7 @@ web.bale.ai##+js(trusted-set, navigator.userAgent, Mozilla/5.0 (Windows NT 10.0;
 web.bale.ai##+js(trusted-set, navigator.userAgent, Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML\, like Gecko) Chrome/119.0.6045.66 Mobile Safari/537.36)
 !#endif
 ||upera.shop/ref/$doc,urltransform=/^\/ref\/[^\/]+//
-androidpolice.com,makeuseof.com,xda-developers.com##+js(cookie-remover, articlesRead)
+androidpolice.com,makeuseof.com,movieweb.com,xda-developers.com##+js(cookie-remover, articlesRead)
 /^https?:\/\/chat\.openai\.com\/ces\/v1\/[a-z]$/$xhr,1p,domain=chat.openai.com,method=post
 airtel.in##+js(no-xhr-if, analytics/bulk-pixel)
 !#include resource-abuse.txt
