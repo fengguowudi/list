@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: C4PpOw/sYHYJQhD+mirn5A
+! Checksum: y1EfE7E3CbxRtc4k/vzVIw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311111024
-! Last Modified: 2023年11月11日 10:24
+! Version: 202311111420
+! Last Modified: 2023年11月11日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -58290,7 +58290,7 @@ investing.com###generalOverlay
 getvideobot.com###getvideobot_com_300x250_responsive
 getvideobot.com###getvideobot_com_980x250_billboard_responsive
 thingstodovalencia.com###getyourguide-widget
-dotesports.com###gg-masthead
+dotesports.com,progameguides.com###gg-masthead
 glowstery.com###ghostery-highlights
 freegames.org###gla
 wordcounter.net###glya
@@ -65067,7 +65067,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .com/log/?
 .com/stats.aspx?
 .com/track?$~object
-.com/vtrack|
 .content_tracking.js
 .de/h.gif?
 .de/l.gif?
@@ -67804,6 +67803,7 @@ _webanalytics.
 _WebVitalsReporter_
 /ajax/bnzai?_
 /ajax/bz?_
+.com/vtrack
 /ls.php?t=
 /track.php?domain=
 /ContextLogResource/*
@@ -71491,6 +71491,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||awesomeattack.com^
 ||awzbijw.com^
 ||axiomaticalley.com^
+||axiomaticanger.com^
 ||azuremystique.com^
 ||badgeboat.com^
 ||bagbeam.com^
@@ -71769,6 +71770,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||delegatediscussion.com^
 ||delicatecascade.com^
 ||delicateducks.com^
+||deliciousducks.com^
 ||delightfulhour.com^
 ||dependenttrip.com^
 ||desertedbreath.com^
@@ -71913,6 +71915,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||firstfrogs.com^
 ||firsttexture.com^
 ||flakyfeast.com^
+||flameuncle.com^
 ||flimsycircle.com^
 ||flimsythought.com^
 ||flockflame.com^
@@ -72272,6 +72275,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||panickypancake.com^
 ||panoramicbutter.com^
 ||paradoxfactor.com^
+||parallelbulb.com^
 ||parcelcreature.com^
 ||parchedangle.com^
 ||parchedsofa.com^
@@ -72437,6 +72441,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rhetoricalveil.com^
 ||rhymezebra.com^
 ||rhythmmoney.com^
+||rhythmrule.com^
 ||richreceipt.com^
 ||richstring.com^
 ||righteouscrayon.com^
@@ -104061,7 +104066,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||certificate-certificate.gettrials.com^$all
 ||w4ymh005pq76ez4i3.azureedge.net^$all
 ||starfish-app-oaxg5.ondigitalocean.app^$all
-||black1.zzz.com.ua^$all
+/^https:\/\/(?:black|white)\d{1,2}\.zzz\.com\.ua\/(?:win|mac)\//$all
 ||vasafreight.com/ajax.php?
 ||5n7ekzoxbdu3n7.azureedge.net^$all
 ||kos8sceu.pics^$all
