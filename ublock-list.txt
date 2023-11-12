@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2w33BGRowrjHyazQx7lr0w
+! Checksum: JmfiDncM7LWBP+DJRO5yrQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311122029
-! Last Modified: 2023年11月12日 20:29
+! Version: 202311130219
+! Last Modified: 2023年11月13日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -14718,6 +14718,7 @@ _800x80_
 ##.lr-pack-ad
 ##.lr_skyad
 ##.lrec-container
+##.lst_ads
 ##.luxeAd
 ##.lv-Adunit
 ##.lyrics-inner-ad-wrap
@@ -18283,8 +18284,8 @@ _800x80_
 ##.zergpowered
 ##display-ad-component
 ##div[id^="zergnet-widget"]
-###searchResultsList > div > div[onclick$="'inline.ad'});"]
-##.resultsList > div > div > div.G-5c[role="tab"][tabindex="0"]
+##.resultsList > div > div > div > div.G-5c[role="tab"][tabindex="0"] > .yuAt-pres-rounded
+##.resultsList > div > div > div > div[data-resultid$="-sponsored"]
 dez.ro#@##ad-carousel
 so-net.ne.jp#@##ad-p3
 53.com#@##ad-rotator
@@ -19591,6 +19592,7 @@ browsershots.org#@#.advert_area
 ||abbgrysbok.store^
 ||abbotpredicateemma.com^
 ||abbronzongor.com^
+||abbtrupp.com^
 ||abburmyer.com^
 ||abcconducted.com^
 ||abclefabletor.com^
@@ -22200,6 +22202,7 @@ browsershots.org#@#.advert_area
 ||b6143975c9.com^
 ||b6750bc2a1.com^
 ||b6880ffb9a.com^
+||b70f0a4569.com^
 ||b719c1d1e8.com^
 ||b73uszzq3g9h.com^
 ||b76e86c54d.com^
@@ -27814,6 +27817,7 @@ browsershots.org#@#.advert_area
 ||ensetepoggies.com^
 ||ensignconfinedspurt.com^
 ||ensignpancreasrun.com^
+||ensinthetertaning.com^
 ||ensosignal.com^
 ||ensueswill.com^
 ||entailresponded.com^
@@ -28956,6 +28960,7 @@ browsershots.org#@#.advert_area
 ||fleshlyzombis.com^
 ||flewke.com^
 ||flexlinks.com^
+||flhdqtto.com^
 ||flickerbridge.com^
 ||flickeringintention.pro^
 ||fliddercharm.space^
@@ -32292,6 +32297,7 @@ browsershots.org#@#.advert_area
 ||irishorridamount.com^
 ||irizin.com^
 ||irkantyip.com^
+||irkilgw.com^
 ||irmmamksywbwt.com^
 ||ironboe.com^
 ||ironcladmemory.pro^
@@ -32603,6 +32609,7 @@ browsershots.org#@#.advert_area
 ||jecorinsetover.guru^
 ||jecromaha.info^
 ||jedotsad.xyz^
+||jedrixurykpjl.com^
 ||jeehaish.com^
 ||jeehathu.com^
 ||jeejujou.net^
@@ -34545,6 +34552,7 @@ browsershots.org#@#.advert_area
 ||lyssapebble.com^
 ||lythonefa.com^
 ||lythrumnoetics.website^
+||lyvbqbvwlbery.top^
 ||lyvbqbvwllblj.top^
 ||lyvbqbvwllvnb.top^
 ||lywasnothycant.info^
@@ -35837,6 +35845,7 @@ browsershots.org#@#.advert_area
 ||mxsuikhqaggf.com^
 ||mxtads.com^
 ||mxuiso.com^
+||mxzluxet.com^
 ||my-hanson.com^
 ||my.shymilftube.com^
 ||my1elitclub.com^
@@ -36367,6 +36376,7 @@ browsershots.org#@#.advert_area
 ||nixopho.com^
 ||niyamabusiest.casa^
 ||nization.com^
+||njfxmqvonppwq.com^
 ||njlzougyfjo.com^
 ||njufnhkmqpk.xyz^
 ||njvacw.xyz^
@@ -40867,6 +40877,7 @@ browsershots.org#@#.advert_area
 ||resigndictationhorns.com^
 ||resignedsauna.com^
 ||resilesfuriant.guru^
+||resinherjecling.com^
 ||resinyanthdia.com^
 ||resistcorrectly.com^
 ||resistsarcasm.com^
@@ -42606,6 +42617,7 @@ browsershots.org#@#.advert_area
 ||sjomilbedwarf.digital^
 ||sjtactic.com^
 ||sjtbhdeakgsgr.com^
+||sjteyeztnf.com^
 ||skatestooped.com^
 ||skcapepyshdr.xyz^
 ||skeeingfondu.life^
@@ -45441,6 +45453,7 @@ browsershots.org#@#.advert_area
 ||twaonhcjwoaouj.com^
 ||twazzyoidwlfe.com^
 ||tweeseconable.website^
+||twelfthdistasteful.com^
 ||twelvethighpostal.com^
 ||twentiethparticipation.com^
 ||twentyalight.com^
@@ -64906,6 +64919,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||book.com.tw/image/getImage?$domain=books.com.tw
 @@||c.ad6media.fr/l.js$domain=scan-manga.com
 @@||candidate.hr-manager.net/Advertisement/PreviewAdvertisement.aspx$subdocument,~third-party
+@@||catchapp.net/ad/img/$~third-party
 @@||cinema.pia.co.jp/img/ad/$image,~third-party
 @@||clj.valuecommerce.com/*/vcushion.min.js
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
@@ -101995,6 +102009,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||clc-link.me^$all
 ||soft-portal.me^$doc
 ||gamehacks.xyz^$doc
+||pengwincheat.fun^$doc
 ||tophacks.pro^$doc
 ||lavacheat.com^$doc
 .systems/signup?ad_domain=$doc,popup
@@ -103887,6 +103902,16 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||d-position.com^$doc
 ||d-position.shop^$doc
 ||kaiunnookite.com^$doc
+||bs-03-6743-2266.net^$doc
+||love2-mail.com^$doc
+||gokinjoscreen.com^$doc
+||koun-wa.com^$doc
+||koto-dama-kin.com^$doc
+||one----talk.com^$doc
+||pc.deainobasyo.jp^$doc
+||tokimeki-2nd-life.com^$doc
+||ewfwetqfbhmlodz.com^$doc
+||wkcs.onesmbg-login.com^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||apkmirror.co^$all
@@ -104100,6 +104125,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||5n7ekzoxbdu3n7.azureedge.net^$all
 ||kos8sceu.pics^$all
 ||thin-skinned-cost.000webhostapp.com^$all
+||gdagr1byfylaiz.azureedge.net^$all
 ||gateway.pinata.cloud^$3p
 ||japanonlinebroadcast.live^$all
 ||crackedpc.org^$all
