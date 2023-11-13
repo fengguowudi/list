@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jiqzwbmRXuhDucnuKizr2Q
+! Checksum: ++ePYTnOG9GaJnERP9/BVw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311131422
-! Last Modified: 2023年11月13日 14:22
+! Version: 202311132032
+! Last Modified: 2023年11月13日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1669,6 +1669,7 @@
 ?bannerid=
 ?category=ad&
 ?service=ad&
+?whichAd=freestar&
 ?wppaszoneid=
 ?wpstealthadsjs=
 ?zoneid=*&ab=1$script
@@ -19766,6 +19767,7 @@ browsershots.org#@#.advert_area
 ||acdcdn.com^
 ||acdn01.vidox.net^
 ||acediscover.com^
+||acedtousles.com^
 ||acelacien.com^
 ||acendantoftheq.xyz^
 ||aceporntube.com^
@@ -34661,6 +34663,7 @@ browsershots.org#@#.advert_area
 ||maidendeprivation.com^
 ||maidsiowan.com^
 ||maiglair.net^
+||maihikuh.com^
 ||maijauta.xyz^
 ||maikashu.net^
 ||mailboxdoablebasically.com^
@@ -38455,6 +38458,7 @@ browsershots.org#@#.advert_area
 ||phaithoo.xyz^
 ||phaivais.net^
 ||phalingy.net^
+||phamsacm.net^
 ||phantomattestationzillion.com^
 ||phantomtheft.com^
 ||phardain.xyz^
@@ -41381,6 +41385,7 @@ browsershots.org#@#.advert_area
 ||roxot-panel.com^
 ||roxyaffiliates.com^
 ||royalcactus.com^
+||royallycuprene.com^
 ||rozamimo9za10.com^
 ||rpmsophiashoe.com^
 ||rprinc6etodn9kunjiv.com^
@@ -47083,6 +47088,7 @@ browsershots.org#@#.advert_area
 ||waxingequant.space^
 ||waxpigbaa.com^
 ||waxtamnit.com^
+||waybillbulged.com^
 ||wayfarerspoutpraise.com^
 ||waygatecrowbar.com^
 ||waymarkgentiin.com^
@@ -59700,6 +59706,7 @@ reverso.net##.bottom-horizontal
 photographyreview.com##.bottom-leaderboard
 dappradar.com##.bottom-networks
 codeproject.com##.bottom-promo
+huffpost.com##.bottom-right-sticky-container
 cnbctv18.com##.bottom-sticky
 gamingdeputy.com##.bottom-sticky-offset
 coincodex.com##.bottom3
@@ -96922,6 +96929,7 @@ arketing.indianadunes.com^
 ||sy.amebame.com^
 ||sy.ameblo.jp^
 ||t.syosetu.org^
+||tekoki-fuzoku-joho.com/js/ALinkPrepare_
 ||track.buyma.com^
 ||tracking.game8.jp^
 ||tracking.gnavi.co.jp^
@@ -97870,8 +97878,9 @@ arketing.indianadunes.com^
 @@||platform.twitter.com/oct.js$domain=ncsoft.jp
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
+@@||rt.rtoaster.jp^$image,domain=ec-store.net
 @@||rtoaster.jp/Rtoaster.js$domain=peachjohn.co.jp|satofull.jp
-@@||rtoaster.jp^$script,domain=jreastmall.com|lexus.jp|melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=ec-store.net|jreastmall.com|lexus.jp|melonbooks.co.jp
 @@||s.yjtag.jp/tag.js$script,domain=baseball.yahoo.co.jp|bousai.yahoo.co.jp|soccer.yahoo.co.jp|www.epson.jp
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
@@ -104385,7 +104394,6 @@ apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtoday
 !#else
 apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com##+js(rmnt, script, KCgpPT57bGV0IGU)
 !#endif
-||connectier.io^
 ||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,redirect=fingerprint2.js,important
 ||collector.xhwebsite.com^
 ||collector.hamsterix.*^
