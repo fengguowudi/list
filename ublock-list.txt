@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vE3N+3GWTgqlrpJiD5X37w
+! Checksum: ZYS4QB2AGJtYgW9nVgJvqg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311140913
-! Last Modified: 2023年11月14日 09:13
+! Version: 202311141422
+! Last Modified: 2023年11月14日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -106966,6 +106966,8 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 @@||securepubads.g.doubleclick.net/gampad/ads$xhr,domain=vidaextra.com
 www.reddit.com,new.reddit.com##.subredditvars-r-ublockorigin [role="dialog"]>div:style(width: auto !important)
 @@||static.knowledgehub.com/global/images/ping.gif?$xhr,1p
+lumens.com##+js(set, _satellite, {})
+lumens.com##+js(set, _satellite.track, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
