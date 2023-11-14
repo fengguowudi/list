@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZYS4QB2AGJtYgW9nVgJvqg
+! Checksum: Ufn6T6WWlwACaBDkZRxCyg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311141422
-! Last Modified: 2023年11月14日 14:22
+! Version: 202311142032
+! Last Modified: 2023年11月14日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -65652,6 +65652,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /clientlib-analytics-core.
 /clientstat?
 /cls_report?
+/cmanalytics.min.js
 /cms.gif?
 /cms/stats/*
 /cmslog.dll?
@@ -100022,7 +100023,6 @@ club-opel.com##ins.adsbygoogle
 ||painaltube.com/min/747b35c9/painaltube/p/
 ||painaltube.com/widget/chaturbate_cam.php?
 painaltube.com##.widget > div.widget
-smsonline.cloud#@#.googlead
 mangaalarab.com##+js(set, canRunAds, true)
 javsex.to##+js(aeld, DOMContentLoaded, adsBlocked)
 javsex.to##+js(aopw, _pop)
