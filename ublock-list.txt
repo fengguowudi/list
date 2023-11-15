@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hyDiWJ5sLYXG+tk+m51qWg
+! Checksum: YR0yVK7sjdXSIAV3n2DZPw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311150915
-! Last Modified: 2023年11月15日 09:15
+! Version: 202311151422
+! Last Modified: 2023年11月15日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -104805,6 +104805,7 @@ deviantart.com##+js(aost, Math.sqrt, update)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##*:style(animation: none !important;)
 tapewithadblock.org##+js(rmnt, script, /RegExp\(\'/, condition, RegExp)
 ||survey.alchemer.eu/s3/$frame,3p,domain=airforce-technology.com
+meeting.tencent.com##+js(no-xhr-if, /(trace|beacon)\.qq\.com/)
 ||2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=video.foxnews.com
 ||cdn.krxd.net^$script,redirect=noopjs,domain=video.foxnews.com
 @@||akamaihd.net/player/*/akamai/amp/prebid/*$script,domain=static.foxnews.com
