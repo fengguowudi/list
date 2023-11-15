@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ufn6T6WWlwACaBDkZRxCyg
+! Checksum: hyDiWJ5sLYXG+tk+m51qWg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311142032
-! Last Modified: 2023年11月14日 20:32
+! Version: 202311150915
+! Last Modified: 2023年11月15日 09:15
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24,7 +24,6 @@
 -ads-bottom.
 -ads-manager/$domain=~wordpress.org
 -ads/assets/$domain=~web-ads.org
--adverts.min.
 -assets/ads.$~script
 -auto-ads-
 -banner-ad.
@@ -26641,6 +26640,7 @@ browsershots.org#@#.advert_area
 ||dizzyincome.pro^
 ||dizzyporno.com^
 ||dizzyrebozo.website^
+||dizzyshe.pro^
 ||dj-updates.com^
 ||djadoc.com^
 ||djefosbx.com^
@@ -29599,6 +29599,7 @@ browsershots.org#@#.advert_area
 ||gannett.gcion.com^
 ||gapcask.com^
 ||gapscult.com^
+||gaqscipubhi.com^
 ||gaquxe8.site^
 ||garagesewe.com^
 ||garbslens.com^
@@ -32830,6 +32831,7 @@ browsershots.org#@#.advert_area
 ||joygaskin.com^
 ||joylessstarted.com^
 ||joyorators.website^
+||joyous-concentrate.pro^
 ||joyouscreedweasel.com^
 ||joyrodethyme.digital^
 ||joyvowdig.com^
@@ -34441,6 +34443,7 @@ browsershots.org#@#.advert_area
 ||ludied.com^
 ||ludocsbho.com^
 ||ludwigreseise.tech^
+||ludxivsakalg.com^
 ||lufbogazixz.com^
 ||luffic.com^
 ||lugajxy.com^
@@ -37606,6 +37609,7 @@ browsershots.org#@#.advert_area
 ||otigainareput.info^
 ||otireofhisl.one^
 ||otisephie.com^
+||otjawzdugg.com^
 ||otjccfldytgkkox.xyz^
 ||otjoxpacgak.com^
 ||otlopudpvfq.com^
@@ -41596,6 +41600,7 @@ browsershots.org#@#.advert_area
 ||rysheatlengthanl.xyz^
 ||ryyyyjfrawo.com^
 ||rzawugotwc.com^
+||rzaxroziwozq.com^
 ||rzkphskfifmo.com^
 ||rzneekilff.com^
 ||rzzqhhoim.com^
@@ -102030,9 +102035,10 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||elitcorp.space^$doc
 ||dload.site^$doc
 ||kloagamelf.site^$doc
-||www.youtube.com/@Download-Links/$doc
 ||www.youtube.com/@download-link/$doc
 ||www.youtube.com/@DOWNLOAD-LINKK/$doc
+||www.youtube.com/@Download__links/$doc
+||www.youtube.com/@download_here/$doc
 ||allsft.info^$doc
 ||allsft.pro^$doc
 ||cheat-world.site^$doc
@@ -102041,6 +102047,8 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||soft-portal.me^$doc
 ||gamehacks.xyz^$doc
 ||pengwincheat.fun^$doc
+||nicesoftware.site^$all
+||upload.advgroup.ru/4Fb01xn1$all
 ||tophacks.pro^$doc
 ||lavacheat.com^$doc
 .systems/signup?ad_domain=$doc,popup
@@ -102139,6 +102147,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||possessedcrackinghart.com^$all
 ||adblock-pro-download.com^$all
 ||reepratic.com^$all
+||5vcjzwb1tsnd82g.caflu87p1d.ru^$all
 ||cs2-twitchs.com^$all
 ||dogehype.com^$all
 ||cosmicdrift.co^$all
@@ -103948,6 +103957,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||koto-dama-kin.com^$doc
 ||mariage-inc.com^$doc
 ||tokimeki-2nd-life.com^$doc
+||mariage-inc.com^$doc
+||tenmei-michibiki.com^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||apkmirror.co^$all
@@ -104168,6 +104179,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||security6.djilvblqywdp3.amplifyapp.com^$all
 ||soramabola.online^$all
 /^https:\/\/[0-9a-z]{14}\.azureedge\.net\/\d{4}\//$doc
+||fcukxxx.com^$all
+||xbasugigqiuegiwqdbsx.s3.ap-northeast-1.amazonaws.com^$all
 ||gateway.pinata.cloud^$3p
 ||japanonlinebroadcast.live^$all
 ||crackedpc.org^$all
@@ -104408,12 +104421,12 @@ panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaborator
 !#endif
 ||washpost.nile.works^
 /p13n/batch/action/*$image
-loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
-apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com##+js(noeval-if, 07c225f3.online)
+loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
+apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg##+js(noeval-if, /07c225f3\.online|content-loader\.com/)
 !#if cap_html_filtering
-apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com##^script:has-text(KCgpPT57bGV0IGU)
+apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg##^script:has-text(KCgpPT57bGV0IGU)
 !#else
-apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com##+js(rmnt, script, KCgpPT57bGV0IGU)
+apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg##+js(rmnt, script, KCgpPT57bGV0IGU)
 !#endif
 ||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,redirect=fingerprint2.js,important
 ||collector.xhwebsite.com^
