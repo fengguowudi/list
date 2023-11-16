@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4yQM4PTEuNi7SJvtpdtBpQ
+! Checksum: EW3+sqhAOIaFprHJ9ppl8w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311161422
-! Last Modified: 2023年11月16日 14:22
+! Version: 202311162033
+! Last Modified: 2023年11月16日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -293,8 +293,8 @@
 /adlib.js
 /adlib.min.js
 /adlog.php
-/admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com|~admanager.opera.com|~admanager.roku.com|~admanager.sevio.app
-/admanager/*$~object,domain=~blog.google|~konograma.com
+/admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com|~admanager.line.biz|~admanager.opera.com|~admanager.roku.com|~admanager.sevio.app
+/admanager/*$~object,domain=~admanager.line.biz|~blog.google|~konograma.com
 /admgr.
 /admitad.js
 /adModule.
@@ -18383,6 +18383,7 @@ ienohikari.net#@#.ad_btn
 m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com,nettimokki.com#@#.ad_caption
 classy-online.jp,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se#@#.ad_container
 walkingclub.org.uk#@#.ad_div
+admanager.line.biz#@#.ad_frame
 modelhorseblab.com#@#.ad_global_header
 myhouseabroad.com,njuskalo.hr,starbuy.sk.data10.websupport.sk#@#.ad_item
 huffingtonpost.co.uk#@#.ad_spot
@@ -68274,6 +68275,7 @@ _mongo_stats/
 ||apeagle.io^
 ||apenterprise.io^
 ||apxl.io^
+||arttrk.com^
 ||as3.io^
 ||awmonitor.com^
 ||ayc0zsm69431gfebd.info^
@@ -69421,6 +69423,7 @@ _mongo_stats/
 ||fiksu.com^$third-party
 ||filitrac.com^$third-party
 ||finalid.com^$third-party
+||finalyticsdata.com^$third-party
 ||find-ip-address.org^$third-party
 ||fireworkanalytics.com^$third-party
 ||firstpromoter.com^$third-party
@@ -75304,6 +75307,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||linkwithin.com/pixel.png
 ||list-manage.com/track/
 ||list.fightforthefuture.org/mpss/o/*/o.gif
+||listen.audiohook.com/*/pixel.png
 ||listrakbi.com/activity/
 ||listrakbi.com/api/ActivityEvents/
 ||lit.connatix.com^
@@ -97975,6 +97979,7 @@ arketing.indianadunes.com^
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
 @@||gamerch.com/s3-assets/library/js/fingerprint2.min.js?$script,~third-party
+@@||geolocation-db.com/json/$domain=admanager.line.biz
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
@@ -100145,7 +100150,6 @@ send-anywhere.com###transfer-reward-ad
 ||brightcovecdn.com/playback/*/*?ad_config_id$removeparam=ad_config_id,xhr,domain=tvnz.co.nz
 @@||pharmacyreviewer.co^$ghide
 @@||pharmacyreviewer.co/forum/js/$script,1p
-247sports.com##+js(aopr, admrlWpJsonP)
 247sports.com##body:not(.skybox-loaded) .topnav:style(margin-top:0px !important)
 247sports.com##.nav-bar:style(top:0px !important)
 sextubefun.com##+js(acs, document.querySelectorAll, popMagic)
@@ -102123,15 +102127,11 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||pc-gratis.com^$doc
 ||progamerhack.com^$doc
 ||winterseyegaming.com^$doc
-||fortnite-gamerz-team.shop^$doc
 ||drop-cloud.org^$all
 ||soft-lab.pw^$doc
 ||trumpcheat.com^$doc
 ||cheats.ink^$doc
-||tautaracheats.fun^$doc
 ||elitcorp.space^$doc
-||dload.site^$doc
-||kloagamelf.site^$doc
 ||www.youtube.com/@download-link/$doc
 ||www.youtube.com/@DOWNLOAD-LINKK/$doc
 ||www.youtube.com/@Download__links/$doc
@@ -102139,13 +102139,17 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||allsft.info^$doc
 ||allsft.pro^$doc
 ||cheat-world.site^$doc
-||hacksworld.pro^$doc
 ||clc-link.me^$all
 ||soft-portal.me^$doc
 ||gamehacks.xyz^$doc
 ||pengwincheat.fun^$doc
 ||nicesoftware.site^$all
 ||upload.advgroup.ru/4Fb01xn1$all
+||mediafire.com/folder/5fifwp6upg5et/$doc
+||mediafire.com/folder/j7a69k9mmm7xl/$doc
+||mediafire.com/folder/ibugwdrgkxppd/$doc
+||tautarahack.fun^$doc
+||hellhacks.fun^$doc
 ||tophacks.pro^$doc
 ||lavacheat.com^$doc
 .systems/signup?ad_domain=$doc,popup
