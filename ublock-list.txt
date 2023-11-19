@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3xD3rwo72Sp6GtGU0gRMIQ
+! Checksum: TM3z3VNmC7Yvh9TdR1nDbA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311190920
-! Last Modified: 2023年11月19日 09:20
+! Version: 202311191420
+! Last Modified: 2023年11月19日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -71471,9 +71471,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||deepc.cc^$third-party
 ||devphp.org.ua^$third-party
 ||directprimal.com^$third-party
-||dnsseed.bitcoin.dashjr.org^
-||dnsseed.bluematt.me^
-||dnsseed.emzy.de^
 ||dontbeevils.de^$third-party
 ||duckdns.org^$third-party,websocket
 ||easyhash.de^$third-party
@@ -71564,11 +71561,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rocks.io^$third-party
 ||rtb-seller.com^$third-party
 ||s7ven.com^$third-party
-||seed.bitcoin.sipa.be^
-||seed.bitcoin.sprovoost.nl^
-||seed.bitcoin.wiz.biz^
-||seed.bitcoinstats.com^
-||seed.btc.petertodd.org^
 ||serie-vostfr.com^$third-party
 ||serv1swork.com^
 ||silimbompom.com^$third-party
@@ -104354,9 +104346,11 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||qwudbhasdwq9h.sa.com^$all
 ||security6.djilvblqywdp3.amplifyapp.com^$all
 ||soramabola.online^$all
-/^https:\/\/[0-9a-z]{14}\.azureedge\.net\/\d{4}\//$doc
+/^https:\/\/[0-9a-z]{14,16}\.azureedge\.net\/\d{4}\//$doc
 ||fcukxxx.com^$all
 ||xbasugigqiuegiwqdbsx.s3.ap-northeast-1.amazonaws.com^$all
+||popworldservice.com^$all
+||perutzxrqe.ru.com^$all
 ||gateway.pinata.cloud^$3p
 ||japanonlinebroadcast.live^$all
 ||crackedpc.org^$all
@@ -114344,8 +114338,8 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 17 Nov 2023 19:23:14 GMT
-# entries:        3716
+# last updated:   Sun, 19 Nov 2023 01:36:03 GMT
+# entries:        3717
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -117635,6 +117629,7 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 127.0.0.1 telaria.com
 127.0.0.1 telemetrics.klaviyo.com
 127.0.0.1 telemetry.dropbox.com
+127.0.0.1 telemetry.goodlifefitness.com
 127.0.0.1 telemetry.malwarebytes.com
 127.0.0.1 telemetry.v.dropbox.com
 127.0.0.1 temelio.com

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nEDMk7mIIGrLj5sKqf8oZw
+! Checksum: nW6xHzLJ0Ilt6k8+2BLzTA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202311190920
-! Last Modified: 2023年11月19日 09:20
+! Version: 202311191420
+! Last Modified: 2023年11月19日 14:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -67912,6 +67912,7 @@ newduba.cn###jq_youxi
 ||jwxwnr.xyz^
 ||elemea.xyz^
 ||8d07a.xyz^
+##a[href*=".sng.link/"]
 ||zzyy18.top^
 ||zzyy19.top^
 ||zzyy20.top^
@@ -76885,6 +76886,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yemancomic.com##div[style^="position:fixed;"]
+zkk78.com##div[style^="position:fixed;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -91167,9 +91170,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||deepc.cc^$third-party
 ||devphp.org.ua^$third-party
 ||directprimal.com^$third-party
-||dnsseed.bitcoin.dashjr.org^
-||dnsseed.bluematt.me^
-||dnsseed.emzy.de^
 ||dontbeevils.de^$third-party
 ||duckdns.org^$third-party,websocket
 ||easyhash.de^$third-party
@@ -91260,11 +91260,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rocks.io^$third-party
 ||rtb-seller.com^$third-party
 ||s7ven.com^$third-party
-||seed.bitcoin.sipa.be^
-||seed.bitcoin.sprovoost.nl^
-||seed.bitcoin.wiz.biz^
-||seed.bitcoinstats.com^
-||seed.btc.petertodd.org^
 ||serie-vostfr.com^$third-party
 ||serv1swork.com^
 ||silimbompom.com^$third-party
