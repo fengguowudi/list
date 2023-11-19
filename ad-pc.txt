@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NKQ2jzspGeLwBXxgCsD7Pg
+! Checksum: nEDMk7mIIGrLj5sKqf8oZw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202311190219
-! Last Modified: 2023年11月19日 02:19
+! Version: 202311190920
+! Last Modified: 2023年11月19日 09:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -67903,6 +67903,15 @@ newduba.cn###jq_youxi
 ||zys16.top^
 ||zyzo.cn^
 ||zzyy17.top^
+||rvvji.online^
+||srldkqj.cn^
+||vozftn.xyz^
+||qyoqeq.xyz^
+||vixajghi.xyz^
+||cnrdlpk.xyz^
+||jwxwnr.xyz^
+||elemea.xyz^
+||8d07a.xyz^
 ||zzyy18.top^
 ||zzyy19.top^
 ||zzyy20.top^
@@ -88563,6 +88572,7 @@ _mongo_stats/
 ||analitycs.net^$third-party
 ||analoganalytics.com^$third-party
 ||analytically.net^$third-party
+||analytics-debugger.com^$third-party
 ||analytics-helper.com^$third-party
 ||analyticschecker.com^$third-party
 ||analyticson.com^$third-party
@@ -88938,6 +88948,7 @@ _mongo_stats/
 ||cquotient.com^$third-party
 ||craftkeys.com^$third-party
 ||craktraffic.com^$third-party
+||crashlytics.com^$third-party
 ||crazyclickstats.com^$third-party
 ||crazyegg.com^$third-party
 ||criteo.com^$third-party
@@ -95854,6 +95865,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||techtarget.com^*/GetCookiesWithCallback?
 ||techweb.com/beacon/
 ||telemetrics.klaviyo.com^
+||telemetry.goodlifefitness.com^
 ||telemetry.phenixrts.com^
 ||telemetry.reembed.com^
 ||telemetry.soundcloud.com^
@@ -96586,6 +96598,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hittracker.org/count.php
 ||hittracker.org/counter.php
 ||house27.ch/counter/
+||hyteck.de/count.js
 ||hyvyd.com/count$image,domain=mobile.de
 ||info.elba.at^$third-party
 ||insene.de/tag/$third-party
@@ -98234,6 +98247,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||midas.chase.com^
 ||mixpanel-proxy.ted.com^
 ||mktcs.cloudapps.cisco.com^
+||mo8it.com/count.js
 ||modanisa.com/al/j/analytics.js
 ||mon.us.tiktokv.com^
 ||moneycontrol.com/news/services/get_comscore_pageview/
