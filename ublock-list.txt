@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YII/tWYf2yfd8c0jkbz6JQ
+! Checksum: /yNHZhTLN/tuDJtZTy4AEA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311192030
-! Last Modified: 2023年11月19日 20:30
+! Version: 202311200219
+! Last Modified: 2023年11月20日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18581,6 +18581,7 @@ browsershots.org#@#.advert_area
 ||02953a52b0.com^
 ||02a2749187.com^
 ||02aa19117f396e9.com^
+||02ce917efd.com^
 ||0398067ebe.com^
 ||03ed9035a0801f.com^
 ||03f128fb44.com^
@@ -26246,6 +26247,7 @@ browsershots.org#@#.advert_area
 ||depirsmandk5.com^
 ||deployads.com^
 ||deploymentblessedheir.com^
+||depositgreetingscommotion.com^
 ||depositnostrilverge.com^
 ||depressionfemaledane.com^
 ||depriveretirement.com^
@@ -31269,6 +31271,7 @@ browsershots.org#@#.advert_area
 ||holemanwasco.com^
 ||holict.com^
 ||hollekeamboina.com^
+||hollowcharacter.com^
 ||hollowgleamed.com^
 ||holond.com^
 ||holptimawa.com^
@@ -32679,6 +32682,7 @@ browsershots.org#@#.advert_area
 ||jeetyetmedia.com^
 ||jeffstrategic.com^
 ||jehobsee.com^
+||jekmmlwnyzyjr.top^
 ||jellifytayer.com^
 ||jelllearnedhungry.com^
 ||jellyhelpless.com^
@@ -33061,6 +33065,7 @@ browsershots.org#@#.advert_area
 ||jypugepha.pro^
 ||jyrcqzjjachlk.com^
 ||jyrypezzzd.com^
+||jzeapwlruols.com^
 ||jztchllgpcrwu.com^
 ||k-09mobiles.com^
 ||k28maingeneral.com^
@@ -35977,6 +35982,7 @@ browsershots.org#@#.advert_area
 ||myxlyajuhsjiwsp.com^
 ||myxozilla.icu^
 ||myzontpouffs.guru^
+||mziso.xyz^
 ||mznbrazfty.com^
 ||mzol7lbm.com^
 ||mzpbvvxv.com^
@@ -36006,6 +36012,7 @@ browsershots.org#@#.advert_area
 ||nabalpal.com^
 ||nabauxou.net^
 ||nabbr.com^
+||nabicbh.com^
 ||nableemblems.com^
 ||nableriptide.com^
 ||nablesasmetotrea.info^
@@ -45375,6 +45382,7 @@ browsershots.org#@#.advert_area
 ||trombocrack.com^
 ||tronads.io^
 ||troncomelets.com^
+||tronmachi.com^
 ||troolyhonks.com^
 ||troopslinecut.website^
 ||troozescript.store^
@@ -56339,6 +56347,7 @@ browsershots.org#@#.advert_area
 ||amateur.tv/freecam/$third-party
 ||amateurporn.net^$third-party
 ||asg.bhabhiporn.pro^
+||asg.irontube.net^
 ||asianbutterflies.com/potd/
 ||asktiava.com/promotion/
 ||assinclusive.com/cyonix.html
@@ -99311,7 +99320,7 @@ highstream.tv##.cover
 highstream.tv,wolfstream.tv###customAnnouncement
 *$script,3p,denyallow=cloudflare.com,domain=myadultanimes.com
 ||chandrabindu.net^$3p
-cekip.site###afw-myModal
+cekip.site##+js(no-xhr-if, ads)
 blog.receivefreesms.co.uk##+js(nostif, show)
 ||receivefreesms.co.uk^$3p
 thecut.com##+js(aeld, /touchstart|mousedown|click/, latest)
@@ -100323,8 +100332,6 @@ maxurlz.com##+js(acs, document.addEventListener, google_ad_client)
 maxurlz.com##+js(nano-sib, btn-success)
 ||d1q4kshf6f0axi.cloudfront.net/main/prebid-$script
 apkdoze.com##+js(acs, $, samAdBlockAction)
-rureka.com##.ads-img
-rureka.com##.column-left > .widget.card
 enagato.com##+js(aopr, open)
 enagato.com##+js(set, blurred, false)
 fapnado.*##+js(acs, Math.floor, ExoLoader)
@@ -100673,7 +100680,6 @@ theloadout.com##header:style(top:0 !important)
 theloadout.com###nn_astro_wrapper:has(.ad)
 theloadout.com##.nn_mobile_mpu_wrapper
 ceylonssh.com##+js(acs, $, adsbygoogle)
-pawastreams.live##+js(aost, String.prototype.charCodeAt, ai_)
 bowfile.com##+js(nowoif)
 *$script,redirect-rule=noopjs,domain=bowfile.com
 *$frame,redirect-rule=noopframe,domain=bowfile.com
@@ -101734,7 +101740,6 @@ thepiratebay3.com^$all
 ||trackertrak.com^$all
 ||catbeardx.com^$all
 ||newsinform.net^$all
-||wdeliv.net^$all
 ||bingstyle.com^$all
 ||redirekted.com^$all
 ||ptookaih.net^$all
@@ -101758,7 +101763,6 @@ thepiratebay3.com^$all
 ||claspedtwelve.com^$all
 ||glbltraffic.com^$all
 ||0redirc.com^$all
-||sexyladydesire.xyz^$all
 ||inspirationhistorical.com^$all
 ||maroohost.online^$all
 ||rollmeout.xyz^$all
@@ -101805,7 +101809,6 @@ thepiratebay3.com^$all
 ||ckre.net^$all
 ||doprinplupr.com^$all
 ||gotohouse2.cc^$all
-||chintsressels.com^$all
 ||letmessagenow.com^$all
 ||x-soft.club^$all
 ||apilond.com^$all
@@ -101813,7 +101816,6 @@ thepiratebay3.com^$all
 ||atzekromchan.com^$all
 ||pupok.link^$all
 ||ntvpevnts.com^$all
-||google-yandex.info^$all
 ||aditserve.com^$all
 ||onclickclear.com^$all
 /bdv_rd.dbm?ownid=$doc
@@ -101824,7 +101826,6 @@ thepiratebay3.com^$all
 ||festinus.xyz^$all
 ||secureleadsforever.com^$all
 /apop/redirect/zone/*$doc,popup
-||gayfeetbusy.link^$all
 ||belbenback.live^$all
 /?pl=*&sm=$doc
 tech4yougadgets.com##^meta[http-equiv="refresh"]
@@ -101938,7 +101939,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||d13nu0oomnx5ti.cloudfront.net^
 ||quickdates1.com^$all
 ||getmackeepersoftpro.xyz^$all
-/expired/unprotected_win/?track=$doc
 ||familysimulator.$all
 ||instaflrt.com^$all
 ||singlesgetmatched.com^$all
@@ -101954,7 +101954,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||gobacktothefuture.biz^$all
 ||cofounderspecials.com^$all
 ||weatherplllatform.com^$all
-/prize/luckyus-ad/*$doc
 ||mauptaub.com^$all
 ||see-what-is-trending.com^$all
 ||owlfolk.com^$all
@@ -101997,7 +101996,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||trackhere.pl^$all
 ||datingformeeting.com^$all
 ||serving-passthrough.com^$all
-||soft-little.com^$all
 /_dating\d\/index\.html\?aref=/$doc
 ||familysimulators.$all
 ^apb=*&ata=mobilemdots^$doc
@@ -102149,6 +102147,13 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||dirtyflirt9.com^$all
 ||bestvideo.cloud^$all
 ||bmtracks.com^$all
+||doublebangers.com^$all
+||waytau.com^$all
+||laddler.site^$all
+||bintrr.top^$all
+||tricksygirlw.com^$all
+||bustymeets.com^$all
+||aht42trk.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
@@ -102186,7 +102191,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||lorealis.vip^$doc
 ||one-click.cc^$all
 ||descarga.pw^$doc
-||cyber-template.com^$all
 ||top-cheats.com^$all
 ||thepcworlds.com^$doc
 ||extsoft.app^$all
@@ -102231,7 +102235,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||best-winplace.life^$all
 ||checkup08.biz^
 ||getvottak.com^
-||herdcowhas.icu^
 ||illuminatelocks.com^
 ||mfroute.com^
 ||miserve-chanics.com^
@@ -102284,7 +102287,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||msgsafe.net^$all
 ||best4fuck.com^$all
 ||kuaizip.com^$all
-||helooworld.us^$all
 ||win.zjwhr.top^$all
 ||geekotg.com^$all
 ||xiaobaixitong.com^$all
@@ -102408,12 +102410,10 @@ haxnode.net##[id^="haxno-"]
 ||geoflix.me^$all
 ||skymods.net^$all
 ||hypixelstorexyz.pages.dev^$all
-||claims-hypixel.com^$all
 ||landkemoty.click^$all
 ||slugmefilehos.xyz^$all
 ||tinyurl.com/setup-full-version$doc
 torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
-||qolhub.info^$all
 ||haxsoft.com^$all
 ||sxfyjygs.com^$all
 ||zenlytrade.com^$all
@@ -102428,7 +102428,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||choseoffhandsight.com^$all
 ||metamasku.cc^$all
 ||downloadpro.online^$all
-||vipan.net^$all
 ||install1nstall1.com^$all
 ||factor1right.com^$all
 ||speedsoft-one.com^$all
@@ -102444,7 +102443,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||urlcod.com^$all
 ||tiurll.com^$all
 ||urlca.com^$all
-||neppe.studio^$all
 ||gowtos.com^$all
 ||lomogd.com^$all
 ||nosnou.com^$all
@@ -102472,6 +102470,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||mciun.com^$all
 ||sanff.com^$all
 ||gghhe.com^$all
+||ooppnm.com^$all
 /axad/?lpkey=$doc
 ||vlcdownloads.com^$all
 ||borntiecalm.live^$all
@@ -102530,7 +102529,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||sutarnbbe.bond^$all
 ||dinglike.com^$all
 ||stgami-o.top^$all
-||rafdnym.cn^$all
 ||ib-aieonobanck-co-jp.top^$all
 ||blisterlngdate.com^$all
 ||fapello.xyz^$all
@@ -102540,15 +102538,12 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||baoding66.top^$all
 ||hohshops.com^$all
 ||yanrefael.com^$all
-||laolao8.top^$all
 ||amzpma.com^$all
 ||hjxvcyu.com^$all
 ||bojsror.space^$all
 ||restgzxdg.top^$all
-||zyczdwu.cn^$all
 ||hehekakao.com^$all
 ||bavaria-cup.ru^$all
-||ugrvjkj.cn^$all
 ||patriothomestore.com^$all
 ||ameixosszpxpass.top^$all
 ||buyshflat.life^$all
@@ -102575,7 +102570,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||yoinst.com^$doc
 ||shindaan.com^$doc
 ||almostmy.com^$all
-||iwiydir.cn^$all
 ||mkwlejfnaklglkasdjg.com^$all
 ||capitalfa.jp^$all
 ||caponefx.com^$all
@@ -102599,7 +102593,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||xqfefdkey.xyz^$all
 ||corre-os.top^$all
 ||aeonasco.com^$all
-||7oc5b1i3v4iu.top^$all
 ||pocket-888.com^$all
 ||adblock-one-protection.com^$all
 ||browser-updating.com^$all
@@ -102916,12 +102909,10 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||meeturdate.com^$all
 ||merachatkaghar.xyz^$all
 ||myjapanonlineshop.xyz^$all
-||mymeetworld.com^$all
 ||mynameserverok.xyz^$all
 ||newdomainleloyarjaldiseab.beauty^$all
 ||newdomianleloyarjaldiseabto.quest^$all
 ||newsonclik.com^$all
-||prewebdating.com^$all
 ||slapcleaner.com^$all
 ||tatikhale.xyz^$all
 ||2226wurpatw.tokyo^$doc
@@ -102940,7 +102931,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||like.delight-light.net^$doc
 ||line-bs.com^$doc
 ||localsgowild.com^$doc
-||mv-r1ck.com^$doc
 ||naughtyfever.com^$doc
 ||nw-fzi.jp^$doc
 ||oo.opaall.com^$doc
@@ -102976,7 +102966,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||4miracle4.jp^$doc
 ||4qy35wd.com^$doc
 ||7nwa.cxiujudffaitd.jp^$doc
-||abc.qnjgipohki59.com^$doc
 ||abc.youtus7216.com^$doc
 ||akfdfdnupyfy.com^$doc
 ||amari-ama.com^$doc
@@ -102998,11 +102987,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||dream-by-catch.com^$doc
 ||everhotmet.com^$doc
 ||every-fpcx.com^$doc
-||exiv14.jp^$doc
 ||facebooc.jp^$doc
 ||ff-dai.net^$doc
 ||friendmatch.jp^$doc
-||fxdt0001.com^$doc
 ||ganesha0910.com^$doc
 ||ganesha52697.com^$doc
 ||gm-we.jp^$doc
@@ -103015,7 +103002,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||iikanjiyanakanjide.wixsite.com^$doc
 ||j75e-gfrs-df.com^$doc
 ||juice-is-apple.com^$doc
-||jungle-juggler.jp^$doc
 ||kisekichikara.com^$doc
 ||l1nefree.com^$doc
 ||lets-white-push.com^$doc
@@ -103114,7 +103100,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||holydivination.com^$doc
 ||honnkaku-uranai-gluck.com^$doc
 ||horoscope-gluck.com^$doc
-||ht5d4g4r.com^$doc
 ||iflirts.com^$doc
 ||im-excellent.com^$doc
 ||infomessagehappy.com^$doc
@@ -103122,7 +103107,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||jdig56po.com^$doc
 ||jungle-juggler.com^$doc
 ||jungle-juggler.net^$doc
-||jye5c854umzyn.com^$doc
 ||kaaairoo549kai.com^$doc
 ||kahimeyuki.jp^$doc
 ||kairos-9987kaa.com^$doc
@@ -103219,7 +103203,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||female-good.work^$doc
 ||forum0120.com^$doc
 ||foundate-core.net^$doc
-||i8mg4bxfku.com^$doc
 ||intern0120.com^$doc
 ||kasegeru-rank.com^$doc
 ||li-neeee.net^$doc
@@ -103228,7 +103211,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||magnum0120.com^$doc
 ||make2022.com^$doc
 ||media0120.com^$doc
-||n3umd.gbfdji0i09.com^$doc
 ||neutral0120.com^$doc
 ||new0fuku.jp^$doc
 ||positive0120.com^$doc
@@ -103237,9 +103219,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||ol2ewq989.jp^$doc
 ||openhouse0120.com^$doc
 ||refrain0120.com^$doc
-||rybdhn2nyp.com^$doc
 ||salon.beauty202201.com^$doc
-||saturn0120.com^$doc
 ||sbfw.work^$doc
 ||sma-talk.com^$doc
 ||smile-4u-2u.com^$doc
@@ -103253,8 +103233,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||warmthsupportive.com^$doc
 ||xxxmake.com^$doc
 ||yours-mail.com^$doc
-||zas8k2hj3i.com^$doc
-||zx742h5p6d.com^$doc
 ||1litteno.home-walil1.jp^$doc
 ||1st-mail.jp^$doc
 ||2507u35ia6mk1.com^$doc
@@ -103273,7 +103251,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||animal-vegetable.com^$doc
 ||apple012.com^$doc
 ||ash-976.com^$doc
-||asw.16itue354er.jp^$doc
 ||asw.lkjs214awe.jp^$doc
 ||ataru-loto.com^$doc
 ||atchm.net^$doc
@@ -103335,7 +103312,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||kring-stone.jp^$doc
 ||lib-333-lib.com^$doc
 ||likeandlive.com^$doc
-||lmn.bb-lemon.com^$doc
 ||local-bang.com^$all
 ||lovedotto.net^$doc
 ||lovewish.jp^$doc
@@ -103386,7 +103362,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||sdhjak.com^$doc
 ||sea-into-53426l1.com^$doc
 ||sfsrch.com^$doc
-||sg3.s-u-g-a-r-sugar.com^$doc
 ||shihukumichibiki.jp^$doc
 ||sns.smle.mobi^$doc
 ||sokudeai.jp^$doc
@@ -103584,7 +103559,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||club-house.link^$doc
 ||cocoro-liberty.com^$doc
 ||coin-of-fate.jp^$doc
-||crystal5116.biz^$doc
 ||d-sr.net^$doc
 ||d-will.net^$doc
 ||daylighteel.com^$doc
@@ -103639,10 +103613,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||hy3irjf.com^$doc
 ||igazre.com^$doc
 ||jinsei-uranai2023.com^$doc
-||jk94ciajt8.com^$doc
 ||just1ce.net^$doc
-||kagayaki-tk.biz^$doc
-||kagayaki-tk.com^$doc
 ||kantei-oracle.com^$doc
 ||kinhako-lp.com^$doc
 ||kinhako-m01.com^$doc
@@ -103650,7 +103621,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||kinhako-p01.com^$doc
 ||kinhako-p02.com^$doc
 ||lightlydismantle.com^$doc
-||lineme.mom^$doc
 ||lover-c.com^$doc
 ||luck-is-home.com^$doc
 ||mamagathering.org^$doc
@@ -103699,7 +103669,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||this-you-good.com^$doc
 ||tikgold2023.com^$doc
 ||tomikuji.com^$doc
-||trend-officialsearch.com^$doc
 ||ugfdwmausxfy.net^$doc
 ||unmei-hikari2023.com^$doc
 ||unmei2023.com^$doc
@@ -103721,7 +103690,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||cwa-2020.com^$doc
 ||dwoetbarcrooplsloiwh.com^$doc
 ||gargar.making-garden.com^$doc
-||gate-way110.com^$doc
 ||happy-popice.com^$doc
 ||kronos2022.com^$doc
 ||like-baloon-leaf.com^$doc
@@ -103793,7 +103761,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||hamfqppcycjiskc.com^$doc
 ||loveru.jp^$doc
 ||match-1match.jp^$doc
-||mopo.vv-pb1salon.com^$doc
 ||morale-yellow.com^$doc
 ||quq.ygdd7ssl.com^$doc
 ||shining.relief-lives.net^$doc
@@ -103876,7 +103843,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||bh9jld.catchato10.com^$doc
 ||catchato10.com^$doc
 ||chat-search.com^$doc
-||dor.ppp-pocket-ttt.com^$doc
 ||fz988hnbaha.com^$doc
 ||happy.pp99adad.com^$doc
 ||hhh.u3se3jg3gae.com^$doc
@@ -104197,20 +104163,13 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||tgram.ru^$all
 ||telegramm.site^$all
 ||web-telegram.net^$all
-||jnkms0zfueh.click^$all
 ||pjljo54uk.click^$all
 ||v1asy4ncr.click^$all
 ||p5tvhrlw30h.click^$all
 ||8narwi309.click^$all
 ||sbjjzdwqg41ps.click^$all
 ||9bghqk3avg2gnh.click^$all
-||lrhxz60alkjtik.click^$all
 ||6t09fag307ep.click^$all
-||klwukospapf.click^$all
-||uerqelim91ut.click^$all
-||tvbxrr4ym3.click^$all
-||eicxz6jfjaw.click^$all
-||8ebtdbsjsu.click^$all
 ||zjzxtmhcldsb.click^$all
 ||keychauoic.click^$all
 .click/*?s=*&g=*&q=$script,3p
@@ -104288,7 +104247,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||microsoftsupportservices.com^$all
 ||teszoom.com^$all
 ||tiffanyandtoke.com^$all
-||versanity8373.z13.web.core.windows.net^$all
 ||yewojoshi.shop^$all
 ||s3.ap-northeast-2.amazonaws.com/%*!!%*/index.html$doc
 ||s3.amazonaws.com/securityfotrus.1.13/index.html$all
@@ -104318,7 +104276,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||hrmntrimagukeazctesto.shop^$all
 ||stb-media.xyz^$all
 ||compass-holding.com^$all
-||ojosclear.com^$all
 ||tankien.land^$all
 ||pguilford.com^$all
 ||theweddingmahotsav.com^$all
@@ -104390,22 +104347,15 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||s3.ap-northeast-1.amazonaws.com/ongoing.com/aanoitmessure/index.html^$all
 ||foodhereandnow.com^$all
 ||setkuttina.pages.dev^$all
-||34jdbsfvdsfvsjdhfvbwdfs.z13.web.core.windows.net^$all
 ||liq27qbf.monster^$all
-||sea-lion-app-3mfad.ondigitalocean.app^$all
 ||certificate-certificate.gettrials.com^$all
-||w4ymh005pq76ez4i3.azureedge.net^$all
-||starfish-app-oaxg5.ondigitalocean.app^$all
 /^https:\/\/(?:black|white)\d{1,2}\.zzz\.com\.ua\/(?:win|mac)\//$all
 ||vasafreight.com/ajax.php?
-||5n7ekzoxbdu3n7.azureedge.net^$all
 ||kos8sceu.pics^$all
 ||thin-skinned-cost.000webhostapp.com^$all
-||gdagr1byfylaiz.azureedge.net^$all
 ||boring-tesla.149-102-231-176.plesk.page^$all
 ||happy-diwali-sabhiko-shubhkamneyen.b-cdn.net^$all
 ||qwudbhasdwq9h.sa.com^$all
-||security6.djilvblqywdp3.amplifyapp.com^$all
 ||soramabola.online^$all
 /^https:\/\/[0-9a-z]{14,16}\.azureedge\.net\/\d{4}\//$doc
 ||fcukxxx.com^$all
@@ -104542,10 +104492,8 @@ cambe.pr.gov.br,paranhos.ms.gov.br##^script[language][type]:has-text(window.loca
 ||thefinanceadvice.com^$all
 ||fralstamp-genglyric.icu^$all
 ||ilil.in^$all
-||dino-lfg.com^$all
 ||ruiukp.top^$all
 ||ets2.gr^$all
-||api.quantiy.com^$all
 ||unitradingbot.com^$all
 ||unitradingtool.info^$all
 ||taboola.com^$3p
