@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KqNfUCvidoXKbhZtrtbylw
+! Checksum: k5LCSGANYE3zSZPoOZuJRw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311211422
-! Last Modified: 2023年11月21日 14:22
+! Version: 202311212033
+! Last Modified: 2023年11月21日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62503,7 +62503,7 @@ apkcombo.com##[onclick*="_blank"]
 filecrypt.cc,filecrypt.co##[onclick^="var lj"]
 techadvisor.com##[referrerpolicy="unsafe-url"]
 transfermarkt.co.uk##[referrerpolicy]
-appleinsider.com,dappradar.com,euroweeklynews.com,thefinancialbrand.com##[rel*="sponsored"]
+appleinsider.com,dappradar.com,euroweeklynews.com,sitepoint.com,thefinancialbrand.com##[rel*="sponsored"]
 myanimelist.net##[src*="/c/img/images/event/"]
 audioz.download##[src*="/promo/"]
 transfermarkt.com##[src*="https://www.transfermarkt.com/image/"]
@@ -104615,10 +104615,10 @@ search.brave.com##+js(no-fetch-if, body:browser)
 ||d3bch4rrbnbe5n.cloudfront.net/pxl.png^
 /visilabs.min.js
 ||civicscience.com^$3p
-/\/[a-z0-9]{12}\/(?=[a-zA-Z0-9\/\-]*\+)[a-zA-Z0-9\/\+\-]{97,106}$/$match-case,script,1p,strict1p
-/^https?:\/\/[0-9a-z]{12}\.[^\/]*\/[a-zA-Z0-9\/\+\-]{97,106}$/$match-case,script,1p,strict3p
+/\/[a-z0-9]{12}\/[a-zA-Z0-9\/\+\-]{97,106}$/$match-case,script,1p,strict1p
+/^https?:\/\/[0-9a-z]{11,13}\.[^\/]*\/[a-zA-Z0-9\/\+\-]{91,106}$/$match-case,script,1p,strict3p
 /dataunlocker$script,1p,domain=~dataunlocker.com
-/www\.eldorado\.gg\/[a-zA-Z]{10}\.js/$1p,script,domain=eldorado.gg
+/www\.eldorado\.gg\/[a-zA-Z0-9]{10,13}\.js/$1p,script,domain=eldorado.gg
 ||ampl.cinotes.com^
 ||data-saver-cindi.herokuapp.com^
 ||cdn.cindicator.com/$script,3p
@@ -114016,6 +114016,7 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||ggsfq.xyz^$third-party
 ||lqxbkqdtvtdhw.xyz^
 ||noafoaji.xyz^
 ||bilec.xyz^
