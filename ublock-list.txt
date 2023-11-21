@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LJd76LYJbqiulHtTKG5/Qg
+! Checksum: 5SuRUAhrLBOv0sRogTHjfg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311210221
-! Last Modified: 2023年11月21日 02:21
+! Version: 202311210918
+! Last Modified: 2023年11月21日 09:18
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63256,7 +63256,6 @@ youtube.com###YtKevlarVisibilityIdentifier
 youtube.com###YtSparklesVisibilityIdentifier
 youtube.com###feed-pyv-container
 youtube.com###merch-shelf
-youtube.com###pla-shelf
 youtube.com###player-ads
 youtube.com###video-masthead
 youtube.com##.ad-showing > .html5-video-container
@@ -72200,6 +72199,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fumblingform.com^
 ||fumblingselection.com^
 ||functionalcrown.com^
+||functionalfeather.com^
 ||funnyairplane.com^
 ||furryfork.com^
 ||furryhorses.com^
@@ -98218,6 +98218,13 @@ arketing.indianadunes.com^
 @@||netcoresmartech.com/smartechclient.js$domain=cgv.vn
 !---------- Anti-Adblock ----------
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+try2link.com##+js(aopr, app_vars.force_disable_adblock)
+try2link.com##+js(set, blurred, false)
+try2link.com##+js(aopr, popUp)
+try2link.com##.text-left.box-main2, footer
+fx-gd.net,healthy4pepole.com,hightrip.net###submitBtn, #go_d, #wolfexe-snp:style(display: block !important;)
+fx-gd.net,healthy4pepole.com,hightrip.net###submitBtn, #go_d, #wolfexe-snp:others()
+fx-gd.net,healthy4pepole.com,hightrip.net##+js(nano-sib, /.?/, *, 0.02)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=ottwow.com,redirect-rule=google-ima.js
 *$script,domain=gainbtc.*,redirect-rule=noopjs
 gainbtc.click##._hide
@@ -100725,9 +100732,6 @@ girls-like.me###id-custom_banner
 girls-like.me###orquidea-slideup
 girls-like.me##div[style$="height:250px;"]
 girls-like.me##div[style$="width:728px;height:90px;"]
-try2link.com##+js(aopr, app_vars.force_disable_adblock)
-try2link.com##+js(set, blurred, false)
-try2link.com##+js(aopr, popUp)
 streamingsites.com##.OUTBRAIN:upward(2)
 schoolcheats.net##+js(nosiif, Adblocker)
 schoolcheats.net##+js(nostif, googletag)
@@ -114372,8 +114376,8 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Sun, 19 Nov 2023 01:36:03 GMT
-# entries:        3717
+# last updated:   Mon, 20 Nov 2023 21:06:23 GMT
+# entries:        3718
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -116215,6 +116219,7 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 127.0.0.1 frtyk.com
 127.0.0.1 fullstory.com
 127.0.0.1 functionalcrown.com
+127.0.0.1 functionalfeather.com
 127.0.0.1 funklicks.com
 127.0.0.1 funnelytics.io
 127.0.0.1 furryfork.com
