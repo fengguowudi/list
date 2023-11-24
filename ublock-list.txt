@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RGCRpq8j5SLMKAUCiNLWZQ
+! Checksum: uFXkpY4a/M7DHPdLXMUMLQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311241422
-! Last Modified: 2023年11月24日 14:22
+! Version: 202311242031
+! Last Modified: 2023年11月24日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -78282,6 +78282,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||coomer.su/api/v1/event
 ||copilot-telemetry.githubusercontent.com^
 ||count.rin.ru^
+||counter.darkreader.app^
 ||coursehero.com/v1/data-tracking
 ||coursera.org/eventing
 ||cpt.itv.com^
@@ -78299,7 +78300,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/
-||darkreader.org/elements/statistics.js
+||darkreader.org/data/top-backers.json
+||darkreader.org/elements/backers-
 ||data.allstate.com^
 ||data.guide.photobucket.com^
 ||data.webullfintech.com/event/
@@ -104804,8 +104806,8 @@ panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaborator
 !#endif
 ||washpost.nile.works^
 /p13n/batch/action/*$image
-loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,newdaily.co.kr,meconomynews.com,brandbrief.co.kr,dfast.kr,thephoblographer.com,newdaily.co.kr##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,newdaily.co.kr,meconomynews.com,brandbrief.co.kr,dfast.kr,thephoblographer.com,newdaily.co.kr##+js(set-local-storage-item, as_profile_cache, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,newdaily.co.kr,meconomynews.com,brandbrief.co.kr,dfast.kr,thephoblographer.com,newdaily.co.kr,dogdrip.net##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,newdaily.co.kr,meconomynews.com,brandbrief.co.kr,dfast.kr,thephoblographer.com,newdaily.co.kr,dogdrip.net##+js(set-local-storage-item, as_profile_cache, $remove$)
 apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,meconomynews.com,brandbrief.co.kr,dfast.kr##+js(noeval-if, /07c225f3\.online|content-loader\.com/)
 !#if cap_html_filtering
 apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,meconomynews.com,brandbrief.co.kr,dfast.kr##^script:has-text(KCgpPT57bGV0IGU)
@@ -114185,6 +114187,8 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||max211.top^
+||st-fly.b-cdn.net^
 ||ggsfq.xyz^$third-party
 ||lqxbkqdtvtdhw.xyz^
 ||noafoaji.xyz^
