@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F6tYbeOBMb96YkhBVaU97A
+! Checksum: Au5FweZXgcIIePG+XVwlyg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311250912
-! Last Modified: 2023年11月25日 09:12
+! Version: 202311251420
+! Last Modified: 2023年11月25日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -58438,6 +58438,7 @@ battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,me
 northcountrypublicradio.org###business
 music-news.com###buy-tickets
 channel4.com###c4ad-Top
+comicsands.com###c7da91bc-8e44-492f-b7fd-c382c0e55bda
 timesofindia.indiatimes.com###c_wdt_sports_rhs_atf_ad_1
 allrecipes.com###cal-app
 bitdegree.org###campaign-modal
@@ -114585,8 +114586,8 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 24 Nov 2023 17:18:48 GMT
-# entries:        3718
+# last updated:   Sat, 25 Nov 2023 05:41:18 GMT
+# entries:        3719
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -118015,6 +118016,7 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 127.0.0.1 traffic-exchange.com
 127.0.0.1 traffic-redirecting.com
 127.0.0.1 traffic.focuusing.com
+127.0.0.1 traffic.hyteck.de
 127.0.0.1 trafficfactory.biz
 127.0.0.1 trafficforce.com
 127.0.0.1 trafficholder.com
