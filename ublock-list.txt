@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rULVpWtHzA0IaSkiTTnPWA
+! Checksum: 70ekAgXz3Z63mdMUSzw8kA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311260219
-! Last Modified: 2023年11月26日 02:19
+! Version: 202311260919
+! Last Modified: 2023年11月26日 09:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -105189,6 +105189,17 @@ androidpolice.com,makeuseof.com,movieweb.com,xda-developers.com##+js(cookie-remo
 /^https?:\/\/chat\.openai\.com\/ces\/v1\/[a-z]$/$xhr,1p,domain=chat.openai.com,method=post
 airtel.in##+js(no-xhr-if, analytics/bulk-pixel)
 elevenlabs.io##+js(set-local-storage-item, IIElevenLabsDubbingResult, $remove$)
+chollometro.com##+js(href-sanitizer, a[href*="https://www.chollometro.com/visit/"][title^="https://"], [title])
+dealabs.com##+js(href-sanitizer, a[href*="https://www.dealabs.com/visit/"][title^="https://"], [title])
+hotukdeals.com##+js(href-sanitizer, a[href*="https://www.hotukdeals.com/visit/"][title^="https://"], [title])
+mydealz.de##+js(href-sanitizer, a[href*="https://www.mydealz.de/visit/"][title^="https://"], [title])
+nl.pepper.com##+js(href-sanitizer, a[href*="https://nl.pepper.com/visit/"][title^="https://"], [title])
+pepper.it##+js(href-sanitizer, a[href*="https://www.pepper.it/visit/"][title^="https://"], [title])
+pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="https://"], [title])
+pepper.ru##+js(href-sanitizer, a[href*="https://www.pepper.ru/visit/"][title^="https://"], [title])
+preisjaeger.at##+js(href-sanitizer, a[href*="https://www.preisjaeger.at/visit/"][title^="https://"], [title])
+promodescuentos.com##+js(href-sanitizer, a[href*="https://www.promodescuentos.com/visit/"][title^="https://"], [title])
+pelando.com.br##+js(href-sanitizer, a[href*="https://www.pelando.com.br/api/redirect?url="], ?url)
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
