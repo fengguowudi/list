@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 13kpv8KyUxNbLE2wBUEPdA
+! Checksum: qhV5Bc0A1e5rsRiF35StCg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202311290221
-! Last Modified: 2023年11月29日 02:21
+! Version: 202311290916
+! Last Modified: 2023年11月29日 09:16
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -14556,6 +14556,7 @@ _800x80_
 ##.lblAdvert
 ##.ld-ad
 ##.ld-ad-inner
+##.ldm_ad
 ##.lead-ad
 ##.lead-ads
 ##.lead-advert
@@ -16051,6 +16052,7 @@ _800x80_
 ##.script-ad
 ##.scroll-ad-item-container
 ##.scroll-ads
+##.scroll-track-ad
 ##.scrolling-ads
 ##.sda_adbox
 ##.sdc-advert__top-1
@@ -17638,6 +17640,7 @@ _800x80_
 ##a[href^="http://click.payserve.com/"]
 ##a[href^="http://com-1.pro/"]
 ##a[href^="http://d2.zedo.com/"]
+##a[href^="http://deskfrontfreely.com/"]
 ##a[href^="http://go.xtbaffiliates.com/"]
 ##a[href^="http://googleads.g.doubleclick.net/pcs/click"]
 ##a[href^="http://li.blogtrottr.com/click?"]
@@ -23173,6 +23176,7 @@ browsershots.org#@#.advert_area
 ||bolivarmaltol.website^
 ||bolofoak.net^
 ||boloingopulent.guru^
+||boloptrex.com^
 ||bolrookr.com^
 ||bolsek.ru^
 ||bolssc.com^
@@ -24429,6 +24433,7 @@ browsershots.org#@#.advert_area
 ||chocolatebushbunny.com^
 ||choconart.com^
 ||choicedorm.top^
+||choiceencounterjackson.com^
 ||chokedsmelt.com^
 ||chokedstarring.com^
 ||chokeweaknessheat.com^
@@ -30815,6 +30820,7 @@ browsershots.org#@#.advert_area
 ||heathertravelledpast.com^
 ||heatpracticallyease.com^
 ||heavenexceed.com^
+||heavenfull.com^
 ||heavengenerate.com^
 ||heavenly-landscape.com^
 ||heavenly-test.pro^
@@ -39159,6 +39165,7 @@ browsershots.org#@#.advert_area
 ||pphauantic.com^
 ||ppixufsalgm.com^
 ||pplferio.com^
+||pplgwic.com^
 ||ppoommhizazn.com^
 ||ppovysmcycmwvv.com^
 ||pppbr.com^
@@ -42816,6 +42823,7 @@ browsershots.org#@#.advert_area
 ||smervyfenks.com^
 ||smfsojvsaxbgf.com^
 ||smg8oo4njst45oene.com^
+||smigdxy.com^
 ||smigro.info^
 ||smileoffennec.com^
 ||smiletkandol.com^
@@ -44762,6 +44770,7 @@ browsershots.org#@#.advert_area
 ||tipcupids.com^
 ||tiprd.xyz^
 ||tipsembankment.com^
+||tipslyrev.com^
 ||tiptoesstbd.com^
 ||tiptoptube.com^
 ||tipupgradejack.com^
@@ -48319,6 +48328,7 @@ browsershots.org#@#.advert_area
 ||yfznypugeuunng.com^
 ||ygfytomneijjj.com^
 ||ygzkedoxwhqlzp.com^
+||yhbcii.com^
 ||yhgameofmu.xyz^
 ||yhhrtgltcfta.com^
 ||yhhthemostb.xyz^
@@ -50978,6 +50988,7 @@ browsershots.org#@#.advert_area
 ||chiltemeles.life^$popup
 ||chirtooxsurvey.top^$popup
 ||chl7rysobc3ol6xla.com^$popup
+||choiceencounterjackson.com^$popup
 ||chooxaur.com^$popup
 ||choto.xyz^$popup
 ||chpadblock.com^$popup
@@ -51191,6 +51202,7 @@ browsershots.org#@#.advert_area
 ||depirsmandk5.com^$popup
 ||derevya2sh8ka09.com^$popup
 ||desertsutilizetopless.com^$popup
+||deskfrontfreely.com^$popup
 ||desktopnotificationshub.com^$popup
 ||desperationembassy.com^$popup
 ||dexpredict.com^$popup
@@ -54038,6 +54050,7 @@ browsershots.org#@#.advert_area
 ||xstownrusisedp.info^$popup
 ||xtendmedia.com^$popup
 ||xxxnewvideos.com^$popup
+||xxxvjmp.com^$popup
 ||y1jxiqds7v.com^$popup
 ||yahuu.org^$popup
 ||yavli.com^$popup
@@ -54930,6 +54943,7 @@ browsershots.org#@#.advert_area
 ||btr.domywife.com^
 ||c.bannerflow.net^
 ||c2shb.pubgw.yahoo.com^
+||caffeine.tv/embed/
 ||campaigns.williamhill.com^
 ||capital.com/widgets/$third-party
 ||careerwebsite.com/distrib_pages/jobs.cfm?
@@ -78385,6 +78399,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||goodreads.com/metrics_logging_batched
 ||goodreads.com/report_metric
 ||goodreads.com/track/
+||google.com/ads/measurement/
 ||google.com/dssw.js
 ||google.com/images/phd/px.gif
 ||google.com/log?
@@ -105033,7 +105048,6 @@ $removeparam=refsrc,domain=twitter.com|x.com
 $removeparam=ref_src,domain=twitter.com|x.com
 $removeparam=ref_url,domain=twitter.com|x.com
 $removeparam=cxt,domain=twitter.com|x.com
-$removeparam=t,domain=twitter.com|x.com
 $removeparam=s,domain=twitter.com|x.com
 !#if env_firefox
 ||reddit.com^$removeparam=rdt,doc
