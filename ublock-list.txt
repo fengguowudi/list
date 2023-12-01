@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fITRFiw3dtF7Vq5n/vVseg
+! Checksum: sfNrZ54scNVaZCMKJG84Yg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312011422
-! Last Modified: 2023年12月01日 14:22
+! Version: 202312012032
+! Last Modified: 2023年12月01日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -31295,6 +31295,7 @@ browsershots.org#@#.advert_area
 ||hotfootpriers.com^
 ||hotgvibe.com^
 ||hothta.com^
+||hotkabachok.com^
 ||hotlinemultiply.com^
 ||hotnews1.me^
 ||hotpics.mom^
@@ -44372,6 +44373,7 @@ browsershots.org#@#.advert_area
 ||tendencysanction.com^
 ||tenderlywomblink.com^
 ||tendernessbranch.com^
+||tendernessknockout.com^
 ||tendingstonier.com^
 ||tendongolach.uno^
 ||tendycdn.online^
@@ -44973,6 +44975,7 @@ browsershots.org#@#.advert_area
 ||tonganserried.life^
 ||tongsgodforsaken.com^
 ||tonicelement.digital^
+||tonicneighbouring.com^
 ||toninjaska.com^
 ||tonqvqwtvksh.com^
 ||tonsilyearling.com^
@@ -46518,6 +46521,7 @@ browsershots.org#@#.advert_area
 ||vergi-gwc.com^
 ||verifychocolate.com^
 ||veritaswhang.com^
+||veritiesgarlejobade.com^
 ||verninchange.com^
 ||vernondesigninghelmet.com^
 ||veronalhaf.com^
@@ -59176,6 +59180,7 @@ ahaan.co.uk##.MuiSnackbar-anchorOriginBottomCenter
 news18.com##.NAT_add
 mangasect.com,manhuaplus.com##.OUTBRAIN
 chronicle.com##.OneColumnContainer
+newscientist.com##.Outbrain
 kentonline.co.uk##.PSDRGC
 govtech.com##.Page-billboard
 afar.com##.Page-header-hat
@@ -62737,6 +62742,7 @@ geoguessr.com##aside[class^="ad_"]
 buffstreams.sx##button[data-openuri*=".allsportsflix."]
 filecrypt.cc,filecrypt.co##button[onclick*="://bullads.net/"]
 psycom.net##center > .vh-quiz-qborder
+turbobits.cc,turbobits.net##center > a > img
 mangas-raw.com##center > div[style]
 greekreporter.com##center > p > [href]
 pricehistoryapp.com##center[class^="min-h-"]
@@ -79219,6 +79225,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tumblr.com/pop/js/modern/sentry-
 ||tumblr.com/services/bblog
 ||tunein.com/api/v1/log/
+||turbobit.*/js/analytics/
 ||tweakers.net/ajax/$ping
 ||twitter.com/1.1/attribution
 ||twitter.com/1.1/jot
@@ -114593,7 +114600,7 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 30 Nov 2023 13:25:31 GMT
-# entries:        3784
+# entries:        3778
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -115103,7 +115110,6 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 127.0.0.1 ads.kinxxx.com
 127.0.0.1 ads.kompass.com
 127.0.0.1 ads.krawall.de
-127.0.0.1 ads.lapalingo.com
 127.0.0.1 ads.leovegas.com
 127.0.0.1 ads.lesbianpersonals.com
 127.0.0.1 ads.liberte.pl
@@ -115466,7 +115472,6 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 127.0.0.1 advertmedia.de
 127.0.0.1 advertpro.ya.com
 127.0.0.1 advertserve.com
-127.0.0.1 advertstream.com
 127.0.0.1 advertwizard.com
 127.0.0.1 advideo.uimserv.net
 127.0.0.1 adview.com
@@ -115677,7 +115682,6 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 127.0.0.1 backbeatmedia.com
 127.0.0.1 balloontexture.com
 127.0.0.1 banik.redigy.cz
-127.0.0.1 banner-exchange-24.de
 127.0.0.1 banner.ambercoastcasino.com
 127.0.0.1 banner.buempliz-online.ch
 127.0.0.1 banner.casino.net
@@ -115847,7 +115851,6 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 127.0.0.1 bridgetrack.com
 127.0.0.1 briefstem.com
 127.0.0.1 brightcom.com
-127.0.0.1 brightinfo.com
 127.0.0.1 brightmountainmedia.com
 127.0.0.1 broadboundary.com
 127.0.0.1 broadcastbed.com
@@ -116047,6 +116050,7 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 127.0.0.1 collector.cdp.cnn.com
 127.0.0.1 colonize.com
 127.0.0.1 comfortablecheese.com
+127.0.0.1 commindo-media-ressourcen.de
 127.0.0.1 commissionmonster.com
 127.0.0.1 commonswing.com
 127.0.0.1 communications.melitaltd.com
@@ -117184,7 +117188,6 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 127.0.0.1 openbid.pubmatic.com
 127.0.0.1 openx.angelsgroup.org.uk
 127.0.0.1 openx.cairo360.com
-127.0.0.1 openx.kgmedia.eu
 127.0.0.1 openx.net
 127.0.0.1 openx.skinet.cz
 127.0.0.1 openx.smcaen.fr
@@ -118081,7 +118084,6 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 127.0.0.1 tradedoubler.com
 127.0.0.1 traffic-exchange.com
 127.0.0.1 traffic-redirecting.com
-127.0.0.1 traffic.focuusing.com
 127.0.0.1 traffic.hyteck.de
 127.0.0.1 trafficfactory.biz
 127.0.0.1 trafficforce.com
@@ -118292,7 +118294,6 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 127.0.0.1 widespace.com
 127.0.0.1 widget.educationdynamics.com
 127.0.0.1 widget.privy.com
-127.0.0.1 widgetbucks.com
 127.0.0.1 wikia-ads.wikia.com
 127.0.0.1 win.iqm.com
 127.0.0.1 window.nixnet.cz
