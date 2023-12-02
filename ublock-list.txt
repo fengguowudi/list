@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FShpxgKrJ2ZE14FmK9wKYg
+! Checksum: ADISHfPhaRP227KqRzfz5w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312020912
-! Last Modified: 2023年12月02日 09:12
+! Version: 202312021420
+! Last Modified: 2023年12月02日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18510,8 +18510,8 @@ cadlinecommunity.co.uk#@#.sidebar_advert
 24city.cn.ua#@#.single-ads
 hebdenbridge.co.uk#@#.smallads
 itempost.jp#@#.sp-ad
+geekwire.com#@#.sponsor_post
 zdnet.com#@#.sponsoredItem
-kickoff.com#@#.takeover-ad
 kingsofchaos.com#@#.textad
 k24tv.co.ke#@#.top-ad
 cp24.com#@#.topAd
@@ -63297,7 +63297,6 @@ youtube.com###YtKevlarVisibilityIdentifier
 youtube.com###YtSparklesVisibilityIdentifier
 youtube.com###feed-pyv-container
 youtube.com###player-ads
-youtube.com###video-masthead
 youtube.com##.ad-showing > .html5-video-container
 youtube.com##.companion-ad-container
 youtube.com##.list-view[style="margin: 7px 0pt;"]
@@ -100679,7 +100678,7 @@ gagaltotal666.my.id##+js(acs, addEventListener, nextFunction)
 animet.tv##ins.adsbygoogle
 owlzo.com##+js(nostif,  adblockEnabled)
 kumparan.com##.adunitContainer:upward([data-qa-id])
-nulljungle.com,oyuncusoruyor.com,pbarecap.ph,sourds.net,teknobalta.com,tinyppt.com,tvinternetowa.info##+js(aeld, DOMContentLoaded, adsBlocked)
+nulljungle.com,oyuncusoruyor.com,pbarecap.ph,sourds.net,teknobalta.com,tvinternetowa.info##+js(aeld, DOMContentLoaded, adsBlocked)
 celebjared.net##+js(acs, document.querySelectorAll, popMagic)
 celebjared.net##[href^="https://minepi.com/"]
 celebjared.net###text-10
