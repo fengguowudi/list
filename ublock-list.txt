@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 93fQZhjf4FBJBFjqwP8+TA
+! Checksum: sOW0ADge8WrtvB6JBOV6tQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312022029
-! Last Modified: 2023年12月02日 20:29
+! Version: 202312030219
+! Last Modified: 2023年12月03日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -60736,6 +60736,7 @@ canarymedia.com##.inset-x-0
 tvarticles.me##.inside
 serverhunter.com##.instant-visit
 flixboss.com##.instream-dynamic
+arstechnica.com##.instream-wrap
 coincarp.com##.interact-mobileBox
 fool.com##.interad
 monochrome-watches.com##.interscroll
@@ -104682,7 +104683,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||fitgirl.cc^$all,domain=~fitgirl-repacks.site
 ||magiskmanager.com^$all
 ||magisk.me^$all
-||magiskcn.com^$all
 ||magiskapp.com^$all
 ||magiskroot.com^$all
 ||magiskroot.net^$all
