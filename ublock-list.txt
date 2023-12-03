@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bxgC+GU9Pz7sMF3vMSax+g
+! Checksum: u5wfQHgZO2FeOf/+139ExQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312032030
-! Last Modified: 2023年12月03日 20:30
+! Version: 202312040219
+! Last Modified: 2023年12月04日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63314,6 +63314,7 @@ youtube.com###YtKevlarVisibilityIdentifier
 youtube.com###YtSparklesVisibilityIdentifier
 youtube.com###feed-pyv-container
 youtube.com###player-ads
+youtube.com###ytd-player button.ytp-suggested-action-badge
 youtube.com##.ad-showing > .html5-video-container
 youtube.com##.companion-ad-container
 youtube.com##.list-view[style="margin: 7px 0pt;"]
@@ -100152,12 +100153,10 @@ uproxy2.*##+js(aost, Math.floor, )
 18tube.sex##+js(aeld, getexoloader)
 18tube.sex##.opt
 pix4link.com##+js(set, blurred, false)
-||doubleclick.net^$xhr,redirect-rule=nooptext,domain=liveschauen.com
 liveschauen.com##.banner
 liveschauen.com###werbung
 liveschauen.com##pjsdiv[style="position: absolute; top: -7px; left: -111px; pointer-events: none; opacity: 1; transition: opacity 0.1s linear 0s, transform 0.1s linear 0s; color: rgb(255, 255, 255); font-size: 15px; font-family: Tahoma; letter-spacing: 0.5px; padding: 0px 3px; white-space: nowrap; font-weight: bold; transform: scale(1);"]:upward(1)
 @@||therokuchannel.roku.com/$xhr,1p
-||googleads.g.doubleclick.net^$xhr,redirect-rule=nooptext,domain=weltwebcams.com
 nulljungle.com##+js(nostif, innerHTML)
 naturalnews.com##.Header
 ||naturalnews.com^$script
@@ -100642,7 +100641,6 @@ eductin.com##+js(nostif, show)
 *$xhr,removeparam=ad_config_id,domain=telequebec.tv
 ear-phone-review.com##+js(nostif, nextFunction)
 @@||ear-phone-review.com^$ghide
-*/wp-content/themes/soledad/js/detector.js
 switch520.com##+js(acs, eval, replace)
 ||4u2movie.com^$3p,media,redirect=noopmp3-0.1s
 embed.nana2play.com##.click_block
@@ -102480,6 +102478,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||mediafire.com/folder/bhzkt4wjxzkmr/$doc
 ||mediafire.com/folder/gbhbhm73350j9/$doc
 ||mediafire.com/folder/5fifwp6upg5et/$doc
+||mediafire.com/folder/3od5jmmfc87ie/$doc
 ||hellhacks.fun^$doc
 ||gamefree.vip^$doc
 ||cheater-pro.com^$doc
@@ -102487,7 +102486,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||pengwincheats.xyz^$doc
 ||tophacks.pro^$doc
 ||lavacheat.com^$doc
-||194.49.94.61^$all
+||193.233.132.47^$all
 .systems/signup?ad_domain=$doc,popup
 ||1perpersqe1.com^$all
 ||atnpx.com^
@@ -102730,6 +102729,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||sanff.com^$all
 ||gghhe.com^$all
 ||ooppnm.com^$all
+||vnomm.com^$all
 /axad/?lpkey=$doc
 ||vlcdownloads.com^$all
 ||borntiecalm.live^$all
