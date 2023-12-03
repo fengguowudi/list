@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3zeyY4sybXqWFf0W3GT9QA
+! Checksum: WR00noMowoaGUVyO/tehSA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202312030919
-! Last Modified: 2023年12月03日 09:19
+! Version: 202312031420
+! Last Modified: 2023年12月03日 14:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -57344,7 +57344,7 @@ browsershots.org#@#.advert_area
 ||oontent.powzers.lol^
 ||openstack.org/api/public/v1/sponsored-projects?
 ||optics.org/banners/
-||outbrain.com^$domain=bgr.com|buzzfeed.com|tvline.com
+||outbrain.com^$domain=bgr.com|buzzfeed.com|dto.to|tvline.com
 ||outlookads.live.com^
 ||outputter.io/uploads/$subdocument
 ||ownedcore.com/forums/ocpbanners/
@@ -57371,6 +57371,8 @@ browsershots.org#@#.advert_area
 ||positivehealth.com/img/original/TopicbannerAvatar/
 ||povvldeo.lol/js/fpu3/
 ||prebid-server.newsbreak.com^
+||presearch.com/affiliates|$xmlhttprequest
+||presearch.com/coupons|$xmlhttprequest
 ||pressablecdn.com/wp-content/uploads/Site-Skin_update.gif$domain=bikebiz.com
 ||prewarcar.com/*-banners/
 ||prod-sponsoredads.mkt.zappos.com^
@@ -61209,6 +61211,7 @@ chess.com##.leaderboard-atf-ad-wrapper
 howstuffworks.com##.leaderboard-banner
 poe.ninja##.leaderboard-bottom
 chess.com##.leaderboard-btf-ad-wrapper
+mxdwn.com##.leaderboard-bucket
 arabiaweather.com,atlasobscura.com,bloomberg.com,forum.audiogon.com,gamesindustry.biz,news957.com##.leaderboard-container
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder-desktop
@@ -62244,6 +62247,7 @@ saltwire.com##.sw-banner
 swimswam.com##.swimswam-acf
 khmertimeskh.com##.swiper-container-horizontal
 khmertimeskh.com##.swiper-wrapper
+presearch.com##.sx-top-bar-products
 patriotnationpress.com##.t2ampmgy
 sbenny.com##.t3-masthead
 emoneyspace.com##.t_a_c
@@ -68095,6 +68099,7 @@ newduba.cn###jq_youxi
 ||needqnv.xyz^
 ||bepmrb.xyz^
 ||motcmn.icu^
+||f23al.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -84998,6 +85003,7 @@ fqsousou.com,kengso.com#@#.user-share
 /dtrack.js
 /duel-analytics.js
 /dwanalytics-
+/dwanalytics.js
 /dy-coll-nojq-min.js
 /dynamic.ziftsolutions.com/*
 /DynamicAnalytics.js
@@ -87414,6 +87420,7 @@ _mongo_stats/
 ||e1e.io^
 ||eagle-insight.com^
 ||easycompute.systems^
+||ecn-ldr.de^
 ||ed-sys.net^
 ||efreecode.com^
 ||egoi.site^
@@ -87529,6 +87536,7 @@ _mongo_stats/
 ||mediamathrdrt.com^
 ||mirabelanalytics.com^
 ||mitour.de^
+||mitself.net^
 ||ml-sys.xyz^
 ||mm-api.agency^
 ||mobildev.in^
@@ -91872,6 +91880,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sillyscrew.com^
 ||simplesidewalk.com^
 ||simplisticstem.com^
+||simulateswing.com^
 ||sincerebuffalo.com^
 ||sincereseashore.com^
 ||sinceresubstance.com^
@@ -94129,7 +94138,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||felix.data.tm-awx.com/pageConfig
 ||felix.data.tm-awx.com/pageview
 ||filament-stats.herokuapp.com^
-||files.envoke.com^*/adt_nvk_tracking.js
+||files.envoke.com^*_nvk_tracking.js
 ||filesonic.com/referral/$third-party
 ||fingerprinter-production.herokuapp.com^
 ||fiorenetwork.com/aparatvast/log.php?
@@ -95509,6 +95518,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uriports.com/reports/$third-party
 ||urldefense.com^$image,third-party
 ||us-central1-markuphero.cloudfunctions.net^
+||usaoptimizedby.increasingly.co^
 ||user.userguiding.com^
 ||usercentrics.eu/session/$image
 ||userexperience.thehut.net^
@@ -95947,6 +95957,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.audionow.de^
 ||analytics.cnd-motionmedia.de^$third-party
 ||analytics.gameforge.de^
+||analytics.idfnet.net^
 ||analytics.loop-cloud.de^$third-party
 ||analytics.media-proweb.de^
 ||analytics.praetor.im^$third-party
@@ -97171,6 +97182,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collider.com/strpixel.png
 ||colvk.viki.io^
 ||confiant.msn.com^
+||configurator.ecom-mobile-samsung.com/api/logger
 ||connatix.com/scripts/$~third-party
 ||connatix.com/us/google/
 ||connecteam.com/bi/api/ReportHit/
@@ -97878,6 +97890,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.infogram.com^
 ||s.wayfair.com^
 ||saa.insideedition.com^
+||samsung.com/us/web/internal/logger
+||sapphire-api.target.com^
 ||sciencechannel.com/events/
 ||scloud.online/stat/
 ||scoot.co.uk/ajax/log_
@@ -98055,6 +98069,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tapewithadblock.com/stat/
 ||tapewithadblock.org/stat/
 ||taplytics-umami.grubhub.com^
+||target-us.samsung.com^
+||target.com/consumers/v1/ingest/web/eventstream?
+||target.com/consumers/v1/ttms/events?
+||target.com/rum_analytics/
+||target.com/telemetry_data/
 ||target.nationwide.com^
 ||target.nejm.org^
 ||targeting.washpost.nile.works^
@@ -98164,7 +98183,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tumblr.com/pop/js/modern/sentry-
 ||tumblr.com/services/bblog
 ||tunein.com/api/v1/log/
-||turbobit.*/js/analytics/
+||turbobit.*/fdUserFingerprintToken.js
 ||tweakers.net/ajax/$ping
 ||twitter.com/1.1/attribution
 ||twitter.com/1.1/jot
@@ -98453,6 +98472,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||madlan.co.il/o4wPDYYd/init.js
 ||nyxcosmetics.com/IZ/PXLZNv2dn4/init.js
 ||octopart.com/kdRQnL15/init.js
+||oshkosh.com/0F3091f3/init.js
 ||priceline.com/9aTjSd0n/init.js
 ||ralphlauren.com^*/init.js
 ||realtor.com/rdc_user_check/init.js
@@ -98466,6 +98486,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||shoebacca.com/YaRJwC0q/init.js
 ||simon.com/46SCNLxs/init.js
 ||skechers.com/dL6GOSf9/init.js
+||skiphop.com/0F3091f3/init.js
 ||snipesusa.com/6XNN2xkk/init.js
 ||spirit.com/kp4CLSb5/init.js
 ||streeteasy.com/cZdhF737/init.js
