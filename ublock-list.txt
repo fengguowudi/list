@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +TkENLw0Qzw2JAmu0RYTVg
+! Checksum: SbhU0F32Yy/t5sV/uB3qZQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312041423
-! Last Modified: 2023年12月04日 14:23
+! Version: 202312042032
+! Last Modified: 2023年12月04日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -238,7 +238,7 @@
 /ad_wrapper.
 /adanalytics.
 /adaptvadplayer.
-/adasset/*
+/adasset/*$~script
 /adasync.
 /adbanner2.
 /adbanners/*
@@ -62449,6 +62449,7 @@ tvzoneuk.com##[data-hook="HtmlComponent"]
 jeffdornik.com##[data-image-info]
 phoneia.com##[data-index]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-layout="ad"]
+independent.co.uk##[data-mpu1]
 goal.com##[data-name="ad-leaderboard"]
 polygon.com##[data-native-ad-id^="container"]
 namepros.com##[data-np-ga-event="ad"]
@@ -65667,6 +65668,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /analytics-ingestion/*
 /analytics-ingress-
 /analytics-js/*
+/analytics-library.js
 /analytics-minimal-v4.js
 /analytics-minimal.js
 /analytics-ping.js
@@ -65729,7 +65731,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /AnalyticsEvent.js
 /analyticsFooter.js
 /analyticsjs.js
-/analyticsjs/*
 /analyticsscript.ashx
 /analyticstrack.js
 /analyticstracking.js
@@ -65774,8 +65775,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /AppMeasurement.js
 /AppMeasurement.min.js
 /AppMeasurement2.js
-/AppMeasurement_Module_
-/AppMeasurementCustom.
+/AppMeasurement_Module_ActivityMap.min.js
+/AppMeasurementCustom.min.js
 /aptrk.js
 /ard.png?
 /aria-web-telemetry-
@@ -65797,7 +65798,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /at.gif?
 /atapixel.js
 /atatus.js
-/athena/tracking/*
 /atrk.gif?
 /atrk.js
 /audience-extraction.js
@@ -66065,7 +66065,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /common/analytics.js
 /common/ga.js
 /common/tracker.js
-/compile/AppMeasurement.
 /comscore-min.js
 /comscore?
 /comscore_beacon/*
@@ -66108,7 +66107,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /counter.pl?
 /counter/acnt.php?
 /counter/collect?
-/counter/stat.
+/counter/stat.php
 /counter/views/*
 /counter1.gif?
 /counter2.gif?
@@ -66130,9 +66129,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /CreateAnalytics.js
 /CreateCookieSSO_
 /criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com
-/Criteo/*
-/criteo_
-/criteoRTA.
+/criteoRTA.js
 /crypta.js
 /csi?v=*&action=
 /csi?v=2&s=
@@ -66827,6 +66824,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /lunametrics-
 /m.gif?
 /madAnalytics.js
+/magento-storefront-event-collector@
 /magento/page-visit?
 /magento2.js
 /magpie.js
@@ -67399,7 +67397,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /setTDUID.do?
 /sfCounter/*
 /sgtracker.js
-/shareCounts.
 /shared/sentry/*
 /sherlock.gif?
 /shinystat.cgi
@@ -67411,19 +67408,14 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /showcounter.$domain=~showcounter.com
 /showhits.php?
 /shreddit/perfMetrics
-/si-tracking.
-/sidtracker.
-/sikcomscore_
-/silveregg_cookie?
-/silveregg_tracking.
+/silveregg/js/cookie_lib.js
 /simple_reach.js
 /simtracker.min.js
-/siq-analytics.
 /site_counter?
-/site_statistics.
-/site_stats.
+/site_statistics.js
+/site_stats.js
 /site_stats/*
-/site_tracking.
+/site_tracking.js
 /siteAnalytics-
 /siteanalytics_
 /sitecatalist.js
@@ -67437,15 +67429,11 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /sitestats.gif?
 /sitetrek.js
 /sizes.gif?*=
-/skstats-
-/skstats_
-/skype-analytics.
-/slimstat/*
+/skype-analytics.js
 /sluurpy_track.js
-/smart-pixel.min.
+/smart-pixel.min.js
 /smartpixel-1.js
 /smartpixel.$domain=~smartpixel.com|~smartpixel.tv
-/smartrack/*
 /smartserve-
 /smarttag-prod.
 /smartTag.bundle.
@@ -67465,12 +67453,11 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /socialtracking.min.js
 /softclick.js
 /solarcode.js
-/sometrics/*
 /somni.js
 /somtag/loader/*
 /somtag/logs/*
 /sophus.js
-/sophus3/*
+/sophus3/logging.js
 /sophus3_logging.js
 /sp-2.0.0.min.js
 /sp_analytics.js
@@ -67619,6 +67606,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /stp.gif?
 /stracking.js
 /sTrackStats.
+/sTrackStats.js
 /strak.php?t=
 /stream/log.html?
 /streamsense.min.js
@@ -75719,6 +75707,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lycos.com/hb.js
 ||m.stripe.com^$third-party,domain=~stripe.network
 ||ma.logsss.com^
+||magento-recs-sdk.adobe.net^
 ||magnify.net/decor/track/
 ||mail-app.com/pvtracker/
 ||mail.ru/dstat?
@@ -76989,6 +76978,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dr3fr5q4g2ul9.cloudfront.net^
 ||drlimmode9ddd.cloudfront.net^
 ||dsbahmgppc0j4.cloudfront.net^
+||dtxtngytz5im1.cloudfront.net^
 ||dtym7iokkjlif.cloudfront.net/dough/
 ||du4rq1xqh3i1k.cloudfront.net^
 ||du8783wkf05yr.cloudfront.net^
@@ -107562,6 +107552,7 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 @@||ads.viralize.tv^|$domain=automoto.it|moto.it
 @@||monetize-static.viralize.tv/prebid.min.$domain=automoto.it|moto.it
 @@||npttech.com/advertising.js$domain=independent.co.uk
+||inmobi.com^$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
