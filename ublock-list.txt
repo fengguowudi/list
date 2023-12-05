@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VHsd5Qi38mU/eB0N62CbqA
+! Checksum: 5HRh83myYqZJZxXpi9fsyA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312050916
-! Last Modified: 2023年12月05日 09:16
+! Version: 202312051422
+! Last Modified: 2023年12月05日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -79704,6 +79704,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ktla.com/CvbtpUrj/init.js
 ||lancome-usa.com/IZ/PXq99AlOxk/init.js
 ||madlan.co.il/o4wPDYYd/init.js
+||newsnationnow.com/yZuPxxW0/init.js
 ||nyxcosmetics.com/IZ/PXLZNv2dn4/init.js
 ||octopart.com/kdRQnL15/init.js
 ||oshkosh.com/0F3091f3/init.js
@@ -100274,7 +100275,7 @@ adurly.cc##+js(aopr, app_vars.force_disable_adblock)
 adurly.cc##+js(set, blurred, false)
 @@||starfaucet.net^$ghide
 starfaucet.net##[class^="bmadblock-"]
-ofilmywap.*,kannadamasti.*,buyjiocoin.*,filmygod13.*##+js(nowoif)
+filmywap.*,ofilmywap.*,kannadamasti.*,buyjiocoin.*,filmygod13.*##+js(nowoif)
 fiedrive.com##+js(aopr, app_vars.force_disable_adblock)
 veryfastdownload.pw##+js(aopr, SmartPopunder.make)
 eztvtorrent.co##+js(acs, document.querySelectorAll, popMagic)
@@ -114812,7 +114813,7 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 # entries:        3779
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
-# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1
+# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
 # Patreon:        https://patreon.com/blocklist
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
