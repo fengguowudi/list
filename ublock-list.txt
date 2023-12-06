@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ywUyK771HZoNMfVYHgbuHA
+! Checksum: d2oO3t5u0FkRtPNyste2xA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312061422
-! Last Modified: 2023年12月06日 14:22
+! Version: 202312062033
+! Last Modified: 2023年12月06日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -768,6 +768,7 @@
 /delivery/apu.php
 /delivery/avw.
 /delivery/fc.
+/delivery/lg.php
 /delivery/spc.
 /delivery_ads/*
 /dfp.min.js$third-party
@@ -55464,6 +55465,7 @@ browsershots.org#@#.advert_area
 ||shink.in/js/script.js
 ||shopmyshelf.us^$third-party
 ||shorte.st/link-converter.min.js
+||signup.asurion.com^$subdocument
 ||siteground.com/img/affiliate/
 ||siteground.com/img/banners/
 ||skimresources.com^$script,subdocument,third-party
@@ -58322,10 +58324,10 @@ healthbenefitstimes.com###ad-image-below
 thetimes.co.uk###ad-intravelarticle-inline
 dvdsreleasedates.com###ad-movie
 dappradar.com###ad-nft-top
-thedailymash.co.uk,thepoke.co.uk###ad-sidebar-1
-thedailymash.co.uk,thepoke.co.uk###ad-sidebar-2
-thedailymash.co.uk,thepoke.co.uk###ad-sidebar-3
-thedailymash.co.uk,thepoke.co.uk###ad-sidebar-4
+thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-1
+thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-2
+thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-3
+thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-4
 agegeek.com,boards.net,investing.com,mtaeta.info,notbanksyforum.com,pimpandhost.com,realgearonline.com,repairalmostanything.com,timeanddate.com,wordhippo.com,wordreference.com###ad1
 agegeek.com,investing.com,pimpandhost.com###ad2
 exchangerates.org.uk,investing.com###ad3
@@ -59217,6 +59219,7 @@ forum.mobilism.org###v-mobilism-org-0
 nutritioninsight.com###verticlblks
 filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
 ghgossip.com###vi-sticky-ad
+investing.com###video
 sportskeeda.com###video-player-container--
 forums.tomsguide.com###video_ad
 gumtree.com.au###view-item-page__leaderboard-wrapper
@@ -60130,6 +60133,8 @@ zdnet.com##.c-adDisplay_container_incontent-all-top
 tuko.co.ke##.c-adv
 legit.ng##.c-adv--video-placeholder
 cnet.com##.c-asurionBottomBanner
+cnet.com##.c-asurionInteractiveBanner
+cnet.com##.c-asurionInteractiveBanner_wrapper
 newstalkzb.co.nz##.c-background
 elnacional.cat##.c-banner
 truck1.eu##.c-banners
@@ -65571,6 +65576,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .gatracking.js
 .gif?Log=
 .jp/pv?
+.jp/static/js/track.js
 .lms-analytics/
 .net/l.gif?
 .no/app/aas/a
@@ -65643,6 +65649,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /a8c-analytics.js
 /aap/stats
 /abc.gif?
+/acc/acctag.js
 /access.php?referrer=
 /accessanalyzer/tracker?
 /AccessCounter/index.cgi?
@@ -66114,7 +66121,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /collect/pv?
 /collect/sdk?$domain=~iugu.com
 /collect/stats?
-/collect/tracking.
 /collect/view?
 /collect/view_count?
 /collect?appName
@@ -66135,10 +66141,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /collector/pageview
 /collector/v1/event
 /collector?report=
-/collectStats;
 /collectsysteminfo?
-/com_joomla-visites/*
-/com_joomlawatch/*
+/com_joomlawatch/img.php
 /common/analytics.js
 /common/ga.js
 /common/tracker.js
@@ -66176,7 +66180,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /Counter.ashx?
 /counter.asp?
 /counter.aspx?
-/counter.cgi/*
 /counter.cgi?
 /counter.js.php
 /counter.php?width=
@@ -66235,7 +66238,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /dcs.gif?
 /dcs_tag.js
 /default/pAnalytics
-/delivery/lg.
 /detm-container-ftr.js
 /detm-container-hdr.js
 /DG/DEFAULT/rest/*
@@ -66252,7 +66254,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /dlpageping?
 /dm.gif?
 /dmp/pixel.js
-/dmu2panalytics/views/*
+/dmu2panalytics/ajax_call.php?
 /doctracking.js
 /dolWebAnalytics.js
 /dom-event-tracker.min.js
@@ -66261,7 +66263,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /dot.gif?
 /dow_analytics.js
 /dpistat/updater.php
-/drive-analytics/*
 /drwebstat.js
 /dspixel.js
 /dtm_cm.js
@@ -66278,8 +66279,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /e_stat?g_id=
 /eatms.js
 /ebonetag.js
-/ebs/tracking.
-/ebs/tracking/*
 /ecanalytics.js
 /ecap.min.js
 /ecblank.gif?
@@ -66403,6 +66402,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /firm_tracking.js
 /fkounter/counter.js
 /fkounter5/counter.js
+/flowplayer.drive-analytics.min.js
 /flushimpressions?
 /flv_tracking.
 /flying-analytics/*
@@ -66616,7 +66616,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /hit_counter
 /hit_img.cfm?
 /hitbox.js
-/hitCount.
+/hitCount.js
+/hitCount.php
 /hitcount/*
 /hitcount?
 /HitCounter.
@@ -66705,6 +66706,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /ivw/SP/*$image,script
 /j.gif?
 /jgs_portal_log_bildschirm.php?
+/joomla-visites.php
 /jquery-gatracker.js
 /jquery.analytics.js
 /jquery.audiencetarget.js
@@ -66715,16 +66717,14 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /jquery.iframetracker.min.js
 /jquery.trackstar.js
 /js-sdk-event.min.js
-/js/_analytics/*
+/js/_analytics.js
 /js/analitics.js
 /js/count.js.
 /js/counter.js?
 /js/dart.js
 /js/hbx.js
-/js/lead-tracking/*
 /js/logger?
 /js/quantcast-
-/js_event_tracking/*
 /js_ibeat_ext.cms
 /js_log_error.js
 /js_logger.php
@@ -66770,6 +66770,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /krux.js
 /LandingPageHitLog.aspx?
 /lasso-ga.js
+/lead-tracking.min.js
 /leadgen/ga.js
 /leadtag.js
 /leage.google.tracker.js
@@ -67048,6 +67049,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /onetag/*
 /onl/track.php?
 /onlinecount.php
+/oo/*/l.js
+/oo/*/lsync.js
+/oo/cl*.js?rd=
 /opdc.js
 /open/log/*
 /openpixel.gif?
@@ -67061,6 +67065,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /ot_e404.gif?
 /OtAutoBlock.js
 /ouibounce.min.js
+/outLoging.js
+/outLoging2.js
 /owa.Analytics.m.js
 /owa.tracker-combined-min.js
 /oxAnalytics.js
@@ -67677,9 +67683,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /status-beacon/*
 /status/impression?
 /StatV1?
-/stcollection.
 /stdlog?
-/storeAdvImpression.
+/storeAdvImpression.jsp
 /stp.gif?
 /stracking.js
 /sTrackStats.
@@ -67693,7 +67698,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /stwc-counter/*
 /stwc/code.js
 /submission/pageview
-/supercookie.
+/supercookie.asp
+/supercookie.js
 /superstats.$domain=~superstats.com|~superstats.dk
 /sw/analytics.js
 /swa_t.gif?
@@ -67710,8 +67716,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /t/event?
 /t?referer=
 /t?tcid=
-/tab_impression_logging/*
-/tablytics.
 /tacoda.
 /tacoda_
 /taevents-
@@ -68069,6 +68073,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /VisitSite.js
 /VisitTracking?
 /visscore.tag.min.js
+/vissense.js
 /visualrevenue.js
 /vjslog?
 /vli-platform/adb-analytics@
@@ -68534,10 +68539,6 @@ omni.soundestlink.com$image
 /ajax/eulerian/*
 /eulerian.js
 /r/ucb.js$script,~third-party
-/magnet/render.
-/re-engage/render.
-/targeting/render.
-/vissense.js
 /client_204?$image,other,ping,script
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
@@ -68547,18 +68548,13 @@ omni.soundestlink.com$image
 ||google.com/gen_204?
 ||googleapis.com^*/gen_204?
 ||gstatic.com/gen_204?
--logabpstatus.
-/ab_track.
+/ab_track.js
 /adb.policy.js
-/adblock?action=
-/adblocker-check.
-/adblocker/pixel.
 /adblockLogger/*
+/sk-logabpstatus.php
 /wp-admin/admin-ajax.php?action=adblockvisitor$~third-party
 /ws_client?zone=gen$websocket
 /wutime-adblocktracker/*
-_adblock_stat.
-_mongo_stats/
 !-----------------Third-party tracking domains-----------------!
 ||00px.net^
 ||1cros.net^
@@ -68851,7 +68847,6 @@ _mongo_stats/
 ||rtactivate.com^
 ||rumt-sg.com^
 ||s-onetag.com^
-||salsify-ecdn.com^
 ||sbgsodufuosmmvsdf.info^
 ||sc-static.net^
 ||screen13.com^$image
@@ -76245,6 +76240,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||salescs.com/liveagent/scripts/track.js
 ||salesforce.com/sfga.js
 ||salesloft.com/sl.js
+||salsify-ecdn.com/sdk/
 ||sascdn.com/mh_audience/
 ||sawpf.com/1.0.js$third-party
 ||saymedia.com/latest/tetrapak.js
@@ -97466,6 +97462,7 @@ arketing.indianadunes.com^
 ||bc.nhk.jp^
 ||beacon.watch.impress.co.jp^
 ||beat.yourtv.jp^
+||blozoo.info/js/ranktool/
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
 ||carview.co.jp/include_api/log/
@@ -97501,6 +97498,7 @@ arketing.indianadunes.com^
 ||logql.yahoo.co.jp^
 ||m-oo-m.com/data/report/
 ||mangaraw.to/api/v1/view/
+||mayla.jp/TRACKING/
 ||measure.ameblo.jp^
 ||minkou.jp/js/tracking.js
 ||mixi.net/static/js/build/mixi-analysis.production.js
@@ -97510,9 +97508,11 @@ arketing.indianadunes.com^
 ||nhk.or.jp^*/bc.js
 ||nicovideo.jp/api/counter/
 ||nikkei.com/.resources/tracking/
+||odsyms15.com/impression?
 ||pvtag.yahoo.co.jp^
 ||pw.gigazine.net^
 ||pzd.rakuten.co.jp^
+||rakuten.co.jp/com/js/omniture/
 ||rakuten.co.jp/gw.js
 ||rat.rakuten.co.jp^
 ||rdsig.yahoo.co.jp^$image
@@ -104597,6 +104597,10 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||peroiramus.me^$doc
 ||www.academicsingles.jp^$doc
 ||ado.wish-best.com^$doc
+||ga6jkbl.jp^$doc
+||keiunkan.com^$doc
+||matching-search.jp^$doc
+||matching-searchh.jp^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||apkmirror.co^$all
@@ -105143,16 +105147,6 @@ ericdraken.com##^script[async]
 ||c2shb.pubgw.yahoo.com/admax/bid/partners/PBJS
 ||blozoo.info/js/inouttool/
 !||linkedin.com/li/track$xhr,1p
-/oo/*/lsync.js$1p
-/oo/*/l.js|$1p
-/oo/cl*.js?rd=$1p
-/acc/acctag.js
-.jp/static/js/track.js
-/outLoging.js
-/outLoging2.js
-||blozoo.info/js/ranktool/
-||odsyms15.com/impression?
-||rakuten.co.jp/com/js/omniture/
 utreon.com##+js(no-xhr-if, utreon.com/pl/api/event method:POST)
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$script,xhr,3p,match-case
 zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST)
