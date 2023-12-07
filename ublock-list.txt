@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NAi57M7UbQ5JZCXCY2bKcA
+! Checksum: DOXEwbFbW33CM0GQT/8o1g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312072033
-! Last Modified: 2023年12月07日 20:33
+! Version: 202312080221
+! Last Modified: 2023年12月08日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -748,6 +748,7 @@
 /css/adv.
 /cubead.
 /curveball/ads/*
+/custom_ads.js
 /customad.js
 /defaults_ads/*
 /deliverad/fc.js
@@ -7816,7 +7817,6 @@ _800x80_
 ##.ad-disclaimer-text
 ##.ad-display
 ##.ad-displayed
-##.ad-div
 ##.ad-div-a0-wrapper
 ##.ad-div-t0-wrapper
 ##.ad-diver
@@ -18364,7 +18364,7 @@ wiki.fextralife.com#@#.ad-sidebar
 wegotads.co.za#@#.ad-source
 isewanferry.co.jp,jreu-h.jp,junkmail.co.za,nexco-hoken.co.jp,version2.dk#@#.ad-text
 job.inshokuten.com#@#.ad-title
-lifeinvader.com,spanishdict.com,studentski-servis.com#@#.ad-wrapper
+lifeinvader.com,marginalreport.net,spanishdict.com,studentski-servis.com#@#.ad-wrapper
 leffatykki.com#@#.ad728x90
 cw.com.tw#@#.adActive
 thoughtcatalog.com#@#.adChoicesLogo
@@ -18486,7 +18486,6 @@ austurfrett.is,boards.4chan.org,boards.4channel.org#@#.middlead
 sankei.com#@#.module_ad
 seura.fi,www.msn.com#@#.nativead
 dogva.com#@#.node-ad
-youtube.com#@#.overlay-ads
 bloomberg.com#@#.page-ad
 rottentomatoes.com#@#.page_ad
 player.ex.co,theautopian.com#@#.pbs__player
@@ -18512,7 +18511,7 @@ k24tv.co.ke#@#.top-ad
 cp24.com#@#.topAd
 outinthepaddock.com.au#@#.topads
 codedevstuff.blogspot.com,hassiweb-programming.blogspot.com#@#.vertical-ads
-ads.google.com,youtube.com#@#.video-ads
+ads.google.com#@#.video-ads
 javynow.com#@#.videos-ad
 sacbee.com#@#.wps-player-wrap
 gumtree.com.au#@#[data-ad-name]
@@ -25737,6 +25736,7 @@ browsershots.org#@#.advert_area
 ||cypressreel.com^
 ||cyprie.com^
 ||cyrigh.com^
+||cyrxvpnu.com^
 ||cystisolor.com^
 ||cysumhqvrjvrs.xyz^
 ||cythat.com^
@@ -26202,6 +26202,7 @@ browsershots.org#@#.advert_area
 ||demurerbewary.live^
 ||denansgdfier.info^
 ||denansgdfierc.com^
+||denarocepa.com^
 ||denbeigemark.com^
 ||denbsd.com^
 ||dencejvlq.com^
@@ -27550,6 +27551,7 @@ browsershots.org#@#.advert_area
 ||eggerscorr.com^
 ||egglessunfrees.uno^
 ||eggsiswensa.com^
+||eggsreunitedpainful.com^
 ||eggytiptops.com^
 ||egknjiycidfj.com^
 ||egldvmz.com^
@@ -41104,6 +41106,7 @@ browsershots.org#@#.advert_area
 ||resinyanthdia.com^
 ||resistcorrectly.com^
 ||resistsarcasm.com^
+||resistshy.com^
 ||resizerlooch.com^
 ||resnaulum.com^
 ||resniks.pro^
@@ -42026,6 +42029,7 @@ browsershots.org#@#.advert_area
 ||savouryadolescent.com^
 ||savoyedpollet.life^
 ||savtvkdny.xyz^
+||sawalinitwits.com^
 ||sawanincreasein.info^
 ||saweatherco.com^
 ||sawfishdiapsid.com^
@@ -42962,6 +42966,7 @@ browsershots.org#@#.advert_area
 ||slimlyeneas.com^
 ||slimreply.pro^
 ||slimy-sport.pro^
+||slinkyfoliot.com^
 ||slipperspinchingsyntax.com^
 ||slipperswallpaper.com^
 ||slippery-bed.pro^
@@ -43598,6 +43603,7 @@ browsershots.org#@#.advert_area
 ||starvationdefence.com^
 ||starvegingerwaist.com^
 ||starverwear.com^
+||starvybryan.com^
 ||stastips.net^
 ||stat-rock.com^
 ||statcamp.net^
@@ -44216,6 +44222,7 @@ browsershots.org#@#.advert_area
 ||syruphamster.com^
 ||sysdmt.com^
 ||syseinpoundaym.info^
+||sysoutvariola.com^
 ||system-notify.app^
 ||systeme-business.online^
 ||systemengagedwisely.com^
@@ -45651,10 +45658,12 @@ browsershots.org#@#.advert_area
 ||tuffoonincaged.com^
 ||tufteraureous.digital^
 ||tugarmyindistinct.com^
+||tuglikevertigo.com^
 ||tugust.com^
 ||tuitionpancake.com^
 ||tujajnatzbmo.com^
 ||tujourda.net^
+||tukeelsy.com^
 ||tukulordimera.com^
 ||tulasitoughie.com^
 ||tuleceti.com^
@@ -45807,6 +45816,7 @@ browsershots.org#@#.advert_area
 ||tytothwarts.com^
 ||tytyeastfeukufun.info^
 ||tywdchppfgds.xyz^
+||tzaristdiploma.com^
 ||tzegilo.com^
 ||tzgygfy.com^
 ||tzugumojfm.com^
@@ -46086,6 +46096,7 @@ browsershots.org#@#.advert_area
 ||unevenregime.com^
 ||unfainfraseirs.org^
 ||unfairpromritual.com^
+||unfaithfulgoddess.com^
 ||unfaithfulmakeryearly.com^
 ||unfeeddizoic.com^
 ||unfieryneutral.com^
@@ -48381,6 +48392,7 @@ browsershots.org#@#.advert_area
 ||xprivate.cc^
 ||xpsavuyxtfnqphw.com^
 ||xqdfnqfgixjwpdb.xyz^
+||xqfwhxbfxhpjko.com^
 ||xqgwymog.xyz^
 ||xqhifbjhixb.com^
 ||xqmyebdrunebsh.xyz^
@@ -53305,6 +53317,7 @@ browsershots.org#@#.advert_area
 ||resetenhancementsillegal.com^$popup
 ||residelikingminister.com^$popup
 ||residenceseeingstanding.com^$popup
+||resistshy.com^$popup
 ||responsiverender.com^$popup
 ||resterent.com^$popup
 ||restorationbowelsunflower.com^$popup
@@ -63032,6 +63045,7 @@ donedeal.ie##div[class^="DFP__StyledAdSlot-"]
 genius.com##div[class^="DfpAd__Container-"]
 dailymotion.com##div[class^="DisplayAd"]
 games.dailymail.co.uk,nba.com##div[class^="DisplayAd_"]
+alternativeto.net##div[class^="GamAds_"]
 games.dailymail.co.uk##div[class^="GameTemplate__displayAdTop_"]
 benzinga.com##div[class^="GoogleAdBlock_"]
 livescore.com##div[class^="HeaderAdsHolder_"]
@@ -63511,9 +63525,7 @@ youtube.com###related > div#player-ads
 youtube.com###ytd-player button.ytp-suggested-action-badge
 youtube.com##.ad-showing > .html5-video-container
 youtube.com##.companion-ad-container
-youtube.com##.list-view[style="margin: 7px 0pt;"]
 youtube.com##.promoted-sparkles-text-search-root-container
-youtube.com##.promoted-videos
 youtube.com##.statement-banner-foreground-content
 youtube.com##.ytd-action-companion-ad-renderer
 youtube.com##.ytd-carousel-ad-renderer
@@ -102076,7 +102088,6 @@ support.ublock.org##div.hero-unit > div.search-box--hero-unit::before:style(cont
 ||chairgaubsy.com^$doc
 ||epailseptox.com^$doc
 ||hentaiplaytime.com^$doc
-||notification-time.com^$doc
 ||viewmypdf.com^$doc
 ||com-guest.info^$doc
 ||foxload.com^$doc
@@ -102123,7 +102134,6 @@ majorgeeks.com##b:has(a[target^="reimage"])
 ||abcdserver.com^$all
 ||americanoverlook.com^
 ||anonnews.co^
-||channel-7-news.com^
 ||embols.com^
 ||endingthefed.com^
 ||goneleft.com^
@@ -105532,16 +105542,11 @@ meeting.tencent.com##+js(no-xhr-if, /(trace|beacon)\.qq\.com/)
 ||static.bbc.co.uk/bbcdotcom/*/adverts.js$script,1p,important,redirect=noopjs
 /ga_setup.js$badfilter
 ||lexus.com/lexus-share/js/tracking_omn/s_code.js$script,important,1p,redirect=noopjs
-@@||sephora.com/js/ufe/isomorphic/thirdparty/VisitorAPI.js$script,1p
-@@||edge1.certona.net/*$script,domain=sephora.com
-@@||fls.doubleclick.net^$frame,domain=billpay.suntrust.com
 pythonjobshq.com##+js(aopr, Keen)
 @@||hdliveextra-a.akamaihd.net^$domain=nbcsports.com
 @@||mps.nbcuni.com^$script,domain=csnne.com
-@@||alicdn.com/retcode/log/log.js$script,domain=alibaba.com
 @@||myaccounts.capitalone.com^$script,1p
 @@||travel.capitalone.com/api/v0/tracking/event$xhr,1p
-@@||players.brightcove.net^$frame,domain=usatoday.com
 @@||cdn.ampproject.org/*/amp-geo-$script,domain=bozemandailychronicle.com|engadget.com|kmbc.com|koat.com|pilotonline.com|richmond.com|stltoday.com|amp.tmz.com|tucson.com|amp.usatoday.com|watchdog.org
 @@/blockadblock.$script,domain=blockadblock.com
 ||carambo.la^*/getAngularLayer$script,redirect=noopjs,domain=imleagues.com
@@ -106371,14 +106376,8 @@ arthromed.de#@##ad_3
 saltspringexchange.com#@#.single-ad
 *$script,3p,domain=youav.com,badfilter
 @@||wp.com/*/wp-content/plugins/master-slider/public/assets/css/blank.gif$image,domain=hearthstone-decks.net
-||jsrdn.com^$badfilter
-@@||jsrdn.com/*webplayer.html$script
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=aupetitparieur.com
-@@||en25.com/Web/PhilipsLightingBV/$domain=consumer.forms.signify.com
-*$script,1p,domain=unblocktheship.org,badfilter
-*$xhr,domain=unblocktheship.org,badfilter
 @@||pxys.ezoic.net^$domain=lanaciondigital.es
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=mypodboxx.com
 *$xhr,redirect-rule=noopjs,domain=themeslide.com
 @@||front.usereserva.com/libraries/*/GTM.min.js$script,1p
 @@||fhi.no^$cname
@@ -106415,19 +106414,11 @@ humanbenchmark.com##+js(set, pubg.unload, noopFunc)
 @@||message-fra.sp-prod.net^$script,xhr,domain=manager-magazin.de
 ||doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js,domain=aristeguinoticias.com
 @@||news12.com^$frame,1p
-*$image,3p,domain=waudeesestew.com,badfilter
-*$image,3p,domain=shugraithou.com,badfilter
-*$image,3p,domain=q1-tdsge.com,badfilter
-*$css,3p,domain=q1-tdsge.com,badfilter
-*$image,3p,domain=gamez1a.com,badfilter
-*$css,3p,domain=gamez1a.com,badfilter
 @@||treg.hearstnp.com/treg.js$script,domain=sfchronicle.com|sfgate.com
 politico.com##+js(set, generateGalleryAd, noopFunc)
 ||googlevideo.com^$media,redirect=noopmp4-1s,domain=mlb.com
 @@||science-et-vie.com^$cname
 @@||assets.adobedtm.com^*/mbox-contents-$script,domain=nsat.collegeboard.org
-*$script,3p,domain=vidshare.tv,badfilter
-*$css,3p,domain=vidshare.tv,badfilter
 hubblespacetelescope.blogspot.com#@#.vertical-ads
 */tegna-tracking.js$script,important,1p,redirect=noop.js
 @@||ogjs.infoglobo.com.br/*/scripts/templates/advertising/$script,domain=oglobo.globo.com
@@ -106550,7 +106541,6 @@ beppegrillo.it#@#a[href^="https://www.amazon."][href*="tag="]
 @@||imasdk.googleapis.com/js/sdkloader/ima3$script,xhr,domain=venn.tv
 *$script,3p,domain=coinmarketcap.com,badfilter
 *$script,domain=babesxworld.com,badfilter
-pioneer.eu##+js(ra, onclick, a[href][onclick^="trackOutboundLink"])
 ||go.netcraftsmen.com^$1p,frame
 @@||apis.google.com/js/platform.js$script,domain=kitsunekko.net
 @@||cbsistatic.com/*/js/compiled/siteAdsBidBarrel.js$script,domain=gamespot.com
@@ -114871,7 +114861,7 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 # entries:        3780
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
-# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
+# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1
 # Patreon:        https://patreon.com/blocklist
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
