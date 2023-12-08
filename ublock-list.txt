@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cg8HcmmYeXgKyMh/1iQg5w
+! Checksum: 1RaamOJWBSLpkj1C9vxTnQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312081422
-! Last Modified: 2023年12月08日 14:22
+! Version: 202312082032
+! Last Modified: 2023年12月08日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57783,6 +57783,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||chikiporn.com/sqkqzwrecy/
 ||clicknplay.to/q3gSxw5.js
 ||cloud.hentai-moon.com/contents/hdd337st/$media
+||cover.ydgal.com/axfile/
 ||creative.live.javhdporn.net^
 ||creative.live.javmix.tv^
 ||creative.live.missav.com^
@@ -60087,6 +60088,7 @@ armenpress.am##.bnrcontainer
 apkmody.io##.body-fixed-footer
 saharareporters.com##.body-inject
 boingboing.net##.boing-leaderboard-below-menu
+boingboing.net##.boing-primis-video-in-article-content
 btcmanager.com##.boo_3oo_6oo
 cmo.com.au##.boombox
 everydayrussianlanguage.com##.border
@@ -62577,6 +62579,7 @@ stocktwits.com##[data-pos]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
 ginx.tv##[data-ref]
+euroweeklynews.com##[data-revive-zoneid]
 disqus.com##[data-role="ad-content"]
 washingtonpost.com##[data-sc-c="adslot"]
 trakt.tv##[data-snigel-id]
@@ -62720,6 +62723,7 @@ health.news,naturalnews.com,newstarget.com##[href^="https://www.brighteon.tv"]
 work.ink##[href^="https://www.buff.game/buff-download/"]
 seganerds.com##[href^="https://www.canadacasino.ca/"]
 seganerds.com##[href^="https://www.casinonic.com/"]
+ratemycourses.io##[href^="https://www.essaypal.ai"]
 rebelnews.com##[href^="https://www.eventbrite.com/"]
 seganerds.com##[href^="https://www.ewinracing.com/"]
 gamecopyworld.com,gamecopyworld.eu##[href^="https://www.kinguin.net/"]
@@ -63527,7 +63531,9 @@ yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 youtube.com###YtKevlarVisibilityIdentifier
 youtube.com###feed-pyv-container
+youtube.com###main > #banner.ytd-merch-shelf-renderer
 youtube.com###related > div#player-ads
+youtube.com###scroll-container > #items.ytd-merch-shelf-renderer
 youtube.com###ytd-player button.ytp-suggested-action-badge
 youtube.com##.ad-showing > .html5-video-container
 youtube.com##.companion-ad-container
@@ -63535,8 +63541,6 @@ youtube.com##.promoted-sparkles-text-search-root-container
 youtube.com##.statement-banner-foreground-content
 youtube.com##.ytd-action-companion-ad-renderer
 youtube.com##.ytd-carousel-ad-renderer
-youtube.com##.ytd-compact-promoted-video-renderer
-youtube.com##.ytd-merch-shelf-renderer
 youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
 youtube.com##.ytd-promoted-sparkles-text-search-renderer
 youtube.com##.ytd-promoted-video-renderer
@@ -63545,9 +63549,7 @@ youtube.com##.ytd-video-masthead-ad-primary-video-overlay-renderer
 youtube.com##.ytd-video-masthead-ad-v3-renderer
 youtube.com##.ytp-ad-action-interstitial-background-container
 youtube.com##.ytp-ad-action-interstitial-slot
-youtube.com##.ytp-ad-button
 youtube.com##.ytp-ad-overlay-container
-youtube.com##.ytp-ad-player-overlay-flyout-cta
 youtube.com##.ytp-ad-progress
 youtube.com##.ytp-ad-progress-list
 youtube.com##YTM-PROMOTED-VIDEO-RENDERER
@@ -68645,7 +68647,6 @@ omni.soundestlink.com$image
 ||briskpelican.io^
 ||brontops.com^
 ||brsrvr.com^
-||btdmp.com^
 ||btloader.com^
 ||bx-cloud.com^
 ||bydst.com^
@@ -76648,6 +76649,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.99acres.com^
 ||track.atgstores.com^$third-party
 ||track.bannedcelebs.com^
+||track.btdmp.com^
 ||track.coherentpath.com^
 ||track.contently.com^
 ||track.cordial.io^
@@ -98345,7 +98347,7 @@ arketing.indianadunes.com^
 !! google-analytics.com/ga.js
 @@||google-analytics.com/ga.js$domain=meritonsuites.com.au
 !! browser.sentry-cdn.com
-@@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
+@@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 !! adobedtm.com^*/satelliteLib-
 @@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|auspost.com.au|backcountry.com|bmw.com.au|canadapost-postescanada.ca|ceair.com|collegeboard.org|conad.it|costco.com|crackle.com|crackle.com.ar|crackle.com.br|crackle.com.ec|crackle.com.mx|crackle.com.pe|crackle.com.py|crave.ca|crimewatchdaily.com|dhl.de|directline.com|elgiganten.se|elkjop.no|eonline.com|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|gigantti.fi|godigit.com|hellobank.fr|hgtv.com|hrw.com|ilsole24ore.com|jeep.com|laredoute.be|laredoute.ch|laredoute.co.uk|laredoute.com|laredoute.es|laredoute.fr|laredoute.it|laredoute.pl|laredoute.pt|laredoute.ru|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|myaetnasupplemental.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|nrj.fr|oprah.com|oracle.com|pnc.com|poweredbycovermore.com|radiko.jp|realtor.com|redbull.tv|repco.co.nz|sbb.ch|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|sony.jp|stuff.co.nz|subaru.com|support.nec-lavie.jp|tatacliq.com|telegraph.co.uk|timewarnercable.com|tou.tv|usanetwork.com|vanityfair.com|vtr.com|wayin.com|wired.com|wowway.net
 !! adobedtm.com^*-libraryCode_source.min.js
@@ -99950,7 +99952,6 @@ sabishare.com##.cmp-roll
 freeiphone.fr,mobiletrip.net,safemodapk.com,threezly.com,truyenbanquyen.com,veganinja.hu##+js(acs, decodeURIComponent, ai_)
 ibooks.to##+js(acs, String.fromCharCode, ai_)
 muztext.com##+js(nostif, reachGoal)
-sportbet.tips##+js(aopr, _wm)
 naijaray.com.ng##+js(aost, Math.floor, )
 naijaray.com.ng##[href^="//ashoupsu.com/"]
 hotcleaner.com##+js(aopr, Element.prototype.attachShadow)
@@ -99999,7 +100000,6 @@ influencersgonewild.com##.g1-advertisement-inside-grid:upward(li)
 xxxwebdlxxx.top##+js(aopw, _pop)
 xxxwebdlxxx.top##a[href^="https://hotdating-near1.com/"]
 *$frame,script,3p,domain=xxxwebdlxxx.top
-raincaptcha.com##._ad-block
 krypto-trend.de###top_adspace
 krypto-trend.de###captcha-adspace
 krypto-trend.de###middle-adspace
@@ -100181,7 +100181,6 @@ simplebits.io##+js(no-fetch-if, /ads)
 hayamimi-gunpla.com##+js(acs, document.addEventListener, google_ad_client)
 ||prairiemountainmedia.com^$3p
 ||dailycamera.com^$3p
-news-world24.com##+js(no-fetch-if, ads)
 watchmdh.to##+js(set, flashvars.popunder_url, '')
 watchmdh.to##+js(nostif, innerText, 2000)
 watchmdh.to##+js(acs, addEventListener, -0x)
@@ -114865,8 +114864,8 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Thu, 07 Dec 2023 11:18:00 GMT
-# entries:        3780
+# last updated:   Fri, 08 Dec 2023 10:16:08 GMT
+# entries:        3776
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -115335,7 +115334,6 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 127.0.0.1 ads.gamigo.de
 127.0.0.1 ads.gaming-universe.de
 127.0.0.1 ads.gaming1.com
-127.0.0.1 ads.gaypoint.hu
 127.0.0.1 ads.geekswithblogs.net
 127.0.0.1 ads.getlucky.com
 127.0.0.1 ads.gld.dk
@@ -115802,7 +115800,6 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 127.0.0.1 alenty.com
 127.0.0.1 alertafterthought.com
 127.0.0.1 alexa-sitestats.s3.amazonaws.com
-127.0.0.1 alexametrics.com
 127.0.0.1 algorix.co
 127.0.0.1 aliasanvil.com
 127.0.0.1 alikeaddition.com
@@ -115903,7 +115900,6 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 127.0.0.1 as2.adserverhd.com
 127.0.0.1 aserv.motorsgate.com
 127.0.0.1 asewlfjqwlflkew.com
-127.0.0.1 asia999.website
 127.0.0.1 aso1.net
 127.0.0.1 assets1.exgfnetwork.com
 127.0.0.1 assoc-amazon.com
@@ -116117,6 +116113,7 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 127.0.0.1 bridgetrack.com
 127.0.0.1 briefstem.com
 127.0.0.1 brightcom.com
+127.0.0.1 brightinfo.com
 127.0.0.1 brightmountainmedia.com
 127.0.0.1 broadboundary.com
 127.0.0.1 broadcastbed.com
@@ -117038,7 +117035,6 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 127.0.0.1 l6b587txj1.com
 127.0.0.1 lakequincy.com
 127.0.0.1 lameletters.com
-127.0.0.1 lanistaads.com
 127.0.0.1 larati.net
 127.0.0.1 largebrass.com
 127.0.0.1 laughablecopper.com
@@ -118282,6 +118278,7 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 127.0.0.1 tour.brazzers.com
 127.0.0.1 track.adform.net
 127.0.0.1 track.anchorfree.com
+127.0.0.1 track.canva.com
 127.0.0.1 track.contently.com
 127.0.0.1 track.effiliation.com
 127.0.0.1 track.flexlinks.com
@@ -118389,7 +118386,6 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 127.0.0.1 trk.bc.shutterfly.com
 127.0.0.1 trk.pinterest.com
 127.0.0.1 trk.techtarget.com
-127.0.0.1 trk.us-learn-teacher-poetry.xyz
 127.0.0.1 trk42.net
 127.0.0.1 trkn.us
 127.0.0.1 trknths.com
@@ -118498,7 +118494,6 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 127.0.0.1 volatilevessel.com
 127.0.0.1 voluum.com
 127.0.0.1 voluumtrk2.com
-127.0.0.1 volvelle.tech
 127.0.0.1 voyagepotato.com
 127.0.0.1 vpon.com
 127.0.0.1 vrs.cz
