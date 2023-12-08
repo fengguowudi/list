@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DOXEwbFbW33CM0GQT/8o1g
+! Checksum: W0Z7Zo4GuNNEf/rKTEvItQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312080221
-! Last Modified: 2023年12月08日 02:21
+! Version: 202312080916
+! Last Modified: 2023年12月08日 09:16
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -23881,6 +23881,7 @@ browsershots.org#@#.advert_area
 ||cahvpbsikxvvm.xyz^
 ||caicuptu.xyz^
 ||caigluph.xyz^
+||caigobou.com^
 ||caimoasy.net^
 ||cainauhi.xyz^
 ||cainismlungee.uno^
@@ -27379,6 +27380,7 @@ browsershots.org#@#.advert_area
 ||echoachy.xyz^
 ||echoizepheeal.uno^
 ||echskbpghlc.com^
+||eciivxqtur.com^
 ||ecipientconcertain.info^
 ||ecityalittl.buzz^
 ||eclatedpewy.com^
@@ -27929,6 +27931,7 @@ browsershots.org#@#.advert_area
 ||eoveukrnme.info^
 ||eoweridus.com^
 ||eownouncillors.info^
+||eoxaxdglxecvguh.xyz^
 ||epacash.com^
 ||epagogerepines.com^
 ||epailseptox.com^
@@ -31834,6 +31837,7 @@ browsershots.org#@#.advert_area
 ||iletterismyper.info^
 ||ilgwuqgvdzl.com^
 ||iliifmido.xyz^
+||iliketomakingpics.com^
 ||ilinouck.net^
 ||ilkmawgod.site^
 ||illallwoe.com^
@@ -37687,6 +37691,7 @@ browsershots.org#@#.advert_area
 ||orlowedonhisdhilt.info^
 ||ormolustuke.top^
 ||ornery-animal.pro^
+||oroodsee.xyz^
 ||orpheushooven.com^
 ||orqaxjj.com^
 ||orqrdm.com^
@@ -50690,6 +50695,7 @@ browsershots.org#@#.advert_area
 ||acrossheadquartersanchovy.com^$popup
 ||actio.systems^$popup
 ||actiondesk.com^$popup,third-party
+||activate-game.com^$popup
 ||aculturerpa.info^$popup
 ||ad-free.info^$popup
 ||ad-guardian.com^$popup
@@ -52765,6 +52771,7 @@ browsershots.org#@#.advert_area
 ||noughttrustthreshold.com^$popup
 ||novechufa.xyz^$popup
 ||november-lax.com^$popup
+||november-sin.com^$popup
 ||novitrk7.com^$popup
 ||novitrk8.com^$popup
 ||nowaynoconvs.net^$popup
@@ -58028,7 +58035,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||phonerotica.com/resources/img/banners/
 ||pics-x.com/api/get_ad/
 ||picshick.com/b9ng.js
-||pimpandhost.com/mikakoko/
+||pimpandhost.com^$subdocument
 ||pisshamster.com/prerolls/
 ||pleasuregirl.net/bload
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
@@ -63519,7 +63526,6 @@ yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 youtube.com###YtKevlarVisibilityIdentifier
-youtube.com###YtSparklesVisibilityIdentifier
 youtube.com###feed-pyv-container
 youtube.com###related > div#player-ads
 youtube.com###ytd-player button.ytp-suggested-action-badge
@@ -64058,6 +64064,7 @@ namethatporn.com##.a_br_b
 upornia.com##.aa_label
 namethatporn.com##.aaaabr
 pimpandhost.com##.aaablock_yes
+pimpandhost.com##.ablock_yes
 cambb.xxx,chaturbate.com,dlgal.com,playboy.com,rampant.tv,sex.com,signbucks.com,tallermaintenancar.com,tehvids.com,thehentaiworld.com,thehun.net,tiktits.com,uflash.tv,xcafe.com##.ad
 x13x.space##.ad-banner
 coomer.party,coomer.su,kemono.party,kemono.su,pinflix.com,urlgalleries.net##.ad-container
@@ -65154,7 +65161,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||photofunia.com/effects/$image,~third-party
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||player.aniview.com/script/$script,domain=odysee.com
-@@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=dictionary.com|video.timeout.com|video.venturebeat.com
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
 @@||player.ex.co/player/$script,domain=theautopian.com
 @@||player.odycdn.com/api/$xmlhttprequest,domain=odysee.com
@@ -65389,6 +65395,10 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=game.anymanager.io|game.goo.ne.jp
 !! g.doubleclick.net/pagead/ppub_config
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
+!! anyclip.com (non-invideo ads only)
+@@||anyclip.com/anyclip-widget/$script,domain=dictionary.com|heute.at|video.timeout.com
+@@||anyclip.com/main.js$script,domain=video.timeout.com
+@@||anyclip.com/static/$script,domain=video.timeout.com
 @@/banner/ad/*$image,domain=achaloto.com
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
 @@||ad-api-v01.uliza.jp^$script,xmlhttprequest,domain=golfnetwork.co.jp|tv-asahi.co.jp
@@ -99487,6 +99497,7 @@ qub.ca##.jss2
 !#endif
 incestflix.com##+js(aopw, _pop)
 incestflix.com##body > div[style*="z-index:"]
+incestflix.com##+js(acs, atob, _pop)
 xtube.com##.pageBanner
 xtube.com##.panelBottomSpace > li.pull-right
 xtube.com##.removeAds
@@ -99711,7 +99722,6 @@ kaotic.com##div.hard-5.col-xs-12.col-sm-3:has(.track_outbound_post)
 kaotic.com##.track_outbound_post.grid-item
 cargurus.com##[data-cg-ft="sponsored-listing-badge"]:upward(3)
 cargurus.com##[id^="bannerAdLEADERBOARD_INLINE_"]:upward(1)
-filmiseriali.com##+js(set, noAdBlock, true)
 @@||metro.style^$ghide
 1link.vip##+js(set, blurred, false)
 1link.vip##[href^="https://1frozenthrone1.com"]
@@ -99727,7 +99737,6 @@ sitecuatui.xyz###gtelinkbtn, #wpsafe-generate, #wpsafe-link:style(display: block
 sitecuatui.xyz##[id^="wpsafe-wait"]
 @@||tekfiz.com^$ghide
 tekfiz.com##ins.adsbygoogle
-@@||onepiece-streaming.co^$ghide
 files.fm##+js(aopr, canRunAds)
 ||cdn.flashtalking.com^$media,redirect=noopmp3-0.1s,domain=app.plex.tv
 app.plex.tv##+js(json-prune, MediaContainer.Metadata.[].Ad)
@@ -99937,11 +99946,10 @@ hardcoregames.ca###custom_html-46
 ##[href^="luvaihoo.com"]
 ||hallway.netnaija.app/deliver.1.5.js$script,3p
 sabishare.com##.cmp-roll
-freeiphone.fr,freshiptv.com,mobiletrip.net,safemodapk.com,threezly.com,truyenbanquyen.com,veganinja.hu##+js(acs, decodeURIComponent, ai_)
+freeiphone.fr,mobiletrip.net,safemodapk.com,threezly.com,truyenbanquyen.com,veganinja.hu##+js(acs, decodeURIComponent, ai_)
 ibooks.to##+js(acs, String.fromCharCode, ai_)
 muztext.com##+js(nostif, reachGoal)
 sportbet.tips##+js(aopr, _wm)
-phcracker.net##+js(acs, $, samAdBlockAction)
 naijaray.com.ng##+js(aost, Math.floor, )
 naijaray.com.ng##[href^="//ashoupsu.com/"]
 hotcleaner.com##+js(aopr, Element.prototype.attachShadow)
@@ -100286,10 +100294,6 @@ analsexstars.com##+js(nowoif)
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_cleverPushWidget
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.id-Recommendation
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_pinpoll
-swatchseries.ru##+js(acs, onclick, open)
-swatchseries.ru##+js(set, console.clear, noopFunc)
-swatchseries.ru##+js(aopr, mm)
-swatchseries.ru##+js(nowoif)
 swatchseries.*##+js(aopw, _pop)
 ||2target.net^$3p
 *$script,3p,denyallow=facebook.net|fbcdn.net,domain=sukidesuost.info
@@ -101970,7 +101974,6 @@ askpaccosi.com###wcfloatDiv4
 askpaccosi.com##.av_pop_modals_1
 techsignin.com##+js(acs, document.getElementsByTagName, tdBlock)
 techsignin.com###td-outer-wrap:style(cursor: default !important)
-eroti.ga,erotiga.net##+js(acs, document.querySelectorAll, popMagic)
 cam-video.xxx##+js(nowoif)
 cam-video.xxx###float-video
 ||wurfl.site^$script,3p
@@ -105451,6 +105454,9 @@ pepper.ru##+js(href-sanitizer, a[href*="https://www.pepper.ru/visit/"][title^="h
 preisjaeger.at##+js(href-sanitizer, a[href*="https://www.preisjaeger.at/visit/"][title^="https://"], [title])
 promodescuentos.com##+js(href-sanitizer, a[href*="https://www.promodescuentos.com/visit/"][title^="https://"], [title])
 pelando.com.br##+js(href-sanitizer, a[href*="https://www.pelando.com.br/api/redirect?url="], ?url)
+||r.aachener-zeitung.de^
+||prod-mhaa.mhtr.be^
+||mhtr.be/public/tr/tracker.min.js
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -107670,6 +107676,7 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 @@||cdn.adsninja.ca/adsninja_client$css,script,3p,domain=androidpolice.com
 @@||androidpolice.com^$ghide
 androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js,domain=atv.at|autobild.de|chip.de|computerbild.de|gentside.de|oe24.at|ohmymag.de|phonostar.de|schwaebische.de|spielaffe.de|sport.sky.de|videos.heute.at|wetteronline.de
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -114861,7 +114868,7 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 # entries:        3780
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
-# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=1
+# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
 # Patreon:        https://patreon.com/blocklist
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
