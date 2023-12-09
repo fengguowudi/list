@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WddU+yyTpjJ4WHhmZIDPpQ
+! Checksum: m224aRfZ+YDaF/n2xt5AUg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312092030
-! Last Modified: 2023年12月09日 20:30
+! Version: 202312100219
+! Last Modified: 2023年12月10日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -100539,8 +100539,6 @@ gomoviz.*##div.content-kuss
 embedsb.com,streamlare.com##+js(nosiif, 0x)
 everyeye.it##+js(nostif, adb)
 nodejs.libhunt.com##[data-ref="saashub"]:upward(div.feed-item)
-instaanime.com##+js(nostif, length)
-instaanime.com##+js(nowoif)
 alueviesti.fi,kiuruvesilehti.fi,lempaala.ideapark.fi,olutposti.fi,urjalansanomat.fi##+js(aeld, scroll, innerHeight)
 watashiwasugoidesu.com##.watas-adlabel
 watashiwasugoidesu.com##.watas-bottom-vi
