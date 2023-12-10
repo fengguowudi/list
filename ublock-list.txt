@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aBmi885kBqyJS36CCDAxyQ
+! Checksum: /spONTwy3ddjtCKhO50qDA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312100920
-! Last Modified: 2023年12月10日 09:20
+! Version: 202312101420
+! Last Modified: 2023年12月10日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -67117,6 +67117,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /stats/et_track.asp?
 /stats/etag.
 /stats/event.js?
+/stats/events
 /stats/footer.
 /stats/ga.
 /stats/ida_
@@ -98235,6 +98236,7 @@ hot-cartoon.com,richhioon.eu,wowstream.top##+js(aopr, BetterJsPop)
 123movieshd.*##+js(set, p18, undefined)
 cfake.com###over
 theyarehuge.com##+js(acs, Object.defineProperty, clickHandler)
+*$script,3p,denyallow=bootstrapcdn.com,from=youdbox.*
 porntry.com##.js-mob-popup
 *$script,3p,denyallow=youtube.com|youtube-ui.l.google.com,domain=mxtube.net
 erotic-beauties.com,hardsex.cc,sex-movies.biz,sikwap.xyz,tube18.sexy##+js(acs, pop_init)
