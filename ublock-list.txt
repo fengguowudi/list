@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FlChYjqRozX0ExDvPEuX/w
+! Checksum: meQtA/6s03loILhGpI9zaQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312122033
-! Last Modified: 2023年12月12日 20:33
+! Version: 202312130221
+! Last Modified: 2023年12月13日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -35355,7 +35355,6 @@ browsershots.org#@#.advert_area
 ||mm-cgnews.com^
 ||mm-syringe.com^
 ||mmadsgadget.com^
-||mmcdn.com^
 ||mmctsvc.com^
 ||mmdyvkndcsiw.com^
 ||mmgads.com^
@@ -105193,6 +105192,7 @@ pelando.com.br##+js(href-sanitizer, a[href*="https://www.pelando.com.br/api/redi
 ||mhtr.be/public/tr/tracker.min.js
 proboards.com,winclassic.net##+js(rmnt, script, vglnk)
 proboards.com,winclassic.net##^script:has-text(vglnk)
+coomer.su,kemono.su##+js(set, plausible, noopFunc)
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
