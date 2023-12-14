@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kCUR2LrVRPQPConnGRFxrg
+! Checksum: XyFrUjUICWVZqFj6pJ6f0Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312141422
-! Last Modified: 2023年12月14日 14:22
+! Version: 202312142032
+! Last Modified: 2023年12月14日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -280,7 +280,6 @@
 /adj.php?
 /adjs.php
 /adlayer.php
-/adlib.js
 /adlib.min.js
 /adlog.php
 /admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com|~admanager.line.biz|~admanager.opera.com|~admanager.roku.com|~admanager.sevio.app
@@ -71715,6 +71714,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aloofvest.com^
 ||alpineactor.com^
 ||amazingairplane.com^
+||ambiguousafternoon.com^
 ||ambiguousalarm.com^
 ||ambiguousanger.com^
 ||ambiguousdinosaurs.com^
@@ -71732,7 +71732,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||annoyingacoustics.com^
 ||annoyingclover.com^
 ||anxiousapples.com^
-||apathetictheory.com^
 ||apparatuslip.com^
 ||aquaticalarm.com^
 ||aquaticanswer.com^
@@ -71747,15 +71746,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aromamirror.com^
 ||aspiringapples.com^
 ||aspiringattempt.com^
+||astonishingair.com^
 ||astonishingfood.com^
-||attractionapples.com^
 ||attractionbanana.com^
 ||attractiveafternoon.com^
 ||attractivecap.com^
 ||audioarctic.com^
 ||auntants.com^
 ||auspiciousyard.com^
-||automaticairplane.com^
 ||automaticflock.com^
 ||automaticside.com^
 ||automaticturkey.com^
@@ -71766,7 +71764,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||awakebird.com^
 ||awarealley.com^
 ||awesomeagreement.com^
-||awesomeattack.com^
 ||awzbijw.com^
 ||axiomaticalley.com^
 ||axiomaticanger.com^
@@ -71810,7 +71807,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||billowybead.com^
 ||billowybelief.com^
 ||bitterbear.com^
-||bizarrebaseball.com^
 ||blackbrake.com^
 ||bleachbubble.com^
 ||bleachscarecrow.com^
@@ -71832,6 +71828,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||boringcoat.com^
 ||bouncyfront.com^
 ||bouncyproperty.com^
+||boundarybusiness.com^
 ||boundlessargument.com^
 ||boundlessbrake.com^
 ||boundlessveil.com^
@@ -71860,6 +71857,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bumpydevelopment.com^
 ||bunchance.com^
 ||burgerbrush.com^
+||burlywhistle.com^
 ||burnbubble.com^
 ||burntwist.com^
 ||burstblade.com^
@@ -71916,6 +71914,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chairscrack.com^
 ||chairsdonkey.com^
 ||chalkoil.com^
+||changeablecats.com^
 ||channelcamp.com^
 ||chargecracker.com^
 ||charmingcough.com^
@@ -71961,6 +71960,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||colossalchance.com^
 ||colossalclouds.com^
 ||colossalcoat.com^
+||colossalcry.com^
 ||combativecar.com^
 ||combativedetail.com^
 ||combbit.com^
@@ -71977,7 +71977,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||conceptualizereading.com^
 ||concernedchickens.com^
 ||concernedcondition.com^
-||concerneddrink.com^
 ||conditionchange.com^
 ||conditioncrush.com^
 ||confesschairs.com^
@@ -71989,7 +71988,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consistpotato.com^
 ||controlcola.com^
 ||controlswim.com^
-||cookchalk.com^
 ||coordinatedbedroom.com^
 ||coordinatedcoat.com^
 ||coordinatedcub.com^
@@ -71997,6 +71995,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||copycarpenter.com^
 ||copyrightaccesscontrols.com^
 ||copytitle.com^
+||coralreverie.com^
 ||cordcopper.com^
 ||correctchaos.com^
 ||cosmosjackson.com^
@@ -72056,7 +72055,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dazzlingbook.com^
 ||deadpangate.com^
 ||deadpanmarble.com^
-||deadpantruck.com^
 ||deafeningdock.com^
 ||deafeningdowntown.com^
 ||debonairdust.com^
@@ -72070,7 +72068,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||decoycreation.com^
 ||deerbeginner.com^
 ||defectivedress.com^
-||defectivesun.com^
 ||defiantrice.com^
 ||delegatediscussion.com^
 ||delicatecascade.com^
@@ -72101,7 +72098,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||discreetquarter.com^
 ||dispensablestranger.com^
 ||distancefinger.com^
-||distinctday.com^
 ||distributionneck.com^
 ||distributionpocket.com^
 ||distributiontomatoes.com^
@@ -72158,15 +72154,18 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||elephantqueue.com^
 ||embellishedmeadow.com^
 ||embermosaic.com^
+||eminentbubble.com^
 ||eminentend.com^
 ||emptyescort.com^
 ||enchantedjudge.com^
 ||enchantedskyline.com^
 ||enchantedtop.com^
 ||enchantingbear.com^
+||enchantingvalley.com^
 ||encourageidea.com^
 ||encourageshock.com^
 ||encouragingleaf.com^
+||encouragingthread.com^
 ||encouragingvase.com^
 ||encouragingwilderness.com^
 ||endurablebulb.com^
@@ -72174,6 +72173,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||endurableshop.com^
 ||energeticexample.com^
 ||energeticladybug.com^
+||engineergrape.com^
 ||engineertrick.com^
 ||enormousearth.com^
 ||enormousfoot.com^
@@ -72188,7 +72188,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||erraticreaction.com^
 ||etherealripple.com^
 ||evaluateend.com^
-||evaluatestream.com^
 ||evanescentedge.com^
 ||eventexistence.com^
 ||exampleshake.com^
@@ -72235,8 +72234,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fearfulfish.com^
 ||fearfulmint.com^
 ||fearlessfaucet.com^
+||featherstage.com^
 ||feebleshock.com^
 ||fewjuice.com^
+||fewkittens.com^
 ||fifthborder.com^
 ||finalizeforce.com^
 ||financefear.com^
@@ -72258,6 +72259,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||flutteringfireman.com^
 ||foamyfood.com^
 ||foamypain.com^
+||followborder.com^
 ||forecasttiger.com^
 ||foregoingfowl.com^
 ||foretellfifth.com^
@@ -72303,6 +72305,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gammamaximum.com^
 ||gaudybeginner.com^
 ||generalprose.com^
+||generateoffice.com^
 ||gentlemoonlight.com^
 ||giantsvessel.com^
 ||giddycoat.com^
@@ -72403,7 +72406,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hosenews.com^
 ||hospitablehall.com^
 ||hospitablehat.com^
-||hothydrant.com^
 ||humdrumhat.com^
 ||humdrumhobbies.com^
 ||hurtgrape.com^
@@ -72515,7 +72517,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lunchroomlock.com^
 ||maddeningpowder.com^
 ||magicaljoin.com^
-||magicalmonth.com^
 ||magnetairport.com^
 ||magnificentmeasure.com^
 ||magnificentmist.com^
@@ -72546,7 +72547,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||meatydime.com^
 ||meddleplant.com^
 ||mediatescarf.com^
-||medusasailor.com^
 ||mellowbike.com^
 ||mellowmailbox.com^
 ||melodicminute.com^
@@ -72620,6 +72620,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nothingunit.com^
 ||nulldiscussion.com^
 ||nullnorth.com^
+||numberlessring.com^
 ||numerousnest.com^
 ||nutritiousbean.com^
 ||nuttyorganization.com^
@@ -72633,11 +72634,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||operationnail.com^
 ||opinionsurprise.com^
 ||oppositeoperation.com^
-||oppositeparcel.com^
 ||optimallimit.com^
 ||orangeoperation.com^
 ||orionember.com^
-||outstandingincome.com^
 ||outstandingsnails.com^
 ||ovalweek.com^
 ||overconfidentfood.com^
@@ -72645,6 +72644,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||owlsr.us^
 ||paddleangle.com^
 ||pailcrime.com^
+||pailpatch.com^
 ||painstakingpickle.com^
 ||paintpear.com^
 ||paintplantation.com^
@@ -72731,7 +72731,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||predictplate.com^
 ||prefixpatriot.com^
 ||prepareplanes.com^
-||presentbedroom.com^
 ||presetrabbits.com^
 ||presssensor.com^
 ||previousplayground.com^
@@ -72763,8 +72762,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||puffypull.com^
 ||puffypurpose.com^
 ||pumpedpancake.com^
+||pumpedpurpose.com^
 ||punyplant.com^
 ||purchasesuggestion.com^
+||purposepipe.com^
 ||pushypipe.com^
 ||puzzlingproperty.com^
 ||q20jqurls0y7gk8.info^
@@ -72800,9 +72801,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rangeplayground.com^
 ||rapidkittens.com^
 ||raresummer.com^
+||raspyteam.com^
 ||readgoldfish.com^
 ||readingguilt.com^
-||readingopera.com^
 ||readymoon.com^
 ||readysnails.com^
 ||realizedoor.com^
@@ -72838,6 +72839,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||resonantrock.com^
 ||respectrain.com^
 ||restrainstorm.com^
+||rhetoricalactivity.com^
 ||rhetoricalloss.com^
 ||rhetoricaltoes.com^
 ||rhetoricalveil.com^
@@ -72874,6 +72876,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sablesmile.com^
 ||sablesong.com^
 ||sadloaf.com^
+||saffronrefuge.com^
 ||sailsuit.com^
 ||samesticks.com^
 ||samestretch.com^
@@ -72884,12 +72887,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||savoryorange.com^
 ||savorystructure.com^
 ||saysidewalk.com^
+||scarcecard.com^
 ||scarcesign.com^
 ||scarcesurprise.com^
 ||scarecrowslip.com^
 ||scarecrowslope.com^
 ||scaredcomfort.com^
-||scaredfarm.com^
 ||scaredsidewalk.com^
 ||scaredsnake.com^
 ||scaredsnakes.com^
@@ -72979,7 +72982,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||simplisticstem.com^
 ||simulateswing.com^
 ||sincerebuffalo.com^
-||sincereseashore.com^
 ||sinceresubstance.com^
 ||singroot.com^
 ||sinkbooks.com^
@@ -73010,12 +73012,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||smoggysnakes.com^
 ||smoggysongs.com^
 ||smoggystation.com^
-||snailscart.com^
 ||snailsengine.com^
 ||snakemineral.com^
 ||snakeslang.com^
 ||snakesshop.com^
 ||snakesstone.com^
+||sneakwind.com^
 ||sneakystew.com^
 ||snoresmile.com^
 ||soaprange.com^
@@ -73060,9 +73062,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||spendpest.com^
 ||spidersboats.com^
 ||spiffymachine.com^
-||spikyslave.com^
 ||spirebaboon.com^
-||spitefulstop.com^
 ||spongesalt.com^
 ||spookyexchange.com^
 ||spookyskate.com^
@@ -73077,11 +73077,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||springaftermath.com^
 ||springsister.com^
 ||springsnails.com^
+||spuriousair.com^
 ||spuriousbase.com^
 ||spurioussquirrel.com^
 ||spurioussteam.com^
 ||spuriousstranger.com^
 ||spysubstance.com^
+||squalidscrew.com^
 ||squashfriction.com^
 ||squeakzinc.com^
 ||squealingturn.com^
@@ -73114,6 +73116,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stereoproxy.com^
 ||stereotypedclub.com^
 ||stereotypedsugar.com^
+||stewedge.com^
 ||stickssheep.com^
 ||stickysheet.com^
 ||stiffgame.com^
@@ -73225,7 +73228,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||terrifictooth.com^
 ||testadmiral.com^
 ||testedtouch.com^
-||teststocking.com^
 ||texturetrick.com^
 ||therapeuticcars.com^
 ||thickticket.com^
@@ -73257,7 +73259,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tinytendency.com^
 ||tiredthroat.com^
 ||tiresomethunder.com^
-||toadtexture.com^
 ||toecircle.com^
 ||toedrawer.com^
 ||toothbrushnote.com^
@@ -73267,6 +73268,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||torpidtoothpaste.com^
 ||toweringrun.com^
 ||tradetooth.com^
+||tranquilamulet.com^
+||tranquilcanyon.com^
 ||tranquilside.com^
 ||translateoatmeal.com^
 ||trappush.com^
@@ -73299,7 +73302,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||unaccountablepie.com^
 ||unadvisedengine.com^
 ||unarmedindustry.com^
-||unbecomingbikes.com^
 ||unbecominghall.com^
 ||unbecominglamp.com^
 ||uncoveredcircle.com^
@@ -73341,7 +73343,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||virgoplato.com^
 ||virtualvincent.com^
 ||vivaciousveil.com^
-||vmundanepollution.com^
 ||voicelessvein.com^
 ||voicevegetable.com^
 ||volatileprofit.com^
@@ -73393,6 +73394,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wtaccesscontrol.com^
 ||xovq5nemr.com^
 ||yamstamp.com^
+||yieldingwoman.com^
 ||youngmarble.com^
 ||youthfulnoise.com^
 ||zbwp6ghm.com^
@@ -97825,6 +97827,7 @@ arketing.indianadunes.com^
 @@||account.adobe.com/newrelic.js$~third-party
 @@||accounts.intuit.com/fe_logger?$~third-party
 @@||addthis.com/*-angularjs.min.js$script,domain=ead.senac.br|missingkids.com|missingkids.org
+@@||addthis.com/js/*/addthis_widget.js$script,domain=stagecoachbus.com
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
@@ -105283,6 +105286,18 @@ pelando.com.br##+js(href-sanitizer, a[href*="https://www.pelando.com.br/api/redi
 proboards.com,winclassic.net##+js(rmnt, script, vglnk)
 proboards.com,winclassic.net##^script:has-text(vglnk)
 coomer.su,kemono.su##+js(set, plausible, noopFunc)
+||res.office365.com/footprint/v*/scripts/fp-min.js$script
+||res.office365.com/footprint/v*/scripts/fpconfig.json$script
+||atmrum.net/rum.js$script
+||atmrum.net/client/v*/atm/fpv*.min.js$script
+||atmrum.net/conf/v*/atm/fpconfig.min.json$script
+||config.fp.measure.office.com/conf/v*/*/fpconfig.min.json$script
+||fp.msedge.net/conf/v*/asgw/fpconfig.min.json?monitorId=asgw$script
+/apc/trans.gif
+/apc/r.gif
+||atmrum.net/report/v*/atm/r.gif
+||fp.msedge.net/r.gif
+||odinvzc.azureedge.net/apc/trans.gif
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -114694,8 +114709,8 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 12 Dec 2023 21:48:59 GMT
-# entries:        3778
+# last updated:   Thu, 14 Dec 2023 08:42:41 GMT
+# entries:        3780
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -116295,6 +116310,7 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 127.0.0.1 detailedgovernment.com
 127.0.0.1 detectdiscovery.com
 127.0.0.1 dev.visualwebsiteoptimizer.com
+127.0.0.1 dewdroplagoon.com
 127.0.0.1 dianomi.com
 127.0.0.1 didtheyreadit.com
 127.0.0.1 digestiondrawer.com
@@ -116546,6 +116562,7 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 127.0.0.1 freewheel.com
 127.0.0.1 freewheel.tv
 127.0.0.1 freezingbuilding.com
+127.0.0.1 frequentflesh.com
 127.0.0.1 freshrelevance.com
 127.0.0.1 friendwool.com
 127.0.0.1 frightenedpotato.com
