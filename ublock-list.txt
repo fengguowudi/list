@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6L1ZWTMw07h6Gm8ep36dFg
+! Checksum: RpmOqi0e4AzKwM2WmTH81g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312161420
-! Last Modified: 2023年12月16日 14:20
+! Version: 202312162029
+! Last Modified: 2023年12月16日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18458,6 +18458,7 @@ stuff.tv#@#.c-ad
 thedigestweb.com#@#.c-ad-banner
 deployhappiness.com,dmitrysotnikov.wordpress.com,faravirusi.com,freedom-shift.net,lovepanky.com,markekaizen.jp,netafull.net,photopoint.com.ua,posh-samples.com#@#.category-ad:not(html):not(body)
 business-hack.net,clip.m-boso.net,iine-tachikawa.net,meihong.work#@#.category-ads:not(html):not(body)
+accuweather.com#@#.cnx-player-wrapper
 studio55.fi#@#.column-ad
 huffpost.com#@#.connatix-wrapper
 fontspace.com,skyrimcommands.com#@#.container-ads
@@ -90480,7 +90481,6 @@ arketing.indianadunes.com^
 ||go.morningstar.com^
 ||go.navepoint.com^
 ||go.netwitness.com^
-||go.oracle.com^
 ||go.petrelocation.com^
 ||go.protools.emerson.com^
 ||go.psentertainment.com^
