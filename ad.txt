@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tzCm8vwfBRo0oUh9uFOe+g
+! Checksum: 2mrumMuMX3TdvRmUS8LVpQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202312160915
-! Last Modified: 2023年12月16日 09:15
+! Version: 202312161420
+! Last Modified: 2023年12月16日 14:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -485,16 +485,17 @@ static.g.iqiyi.com
 show.ssports.com
 !v.qq.com###player .txp_zt_content
 v.qq.com##.quick_games.quick_item
-qq.com##.mod_ad, .txp_ad, .txp-watermark, .txp_ad_link, .adWrap, .iwan-wrapper
-qq.com##+js(json-prune, ad material.video.url)
+!qq.com##.mod_ad, .txp_ad, .txp_ad_link, .adWrap
+qq.com##+js(json-prune, ads ad material.video)
 !qq.com##+js(no-xhr-if,/trace\.|\/collect/)
 !qq.com##+js(no-fetch-if,/trace\.|beacon\./)
 !qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 !qq.com##+js(aopr, Beacon.prototype.fail)
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
+gdt.qq.com
 cm.l.qq.com
 !||l.qq.com/lview?
-||l.qq.com/livemsg?
+||qq.com/livemsg?
 !||mark.l.qq.com/fcgi-bin/get_video_mark_all?
 ||gtimg.com/qqlive/
 ||qzonestyle.gtimg.cn/qzone/biz/ac/comm/$script
