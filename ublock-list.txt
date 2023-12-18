@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: euAZeIHSf6ZkMitzSZtZLg
+! Checksum: XbHiimh9UIBPIhv+e63n7w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312180916
-! Last Modified: 2023年12月18日 09:16
+! Version: 202312181423
+! Last Modified: 2023年12月18日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -107672,6 +107672,7 @@ meijer.com#@#.product-grid__product:has(.product-tile__sponsored)
 /web-vitals.$script,redirect-rule=noopjs,domain=amazon.com
 @@||amazonwebservicesinc.tt.omtrdc.net/m2/amazonwebservicesinc/ubox/raw$xhr,3p,domain=aws.amazon.com
 ||amazonwebservicesinc.tt.omtrdc.net/m2/amazonwebservicesinc/ubox/raw$xhr,3p,removeparam,domain=aws.amazon.com
+||cdnwebonplay.gviet.vn/public/js/player/ads/ima3.js$script,3p,redirect-rule=google-ima.js,domain=vtvcab.vn
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
