@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +buSvAJu/zXaq3jhbEXtug
+! Checksum: yC4rRh19Dq0BJlSeeVXQ0Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312191421
-! Last Modified: 2023年12月19日 14:21
+! Version: 202312192032
+! Last Modified: 2023年12月19日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -79374,6 +79374,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||strtapewithadblock.xyz/stat/
 ||strtpe.link/stat/
 ||stubhub.com/a/icph
+||suaurl.com/adblock/js/smarttag.js
 ||swarm.video/stats/
 ||szrpr.raen.com^
 ||t.3hentai.net^
@@ -97682,6 +97683,7 @@ arketing.indianadunes.com^
 ||uts.auction.co.kr^
 ||utsssl.auction.co.kr^
 ||wcs.naver.com^
+||weblog.coupang.com^
 ||weblog.eseoul.go.kr^
 ||weblog2.eseoul.go.kr^
 ||ytn.co.kr/_comm/ylog.php?
@@ -98703,22 +98705,7 @@ arketing.indianadunes.com^
 @@||netcoresmartech.com/smartechclient.js$domain=cgv.vn
 !---------- Anti-Adblock ----------
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-try2link.com##+js(aopr, app_vars.force_disable_adblock)
-try2link.com##+js(set, blurred, false)
-try2link.com##+js(aopr, popUp)
-try2link.com##.text-left.box-main2, footer
-fx-gd.net,healthy4pepole.com,hightrip.net###submitBtn, #go_d, #wolfexe-snp:style(display: block !important;)
-fx-gd.net,healthy4pepole.com,hightrip.net###submitBtn, #go_d, #wolfexe-snp:others()
-fx-gd.net,healthy4pepole.com,hightrip.net##+js(nano-sib, /.?/, *, 0.02)
-jameeltips.us##+js(aopr, app_vars.force_disable_adblock)
-jameeltips.us##+js(set, blurred, false)
-jameeltips.us#@#.banner-728x90
-||jameeltips.us^$3p
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=ottwow.com,redirect-rule=google-ima.js
-*$script,domain=gainbtc.*,redirect-rule=noopjs
-gainbtc.click##._hide
-gainbtc.click##.panel-heading > center
-||adcryp.to^$3p
 @@||backlinkping.com^$ghide
 @@||deine-tierwelt.de^$ghide
 deine-tierwelt.de##.OUTBRAIN
