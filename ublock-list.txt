@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Uc57u3gaSqcj6TENyyPBXg
+! Checksum: u4XdndKujUqKSwb6cbmFAA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312220219
-! Last Modified: 2023年12月22日 02:19
+! Version: 202312220913
+! Last Modified: 2023年12月22日 09:13
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -77174,6 +77174,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||usersonline.org/ping.php?
 ||userway.org/api/seo-widget/
 ||userway.org/api/v1/stats
+||usizy.com/external/pageview
 ||utils.global-e.com/set?
 ||utt.pm/utm/
 ||v-h.tv/pixel/
@@ -79304,6 +79305,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mcloud.to/log/
 ||mcloud.to/ping/
 ||mcs-va.tiktokv.com^
+||mcs.tiktokv.us^
 ||mcs.us.tiktokv.com^
 ||medium.com/_/batch
 ||medium.com/_/clientele/reports/performance/
@@ -80169,6 +80171,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||snipesusa.com/6XNN2xkk/init.js
 ||spirit.com/kp4CLSb5/init.js
 ||ssense.com/58Asv359/init.js
+||stockx.com/16uD0kOF/init.js
 ||streeteasy.com/cZdhF737/init.js
 ||studeersnel.nl/27m703Hm/init.js
 ||studocu.com/27m703Hm/init.js
