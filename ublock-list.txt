@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: u4XdndKujUqKSwb6cbmFAA
+! Checksum: vMkyo4/vQ7ZB8sRhOOp2Ew
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312220913
-! Last Modified: 2023年12月22日 09:13
+! Version: 202312221421
+! Last Modified: 2023年12月22日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -49968,6 +49968,7 @@ browsershots.org#@#.advert_area
 ||cpm.media^$third-party
 ||cpmleader.com^$third-party
 ||crakmedia.com^$third-party
+||crazyrocket.io^$third-party
 ||crispads.com^$third-party
 ||croea.com^$third-party
 ||cryptoads.space^$third-party
@@ -65950,6 +65951,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /__imp_apg__/*
 /__rmn.gif?
 /__ssobj/core.js
+/__ssobj/rum?
 /__ssobj/sync?$image
 /__sttm.gif?
 /__ub.gif?
@@ -66187,6 +66189,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /api/video/stats/*$xmlhttprequest
 /api_ip_info.php
 /apilog?
+/apmrum.min.js
 /app-measurement?
 /appdynamics/adrum-
 /appGoogleTagManager-
@@ -76606,6 +76609,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||richrelevance.com/rrserver/tracking?
 ||rltd.io/tags/
 ||rodale.com/ga/
+||route.com/collect
 ||routeapp.io/route-analytics/
 ||rs.sinajs.cn^
 ||rt.flix360.com^
@@ -78277,7 +78281,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||naver.com/mcollector/
 ||ngc1.nsm-corp.com^
 ||performanceplay.co.kr^
-||pxl.retaku.net^
 ||recobell.io/rest/logs?
 ||saluton.cizion.com^
 ||sas.nsm-corp.com^
