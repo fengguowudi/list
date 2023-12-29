@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NTVXi+kymSxa3YFA9/9SZQ
+! Checksum: RJHo4Rs08BldoCLORUORVQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312290220
-! Last Modified: 2023年12月29日 02:20
+! Version: 202312290904
+! Last Modified: 2023年12月29日 09:04
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -46770,6 +46770,7 @@ browsershots.org#@#.advert_area
 ||usurv.com^
 ||uswardwot.com^
 ||uszaodwya.com^
+||ut13r.site^
 ||utaitlastwebe.com^
 ||utantialcottish.xyz^
 ||utarget.co.uk^
@@ -50152,6 +50153,7 @@ browsershots.org#@#.advert_area
 ||clixtrac.com^$third-party
 ||clkmg.com^$third-party
 ||cluep.com^$third-party
+||codegown.care^$third-party
 ||cogocast.net^$third-party
 ||coguan.com^$third-party
 ||coinads.io^$third-party
@@ -58237,6 +58239,10 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||adultfilmdatabase.com/graphics/porndude.png
 ||affiliates.goodvibes.com^
 ||akiba-online.com/data/siropu/
+||alaska.xhamster.com^
+||alaska.xhamster.desi^
+||alaska.xhamster2.com^
+||alaska.xhamster3.com^
 ||allporncomic.com/round-bread-60fe/
 ||allporncomic.com/snowy-paper-9b9f/
 ||alrincon.com/nbk/
@@ -58479,10 +58485,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||manhwa18.cc/js/script.js
 ||mansurfer.com/flash_promo/
 ||marawaresearch.com/images/Banner
-||marine.xhamster.com^
-||marine.xhamster.desi^
-||marine.xhamster2.com^
-||marine.xhamster3.com^
 ||mature-chicks.com/sparkling-
 ||matureworld.ws/images/banners/
 ||megatube.xxx/ab-s.js
@@ -63080,7 +63082,7 @@ everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
 everydaykoala.com,playjunkie.com##[class*="__adv-block"]
 barandbench.com##[class*="ad-slot"]
 usnews.com##[class*="ad-spacer"]
-beincrypto.com,bitcoinist.com,captainaltcoin.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com,techreport.com##[class*="clickout-"]
+beincrypto.com,bitcoinist.com,captainaltcoin.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com,philnews.ph,techreport.com##[class*="clickout-"]
 smallseotools.com##[class*="gram"]
 levels.fyi##[class*="submissions-table-promo_promoContainer"]
 alternativeto.net##[class^="AdsenseAd"]
@@ -72016,7 +72018,6 @@ omni.soundestlink.com$image
 ||wiredminds.de^$third-party
 ||wirewuss.com^$third-party
 ||wisetrack.net^$third-party
-||wishloop.com^$third-party
 ||withcabin.com^$third-party
 ||withcubed.com^$third-party
 ||wizaly.com^$third-party
