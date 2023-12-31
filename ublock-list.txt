@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CmKnbjbmhY1gWmXAkBDYzg
+! Checksum: e1c7pf1naxJ41cztHKSGYA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312310220
-! Last Modified: 2023年12月31日 02:20
+! Version: 202312310919
+! Last Modified: 2023年12月31日 09:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1625,7 +1625,6 @@
 ?adunitid=
 ?advertiser_id=$domain=~ads.pinterest.com|~panel.rightflow.com
 ?bannerid=
-?category=ad&
 ?cs=*&abt=0&red=1&sm=$third-party
 ?service=ad&
 ?whichAd=freestar&
@@ -11252,6 +11251,7 @@ _800x80_
 ##.advert-wrap1
 ##.advert-wrap2
 ##.advert-wrapper
+##.advert-wrapper-exco
 ##.advert.box
 ##.advert.desktop
 ##.advert.mobile
@@ -50027,6 +50027,7 @@ browsershots.org#@#.advert_area
 ||apexcdn.com^$third-party
 ||aphookkensidah.pro^$third-party
 ||apmebf.com^$third-party
+||app.ebyn.ai^$third-party
 ||appnext.com^$third-party
 ||apprupt.com^$third-party
 ||apptap.com^$third-party
@@ -57959,6 +57960,7 @@ browsershots.org#@#.advert_area
 ||xboxone-hq.com/images/banners/
 ||xda-developers.com/app/plugins/xda-kco-affiliate/
 ||xinhuanet.com/s?
+||y3o.tv/nevarro/video-ads/$domain=yallo.tv
 ||yahoo.com/m/gemini_api/
 ||yahoo.com/pdarla/
 ||yahoo.com/sdarla/
@@ -64241,6 +64243,7 @@ msn.com##a[aria-label="eBay"]
 msn.com##a[href*=".booking.com/"]
 msn.com##a[href*="/aff_m?offer_id="]
 msn.com##a[href*="?sub_aff_id="]
+msn.com##a[href="https://aka.ms/QVC"]
 msn.com##a[href^="https://amzn.to/"]
 msn.com##a[href^="https://clk.tradedoubler.com/click?"]
 msn.com##a[href^="https://clkde.tradedoubler.com/click?"]
@@ -64422,7 +64425,8 @@ sainsburys.co.uk#?#.pt-grid-item:-abp-has([data-test-id="citrus-label"])
 search.yahoo.com#?#div.mb-28:-abp-has(span:-abp-contains(Ads))
 seattleweekly.com#?#.marketplace-row:-abp-contains(Sponsored)
 sephora.com#?#div[class^="css-"]:-abp-has(>a:-abp-has(span:-abp-contains(Sponsored)))
-shipt.com#?#li[class^="sc-9570959f-2 sc-9570959f-4"]:-abp-has(p:-abp-contains(Sponsored))
+shipt.com#?#li[class$="eBAnBw"]:-abp-contains(Sponsored)
+shipt.com#?#div.swiper-slide:-abp-contains(Sponsored)
 skyscanner.com,skyscanner.net#?#div:-abp-has(>a[data-testid="inline-brand-banner"])
 skyscanner.com,skyscanner.net#?#div>a:-abp-has(div[class^="DefaultBanner_sponsorshipRow"])
 sprouts.com#?#li.product-wrapper:-abp-has(span:-abp-contains(Sponsored))
@@ -74385,6 +74389,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lumitos.com^$third-party
 ||mairdumont.com^$third-party
 ||marketing-page.de^$third-party
+||matelso.de^$third-party
 ||mateti.net^$third-party
 ||md-nx.com^$third-party
 ||meetrics.net^$third-party
@@ -77495,6 +77500,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uadblocker.com/pixel1.php?$third-party
 ||uc.cn/collect?
 ||ucounter.ucoz.net^
+||ucoz.net/stat/
 ||uhit.eu/id/$third-party
 ||uid.mediacorp.sg^
 ||uim.tifbs.net^
@@ -79784,6 +79790,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||perr.hola.org^
 ||petametrics.com^$domain=meidastouch.com
 ||pf.newegg.com^
+||pftk.temu.com^
 ||ph.thenextweb.com^
 ||phonearena.com/_track.php
 ||pikbest.com/?m=Stats&
@@ -98449,6 +98456,7 @@ arketing.indianadunes.com^
 ||2gis.ru/_/metrics
 ||3dnews.ru/track
 ||4pda.ru/stat/
+||a.mts.ru^
 ||a.pikabu.ru^
 ||ad.mail.ru/static/sync-loader.js
 ||ad7.bigmir.net^
@@ -98493,6 +98501,7 @@ arketing.indianadunes.com^
 ||mail.ru/count/
 ||metrika.kontur.ru^
 ||mirtesen.ru/js/ms.js
+||mts.ru/fe-api/logger
 ||mytoys.ru/ka_z.jpg?
 ||ngs.ru/s/
 ||odnoklassniki.ru/dk?cmd=videoStatNew
@@ -99137,6 +99146,7 @@ arketing.indianadunes.com^
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||kameleoon.io/geolocation^$domain=welt.de
 @@||kameleoon.io/ip^$domain=welt.de
+@@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
