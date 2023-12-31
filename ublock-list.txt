@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: e1c7pf1naxJ41cztHKSGYA
+! Checksum: yTSrmnTU4g4RCDBZrv2Gqw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202312310919
-! Last Modified: 2023年12月31日 09:19
+! Version: 202312311420
+! Last Modified: 2023年12月31日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -98042,6 +98042,7 @@ arketing.indianadunes.com^
 ||npo-data.nl/tags/tag.min.js
 ||npo.nl/tag/atinternet/
 ||pcmweb.nl/track/
+||pg.totaaltv.nl/api/metrics
 ||pipeline.rd.nl^$~script
 ||r.kleertjes.com^
 ||rtl.nl/system/track/
@@ -105580,6 +105581,36 @@ cambe.pr.gov.br,paranhos.ms.gov.br##^script[language][type]:has-text(window.loca
 ||stalktoolss.ru^$all
 ||stalkanalysis.ru^$all
 ||pepzk-community.xyz^$all
+||arbitragebot.team^$all
+||arbitrageinstruction.media^$all
+||arbitrageproject.blog^$all
+||autotradeguide.pro^$all
+||botarbitrages.pro^$all
+||ethmevbot.com^$all
+||ethmevsetup.group^$all
+||guidesetup.pro^$all
+||mevfrontbot.info^$all
+||mevsetup.site^$all
+||publicbot.pro^$all
+||setupbot.info^$all
+||strategyarbitrages.pro^$all
+||tradingstart.pro^$all
+||uni-setup.media^$all
+||uni-trading.pro^$all
+||uniguide.media^$all
+||unisettings.pro^$all
+||uniswapbot.team^$all
+||uproject.team^$all
+||web-instruction.team^$all
+||webarbitraging.pro^$all
+||0x00000000000.substack.com^$all
+||etharticles.substack.com^$all
+||publicationgroup.substack.com^$all
+||teamproject.substack.com^$all
+||tradestrategy.substack.com^$all
+||uniproject.substack.com^$all
+||web3projects.substack.com^$all
+||webpublic.substack.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
