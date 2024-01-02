@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oFe+/4WIga8oVuCAE1Cf6A
+! Checksum: Wm5XRAR3M4xWtlL4FhBm3g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401020913
-! Last Modified: 2024年01月02日 09:13
+! Version: 202401021421
+! Last Modified: 2024年01月02日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -6748,6 +6748,7 @@ _800x80_
 ###upperad
 ###vc-maincontainer-ad
 ###vc-maincontainer-midad
+###velsof_wheel_container
 ###vert-ads
 ###vertAd2
 ###vert_ad
@@ -51007,6 +51008,7 @@ browsershots.org#@#.advert_area
 ||webwap.org^$third-party
 ||whatstheword.co^$third-party
 ||whizzco.com^$third-party
+||widget.packeta.com^$third-party
 ||wlmarketing.com^$third-party
 ||wmmediacorp.com^$third-party
 ||wordego.com^$third-party
@@ -76770,6 +76772,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ohnorobot.com/verify.pl?
 ||olytics.omeda.com^
 ||ondigitalocean.app/insight-analytics.js
+||one.store/v1/analytics/
 ||onecount.net/onecount/oc_track/
 ||onescreen.net/os/static/pixels/
 ||onesignal.com/api/v*/apps/
