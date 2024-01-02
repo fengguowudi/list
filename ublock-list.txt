@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eSF6jLOSBCvPWJcmp/BXPQ
+! Checksum: oFe+/4WIga8oVuCAE1Cf6A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401020221
-! Last Modified: 2024年01月02日 02:21
+! Version: 202401020913
+! Last Modified: 2024年01月02日 09:13
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62239,7 +62239,7 @@ filehippo.com##.program-actions-header__promo
 filehippo.com##.program-description__slot
 as.com,gokunming.com##.prom
 delicious.com.au,taste.com.au##.prom-header
-babynamegenie.com,ecaytrade.com,nbcbayarea.com,nwherald.com,overclock3d.net,planetsourcecode.com,sciagaj.org,themuslimvibe.com,totalxbox.com,varsity.com,w3techs.com,wgxa.tv##.promo
+babynamegenie.com,comparitech.com,ecaytrade.com,nbcbayarea.com,nwherald.com,overclock3d.net,planetsourcecode.com,sciagaj.org,themuslimvibe.com,totalxbox.com,varsity.com,w3techs.com,wgxa.tv##.promo
 setapp.com,thesaturdaypaper.com.au##.promo-banner
 winscp.net##.promo-block
 forums.minecraftforge.net,nextdoor.com,uploadvr.com##.promo-container
@@ -77112,6 +77112,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sitebooster.com/sb/wix/p?$third-party
 ||sitefinity.com/collect/
 ||sitescdn.net/ytag/ytag.min.js
+||skeepers.io/data/collect
 ||skypack.dev/@amplitude/
 ||skysa.com/tracker/
 ||slackb.com^
@@ -77319,7 +77320,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tag.myplay.com^
 ||tag.rightmessage.com^
 ||tag.rmp.rakuten.com^
-||tag.search.sensefuel.live^$script,third-party
 ||tag.statshop.fr^
 ||tagcdn.com/pix/?
 ||tagger.opecloud.com^
@@ -99458,7 +99458,6 @@ arketing.indianadunes.com^
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
 @@||spxl.socy.es^$script,xmlhttprequest,domain=3djuegosguias.com|3djuegospc.com|applesfera.com|compradiccion.com|directoalpaladar.com|espinof.com|genbeta.com|poprosa.com|trendencias.com|trendenciashombre.com|vidaextra.com|vitonica.com|xatakamovil.com
-@@||tag.search.sensefuel.live/tag/$script,domain=bricomart.es
 !---------- Swedish ----------
 @@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||picsearch.com/js/comscore.js$domain=dn.se
