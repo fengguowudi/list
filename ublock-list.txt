@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xkvTYKMWCX42ykT+AzBBtg
+! Checksum: bU7YtsZItWsE2ZzON4ujkA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401031422
-! Last Modified: 2024年01月03日 14:22
+! Version: 202401032031
+! Last Modified: 2024年01月03日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63883,6 +63883,7 @@ timeout.com##div[id^="ad-side-"]
 nowgoal8.com##div[id^="ad_"]
 javacodegeeks.com##div[id^="adngin-"]
 agoda.com##div[id^="ads-"]
+pixiv.net##div[id^="adsdk-"]
 antiguanewsroom.com##div[id^="antig-"]
 slidesgo.com##div[id^="article_ads"]
 business-standard.com##div[id^="between_article_content_"]
@@ -101444,8 +101445,6 @@ nudes7.com##+js(acs, document.addEventListener, adsbygoogle)
 technicalatg.xyz##+js(acs, document.addEventListener, adsbygoogle)
 ||d1q4kshf6f0axi.cloudfront.net/main/prebid-$script
 apkdoze.com##+js(acs, $, samAdBlockAction)
-enagato.com##+js(aopr, open)
-enagato.com##+js(set, blurred, false)
 fapnado.*##+js(acs, Math.floor, ExoLoader)
 fapnado.*##.pause-ad-pullup
 fapnado.*##[class^="zpot"]
