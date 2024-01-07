@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oozvOnGuqohMetOM0Il8zw
+! Checksum: 9HEgRKn0MTShn6OA1inWxA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401071420
-! Last Modified: 2024年01月07日 14:20
+! Version: 202401072030
+! Last Modified: 2024年01月07日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56041,6 +56041,7 @@ browsershots.org#@#.advert_area
 ||ad.moe.video^
 ||ad.netmedia.hu^
 ||ad.reklamport.com^
+||ad.tpmn.co.kr^
 ||ad.video-mech.ru^
 ||ad.wsod.com^
 ||adaptv.advertising.com^
@@ -56572,6 +56573,7 @@ browsershots.org#@#.advert_area
 ||d1ac2du043ydir.cloudfront.net^
 ||d1aezk8tun0dhm.cloudfront.net^
 ||d1aiciyg0qwvvr.cloudfront.net^
+||d1ap9gbbf77h85.cloudfront.net^
 ||d1appgm50chwbg.cloudfront.net^
 ||d1aqvw7cn4ydzo.cloudfront.net^
 ||d1aukpqf83rqhe.cloudfront.net^
@@ -60815,6 +60817,7 @@ maritimeprofessional.com##.b300x250
 coin360.com##.b5BiRm
 crypto.news,nft.news##.b6470de94dc
 iol.co.za##.bDEZXQ
+clutchpoints.com##.bGrMKt
 thehackernews.com##.babsi
 vidcloud9.me##.backdrop
 namepros.com##.backer
@@ -63362,7 +63365,7 @@ gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,goonhammer.com,joemygod.com,shtfplan.com,thestrongtraveller.com,usmagazine.com##.widget_block
 wplift.com##.widget_bsa
 techweekmag.com##.widget_codewidget
-4sysops.com,9to5linux.com,backthetruckup.com,catcountry941.com,cnx-software.com,corvetteblogger.com,dailyveracity.com,fastestvpns.com,gamingonphone.com,gizmochina.com,guides.wp-bullet.com,hardwaretimes.com,macsources.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,prepperwebsite.com,quickanswer.blog,sashares.co.za,scienceabc.com,techdows.com,techjuice.pk,thinkcivics.com,tooxclusive.com,torrentfreak.com,trackalerts.com,trendingpoliticsnews.com##.widget_custom_html
+4sysops.com,9to5linux.com,backthetruckup.com,catcountry941.com,cnx-software.com,corvetteblogger.com,dailyveracity.com,fastestvpns.com,gamingonphone.com,gizmochina.com,guides.wp-bullet.com,hardwaretimes.com,macsources.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,prepperwebsite.com,quickanswer.blog,sashares.co.za,scienceabc.com,techdows.com,techjuice.pk,thecinemaholic.com,thinkcivics.com,tooxclusive.com,torrentfreak.com,trackalerts.com,trendingpoliticsnews.com##.widget_custom_html
 domaingang.com##.widget_execphp
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
@@ -118810,8 +118813,10 @@ commande.rhinov.pro##+js(set, Sentry.init, noopFunc)
 @@||thethings.com^$ghide
 thethings.com##.adsninja-ad-zone:not(.adsninja-valstream)
 ||awswaf.com^*/telemetry$badfilter
-@@||player.aniview.com/script/$script,domain=pogo.com
-@@||plugin.intuitcdn.net/vep-collab-smlk-ui/assets/vendor/glance/cobrowse/
+@@||cdn.pendo.io/agent/static/*/pendo.js$script,domain=netsecure.adp.com
+@@||googletagmanager.com/gtm.js$script,3p,domain=syracuse.com
+@@||apps.sophi.io/latest/al-syracuse.segments.min.js$script,3p,domain=syracuse.com
+@@||syracuse.com/DG/DEFAULT/rest/rpc/$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
