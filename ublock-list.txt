@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q3jHfuKRkJkubtUebJzaxA
+! Checksum: h3OtvtABaMg7l8+khUcTuQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401110221
-! Last Modified: 2024年01月11日 02:21
+! Version: 202401110916
+! Last Modified: 2024年01月11日 09:16
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -59870,6 +59870,7 @@ proprivacy.com###main-popup
 w3big.com,w3schools.com###mainLeaderboard
 planefinder.net###map-ad-container
 themeforest.net###market-banner
+defenseworld.net###mb-bar
 koreaherald.com###mbpAd022303
 active.com###med_rec_bottom
 active.com###med_rec_top
@@ -63805,6 +63806,7 @@ ratemycourses.io##[href^="https://www.essaypal.ai"]
 rebelnews.com##[href^="https://www.eventbrite.com/"]
 seganerds.com##[href^="https://www.ewinracing.com/"]
 gamecopyworld.com,gamecopyworld.eu##[href^="https://www.kinguin.net/"]
+defenseworld.net##[href^="https://www.marketbeat.com/scripts/redirect.aspx"]
 perezhilton.com##[href^="https://www.mytrue10.com/"]
 weberblog.net##[href^="https://www.neox-networks.com/"]
 newstarget.com##[href^="https://www.newstarget.com/ARF/"]
@@ -65790,6 +65792,7 @@ japan-whores.com##.vp-info
 porndoe.com##.vpb-holder
 porndoe.com##.vpr-section
 kbjfree.com##.w-\[728px\]
+reddxxx.com##.w-screen.backdrop-blur-md
 3prn.com##.w-spots
 pornone.com##.warp
 upornia.com,upornia.tube##.wcccswvsyvk
@@ -66031,7 +66034,7 @@ porndoe.com,redtube.com##video[autoplay][src*="data:" i]
 kimochi.info##.gridlove-posts > .layout-simple:has(.gridlove-archive-ad)
 darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##.no-gutters > .col-6:has(> #special-block)
 jav4tv.com##aside:has(.ads_300_250)
-!! Advanced element hiding rules for Adblock Plus
+!! Advanced element hiding rules
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(Advertisement)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(You may also like)
@@ -66048,6 +66051,8 @@ porngames.com#?#.contentbox:-abp-has(iframe[src^="//"])
 pornhub.com#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
 pornhub.com#?#:-abp-properties(height: 300px; width: 315px;)
 pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
+reddxxx.com#?#.items-center:-abp-contains(/^ad$/)
+reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(*data:image*)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(base64)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(data:)
@@ -80881,7 +80886,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dii.bankaust.com.au^
 ||eventbus.intuit.com^
 ||f775.thehour.com^
-||foxnews.com/static/isa/app/lib/afpid.js
 ||h353.ncadvertiser.com^
 ||h559.stamfordadvocate.com^
 ||halifax-online.co.uk/scripts/16c9d93d/
@@ -126152,8 +126156,8 @@ thethings.com##.adsninja-ad-zone:not(.adsninja-valstream)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 10 Jan 2024 12:30:02 GMT
-# entries:        3786
+# last updated:   Wed, 10 Jan 2024 19:29:17 GMT
+# entries:        3787
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -129140,6 +129144,7 @@ thethings.com##.adsninja-ad-zone:not(.adsninja-valstream)
 127.0.0.1 sadloaf.com
 127.0.0.1 safeanalytics.net
 127.0.0.1 sail-horizon.com
+127.0.0.1 samplesamba.com
 127.0.0.1 samsungacr.com
 127.0.0.1 samsungads.com
 127.0.0.1 sanalytics.disneyplus.com
