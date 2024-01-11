@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xSLFsNHlgsiHWVYmqk7gsw
+! Checksum: jbSMd5vR2NKsm4JH8Ybkpw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401111422
-! Last Modified: 2024年01月11日 14:22
+! Version: 202401112032
+! Last Modified: 2024年01月11日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -111004,6 +111004,7 @@ emb.apl236.me###ads
 ||livesport24.net/*.gif$image
 emb.apl305.me##+js(nowoif, _blank)
 apl284.me###ads
+apl306.me###ads
 hd44.com##+js(nowoif)
 *$script,3p,domain=hwnaturkya.com,denyallow=gstatic.com|recaptcha.net
 hindilinks4u.*##.mvic-btn
@@ -112609,7 +112610,7 @@ milfnut.*##+js(aeld, contextmenu)
 milfnut.*##+js(aopr, __Y)
 milfnut.*##+js(acs, onload, onclick)
 milfnut.*##+js(nowoif)
-serverf4.org,streamm4u.club##+js(aopr, __Y)
+streamm4u.club##+js(aopr, __Y)
 charexempire.com##+js(aopr, app_vars.please_disable_adblock)
 charexempire.com##+js(aopr, open)
 charexempire.com##+js(set, blurred, false)
@@ -114280,6 +114281,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||aeoncojp.shop^$all
 ||app.stocksj.xyz^
 ||oioi-store.vip^$all
+||totalpcsecure.com^$all
 ||pocket-888.com^$all
 ||adblock-one-protection.com^$all
 ||browser-updating.com^$all
