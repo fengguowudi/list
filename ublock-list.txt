@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h3OtvtABaMg7l8+khUcTuQ
+! Checksum: xSLFsNHlgsiHWVYmqk7gsw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401110916
-! Last Modified: 2024年01月11日 09:16
+! Version: 202401111422
+! Last Modified: 2024年01月11日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -798,7 +798,6 @@
 /external_ads.
 /externalad.
 /externalads/*
-/fastclick.min.js|
 /fc_ads.
 /fel456.js$script
 /files/ad/*
@@ -66098,7 +66097,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|independent.co.uk|inquirer.com|keloland.com|radio.com|rd.com|si.com|sportbible.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wellgames.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/widgets/q?$image,third-party
 @@||aniview.com/api/$script,domain=gamingbible.co.uk|ladbible.com
-@@||antlionaudio.com/cdn/shop/*/assets/fastclick.min.js$~third-party
 @@||aone-soft.com/style/images/ad2.jpg
 @@||api.adinplay.com/libs/aiptag/$script
 @@||api.adnetmedia.lt/api/$~third-party
@@ -114281,6 +114279,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||ovxqtp.cfd^$all
 ||aeoncojp.shop^$all
 ||app.stocksj.xyz^
+||oioi-store.vip^$all
 ||pocket-888.com^$all
 ||adblock-one-protection.com^$all
 ||browser-updating.com^$all
