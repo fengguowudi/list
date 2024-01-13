@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Rlmsf5P8vEXafIINE3KdFg
+! Checksum: pvoAcY27p6BedRsfmypcuQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401131421
-! Last Modified: 2024年01月13日 14:21
+! Version: 202401132030
+! Last Modified: 2024年01月13日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -66715,6 +66715,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||c.ad6media.fr/l.js$domain=scan-manga.com
 @@||candidate.hr-manager.net/Advertisement/PreviewAdvertisement.aspx$subdocument,~third-party
 @@||catchapp.net/ad/img/$~third-party
+@@||cdn.jsdelivr.net/npm/*/videojs-contrib-ads.min.js$domain=24ur.com
 @@||cinema.pia.co.jp/img/ad/$image,~third-party
 @@||clj.valuecommerce.com/*/vcushion.min.js
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
