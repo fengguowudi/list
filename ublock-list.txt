@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QP9kzEvzo3HH4iAdMAZaEQ
+! Checksum: J8GNvkHhJu0Rmea24SKGdA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401141421
-! Last Modified: 2024年01月14日 14:21
+! Version: 202401142030
+! Last Modified: 2024年01月14日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -65166,7 +65166,6 @@ twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado
 vofomovies.info#?#a13:-abp-contains( Ad)
 wayfair.com#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
 winaero.com#?#p:-abp-contains(Advertisement)
-youtube.com#?#ytd-watch-info-text > #info-container > #info > span:-abp-contains(/\d+\s[pP]rod/)
 virtuagirlgirls.com###DynamicBackgroundWrapper
 porndr.com###PD-Under-player
 deviants.com###_iframe_content
@@ -111329,6 +111328,8 @@ nudeof.com##div.happy-section
 @@||pagead2.googlesyndication.com/getconfig/sodar$xhr,domain=skmedix.pl
 @@||tpc.googlesyndication.com/sodar/sodar2.js$script,domain=skmedix.pl
 @@||googleads.g.doubleclick.net/pagead/ads?*skmedix.pl&$frame,domain=skmedix.pl
+@@||fundingchoicesmessages.google.com^$script,domain=skmedix.pl
+@@||googleads.g.doubleclick.net/pagead/ads?$frame,domain=skmedix.pl
 @@||skmedix.pl^$ghide
 *$frame,redirect-rule=noopframe,domain=skmedix.pl
 yxoshort.com##+js(aopr, app_vars.force_disable_adblock)
@@ -116778,9 +116779,9 @@ clickorlando.com##+js(set-cookie, bitmovin_analytics_uuid, OK)
 $removeparam=gbraid
 $removeparam=wbraid
 $removeparam=gclsrc
-$removeparam=gclid
+$removeparam=gclid,domain=~agoda.com
 $removeparam=_gl
-$removeparam=dclid
+$removeparam=dclid,domain=~agoda.com
 $removeparam=fbclid
 $removeparam=fb_action_ids
 $removeparam=fb_action_types
@@ -116860,12 +116861,12 @@ $removeparam=ir_campaignid
 $removeparam=ir_adid
 $removeparam=irclickid
 $removeparam=ir_partnerid
+$removeparam=_kx
 $removeparam=asc_campaign,domain=aboutamazon.com|amazon.*|amzn.to
 $removeparam=asc_refurl,domain=aboutamazon.com|amazon.*|amzn.to
 $removeparam=asc_source,domain=aboutamazon.com|amazon.*|amzn.to
 ||youtube.com^$removeparam=pp
-||youtu.be^$removeparam=si
-||music.youtube.com^$removeparam=si
+$removeparam=si,domain=youtu.be|youtube-nocookie.com|youtube.com
 $removeparam=refsrc,domain=twitter.com|x.com
 $removeparam=ref_src,domain=twitter.com|x.com
 $removeparam=ref_url,domain=twitter.com|x.com
@@ -119165,7 +119166,9 @@ thethings.com##.adsninja-ad-zone:not(.adsninja-valstream)
 @@||googletagmanager.com/gtm.js$script,3p,domain=syracuse.com
 @@||apps.sophi.io/latest/al-syracuse.segments.min.js$script,3p,domain=syracuse.com
 @@||syracuse.com/DG/DEFAULT/rest/rpc/$script,1p
+!#if env_chromium
 ||community.ipinfo.io^$csp=worker-src 'none'
+!#endif
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
