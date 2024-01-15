@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m6wE9si4gZzqnb+AYjXb6w
+! Checksum: n/tOaZRLPbgN8L+Xcx+sEw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401150919
-! Last Modified: 2024年01月15日 09:19
+! Version: 202401151423
+! Last Modified: 2024年01月15日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -43309,6 +43309,7 @@ browsershots.org#@#.advert_area
 ||servinghandy.com^
 ||servingserved.com^
 ||servtraff97.com^
+||servw.bid^
 ||sesabercuacroo.xyz^
 ||sesameebookspeedy.com^
 ||sesamefiddlesticks.com^
@@ -74116,6 +74117,7 @@ omni.soundestlink.com$image
 ||piquantstove.com^
 ||pizzasnut.com^
 ||placeframe.com^
+||placidactivity.com^
 ||placidperson.com^
 ||plainplayground.com^
 ||plainrequest.com^
@@ -74346,6 +74348,7 @@ omni.soundestlink.com$image
 ||screechingslip.com^
 ||screechingstocking.com^
 ||screechingstove.com^
+||scribbleson.com^
 ||scribblestring.com^
 ||scrollservice.com^
 ||scrubswim.com^
@@ -112563,7 +112566,6 @@ wcofun.*##+js(nostif, AdBlock)
 wcofun.*##+js(set, isAdBlockActive, false)
 wcofun.*##.anti-ad
 wcofun.*##.reklam_kapat
-maxpixel.net##+js(nostif, ads_block)
 q1003.com##+js(nostif, google_ad)
 ||adbox.lv^$script,redirect-rule=noop.js,domain=mail.ee
 @@||automodeler.com^$ghide
