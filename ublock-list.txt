@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: n/tOaZRLPbgN8L+Xcx+sEw
+! Checksum: bWQo5knMPHtVxs6FdlkCVA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401151423
-! Last Modified: 2024年01月15日 14:23
+! Version: 202401152033
+! Last Modified: 2024年01月15日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18376,6 +18376,7 @@ job.inshokuten.com#@#.ad-title
 lifeinvader.com,marginalreport.net,spanishdict.com,studentski-servis.com#@#.ad-wrapper
 xda-developers.com#@#.ad-zone
 xda-developers.com#@#.ad-zone-container
+wordparts.ru#@#.ad336
 leffatykki.com#@#.ad728x90
 cw.com.tw#@#.adActive
 thoughtcatalog.com#@#.adChoicesLogo
@@ -73215,6 +73216,7 @@ omni.soundestlink.com$image
 ||bikesboard.com^
 ||billowybead.com^
 ||billowybelief.com^
+||birthdaybelief.com^
 ||bitterbear.com^
 ||blackbrake.com^
 ||bleachbubble.com^
@@ -74447,6 +74449,7 @@ omni.soundestlink.com$image
 ||smoggysnakes.com^
 ||smoggysongs.com^
 ||smoggystation.com^
+||snailscart.com^
 ||snailsengine.com^
 ||snakemineral.com^
 ||snakeslang.com^
@@ -126398,8 +126401,8 @@ thethings.com##.adsninja-ad-zone:not(.adsninja-valstream)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 12 Jan 2024 09:21:05 GMT
-# entries:        3782
+# last updated:   Mon, 15 Jan 2024 09:34:46 GMT
+# entries:        3785
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -127590,6 +127593,7 @@ thethings.com##.adsninja-ad-zone:not(.adsninja-valstream)
 127.0.0.1 bigreal.org
 127.0.0.1 bikesboard.com
 127.0.0.1 billboard.cz
+127.0.0.1 birthdaybelief.com
 127.0.0.1 bitmedianetwork.com
 127.0.0.1 bizible.com
 127.0.0.1 bizographics.com
@@ -127856,6 +127860,7 @@ thethings.com##.adsninja-ad-zone:not(.adsninja-valstream)
 127.0.0.1 completecabbage.com
 127.0.0.1 complextoad.com
 127.0.0.1 comprabanner.it
+127.0.0.1 concernedchange.com
 127.0.0.1 concernedcondition.com
 127.0.0.1 conditionchange.com
 127.0.0.1 conductrics.com
@@ -129094,6 +129099,7 @@ thethings.com##.adsninja-ad-zone:not(.adsninja-valstream)
 127.0.0.1 pixel.yabidos.com
 127.0.0.1 placed.com
 127.0.0.1 placeframe.com
+127.0.0.1 placidactivity.com
 127.0.0.1 plausibleio.workers.dev
 127.0.0.1 play4traffic.com
 127.0.0.1 playhaven.com
