@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ehoEmRr8A1d4CjqVesYtjg
+! Checksum: bmm8YjC5X0eK1jMSamjuSw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401180916
-! Last Modified: 2024年01月18日 09:16
+! Version: 202401181423
+! Last Modified: 2024年01月18日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24539,6 +24539,7 @@ browsershots.org#@#.advert_area
 ||checkm8.com^
 ||checkoutfree.com^
 ||checkup02.biz^
+||checkupforecast.com^
 ||checkyofeed.com^
 ||cheddaramusias.life^
 ||cheecmou.com^
@@ -53852,6 +53853,7 @@ browsershots.org#@#.advert_area
 ||lyconery-readset.com^$popup
 ||lywasnothycanty.info^$popup
 ||m73lae5cpmgrv38.com^$popup
+||ma3ion.com^$popup
 ||macan-native.com^$popup
 ||maddenbusy.com^$popup
 ||mafroad.com^$popup
@@ -58882,7 +58884,7 @@ browsershots.org#@#.advert_area
 ||purexbox.com/javascript/gn/prebid-
 ||wsj.net/pb/pb.js
 ||fireworkapi1.com^$domain=boldsky.com
-||anyclip.com^$third-party
+||anyclip.com^$third-party,domain=~dictionary.com|~heute.at|~video.timeout.com
 ||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
@@ -61167,7 +61169,7 @@ ansamed.info,baltic-course.com,futbol24.com,gatewaynews.co.za,gsmarena.com,jetph
 blastingnews.com##.adv-box-content
 healthleadersmedia.com##.adv-con
 junauza.com##.adv-hd
-48hills.org,audiobacon.net,bhamnow.com,coinedition.com,coinquora.com,elements.visualcapitalist.com,iconeye.com,kdnuggets.com,londonnewsonline.co.uk,manageditmag.co.uk,mondoweiss.net,ottverse.com,overclock3d.net,smallarmsreview.com,sportsspectrum.com,sundayworld.co.za,tampabayparenting.com,theaudiophileman.com##.adv-link
+48hills.org,audiobacon.net,bhamnow.com,coinedition.com,coinquora.com,creativecow.net,elements.visualcapitalist.com,iconeye.com,kdnuggets.com,londonnewsonline.co.uk,manageditmag.co.uk,mondoweiss.net,ottverse.com,overclock3d.net,smallarmsreview.com,sportsspectrum.com,sundayworld.co.za,tampabayparenting.com,theaudiophileman.com##.adv-link
 sneakernews.com##.adv-parent
 chaseyoursport.com##.adv-slot
 greencarreports.com,motorauthority.com##.adv-spacer
@@ -61793,6 +61795,10 @@ pcworld.com##.coupons
 coursedrive.org##.cours-adsense-in-feed
 ivytech.bncollege.com##.course-finder-google-ads-body-top-content-slot
 wolfstream.tv##.cover2
+creativecow.net##.cowtracks-interstitial
+creativecow.net##.cowtracks-sidebar-rotating-ad
+creativecow.net##.cowtracks-sidebar-with-cache-busting
+creativecow.net##.cowtracks-target
 coinpaprika.com##.cp-table__row--ad-row
 realsport101.com##.cpaAd
 cpomagazine.com##.cpoma-adlabel
@@ -65748,6 +65754,7 @@ porntry.com##.center-spot
 fakings.com##.centrado
 thefappeningblog.com##.cl-exl
 bigtitsgallery.net##.classifiedAd
+teenanal.co##.clickable-overlay
 xhamster.com##.clipstore-bottom
 sunporno.com##.close-invid
 fap-nation.com,fyptt.to,gamegill.com,japaneseasmr.com##.code-block
@@ -66934,10 +66941,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=game.anymanager.io|game.goo.ne.jp
 !! g.doubleclick.net/pagead/ppub_config
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
-!! anyclip.com (non-invideo ads only)
-@@||anyclip.com/anyclip-widget/$script,domain=dictionary.com|heute.at|video.timeout.com
-@@||anyclip.com/main.js$script,domain=video.timeout.com
-@@||anyclip.com/static/$script,domain=video.timeout.com
 @@/banner/ad/*$image,domain=achaloto.com
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
 @@||ad-api-v01.uliza.jp^$script,xmlhttprequest,domain=golfnetwork.co.jp|tv-asahi.co.jp
@@ -68593,6 +68596,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /njs.gif?
 /nlogger.js
 /nLoggerJB_
+/nlRUM.js
 /nm/itracking?
 /NNAnalyticsWPSites.js
 /no-impression.gif?
@@ -81167,6 +81171,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||upi.com/story/stat/
 ||uprinting.com/muffins/UPTracker-
 ||ups.com/img/icp.gif
+||upwork.com/upi/jslogger
 ||urs.metacritic.com^
 ||user-metrics.onthemarket.com^
 ||usmetric.rediff.com^
@@ -116898,7 +116903,7 @@ ericdraken.com##^script[async]
 utreon.com##+js(no-xhr-if, utreon.com/pl/api/event method:POST)
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$script,xhr,3p,match-case
 !#if ext_devbuild
-/^https:\/\/[0-9a-z]{7,25}\.com\/(?:build|bundles|chunks|dist|j|public|scripts|static)?\/?[0-9a-f]{6,15}\/?[0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index))?(?:\.js)?$/$script,3p,match-case
+/^https:\/\/[0-9a-z]{7,25}\.com\/(?:build|bundles|chunks|dist|files|j|public|scripts|static)?\/?[0-9a-f]{6,15}\/?[0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index))?(?:\.js)?$/$script,3p,match-case
 !#endif
 ://cmpworker.*/?pid=$script,1p,strict3p
 zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST)
@@ -118129,7 +118134,7 @@ saltspringexchange.com#@#.single-ad
 @@||ezodn.com/cmp/v2/cmp.js$script
 @@||gvl.ezodn.com/gvlcache/GVL.json$xhr
 @@||ezodn.com/v2/cmp.js$script
-###ez-sidebar-wall-left
+##.ez-sidebar-wall
 @@||xozilla.com^$cname
 ||cxense.com^$badfilter
 ||cxense.com^$3p
@@ -118473,6 +118478,9 @@ coolmathgames.com##+js(set, network_user_id, '')
 @@||go.pardot.com/$frame,domain=womensworldbanking.org
 @@||api.ipdata.co/?api-key=$script,domain=wttw.com
 @@||cdn.ampproject.org/*/amp-geo-$script,domain=9to5google.com|9to5mac.com
+@@||cdn.viglink.com/api/$script,domain=9to5google.com
+@@||googletagmanager.com/gtm.js?id=GTM-THGGVXB$script,domain=9to5google.com
+@@||fundingchoicesmessages.google.com/f/$script,domain=9to5google.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=olympics.com
 ://ads.$popup,domain=~smartnews.com,badfilter
 ://ads.$popup,domain=~kakaku.com|~smartnews.com
@@ -119040,7 +119048,6 @@ muropaketti.com##body.noImages .content img:style(display: inline-block !importa
 @@||api.calven.app/analytics/$xhr,domain=calven.app|calven.com
 @@||googletagmanager.com/gtm.js$script,domain=nespresso.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=mediaite.com
-@@||cdn.viglink.com/api/$script,domain=9to5google.com
 jayisgames.com##.widget-topad:style(padding-bottom: 20px !important;)
 @@||fpnpmcdn.net/v*/loader$script,domain=app.writesonic.com
 *$image,redirect-rule=1x1.gif,domain=go-girl.com
