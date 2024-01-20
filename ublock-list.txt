@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GaGNbPZX3ycOqUbYHbUWCA
+! Checksum: GjFdGOY2Xa0JRboMq1Di9w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401201421
-! Last Modified: 2024年01月20日 14:21
+! Version: 202401202030
+! Last Modified: 2024年01月20日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20463,6 +20463,7 @@ browsershots.org#@#.advert_area
 ||aeffe3nhrua5hua.com^
 ||aegiumks.com^
 ||aejslgc.com^
+||aekhfdpxcw.com^
 ||aembxbxmnuspyr.com^
 ||aeneasclosure.website^
 ||aerariacongoni.uno^
@@ -30165,6 +30166,7 @@ browsershots.org#@#.advert_area
 ||gempeety.com^
 ||gempoussee.com^
 ||gen-ref.com^
+||genaumsa.net^
 ||genbalar.com^
 ||generalebad.xyz^
 ||generalizebusinessman.com^
@@ -33603,6 +33605,7 @@ browsershots.org#@#.advert_area
 ||jsdelvr.com^
 ||jsfeedadsget.com^
 ||jsfrfeuubna.com^
+||jsftfmegwcyhsed.com^
 ||jsfuz.com^
 ||jsmentry.com^
 ||jsmjmp.com^
@@ -38367,6 +38370,7 @@ browsershots.org#@#.advert_area
 ||ookroulsaurd.com^
 ||ookroush.com^
 ||oolassouwa.com^
+||ooloptou.net^
 ||ooltutoo.net^
 ||oomgnwdmzwnxn.com^
 ||oomsijahail.com^
@@ -58709,6 +58713,8 @@ browsershots.org#@#.advert_area
 ||myabandonware.com/media/img/gog/
 ||myanimelist.net/c/i/images/event/
 ||mybrowseraddon.com/ads/core.js
+||myflixer.is/ajax/banner^
+||myflixer.is/ajax/banners^
 ||myunique.info/wp-includes/js/pop.js
 ||myvidster.com/js/myv_ad_camp2.php
 ||n.gemini.yahoo.com^
@@ -58951,6 +58957,7 @@ browsershots.org#@#.advert_area
 ||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
+||blockchain.info/explorer-gateway/advertisements
 ||brid.tv^$script,domain=67hailhail.com|deepdaledigest.com|forevergeek.com|geordiebootboys.com|hammers.news|hitc.com|molineux.news|nottinghamforest.news|rangersnews.uk|realitytitbit.com|spin.com|tbrfootball.com|thechelseachronicle.com|thefocus.news|thepinknews.com|washingtonexaminer.com
 ||caffeine.tv/embed.js
 ||cdn.ex.co^$third-party
@@ -60435,7 +60442,7 @@ kohls.com###open-drawer
 livestreamfails.com###oranum_livefeed_container_0
 ckk.ai###orquidea-slideup
 electronicproducts.com,powvideo.net,streamplay.to,uxstyle.com###overlay
-dokicloud.one,fmoviefree.net###overlay-center
+dokicloud.one,fmoviefree.net,myflixer.is###overlay-center
 mzzcloud.life,rabbitstream.net###overlay-container
 mp4upload.com###overlayads
 drivevideo.xyz###overlays
@@ -64348,6 +64355,7 @@ noqreport.com##[id^="oqre-"]
 dailydooh.com##[id^="rectdiv"]
 daily-choices.com##[id^="sticky_"]
 wuxiaworld.site##[id^="wuxia-"]
+grabcad.com##[ng-if="model.asense"]
 apkcombo.com##[onclick*="_blank"]
 filecrypt.cc,filecrypt.co##[onclick^="var lj"]
 techadvisor.com##[referrerpolicy="unsafe-url"]
@@ -116890,17 +116898,17 @@ panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaborator
 !#endif
 ||washpost.nile.works^
 /p13n/batch/action/*$image
-loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,newdaily.co.kr,meconomynews.com,brandbrief.co.kr,dfast.kr,thephoblographer.com,dogdrip.net,youtu.co,honkailab.com,warcraftrumbledeck.com,golf-live.at,mlbpark.donga.com,gamingdeputy.com,thestockmarketwatch.com,capress.kr,carandmore.co.kr,maxmovie.kr,motorgraph.com,newsbell.co.kr,tminews.co.kr,thehousemagazine.kr,hardreset.info,metabattle.com,thesaurus.net,maketecheasier.com,tweaksforgeeks.com,issuya.com,alle-tests.nl##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,newdaily.co.kr,meconomynews.com,brandbrief.co.kr,dfast.kr,thephoblographer.com,dogdrip.net,youtu.co,honkailab.com,warcraftrumbledeck.com,golf-live.at,mlbpark.donga.com,gamingdeputy.com,thestockmarketwatch.com,capress.kr,carandmore.co.kr,maxmovie.kr,motorgraph.com,newsbell.co.kr,tminews.co.kr,thehousemagazine.kr,hardreset.info,metabattle.com,thesaurus.net,maketecheasier.com,tweaksforgeeks.com,issuya.com,alle-tests.nl##+js(set-local-storage-item, as_profile_cache, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,newdaily.co.kr,meconomynews.com,brandbrief.co.kr,dfast.kr,thephoblographer.com,dogdrip.net,youtu.co,honkailab.com,warcraftrumbledeck.com,golf-live.at,mlbpark.donga.com,gamingdeputy.com,thestockmarketwatch.com,capress.kr,carandmore.co.kr,maxmovie.kr,motorgraph.com,newsbell.co.kr,tminews.co.kr,thehousemagazine.kr,hardreset.info,metabattle.com,thesaurus.net,maketecheasier.com,tweaksforgeeks.com,issuya.com,alle-tests.nl##+js(set-local-storage-item, as_accetpable_ads_blocked_cache, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,newdaily.co.kr,meconomynews.com,brandbrief.co.kr,dfast.kr,thephoblographer.com,dogdrip.net,youtu.co,honkailab.com,warcraftrumbledeck.com,golf-live.at,mlbpark.donga.com,gamingdeputy.com,thestockmarketwatch.com,capress.kr,carandmore.co.kr,maxmovie.kr,motorgraph.com,newsbell.co.kr,tminews.co.kr,thehousemagazine.kr,hardreset.info,metabattle.com,thesaurus.net,maketecheasier.com,tweaksforgeeks.com,issuya.com,alle-tests.nl##+js(set-local-storage-item, as_adblock_cache, $remove$)
-apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,meconomynews.com,brandbrief.co.kr,dfast.kr,youtu.co,mlbpark.donga.com,capress.kr,carandmore.co.kr,maxmovie.kr,motorgraph.com,newsbell.co.kr,tminews.co.kr,thehousemagazine.kr,hardreset.info,metabattle.com,maketecheasier.com##+js(noeval-if, /07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/)
+loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,newdaily.co.kr,meconomynews.com,brandbrief.co.kr,dfast.kr,thephoblographer.com,dogdrip.net,youtu.co,honkailab.com,warcraftrumbledeck.com,golf-live.at,mlbpark.donga.com,gamingdeputy.com,thestockmarketwatch.com,capress.kr,carandmore.co.kr,maxmovie.kr,motorgraph.com,newsbell.co.kr,tminews.co.kr,thehousemagazine.kr,hardreset.info,metabattle.com,thesaurus.net,maketecheasier.com,tweaksforgeeks.com,issuya.com,alle-tests.nl,topstarnews.net,allthetests.com,motorbikecatalog.com,heraldcorp.com##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,newdaily.co.kr,meconomynews.com,brandbrief.co.kr,dfast.kr,thephoblographer.com,dogdrip.net,youtu.co,honkailab.com,warcraftrumbledeck.com,golf-live.at,mlbpark.donga.com,gamingdeputy.com,thestockmarketwatch.com,capress.kr,carandmore.co.kr,maxmovie.kr,motorgraph.com,newsbell.co.kr,tminews.co.kr,thehousemagazine.kr,hardreset.info,metabattle.com,thesaurus.net,maketecheasier.com,tweaksforgeeks.com,issuya.com,alle-tests.nl,topstarnews.net,allthetests.com,motorbikecatalog.com,heraldcorp.com##+js(set-local-storage-item, as_profile_cache, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,newdaily.co.kr,meconomynews.com,brandbrief.co.kr,dfast.kr,thephoblographer.com,dogdrip.net,youtu.co,honkailab.com,warcraftrumbledeck.com,golf-live.at,mlbpark.donga.com,gamingdeputy.com,thestockmarketwatch.com,capress.kr,carandmore.co.kr,maxmovie.kr,motorgraph.com,newsbell.co.kr,tminews.co.kr,thehousemagazine.kr,hardreset.info,metabattle.com,thesaurus.net,maketecheasier.com,tweaksforgeeks.com,issuya.com,alle-tests.nl,topstarnews.net,allthetests.com,motorbikecatalog.com,heraldcorp.com##+js(set-local-storage-item, as_accetpable_ads_blocked_cache, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,algumon.com,hancinema.net,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,kagit.kr,inven.co.kr,viva100.com,joongdo.co.kr,jjang0u.com,tenbizt.com,tvreport.co.kr,newautopost.co.kr,mememedia.co.kr,mobilitytv.co.kr,cboard.net,a-ha.io,interfootball.co.kr,fourfourtwo.co.kr,apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,genshinlab.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,newdaily.co.kr,meconomynews.com,brandbrief.co.kr,dfast.kr,thephoblographer.com,dogdrip.net,youtu.co,honkailab.com,warcraftrumbledeck.com,golf-live.at,mlbpark.donga.com,gamingdeputy.com,thestockmarketwatch.com,capress.kr,carandmore.co.kr,maxmovie.kr,motorgraph.com,newsbell.co.kr,tminews.co.kr,thehousemagazine.kr,hardreset.info,metabattle.com,thesaurus.net,maketecheasier.com,tweaksforgeeks.com,issuya.com,alle-tests.nl,topstarnews.net,allthetests.com,motorbikecatalog.com,heraldcorp.com##+js(set-local-storage-item, as_adblock_cache, $remove$)
+apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,meconomynews.com,brandbrief.co.kr,dfast.kr,youtu.co,mlbpark.donga.com,capress.kr,carandmore.co.kr,maxmovie.kr,motorgraph.com,newsbell.co.kr,tminews.co.kr,thehousemagazine.kr,hardreset.info,metabattle.com,maketecheasier.com,topstarnews.net,heraldcorp.com##+js(noeval-if, /07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/)
 !#if cap_html_filtering
-apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,meconomynews.com,brandbrief.co.kr,dfast.kr,youtu.co,mlbpark.donga.com,capress.kr,carandmore.co.kr,maxmovie.kr,motorgraph.com,newsbell.co.kr,tminews.co.kr,thehousemagazine.kr,hardreset.info,metabattle.com,maketecheasier.com##^script:has-text(KCgpPT57bGV0IGU)
-issuya.com##^script:has-text(error-report.com)
+apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,meconomynews.com,brandbrief.co.kr,dfast.kr,youtu.co,mlbpark.donga.com,capress.kr,carandmore.co.kr,maxmovie.kr,motorgraph.com,newsbell.co.kr,tminews.co.kr,thehousemagazine.kr,hardreset.info,metabattle.com,maketecheasier.com,motorbikecatalog.com,heraldcorp.com##^script:has-text(KCgpPT57bGV0IGU)
+issuya.com,topstarnews.net##^script:has-text(error-report.com)
 !#else
-apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,meconomynews.com,brandbrief.co.kr,dfast.kr,youtu.co,mlbpark.donga.com,capress.kr,carandmore.co.kr,maxmovie.kr,motorgraph.com,newsbell.co.kr,tminews.co.kr,thehousemagazine.kr,hardreset.info,metabattle.com,maketecheasier.com##+js(rmnt, script, KCgpPT57bGV0IGU)
-issuya.com##+js(rmnt, script, error-report.com)
+apkmirror.com,dotkeypress.kr,viewcash.co.kr,tripplus.co.kr,enterdiary.com,mtodayauto.com,hotplacehunter.co.kr,mystylezip.com,majorgeeks.com,poro.gg,maple.gg,lolchess.gg,dak.gg,meconomynews.com,brandbrief.co.kr,dfast.kr,youtu.co,mlbpark.donga.com,capress.kr,carandmore.co.kr,maxmovie.kr,motorgraph.com,newsbell.co.kr,tminews.co.kr,thehousemagazine.kr,hardreset.info,metabattle.com,maketecheasier.com,motorbikecatalog.com,heraldcorp.com##+js(rmnt, script, KCgpPT57bGV0IGU)
+issuya.com,topstarnews.net##+js(rmnt, script, error-report.com)
 !#endif
 ||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,redirect=fingerprint2.js,important
 ||collector.xhwebsite.com^
@@ -116984,7 +116992,6 @@ utreon.com##+js(no-xhr-if, utreon.com/pl/api/event method:POST)
 !#if ext_devbuild
 /^https:\/\/[0-9a-z]{7,25}\.com\/(?:build|bundles|chunks|dist|files|j|public|scripts|static)?\/?[0-9a-f]{6,15}\/?[0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index))?(?:\.js)?$/$script,3p,match-case
 !#endif
-://cmpworker.*/?pid=$script,1p,strict3p
 zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST)
 ||torimochi.line-apps.com^$image,redirect=1x1.gif
 ||api.bilibili.com/x/internal/gaia-gateway/ExClimbWuzhi$xhr,1p
