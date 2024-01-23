@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: je2YrbjvZlrccq7Oxwwdsg
+! Checksum: q+GpJIIYPehqGUURKQYdWA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401230918
-! Last Modified: 2024年01月23日 09:18
+! Version: 202401231422
+! Last Modified: 2024年01月23日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -59762,6 +59762,7 @@ nationalpost.com,vancouversun.com##.ad__inner
 politico.eu##.ad__mobile
 dailykos.com##.ad__placeholder
 asianjournal.com##.ad_before_title
+kyivpost.com##.ad_between_paragraphs
 cheatcodes.com##.ad_btf_728
 ntvkenya.co.ke##.ad_flex
 auto-data.net##.ad_incar
@@ -117226,9 +117227,7 @@ coolmathgames.com##+js(set, network_user_id, '')
 @@||go.pardot.com/$frame,domain=womensworldbanking.org
 @@||api.ipdata.co/?api-key=$script,domain=wttw.com
 @@||cdn.ampproject.org/*/amp-geo-$script,domain=9to5google.com|9to5mac.com
-@@||cdn.viglink.com/api/$script,domain=9to5google.com
-@@||googletagmanager.com/gtm.js?id=GTM-THGGVXB$script,domain=9to5google.com
-@@||fundingchoicesmessages.google.com/f/$script,domain=9to5google.com
+9to5google.com##+js(trusted-rpnt, script, (function($), '(function(){const a=document.createElement("div");document.documentElement.appendChild(a),setTimeout(()=>{a&&a.remove()},100)})(); (function($)')
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=olympics.com
 ://ads.$popup,domain=~smartnews.com,badfilter
 ://ads.$popup,domain=~kakaku.com|~smartnews.com
