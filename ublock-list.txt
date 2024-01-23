@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q+GpJIIYPehqGUURKQYdWA
+! Checksum: u0DPsyfgcywtW9zSr6wwZA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401231422
-! Last Modified: 2024年01月23日 14:22
+! Version: 202401232033
+! Last Modified: 2024年01月23日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -983,30 +983,19 @@
 /local-ad.
 /localads.$domain=~localads.cab
 /log_ad?
-/log_ad_
-/logo-ad.
 /logoads.
-/logoutad.
-/longad.
 /lserver/*
 /mads.php?
 /main/ad/*
 /main_ad/*
 /mainad.$domain=~mainad.ru
-/marfeel_sw.
 /maven/am.js
 /mbads?
 /mcad.php
 /media/ads/*
 /media_ads/*
-/mellowads.
-/meme_ad.
-/metaad.
-/mgid-ad-
-/mgid-header.
 /mgid.html
-/microad.$domain=~microad.co.id
-/middleads.
+/microad.js
 /min/ads/*
 /mnpw3.js
 /mobile-ad.
@@ -1028,7 +1017,6 @@
 /MPUAd/*
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/*
-/na.ads.
 /nad_exo.
 /native-ad-
 /native-ads-
@@ -20787,6 +20775,7 @@ browsershots.org#@#.advert_area
 ||allhypefeed.com^
 ||allicinarenig.com^
 ||allmt.com^
+||allnesskepped.com^
 ||allobarpepped.uno^
 ||allodiafeveret.life^
 ||alloha.tv^
@@ -21825,6 +21814,7 @@ browsershots.org#@#.advert_area
 ||avesofefinegold.com^
 ||aveugleghettos.top^
 ||avevofipnqobi.com^
+||avglfookdjuj.com^
 ||avhtaapxml.com^
 ||avhxnasqeo.com^
 ||aviddoated.com^
@@ -24160,6 +24150,7 @@ browsershots.org#@#.advert_area
 ||chaussew.net^
 ||chautcho.com^
 ||chauwout.xyz^
+||chdkxgjtwflba.com^
 ||cheap-result.pro^
 ||cheap-trip.pro^
 ||cheapcoveringpearl.com^
@@ -30093,6 +30084,7 @@ browsershots.org#@#.advert_area
 ||gondwrists.life^
 ||gonebyalongt.com^
 ||gonews2.com^
+||gonzalodaemon.top^
 ||gooblesdd.com^
 ||good4younow.club^
 ||goodadvert.ru^
@@ -30240,6 +30232,7 @@ browsershots.org#@#.advert_area
 ||graphnitriot.com^
 ||grapiercaproyl.com^
 ||grappamacram.com^
+||grapseex.com^
 ||grasshopperprudencecondiment.com^
 ||grasutie.net^
 ||grataeraghu.digital^
@@ -33784,6 +33777,7 @@ browsershots.org#@#.advert_area
 ||layzvgxgodnv.com^
 ||lazmblmywqjyb.top^
 ||lazypeacefullyutterly.com^
+||lbbzxarfoukaf.com^
 ||lbwjqrtxeeriap.com^
 ||lbxcnbrczmmp.com^
 ||lby2kd27c.com^
@@ -34531,6 +34525,7 @@ browsershots.org#@#.advert_area
 ||lureillegimateillegimate.com^
 ||lurgaimt.net^
 ||lurgaush.net^
+||lurgimte.com^
 ||luronews.com^
 ||lusaisso.com^
 ||lushcrush.com^
@@ -35634,6 +35629,7 @@ browsershots.org#@#.advert_area
 ||moneymakercdn.com^
 ||moneytatorone.com^
 ||mongbo.com^
+||monhax.com^
 ||monismartlink.com^
 ||monitorinflictmotivation.com^
 ||monitormilletstray.com^
@@ -35808,6 +35804,7 @@ browsershots.org#@#.advert_area
 ||mqarrenothanca.xyz^
 ||mqcjqjhy.com^
 ||mqkuzy.com^
+||mqldskirbp.com^
 ||mqnrrawj.com^
 ||mr2cnjuh34jb.com^
 ||mraozo.xyz^
@@ -35821,6 +35818,7 @@ browsershots.org#@#.advert_area
 ||mrjb7hvcks.com^
 ||mrlscr.com^
 ||mrmlxqck.com^
+||mrpihtwtoprvw.com^
 ||mrtbbnr.com^
 ||mrtbbnrdip.com^
 ||mrtnsvr.com^
@@ -38891,6 +38889,7 @@ browsershots.org#@#.advert_area
 ||pjyvgdpvjp.com^
 ||pk910324e.com^
 ||pkhhyool.com^
+||pkhntvfvkho.com^
 ||pkjekjmzfiuvi.com^
 ||pkklkcdn.com^
 ||pkmxofozs.com^
@@ -40771,6 +40770,7 @@ browsershots.org#@#.advert_area
 ||reclaimhorridaltitude.com^
 ||reclod.com^
 ||recloseclouty.com^
+||recognisetorchfreeway.com^
 ||recoiltravellingbreach.com^
 ||recollectionchicken.com^
 ||recomendedsite.com^
@@ -41649,6 +41649,7 @@ browsershots.org#@#.advert_area
 ||rssrqecohagbk.xyz^
 ||rsthwwqhxef.xyz^
 ||rsxocgqnu.com^
+||rsyawvcbmthnfr.com^
 ||rszimg.com^
 ||rszqtry.cn^
 ||rtb-media.me^
@@ -44266,6 +44267,7 @@ browsershots.org#@#.advert_area
 ||tagalodrome.com^
 ||taggerumbre.uno^
 ||taghaugh.com^
+||tagmai.xyz^
 ||tagoutlookignoring.com^
 ||tagun.xyz^
 ||tahinapasses.com^
@@ -44392,6 +44394,7 @@ browsershots.org#@#.advert_area
 ||tbhenherthertindn.xyz^
 ||tbiwkjomju.com^
 ||tbm09.com^
+||tbppfktchj.com^
 ||tbtqjbgrelc.xyz^
 ||tbudz.co.in^
 ||tcaochocskid.com^
@@ -45923,6 +45926,7 @@ browsershots.org#@#.advert_area
 ||ukrkskillsombine.info^
 ||uktureukworekt.info^
 ||ul8seok7w5al.com^
+||ulaiwhiw.xyz^
 ||ulalrars.net^
 ||ulathana.com^
 ||ulbackgroundandiy.info^
@@ -47874,6 +47878,7 @@ browsershots.org#@#.advert_area
 ||wjikxopltjp.xyz^
 ||wjudihl.com^
 ||wjxtbwffpykdmo.com^
+||wjzrzwyrrbwyz.top^
 ||wka4jursurf6.com^
 ||wkewgywth.xyz^
 ||wkmorvzqjmwav.top^
@@ -48929,6 +48934,7 @@ browsershots.org#@#.advert_area
 ||zayac2volk11.com^
 ||zazaruniri.com^
 ||zazerygu.pro^
+||zbdcrnfheyfu.com^
 ||zbnfhsk.com^
 ||zbvhwaakws.com^
 ||zcaadfl.com^
@@ -49181,6 +49187,7 @@ browsershots.org#@#.advert_area
 ||zutcqppwm.com^
 ||zuzodoad.com^
 ||zvbkyrbwrlqll.top^
+||zvbldrth.com^
 ||zvetokr2hr8pcng09.com^
 ||zvhednrza.com^
 ||zvjkhrdp.com^
@@ -108389,6 +108396,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||cue.search.naver.com/api/*/log/
 ||data-logdelivery.wconcept.co.kr^
 ||daumcdn.net^*/awsa.js
+||dpg.danawa.com/*/rest/*getStampEvent
 ||gmarket.co.kr/js/common/uuid.js
 ||hits.zdnet.co.kr^
 ||jdsports.co.kr/collect.php
@@ -111093,7 +111101,11 @@ uprot.net##*[style="display:none;"]:style(display:block !important)
 @@||ads.host-cdn.net/ads2.js$script,domain=maxstream.video|maxlinks.online|uprot.net
 ||ragsbxhchr.xyz^
 videoseyred.in##+js(nowoif)
-listendata.com##+js(acs, onload)
+!#if !cap_html_filtering
+listendata.com##+js(rmnt, script, AdBlocker)
+!#else
+listendata.com##^script:has-text(AdBlocker)
+!#endif
 spleaks.org##+js(acs, $, test)
 ads-ti9ni4.blogspot.com,bouamra.blogspot.com,cintateknologi.com,este-walks.net,funnymadworld.blogspot.com,gfilex.blogspot.com,intest.tv,irasutoya.blogspot.com,laurasia.info,pramejarab.blogspot.com,thelibrarydigital.blogspot.com,tienganhedu.com,tienichdienthoai.net,xbox360torrent.com,xn--k9ja7fb0161b5jtgfm.jp##+js(acs, document.addEventListener, google_ad_client)
 www-daftarharga.blogspot.com##+js(nostif, nextFunction)
@@ -111451,8 +111463,8 @@ gab.com#?#:matches-path(/\/posts/) div[data-comment*="gab-ad"]:has(span[class]:h
 quizlet.com##.StickyAdz
 quizlet.com##+js(rc, has-sidebar-adz|DashboardPage-inner, div[class^="DashboardPage-inner"], stay)
 quizlet.com##+js(rc, hasStickyAd, div.hasStickyAd[class^="SetPage"], stay)
-quizlet.com##+js(rc, has-adz, div.has-adz, stay)
 quizlet.com##+js(nano-stb)
+quizlet.com##div.has-adz:not(.SetPage):remove-class(has-adz)
 vivo.st##+js(aeld, , preventDefault)
 vivo.st##+js(aeld, click, tabunder)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=vivo.st
@@ -118182,6 +118194,10 @@ thethings.com##.adsninja-ad-zone:not(.adsninja-valstream)
 !#endif
 @@||agoda.com/*/book/$removeparam
 helpster.de#@##ad_sidebar_left_container
+sklep.trzynastkaplus.pl##^script[src^="https://www.googletagmanager.com/gtag/js"]
+!#if !cap_html_filtering
+@@||googletagmanager.com/gtag/js$script,3p,domain=sklep.trzynastkaplus.pl
+!#else
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
