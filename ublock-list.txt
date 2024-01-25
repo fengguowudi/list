@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: H1fRejLTHAgLU9sZC8+HjQ
+! Checksum: 94LSPvZh46HGuOPc+U/GKQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401251422
-! Last Modified: 2024年01月25日 14:22
+! Version: 202401252033
+! Last Modified: 2024年01月25日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62214,6 +62214,7 @@ whatcar.com##.ReviewHero_mastheadStyle__Bv8X0
 geometrydash.io##.RowAdv
 gq.com##.SavingsUnitedCouponsWrapper-humLIe
 lbcgroup.tv##.ScriptDiv
+staples.com##.SearchRootUX2__bannerAndSkuContainer
 coingape.com##.Sidemads
 simkl.com##.SimklTVDetailEpisodeLinksItemHref
 thedailybeast.com##.Sizer
@@ -77678,6 +77679,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.ostr.io^
 ||analytics.paddle.com^
 ||analytics.pagefly.io^
+||analytics.pangle-ads.com^
 ||analytics.piksel.com^
 ||analytics.pinterest.com^$third-party
 ||analytics.pixels.ai^
@@ -113713,16 +113715,16 @@ novelmultiverse.com##+js(nostif, disableDeveloperTools)
 maxstream.video,maxlinks.online##+js(nostif, alert)
 maxstream.video,maxlinks.online##+js(nano-stb, .fadeIn(), 3000)
 maxstream.video,maxlinks.online##+js(nowoif)
-@@*$script,1p,domain=maxstream.video|maxlinks.online
-@@||linkonclick.com/*/display.php$script,frame,domain=maxstream.video|maxlinks.online
-@@||ads.host-cdn.net/*.js|$script,domain=maxstream.video|maxlinks.online
-host-cdn.net^$image,redirect-rule=32x32.png,domain=maxstream.video|maxlinks.online
-maxstream.video,maxlinks.online###adsads:style(height: 9px !important;)
-maxstream.video,maxlinks.online##h1:has-text(/adblock|supporter/)
-/*.php$doc,domain=maxstream.video|maxlinks.online
+@@*$script,1p,domain=maxstream.video|maxlinks.online|maxstreams.site
+@@||linkonclick.com/*/display.php$script,frame,domain=maxstream.video|maxlinks.online|maxstreams.site
+@@||ads.host-cdn.net/*.js|$script,domain=maxstream.video|maxlinks.online|maxstreams.site
+host-cdn.net^$image,redirect-rule=32x32.png,domain=maxstream.video|maxlinks.online|maxstreams.site
+maxstream.video,maxlinks.online,maxstreams.site###adsads:style(height: 9px !important;)
+maxstream.video,maxlinks.online,maxstreams.site##h1:has-text(/adblock|supporter/)
+/*.php$doc,domain=maxstream.video|maxlinks.online|maxstreams.site
 @@||uprot.net^$ghide
 uprot.net##*[style="display:none;"]:style(display:block !important)
-@@||ads.host-cdn.net/ads2.js$script,domain=maxstream.video|maxlinks.online|uprot.net
+@@||ads.host-cdn.net/ads2.js$script,domain=maxstream.video|maxlinks.online|maxstreams.site|uprot.net
 ||ragsbxhchr.xyz^
 videoseyred.in##+js(nowoif)
 !#if !cap_html_filtering
@@ -114084,6 +114086,7 @@ tamilbrahmins.com##+js(acs, $, test)
 @@||panelist.cint.com/$frame,domain=surveyrewardz.com
 gab.com##div[class] > span[class]:has-text(Sponsored):upward(5)
 gab.com#?#:matches-path(/\/posts/) div[data-comment*="gab-ad"]:has(span[class]:has-text(Sponsored))
+quizlet.com##.SetPageTerms-embeddedDesktopAdWrapper
 quizlet.com##.StickyAdz
 quizlet.com##+js(rc, has-sidebar-adz|DashboardPage-inner, div[class^="DashboardPage-inner"], stay)
 quizlet.com##+js(rc, hasStickyAd, div.hasStickyAd[class^="SetPage"], stay)
