@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZoFK4Wkt4Dod6COKrGP4zw
+! Checksum: BGL5xmN8rIpbC0Q4eBa5Vg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401260912
-! Last Modified: 2024年01月26日 09:12
+! Version: 202401261421
+! Last Modified: 2024年01月26日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -118284,6 +118284,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||counter-strike2-official.net^$all
 ||app0w.ltd^$all
 ||primeleech.com^$all
+||privacyguides.io^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -121015,6 +121016,7 @@ sklep.trzynastkaplus.pl##[onclick$="return !ga.loaded;"]:remove-attr(onclick)
 foxnews.com##+js(set, Taplytics, {})
 foxnews.com##+js(set, Taplytics.featureFlagEnabled, noopFunc)
 !#endif
+@@||engine.monetate.net/api/$xhr,domain=dunelm.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
