@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wacz7puk4dPyesQDGSdF0Q
+! Checksum: Pe3fEmeBs79fhd6qGPfK3g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401272026
-! Last Modified: 2024年01月27日 20:26
+! Version: 202401280218
+! Last Modified: 2024年01月28日 02:18
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62181,7 +62181,7 @@ foodsforbetterhealth.com###text-46
 eevblog.com###text-49
 computips.org,techlife.com,technipages.com###text-5
 2smsupernetwork.com###text-50
-2smsupernetwork.com,snowbrains.com,times.co.zm,treesofblue.com###text-6
+2smsupernetwork.com,snowbrains.com,theconservativetreehouse.com,times.co.zm,treesofblue.com###text-6
 yugatech.com###text-69
 treesofblue.com###text-7
 kollelbudget.com###text-70
@@ -66992,8 +66992,9 @@ trends.gab.com#?#li.list-group-item:-abp-contains(Sponsored content)
 tripadvisor.com#?#.cAWGu:-abp-has(a:-abp-contains(Similar Sponsored Properties))
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם/)
 vofomovies.info#?#a13:-abp-contains( Ad)
-wayfair.com#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
+wayfair.com,wayfair.co.uk#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
 winaero.com#?#p:-abp-contains(Advertisement)
+wayfair.*#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
 virtuagirlgirls.com###DynamicBackgroundWrapper
 porndr.com###PD-Under-player
 deviants.com###_iframe_content
@@ -71681,6 +71682,7 @@ _WebVitalsReporter_
 /open.aspx?
 /open.html?$image
 /open/?ot=$image
+/open?token=$image
 /opens.jscrambler.com/*$image
 /p/rp/*?mi_u=*=&sap_id=$image
 /p1x1.gif
@@ -81991,6 +81993,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||global.canon/00cmn/js/*/analytics-
 ||global.ssl.fastly.net^$domain=allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|harborfreight.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
 ||globes.co.il/shared/s.ashx?
+||gmetrics.getbeamer.com^
 ||gnar.grammarly.com^
 ||gnavi.co.jp/analysis/
 ||go.fap18.net/ftt2/js.php
