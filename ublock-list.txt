@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Pe3fEmeBs79fhd6qGPfK3g
+! Checksum: W9jatePkUmWO0EtgCFVJ5Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401280218
-! Last Modified: 2024年01月28日 02:18
+! Version: 202401280916
+! Last Modified: 2024年01月28日 09:16
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -65760,6 +65760,7 @@ torrentgalaxy.to##[href^="/bub.php"]
 discord.me##[href^="/cr/"]
 everest.picturedent.org##[href^="/dent.php"]
 ar15.com##[href^="/forums/transfer.html"]
+egamersworld.com##[href^="/gg/"]
 modrinth.com##[href^="http://bisecthosting.com/"]
 radiotoday.co.uk##[href^="http://go.radiotoday.co.uk/"]
 pooletown.co.uk,tossinggames.com,urbanartassociation.com##[href^="http://redirect.viglink.com"]
@@ -115280,8 +115281,7 @@ androidacy.com##+js(rmnt, script, charCodeAt)
 @@||production-api.androidacy.com^$script,1p
 film01stream.ws##+js(ra, href, .mvi-cover)
 film01stream.ws##.f-inner
-movies7.pro##+js(disable-newtab-links)
-m4ufree.*,uwatchfree.cyou##+js(aopr, BetterJsPop)
+m4ufree.*##+js(aopr, BetterJsPop)
 glosbe.com###topBannerContainer
 ||www.sfr.fr^$script,redirect-rule=noop.js,domain=red-by-sfr.fr
 t18cv.com##+js(aopr, remove_adblock_html)
