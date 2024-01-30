@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3HwM5oWAFr1D9so72IF3KA
+! Checksum: DTJI3cjBKJrmAD6QKy4FQw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202401301421
-! Last Modified: 2024年01月30日 14:21
+! Version: 202401302029
+! Last Modified: 2024年01月30日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -747,7 +747,6 @@
 /direct.hd?n=
 /discourse-adplugin-
 /display-ad/*
-/display-ads-$domain=~google.co.uk|~google.com|~google.com.au
 /display-ads/*
 /displayad.$~script
 /displayad/*
@@ -43575,6 +43574,7 @@ browsershots.org#@#.advert_area
 ||reliablemore.com^
 ||reliableorientdelirium.com^
 ||reliantstacklaugh.com^
+||relicsheer.com^
 ||reliefindividual.com^
 ||relievedgeoff.com^
 ||relishcoincidencehandbag.com^
@@ -52182,6 +52182,7 @@ browsershots.org#@#.advert_area
 ||zoagremo.net^
 ||zoaheeth.com^
 ||zoaptaup.com^
+||zoawhoal.com^
 ||zoawufoy.net^
 ||zobsaims.com^
 ||zodiacranbehalf.com^
@@ -81513,13 +81514,16 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||x9.shinobi.jp^
 ||yahoo.co.jp/js/retargeting.js
 ||acelogger.heraldcorp.com^
+||assets.datarize.ai^
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
 ||cm-exchange.toast.com^
+||dtr-onsite-feed.datarize.ai^
 ||event.hackle.io^
 ||log.adplex.co.kr^
 ||log.cizion.com^
 ||log.mofa.go.kr^
+||log.pipeline.datarize.io^
 ||log.targetpush.co.kr^
 ||logger.bzu.kr^
 ||logs-partners.coupang.com^
@@ -81529,6 +81533,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ngc1.nsm-corp.com^
 ||performanceplay.co.kr^
 ||pxl.retaku.net^
+||realtime-profiling.datarize.ai^
 ||recobell.io/rest/logs?
 ||saluton.cizion.com^
 ||sas.nsm-corp.com^
@@ -83458,6 +83463,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||simon.com/46SCNLxs/init.js
 ||skechers.com/dL6GOSf9/init.js
 ||skiphop.com/0F3091f3/init.js
+||skyscanner.*/rf8vapwA/init.js
 ||snipesusa.com/6XNN2xkk/init.js
 ||spirit.com/kp4CLSb5/init.js
 ||ssense.com/58Asv359/init.js
@@ -111634,6 +111640,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||stat.tiara.kakao.com^
 ||stat.tiara.tistory.com^
 ||stat.wanted.jobs^
+||t*.daumcdn.net/adfit/static/kp.js
 ||track.tiara.daum.net^
 ||track.tiara.kakao.com^
 ||tracker.cauly.co.kr^
@@ -114935,7 +114942,7 @@ ustream.click##+js(acs, RegExp, 'shift')
 ustream.click##^script:has-text('shift')
 ustream.click##^script:has-text(\'shift\')
 1cloudfile.com##+js(nowoif)
-1cloudfile.com##+js(no-fetch-if, /adsbygoogle\.js|\.js/ method:HEAD)
+1cloudfile.com##+js(no-fetch-if, /adsbygoogle\.js|\.js/)
 ||browsingcontredir.com^
 ||mizalandz.click^
 1cloudfile.com##+js(nosiif, !display)
@@ -118692,6 +118699,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||app0w.ltd^$all
 ||primeleech.com^$all
 ||privacyguides.io^$all
+||skinboxs.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -120236,11 +120244,11 @@ hero-magazine.com###header:style(position: inherit !important;)
 !#if env_firefox
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=caminogeek.com
 !#endif
-@@||ads.adthrive.com/sites/*/ads.min.js$script,domain=a-z-animals.com|brewerfanatic.com|northsidebaseball.com|pimylifeup.com|twinsdaily.com
-@@||ads.adthrive.com/builds/core/*$script,domain=a-z-animals.com|brewerfanatic.com|northsidebaseball.com|pimylifeup.com|twinsdaily.com
+@@||ads.adthrive.com/sites/*/ads.min.js$script,domain=a-z-animals.com|brewerfanatic.com|fishonfirst.com|northsidebaseball.com|pimylifeup.com|twinsdaily.com
+@@||ads.adthrive.com/builds/core/*$script,domain=a-z-animals.com|brewerfanatic.com|fishonfirst.com|northsidebaseball.com|pimylifeup.com|twinsdaily.com
 pimylifeup.com##+js(no-fetch-if, marmalade)
-a-z-animals.com,brewerfanatic.com,northsidebaseball.com,pimylifeup.com,twinsdaily.com#@#.adthrive
-a-z-animals.com,brewerfanatic.com,northsidebaseball.com,twinsdaily.com#@#.adthrive-video-player
+a-z-animals.com,brewerfanatic.com,fishonfirst.com,northsidebaseball.com,pimylifeup.com,twinsdaily.com#@#.adthrive
+a-z-animals.com,brewerfanatic.com,fishonfirst.com,northsidebaseball.com,twinsdaily.com#@#.adthrive-video-player
 ||cdn-static.egybest.*/packed/$badfilter
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,important,redirect=noop.js,domain=indy100.com
 @@||googleads.github.io/videojs-ima/$css,domain=boysfood.com
