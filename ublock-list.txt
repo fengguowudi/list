@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: st8wOLJnkFDtQWzDdVJb+A
+! Checksum: BM7Sq8BGUxryIcpCZ2yp6w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402010915
-! Last Modified: 2024年02月01日 09:15
+! Version: 202402011421
+! Last Modified: 2024年02月01日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18310,6 +18310,7 @@ azclick.jp,tubefilter.com#@##topAd
 soundandvision.com,stereophile.com#@##topbannerad
 gamingcools.com#@#.Adsense
 m.motonet.fi#@#.ProductAd
+clickondetroit.com#@#.ac-widget-placeholder
 flightview.com#@#.ad-160-600
 job.inshokuten.com#@#.ad-area
 kincho.co.jp,niji-gazo.com#@#.ad-block
@@ -62366,10 +62367,10 @@ marketscreener.com###zppRight2
 ultrabookreview.com###zzifhome
 ultrabookreview.com###zzifhome2
 arydigital.tv###zzright
-androidauthority.com##.---___0f
-androidauthority.com##.---___Mb
-androidauthority.com##.---___mh
-androidauthority.com##.---___nb
+androidauthority.com##.--_-___Jg
+androidauthority.com##.--_-___Mb
+androidauthority.com##.--_-___Sb
+androidauthority.com##.--_-___jb
 talkingpointsmemo.com##.--span\:12.AdSlot
 bigissue.com##.-ad
 gamejolt.com##.-ad-widget
@@ -62973,10 +62974,10 @@ coingraph.us,smallseotools.com##.b
 dailyvoice.com##.b-banner
 informer.com##.b-content-btm > table[style="margin-left: -5px"]
 hypestat.com##.b-error
-houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com##.b-gray300.bt
-chron.com,mysanantonio.com,sfgate.com##.b-gray300.bt.bb
-mysanantonio.com,seattlepi.com,sfgate.com##.b-gray300.md\:bt
-chron.com,mysanantonio.com,sfgate.com##.b-gray300.md\:bt.md\:bb
+expressnews.com,houstonchronicl.ecom,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com##.b-gray300.bt
+chron.com,expressnews.com,mysanantonio.com,sfgate.com##.b-gray300.bt.bb
+expressnews.com,mysanantonio.com,seattlepi.com,sfgate.com##.b-gray300.md\:bt
+chron.com,expressnews.com,mysanantonio.com,sfgate.com##.b-gray300.md\:bt.md\:bb
 china.ahk.de##.b-header__banner
 dnserrorassist.att.net,searchguide.level3.com##.b-links
 kyivpost.com##.b-title
@@ -66435,6 +66436,7 @@ imgburn.com##font[face="Arial"][size="1"]
 realitytvworld.com##font[size="1"][color="gray"]
 dailydot.com,grammar-monster.com##footer
 law.com,topcultured.com##h3
+kazwire.com##h3.tracking-widest
 greatist.com##hl-adsense
 drive.com.au##hr
 carls-sims-4-guide.com##hr.post_separator + .windowbg
@@ -118971,6 +118973,7 @@ duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports
 tapewithadblock.org##+js(rmnt, script, /RegExp\(\'/, condition, RegExp)
 ||survey.alchemer.eu/s3/$frame,3p,domain=airforce-technology.com
 meeting.tencent.com##+js(no-xhr-if, /(trace|beacon)\.qq\.com/)
+notion.so##+js(no-fetch-if, splunkcloud.com/services/collector)
 ||2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=video.foxnews.com
 ||cdn.krxd.net^$script,redirect=noopjs,domain=video.foxnews.com
 @@||akamaihd.net/player/*/akamai/amp/prebid/*$script,domain=static.foxnews.com
@@ -121174,6 +121177,9 @@ foxnews.com##+js(set, Taplytics.featureFlagEnabled, noopFunc)
 @@||engine.monetate.net/api/$xhr,domain=dunelm.com
 @@||trbo.com/plugin/trbo_$script,xhr,domain=o2online.de
 @@||cdn.taboola.com/libtrc/tipranks-tipranks/loader.js$script,domain=tipranks.com
+iceland.co.uk##+js(set, fp, {})
+iceland.co.uk##+js(set, fp.t, noopFunc)
+iceland.co.uk##+js(set, fp.s, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
