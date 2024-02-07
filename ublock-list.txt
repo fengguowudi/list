@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nRmjYM6uI0az4rneewR61w
+! Checksum: JeV5D3pG580WYnbYGUegnw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402070909
-! Last Modified: 2024年02月07日 09:09
+! Version: 202402071420
+! Last Modified: 2024年02月07日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62935,6 +62935,7 @@ oann.com##.ad-slot__ad-label
 cnn.com##.ad-slot__ad-wrapper
 freepressjournal.in##.ad-slots
 techinformed.com##.ad-text-styles
+companiesmarketcap.com##.ad-tr
 bqprime.com##.ad-with-placeholder-m__place-holder-wrapper__1_rkH
 trueachievements.com##.ad-wrap
 crn.com,smithsonianmag.com,tasty.co##.ad-wrapper
@@ -115018,6 +115019,7 @@ sturls.com##+js(set, blurred, false)
 sturls.com###cc:style(display: block !important;)
 sturls.com###timer
 edealinfo.com##+js(acs, $, offsetHeight)
+edealinfo.com##+js(no-xhr-if, googlesyndication)
 mlsbd.shop##+js(aost, Math, inlineScript)
 mlsbd.*##+js(nowoif)
 tinytranslation.xyz###HTML5
@@ -115298,6 +115300,7 @@ sakarnewz.com##+js(nostif, show)
 sakarnewz.com###custom_html-2
 telenord.it##+js(nano-sib)
 snlookup.com##+js(no-xhr-if, ads)
+snlookup.com##+js(rmnt, script, deblocker)
 mundotec.pro##+js(nano-sib, seconds)
 epainfo.pl##+js(acs, document.addEventListener, adsBlocked)
 freedownloadvideo.net##+js(aost, setTimeout, adsBlocked)
@@ -121258,6 +121261,7 @@ iceland.co.uk##+js(set, fp, {})
 iceland.co.uk##+js(set, fp.t, noopFunc)
 iceland.co.uk##+js(set, fp.s, noopFunc)
 ||turbobit.net/js/analytics/$badfilter
+socket.pearsoned.com##+js(set, initializeNewRelic, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
