@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ctgejFUVfNXFxNQKK+yrNA
+! Checksum: hlBvrdr7tBXr9PSnR2x55g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402081421
-! Last Modified: 2024年02月08日 14:21
+! Version: 202402082029
+! Last Modified: 2024年02月08日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62222,6 +62222,7 @@ hackerbot.net###madiv3
 animehub.ac###main-content > center
 proprivacy.com###main-popup
 w3big.com,w3schools.com###mainLeaderboard
+manceraparfums.com###mancera_cookie_consent_banner
 planefinder.net###map-ad-container
 themeforest.net###market-banner
 defenseworld.net###mb-bar
@@ -63110,7 +63111,7 @@ ansamed.info,baltic-course.com,futbol24.com,gatewaynews.co.za,gsmarena.com,jetph
 blastingnews.com##.adv-box-content
 healthleadersmedia.com##.adv-con
 junauza.com##.adv-hd
-48hills.org,audiobacon.net,bhamnow.com,coinedition.com,coinquora.com,creativecow.net,elements.visualcapitalist.com,forexcracked.com,iconeye.com,kdnuggets.com,londonnewsonline.co.uk,manageditmag.co.uk,mondoweiss.net,ottverse.com,overclock3d.net,smallarmsreview.com,sportsspectrum.com,sundayworld.co.za,tampabayparenting.com,theaudiophileman.com##.adv-link
+48hills.org,audiobacon.net,bhamnow.com,coinedition.com,coinquora.com,creativecow.net,elements.visualcapitalist.com,forexcracked.com,iconeye.com,kdnuggets.com,laprensalatina.com,londonnewsonline.co.uk,manageditmag.co.uk,mondoweiss.net,ottverse.com,overclock3d.net,smallarmsreview.com,sportsspectrum.com,sundayworld.co.za,tampabayparenting.com,theaudiophileman.com##.adv-link
 sneakernews.com##.adv-parent
 chaseyoursport.com##.adv-slot
 greencarreports.com,motorauthority.com##.adv-spacer
@@ -63172,6 +63173,7 @@ pixwox.com##.ah-box-i-w
 pixwox.com##.ah-box-n-w
 stripes.com##.ahm-rotd
 techpp.com##.ai-attributes
+thegatewaypundit.com##.ai-dynamic
 radiomixer.net##.ai-placement
 uploadvr.com##.ai-sticky-widget
 androidpolice.com,constructionreviewonline.com,cryptobriefing.com,dereeze.com,tyretradenews.co.uk##.ai-track
@@ -63324,6 +63326,7 @@ puzzlegarage.com##.banner--inside
 dayspedia.com##.banner--main
 onlineradiobox.com##.banner--vertical
 freepik.com##.banner-adobe
+dailysocial.id##.banner-ads__validation
 schoolguide.co.za##.banner-bar
 schoolguide.co.za##.banner-bar-bot
 pretoria.co.za##.banner-bg
@@ -63957,6 +63960,7 @@ gfinityesports.com##.ecommerceUnit
 newagebd.net##.editorialMid
 editpad.org##.edsec
 theepochtimes.com##.eet-ad
+clutchpoints.com##.ehgtMe.sc-ed3f1eaf-1
 sashares.co.za##.elementor-48612
 bikeradar.com##.elementor-element-3f6e8dd
 hilltimes.com##.elementor-element-5818a09
@@ -63975,6 +63979,7 @@ huffingtonpost.co.uk,huffpost.com##.entry__right-rail-width-placeholder
 euronews.com##.enw-MPU
 essentiallysports.com##.es-ad-space-container
 marcadores247.com##.es_top_banner
+esports.net##.esports-ad
 alevelgeography.com,shtfplan.com,yournews.com##.et_pb_code_inner
 appleinsider.com##.exclusive-wrap
 mashable.com##.exco
@@ -64794,6 +64799,7 @@ play.typeracer.com##.newNorthWidget
 pcgamesn.com##.new_affiliate_embed
 farminguk.com##.news-advert-button-click
 myflixer.to##.news-iframe
+dailysocial.id##.news__detail-ads-subs
 moddb.com##.nextmediaboxtop
 democraticunderground.com##.nhome-mediumrectangle-container
 hulkshare.com##.nhsBotBan
@@ -82913,7 +82919,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tumblr.com/pop/js/modern/sentry-
 ||tumblr.com/services/bblog
 ||tunein.com/api/v1/log/
-||turbobit.net/js/analytics/
 ||tweakers.net/ajax/$ping
 ||twitter.com/1.1/attribution
 ||twitter.com/1.1/jot
@@ -120659,6 +120664,7 @@ gamingbible.co.uk#@#div[class*="margin-Advert"]
 gamingbible.co.uk##div[class$="-margin-Advert"]:style(height:1px !important;width:1px !important;position:absolute !important;left:-3000px !important)
 gamingbible.co.uk##.css-1dgm0zi-Advert
 ||adsafeprotected.com/$script,redirect-rule=noopjs,domain=gamingbible.co.uk
+hxfile.co##+js(nowoif)
 hxfile.co##a.btn-block
 ||storage.de.cloud.ovh.net^*/sarsor/avikingdynamic.js$script,3p
 go4kora.com###id-custom_banner
@@ -128094,9 +128100,6 @@ tipranks.com##+js(set, TRC._taboolaClone, [])
 iceland.co.uk##+js(set, fp, {})
 iceland.co.uk##+js(set, fp.t, noopFunc)
 iceland.co.uk##+js(set, fp.s, noopFunc)
-!#if env_mobile
-||turbobit.net/js/analytics/$badfilter
-!#endif
 socket.pearsoned.com##+js(set, initializeNewRelic, noopFunc)
 @@||fwmrm.net^*/admanager.js$script,3p,domain=southpark.*|southparkstudios.*
 ||click.discord.com^$badfilter
@@ -135288,8 +135291,8 @@ socket.pearsoned.com##+js(set, initializeNewRelic, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 06 Feb 2024 15:59:36 GMT
-# entries:        3785
+# last updated:   Thu, 08 Feb 2024 09:22:05 GMT
+# entries:        3787
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -137423,6 +137426,8 @@ socket.pearsoned.com##+js(set, initializeNewRelic, noopFunc)
 127.0.0.1 joetec.net
 127.0.0.1 joyoussurprise.com
 127.0.0.1 js-agent.newrelic.com
+127.0.0.1 js-api.otherlevels.com
+127.0.0.1 js-tags.otherlevels.com
 127.0.0.1 js.iterable.com
 127.0.0.1 js.users.51.la
 127.0.0.1 jsecoin.com
