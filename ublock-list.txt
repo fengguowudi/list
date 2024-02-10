@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: H/19t4zb63DCRUVIuXofdg
+! Checksum: mdeYFa7IUG6U/m+OauL0cA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402100908
-! Last Modified: 2024年02月10日 09:08
+! Version: 202402101419
+! Last Modified: 2024年02月10日 14:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -79,6 +79,7 @@
 .com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
 .com/adz/
+.com/api/posts?token=$third-party
 .com/peeltr.js
 .com/sc/*?n=$script,third-party
 .com/ss/ad/
@@ -2137,6 +2138,7 @@ _760x100.
 _768x90_
 _800x100.
 _800x80_
+&adb=y&adb=y^$popup
 &fp_sid=pop$popup,third-party
 &popunder=$popup
 &popundersPerIP=$popup
@@ -26914,6 +26916,7 @@ browsershots.org#@#.advert_area
 ||disgraceannihilate.com^
 ||disgracefulforeword.com^
 ||disguised-dad.com^
+||disgustassembledarctic.com^
 ||disgustinghindsight.com^
 ||disgustingscuffleaching.com^
 ||disheartensunstroketeen.com^
@@ -63549,6 +63552,7 @@ bikepacking.com##.banner-sidebar
 livescores.biz##.banner-slot-filled
 vedantu.com##.banner-text
 historydaily.org,israelnationalnews.com,news12.com,pwinsider.com,spaceref.com,usahealthcareguide.com##.banner-top
+albertsons.com##.banner-unit
 wpneon.com##.banner-week
 news.net##.banner-wr
 admonsters.com##.banner-wrap
@@ -128318,6 +128322,7 @@ socket.pearsoned.com##+js(set, initializeNewRelic, noopFunc)
 @@||fwmrm.net^*/admanager.js$script,3p,domain=southpark.*|southparkstudios.*
 ||click.discord.com^$badfilter
 @@||jssdkcdns.mparticle.com/js/*/mparticle.js$script,domain=cwtv.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=memurlar.net
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
