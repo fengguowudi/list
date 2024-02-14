@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zEnGZiRTH2PYeYGUkT2+nw
+! Checksum: l8aoFE6ys+jBUfrGX3O8mg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402140911
-! Last Modified: 2024年02月14日 09:11
+! Version: 202402141421
+! Last Modified: 2024年02月14日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -120485,6 +120485,7 @@ pixroute.com##+js(set, proclayer, noopFunc)
 uploady.io##+js(set, timeleft, 0)
 uploady.io##+js(nowoif)
 uploady.io##+js(noeval-if, replace)
+uploady.io###downloadbtn[style$="z-index: 99999;"]
 ravenmanga.xyz##+js(acs, addEventListener, onerror)
 ravenmanga.xyz##[href^="https://a-ads.com"]
 ||i.imgur.com/niNoP1F.gif^$3p
@@ -126855,6 +126856,7 @@ vuejs.org#@##special-sponsor
 ||sponsors.vuejs.org^$badfilter
 ecom.wixapps.net##+js(set, Sentry, {})
 ecom.wixapps.net##+js(set, Sentry.init, noopFunc)
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=sportskeeda.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
