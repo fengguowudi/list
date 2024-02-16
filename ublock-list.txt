@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OYYPxb77hQosZAjIYXOk8w
+! Checksum: uANzNsLNREd71ZGDLFpeBQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402161420
-! Last Modified: 2024年02月16日 14:20
+! Version: 202402162029
+! Last Modified: 2024年02月16日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18300,7 +18300,7 @@ stuff.tv#@#.c-ad
 thedigestweb.com#@#.c-ad-banner
 deployhappiness.com,dmitrysotnikov.wordpress.com,faravirusi.com,freedom-shift.net,lovepanky.com,markekaizen.jp,netafull.net,photopoint.com.ua,posh-samples.com#@#.category-ad:not(html):not(body)
 business-hack.net,clip.m-boso.net,iine-tachikawa.net,meihong.work#@#.category-ads:not(html):not(body)
-accuweather.com#@#.cnx-player-wrapper
+accuweather.com,heraldsun.com#@#.cnx-player-wrapper
 studio55.fi#@#.column-ad
 huffpost.com#@#.connatix-wrapper
 fontspace.com,skyrimcommands.com#@#.container-ads
@@ -61600,7 +61600,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||cdn.ex.co^$third-party
 ||cdn.thejournal.ie/media/hpto/$image
 ||channelexco.com/player/$third-party
-||connatix.com^$third-party,domain=~accuweather.com|~elnuevoherald.com|~huffpost.com|~loot.tv|~miamiherald.com|~sacbee.com
+||connatix.com^$third-party,domain=~accuweather.com|~elnuevoherald.com|~heraldsun.com|~huffpost.com|~loot.tv|~miamiherald.com|~sacbee.com
 ||delivery.vidible.tv/jsonp/
 ||dywolfer.de^
 ||elements.video^$third-party
@@ -124530,7 +124530,7 @@ ericdraken.com##^script[async]
 !||linkedin.com/li/track$xhr,1p
 utreon.com##+js(no-xhr-if, utreon.com/pl/api/event method:POST)
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$script,xhr,3p,match-case
-/^https:\/\/[0-9a-z]{7,25}\.com\/(?:build|bundles|chunks|dist|files|j|public|scripts|static)?\/?[0-9a-f]{6,15}\/?[0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index))?(?:\.js)?$/$script,3p,match-case
+/^https:\/\/[0-9a-z]{7,25}\.com\/(?:build|bundles|chunks|dist|files|j|public|scripts|static)?\/?[0-9a-f]{6,15}\/?[0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index))?(?:\.js)?$/$script,3p,match-case,redirect=noopjs
 zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST)
 ||torimochi.line-apps.com^$image,redirect=1x1.gif
 ||api.bilibili.com/x/internal/gaia-gateway/ExClimbWuzhi$xhr,1p
@@ -134280,8 +134280,8 @@ ecom.wixapps.net##+js(set, Sentry.init, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Thu, 08 Feb 2024 09:22:05 GMT
-# entries:        3782
+# last updated:   Fri, 16 Feb 2024 09:27:32 GMT
+# entries:        3783
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -136418,6 +136418,7 @@ ecom.wixapps.net##+js(set, Sentry.init, noopFunc)
 127.0.0.1 js.users.51.la
 127.0.0.1 jsecoin.com
 127.0.0.1 jsrdn.com
+127.0.0.1 jubilantglimmer.com
 127.0.0.1 juicyads.com
 127.0.0.1 juicyads.me
 127.0.0.1 jumptap.com
