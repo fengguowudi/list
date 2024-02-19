@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mJiW8MfBSoGKwp4t8fRzvQ
+! Checksum: JXZe0SsKpC/QCJaPAxxSDw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402190912
-! Last Modified: 2024年02月19日 09:12
+! Version: 202402191422
+! Last Modified: 2024年02月19日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20716,7 +20716,6 @@ browsershots.org#@#.advert_area
 ||almstda.tv^
 ||almuryclaque.com^
 ||alnathhoggie.com^
-||alocdn.co^
 ||alodiachowed.com^
 ||alodialreciter.com^
 ||aloensaidhe.com^
@@ -80730,6 +80729,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.chase.com^
 ||analytics.cookiefirst.dev^
 ||analytics.designspiration.com^
+||analytics.eip.telegraph.co.uk^
 ||analytics.faceitanalytics.com^
 ||analytics.footballdb.com^
 ||analytics.freemake.com^
@@ -125411,7 +125411,6 @@ pcgamer.com#@#.hawk-widget
 @@||google-analytics.com/ga.js$script,domain=bimi.jorudan.co.jp
 @@||notice.sp-prod.net^$frame,domain=telegraph.co.uk
 @@||tags.crwdcntrl.net/*/cc.js$script,domain=telegraph.co.uk
-@@||privacy-mgmt.com^$script,domain=telegraph.co.uk
 ||adobedtm.com^*/satellitelib-$script,domain=telegraph.co.uk,important
 telegraph.co.uk##+js(set, _satellite, {})
 telegraph.co.uk##+js(set, _satellite.getVisitorId, noopFunc)
