@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9oHwTX5c0xVtUROm8V2Img
+! Checksum: mJiW8MfBSoGKwp4t8fRzvQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402190218
-! Last Modified: 2024年02月19日 02:18
+! Version: 202402190912
+! Last Modified: 2024年02月19日 09:12
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1530,6 +1530,7 @@
 /zanox/banner/*
 /zcredirect?
 /zcvisitor/*
+/zergnet_ad/*
 /~cdn/ads/*
 ://a.*/ad-provider.js$third-party
 ://a.ads.
@@ -15480,6 +15481,7 @@ _800x80_
 ##.polaris-ad--wrapper-desktop
 ##.polarisMarketing
 ##.polaris__ad
+##.polaris__below-header-ad-wrapper
 ##.polaris__teads
 ##.position-ads
 ##.post--native-ad
@@ -17982,8 +17984,8 @@ _800x80_
 ##.OUTBRAIN[data-widget-id^="FMS_REELD_"]
 ##.adv_outbrain
 ##.js-outbrain-container
-##.ob-dynamic-rec-containeoutBrainWrapper
 ##.ob-p.ob-dynamic-rec-container
+##.ob-widget-header
 ##.outBrainWrapper
 ##.outbrain-ad-slot
 ##.outbrain-ad-units
@@ -59400,6 +59402,7 @@ browsershots.org#@#.advert_area
 ||mmosale.com/baner_images/
 ||mmwebhandler.888.com^
 ||monetize-static.viralize.tv^
+||mps.nbcuni.com/fetch/ext/
 ||mydirtyhobby.com^$third-party,domain=~my-dirty-hobby.com|~mydirtyhobby.de
 ||myfinance.com^$subdocument,third-party
 ||namecheap.com/graphics/linkus/
@@ -59581,7 +59584,6 @@ browsershots.org#@#.advert_area
 ||widgets.business.com^
 ||widgets.lendingtree.com^
 ||widgets.oddschecker.com^
-||widgets.outbrain.com/widgetMonitor/
 ||widgets.outbrain.com^*/widget.js
 ||widgets.progrids.com^
 ||widgets.tree.com^
@@ -65783,7 +65785,7 @@ freewebarcade.com##.pnum
 thespec.com##.polarAds
 bramptonguardian.com,guelphmercury.com,insideottawavalley.com,thestar.com##.polarBlock
 autoexpress.co.uk##.polaris__below-header-ad-wrapper
-autoexpress.co.uk,carbuyer.co.uk##.polaris__partnership-block
+autoexpress.co.uk,carbuyer.co.uk,evo.co.uk##.polaris__partnership-block
 bigissue.com##.polaris__simple-grid--full
 compoundsemiconductor.net##.popular__section-newsx
 wethegeek.com##.popup-dialog
@@ -79357,6 +79359,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||widget.educationdynamics.com^
 ||widgetbox.com/syndication/track/
 ||widgethost.com/pax/counter.js?
+||widgets.outbrain.com/widgetMonitor/
 ||widgets.sprinklecontent.com/v2/sprinkle.js
 ||widgetserver.com/metrics/
 ||widgetserver.com/t/
@@ -80784,6 +80787,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||autotrader.com/pixall/
 ||avitop.com/aviation/hitlist.asp
 ||b629.electronicdesign.com^
+||ba-bamail.com/handlers/stats.ashx
 ||backcountry.com/api/log
 ||baidu.com/static/h.gif
 ||baidu.com^*/mwb2.gif?
@@ -120024,7 +120028,6 @@ painaltube.com##.widget > div.widget
 javsex.to##+js(aeld, DOMContentLoaded, adsBlocked)
 @@||seir-sanduk.com/$script,1p
 trueachievements.com,truesteamachievements.com,truetrophies.com##body:style(padding-top:0px !important)
-xemphimgi.net##+js(nowoif)
 techilife.com##+js(acs, jQuery, adblocker)
 picdollar.com##+js(aopr, loadTool)
 tyfloswiat.pl##^responseheader(location)
@@ -120191,9 +120194,6 @@ semprot.com##a[href^="/yum.php"]
 ||img.topddl.net^$image,domain=nanimex.com
 ||nanime.biz^$3p
 nanimex.com##.iklan-tengah
-automotur.club##+js(aopr, adssBlocked)
-automotur.club##+js(nowoif)
-automotur.club##+js(set, blurred, false)
 elahmad.com##+js(nostif, debugger)
 *$image,redirect-rule=1x1.gif,domain=elahmad.com
 *$redirect-rule=noopjs,script,domain=elahmad.com
@@ -120205,9 +120205,7 @@ kendam.com##+js(set, canRunAds, true)
 convert2mp3.cx##+js(nowoif)
 isgfrm.com##+js(acs, $, test)
 megawypas.com##+js(acs, document.addEventListener, google_ad_client)
-football256.com##.stream-item
-football256.com###stream-item-widget-5
-www.sainsburys.co.uk#?#li:has(.product-header):has-text(Sponsored)
+sainsburys.co.uk#?#li:has(.product-header):has-text(Sponsored)
 123moviesto.to###bar-player
 123moviesto.to##.mvic-bmt
 mp3dl.cc##+js(nowoif)
@@ -127017,6 +127015,8 @@ ecom.wixapps.net##+js(set, Sentry, {})
 ecom.wixapps.net##+js(set, Sentry.init, noopFunc)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=sportskeeda.com
 @@||googletagmanager.com/gtm.js$3p,script,domain=st-andrews.ac.uk
+mobile.de##+js(set, optimizelyDatafile, {})
+mobile.de##+js(set, optimizelyDatafile.featureFlags, [])
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
