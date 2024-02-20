@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7VWY6wLgU4wFUaySCDRFkQ
+! Checksum: hYe+OypoTda4zshbBrFokA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402200909
-! Last Modified: 2024年02月20日 09:09
+! Version: 202402201421
+! Last Modified: 2024年02月20日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -77467,6 +77467,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ccexperimentsstatic.oracleoutsourcing.com^
 ||cdn-channels-pixel.ex.co^
 ||cdn-ds.com/analytics/
+||cdn.one.store/xdomain_cookie.html
 ||cdn.sourcesync.io/open-pixel/source-pixel.js
 ||cdn.usefathom.com^
 ||cdnjs.work/metrics.js
@@ -127129,6 +127130,7 @@ ecom.wixapps.net##+js(set, Sentry.init, noopFunc)
 @@||googletagmanager.com/gtm.js$3p,script,domain=st-andrews.ac.uk
 mobile.de##+js(set, optimizelyDatafile, {})
 mobile.de##+js(set, optimizelyDatafile.featureFlags, [])
+||cdn.optimizely.com/public/*.json/tag.js$domain=mobile.de,important
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
