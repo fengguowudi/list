@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hYe+OypoTda4zshbBrFokA
+! Checksum: BCL4CQAiPI5PkszSdvYj2w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402201421
-! Last Modified: 2024年02月20日 14:21
+! Version: 202402202029
+! Last Modified: 2024年02月20日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -25714,6 +25714,7 @@ browsershots.org#@#.advert_area
 ||cqrvwq.com^
 ||cqwajn.com^
 ||cr-brands.net^
+||cr.adsappier.com^
 ||cr08.biz^
 ||crabdefend.com^
 ||craccaanybody.com^
@@ -63490,8 +63491,8 @@ marketscreener.com###zppRight2
 ultrabookreview.com###zzifhome
 ultrabookreview.com###zzifhome2
 arydigital.tv###zzright
-androidauthority.com##.--_-___Mb
-androidauthority.com##.--_-___jb
+androidauthority.com##.--_-___Yb
+androidauthority.com##.--_-___mb
 talkingpointsmemo.com##.--span\:12.AdSlot
 bigissue.com##.-ad
 gamejolt.com##.-ad-widget
@@ -65602,6 +65603,7 @@ tastesbetterfromscratch.com##.mysticky-welcomebar-fixed
 troypoint.com##.mysticky-welcomebar-fixed-wrap
 koreaherald.com##.mythiell-mid-container
 exportfromnigeria.info##.mytopads
+mypunepulse.com##.n2-padding
 hoteldesigns.net##.n2-ss-slider
 naturalblaze.com##.n553lfzn75
 mail.google.com##.nH.PS
@@ -66748,7 +66750,7 @@ nypost.com##.widget_nypost_dfp_ad_widget
 nypost.com##.widget_nypost_vivid_concerts_widget
 twistedsifter.com##.widget_sifter_ad_bigbox_widget
 985kissfm.net,bxr.com,catcountry951.com,nashfm1065.com,power923.com,wncv.com,wskz.com##.widget_simpleimage
-optimyz.com##.widget_smartslider3
+mypunepulse.com,optimyz.com##.widget_smartslider3
 permanentstyle.com##.widget_sow-advertisements
 acprimetime.com,androidpctv.com,brigantinenow.com,downbeachbuzz.com##.widget_sp_image
 screenbinge.com,streamingrant.com##.widget_sp_image-image-link
@@ -81972,6 +81974,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tripadvisor.*/wm/record
 ||tripcdn.com/bee/collect$domain=trip.com
 ||trivago.com/tracking/
+||trk.decido.io^
 ||trk.tirto.id^
 ||trumba.com/et.aspx?
 ||trx3.famousfix.com^
