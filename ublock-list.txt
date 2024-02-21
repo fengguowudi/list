@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xFEvbyQ4oOeVfSAW2+lujg
+! Checksum: s34uPx9FWCwV7rgWsa2pYQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402211420
-! Last Modified: 2024年02月21日 14:20
+! Version: 202402212030
+! Last Modified: 2024年02月21日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -118019,6 +118019,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
 !! ci-mpsnare.iovation.com
 @@||ci-mpsnare.iovation.com/snare.js$domain=equifax.ca
+!! lightning.cnn.com
+@@||lightning.cnn.com^$script,domain=wfmz.com
 !! tag.aticdn.net
 @@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 !! cdn.optimizely.com/public
@@ -122184,6 +122186,7 @@ haxnode.net##[id^="haxno-"]
 ||cli.re/premiumfiles|$all
 ||coronasfapps.net^$doc
 ||sustac.com^$all
+||thefreesoft.com^$doc
 ||theannoyingsite.com^$all
 .top/vpnupdate/*/index.html$doc
 ||smartklick.biz^$all
