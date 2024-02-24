@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pbcCEUjZVSsXgtWgOZFQIA
+! Checksum: fT07aMntbJbJ3W/dyns8NQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402240907
-! Last Modified: 2024年02月24日 09:07
+! Version: 202402241419
+! Last Modified: 2024年02月24日 14:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -59633,7 +59633,7 @@ browsershots.org#@#.advert_area
 ||btr.domywife.com^
 ||c.bannerflow.net^
 ||c2shb.pubgw.yahoo.com^
-||caffeine.tv/embed/
+||caffeine.tv/embed/$third-party
 ||campaigns.williamhill.com^
 ||capital.com/widgets/$third-party
 ||careerwebsite.com/distrib_pages/jobs.cfm?
@@ -66704,6 +66704,7 @@ newegg.com##.sponsored-brands
 cheknews.ca##.sponsored-by
 washingtontimes.com##.sponsored-heading
 breakingdefense.com##.sponsored-inline
+justwatch.com##.sponsored-recommendation
 crn.com##.sponsored-resources
 search.brave.com##.sponsored-unit_wrapper
 coingecko.com##.sponsored-v2
@@ -67911,6 +67912,7 @@ qwant.com##div[data-testid="homeTrendsContainer"] a[href^="https://api.qwant.com
 qwant.com##div[data-testid="pam.container"]
 qwant.com##div[data-testid="productAdsMicrosoft.container"]
 sitepoint.com##div[data-unit-code]
+weather.com##div[id*="Taboola-sidebar"]
 chrome-stats.com##div[id*="billboard_responsive"]
 thenewspaper.gr##div[id*="thene-"]
 diskingdom.com##div[id="diski-"]
@@ -73156,6 +73158,7 @@ _WebVitalsReporter_
 .com/vtrack
 /ls.php?t=
 /track.php?domain=
+/track.php?toggle=
 /ContextLogResource/*
 /statslogresource/*
 /ajax/counter?ctr=
@@ -127606,7 +127609,7 @@ mobile.de##+js(set, optimizelyDatafile.featureFlags, [])
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,3p,domain=purepeople.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl$script,3p,domain=purepeople.com
 @@||securepubads.g.doubleclick.net/gampad/ads$xhr,3p,domain=purepeople.com
-purepeople.com##+js(nano-stb, logEvent, *, 0.01)
+purepeople.com##+js(nano-stb, logEvent, *, 0.001)
 @@||web-assets.tapfiliate.com^$domain=affiliates.groovehq.com
 @@||groove.tapfiliate.com^$1p
 @@||web-assets.tapfiliate.com^$1p
