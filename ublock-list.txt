@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IvdAu2/TphLA7p1ZdBoErg
+! Checksum: DFh6U5pRjLCIvgF7Hfq/rA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402251419
-! Last Modified: 2024年02月25日 14:19
+! Version: 202402252027
+! Last Modified: 2024年02月25日 20:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -117016,7 +117016,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||analytics.allovoisins.com^
 ||analytics.clubic.com^
 ||api.odysee.com/locale/get
-||api.ouedkniss.com/health/
 ||api.ouedkniss.com^*&xTrackId=
 ||api.tacotax.fr/v2/amplitude_trackers
 ||batiactu.com/cap_
@@ -125060,6 +125059,7 @@ ericdraken.com##^script[async]
 ||c2shb.pubgw.yahoo.com/admax/bid/partners/PBJS
 ||blozoo.info/js/inouttool/
 !||linkedin.com/li/track$xhr,1p
+linkedin.com##+js(href-sanitizer, a[href^="https://www.linkedin.com/redir/redirect?url=http"], ?url)
 utreon.com##+js(no-xhr-if, utreon.com/pl/api/event method:POST)
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$script,xhr,3p,match-case
 /^https:\/\/[0-9a-z]{7,25}\.com\/(?:build|bundles|chunks|dist|files|j|public|scripts|static)?\/?[0-9a-f]{6,15}\/?[0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index))?(?:\.js)?$/$script,3p,match-case,redirect=noopjs
