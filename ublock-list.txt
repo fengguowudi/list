@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1KjZGMDMrkI2lDQzvntFiw
+! Checksum: IvdAu2/TphLA7p1ZdBoErg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402250915
-! Last Modified: 2024年02月25日 09:15
+! Version: 202402251419
+! Last Modified: 2024年02月25日 14:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -125308,7 +125308,6 @@ natgeotv.com##+js(set, Visitor, {})
 www.lenovo.com##+js(aost, history.replaceState, injectedScript)
 !*$1p,strict3p,script,header=via:1.1 google
 !#if !env_mobile
-web.bale.ai##+js(trusted-set, navigator.userAgent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML\, like Gecko) Chrome/119.0.0.0 Safari/537.36)
 !#else
 web.bale.ai##+js(trusted-set, navigator.userAgent, Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML\, like Gecko) Chrome/119.0.6045.66 Mobile Safari/537.36)
 !#endif
