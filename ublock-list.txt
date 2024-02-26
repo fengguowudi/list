@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 18oWDNWkZWsQCIKK4STTiQ
+! Checksum: HDJ7olHhDyeiFaN16vvRIg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402262029
-! Last Modified: 2024年02月26日 20:29
+! Version: 202402270220
+! Last Modified: 2024年02月27日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -59694,6 +59694,7 @@ browsershots.org#@#.advert_area
 ||cas.*.criteo.com^
 ||cdn.ad.page^
 ||cdn.ads.tapzin.com^
+||cdn.b2.ai^$third-party
 ||cdn.neighbourly.co.nz/widget/$subdocument
 ||cdn.vaughnsoft.net/abvs/
 ||cdn22904910.ahacdn.me^
@@ -68329,6 +68330,7 @@ aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[c
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
 walmart.com##div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:has(div[data-ad-component-type="wpa-tile"])
 expedia.at,expedia.be,expedia.ca,expedia.ch,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com,expedia.com.ar,expedia.com.au,expedia.com.br,expedia.com.hk,expedia.com.my,expedia.com.ph,expedia.com.sg,expedia.com.tw,expedia.com.vn,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.ie,expedia.it,expedia.mx,expedia.net,expedia.nl,expedia.no,expedia.se,hotels.com,orbitz.com,travelocity.ca,travelocity.com##div[class="uitk-spacing uitk-spacing-margin-blockstart-three"]:has(a[href*="&trackingData"])
+expedia.at,expedia.be,expedia.ca,expedia.ch,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com,expedia.com.ar,expedia.com.au,expedia.com.br,expedia.com.hk,expedia.com.my,expedia.com.ph,expedia.com.sg,expedia.com.tw,expedia.com.vn,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.ie,expedia.it,expedia.mx,expedia.net,expedia.nl,expedia.no,expedia.se,hotels.com,orbitz.com,travelocity.ca,travelocity.com##div[class="uitk-spacing uitk-spacing-margin-blockstart-three"]:has(a[href^="https://adclick.g.doubleclick.net/pcs/click?"])
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se##div[class] > div[class]:has(> div[class] > div[id^="RAD_D_"])
 dearbornmarket.com,fairwaymarket.com,gourmetgarage.com,priceritemarketplace.com,shoprite.com,thefreshgrocer.com##div[class^="ColListing"]:has(div[data-testid^="Sponsored"])
 wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="DesignSpec__TextSpecWrapper-"] + div[class^="DesignSpec__TextSpecWrapper-"])
@@ -79976,7 +79978,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zynga.com/track/
 ||adsdk.yandex.ru^
 ||analytics-api.samsunghealthcn.com^
-||analytics.b2.ai^
 ||analytics.mobile.yandex.net^
 ||analytics.samsungknox.com^
 ||app.chat.xiaomi.net^$third-party
@@ -125418,6 +125419,7 @@ coursera.org##+js(no-fetch-if, eventing)
 ||cmp.*.no^*/metrics/$important
 ||fsho.st/tracker.js^$script,domain=fshost.me
 /^https:\/\/mudah\.my\/[a-zA-Z0-9]{16}\/[a-zA-Z0-9]{16}\?apiKey=/$script,1p,domain=mudah.my
+||analytics.strapi.io^
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -127701,9 +127703,6 @@ purepeople.com##+js(nano-stb, logEvent, *, 0.001)
 ||googletagmanager.com^$script,redirect-rule=googletagmanager_gtm.js,domain=economictimes.com|eisamay.com|iamgujarat.com|indiatimes.com|samayam.com|vijaykarnataka.com
 ioe.vn##+js(set, fingerprint, {})
 ioe.vn##+js(set, fingerprint.getCookie, noopFunc)
-!#if env_firefox
-@@||fundingchoicesmessages.google.com^$script,domain=bazar.bg
-!#endif
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
