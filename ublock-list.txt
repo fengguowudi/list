@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GroWTEj8hmMAevnxf968cw
+! Checksum: 9JuYeUUamFVBbYWBASOosQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402260912
-! Last Modified: 2024年02月26日 09:12
+! Version: 202402261422
+! Last Modified: 2024年02月26日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -69901,9 +69901,9 @@ pornhub.com##.sectionWrapper:has(> #bottomVideos > .wrapVideoBlock)
 hentaicomics.pro##.single-portfolio:has(.xxx-banner)
 scrolller.com##.vertical-view__column > .vertical-view__item:has(> div[style$="overflow: hidden;"])
 porndoe.com##.video-item:has(a.video-item-link[ng-native-click])
-pornhub.com##.video-wrapper > .original.clear.hd:has(.adsbytrafficjunky)
 jav4tv.com##aside:has(.ads_300_250)
 youporn.com##aside:has(a.ad-remove)
+pornhub.com##div[class="video-wrapper"] > .clear.hd:has(.adsbytrafficjunky)
 rule34.paheal.net##section[id$="main"] > .blockbody:has(> div[align="center"] > ins)
 !! Advanced element hiding rules
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
@@ -81342,6 +81342,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.box.com/gen204
 ||appanalysis.banggood.com^
 ||archive.org/includes/analytics.js
+||armedangels.com/javascript/script.js
 ||arttrk.com/pixel/
 ||as.coinbase.com/metrics
 ||atrack.allposters.com^
@@ -124499,6 +124500,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||make-money-happy.online^$doc
 ||t-haihukikaku.online^$doc
 ||t-present.online^$doc
+||rich-cash.site^$doc
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||apkmirror.co^$all
