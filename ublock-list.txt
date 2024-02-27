@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BmsHlwoiyk2kcw7xehOPwg
+! Checksum: hRFYVhDmMy+3K/h91Sm2HA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402270910
-! Last Modified: 2024年02月27日 09:10
+! Version: 202402271420
+! Last Modified: 2024年02月27日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -66723,6 +66723,7 @@ oilcity.news##.sticky-sponsors-large
 jpost.com##.sticky-top-banner
 litecoin-faucet.com##.sticky-top1
 theblock.co,thekitchn.com##.stickyFooter
+everythingrf.com##.stickyRHSAds
 cnet.com##.stickySkyboxSpacing
 fastfoodnutrition.org##.sticky_footer
 pcgamesn.com##.sticky_rail600
@@ -67265,6 +67266,8 @@ ginx.tv##[data-ez-ph-id]
 news.sky.com##[data-format="leaderboard"]
 tvzoneuk.com##[data-hook="HtmlComponent"]
 blackbeltmag.com##[data-hook="bgLayers"]
+clevelandclinic.org##[data-identity*="billboard-ad"]
+clevelandclinic.org##[data-identity="leaderboard-ad"]
 jeffdornik.com##[data-image-info]
 phoneia.com##[data-index]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-layout="ad"]
@@ -72383,6 +72386,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /smmch-mine.js
 /smmch-own.js
 /snowman.gif?p=
+/snowplow-tracker.tatest.js
 /snowplow.js
 /snowplow/*$script
 /snowplow_$script
@@ -74839,6 +74843,7 @@ omni.soundestlink.com$image
 ||intervigil.com^$third-party
 ||investingchannel.com^$third-party
 ||invitemedia.com^$third-party
+||invitereferrals.com^$third-party
 ||invoc.us^$third-party
 ||invoca.net^$third-party
 ||invoca.solutions^$third-party

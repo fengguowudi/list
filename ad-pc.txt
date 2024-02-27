@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6XCmaVNUb1IieLfdkYEnsw
+! Checksum: p5VYY9k+EdFBq0/2TPfJ3Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202402270910
-! Last Modified: 2024年02月27日 09:10
+! Version: 202402271420
+! Last Modified: 2024年02月27日 14:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -67173,6 +67173,7 @@ oilcity.news##.sticky-sponsors-large
 jpost.com##.sticky-top-banner
 litecoin-faucet.com##.sticky-top1
 theblock.co,thekitchn.com##.stickyFooter
+everythingrf.com##.stickyRHSAds
 cnet.com##.stickySkyboxSpacing
 fastfoodnutrition.org##.sticky_footer
 pcgamesn.com##.sticky_rail600
@@ -67715,6 +67716,8 @@ ginx.tv##[data-ez-ph-id]
 news.sky.com##[data-format="leaderboard"]
 tvzoneuk.com##[data-hook="HtmlComponent"]
 blackbeltmag.com##[data-hook="bgLayers"]
+clevelandclinic.org##[data-identity*="billboard-ad"]
+clevelandclinic.org##[data-identity="leaderboard-ad"]
 jeffdornik.com##[data-image-info]
 phoneia.com##[data-index]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-layout="ad"]
@@ -91778,6 +91781,7 @@ fqsousou.com,kengso.com#@#.user-share
 /smmch-mine.js
 /smmch-own.js
 /snowman.gif?p=
+/snowplow-tracker.tatest.js
 /snowplow.js
 /snowplow/*$script
 /snowplow_$script
@@ -94234,6 +94238,7 @@ omni.soundestlink.com$image
 ||intervigil.com^$third-party
 ||investingchannel.com^$third-party
 ||invitemedia.com^$third-party
+||invitereferrals.com^$third-party
 ||invoc.us^$third-party
 ||invoca.net^$third-party
 ||invoca.solutions^$third-party
