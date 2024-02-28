@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l0qRDHzMQiRn1G4qFs+9uQ
+! Checksum: FJe0I7XSj5FScjq8A6mGpQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402280909
-! Last Modified: 2024年02月28日 09:09
+! Version: 202402281420
+! Last Modified: 2024年02月28日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -4049,7 +4049,6 @@ _800x80_
 ###advertColumn
 ###advertContainer
 ###advertDB
-###advertMPUContainer
 ###advertOverlay
 ###advertRight
 ###advertSection
@@ -4923,11 +4922,6 @@ _800x80_
 ###exoAd
 ###externalAd
 ###ezmobfooter
-###fd-ad-mr1
-###fd-ad-mr2
-###fd-ad-mr3
-###fd-ad-sb1
-###fd-ad-sb2
 ###featureAd
 ###featureAdSpace
 ###featureAds
@@ -5846,7 +5840,6 @@ _800x80_
 ###post-ads
 ###post-bottom-ads
 ###post-content-ad
-###post-main-banner-ad
 ###post-page-ad
 ###post-promo-ad
 ###postAd
@@ -5863,7 +5856,6 @@ _800x80_
 ###pr_advertising
 ###pre-adv
 ###pre-footer-ad
-###pre-main-banner-ad
 ###preAds_ad_mrec_intext
 ###preAds_ad_mrec_intext2
 ###preminumAD
@@ -8189,7 +8181,6 @@ _800x80_
 ##.ad-slot
 ##.ad-slot--container
 ##.ad-slot--inline
-##.ad-slot--leaderboard--article--wrapper
 ##.ad-slot--mostpop
 ##.ad-slot--mpu-banner-ad
 ##.ad-slot--rendered
@@ -8387,7 +8378,6 @@ _800x80_
 ##.ad-w-728
 ##.ad-w-970
 ##.ad-w300
-##.ad-wallpaper-panorama-container
 ##.ad-warning
 ##.ad-warp
 ##.ad-watermark
@@ -8438,7 +8428,6 @@ _800x80_
 ##.ad-zone-ajax
 ##.ad-zone-container
 ##.ad.addon
-##.ad.bottom_article_leaderboard
 ##.ad.bottomrect
 ##.ad.box
 ##.ad.brandboard
@@ -8557,20 +8546,13 @@ _800x80_
 ##.ad300shows
 ##.ad300top
 ##.ad300w
-##.ad300x-placeholder
 ##.ad300x100
-##.ad300x111
 ##.ad300x120
 ##.ad300x150
 ##.ad300x250
 ##.ad300x250-1
 ##.ad300x250-2
-##.ad300x250-home
-##.ad300x250-hp-features
 ##.ad300x250-inline
-##.ad300x250-stacked
-##.ad300x2501
-##.ad300x250GrayBorder
 ##.ad300x250Module
 ##.ad300x250Right
 ##.ad300x250Top
@@ -10673,8 +10655,6 @@ _800x80_
 ##.adslotright_1
 ##.adslotright_2
 ##.adslug
-##.adslx-bottom2015
-##.adslx2015
 ##.adsmaintop
 ##.adsmall
 ##.adsmaller
@@ -10826,20 +10806,13 @@ _800x80_
 ##.adunit-active
 ##.adunit-adbridg
 ##.adunit-container
-##.adunit-container-bb
-##.adunit-container-incontent-280px
-##.adunit-container-incontent-400px
-##.adunit-container-sitebar-600px
 ##.adunit-container_sitebar_1
 ##.adunit-googleadmanager
 ##.adunit-lazy
 ##.adunit-middle
 ##.adunit-parent
 ##.adunit-purch
-##.adunit-search-midstream
 ##.adunit-side
-##.adunit-skyscraper-1
-##.adunit-skyscraper-2
 ##.adunit-title
 ##.adunit-top
 ##.adunit-wrap
@@ -14250,7 +14223,6 @@ _800x80_
 ##.js-slide-top-ad
 ##.js-slim-nav-ad
 ##.js-sticky-ad
-##.js-sticky-advert-details-mpu
 ##.js-stream-ad
 ##.js-stream-featured-ad
 ##.js-toggle-ad
@@ -15024,7 +14996,6 @@ _800x80_
 ##.ndmadkit
 ##.nemo-ad
 ##.neo-advert
-##.nested-ad
 ##.netPost_ad1
 ##.netPost_ad3
 ##.netads
@@ -16517,8 +16488,6 @@ _800x80_
 ##.sticky-ad-container
 ##.sticky-ad-footer
 ##.sticky-ad-header
-##.sticky-ad-slot--homepage--wrapper
-##.sticky-ad-unit-default
 ##.sticky-ad-wrapper
 ##.sticky-ads
 ##.sticky-ads-container
@@ -17111,7 +17080,6 @@ _800x80_
 ##.wide-ad-container
 ##.wide-ad-new-layout
 ##.wide-ad-outer
-##.wide-ad2015
 ##.wide-ads-container
 ##.wide-advert
 ##.wide-footer-ad
@@ -17247,8 +17215,6 @@ _800x80_
 ##.width-ad-slug
 ##.wikia-ad
 ##.wio-xbanner
-##.with-background-ads
-##.withBanners__ad
 ##.wnad
 ##.worldplus-ad
 ##.wotd-widget__ad
@@ -17739,6 +17705,7 @@ _800x80_
 ###cmg-video-player-placeholder
 ###jwplayer-container-div
 ###jwplayer_contextual_player_div
+###kargo-player
 ###mplayer-embed
 ###primis-holder
 ###primis_intext
@@ -63195,6 +63162,7 @@ geekwire.com###engineering-centers-sidebar
 wral.com###exco
 designtaxi.com###exid
 jigzone.com###fH
+csstats.gg###faceit-banner
 openloading.com###fakeplayer
 asianjournal.com###fancybox-overlay
 asianjournal.com###fancybox-wrap
@@ -64100,6 +64068,7 @@ premierguitar.com##.a_promo
 fastfoodnutrition.org##.a_rect
 informer.com##.aa-728
 informer.com##.aa0
+absoluteanime.com##.aa_leaderboard
 romsmania.games##.aawp
 ncomputers.org,servertest.online##.ab
 freedownloadmanager.org##.ab1
@@ -64536,7 +64505,7 @@ gayexpress.co.nz##.backstretch
 izismile.com##.ban_top
 saabplanet.com##.baner
 rhumbarlv.com##.banlink
-1001games.com,alistapart.com,arcadebomb.com,armageddonexpo.com,bikechatforums.com,birminghamworld.uk,bristolworld.com,bsc.news,btcmanager.com,ca-flyers.com,caixinglobal.com,caribvision.tv,cmo.com.au,coryarcangel.com,derbyshiretimes.co.uk,dominicantoday.com,doncasterfreepress.co.uk,elyricsworld.com,euobserver.com,eurochannel.com,exalink.fun,fifetoday.co.uk,filmmakermagazine.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,gartic.io,garticphone.com,glasgowworld.com,gr8.cc,gsprating.com,hartlepoolmail.co.uk,hortidaily.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,ipwatchdog.com,irishpost.com,israelnationalnews.com,japantimes.co.jp,jpost.com,kissasians.org,laserpointerforums.com,lincolnshireworld.com,liverpoolworld.uk,livescore.in,londonworld.com,manchesterworld.uk,marinelink.com,mercopress.com,miltonkeynes.co.uk,mmorpg.com,mob.org,nationalworld.com,newcastleworld.com,news.am,news.net,northamptonchron.co.uk,northantstelegraph.co.uk,northumberlandgazette.co.uk,oncyprus.com,onlineconvertfree.com,pharmatimes.com,portsmouth.co.uk,powerboat.world,pulsesports.co.ke,pulsesports.ng,pulsesports.ug,reversephonesearch.com.au,roblox.com,scientificamerican.com,scotsman.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,subscene.com,sumodb.com,sussexexpress.co.uk,sweeting.org,swzz.xyz,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,thestar.co.uk,timeslive.co.za,timesofisrael.com,tmi.me,townhall.com,toyworldmag.co.uk,unblockstreaming.com,vibilagare.se,vloot.io,warwickshireworld.com,weatheronline.co.uk,weekly-ads.us,worldtimeserver.com,xbiz.com,ynetnews.com,yorkshirepost.co.uk##.banner
+1001games.com,alistapart.com,arcadebomb.com,armageddonexpo.com,bikechatforums.com,birminghamworld.uk,bristolworld.com,bsc.news,btcmanager.com,ca-flyers.com,caixinglobal.com,caribvision.tv,cmo.com.au,coryarcangel.com,csstats.gg,derbyshiretimes.co.uk,dominicantoday.com,doncasterfreepress.co.uk,elyricsworld.com,euobserver.com,eurochannel.com,exalink.fun,fifetoday.co.uk,filmmakermagazine.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,gartic.io,garticphone.com,glasgowworld.com,gr8.cc,gsprating.com,hartlepoolmail.co.uk,hortidaily.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,ipwatchdog.com,irishpost.com,israelnationalnews.com,japantimes.co.jp,jpost.com,kissasians.org,laserpointerforums.com,lincolnshireworld.com,liverpoolworld.uk,livescore.in,londonworld.com,manchesterworld.uk,marinelink.com,mercopress.com,miltonkeynes.co.uk,mmorpg.com,mob.org,nationalworld.com,newcastleworld.com,news.am,news.net,northamptonchron.co.uk,northantstelegraph.co.uk,northumberlandgazette.co.uk,oncyprus.com,onlineconvertfree.com,pharmatimes.com,portsmouth.co.uk,powerboat.world,pulsesports.co.ke,pulsesports.ng,pulsesports.ug,reversephonesearch.com.au,roblox.com,scientificamerican.com,scotsman.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,subscene.com,sumodb.com,sussexexpress.co.uk,sweeting.org,swzz.xyz,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,thestar.co.uk,timeslive.co.za,timesofisrael.com,tmi.me,townhall.com,toyworldmag.co.uk,unblockstreaming.com,vibilagare.se,vloot.io,warwickshireworld.com,weatheronline.co.uk,weekly-ads.us,worldtimeserver.com,xbiz.com,ynetnews.com,yorkshirepost.co.uk##.banner
 papermag.com##.banner--ad__placeholder
 dayspedia.com##.banner--aside
 onlineradiobox.com##.banner--header
@@ -64734,7 +64703,7 @@ thedailymash.co.uk##.border-brand
 standardmedia.co.ke##.border-thick-branding
 appleinsider.com##.bottom
 blockchair.com##.bottom--buttons-container
-downforeveryoneorjustme.com##.bottom-0.fixed
+downforeveryoneorjustme.com,health.clevelandclinic.org##.bottom-0.fixed
 reverso.net##.bottom-horizontal
 photographyreview.com##.bottom-leaderboard
 dappradar.com##.bottom-networks
@@ -65155,7 +65124,7 @@ capitalfm.com,radiox.co.uk,smoothradio.com##.download
 thepiratebay3.to##.download_buutoon
 drivespark.com##.dp-add-block
 thesun.co.uk##.dpa-slot
-distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.dpbdIG
+distractify.com,greenmatters.com,inquisitr.com,okmagazine.com,radaronline.com##.dpbdIG
 dola.com##.ds-brand
 dola.com##.ds-display-ad
 cryptonews.com##.dslot
@@ -65713,6 +65682,7 @@ goldprice.org##.kenbi
 trustedreviews.com##.keystone-deal
 trustedreviews.com##.keystone-single-widget
 gamertweak.com##.kfzyntmcd-caption
+overkill.wtf##.kg-blockquote-alt
 linuxhandbook.com##.kg-bookmark-card
 thelibertydaily.com,toptenz.net,vitamiiin.com##.kgbwvoqfwag
 koreaherald.com##.khadv1
@@ -70539,7 +70509,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /1px.php?
 /1x1.gif?
 /1x1.png?
-/2.120.0/main.js
 /2.gif?
 /24h-analytics.
 /2x2.gif?$image
@@ -72187,6 +72156,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /ptrack.js
 /pub/as?_ri_=$image
 /pub/imp?
+/pubcid.min.js
 /public/analytics.js
 /public/statsd
 /public/visit/record
@@ -125067,7 +125037,6 @@ tarnkappe.info##+js(aopr, Matomo)
 ||counter.darkreader.app^
 ||herokudns.com^$xhr,domain=darkreader.org
 ||hktvmall.com/yuicombo?$script,removeparam=/_ui/shared/common/js/analytics/with-intersection-track.js
-||hktvmall.com/yuicombo?$script,removeparam=/_ui/shared/common/js/InappCommunicationManager.js
 ||hktvmall.com/yuicombo?$script,removeparam=/_ui/shared/common/js/util/jquery.analytics-utils.js
 ||hktvmall.com/yuicombo?$script,removeparam=/^\/_ui\/desktop\/common\/js\/uiAnalytics\//
 ||hktvmall.com/_ui/desktop/common/js/uiAnalytics/
@@ -127665,6 +127634,7 @@ purepeople.com##+js(nano-stb, logEvent, *, 0.001)
 ||googletagmanager.com^$script,redirect-rule=googletagmanager_gtm.js,domain=economictimes.com|eisamay.com|iamgujarat.com|indiatimes.com|samayam.com|vijaykarnataka.com
 ioe.vn##+js(set, fingerprint, {})
 ioe.vn##+js(set, fingerprint.getCookie, noopFunc)
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=ufc.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
