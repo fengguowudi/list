@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mm8yjq0Va0vbeaMOwzOu9g
+! Checksum: IHlIu6mTAERx/6TDgYbvdw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202402290220
-! Last Modified: 2024年02月29日 02:20
+! Version: 202402290909
+! Last Modified: 2024年02月29日 09:09
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -29036,6 +29036,7 @@ browsershots.org#@#.advert_area
 ||explodemedicine.com^
 ||exploitdevoid.com^
 ||exploitingenious.com^
+||exploittonlets.com^
 ||exploreannihilationquicker.com^
 ||explorecomparison.com^
 ||explorefast-1.com^
@@ -30175,6 +30176,7 @@ browsershots.org#@#.advert_area
 ||foutoanaugab.com^
 ||foutyoxyaena.website^
 ||fouwiphy.net^
+||fovdvoz.com^
 ||foviyii.com^
 ||foxmeywkh.xyz^
 ||foxpush.io^
@@ -33325,6 +33327,7 @@ browsershots.org#@#.advert_area
 ||ihtckcitkr.com^
 ||ihttscqovzzb.com^
 ||ihzuephjxb.com^
+||iibhytvj.com^
 ||iicheewi.com^
 ||iidohheneuda.com^
 ||iifvcfwiqi.com^
@@ -34580,6 +34583,7 @@ browsershots.org#@#.advert_area
 ||jigsawthirsty.com^
 ||jiiglogwdkcqwou.xyz^
 ||jijhkclur.com^
+||jikbwoozvci.com^
 ||jikclwxavkanym.com^
 ||jikicotho.pro^
 ||jikvcrikdvng.com^
@@ -42569,6 +42573,7 @@ browsershots.org#@#.advert_area
 ||privacycounter.com^
 ||privacysearching.com^
 ||privacywithholdrepose.com^
+||privateapi.click^
 ||privatediamond.pro^
 ||privatedqualizebrui.info^
 ||privateleaflet.com^
@@ -50353,6 +50358,7 @@ browsershots.org#@#.advert_area
 ||varabs.com^
 ||varasbrijkt.com^
 ||varechphugoid.com^
+||variabilityproducing.com^
 ||variableexternal.com^
 ||variablevisualforty.com^
 ||variationaspenjaunty.com^
@@ -50402,6 +50408,7 @@ browsershots.org#@#.advert_area
 ||vbijjrg.com^
 ||vbmfeuvrtnxafy.com^
 ||vbqbtfkon.com^
+||vbrbgki.com^
 ||vbtrax.com^
 ||vbzsjkrnsqewy.com^
 ||vcbydvfouqqyls.com^
@@ -58448,6 +58455,7 @@ browsershots.org#@#.advert_area
 ||valeuceplangka.com^$popup
 ||valuationbothertoo.com^$popup
 ||vanenow.com^$popup
+||variabilityproducing.com^$popup
 ||variationaspenjaunty.com^$popup
 ||vasstycom.com^$popup
 ||vasteeds.net^$popup
@@ -76601,7 +76609,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adclear.net^$third-party
 ||adcrowd.com^$third-party
 ||admeira.ch^$third-party
-||adnz.co^$third-party
 ||adquality.ch^$third-party
 ||adtraxx.de^$third-party
 ||adtriba.com^$third-party
@@ -77548,6 +77555,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adfox.yandex.ru^
 ||adimo.co/api/tracking/
 ||adlog.com.com^
+||adnz.co/dmp/publisher.js
+||adnz.co/header.js
 ||adobedc.net/collector/
 ||ads-trk.vidible.tv^
 ||adsolutions.com^$third-party
@@ -118501,7 +118510,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||google-analytics.com/gtm/optimize.js$domain=focus.de
 @@||googleoptimize.com/optimize.js?$domain=eventim.de
 @@||gymnasedeburier.ch/themes/segment/js/$~third-party
-@@||img.adnz.co^$image,domain=finanzen.ch
 @@||kameleoon.eu/images/$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||kameleoon.io/geolocation^$domain=welt.de
@@ -120434,7 +120442,6 @@ ygoprodeck.com##[id^="front-ad-"]
 blogspot.com,web.app##img[onclick="kemana()"]
 link.technics-goods.info,mysafe.stisda.ac.id##+js(acs, document.addEventListener, google_ad_client)
 link.technics-goods.info,mysafe.stisda.ac.id##.text-center > h3
-blogspot.com###fixedban
 ngprame.blogspot.com###AdsRyanAH
 ngprame.blogspot.com###tombol
 archpaper.com##+js(acs, fetch, result)
@@ -120628,7 +120635,6 @@ timesnowhindi.com##div:not([class]) > div:empty
 timesnowhindi.com,timesnowmarathi.com,timesofindia.com##+js(no-fetch-if, tvid.in/log)
 timesnowmarathi.com##[class^="section"]:has(> .ad-div)
 isekaisubs.web.id##+js(aost, String.prototype.charCodeAt, ai_)
-isekaisubs.web.id###teaser3
 blasensex.com##+js(aopr, jsUnda)
 blasensex.com##.w300
 @@||cheat.hax4you.net^$ghide
