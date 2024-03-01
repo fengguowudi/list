@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DX6SGYS7LnSeOdD5azjZmQ
+! Checksum: PpebNykhSBD7HrTO+eVv2A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403011421
-! Last Modified: 2024年03月01日 14:21
+! Version: 202403012030
+! Last Modified: 2024年03月01日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63767,12 +63767,6 @@ eenewseurope.com###superBanner
 dashnet.org###support
 vk.com,vk.ru###system_msg
 gumtree.com###tBanner
-nme.com###taboola-below-article
-oneindia.com###taboola-mid-article-thumbnails
-the-independent.com###taboola-mid-article-thumbnails-ii
-the-independent.com###taboola-mid-article-thumbnails-iii
-drivespark.com,goodreturns.in###taboola-mid-category-thumbnails
-lifeandstylemag.com###taboola-right-rail-thumbnails
 comicbookrealm.com###tad
 cyclingtips.com###takeover
 romsgames.net###td-top-leaderboard
@@ -65623,7 +65617,6 @@ makemytrip.com##.hotDeals
 dailyrecord.co.uk##.hotjobs
 comparitech.com##.how_test
 cryptorank.io##.hspOLW
-hindustantimes.com##.ht_taboola
 adweek.com##.htl-ad-wrapper
 barstoolsports.com##.htl-ad__container
 nameberry.com##.htlad-InContent_Flex
@@ -65641,7 +65634,6 @@ ice.hockey##.ice_ner
 ice.hockey##.ice_werbung
 indianexpress.com##.ie-banner-wrapper
 indianexpress.com##.ie-int-campign-ad
-financialexpress.com##.ie-network-taboola
 fifetoday.co.uk##.iehxDO
 guides.gamepressure.com##.if-no-baner
 techmeme.com##.ifsp
@@ -66909,9 +66901,6 @@ emoneyspace.com##.t_a_c
 theanalyst.com##.ta-ad
 ucompares.com##.tablepress-id-46
 posemaniacs.com##.tabletL\:w-\[728px\]
-6abc.com,abcnews.go.com##.taboola
-gizmodo.com,kotaku.com,theonion.com,theroot.com##.taboola-container
-firstpost.com##.taboola-div
 protocol.com##.tag-sponsored
 spectrum.ieee.org##.tag-type-whitepaper
 ghanaweb.com,thefastmode.com##.takeover
@@ -67996,12 +67985,10 @@ qwant.com##div[data-testid="homeTrendsContainer"] a[href^="https://api.qwant.com
 qwant.com##div[data-testid="pam.container"]
 qwant.com##div[data-testid="productAdsMicrosoft.container"]
 sitepoint.com##div[data-unit-code]
-weather.com##div[id*="Taboola-sidebar"]
 chrome-stats.com##div[id*="billboard_responsive"]
 thenewspaper.gr##div[id*="thene-"]
 diskingdom.com##div[id="diski-"]
 geeksforgeeks.org##div[id^="GFG_AD_"]
-weather.com##div[id^="Taboola-main-"]
 kisshentai.net,onworks.net##div[id^="ad"]
 songlyrics.com##div[id^="ad-absolute-160"]
 nationalrail.co.uk##div[id^="ad-advert-"]
@@ -68034,7 +68021,6 @@ howtogeek.com##div[id^="purch_"]
 realtalk933.com##div[id^="realt-"]
 sbstatesman.com##div[id^="sbsta-"]
 smallnetbuilder.com##div[id^="snb-"]
-express.co.uk##div[id^="taboola-"]
 filehorse.com##div[id^="td-"]
 birrapedia.com##div[id^="textoDivPublicidad_"]
 theroanoketribune.org##div[id^="thero-"]
@@ -68202,7 +68188,6 @@ duckduckgo.com##li[data-layout="products_middle"]
 opentable.ae,opentable.ca,opentable.co.th,opentable.co.uk,opentable.com,opentable.com.au,opentable.com.mx,opentable.de,opentable.es,opentable.hk,opentable.ie,opentable.it,opentable.jp,opentable.nl,opentable.sg##li[data-promoted="true"]
 flaticon.com##li[id^="bn-icon-list"]
 linkvertise.com##lv-redirect-static-ad
-linkvertise.com##lv-taboola-ctr-ad-dummy
 aniwatcher.com##main > [href] > [src]
 hentai-foundry.com##main > p
 cointelegraph.com##mm-collectors
@@ -68263,6 +68248,7 @@ haveibeenpwned.com##.actionsBar:has(.why1Password)
 forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)
 time.com##.article-small-sidebar > .sticky-container:has(div[id^="ad-"])
 blitz.gg##.aside-content-column:has(.display-ad)
+independent.co.uk##.bXYFQI.dAHemH
 haveibeenpwned.com##.bodyGradient > :has(.why1Password)
 radioreference.com##.box.gradient:has(a[href*="&Click="])
 slickdeals.net##.bp-p-filterGrid_item:has(.bp-c-label--promoted)
@@ -68386,6 +68372,21 @@ homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(d
 titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 opensubtitles.org##tr[style]:has([src*="php"])
 oneindia.com##ul > li:has(> div[class^="adg_"])
+nme.com###taboola-below-article
+oneindia.com###taboola-mid-article-thumbnails
+the-independent.com###taboola-mid-article-thumbnails-ii
+independent.co.uk,the-independent.com###taboola-mid-article-thumbnails-iii
+drivespark.com,goodreturns.in###taboola-mid-category-thumbnails
+lifeandstylemag.com###taboola-right-rail-thumbnails
+hindustantimes.com##.ht_taboola
+financialexpress.com##.ie-network-taboola
+6abc.com,abcnews.go.com##.taboola
+gizmodo.com,kotaku.com,theonion.com,theroot.com##.taboola-container
+firstpost.com##.taboola-div
+weather.com##div[id*="Taboola-sidebar"]
+weather.com##div[id^="Taboola-main-"]
+express.co.uk##div[id^="taboola-"]
+linkvertise.com##lv-taboola-ctr-ad-dummy
 filmibeat.com,gizbot.com,goodreturns.in,oneindia.com##ul > li:has(> div[id^="taboola-mid-home-stream"])
 ndtv.com,ndtv.in##[class^="firework"]
 ndtv.com,ndtv.in##[id^="firework"]
@@ -68735,20 +68736,20 @@ belloflostsouls.net#?#span.text-secondary:-abp-contains(Advertisement)
 infographicjournal.com#?#.et_pb_widget:-abp-contains(Partners)
 infographicjournal.com#?#.et_pb_module:-abp-contains(Partners)
 infographicjournal.com#?#.et_pb_module:-abp-contains(Partners) + .et_pb_module
-telugupeople.com#?#table:-abp-has(>tbody >tr>td>a:-abp-contains(Advertisements))
+telugupeople.com#?#table:-abp-has(> tbody > tr > td > a:-abp-contains(Advertisements))
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#main[class^="searchResultsContainer"] li h2:-abp-contains(Sponsored)
 bleepingcomputer.com#?#.post_wrap:-abp-contains(AdBot)
 bolnews.com#?#[style*="center"]:-abp-contains(Ad)
 booking.com#?#div[data-testid="property-card"]:-abp-has(span:-abp-contains(Promoted))
 boots.com#?#.oct-listers-hits__item:-abp-contains(Sponsored)
-deccanherald.com#?#div:-abp-has(>div > .ad-background)
-deccanherald.com#?#div[style^="min-height"]:-abp-has(>div > div[id*="-ad-separator"])
+deccanherald.com#?#div:-abp-has(> div > .ad-background)
+deccanherald.com#?#div[style^="min-height"]:-abp-has(> div > div[id*="-ad-separator"])
 china.ahk.de#?#.b-main__section:-abp-has(h2.homepage-headline:-abp-contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
 mapchart.net#?#.row:-abp-contains(Advertisement)
 coinlisting.info#?#.panel:-abp-has(h3:-abp-contains(Sponsored Ad))
 coolors.co#?#a:-abp-has(div:last-child:-abp-contains(Hide))
-corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:-abp-has(>h4.block-title>span:-abp-contains(Visit Our Sponsors))
+corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:-abp-has(> h4.block-title > span:-abp-contains(Visit Our Sponsors))
 cruisecritic.co.uk,cruisecritic.com#?#div[role="group"]:-abp-contains(Sponsored)
 deccanherald.com#?#div#container-text:-abp-contains(ADVERTISEMENT)
 deccanherald.com#?#span.container-text:-abp-contains(ADVERTISEMENT)
@@ -68760,7 +68761,7 @@ filehippo.com#?#article.card-article:-abp-has(span.card-article__author:-abp-con
 freshdirect.com#?#.swiper-slide:-abp-contains(Sponsored)
 gamersnexus.net#?#.moduleContent:-abp-contains(Advertisement)
 hannaford.com#?#.header-2:-abp-contains(Sponsored Suggestions)
-heb.com#?#div[class^="sc-"]:-abp-has(>div[data-qe-id="productCard"]:-abp-contains(Promoted))
+heb.com#?#div[class^="sc-"]:-abp-has(> div[data-qe-id="productCard"]:-abp-contains(Promoted))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership with ))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit;"]:-abp-has(span:-abp-contains(Paid partnership with ))
@@ -81381,7 +81382,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.box.com/app-api/split-proxy/api/metrics
 ||app.box.com/gen204
 ||appanalysis.banggood.com^
-||archive.org/includes/analytics.js
 ||armedangels.com/javascript/script.js
 ||arttrk.com/pixel/
 ||as.coinbase.com/metrics
@@ -118852,12 +118852,14 @@ freeporncave.com##+js(nostif, location.replace, 300)
 empregoestagios.com,everydayonsales.com##+js(nostif, css_class.show)
 vectogravic.com##+js(acs, eval, replace)
 pornorips.com##+js(acs, puShown, /doOpen|popundr/)
-kusonime.com##+js(rpnt, script, /\(\S+?window\.showAds\)/, (true), condition, showAds)
+kusonime.com##+js(rpnt, script, /\(window\.show[^\)]+\)/, (true), condition, classList.add)
 kusonime.com##+js(nostif, css_class.show)
 kusonime.com##+js(set, showada, true)
+kusonime.com##+js(set, showax, true)
 kusonime.com##+js(aopw, app_advert)
 kusonime.com##.iklanads
 @@||kusonime.com^$script,1p
+@@||nyaa-tan.my.id/js/$script,3p,domain=kusonime.com
 cararegistrasi.com##+js(nano-sib, timer)
 cararegistrasi.com##+js(nowoif)
 cararegistrasi.com##a[href="https://bahasteknologi.com/"]
@@ -134666,7 +134668,7 @@ geiriadur.ac.uk##+js(set, get_fingerprint, noopFunc)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Mon, 26 Feb 2024 09:09:41 GMT
-# entries:        3783
+# entries:        3779
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -135241,7 +135243,6 @@ geiriadur.ac.uk##+js(set, get_fingerprint, noopFunc)
 127.0.0.1 ads.quoka.de
 127.0.0.1 ads.radialserver.com
 127.0.0.1 ads.radio1.lv
-127.0.0.1 ads.rcs.it
 127.0.0.1 ads.recoletos.es
 127.0.0.1 ads.rediff.com
 127.0.0.1 ads.redlightcenter.com
@@ -135599,7 +135600,6 @@ geiriadur.ac.uk##+js(set, get_fingerprint, noopFunc)
 127.0.0.1 alikeaddition.com
 127.0.0.1 alipromo.com
 127.0.0.1 all4spy.com
-127.0.0.1 allosponsor.com
 127.0.0.1 alluringbucket.com
 127.0.0.1 aloofmetal.com
 127.0.0.1 aloofvest.com
@@ -136413,7 +136413,6 @@ geiriadur.ac.uk##+js(set, get_fingerprint, noopFunc)
 127.0.0.1 exchange-it.com
 127.0.0.1 exchangead.com
 127.0.0.1 exchangeclicksonline.com
-127.0.0.1 exchangedetail.com
 127.0.0.1 exclusivebrass.com
 127.0.0.1 exelate.com
 127.0.0.1 exelator.com
@@ -136788,7 +136787,6 @@ geiriadur.ac.uk##+js(set, get_fingerprint, noopFunc)
 127.0.0.1 j93557g.com
 127.0.0.1 jadeitite.com
 127.0.0.1 jads.co
-127.0.0.1 jaizouji.com
 127.0.0.1 jauchuwa.net
 127.0.0.1 jcount.com
 127.0.0.1 jdoqocy.com
