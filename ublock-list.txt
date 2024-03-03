@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rMdNwMZlWgSzGKswFiu4uA
+! Checksum: YRXOVK2+Dz+sAVEDDLyBIQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403030914
-! Last Modified: 2024年03月03日 09:14
+! Version: 202403031420
+! Last Modified: 2024年03月03日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -81644,6 +81644,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dcf.espn.com/privacy/
 ||dd.auspost.com.au^
 ||dd.nytimes.com^
+||ddome-tag.blablacar.com^
 ||dealnews.com/lw/ul.php
 ||deepl.com/web/statistics
 ||deepnote.com/api/track
@@ -121171,7 +121172,7 @@ ustream.click##^script:has-text(\'shift\')
 1cloudfile.com##+js(nowoif)
 1cloudfile.com##+js(no-fetch-if, /googlesyndication|nerveheels/)
 1cloudfile.com#@#.advert-wrapper
-1cloudfile.com##.advert-wrapper:style(height: 0px !important; visibility: hidden !important)
+1cloudfile.com##.advert-wrapper:style(visibility: hidden !important)
 1cloudfile.com##.uk-text-center
 1cloudfile.com##.preview-download-wrapper
 1cloudfile.com##.content-preview-wrapper
@@ -121707,7 +121708,7 @@ dirp.me##[data-href^="/vpn"]
 dirp.me##[id]:has-text(Provider)
 boainformacao.com.br##+js(no-xhr-if, adsbygoogle)
 pinterest.*##a[href*="&epik="]:upward([data-grid-item])
-!pinterest.*##[data-grid-item]:has([aria-label]:not([aria-label*="pinterest"])[href]:not([href^="/pin"]))
+pinterest.*##[data-grid-item]:has([aria-label]:not([aria-label*="pinterest"])[href^="http"])
 distrowatch.org##[href*="3cx"]:upward(tbody)
 distrowatch.org##[href^="https://pbxinaflash.com/"]
 ubuntudde.com##+js(aopw, b2a)
@@ -127718,7 +127719,7 @@ geiriadur.ac.uk##+js(set, get_fingerprint, noopFunc)
 biologianet.com##+js(set-constant, UOLPD, {})
 biologianet.com##+js(set-constant, UOLPD.dataLayer, {})
 biologianet.com##+js(set-constant, __configuredDFPTags, {})
-||my.goabode.com/assets/js/fp2.min.js$script,domain=my.goabode.com,redirect-rule=fingerprint2.js
+||my.goabode.com/assets/js/fp2.min.js$script,domain=my.goabode.com,redirect=fingerprint2.js,important
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
