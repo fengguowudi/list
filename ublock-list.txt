@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k5dkALCNd2Ya2nZ9HGrbEQ
+! Checksum: s3PvOQ/19ynSketcVV9qgA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403032027
-! Last Modified: 2024年03月03日 20:27
+! Version: 202403040219
+! Last Modified: 2024年03月04日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -121713,7 +121713,12 @@ dirp.me##[data-href^="/vpn"]
 dirp.me##[id]:has-text(Provider)
 boainformacao.com.br##+js(no-xhr-if, adsbygoogle)
 pinterest.*##a[href*="&epik="]:upward([data-grid-item])
-pinterest.*##[data-grid-item]:has([aria-label]:not([aria-label*="pinterest"])[href^="http"])
+!pinterest.*##[data-grid-item]:has([aria-label]:not([aria-label*="pinterest"])[href^="http"])
+!#if !env_mobile
+pinterest.*##[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"])
+!#else
+pinterest.*##[data-grid-item]:has([data-test-pin-id] a[href^="http"][rel] [data-test-id="pincard-oneTap-with-link"])
+!#endif
 distrowatch.org##[href*="3cx"]:upward(tbody)
 distrowatch.org##[href^="https://pbxinaflash.com/"]
 ubuntudde.com##+js(aopw, b2a)
@@ -122555,6 +122560,10 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||altairaquilae.com^$doc
 ||himasearch.shop^$doc
 ||riftharp.com^$all
+||reddriko.site^$all
+||mikkerst.com^$all
+||sugarfllngs.com^$all
+||trripwire.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/(?:article\d{4}\.doc)?\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case
@@ -125476,7 +125485,7 @@ knowyourmeme.com##+js(nosiif, blogherads)
 ||dek5iqd53g59a.cloudfront.net^
 ||cdn-prod.securiti.ai/consent/auto_blocking/$domain=xfinity.com
 deviantart.com##+js(aost, Math.sqrt, update)
-duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##*:style(animation: none !important;)
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##.icon_animation samp:style(animation: none !important;)
 tapewithadblock.org##+js(rmnt, script, /RegExp\(\'/, condition, RegExp)
 ||survey.alchemer.eu/s3/$frame,3p,domain=airforce-technology.com
 meeting.tencent.com##+js(no-xhr-if, /(trace|beacon)\.qq\.com/)
