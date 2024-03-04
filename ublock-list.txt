@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: s3PvOQ/19ynSketcVV9qgA
+! Checksum: QQw1Pb+CiV/lqLKqxNPz/Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403040219
-! Last Modified: 2024年03月04日 02:19
+! Version: 202403040911
+! Last Modified: 2024年03月04日 09:11
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17845,6 +17845,7 @@ _800x80_
 ##.OUTBRAIN[data-widget-id^="FMS_REELD_"]
 ##.adv_outbrain
 ##.js-outbrain-container
+##.mid-outbrain
 ##.ob-p.ob-dynamic-rec-container
 ##.ob-widget-header
 ##.outBrainWrapper
