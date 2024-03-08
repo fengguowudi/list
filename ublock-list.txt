@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JIDTvZ9HITme83V+QsW5SA
+! Checksum: ivCS+v8wzHzOzRe13Zvf+Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403080910
-! Last Modified: 2024年03月08日 09:10
+! Version: 202403081420
+! Last Modified: 2024年03月08日 14:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -70349,6 +70349,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||oisd.nl^$generichide
 @@||onedrive.live.com^$generichide
 @@||open.spotify.com^$generichide
+@@||openai.com^$generichide
 @@||pandora.com^$generichide
 @@||paramountplus.com^$generichide
 @@||peacocktv.com^$generichide
@@ -125305,7 +125306,6 @@ factable.com##+js(cookie-remover, akaclientip)
 factable.com##+js(cookie-remover, hive_geoloc)
 watchporn.to##+js(cookie-remover, kt_ips)
 bing.com,msn.com##+js(cookie-remover, MicrosoftApplicationsTelemetryDeviceId)
-fandom.com##+js(set-cookie, tracking_session_id, OK, , reload, 1)
 fandom.com##+js(set-cookie, Geo, OK)
 clickorlando.com##+js(set-cookie, bitmovin_analytics_uuid, OK)
 $removeparam=gbraid
