@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1AVXH87/PSKhg3oT3p1skg
+! Checksum: K0Urq3htNKQdVZjBEitv1Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403082029
-! Last Modified: 2024年03月08日 20:29
+! Version: 202403090220
+! Last Modified: 2024年03月09日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54882,6 +54882,12 @@ browsershots.org#@#.advert_area
 ||googleadservices-cn.com^
 ||googleadsserving.cn^
 ||googlevads-cn.com^
+||07c225f3.online^$document,popup
+||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^$document,popup
+||content-loader.com^$document,popup
+||css-load.com^$document,popup
+||f97ae142.online^$document,popup
+||html-load.com^$document,popup
 ||ad.lgappstv.com^
 ||ad.nettvservices.com^
 ||ads.samsung.com^
@@ -117927,6 +117933,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||jdsports.co.kr/collect.php
 ||kyson.kakao.com^
 ||l.m.naver.com^
+||ljc.coupang.com^
 ||log.etoday.co.kr^
 ||log.kinolights.com^
 ||log.zdnet.co.kr^
@@ -124990,6 +124997,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||informations-clients.info^$all
 ||okun.shop^$doc
 ||espacefidelitefree.fr^$all
+||shopflarehub.com^$all
 ||hostpdf.co^$all
 ||billlionair.app^$all,to=~billionair.com
 ||cdn-npmjs.com^$all
@@ -124998,6 +125006,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 /cachingjs/settings.js
 /cachingjs/turboturbo.js
 /config?key=6922a2c8-d1e9-43be-b201-749543d28fe1
+||dynamic-linx.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -127780,6 +127789,8 @@ biologianet.com##+js(set-constant, __configuredDFPTags, {})
 @@||data.giraff.io/track/vslv.js$script,domain=vs.lv
 @@||a.giraff.io/data/*json$script,domain=vs.lv
 filelu.com#@#.banner_ads:not(.textads)
+||cloudfront.net/$domain=allegro.pl,badfilter
+@@||jssdkcdns.mparticle.com/js/*/mparticle.js$script,domain=shudder.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -134810,7 +134821,7 @@ filelu.com#@#.banner_ads:not(.textads)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Mon, 26 Feb 2024 09:09:41 GMT
-# entries:        3779
+# entries:        3772
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -134874,7 +134885,6 @@ filelu.com#@#.banner_ads:not(.textads)
 127.0.0.1 abacho.net
 127.0.0.1 abackafterthought.com
 127.0.0.1 abackchain.com
-127.0.0.1 abackframe.com
 127.0.0.1 abandonedaction.com
 127.0.0.1 abc-ads.com
 127.0.0.1 ablink.comms.trainline.com
@@ -135881,7 +135891,6 @@ filelu.com#@#.banner_ads:not(.textads)
 127.0.0.1 banik.redigy.cz
 127.0.0.1 banner.ambercoastcasino.com
 127.0.0.1 banner.buempliz-online.ch
-127.0.0.1 banner.casino.net
 127.0.0.1 banner.cotedazurpalace.com
 127.0.0.1 banner.coza.com
 127.0.0.1 banner.cz
@@ -136376,7 +136385,6 @@ filelu.com#@#.banner_ads:not(.textads)
 127.0.0.1 dc-storm.com
 127.0.0.1 de17a.com
 127.0.0.1 deadpangate.com
-127.0.0.1 deadpanmarble.com
 127.0.0.1 dealdotcom.com
 127.0.0.1 debonairway.com
 127.0.0.1 debtbusterloans.com
@@ -136639,7 +136647,6 @@ filelu.com#@#.banner_ads:not(.textads)
 127.0.0.1 fqtag.com
 127.0.0.1 frailflock.com
 127.0.0.1 frailoffer.com
-127.0.0.1 free-banners.com
 127.0.0.1 free-counter.co.uk
 127.0.0.1 freebanner.com
 127.0.0.1 freecounterstat.com
@@ -137466,7 +137473,6 @@ filelu.com#@#.banner_ads:not(.textads)
 127.0.0.1 pcash.imlive.com
 127.0.0.1 peep-auktion.de
 127.0.0.1 peer39.com
-127.0.0.1 pennyweb.com
 127.0.0.1 pepperjamnetwork.com
 127.0.0.1 perceivequarter.com
 127.0.0.1 percentmobile.com
@@ -137824,7 +137830,6 @@ filelu.com#@#.banner_ads:not(.textads)
 127.0.0.1 seadform.net
 127.0.0.1 searchmarketing.com
 127.0.0.1 searchramp.com
-127.0.0.1 seashoreturn.com
 127.0.0.1 secre.jp
 127.0.0.1 secretivecub.com
 127.0.0.1 secretspiders.com
@@ -137979,7 +137984,6 @@ filelu.com#@#.banner_ads:not(.textads)
 127.0.0.1 springserve.com
 127.0.0.1 spulse.net
 127.0.0.1 spurioussteam.com
-127.0.0.1 spykemediatrack.com
 127.0.0.1 spylog.com
 127.0.0.1 spywarelabs.com
 127.0.0.1 spywords.com
