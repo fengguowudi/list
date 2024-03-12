@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gekVkd5udpyrnmkJQ1JB7A
+! Checksum: upFLZw+FtNAdn6mkmzSebQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403121421
-! Last Modified: 2024年03月12日 14:21
+! Version: 202403122030
+! Last Modified: 2024年03月12日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -73936,6 +73936,7 @@ omni.soundestlink.com$image
 ||adspsp.com^
 ||adstk.io^
 ||adultium.com^
+||aggle.net^
 ||agkn.com^
 ||agma-analytics.de^
 ||allvideometrika.com^
@@ -73981,6 +73982,7 @@ omni.soundestlink.com$image
 ||cliquelead.com^
 ||cloudwp.io^
 ||clrt.ai^
+||cnna.io^
 ||cntxtfl.com^
 ||confiant-integrations.net^
 ||convead.io^
@@ -74064,6 +74066,7 @@ omni.soundestlink.com$image
 ||g990421675.co^
 ||g990421676.co^
 ||gbqofs.com^
+||gcprivacy.com^
 ||geoedge.be^
 ||geotargetly-api-*.com^
 ||getdeviceinf.com^
@@ -78035,6 +78038,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/iglu.acme.com.dev.clixtream/tracker.js
 ||amazonaws.com/j.kissinsights.com/
 ||amazonaws.com/js/reach.js
+||amazonaws.com/jsstore/*/ge.js
 ||amazonaws.com/ki.js/
 ||amazonaws.com/lp/js/tag.js?
 ||amazonaws.com/new.cetrk.com/
@@ -79954,6 +79958,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.signalayer.com^
 ||t.skimresources.com^
 ||t.smile.eu^
+||t.spbx.app^
 ||t.splicky.com^
 ||t.spot.im^
 ||t2.t2b.click^
@@ -82669,6 +82674,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||shavetape.cash/stat/
 ||shazam.com/services/metrics/
 ||shobiddak.com/logging/
+||shopifysvc.com/v1/metrics
 ||shopmetric.rediff.com^
 ||siberiantimes.com/counter/
 ||sid.nordstrom.com^
@@ -128089,6 +128095,8 @@ filelu.com#@#.banner_ads:not(.textads)
 @@||wurfl.io/wurfl.js$domain=ramahdarom.org
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect-rule=google-ima.js,domain=20min.ch
 20min.ch##+js(nano-stb, readyPromise, 5000, 0.001)
+realmadryt.pl#@#fieldset
+realmadryt.pl##.rmpl-adsense-desktop
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
