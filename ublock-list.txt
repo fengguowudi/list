@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: d7EJekDLqereecGTHJcyDQ
+! Checksum: /m+n1bBJRHR6m5MxC5ElmA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403132030
-! Last Modified: 2024年03月13日 20:30
+! Version: 202403140219
+! Last Modified: 2024年03月14日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -34359,6 +34359,7 @@ browsershots.org#@#.advert_area
 ||itweedler.com^
 ||itweepinbelltor.com^
 ||itwkuouldhuke.info^
+||itwoheflewround.info^
 ||ityonatallco.info^
 ||itzekromom.com^
 ||iuc1.online^
@@ -38514,6 +38515,7 @@ browsershots.org#@#.advert_area
 ||mphhqaw.com^
 ||mpk01.com^
 ||mplayeranyd.info^
+||mploymehnthejuias.info^
 ||mpmant.com^
 ||mpnrs.com^
 ||mppqellliovkuqi.com^
@@ -44090,6 +44092,7 @@ browsershots.org#@#.advert_area
 ||randomamongst.com^
 ||randomassertiveacacia.com^
 ||randomignitiondentist.com^
+||raneeptaid.net^
 ||rangbellowreflex.com^
 ||rangercessation.com^
 ||rangformer.com^
@@ -45678,6 +45681,7 @@ browsershots.org#@#.advert_area
 ||sandelf.com^
 ||sandflyligules.com^
 ||sandhiswiggish.top^
+||sandmakingsilver.info^
 ||sandtheircle.com^
 ||sandyconference.com^
 ||sanfordcessor.space^
@@ -50220,6 +50224,7 @@ browsershots.org#@#.advert_area
 ||uncoverherbal.com^
 ||uncree.com^
 ||uncrobator.com^
+||uncroptbhutia.com^
 ||uncrownarmenic.com^
 ||uncslucanid.space^
 ||unctic.com^
@@ -53262,6 +53267,7 @@ browsershots.org#@#.advert_area
 ||yjuxkncvy.com^
 ||yjvuthpuwrdmdt.xyz^
 ||ykdwyf.com^
+||ykgkxcount.com^
 ||ykmvnhue.com^
 ||ykqalsm.com^
 ||ykraeij.com^
@@ -58378,6 +58384,7 @@ browsershots.org#@#.advert_area
 ||saktismberakes.space^$popup
 ||saltpairwoo.live^$popup
 ||samage-bility.icu^$popup
+||sandmakingsilver.info^$popup
 ||sarcodrix.com^$popup
 ||sardineforgiven.com^$popup
 ||sasontnwc.net^$popup
@@ -60826,6 +60833,7 @@ browsershots.org#@#.advert_area
 ||d1tttug1538qv1.cloudfront.net^
 ||d1twn22x8kvw17.cloudfront.net^
 ||d1u1byonn4po0b.cloudfront.net^
+||d1u5ibtsigyagv.cloudfront.net^
 ||d1uae3ok0byyqw.cloudfront.net^
 ||d1ue5xz1lnqk0d.cloudfront.net^
 ||d1ugiptma3cglb.cloudfront.net^
@@ -61598,6 +61606,7 @@ browsershots.org#@#.advert_area
 ||teenfinder.com/landing/$popup,third-party
 ||theonlineuserprotection.com/download-guard/$popup
 ||theonlineuserprotector.com/download-guard/$popup
+||theyellownewtab.com^$popup
 ||track.afrsportsbetting.com^$popup
 ||track.kinetiksoft.com^$popup
 ||track.livesportnet.com^$popup
@@ -118242,6 +118251,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare_
 ||tower.jp/bundle/beacon
 ||track.buyma.com^
+||track.prod.smash.pet^
 ||tracking.ai.rakuten.co.jp^
 ||tracking.game8.jp^
 ||tracking.gnavi.co.jp^
@@ -122949,6 +122959,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 /video-app-default/adult/*/index.html?*p1=$doc
 ||meetdats.com^$all
 ||meet-flirts.com^$all
+||mltrck.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/(?:article\d{4}\.doc)?\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case
@@ -125352,6 +125363,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||fidelitefree.fr^$all
 ||espacefidelitefree.fr^$all
 ||shopflarehub.com^$all
+||zimbra-freefr8.godaddysites.com^$all
 ||hostpdf.co^$all
 ||billlionair.app^$all,to=~billionair.com
 ||cdn-npmjs.com^$all
@@ -125362,7 +125374,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 /config?key=6922a2c8-d1e9-43be-b201-749543d28fe1
 ||dynamic-linx.com^$all
 ||dns.google/resolve?name=*.host-stats.io&type=txt|$xhr,3p
-||zimbra-freefr8.godaddysites.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -125468,10 +125479,10 @@ panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaborator
 !#endif
 ||washpost.nile.works^
 /p13n/batch/action/*$image
-loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWRz$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWRz$/, $remove$)
 apkmirror.com,meconomynews.com,brandbrief.co.kr,mlbpark.donga.com,motorgraph.com,topstarnews.net,heraldcorp.com##+js(noeval-if, /07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/)
 !#if cap_html_filtering
 apkmirror.com,meconomynews.com,brandbrief.co.kr,mlbpark.donga.com,motorgraph.com,heraldcorp.com##^script:has-text(KCgpPT57bGV0IGU)
@@ -125846,7 +125857,6 @@ coursera.org##+js(no-fetch-if, eventing)
 ||view.mngusr.com^$domain=chapmanganato.to|manganato.com
 ||analytics.strapi.io^
 ||royalroad.com/dist/sentry.js$script
-||b0.w.kicker.de^
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
