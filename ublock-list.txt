@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OrZ4HbxZB31lymuZqiMjMg
+! Checksum: Cl3tc3Hu8h2aIhO5RiqaFw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403142030
-! Last Modified: 2024年03月14日 20:30
+! Version: 202403150220
+! Last Modified: 2024年03月15日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17566,6 +17566,7 @@ _800x80_
 ##a[href^="https://trk.sportsflix4k.club/"]
 ##a[href^="https://turnstileunavailablesite.com/"]
 ##a[href^="https://twinrdsrv.com/"]
+##a[href^="https://witnessjacket.com/"]
 ##a[href^="https://www.adskeeper.com"]
 ##a[href^="https://www.adultempire.com/"][href*="?partner_id="]
 ##a[href^="https://www.adxsrve.com/"]
@@ -28311,6 +28312,7 @@ browsershots.org#@#.advert_area
 ||egrvkoqigygqk.com^
 ||egxxlvyguirt.com^
 ||egyifdjrbrwyj.com^
+||egykofo.com^
 ||egynvnnlhywq.com^
 ||egyptchwas.com^
 ||egyptianintegration.com^
@@ -30422,6 +30424,7 @@ browsershots.org#@#.advert_area
 ||fqybolmt.com^
 ||fqygyfvmz.com^
 ||fqyxbvuefdlt.com^
+||fqzibqtjwfzp.com^
 ||fragmenteasygoingmass.com^
 ||fragmentexpertisegoods.com^
 ||fragrancepneumoniatinker.com^
@@ -33436,6 +33439,7 @@ browsershots.org#@#.advert_area
 ||ibjdmthqkz.com^
 ||ibonmfvcwb.xyz^
 ||ibortvgbkvpmes.com^
+||ibptutlgoloqy.com^
 ||ibpxnkwstvqcon.com^
 ||ibqjduiipukerj.com^
 ||ibrapush.com^
@@ -35338,6 +35342,7 @@ browsershots.org#@#.advert_area
 ||jweqtiikcx.com^
 ||jwfobgoeobehy.com^
 ||jwjxjuvrnkv.com^
+||jwlfduco.com^
 ||jwnmnnnzrebqa.top^
 ||jwnmnnnzreeyw.top^
 ||jwqtuyjqxvsxy.com^
@@ -41862,6 +41867,7 @@ browsershots.org#@#.advert_area
 ||peppinaegina.com^
 ||peppy2lon1g1stalk.com^
 ||pepserump.life^
+||pepyyzqqgciv.com^
 ||peracy.com^
 ||perceivedagrarian.com^
 ||perceivedundesirable.com^
@@ -42185,6 +42191,7 @@ browsershots.org#@#.advert_area
 ||pickupnationalityinexhaustible.com^
 ||pickuppestsyndrome.com^
 ||pickupracist.com^
+||pickvideolink.com^
 ||picnicnorthernincompetent.com^
 ||picolinfloe.com^
 ||pics-city.space^
@@ -48029,6 +48036,7 @@ browsershots.org#@#.advert_area
 ||stylewhiskerscreepy.com^
 ||stylliyote.com^
 ||styrianauf.com^
+||stzhnfcxx.com^
 ||sualgvoi.com^
 ||sub.empressleak.biz^
 ||sub.xxx-porn-tube.com^
@@ -51690,6 +51698,7 @@ browsershots.org#@#.advert_area
 ||vqglaz.com^
 ||vqjfiuwbqpvwrn.xyz^
 ||vqjvnjxbgnz.com^
+||vqrqnylppo.com^
 ||vqtyargb.com^
 ||vqzbzuhhxhcf.com^
 ||vrasxjrsl.com^
@@ -52565,6 +52574,7 @@ browsershots.org#@#.advert_area
 ||withoutcontrol.com^
 ||witlayvet.com^
 ||witnessedworkerplaid.com^
+||witnessjacket.com^
 ||witnessremovalsoccer.com^
 ||witnesssimilarindoors.com^
 ||wittilyfrogleg.com^
@@ -53686,6 +53696,7 @@ browsershots.org#@#.advert_area
 ||ysemblyjusting.info^
 ||ysesials.net^
 ||ysnxszyrxdzp.com^
+||yspecjbjmcub.com^
 ||ytbzqtrog.com^
 ||yterxv.com^
 ||ytfotjfrttgyal.com^
@@ -59551,6 +59562,7 @@ browsershots.org#@#.advert_area
 ||withdrawcosmicabundant.com^$popup
 ||withholdstandstill.com^$popup
 ||withmefeyauknaly.com^$popup
+||witnessjacket.com^$popup
 ||wlafx4trk.com^$popup
 ||wnt-s0me-push.net^$popup
 ||woafoame.net^$popup
@@ -62590,6 +62602,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||mobilesyrup.com/RgPSN0siEWzj.js
 ||monkeygamesworld.com/images/banners/
 ||montent.powzers.lol^
+||moonjscdn.info/player8/JWui.js
 ||mp3fiber.com/*ml.jpg
 ||mpgh.net/idsx2/
 ||mrskin.com^$script,third-party,domain=~mrskincdn.com
@@ -72725,7 +72738,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /mwTag.js
 /mystats2.px?
 /myTracking.js
-/naLogImpressions?
+/naLogImpressions^
 /natero_analytics.min.js
 /nativendo.js
 /navbar-analytics.js
@@ -125665,6 +125678,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||espacefidelitefree.fr^$all
 ||shopflarehub.com^$all
 ||zimbra-freefr8.godaddysites.com^$all
+||mobile.i-free.fr^$all
+||gatekeeperapp.net^$all
 ||hostpdf.co^$all
 ||billlionair.app^$all,to=~billionair.com
 ||cdn-npmjs.com^$all
