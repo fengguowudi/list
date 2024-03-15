@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: W33fAaz/6qvoGhtvJHObfA
+! Checksum: yWch3vq3j9H+aDAJSVWlhA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403151421
-! Last Modified: 2024年03月15日 14:21
+! Version: 202403152029
+! Last Modified: 2024年03月15日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18089,6 +18089,7 @@ grist.org,ing.dk,version2.dk#@#.advertorial
 stjornartidindi.is#@#.adverttext
 staircase.pl#@#.adwords
 consumerist.com#@#.after-post-ad
+clickorlando.com#@#.anyClipWrapper
 dailymail.co.uk,thisismoney.co.uk#@#.article-advert
 deluxemusic.tv#@#.article_ad
 adeam.com#@#.atf-wrapper
@@ -54705,7 +54706,6 @@ browsershots.org#@#.advert_area
 ||bannersmania.com^$third-party
 ||bannersnack.com^$third-party,domain=~bannersnack.dev
 ||bannersnack.net^$third-party,domain=~bannersnack.dev
-||bannertrack.net^$~script,third-party
 ||bannerweb.com^$third-party
 ||bannieres-a-gogo.com^$third-party
 ||baronsoffers.com^$third-party
@@ -62875,7 +62875,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||purexbox.com/javascript/gn/prebid-
 ||wsj.net/pb/pb.js
 ||fireworkapi1.com^$domain=boldsky.com
-||anyclip.com^$third-party,domain=~dictionary.com|~heute.at|~video.timeout.com
+||anyclip.com^$third-party,domain=~clickorlando.com|~dictionary.com|~heute.at|~video.timeout.com
 ||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
@@ -69981,6 +69981,7 @@ sss.xxx##.fel-item
 tuberel.com##.fel-list
 javfor.tv##.fel-playclose
 hotmovs.com,thegay.com##.fiioed
+homemoviestube.com##.film-item:not(#showpop)
 sexyandfunny.com##.firstblock
 ah-me.com,gaygo.tv##.flirt-block
 asiangaysex.net,gaysex.tv##.float-ck
@@ -74771,7 +74772,6 @@ omni.soundestlink.com$image
 ||adtarget.me^$third-party
 ||adtector.com^$third-party
 ||adtelligence.de^$third-party
-||adtrackers.net^$~script,third-party
 ||adultblogtoplist.com^$third-party
 ||adunity.com^$third-party
 ||advalo.com^$third-party
@@ -82108,6 +82108,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.brave.com^
 ||analytics.chase.com^
 ||analytics.cookiefirst.dev^
+||analytics.crazygames.com^
 ||analytics.designspiration.com^
 ||analytics.eip.telegraph.co.uk^
 ||analytics.faceitanalytics.com^
@@ -122490,10 +122491,10 @@ otakukan.com##.ai-attributes
 latinohentai.com##+js(ra, href, #clickfakeplayer)
 latinohentai.com##+js(acs, document.createElement, __htas)
 mangastream.mobi###myModal
-||adclixx.net^$script,3p,redirect-rule=nobab2.js:10
-||adnetasia.com^$script,3p,redirect-rule=nobab2.js:10
-||adtrackers.net^$script,3p,redirect-rule=nobab2.js:10
-||bannertrack.net^$script,3p,redirect-rule=nobab2.js:10
+||adclixx.net^$script,3p,redirect=nobab2.js:10
+||adnetasia.com^$script,3p,redirect=nobab2.js:10
+||adtrackers.net^$script,3p,redirect=nobab2.js:10
+||bannertrack.net^$script,3p,redirect=nobab2.js:10
 ||ads.twitter.com/favicon.ico$image,3p,redirect-rule=32x32.png
 ||advertising.yahoo.com/favicon.ico$image,3p,redirect-rule=32x32.png
 ||doubleclickbygoogle.com/favicon.ico$image,3p,redirect-rule=32x32.png
@@ -127950,7 +127951,8 @@ riteaid.com##^html > body:not(.catalogsearch-result-index):upward(1) > head > sc
 @@||js.monitor.azure.com/scripts/$script,domain=efilecabinet.net
 @@/signup.php?mode=async&action=show_security_code$image,1p
 @@/akam/13/*$script,xhr,1p,domain=easyjet.com|ing.nl
-@@||collector-*.px-client.net/b/g$xhr,domain=www.crunchbase.com
+@@/init.js|$script,xhr,1p,domain=www.crunchbase.com
+@@||collector-*.px-cloud.net/b/$xhr,domain=www.crunchbase.com
 @@||googletagmanager.com/gtm.js$script,domain=www.radiox.co.uk
 radiox.co.uk##^body:not(:has(#remixd-audio-player)) > script:has-text(googletagmanager)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=yaktrinews.com,redirect-rule=google-ima.js
@@ -128482,6 +128484,10 @@ realmadryt.pl#@#fieldset
 realmadryt.pl##.rmpl-adsense-desktop
 @@||qds.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js$script,first-party
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=qds.it,important
+||ccstatic.toggo.de/cc-static-files/bumper-video/$rewrite=abp-resource:blank-mp4,domain=toggo.de,badfilter
+||flashtalking.com^*.mp4$rewrite=abp-resource:blank-mp4,domain=toggo.de,badfilter
+||ccstatic.toggo.de/cc-static-files/bumper-video/$media,redirect-rule=noop-0.1s.mp3,domain=toggo.de
+||flashtalking.com^*.mp4$media,redirect-rule=noop-0.1s.mp3,domain=toggo.de
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -135512,7 +135518,7 @@ realmadryt.pl##.rmpl-adsense-desktop
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Mon, 26 Feb 2024 09:09:41 GMT
-# entries:        3772
+# entries:        3771
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -135526,7 +135532,6 @@ realmadryt.pl##.rmpl-adsense-desktop
 127.0.0.1 101order.com
 127.0.0.1 180hits.de
 127.0.0.1 180searchassistant.com
-127.0.0.1 1link2020.com
 127.0.0.1 1rx.io
 127.0.0.1 207.net
 127.0.0.1 247media.com
