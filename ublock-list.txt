@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Lgzdjct1Ds3beX6H3/L+7Q
+! Checksum: sgM/DUc+yJedGV4uXxgBdA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403162030
-! Last Modified: 2024年03月16日 20:30
+! Version: 202403170221
+! Last Modified: 2024年03月17日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17980,7 +17980,7 @@ azclick.jp,tubefilter.com#@##topAd
 soundandvision.com,stereophile.com#@##topbannerad
 gamingcools.com#@#.Adsense
 m.motonet.fi#@#.ProductAd
-clickondetroit.com#@#.ac-widget-placeholder
+click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,news4jax.com,wsls.com#@#.ac-widget-placeholder
 flightview.com#@#.ad-160-600
 job.inshokuten.com#@#.ad-area
 kincho.co.jp,niji-gazo.com#@#.ad-block
@@ -18090,7 +18090,7 @@ grist.org,ing.dk,version2.dk#@#.advertorial
 stjornartidindi.is#@#.adverttext
 staircase.pl#@#.adwords
 consumerist.com#@#.after-post-ad
-clickorlando.com#@#.anyClipWrapper
+click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,news4jax.com,wsls.com#@#.anyClipWrapper
 dailymail.co.uk,thisismoney.co.uk#@#.article-advert
 deluxemusic.tv#@#.article_ad
 adeam.com#@#.atf-wrapper
@@ -31509,6 +31509,7 @@ browsershots.org#@#.advert_area
 ||glyphsmahajan.com^
 ||gmaakjrmpc.com^
 ||gmads.net^
+||gmawlljasi.com^
 ||gmbopxcfbwg.com^
 ||gmcdxivnqegrnl.com^
 ||gmcoanceqoymws.com^
@@ -40534,6 +40535,7 @@ browsershots.org#@#.advert_area
 ||ollsukztoo.com^
 ||olmsoneenh.info^
 ||olnjitvizo.com
+||olnkpexujhuw.com^
 ||olnoklmuxo.com^
 ||ololenopoteretol.info^
 ||olomonautcatho.info^
@@ -41535,6 +41537,7 @@ browsershots.org#@#.advert_area
 ||parcbegulf.com^
 ||pardonsentencegeneral.com^
 ||parecyrclame.com^
+||parentingcalculated.com^
 ||parentlargevia.com^
 ||parentpensionvolunteer.com^
 ||paripartners.ru^
@@ -47928,6 +47931,7 @@ browsershots.org#@#.advert_area
 ||stotinggunne.uno^
 ||stotoowu.net^
 ||stouksom.xyz^
+||stouphou.net^
 ||stoursas.xyz^
 ||stoushgowds.com^
 ||stovearmpitagreeable.com^
@@ -52690,6 +52694,7 @@ browsershots.org#@#.advert_area
 ||wobblyiroha.com^
 ||wocfhqqt.com^
 ||wodycaha.com^
+||woefifty.com^
 ||woejh.com^
 ||woespoke.com^
 ||wofqzuwtkxw.com^
@@ -58216,6 +58221,7 @@ browsershots.org#@#.advert_area
 ||parachuteeffectedotter.com^$popup
 ||paradiseannouncingnow.com^$popup
 ||parallelgds.store^$popup
+||parentingcalculated.com^$popup
 ||parentlargevia.com^$popup
 ||paripartners.ru^$popup
 ||parisjeroleinpg.com^$popup
@@ -62890,7 +62896,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||purexbox.com/javascript/gn/prebid-
 ||wsj.net/pb/pb.js
 ||fireworkapi1.com^$domain=boldsky.com
-||anyclip.com^$third-party,domain=~clickorlando.com|~dictionary.com|~heute.at|~video.timeout.com
+||anyclip.com^$third-party,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~video.timeout.com|~wsls.com
 ||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
@@ -125823,6 +125829,7 @@ panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaborator
 !#endif
 ||washpost.nile.works^
 /p13n/batch/action/*$image
+/^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,3p,match-case
 loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
 loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
 loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
