@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dMC8sVdPt+aGAJ+/q9BiUQ
+! Checksum: VhzNs2+/5jpDG5jZEynD1A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403181421
-! Last Modified: 2024年03月18日 14:21
+! Version: 202403182029
+! Last Modified: 2024年03月18日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62337,6 +62337,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||audiotag.info/images/banner_
 ||aurn.com/wp-content/banners/
 ||aveherald.com/images/banners/
+||azlyrics.com/local/anew.js
 ||b.cdnst.net/javascript/amazon.js$script,domain=speedtest.net
 ||b.w3techs.com^
 ||backgrounds.wetransfer.net$image
@@ -65463,10 +65464,10 @@ dailyvoice.com##.b-banner
 ownedcore.com##.b-below-so-content
 informer.com##.b-content-btm > table[style="margin-left: -5px"]
 hypestat.com##.b-error
-expressnews.com,houstonchronicl.ecom,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com##.b-gray300.bt
-chron.com,expressnews.com,mysanantonio.com,sfgate.com##.b-gray300.bt.bb
-expressnews.com,mysanantonio.com,seattlepi.com,sfgate.com##.b-gray300.md\:bt
-chron.com,expressnews.com,mysanantonio.com,sfgate.com##.b-gray300.md\:bt.md\:bb
+beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.bt
+beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.bt.bb
+beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.md\:bt
+beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.md\:bt.md\:bb
 china.ahk.de##.b-header__banner
 dnserrorassist.att.net,searchguide.level3.com##.b-links
 ownedcore.com##.b-postbit-w
@@ -70320,6 +70321,7 @@ pornsex.rocks##.subsequent
 tporn.xxx##.sug-bnrs
 hclips.com##.suggestions
 pornmd.com##.suggestions-box
+txxx.com##.sugggestion
 simply-hentai.com##.superbanner
 holymanga.net##.svl_ads_right
 tnapics.com##.sy_top_wide
@@ -113597,7 +113599,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||9b55.pandasuite.io^
 ||9bdb.pandasuite.io^
 ||9kvnwwkj.pandasuite.io^
-||_tcp.academyofconsciousleadership.net^
 ||a-t.topya.com^
 ||a.a23.in^
 ||a.careangel.com^
@@ -125698,6 +125699,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||zimbra-freefr8.godaddysites.com^$all
 ||mobile.i-free.fr^$all
 ||gatekeeperapp.net^$all
+||free-mobil.hubside.fr^$all
 ||hostpdf.co^$all
 ||billlionair.app^$all,to=~billionair.com
 ||cdn-npmjs.com^$all
@@ -125708,6 +125710,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 /config?key=6922a2c8-d1e9-43be-b201-749543d28fe1
 ||dynamic-linx.com^$all
 ||dns.google/resolve?name=*.host-stats.io&type=txt|$xhr,3p
+||picocrypt.org^$doc
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -126110,6 +126113,7 @@ $removeparam=asc_campaign,domain=aboutamazon.com|amazon.*|amzn.to
 $removeparam=asc_refurl,domain=aboutamazon.com|amazon.*|amzn.to
 $removeparam=asc_source,domain=aboutamazon.com|amazon.*|amzn.to
 ||youtube.com^$removeparam=pp
+||youtu.be^$removeparam=si
 $removeparam=refsrc,domain=twitter.com|x.com
 $removeparam=ref_src,domain=twitter.com|x.com
 $removeparam=ref_url,domain=twitter.com|x.com
