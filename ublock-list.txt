@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LbrKWi39rzTAWMnGXVuk8Q
+! Checksum: QoRKsO9TC/tFlwSbiLcrPQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403201421
-! Last Modified: 2024年03月20日 14:21
+! Version: 202403202029
+! Last Modified: 2024年03月20日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17259,7 +17259,6 @@ _800x80_
 ##[data-ad-width]
 ##[data-adblockkey]
 ##[data-adbridg-ad-class]
-##[data-adid]
 ##[data-adshim]
 ##[data-advadstrackid]
 ##[data-block-type="ad"]
@@ -82413,6 +82412,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cvs.com/tnadstlinj.js
 ||cwt.citywire.info^
 ||d.skk.moe^
+||d401.dollartree.com^
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/
@@ -82455,6 +82455,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dls-account.di.atlas.samsung.com^
 ||dmtgvn.com/wrapper/js/common-engine.js$domain=rt.com
 ||docs.github.com/events
+||dollartree.com/ccstoreui/*/analytics/
 ||domainit.com/scripts/track.js
 ||dominos.co.uk/qRgAwS/
 ||dot.nonolive.com^
@@ -82540,6 +82541,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||evs.icy-lake.kickstarter.com^
 ||evs.sgmt.loom.com^$script
 ||expedia.*/cl/
+||experiences.wyng.com/api/*/event-api/events
 ||expressvpn.com/__px.gif?
 ||exr-mms.expertreviews.co.uk^
 ||extendoffice.com/analytics.js
@@ -82781,6 +82783,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kohls.com/test_rum_nv?
 ||komoot.*/api/t/event
 ||kompass.com/logAdvertisements
+||kroger.com/clickstream/
 ||kudoslabs.gg/track/
 ||l.usaa.com/e/v1/
 ||lastminute.com/ose/processEvent
@@ -125763,6 +125766,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||mobile.i-free.fr^$all
 ||gatekeeperapp.net^$all
 ||free-mobil.hubside.fr^$all
+||web-mail-free-org.hubside.fr^$all
 ||hostpdf.co^$all
 ||billlionair.app^$all,to=~billionair.com
 ||cdn-npmjs.com^$all
@@ -126044,7 +126048,7 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||events.paramount.tech^$redirect=nooptext,domain=nickjr.com
 ||mps.nbcuni.com/images/MPS-STATISTIC-REPORTING.png
 ||ab.blogs.es/abtest.png^$image,3p,domain=xataka.com|trendencias.com,redirect=1x1.gif,important
-lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
+html.duckduckgo.com,lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
 androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.com/wp-json/api/advanced_redirect?ref="], ?ref)
 ||androidauthority.com/api/locate/
 mozilla.org##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?redirect="], ?redirect)
