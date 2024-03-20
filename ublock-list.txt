@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QoRKsO9TC/tFlwSbiLcrPQ
+! Checksum: vtHYvKNqo0aZ+HOCUN2Bqg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403202029
-! Last Modified: 2024年03月20日 20:29
+! Version: 202403210220
+! Last Modified: 2024年03月21日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62250,6 +62250,7 @@ browsershots.org#@#.advert_area
 ||tools.bongacams.com^$third-party
 ||track.xtrasize.nl^$third-party
 ||turbolovervidz.com/fling/
+||uploadgig.com/static_/$third-party
 ||upsellit.com/custom/$third-party
 ||uselessjunk.com^$domain=yoloselfie.com
 ||vfreecams.com^$third-party
@@ -68784,6 +68785,7 @@ semafor.com##div[class^="styles_ad"]
 unmineablesbest.com##div[class^="uk-visible@"]
 gamingdeputy.com##div[class^="vb-"]
 whatsondisneyplus.com##div[class^="whats-"]
+podchaser.com##div[data-aa-adunit]
 unsplash.com##div[data-ad="true"]
 tennews.in##div[data-adid]
 999thehawk.com##div[data-alias="Sweetjack"]
@@ -69398,6 +69400,7 @@ apkmirror.com##.ains-apkm_outbrain_ad
 tweaktown.com##.center-tag-rightad
 rawstory.com##.connatix-hodler
 apkmirror.com##.ezo_ad
+patents.justia.com##.jcard[style="min-height:280px; margin-bottom: 10px;"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.js-results-ads
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.js-sidebar-ads > .nrn-react-div
 boatsonline.com.au,yachthub.com##.js-sticky
@@ -70671,6 +70674,7 @@ twiman.net##div[class*="my-"][class*="px\]"]
 redgifs.com##div[class^="AdTabs_"]
 redgifs.com##div[class^="AdUnit_"]
 camsoda.com##div[class^="AdsRight-"]
+hentaicovid.com##div[class^="banner-"]
 xporno.tv##div[class^="block_ads_"]
 hpjav.top##div[class^="happy-"]
 hentaimama.io##div[class^="in-between-ad"]
@@ -82552,6 +82556,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||facebook.com/ajax/*logging.
 ||facebook.com/ajax/mtouch_perf_page_load_timings/
 ||facebook.com/ajax/qm/
+||familydollar.com/ccstoreui/*/analytics/
 ||fanatics.com/api/track
 ||fancentro.com/lapi/statisticWriter/
 ||fancentro.com/trck-
@@ -82663,6 +82668,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||google.com/log?
 ||gotie.tunein.com^
 ||grabify.link/api/js
+||grgnsht.nzxt.com^
 ||groove.so/unlocker.js
 ||groupon.com/analytic/
 ||groupondata.com/tracky
@@ -82673,6 +82679,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gumtree.com.au/tracking/
 ||gurgle.pcmag.com^
 ||gurgle.spiceworks.com^
+||h031.familydollar.com^
 ||hacksplaining.com/track
 ||hankookilbo.com/service/kt/trk.js$script,domain=koreatimes.co.kr
 ||harryrosen.com/analytics/
@@ -122819,8 +122826,6 @@ support.ublock.org##div.hero-unit > div.search-box--hero-unit::before:style(cont
 ||virtualbox.pl^$doc
 ||newsharecounts.s3-us-west-2.amazonaws.com/nsc.js$script
 ||googlo.co^$doc
-||chairgaubsy.com^$doc
-||epailseptox.com^$doc
 ||hentaiplaytime.com^$doc
 ||viewmypdf.com^$doc
 ||foxload.com^$doc
@@ -125369,6 +125374,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||t-haihukikaku.online^$doc
 ||t-present.online^$doc
 ||rich-cash.site^$doc
+||z-lib.io^$all
+||z-lib.id^$all
+||zlibrary.to^$all
 ||soft-pro.site^$all
 ||exp-pc.com^$all
 ||apkmirror.co^$all
@@ -125780,6 +125788,19 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||picocrypt.org^$doc
 ||traveltraffic.cc^$all
 ||cloudsonicwave.com^$all
+||obs-software.cc^$all
+||bandi-cam.cc^$all
+||breavas.app^$all
+||open-project.org^$all
+||onenote-download.com^$all
+||epicgames-store.org^$all
+||blcnder.org^$all
+||trelconf.com^$all
+||trelconf.net^$all
+||noitons.net^$all
+||bezynet.com^$all
+||church-notes.com^$all
+||avr-energie.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
