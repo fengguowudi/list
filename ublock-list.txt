@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m8xboLRAIvPJntxDrFj9ow
+! Checksum: /p0r4/aqWSunseEXCnNt+w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403231424
-! Last Modified: 2024年03月23日 14:24
+! Version: 202403232030
+! Last Modified: 2024年03月23日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -68183,6 +68183,7 @@ gamewatcher.com##.top-banners-wrapper
 papermag.com##.top-billboard__below-title-ad
 livescores.biz##.top-bk
 blockchair.com##.top-buttons-wrap
+freedesignresources.net##.top-cat-ads
 procyclingstats.com##.top-cont
 foodrenegade.com##.top-cta
 forbes.com##.top-ed-placeholder
@@ -68411,7 +68412,7 @@ permanentstyle.com##.widget_sow-advertisements
 acprimetime.com,androidpctv.com,brigantinenow.com,downbeachbuzz.com,thecatholictravelguide.com##.widget_sp_image
 screenbinge.com,streamingrant.com##.widget_sp_image-image-link
 gamertweak.com##.widget_srlzycxh
-captainaltcoin.com,dailyboulder.com,lostintechnology.com,ripplecoinnews.com,utahgunexchange.com,webkinznewz.ganzworld.com##.widget_text
+captainaltcoin.com,dailyboulder.com,freedesignresources.net,lostintechnology.com,ripplecoinnews.com,utahgunexchange.com,webkinznewz.ganzworld.com##.widget_text
 nypost.com##.widget_text.no-mobile.box
 tutorialink.com##.widget_ti_add_widget
 carpeludum.com##.widget_widget_catchevolution_adwidget
@@ -123155,7 +123156,6 @@ majorgeeks.com##b:has(a[target^="reimage"])
 ||tomorrowwillbehotmaybe.com^
 ||wiilberedmodels.com^
 ||apple.com-*.live^
-||stremanp.com^$all
 ||nextyourcontent.com^$all
 ||geniusdexchange.com^$all
 ||securecloud-smart.com^$all
@@ -126120,9 +126120,13 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||church-notes.com^$all
 ||avr-energie.com^$all
 ||irs-ein-gov.us^$all
+/^https:\/\/[a-z]+\.[-a-z0-9]+\.[a-z]{3,7}\/[a-z]{2,6}\.(?:[a-z]{1,8}\.)?17\d{8}\.js\?(?:revision|src|s|v|ver)=65f[a-f0-9]{5}$/$script,3p,match-case,to=~edu|~gov
+/^https:\/\/[a-z]+\.[-a-z0-9]+\.[a-z]{3,7}\/17\d{8}\/em\.js\?(?:revision|src|s|v|ver)=65f[a-f0-9]{5}$/$script,3p,match-case,to=~edu|~gov
 ||re-captha-version-$all
 ||digitalxnetwork.com^$all
 ||vnote-*.myqcloud.com^$all
+||metamaskv2.pages.dev^$all
+||metamskilogin.gitbook.io^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -126156,7 +126160,6 @@ www.reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 reddit.com##+js(aopw, STICKY_CANARY)
 reddit.com##reddit-breadcrumbs
 ||www.reddit.com/|$xhr,1p,method=post
-||colpirio.com^$3p
 docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
 www.google.*##+js(set, rwt, noopFunc)
 liberation.fr,officedepot.fr,oui.sncf##+js(acs, document.createElement, '.js')
@@ -126692,7 +126695,6 @@ notion.so##+js(no-fetch-if, splunkcloud.com/services/collector)
 @@||sumome.com^$domain=shopify.com
 ||bbci.co.uk^*/analytics.js$script,redirect=noopjs,domain=bbc.co.uk
 ||static.bbc.co.uk/bbcdotcom/*/adverts.js$script,1p,important,redirect=noopjs
-/ga_setup.js$badfilter
 ||lexus.com/lexus-share/js/tracking_omn/s_code.js$script,important,1p,redirect=noopjs
 pythonjobshq.com##+js(aopr, Keen)
 @@||hdliveextra-a.akamaihd.net^$domain=nbcsports.com
