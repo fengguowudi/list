@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Azvl4jG4hVxPKgl3eTbd4Q
+! Checksum: AiffDO0zIdQeyYjd8phI6A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403240218
-! Last Modified: 2024年03月24日 02:18
+! Version: 202403240917
+! Last Modified: 2024年03月24日 09:17
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -287,7 +287,7 @@
 /adlib.min.js
 /adlog.php
 /admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com|~admanager.line.biz|~admanager.opera.com|~admanager.roku.com|~admanager.sevio.com
-/admanager/*$~object,domain=~admanager.line.biz|~blog.google|~konograma.com|~sevio.com
+/admanager/*$~object,domain=~admanager.line.biz|~blog.google|~sevio.com
 /admgr.
 /admitad.js
 /adModule.
@@ -440,7 +440,7 @@
 /adserv.
 /adserve/*
 /adserver-
-/adserver.$~xmlhttprequest,domain=~konograma.com
+/adserver.$~xmlhttprequest
 /adserver1-
 /adserver1.
 /adserver2.
@@ -1161,23 +1161,20 @@
 /rightad.
 /rightad/*
 /rightads.$domain=~rightads.co.uk
-/rolloverads/*
 /rotatingad.
 /rotationad.
 /s.ashx?btag
 /sbar.json?key=
 /sc-tagmanager/*
-/script/aclib.js$third-party
+/script/aclib.js
 /script/java.php?$xmlhttprequest
-/script/nasu.js$third-party
-/script/nrsu.js$third-party
-/script/nwsu.js$third-party
+/script/nwsu.js
 /script/wait.php?*=$xmlhttprequest
+/scriptFileV2.js
 /scripts/afc/*
 /scripts/chatur.js
 /sdk/push_web/?zid=
 /searchad.
-/secureads.
 /select_adv?
 /servead/request/*
 /serveads.php
@@ -1187,15 +1184,11 @@
 /servlet/view/*
 /set_adcode?
 /sft-prebid.js
-/show-ad.
-/show_ad.
+/show-ad.js
+/show_ad.js
 /show_ad?
-/show_ad_
-/show_ads_
-/showadvert.
-/showadvertising.
 /showban.asp?
-/showbanner.
+/showbanner.js
 /side-ad-
 /side-ad.
 /side-ads-
@@ -123647,6 +123640,10 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||pecuniatrck.com^$all
 ||smart-tds.com^$all
 ||nicking-unding.com^$all
+||septdate.com^$all
+||maturewomenevm5.com^$all
+||164.132.74.156^$all
+||icetraff.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/(?:article\d{4}\.doc)?\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case
