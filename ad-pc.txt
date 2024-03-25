@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7ojE9NLcdsNnQTbWk0nfbA
+! Checksum: 1z7iYa551DiYUnfb/UxSEQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202403252029
-! Last Modified: 2024年03月25日 20:29
+! Version: 202403260221
+! Last Modified: 2024年03月26日 02:21
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -12468,6 +12468,7 @@ _800x80_
 ##.block-sponsor
 ##.block-sponsored-links
 ##.block-the-dfp
+##.block-wrap-ad
 ##.block-yt-ads
 ##.blockAd
 ##.blockAds
@@ -68896,7 +68897,7 @@ firstpost.com##.top-addd
 n4g.com,techspy.com##.top-ads-container-outer
 jamieoliver.com##.top-avocado
 advfn.com##.top-ban-wrapper
-automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,forbesindia.com,government-fleet.com,howsecureismypassword.net,ncaa.com,pcwdld.com,rigzone.com,schoolbusfleet.com,wltreport.com##.top-banner
+addictivetips.com,automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,forbesindia.com,government-fleet.com,howsecureismypassword.net,ncaa.com,pcwdld.com,rigzone.com,schoolbusfleet.com,wltreport.com##.top-banner
 smartasset.com##.top-banner-ctr
 gptoday.net##.top-banner-leaderboard
 numuki.com##.top-banner-responsive-wrapper
@@ -74049,6 +74050,7 @@ newduba.cn###jq_youxi
 ||agmed.cyou^
 ||ahtfzhs.xyz^
 ||ahyyqq.xyz^
+||ajijcy.xyz^
 ||anjdwmq.xyz^
 ||aourgk.xyz^
 ||ariqye.xyz^
@@ -74128,9 +74130,11 @@ newduba.cn###jq_youxi
 ||dryden.cn^
 ||dsbqvj.xyz^
 ||dsjkbcjsjkbvs.com^
+||dvotlhs.cn^
 ||dxrnksm.xyz^
 ||dyegif.icu^
 ||dytkgl.icu^
+||dzdnffs.xyz^
 ||dzfzak.cn^
 ||dzuht.cn^
 ||eaqlos.xyz^
@@ -74162,6 +74166,7 @@ newduba.cn###jq_youxi
 ||fvpboxu.xyz^
 ||fwcnex.icu^
 ||fxjnfn.xyz^
+||fztyrv.xyz^
 ||gcumgu.xyz^
 ||ghgasdb365.shop^
 ||ghgasdt963.shop^
@@ -74185,6 +74190,7 @@ newduba.cn###jq_youxi
 ||hgthpj.xyz^
 ||hhffks967.shop^
 ||hhffnu135.shop^
+||higyoe.cn^
 ||hitchun.com^
 ||hjshal.com^
 ||hkbumv.icu^
@@ -74221,6 +74227,7 @@ newduba.cn###jq_youxi
 ||kssolo.com^
 ||ktoioo.xyz^
 ||ktvjpmi.xyz^
+||ktyusid.top^
 ||l5kt1.icu^
 ||lafirx.xyz^
 ||lardmoni.com^
@@ -74371,6 +74378,7 @@ newduba.cn###jq_youxi
 ||tmjetb.xyz^
 ||tnifdlai.top^
 ||tnvnnn.xyz^
+||tqvnzj.xyz^
 ||tsrvrr.xyz^
 ||tu2024020388.com^
 ||tyodot.icu^
@@ -74451,13 +74459,6 @@ newduba.cn###jq_youxi
 ||yvnxetmq.xyz^
 ||yvudqzoa.xyz^
 ||yyddkm526.shop^
-||tqvnzj.xyz^
-||ktyusid.top^
-||ajijcy.xyz^
-||higyoe.cn^
-||dzdnffs.xyz^
-||fztyrv.xyz^
-||dvotlhs.cn^
 ||yyttmyy.cn^
 ||zagyjnn.cn^
 ||zailgrae.com^
@@ -89537,17 +89538,17 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
-/exads-adblock-$image
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2

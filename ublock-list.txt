@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YHceFFmTnM/43rSoWEsYRA
+! Checksum: IyrO5gSzcGoZ5VjPB1YhTA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403252029
-! Last Modified: 2024年03月25日 20:29
+! Version: 202403260221
+! Last Modified: 2024年03月26日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12018,6 +12018,7 @@ _800x80_
 ##.block-sponsor
 ##.block-sponsored-links
 ##.block-the-dfp
+##.block-wrap-ad
 ##.block-yt-ads
 ##.blockAd
 ##.blockAds
@@ -68446,7 +68447,7 @@ firstpost.com##.top-addd
 n4g.com,techspy.com##.top-ads-container-outer
 jamieoliver.com##.top-avocado
 advfn.com##.top-ban-wrapper
-automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,forbesindia.com,government-fleet.com,howsecureismypassword.net,ncaa.com,pcwdld.com,rigzone.com,schoolbusfleet.com,wltreport.com##.top-banner
+addictivetips.com,automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,forbesindia.com,government-fleet.com,howsecureismypassword.net,ncaa.com,pcwdld.com,rigzone.com,schoolbusfleet.com,wltreport.com##.top-banner
 smartasset.com##.top-banner-ctr
 gptoday.net##.top-banner-leaderboard
 numuki.com##.top-banner-responsive-wrapper
@@ -121320,9 +121321,9 @@ thecut.com##+js(aeld, /touchstart|mousedown|click/, latest)
 realyplayonli.xyz##+js(aopr, BetterJsPop)
 realyplayonli.xyz##+js(aopr, doSecondPop)
 unityassetcollection.com##+js(nano-sib, secs)
-psdly.com##.widget_custom_html
-psdly.com##.widget_media_image
 *$frame,script,3p,domain=freeadultcomix.com
+freeadultcomix.com##+js(rmnt, script, window.open)
+freeadultcomix.com##+js(nowoif)
 *$script,redirect-rule=noopjs,domain=claimfreebits.com
 claimfreebits.com##+js(aopr, NoAdBlock)
 claimfreebits.com##.adnewos
@@ -121338,9 +121339,6 @@ alphapolis.co.jp##+js(aeld, blur, event.simulate)
 ||tinypass.com^$domain=crosswalk.com
 ||tinypass.com^$domain=christianity.com
 manyakan.com##+js(no-xhr-if, adsbygoogle)
-hisse.net###ad_global_above_footer
-hisse.net###ad_thread_first_post_content
-hisse.net###ad_thread_last_post_content
 nusantaraproject.my.id##+js(nosiif, visibility, 1000)
 crazyblog.in##+js(nosiif, visibility, 1000)
 crazyblog.in##+js(aopr, app_vars.force_disable_adblock)
