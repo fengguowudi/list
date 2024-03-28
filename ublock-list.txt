@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P+/NgT5bmhWNdGQMS8fEuQ
+! Checksum: 2NRvOEFjSP+Ofq0ITGXKyw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403282031
-! Last Modified: 2024年03月28日 20:31
+! Version: 202403290220
+! Last Modified: 2024年03月29日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -19243,6 +19243,7 @@ browsershots.org#@#.advert_area
 ||abusedthrown.com^
 ||abusiveserving.com^
 ||abvnypoqcgmh.com^
+||abvoltssilen.top^
 ||abwattfrutex.com^
 ||abwhyag.com^
 ||abwlrooszor.com^
@@ -23186,6 +23187,7 @@ browsershots.org#@#.advert_area
 ||bogrodius.com^
 ||boguetrust.com^
 ||boharaf.com^
+||boheasceile.top^
 ||boheir.com^
 ||bohowhepsked.com^
 ||bohpvdmwjl.com^
@@ -31245,6 +31247,7 @@ browsershots.org#@#.advert_area
 ||gaisteem.net^
 ||gaitheed.com^
 ||gaitoath.com^
+||gaizoopi.net^
 ||gakairohekoa.com^
 ||galaare.com^
 ||galachr.com^
@@ -31902,6 +31905,7 @@ browsershots.org#@#.advert_area
 ||gloxeept.com^
 ||gloytrkb.com^
 ||gloywin04.com^
+||glozesmimer.top^
 ||glpeaoauwevlns.com^
 ||glquynodiflhw.com^
 ||glsfreeads.com^
@@ -34773,6 +34777,7 @@ browsershots.org#@#.advert_area
 ||invplpghc.com^
 ||invraisemblable.com^
 ||inwardinjustice.com^
+||inwrapsabina.top^
 ||inwraptsekane.com^
 ||ioaalobqpc.com^
 ||ioach.com^
@@ -34849,6 +34854,7 @@ browsershots.org#@#.advert_area
 ||iqwfauzxumyk.com^
 ||iqxsncsregcxu.xyz^
 ||iqxuuski.com^
+||iranicoloner.top^
 ||irbout.com^
 ||irbtwjy.com^
 ||ireced.com^
@@ -35220,6 +35226,7 @@ browsershots.org#@#.advert_area
 ||jbrnmlmvnazey.top^
 ||jbtul.com^
 ||jbtwyppdfppmgq.com^
+||jbvoejzamqokq.top^
 ||jbvoejzamqzkb.top^
 ||jbwiujl.com^
 ||jbzmwqmqwojjl.top^
@@ -35978,6 +35985,7 @@ browsershots.org#@#.advert_area
 ||karoup.com^
 ||karpasbeamer.com^
 ||karstsburnut.com^
+||karwobeton.com^
 ||kashacodeina.com^
 ||kaslcuin.com^
 ||kastafor.com^
@@ -41138,6 +41146,7 @@ browsershots.org#@#.advert_area
 ||ojbrtkrvew.com^
 ||ojfkftiv.xyz^
 ||ojguesirvxwgiog.xyz^
+||ojgvteduhsko.com^
 ||ojmvywz.com^
 ||ojomrgmhbbpkpz.com^
 ||ojoodoaptouz.com^
@@ -44833,6 +44842,7 @@ browsershots.org#@#.advert_area
 ||qsthtbjljqfuo.com^
 ||qsxptjxruxrttu.xyz^
 ||qtbb6.com^
+||qtdopwuau.xyz^
 ||qtejflbrrtesvk.com^
 ||qtspkqzn.com^
 ||qtuopsqmunzo.com^
@@ -48256,6 +48266,7 @@ browsershots.org#@#.advert_area
 ||souglaur.xyz^
 ||soulsglovesacid.com^
 ||soulslaidmale.com^
+||soulterberne.top^
 ||soumehoo.net^
 ||sounct.com^
 ||soundelktemper.com^
@@ -53932,6 +53943,7 @@ browsershots.org#@#.advert_area
 ||wqjbldnnceroue.com^
 ||wqjzajr.com^
 ||wqlnfrxnp.xyz^
+||wqltsxjqfhlxty.com^
 ||wqorxfp.com^
 ||wqzjfsmudvpct.com^
 ||wqzqoobqpubx.com^
@@ -57522,6 +57534,7 @@ browsershots.org#@#.advert_area
 ||bobabillydirect.org^$popup
 ||bodelen.com^$popup
 ||bodrumshuttle.net^$popup
+||boheasceile.top^$popup
 ||bombfor.com^$popup
 ||bonafides.club^$popup
 ||bongacams.com^$popup,third-party
@@ -70422,6 +70435,8 @@ truthsocial.com##div[item="[object Object]"]:has(path[d="M9.83333 1.83398H16.5M1
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style="max-width: 390px; min-width: 190px;"]:has(a[href^="/ads/"])
 wikiwand.com##div[style="min-height: 325px; max-width: 600px;"]
 thisday.app##div[style="min-height: 340px;"]:has(div.ad)
+nicelocal.com##div[style="min-height: 600px;"]:has(iframe[id^="google_ads_"])
+nicelocal.com##div[style="min-height: 90px;"]:has(iframe[id^="google_ads_"])
 nex-software.com##h4:has(a[href$="/reimage"])
 walmart.com##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 walgreens.com##li.owned-brands:has(figure.sponsored)
@@ -127050,6 +127065,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||shopflarehub.com^$all
 ||zimbra-freefr8.godaddysites.com^$all
 ||gatekeeperapp.net^$all
+||free-mob215478.hubside.fr^$all
 ||free-mob2584.hubside.fr^$all
 ||free-mobil.hubside.fr^$all
 ||free-mobile241.hubside.fr^$all
@@ -127059,6 +127075,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||zimbrafreemail.hubside.fr^$all
 ||zimbra-inbox.hubside.fr^$all
 ||pointsfreemobile.com^$all
+||008567.hubside.fr^$all
+||15484548.hubside.fr^$all
 ||hostpdf.co^$all
 ||billlionair.app^$all,to=~billionair.com
 ||cdn-npmjs.com^$all
@@ -128216,6 +128234,7 @@ pcgamer.com#@#.hawk-widget
 @@||pixel.adsafeprotected.com/services/pub$xhr,domain=reuters.com
 @@||try.abtasty.com^$script,domain=reuters.com
 ||try.abtasty.com/shared/analytics$script,domain=reuters.com,important
+reuters.com#@#[class^="primary-video__container_"]
 @@||cdn.mxpnl.com/libs/mixpanel-*-latest.min.js$script,domain=groupme.com
 @@||googletagmanager.com^$script,domain=subscriptions.amd.com
 @@/gtm.js$script,domain=subscriptions.amd.com
