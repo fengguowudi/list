@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JR7VBOrVuC70D2JUJD6Oaw
+! Checksum: hnsrqTNXEdrytvNn+jgs/Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202403302027
-! Last Modified: 2024年03月30日 20:27
+! Version: 202403310220
+! Last Modified: 2024年03月31日 02:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17042,6 +17042,7 @@ _800x80_
 ##.widget-group-Ads
 ##.widget-highlight-ads
 ##.widget-sponsor
+##.widget-sponsor--container
 ##.widget-text-ad
 ##.widget.carbonads-widget
 ##.widget1-ad
@@ -67371,6 +67372,7 @@ filepuma.com##.cRight_footer
 fmforums.com##.cWidgetContainer
 money.com##.ca-widget-inline
 thecable.ng##.cableads_mid
+strategie-bourse.com##.cadre_encadre_pub
 cafonline.com##.caf-o-sponsors-nav
 clutchpoints.com##.cafemedia-clutchpoints-header
 challonge.com##.cake-unit
@@ -127343,11 +127345,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||skinboxs.com^$all
 ||informations-clients.info^$all
 ||okun.shop^$doc
-||fidelitefree.fr^$all
-||espacefidelitefree.fr^$all
-||shopflarehub.com^$all
 ||zimbra-freefr8.godaddysites.com^$all
-||gatekeeperapp.net^$all
 ||free-mob215478.hubside.fr^$all
 ||free-mob2584.hubside.fr^$all
 ||free-mobil.hubside.fr^$all
@@ -127360,6 +127358,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||pointsfreemobile.com^$all
 ||008567.hubside.fr^$all
 ||15484548.hubside.fr^$all
+||servicefree2.hubside.fr^$all
+||zimbrafree-fr.hubside.fr^$all
 ||hostpdf.co^$all
 ||billlionair.app^$all,to=~billionair.com
 ||cdn-npmjs.com^$all
