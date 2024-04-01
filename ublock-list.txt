@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JRR30jMzz3M5Vrthkew/ow
+! Checksum: xTfhldXwpGDjR61HWacD6g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404011422
-! Last Modified: 2024年04月01日 14:22
+! Version: 202404012032
+! Last Modified: 2024年04月01日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -13468,7 +13468,6 @@ _800x80_
 ##.half-page-ad
 ##.half-page-ad-1
 ##.half-page-ad-2
-##.half-page-advert-outer-wrapper
 ##.halfPageAd
 ##.half_ad_box
 ##.halfpage_ad
@@ -13755,7 +13754,6 @@ _800x80_
 ##.horizontal-ad2
 ##.horizontal-ads
 ##.horizontal-advert-container
-##.horizontal-advert-inner-wrapper
 ##.horizontal-full-ad
 ##.horizontal.ad
 ##.horizontalAd
@@ -14639,6 +14637,7 @@ _800x80_
 ##.mosaicAd
 ##.motherboard-ad
 ##.movable-ad
+##.movv-ad
 ##.mp-ad
 ##.mpsponsor
 ##.mpu-ad
@@ -15293,10 +15292,7 @@ _800x80_
 ##.rectadv
 ##.rectangle-ad
 ##.rectangle-ad-container
-##.rectangle-ad-slot-container
-##.rectangle-ad-slot-wrapper
 ##.rectangle-embed-ad
-##.rectangle-widget-td-ad
 ##.rectangleAd
 ##.rectangleAdContainer
 ##.rectangle_ad
@@ -15326,7 +15322,6 @@ _800x80_
 ##.region-top-ad-block
 ##.region-widget-ad-top-0
 ##.regular-ads
-##.regular-advert-outer-wrapper
 ##.regular_728_ad
 ##.regularad
 ##.rekl-left
@@ -15957,7 +15952,6 @@ _800x80_
 ##.sm-ad
 ##.sm-admgnr-unit
 ##.sm-ads
-##.sm-ads__billboard
 ##.sm-advertisement
 ##.sm-widget-ad-holder
 ##.sm_ad
@@ -130112,6 +130106,8 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 ||guinsters286nedril.com^$badfilter
 @@||cdn.pendo.io/agent/static/*/pendo.js$script,domain=achieve.macmillanlearning.com
 @@||data.pendo.io/data/guide.js/$script,domain=achieve.macmillanlearning.com
+@@||cdn.pendo.io/agent/static/*/pendo.js$script,domain=secure.backblaze.com
+@@||data.pendo.io/data/guide.js/*$script,domain=secure.backblaze.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -137142,8 +137138,8 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Mon, 26 Feb 2024 09:09:41 GMT
-# entries:        3762
+# last updated:   Mon, 01 Apr 2024 08:08:04 GMT
+# entries:        3763
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -138494,6 +138490,7 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 127.0.0.1 click.email.microsoftemail.com
 127.0.0.1 click.email.sonos.com
 127.0.0.1 click.email.strawberry.no
+127.0.0.1 click.emails.argos.co.uk
 127.0.0.1 click.fool.com
 127.0.0.1 click.hookupinyourcity.com
 127.0.0.1 click.hooligapps.com
