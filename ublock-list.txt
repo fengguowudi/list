@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gKIbKaMeSvZNvFm0uHrGbg
+! Checksum: mo0Kz67O2u2st8lGfXQZnQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404020915
-! Last Modified: 2024年04月02日 09:15
+! Version: 202404021421
+! Last Modified: 2024年04月02日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -71233,6 +71233,7 @@ wetpussygames.com###under728
 fakings.com###undervideo
 kisscos.net###v-overlay
 homemoviestube.com###v_right
+xvideos.com###video-right
 xvideos.com###video-sponsor-links
 drtuber.com###video_list_banner
 hentaiplay.net###video_overlays
@@ -72745,6 +72746,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||suntory.co.jp/beer/kinmugi/img/ad/$image,~third-party
 @@||tdn.da-services.ch/libs/prebid8.$script,domain=20min.ch
 @@||tenki.jp/storage/static-images/top-ad/
+@@||tpc.googlesyndication.com/archive/simgad/$image,domain=adstransparency.google.com
 @@||tpc.googlesyndication.com/pagead/js/$domain=googleads.g.doubleclick.net
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
 @@||trj.valuecommerce.com/vcushion.js
@@ -120665,6 +120667,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||indeed.com/rpc/log/myjobs/$~third-party
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
+@@||ipinfo.io/json$domain=queye.co
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
@@ -127299,6 +127302,7 @@ oltacidergisi.com##+js(acis, atob, minimalDrainValue)
 ||vnote-*.myqcloud.com^$all
 ||steamproxy.co^$all
 ||steamproxy.vip^$all
+||sp.aircsgo.com^$all
 ||midwestfinestbb.com^$all
 ||linea.baby^$all
 ||ibc.web4cms.milestoneinternet.info^$all
@@ -127306,9 +127310,11 @@ oltacidergisi.com##+js(acis, atob, minimalDrainValue)
 ||alert-service.my.id^$all
 ||liveviralvideo18.private-x.my.id^$all
 ||clickhereecraigslist.tripod.com^$all
+||chipped-swift-tip.glitch.me^$all
 ||diwapa3051.wixsite.com/my-site$all
 ||pub-1eaf8d9fdf504256ad21005c83cb81f5.r2.dev/1.html$all
 ||proceedings.aios.org/all-protect47610/$all
+||final-ua.eu/vasilisa/votings$all
 ||codeanyapp.com/wp-content/plugins/ubh/spotii/tifooy/main/$doc
 ||airpos.co.kr/.well-known/pki-validation/*/MitID/$doc
 ||acir.postofficeweb.com/grupoacir/$all
