@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NYchxwjletZPbYkyHzee0g
+! Checksum: BqHl/AgSNMngT1TznesQdA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404040220
-! Last Modified: 2024年04月04日 02:20
+! Version: 202404040913
+! Last Modified: 2024年04月04日 09:13
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56474,6 +56474,7 @@ browsershots.org#@#.advert_area
 ||offersquared.com^$third-party
 ||og-affiliate.com^$third-party
 ||okanjo.com^$third-party
+||oneadz.com^$third-party
 ||onetag-sys.com^$third-party
 ||onlyalad.net^$third-party
 ||onsafelink.com^$script,third-party
@@ -66457,7 +66458,7 @@ medibang.com##.adBlock__pc
 emojiphrasebook.com##.adBottom
 bigislandnow.com##.adBreak
 kijiji.ca##.adChoices-804693302
-economist.com##.adComponent_advert__V79Pp
+economist.com##.adComponent_advert__kPVUI
 m.economictimes.com,someecards.com,trailspace.com##.adContainer
 etymonline.com##.adContainer--6CVz1
 hellomagazine.com##.adContainerClass_acvudum
@@ -67129,7 +67130,7 @@ canada411.ca##.c411TopBanner
 sussexexpress.co.uk##.cIffkq
 filepuma.com##.cRight_footer
 fmforums.com##.cWidgetContainer
-money.com##.ca-widget-inline
+money.com##.ca-pcu-inline
 thecable.ng##.cableads_mid
 strategie-bourse.com##.cadre_encadre_pub
 cafonline.com##.caf-o-sponsors-nav
@@ -70355,6 +70356,7 @@ outlook.live.com##.VdboX[tabindex="0"]:has(img[src="https://res.cdn.office.net/a
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
 haveibeenpwned.com##.actionsBar:has(.why1Password)
 slickdeals.net##.announcementBar:has(.sponsorContent)
+nation.africa##.article-collection-teaser:has(.sponsored-label)
 forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)
 time.com##.article-small-sidebar > .sticky-container:has(div[id^="ad-"])
 blitz.gg##.aside-content-column:has(.display-ad)
@@ -72520,6 +72522,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||tab.gladly.io/newtab/|$document,subdocument
 !! imasdk.googleapis.com/js/sdkloader/ima3.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|clickorlando.com|cnet.com|crunchyroll.com|delish.com|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|games.usatoday.com|gbnews.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|gospodari.com|howstuffworks.com|humix.com|ignboards.com|iheart.com|insideedition.com|irctc.co.in|klix.ba|lemino.docomo.ne.jp|locipo.jp|maharashtratimes.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|myspace.com|nettavisen.no|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|popculture.com|realmadrid.com|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|southpark.lat|southparkstudios.com|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|truvid.com|tubitv.com|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|wbal.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|xda-developers.com|zdnet.com|zeebiz.com
+!! https://adssettings.google.com/anonymous?hl=en
+@@||googleads.g.doubleclick.net/ads/preferences/$domain=googleads.g.doubleclick.net
 !! imasdk.googleapis.com/js/sdkloader/ima3_dai.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|4029tv.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|cc.com|embed.comicbook.com|gbnews.com|history.com|kcci.com|kcra.com|ketv.com|kmbc.com|koat.com|koco.com|ksbw.com|mynbc5.com|paramountplus.com|s.yimg.jp|sbs.com.au|tv.rakuten.co.jp|vk.sportsbull.jp|wapt.com|wbaltv.com|wcvb.com|wdsu.com|wesh.com|wgal.com|wisn.com|wjcl.com|wlky.com|wlwt.com|wmtw.com|wmur.com|worldsurfleague.com|wpbf.com|wtae.com|wvtm13.com|wxii12.com|wyff4.com
 !! pubads.g.doubleclick.net/ondemand/hls/
@@ -123359,6 +123363,7 @@ ustream.click##^script:has-text(\'shift\')
 1cloudfile.com##+js(nowoif)
 1cloudfile.com##+js(no-fetch-if, /googlesyndication|nerveheels/)
 1cloudfile.com#@#.advert-wrapper
+1cloudfile.com##.advert-wrapper:style(clip-path: circle(0) !important;)
 1cloudfile.com##.uk-text-center
 1cloudfile.com##.preview-download-wrapper
 1cloudfile.com##.content-preview-wrapper
@@ -127339,9 +127344,7 @@ search.brave.com##+js(no-fetch-if, body:browser)
 /^https?:\/\/(?!assets|script|static)(?:[0-9a-z]{10,13}|[0-9a-z]{6})\.[0-9A-Za-z.\-_]+\/(?=[0-9a-z+\/\-]*[A-Z])[0-9A-Za-z+\/\-]{80,106}$/$script,1p,match-case,strict3p
 /dataunlocker$script,1p,domain=~dataunlocker.com
 /www\.eldorado\.gg\/[a-zA-Z0-9]{10,13}\.js/$1p,script,domain=eldorado.gg
-||ampl.cinotes.com^
 ||data-saver-cindi.herokuapp.com^
-||cdn.cindicator.com/$script,3p
 !#if cap_html_filtering
 botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,creatordrop.com,panpots.com,cybernetman.com,bitdomain.biz,gerardbosch.xyz,fort-shop.kiev.ua,accuretawealth.com,resourceya.com,tracktheta.com,adaptive.marketing,camberlion.com##^script:has-text("join('')")
 alpacafinance.org,tt.live,future-fortune.com,abhijith.page,furucombo.app,madrigalmaps.com,adventuretix.com##^script:has-text('join("")')
@@ -127355,14 +127358,15 @@ panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaborator
 /p13n/batch/action/*$image
 ||html-load.cc/script/$script
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,3p,match-case
-loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWRz$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com,lamire.jp##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com,lamire.jp##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com,lamire.jp##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com,lamire.jp##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWRz$/, $remove$)
 apkmirror.com,meconomynews.com,brandbrief.co.kr,mlbpark.donga.com,motorgraph.com,topstarnews.net,heraldcorp.com##+js(noeval-if, /07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/)
 !#if cap_html_filtering
 apkmirror.com,meconomynews.com,brandbrief.co.kr,mlbpark.donga.com,motorgraph.com,heraldcorp.com##^script:has-text(KCgpPT57bGV0IGU)
 issuya.com,topstarnews.net##^script:has-text(error-report.com)
+lamire.jp##^script[onload*="error-report.com"]
 !#else
 apkmirror.com,meconomynews.com,brandbrief.co.kr,mlbpark.donga.com,motorgraph.com,heraldcorp.com##+js(rmnt, script, KCgpPT57bGV0IGU)
 issuya.com,topstarnews.net##+js(rmnt, script, error-report.com)
@@ -136979,7 +136983,6 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 ||d2kadvyeq051an.cloudfront.net^$third-party
 ||p.eikuaitao.com^$third-party
 ||fuoo1.top^$third-party
-||kebi1.top^$third-party
 ||wap.hfoyjg.cn^$third-party
 ||adserve.work^$third-party
 ||acgshenshicha.cn^$third-party
@@ -137072,8 +137075,8 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 02 Apr 2024 19:29:39 GMT
-# entries:        3764
+# last updated:   Wed, 03 Apr 2024 23:19:30 GMT
+# entries:        3766
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -137380,6 +137383,7 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 127.0.0.1 admob.com
 127.0.0.1 admonitor.com
 127.0.0.1 adn.lrb.co.uk
+127.0.0.1 adnami.io
 127.0.0.1 adnet.asahi.com
 127.0.0.1 adnet.biz
 127.0.0.1 adnet.de
@@ -138132,6 +138136,8 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 127.0.0.1 ay.delivery
 127.0.0.1 aztracking.net
 127.0.0.1 b-s.tercept.com
+127.0.0.1 b.videoamp.com
+127.0.0.1 b3.videoamp.com
 127.0.0.1 ba.afl.rakuten.co.jp
 127.0.0.1 backbeatmedia.com
 127.0.0.1 balloontexture.com
@@ -140667,7 +140673,6 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 127.0.0.1 vidcpm.com
 127.0.0.1 video-stats.video.google.com
 127.0.0.1 videoadex.com
-127.0.0.1 videoamp.com
 127.0.0.1 videoegg.com
 127.0.0.1 videostats.kakao.com
 127.0.0.1 vidible.tv
