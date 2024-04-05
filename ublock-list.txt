@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vhXI0IkkdPYmhWNGMSCe5Q
+! Checksum: zNlLjIDzUZ6nIc2smaReNA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404051421
-! Last Modified: 2024年04月05日 14:21
+! Version: 202404052029
+! Last Modified: 2024年04月05日 20:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57551,7 +57551,6 @@ browsershots.org#@#.advert_area
 ||biserka.xyz^$popup
 ||bit-system.org^$popup
 ||bitadexchange.com^$popup
-||bits.avcdn.net^$popup
 ||bitsspiral.com^$popup
 ||bitterstrawberry.com^$popup
 ||biturl.co^$popup
@@ -65098,7 +65097,7 @@ dailydot.com###DD_Desktop_HP_Content3
 tweaktown.com###DesktopTop
 newser.com###DivStoryAdContainer
 stripes.com###FeatureAd
-howlongagogo.com,neatorama.com###FreeStarVideoAdContainer
+esports.gg,howlongagogo.com,neatorama.com###FreeStarVideoAdContainer
 titantv.com###GridPlayer
 appatic.com,gamescensor.com###HTML2
 fanlesstech.com###HTML2 > .widget-content
@@ -67630,6 +67629,8 @@ freepresskashmir.news##.fpkdonate
 theiphoneappreview.com##.frame
 freedomfirstnetwork.com##.freed-1
 looperman.com##.freestar
+esports.gg##.freestar-esports_between_articles
+esports.gg##.freestar-esports_leaderboard_atf
 upworthy.com##.freestar-in-content
 moviemistakes.com##.freestarad
 sciencenews.org##.from-nature-index__wrapper___2E2Z9
@@ -68728,6 +68729,7 @@ engadget.com##.related-content-lazyload
 idropnews.com##.related-posts
 ranker.com##.relatedInline_container__Ux4lS
 timesofindia.indiatimes.com##.relatedVideoWrapper
+esports.gg##.relative.esports-inarticle
 astrozop.com##.relative.z-5
 miragenews.com##.rem-i-s
 4shared.com##.remove-rekl
@@ -69380,6 +69382,7 @@ letterboxd.com##.upgrade-kicker
 upworthy.com##.upworthy_infinite_scroll_ad
 upworthy.com##.upworthy_infinte_scroll_outer_wrap
 vervetimes.com##.uyj-before-header
+surinenglish.com##.v-adv
 militarywatchmagazine.com##.v-card--link
 militarywatchmagazine.com##.v-size--x-small.theme--light
 tetris.com##.vAxContainer-L
@@ -69659,6 +69662,7 @@ woot.com##[data-test-ui^="advertisementLeaderboard"]
 target.com##[data-test="featuredProducts"]
 zillow.com##[data-test="search-list-first-ad"]
 target.com##[data-test="sponsored-text"]
+reuters.com##[data-testid="CnxPlayer"]
 reuters.com##[data-testid="ResponsiveAdSlot"]
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##[data-testid="StandardAd"]
 coles.com.au##[data-testid="ad"]
@@ -127016,19 +127020,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||mopiez.com^
 ||goglel.com^$all
 ||easylist.club^$all
-||roundyearfun.org^$all
-||roundyearfun.com^$all
-||anyplacehere.me^$all
-||funaroundy.click^$all
-||anyplacehere.live^$all
-||funtwitter.games^$all
-||twitter-circle.com^$all
-||funroundy.click^$all
-||twitterfun.games^$all
-||funxgames.site^$all
-||funroundy.online^$all
-||funxgames.me^$all
-||anyplacehere.store^$all
 ||bestextensionegde.com^$all
 .com/api/users?token=*&uuid=&pii=&in=false^$doc
 ||asdmcm.com^$all
@@ -127293,6 +127284,22 @@ oltacidergisi.com##+js(acis, atob, minimalDrainValue)
 ||puttyconnect.info^$all
 ||astrosphere.world^$all
 ||pythanhosted.org^$all
+||marketplace-item-*.000.pe^$doc
+||roundyearfun.org^$all
+||roundyearfun.com^$all
+||anyplacehere.me^$all
+||funaroundy.click^$all
+||anyplacehere.live^$all
+||funtwitter.games^$all
+||twitter-circle.com^$all
+||funroundy.click^$all
+||twitterfun.games^$all
+||funxgames.site^$all
+||funroundy.online^$all
+||funxgames.me^$all
+||anyplacehere.store^$all
+||infinitytweet.me^$all
+||infinitweet.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -137115,10 +137122,10 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Wed, 03 Apr 2024 23:19:30 GMT
-# entries:        3766
+# entries:        3758
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
-# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
+# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=5502149865063337237821
 # Patreon:        https://patreon.com/blocklist
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
@@ -138012,7 +138019,6 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 127.0.0.1 affiliates.babylon.com
 127.0.0.1 affiliates.digitalriver.com
 127.0.0.1 affiliates.globat.com
-127.0.0.1 affiliates.rozetka.com.ua
 127.0.0.1 affiliates.streamray.com
 127.0.0.1 affiliates.thinkhost.net
 127.0.0.1 affiliates.thrixxx.com
@@ -138052,7 +138058,6 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 127.0.0.1 ambiguousquilt.com
 127.0.0.1 ambitiousagreement.com
 127.0.0.1 americash.com
-127.0.0.1 ampleclick.com
 127.0.0.1 amung.us
 127.0.0.1 analytics-production.hapyak.com
 127.0.0.1 analytics.adpost.org
@@ -138185,7 +138190,6 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 127.0.0.1 banner.buempliz-online.ch
 127.0.0.1 banner.cotedazurpalace.com
 127.0.0.1 banner.coza.com
-127.0.0.1 banner.cz
 127.0.0.1 banner.easyspace.com
 127.0.0.1 banner.elisa.net
 127.0.0.1 banner.eurogrand.com
@@ -138933,7 +138937,6 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 127.0.0.1 forwrdnow.com
 127.0.0.1 fourarithmetic.com
 127.0.0.1 fpctraffic.com
-127.0.0.1 fpctraffic2.com
 127.0.0.1 fpjs.io
 127.0.0.1 fqtag.com
 127.0.0.1 frailflock.com
@@ -138986,7 +138989,6 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 127.0.0.1 gaug.es
 127.0.0.1 gavvia.com
 127.0.0.1 gearwom.de
-127.0.0.1 gekko.spiceworks.com
 127.0.0.1 generateoffice.com
 127.0.0.1 geo.digitalpoint.com
 127.0.0.1 geobanner.adultfriendfinder.com
@@ -139064,7 +139066,6 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 127.0.0.1 hdscout.com
 127.0.0.1 heap.com
 127.0.0.1 hearinglizards.com
-127.0.0.1 heias.com
 127.0.0.1 hellobar.com
 127.0.0.1 helpcollar.com
 127.0.0.1 hentaicounter.com
@@ -139510,7 +139511,6 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 127.0.0.1 mkto-ab410147.com
 127.0.0.1 mktoresp.com
 127.0.0.1 ml314.com
-127.0.0.1 mlm.de
 127.0.0.1 mlsend.com
 127.0.0.1 mltrk.io
 127.0.0.1 mmismm.com
@@ -140511,7 +140511,6 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 127.0.0.1 toplista.mw.hu
 127.0.0.1 toplistcity.com
 127.0.0.1 topsir.com
-127.0.0.1 topsite.lv
 127.0.0.1 topsites.com.br
 127.0.0.1 topstats.com
 127.0.0.1 totemcash.com
