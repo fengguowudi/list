@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MgzZU9KQfSvEjD5AI8Qyrg
+! Checksum: CXJjSX2ctk5+Hhio6n2xJA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404062028
-! Last Modified: 2024年04月06日 20:28
+! Version: 202404070219
+! Last Modified: 2024年04月07日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -69607,6 +69607,7 @@ gab.com##[aria-label*="Sponsored:"]
 thepointsguy.com##[aria-label="Advertisement"]
 wsj.com##[aria-label="Sponsored Offers"]
 blackbeltmag.com##[aria-label="Wix Monetize with AdSense"]
+top.gg##[class*="__AdContainer-"]
 everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
 everydaykoala.com,playjunkie.com##[class*="__adv-block"]
 bitcoinist.com,captainaltcoin.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com,philnews.ph##[class*="clickout-"]
