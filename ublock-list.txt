@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4Tu3klDQ8zANlKOhBlAArg
+! Checksum: LkM8G42QGBI3JgCIQFN+fw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404101422
-! Last Modified: 2024年04月10日 14:22
+! Version: 202404102030
+! Last Modified: 2024年04月10日 20:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -76245,6 +76245,7 @@ omni.soundestlink.com$image
 ||speedyfox.io^
 ||speedyrhino.co^
 ||spinnaker-js.com^
+||srmdata-eur.com^
 ||stack-sonar.com^
 ||stat.ovh^
 ||statisticplatform.com^
@@ -80535,7 +80536,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cmail19.com/t/$image,third-party
 ||cmmeglobal.com/evt?
 ||cmmeglobal.com^*/page-view?
-||cmp.datasign.co^
 ||cnetcontent.com/log?
 ||cnevids.com/metrics/
 ||cnnx.io^*/tracker.js
@@ -127437,6 +127437,12 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||freezimbra.hubside.fr^$all
 ||web0mail.hubside.fr^$all
 ||free-mobile0021547.hubside.fr^$all
+||free-information.hubside.fr^$all
+||mobiles.hubside.fr^$all
+||freemailzimbra.hubside.fr^$all
+||rivita3106felibgcom.hubside.fr^$all
+||info-free.hubside.fr^$all
+||emails-free.hubside.fr^$all
 ||hostpdf.co^$all
 ||billlionair.app^$all,to=~billionair.com
 ||cdn-npmjs.com^$all
