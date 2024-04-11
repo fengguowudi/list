@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0YNjqYtlRZ+MWOqi44YN9w
+! Checksum: pxkZz1rUisYkfJyJdT7Wcw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404111421
-! Last Modified: 2024年04月11日 14:21
+! Version: 202404112031
+! Last Modified: 2024年04月11日 20:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53537,6 +53537,7 @@ browsershots.org#@#.advert_area
 ||weestuch.com^
 ||weethery.com^
 ||weewowshrinky.com^
+||wefoonsaidoo.com^
 ||weftsgeogeny.com^
 ||wegastroky.com^
 ||wegeeraitsou.xyz^
@@ -70553,6 +70554,7 @@ releasestv.com##div[class^="astra-advanced-hook-"]
 onlineradiobox.com##div[class^="banner-"]
 technical.city##div[class^="banner_"]
 historycollection.com##div[class^="cis_add_block"]
+filehorse.com##div[class^="dx-"][class$="-1"]
 astro.com##div[class^="goad"]
 groovypost.com##div[class^="groov-adsense-"]
 imagetopdf.com,pdfkit.com,pdftoimage.com,topdf.com,webpconverter.com##div[class^="ha"]
@@ -122375,12 +122377,6 @@ sudoku-aktuell.de###billboard
 sudoku-aktuell.de###blockdiv
 vidlink.org##[target="_blank"]
 jptorrent.org##+js(nano-stb)
-kiiw.icu##+js(set, blurred, false)
-kiiw.icu##+js(aopr, open)
-kiiw.icu##.banner
-kiiw.icu##.fade
-||developerity.com^$3p
-@@||kiiw.icu^$ghide
 !#if env_firefox
 qub.ca##.jss2
 !#endif
@@ -128315,6 +128311,10 @@ coursera.org##+js(no-fetch-if, eventing)
 ||analytics.strapi.io^
 ||royalroad.com/dist/sentry.js$script
 ||svc.eu01.miro.com^$badfilter
+!#if ext_devbuild
+twitter.com,~platform.twitter.com##+js(trusted-replace-xhr-response, '/,"expanded_url":"([^"]+)","url":"[^"]+"/g', ',"expanded_url":"$1","url":"$1"', /api/graphql)
+platform.twitter.com##+js(trusted-replace-xhr-response, '/,"expanded_url":"([^"]+)","indices":([^"]+)"url":"[^"]+"/g', ',"expanded_url":"$1","indices":$2"url":"$1"', /tweet-result)
+!#endif
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -130348,6 +130348,8 @@ grasshopper.com##+js(set, google_optimize.get, noopFunc)
 ||epson.com.cn/common/new/js/tracking_code.js$1p,important
 epson.com.cn##+js(set, _gsq, {})
 epson.com.cn##+js(set, _gsq.push, noopFunc)
+epson.com.cn##+js(set, stmCustomEvent, noopFunc)
+epson.com.cn##+js(set, _gsDevice, '')
 consali.com,topstreamfilm.io#@#a[href^="https://consali.com/"]
 yandex.*#@#+js(aopr, Object.prototype.renderDirect):matches-path(/\/(?:weather\/|pogoda\/|hava\/)/)
 ||script-at.iocnt.net/iam.js$domain=oe24.at,important
