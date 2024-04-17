@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5UX8HgrGBiPf0tzqev6pXg
+! Checksum: A6p7O/1O8pnClFVVZdvIww
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404170913
-! Last Modified: 2024年04月17日 09:13
+! Version: 202404171424
+! Last Modified: 2024年04月17日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -730,9 +730,7 @@
 /getAdsysCode?
 /GetAdvertisingLeft?
 /google-adsense.js
-/google-dfp-native.
 /google_adsense-
-/google_afs_widget/*
 /google_caf.js?
 /googleAdsManager.js
 /googleafc.js
@@ -744,10 +742,6 @@
 /homepage_ads/*$domain=~swedishbeauty.com
 /house-ad.js
 /house-ads/*$image
-/housead.$domain=~housead.ru
-/housead/*
-/housead_
-/houseads.
 /hoverad.js
 /hserver/*
 /ht.js?site_
@@ -948,33 +942,27 @@
 /plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
 /poll-ad-
-/pop-under.
 /pop_8_2.js
-/pop_ad.
-/pop_ads.
-/pop_under.
+/pop_ads.js
 /pop_under/*
-/popads/*
-/popads_
 /popu.js
 /popunder-
-/popunder/*
-/popunder1.
-/popunder2.
+/popunder.min.js
+/popunder1.js
+/popunder2.js
 /popunder5.js
 /popunder7.min.js
 /popunder?
-/popunder_
 /popunderjs/*
 /popunders/*
 /popup-domination/*$~stylesheet
 /popup2.js
 /popup3.js
-/popup_ad.
+/popup_ad.js
+/popup_ad.php
 /popup_code.php
 /popupads.js
 /popupunder.js
-/pounder-$~image
 /prebid-video.js
 /prehead/ads_detect.js
 /prerollad.
@@ -989,11 +977,8 @@
 /PromosAds/*
 /promotools.
 /proxyadcall?
-/pub/ad/*
-/pub/ads/*
 /public/ad/*
 /public/ads/*
-/public/ads_
 /publicidad.$~object,~stylesheet
 /publicidad/*
 /publicidad_$~stylesheet
@@ -1017,14 +1002,13 @@
 /reklam/*$domain=~cloudflare.com|~github.com|~reklam.com.tr
 /reklama/*$domain=~github.com
 /reklama1.js
-/reklama2.
-/reklama3.
-/reklama4.
+/reklama2.jpg
+/reklama2.png
+/reklama3.jpg
+/reklama3.png
+/reklama4.jpg
+/reklama4.png
 /reklame/*
-/related-ads.
-/relatedads.
-/remove-ads.
-/remove_ads.
 /ren.gif?
 /report_ad.js
 /resources/ads/*
@@ -1061,7 +1045,6 @@
 /scripts/afc/*
 /scripts/chatur.js
 /sdk/push_web/?zid=
-/searchad.
 /select_adv?
 /servead/request/*
 /serveads.php
@@ -1080,22 +1063,15 @@
 /side-ads/*
 /side_ads/*
 /sidead.
-/sidead1.
+/sidead1.js
 /sideads.js
 /sideads/*
 /sidebar-ad-
-/sidebar-ads/*
-/sidebar_ad.
+/sidebar_ad.jpg
+/sidebar_ad.png
 /sidebar_ads/*
-/sidebarad/*
-/SidebarAds.
-/site-advert.
 /site=*/size=*/viewid=
 /site=*/viewid=*/size=
-/site_ads/*
-/siteads.
-/siteads/*
-/siteadvert.
 /size=*/random=*/viewid=
 /skin-ad_
 /skin/ad/*
@@ -19145,6 +19121,7 @@ browsershots.org#@#.advert_area
 ||adbutler-fermion.com^
 ||adbutler.com^
 ||adbuyer.com^
+||adc-teasers.com^
 ||adcannyxml.com^
 ||adcash.com^
 ||adcastplus.net^
@@ -40681,6 +40658,7 @@ browsershots.org#@#.advert_area
 ||nnmtjmkae.xyz^
 ||nnncrox.com^
 ||nnnfqegwes.xyz^
+||nnowa.com^
 ||nnoyigqsvjud.com^
 ||nnsnniklov.xyz^
 ||nnthewdnez.com^
@@ -73077,7 +73055,7 @@ jizzbunker.com,jizzbunker2.com,xxxdan.com,xxxdan3.com##.rzx1
 forum.lewdweb.net,forums.socialmediagirls.com##.samCodeUnit
 porngals4.com##.sb250
 7mm001.com,7mmtv.sx##.set_height_250
-sextb.net##.sextb_300
+sextb.net,sextb.xyz##.sextb_300
 gay-streaming.com,gayvideo.me##.sgpb-popup-dialog-main-div-wrapper
 gay-streaming.com,gayvideo.me##.sgpb-popup-overlay
 paradisehill.cc##.shapka
@@ -74140,6 +74118,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||ads.snapchat.com^$popup
 @@||ads.spotify.com^$popup
 @@||ads.taboola.com^$popup
+@@||ads.tiktok.com^$popup
 @@||ads.twitter.com^$popup
 @@||ads.vk.com^$popup
 @@||adv.asahi.com^$popup
@@ -128883,6 +128862,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||re-captha-version-$all
 ||digitalxnetwork.com^$all
 ||vnote-*.myqcloud.com^$all
+/^https:\/\/dienmayxanh[-a-z0-9]+\.com\//$doc,domain=com|~dienmayxanh.com
 /^https:\/\/hdsaison-?[a-z]{2,}\.(?:cc|com|vip)\//$doc,domain=cc|com|vip|~hdsaison.com.vn
 /^https:\/\/dhl\.\d+\.potabox\.com\//$doc,domain=~dhl.com
 ||dhl.0394.potabox.com^$all
@@ -128914,18 +128894,25 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||s33788.com^$all,to=~shopee.vn
 ||taikhoanvps.com.vn^$doc,domain=~vps.com.vn
 ||request--to--fix--63.glitch.me^$all
+||mbfic-plus.com^$all,to=~mbbank.com.vn
+||quaysomediamart2024.vip^$doc,domain=~mediamart.vn
 ||diwapa3051.wixsite.com/my-site$all
 ||pub-1eaf8d9fdf504256ad21005c83cb81f5.r2.dev/1.html$all
 ||proceedings.aios.org/all-protect47610/$all
+||ilg2021.github.io/telegram-webk/$all
 ||final-ua.eu/vasilisa/votings$all
 ||conradhayden.autos^$all
 ||acir.postofficeweb.com/grupoacir/$all
 ||base-swap-frontend-*.vercel.app^$doc
 ||interface-git-parallel-cypress-uniswap.vercel.app^$doc,domain=~uniswap.org
 ||dichvucong.$doc,domain=~gov.vn
+||business-facebook-*.pages.dev^$all
+||support-security-information-accounti.pages.dev^$all
 *$doc,domain=tikimall.*|~tiki.vn
 ||tikib.vip^$all,to=~tiki.vn
 ||tah0a.com^$all,to=~tiki.vn
+||fdsd22.com^$all,to=~tiki.vn
+||skhf11.com^$all,to=~tiki.vn
 /^https:\/\/steamproxy\.[a-z]+\//$all,domain=cc|co|net|vip
 ||steamcommumnuty.com^$all
 /^https:\/\/(ff\.)?member[.-]gare[a-z]+a\.vn\//$doc,domain=~garena.vn
@@ -128951,6 +128938,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||mybluehost.me/--/SBBCFF$doc
 ||yxf.hgn.mybluehost.me/pass/$doc
 ||codeanyapp.com/Swiss_com/$doc,domain=~swisscom.ch
+||hurricane-harmonious-pleasure.glitch.me^$all
 ||openseaverification.pages.dev^$all,to=~opensea.io
 ||opensea-nft.web.app^$all,to=~opensea.io
 ||clinitex.fr/META5KYC/$doc,domain=~metamask.io
@@ -128969,11 +128957,15 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||pancakeswap.icu^$all,to=~pancakeswap.finance
 ||2.dweer.wiki^$all
 ||cbnotif.top^$all
+||secure-documents.glitch.me^$all
+||good-charmed-sled.glitch.me^$all
+||air.bnb-id*.com^$all,to=~airbnb.com
+||s.edoctransfer.com^$all
+||nostalgic-agreeable-stop.glitch.me^$all
+||dfreg.freechip2023.com^$all
 ||od.atami.no/one_drive.html$all
 ||beluxrepm.followme.fr/FolloWMe$all
 ||mybluehost.me/Cope346/$all
-||secure-documents.glitch.me^$all
-||good-charmed-sled.glitch.me^$all
 ||fz9q.info/NZ-195/$all
 ||glitch.me/pdf.html?email=^$doc
 ||dones9.wixsite.com/my-sitecvfc$all
