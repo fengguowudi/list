@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gOzEbGMEQNU4a1IfIItXhQ
+! Checksum: IjHiMUi49Hsk6Ucp/u0+yw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404180912
-! Last Modified: 2024年04月18日 09:12
+! Version: 202404181422
+! Last Modified: 2024年04月18日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24713,6 +24713,7 @@ browsershots.org#@#.advert_area
 ||circusinjunctionarrangement.com^
 ||circusmediocre.com^
 ||cirmudcap.com^
+||cirsoaksat.net^
 ||cirsoiddanize.com^
 ||ciscoesfirring.guru^
 ||cisfazpisju.com^
@@ -40141,6 +40142,7 @@ browsershots.org#@#.advert_area
 ||natseegirde.net^
 ||nattepush.com^
 ||nattierariosi.space^
+||natuarycomping.com^
 ||naturalhealthsource.club^
 ||naturalistsbumpmystic.com^
 ||naturallyedaciousedacious.com^
@@ -69188,6 +69190,7 @@ bizarrepedia.com##.holder
 radiocaroline.co.uk##.home-banner
 manutd.com##.home-content-panel__sponsor
 pcgamingwiki.com##.home-gamesplanet-promo
+freespoke.com##.home-page-message
 merriam-webster.com##.home-redesign-ad
 israelnationalnews.com##.home-subsections-banner
 christianpost.com##.home-videoplayer
@@ -71909,6 +71912,7 @@ thisday.app##div[style="min-height: 340px;"]:has(div.ad)
 nicelocal.com##div[style="min-height: 600px;"]:has(iframe[id^="google_ads_"])
 nicelocal.com##div[style="min-height: 90px;"]:has(iframe[id^="google_ads_"])
 tartaria-faucet.net##div[style^="display"]:has([src^="https://multiwall-ads.shop/"])
+90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 nex-software.com##h4:has(a[href$="/reimage"])
 walmart.com##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 walgreens.com##li.owned-brands:has(figure.sponsored)
@@ -82257,6 +82261,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gleam.io^$script,third-party
 ||global.localizecdn.com/api/lib/*.gif?
 ||global.ssl.fastly.net/native/
+||globalservices.conde.digital/p77xzrbz9z.js
 ||gml-grp.com^*&affid=$subdocument,third-party
 ||go.activengage.com^
 ||go.com/capmon/GetDE/?
@@ -125765,7 +125770,7 @@ mangastream.mobi###myModal
 ###ad_footer:not([style^="position: absolute; left: -5000px"])
 ###ad_slot:not([style^="position: absolute; left: -5000px"])
 ~musmus.main.jp,~streetinsider.com###ad_space:not([style^="position: absolute; left: -5000px"])
-~kazukichi0914.hatenablog.com,~puzzle-ch.com###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
+~hatenablog.com,~puzzle-ch.com###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
 ###adheader:not([style^="position: absolute; left: -5000px"])
 ###ads-1:not([style^="position: absolute; left: -5000px"])
 ###ads-banner:not([style^="position: absolute; left: -5000px"])
@@ -128981,6 +128986,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||uaxaqr.com^$all
 /^https:\/\/(?:[a-z0-9]{2,}-)+10\d{4}\.weeblysite\.com\//$doc
 /^https:\/\/(?:[a-z0-9]{2,}-)+10\d{4}\.square\.site\//$doc
+||purple598020.studio.site^$all
 /^https:\/\/[^.]+\.codeanyapp\.com\/wp-content\/.+\/spo[a-z]{2}i\//$doc
 ||codeanyapp.com/*/spotii/$all
 ||codeanyapp.com/*/spoofi/$all
@@ -128988,11 +128994,16 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||airpos.co.kr/.well-known/pki-validation/*/MitID/$doc
 ||mybluehost.me/--/SBBCFF$doc
 ||yxf.hgn.mybluehost.me/pass/$doc
+||acconsult.info/*/CHFINAL/$doc
 ||codeanyapp.com/Swiss_com/$doc,domain=~swisscom.ch
+||clinitex.fr/META5KYC/$doc,domain=~metamask.io
+||satoshidexai.pages.dev^$all,to=~satoshidex.ai
+||syncwallet.pages.dev^$all,to=~walletconnect.com
 ||hurricane-harmonious-pleasure.glitch.me^$all
 ||openseaverification.pages.dev^$all,to=~opensea.io
 ||opensea-nft.web.app^$all,to=~opensea.io
-||clinitex.fr/META5KYC/$doc,domain=~metamask.io
+||pancakeswap.icu^$all,to=~pancakeswap.finance
+||pancake.run^$all,to=~pancakeswap.finance
 ||hybridtoken.org^$all
 ||tg-telegran.com^$all
 ||get-now.eventmidasbuys.com^$all
@@ -129005,7 +129016,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||rd.dv-tube.com^$all
 ||lzd2024.com^$all
 ||xn3iy.dgwt.my.id^$all,to=~mediafire.com
-||pancakeswap.icu^$all,to=~pancakeswap.finance
 ||2.dweer.wiki^$all
 ||cbnotif.top^$all
 ||secure-documents.glitch.me^$all
@@ -129014,11 +129024,13 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||s.edoctransfer.com^$all
 ||nostalgic-agreeable-stop.glitch.me^$all
 ||dfreg.freechip2023.com^$all
+||dapper-hexagonal-week.glitch.me^$all,to=~tescobank.com
+||office365.account-terminations.com^$all
 ||od.atami.no/one_drive.html$all
 ||beluxrepm.followme.fr/FolloWMe$all
 ||mybluehost.me/Cope346/$all
 ||fz9q.info/NZ-195/$all
-||glitch.me/pdf.html?email=^$doc
+||glitch.me/pdf.html?email=$doc
 ||dones9.wixsite.com/my-sitecvfc$all
 ||cursorltd.com^$doc
 ||cprapid.com^$doc
@@ -129381,6 +129393,7 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+$removeparam=ymclid
 $removeparam=ysclid
 $removeparam=yclid
 $removeparam=msclkid
@@ -129439,6 +129452,7 @@ $removeparam=mtm_source
 $removeparam=pk_campaign
 $removeparam=pk_medium
 $removeparam=pk_source
+$removeparam=pk_cid
 $removeparam=vgo_ee
 $removeparam=cx_click
 $removeparam=cx_recsOrder
@@ -129455,6 +129469,20 @@ $removeparam=ir_adid
 $removeparam=irclickid
 $removeparam=ir_partnerid
 $removeparam=_kx
+$removeparam=at_campaign
+$removeparam=at_campaign_type
+$removeparam=at_creation
+$removeparam=at_emailtype
+$removeparam=at_link
+$removeparam=at_link_id
+$removeparam=at_link_origin
+$removeparam=at_link_type
+$removeparam=at_medium
+$removeparam=at_ptr_name
+$removeparam=at_recipient_id
+$removeparam=at_recipient_list
+$removeparam=at_send_date
+$removeparam=ss_email_id
 $removeparam=asc_campaign,domain=aboutamazon.com|amazon.*|amzn.to
 $removeparam=asc_refurl,domain=aboutamazon.com|amazon.*|amzn.to
 $removeparam=asc_source,domain=aboutamazon.com|amazon.*|amzn.to
