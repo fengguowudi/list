@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RSlbndOFflGmc8Y3IZUACw
+! Checksum: EKCteki9B355WBt82O6Btg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404220915
-! Last Modified: 2024年04月22日 09:15
+! Version: 202404221422
+! Last Modified: 2024年04月22日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1491,7 +1491,7 @@ _widget_ad.
 /prebid5.
 /prebid6.
 /prebid7.
-/prebid8.
+/prebid8.$script
 /prebid?
 /prebid_$script,third-party
 /prebid_v4.
@@ -11226,10 +11226,8 @@ _800x80_
 ##.advt
 ##.advt-banner-3
 ##.advt-block
-##.advt-box
 ##.advt-right
 ##.advt-sec
-##.advt-text
 ##.advt300
 ##.advt720
 ##.advtBlock
@@ -11343,6 +11341,8 @@ _800x80_
 ##.ajaxads
 ##.ajdg_bnnrwidgets
 ##.ajdg_grpwidgets
+##.alice-adslot
+##.alice-root-header-ads__ad--top
 ##.align.Ad
 ##.alignads
 ##.alt_ad
@@ -12097,6 +12097,7 @@ _800x80_
 ##.c-advertisement--rectangle
 ##.c-advertising
 ##.c-advertising__banner-area
+##.c-adverts
 ##.c-advscrollingzone
 ##.c-box--advert
 ##.c-button--adchoices
@@ -14904,9 +14905,6 @@ _800x80_
 ##.player_ima-ad-container
 ##.playerad
 ##.playerdads
-##.plistaList > .itemLinkPET
-##.plistaList > .plista_widget_underArticle_item[data-type="pet"]
-##.plista_inimg_box
 ##.plugin-ad
 ##.plugin-ad-container
 ##.pm-ad
@@ -14922,7 +14920,6 @@ _800x80_
 ##.polarisMarketing
 ##.polaris__ad
 ##.polaris__below-header-ad-wrapper
-##.polaris__teads
 ##.position-ads
 ##.post--native-ad
 ##.post-ad
@@ -15302,19 +15299,16 @@ _800x80_
 ##.rightcol-adbox
 ##.rightcol-block-ads
 ##.rightcol_boxad
-##.rightcol_div_openx2
 ##.rightcolads
 ##.rightcoladvert
 ##.rightcoltowerad
 ##.rightnav_adsense
-##.rightpanelad
 ##.rightrail-ad-atf
 ##.rightrail-ad-block
 ##.rightrail-ad-placed
 ##.rightrail-display-ad
 ##.rightrail_ads
 ##.rightsideAd
-##.righttop-advt
 ##.ringtone-ad
 ##.river-item-sponsored
 ##.riverAdLoaded
@@ -15323,11 +15317,9 @@ _800x80_
 ##.rj-ads-wrap-sq
 ##.rj-ads-wrapper
 ##.rm-adslot
-##.rngtAd
 ##.rolloverad
 ##.roof-ad
 ##.root-ad-anchor
-##.rot_ads
 ##.rotatead-container
 ##.rotating-ad
 ##.rotating-ads
@@ -15335,16 +15327,12 @@ _800x80_
 ##.rotatingBannerWidget
 ##.rotatingadsection
 ##.rotator_ad_overlay
-##.round_box_advert
-##.roundedCornersAd
-##.row--gh-ad
 ##.row-ad
 ##.row-ad-leaderboard
 ##.rowAd
 ##.rowAds
 ##.row_header_ads
 ##.rowad
-##.rowgoogleads
 ##.rpd_ads
 ##.rr-300x250-ad
 ##.rr-300x600-ad
@@ -15367,21 +15355,15 @@ _800x80_
 ##.s-ads
 ##.s-ads-metrics
 ##.s-body-ad
-##.s-hidden-sponsored-item
 ##.s_ads
 ##.s_ads_label
 ##.s_sponsored_ads
-##.sa-mainad
-##.sabavision-ads
-##.sad_posterad
 ##.sadvert
 ##.sagreklam
 ##.sal-adv-gpt
 ##.sam_ad
 ##.sb-ad
-##.sb-ad-margin
 ##.sb-ads
-##.sb-top-sec-ad
 ##.sbAd
 ##.sbAdUnitContainer
 ##.sbTopadWrapper
@@ -15389,9 +15371,6 @@ _800x80_
 ##.sb_ad_holder
 ##.sc-ad
 ##.scad
-##.scanAd
-##.scb-ad
-##.scoopads
 ##.script-ad
 ##.scroll-ad-item-container
 ##.scroll-ads
@@ -15551,10 +15530,7 @@ _800x80_
 ##.sidebar-col-ad-left
 ##.sidebar-col-ad-right
 ##.sidebar-content-ad
-##.sidebar-digiads
 ##.sidebar-header-ads
-##.sidebar-paid-ad-label
-##.sidebar-product-ad
 ##.sidebar-skyscraper-ad
 ##.sidebar-sponsored
 ##.sidebar-sponsors
@@ -15563,7 +15539,6 @@ _800x80_
 ##.sidebar-text-ad
 ##.sidebar-top-ad
 ##.sidebar-tower-ad
-##.sidebar300adblock
 ##.sidebarAD
 ##.sidebarAd
 ##.sidebarAdBlock
@@ -15572,13 +15547,8 @@ _800x80_
 ##.sidebarAdUnit
 ##.sidebarAds300px
 ##.sidebarAdvert
-##.sidebarCloseAd
 ##.sidebarNewsletterAd
 ##.sidebar__ad
-##.sidebar__block--ad
-##.sidebar__block-advertisement
-##.sidebar__item-spacer--advert-top
-##.sidebar__module--ad
 ##.sidebar_ad
 ##.sidebar_ad_300
 ##.sidebar_ad_300_250
@@ -67949,7 +67919,7 @@ charismanews.com##.RightBnrWrap
 geometrydash.io##.RowAdv
 clutchpoints.com##.RzKEf
 thesaurus.com##.SZjJlj7dd7R6mDTODwIT
-gq.com##.SavingsUnitedCouponsWrapper-humLIe
+gq.com##.SavingsUnitedCouponsWrapper-gPnqA-d
 lbcgroup.tv##.ScriptDiv
 staples.com##.SearchRootUX2__bannerAndSkuContainer
 coingape.com##.Sidemads
@@ -68895,6 +68865,7 @@ hunker.com,livestrong.com##.component-article-section-jwplayer-wrapper
 binnews.com,iheart.com,jessekellyshow.com,steveharveyfm.com##.component-pushdown
 binnews.com,iheart.com,jessekellyshow.com,steveharveyfm.com##.component-recommendation
 cointelegraph.com##.componentAdbutler_uF1zH
+kqed.org##.components-Ad-__Ad__ad
 dailymail.co.uk,thisismoney.co.uk##.connatix-wrapper
 realsport101.com##.connatixPS
 dpreview.com##.connatixWrapper
@@ -70940,6 +70911,7 @@ vaughn.live##.theMvnAbvsLowerThird
 steelersdepot.com##.theiaStickySidebar
 serverhunter.com##.this-html-will-keep-changing-these-ads-dont-hurt-you-advertisement
 gearspace.com##.thread__sidebar-ad-container
+geeksforgeeks.org##.three90RightBarBanner
 aardvark.co.nz##.tinyprint
 blendernation.com##.title
 cryptocompare.com##.title-hero
@@ -71570,6 +71542,7 @@ geekzone.co.nz##[style="height:90px"]
 realitytvworld.com##[style="margin: 5px 0px 5px; display: inline-block; text-align: center; height: 250;"]
 timesnownews.com##[style="min-height: 181px;"]
 namemc.com##[style="min-height: 238px"]
+waifu2x.net##[style="min-height: 270px; margin: 1em"]
 calendar-uk.co.uk,theartnewspaper.com,wahm.com##[style="min-height:250px;"]
 edgegamers.com##[style="padding-bottom:10px;height:90px;"]
 dvdsreleasedates.com##[style="padding:15px 0 15px 0;width:728px;height:90px;text-align:center;"]
@@ -71577,6 +71550,8 @@ analyticsinsight.net##[style="text-align: center;"]
 kreationnext.com##[style="text-align:center"]
 forum.nasaspaceflight.com##[style="text-align:center; margin-bottom:30px;"]
 deviantart.com##[style="width: 308px; height: 316px;"]
+waifu2x.net##[style="width: 90%;height:120px"]
+law360.com##[style="width:100%;display:flex;justify-content:center;background-color:rgb(247, 247, 247);flex-direction:column;"]
 newagebd.net##[style^="float:left; width:320px;"]
 forum.lowyat.net##[style^="height:100px;padding:5px"]
 fandomwire.com##[style^="min-height: 320px"]
@@ -72031,7 +72006,7 @@ hiphopkit.com##img[alt="Zappy"]
 therainbowtimesmass.com##img[alt="banner ad"]
 pasty.info##img[aria-label="Aliexpress partner network affiliate Link"]
 pasty.info##img[aria-label="Ebay partner network affiliate Link"]
-inkbotdesign.com##img[decoding="async"]
+inkbotdesign.com,kuramanime.lol##img[decoding="async"]
 nepallivetoday.com,wjr.com##img[height="100"]
 prawfsblawg.blogs.com,thomhartmann.com##img[height="200"]
 1001tracklists.com,newyorkyimby.com##img[height="280"]
@@ -74570,7 +74545,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 .jp/pv?
 .jp/static/js/track.js
 .js?id=GTM-
-.lms-analytics/
 .net/l.gif?
 .no/app/aas/a
 .php?action=browse&
@@ -75779,6 +75753,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /leadtag.js
 /leage.google.tracker.js
 /lhnhelpouttab-current.min.js
+/li.lms-analytics/insight.min.js
 /lib/analytics.js
 /library/svy/broker.js
 /libs/tracker.js
@@ -129269,11 +129244,12 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||mobilelegendsmycode.com^$all
 ||affixresolve.web.app^$all
 ||superficial-deserted-territory.glitch.me^$all
-||s33788.com^$all,to=~shopee.vn
 ||taikhoanvps.com.vn^$doc,domain=~vps.com.vn
 ||request--to--fix--63.glitch.me^$all
 ||mbfic-plus.com^$all,to=~mbbank.com.vn
 ||quaysomediamart2024.vip^$doc,domain=~mediamart.vn
+||linktaccountcontant.com^$all,to=~linkt.com.au
+||mayxanhsupport.com^$all,to=~dienmayxanh.com
 ||diwapa3051.wixsite.com/my-site$all
 ||pub-1eaf8d9fdf504256ad21005c83cb81f5.r2.dev/1.html$all
 ||proceedings.aios.org/all-protect47610/$all
@@ -129289,11 +129265,17 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 /^https:\/\/tpbank\.[-a-z0-9]{5,}\.[a-z]{3}(?:\.vn)?\//$doc,domain=~edu|~gov|~gov.vn|~tpb.vn
 ||business-facebook-*.pages.dev^$all
 ||support-security-information-accounti.pages.dev^$all
+||s33788.com^$all,to=~shopee.vn
+||sp77888.com^$all,to=~shopee.vn
 *$doc,domain=tikimall.*|~tiki.vn
 ||tikib.vip^$all,to=~tiki.vn
 ||tah0a.com^$all,to=~tiki.vn
-||fdsd22.com^$all,to=~tiki.vn
-||skhf11.com^$all,to=~tiki.vn
+||tdkd00.com^$all,to=~tiki.vn
+||nhanvientiki.info^$all,to=~tiki.vn
+||tuyendungtiki2024.vn^$all,to=~tiki.vn
+/^https:\/\/tdkd0[0-9]\.com\//$document,domain=~tiki.vn
+/^https:\/\/[st][a-z0-9]{2,4}[0-9][a-z0-9]\.com\/api\/user\/do_login$/$xhr,1p,strict1p,method=post,from=com,to=com,header=access-control-allow-headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
+/^https:\/\/[st][a-z0-9]{2,4}[0-9][a-z0-9]\.com\/api\/user\/do_login$/$xhr,1p,strict1p,method=post,from=com,to=com,header=Access-Control-Allow-Headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /^https:\/\/steamproxy\.[a-z]+\//$all,domain=cc|co|net|vip
 ||steamcommumnuty.com^$all
 /^https:\/\/(?:ff[-.])?member[-.]gare[a-z]+a(?:\.pro)?\.vn\//$doc,domain=vn|~garena.vn
@@ -129332,6 +129314,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||hurricane-harmonious-pleasure.glitch.me^$all
 ||openseaverification.pages.dev^$all,to=~opensea.io
 ||opensea-nft.web.app^$all,to=~opensea.io
+||web3-opensea-multichain.codeanyapp.com^$all,to=~opensea.io
 ||pancakeswap.icu^$all,to=~pancakeswap.finance
 ||pancake.run^$all,to=~pancakeswap.finance
 ||pancake-clalm.xyz^$all,to=~pancakeswap.finance
@@ -129901,8 +129884,8 @@ coursera.org##+js(no-fetch-if, eventing)
 ||analytics.strapi.io^
 ||royalroad.com/dist/sentry.js$script
 ||svc.eu01.miro.com^$badfilter
-!#if ext_devbuild
-twitter.com,~platform.twitter.com##+js(trusted-replace-xhr-response, '/,"expanded_url":"([^"]+)","url":"[^"]+"/g', ',"expanded_url":"$1","url":"$1"', /api/graphql)
+!#if env_firefox
+twitter.com,~platform.twitter.com##+js(trusted-replace-xhr-response, '/,"expanded_url":"([^"]+)","url":"[^"]+"/g', ',"expanded_url":"$1","url":"$1"', /graphql)
 platform.twitter.com##+js(trusted-replace-xhr-response, '/,"expanded_url":"([^"]+)","indices":([^"]+)"url":"[^"]+"/g', ',"expanded_url":"$1","indices":$2"url":"$1"', /tweet-result)
 !#endif
 streamin.me##^responseheader(set-cookie)
