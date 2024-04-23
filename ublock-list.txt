@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gDLGtt1p4nckqUqQIotlFA
+! Checksum: fbkyKVraclMwQm7UjRvfAA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404231423
-! Last Modified: 2024年04月23日 14:23
+! Version: 202404232032
+! Last Modified: 2024年04月23日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -58249,6 +58249,7 @@ browsershots.org#@#.advert_area
 ||d84bc26d.site^$document,popup
 ||e076.xyz^$document,popup
 ||e1577bbd-2a7e-4bee-b2fe-12a6406689e5.xyz^$document,popup
+||f6176563.site^$document,popup
 ||f97ae142.online^$document,popup
 ||fadeb9a7-2417-4a51-8d99-0421a5622cbe.xyz^$document,popup
 ||html-load.cc^$document,popup
@@ -76446,7 +76447,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /stats/collect?
 /stats/collector.js
 /stats/event.js?
-/stats/events$script,xmlhttprequest
+/stats/events$xmlhttprequest
 /stats/footer.js
 /stats/ga.js
 /stats/impression
@@ -122049,6 +122050,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||visumo.jp/Content/js/tracking.js
 ||withnews.jp/assets/js/bcon.js
 ||wowow.co.jp/API/new_prg/get_tracking_url.php
+||wrtn.ai/proxy/client/metrics
 ||x.allabout.co.jp^
 ||yahoo.co.jp/b?p=
 ||yahoo.co.jp/p?
@@ -132109,6 +132111,7 @@ fapeza.com##.azz_iframe
 @@||nxp.com/resources/scripts/analytics/webanalytics.js$script,1p
 moneycontrol.com##.hide_in_desktop.footer_navigation_list:style(height: 10px !important)
 moneycontrol.com##.advSlotsGrayBox
+||appboycdn.com^$script,3p,redirect-rule=noopjs,domain=animates.co.nz
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
