@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XUgvTPoSnEPaqcwmREF1Vg
+! Checksum: 8+SfiTmALbOaWNgExzCA3g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404250915
-! Last Modified: 2024年04月25日 09:15
+! Version: 202404251422
+! Last Modified: 2024年04月25日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -68120,6 +68120,8 @@ auto.hindustantimes.com##.adsHeight970x250
 dailyo.in##.adsWrp
 radaris.com##.ads_160_600
 games2jolly.com##.ads_310_610_sidebar_new
+kbb.com##.ads__container
+kbb.com##.ads__container-kbbLockedAd
 metro.co.uk##.ads__index__adWrapper--cz7QL
 glanceoflife.com##.ads_margin
 skyve.io##.ads_space
@@ -71374,6 +71376,8 @@ unknowncheats.me##[href^="https://proxy-seller.com/"]
 cryptonews.com##[href^="https://rapi.cryptonews.com/"]
 tcbscans.com##[href^="https://readcbr.com/"]
 rebelnews.com##[href^="https://rebelne.ws/"]
+rlsbb.cc##[href^="https://rlsbb.cc/link.php"]
+rlsbb.ru##[href^="https://rlsbb.ru/link.php"]
 everybithelps.io##[href^="https://shop.ledger.com/"]
 all-free-download.com##[href^="https://shutterstock.7eer.net/c/"] img
 yts.mx##[href^="https://stARtgAMinG.net/"]
@@ -83978,6 +83982,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d1vg5xiq7qffdj.cloudfront.net^
 ||d1wix2gc2cgqis.cloudfront.net^
 ||d1xfq2052q7thw.cloudfront.net^
+||d1z3r0i09bwium.cloudfront.net^
 ||d1z9vm58yath60.cloudfront.net^
 ||d20kffh39acpue.cloudfront.net^
 ||d21o24qxwf7uku.cloudfront.net^
@@ -122045,6 +122050,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||mixi.net/static/js/build/mixi-analysis.production.js
 ||mng.jiji.com/cookie.html
 ||muragon.com/js/normal/gtag-event.js
+||mwed.jp/assets/packs/js/measurements/
 ||next.rikunabi.com/api/logRecommendRealtimeI2AV2
 ||nhk.or.jp^*/bc.js
 ||nicoad.nicovideo.jp/*/instream/tracking/
