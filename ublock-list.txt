@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fmD2rqf5G3k8kOx+6zCbNw
+! Checksum: xOL4wMHAIL/ci9AIme/pKg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404260914
-! Last Modified: 2024年04月26日 09:14
+! Version: 202404261424
+! Last Modified: 2024年04月26日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -85913,7 +85913,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kck.st/web/track
 ||kgoma.com/v1/stat/
 ||khanacademy.org/api/internal/_analytics/
-||khanacademy.org/api/internal/_bb/
 ||kinesis.us-east-1.analytics.edmentum.com^
 ||kkam.com/rest/high/api/cogitoergosum^
 ||klm.us/CWZUvc/
@@ -132213,6 +132212,9 @@ moneycontrol.com##.hide_in_desktop.footer_navigation_list:style(height: 10px !im
 moneycontrol.com##.advSlotsGrayBox
 ||appboycdn.com^$script,3p,redirect-rule=noopjs,domain=animates.co.nz
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,3p,redirect=google-ima.js,domain=etonline.com,important
+||yieldlove.com/v2/yieldlove.js$script,domain=whatismyip.com,important
+whatismyip.com##+js(set, yieldlove_cmd, {})
+whatismyip.com##+js(set, yieldlove_cmd.push, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
