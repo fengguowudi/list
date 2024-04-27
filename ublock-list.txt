@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JlrKF6u0BzAN/T/ZpgUYbg
+! Checksum: H8vy3Ts8PkNPRPgs8HsysQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404270221
-! Last Modified: 2024年04月27日 02:21
+! Version: 202404270913
+! Last Modified: 2024年04月27日 09:13
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -3305,6 +3305,7 @@ _800x80_
 ###ads-right-skyscraper
 ###ads-right-top
 ###ads-slot
+###ads-space
 ###ads-superBanner
 ###ads-text
 ###ads-top
@@ -41088,6 +41089,7 @@ browsershots.org#@#.advert_area
 ||nupdhyzetb.com^
 ||nuphizarrafw.com^
 ||nupjzylhequ.com^
+||nuptoomaugou.net^
 ||nuqwe.com^
 ||nuraghireels.com^
 ||nurcghihmec.com^
@@ -55693,6 +55695,7 @@ browsershots.org#@#.advert_area
 ||yearnwillowconsumption.com^
 ||yedbehindforh.info^
 ||yefzjingxudwib.com^
+||yeggscuvette.com^
 ||yeioreo.net^
 ||yellow-resultsbidder.com^
 ||yellow-resultsbidder.org^
@@ -56306,6 +56309,7 @@ browsershots.org#@#.advert_area
 ||zobsaims.com^
 ||zodiacranbehalf.com^
 ||zoeaegyral.com^
+||zoeaethenar.com^
 ||zofitsou.com^
 ||zog.link^
 ||zogoluggers.com^
@@ -76347,6 +76351,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /rwtag.js
 /s-pcjs.php
 /s.gif?
+/s/vestigo/measure
 /s_code_global_context.js
 /s_trans.gif?
 /sa.gif?
@@ -122661,6 +122666,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kilimall.co.ke/sensorsdata.min.js$~third-party
 @@||kilimall.co.tz/sensorsdata.min.js$~third-party
+@@||kilimall.com&*/js/sensorsdata.min.js$script,domain=kilimall.co.ke
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
 @@||lacoste.com^*/click-analytics.js$~third-party
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
