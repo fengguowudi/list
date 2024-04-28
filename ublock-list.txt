@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y9lnd2I6aP1xo+stw+7Vjg
+! Checksum: Z+P7/Ryh0vMKiHbYqzaqnA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202404282031
-! Last Modified: 2024年04月28日 20:31
+! Version: 202404290219
+! Last Modified: 2024年04月29日 02:19
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -13527,6 +13527,7 @@ _800x80_
 ##.homepageAd
 ##.homepageFlexAdOuter
 ##.homepageMPU
+##.homepage__native-ad
 ##.homepage_ad_half
 ##.homepage_ads
 ##.homepage_ads_topspot
@@ -124033,7 +124034,6 @@ bitcoinly.in##.banner
 bitcoinly.in##[href^="https://fairspin.me"]
 bitcoinly.in###link-view > center
 bitcoinly.in##[class^="bmadblock-"]
-||pagead2.googlesyndication.com/pagead/show_ads.js^$script,redirect-rule=noopjs,domain=thetimetube.com
 eturbonews.com##^responseheader(location)
 @@||renault-club.cz^$ghide
 renault-club.cz##ins.adsbygoogle
