@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5GqCcXWBj3bBnrzF9b6E6g
+! Checksum: D4YHax7zLcEWTtuLBE8YTA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405020914
-! Last Modified: 2024年05月02日 09:14
+! Version: 202405021422
+! Last Modified: 2024年05月02日 14:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2032,7 +2032,6 @@ _800x80_
 ###Advertorials
 ###AnchorAd
 ###ArticleContentAd
-###BB1-ad
 ###Banner728x90
 ###BannerAd
 ###BannerAds
@@ -2071,11 +2070,6 @@ _800x80_
 ###HeroAd
 ###HomeAd1
 ###HouseAd
-###IB-ads
-###IC1-ad
-###IC2-ad
-###IC3-ad
-###IC4-ad
 ###IFrameAd
 ###IFrameAd1
 ###IK-ad-area
@@ -2140,7 +2134,6 @@ _800x80_
 ###TopRightRadvertisement
 ###VPNAdvert
 ###WelcomeAd
-###WidgetADVMIDDLE
 ###aad-header-1
 ###aad-header-2
 ###aad-header-3
@@ -6432,12 +6425,7 @@ _800x80_
 ###zeus_top-banner
 ###zone-adsense
 ###zsAdvertisingBanner
-###zztextad
 ##.-advertsSidebar
-##.AD-POST
-##.AD300
-##.AD300Block
-##.AD355125
 ##.AD728
 ##.ADBAR
 ##.ADBnrArea
@@ -6449,7 +6437,6 @@ _800x80_
 ##.ADPod
 ##.ADServer
 ##.ADStyle
-##.ADTextSingle
 ##.ADTop
 ##.ADV-Space
 ##.ADVBig
@@ -6457,16 +6444,11 @@ _800x80_
 ##.ADVParallax
 ##.ADV_Mobile
 ##.AD_2
-##.AD_336_280
-##.AD_Leaderboard
 ##.AD_area
 ##.AD_textinfo
-##.AD_underpost
 ##.ADbox
 ##.ADmid
-##.ADouter_div
 ##.ADwidget
-##.AL-ad-container
 ##.ATF_wrapper
 ##.Ad--970x90
 ##.Ad--Align
@@ -12598,7 +12580,6 @@ _800x80_
 ##.fh_ad_microbuttons
 ##.field-59-companion-ad
 ##.fig-ad-content
-##.firefly-sidebar-ad
 ##.first-article-ad-block
 ##.first-banner-ad
 ##.first-leaderbord-adv
@@ -129312,10 +129293,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||digitalxnetwork.com^$all
 ||vnote-*.myqcloud.com^$all
 /^https:\/\/dienmayxanh[-a-z0-9]+\.com\//$doc,domain=com|~dienmayxanh.com
-/^https:\/\/hdsaison-?[a-z]{2,}\.(?:cc|com|vip)\//$doc,domain=cc|com|vip|~hdsaison.com.vn
-/^https:\/\/dhl\.\d+\.potabox\.com\//$doc,domain=~dhl.com
-||dhl.0394.potabox.com^$all
-||sp.aircsgo.com^$all
+/^https:\/\/vietg[a-z]v[0-9]*\.cc\//$doc,domain=cc
+||vietgcv.cc^$all
 ||midwestfinestbb.com^$all
 ||linea.baby^$all
 ||ibc.web4cms.milestoneinternet.info^$all
@@ -129344,6 +129323,9 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||linktaccountcontant.com^$all,to=~linkt.com.au
 ||mayxanhsupport.com^$all,to=~dienmayxanh.com
 ||liveflo.qxlva.io^$all
+||hdtinchap.com^$all,to=~hdsaison.com.vn
+||lotttemart.store^$all
+||confirmations.media-love.workers.dev^$all
 ||diwapa3051.wixsite.com/my-site$all
 ||proceedings.aios.org/all-protect47610/$all
 ||final-ua.eu/vasilisa/votings$all
@@ -129353,10 +129335,18 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||dichvucong.$doc,domain=~gov.vn
 ||datahub.center^$all
 ||chamsocthekhachhang-thang4.com.vn^$all
+||sotuyenvcb.vietcombanker.com^$all
+||vdbank.com.vn^$all,to=~vdb.gov.vn
+/^https:\/\/hdsaison-?[a-z]{2,}\.(?:cc|com|vip)\//$doc,domain=cc|com|vip|~hdsaison.com.vn
 /^https:\/\/tpbank\.[-a-z0-9]{5,}\.[a-z]{3}(?:\.vn)?\//$doc,domain=~edu|~gov|~gov.vn|~tpb.vn
+/^https:\/\/dhl\.\d+\.potabox\.com\//$doc,domain=~dhl.com
+||dhl.0394.potabox.com^$all
+||sp.aircsgo.com^$all
+||solutionfun.info^$all
 ||business-facebook-*.pages.dev^$all
 ||support-security-information-accounti.pages.dev^$all
 ||emailfacebooksecurity.pages.dev^$all
+||haryanaaffordableshops.net/market-public-profile$all
 ||s33788.com^$all,to=~shopee.vn
 ||sp77888.com^$all,to=~shopee.vn
 *$doc,domain=tikimall.*|~tiki.vn
@@ -129413,6 +129403,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||acconsult.info/*/CHFINAL/$doc
 ||codeanyapp.com/Swiss_com/$doc,domain=~swisscom.ch
 ||secureserver.net/myswisscom$doc,domain=~swisscom.ch
+||uniswap-free.eth.limo^$all,to=~uniswap.org
 ||web3mainnetdapp.pages.dev^$all
 ||web3connectfix.pages.dev^$all
 ||metannask.aprisacv.com.mx^$all
@@ -129796,6 +129787,7 @@ isthereanydeal.com##+js(href-sanitizer, a[href^="https://track.adtraction.com/t/
 metager.org##+js(href-sanitizer, a[href^="https://metager.org/partner/r?link=http"], ?link)
 idnes.cz##+js(aeld, click, pingUrl)
 idnes.cz##+js(aeld, mousedown, scoreUrl)
+slickdeals.net##+js(href-sanitizer, a[href*="go.redirectingat.com"][href*="url=http"], ?url)
 /detroitchicago/dpv.gif?$image
 /detroitchicago/imp.gif$ping
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,newstimes.com,nhregister.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,timesunion.com##+js(cookie-remover, realm.cookiesAndJavascript)
@@ -132341,6 +132333,7 @@ moneycontrol.com##.advSlotsGrayBox
 whatismyip.com##+js(set, yieldlove_cmd, {})
 whatismyip.com##+js(set, yieldlove_cmd.push, noopFunc)
 myfitnesspal.com##+js(set, dataLayer.push, noopFunc)
+myair.resmed.com##+js(no-xhr-if, 1.1.1.1/cdn-cgi/trace)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
