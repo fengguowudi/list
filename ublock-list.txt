@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cdvSpa873Qydt8v9kpt1IQ
+! Checksum: 0/xF4/D+08yeD1pAmL0NzQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405032030
-! Last Modified: 2024年05月03日 20:30
+! Version: 202405040221
+! Last Modified: 2024年05月04日 02:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -58210,6 +58210,7 @@ browsershots.org#@#.advert_area
 ||googleadservices-cn.com^
 ||googleadsserving.cn^
 ||googlevads-cn.com^
+||02777e.site^$document,popup
 ||07c225f3.online^$document,popup
 ||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^$document,popup
 ||295c.site^$document,popup
@@ -68560,6 +68561,7 @@ kottke.org##.bling-title
 wearedore.com##.bloc-pub
 rpgsite.net##.block
 soundonsound.com##.block---managed
+worldviewweekend.com##.block--advertisement
 analyticsinsight.net##.block-10
 megagames.com##.block-4
 crash.net##.block-ad-manager
@@ -69337,6 +69339,7 @@ sltrib.com##.grid-ad-container-2
 teleboy.ch##.grid-col-content-leaderboard
 newsnow.co.uk##.grid-column__container
 groovypost.com##.groov-adlabel
+leetcode.com##.group\/ads
 gulftoday.ae##.gt-ad-center
 gulf-times.com##.gt-horizontal-ad
 gulf-times.com##.gt-square-desktop-ad
@@ -69673,6 +69676,7 @@ flotrack.org##.lazy-leaderboard-container
 iol.co.za##.lbMtEm
 trueachievements.com,truesteamachievements.com,truetrophies.com##.lb_holder
 issuu.com##.lbiKNr
+leetcode.com##.lc-ads__241X
 coincodex.com##.ldb-1top
 coincodex.com##.ldb-top
 soaphub.com##.ldm_ad
@@ -128859,6 +128863,13 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||du0.jp^$doc
 ||hapinet.net^$doc
 ||kiseki.com^$doc
+||b.eeaach.com^$doc
+||gre.green-g-r-ee-n.com^$doc
+||msdjdhj-tyq.com^$doc
+||fukutoku-miyako.com^$doc
+||peraichi.com^$doc
+||ka73-urara.club^$doc
+||uraaka.net^$doc
 ||soft-pro.site^$all
 ||apkmirror.co^$all
 ||webogram.org^$all
