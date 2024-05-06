@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Lvq7pm0IX2cuQXcEBsv+Bw
+! Checksum: zjhE1B8IxXew2yeovyz4zQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405060916
-! Last Modified: 2024年05月06日 09:16
+! Version: 202405061423
+! Last Modified: 2024年05月06日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -166,7 +166,6 @@
 /ad/dfp/*
 /ad/err?
 /ad/getban?
-/ad/html/*
 /ad/image/*
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*$image,domain=~jiji.com
@@ -175,7 +174,6 @@
 /ad/popup.
 /ad/skin-
 /ad/skin_
-/ad/sponsors/*
 /ad/view/*
 /ad300.jpg
 /ad300.js
@@ -332,6 +330,7 @@
 /ads/sponsor
 /ads/square-
 /ads/square.
+/ads/targeted|
 /ads/top-
 /ads/top.
 /ads/tracker/*
@@ -729,7 +728,6 @@
 /hserver/channel=
 /hserver/site=
 /ht.js?site_
-/html/ad/*
 /html/ads/*
 /image/ad/*
 /image/ads/*
@@ -743,7 +741,7 @@
 /images/adv/*
 /images/adz/*
 /images2/Ads/*$image
-/img/ad/*$image
+/img/ad/*$~xmlhttprequest
 /img/aff/*
 /img_ad/*
 /in/show/?mid=$third-party
@@ -754,7 +752,7 @@
 /index-ad.jpg
 /index-ad.js
 /index-ad.png
-/index_ad/*
+/index_ad/*$image
 /index_ads.js
 /infinity.js.aspx?
 /inhouse_ads/*$image
@@ -841,7 +839,6 @@
 /oncc-ad.js
 /openads.js
 /owa.MessageAdList.
-/p2/ads/*
 /p8network.js
 /p?zoneId=
 /page-ads-
@@ -929,7 +926,6 @@
 /popunder7.min.js
 /popunder?
 /popunderjs/*
-/popunders/*
 /popup-domination/*$~stylesheet
 /popup2.js
 /popup3.js
@@ -938,6 +934,7 @@
 /popup_code.php
 /popupads.js
 /popupunder.js
+/prbt/v1/ads/?
 /prebid-video.js
 /prehead/ads_detect.js
 /prerollad.
@@ -951,8 +948,8 @@
 /PromosAds/*
 /promotools.
 /proxyadcall?
-/public/ad/*
-/public/ads/*
+/public/ad/*$image
+/public/ads/*$image
 /publicidad.$~object,~stylesheet
 /publicidad/*
 /publicidad_$~stylesheet
@@ -986,7 +983,7 @@
 /ren.gif?
 /report_ad.js
 /resources/ads/*
-/responsive/ad_
+/responsive/ad_$subdocument
 /responsive_ads.js
 /right-ad-
 /right_ad.
@@ -1062,7 +1059,7 @@
 /skyadright.
 /skyscraper_ad_
 /skyscraperad.
-/slide_in_ads_
+/slide_in_ads_close.gif
 /slider_ad.js
 /sliderad.js
 /small_ad.
@@ -1126,7 +1123,6 @@
 /ttj?id=
 /ut.js?cb=
 /utx?cb=$third-party
-/v1/ads/*
 /v2/a/pop/*
 /v2/a/push/js/*
 /v3/ads/*
@@ -14236,7 +14232,6 @@ _800x80_
 ##.mu-ad-container
 ##.multiad2
 ##.multiadwrapper
-##.multiple-ads-container
 ##.mvAd
 ##.mvAdHdr
 ##.mv_atf_ad_holder
@@ -14252,8 +14247,6 @@ _800x80_
 ##.myAds
 ##.myAdsGroup
 ##.my__container__ad
-##.myadmid
-##.myinarticlead
 ##.n1ad-center-300
 ##.narrow_ad_unit
 ##.narrow_ads
@@ -14263,12 +14256,9 @@ _800x80_
 ##.native-ad-article
 ##.native-ad-container
 ##.native-ad-item
-##.native-ad-link
 ##.native-ad-mode
 ##.native-ad-placeholder
-##.native-ad-promoted-provider
 ##.native-ad-slot
-##.native-ad__first
 ##.native-adv
 ##.native-advts
 ##.native-leaderboard-ad
@@ -14282,10 +14272,6 @@ _800x80_
 ##.native_ad_wrap
 ##.native_ads
 ##.nativead
-##.nativeadasideplaceholder
-##.nativeads-unt
-##.nativiadsense
-##.nature-ad
 ##.nav-ad
 ##.nav-ad-gpt-container
 ##.nav-ad-plus-leader
@@ -14300,27 +14286,15 @@ _800x80_
 ##.navbar-ad-section
 ##.navbar-ads
 ##.navbar-header-ad
-##.navcommercial
 ##.navi_ad300
 ##.naviad
-##.nbc_Adv
-##.nc-exp-ad
-##.nchadcont
-##.nda-ad
 ##.ndmadkit
-##.nemo-ad
-##.neo-advert
 ##.netPost_ad1
 ##.netPost_ad3
 ##.netads
 ##.netshelter-ad
-##.network-ad-two
 ##.new-ad-box
-##.new-ads-scroller
 ##.newHeaderAd
-##.newPageAd
-##.newPex_forumads
-##.newTopAdContainer
 ##.new_ad1
 ##.new_ad_left
 ##.new_ad_normal
@@ -14330,26 +14304,20 @@ _800x80_
 ##.newad1
 ##.newadsky-wrapper
 ##.news-ad
-##.news-ad-block-a
 ##.news-ad-square-a
 ##.news-ad-square-box
 ##.news-ads-top
-##.news-advert__column
 ##.news-advertisement
 ##.news-home-block-ad
 ##.news-item--ad
 ##.news-place-ad-info
 ##.news_ad_box
-##.news_article_ad_google
-##.news_footer_ad_container
-##.news_imgad
 ##.news_vibrant_ads_banner
 ##.newsad
 ##.newsblock-ads
 ##.newsfeed_adunit
 ##.newsletter_ad
 ##.newspack_global_ad
-##.nexusad
 ##.nf-adbox
 ##.nfy-ad
 ##.nfy-ad-teaser
@@ -14359,12 +14327,7 @@ _800x80_
 ##.nfy-col-ad
 ##.ng-ad-banner
 ##.ng-ad-insert
-##.ngart__ad-col
-##.ngart__side-ad
-##.ngs-adv-async
 ##.nm-ad
-##.nmAd_BB-wr
-##.nmAd_FB
 ##.nn_mobile_mpu_wrapper
 ##.node-ad
 ##.node-content-ad
@@ -14389,14 +14352,11 @@ _800x80_
 ##.np-header-ad
 ##.np-header-ads-area
 ##.np-right-ad
-##.npAdGoogle
-##.npSponsorTextAd
 ##.nrAds
 ##.nsAdRow
 ##.nts-ad
 ##.ntv-ad
 ##.ntv-rail-ad
-##.nu2ad
 ##.nuffnangad
 ##.nui-ad-layout
 ##.nuk-ad-placeholder
@@ -14409,7 +14369,6 @@ _800x80_
 ##.nw_adv_square
 ##.nx-billboard-ad
 ##.nx-placeholder-ad
-##.nzs-ads
 ##.o-ad
 ##.o-ad-banner-top
 ##.o-ad-container
@@ -14420,14 +14379,12 @@ _800x80_
 ##.o-advert
 ##.o-listing__ad
 ##.o-site-header__advert
-##.o-story-content__ad
 ##.o-teaser--native-ad
 ##.oad-ad
 ##.oas-ad
 ##.oas-bottom-ads
 ##.oas-container
 ##.oas-leaderboard-ads
-##.oasInAds
 ##.oas_ad
 ##.oas_add
 ##.oas_advertisement
@@ -14540,7 +14497,6 @@ _800x80_
 ##.panel.ad
 ##.panel_ad
 ##.paneladvert
-##.panoramic_ad_placeholder
 ##.par-ad
 ##.par-adv-slot
 ##.parade-ad-container
@@ -22186,6 +22142,7 @@ browsershots.org#@#.advert_area
 ||bhnhejwj.com^
 ||bhnjwmega.com^
 ||bhnmkauncgr.com^
+||bhozjskhzfdkh.com^
 ||bhqfnuq.com^
 ||bhuoeykefbnfgc.com^
 ||bhupsrkrwnggcl.com^
@@ -22325,6 +22282,7 @@ browsershots.org#@#.advert_area
 ||bissonbunging.com^
 ||bissonprevoid.website^
 ||bistigaleod.life^
+||biswcmtgrnk.com^
 ||bit-ad.com^
 ||bitbeat7.com^
 ||bitcoin-news.vip^
@@ -24053,6 +24011,7 @@ browsershots.org#@#.advert_area
 ||cgbaybqywso.com^
 ||cgeckmydirect.biz^
 ||cghfqbwdkuemcn.com^
+||cgsjaulupnd.com^
 ||cguospfen.com^
 ||cgupialoensa.com^
 ||cgyhsyvm.xyz^
@@ -40451,6 +40410,7 @@ browsershots.org#@#.advert_area
 ||ninetyninesec.com^
 ||ninetypastime.com^
 ||ninetyreguli.com^
+||ningdblukzqp.com^
 ||ninkorant.online^
 ||ninnycoastal.com^
 ||ninoglostoay.com^
@@ -42632,6 +42592,7 @@ browsershots.org#@#.advert_area
 ||parlorsuperhero.com^
 ||parlouractivityattacked.com^
 ||parlourinvulnerablerighteous.com^
+||paronymtethery.com^
 ||parrecleftne.xyz^
 ||parrotlamista.top^
 ||parrotstrim.com^
@@ -43557,6 +43518,7 @@ browsershots.org#@#.advert_area
 ||playboywere.com^
 ||playdraught.com^
 ||playeranyd.org^
+||playeranydwo.info^
 ||playerseo.club^
 ||playerstrivefascinated.com^
 ||playertraffic.com^
@@ -45100,6 +45062,7 @@ browsershots.org#@#.advert_area
 ||qbrrrlawwrvbv.top^
 ||qbsvafnpgfwpca.com^
 ||qcbfiytngupv.com^
+||qceedrcwar.com^
 ||qceyyxauc.xyz^
 ||qcfkvespkj.com^
 ||qchfbnjagbdst.com^
@@ -47452,6 +47415,7 @@ browsershots.org#@#.advert_area
 ||sawalinitwits.com^
 ||sawanincreasein.info^
 ||saweatherco.com^
+||saweathercock.info^
 ||sawfishdiapsid.com^
 ||sawfluenttwine.com^
 ||sawmonwhomble.com^
@@ -50383,6 +50347,7 @@ browsershots.org#@#.advert_area
 ||tanivanprevented.com^
 ||tankiuz.xyz^
 ||tanksfright.com^
+||tantisnits.top^
 ||taonforhavinga.info^
 ||taovgsy.com^
 ||taoyinbiacid.com^
@@ -51384,6 +51349,7 @@ browsershots.org#@#.advert_area
 ||toquetbircher.com^
 ||torajaimbrium.top^
 ||torattatachan.com^
+||torcheszocalo.top^
 ||torchtrifling.com^
 ||torioluor.com^
 ||toromclick.com^
@@ -51495,6 +51461,7 @@ browsershots.org#@#.advert_area
 ||tpvrqkr.com^
 ||tpwtjya.com^
 ||tpydhykibbz.com^
+||tpyfixoqbo.com^
 ||tpyxplkcap.top^
 ||tpzzdrxnp.com^
 ||tqgrrfssodfo.com^
@@ -53897,6 +53864,7 @@ browsershots.org#@#.advert_area
 ||vzoarcomvorz.com^
 ||vztlivv.com^
 ||vzufzah.com^
+||vzzramqlfb.com^
 ||w00f.net^
 ||w3exit.com^
 ||w3needman3w.com^
@@ -54424,6 +54392,7 @@ browsershots.org#@#.advert_area
 ||wheweeze.net^
 ||whiboubs.com^
 ||whiceega.com^
+||whickazoxy.top^
 ||whickgiunta.com^
 ||whifflehumeral.guru^
 ||whileinferioryourself.com^
@@ -68265,6 +68234,7 @@ vice.com##.adph
 moneycontrol.com##.ads-320-50
 dallasinnovates.com##.ads-article-body
 digg.com##.ads-aside-rectangle
+nationthailand.com##.ads-billboard
 dnaindia.com,wionews.com##.ads-box-300x250
 wionews.com##.ads-box-300x300
 dnaindia.com,wionews.com##.ads-box-970x90
@@ -68272,6 +68242,7 @@ dnaindia.com,wionews.com##.ads-box-d90-m300
 gosunoob.com,indianexpress.com,matrixcalc.org,roblox.com,spotify.com,wccftech.com##.ads-container
 fintech.tv##.ads-img
 freeconvert.com##.ads-in-page
+nationthailand.com##.ads-inarticle-2
 readcomicsonline.ru##.ads-large
 kiz10.com##.ads-medium
 theasianparent.com##.ads-open-placeholder
@@ -69862,6 +69833,7 @@ mumsnet.com##.lg\:w-billboard
 dailyo.in##.lhsAdvertisement300
 latestly.com##.lhs_adv_970x90_div
 gadgets360.com##.lhs_top_banner
+nationthailand.com##.light-box-ads
 iheartradio.ca##.lightbox-wrapper
 rebelnews.com##.lighter-gray-bg
 lilo.org##.lilo-ad-result
@@ -70346,7 +70318,6 @@ thetowner.com##.powered
 thecoinrise.com##.pp_ad_block
 theportugalnews.com##.ppp-banner
 theportugalnews.com##.ppp-inner-banner
-check-host.net##.pr-e-lative
 oneesports.gg##.pr-sm-4
 hindustantimes.com##.pramotedWidget
 birdsandblooms.com,familyhandyman.com,rd.com,tasteofhome.com,thehealthy.com##.pre-article-ad
@@ -70449,6 +70420,7 @@ allthatsinteresting.com##.r-11rk87y
 tgstat.com##.r1-aors
 tripadvisor.com##.rSJod
 joins.com,kmplayer.com##.r_banner
+check-host.net##.ra-elative
 linuxtopia.org##.raCloseButton
 time.is##.rad
 wahm.com##.rad-links
@@ -70701,6 +70673,7 @@ abovethelaw.com##.sidebar-sponsored
 proprivacy.com##.sidebar-top-vpn
 indianapublicmedia.org##.sidebar-upper-underwritings
 bigleaguepolitics.com##.sidebar-widget
+mobilesyrup.com##.sidebarSponsoredAd
 zap-map.com##.sidebar__advert
 wordcounter.icu##.sidebar__display
 pbs.org##.sidebar__logo-pond
@@ -129662,6 +129635,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 /^https:\/\/[a-z]+bem\.com\/auth\/login/$doc
 ||lynstore.net^$all,to=~lynvn.com
 ||wasabiwallet.is^$doc
+||magicslimnhatban.com^$all
+||giamcannhatban.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
