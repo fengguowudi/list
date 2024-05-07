@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Uca4vXlt94nQc586i2eP7g
+! Checksum: Q0FbocDvmoAIrV7JbiKiIg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405072032
-! Last Modified: 2024年05月07日 20:32
+! Version: 202405080222
+! Last Modified: 2024年05月08日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17066,6 +17066,7 @@ sdf-event.sakura.ne.jp#@##ad_1
 sdf-event.sakura.ne.jp#@##ad_2
 sdf-event.sakura.ne.jp#@##ad_3
 sdf-event.sakura.ne.jp#@##ad_4
+drc1bk94f7rq8.cloudfront.net#@##ad_link
 streetinsider.com#@##ad_space
 adtunes.com#@##ad_thread_first_post_content
 aga-clinic-experience.jp#@##ad_top
@@ -18256,6 +18257,7 @@ browsershots.org#@#.advert_area
 ||a64x.com^
 ||a69i.com^
 ||a6dc99d1a8.com^
+||a700fb9c8d.com^
 ||a718917a44.com^
 ||a899228ebf.com^
 ||a8rm1m4msbbh.com^
@@ -23390,6 +23392,7 @@ browsershots.org#@#.advert_area
 ||c71genemobile.com^
 ||c7d263f5d8.com^
 ||c7ee346412.com^
+||c7vw6cxy7.com^
 ||c83cf15c4f.com^
 ||c86e7c49a2.com^
 ||c8d2c12c98.com^
@@ -24380,6 +24383,7 @@ browsershots.org#@#.advert_area
 ||ciwhacheho.pro^
 ||cixaxuyu.xyz^
 ||cizare.xyz^
+||cizzwykcug.com^
 ||cjcbzqrwwi.com^
 ||cjewz.com^
 ||cjf25jklrwqt.com^
@@ -32484,6 +32488,7 @@ browsershots.org#@#.advert_area
 ||hajoopteg.com^
 ||haksaigho.com^
 ||halachadivvers.com^
+||half-concert.pro^
 ||halflyfiscal.com^
 ||halfpriceozarks.com^
 ||halftimeaircraftsidewalk.com^
@@ -32929,6 +32934,7 @@ browsershots.org#@#.advert_area
 ||heukwasanasosett.info^
 ||heusysianedu.com^
 ||hevc.site^
+||hevdnzqu.com^
 ||hewalleges.guru^
 ||hewawkward.com^
 ||hewdisobedienceliveliness.com^
@@ -36954,6 +36960,7 @@ browsershots.org#@#.advert_area
 ||leedoash.com^
 ||leefosto.com^
 ||leegaroo.xyz^
+||leeptoadeesh.net^
 ||leesecobourg.com^
 ||leesymvlvck.xyz^
 ||leetaipt.net^
@@ -37190,6 +37197,7 @@ browsershots.org#@#.advert_area
 ||lihhxayjmr.com^
 ||lihuwvokhonsni.com^
 ||liivhntsu.com^
+||lijybcfgnjh.com^
 ||likeads.com^
 ||likecontrol.com^
 ||likedpatpresent.com^
@@ -47963,6 +47971,7 @@ browsershots.org#@#.advert_area
 ||shaledpaidle.com^
 ||shallarchbishop.com^
 ||shallotuncord.com^
+||shallowtwist.pro^
 ||shalomitll.top^
 ||shalse.com^
 ||shameless-sentence.pro^
@@ -54678,6 +54687,7 @@ browsershots.org#@#.advert_area
 ||wlimrvsnusyawk.com^
 ||wlmitgzbht.com^
 ||wlvkzwqjlyzvr.top^
+||wlwbjjphtza.com^
 ||wlyfiii.com^
 ||wlzzwzekkrrzw.top^
 ||wma.io^
@@ -58037,7 +58047,6 @@ browsershots.org#@#.advert_area
 ||smartadv.ru^$third-party
 ||smartasset.com^$third-party
 ||smartclip.net^$third-party,domain=~toggo.de
-||smartframe.io^$third-party
 ||smartico.one^$third-party
 ||smartredirect.de^$third-party
 ||smarttargetting.net^$third-party
@@ -63241,12 +63250,14 @@ browsershots.org#@#.advert_area
 ||1201741305.rsc.cdn77.org^
 ||1278977604.rsc.cdn77.org^
 ||1288151678.rsc.cdn77.org^
+||1299757727.rsc.cdn77.org^
 ||1312907885.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
 ||1441085683.rsc.cdn77.org^
 ||1473763790.rsc.cdn77.org^
 ||1492697327.rsc.cdn77.org^
 ||1529462937.rsc.cdn77.org^
+||1541233801.rsc.cdn77.org^
 ||1543481067.rsc.cdn77.org^
 ||1548164934.rsc.cdn77.org^
 ||1564285319.rsc.cdn77.org^
@@ -65853,7 +65864,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||fwcdn1.com/js/storyblock.js
 ||g.ibtimes.sg/sys/js/minified-video.js
 ||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph|philstarlife.com
-||go.trvdp.com^$domain=~ig.com.br|~noataque.com.br|~oantagonista.com.br
+||go.trvdp.com^$domain=~canaltech.com.br|~ig.com.br|~noataque.com.br|~oantagonista.com.br
 ||gpv.ex.co^$third-party
 ||jwpcdn.com^$script,domain=bgr.com|decider.com|dexerto.com
 ||jwplayer.com^$domain=americansongwriter.com|dexerto.com|gamesradar.com|ginx.tv|imfdb.org|infoworld.com|kiplinger.com|soulbounce.com|spokesman-recorder.com|tennis.com|thestreet.com|tomshardware.com|variety.com|whathifi.com
@@ -69721,6 +69732,7 @@ essentiallysports.com##.jsx-4249843366
 conservativefiringline.com##.jtpp53
 theartnewspaper.com##.justify-center.flex.w-full
 aiscore.com##.justify-center.w100
+fastcompany.com##.jw-floating-dismissible
 anandtech.com##.jw-reset
 issuu.com##.jzWDOE
 mamieastuce.com##.k39oyi
@@ -70350,7 +70362,7 @@ delicious.com.au,taste.com.au##.prom-header
 babynamegenie.com,comparitech.com,ecaytrade.com,nbcbayarea.com,nwherald.com,overclock3d.net,planetsourcecode.com,sciagaj.org,themuslimvibe.com,totalxbox.com,varsity.com,w3techs.com,wgxa.tv##.promo
 setapp.com,thesaturdaypaper.com.au##.promo-banner
 winscp.net##.promo-block
-forums.minecraftforge.net,nextdoor.com,uploadvr.com##.promo-container
+forums.minecraftforge.net,nextdoor.com,staradvertiser.com,uploadvr.com##.promo-container
 texasmonthly.com##.promo-in-body
 texasmonthly.com##.promo-inline
 spin.com##.promo-lead
@@ -70411,6 +70423,7 @@ giantfreakinrobot.com##.pw-med-rect-atf-container
 giantfreakinrobot.com##.pw-med-rect-btf-container
 news18.com##.pwa_add
 breakingnews.ie,canberratimes.com.au,theland.com.au##.py-2.bg-gray-100
+fastcompany.com##.py-8
 pymnts.com##.pymnt_ads
 euronews.com##.qa-dfpLeaderBoard
 thegatewaypundit.com##.qh1aqgd
@@ -72258,6 +72271,7 @@ playpilot.com##.search-preview .side:has(> .provider)
 tempest.com##.search-result-item:has(.search-result-item__title--ad)
 troyhunt.com##.sidebar-featured:has(a[href^="https://pluralsight.pxf.io/"])
 bing.com##.slide:has(.rtb_ad_caritem_mvtr)
+fastcompany.com##.sticky:has(.ad-container)
 rustlabs.com##.sub-info-block:has(#banner)
 scamwarners.com##.subheader:has(> ins.adsbygoogle)
 nex-software.com##.toolinfo:has(a[href$="/reimage"])
@@ -83740,6 +83754,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||telemetry.goodlifefitness.com^
 ||telemetry.phenixrts.com^
 ||telemetry.reembed.com^
+||telemetry.smartframe.io^
 ||telemetry.soundcloud.com^
 ||telemetry.tableausoftware.com^
 ||telemetry.vtex.com^
@@ -83853,6 +83868,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.novage.com.ua^
 ||tracker.openwebtorrent.com^
 ||tracker.services.vaix.ai^
+||tracker.smartframe.io^
 ||tracker.softcube.com^
 ||tracker.ssl0d.com^
 ||tracker.timesgroup.com^
@@ -132470,6 +132486,12 @@ whatismyip.com##+js(set, yieldlove_cmd.push, noopFunc)
 myfitnesspal.com##+js(set, dataLayer.push, noopFunc)
 myair.resmed.com##+js(no-xhr-if, 1.1.1.1/cdn-cgi/trace)
 ||cdn.getblueshift.com/blueshift.js^$script,3p,redirect=noopjs,domain=rentcafe.com,important
+@@||cdnjs.cloudflare.com/ajax/libs/jquery/$script
+@@||jwpcdn.com/player/$script
+||p.jwpcdn.com/*/vast.js$script,important
+@@||ssl.p.jwpcdn.com/player/$xhr
+@@||scdns.io/stream/*.m3u8$xhr
+@@||scdns.io/stream/*.ts$xhr
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
