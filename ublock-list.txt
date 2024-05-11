@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XHXGIlDYnDbd1wpjPVoFmw
+! Checksum: fyD62xNDqEV0ujj8DLr4fA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405110915
-! Last Modified: 2024年05月11日 09:15
+! Version: 202405111421
+! Last Modified: 2024年05月11日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -71616,8 +71616,6 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[a
 newstalkflorida.com##a[alt="Ad"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[aria-label="Advertiser link"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[aria-label="Advertiser"]
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[aria-label][href*="&fbclid="]
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[aria-label][href*="26fbclid%"]
 alibaba.com##a[campaignid][target="_blank"]
 bernama.com##a[class^="banner_photo_"]
 probuilds.net##a[class^="dl-blitz-"]
@@ -129533,12 +129531,15 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||opensea-nft.web.app^$all,to=~opensea.io
 ||web3-opensea-multichain.codeanyapp.com^$all,to=~opensea.io
 ||mysteryclick57.vercel.app^$all,to=~opensea.io
+||paslanmazspider.org/bin/$all,to=~opensea.io
 ||pancakeswap.icu^$all,to=~pancakeswap.finance
 ||pancake.run^$all,to=~pancakeswap.finance
 ||pancake-clalm.xyz^$all,to=~pancakeswap.finance
 ||pancakedropclick17.vercel.app^$all,to=~pancakeswap.finance
 ||interface-git-parallel-cypress-uniswap.vercel.app^$doc,domain=~uniswap.org
 ||uniswap-free.eth.limo^$all,to=~uniswap.org
+||copba.org.ar/*/aupost/$all,to=~auspost.com.au
+||candsa.top^$all,to=~auspost.com.au
 ||hybridtoken.org^$all
 ||tg-telegran.com^$all
 ||get-now.eventmidasbuys.com^$all
@@ -129560,7 +129561,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||nostalgic-agreeable-stop.glitch.me^$all
 ||dfreg.freechip2023.com^$all
 ||dapper-hexagonal-week.glitch.me^$all,to=~tescobank.com
-||candsa.top^$all,to=~auspost.com.au
 ||od.atami.no/one_drive.html$all
 ||beluxrepm.followme.fr/FolloWMe$all
 ||mybluehost.me/Cope346/$all
