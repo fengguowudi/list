@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mVo0+oqEaEgsFs/NGgUPcQ
+! Checksum: XHXGIlDYnDbd1wpjPVoFmw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405110222
-! Last Modified: 2024年05月11日 02:22
+! Version: 202405110915
+! Last Modified: 2024年05月11日 09:15
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -66708,6 +66708,10 @@ thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-1
 thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-2
 thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-3
 thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-4
+stackabuse.com###ad-snigel-1
+stackabuse.com###ad-snigel-2
+stackabuse.com###ad-snigel-3
+stackabuse.com###ad-snigel-4
 wordplays.com###ad-sticky
 agegeek.com,boards.net,freeforums.net,investing.com,mtaeta.info,notbanksyforum.com,pimpandhost.com,proboards.com,realgearonline.com,repairalmostanything.com,timeanddate.com,wordhippo.com,wordreference.com###ad1
 agegeek.com,investing.com,pimpandhost.com###ad2
@@ -129587,6 +129591,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||anyplacehere.store^$all
 ||infinitytweet.me^$all
 ||infinitweet.com^$all
+||infinitytweet.com^$all
 /^https:\/\/(?:ai|art|get)?-?midjourney(?:s|ai)[^\/]+\//$doc,domain=~midjourney.com|~edu|~gov
 /^https:\/\/(?:ai|art|get)-?midjourney[^\/]+\//$doc,domain=~midjourney.com|~edu|~gov
 /^https:\/\/mid-journey\.[a-z]+\//$doc,domain=~midjourney.com|~edu|~gov
