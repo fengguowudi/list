@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PJmyjgVr1oCpGqeInufpnQ
+! Checksum: LWMBMMUkJ/AcpsxQ6HeY4A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405121422
-! Last Modified: 2024年05月12日 14:22
+! Version: 202405122032
+! Last Modified: 2024年05月12日 20:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16176,6 +16176,7 @@ _800x80_
 ##.wp_bannerize
 ##.wp_bannerize_banner_box
 ##.wp_bannerize_container
+##.wpadcenter-ad-container
 ##.wpadvert
 ##.wpd-advertisement
 ##.wpex-ads-widget
@@ -68178,7 +68179,7 @@ dnaindia.com,wionews.com##.ads-box-300x250
 wionews.com##.ads-box-300x300
 dnaindia.com,wionews.com##.ads-box-970x90
 dnaindia.com,wionews.com##.ads-box-d90-m300
-gosunoob.com,indianexpress.com,matrixcalc.org,roblox.com,spotify.com,wccftech.com##.ads-container
+gosunoob.com,indianexpress.com,matrixcalc.org,phys.org,roblox.com,spotify.com,wccftech.com##.ads-container
 fintech.tv##.ads-img
 freeconvert.com##.ads-in-page
 nationthailand.com##.ads-inarticle-2
@@ -69548,6 +69549,8 @@ indianexpress.com##.ie-int-campign-ad
 fifetoday.co.uk##.iehxDO
 guides.gamepressure.com##.if-no-baner
 techmeme.com##.ifsp
+instacart.com##.image-banner-a-9l2sjs
+instacart.com##.image-banner-a-ak0wn
 flicksmore.com##.image_auto
 frdl.to##.img-fluid
 marketwatch.com##.imonaid_context
@@ -70583,6 +70586,7 @@ romzie.com##.shcntr
 bestbuy.com##.shop-dedicated-sponsored-carousel
 stokesentinel.co.uk##.shop-window[data-impr-tracking="true"]
 intouchweekly.com,lifeandstylemag.com##.shop-with-us__container
+instacart.com##.shoppable-list-a-las2t7
 hypebeast.com##.shopping-break-container
 indiatoday.in##.shopping__widget
 citychicdecor.com##.shopthepost-widget
@@ -71252,6 +71256,7 @@ hack-sat.com##.wp-image-31131
 rvguide.com##.wp-image-3611
 kiryuu.id##.wp-image-465340
 thecricketlounge.com##.wp-image-88221
+weisradio.com##.wp-image-931153
 appuals.com##.wp-timed-p-content
 bevmalta.org,chromoscience.com,conandaily.com,hawaiireporter.com,michaelsavage.com##.wpa
 techyv.com##.wpb_raw_code
@@ -72114,6 +72119,7 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##l
 duckduckgo.com##li[data-layout="products_middle"]
 opentable.ae,opentable.ca,opentable.co.th,opentable.co.uk,opentable.com,opentable.com.au,opentable.com.mx,opentable.de,opentable.es,opentable.hk,opentable.ie,opentable.it,opentable.jp,opentable.nl,opentable.sg##li[data-promoted="true"]
 xing.com##li[data-qa="notifications-ad"]
+instacart.com##li[data-testid="compact-item-list-header"]
 flaticon.com##li[id^="bn-icon-list"]
 linkvertise.com##lv-redirect-static-ad
 escorenews.com##noindex
@@ -74318,6 +74324,12 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||peacocktv.com^$generichide
 @@||photos.google.com^$generichide
 @@||pinterest.com^$generichide
+@@||pinterest.de^$generichide
+@@||pinterest.es^$generichide
+@@||pinterest.fr^$generichide
+@@||pinterest.it^$generichide
+@@||pinterest.jp^$generichide
+@@||pinterest.ph^$generichide
 @@||publicwww.com^$generichide
 @@||qobuz.com^$generichide
 @@||reddit.com^$generichide
@@ -85010,6 +85022,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.gs3.goo.ne.jp^
 ||log.popin.cc^
 ||log000.goo.ne.jp^
+||logger.torimochi-ad.net^
 ||macromill.com/imp/
 ||mofa.go.jp^*/count.cgi?
 ||monipla.com/launch.js
@@ -126147,6 +126160,7 @@ pinterest.*##[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-des
 pinterest.*##[data-grid-item]:has([data-test-pin-id] a[href^="http"][rel] [data-test-id="pincard-oneTap-with-link"])
 !#endif
 pinterest.*##+js(json-prune, resource_response.data.[-].pin_promotion_id)
+@@*$ghide,domain=pinterest.*
 distrowatch.org##[href*="3cx"]:upward(tbody)
 distrowatch.org##[href^="https://pbxinaflash.com/"]
 ubuntudde.com##+js(aopw, b2a)
@@ -127018,7 +127032,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||torontohack.fun^$doc
 ||gameplayer.click^$all
 ||ryosx.cc^$doc
-||kingexploits.com^$doc
 ||robloxexecuter.framer.website^$doc
 ||gramcheats.com^$doc
 ||cheats-2.gitbook.io^$doc
