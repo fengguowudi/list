@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nM7e2qmdSNWGhoThMm5CUA
+! Checksum: DAzsKuvVdSrb9Hl3swq1Yg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405120221
-! Last Modified: 2024年05月12日 02:21
+! Version: 202405120922
+! Last Modified: 2024年05月12日 09:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -69812,6 +69812,7 @@ netwerk24.com##.love2meet
 tigerdroppings.com##.lowLead
 bikeroar.com##.lower-panel
 greatbritishlife.co.uk##.lp_track_vertical2
+foodandwine.com##.lrs__wrapper
 lowes.com##.lws_pdp_recommendations_sponsored
 thestreet.com##.m-balloon-header
 politifact.com##.m-billboard
@@ -74316,6 +74317,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||paramountplus.com^$generichide
 @@||peacocktv.com^$generichide
 @@||photos.google.com^$generichide
+@@||pinterest.com^$generichide
 @@||publicwww.com^$generichide
 @@||qobuz.com^$generichide
 @@||reddit.com^$generichide
@@ -82090,6 +82092,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||californiatimes.com/privacy/$image
 ||calltrack.co^
 ||calltrk.com/companies/
+||calvera-telemetry.polaris.me^
 ||camel.headfarming.com^
 ||canada.com/js/analytics/
 ||capture-api.ap3prod.com^
@@ -127011,12 +127014,15 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||sites.google.com/view/filmora-activator$doc
 ||sites.google.com/view/driver-booster-pro$doc
 ||sites.google.com/view/fl-studio-activator$doc
-||upgameshop.gitbook.io^$doc
-||s0ftware.gitbook.io^$doc
 ||whitegames.pro^$doc
 ||torontohack.fun^$doc
 ||gameplayer.click^$all
 ||ryosx.cc^$doc
+||kingexploits.com^$doc
+||robloxexecuter.framer.website^$doc
+||gramcheats.com^$doc
+||cheats-2.gitbook.io^$doc
+||mooncheats.shop^$doc
 ||92.118.151.48^$all
 ||cloud-folder.org^$doc
 .systems/signup?ad_domain=$doc,popup
