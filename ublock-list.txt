@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kz4BnzunvCHglV9g3mETOA
+! Checksum: lUvA6exgAQ3mWUz0T76P0Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405131424
-! Last Modified: 2024年05月13日 14:24
+! Version: 202405132033
+! Last Modified: 2024年05月13日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -8758,7 +8758,6 @@ _800x80_
 ##.ad_spacer
 ##.ad_sponsor
 ##.ad_sponsor_fp
-##.ad_sponsoredlinks
 ##.ad_sponsoredsection
 ##.ad_spot
 ##.ad_spot_b
@@ -15189,7 +15188,6 @@ _800x80_
 ##.sponsored-top
 ##.sponsored-widget
 ##.sponsoredAd
-##.sponsoredAdLine
 ##.sponsoredAds
 ##.sponsoredBanners
 ##.sponsoredBar
@@ -15207,26 +15205,16 @@ _800x80_
 ##.sponsoredLinks
 ##.sponsoredLinks2
 ##.sponsoredLinksBox
-##.sponsoredLinksGadget
-##.sponsoredLinksHead
-##.sponsoredLinksHeader
 ##.sponsoredListing
-##.sponsoredName
 ##.sponsoredProduct
 ##.sponsoredResults
 ##.sponsoredSearch
-##.sponsoredShowcasePanel
-##.sponsoredSideInner
-##.sponsoredStats
 ##.sponsoredTop
 ##.sponsored_ad
 ##.sponsored_ads
 ##.sponsored_bar_text
 ##.sponsored_box
-##.sponsored_box_search
 ##.sponsored_by
-##.sponsored_content
-##.sponsored_glinks
 ##.sponsored_link
 ##.sponsored_links
 ##.sponsored_links2
@@ -15242,16 +15230,10 @@ _800x80_
 ##.sponsored_title
 ##.sponsored_well
 ##.sponsoredby
-##.sponsoredibbox
 ##.sponsoredlink
-##.sponsoredlinkHed
 ##.sponsoredlinks
-##.sponsoredlinks-article
-##.sponsoredlinkscontainer
 ##.sponsoredresults
-##.sponsoredtabl
 ##.sponsorheader
-##.sponsoring_link
 ##.sponsoringbanner
 ##.sponsorlink
 ##.sponsorlink2
@@ -15262,7 +15244,6 @@ _800x80_
 ##.sponsors-module
 ##.sponsors-widget
 ##.sponsorsBanners
-##.sponsors_300x250
 ##.sponsors__container
 ##.sponsors__wide
 ##.sponsors_box_container
@@ -15291,8 +15272,6 @@ _800x80_
 ##.sq_ad
 ##.sqrd-ad-manager
 ##.square-ad
-##.square-ad--latest-video
-##.square-ad--neg-margin
 ##.square-ad-1
 ##.square-ad-container
 ##.square-ad-pane
@@ -15351,7 +15330,6 @@ _800x80_
 ##.stickyAdWrapper
 ##.stickyAdsGroup
 ##.stickyContainerMpu
-##.stickyMultiAd-processed
 ##.stickyRailAd
 ##.sticky_ad_sidebar
 ##.sticky_ad_wrapper
@@ -15404,7 +15382,6 @@ _800x80_
 ##.super-ad
 ##.superbanner-adcontent
 ##.support_ad
-##.swiper_advs
 ##.tabAd
 ##.tabAds
 ##.tab_ad
@@ -15564,7 +15541,6 @@ _800x80_
 ##.top-adverbox
 ##.top-advert
 ##.top-advertisement
-##.top-affiliate
 ##.top-banner-468
 ##.top-banner-ad
 ##.top-banner-ad-container
@@ -55495,6 +55471,7 @@ browsershots.org#@#.advert_area
 ||yogar2ti8nf09.com^
 ||yoginisairbus.com^
 ||yohavemix.live^
+||yoibbka.com^
 ||yojanaarabic.life^
 ||yokeeroud.com^
 ||yolkhandledwheels.com^
@@ -58020,6 +57997,7 @@ browsershots.org#@#.advert_area
 ||295c.site^$document,popup
 ||2aeabdd4-3280-4f03-bc92-1890494f28be.xyz^$document,popup
 ||3a2e.site^$document,popup
+||485728.xyz^$document,popup
 ||48a16802.site^$document,popup
 ||4a0e.xyz^$document,popup
 ||4aae8f.site^$document,popup
@@ -66904,6 +66882,7 @@ hindustantimes.com###divshopnowRight
 rednationonline.ca###dnn_BannerPane
 unite-db.com###ds_lb1
 unite-db.com###ds_lb2
+thedailystar.net###dsspHS
 permanentstyle.com###dttop
 jigzone.com###dz
 sashares.co.za###elementor-popup-modal-89385
@@ -68426,6 +68405,7 @@ charlieintel.com,dexerto.com##.bg-neutral-grey.justify-center
 businessinsider.in##.bg-slate-100
 wccftech.com##.bg-square
 wccftech.com##.bg-square-mobile
+wccftech.com##.bg-square-mobile-without-bg
 ewn.co.za##.bg-surface-03.text-content-secondary.space-y-\[0\.1875rem\].p-spacing-s.flex.flex-col.w-max.mx-auto
 wccftech.com##.bg-vertical
 copyprogramming.com##.bg-yellow-400
@@ -68556,6 +68536,7 @@ flipline.com##.box_grey_tr
 functions-online.com##.box_wide
 kiz10.com##.boxadsmedium
 bolavip.com,worldsoccertalk.com##.boxbanner_container
+thehackernews.com##.boxside
 retailgazette.co.uk##.boxzilla-overlay
 retailgazette.co.uk##.boxzilla-popup-advert
 wbur.org##.bp--native
@@ -68942,6 +68923,7 @@ crash.net##.dmpu
 crash.net##.dmpu-container
 nationalworld.com,scotsman.com##.dmpu-item
 vice.com##.docked-slot-renderer
+thehackernews.com##.dog_two
 quora.com##.dom_annotate_ad_image_ad
 quora.com##.dom_annotate_ad_promoted_answer
 quora.com##.dom_annotate_ad_text_ad
@@ -70500,6 +70482,7 @@ abovethelaw.com##.sidebar-sponsored
 proprivacy.com##.sidebar-top-vpn
 indianapublicmedia.org##.sidebar-upper-underwritings
 bigleaguepolitics.com##.sidebar-widget
+thehackernews.com##.sidebar2
 mobilesyrup.com##.sidebarSponsoredAd
 zap-map.com##.sidebar__advert
 wordcounter.icu##.sidebar__display
@@ -71662,6 +71645,7 @@ sbs.com.au##div.css-1wbfa8
 steamgifts.com##div.dont_block_me
 easypet.com##div.kt-inside-inner-col > div.wp-block-kadence-rowlayout
 baking-forums.com,windows10forums.com##div.message--post.message
+thehackernews.com##div.rocking
 tld-list.com##div.row > .text-center > .ib
 forward.com##div.sticky-container:first-child
 newegg.com##div.swiper-slide[data-sponsored-catalyst]
@@ -82585,7 +82569,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gstatic.com/gadf/ga_dyn.js
 ||gstatic.com/wcm/impl-
 ||gstatic.com/wcm/loader.js
-||gtmfsstatic.getgoogletagmanager.com/js/gtmfsv2.js
+||gtmfsstatic.getgoogletagmanager.com^
 ||gtrk.s3.amazonaws.com^
 ||gu-pix.appspot.com^$third-party
 ||gubagoo.com/modules/tracking/
@@ -126832,6 +126816,8 @@ tech4yougadgets.com##+js(aopr, Notification)
 /1/index.html?c=$doc
 /2/index.html?c=$doc
 ||1win-17545.com^
+||saucygirls4g.com^$all
+||onlysexygirl.com^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/(?:article\d{4}\.doc)?\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case
@@ -129559,11 +129545,11 @@ panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaborator
 ||washpost.nile.works^
 /p13n/batch/action/*$image
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,3p,match-case
-loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWRz$/, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc##+js(set-local-storage-item, /_fa_Y2FjaGVfYWRibG9ja19jaXJjdW12ZW50X3Njb3Jl$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWRz$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,enetnews.co.kr,edaily.co.kr,economist.co.kr,etoday.co.kr,hankyung.com,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,warcraftrumbledeck.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,worldhistory.org,meeco.kr,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,uttranews.com,text-compare.com,fntimes.com,javatpoint.com,vipotv.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com##+js(set-local-storage-item, /_fa_Y2FjaGVfYWRibG9ja19jaXJjdW12ZW50X3Njb3Jl$/, $remove$)
 apkmirror.com,meconomynews.com,brandbrief.co.kr,mlbpark.donga.com,motorgraph.com,topstarnews.net,heraldcorp.com##+js(noeval-if, /07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/)
 !#if cap_html_filtering
 apkmirror.com,meconomynews.com,brandbrief.co.kr,mlbpark.donga.com,motorgraph.com,heraldcorp.com##^script:has-text(KCgpPT57bGV0IGU)
