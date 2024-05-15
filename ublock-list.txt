@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kEk2dDdHBDgnaY2oWlZ3tg
+! Checksum: DU9SudGHaXO6SoOQw7h6fA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405150917
-! Last Modified: 2024年05月15日 09:17
+! Version: 202405151423
+! Last Modified: 2024年05月15日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -317,7 +317,6 @@
 /ads/targeted|
 /ads/top-
 /ads/top.
-/ads/tso
 /ads/video/controller.php
 /ads/view.php
 /ads/xtcore.
@@ -508,7 +507,7 @@
 /bannerad.
 /bannerad3.js
 /bannerads.
-/bannerads/*
+/bannerads/*$~xmlhttprequest,domain=~coldwellbankerhomes.com
 /banners.*/go/page/*
 /banners.*/piclist?
 /banners.cgi?
@@ -1005,7 +1004,7 @@
 /targetpushad.js
 /theologicalpresentation.com/*
 /tmbi-a9-header-
-/tncms/ads/*
+/tncms/ads/*$script
 /tnt.ads.
 /top-ad.
 /top-ads.
@@ -1097,7 +1096,6 @@
 /xpopunder.js
 /xpopup.js
 /yhs/ads?
-/yume_ad_library_
 /zcredirect?
 /~cdn/ads/*
 ://a.*/ad-provider.js$third-party
@@ -10182,24 +10180,18 @@ _800x80_
 ##.advBottom
 ##.advBottomHome
 ##.advBox
-##.advImagesbox
 ##.advInt
-##.advLB_PageMiddle
 ##.advLeaderboard
 ##.advRightBig
 ##.advSquare
 ##.advText
-##.advTicker
 ##.advTop
-##.advVideobox
-##.adv_1
 ##.adv_120
 ##.adv_120_600
 ##.adv_120x240
 ##.adv_120x600
 ##.adv_160_600
 ##.adv_160x600
-##.adv_2
 ##.adv_250
 ##.adv_250_250
 ##.adv_300
@@ -10208,25 +10200,17 @@ _800x80_
 ##.adv_300x250
 ##.adv_336_280
 ##.adv_468_60
-##.adv_600
-##.adv_630
 ##.adv_728_90
 ##.adv_728x90
-##.adv_90
-##.adv_PageTop
 ##.adv__box
 ##.adv__leaderboard
 ##.adv__wrapper
 ##.adv_aff
-##.adv_amazon_single
 ##.adv_banner
 ##.adv_banner_hor
 ##.adv_bg
 ##.adv_box
 ##.adv_box_narrow
-##.adv_code
-##.adv_flash
-##.adv_hed
 ##.adv_here
 ##.adv_img
 ##.adv_leaderboard
@@ -10240,8 +10224,6 @@ _800x80_
 ##.adv_message
 ##.adv_msg
 ##.adv_panel
-##.adv_placeholder_300_250
-##.adv_placeholder_300_300
 ##.adv_right
 ##.adv_side1
 ##.adv_side2
@@ -10274,7 +10256,6 @@ _800x80_
 ##.adver-header
 ##.adver-left
 ##.adver-text
-##.adver-wrapper--250
 ##.adverTag
 ##.adverTxt
 ##.adver_bot
@@ -10297,12 +10278,9 @@ _800x80_
 ##.advert-160x600
 ##.advert-300
 ##.advert-300-side
-##.advert-300x100-side
 ##.advert-728
 ##.advert-728-90
 ##.advert-728x90
-##.advert-760
-##.advert-arch-top
 ##.advert-article-bottom
 ##.advert-autosize
 ##.advert-background
@@ -129185,6 +129163,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||ewueuweudsjdjsdjjd.weeblysite.com^$all
 ||maiil-myatt.weeblysite.com^$all
 ||dichvucong.$doc,domain=~gov.vn
+||a.viethu.com^$all,to=~dichvucong.gov.vn
+||mybluehost.me/*/impo/$doc,domain=~impots.gouv.fr
 ||chamsocthekhachhang-thang4.com.vn^$all
 ||sotuyenvcb.vietcombanker.com^$all
 ||vdbank.com.vn^$all,to=~vdb.gov.vn
@@ -129238,6 +129218,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||storageapi-new.fleek.co/*/yss/ind.html$all
 ||web-tg.pages.dev^$all
 ||support.tg581.cc^$all
+||telegramhcn.com^$all
+||velyapromo2024.ru^$all
 /^https:\/\/[a-z]{3}\.[a-z]{3}\.mybluehost\.me\/[a-z]{2,}\/[0-9A-z]{3,}\/contract\//$doc,frame,match-case
 /^https:\/\/usps\.[-a-z]{6,}\.(?:com|top)\/(?:address\.html|information|verify)\b/$doc,domain=com|top|~usps.com
 /^https:\/\/ur[cex][a-z]{2,4}\.com\/(?:address\.html|information|verify)\b/$doc,domain=com|~usps.com
@@ -129256,11 +129238,14 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||autolocksmithpro.com/spt/$all
 ||asistenciahoy.com^$all
 ||mybluehost.me/wp-includes/blocks/sec/$doc
-||mybluehost.me/--/SBBCFF$doc
-||mybluehost.me/SBB.CH/$doc
-||mybluehost.me/pass/index/$doc
-||mybluehost.me/*/CHFINAL/$doc
-||acconsult.info/*/CHFINAL/$doc
+||swiss-passapp.web.app^$all,to=~swisspass.ch
+||mybluehost.me/--/SBBCFF$doc,domain=~swisspass.ch
+||mybluehost.me/SBB.CH/$doc,domain=~swisspass.ch
+||mybluehost.me/pass/index/$doc,domain=~swisspass.ch
+||mybluehost.me/*/CHFINAL/$doc,domain=~swisspass.ch
+||acconsult.info/*/CHFINAL/$doc,domain=~swisspass.ch
+||sviluppo.host/sbb-chf-id/$doc,domain=~swisspass.ch
+||wcomhost.com/spass/$doc,domain=~swisspass.ch
 ||codeanyapp.com/Swiss_com/$doc,domain=~swisscom.ch
 ||secureserver.net/myswisscom$doc,domain=~swisscom.ch
 ||app-aave.pages.dev^$all,to=~aave.com
