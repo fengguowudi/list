@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K/YSY09+daLkaUEZr3OBBQ
+! Checksum: PR8adGqP0dsMq9NfIrYFeg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202405150222
-! Last Modified: 2024年05月15日 02:22
+! Version: 202405150917
+! Last Modified: 2024年05月15日 09:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2752,6 +2752,14 @@ newduba.cn###jq_youxi
 ||pxtjfmv.xyz^
 ||mqsjzm.cn^
 ||qwsanan.top^
+||zhengzhou12.top^
+||egidskiw.top^
+||prpmdp.xyz^
+||kbexos.xyz^
+||vfxrpl.xyz^
+||hgcgnfe.icu^
+||07dy.cc^
+||bpxbzps.xyz^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -21744,6 +21752,7 @@ m.babytree.com##script + a[class]
 /_ga?sponsor_pixel=
 /_gz/counter.php?
 /_hcms/perf
+/_i?type=event&
 /_lib/ga.js
 /_owa.gif?
 /_sess/script.js
@@ -24573,6 +24582,7 @@ _WebVitalsReporter_
 /mailings/opened/*$image
 /MailIsRead?$image
 /maillist.*/t/*$image
+/maling.roidusat.com/t/*$image
 /media.sailthru.com/5ik/1k4/9/*.gif
 /newsletter/log/*$image
 /newsletter/read?s=$image
@@ -26885,6 +26895,7 @@ omni.soundestlink.com$image
 ||sematext.com^$third-party
 ||sendtraffic.com^$third-party
 ||sensorsdata.cn^$third-party
+||sentinelbi.com^$third-party
 ||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sentry-cdn.top^$third-party
 ||sentry.io^$third-party
@@ -69517,6 +69528,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||standvirtual.com^$ping
 ||strapi.clickjogos.com.br^
 ||tags.globo.com^
+||terra.com.br^*/metrics.js
 ||tm.jsuol.com.br^
 ||tm.uol.com.br^
 ||track.exame.com^
