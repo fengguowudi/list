@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wnah4Nx6KBCfXXMXAvZq6Q
+! Checksum: bucKYpy7NFSXipPmDmYUlA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405172032
-! Last Modified: 2024年05月17日 20:32
+! Version: 202405180223
+! Last Modified: 2024年05月18日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24844,6 +24844,7 @@ browsershots.org#@#.advert_area
 ||crackbroadcasting.com^
 ||crackquarrelsomeslower.com^
 ||cracktraumatic.com^
+||crackyunfence.com^
 ||cradspbsdarltng.com^
 ||craftsmancaptivity.com^
 ||craftsmangraygrim.com^
@@ -25329,6 +25330,7 @@ browsershots.org#@#.advert_area
 ||daggerwantedliterally.com^
 ||daiboit.com^
 ||daichoho.com^
+||daichukoah.net^
 ||daicoaky.net^
 ||daikeethoo.com^
 ||daikersscrim.website^
@@ -30780,6 +30782,7 @@ browsershots.org#@#.advert_area
 ||gilcxqgcbebbo.xyz^
 ||giliakmisdaub.com^
 ||gilledwebeye.life^
+||gillnetstold.com^
 ||gillpwiul.com^
 ||gillsapp.com^
 ||gillsisabellaunarmed.com^
@@ -35292,6 +35295,7 @@ browsershots.org#@#.advert_area
 ||kalganautographeater.com^
 ||kalganpuppycensor.com^
 ||kalifthorons.top^
+||kalmukrattail.com^
 ||kalpaksaffect.top^
 ||kalseech.xyz^
 ||kamachilinins.com^
@@ -45008,6 +45012,7 @@ browsershots.org#@#.advert_area
 ||rapidlybeaver.com^
 ||rapidlypierredictum.com^
 ||rapidshookdecide.com^
+||rapingdistil.com^
 ||rapolok.com^
 ||raptapee.com^
 ||raptingy.net^
@@ -86571,7 +86576,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||x.com/9/measurement/
 ||x.com/i/api/1.1/jot
 ||x.com/i/csp_report
-||x.com/i/csp_report?
 ||x.com/i/jot
 ||x.com^*/log.json
 ||xero.com/api/events/
@@ -129105,7 +129109,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||priscaved.com/bankk/$all
 ||sparkasse-freising-moosburg.de^$all,to=~sparkasse.de
 ||sparkasse-oberhessen.info^$all,to=~sparkasse.de
-/^https:\/\/www\.sparkasse(?:-[a-z]{6,}){1,2}\.[a-z]{2,4}\//$doc,domain=~edu|~gov|~sparkasse.de
 /^https:\/\/dhl\.\d+\.potabox\.com\//$doc,domain=~dhl.com
 ||sp.aircsgo.com^$all
 ||solutionfun.info^$all
@@ -129539,8 +129542,11 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||remp.nv.ua/assets/lib/js/remplib.js
 !#if env_chromium
 *$permissions=browsing-topics=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+*$permissions=compute-pressure=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 *$permissions=idle-detection=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 *$permissions=join-ad-interest-group=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+*$permissions=private-state-token-issuance=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+*$permissions=private-state-token-redemption=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 *$permissions=run-ad-auction=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 *$permissions=attribution-reporting=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 !#endif
@@ -132139,6 +132145,7 @@ myair.resmed.com##+js(no-xhr-if, 1.1.1.1/cdn-cgi/trace)
 ||jobbio.com/channels/$xhr,3p,removeparam=visitor_id,domain=stackoverflow.jobs
 gifmagic.com###logoContainer:style(top: 0px !important;)
 @@||go.redirectingat.com^$popup,3p,domain=slickdeals.net
+@@||googletagmanager.com/gtag/js$3p,script,domain=trinket.io
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
