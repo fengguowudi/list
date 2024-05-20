@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CitVA719CSuuKH1cLYuNGQ
+! Checksum: 4ZNS10toCIf5DLeSI3gaeA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405200917
-! Last Modified: 2024年05月20日 09:17
+! Version: 202405201424
+! Last Modified: 2024年05月20日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12288,24 +12288,18 @@ _800x80_
 ##.google-ad-160-600
 ##.google-ad-468-60
 ##.google-ad-728-90
-##.google-ad-afc-header
 ##.google-ad-block
-##.google-ad-bottom-outer
 ##.google-ad-container
 ##.google-ad-content
-##.google-ad-fix
 ##.google-ad-header2
-##.google-ad-iframe
 ##.google-ad-image
 ##.google-ad-manager
 ##.google-ad-placeholder
 ##.google-ad-sidebar
-##.google-ad-top-outer
 ##.google-ad-widget
 ##.google-ads
 ##.google-ads-billboard
 ##.google-ads-bottom
-##.google-ads-boxout
 ##.google-ads-container
 ##.google-ads-footer-01
 ##.google-ads-footer-02
@@ -12317,18 +12311,13 @@ _800x80_
 ##.google-ads-sidebar
 ##.google-ads-widget
 ##.google-ads-wrapper
-##.google-ads2
-##.google-adsbygoogle
 ##.google-adsense
 ##.google-advert-sidebar
 ##.google-afc-wrapper
 ##.google-bottom-ads
 ##.google-dfp-ad-caption
-##.google-dfp-ad-label
 ##.google-dfp-ad-wrapper
-##.google-mid-ad
 ##.google-right-ad
-##.google-side-ad
 ##.google-sponsored
 ##.google-sponsored-ads
 ##.google-sponsored-link
@@ -12337,27 +12326,17 @@ _800x80_
 ##.googleAd
 ##.googleAdBox
 ##.googleAdContainer
-##.googleAdFoot
 ##.googleAdSearch
 ##.googleAdSense
 ##.googleAdWrapper
 ##.googleAdd
 ##.googleAds
-##.googleAds336
-##.googleAds728
 ##.googleAdsContainer
-##.googleAdsSquare
 ##.googleAdsense
-##.googleAdsenseMiddle
 ##.googleAdv
 ##.google_ad
-##.google_ad3
-##.google_ad336
-##.google_ad_bg
 ##.google_ad_container
 ##.google_ad_label
-##.google_ad_mrec
-##.google_ad_right
 ##.google_ad_wide
 ##.google_add
 ##.google_admanager
@@ -12374,13 +12353,9 @@ _800x80_
 ##.googleadbottom
 ##.googleadcontainer
 ##.googleaddiv
-##.googleaddiv2
-##.googleadiframe
 ##.googleads
-##.googleads-bottommiddle
 ##.googleads-container
 ##.googleads-height
-##.googleads-topmiddle
 ##.googleadsense
 ##.googleadsrectangle
 ##.googleadv
@@ -53613,7 +53588,6 @@ browsershots.org#@#.advert_area
 ||wgchrrammzv.com^
 ||wghzbgmjpyig.com^
 ||wgkggub.com^
-||wgplayer.com^
 ||wgpsjcpdulptl.com^
 ||wgsxteihr.com^
 ||wgxpirautgxpap.com^
@@ -63117,6 +63091,7 @@ browsershots.org#@#.advert_area
 ||turb.cc/fd1/img/promo/
 ||typicalstudent.org^$third-party
 ||ummn.nu^$subdocument
+||universal.wgplayer.com^
 ||uploaded.net/img/public/$third-party
 ||utility.rogersmedia.com/wrapper.js
 ||vhanime.com/js/bnanime.js
@@ -63159,6 +63134,7 @@ browsershots.org#@#.advert_area
 ||wp.com/assets.sheetmusicplus.com/banner/
 ||wp.com/assets.sheetmusicplus.com/smp/
 ||wp.com/bugsfighter.com/wp-content/uploads/2016/07/adguard-banner.png
+||wpb.wgplayer.com^
 ||wpengine.com/wp-json/api/advanced_placement/api-in-article-ad/
 ||wpzoom.com/images/aff/
 ||ws.amazon.*/widgets/$third-party
@@ -66192,9 +66168,10 @@ uinterview.com###above-content
 slideshare.net###above-recs-desktop-ad-sm
 jezebel.com,pastemagazine.com###above_logo
 peacemakeronline.com###above_top_banner
-ftw.usatoday.com,mmajunkie.usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium
-ftw.usatoday.com,mmajunkie.usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium_after_share
+usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium
+usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium_after_share
 nextdoor.com,sptfy.be###ad
+touchdownwire.usatoday.com###ad--home-well-wrapper
 lasvegassun.com###ad-colB-
 retrostic.com,sickchirpse.com,thetimes.co.uk###ad-header
 livescore.com###ad-holder-gad-news-article-item
@@ -67414,7 +67391,8 @@ desmoinesregister.com##.ZJBvMP__ZJBvMP
 getpocket.com##.\'syndication-ad\'
 olympics.com##.\-partners
 androidauthority.com##._--_-___Pb
-androidauthority.com##._--_-___Qb
+androidauthority.com##._--_-___Yb
+androidauthority.com##._--_-___Zb
 freepik.com##._1286nb18b
 freepik.com##._1286nb1rx
 swarajyamag.com##._1eNH8
@@ -128978,18 +128956,26 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||acir.postofficeweb.com/grupoacir/$all
 ||datahub.center^$all
 ||channelhub.info^$all
+||codeanyapp.com/neta/*/pay-method.php$doc
+||otomoto-h229.net^$all,to=~otomoto.pl
+||mybluehost.me/Recibir_paquete.php$doc,domain=~correos.es
 ||07xxxfixe.hubside.fr^$all,to=~orange.fr
 ||servicemailorange25.wixsite.com^$all,to=~orange.fr
+||smsmmsernorepls.wixsite.com^$all,to=~orange.fr
+||assistancesosh.wixsite.com^$all,to=~orange.fr
 ||amazon-task.vip^$all
 ||ama-zon08.cc^$all
 ||zaxacava2.pages.dev^$all
+||51eabay.com^$all
 ||rakutenpluss.com^$all
 ||rakutentenn.com^$all
 ||tiktokvips.shop^$all,to=~rakuten.co.jp
 ||diwapa3051.wixsite.com^$all
 ||idhnochalter.wixsite.com^$all
+||cajewar736.wixsite.com^$all
 ||ewueuweudsjdjsdjjd.weeblysite.com^$all
 ||maiil-myatt.weeblysite.com^$all
+||alisongaudino992.wixsite.com^$all
 ||dichvucong.$doc,domain=~gov.vn
 ||a.viethu.com^$all,to=~dichvucong.gov.vn
 ||mybluehost.me/*/impo/$doc,domain=~impots.gouv.fr
@@ -129002,6 +128988,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||mbfic-plus.com^$all,to=~mbbank.com.vn
 ||dtdev.com.ar^$all,to=~americanexpress.com
 ||dongtam.com.vn/app/$all,to=~td.com
+||htdf7uyg5e.pages.dev^$all,to=~sbi.co.in
 /^https:\/\/hdsaison-?[a-z]{2,}\.(?:cc|com|vip)\//$doc,domain=cc|com|vip|~hdsaison.com.vn
 /^https:\/\/tpbank\.[-a-z0-9]{5,}\.[a-z]{3}(?:\.vn)?\//$doc,domain=~edu|~gov|~gov.vn|~tpb.vn
 ||priscaved.com/bankk/$all
@@ -129015,6 +129002,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||emailfacebooksecurity.pages.dev^$all
 ||unusualaccountcnfrmpages.github.io^$all
 ||sumydeko.blogspot.com^$all
+||5fgfggfgfg4g4h4.blogspot.com^$all
 ||haryanaaffordableshops.net/market-public-profile$all
 ||business.verified-suite-help.me^$all
 ||s33788.com^$all,to=~shopee.vn
@@ -129057,6 +129045,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||support.tg581.cc^$all
 ||telegramhcn.com^$all
 ||velyapromo2024.ru^$all
+||jawatankosongterkini-2024.yfth1.com^$all
 /^https:\/\/[a-z]{3}\.[a-z]{3}\.mybluehost\.me\/[a-z]{2,}\/[0-9A-z]{3,}\/contract\//$doc,frame,match-case
 /^https:\/\/usps\.[-a-z]{6,}\.(?:com|top)\/(?:address\.html|information|verify)\b/$doc,domain=com|top|~usps.com
 /^https:\/\/ur[cex][a-z]{2,4}\.com\/(?:address\.html|information|verify)\b/$doc,domain=com|~usps.com
@@ -129085,6 +129074,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||wcomhost.com/spass/$doc,domain=~swisspass.ch
 ||codeanyapp.com/Swiss_com/$doc,domain=~swisscom.ch
 ||secureserver.net/myswisscom$doc,domain=~swisscom.ch
+||sei-io.web.app^$all,to=~sei.io
 ||app-aave.pages.dev^$all,to=~aave.com
 ||web3mainnetdapp.pages.dev^$all
 ||web3connectfix.pages.dev^$all
@@ -129753,6 +129743,7 @@ tapewithadblock.org##+js(rmnt, script, /RegExp\(\'/, condition, RegExp)
 ||survey.alchemer.eu/s3/$frame,3p,domain=airforce-technology.com
 meeting.tencent.com##+js(no-xhr-if, /(trace|beacon)\.qq\.com/)
 notion.so##+js(no-fetch-if, splunkcloud.com/services/collector)
+olympics.com##+js(no-fetch-if, event-router.olympics.com)
 ||2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=video.foxnews.com
 ||cdn.krxd.net^$script,redirect=noopjs,domain=video.foxnews.com
 @@||akamaihd.net/player/*/akamai/amp/prebid/*$script,domain=static.foxnews.com
@@ -130983,7 +130974,6 @@ coolmathgames.com##+js(set, network_user_id, '')
 ||fundingchoicesmessages.google.com/i/$script,domain=9to5google.com|9to5mac.com,important
 ||googletagmanager.com^$domain=9to5google.com|9to5mac.com,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=olympics.com
-olympics.com##+js(no-fetch-if, event-router.olympics.com)
 ://ads.$popup,domain=~smartnews.com,badfilter
 ://ads.$popup,domain=~kakaku.com|~smartnews.com
 !#if env_mobile
@@ -131607,9 +131597,10 @@ cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 securegames.iwin.com##+js(no-xhr-if, /gtm.js)
 pcwelt.de#@#a[href^="https://pvn.mediamarkt.de/"]
 pcwelt.de#@#a[href^="https://pvn.saturn.de/"]
-@@||scylla.wgplayer.com/f_webp/*$image
+||wgplayer.com^
+@@||scylla.wgplayer.com/f_webp/$image
 @@||universal.wgplayer.com/tag/$script,domain=brightygames.com|eminiclip.ro|sisigames.com|yoho.games
-@@||wgplayer.com/*/wgAds.$script,domain=brightygames.com|eminiclip.ro|sisigames.com|yoho.games
+@@||wgplayer.com/*/wgAds.$script,domain=brightygames.com|eminiclip.ro|pastelkattogames.com|sisigames.com|yoho.games
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=brightygames.com|eminiclip.ro|sisigames.com|yoho.games
 brightygames.com,yoho.games##^html > head > meta[property="og:url"]:not([content*="/games/"], [content*="/play/"]):upward(1) > script:has-text(wgplayer)
 eminiclip.ro##^html:not(:has(#thegame)) > head > script:has-text(wgplayer)
