@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zx9XjC7vBiWDZSsN1kTWNg
+! Checksum: nxdrH12EW6/4emAo6yv+qg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405202035
-! Last Modified: 2024年05月20日 20:35
+! Version: 202405210223
+! Last Modified: 2024年05月21日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -17400,6 +17400,7 @@ browsershots.org#@#.advert_area
 ||a00s.net^
 ||a06bbd98194c252.com^
 ||a11k.com^
+||a14net.com^
 ||a14refresh.com^
 ||a14tdsa.com^
 ||a15c5009bcbe272.com^
@@ -66496,6 +66497,9 @@ scoop.co.nz###div-gpt-ad-1510201739461-4
 herfamily.ie,sportsjoe.ie###div-gpt-top_page
 abovethelaw.com###div-id-for-middle-300x250
 abovethelaw.com###div-id-for-top-300x250
+pch.com###div-pch-gpt-placement-bottom
+pch.com###div-pch-gpt-placement-multiple
+pch.com###div-pch-gpt-placement-top
 newser.com###divImageAd
 newser.com###divMobileHeaderAd
 abbotsfordgasprices.com,albertagasprices.com,barriegasprices.com,bcgasprices.com,calgarygasprices.com,edmontongasprices.com,gasbuddy.com,halifaxgasprices.com,hamiltongasprices.com,kwgasprices.com,londongasprices.com,manitobagasprices.com,montrealgasprices.com,newbrunswickgasprices.com,newfoundlandgasprices.com,novascotiagasprices.com,nwtgasprices.com,ontariogasprices.com,ottawagasprices.com,peigasprices.com,quebeccitygasprices.com,quebecgasprices.com,reginagasprices.com,saskatoongasprices.com,saskgasprices.com,torontogasprices.com,vancouvergasprices.com,victoriagasprices.com,winnipeggasprices.com###divSky
@@ -69729,6 +69733,7 @@ bucksco.today##.placeholder-block
 theoldie.co.uk##.placeholder-wrapper
 sundayworld.co.za##.placeholderPlug
 pcgamebenchmark.com,soccerway.com,streetcheck.co.uk##.placement
+pch.com##.placement-content
 diglloyd.com,windinmyface.com##.placementInline
 diglloyd.com,windinmyface.com##.placementTL
 diglloyd.com,windinmyface.com##.placementTR
@@ -126532,6 +126537,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||onlysexygirl.com^$all
 ||binomasia.com^$all
 /protectme_new1/index.html?$doc
+||nyeeiye2.click^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/(?:article\d{4}\.doc)?\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case
