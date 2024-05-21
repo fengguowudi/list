@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SdknFqhvwOPBsNmOnj6N1Q
+! Checksum: tf8XufQQPU7Pbms9VI7u5Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405210916
-! Last Modified: 2024年05月21日 09:16
+! Version: 202405211425
+! Last Modified: 2024年05月21日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57551,6 +57551,7 @@ browsershots.org#@#.advert_area
 ||4e55.xyz^$document,popup
 ||4e68.xyz^$document,popup
 ||58e0.site^$document,popup
+||5fd6bc.xyz^$document,popup
 ||634369.xyz^$document,popup
 ||657475b7-0095-478d-90d4-96ce440604f9.online^$document,popup
 ||68646f.xyz^$document,popup
@@ -66383,6 +66384,7 @@ romsmania.games###click-widget-banner
 xcalibrscans.com###close-teaser
 oneindia.com###closePopupDiv
 slashdot.org###cloud
+globalconstructionreview.com###cm-jobs-block-inner
 whocallsme.com###cnt_1
 whocallsme.com###cnt_2
 whocallsme.com###cnt_btm
@@ -67523,6 +67525,7 @@ healthnfitness.net##.adTrack
 sofascore.com##.adUnitBox
 dailyo.in##.adWrapp
 romper.com##.adWrapper
+barrons.com##.adWrapperTopLead
 m.thewire.in##.ad_20
 food.com##.ad__ad
 disqus.com##.ad__adh-wrapper
@@ -68137,7 +68140,6 @@ flipline.com##.box_grey_tr
 functions-online.com##.box_wide
 kiz10.com##.boxadsmedium
 bolavip.com,worldsoccertalk.com##.boxbanner_container
-thehackernews.com##.boxside
 retailgazette.co.uk##.boxzilla-overlay
 retailgazette.co.uk##.boxzilla-popup-advert
 wbur.org##.bp--native
@@ -68339,6 +68341,7 @@ rawstory.com##.container_proper-ad-unit
 worldscreen.com##.contains-sticky-video
 pastebin.com##.content > [style^="padding-bottom:"]
 amateurphotographer.com##.content-ad
+receive-sms.cc##.content-adsense
 floridasportsman.com##.content-banner-section
 crmbuyer.com,ectnews.com,technewsworld.com##.content-block-slinks
 journeyjunket.com##.content-container-after-post
@@ -69575,8 +69578,6 @@ oneindia.com##.oiad
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,oneindia.com##.oiad-txt
 gizbot.com##.oiadv
 hamodia.com##.oiomainlisting
-thehackernews.com##.okay_two
-thehackernews.com##.okayjon
 forums.somethingawful.com##.oma_pal
 etonline.com##.omni-skybox-plus-stick-placeholder
 oneindia.com##.one-ad
@@ -69690,7 +69691,6 @@ washingtontimes.com##.piano-right-rail-reco
 reelviews.net##.picHolder
 locklab.com##.picwrap
 yopmail.com,yopmail.fr,yopmail.net##.pindexhautctn
-thehackernews.com##.pixpix
 carsized.com##.pl_header_ad
 redgifs.com##.placard-wrapper
 gismeteo.com,meteofor.com,nofilmschool.com##.placeholder
@@ -69980,6 +69980,8 @@ bleepingcomputer.com##.s-ou-wrap
 hope1032.com.au##.s-supported-by
 japantoday.com##.s10r
 nodejs.libhunt.com##.saashub-ad
+thehackernews.com##.sadbar2
+thehackernews.com##.sadfix
 steamladder.com##.salad
 salife.com.au##.salife-slot
 sherbrookerecord.com##.sam-pro-container
@@ -70102,7 +70104,6 @@ abovethelaw.com##.sidebar-sponsored
 proprivacy.com##.sidebar-top-vpn
 indianapublicmedia.org##.sidebar-upper-underwritings
 bigleaguepolitics.com##.sidebar-widget
-thehackernews.com##.sidebar2
 mobilesyrup.com##.sidebarSponsoredAd
 zap-map.com##.sidebar__advert
 wordcounter.icu##.sidebar__display
@@ -71738,6 +71739,7 @@ neonheightsservers.com##.well:has(ins.adsbygoogle)
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 freshdirect.com##[class*="ProductsGrid_grid_item_"]:has([data-qa="tile_marketing_tag"])
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > :has(> .adWrapper)
+fortune.com##[class]:has(> #Leaderboard0)
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
 tesco.com##[class^="styled__StyledLIProductItem"]:has([class^="styled__StyledOffers"])
@@ -128934,7 +128936,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||request--to--fix--63.glitch.me^$all
 ||quaysomediamart2024.vip^$doc,domain=~mediamart.vn
 ||linktaccountcontant.com^$all,to=~linkt.com.au
-||mayxanhsupport.com^$all,to=~dienmayxanh.com
 ||liveflo.qxlva.io^$all
 ||hdtinchap.com^$all,to=~hdsaison.com.vn
 ||lotttemart.store^$all
@@ -128960,7 +128961,14 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||amazon-task.vip^$all
 ||ama-zon08.cc^$all
 ||zaxacava2.pages.dev^$all
+||c.vn-ebayn.vip^$all
+||vn-ebay.quxlpuj.cn^$all
+||ebayasean.com^$all
 ||51eabay.com^$all
+||135buy.com^$all
+||1568bet.com^$all
+||t66m.tv^$all
+||shopeegroup.com^$all
 ||rakutenpluss.com^$all
 ||rakutentenn.com^$all
 ||tiktokvips.shop^$all,to=~rakuten.co.jp
@@ -128969,6 +128977,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||cajewar736.wixsite.com^$all
 ||ewueuweudsjdjsdjjd.weeblysite.com^$all
 ||maiil-myatt.weeblysite.com^$all
+||keepo.io/KJOUYHUBU799BH/$all
 ||alisongaudino992.wixsite.com^$all
 ||dichvucong.$doc,domain=~gov.vn
 ||a.viethu.com^$all,to=~dichvucong.gov.vn
@@ -128999,6 +129008,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||5fgfggfgfg4g4h4.blogspot.com^$all
 ||haryanaaffordableshops.net/market-public-profile$all
 ||business.verified-suite-help.me^$all
+||www-mfacebook.vn^$all
 ||s33788.com^$all,to=~shopee.vn
 ||sp77888.com^$all,to=~shopee.vn
 *$doc,domain=tikimall.*|~tiki.vn
@@ -129008,11 +129018,15 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||nhanvientiki.info^$all,to=~tiki.vn
 ||tuyendungtiki2024.vn^$all,to=~tiki.vn
 ||lazd8.com^$all
-||vnsendo.shop^$all,to=~sendo.vn
+||lazada.bbc6666.com^$all
+||vnsendo.*^$all,to=info|shop|vip|~sendo.vn
+||mayxanhsupport.com^$all,to=~dienmayxanh.com
+||trungtam-dienmayxanh.com^$all,to=~dienmayxanh.com
 /^https:\/\/sp\d{2,3}88(?:vn)?\.com\//$doc,domain=com|~shopee.vn
 /^https:\/\/tdkd0[0-9]\.com\//$doc,domain=com|~tiki.vn
 /^https:\/\/[st][a-z0-9]{2,4}[0-9][a-z0-9]\.com\/api\/user\/do_login$/$xhr,1p,strict1p,method=post,header=access-control-allow-headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /^https:\/\/[st][a-z0-9]{2,4}[0-9][a-z0-9]\.com\/api\/user\/do_login$/$xhr,1p,strict1p,method=post,header=Access-Control-Allow-Headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
+||api2.*.info/api/user/do_login|$xhr,1p,strict3p,to=info,method=post,header=access-control-allow-headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 ||angesky.com^$all
 /^https:\/\/steamproxy\.[a-z]+\//$all,domain=cc|co|net|vip
 ||steamcommumnuty.com^$all
@@ -129068,6 +129082,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||wcomhost.com/spass/$doc,domain=~swisspass.ch
 ||codeanyapp.com/Swiss_com/$doc,domain=~swisscom.ch
 ||secureserver.net/myswisscom$doc,domain=~swisscom.ch
+||mybluehost.me/neww/$doc,domain=~swisscom.ch
 ||sei-io.web.app^$all,to=~sei.io
 ||app-aave.pages.dev^$all,to=~aave.com
 ||web3mainnetdapp.pages.dev^$all
@@ -129161,7 +129176,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||recovernj.com^$all
 ||pputy.com^$all
 ||file-zilla-projectt.org^$all
-||vnsendo.vip^$all,to=~sendo.vn
 ||vuabem.com^$all
 ||trumbem.com^$all
 /^https:\/\/[a-z]+bem\.com\/auth\/login/$doc
