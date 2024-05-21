@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tf8XufQQPU7Pbms9VI7u5Q
+! Checksum: 0xij55rV8j8ewxcmVPg5Ow
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405211425
-! Last Modified: 2024年05月21日 14:25
+! Version: 202405212033
+! Last Modified: 2024年05月21日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -5787,8 +5787,6 @@ _800x80_
 ###sponsors-home
 ###sponsorsBox
 ###sponsorsContainer
-###sponsorsads1
-###sponsorsads2
 ###sponsorship-area-wrapper
 ###sponsorship-box
 ###sporsored-results
@@ -5816,8 +5814,6 @@ _800x80_
 ###squareadevertise
 ###squareadvert
 ###squared_ad
-###ss-ad-overlay
-###ss-ads-container
 ###staticad
 ###stationad
 ###sticky-ad
@@ -5832,8 +5828,6 @@ _800x80_
 ###sticky-footer-ads
 ###sticky-left-ad
 ###sticky-rail-ad
-###sticky-top-ad-spacer
-###sticky-top-ad-wrap
 ###stickyAd
 ###stickyAdBlock
 ###stickyBottomAd
@@ -5845,7 +5839,6 @@ _800x80_
 ###stickyleftad
 ###stickyrightad
 ###stopAdv
-###stop_ad3
 ###story-ad
 ###story-bottom-ad
 ###storyAd
@@ -5853,26 +5846,20 @@ _800x80_
 ###story_ads
 ###storyad2
 ###stripadv
-###subAdsFooter
-###subbgad
 ###subheaderAd
 ###takeover-ad
 ###takeover_ad
 ###takeoverad
 ###td-ad-placeholder
 ###tdAds
-###td_adunit1
-###td_adunit1_wrapper
 ###td_adunit2
 ###td_sponsorAd
 ###team_ad
 ###teaser3
-###template_affiliates
 ###text-ad
 ###text-ads
 ###text-intext-ads
 ###text-link-ads
-###text-linkAD
 ###textAd
 ###textAd1
 ###textAds
@@ -12697,7 +12684,6 @@ _800x80_
 ##.iframe-ads
 ##.iframeAd
 ##.iframeAds
-##.im_adv
 ##.ima-ad-container
 ##.image-advertisement
 ##.image-viewer-ad
@@ -26173,7 +26159,6 @@ browsershots.org#@#.advert_area
 ||distantsoil.com^
 ||distilinborn.com^
 ||distiljunctioninstallation.com^
-||distilled.ie^
 ||distinct-bicycle.com^
 ||distinguishedshrug.com^
 ||distinguishtendhypothesis.com^
@@ -71942,7 +71927,7 @@ thestar.co.uk##.gOoqzH
 electricianforum.co.uk##.gb-sponsored
 arboristsite.com##.gb-sponsored-wrapper
 givemesport.com##.gms-videos-container
-thestreet.com##.is-fallback-player
+mensjournal.com,thestreet.com##.is-fallback-player
 anandtech.com##.jwplayer
 gamesradar.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
 space.com##.jwplayer__wrapper
@@ -86243,6 +86228,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
 ||thedailybeast.com/static/js/thirdparty.
 ||thefreedictionary.com/_/tr.ashx?
+||thehackernews.com/zscripts/
 ||theladders.com/api/user-tracking/
 ||thesun.co.uk/assets/client/analyticsListeners~
 ||thesun.co.uk/assets/client/newrelicExperimentTracking~
@@ -128472,9 +128458,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||gre.green-g-r-ee-n.com^$doc
 ||msdjdhj-tyq.com^$doc
 ||fukutoku-miyako.com^$doc
-||peraichi.com^$doc
 ||ka73-urara.club^$doc
 ||uraaka.net^$doc
+||peraichi.com/landing_pages/view/s8j8k/$doc
 ||soft-pro.site^$all
 ||apkmirror.co^$all
 ||webogram.org^$all
