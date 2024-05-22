@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: E5hrKa2A91vLeXxPFldd3w
+! Checksum: oWJEM+NJtZn5QY+SQSFP8g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405222034
-! Last Modified: 2024年05月22日 20:34
+! Version: 202405230223
+! Last Modified: 2024年05月23日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -128487,6 +128487,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||majiainc.com^$doc
 ||m4x8ndwhed9.com^$doc
 ||meet-up.jp^$doc
+||torquetrove.com^$doc
 ||soft-pro.site^$all
 ||apkmirror.co^$all
 ||webogram.org^$all
@@ -132068,6 +132069,8 @@ gifmagic.com###logoContainer:style(top: 0px !important;)
 ||artstation.com/*/views_tracking/$xhr,1p,redirect-rule=nooptext
 ||tapad.com^$badfilter
 ||tapad.com^$domain=~crportal.tapad.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect-rule=google-ima.js,domain=pilipinaslive.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=viu.com,redirect-rule=google-ima.js
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
