@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: f45DJCLjOWQEVJolwMY0qw
+! Checksum: E5hrKa2A91vLeXxPFldd3w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405221424
-! Last Modified: 2024年05月22日 14:24
+! Version: 202405222034
+! Last Modified: 2024年05月22日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57517,6 +57517,7 @@ browsershots.org#@#.advert_area
 ||07e197.site^$document,popup
 ||1116c5.xyz^$document,popup
 ||1350c3.xyz^$document,popup
+||1a1fb6.xyz^$document,popup
 ||20519a.xyz^$document,popup
 ||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^$document,popup
 ||295c.site^$document,popup
@@ -64894,6 +64895,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||navyrecognition.com/images/stories/customer/
 ||nemosa.co.za/images/mad_ad.png
 ||newkerala.com/banners/amazon
+||news.itsfoss.com/assets/images/pikapods.jpg
 ||newsnow.co.uk/pharos.js
 ||nexvelar.b-cdn.net/videoplayback_.mp4
 ||nontent.powzers.lol^
@@ -67005,7 +67007,7 @@ tecmint.com###tecmint_incontent
 tecmint.com###tecmint_leaderboard_article_top
 worldtribune.com###text-101
 geeky-gadgets.com###text-105335641
-thisiscolossal.com,vgleaks.com###text-11
+godisageek.com,thisiscolossal.com,vgleaks.com###text-11
 hpcwire.com###text-115
 cathnews.co.nz,cryptoreporter.info,net-load.com,vgleaks.com,wakingtimes.com###text-12
 radiosurvivor.com,thewashingtonstandard.com,vgleaks.com###text-13
@@ -67323,6 +67325,7 @@ thedailybeast.com##.Sizer
 coingape.com##.SponserdBtn
 goodreads.com##.SponsoredProductAdContainer
 streetsblog.org##.Sponsorship_articleBannerWrapper__wV_1S
+thetimes.com##.Sticky-AdContainer
 apartmenttherapy.com,cubbyathome.com,thekitchn.com##.StickyFooter
 slideshare.net##.StickyVerticalInterstitialAd_root__f7Qki
 coin360.com##.Sticky_Promo
@@ -67769,7 +67772,7 @@ happymod.com##.appx
 icon-icons.com##.apu
 icon-icons.com##.apu-mixed-packs
 chron.com,ctinsider.com,ctpost.com,middletownpress.com,mysanantonio.com,seattlepi.com,sfgate.com##.ar16-9
-ajc.com,bostonglobe.com,daytondailynews.com##.arc_ad
+ajc.com,bostonglobe.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.arc_ad
 adn.com,businessoffashion.com,irishtimes.com##.arcad-feature
 bloomberglinea.com##.arcad-feature-custom
 1news.co.nz,actionnewsjax.com,boston25news.com,easy93.com,fox23.com,kiro7.com,wftv.com,whio.com,wpxi.com,wsbradio.com,wsbtv.com,wsoctv.com##.arcad_feature
@@ -68040,6 +68043,7 @@ mondoweiss.net##.block-head-c
 newsweek.com##.block-ibtmedia-dfp
 endocrineweb.com,practicalpainmanagement.com##.block-oas
 kaotic.com##.block-toplist
+9to5linux.com##.block-widget
 worldtimebuddy.com##.block2
 macmusic.org##.block440Adv
 betaseries.com##.blockPartner
@@ -69881,6 +69885,7 @@ holiday-weather.com##.resp-leaderboard
 box-core.net,mma-core.com##.resp_ban
 arras.io##.respawn-banner
 guru99.com##.responsive-guru99-mobile1
+thetimes.com##.responsive__InlineAdWrapper-sc-4v1r4q-14
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result--ad > .result__body
 jetphotos.com##.result--adv
 myminifactory.com##.result-adv
@@ -85817,6 +85822,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nextdoor.*/ajax/ping_ndas/
 ||nextdoor.com/events/
 ||nflshop.com/api/track
+||nid.thetimes.com/prod/sp/nid_sp.js
 ||nike.com/assets/measure/data-capture/
 ||nimbusweb.me/gtlytics.js
 ||no9pldds1lmn3.soundcloud.com^
@@ -126928,6 +126934,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||luckvote.top^$all
 ||aofengniu.com^$all
 ||kuronekoyamato-jp.com^$all
+||appleidliy.com^$all
 ||pocket-888.com^$all
 ||webuzz.me^$doc
 ||coup-ling.net^$all
@@ -128473,6 +128480,13 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||uraaka.net^$doc
 ||peraichi.com/landing_pages/view/s8j8k/$doc
 ||tepco-stedll.com^$all
+||lovelove-on-line.site^$doc
+||gmatch.jp^$doc
+||gppw5cm4.com^$doc
+||mai1b0x.com^$doc
+||majiainc.com^$doc
+||m4x8ndwhed9.com^$doc
+||meet-up.jp^$doc
 ||soft-pro.site^$all
 ||apkmirror.co^$all
 ||webogram.org^$all
