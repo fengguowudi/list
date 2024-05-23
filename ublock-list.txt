@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yVMyfj2eD9t7sB1KTwUn9A
+! Checksum: y1GAZxzdswXZJVI35497Yg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405231425
-! Last Modified: 2024年05月23日 14:25
+! Version: 202405232033
+! Last Modified: 2024年05月23日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15812,6 +15812,7 @@ _800x80_
 ##div[id^="ads250_250-widget-"]
 ##div[id^="ads300_100-widget-"]
 ##div[id^="ads300_250-widget-"]
+##div[id^="ads300_600-widget-"]
 ##div[id^="adspot-"]
 ##div[id^="advads_ad_"]
 ##div[id^="crt-"][style]
@@ -22576,6 +22577,7 @@ browsershots.org#@#.advert_area
 ||camplacecash.com^
 ||camprime.com^
 ||camptrck.com^
+||cams.gratis^
 ||camschat.net^
 ||camshq.info^
 ||camsitecash.com^
@@ -25937,6 +25939,7 @@ browsershots.org#@#.advert_area
 ||dirhamsleered.com^
 ||dirtinessboiled.com^
 ||dirtrecurrentinapptitudeinapptitude.com^
+||dirty.games^
 ||dirtyasmr.com^
 ||dirtysuspension.com^
 ||disable-adverts.com^
@@ -28484,6 +28487,7 @@ browsershots.org#@#.advert_area
 ||fademployedtransactions.com^
 ||fadf617f13.com^
 ||fadfussequipment.com^
+||fadingsulphur.com^
 ||fadraiph.xyz^
 ||fadrovoo.xyz^
 ||fadsims.com^
@@ -47597,6 +47601,7 @@ browsershots.org#@#.advert_area
 ||sjkzeivw.com^
 ||sjmbwxnqz.com^
 ||sjolcdkqwiybh.xyz^
+||sjsabb.com^
 ||sjtactic.com^
 ||sjtbhdeakgsgr.com^
 ||sjteyeztnf.com^
@@ -48565,6 +48570,7 @@ browsershots.org#@#.advert_area
 ||statisticresearch.com^
 ||statisticscensordilate.com^
 ||statisticseither.com^
+||statorkumyk.com^
 ||statossy.com^
 ||stats-best.site^
 ||statsforads.com^
@@ -67159,7 +67165,7 @@ hellomagazine.com##.-variation-robapaginas
 yelp.com##.ABP
 gamesadshopper.com##.AD
 advfn.com##.APS_TOP_BANNER_468_X_60_container
-buzzfeed.com,imgur.io,iotworldtoday.com,sevendaysvt.com,tasty.co,tucsonweekly.com##.Ad
+buzzfeed.com,gamedeveloper.com,imgur.io,iotworldtoday.com,sevendaysvt.com,tasty.co,tucsonweekly.com##.Ad
 deseret.com##.Ad-space
 jagranjosh.com##.Ad720x90
 thingiverse.com##.AdBanner__adBanner--GpB5d
@@ -77978,6 +77984,7 @@ omni.soundestlink.com$image
 ||conversionlogic.net^$third-party
 ||conversionly.com^$third-party
 ||conversionruler.com^$third-party
+||convertagain.net^$third-party
 ||convertcart.com^$third-party
 ||convertexperiments.com^$third-party
 ||convertglobal.com^$third-party
@@ -82433,6 +82440,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lit.connatix.com^
 ||literally-analytics.appspot.com^
 ||live-partner.com/tags?
+||live-tv.top/js/k.min.js
 ||live.mrf.io/statics/marfeel/gardac-sync.js
 ||live2support.com^*/js_lstrk.
 ||livechatinc.com^*/control.cgi?
@@ -82563,6 +82571,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mkcms.com/stats.js
 ||ml.com/enterprisetagging/
 ||mlweb.dmlab.hu^
+||mmcdn.com/events/
 ||mmi.bemobile.ua^
 ||mochiads.com/clk/
 ||moco.yukata.dev/get/$image,third-party
@@ -82873,7 +82882,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||qzzr.com/_uid.gif
 ||r.mail.ru^$script
 ||r.skimresources.com^
-||r.stripe.com^$script
+||r.stripe.com^$script,xmlhttprequest
 ||rackcdn.com/gate.js
 ||rackcdn.com/stf.js
 ||radiotime.com/Report.ashx?
@@ -132056,6 +132065,8 @@ gifmagic.com###logoContainer:style(top: 0px !important;)
 ||tapad.com^$domain=~crportal.tapad.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect-rule=google-ima.js,domain=pilipinaslive.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=viu.com,redirect-rule=google-ima.js
+netoff.co.jp##+js(set, _etmc, {})
+netoff.co.jp##+js(set, _etmc.push, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
