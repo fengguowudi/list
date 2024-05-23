@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oWJEM+NJtZn5QY+SQSFP8g
+! Checksum: 5ZMuV0sYtb9dR5EyhutinA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405230223
-! Last Modified: 2024年05月23日 02:23
+! Version: 202405230916
+! Last Modified: 2024年05月23日 09:16
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -22347,6 +22347,7 @@ browsershots.org#@#.advert_area
 ||busbymelpell.com^
 ||bushesawaitfeminine.com^
 ||bushicitrals.com^
+||bushipalpate.com^
 ||businessenviron.com^
 ||businessessities.com^
 ||businesslinenow.com^
@@ -29329,6 +29330,7 @@ browsershots.org#@#.advert_area
 ||fluese.com^
 ||fluffychair.pro^
 ||fluffynyasquirell.com^
+||fluffytracing.com^
 ||fluid-company.pro^
 ||fluidallobar.com^
 ||fluiddisaster.pro^
@@ -30378,6 +30380,7 @@ browsershots.org#@#.advert_area
 ||geodator.com^
 ||geodesyhoptree.com^
 ||geoffreyquitimpression.com^
+||geogenyveered.com^
 ||geographicaltruth.com^
 ||geoidsskift.guru^
 ||geoinventory.com^
@@ -33320,6 +33323,7 @@ browsershots.org#@#.advert_area
 ||imperativetheirs.com^
 ||imperialbattervideo.com^
 ||imperialtense.com^
+||imperiicoloppe.top^
 ||impertinentwishing.com^
 ||imperturbableawesome.com^
 ||imperturbableclothes.com^
@@ -34380,6 +34384,7 @@ browsershots.org#@#.advert_area
 ||jeejeetauz.com^
 ||jeejujou.net^
 ||jeekomih.com^
+||jeephiney.net^
 ||jeerinfluencemedical.com^
 ||jeerouse.xyz^
 ||jeersoddisprove.com^
@@ -36424,6 +36429,7 @@ browsershots.org#@#.advert_area
 ||linendrink.com^
 ||linensephraim.com^
 ||lingamretene.com^
+||lingamschymify.com^
 ||lingerdisquietcute.com^
 ||lingerincle.com^
 ||lingoumboylike.website^
@@ -51950,6 +51956,7 @@ browsershots.org#@#.advert_area
 ||uptodateexpansionenvisage.com^
 ||uptodatefinishconferenceroom.com^
 ||uptownrecycle.com^
+||uptraceforlore.com^
 ||uptuwhum.net^
 ||upupoidoutjazz.website^
 ||upush.co^
@@ -53659,6 +53666,7 @@ browsershots.org#@#.advert_area
 ||whizduly.com^
 ||whizzerknucks.com^
 ||whizzerlollard.top^
+||whizzerrapiner.com^
 ||whkyiuufzjt.com^
 ||whoachoh.com^
 ||whoajeex.xyz^
@@ -55190,6 +55198,7 @@ browsershots.org#@#.advert_area
 ||zaicasoawoul.com^
 ||zaigaphy.net^
 ||zaihxti.com^
+||zaikasoatie.xyz^
 ||zailoanoy.com^
 ||zaimads.com^
 ||zaistaug.net^
@@ -57535,6 +57544,7 @@ browsershots.org#@#.advert_area
 ||634369.xyz^$document,popup
 ||657475b7-0095-478d-90d4-96ce440604f9.online^$document,popup
 ||68646f.xyz^$document,popup
+||7608d5.xyz^$document,popup
 ||7e809ed7-e553-4e29-acb1-4e3c0e986562.site^$document,popup
 ||7fc8.site^$document,popup
 ||8acc5c.site^$document,popup
@@ -62791,6 +62801,7 @@ browsershots.org#@#.advert_area
 ||google.com/afs/ads?
 ||google.com/pagead/1p-user-list/
 ||google.com/pagead/conversion_async.js
+||google.com/pagead/drt/
 ||google.com/pagead/landing?
 ||googleadapis.l.google.com^$third-party
 ||googleads.github.io^
@@ -71738,7 +71749,6 @@ svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
 tesco.com##[class^="styled__StyledLIProductItem"]:has([class^="styled__StyledOffers"])
 argos.co.uk##[class^="styles__LazyHydrateCard"]:has([class*="ProductCardstyles__FlyoutBadge"])
 cargurus.com##[data-cg-ft="car-blade-link"]:has([data-cg-ft="srp-listing-blade-sponsored"])
-olx.bg,olx.com.br,olx.kz,olx.pl,olx.pt,olx.ro,olx.ua,olx.uz##[data-cy="l-card"]:has([data-testid="adCard-featured"])
 wayfair.com##[data-hb-id="Card"]:has([data-node-id^="ListingCardSponsored"])
 giantfood.com,martinsfoods.com##[data-product-id]:has(.flag_label--sponsored)
 kayak.com##[role="button"]:has([class*="ad-marking"])
@@ -83584,6 +83594,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wallkit.net^*/user/event
 ||wantlive.com/pixel/
 ||warnermedia.com/api/v1/events?
+||watchtower.graindata.com^
 ||wco.crownpeak.com^
 ||weather.ca/counter.gif?
 ||web-tracker.smsbump.com^
@@ -86098,8 +86109,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stapewithadblock.xyz/stat/
 ||starfiles.co/analytics.php
 ||startpage.com/sp/$ping
+||startpage.com/sp/dplpxs?
 ||startpage.com/sp/jst
-||startpage.com/sp/qi
 ||startpage.com/sp/sxpra?
 ||starzplay.com/resources/js/analytics.js
 ||stat.pubhtml5.com^
@@ -122018,7 +122029,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||matt.mercadolivre.com.br^
 ||metrics.uol.com.br^
 ||olx.com.br^*/lurker.
-||passeidireto.com/pd-tracking-lib/
 ||poder360.com.br/_tracker
 ||r7.com/comscore/
 ||sapo.*/clk?u=
@@ -126519,7 +126529,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||nyeeiye2.click^$all
 ||privatedates.link^$all
 ||trckotang.com^$all
-||sites.google.com/view/healthrecordsxray$doc
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/(?:article\d{4}\.doc)?\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case
@@ -126548,14 +126557,17 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||soft-portal.me^$doc
 ||mediafire.com/folder/nwx2eunpfvo9o/$doc
 ||mediafire.com/folder/10ejpiwio2gfh/$doc
-||mediafire.com/folder/m002gov99iz17/$doc
 ||mediafire.com/folder/dqp2hwa872obn/$doc
+||mediafire.com/folder/gbhbhm73350j9/$doc
 ||www.youtube.com/channel/UCuHeiORKwgjZ5-n8xoq_zVA/$doc
 ||www.youtube.com/channel/UCS9ql1ylQmDx7o_6v15X7mw/$doc
 ||www.youtube.com/@DOWNLOAD-LINKK/$doc
 ||www.youtube.com/@Channel-Links/$doc
 ||www.youtube.com/channel/UCwmnsubfOCTN_xMhg4czo5A/$doc
 ||www.youtube.com/channel/UCMUX22F3EJv_m7qAAG7sBMQ/$doc
+||sites.google.com/view/amamsoft$doc
+||sites.google.com/view/hubgames$doc
+||sites.google.com/view/ulpackmnn$doc
 ||gamefree.vip^$doc
 ||galaxycheats.site^$doc
 ||pewhack.com^$doc
@@ -126565,15 +126577,14 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||murhack.com^$doc
 ||insomniahack.fun^$all
 ||trustsoftware.net^$doc
-||sites.google.com/view/driver-booster-pro$doc
-||sites.google.com/view/fl-studio-activator$doc
 ||whitegames.pro^$doc
 ||gameplayer.click^$all
 ||ryosx.cc^$doc
 ||gramcheats.com^$doc
-||cheats-2.gitbook.io^$doc
 ||yuqucheats.com^$doc
 ||mi-hack.com^$doc
+||clouds-folder.com^$all
+||spacecheats.site^$doc
 ||cloud-folder.org^$doc
 .systems/signup?ad_domain=$doc,popup
 ||1perpersqe1.com^$all
