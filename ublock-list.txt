@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uJyc1DWmV/u6EQC9M3rh8Q
+! Checksum: y+jFySWM+Wh6QSLelMBhOw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405240917
-! Last Modified: 2024年05月24日 09:17
+! Version: 202405241424
+! Last Modified: 2024年05月24日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2869,8 +2869,6 @@ _800x80_
 ###ad_xrail_top
 ###ad_zone
 ###adaptvcompanion
-###adb-top
-###adbForum
 ###adb_bottom
 ###adbackground
 ###adbanner-container
@@ -2885,7 +2883,6 @@ _800x80_
 ###adblade
 ###adblade_ad
 ###adblkad
-###adblock-300x250
 ###adblock-big
 ###adblock-leaderboard
 ###adblock-small
@@ -2973,10 +2970,8 @@ _800x80_
 ###adm-inline-article-ad-1
 ###adm-inline-article-ad-2
 ###admain
-###admaintop
 ###admasthead
 ###admid
-###admiddleCenter
 ###admobilefoot
 ###admobilefootinside
 ###admobilemiddle
@@ -3009,10 +3004,7 @@ _800x80_
 ###adposition3
 ###adposition4
 ###adpositionbottom
-###adpostloader
-###adpromo
 ###adrect
-###adrig
 ###adright
 ###adright2
 ###adrightbottom
@@ -3049,7 +3041,6 @@ _800x80_
 ###ads-blog
 ###ads-bot
 ###ads-bottom
-###ads-by-google
 ###ads-col
 ###ads-container
 ###ads-container-2
@@ -3058,7 +3049,6 @@ _800x80_
 ###ads-container-top
 ###ads-content
 ###ads-content-double
-###ads-div2
 ###ads-footer
 ###ads-footer-inner
 ###ads-footer-wrap
@@ -3130,7 +3120,6 @@ _800x80_
 ###adsContainer
 ###adsContent
 ###adsDisplay
-###adsHeadLine
 ###adsHeader
 ###adsHeading
 ###adsLREC
@@ -3152,7 +3141,6 @@ _800x80_
 ###adsZone
 ###adsZone1
 ###adsZone2
-###ads_01
 ###ads_0_container
 ###ads_160
 ###ads_3
@@ -3162,7 +3150,6 @@ _800x80_
 ###ads_728
 ###ads_728x90
 ###ads_728x90_top
-###ads_back
 ###ads_banner
 ###ads_banner1
 ###ads_banner_header
@@ -8666,33 +8653,25 @@ _800x80_
 ##.adace-slot-wrapper
 ##.adace-sponsors-box
 ##.adace-vignette
-##.adadded
-##.adageunicorns
 ##.adalert-overlayer
 ##.adalert-toplayer
 ##.adamazon
 ##.adarea
 ##.adarea-long
 ##.adarticle
-##.adb-728x90
-##.adb-bottom-outer
-##.adbTrkWt
+##.adb-top
 ##.adback
 ##.adban
-##.adban-hold-narrow
 ##.adband
 ##.adbanner-300-250
 ##.adbanner-bottom
 ##.adbanner1
-##.adbanner2nd
 ##.adbannerbox
-##.adbanneriframe
 ##.adbannerright
 ##.adbannertop
 ##.adbase
 ##.adbbox
 ##.adbckgrnd
-##.adbelowfirstpost
 ##.adbetween
 ##.adbetweenarticles
 ##.adbkgnd
@@ -8700,9 +8679,6 @@ _800x80_
 ##.adblade-container
 ##.adbladeimg
 ##.adblk
-##.adblock-240-400
-##.adblock-300-300
-##.adblock-600-120
 ##.adblock-bottom
 ##.adblock-header
 ##.adblock-header1
@@ -8713,7 +8689,6 @@ _800x80_
 ##.adblock-wide
 ##.adblock300
 ##.adblock300250
-##.adblock300x250Spot1
 ##.adblock728x90
 ##.adblock__banner
 ##.adblock_noborder
@@ -67172,7 +67147,7 @@ hellomagazine.com##.-variation-robapaginas
 yelp.com##.ABP
 gamesadshopper.com##.AD
 advfn.com##.APS_TOP_BANNER_468_X_60_container
-buzzfeed.com,gamedeveloper.com,imgur.io,iotworldtoday.com,sevendaysvt.com,tasty.co,tucsonweekly.com##.Ad
+buzzfeed.com,darkreading.com,gamedeveloper.com,imgur.io,iotworldtoday.com,sevendaysvt.com,tasty.co,tucsonweekly.com##.Ad
 deseret.com##.Ad-space
 jagranjosh.com##.Ad720x90
 thingiverse.com##.AdBanner__adBanner--GpB5d
@@ -68452,6 +68427,7 @@ nettv4u.com##.desk_only
 newindian.in##.deskad
 cardealermagazine.co.uk##.desktop
 livesoccertv.com##.desktop-ad-container
+vitalmtb.com##.desktop-header-ad
 rok.guide##.desktop-promo-banner
 tiermaker.com##.desktop-sticky
 buzzfeed.com,buzzfeednews.com##.desktop-sticky-ad_desktopStickyAdWrapper__a_tyF
@@ -70556,6 +70532,7 @@ letterboxd.com##.upgrade-kicker
 upworthy.com##.upworthy_infinite_scroll_ad
 upworthy.com##.upworthy_infinte_scroll_outer_wrap
 vervetimes.com##.uyj-before-header
+vitalmtb.com##.v-ad-slot
 surinenglish.com##.v-adv
 militarywatchmagazine.com##.v-size--x-small.theme--light
 tetris.com##.vAxContainer-L
@@ -82739,6 +82716,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pagesocket.glam.com^
 ||pageturnpro.com/tracker.aspx?
 ||pair.com/itero/tracker_ftc/
+||panorama.wixapps.net^
 ||pap.qualityunit.com^$third-party
 ||parallax.askmediagroup.com^
 ||parkwhiz.com/events/
@@ -86104,7 +86082,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||startpage.com/sp/$ping
 ||startpage.com/sp/dplpxs?
 ||startpage.com/sp/jst
-||startpage.com/sp/sxpra?
 ||starzplay.com/resources/js/analytics.js
 ||stat.pubhtml5.com^
 ||stat.tildacdn.com^
@@ -129074,6 +129051,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||outlook-office.zapier.app^$all
 ||halliburton.liflic.in^$all
 ||infos4.yolasite.com^$all
+||policija64.wixsite.com^$all
 ||madhavafoods.com/wp-content/plugins/team/$all
 ||cashum.unam.mx/wp-content/backups-dup-pro/imports/index.htm$all
 ||puzzle-trapezoidal-throne.glitch.me/*.html^$all
@@ -129216,6 +129194,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||magicslimnhatban.com^$all
 ||giamcannhatban.com^$all
 ||examated.co.in^$doc
+||clientarea-loginauth.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -131730,7 +131709,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 ||useinsider.com^$image,redirect-rule=2x2.png,domain=akbank.com
 @@||googletagmanager.com/gtm.js$script,domain=nrj-play.fr
 @@||www.googletagmanager.com/gtm.js$script,domain=nykaa.com
-@@||cdn.pendo.io/agent/static/*$script,domain=recruiting.adp.com
+@@||cdn.pendo.io/agent/static/*/pendo.js$script,domain=adp.com
 @@||bat.bing.com/bat.js$script,domain=northwell.edu
 @@||cdn.segmentify.com^$css,image,script,domain=mediamarkt.com.tr
 @@||img.segmentify.com^$image,domain=mediamarkt.com.tr
@@ -131963,7 +131942,6 @@ commande.rhinov.pro##+js(set, Sentry.init, noopFunc)
 @@||thethings.com^$ghide
 thethings.com##.adsninja-ad-zone:not(.adsninja-valstream)
 ||awswaf.com^*/telemetry$badfilter
-@@||cdn.pendo.io/agent/static/*/pendo.js$script,domain=netsecure.adp.com
 @@||googletagmanager.com/gtm.js$script,3p,domain=al.com|cleveland.com|lehighvalleylive.com|masslive.com|mlive.com|nj.com|oregonlive.com|pennlive.com|silive.com|syracuse.com
 @@||apps.sophi.io/latest/*.segments.min.js$script,3p,domain=al.com|cleveland.com|lehighvalleylive.com|masslive.com|mlive.com|nj.com|oregonlive.com|pennlive.com|silive.com|syracuse.com
 @@/DG/DEFAULT/rest/rpc/*$script,1p,domain=al.com|cleveland.com|lehighvalleylive.com|masslive.com|mlive.com|nj.com|oregonlive.com|pennlive.com|silive.com|syracuse.com
@@ -132087,6 +132065,8 @@ gifmagic.com###logoContainer:style(top: 0px !important;)
 netoff.co.jp##+js(set, _etmc, {})
 netoff.co.jp##+js(set, _etmc.push, noopFunc)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=france24.com,redirect-rule=google-ima.js
+foundit.com.ph##+js(set, freshpaint, {})
+foundit.com.ph##+js(set, freshpaint.track, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
