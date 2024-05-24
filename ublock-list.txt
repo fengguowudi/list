@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: y+jFySWM+Wh6QSLelMBhOw
+! Checksum: KXGSA2f2PnrWwCmo+UsTLQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405241424
-! Last Modified: 2024年05月24日 14:24
+! Version: 202405242033
+! Last Modified: 2024年05月24日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15813,6 +15813,8 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##topadblock
 ##zeus-ad
+##.aspace-300x169
+##.aspace-300x250
 ###hgiks-middle
 ###hgiks-top
 ##.boxOverContent__banner
@@ -57504,6 +57506,7 @@ browsershots.org#@#.advert_area
 ||b59c.xyz^$document,popup
 ||b714b1e8-4b7d-4ce9-a248-48fd5472aa0b.online^$document,popup
 ||b9f25b.site^$document,popup
+||bc98ad.xyz^$document,popup
 ||bcbe.site^$document,popup
 ||ca3d.site^$document,popup
 ||ca9246.xyz^$document,popup
@@ -62781,6 +62784,7 @@ browsershots.org#@#.advert_area
 ||ifoneunlock.com/*_banner_
 ||imsynthesis.pro/banners/$third-party
 ||in.com/common/script_catch.js
+||inbound-step.heavenmedia.com^$third-party
 ||incrementxplay.com/api/adserver/
 ||indeed.fr/ads/
 ||infibeam.com/affiliate/
@@ -67321,10 +67325,11 @@ swarajyamag.com##._1eNH8
 gadgetsnow.com##._1edxh
 gadgetsnow.com##._1pjMr
 afkgaming.com##._2-COY
-brisbanetimes.com.au,smh.com.au,watoday.com.au##._2gSkZ
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##._2gSkZ
 jeffdornik.com##._2kEVY
 gadgetsnow.com##._2slKI
 coderwall.com##._300x250
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##._34z61
 timesnownews.com##._3n1p
 thequint.com##._4xQrn
 outlook.live.com##._BAY1XlyQSIe6kyKPlYP
@@ -70773,6 +70778,7 @@ mydramalist.com##[class^="zrsx_"]
 newspointapp.com##[ctn-style]
 flatpanelshd.com##[data-aa-adunit]
 dribbble.com##[data-ad-data*="ad_link"]
+androidauthority.com##[data-ad-type]
 gamelevate.com##[data-adpath]
 builtbybit.com##[data-advertisement-id]
 timesofindia.indiatimes.com##[data-aff-type]
@@ -71030,6 +71036,7 @@ infotel.ca##[src^="https://infotel.ca/absolutebm/"]
 exportfromnigeria.info##[src^="https://storage.proboards.com/"]
 exportfromnigeria.info##[src^="https://storage2.proboards.com/"]
 buzzly.art##[src^="https://submissions.buzzly.art/CANDY/"]
+manhwabtt.com##[style$="min-height: 250px;"]
 circleid.com##[style*="300px;"]
 circleid.com##[style*="995px;"]
 coolors.co##[style*="position:absolute;top:20px;"]
@@ -71702,7 +71709,6 @@ bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 freshdirect.com##[class*="ProductsGrid_grid_item_"]:has([data-qa="tile_marketing_tag"])
 popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
-brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > :has(> .adWrapper)
 fortune.com##[class]:has(> #Leaderboard0)
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
@@ -71746,6 +71752,7 @@ outlook.live.com##div:has(> div > div.fbAdLink)
 tripadvisor.com##div:has(> div > div[class="ui_column ovNFo is-3"])
 tripadvisor.com##div:has(> div[class="ui_columns is-multiline "])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
+androidauthority.com##div:not([class]) > div[class^="_--_-___"]:has(> div[data-ad-type="leaderboard_atf"])
 webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
@@ -74124,7 +74131,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 .com/g.gif?
 .com/log/?
 .com/stats.aspx?
-.com/track?$~object
+.com/track?v=
 .content_tracking.js
 .de/l.gif?
 .eloqua.js
@@ -121903,6 +121910,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||l.m.naver.com^
 ||log.etoday.co.kr^
 ||log.kinolights.com^
+||log.tossinvest.com^
 ||log.zdnet.co.kr^
 ||naver.com/PostView.nhn?$image
 ||nil.naver.com^
@@ -122574,6 +122582,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
 @@||zoominfo.com/c/amplitude-js$script,~third-party
+!! https://old.reddit.com/r/uBlockOrigin/comments/1czbcvg/foundit_is_blocking_searches_until_ublock_origin/
+@@||media.foundit.*/trex/public/theme_3/dist/js/userTracking.js$script,~third-party
 !! amplitude.com/libs
 @@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com|xe.com
 !! googletagmanager.com/gtm.js
@@ -132065,8 +132075,9 @@ gifmagic.com###logoContainer:style(top: 0px !important;)
 netoff.co.jp##+js(set, _etmc, {})
 netoff.co.jp##+js(set, _etmc.push, noopFunc)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=france24.com,redirect-rule=google-ima.js
-foundit.com.ph##+js(set, freshpaint, {})
-foundit.com.ph##+js(set, freshpaint.track, noopFunc)
+||media.foundit.*/trex/public/theme_3/dist/js/userTracking.js$script,1p,important
+foundit.*##+js(set, freshpaint, {})
+foundit.*##+js(set, freshpaint.track, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -139099,7 +139110,7 @@ foundit.com.ph##+js(set, freshpaint.track, noopFunc)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Sun, 05 May 2024 19:21:23 GMT
-# entries:        3726
+# entries:        3725
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -142722,7 +142733,6 @@ foundit.com.ph##+js(set, freshpaint.track, noopFunc)
 127.0.0.1 webtracky.com
 127.0.0.1 webtraffic.se
 127.0.0.1 webtraxx.de
-127.0.0.1 webtrends.telegraph.co.uk
 127.0.0.1 webtrendslive.com
 127.0.0.1 webxcdn.com
 127.0.0.1 wellmadefrog.com
