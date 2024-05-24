@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KXGSA2f2PnrWwCmo+UsTLQ
+! Checksum: 8mytqbMJfO1BTPbgSwQLSQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405242033
-! Last Modified: 2024年05月24日 20:33
+! Version: 202405250223
+! Last Modified: 2024年05月25日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20897,6 +20897,7 @@ browsershots.org#@#.advert_area
 ||belovedset.com^
 ||beloveupcreep.com^
 ||beltarklate.live^
+||beltwaythrust.com^
 ||beludicolor.com^
 ||belwrite.com^
 ||bemachopor.com^
@@ -38703,6 +38704,7 @@ browsershots.org#@#.advert_area
 ||muirpekvl.com^
 ||mujilora.com^
 ||mukhtarproving.com^
+||mulaukso.com^
 ||mulberryay.com^
 ||mulberrydoubloons.com^
 ||mulberryresistoverwork.com^
@@ -41289,6 +41291,7 @@ browsershots.org#@#.advert_area
 ||outyanmegaom.com^
 ||ouveelsa.xyz^
 ||ouvrestance.com^
+||ouwhejoacie.xyz^
 ||ouxvgihpkjfkhs.xyz^
 ||ouyoqudevfal.com^
 ||ouzavamt.com^
@@ -51471,6 +51474,7 @@ browsershots.org#@#.advert_area
 ||ulmoyc.com^
 ||ulmpyqgfqkffe.com^
 ||ulmujev.com^
+||ulnaswotter.top^
 ||ulngjwvbhyyfkum.com^
 ||ulnhlnsw.com^
 ||ulnidkdlaxclpo.com^
@@ -122516,6 +122520,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||sephora.com/js/ufe/isomorphic/thirdparty/VisitorAPI.js$~third-party
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
 @@||services.chipotle.com/__imp_apg__/$~third-party
+@@||sharethis.com/button/buttons.js$domain=bristan.com
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
@@ -132078,6 +132083,8 @@ netoff.co.jp##+js(set, _etmc.push, noopFunc)
 ||media.foundit.*/trex/public/theme_3/dist/js/userTracking.js$script,1p,important
 foundit.*##+js(set, freshpaint, {})
 foundit.*##+js(set, freshpaint.track, noopFunc)
+@@||tm.jsuol.com.br/modules/external/admanager/clickjogos_ads.js$script,domain=clickjogos.com.br,badfilter
+clickjogos.com.br##+js(set, ShowRewards, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
