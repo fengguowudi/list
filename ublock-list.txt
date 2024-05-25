@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DUjv7ZiiZAFPJGnbekoDiw
+! Checksum: tXRmagi2SQyEt+fZoSY+Qw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405250916
-! Last Modified: 2024年05月25日 09:16
+! Version: 202405251424
+! Last Modified: 2024年05月25日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12893,32 +12893,17 @@ _800x80_
 ##.l-header-advertising
 ##.l-section--ad
 ##.l1-ads-wrapper
-##.l_ad_sub
 ##.label-ad
 ##.label_advertising_text
 ##.labelads
-##.labeled_ad
-##.landing-page-ads
-##.landingAdRail
-##.landing_adbanner
-##.large-ad-center
 ##.large-advert
-##.large-btn-ad
-##.large-right-ad
 ##.largeAd
 ##.largeRectangleAd
 ##.largeUnitAd
 ##.large_ad
 ##.lastAdHolder
-##.lastAdvertorial
-##.lastLiAdv
-##.lastRowAd
 ##.lastads
 ##.latest-ad
-##.layer-ad-bottom
-##.layer-ad-top
-##.layer_text_ad
-##.layeradinfo
 ##.layout-ad
 ##.layout__right-ads
 ##.layout_h-ad
@@ -12935,8 +12920,6 @@ _800x80_
 ##.lb-adhesion-unit
 ##.lb-advert-container
 ##.lb-item-ad
-##.lbc-ad
-##.lblAdvert
 ##.ld-ad
 ##.ld-ad-inner
 ##.ldm_ad
@@ -13368,9 +13351,6 @@ _800x80_
 ##.mpu-unit
 ##.mpu-wrap
 ##.mpu-wrapper
-##.mpu01
-##.mpu250
-##.mpu600
 ##.mpuAd
 ##.mpuAdArea
 ##.mpuAdSlot
@@ -13379,17 +13359,13 @@ _800x80_
 ##.mpuBlock
 ##.mpuBox
 ##.mpuContainer
-##.mpuTextAd
 ##.mpu_Ad
 ##.mpu_ad
 ##.mpu_advert
 ##.mpu_container
-##.mpu_gold
 ##.mpu_holder
 ##.mpu_placeholder
-##.mpu_platinum
 ##.mpu_side
-##.mpu_text_ad
 ##.mpu_wrapper
 ##.mpuad
 ##.mpuads
@@ -13399,30 +13375,17 @@ _800x80_
 ##.mr4_adwrap
 ##.mrec-ads
 ##.mrec-banners
-##.mrec-scrollable-cont
 ##.mrecAds
 ##.mrec_advert
 ##.mrf-adv
 ##.mrf-adv__wrapper
-##.mrf-directad
-##.ms-ad-superbanner
-##.ms-ads-link
-##.ms-slide-ads
-##.ms_header_ad
-##.msat-adspace
 ##.msg-ad
 ##.msgad
-##.msw-js-advert
 ##.mt-ad-container
-##.mt-t-ad
 ##.mt_ad
 ##.mt_ads
 ##.mtop_adfit
 ##.mu-ad-container
-##.multiad2
-##.multiadwrapper
-##.mvAd
-##.mvAdHdr
 ##.mv_atf_ad_holder
 ##.mvp-ad-label
 ##.mvp-feat1-list-ad
@@ -13454,8 +13417,6 @@ _800x80_
 ##.native-sidebar-ad
 ##.native.ad
 ##.nativeAd
-##.nativeAd-sponsor-position
-##.nativeMessageAd
 ##.native_ad
 ##.native_ad_inline
 ##.native_ad_wrap
@@ -13465,24 +13426,16 @@ _800x80_
 ##.nav-ad-gpt-container
 ##.nav-ad-plus-leader
 ##.nav-adWrapper
-##.navAdsBanner
-##.navBads
-##.nav__adbanner
 ##.nav_ad
-##.nav_textads
-##.navadbox
-##.navbar-ad-container
 ##.navbar-ad-section
 ##.navbar-ads
 ##.navbar-header-ad
-##.navi_ad300
 ##.naviad
 ##.ndmadkit
 ##.netPost_ad1
 ##.netPost_ad3
 ##.netads
 ##.netshelter-ad
-##.new-ad-box
 ##.newHeaderAd
 ##.new_ad1
 ##.new_ad_left
@@ -13491,22 +13444,17 @@ _800x80_
 ##.new_ads_unit
 ##.newad
 ##.newad1
-##.newadsky-wrapper
 ##.news-ad
 ##.news-ad-square-a
 ##.news-ad-square-box
 ##.news-ads-top
-##.news-advertisement
-##.news-home-block-ad
 ##.news-item--ad
-##.news-place-ad-info
 ##.news_ad_box
 ##.news_vibrant_ads_banner
 ##.newsad
 ##.newsblock-ads
 ##.newsfeed_adunit
 ##.newspack_global_ad
-##.nf-adbox
 ##.nfy-ad
 ##.nfy-ad-teaser
 ##.nfy-ad-tile
@@ -13518,15 +13466,11 @@ _800x80_
 ##.nm-ad
 ##.nn_mobile_mpu_wrapper
 ##.node-ad
-##.node-content-ad
 ##.node_ad_wrapper
-##.nomobilead
-##.non-empty-ad
 ##.normalAds
 ##.normal_ads
 ##.normalad
 ##.northad
-##.noskim.ad
 ##.not-an-ad-header
 ##.note-advertisement
 ##.np-ad
@@ -13545,7 +13489,6 @@ _800x80_
 ##.nts-ad
 ##.ntv-ad
 ##.nuffnangad
-##.nui-ad-layout
 ##.nuk-ad-placeholder
 ##.nv-ads-wrapper
 ##.nw-ad
@@ -13558,10 +13501,6 @@ _800x80_
 ##.o-ad
 ##.o-ad-banner-top
 ##.o-ad-container
-##.o-ads
-##.o-ads--center
-##.o-ads-content
-##.o-ads__outer
 ##.o-advert
 ##.o-listing__ad
 ##.o-site-header__advert
@@ -14941,9 +14880,7 @@ _800x80_
 ##.topBannerAd
 ##.topBarAd
 ##.topBoxAdvertisement
-##.topGoogleAd
 ##.topLeaderboardAd
-##.topRailAdSlot
 ##.topRightAd
 ##.top_Ad
 ##.top__ad
@@ -38008,6 +37945,7 @@ browsershots.org#@#.advert_area
 ||milfunsource.com^
 ||militiatillers.top^
 ||milkejusd.website^
+||milksquadronsad.com^
 ||milkygoodness.xyz^
 ||milkywaynewspaper.com^
 ||millennialmedia.com^
@@ -57482,6 +57420,7 @@ browsershots.org#@#.advert_area
 ||07c225f3.online^$document,popup
 ||07e197.site^$document,popup
 ||1116c5.xyz^$document,popup
+||11c7a3.xyz^$document,popup
 ||1350c3.xyz^$document,popup
 ||1a1fb6.xyz^$document,popup
 ||20519a.xyz^$document,popup
@@ -59835,6 +59774,7 @@ browsershots.org#@#.advert_area
 ||migimsas.net^$popup
 ||migrantspiteconnecting.com^$popup
 ||milffinder.live^$popup
+||milksquadronsad.com^$popup
 ||millustry.top^$popup
 ||mimosaavior.top
 ||mimosaavior.top^$popup
@@ -66900,6 +66840,7 @@ holiday-weather.com,omniglot.com,w3schools.com,zerochan.net###skyscraper
 nitrome.com###skyscraper_box
 nitrome.com###skyscraper_shadow
 scrabble-solver.com###skywideupper
+surfline.com###sl-header-ad
 slashdot.org###slashdot_deals
 gunsamerica.com###slidebox
 compleatgolfer.com,sacricketmag.com###slidein
@@ -67311,6 +67252,7 @@ coin360.com##.Sticky_Promo
 slant.co##.SummaryPage-LustreEmbed
 westword.com##.SurveyLinkSlideModal
 newser.com##.TaboolaP1P2
+engadget.com##.Td\(n\).Bdbc\(engadgetGutter\).Py\(40px\)
 dictionary.com##.TeixwVbjB8cchva8bDlg
 imgur.com##.Top300x600
 cnbc.com##.TopBanner-container
@@ -126527,6 +126469,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||mobilerefreshpro.xyz^$all
 ||rekosx.co.in^$all
 ||remor.xyz^$all
+||boxfiles.github.io/health-records-x-ray$doc
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/(?:article\d{4}\.doc)?\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case
@@ -128980,6 +128923,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||mybluehost.me/Recibir_paquete.php$doc,domain=~correos.es
 ||link-aktivasie.pictt.art^$all,to=~dana.id
 ||daftar-limit-paylater.xcxcx.my.id^$all,to=~dana.id
+||dana-indonesiiaa.clikweb.my.id^$all,to=~dana.id
 ||07xxxfixe.hubside.fr^$all,to=~orange.fr
 ||servicemailorange25.wixsite.com^$all,to=~orange.fr
 ||smsmmsernorepls.wixsite.com^$all,to=~orange.fr
@@ -129019,10 +128963,12 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||dtdev.com.ar^$all,to=~americanexpress.com
 ||dongtam.com.vn/app/$all,to=~td.com
 ||htdf7uyg5e.pages.dev^$all,to=~sbi.co.in
+||conveyancingportal.com^$all
 /^https:\/\/hdsaison-?[a-z]{2,}\.(?:cc|com|vip)\//$doc,domain=cc|com|vip|~hdsaison.com.vn
 /^https:\/\/tpbank\.[-a-z0-9]{5,}\.[a-z]{3}(?:\.vn)?\//$doc,domain=~edu|~gov|~gov.vn|~tpb.vn
 ||priscaved.com/bankk/$all
 ||sparkasse-oberhessen.info^$all,to=~sparkasse.de
+||mybluehost.me/service/*/nkl-log.php$doc,domain=~nickel.eu
 /^https:\/\/dhl\.\d+\.potabox\.com\//$doc,domain=~dhl.com
 ||sp.aircsgo.com^$all
 ||solutionfun.info^$all
@@ -129033,6 +128979,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||unusualaccountcnfrmpages.github.io^$all
 ||sumydeko.blogspot.com^$all
 ||5fgfggfgfg4g4h4.blogspot.com^$all
+||omkilohedi.blogspot.com^$all
 ||haryanaaffordableshops.net/market-public-profile$all
 ||business.verified-suite-help.me^$all
 ||www-mfacebook.vn^$all
@@ -132096,6 +132043,7 @@ clickjogos.com.br##+js(set, ShowRewards, noopFunc)
 ||sharethis.com/button/buttons.js$from=bristan.com,important
 bristan.com##+js(set, stLight, {})
 bristan.com##+js(set, stLight.options, noopFunc)
+zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
