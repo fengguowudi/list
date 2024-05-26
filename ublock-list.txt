@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xGqpVDgKvalu6qxmmTP51g
+! Checksum: Pa1gIqDsLY4l6k/9euZ4qA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405260922
-! Last Modified: 2024年05月26日 09:22
+! Version: 202405261423
+! Last Modified: 2024年05月26日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -7183,7 +7183,6 @@ _800x80_
 ##.ad-mobile-300x250
 ##.ad-mobile-300x50
 ##.ad-mobile-banner
-##.ad-mobile-dynamic
 ##.ad-mobile-flex-inc
 ##.ad-mobile-flex-pos2
 ##.ad-mobile-incontent-ad-plus
@@ -10787,7 +10786,6 @@ _800x80_
 ##.atf-ad
 ##.atfAds
 ##.atf_adWrapper
-##.atf_placeholder
 ##.atomsAdsCellModel
 ##.attachment-advert_home
 ##.attachment-dm-advert-bronze
@@ -12818,7 +12816,6 @@ _800x80_
 ##.js-ad-dynamic
 ##.js-ad-frame
 ##.js-ad-home
-##.js-ad-hover
 ##.js-ad-loader-bottom
 ##.js-ad-slot
 ##.js-ad-static
@@ -12826,13 +12823,10 @@ _800x80_
 ##.js-ad-unit-bottom
 ##.js-ad-wrapper
 ##.js-ad_iframe
-##.js-ad_iframe_wrap
 ##.js-adfliction-iframe
 ##.js-adfliction-standard
 ##.js-ads
 ##.js-ads-carousel
-##.js-ads-header-content
-##.js-adv-rotator-image
 ##.js-advert
 ##.js-advert-container
 ##.js-adzone
@@ -12852,39 +12846,28 @@ _800x80_
 ##.js-native-ad
 ##.js-no-sticky-ad
 ##.js-overlay_ad
-##.js-product-ad-slider
 ##.js-react-simple-ad
 ##.js-results-ads
 ##.js-right-ad-block
 ##.js-sidebar-ads
-##.js-site-header-advert
 ##.js-skyscraper-ad
 ##.js-slide-right-ad
 ##.js-slide-top-ad
-##.js-slim-nav-ad
 ##.js-sticky-ad
 ##.js-stream-ad
-##.js-stream-featured-ad
 ##.js-toggle-ad
-##.js-underplayerAd
 ##.jsAdSlot
 ##.jsMPUSponsor
-##.jsOneAd
-##.js_ad-sticky-footer
 ##.js_adContainer
 ##.js_ad_wrapper
-##.js_contained-ad-container
 ##.js_deferred-ad
 ##.js_desktop-horizontal-ad
 ##.js_midbanner_ad_slot
-##.js_movable_ad_slot
 ##.js_preheader-ad-container
 ##.js_slideshow-full-width-ad
 ##.js_slideshow-sidebar-ad
 ##.js_sticky-top-ad
 ##.jsx-adcontainer
-##.juicyads_300x250
-##.jumboAd
 ##.jw-ad
 ##.jw-ad-block
 ##.jw-ad-label
@@ -15005,7 +14988,6 @@ _800x80_
 ##.under-player-ad
 ##.under-player-ads
 ##.under_ads
-##.underplayerAd
 ##.underplayer__ad
 ##.uniAdBox
 ##.uniAds
@@ -15322,7 +15304,6 @@ _800x80_
 ##.yad-sponsored
 ##.yahooAd
 ##.yahooAds
-##.yahooContentMatch
 ##.yahoo_ad
 ##.yahoo_ads
 ##.yahooad
@@ -15716,14 +15697,11 @@ _800x80_
 ##div[data-adzone]
 ##div[data-alias="300x250 Ad 1"]
 ##div[data-alias="300x250 Ad 2"]
-##div[data-content="Advertisement"]
 ##div[data-contentexchange-widget]
 ##div[data-dfp-id]
-##div[data-google-query-id]
 ##div[data-id-advertdfpconf]
 ##div[data-native-ad]
 ##div[data-native_ad]
-##div[id^="_vdo_ads_player_ai_"]
 ##div[id^="ad-div-"]
 ##div[id^="ad-position-"]
 ##div[id^="ad_position_"]
@@ -57466,6 +57444,7 @@ browsershots.org#@#.advert_area
 ||4e55.xyz^$document,popup
 ||4e68.xyz^$document,popup
 ||58e0.site^$document,popup
+||5ceea3.xyz^$document,popup
 ||5fd6bc.xyz^$document,popup
 ||634369.xyz^$document,popup
 ||657475b7-0095-478d-90d4-96ce440604f9.online^$document,popup
@@ -67511,6 +67490,7 @@ thegatewaypundit.com##.adcovery-postbelow-01
 online-image-editor.com,thehindu.com##.add
 mid-day.com##.add-300x250
 mid-day.com##.add-970x250
+securityaffairs.com##.add-banner
 buzz.ie,irishpost.com,theweekendsun.co.nz##.add-block
 cricketcountry.com##.add-box
 morningstar.in##.add-container
@@ -128994,6 +128974,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||alisongaudino992.wixsite.com^$all
 ||dichvucong.$doc,domain=~gov.vn
 ||a.viethu.com^$all,to=~dichvucong.gov.vn
+||approvaltool.bdukinternal.net^$all,to=~gov.uk
+||keycloak-live.bdukinternal.net/realms/live/protocol/openid-connect/$all,to=~gov.uk
 ||mybluehost.me/*/impo/$doc,domain=~impots.gouv.fr
 ||chamsocthekhachhang-thang4.com.vn^$all
 ||sotuyenvcb.vietcombanker.com^$all
@@ -129105,6 +129087,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||secureserver.net/myswisscom$doc,domain=~swisscom.ch
 ||mybluehost.me/neww/$doc,domain=~swisscom.ch
 ||secureserver.net/ruckstantung907921/$doc,domain=~swisscom.ch
+||imtoken-lk.top^$all,to=~token.im
 ||sei-io.web.app^$all,to=~sei.io
 ||app-aave.pages.dev^$all,to=~aave.com
 ||web3mainnetdapp.pages.dev^$all
@@ -132063,8 +132046,6 @@ whatismyip.com##+js(set, yieldlove_cmd.push, noopFunc)
 myfitnesspal.com##+js(set, dataLayer.push, noopFunc)
 myair.resmed.com##+js(no-xhr-if, 1.1.1.1/cdn-cgi/trace)
 ||cdn.getblueshift.com/blueshift.js^$script,3p,redirect=noopjs,domain=rentcafe.com,important
-*$script,3p,domain=faselhd-watch.shop,badfilter
-*$xhr,3p,domain=faselhd-watch.shop,badfilter
 @@||partner-api.jobbio.com/channels/data$xhr,3p,domain=stackoverflow.jobs
 @@||partner-api.jobbio.com/channels/stack-overflow-jobs/feed$xhr,3p,domain=stackoverflow.jobs
 ||jobbio.com/channels/$xhr,3p,removeparam=visitor_id,domain=stackoverflow.jobs
