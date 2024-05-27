@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jVrRJnMpplvvRzgMprm3QQ
+! Checksum: Ctd7ukYn4RRWOIEsyq+wyg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405270221
-! Last Modified: 2024年05月27日 02:21
+! Version: 202405270918
+! Last Modified: 2024年05月27日 09:18
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -139114,8 +139114,8 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Sun, 05 May 2024 19:21:23 GMT
-# entries:        3725
+# last updated:   Sun, 26 May 2024 20:05:29 GMT
+# entries:        3727
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -140461,6 +140461,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 127.0.0.1 click.e.zoom.us
 127.0.0.1 click.em.blizzard.com
 127.0.0.1 click.email.bbc.com
+127.0.0.1 click.email.lhh.com
 127.0.0.1 click.email.microsoftemail.com
 127.0.0.1 click.email.sonos.com
 127.0.0.1 click.email.strawberry.no
@@ -142371,6 +142372,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 127.0.0.1 t.vacations.disneydestinations.com
 127.0.0.1 t.visit.disneydestinations.com
 127.0.0.1 t.visitorqueue.com
+127.0.0.1 t.x.co
 127.0.0.1 taboola.com
 127.0.0.1 tag-demo.mention-me.com
 127.0.0.1 tag.links-analytics.com
