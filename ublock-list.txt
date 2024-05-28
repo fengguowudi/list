@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xGmu1Z374qj9rMekwjc1zA
+! Checksum: pVCdUl+URTmUATW8seRo7A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405280917
-! Last Modified: 2024年05月28日 09:17
+! Version: 202405281424
+! Last Modified: 2024年05月28日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2755,17 +2755,13 @@ _800x80_
 ###ad_pencil
 ###ad_place
 ###ad_placeholder
-###ad_play_300
 ###ad_player
 ###ad_plugs
 ###ad_popup_background
 ###ad_popup_wrapper
 ###ad_post
-###ad_post_300
 ###ad_poster
 ###ad_primary
-###ad_primaryAd
-###ad_promoAd
 ###ad_publicidad
 ###ad_rail
 ###ad_rec_01
@@ -2798,7 +2794,6 @@ _800x80_
 ###ad_sec
 ###ad_sec_div
 ###ad_secondary
-###ad_sgd
 ###ad_short
 ###ad_sidebar
 ###ad_sidebar1
@@ -2883,7 +2878,6 @@ _800x80_
 ###adbig
 ###adblade
 ###adblade_ad
-###adblkad
 ###adblock-big
 ###adblock-leaderboard
 ###adblock-small
@@ -2938,8 +2932,6 @@ _800x80_
 ###adfloat
 ###adfooter
 ###adfooter_728x90
-###adform_leaderboard
-###adform_leaderboard_cover
 ###adframe:not(frameset)
 ###adframetop
 ###adfreeDeskSpace
@@ -2964,7 +2956,6 @@ _800x80_
 ###adlayerContainer
 ###adlayerad
 ###adleaderboard
-###adleaderboard_flex
 ###adleft
 ###adlinks
 ###adlrec
@@ -2984,7 +2975,6 @@ _800x80_
 ###admpufoot
 ###admpumiddle
 ###admpumiddle2
-###admputop
 ###admputop2
 ###admsg
 ###adnet
@@ -3018,7 +3008,6 @@ _800x80_
 ###adrow3
 ###ads-1
 ###ads-125
-###ads-160x600
 ###ads-200
 ###ads-250
 ###ads-300
@@ -3268,7 +3257,6 @@ _800x80_
 ###adsense-wrap
 ###adsense1
 ###adsense2
-###adsense2pos
 ###adsense468
 ###adsense6
 ###adsense728
@@ -3277,7 +3265,6 @@ _800x80_
 ###adsenseHeader
 ###adsenseLeft
 ###adsenseWrap
-###adsense_300x250
 ###adsense_banner_top
 ###adsense_block
 ###adsense_bottom_ad
@@ -3314,7 +3301,6 @@ _800x80_
 ###adsleft1
 ###adslider
 ###adslist
-###adslistbox
 ###adslot-below-updated
 ###adslot-download-abovefiles
 ###adslot-half-page
@@ -3371,32 +3357,18 @@ _800x80_
 ###adsquare
 ###adsquare2
 ###adsright
-###adsright_header
-###adss
 ###adsside
-###adssidebar2
-###adssidebar3
 ###adsspace
 ###adstext2
-###adstop
-###adstory
 ###adstrip
 ###adtab
-###adtable_top
-###adtag_banner
-###adtagheader
-###adtaily
 ###adtext
 ###adtop
-###adtopHeader
-###adtopbox
-###adtopcenter
 ###adtxt
 ###adunit
 ###adunit-article-bottom
 ###adunit_video
 ###adunitl
-###adup-sidebar
 ###adv-01
 ###adv-300
 ###adv-Bottom
@@ -5402,10 +5374,8 @@ _800x80_
 ###rightadBorder2
 ###rightadContainer
 ###rightadcell
-###rightadd300
 ###rightadg
 ###rightadhome
-###rightadpat
 ###rightads
 ###rightads300x250
 ###rightadsarea
@@ -5416,9 +5386,7 @@ _800x80_
 ###rightrail-ad
 ###rightside-ads
 ###rightside_ad
-###rightsideadstop
 ###rightskyad
-###rladvt
 ###rm-adslot-bigsizebanner_1
 ###rm-adslot-contentad_1
 ###rotating_ad
@@ -5476,11 +5444,9 @@ _800x80_
 ###side_ad
 ###side_ad_module
 ###side_ad_wrapper
-###side_adkit
 ###side_ads
 ###side_adverts
 ###side_longads
-###side_sky_ad
 ###side_skyscraper_ad
 ###side_sponsors
 ###sidead
@@ -5514,8 +5480,6 @@ _800x80_
 ###sidebar-sponsors
 ###sidebar-top-ad
 ###sidebar-top-ads
-###sidebar2-ads
-###sidebar2ads
 ###sidebarAd
 ###sidebarAd1
 ###sidebarAd2
@@ -9946,17 +9910,13 @@ _800x80_
 ##.adv-link--right
 ##.adv-mobile-wrapper
 ##.adv-mpu
-##.adv-mpu-shoulder
 ##.adv-outer
 ##.adv-p
-##.adv-phone
 ##.adv-right
 ##.adv-right-300
 ##.adv-rotator
 ##.adv-script-container
-##.adv-search-ad
 ##.adv-sidebar
-##.adv-sidelabel
 ##.adv-skin-spacer
 ##.adv-slot-container
 ##.adv-text
@@ -14207,7 +14167,6 @@ _800x80_
 ##.single-ad-wrap
 ##.single-ads
 ##.single-ads-section
-##.single-article-ad
 ##.single-bottom-ads
 ##.single-mpu
 ##.single-post-ad
@@ -68138,6 +68097,7 @@ skylinewebcams.com##.cam-vert
 thedalesreport.com##.cap-container
 dllme.com##.captchabox > div
 coolors.co##.carbon-cad
+icons8.com##.carbon-card-ad__loader
 speakerdeck.com##.carbon-container
 buzzfeed.com##.card--article-ad
 u.today##.card--something-md
@@ -128932,6 +128892,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||codeanyapp.com/neta/*/pay-method.php$doc
 ||otomoto-h229.net^$all,to=~otomoto.pl
 ||mybluehost.me/Recibir_paquete.php$doc,domain=~correos.es
+||codeanyapp.com/klarna/$doc,domain=~klarna.com
 ||racks.pages.dev^$all,to=~rackspace.com
 ||rackweb-----support*.weebly.com^$all,to=~rackspace.com
 /^https:\/\/dana-indone[a-z]+\.[a-z]{5,}\.(?:my|web)\.id\//$doc,domain=my.id|web.id|~dana.id
@@ -128943,6 +128904,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||dana-indonesiaa.uniclodw.web.id^$all,to=~dana.id
 ||07xxxfixe.hubside.fr^$all,to=~orange.fr
 ||orange53.yolasite.com^$all,to=~orange.fr
+||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
 ||servicemailorange25.wixsite.com^$all,to=~orange.fr
 ||smsmmsernorepls.wixsite.com^$all,to=~orange.fr
 ||assistancesosh.wixsite.com^$all,to=~orange.fr
@@ -129031,6 +128993,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||steamworkshopfiles.com^$all
 ||st.aircsgo.com^$all
 ||steamfiller.ru^$all
+||11steam.com^$all
 /^https:\/\/(?:www\.)?(?:ff[-.])?member[-.]gare[a-z]+a(?:\.pro)?\.vn\//$doc,domain=vn|~garena.vn
 /^https:\/\/(?:www\.)?(?:ff[-.])?men?mber[-.]garena\.vn\//$doc,domain=vn|~garena.vn
 ||garerna.vn^$all,to=~garena.vn
@@ -129076,6 +129039,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||asistenciahoy.com^$all
 ||mybluehost.me/wp-includes/blocks/sec/$doc
 ||swiss-passapp.web.app^$all,to=~swisspass.ch
+||cffdzs.blogspot.fr^$all
+||mybluehost.me/CFF/$doc,domain=~swisspass.ch
 ||mybluehost.me/--/SBBCFF$doc,domain=~swisspass.ch
 ||mybluehost.me/SBB.CH/$doc,domain=~swisspass.ch
 ||mybluehost.me/pass/index/$doc,domain=~swisspass.ch
