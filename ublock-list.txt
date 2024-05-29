@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9pFTu3Wylg9Il0/AEj89lw
+! Checksum: NKrLXVjYtJ3KAXk8+IHP7w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405290921
-! Last Modified: 2024年05月29日 09:21
+! Version: 202405291424
+! Last Modified: 2024年05月29日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -4256,8 +4256,6 @@ _800x80_
 ###div_bottomad
 ###div_bottomad_container
 ###div_googlead
-###div_header_sponsors
-###div_the_mgid
 ###divadfloat
 ###dnn_adSky
 ###dnn_adTop
@@ -4280,10 +4278,7 @@ _800x80_
 ###dsk-box-ad-f
 ###dsk-box-ad-g
 ###dv-gpt-ad-bigbox-wrap
-###dvCenterAd
 ###dynamicAdDiv
-###dynamicAdSlot1
-###dynamicAdWinDiv
 ###em_ad_superbanner
 ###embedAD
 ###embedADS
@@ -4375,7 +4370,6 @@ _800x80_
 ###footer_addvertise
 ###footer_ads
 ###footer_ads_holder
-###footer_adsense_ad
 ###footer_adspace
 ###footer_adv
 ###footer_advertising
@@ -4388,24 +4382,16 @@ _800x80_
 ###footeradvert
 ###forum-top-ad-bar
 ###frameAd
-###frameTextAd2
 ###frmSponsAds
 ###front-ad-cont
 ###front-page-ad
 ###front-page-advert
-###front-page-middle-advertisement
 ###frontPageAd
-###front_adtop_content
 ###front_advert
 ###front_mpu
-###front_mpu_content
-###frontlowerad
 ###ft-ad
 ###ft-ads
-###ft_mpu
 ###full_banner_ad
-###fusionad
-###fw-advertisement
 ###fwAdBox
 ###fwdevpDiv0
 ###fwdevpDiv1
@@ -4442,7 +4428,6 @@ _800x80_
 ###globalTopNavAd
 ###global_header_ad
 ###global_header_ad_area
-###gm-ad-lrec
 ###goad1
 ###goads
 ###gooadtop
@@ -4498,7 +4483,6 @@ _800x80_
 ###googlebanner
 ###googlesponsor
 ###googletextads
-###googtxtad
 ###gpt-ad-1
 ###gpt-ad-banner
 ###gpt-ad-halfpage
@@ -4518,10 +4502,7 @@ _800x80_
 ###halfPageAd
 ###half_page_ad_300x600
 ###halfpagead
-###hawkMagWidget
-###hd_ad
 ###head-ad
-###head-ad-space
 ###head-ad-timer
 ###head-ads
 ###head-advertisement
@@ -4566,10 +4547,8 @@ _800x80_
 ###header-banner-ad-wrapper
 ###header-block-ads
 ###header-box-ads
-###header-google
 ###headerAd
 ###headerAdBackground
-###headerAdButton
 ###headerAdContainer
 ###headerAdSpace
 ###headerAdUnit
@@ -4600,7 +4579,6 @@ _800x80_
 ###header_advertising
 ###header_adverts
 ###header_bottom_ad
-###header_mainad
 ###header_publicidad
 ###header_right_ad
 ###header_sponsors
@@ -4618,10 +4596,8 @@ _800x80_
 ###headergooglead
 ###headersponsors
 ###headingAd
-###headline-sponsor
 ###headline_ad
 ###hearst-autos-ad-wrapper
-###hf-top-ad
 ###home-ad
 ###home-ad-block
 ###home-ad-slot
@@ -4635,31 +4611,21 @@ _800x80_
 ###homeAd
 ###homeAdLeft
 ###homeAds
-###homeArticlesAd
-###homeMPU
-###homePageBotAd
 ###homeSideAd
-###homeTopRightAd
 ###home_ad
-###home_ad_b_1
 ###home_ads_vert
 ###home_advertising_block
 ###home_bottom_ad
 ###home_contentad
-###home_feature_ad
-###home_lower_center_right_ad
 ###home_mpu
 ###home_sidebar_ad
-###home_spensoredlinks
 ###home_top_right_ad
 ###homead
-###homegoogletextad
 ###homeheaderad
 ###homepage-ad
 ###homepage-adbar
 ###homepage-footer-ad
 ###homepage-header-ad
-###homepage-right-rail-ad
 ###homepage-sidebar-ad
 ###homepage-sidebar-ads
 ###homepage-sponsored
@@ -4674,7 +4640,6 @@ _800x80_
 ###homepage_right_ad_container
 ###homepage_top_ad
 ###homepage_top_ads
-###homepagead_300x250
 ###homepageadvert
 ###hometopads
 ###horAd
@@ -12421,40 +12386,21 @@ _800x80_
 ##.home_advert
 ##.home_advertisement
 ##.home_mrec_ad
-##.home_strip_ad
-##.home_sway_adv
-##.home_top_ad_slider
-##.home_top_ad_slides
-##.home_top_right_ad
-##.home_top_right_ad_label
-##.homead
-##.homeadnews
 ##.homeadwrapper
 ##.homepage--sponsor-content
-##.homepage-300-250-ad
 ##.homepage-ad
 ##.homepage-ad-block
-##.homepage-ad-block-padding
-##.homepage-ad-buzz-col
 ##.homepage-ad-module
 ##.homepage-advertisement
 ##.homepage-banner-ad
 ##.homepage-footer-ad
 ##.homepage-footer-ads
-##.homepage-page__all-ad-container
 ##.homepage-page__ff-ad-container
 ##.homepage-page__tag-ad-container
 ##.homepage-page__video-ad-container
-##.homepage-right-rail-ad
-##.homepage-square-ad
-##.homepage300ad
 ##.homepageAd
-##.homepageFlexAdOuter
-##.homepageMPU
 ##.homepage__native-ad
-##.homepage_ad_half
 ##.homepage_ads
-##.homepage_ads_topspot
 ##.homepage_block_ad
 ##.hor-ad
 ##.hor_ad
@@ -79374,7 +79320,6 @@ omni.soundestlink.com$image
 ||sol-data.com^$third-party
 ||solosegment.com^$third-party
 ||sometrics.com^$third-party
-||sooqr.com^$third-party
 ||sophi.io^$third-party
 ||sophus3.com^$third-party
 ||soska.us^$third-party
@@ -128883,7 +128828,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||sasumpro.anakembok.de^$all
 ||jioooooos.anakembok.de^$all,to=~midasbuy.com
 ||confirmation.dattings-auth.workers.dev^$all,to=~ourtime.com
-||bxzxenzidrmrksu.jiongcao.cn^$all
 ||etsxt.shop^$all,to=~gazprom.ru
 ||proceedings.aios.org/all-protect47610/$all
 ||final-ua.eu/vasilisa/votings$all
@@ -128959,6 +128903,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||sp.aircsgo.com^$all
 ||solutionfun.info^$all
 ||lp-mypwd.pages.dev^$all
+||zdrhuagh.elementor.cloud/*/index.html$all
 ||business-facebook-*.pages.dev^$all
 ||support-security-information-accounti.pages.dev^$all
 ||emailfacebooksecurity.pages.dev^$all
@@ -129001,6 +128946,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||gareza.vn^$all,to=~garena.vn
 ||garena.pro.vn^$all,to=~garena.vn
 ||ff-menmber-garena.vn^$all,to=~garena.vn
+||bxzxenzidrmrksu.jiongcao.cn^$all
+||login-vip.replit.app/vip/$all
 ||xharepoint.pages.dev^$all
 ||office365.account-terminations.com^$all
 ||whfdny.org^$all
@@ -129009,9 +128956,11 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||halliburton.liflic.in^$all
 ||infos4.yolasite.com^$all
 ||policija64.wixsite.com^$all
+||phillipsmeed.wixsite.com^$all
 ||activar-cuenta2024.zya.me^$all
 ||madhavafoods.com/wp-content/plugins/team/$all
 ||cashum.unam.mx/wp-content/backups-dup-pro/imports/index.htm$all
+||johnhstngs4.wixsite.com/housedocumentcanada2$all
 ||puzzle-trapezoidal-throne.glitch.me/*.html^$all
 ||storageapi-new.fleek.co/*/yss/ind.html$all
 ||kletcaempire.com/Sharepointproposal/$all
@@ -129158,6 +129107,9 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||infinitytweet.com^$all
 ||infinityweet.me^$all
 ||infinityweet.com^$all
+||github.com/easyfrag346/FREE_BLUMS^$doc
+||github.com/opidorapoka1992/opidorapoka1992^$doc
+||github.com/abyous3r/pocketfi_switch_farm-bot^$doc
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
