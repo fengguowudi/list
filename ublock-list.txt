@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3Sga+ZmcnN01StgBBqpp7A
+! Checksum: EAN2FOJs2jiSExd61w5yNQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405300918
-! Last Modified: 2024年05月30日 09:18
+! Version: 202405301424
+! Last Modified: 2024年05月30日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -13232,7 +13232,6 @@ _800x80_
 ##.native-ad-container
 ##.native-ad-item
 ##.native-ad-mode
-##.native-ad-placeholder
 ##.native-ad-slot
 ##.native-adv
 ##.native-advts
@@ -13820,14 +13819,8 @@ _800x80_
 ##.rightboxads
 ##.rightcolads
 ##.rightcoladvert
-##.rightrail-ad-atf
-##.rightrail-ad-block
-##.rightrail-ad-placed
-##.rightrail-display-ad
-##.rightrail_ads
 ##.rightsideAd
 ##.river-item-sponsored
-##.rj-ads-wrap-sq
 ##.rj-ads-wrapper
 ##.rm-adslot
 ##.rolloverad
@@ -13835,13 +13828,11 @@ _800x80_
 ##.root-ad-anchor
 ##.rotating-ad
 ##.rotating-ads
-##.rotatingBannerWidget
 ##.row-ad
 ##.row-ad-leaderboard
 ##.rowAd
 ##.rowAds
 ##.row_header_ads
-##.rowad
 ##.rpd_ads
 ##.rr-ad
 ##.rr_ads
@@ -13852,6 +13843,7 @@ _800x80_
 ##.rs_ad_top
 ##.rt_ad
 ##.rwSideAd
+##.rwdArticleInnerAdBlock
 ##.s-ad
 ##.s-ads
 ##.s_ads
@@ -13880,9 +13872,7 @@ _800x80_
 ##.search-advertisement
 ##.search-result-list-item--sidebar-ad
 ##.search-result-list-item--topad
-##.search-result-sponsored
 ##.search-results-ad
-##.search-results-banner-ad
 ##.search-sponsor
 ##.search-sponsored
 ##.searchAd
@@ -13892,25 +13882,20 @@ _800x80_
 ##.searchads
 ##.secondary-ad-widget
 ##.secondary-advertisment
-##.secondaryAdModule
 ##.secondary_ad
 ##.section-ad
-##.section-ad-related
 ##.section-ad-unit
 ##.section-ad-wrapper
 ##.section-ad2
 ##.section-ads
 ##.section-adtag
 ##.section-adv
-##.section-advert-banner
 ##.section-advertisement
 ##.section-sponsor
 ##.section-widget-ad
 ##.section_ad
 ##.section_ad_left
-##.section_adarea
 ##.section_ads
-##.sense-adhesion
 ##.seoAdWrapper
 ##.servedAdlabel
 ##.serviceAd
@@ -13918,13 +13903,10 @@ _800x80_
 ##.sf_ad_box
 ##.sg-adblock
 ##.sgAd
-##.sh-ad-box
-##.sh-ad-section
 ##.sh-section-ad
 ##.shadvertisment
 ##.sheknows-infuse-ad
 ##.shift-ad
-##.shortads
 ##.shortadvertisement
 ##.show-desk-ad
 ##.show-sticky-ad
@@ -13936,7 +13918,6 @@ _800x80_
 ##.sidbaread
 ##.side-ad
 ##.side-ad-300
-##.side-ad-big
 ##.side-ad-blocks
 ##.side-ad-container
 ##.side-ad-inner
@@ -13952,33 +13933,21 @@ _800x80_
 ##.side-bar-ad
 ##.sideAd
 ##.sideAdLeft
-##.sideAdTall
 ##.sideAdWide
 ##.sideBarAd
 ##.sideBlockAd
 ##.sideBoxAd
-##.sideBoxM1ad
-##.sideBoxMiddleAd
 ##.side__ad
 ##.side__ad-box
 ##.side_ad
 ##.side_ad2
-##.side_ad300
-##.side_ad_1
-##.side_ad_2
-##.side_ad_3
-##.side_ad_box_mid
-##.side_ad_box_top
 ##.side_ad_top
 ##.side_add_wrap
 ##.side_ads
 ##.side_adsense
 ##.side_adv
 ##.side_col_ad_wrap
-##.side_float_ad
 ##.sidead
-##.sidead_150
-##.sidead_300
 ##.sideadmid
 ##.sideads
 ##.sideads_l
@@ -13987,9 +13956,6 @@ _800x80_
 ##.sideadvert
 ##.sideadverts
 ##.sidebar-ad
-##.sidebar-ad-300
-##.sidebar-ad-300x250-cont
-##.sidebar-ad-a
 ##.sidebar-ad-area
 ##.sidebar-ad-b
 ##.sidebar-ad-box
@@ -14004,10 +13970,8 @@ _800x80_
 ##.sidebar-ad-top
 ##.sidebar-ad-wrapper
 ##.sidebar-adbox
-##.sidebar-add-1
 ##.sidebar-ads
 ##.sidebar-ads-block
-##.sidebar-ads-no-padding
 ##.sidebar-ads-wrap
 ##.sidebar-adsdiv
 ##.sidebar-adv-container
@@ -14016,17 +13980,13 @@ _800x80_
 ##.sidebar-advertisment
 ##.sidebar-adverts
 ##.sidebar-adverts-header
-##.sidebar-atf-ad-wrapper
 ##.sidebar-banner-ad
 ##.sidebar-below-ad-unit
 ##.sidebar-big-ad
 ##.sidebar-big-box-ad
-##.sidebar-block-adsense
 ##.sidebar-bottom-ad
 ##.sidebar-box-ad
 ##.sidebar-box-ads
-##.sidebar-col-ad-left
-##.sidebar-col-ad-right
 ##.sidebar-content-ad
 ##.sidebar-header-ads
 ##.sidebar-skyscraper-ad
@@ -14039,19 +13999,12 @@ _800x80_
 ##.sidebar-tower-ad
 ##.sidebarAD
 ##.sidebarAd
-##.sidebarAdBlock
-##.sidebarAdLink
-##.sidebarAdNotice
-##.sidebarAdUnit
-##.sidebarAds300px
 ##.sidebarAdvert
-##.sidebarNewsletterAd
 ##.sidebar__ad
 ##.sidebar_ad
 ##.sidebar_ad_300
 ##.sidebar_ad_300_250
 ##.sidebar_ad_container
-##.sidebar_ad_container_div
 ##.sidebar_ad_holder
 ##.sidebar_ad_leaderboard
 ##.sidebar_ad_module
@@ -14065,10 +14018,8 @@ _800x80_
 ##.sidebar_box_ad
 ##.sidebar_right_ad
 ##.sidebar_skyscraper_ad
-##.sidebar_small_ad
 ##.sidebar_sponsors
 ##.sidebarad
-##.sidebarad160
 ##.sidebarad_bottom
 ##.sidebaradbox
 ##.sidebaradcontent
@@ -17418,6 +17369,7 @@ browsershots.org#@#.advert_area
 ||acutepropose.com^
 ||acvnhayikyutjsn.xyz^
 ||acylasecorers.top^
+||ad-adblock.com^
 ||ad-back.net^
 ||ad-balancer.net^
 ||ad-bay.com^
@@ -33431,6 +33383,7 @@ browsershots.org#@#.advert_area
 ||insrvicigquj.com^
 ||insta-cash.net^
 ||instaflrt.com^
+||install-adblockers.com^
 ||install-adblocking.com^
 ||install-check.com^
 ||install-extension.com^
@@ -55571,6 +55524,7 @@ browsershots.org#@#.advert_area
 ||2ltm627ho.com^$document
 ||ablecolony.com^$document
 ||acoudsoarom.com^$document
+||ad-adblock.com^$document
 ||adblock-360.com^$document
 ||adblocker-instant.xyz^$document
 ||adclickbyte.com^$document
@@ -55743,6 +55697,7 @@ browsershots.org#@#.advert_area
 ||improvebin.xyz^$document
 ||inbrowserplay.com^$document
 ||ingablorkmetion.com^$document
+||install-adblockers.com^$document
 ||install-adblocking.com^$document
 ||install-extension.com^$document
 ||instant-adblock.xyz^$document
@@ -65955,6 +65910,7 @@ uinterview.com###above-content
 slideshare.net###above-recs-desktop-ad-sm
 jezebel.com,pastemagazine.com###above_logo
 peacemakeronline.com###above_top_banner
+breitbart.com###accontainer
 usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium
 usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium_after_share
 nextdoor.com,sptfy.be###ad
@@ -67260,6 +67216,7 @@ manualslib.com##.abp_adv_s-title
 pocketgamer.com##.abs
 albertsons.com##.abs-carousel-proxy > [aria-label="Promo or Ad Banner"]
 tfn.scot##.absolute-leaderboard
+breitbart.com##.acadnotice
 gamesystemrequirements.com##.act_eng
 sneakernews.com##.active-footer-ad
 christianpost.com##.acw
@@ -67989,6 +67946,8 @@ petkeen.com##.br-10
 bing.com##.br-poleoffcarousel
 infoworld.com##.brVideoContainer
 eightieskids.com,inherentlyfunny.com##.break
+breakingbelizenews.com##.break-target
+breakingbelizenews.com##.break-widget
 broadsheet.com.au##.breakout-section-inverse
 brobible.com##.bro_caffeine_wrap
 brobible.com##.bro_vidazoo_wrap
@@ -69885,6 +69844,7 @@ searchenginejournal.com##.sej-bbb-section
 timesofisrael.com##.sellwild-label
 hypestat.com##.sem_banner
 spotifydown.com##.semi-transparent
+jambase.com##.sense-headin
 shareus.io##.seperator-tag
 searchencrypt.com##.serp__top-ads
 minecraftforum.net##.server-forum-after-comment-ad
@@ -128889,6 +128849,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||jioooooos.anakembok.de^$all,to=~midasbuy.com
 ||confirmation.dattings-auth.workers.dev^$all,to=~ourtime.com
 ||etsxt.shop^$all,to=~gazprom.ru
+||allegrostu.com^$all,to=~allegro.pl
 ||proceedings.aios.org/all-protect47610/$all
 ||final-ua.eu/vasilisa/votings$all
 ||conradhayden.autos^$all
@@ -128901,7 +128862,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||codeanyapp.com/klarna/$doc,domain=~klarna.com
 ||racks.pages.dev^$all,to=~rackspace.com
 ||rackweb-----support*.weebly.com^$all,to=~rackspace.com
-/^https:\/\/dana-indone[a-z]+\.[a-z]{5,}\.(?:my|web)\.id\//$doc,domain=my.id|web.id|~dana.id
+||dana-indone*.id^$doc,domain=my.id|web.id|~dana.id
 ||xcxcx.my.id^$doc,domain=~dana.id
 ||link-aktivasie.pictt.art^$all,to=~dana.id
 ||daftar-limit-paylater.xcxcx.my.id^$all,to=~dana.id
@@ -128918,6 +128879,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||uqfsfmjqbu.duckdns.org^$all
 ||amazon-task.vip^$all
 ||ama-zon08.cc^$all
+||qwvcc615.xyz^$all
 ||zaxacava2.pages.dev^$all
 ||c.vn-ebayn.vip^$all
 ||vn-ebay.quxlpuj.cn^$all
@@ -128937,6 +128899,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||ewueuweudsjdjsdjjd.weeblysite.com^$all
 ||maiil-myatt.weeblysite.com^$all
 ||keepo.io/KJOUYHUBU799BH/$all
+||hoottmm.wixsite.com^$all,to=~bt.com
 ||alisongaudino992.wixsite.com^$all
 ||dichvucong.$doc,domain=~gov.vn
 ||a.viethu.com^$all,to=~dichvucong.gov.vn
@@ -128959,7 +128922,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||priscaved.com/bankk/$all
 ||sparkasse-oberhessen.info^$all,to=~sparkasse.de
 ||mybluehost.me/service/*/nkl-log.php$doc,domain=~nickel.eu
-/^https:\/\/dhl\.\d+\.potabox\.com\//$doc,domain=~dhl.com
+||dhl.*.potabox.com^$doc,domain=~dhl.com
 ||sp.aircsgo.com^$all
 ||solutionfun.info^$all
 ||lp-mypwd.pages.dev^$all
@@ -128994,7 +128957,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=Access-Control-Allow-Headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 ||angesky.com^$all
 ||wayfairb.me^$all,to=~wayfair.com
-/^https:\/\/steamproxy\.[a-z]+\//$all,domain=cc|co|net|vip
+||steamproxy.*^$all,to=steamproxy.net|steamproxy.vip
 ||steamcommumnuty.com^$all
 ||steamworkshopfiles.com^$all
 ||st.aircsgo.com^$all
@@ -129030,17 +128993,17 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||telegramhcn.com^$all
 ||velyapromo2024.ru^$all
 ||jawatankosongterkini-2024.yfth1.com^$all
-/^https:\/\/[a-z]{3}\.[a-z]{3}\.mybluehost\.me\/[a-z]{2,}\/[0-9A-z]{3,}\/contract\//$doc,frame,match-case
 /^https:\/\/usps\.[-a-z]{6,}\.(?:com|top)\/(?:address\.html|information|verify)\b/$doc,domain=com|top|~usps.com
 /^https:\/\/ur[cex][a-z]{2,4}\.com\/(?:address\.html|information|verify)\b/$doc,domain=com|~usps.com
 .top/pg?do=$doc,domain=top
+||mybluehost.me/en/ram/contract/$doc
 ||usps.mytrackingie.top^$all
 ||uaxaqr.com^$all
 ||wrc-gh.org/redelivery$doc
-/^https:\/\/(?:[a-z0-9]{2,}-)+10\d{4}\.weeblysite\.com\//$doc
-/^https:\/\/(?:[a-z0-9]{2,}-)+10\d{4}\.square\.site\//$doc
+/^https:\/\/(?:[a-z0-9]{2,}-)+10\d{4}\.weeblysite\.com\//$doc,domain=weeblysite.com
+/^https:\/\/(?:[a-z0-9]{2,}-)+10\d{4}\.square\.site\//$doc,domain=square.site
 ||purple598020.studio.site^$all
-/^https:\/\/[^.]+\.codeanyapp\.com\/wp-content\/.+\/spo[a-z]{2}i\//$doc
+/^https:\/\/[^.]+\.codeanyapp\.com\/wp-content\/.+\/spo[a-z]{2}i\//$doc,domain=codeanyapp.com
 ||codeanyapp.com/*/spotii/$all
 ||codeanyapp.com/*/spoofi/$all
 ||mybluehost.me/*/MitID/$doc
@@ -129081,7 +129044,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||web3-opensea-multichain.codeanyapp.com^$all,to=~opensea.io
 ||mysteryclick57.vercel.app^$all,to=~opensea.io
 ||paslanmazspider.org/bin/$all,to=~opensea.io
-/^https:\/\/pancake(?:dro|swa)pclick\d+\.vercel\.app\//$doc,domain=~pancakeswap.finance
+/^https:\/\/pancake(?:dro|swa)pclick\d+\.vercel\.app\//$doc,domain=vercel.app|~pancakeswap.finance
 ||pancakeswap.icu^$all,to=~pancakeswap.finance
 ||pancake.run^$all,to=~pancakeswap.finance
 ||pancake-clalm.xyz^$all,to=~pancakeswap.finance
@@ -131491,15 +131454,16 @@ jacksonguitars.com##+js(set, analytics, {})
 @@||ads-api.twitter.com^$xhr,domain=analytics.twitter.com
 ||appcdn01.xyz^$badfilter
 ||connatix.com^$badfilter
-||connatix.com^$3p,domain=~huffpost.com|~sacbee.com
-huffpost.com,sacbee.com#@#.cnx-player-wrapper
+||connatix.com^$3p
 ||connatix.com^$3p,removeparam=cid
-@@||cd.connatix.com/connatix.player.js$3p,script,domain=accesousa.com|accuweather.com|adweek.com|bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|easternstandardtimes.com|elnuevoherald.com|flkeysnews.com|fresnobee.com|heraldonline.com|heraldsun.com|hollywoodreporter.com|idahostatesman.com|indiewire.com|islandpacket.com|interestingengineering.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|loot.tv|macon.com|mahoningmatters.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|reuters.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com|variety.com
-hollywoodreporter.com#@#.cnx-player-wrapper
-hollywoodreporter.com#@#[id^="jwplayer"]
-@@||cds.connatix.com/p/*/connatix.player.$3p,script
-@@||cds.connatix.com/p/*/player.css$3p,css
-@@||connatix.com/elements/*/cnx-lead-style.css$3p,css
+hollywoodreporter.com,huffpost.com,sacbee.com#@#.cnx-player-wrapper
+hollywoodreporter.com,huffpost.com,sacbee.com#@#[id^="jwplayer"]
+@@||connatix.com/*connatix.player.$3p,script,domain=accesousa.com|accuweather.com|adweek.com|bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|easternstandardtimes.com|elnuevoherald.com|flkeysnews.com|fresnobee.com|heraldonline.com|heraldsun.com|hollywoodreporter.com|huffpost.com|idahostatesman.com|indiewire.com|islandpacket.com|interestingengineering.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|loot.tv|macon.com|mahoningmatters.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|reuters.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com|variety.com
+@@||connatix.com/*.css$3p,css
+@@||cds.connatix.com/*/elLoader.$3p,script
+@@||cds.connatix.com/*/player.renderer.$3p,script
+@@||cds.connatix.com/*/player.hls.$3p,script
+@@||cds.connatix.com/*/player.lit.$3p,script
 @@||capi.connatix.com/core/pls$3p,xhr
 @@||img.connatix.com/pid-$3p,image
 @@||vid.connatix.com/pid-$3p,media,xhr
