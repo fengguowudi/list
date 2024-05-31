@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JBU8NCchOIHoOzjx/NRXvA
+! Checksum: p2JHmwmZhzrJ7UmPhGCaAA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202405310918
-! Last Modified: 2024年05月31日 09:18
+! Version: 202405311424
+! Last Modified: 2024年05月31日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12049,21 +12049,12 @@ _800x80_
 ##.games-ad-wrapper
 ##.gb-ad-top
 ##.gb_area_ads
-##.gbl_advertisement
-##.gc-deck--is-ad
-##.gdm-ad
 ##.general-ad
 ##.genericAds
-##.geoAd
-##.ggads
-##.ggadwrp
-##.gglAds
 ##.ggl_ads_row
 ##.ggl_txt_ads
 ##.giant_pushbar_ads_l
-##.gl_ad
 ##.glacier-ad
-##.global-adsense
 ##.globalAd
 ##.gnm-ad-unit
 ##.gnm-ad-unit-container
@@ -68617,9 +68608,11 @@ home-assistant-guide.com##.gb-container-429fcb03
 home-assistant-guide.com##.gb-container-5698cb9d
 home-assistant-guide.com##.gb-container-bbc771af
 kitchenknifeforums.com,quadraphonicquad.com##.gb-sponsored-wrapper
+gocomics.com##.gc-deck--is-ad
 1001games.com##.gc-halfpage
 1001games.com##.gc-leaderboard
 1001games.com##.gc-medium-rectangle
+gocomics.com##.gc-top-advertising
 letsdopuzzles.com##.gda-home-box
 kansascity.com,rotowire.com##.gdcg-oplist
 naval-technology.com##.gdm-recommended-reports
@@ -126449,6 +126442,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||remor.xyz^$all
 ||github.io/health-records-x-ray$doc
 ||rusoil24.ru^$all
+||adultminglenight.click^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/(?:article\d{4}\.doc)?\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\.?[a-z]{0,7}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case
@@ -128964,6 +128958,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||dongtam.com.vn/app/$all,to=~td.com
 ||htdf7uyg5e.pages.dev^$all,to=~sbi.co.in
 ||conveyancingportal.com^$all
+||paciificard.serv00.net^$all,to=~bancodelpacifico.com
 /^https:\/\/hdsaison-?[a-z]{2,}\.(?:cc|com|vip)\//$doc,domain=cc|com|vip|~hdsaison.com.vn
 /^https:\/\/tpbank\.[-a-z0-9]{5,}\.[a-z]{3}(?:\.vn)?\//$doc,domain=~edu|~gov|~gov.vn|~tpb.vn
 ||priscaved.com/bankk/$all
@@ -132069,6 +132064,8 @@ optimum.net##+js(set, s.tl, noopFunc)
 @@||usabilla.com^$script,domain=nos.nl
 ||awstrack.me^$badfilter
 @@||jssdkcdns.mparticle.com/js/*/mparticle.js^$script,3p,domain=syfy.com
+pvrcinemas.com##+js(set, SalesforceInteractions, {})
+pvrcinemas.com##+js(set, SalesforceInteractions.CatalogObjectInteractionName)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
