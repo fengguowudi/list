@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KKKAT965A0KLc/XbdkPVfw
+! Checksum: Usl+JCPk5DeRkjC9GhhcHQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202406060918
-! Last Modified: 2024年06月06日 09:18
+! Version: 202406061424
+! Last Modified: 2024年06月06日 14:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -65954,6 +65954,7 @@ glennbeck.com###sPost_0_0_5_0_0_9_0_1_2_0
 glennbeck.com###sPost_Default_Layout_0_0_6_0_0_9_0_1_2_0
 advocate.com###sPost_Layout_Default_0_0_18_0_0_2_2
 out.com###sPost_Layout_Default_0_0_20_0_0_2_2
+spectrum.ieee.org###sSS_Default_Post_0_0_20_0_0_1_4_2
 flatpanelshd.com###sb-site > .hidden-xs.container
 centurylink.net,wowway.net###sc_home_header_banner
 wowway.net###sc_home_news_banner
@@ -128250,6 +128251,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||dlhessell.wixsite.com/att-support/$all
 ||hoottmm.wixsite.com^$all,to=~bt.com
 ||alisongaudino992.wixsite.com^$all
+||deenveerww.wixsite.com^$all
 ||dichvucong.$doc,domain=~gov.vn
 ||a.viethu.com^$all,to=~dichvucong.gov.vn
 ||approvaltool.bdukinternal.net^$all,to=~gov.uk
@@ -128273,6 +128275,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||tinchaphd.com^$all,to=~hdsaison.com.vn
 ||tpb-vayuudai.com^$all,to=~tpb.vn
 ||tpbankvn.workplace.com^$all,to=~tpb.vn
+||renner.000.pe^$all,to=~realizesolucoesfinanceiras.com.br
+||purbotanicalsmaine.com/itauabril/$all,to=~itau.com.br
 /^https:\/\/hdsaison-?[a-z]{2,}\.(?:cc|com|vip)\//$doc,domain=cc|com|vip|~hdsaison.com.vn
 /^https:\/\/tpbank\.[-a-z0-9]{5,}\.[a-z]{3}(?:\.vn)?\//$doc,domain=~edu|~gov|~gov.vn|~tpb.vn
 ||priscaved.com/bankk/$all
@@ -128284,6 +128288,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||solutionfun.info^$all
 ||lp-mypwd.pages.dev^$all
 ||zdrhuagh.elementor.cloud/*/index.html$all
+/^https:\/\/[vw]ww-[a-z]?facebook([.-]com)?\.vn\//$doc,domain=vn
 ||business-facebook-*.pages.dev^$all
 ||support-security-information-accounti.pages.dev^$all
 ||emailfacebooksecurity.pages.dev^$all
@@ -128298,6 +128303,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||business.verified-suite-help.me^$all
 ||www-mfacebook.vn^$all
 ||www-facebook-com.vn^$all
+||vww-facebook.com.vn^$all
 ||s33788.com^$all,to=~shopee.vn
 ||sp77888.com^$all,to=~shopee.vn
 ||sp15569p.com^$all,to=~shopee.vn
@@ -130824,9 +130830,9 @@ jacksonguitars.com##+js(set, analytics, {})
 ||connatix.com^$badfilter
 ||connatix.com^$3p
 ||connatix.com^$3p,removeparam=cid
-hollywoodreporter.com,huffpost.com,sacbee.com#@#.cnx-player-wrapper
-hollywoodreporter.com,huffpost.com,sacbee.com#@#[id^="jwplayer"]
-@@||connatix.com/*connatix.player.$3p,script,domain=accesousa.com|accuweather.com|adweek.com|bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|easternstandardtimes.com|elnuevoherald.com|flkeysnews.com|fresnobee.com|heraldonline.com|heraldsun.com|hollywoodreporter.com|huffpost.com|idahostatesman.com|indiewire.com|islandpacket.com|interestingengineering.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|loot.tv|macon.com|mahoningmatters.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|reuters.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com|variety.com
+app.kultivi.com,hollywoodreporter.com,huffpost.com,sacbee.com#@#.cnx-player-wrapper
+app.kultivi.com,hollywoodreporter.com,huffpost.com,sacbee.com#@#[id^="jwplayer"]
+@@||connatix.com/*connatix.player.$3p,script,domain=accesousa.com|accuweather.com|adweek.com|app.kultivi.com|bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|easternstandardtimes.com|elnuevoherald.com|flkeysnews.com|fresnobee.com|heraldonline.com|heraldsun.com|hollywoodreporter.com|huffpost.com|idahostatesman.com|indiewire.com|islandpacket.com|interestingengineering.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|loot.tv|macon.com|mahoningmatters.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|reuters.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com|variety.com
 @@||connatix.com/*.css$3p,css
 @@||cds.connatix.com/*/elLoader.$3p,script
 @@||cds.connatix.com/*/player.renderer.$3p,script
