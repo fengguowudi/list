@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wTQ2ImZhBY8knClWeVrO8A
+! Checksum: KKKAT965A0KLc/XbdkPVfw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202406060223
-! Last Modified: 2024年06月06日 02:23
+! Version: 202406060918
+! Last Modified: 2024年06月06日 09:18
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -66283,6 +66283,7 @@ topgear.com##.AdContainer-sc-cy9ye3-4
 racingamerica.com##.AdPlacement
 petfinder.com##.AdUnitParagraph-module--adunitContainer--2b7a6
 therealdeal.com##.AdUnit_adUnitCenter__FKOWE
+barrons.com##.AdWrapper-sc-9rx3gf-0
 complex.com##.AdWrapper__AdPlaceholderContainer-sc-15idjh1-0
 earth.com##.AdZone_adZone__2w4TC
 thescore.com##.Ad__container--2fhQb
@@ -68683,6 +68684,7 @@ boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,mykhel.com,na
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,mykhel.com,nativeplanet.com,oneindia.com##.oiad
 gizbot.com##.oiadv
 hamodia.com##.oiomainlisting
+thehackernews.com##.okfix
 forums.somethingawful.com##.oma_pal
 etonline.com##.omni-skybox-plus-stick-placeholder
 oneindia.com##.one-ad
@@ -69087,8 +69089,6 @@ bleepingcomputer.com##.s-ou-wrap
 hope1032.com.au##.s-supported-by
 japantoday.com##.s10r
 nodejs.libhunt.com##.saashub-ad
-thehackernews.com##.sadbar2
-thehackernews.com##.sadfix
 steamladder.com##.salad
 salife.com.au##.salife-slot
 sherbrookerecord.com##.sam-pro-container
@@ -125769,11 +125769,11 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||mediafire.com/folder/gbhbhm73350j9/$doc
 ||mediafire.com/folder/o5yyo8jww2bde/$doc
 ||mediafire.com/folder/atuqt39mahs1x/$doc
-||mediafire.com/folder/5t7o55sif4j72/$doc
 ||mediafire.com/folder/5lczvry2cvhzd/$doc
-||mediafire.com/folder/dqp2hwa872obn/$doc
+||mediafire.com/folder/ygvzvvks1va0b/$doc
 ||mediafire.com/folder/n2cwlepl4zeov/$doc
 ||www.youtube.com/channel/UCuHeiORKwgjZ5-n8xoq_zVA/$doc
+||www.youtube.com/@pengwincheat/$doc
 ||sites.google.com/view/amamsoft$doc
 ||sites.google.com/view/hubgames$doc
 ||sites.google.com/view/ulpackmnn$doc
@@ -125783,20 +125783,18 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||pewhack.com^$doc
 ||gocrazy.gg^$doc
 ||mrbestgame.com^$doc
-||tautarahack.pro^$doc
 ||murhack.com^$doc
 ||insomniahack.fun^$all
 ||trustsoftware.net^$doc
-||whitegames.pro^$doc
-||gameplayer.click^$all
 ||ryosx.cc^$doc
 ||gramcheats.com^$doc
-||yuqucheats.com^$doc
 ||mi-hack.com^$doc
 ||spacecheats.site^$doc
-||softport.fun^$doc
 ||wow-site.site^$doc
 ||cheat.emiliojara.com^$doc
+||softwareio.xyz^$all
+||arcanecheat.com^$doc
+||cheatworld.site^$doc
 ||cloud-folder.org^$doc
 .systems/signup?ad_domain=$doc,popup
 ||1perpersqe1.com^$all
