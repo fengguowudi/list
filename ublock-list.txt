@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fh5cH4hg1+56LlUgR13bAA
+! Checksum: ojoADOOMlsBY7XQ655rTbg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202406080919
-! Last Modified: 2024年06月08日 09:19
+! Version: 202406081423
+! Last Modified: 2024年06月08日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -128807,6 +128807,7 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 *$permissions=private-state-token-redemption=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 *$permissions=run-ad-auction=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 *$permissions=attribution-reporting=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+*$permissions=keyboard-map=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 !#endif
 /^https:\/\/kick\.com\/[0-9A-z]{16}\/[0-9A-z]{16}\?apiKey=/$script,1p,match-case,domain=kick.com
 ||protesidenext.com^
