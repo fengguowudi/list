@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mPutyWVRvA2z3FwO6AqKDA
+! Checksum: rwzWk6g7O+gaAfo8gSzzcQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202406121425
-! Last Modified: 2024年06月12日 14:25
+! Version: 202406122034
+! Last Modified: 2024年06月12日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63844,7 +63844,6 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||dmtgvn.com/wrapper/js/manager.js$domain=rt.com
 ||dmxleo.dailymotion.com^
 ||dnslytics.com/images/ads/
-||dodi-repacks.site/wp-content/uploads/*/MRPG-*X*-*x$image
 ||domaintyper.com/Images/dotsitehead.png
 ||dominicantoday.com/wp-content/themes/dominicantoday/banners/
 ||dontent.powzers.lol^
@@ -128691,6 +128690,10 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||github.com/linarweloper/Blumfarmbot^$doc
 ||waredot.com^$doc
 ||waredot.us^$doc
+||hfr67jhqrw8.com^$all
+||tbao684tryo.com^$all
+||5wzgtq8dpk.com^$all
+||65spy7rgcu.com^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -129261,6 +129264,11 @@ olympics.com##+js(no-fetch-if, event-router.olympics.com)
 @@||akamaihd.net/player/*/akamai/amp/prebid/*$script,domain=static.foxnews.com
 @@||global.fncstatic.com^*/ads.js$script,domain=foxnews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=insider.foxnews.com
+!#if env_firefox
+foxbusiness.com,foxnews.com##+js(set, Taplytics, {})
+foxbusiness.com,foxnews.com##+js(set, Taplytics.featureFlagEnabled, noopFunc)
+foxbusiness.com,foxnews.com##+js(set, Taplytics.runningExperiments, noopFunc)
+!#endif
 ||top.mail.ru^$badfilter
 ||top.mail.ru^$3p
 ||amazon-adsystem.com/aax2/amzn_ads.js$script,redirect=amazon-adsystem.com/aax2/amzn_ads.js
@@ -131392,11 +131400,11 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 @@||src.litix.io/videojs/$script,domain=nasa.gov
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=moviesandtv.myvi.in
 @@||moviesandtv.myvi.in/videojs/videojs-contrib-ads.min.js$script,domain=moviesandtv.myvi.in
-@@||cdn.lib.getjad.io/library/$script,3p,domain=le10sport.com|purepeople.com|vidaextra.com
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,3p,domain=le10sport.com|purepeople.com|vidaextra.com
-@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl$script,3p,domain=le10sport.com|purepeople.com|vidaextra.com
-@@||securepubads.g.doubleclick.net/gampad/ads$xhr,3p,domain=le10sport.com|purepeople.com|vidaextra.com
-@@||amazon-adsystem.com/*/apstag.js$script,3p,redirect-rule,domain=le10sport.com|purepeople.com|vidaextra.com
+@@||cdn.lib.getjad.io/library/$script,3p,domain=le10sport.com|ozap.com|purepeople.com|vidaextra.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,3p,domain=le10sport.com|ozap.com|purepeople.com|vidaextra.com
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl$script,3p,domain=le10sport.com|ozap.com|purepeople.com|vidaextra.com
+@@||securepubads.g.doubleclick.net/gampad/ads$xhr,3p,domain=le10sport.com|ozap.com|purepeople.com|vidaextra.com
+@@||amazon-adsystem.com/*/apstag.js$script,3p,redirect-rule,domain=le10sport.com|ozap.com|purepeople.com|vidaextra.com
 @@||vidaextra.com^$ghide
 vidaextra.com##.ad
 www.reddit.com,new.reddit.com##.subredditvars-r-ublockorigin [role="dialog"]>div:style(width: auto !important)
@@ -131447,10 +131455,6 @@ www.al.com,www.cleveland.com,www.lehighvalleylive.com,www.masslive.com,www.mlive
 helpster.de#@##ad_sidebar_left_container
 sklep.trzynastkaplus.pl##[onclick$="return !ga.loaded;"]:remove-attr(onclick)
 @@||st.dynamicyield.com/st$script,3p,domain=thewarehouse.co.nz
-!#if env_firefox
-foxbusiness.com,foxnews.com##+js(set, Taplytics, {})
-foxbusiness.com,foxnews.com##+js(set, Taplytics.featureFlagEnabled, noopFunc)
-!#endif
 @@||engine.monetate.net/api/$xhr,domain=dunelm.com
 @@||trbo.com/plugin/trbo_$script,xhr,domain=o2online.de
 tipranks.com##+js(set, TRC, {})
