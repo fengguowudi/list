@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: evc1lFMKOzBAi06bLczVEw
+! Checksum: 5GjI1A18OY03JSpqZTRHXg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202406131425
-! Last Modified: 2024年06月13日 14:25
+! Version: 202406132034
+! Last Modified: 2024年06月13日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -65790,6 +65790,7 @@ nnn.ng###hfgad2
 thegazette.com###high-impact
 stackoverflow.com###hireme
 techmeme.com###hiring
+heatmap.news###hmn_sponsored_post
 gunbroker.com###home-ad-a-wrapper
 dailysocial.id###home-ads
 transfermarkt.com###home-rectangle-spotlight
@@ -68278,6 +68279,7 @@ motorcycle.com##.infeed-ads
 sevenforums.com##.infeed1
 heatmap.news,theweek.com##.infinite-container
 filmibeat.com##.infinite-scroll-add
+mylocation.org##.info a[href^="https://go.expressvpn.com/c/"]
 stocksnap.io##.info-col
 bab.la##.info-panel
 gameworldobserver.com##.information-block
@@ -72923,7 +72925,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*.crunchyroll.com$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*RakutenShowtime$xmlhttprequest,domain=imasdk.googleapis.com
-@@||g.doubleclick.net/gampad/live/ads?iu=*jp.tver.$xmlhttprequest,domain=imasdk.googleapis.com
+@@||g.doubleclick.net/gampad/live/ads?*tver.$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=sudokugame.org
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
