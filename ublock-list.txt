@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HxbB3K+SfyGDLHa9Qoz51g
+! Checksum: S4R2srSvJFlfe75YsI07rw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202406161424
-! Last Modified: 2024年06月16日 14:24
+! Version: 202406162033
+! Last Modified: 2024年06月16日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -129306,6 +129306,8 @@ proboards.com,winclassic.net##^script:has-text(vglnk)
 ||bi-tracker-cn.rivergame.net/event/tracker$xhr,redirect=noop.txt
 /n/images/su?info$xhr,1p
 ://log.$image,1p,domain=znews.vn|zingnews.vn
+coursera.org##+js(no-fetch-if, eventing)
+||coursera.org/*/eventing/
 ||rambler.ru/*#rcmrclid=$uritransform=/#rcmrclid=.*//
 ||cmp.*.no^*/metrics/$important
 ||fsho.st/tracker.js^$script,domain=fshost.me
