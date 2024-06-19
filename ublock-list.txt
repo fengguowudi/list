@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 25Sp8MN+9Naqrqed9UD+cA
+! Checksum: YThbgV66f6flztYCBmmcyg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202406192035
-! Last Modified: 2024年06月19日 20:35
+! Version: 202406200224
+! Last Modified: 2024年06月20日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20728,6 +20728,7 @@ browsershots.org#@#.advert_area
 ||biblesausage.com^
 ||bibletweak.com^
 ||bibtu.com^
+||bichosdamiana.com^
 ||bicyclelistoffhandpaying.com^
 ||bicyclelistpermanentlyenslave.com^
 ||bicyclelistworst.com^
@@ -22343,6 +22344,7 @@ browsershots.org#@#.advert_area
 ||cc72fceb4f.com^
 ||cc954a8da8.com^
 ||cca63f7d30.com^
+||ccaa0e51d8.com^
 ||ccaahdancza.com^
 ||ccdneniusruhebl.com^
 ||ccdrofvofrfkqah.com^
@@ -43553,6 +43555,7 @@ browsershots.org#@#.advert_area
 ||qlfqkjluvz.com^
 ||qlmwgibhbhar.com^
 ||qlnccjattetsoq.com^
+||qlnkt.com^
 ||qlrpbdhwebzpf.com^
 ||qlrxmuvghs.com^
 ||qlspx.com^
@@ -45428,6 +45431,7 @@ browsershots.org#@#.advert_area
 ||rufwnrguipfep.com^
 ||rugcrucial.com^
 ||rugiomyh2vmr.com^
+||ruglhiahxam.com^
 ||ruineddefectivecurb.com^
 ||ruinedpenal.com^
 ||ruinedpersonnel.com^
@@ -49057,6 +49061,7 @@ browsershots.org#@#.advert_area
 ||texturedetrimentit.com^
 ||textureeffacepleat.com^
 ||tfaln.com^
+||tfauwtzipxob.com^
 ||tfb7jc.de^
 ||tffkroute.com^
 ||tfgdybgb.com^
@@ -56774,6 +56779,7 @@ browsershots.org#@#.advert_area
 ||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^$document,popup
 ||22dd31.xyz^$document,popup
 ||285b0b37.xyz^$document,popup
+||28d591da.xyz^$document,popup
 ||295c.site^$document,popup
 ||2aeabdd4-3280-4f03-bc92-1890494f28be.xyz^$document,popup
 ||3a2e.site^$document,popup
@@ -73209,6 +73215,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||signin.verizon.com^*/affiliate/$subdocument,xmlhttprequest
 @@||somewheresouth.net/banner/banner.php$image
 @@||sportsnet.ca/wp-content/plugins/bwp-minify/$domain=sportsnet.ca
+@@||standard.co.uk/js/third-party/prebid8.$~third-party
 @@||startrek.website/pictrs/image/$xmlhttprequest
 @@||stat-rock.com/player/$domain=4shared.com|adplayer.pro
 @@||static.doubleclick.net/instream/ad_status.js$script,domain=ignboards.com
@@ -128274,7 +128281,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||lianashepard.autos^$all
 ||nihongirl.online^$all
 ||blob.core.windows.net/$web/index.html$doc
-||windows.net/*/?bcda=$doc
+||windows.net/*?bcda=$doc
 /index.html?ph0n=1-$doc
 ||gateway.pinata.cloud^$3p
 ||japanonlinebroadcast.live^$all
