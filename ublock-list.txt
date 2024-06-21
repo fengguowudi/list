@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CWGHKQvZH5UrXrTnslkpeQ
+! Checksum: ICp+rrxG/PQJqTfcpyGYug
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202406211426
-! Last Modified: 2024年06月21日 14:26
+! Version: 202406212034
+! Last Modified: 2024年06月21日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -64885,6 +64885,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||bigtitsgallery.net/qbztdpxulhkoicd.php
 ||bigtitslust.com/lap70/
 ||bionestraff.pro/300x250.php
+||bngrol.com/promo.php
 ||bodsforthemods.com/srennab/
 ||bootyheroes.com//static/assets/img/banners/
 ||boyfriend.show/widgets/Spot
@@ -64901,6 +64902,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||bunnylust.com/sponsors/
 ||buondua.com/templatesygfo76jp36enw15_/
 ||cam-video.xxx/js/popup.min.js
+||cambay.tv/contents/other/player/
 ||camcaps.ac/33a9020b46.php
 ||camcaps.io/024569284e.php
 ||camcaps.to/400514f2db.php
@@ -71492,6 +71494,7 @@ picrew.me##.play-Imagemaker_Footer
 sciencetimes.com##.player
 bossip.com##.player-wrapper-inner
 swimswam.com##.polls-461
+avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com,thetakeout.com##.related-stories-inset-video
 kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
 mentalfloss.com##.style_k8mr7b-o_O-style_uhlm2
@@ -72109,6 +72112,7 @@ str8ongay.com##.aside-itempage-col
 ad69.com##.aside-section
 sexvid.pro##.aside_thumbs
 hd21.com##.aside_video
+xmateur.com##.asside-link
 veev.to##.avb-active
 avn.com##.avn-article-tower
 mrskin.com##.az
@@ -131860,6 +131864,7 @@ investor-web.hdfcfund.com##+js(set, smartech, noopFunc)
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,3p,domain=w3schools.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl$script,3p,domain=w3schools.com
 @@||securepubads.g.doubleclick.net/gampad/ads$xhr,3p,domain=w3schools.com
+||securepubads.g.doubleclick.net/gampad/ads$xhr,3p,domain=w3schools.com,removeparam=/cookie|gpic|ppid|eo_id_str|psts|pvsid|ga_|eid|didk|a3p/
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -138894,7 +138899,7 @@ investor-web.hdfcfund.com##+js(set, smartech, noopFunc)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Wed, 12 Jun 2024 11:50:55 GMT
-# entries:        3552
+# entries:        3550
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -139472,7 +139477,6 @@ investor-web.hdfcfund.com##+js(set, smartech, noopFunc)
 127.0.0.1 ads.scifi.com
 127.0.0.1 ads.seniorfriendfinder.com
 127.0.0.1 ads.servebom.com
-127.0.0.1 ads.sexgratuit.tv
 127.0.0.1 ads.shizmoo.com
 127.0.0.1 ads.shopstyle.com
 127.0.0.1 ads.sift.co.uk
@@ -140586,7 +140590,6 @@ investor-web.hdfcfund.com##+js(set, smartech, noopFunc)
 127.0.0.1 fam-ad.com
 127.0.0.1 farethief.com
 127.0.0.1 farmergoldfish.com
-127.0.0.1 fast-redirecting.com
 127.0.0.1 fastclick.com
 127.0.0.1 fastclick.com.edgesuite.net
 127.0.0.1 fastclick.net
