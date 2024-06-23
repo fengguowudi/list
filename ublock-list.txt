@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZFFicH33EsZhzZAZz+DmqQ
+! Checksum: Ie0xs6UTbwGHtoV184tlnw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202406230222
-! Last Modified: 2024年06月23日 02:22
+! Version: 202406230924
+! Last Modified: 2024年06月23日 09:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -67676,6 +67676,7 @@ buzzfeed.com##.card--article-ad
 u.today##.card--something-md
 nrl.com##.card-content__sponsor
 devdiscourse.com##.carousel
+eetimes.com##.carousel-ad-wrapper
 faroutmagazine.co.uk,hitc.com##.carpet-border
 chemistwarehouse.com.au##.category-product-mrec
 ghacks.net##.category-sponsored
@@ -128874,24 +128875,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||giamcannhatban.com^$all
 ||examated.co.in^$doc
 ||clientarea-loginauth.com^$all
-||roundyearfun.org^$all
-||roundyearfun.com^$all
-||anyplacehere.me^$all
-||funaroundy.click^$all
-||anyplacehere.live^$all
-||funtwitter.games^$all
-||twitter-circle.com^$all
-||funroundy.click^$all
-||twitterfun.games^$all
-||funxgames.site^$all
-||funroundy.online^$all
-||funxgames.me^$all
-||anyplacehere.store^$all
-||infinitytweet.me^$all
-||infinitweet.com^$all
-||infinitytweet.com^$all
-||infinityweet.me^$all
-||infinityweet.com^$all
 ||github.com/easyfrag346/FREE_BLUMS^$doc
 ||github.com/opidorapoka1992/opidorapoka1992^$doc
 ||github.com/abyous3r/pocketfi_switch_farm-bot^$doc
@@ -128915,6 +128898,25 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||kmsauto.org^$doc
 ||furykms.com^$doc
 ||kmspico-official.org^$doc
+||roundyearfun.org^$all
+||roundyearfun.com^$all
+||anyplacehere.me^$all
+||funaroundy.click^$all
+||anyplacehere.live^$all
+||funtwitter.games^$all
+||twitter-circle.com^$all
+||funroundy.click^$all
+||twitterfun.games^$all
+||funxgames.site^$all
+||funroundy.online^$all
+||funxgames.me^$all
+||anyplacehere.store^$all
+||infinitytweet.me^$all
+||infinitweet.com^$all
+||infinitytweet.com^$all
+||infinityweet.me^$all
+||infinityweet.com^$all
+||anyplacehere.online^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -131838,6 +131840,7 @@ investor-web.hdfcfund.com##+js(set, smartech, noopFunc)
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl$script,3p,domain=w3schools.com
 @@||securepubads.g.doubleclick.net/gampad/ads$xhr,3p,domain=w3schools.com
 ||securepubads.g.doubleclick.net/gampad/ads$xhr,3p,domain=w3schools.com,removeparam=/cookie|gpic|ppid|eo_id_str|psts|pvsid|ga_|eid|didk|a3p/
+@@||mssl.fwmrm.net/libs/adm/*/AdManager.js$script,domain=tv5mondeplus.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
