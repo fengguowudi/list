@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2sL3l+QSJefCju8Eq/SVmg
+! Checksum: CnvxenP82/VvhMfspyIzjw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202406240921
-! Last Modified: 2024年06月24日 09:21
+! Version: 202406241425
+! Last Modified: 2024年06月24日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -145,7 +145,7 @@
 /ad-125.
 /ad-468-
 /ad-bottom.
-/ad-choices-
+/ad-choices-$image
 /ad-choices.
 /ad-engine.js
 /ad-scripts--$script
@@ -297,7 +297,6 @@
 /ads/outbrain?
 /ads/popout.
 /ads/popup.
-/ads/preroll-
 /ads/rectangle_$subdocument
 /ads/revgen.
 /ads/serve?
@@ -453,7 +452,6 @@
 /amp4ads-host-v0.js
 /ane-popup-banner.js
 /ane-popup.js
-/ane-preroll/preroll.js
 /annonse.
 /annonser.
 /api-ads.
@@ -772,7 +770,7 @@
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
 /pixel/puclc?
-/pixel/pure
+/pixel/pure$third-party
 /pixel/purs?
 /pixel/purst?
 /pixel/sbe?
@@ -784,16 +782,15 @@
 /plugins/adrotate/*$script
 /plugins/ads-
 /plugins/ads/*$~xmlhttprequest
-/plugins/adsanity-
+/plugins/adsanity-$script,stylesheet
 /plugins/advanced-ads/*$domain=~wordpress.org
 /plugins/ane-banners-entre-links/*
-/plugins/ane-preroll-
+/plugins/ane-preroll$~xmlhttprequest
 /plugins/cactus-ads/*$script,stylesheet
 /plugins/cpx-advert/*$script
 /plugins/dx-ads/*$script
 /plugins/meks-easy-ads-widget/*$stylesheet
 /plugins/mts-wp-in-post-ads/*$script,stylesheet
-/plugins/page-cornr-
 /plugins/popunderpro/*$script
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-moreads/*$~stylesheet
@@ -1030,7 +1027,7 @@
 /wp-auto-affiliate-links/*
 /wp-bannerize-$script,stylesheet
 /wp-bannerize.$script,stylesheet
-/wp-bannerize/*
+/wp-bannerize/*$script,stylesheet
 /wp-content/ads/*$~xmlhttprequest
 /wp-content/mbp-banner/*$image
 /wp-content/plugins/amazon-auto-links/*$script,stylesheet
@@ -1040,11 +1037,11 @@
 /wp-content/plugins/bhcb/lock.js
 /wp-content/plugins/bookingcom-banner-creator/*
 /wp-content/plugins/bookingcom-text2links/*
-/wp-content/plugins/fasterim-optin/*
+/wp-content/plugins/fasterim-optin/*$~xmlhttprequest
 /wp-content/plugins/m-wp-popup/*$~stylesheet
 /wp-content/plugins/platinumpopup/*$script,stylesheet
-/wp-content/plugins/popad/*
-/wp-content/plugins/the-moneytizer/*
+/wp-content/plugins/popad/*$script,stylesheet
+/wp-content/plugins/the-moneytizer/*$script
 /wp-content/plugins/thirstyaffiliates/*
 /wp-content/plugins/useful-banner-manager/*
 /wp-content/plugins/wp-ad-guru/*$script,stylesheet
@@ -1280,7 +1277,6 @@ _widget_ad.
 .prebid.$domain=~prebid.org
 /_js/prbd_6.19.0.js
 /ad/postbid_handler1.0.9.js
-/adn-hb/*
 /AudienceNetworkPrebid.
 /gpt-prebid.js
 /pbjsandwich.
@@ -1329,7 +1325,6 @@ _prebid8.
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
 /adb_detector.
-/adblock-alerter/*
 /adblock-detect.
 /adblock-detector.
 /adblock-message.
@@ -66071,6 +66066,7 @@ games2jolly.com###leaderboard_area_home
 planetminecraft.com###leaderboard_atf
 canadianbusiness.com,macleans.ca,vidio.com,yardbarker.com###leaderboard_container
 spoonuniversity.com###leaderboard_fixed
+sportsnet.ca###leaderboard_master
 belgie.fm,danmark.fm,deutschland.fm,espana.fm,italia.fm,nederland.fm###leaderboardbg
 eel.surf7.net.my###left
 news9live.com###left_before_story
@@ -66392,6 +66388,7 @@ sun-sentinel.com###stnWrapperDiv
 westernjournal.com###stnvideo
 rawstory.com###story-top-ad
 healthshots.com###storyBlockOne
+suffolknewsherald.com###story_one_by_one_group
 krunker.io###streamContainer
 web-capture.net###stw_ad
 arenaev.com,gsmarena.com###subHeader
@@ -66618,6 +66615,7 @@ newspointapp.com##.Ad_wrapper
 greatandhra.com##.AdinHedare
 jagranjosh.com##.Ads
 coingape.com##.AdsMid
+sportsnet.ca##.Ads_card-wrapper__KyXLu
 iogames.onl##.Adv
 yandex.com##.AdvOffers
 airportinfo.live,audiokarma.org,audizine.com##.AdvallyTag
@@ -66873,6 +66871,7 @@ mobilesyrup.com##.ad-goes-here
 andscape.com##.ad-incontent-wrapper
 dailyuptea.com##.ad-info
 downloads.digitaltrends.com##.ad-kargo
+apksum.com##.ad-left
 citynews.ca##.ad-load
 mariopartylegacy.com##.ad-long
 olympics.com##.ad-margin-big
@@ -69266,6 +69265,7 @@ actionnetwork.com##.promotion-table
 throwawaymail.com##.promotion_row
 bostonreview.net##.promotop
 insauga.com##.proper-content-dynamic
+highspeedinternet.com##.provider-ads
 football365.com,planetf1.com,planetrugby.com##.ps-block-a
 kathmandupost.com##.pt-0
 gsmarena.com##.pt-10
@@ -72000,6 +72000,7 @@ badjojo.com###rightcol
 onlyporn.tube,porntop.com###s-suggesters
 homemade.xxx###scrollhere
 sexyandfunny.com###sexy-links
+spankbang.com###shorts-frame
 javtiful.com###showerm
 3movs.com###side_col_video_view
 fc2covid.com###sidebar > .widget_block
@@ -82129,6 +82130,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lucid.mjhassoc.com^
 ||luminate.com/track/
 ||lycos.com/hb.js
+||m.clear.link/cpr/external/track
 ||m.stripe.com^$third-party,domain=~stripe.network
 ||ma.logsss.com^
 ||magento-recs-sdk.adobe.net^
@@ -128667,6 +128669,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||mobilelegendsmycode.com^$all
 ||taikhoanvps.com.vn^$doc,domain=~vps.com.vn
 ||ozen-hyzmat.com^$all,to=~whatsapp.com
+||cancelarcompraaqui.glitch.me^$all,to=~grupobancolombia.com
 ||final-ua.eu/vasilisa/votings$all
 ||acir.postofficeweb.com/grupoacir/$all
 ||datahub.center^$all
@@ -128689,11 +128692,13 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||orange53.yolasite.com^$all,to=~orange.fr
 ||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
 ||smsmmsernorepls.wixsite.com^$all,to=~orange.fr
+||exbtengineers.com/o/$all,to=~orange.fr
 ||servicemailorange25.wixsite.com^$all,to=~orange.fr
 ||assistancesosh.wixsite.com^$all,to=~orange.fr
 ||amazonl3.com^$all
 ||amazon-onboarding.com^$all
 ||etisalat-amazonprime.com^$all,to=~etisalat.ae
+||cc35rt8.top^$all
 ||miaoniter.com^$all
 ||c.vn-ebayn.vip^$all
 ||vn-ebay.quxlpuj.cn^$all
@@ -128721,19 +128726,21 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||alisongaudino992.wixsite.com^$all
 ||deenveerww.wixsite.com^$all
 ||dichvucong.$doc,domain=~gov.vn
+||thanhtrapcrt.online^$all,to=~thanhtra.gov.vn
 ||liveflo.qxlva.io^$all,to=~gov.uk
 ||approvaltool.bdukinternal.net^$all,to=~gov.uk
 ||mybluehost.me/*/impo/$doc,domain=~impots.gouv.fr
 ||chamsocthekhachhang-$doc,domain=~edu|~gov|~edu.vn|~gov.vn
-||sotuyenvcb.vietcombanker.com^$all
+||sotuyenvcb.vietcombanker.com^$all,to=~vietcombank.com.vn
 ||vdbank.com.vn^$all,to=~vdb.gov.vn
-||canhantpb.com^$all,to=~tpb.vn
-||tpbankvn.workplace.com^$all,to=~tpb.vn
-||phattai247.com^$all,to=~mbbank.com.vn
 ||dtdev.com.ar^$all,to=~americanexpress.com
 ||dongtam.com.vn/app/$all,to=~td.com
 ||conveyancingportal.com^$all
 ||tinchaphd.com^$all,to=~hdsaison.com.vn
+||tinchapshinhan.online^$all,to=~shinhan.com.vn
+||canhantpb.com^$all,to=~tpb.vn
+||phattai247.com^$all,to=~mbbank.com.vn
+||mbdk99.com^$all,to=~mbbank.com.vn
 /^https:\/\/hdsaison-?[a-z]{2,}\.(?:cc|com|vip)\//$doc,domain=cc|com|vip|~hdsaison.com.vn
 /^https:\/\/tpbank\.[-a-z0-9]{5,}\.[a-z]{3}(?:\.vn)?\//$doc,domain=~edu|~gov|~gov.vn|~tpb.vn
 ||sparkasse-oberhessen.info^$all,to=~sparkasse.de
@@ -128754,6 +128761,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||www-mfacebook.vn^$all
 ||www-facebook-com.vn^$all
 ||vww-facebook.com.vn^$all
+||thisinhthanhlich2024.com^$all
 /^https:\/\/sp\d{2,3}88(?:vn)?\.com\//$doc,domain=com|~shopee.vn
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=access-control-allow-headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=Access-Control-Allow-Headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
@@ -128761,8 +128769,10 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 *$doc,domain=tikimall.*|~tiki.vn
 ||tah0a.com^$all,to=~tiki.vn
 ||tuyendungtiki2024.vn^$all,to=~tiki.vn
+||zla653.top^$all,to=~tiki.vn
 ||lazada.bbc6666.com^$all
 ||vnsendo.*^$all,to=info|shop|vip|~sendo.vn
+||sendotv.com^$all,to=~sendo.vn
 ||mayxanhsupport.com^$all,to=~dienmayxanh.com
 ||trungtam-dienmayxanh.com^$all,to=~dienmayxanh.com
 ||angesky.com^$all
@@ -128790,6 +128800,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||infos4.yolasite.com^$all
 ||policija64.wixsite.com^$all
 ||microsoft.dfautomotive.de^$all
+||exchange.add-solution.de^$all
 ||cashum.unam.mx/wp-content/backups-dup-pro/imports/index.htm$all
 ||johnhstngs4.wixsite.com/housedocumentcanada2$all
 ||od.atami.no/one_drive.html$all
@@ -128811,10 +128822,12 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||airpos.co.kr/.well-known/pki-validation/*/MitID/$doc
 ||autolocksmithpro.com/spt/$all
 ||mybluehost.me/wp-includes/blocks/sec/$doc
+||mybluehost.me/spot/Account/$doc
 ||swiss-passapp.web.app^$all,to=~swisspass.ch
 ||mybluehost.me/CFF/$doc,domain=~swisspass.ch
 ||mybluehost.me/--/SBBCFF$doc,domain=~swisspass.ch
 ||mybluehost.me/SBB.CH/$doc,domain=~swisspass.ch
+||mybluehost.me/sbb-ch/$doc,domain=~swisspass.ch
 ||mybluehost.me/pass/index/$doc,domain=~swisspass.ch
 ||mybluehost.me/*/CHFINAL/$doc,domain=~swisspass.ch
 ||acconsult.info/*/CHFINAL/$doc,domain=~swisspass.ch
@@ -128826,6 +128839,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||codeanyapp.com/info/cc.php^$doc,domain=~swisscom.ch
 ||mybluehost.me/neww/$doc,domain=~swisscom.ch
 ||secureserver.net/ruckstantung907921/$doc,domain=~swisscom.ch
+||wcomhost.com/ch/upc/$all,to=~upc.ch
 ||trezor.io.quantumplus.co.ke^$all,to=~trezor.io
 ||sei-io.web.app^$all,to=~sei.io
 ||web3mainnetdapp.pages.dev^$all
@@ -128843,6 +128857,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||pancakeswap.icu^$all,to=~pancakeswap.finance
 ||pancake.run^$all,to=~pancakeswap.finance
 ||pancake-clalm.xyz^$all,to=~pancakeswap.finance
+||pancake-nftclaime23.vercel.app^$all,to=~pancakeswap.finance
 ||interface-git-parallel-cypress-uniswap.vercel.app^$doc,domain=~uniswap.org
 ||uniswap-free.eth.limo^$all,to=~uniswap.org
 ||copba.org.ar/*/aupost/$all,to=~auspost.com.au
@@ -128850,12 +128865,15 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||air.bnb-id*.com^$all,to=~airbnb.com
 ||k8cxh.shop^$all,to=~gazprom.ru
 ||pakket-bpost-be.web.app^$all,to=~bpost.be
+||vodafone-mail-de.brimble.app^$all,to=~vodafone.de
 ||beluxrepm.followme.fr/FolloWMe$all
 ||mybluehost.me/Cope346/$all
 ||glitch.me/pdf.html?email=$doc
 ||fislbxcentral.com/lms/santander$doc,domain=~santanderbank.com|~santander.co.uk
 ||cursorltd.com^$doc
 ||cprapid.com^$doc
+||utahpolicetraining.*.mybluehost.me^$all
+||tpbankvn.workplace.com^$all,to=~tpb.vn
 /^https:\/\/da\d{4}\.com\//$doc,domain=com|~lazada.vn
 /^https:\/\/tdk[dt]0[0-9]\.com\//$doc,domain=com|~tiki.vn
 ||da6555.com^$all
