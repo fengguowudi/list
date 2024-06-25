@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xBcAVe26LofEbRA4BF36AQ
+! Checksum: RMpDviej3GZ7xmGB2n5KQw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202406250920
-! Last Modified: 2024年06月25日 09:20
+! Version: 202406251425
+! Last Modified: 2024年06月25日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -68663,7 +68663,7 @@ mediaweek.com.au##.leader-wrap-out
 blaauwberg.net##.leaderBoardContainer
 coin360.com##.leader_wrapper
 coveteur.com##.leaderboar_promo
-agcanada.com,allmusic.com,allrecipes.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,bdonline.co.uk,boardgamegeek.com,bravewords.com,broadcastnow.co.uk,cantbeunseen.com,cattime.com,chairmanlol.com,chemistryworld.com,citynews.ca,comingsoon.net,coolmathgames.com,crn.com.au,diyfail.com,dogtime.com,drugtargetreview.com,edmunds.com,europeanpharmaceuticalreview.com,explainthisimage.com,foodandwine.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,gmanetwork.com,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,liveoutdoors.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,nfcw.com,objectiface.com,passedoutphotos.com,playstationlifestyle.net,precisionvaccinations.com,retail-week.com,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thedriven.io,thefashionspot.com,thestar.com.my,titantv.com,tutorialrepublic.com,where.ca,yoimaletyoufinish.com##.leaderboard
+agcanada.com,allmusic.com,allrecipes.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,bdonline.co.uk,boardgamegeek.com,bravewords.com,broadcastnow.co.uk,cantbeunseen.com,cattime.com,chairmanlol.com,chemistryworld.com,citynews.ca,comingsoon.net,coolmathgames.com,crn.com.au,diyfail.com,dogtime.com,drugtargetreview.com,edmunds.com,europeanpharmaceuticalreview.com,explainthisimage.com,foodandwine.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,gmanetwork.com,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,liveoutdoors.com,macleans.ca,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,nfcw.com,objectiface.com,passedoutphotos.com,playstationlifestyle.net,precisionvaccinations.com,retail-week.com,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thedriven.io,thefashionspot.com,thestar.com.my,titantv.com,tutorialrepublic.com,where.ca,yoimaletyoufinish.com##.leaderboard
 kijiji.ca##.leaderboard-1322657443
 edarabia.com##.leaderboard-728
 abcnews.go.com,edarabia.com##.leaderboard-970
@@ -69178,7 +69178,6 @@ plagiarismtoday.com##.plagi-widget
 trakt.tv##.playwire
 advfn.com##.plus500
 thepinknews.com##.pn-ad-container
-thepinknews.com##.pn-remove-ads-container
 freewebarcade.com##.pnum
 radiotoday.co.uk##.pnvqryahwk-container
 thespec.com,wellandtribune.ca##.polarAds
@@ -70106,7 +70105,6 @@ floridasportsman.com##.video-detail-player
 gbnews.com##.video-inbody
 emptycharacter.com##.video-js
 forbes.com,nasdaq.com##.video-placeholder
-thepinknews.com##.video-player__container
 flicksmore.com##.video_banner
 guru99.com##.videocontentmobile
 justthenews.com##.view--breaking-news-sponsored
@@ -71532,6 +71530,7 @@ petapixel.com##.video-aspect-wrapper
 gearjunkie.com##.video-jwplayer
 bolavip.com##.video-player-placeholder
 benzinga.com##.video-player-wrapper
+thepinknews.com##.video-player__container
 consequence.net##.video_container
 bigthink.com##.wrapper-connatixElements
 bigthink.com##.wrapper-connatixPlayspace
@@ -128688,7 +128687,10 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||codeanyapp.com/klarna/$doc,domain=~klarna.com
 ||griffithdds.com/*/madeinchina.com/$all,to=~made-in-china.com
 ||mybluehost.me/*/dir/ca/pay/$doc,domain=~canadapost-postescanada.ca
+||lbcaffichemonrib.fr/auth.leboncoin.fr/$all,to=~leboncoin.fr
+||21cpromotions.com/logs/postch/$all,to=~laposte.fr
 ||mybluehost.me/*/netflix/net/login.php$doc
+||floridavacationrentalsbyowners.com/*/Info/page_settings/account.php^$all
 ||allegrostu.com^$all
 ||wz-2-allegro-4dv.pages.dev^$all
 ||racks.pages.dev^$all,to=~rackspace.com
@@ -128727,6 +128729,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||rtm-att.directly.com^$all
 ||tbscott212.bubbleapps.io^$all
 ||homelogginbbt.weebly.com^$all,to=~bt.com
+||boardband.univer.se^$all,to=~bt.com
 ||keepo.io/KJOUYHUBU799BH/$all
 ||keepo.io/loginatt/$all
 ||dlhessell.wixsite.com/att-support/$all
@@ -128747,6 +128750,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||tinchaphd.com^$all,to=~hdsaison.com.vn
 ||tinchapshinhan.online^$all,to=~shinhan.com.vn
 ||canhantpb.com^$all,to=~tpb.vn
+||pncfinc.com^$all,to=~pnc.com
 ||phattai247.com^$all,to=~mbbank.com.vn
 ||mbdk99.com^$all,to=~mbbank.com.vn
 /^https:\/\/hdsaison-?[a-z]{2,}\.(?:cc|com|vip)\//$doc,domain=cc|com|vip|~hdsaison.com.vn
@@ -128765,6 +128769,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||content-violation-issue-02.surge.sh^$all
 ||help.pageproblem.com^$all
 ||arpitgoel889.github.io/Instagram/$all
+||tgbot.cyb3r.army/*/Instagram.com.html^$all
 ||business.verified-suite-help.me^$all
 ||www-mfacebook.vn^$all
 ||www-facebook-com.vn^$all
@@ -128835,6 +128840,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||mybluehost.me/CFF/$doc,domain=~swisspass.ch
 ||mybluehost.me/--/SBBCFF$doc,domain=~swisspass.ch
 ||mybluehost.me/SBB.CH/$doc,domain=~swisspass.ch
+||mybluehost.me/Konto/SBB/$doc,domain=~swisspass.ch
 ||mybluehost.me/sbb-ch/$doc,domain=~swisspass.ch
 ||mybluehost.me/pass/index/$doc,domain=~swisspass.ch
 ||mybluehost.me/*/CHFINAL/$doc,domain=~swisspass.ch
@@ -129523,6 +129529,8 @@ tapewithadblock.org##+js(rmnt, script, /RegExp\(\'/, condition, RegExp)
 meeting.tencent.com##+js(no-xhr-if, /(trace|beacon)\.qq\.com/)
 notion.so##+js(no-fetch-if, splunkcloud.com/services/collector)
 olympics.com##+js(no-fetch-if, event-router.olympics.com)
+@@||awstrack.me/*auth.coindesk.com$doc,popup
+@@||awstrack.me/*cmd=ac-inactive-restore$doc,popup
 ||2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=video.foxnews.com
 ||cdn.krxd.net^$script,redirect=noopjs,domain=video.foxnews.com
 @@||akamaihd.net/player/*/akamai/amp/prebid/*$script,domain=static.foxnews.com
@@ -131842,7 +131850,6 @@ share.hntv.tv##+js(set, sensorsDataAnalytic201505.track, noopFunc)
 optimum.net##+js(set, s, {})
 optimum.net##+js(set, s.tl, noopFunc)
 @@||usabilla.com^$script,domain=nos.nl
-@@||awstrack.me/*auth.coindesk.com$doc,popup
 @@||jssdkcdns.mparticle.com/js/*/mparticle.js^$script,3p,domain=syfy.com
 pvrcinemas.com##+js(set, SalesforceInteractions, {})
 pvrcinemas.com##+js(set, SalesforceInteractions.CatalogObjectInteractionName)
