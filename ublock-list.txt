@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /giOLZjO+o0RwITLOJ388A
+! Checksum: KaiCNLIYpZWSyH9/oIqh6Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202406260225
-! Last Modified: 2024年06月26日 02:25
+! Version: 202406260920
+! Last Modified: 2024年06月26日 09:20
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -128979,6 +128979,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||infinityweet.me^$all
 ||infinityweet.com^$all
 ||anyplacehere.online^$all
+||polyfill.io^$all
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -138944,8 +138945,8 @@ tierlists.com##+js(nano-stb, /TDELAY|EzoIvent/, *, 0.001)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 12 Jun 2024 11:50:55 GMT
-# entries:        3550
+# last updated:   Tue, 25 Jun 2024 22:47:11 GMT
+# entries:        3551
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -140235,6 +140236,7 @@ tierlists.com##+js(nano-stb, /TDELAY|EzoIvent/, *, 0.001)
 127.0.0.1 cj.com
 127.0.0.1 cjbmanagement.com
 127.0.0.1 cjlog.com
+127.0.0.1 cl.turkishairlines.com
 127.0.0.1 cl0udh0st1ng.com
 127.0.0.1 claria.com
 127.0.0.1 clck.ru
