@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B6vrqmP3r9PqAKW6jIFv8A
+! Checksum: Q6rz/AtTJ4y0kQXtHnpipA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202406270920
-! Last Modified: 2024年06月27日 09:20
+! Version: 202406271425
+! Last Modified: 2024年06月27日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -6077,6 +6077,7 @@ _800x80_
 ##.AdsBoxSection
 ##.AdsBoxTop
 ##.AdsLayout__top-container
+##.AdsRectangleWrapper
 ##.AdsSlot
 ##.Ads__wrapper
 ##.Ads_header
@@ -64272,6 +64273,8 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||monkeygamesworld.com/images/banners/
 ||montent.powzers.lol^
 ||moonjscdn.info/player8/JWui.js
+||moviehaxx.pro/js/bootstrap-native.min.js
+||moviehaxx.pro/js/xeditable.min.js
 ||mp3fiber.com/*ml.jpg
 ||mpgh.net/idsx2/
 ||mrskin.com^$script,third-party,domain=~mrskincdn.com
@@ -66371,6 +66374,7 @@ compleatgolfer.com,sacricketmag.com###slidein
 accuradio.com###slot2Wrapper
 orteil.dashnet.org###smallSupport
 point2homes.com###smartAsset
+apkmoddone.com###sn-Notif
 givemesport.com###sn_gg_ad_wrapper
 forums.bluemoon-mcfc.co.uk###snack_dmpu
 forums.bluemoon-mcfc.co.uk,gpfans.com###snack_ldb
@@ -67757,7 +67761,7 @@ letras.com##.cnt-space-top
 groceries.asda.com##.co-product-dynamic
 asda.com##.co-product-list[data-module-type="HookLogic"]
 map.riftkit.net##.coachify_wrapper
-100percentfedup.com,180gadgets.com,247media.com.ng,academicful.com,addapinch.com,aiarticlespinner.co,allaboutfpl.com,alltechnerd.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,australiangeographic.com.au,autodaily.com.au,bigleaguepolitics.com,bohemian.com,borncity.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,coincodecap.com,conservativebrief.com,corrosionhour.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dafontfree.io,dailynewshungary.com,dcenquirer.com,dexdotexe.com,dorohedoro.online,epicdope.com,eurweb.com,exeo.app,fandomwire.com,firstsportz.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gadgetinsiders.com,gameinfinitus.com,gamertweak.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hollywoodinsider.com,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,jujustukaisen.com,libertyunlocked.com,linuxfordevices.com,lithub.com,meaningfulspaces.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,nationalfile.com,nintendoeverything.com,notalwaysright.com,nsw2u.com,nxbrew.com,organicfacts.net,patriotfetch.com,premiumtimesng.com,protrumpnews.com,pureinfotech.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,respawnfirst.com,rezence.com,roadaheadonline.co.za,rok.guide,sciencenotes.org,sdnews.com,simscommunity.info,small-screen.co.uk,storypick.com,streamingbetter.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techpp.com,techrounder.com,techviral.net,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,thepeoplesvoice.tv,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,wnd.com,zerohanger.com##.code-block
+100percentfedup.com,180gadgets.com,247media.com.ng,academicful.com,addapinch.com,aiarticlespinner.co,allaboutfpl.com,alltechnerd.com,americanmilitarynews.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,australiangeographic.com.au,autodaily.com.au,bigleaguepolitics.com,bohemian.com,borncity.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,coincodecap.com,conservativebrief.com,corrosionhour.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dafontfree.io,dailynewshungary.com,dcenquirer.com,dexdotexe.com,dorohedoro.online,epicdope.com,eurweb.com,exeo.app,fandomwire.com,firstsportz.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gadgetinsiders.com,gameinfinitus.com,gamertweak.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hollywoodinsider.com,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,jujustukaisen.com,libertyunlocked.com,linuxfordevices.com,lithub.com,meaningfulspaces.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,nationalfile.com,nintendoeverything.com,notalwaysright.com,nsw2u.com,nxbrew.com,organicfacts.net,patriotfetch.com,premiumtimesng.com,protrumpnews.com,pureinfotech.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,respawnfirst.com,rezence.com,roadaheadonline.co.za,rok.guide,saabplanet.com,sciencenotes.org,sdnews.com,simscommunity.info,small-screen.co.uk,storypick.com,streamingbetter.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techpp.com,techrounder.com,techviral.net,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,thepeoplesvoice.tv,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,wnd.com,zerohanger.com##.code-block
 storytohear.com,thefamilybreeze.com,thetravelbreeze.com,theworldreads.com,womensmethod.com##.code-block > center p
 cookingwithdog.com,streamtelly.com##.code-block-1
 patriotnewsfeed.com##.code-block-4
@@ -70215,7 +70219,7 @@ gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,goonhammer.com,joemygod.com,shtfplan.com,thestrongtraveller.com,usmagazine.com##.widget_block
 wplift.com##.widget_bsa
 techweekmag.com##.widget_codewidget
-4sysops.com,9to5linux.com,backthetruckup.com,catcountry941.com,cnx-software.com,corrosionhour.com,corvetteblogger.com,dailyveracity.com,dcrainmaker.com,fastestvpns.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,iwatchsouthparks.com,macsources.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,planetofreviews.com,prepperwebsite.com,sashares.co.za,scienceabc.com,scienceandliteracy.org,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,trackalerts.com,trendingpoliticsnews.com##.widget_custom_html
+4sysops.com,9to5linux.com,backthetruckup.com,catcountry941.com,cnx-software.com,corrosionhour.com,corvetteblogger.com,dailyveracity.com,dcrainmaker.com,fastestvpns.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,iwatchsouthparks.com,macsources.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,patriotfetch.com,planetofreviews.com,prepperwebsite.com,sashares.co.za,scienceabc.com,scienceandliteracy.org,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,trackalerts.com,trendingpoliticsnews.com##.widget_custom_html
 domaingang.com##.widget_execphp
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
@@ -70597,7 +70601,7 @@ buzzheavier.com##[onclick="downloadAd()"]
 survivopedia.com##[onclick="recordClick("]
 filecrypt.cc,filecrypt.co##[onclick^="var lj"]
 transfermarkt.co.uk##[referrerpolicy]
-appleinsider.com,dappradar.com,euroweeklynews.com,sitepoint.com,thefinancialbrand.com,tld-list.com##[rel*="sponsored"]
+appleinsider.com,dappradar.com,euroweeklynews.com,sitepoint.com,tld-list.com##[rel*="sponsored"]
 warecracks.com,websiteoutlook.com##[rel="nofollow"]
 myanimelist.net##[src*="/c/img/images/event/"]
 audioz.download##[src*="/promo/"]
@@ -70814,7 +70818,6 @@ greatist.com##aside
 4runnerforum.com,acuraforums.com,blazerforum.com,buickforum.com,cadillacforum.com,camaroforums.com,cbrforum.com,chryslerforum.com,civicforums.com,corvetteforums.com,fordforum.com,germanautoforums.com,hondaaccordforum.com,hondacivicforum.com,hondaforum.com,hummerforums.com,isuzuforums.com,kawasakiforums.com,landroverforums.com,lexusforum.com,mazdaforum.com,mercuryforum.com,minicooperforums.com,mitsubishiforum.com,montecarloforum.com,mustangboards.com,nissanforum.com,oldsmobileforum.com,pontiactalk.com,saabforums.com,saturnforum.com,truckforums.com,volkswagenforum.com,volvoforums.com##aside > center
 everydayrussianlanguage.com##aside img[src^="/wp-content/themes/edr/img/"]
 winaero.com##aside.sidebar > section:not([id^="custom_html-"]).widget_custom_html
-thefinancialbrand.com##aside[class][style*="cursor:"]
 vezod.com##av-adv-slot
 buffstreams.sx##button[data-openuri*=".allsportsflix."]
 filecrypt.cc,filecrypt.co##button[onclick*="://bullads.net/"]
@@ -123152,7 +123155,7 @@ pornojenny.com##div[id="wrapper_content"] > aside
 pornojenny.com###wa_10
 @@||pornojenny.com^$ghide
 pornojenny.com##[href^="https://www.handy-sextreffen.info/"]:upward(.grid_box)
-*$script,1p,domain=~kat.pink|~kat.computer|~kat.am|~kat.at|~kat.rip|~kickass.codes|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
+*$script,1p,domain=~kat.pink|~kat.computer|~kat.am|~kat.at|~kat.rip|~kat.studio|~kickass.codes|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
 kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekickass.*,kickassz.*,kickasstorrents2.*,topkickass.*,kickassgo.*,kkickass.*,kkat.*,kickasst.*,kick4ss.*,katbay.*,kickasshydra.*,kickasskat.*,kickassbay.*,torrentkat.*,kickassuk.*,torrentskickass.*,kickasspk.*,kickasstrusty.*,katkickass.*,kickassindia.*,kickass-usa.*,kickassaustralia.*,kickassdb.*,kathydra.*,kickassminds.*,katkickass.*,kickassunlocked.*,kickassmovies.*,kickassfull.*,bigkickass.*,kickasstracker.*,katfreak.*##[style*="decoration"]:not([style^="width"])
 kat.*,katbay.*,kickass.*,kickasshydra.*,kickasskat.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekickass.*,kickassz.*,kickasstorrents2.*,topkickass.*,kickassgo.*,kkickass.*,kkat.*,kickasst.*,kick4ss.*##[href="/k.php?q=q"]
 @@||kickasstorrents.*/static/js/all.js$script,1p
@@ -128741,6 +128744,9 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||mybluehost.me/*/dir/ca/pay/$doc,domain=~canadapost-postescanada.ca
 ||lbcaffichemonrib.fr/auth.leboncoin.fr/$all,to=~leboncoin.fr
 ||21cpromotions.com/logs/postch/$all,to=~laposte.fr
+||inner.website/*.html^$all
+||k8cxh.shop^$all,to=~gazprom.ru
+||2fex4.shop^$all,to=~gazprom.ru
 ||mybluehost.me/*/netflix/net/login.php$doc
 ||floridavacationrentalsbyowners.com/*/Info/page_settings/account.php^$all
 ||allegrostu.com^$all
@@ -128828,10 +128834,11 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||www-facebook-com.vn^$all
 ||vww-facebook.com.vn^$all
 ||thisinhthanhlich2024.com^$all
+||govern-assessment-validation-njbujm.vercel.app^$all
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=access-control-allow-headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=Access-Control-Allow-Headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/webapi/login|$xhr,3p,to=online|vip,method=post,header=access-control-allow-headers:Origin, X-Requested-With, Content-Type, Accept, Authorization
-||angesky.com^$all
+||lazada.bbc6666.com^$all
 /^https:\/\/sp\d{2,3}88(?:vn)?\.com\//$doc,domain=com|~shopee.vn
 ||conttonik.vip^$all
 ||mez.ink/reademcashbackshopee.1.1^$all
@@ -128839,11 +128846,11 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||tah0a.com^$all,to=~tiki.vn
 ||tuyendungtiki2024.vn^$all,to=~tiki.vn
 ||zla653.top^$all,to=~tiki.vn
-||lazada.bbc6666.com^$all
 ||vnsendo.*^$all,to=info|shop|vip|~sendo.vn
 ||sendotv.com^$all,to=~sendo.vn
 ||mayxanhsupport.com^$all,to=~dienmayxanh.com
 ||trungtam-dienmayxanh.com^$all,to=~dienmayxanh.com
+||angesky.com^$all
 ||steamproxy.*^$all,to=steamproxy.cc|steamproxy.net|steamproxy.vip
 ||sp.aircsgo.com^$all
 ||st.aircsgo.com^$all
@@ -128873,6 +128880,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||johnhstngs4.wixsite.com/housedocumentcanada2$all
 ||od.atami.no/one_drive.html$all
 ||storageapi-new.fleek.co/*/yss/ind.html$all
+||notifyhubss.net^$all
 ||telegramhcn.com^$all
 ||web.telegram.data-bees.cn^$all
 /^https:\/\/usps\.[-a-z]{6,}\.(?:com|top)\/(?:address\.html|information|verify)\b/$doc,domain=com|top|~usps.com
@@ -128933,7 +128941,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||copba.org.ar/*/aupost/$all,to=~auspost.com.au
 ||candsa.top^$all,to=~auspost.com.au
 ||air.bnb-id*.com^$all,to=~airbnb.com
-||k8cxh.shop^$all,to=~gazprom.ru
 ||pakket-bpost-be.web.app^$all,to=~bpost.be
 ||vodafone-mail-de.brimble.app^$all,to=~vodafone.de
 ||beluxrepm.followme.fr/FolloWMe$all
@@ -128947,10 +128954,19 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||tpbankvn.workplace.com^$all,to=~tpb.vn
 /^https:\/\/da\d{4}\.com\//$doc,domain=com|~lazada.vn
 /^https:\/\/tdk[dt]0[0-9]\.com\//$doc,domain=com|~tiki.vn
-||da6555.com^$all
+||da6555.com^$all,to=~lazada.vn
 ||soppe68.*^$all,to=~shopee.vn
-/^https:\/\/sp\d{5}p\.com\//$doc,domain=com|~shopee.vn
+/^https:\/\/sp\d{4,5}p\.com\//$doc,domain=com|~shopee.vn
 ||sp15569p.com^$all,to=~shopee.vn
+||vib-*.com^$doc,domain=com|~vib.com.vn
+||vib-*.shop^$doc,domain=shop|~vib.com.vn
+||vssidgov.com^$all
+||nappthe.vn^$all,to=~napthe.vn
+||binhchoncuocthivetranhsinhvien2024.weebly.com^$all
+||la5959.com^$all,to=~lazada.vn
+||viettlot135p.com^$all,to=~vietlott.vn
+||sp7335p.com^$all,to=~shopee.vn
+||vnc63661s.com^$all,to=~shopee.vn
 ||arnaudpairoto.com^$all
 ||puttyconnect.info^$all
 ||astrosphere.world^$all
@@ -129018,6 +129034,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||infinityweet.com^$all
 ||anyplacehere.online^$all
 ||polyfill.io^$all
+||googie-anaiytics.com^$all
 ||veilcurtin.world^$doc
 ||yikesgroto.com^$doc
 ||midnightsociety-x.com^$doc
