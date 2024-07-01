@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JJLaI6T25h0bmMisnTc3aA
+! Checksum: itui9CuUHj5NJ7dgVHp/4Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407011427
-! Last Modified: 2024年07月01日 14:27
+! Version: 202407012037
+! Last Modified: 2024年07月01日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53514,7 +53514,6 @@ browsershots.org#@#.advert_area
 ||zeyappland.com^
 ||zeydoo.com^
 ||zeypreland.com^
-||zfctrack.net^
 ||zfeaubp.com^
 ||zferral.com^
 ||zfgyvoarqreba.com^
@@ -53533,7 +53532,6 @@ browsershots.org#@#.advert_area
 ||zgtkxwqgebintr.com^
 ||zgxxvdlxc.com^
 ||zhaner.xyz^
-||zhctrack.net^
 ||zhedvge.com^
 ||zhej78i1an8w6ceu.com^
 ||zhfvwkkftg.com^
@@ -62822,6 +62820,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||biblemenus.com/adframe
 ||bioinformatics.org/images/ack_banners/
 ||bit.com.au/scripts/js_$script
+||bitchute.com/static/ad2.html
 ||bitcotasks.com/je.php
 ||bitcotasks.com/yo.php
 ||bizjournals.com/static/dist/js/gpt.min.js
@@ -70783,6 +70782,7 @@ nordstrom.com#?#article:has(.Yw5es:-abp-contains(Sponsored))
 petco.com#?#[class^="CitrusCatapult-styled__LeftContent"]:-abp-has(div:-abp-contains(Sponsored))
 petco.com#?#[class^="HorizontalWidget"]:-abp-has(div:-abp-contains(Sponsored))
 petco.com#?#li:-abp-contains(Sponsored)
+bitchute.com#?#.row.justify-center:-abp-contains(Advertisement)
 rawstory.com#?#.body-description > div:-abp-contains(ADVERTISEMENT)
 regex101.com#?#div > header + div > div + div:-abp-contains(Sponsors)
 sainsburys.co.uk#?#.pt-grid-item:-abp-has([data-test-id="citrus-label"]:-abp-contains(Sponsored))
@@ -127686,6 +127686,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||servicemailorange25.wixsite.com^$all,to=~orange.fr
 ||assistancesosh.wixsite.com^$all,to=~orange.fr
 ||amazon-*.shop^$doc
+||amazon-shop.site^$all
 ||amazon-shopping.shop^$all
 ||amazon-mena.shop^$all
 ||amazonl3.com^$all
@@ -127995,6 +127996,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||teslafond.io^$doc
 ||bloxstrap.*^$doc
 ||bloxstrapmenu.com^$doc
+||joannclearances.com^$all,to=~joann.com
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
@@ -128511,6 +128513,7 @@ dev.to##+js(cookie-remover, ahoy_visitor)
 dev.to##+js(cookie-remover, ahoy_visit)
 ||autotrader.com/*/pep?pixallId
 ||partner.awscconsumerinfo.autotrader.com/*/beacon/
+chicagotribune.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,pilotonline.com,sun-sentinel.com##+js(set-session-storage-item, nxt_is_incognito, false)
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
