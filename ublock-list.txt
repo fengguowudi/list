@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /eZLJerDH4qA+lSoRvHmYw
+! Checksum: JJLaI6T25h0bmMisnTc3aA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407010935
-! Last Modified: 2024年07月01日 09:35
+! Version: 202407011427
+! Last Modified: 2024年07月01日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -65110,6 +65110,7 @@ fastseduction.com,independent.co.uk###partners
 kingsleague.pro###partnersGrid
 arrivealive.co.za###partners_container
 binaries4all.com###payserver
+forums.golfwrx.com###pb-slot-top
 demap.info###pcad
 shine.cn###pdfModal
 investopedia.com###performance-marketing_1-0
@@ -65838,7 +65839,7 @@ emojiphrasebook.com##.adBottom
 bigislandnow.com##.adBreak
 kijiji.ca##.adChoices-804693302
 economist.com##.adComponent_advert__kPVUI
-m.economictimes.com,someecards.com,trailspace.com##.adContainer
+m.economictimes.com,someecards.com,trailspace.com,wabetainfo.com##.adContainer
 etymonline.com##.adContainer--6CVz1
 hellomagazine.com##.adContainerClass_acvudum
 anews.com.tr##.adControl
@@ -66816,6 +66817,7 @@ counter.dev,lindaikejisblog.com##.da
 engadget.com##.da-container
 smartprix.com##.dadow-box
 lifewire.com##.daily-deal
+dailycaller.com##.dailycaller_adhesion
 4chan.org,boards.4channel.org##.danbo-slot
 cnbctv18.com##.davos-top-ad
 sportshub.stream##.db783ekndd812sdz-ads
@@ -67696,6 +67698,7 @@ sporcle.com##.main-content-unit-wrapper
 numuki.com##.main-header-responsive-wrapper
 ggrecon.com##.mainVenatusBannerContainer
 nordot.app##.main__ad
+gzeromedia.com##.main__post-sponsored
 livescores.biz##.make-a-bet_wrap
 get.pixelexperience.org##.mantine-arewlw
 whatsgabycooking.com##.manual-adthrive-sidebar
@@ -69111,7 +69114,7 @@ gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,goonhammer.com,joemygod.com,shtfplan.com,thestrongtraveller.com,usmagazine.com##.widget_block
 wplift.com##.widget_bsa
 techweekmag.com##.widget_codewidget
-4sysops.com,9to5linux.com,backthetruckup.com,catcountry941.com,cnx-software.com,corrosionhour.com,corvetteblogger.com,dailyveracity.com,dcrainmaker.com,fastestvpns.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,iwatchsouthparks.com,macsources.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,patriotfetch.com,planetofreviews.com,prepperwebsite.com,sashares.co.za,scienceabc.com,scienceandliteracy.org,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,trackalerts.com,trendingpoliticsnews.com##.widget_custom_html
+4sysops.com,9to5linux.com,backthetruckup.com,catcountry941.com,cnx-software.com,corrosionhour.com,corvetteblogger.com,dailyveracity.com,dcrainmaker.com,fastestvpns.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,iwatchsouthparks.com,macsources.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,patriotfetch.com,planetofreviews.com,prepperwebsite.com,sashares.co.za,scienceabc.com,scienceandliteracy.org,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com##.widget_custom_html
 domaingang.com##.widget_execphp
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
@@ -127647,6 +127650,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||clickhereecraigslist.tripod.com^$all
 ||mobilelegendsmycode.com^$all
 ||taikhoanvps.com.vn^$doc,domain=~vps.com.vn
+||ups-service.us^$all,to=~ups.com
 ||final-ua.eu/vasilisa/votings$all
 ||codeanyapp.com/neta/*/pay-method.php$doc
 ||otomoto-h229.net^$all,to=~otomoto.pl
@@ -127772,6 +127776,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||sendotv.com^$all,to=~sendo.vn
 ||mayxanhsupport.com^$all,to=~dienmayxanh.com
 ||trungtam-dienmayxanh.com^$all,to=~dienmayxanh.com
+||aiwiwd.vrlnnew2023.biz.id^$all
 ||steamproxy.*^$all,to=steamproxy.cc|steamproxy.net|steamproxy.vip
 ||sp.aircsgo.com^$all
 ||st.aircsgo.com^$all
@@ -127781,6 +127786,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||steamommunity.com^$all
 ||steam.workshop-item.com^$all
 ||steam.communityart-work.com^$all
+||steaemcoonmmunnltly.com^$all
 /^https:\/\/(?:www\.)?(?:ff[-.])?member[-.]gare[a-z]+a(?:\.pro)?\.vn\//$doc,domain=vn|~garena.vn
 /^https:\/\/(?:www\.)?(?:ff[-.])?men?mber[-.]garena\.vn\//$doc,domain=vn|~garena.vn
 ||garerna.vn^$all,to=~garena.vn
@@ -127860,6 +127866,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||base-swap-frontend-*.vercel.app^$doc
 ||imtoken.org.cn^$all,to=~token.im
 ||imtoken-lk.top^$all,to=~token.im
+||tokenap.app^$all,to=~token.im
 ||opensea-nft.web.app^$all,to=~opensea.io
 ||paslanmazspider.org/bin/$all,to=~opensea.io
 /^https:\/\/pancake(?:dro|swa)pclick\d+\.vercel\.app\//$doc,domain=vercel.app|~pancakeswap.finance
@@ -127881,6 +127888,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||poostservice.cfolks.pl/SG/$all,to=~societegenerale.com
 ||shoppingmall55.com^$all,to=~falabella.com
 ||isms.ph/*/autoscout24/$all,to=~autoscout24.com
+||dailyssshopee.com^$all,to=~shopee.vn
 ||clzl.pro^$all,to=~momo.vn
 ||tpbankvn.workplace.com^$all,to=~tpb.vn
 /^https:\/\/da\d{4}\.com\//$doc,domain=com|~lazada.vn
@@ -128556,6 +128564,7 @@ tapewithadblock.org##+js(rmnt, script, /RegExp\(\'/, condition, RegExp)
 meeting.tencent.com##+js(no-xhr-if, /(trace|beacon)\.qq\.com/)
 notion.so##+js(no-fetch-if, splunkcloud.com/services/collector)
 olympics.com##+js(no-fetch-if, event-router.olympics.com)
+ceramic.or.kr##+js(no-fetch-if, hostingcloud.racing)
 @@||awstrack.me/*auth.coindesk.com$doc,popup
 @@||awstrack.me/*cmd=ac-inactive-restore$doc,popup
 ||2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=video.foxnews.com
@@ -130920,6 +130929,8 @@ premio.io##+js(no-fetch-if, cloudflare.com/cdn-cgi/trace)
 ||tierlists.com^$script,1p,redirect-rule=noopjs
 tierlists.com##+js(nano-stb, /TDELAY|EzoIvent/, *, 0.001)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,3p,redirect=google-ima.js,domain=ktla.com,important
+user.guancha.cn##+js(set, sensors, {})
+user.guancha.cn##+js(set, sensors.init, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
