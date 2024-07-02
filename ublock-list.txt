@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mEKpJlqw+f6SyfZYsSFZGQ
+! Checksum: rmnv+rTGTaoa3ducnxwZ8Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407020224
-! Last Modified: 2024年07月02日 02:24
+! Version: 202407020921
+! Last Modified: 2024年07月02日 09:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -37204,6 +37204,7 @@ browsershots.org#@#.advert_area
 ||mousmeetrike.com^
 ||moustachepoke.com^
 ||mouthaipee.xyz^
+||mouthdistance.bond^
 ||mouthinvincibleexpecting.com^
 ||movad.de^
 ||movad.net^
@@ -52629,6 +52630,7 @@ browsershots.org#@#.advert_area
 ||xdmanage.com^
 ||xdmicjkveqlgllp.com^
 ||xdohrleybrd.com^
+||xdownloadright.com^
 ||xduvqslud.com^
 ||xdvorqmcxpyvy.com^
 ||xdycqcoefditwj.com^
@@ -54194,6 +54196,7 @@ browsershots.org#@#.advert_area
 ||moadworld.com^$document
 ||mobiletracking.ru^$document
 ||moralitylameinviting.com^$document
+||mouthdistance.bond^$document
 ||myjack-potscore.life^$document
 ||mylot.com^$document
 ||mytiris.com^$document
@@ -54414,6 +54417,7 @@ browsershots.org#@#.advert_area
 ||wuujae.com^$document
 ||x2tsa.com^$document
 ||xadsmart.com^$document
+||xdownloadright.com^$document
 ||xlivrdr.com^$document
 ||xml-clickurl.com^$document
 ||xstalkx.ru^$document
@@ -58173,6 +58177,7 @@ browsershots.org#@#.advert_area
 ||motivessuggest.com^$popup
 ||mountaincaller.top^$popup
 ||mourny-clostheme.com^$popup
+||mouthdistance.bond^$popup
 ||movemeforward.co^$popup
 ||moveyourbackup.co^$popup
 ||movfull.com^$popup
@@ -62957,6 +62962,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||filemoon.*/js/skrrt.js
 ||filerio.in/banners/
 ||files.im/images/bbnr/
+||filext.com/tools/fileviewerplus_b1/
 ||filmibeat.com/images/betindia.jpg
 ||finish.addurl.biz/webroot/ads/adsterra/
 ||finviz.com/gfx/banner_
@@ -64524,7 +64530,10 @@ dlraw.co,dlraw.to,manga-zip.info###avfap
 teamfortress.tv###aw
 gulte.com###awt_landing
 filext.com###b1c
+filext.com###b2c
 filext.com###b3c
+filext.com###b4c
+filext.com###ba1c
 encycarpedia.com###baa
 unknowncheats.me###bab
 gayvegas.com###background
@@ -74822,6 +74831,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /swell-ct-ad-data
 /swell-ct-pv^
 /swlapi/stats|
+/symplr-analytics-
 /sync.gif?partner_
 /sync?visitor_id=
 /synd.aspx
@@ -81921,6 +81931,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.digitalriver.com^
 ||track.emerse.com^
 ||track.hubspot.com^
+||track.hydro.online^
 ||track.juno.com^
 ||track.kinetiksoft.com^
 ||track.mailerlite.com^
@@ -83717,6 +83728,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.privacyguides.net^
 ||api.streamelements.com/science/
 ||api.takealot.com^$ping
+||api.vk.com/method/statEvents.
 ||app-bnkr.b-cdn.net/js/lv.js
 ||app.box.com/app-api/split-proxy/api/metrics
 ||app.box.com/gen204
@@ -85036,6 +85048,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vimeocdn.com/js_opt/logging_combined.min.js
 ||visualstudio.com/v2/track
 ||vizcloud.co/ping/
+||vk.com/al_video.php?act=ads_stat
+||vk.com/al_video.php?act=inc_view_counter
+||vk.com/al_video.php?act=live_heartbeat
+||vk.com/al_video.php?act=track_player_events
+||vk.com/al_video.php?act=watch_stat
 ||vk.com/js/lib/px.js
 ||vortex.hulu.com^
 ||vrbo.com/edap/elo/v1/event/beacon
@@ -125255,12 +125272,11 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||cheat-world.site^$doc
 ||clc-link.me^$all
 ||soft-portal.me^$doc
-||app.mediafire.com/5lczvry2cvhzd$doc
+||app.mediafire.com/qtz1ifx0uetl4$doc
 ||mediafire.com/folder/10ejpiwio2gfh/$doc
-||mediafire.com/folder/gbhbhm73350j9/$doc
-||mediafire.com/folder/o5yyo8jww2bde/$doc
+||mediafire.com/folder/s5k8d836a2xwr/$doc
 ||mediafire.com/folder/atuqt39mahs1x/$doc
-||mediafire.com/folder/5lczvry2cvhzd/$doc
+||mediafire.com/folder/upkvl96lgm82i/$doc
 ||mediafire.com/folder/ygvzvvks1va0b/$doc
 ||mediafire.com/folder/n2cwlepl4zeov/$doc
 ||mediafire.com/folder/cybqk7ulnmptm/$doc
@@ -125271,7 +125287,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||sites.google.com/view/amamsoft$doc
 ||sites.google.com/view/hubgames$doc
 ||sites.google.com/view/ulpackmnn$doc
-||sites.google.com/view/fortnite-hack-free-hack$doc
 ||sites.google.com/view/externalcheats-game$doc
 ||gamefree.vip^$doc
 ||pewhack.com^$doc
@@ -125288,6 +125303,9 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||sssrust.com^$doc
 ||softport.fun^$all
 ||cheat.sierramercado.com^$doc
+||arcanecheat.com^$doc
+||vavilonhack.fun^$all
+||csfusion.ru^$all
 ||cloud-folder.org^$doc
 .systems/signup?ad_domain=$doc,popup
 ||1perpersqe1.com^$all
@@ -125428,6 +125446,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 haxnode.net##[id^="haxno-"]
 romsdl.net##a[rel="nofollow noreferrer noopener"][target="_blank"]
 zuketcreation.net##.cente-1
+xcloud.mom##.ads-btns
 ||xforce-cracks.com^$doc
 ||fileisready.com^$doc
 ||yip.su/latestfiles|$all
@@ -125436,23 +125455,13 @@ zuketcreation.net##.cente-1
 ||sustac.com^$all
 ||thefreesoft.com^$doc
 ||sbjjzdwqg41ps.click^$all
-||9bghqk3avg2gnh.click^$all
-||keychauoic.click^$all
-||80fvj17ws14n.click^$all
-||khw6g09fx28k.cfd^$all
-||49gw5gonj143k.click^$all
-||2ajsvd12.com^$all
 ||vgfrrtc.click^$all
 ||vablecable.click^$all
-||rosterfile4u.click^$all
-||a18n5nh14xos.click^$all
-||rarvinzp.click^$all
 ||mcteirx.click^$all
 ||igluumars.click^$all
 ||poixtre.click^$all
 ||ygabgga.click^$all
 ||browimeto.click^$all
-||thsgbbsg.click^$all
 ||ambrkx.click^$all
 ||kcmcbc.click^$all
 ||ovgtt9j87tgh.world^$all
@@ -125468,6 +125477,8 @@ zuketcreation.net##.cente-1
 ||ewuipld.pro^$all
 ||dhux7ijh.click^$all
 ||lokasjc.cfd^$all
+||sertyuurs.xyz^$all
+||u87yuo9ojh.world^$all
 .click/?s=*&g=*&q=files.zip$doc
 .click/*?s=*&g=*&q=$script,3p
 .click/?h=*&user=$script,3p
