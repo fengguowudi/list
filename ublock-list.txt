@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ufoqXxEUD/1jUhZMJFnIvA
+! Checksum: EGGGST1AnXfoYS6UdEilcA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407050921
-! Last Modified: 2024年07月05日 09:21
+! Version: 202407051426
+! Last Modified: 2024年07月05日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -80485,7 +80485,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collect.usefathom.com^
 ||collect.verify.lnearn.com^
 ||collection.e-satisfaction.com^
-||collector-*.px-client.net^
 ||collector-api.99designs.com^
 ||collector-api.frspecifics.com^
 ||collector-soompi.viki.io^
@@ -123311,6 +123310,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
 @@||players.fichub.com/plugins/adobe/$domain=24kitchen.pt
 @@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
+@@||sibs.com/fingerprint/sfp2/fp2.min.js$script,domain=net24.bancomontepio.pt
 @@||siteapps.com^$script,domain=netcombo.com.br
 @@||tags.t.tailtarget.com/t3m.js?$domain=superesportes.com.br
 @@||tm.jsuol.com.br/modules/external/admanager/clickjogos_ads.js$script,domain=clickjogos.com.br
@@ -130078,6 +130078,8 @@ $removeparam=at_send_date
 $removeparam=ss_email_id
 $removeparam=et_rid
 $removeparam=bbeml
+$removeparam=_branch_match_id
+$removeparam=_branch_referrer
 $removeparam=asc_campaign,domain=aboutamazon.com|amazon.*|amzn.to
 $removeparam=asc_refurl,domain=aboutamazon.com|amazon.*|amzn.to
 $removeparam=asc_source,domain=aboutamazon.com|amazon.*|amzn.to
@@ -132596,6 +132598,7 @@ user.guancha.cn##+js(set, sensors, {})
 user.guancha.cn##+js(set, sensors.init, noopFunc)
 /frontend-metrics^$xhr,redirect-rule=nooptext
 sonix.network##+js(no-fetch-if, /frontend-metrics)
+||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,3p,redirect=google-ima.js,domain=4gtv.tv,important
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
