@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MWKiENai/JvSt2J9TO/BOA
+! Checksum: pBQjO1ZpDBzRQ1KfIBakOw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407052034
-! Last Modified: 2024年07月05日 20:34
+! Version: 202407060224
+! Last Modified: 2024年07月06日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -124336,6 +124336,11 @@ olympicstreams.me##.position-absolute
 buffstreams.*##+js(nowoif)
 buffstreams.*##+js(acs, setTimeout, admc)
 buffstreams.*##+js(json-prune, *, *.adserverDomain)
+!#if cap_html_filtering
+buffstreams.*##^script:has-text(/aclib\.runPop|aclib/)
+!#else
+buffstreams.*##+js(acs, document.createElement, /aclib|runPop/)
+!#endif
 buffstreams.*##.position-absolute
 buffstreams.*##.m-1.fw-bold.btn-danger.btn
 nsfwyoutube.com##pp
