@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rnExXxgzlVD9dHcd1yuvAw
+! Checksum: TlVcnzs2M+9UROM9/90Tjg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407060919
-! Last Modified: 2024年07月06日 09:19
+! Version: 202407061423
+! Last Modified: 2024年07月06日 14:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -65657,6 +65657,7 @@ tvnz.co.nz##.Advert
 suffolknews.co.uk##.Advertisement
 thesouthafrican.com##.Advertisement__AdsContainer-sc-4s7fst-0
 zerohedge.com##.AdvertisingSlot_placement__b8TLC
+phoenixnewtimes.com##.AirBillboard
 dallasobserver.com##.AirBillboardInlineContentresponsive
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.AirLeaderboardMediumRectanglesComboInlineContent
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.AirMediumRectangleComboInlineContent
@@ -66143,6 +66144,8 @@ hurriyetdailynews.com##.advMasthead
 imagetotext.info##.adv_text
 operawire.com##.advads-post_ads
 barkinganddagenhampost.co.uk,becclesandbungayjournal.co.uk,blogto.com,burymercury.co.uk,cambstimes.co.uk,cardealermagazine.co.uk,crimemagazine.com,dailyedge.ie,datalounge.com,derehamtimes.co.uk,dermnetnz.org,dissmercury.co.uk,dunmowbroadcast.co.uk,eadt.co.uk,eastlondonadvertiser.co.uk,economist.com,edp24.co.uk,elystandard.co.uk,etf.com,eveningnews24.co.uk,exmouthjournal.co.uk,fakenhamtimes.co.uk,football.co.uk,gearspace.com,gematsu.com,greatyarmouthmercury.co.uk,hackneygazette.co.uk,hamhigh.co.uk,hertsad.co.uk,huntspost.co.uk,icaew.com,ilfordrecorder.co.uk,iol.co.za,ipswichstar.co.uk,islingtongazette.co.uk,lgr.co.uk,lowestoftjournal.co.uk,maltapark.com,midweekherald.co.uk,morningstar.co.uk,newhamrecorder.co.uk,newstalkzb.co.nz,northnorfolknews.co.uk,northsomersettimes.co.uk,pinkun.com,proxcskiing.com,romfordrecorder.co.uk,royston-crow.co.uk,saffronwaldenreporter.co.uk,sidmouthherald.co.uk,stowmarketmercury.co.uk,stylecraze.com,sudburymercury.co.uk,tbivision.com,the42.ie,thecomet.net,thedrum.com,thejournal.ie,tineye.com,trucksplanet.com,wattonandswaffhamtimes.co.uk,whtimes.co.uk,wisbechstandard.co.uk,wtatennis.com,wymondhamandattleboroughmercury.co.uk##.advert
+saucemagazine.com##.advert-elem
+saucemagazine.com##.advert-elem-1
 gozofinder.com##.advert-iframe
 farminguk.com##.advert-word
 who-called.co.uk##.advertLeftBig
@@ -67136,9 +67139,10 @@ filmdaily.co##.fd-article-sidebar-ad
 filmdaily.co##.fd-article-top-banner
 filmdaily.co##.fd-home-sidebar-inline-rect
 foodbeast.com##.fdbst-ad-placement
-citybeat.com,riverfronttimes.com##.fdn-gpt-inline-content
+citybeat.com,metrotimes.com,riverfronttimes.com##.fdn-gpt-inline-content
 cltampa.com,orlandoweekly.com,sacurrent.com##.fdn-interstitial-slideshow-block
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.fdn-site-header-ad-block
+citybeat.com,metrotimes.com##.fdn-teaser-row-gpt-ad
 citybeat.com,riverfronttimes.com##.fdn-teaser-row-teaser
 w3techs.com##.feat
 convertcase.net##.feature
@@ -69479,7 +69483,8 @@ theautopian.com##[data-widget_type="html.default"]
 namepros.com##[data-xf-init][data-tag]
 cnn.com##[data-zone-label="Paid Partner Content"]
 faroutmagazine.co.uk,hitc.com##[dock="#primis-dock-slot"]
-citybeat.com,riverfronttimes.com##[gpt-slot-div-id="HeaderBillboard"]
+browardpalmbeach.com,citybeat.com,leoweekly.com,metrotimes.com##[gpt-slot-config-id]
+citybeat.com,leoweekly.com,metrotimes.com,riverfronttimes.com##[gpt-slot-div-id]
 dailynews.lk,fxempire.com,german-way.com,issuu.com,londonnewsonline.co.uk,power987.co.za,qsaltlake.com,tfetimes.com##[height="250"]
 ciiradio.com,hapskorea.com,issuu.com,thetruthwins.com##[height="300"]
 namepros.com,pointblanknews.com,sharktankblog.com##[height="60"]
@@ -127370,6 +127375,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||web-telegvm.org^$all
 ||m-k-r-5.com^$all
 ||if-eku3a-fp.com^$all
+||ilar.cn^$all
 ||pocket-888.com^$all
 ||webuzz.me^$doc
 ||coup-ling.net^$all
@@ -129321,7 +129327,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 /^https:\/\/vietg[a-z]v[0-9]*\.cc\//$doc,domain=cc
 ||clickhereecraigslist.tripod.com^$all
 ||mobilelegendsmycode.com^$all
-||ups-service.us^$all,to=~ups.com
 ||final-ua.eu/vasilisa/votings$all
 ||codeanyapp.com/neta/*/pay-method.php$doc
 ||otomoto-h229.net^$all,to=~otomoto.pl
@@ -129352,10 +129357,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||xcxcx.my.id^$doc,domain=~dana.id
 -dna-log-*.biz.id^$doc,domain=biz.id|~dana.id
 ||xxtl-v1.biz.id^$doc,domain=~dana.id
-||xlink-dna-id-news.xxtl-v1.biz.id^$all,to=~dana.id
 ||xlink-dna-log-new.xxtl-v1.biz.id^$all,to=~dana.id
 ||xform-dna-log-x.resmi-v1.biz.id^$all,to=~dana.id
-||exzbagi-hadiahzx-danaz1.1new.my.id^$all,to=~dana.id
 ||orange53.yolasite.com^$all,to=~orange.fr
 ||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
 ||smsmmsernorepls.wixsite.com^$all,to=~orange.fr
@@ -129364,16 +129367,10 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||servicemailorange25.wixsite.com^$all,to=~orange.fr
 ||assistancesosh.wixsite.com^$all,to=~orange.fr
 ||amazon-*.shop^$doc
-||amazon-shop.site^$all
 ||amazon-shopping.shop^$all
-||amazon-mena.shop^$all
 ||amazonl3.com^$all
-||amazon-onboarding.com^$all
 ||etisalat-amazonprime.com^$all,to=~etisalat.ae
-||cc35rt8.top^$all
-||miaoniter.com^$all
 ||tepoty.com^$all
-||anuihafw369.xyz^$all
 ||mybluehost.me/wp-admin/amz/$doc
 ||c.vn-ebayn.vip^$all
 ||vn-ebay.quxlpuj.cn^$all
@@ -129381,7 +129378,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||new-ebay.shop^$all
 ||51eabay.com^$all
 ||135buy.com^$all
-||rakutenpluss.com^$all
 ||wixsite.com/att-support/$doc
 ||diwapa3051.wixsite.com^$all
 ||idhnochalter.wixsite.com^$all
@@ -129393,7 +129389,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||ewueuweudsjdjsdjjd.weeblysite.com^$all
 ||maiil-myatt.weeblysite.com^$all
 ||rtm-att.directly.com^$all
-||tbscott212.bubbleapps.io^$all
 ||keepo.io/KJOUYHUBU799BH/$all
 ||keepo.io/loginatt/$all
 ||dlhessell.wixsite.com/att-support/$all
@@ -129433,27 +129428,24 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||notificationbyfacebook.web.app^$all
 ||business-facebook-*.pages.dev^$all
 ||unusualaccountcnfrmpages.github.io^$all
-||page-facebook.go-midfer.com^$all
 ||facebook.prantiksoft.com^$all
 ||facebook-guidelines.com^$all
+||hotvideoustiktok2021.blogspot.com^$all
 ||www-mfacebook.vn^$all
 ||www-facebook-com.vn^$all
 ||vww-facebook.com.vn^$all
 ||govern-assessment-validation-njbujm.vercel.app^$all
-||tgbot.cyb3r.army/*/Instagram.com.html^$all
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=access-control-allow-headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=Access-Control-Allow-Headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/webapi/login|$xhr,3p,to=online|vip,method=post,header=access-control-allow-headers:Origin, X-Requested-With, Content-Type, Accept, Authorization
 ||lazada.bbc6666.com^$all
 ||tuyendungtiki2024.vn^$all,to=~tiki.vn
 /^https:\/\/sp\d{2,3}88(?:vn)?\.com\//$doc,domain=com|~shopee.vn
-||conttonik.vip^$all
 ||mez.ink/reademcashbackshopee.1.1^$all
 ||vnsendo.*^$all,to=info|shop|vip|~sendo.vn
 ||sendotv.com^$all,to=~sendo.vn
 ||mayxanhsupport.com^$all,to=~dienmayxanh.com
 ||trungtam-dienmayxanh.com^$all,to=~dienmayxanh.com
-||aiwiwd.vrlnnew2023.biz.id^$all
 ||steamproxy.*^$all,to=steamproxy.cc|steamproxy.net|steamproxy.vip
 ||sp.aircsgo.com^$all
 ||st.aircsgo.com^$all
@@ -129462,7 +129454,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||sp.26skins.com^$all
 ||steamommunity.com^$all
 ||steam.communityart-work.com^$all
-||steaemcoonmmunnltly.com^$all
 /^https:\/\/(?:www\.)?(?:ff[-.])?member[-.]gare[a-z]+a(?:\.pro)?\.vn\//$doc,domain=vn|~garena.vn
 /^https:\/\/(?:www\.)?(?:ff[-.])?men?mber[-.]garena\.vn\//$doc,domain=vn|~garena.vn
 ||garerna.vn^$all,to=~garena.vn
@@ -129480,13 +129471,11 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||microsoft.dfautomotive.de^$all
 ||microsoft.account.dfautomotive.de^$all
 ||whfdny.org^$all
-||microsoft-login.zapier.app^$all
 ||outlook-office.zapier.app^$all
 ||infos4.yolasite.com^$all
 ||policija64.wixsite.com^$all
 ||outlook20239.wixsite.com^$all
 ||exchange.add-solution.de^$all
-||microsoft-bec7e0.webflow.io^$all
 ||your-officeo365.webflow.io^$all
 ||outlookoffice365team.webflow.io^$all
 ||exceklcmicrosftprotection.pages.dev^$all
@@ -129534,10 +129523,10 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||codeanyapp.com/info/cc.php^$doc,domain=~swisscom.ch
 ||mybluehost.me/neww/$doc,domain=~swisscom.ch
 ||secureserver.net/ruckstantung907921/$doc,domain=~swisscom.ch
+||sviluppo.host/df/pass.php^$doc,domain=~swisscom.ch
 ||codeanyapp.com/swiss-login/$doc
 ||wcomhost.com/ch/upc/$all,to=~upc.ch
 ||interface-git-parallel-cypress-uniswap.vercel.app^$doc,domain=~uniswap.org
-||trezor.io.quantumplus.co.ke^$all,to=~trezor.io
 ||sei-io.web.app^$all,to=~sei.io
 ||web3mainnetdapp.pages.dev^$all
 ||web3connectfix.pages.dev^$all
@@ -129554,26 +129543,22 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||pancakeswap-*.vercel.app^$doc,domain=vercel.app|~pancakeswap.finance
 ||pancake-swap*.vercel.app^$doc,domain=vercel.app|~pancakeswap.finance
 ||pancake-nft*.vercel.app^$doc,domain=vercel.app|~pancakeswap.finance
-||pancake-nftclaime23.vercel.app^$all,to=~pancakeswap.finance
-||pancake-swapnfte2x.vercel.app^$all,to=~pancakeswap.finance
-||pancakeswap-airdrop34e.vercel.app^$all,to=~pancakeswap.finance
 ||air.bnb-id*.com^$all,to=~airbnb.com
 ||pakket-bpost-be.web.app^$all,to=~bpost.be
 ||vodafone-mail-de.brimble.app^$all,to=~vodafone.de
 ||adobecloud5xpo.yolasite.com^$all,to=~adobe.com
-||leboncoinversement.mystrikingly.com^$all,to=~leboncoin.fr
 ||mmitalianbeef.square.site^$all,to=~mmitalianbeef.com
+||rating-booking-vip.com^$all,to=~booking.com
 ||beluxrepm.followme.fr/FolloWMe$all,to=~realestate.bnpparibas.com
 ||mybluehost.me/Cope346/$all
 ||oasisministries.com/fr/postale/$all,to=~labanquepostale.fr
+||hopp.bio/servernet^$all,to=~sasktel.com
 ||glitch.me/pdf.html?email=$doc
 ||fislbxcentral.com/lms/santander$doc,domain=~santanderbank.com|~santander.co.uk
 ||cursorltd.com^$doc
 ||cprapid.com^$doc
 ||utahpolicetraining.*.mybluehost.me^$all
-||poostservice.cfolks.pl/SG/$all,to=~societegenerale.com
 ||shoppingmall55.com^$all,to=~falabella.com
-||isms.ph/*/autoscout24/$all,to=~autoscout24.com
 /^https?:\/\/dienmayxanh[-a-z0-9]+\.com\//$doc,domain=com|~dienmayxanh.com
 /^https:\/\/dich-vu(?:-[a-z0-9]+){2,3}\.com\//$doc,domain=com
 /^https:\/\/zla\d{3}\.top\//$doc,domain=top|~tiki.vn
@@ -129582,17 +129567,17 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||tikimall.$doc,domain=tikimall.*|~tiki.vn
 ||taikhoanvps.com.vn^$all,to=~vps.com.vn
 ||motaikhoanchungkhoanvps.com^$all,to=~vps.com.vn
-||shopeesmarket.com^$all,to=~shopee.vn
 ||zla963.top^$all,to=~tiki.vn
 ||zla653.top^$all,to=~tiki.vn
 ||tah0a.com^$all,to=~tiki.vn
+||shopeesmarket.com^$all,to=~shopee.vn
 ||dailyssshopee.com^$all,to=~shopee.vn
 ||clzl.pro^$all,to=~momo.vn
 ||tpbankvn.workplace.com^$all,to=~tpb.vn
 /^https:\/\/da\d{4}\.com\//$doc,domain=com|~lazada.vn
 /^https:\/\/tdk[dt]0[0-9]\.com\//$doc,domain=com|~tiki.vn
 ||da6555.com^$all,to=~lazada.vn
-||soppe68.*^$all,to=~shopee.vn
+||soppe68.$all,to=~shopee.vn
 /^https:\/\/sp\d{4,5}p\.com\//$doc,domain=com|~shopee.vn
 ||sp15569p.com^$all,to=~shopee.vn
 ||vib-*.com^$doc,domain=com|~vib.com.vn
@@ -129605,10 +129590,9 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||sp7335p.com^$all,to=~shopee.vn
 ||vnc63661s.com^$all,to=~shopee.vn
 ||vn156475p.com^$all
+||nqsncoau.buzz^$all,to=~fecredit.com.vn
 ||iazada.com^$all,to=~lazada.vn
 ||seleeashopee.com^$all,to=~shopee.vn
-||fajiafu30.com^$all,to=~tiki.vn
-||nqsncoau.buzz^$all,to=~fecredit.com.vn
 ||arnaudpairoto.com^$all
 ||puttyconnect.info^$all
 ||astrosphere.world^$all
@@ -129628,7 +129612,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||pputy.com^$all
 ||file-zilla-projectt.org^$all
 ||vuabem.com^$all
-/^https:\/\/[a-z]+bem\.com\/auth\/login/$doc
 ||lynstore.net^$all,to=~lynvn.com
 ||wasabiwallet.is^$doc
 ||magicslimnhatban.com^$all
