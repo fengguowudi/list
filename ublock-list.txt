@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LUFNcXATcEaom56cgihSKw
+! Checksum: W5Gn4gnpgjCHKlRGoSorGQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407070933
-! Last Modified: 2024年07月07日 09:33
+! Version: 202407071425
+! Last Modified: 2024年07月07日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -13697,6 +13697,7 @@ _800x80_
 ##.rightboxads
 ##.rightcolads
 ##.rightcoladvert
+##.rightrail-ad-placed
 ##.rightsideAd
 ##.river-item-sponsored
 ##.rj-ads-wrapper
@@ -65924,7 +65925,7 @@ save.ca##.ad-box
 mv-voice.com##.ad-break
 imsa.com##.ad-close-container
 npr.org##.ad-config
-12news.com,9news.com,9to5google.com,9to5mac.com,aad.org,advfn.com,all3dp.com,allaboutcookies.org,allnovel.net,amny.com,athleticbusiness.com,audiokarma.org,beeradvocate.com,beliefnet.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,cbs8.com,cc.com,ccjdigital.com,computerworld.com,dailytrust.com,delish.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,equipmentworld.com,etcanada.com,fastcompany.com,footyheadlines.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,globalspec.com,gmanetwork.com,grammarbook.com,hbr.org,howstuffworks.com,huffpost.com,insidehook.com,insider.com,intouchweekly.com,khou.com,koat.com,ktvu.com,lifeandstylemag.com,longislandpress.com,macstories.net,mail.com,mangakakalot.app,memuplay.com,metro.us,metrophiladelphia.com,minecraftforum.net,miningweekly.com,mixed-news.com,mobilesyrup.com,modernhealthcare.com,msnbc.com,my9nj.com,namemc.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,outkick.com,papermag.com,physiology.org,pixiv.net,punchng.com,qns.com,realsport101.com,reason.com,refinery29.com,roadandtrack.com,scroll.in,seattletimes.com,songkick.com,sportskeeda.com,thebaltimorebanner.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,themarketherald.ca,thenationonlineng.net,tmz.com,toofab.com,uploadvr.com,usmagazine.com,vanguardngr.com,wildtangent.com,wogx.com,worldsoccertalk.com,wral.com##.ad-container
+12news.com,9news.com,9to5google.com,9to5mac.com,aad.org,advfn.com,all3dp.com,allaboutcookies.org,allnovel.net,amny.com,athleticbusiness.com,audiokarma.org,beeradvocate.com,beliefnet.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,cbs8.com,cc.com,ccjdigital.com,computerworld.com,dailytrust.com,delish.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,equipmentworld.com,etcanada.com,fastcompany.com,footyheadlines.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,globalspec.com,gmanetwork.com,grammarbook.com,hbr.org,howstuffworks.com,huffpost.com,insidehook.com,insider.com,intouchweekly.com,khou.com,koat.com,ktvu.com,lifeandstylemag.com,longislandpress.com,macstories.net,mail.com,mangakakalot.app,memuplay.com,metro.us,metrophiladelphia.com,minecraftforum.net,miningweekly.com,mixed-news.com,mobilesyrup.com,modernhealthcare.com,msnbc.com,my9nj.com,namemc.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,outkick.com,papermag.com,physiology.org,pixiv.net,punchng.com,qns.com,realsport101.com,reason.com,refinery29.com,roadandtrack.com,scroll.in,seattletimes.com,songkick.com,sportskeeda.com,thebaltimorebanner.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,themarketherald.ca,thenationonlineng.net,thenewstack.io,tmz.com,toofab.com,uploadvr.com,usmagazine.com,vanguardngr.com,wildtangent.com,wogx.com,worldsoccertalk.com,wral.com##.ad-container
 newthinking.com##.ad-container-mpu
 wheelofnames.com##.ad-declaration
 sciencealert.com##.ad-desktop\:block
@@ -67991,7 +67992,7 @@ flickr.com##.moola-search-div.main
 hindustantimes.com##.moreFrom
 apptrigger.com,fansided.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.mosaic-banner
 radioyacht.com##.mpc-carousel__wrapper
-98fm.com,airqualitynews.com,audioreview.com,barrheadnews.com,bobfm.co.uk,bordertelegraph.com,cultofandroid.com,dcsuk.info,directory.im,directory247.co.uk,dplay.com,dumbartonreporter.co.uk,dunfermlinepress.com,durhamtimes.co.uk,eastlothiancourier.com,econsultancy.com,entertainmentdaily.co.uk,eurogamer.net,findanyfilm.com,forzaitalianfootball.com,gamesindustry.biz,her.ie,herfamily.ie,joe.co.uk,joe.ie,kentonline.co.uk,metoffice.gov.uk,musicradio.com,newburyandthatchamchronicle.co.uk,newscientist.com,readamericanfootball.com,readarsenal.com,readastonvilla.com,readbasketball.com,readbetting.com,readbournemouth.com,readboxing.com,readbrighton.com,readbundesliga.com,readburnley.com,readcars.co,readceltic.com,readchampionship.com,readchelsea.com,readcricket.com,readcrystalpalace.com,readeverton.com,readeverything.co,readfashion.co,readfilm.co,readfood.co,readfootball.co,readgaming.co,readgolf.com,readhorseracing.com,readhuddersfield.com,readhull.com,readingchronicle.co.uk,readinternationalfootball.com,readlaliga.com,readleicester.com,readliverpoolfc.com,readmancity.com,readmanutd.com,readmiddlesbrough.com,readmma.com,readmotorsport.com,readmusic.co,readnewcastle.com,readnorwich.com,readnottinghamforest.com,readolympics.com,readpl.com,readrangers.com,readrugbyunion.com,readseriea.com,readshowbiz.co,readsouthampton.com,readsport.co,readstoke.com,readsunderland.com,readswansea.com,readtech.co,readtennis.co,readtottenham.com,readtv.co,readussoccer.com,readwatford.com,readwestbrom.com,readwestham.com,readwsl.com,realradioxs.co.uk,redhillandreigatelife.co.uk,rochdaleonline.co.uk,rte.ie,sloughobserver.co.uk,smartertravel.com,southwestfarmer.co.uk,spin1038.com,spinsouthwest.com,sportsjoe.ie,sportsmole.co.uk,strathallantimes.co.uk,sundaypost.com,tcmuk.tv,thevillager.co.uk,thisisfutbol.com,toffeeweb.com,uktv.co.uk,videocelts.com,warringtonguardian.co.uk,wiltshirebusinessonline.co.uk,windsorobserver.co.uk##.mpu
+98fm.com,airqualitynews.com,audioreview.com,barrheadnews.com,bobfm.co.uk,bordertelegraph.com,cultofandroid.com,dcsuk.info,directory.im,directory247.co.uk,dplay.com,dumbartonreporter.co.uk,dunfermlinepress.com,durhamtimes.co.uk,eastlothiancourier.com,econsultancy.com,entertainmentdaily.co.uk,eurogamer.net,findanyfilm.com,forzaitalianfootball.com,gamesindustry.biz,her.ie,herfamily.ie,joe.co.uk,joe.ie,kentonline.co.uk,metoffice.gov.uk,musicradio.com,newburyandthatchamchronicle.co.uk,newscientist.com,physicsworld.com,readamericanfootball.com,readarsenal.com,readastonvilla.com,readbasketball.com,readbetting.com,readbournemouth.com,readboxing.com,readbrighton.com,readbundesliga.com,readburnley.com,readcars.co,readceltic.com,readchampionship.com,readchelsea.com,readcricket.com,readcrystalpalace.com,readeverton.com,readeverything.co,readfashion.co,readfilm.co,readfood.co,readfootball.co,readgaming.co,readgolf.com,readhorseracing.com,readhuddersfield.com,readhull.com,readingchronicle.co.uk,readinternationalfootball.com,readlaliga.com,readleicester.com,readliverpoolfc.com,readmancity.com,readmanutd.com,readmiddlesbrough.com,readmma.com,readmotorsport.com,readmusic.co,readnewcastle.com,readnorwich.com,readnottinghamforest.com,readolympics.com,readpl.com,readrangers.com,readrugbyunion.com,readseriea.com,readshowbiz.co,readsouthampton.com,readsport.co,readstoke.com,readsunderland.com,readswansea.com,readtech.co,readtennis.co,readtottenham.com,readtv.co,readussoccer.com,readwatford.com,readwestbrom.com,readwestham.com,readwsl.com,realradioxs.co.uk,redhillandreigatelife.co.uk,rochdaleonline.co.uk,rte.ie,sloughobserver.co.uk,smartertravel.com,southwestfarmer.co.uk,spin1038.com,spinsouthwest.com,sportsjoe.ie,sportsmole.co.uk,strathallantimes.co.uk,sundaypost.com,tcmuk.tv,thevillager.co.uk,thisisfutbol.com,toffeeweb.com,uktv.co.uk,videocelts.com,warringtonguardian.co.uk,wiltshirebusinessonline.co.uk,windsorobserver.co.uk##.mpu
 news.sky.com##.mpu-1
 edarabia.com##.mpu-300
 physicsworld.com##.mpu-300x250
@@ -69438,7 +69439,7 @@ coingecko.com##[data-controller="button-ads"]
 axios.com##[data-cy="injected-promo"]
 hedgefollow.com##[data-dee_type^="large_banner"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-empty]
-ginx.tv##[data-ez-ph-id]
+badgerandblade.com,ginx.tv##[data-ez-ph-id]
 news.sky.com##[data-format="leaderboard"]
 cumbriacrack.com##[data-hbwrap]
 dannydutch.com,tvzoneuk.com##[data-hook="HtmlComponent"]
@@ -69499,6 +69500,7 @@ washingtonpost.com##[data-testid="placeholder-box"]
 theweathernetwork.com##[data-testid="pre-ad-text"]
 abcnews.go.com##[data-testid="prism-static-embed"]
 abcnews.go.com##[data-testid="prism-sticky-ad"]
+zillow.com##[data-testid="right-rail-ad"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid="sponsored-bar"]
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##[data-testid="spr-brd-banner"]
 game8.co##[data-track-nier-keyword="footer_overlay_ads"]
@@ -129378,6 +129380,12 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||21cpromotions.com/logs/postch/$all,to=~laposte.fr
 ||inner.website/*.html^$all
 ||yellowjacket.co.nz^$all,to=~fedex.com
+||vodafone.scralead.com^$all,to=~vodafone.es
+||vodafone-mail-de.brimble.app^$all,to=~vodafone.de
+||oasisministries.com/fr/postale/$all,to=~labanquepostale.fr
+||group-postban.firebaseapp.com^$all,to=~labanquepostale.fr
+||adobecloud5xpo.yolasite.com^$all,to=~adobe.com
+||socalthesyndicate.com/*/adobefud/$all,to=~adobe.com
 /^https:\/\/[a-z0-9]{5}\.shop\/l\/gaz\//$1p,strict1p,match-case,domain=shop
 /^https:\/\/[a-z0-9]{5}\.shop\/uniq$/$xhr,1p,strict1p,match-case,method=get,domain=shop
 /^https:\/\/[a-z0-9]{5}\.shop\/lead$/$doc,1p,strict1p,match-case,method=post,domain=shop
@@ -129400,6 +129408,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||xxtl-v1.biz.id^$doc,domain=~dana.id
 ||xlink-dna-log-new.xxtl-v1.biz.id^$all,to=~dana.id
 ||xform-dna-log-x.resmi-v1.biz.id^$all,to=~dana.id
+||xclaimz-id-danakagetxid7.x-id.my.id^$all,to=~dana.id
+||bntuanoffcl-dna.hdco.my.id^$all,to=~dana.id
 ||orange53.yolasite.com^$all,to=~orange.fr
 ||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
 ||smsmmsernorepls.wixsite.com^$all,to=~orange.fr
@@ -129457,6 +129467,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||sparkasse-oberhessen.info^$all,to=~sparkasse.de
 ||mybluehost.me/service/*/nkl-log.php$doc,domain=~nickel.eu
 ||turkiyecumhuriyetiziraatbankasi.com^$all,to=~ziraatbank.com.tr
+||c1.is/BRI/$doc,domain=~bri.co.id
 ||dhl.*.potabox.com^$doc,domain=~dhl.com
 ||dhl-event.app^$all,to=~dhl.com
 ||dhexpress.weebly.com^$all,to=~dhl.com
@@ -129511,6 +129522,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||pubg-arena.top^$all
 ||pubgm.kraftonevent.com^$all
 ||globalx.krafton-redeem.com^$all
+||register-turnamen.free.nf^$all
 ||bxzxenzidrmrksu.jiongcao.cn^$all
 ||google-stare.com^$all
 ||datahub.center^$all
@@ -129535,6 +129547,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||storageapi-new.fleek.co/*/yss/ind.html$all
 ||wwwservicemsnlive-*.hubspotpagebuilder.com^$all
 ||conohawing.com/*/outlook-$doc
+||hergunavantaj.com.tr^$all
 ||telegramhcn.com^$all
 ||web.telegram.data-bees.cn^$all
 ||telegramkv.com^$all
@@ -129582,6 +129595,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||syncwallet.pages.dev^$all,to=~walletconnect.com
 ||azuki-*.vercel.app^$all,to=~azuki.com
 ||base-swap-frontend-*.vercel.app^$doc
+||metamask*.webflow.io^$doc
 ||imtoken.org.cn^$all,to=~token.im
 ||imtoken-lk.top^$all,to=~token.im
 ||tokenap.app^$all,to=~token.im
@@ -129593,13 +129607,10 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||pancake-nft*.vercel.app^$doc,domain=vercel.app|~pancakeswap.finance
 ||air.bnb-id*.com^$all,to=~airbnb.com
 ||pakket-bpost-be.web.app^$all,to=~bpost.be
-||vodafone-mail-de.brimble.app^$all,to=~vodafone.de
-||adobecloud5xpo.yolasite.com^$all,to=~adobe.com
 ||mmitalianbeef.square.site^$all,to=~mmitalianbeef.com
 ||rating-booking-vip.com^$all,to=~booking.com
 ||beluxrepm.followme.fr/FolloWMe$all,to=~realestate.bnpparibas.com
 ||mybluehost.me/Cope346/$all
-||oasisministries.com/fr/postale/$all,to=~labanquepostale.fr
 ||hopp.bio/servernet^$all,to=~sasktel.com
 ||glitch.me/pdf.html?email=$doc
 ||fislbxcentral.com/lms/santander$doc,domain=~santanderbank.com|~santander.co.uk
@@ -129610,6 +129621,12 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 /^https?:\/\/dienmayxanh[-a-z0-9]+\.com\//$doc,domain=com|~dienmayxanh.com
 /^https:\/\/dich-vu(?:-[a-z0-9]+){2,3}\.com\//$doc,domain=com
 /^https:\/\/zla\d{3}\.top\//$doc,domain=top|~tiki.vn
+||cskh-vib-$doc
+||cskh-vib.$doc
+||chamsockhachang-$doc
+||chamsocthekhachang-$doc
+||nang-cap-$doc
+||ho-tro-tin-dung-ca-nhan.com^$all
 ||hdsaison-$doc,domain=cc|vip|~hdsaison.com.vn
 ||dichvucong.$doc,domain=~gov.vn
 ||tikimall.$doc,domain=tikimall.*|~tiki.vn
