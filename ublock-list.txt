@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 876cGJU0Fi/yumV18CG4vQ
+! Checksum: wcPmifGWX2hFSqNLDcZYUQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407080923
-! Last Modified: 2024年07月08日 09:23
+! Version: 202407081427
+! Last Modified: 2024年07月08日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -69478,7 +69478,7 @@ trakt.tv##[data-snigel-id]
 amp.theguardian.com##[data-sort-time="1"]
 vrbo.com##[data-stid="meso-ad"]
 etherscan.io##[data-t8xt5pt6kr-seq="0"]
-swimsuit.si.com##[data-target="ad"]
+si.com##[data-target="ad"]
 coingecko.com##[data-target="ads.banner"]
 the-express.com##[data-tb-non-consent]
 woot.com##[data-test-ui^="advertisementLeaderboard"]
@@ -76077,6 +76077,7 @@ omni.soundestlink.com$image
 ||intellimizeio.com^
 ||irs01.com^
 ||jams.wiki^
+||jazzyzest.cfd^
 ||jcpclick.com^
 ||jubbie.de^
 ||k5a.io^
@@ -76164,6 +76165,7 @@ omni.soundestlink.com$image
 ||pzimff.com^
 ||quantserve.com^
 ||quickkoala.io^
+||quickpcfixer.click^
 ||r42tag.com^
 ||raac33.net^
 ||rapidpanda.io^
@@ -127027,8 +127029,8 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||builder.hufs.ac.kr/goLink.jsp?url=xn-$doc
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/(?:article\d{4}\.doc)?\?utm_campaign=\w{40,}/$doc,match-case,domain=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
-/^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\.?[a-z]{0,7}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case
-/^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\.?[a-z]{0,7}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case
+/^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\.?[a-z]{0,7}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]{7}(?:&t=\d+)?&o=[0-9a-z]{7}/$doc,frame,match-case
+/^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\.?[a-z]{0,7}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?(?:cid=[0-9a-z]+&)?o=[0-9a-z]{7}(?:&t=\d+)?&u=[0-9a-z]{7}/$doc,frame,match-case
 .live/web/?sid=t*~$doc
 /?u1=*&o1=*&sid=t*~$doc
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{10,36}(?:&qs\d=\S+)?&(?:s|pub)id=[-_0-9a-z{}]{1,32}(?:&s=0\.\d+)?(?:#\S+)?$/$doc,match-case,domain=com|info|net|org
@@ -129394,6 +129396,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||rating-booking-vip.com^$all,to=~booking.com
 /^https:\/\/(?:[a-z]+\.)?hotel-(?:id)?\d{5,8}\.eu\//$doc,domain=eu|~booking.com
 /^https:\/\/(?:[a-z]+\.)?hotel-(?:id)?\d{5,8}\.com\//$doc,domain=com|~booking.com
+/^https:\/\/support-\d{1,2}\.ru\//$doc,domain=ru
 ||vodafone.scralead.com^$all,to=~vodafone.es
 ||vodafone-mail-de.brimble.app^$all,to=~vodafone.de
 ||oasisministries.com/fr/postale/$all,to=~labanquepostale.fr
@@ -129410,9 +129413,11 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||pe4hk.shop^$all,to=~gazprom.ru
 ||g1vm6.shop^$all,to=~gazprom.ru
 ||mybluehost.me/*/netflix/net/login.php$doc
+||mybluehost.me/watch/a/flix/$doc
 ||floridavacationrentalsbyowners.com/*/Info/page_settings/account.php^$all
 ||allegrostore.cc^$all
 ||allegrostu.com^$all
+||allegrostroe.vip^$all
 ||wz-2-allegro-4dv.pages.dev^$all
 ||racks.pages.dev^$all,to=~rackspace.com
 ||rackweb-----support*.weebly.com^$all,to=~rackspace.com
@@ -129424,11 +129429,13 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||xform-dna-log-x.resmi-v1.biz.id^$all,to=~dana.id
 ||xclaimz-id-danakagetxid7.x-id.my.id^$all,to=~dana.id
 ||bntuanoffcl-dna.hdco.my.id^$all,to=~dana.id
+||dana-dnr.dana-idn.xyz^$all,to=~dana.id
 ||orange53.yolasite.com^$all,to=~orange.fr
 ||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
 ||smsmmsernorepls.wixsite.com^$all,to=~orange.fr
 ||orange234.wixsite.com^$all,to=~orange.fr
 ||exbtengineers.com/o/$all,to=~orange.fr
+||enjoymatic.com/landings/es-avengers/$all,to=~orange.es
 ||servicemailorange25.wixsite.com^$all,to=~orange.fr
 ||assistancesosh.wixsite.com^$all,to=~orange.fr
 ||amazon-*.shop^$doc
@@ -129441,8 +129448,10 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||vn-ebay.quxlpuj.cn^$all
 ||ebayasean.com^$all
 ||new-ebay.shop^$all
+||helsoialsnfience.top^$all
 ||51eabay.com^$all
 ||135buy.com^$all
+||ebaydw.cc^$all
 ||wixsite.com/att-support/$doc
 ||diwapa3051.wixsite.com^$all
 ||idhnochalter.wixsite.com^$all
@@ -129508,6 +129517,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||www-facebooks.com.vn^$all
 ||govern-assessment-validation-njbujm.vercel.app^$all
 ||request-page-violation-*.surge.sh^$all
+||violation-*.surge.sh^$doc
+||copyrights-*.surge.sh^$doc
 ||instructions-video.vercel.app/detailed_video.mp4$media
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=access-control-allow-headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=Access-Control-Allow-Headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
@@ -129515,6 +129526,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||lazada.bbc6666.com^$all
 ||tuyendungtiki2024.vn^$all,to=~tiki.vn
 /^https:\/\/sp\d{2,3}88(?:vn)?\.com\//$doc,domain=com|~shopee.vn
+||shopee-mall.cc^$all
 ||mez.ink/reademcashbackshopee.1.1^$all
 ||vnsendo.*^$all,to=info|shop|vip|~sendo.vn
 ||sendotv.com^$all,to=~sendo.vn
@@ -129526,6 +129538,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||steamfiller.ru^$all
 ||11steam.com^$all
 ||sp.26skins.com^$all
+||gtm.you1.cn^$all
 ||steamommunity.com^$all
 ||steam.communityart-work.com^$all
 ||steancommunlity.com^$all
@@ -129564,9 +129577,12 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||wwwservicemsnlive-*.hubspotpagebuilder.com^$all
 ||conohawing.com/*/outlook-$doc
 ||hergunavantaj.com.tr^$all
+||irrigationservices.co^$all
+||antivhelp.com^$all
 ||telegramhcn.com^$all
 ||web.telegram.data-bees.cn^$all
 ||telegramkv.com^$all
+||haveplentymusic.com^$all
 /^https:\/\/usps\.[-a-z]{6,}\.(?:com|top)\/(?:address\.html|information|verify)\b/$doc,domain=com|top|~usps.com
 /^https:\/\/ur[cex][a-z]{2,4}\.com\/(?:address\.html|information|verify)\b/$doc,domain=com|~usps.com
 .top/pg?do=$doc,domain=top
