@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cVrp001+H6eOtwqEKLKAWQ
+! Checksum: WSrQRtfUR72t2H6TVxYjmw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407090225
-! Last Modified: 2024年07月09日 02:25
+! Version: 202407090922
+! Last Modified: 2024年07月09日 09:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -130295,6 +130295,7 @@ coursera.org##+js(no-fetch-if, eventing)
 ||royalroad.com/dist/sentry.js$script
 ||svc.eu01.miro.com^$badfilter
 streamin.me##^responseheader(set-cookie)
+||api.modrinth.com/analytics/
 ||brilliant.org/amplitude/$1p
 ||analytics-prod-*.amazonaws.com^$domain=brilliant.org
 dev.to##+js(cookie-remover, ahoy_visitor)
