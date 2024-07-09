@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EqB/5ClRPaNWgsqLpmoGOw
+! Checksum: fCap660g2bvBD35yarRNWg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407092037
-! Last Modified: 2024年07月09日 20:37
+! Version: 202407100224
+! Last Modified: 2024年07月10日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -19411,6 +19411,7 @@ browsershots.org#@#.advert_area
 ||atraichuor.com^
 ||atriblethetch.com^
 ||atris.xyz^
+||atrkmankubf.com^
 ||atrociouspsychiatricparliamentary.com^
 ||atrocityfingernail.com^
 ||atropaimitant.top^
@@ -25764,6 +25765,7 @@ browsershots.org#@#.advert_area
 ||dqbukuvuy.com^
 ||dqdrsgankrum.org^
 ||dqeaa.com^
+||dqeiooxvtbiyl.com^
 ||dqfhudpnwdk.com^
 ||dqgmtzo.com^
 ||dqhezw.com^
@@ -27693,6 +27695,7 @@ browsershots.org#@#.advert_area
 ||fairnessels.com^
 ||fairnessmolebedtime.com^
 ||fairytaleundergoneopenly.com^
+||faisaphoofa.net^
 ||faised.com^
 ||faithaiy.com^
 ||faithfullyprotectionundo.com^
@@ -29067,6 +29070,7 @@ browsershots.org#@#.advert_area
 ||fvcwqkkqmuv.com^
 ||fvebixpgtxm.com^
 ||fvgxfupisy.com^
+||fvohyywkbc.com^
 ||fvzhenljkw.com^
 ||fwabhrptdns.com^
 ||fwbntw.com^
@@ -39804,6 +39808,7 @@ browsershots.org#@#.advert_area
 ||ouknowsaidthea.info^
 ||ouldhukelpm.org^
 ||ouleegneeje.com^
+||ouloansu.com^
 ||oulragart.xyz^
 ||oulrarta.net^
 ||oulrukry.xyz^
@@ -41298,6 +41303,7 @@ browsershots.org#@#.advert_area
 ||plex4rtb.com^
 ||plexop.net^
 ||plexureturp.com^
+||plhhisqiem.com^
 ||plianteditdisembark.com^
 ||pliantleft.com^
 ||pliblc.com^
@@ -47636,6 +47642,7 @@ browsershots.org#@#.advert_area
 ||supposereduction.com^
 ||supposerevenue.com^
 ||suppressedanalogyrain.com^
+||suppressedbottlesenjoyable.com
 ||supremeden.com^
 ||supremeoutcome.com^
 ||supremepresumptuous.com^
@@ -49769,6 +49776,7 @@ browsershots.org#@#.advert_area
 ||ubadzufyfjcd.com^
 ||ubbfpm.com^
 ||ubdiysvv.com^
+||ubdjdtraxe.com^
 ||ubeestis.net^
 ||uberouspolitei.com^
 ||ubiirddtnmja.com^
@@ -65046,6 +65054,7 @@ sat24.com###headercontent-onder
 hometheaterreview.com###headerhorizontalad
 nnn.ng###hfgad1
 nnn.ng###hfgad2
+kimcartoon.li###hideAds
 thegazette.com###high-impact
 stackoverflow.com###hireme
 techmeme.com###hiring
@@ -70552,9 +70561,9 @@ oneindia.com##ul > li:has(> div[class^="adg_"])
 yandex.*##.mini-suggest__item[data-suggest-counter*="/yandex.ru/clck/safeclick/"]
 yandex.*##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.*##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
+modrinth.com##.normal-page__content [href*="bisecthosting.com/"] > img
 modrinth.com##.normal-page__content [href^="https://billing.ember.host/"] > img
 modrinth.com##.normal-page__content [href^="https://billing.kinetichosting.net/"] > img
-modrinth.com##.normal-page__content [href*="bisecthosting.com/"] > img
 modrinth.com##.normal-page__content [href^="https://meloncube.net/"] > img
 modrinth.com##.normal-page__content [href^="https://nodecraft.com/"] > img
 modrinth.com##.normal-page__content [href^="https://scalacube.com/"] > img
@@ -75687,6 +75696,9 @@ _WebVitalsReporter_
 /wp-admin/admin-ajax.php?action=adblockvisitor$~third-party
 /ws_client?zone=gen$websocket
 /wutime-adblocktracker/*
+%2Fevent.gif%3F
+%2Fo.gif&
+%2Fopen.aspx%3F
 &mi_ecmp=
 -track-email-open?
 .acemlna.com/lt.php?$image
@@ -139846,8 +139858,8 @@ user.guancha.cn##+js(set, sensors.init, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 25 Jun 2024 22:47:11 GMT
-# entries:        3542
+# last updated:   Tue, 09 Jul 2024 16:38:54 GMT
+# entries:        3549
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -140809,6 +140821,7 @@ user.guancha.cn##+js(set, sensors.init, noopFunc)
 127.0.0.1 anuncios.edicaoms.com.br
 127.0.0.1 anxiousapples.com
 127.0.0.1 api.amplitude.com
+127.0.0.1 api.appmetrica.yandex.ru
 127.0.0.1 api.eu.amplitude.com
 127.0.0.1 api.intensifier.de
 127.0.0.1 api.iterable.com
@@ -140823,7 +140836,6 @@ user.guancha.cn##+js(set, sensors.init, noopFunc)
 127.0.0.1 app.pendo.io
 127.0.0.1 app2.salesmanago.pl
 127.0.0.1 appboycdn.com
-127.0.0.1 appmetrica.yandex.ru
 127.0.0.1 appsflyer.com
 127.0.0.1 aps.hearstnp.com
 127.0.0.1 apsalar.com
@@ -141877,6 +141889,7 @@ user.guancha.cn##+js(set, sensors.init, noopFunc)
 127.0.0.1 kliks.nl
 127.0.0.1 klsdee.com
 127.0.0.1 kmpiframe.keepmeposted.com.mt
+127.0.0.1 knitstamp.com
 127.0.0.1 knorex.com
 127.0.0.1 knottyswing.com
 127.0.0.1 komoona.com
@@ -142430,6 +142443,7 @@ user.guancha.cn##+js(set, sensors.init, noopFunc)
 127.0.0.1 previouspotato.com
 127.0.0.1 prf.hn
 127.0.0.1 priceypies.com
+127.0.0.1 pricklydebt.com
 127.0.0.1 priefy.com
 127.0.0.1 primetime.net
 127.0.0.1 privatecash.com
@@ -142581,6 +142595,11 @@ user.guancha.cn##+js(set, sensors.init, noopFunc)
 127.0.0.1 relmaxtop.com
 127.0.0.1 rememberdiscussion.com
 127.0.0.1 remox.com
+127.0.0.1 report-1.appmetrica.webvisor.com
+127.0.0.1 report-2.appmetrica.webvisor.com
+127.0.0.1 report-partners.appmetrica.yandex.net
+127.0.0.1 report.ap.yandex-net.ru
+127.0.0.1 report.appmetrica.yandex.net
 127.0.0.1 republika.onet.pl
 127.0.0.1 resalag.com
 127.0.0.1 resonantbrush.com
