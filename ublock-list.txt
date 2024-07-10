@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2WycE+TCytwn477DRPrZFQ
+! Checksum: ark4ME7Ewl2FBanmi3OQsg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407100922
-! Last Modified: 2024年07月10日 09:22
+! Version: 202407101425
+! Last Modified: 2024年07月10日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15409,6 +15409,8 @@ _800x80_
 ##topadblock
 ##zeus-ad
 ###sellwild-loader
+##.ad_1tdq7q5
+##.style_k8mr7b-o_O-style_uhlm2
 ##.aspace-300x169
 ##.aspace-300x250
 ###hgiks-middle
@@ -15460,6 +15462,7 @@ _800x80_
 ###jwplayer-container-div
 ###jwplayer_contextual_player_div
 ###kargo-player
+###mm-player-placeholder-large-screen
 ###mplayer-embed
 ###primis-holder
 ###primis_intext
@@ -65205,7 +65208,6 @@ bleedingcool.com###middle_medium_rectangle
 jezebel.com,pastemagazine.com###middle_rectangle
 thefastmode.com###middlebanneropenet
 cyberdaily.au###mm-azk560023-zone
-dbltap.com###mm-player-placeholder-large-screen
 mmorpg.com###mmorpg_desktop_list_1
 mmorpg.com###mmorpg_desktop_list_3
 si.com###mmvid
@@ -65925,7 +65927,7 @@ romsmania.games##.aawp
 ncomputers.org,servertest.online##.ab
 freedownloadmanager.org##.ab1
 freedownloadmanager.org##.ab320
-convertingcolors.com,slickdeals.net,whitecoatinvestor.com##.abc
+slickdeals.net,whitecoatinvestor.com##.abc
 britannica.com,merriam-webster.com##.abl
 imgbb.com##.abnr
 rankedboost.com##.above-article-section
@@ -66046,7 +66048,6 @@ sofascore.com##.adUnitBox
 dailyo.in##.adWrapp
 romper.com##.adWrapper
 barrons.com##.adWrapperTopLead
-mentalfloss.com##.ad_1tdq7q5
 m.thewire.in##.ad_20
 digiday.com##.ad_960
 food.com##.ad__ad
@@ -66518,6 +66519,7 @@ flatpanelshd.com##.bannerdiv_twopage
 arcadebomb.com##.bannerext
 2merkato.com,2mfm.org,aps.dz,armyrecognition.com,cbn.co.za,dailynews.co.tz,digitalmediaworld.tv,eprop.co.za,finchannel.com,forums.limesurvey.org,i-programmer.info,killerdirectory.com,pamplinmedia.com,radiolumiere.org,rapidtvnews.com,southfloridagaynews.com,thepatriot.co.bw,usedcarnews.com##.bannergroup
 saigoneer.com##.bannergroup-main
+convertingcolors.com##.bannerhead_desktop
 asianmirror.lk,catholicregister.org,crown.co.za,marengo-uniontimes.com,nikktech.com##.banneritem
 mir.az##.bannerreklam
 domainnamewire.com,i24news.tv,marinetechnologynews.com,maritimepropulsion.com,mumbrella.com.au,paste.fo,paste.pm,pasteheaven.com,petapixel.com,radiopaedia.org,rapidtvnews.com,telesurtv.net,travelpulse.com##.banners
@@ -66778,6 +66780,7 @@ mangarockteam.com,nitroscans.com##.c-top-second-sidebar
 freecomiconline.me,lordmanga.com,mangahentai.me,manytoon.com,readfreecomics.com##.c-top-sidebar
 softarchive.is##.c-un-link
 stuff.tv##.c-video-ad__container
+convertingcolors.com##.c30
 canada411.ca##.c411TopBanner
 techonthenet.com##.c79ee2c9
 sussexexpress.co.uk##.cIffkq
@@ -69313,7 +69316,6 @@ northernvirginiamag.com##.website-header__ad--leaderboard
 probuilds.net##.welcome-bnr
 taskcoach.org##.well
 gearlive.com##.wellvert
-pcguide.com##.wepc-takeover
 cpu-monkey.com,cpu-panda.com,gpu-monkey.com##.werb
 best-faucets.com,transfermarkt.co.uk,transfermarkt.com##.werbung
 transfermarkt.co.uk##.werbung-skyscraper
@@ -70679,7 +70681,6 @@ ginx.tv###ginx-floatingvod-containerspacer
 gunsandammo.com###inline-player
 pubs.rsc.org###journal-info > .text--centered
 forums.whathifi.com###jwplayer-container-div
-mentalfloss.com###mm-player-placeholder-large-screen
 ispreview.co.uk###mobile-takeover-slot-8
 bossip.com,hiphopwired.com,madamenoire.com###player-wrapper
 bar-planb.com,hakibavuong.com###player_dev
@@ -70726,8 +70727,6 @@ swimswam.com##.polls-461
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com,thetakeout.com##.related-stories-inset-video
 kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
-swimsuit.si.com##.style_hfl21i-o_O-style_uhlm2
-mentalfloss.com##.style_k8mr7b-o_O-style_uhlm2
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 petapixel.com##.video-aspect-wrapper
 gearjunkie.com##.video-jwplayer
@@ -129498,6 +129497,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||allegrostore.cc^$all
 ||allegrostu.com^$all
 ||allegrostroe.vip^$all
+||allegrocolombia.com^$all
 ||wz-2-allegro-4dv.pages.dev^$all
 ||racks.pages.dev^$all,to=~rackspace.com
 ||rackweb-----support*.weebly.com^$all,to=~rackspace.com
@@ -129510,6 +129510,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||xclaimz-id-danakagetxid7.x-id.my.id^$all,to=~dana.id
 ||bntuanoffcl-dna.hdco.my.id^$all,to=~dana.id
 ||d2naid.cllaim.my.id^$all,to=~dana.id
+||saaweran-salldodanald.klick-net.my.id^$all,to=~dana.id
 ||dana-dnr.dana-idn.xyz^$all,to=~dana.id
 ||orange53.yolasite.com^$all,to=~orange.fr
 ||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
@@ -129557,8 +129558,11 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||seeproc.com.br^$all,to=~my.gov.au
 ||liveflo.qxlva.io^$all,to=~gov.uk
 ||approvaltool.bdukinternal.net^$all,to=~gov.uk
+||smartaromas.com/income-individual_service_tax-gg-check-hm/$all,to=~gov.uk
 ||mybluehost.me/*/impo/$doc,domain=~impots.gouv.fr
 ||speedtest.gr/*/Amendes-gouv-fr/$all,to=~amendes.gouv.fr
+||contactsupport.10ffc20.wcomhost.com^$all
+||wcomhost.com/amendes-gouv/$doc,domain=~amendes.gouv.fr
 ||chamsocthekhachhang-$doc,domain=~edu|~gov|~edu.vn|~gov.vn
 ||sotuyenvcb.vietcombanker.com^$all,to=~vietcombank.com.vn
 ||vdbank.com.vn^$all,to=~vdb.gov.vn
@@ -129575,6 +129579,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||turkiyecumhuriyetiziraatbankasi.com^$all,to=~ziraatbank.com.tr
 ||c1.is/BRI/$doc,domain=~bri.co.id
 ||facilitycond.protectorsistemas.com.br/--/*/Login.html^$all,to=~vrb-niederschlesien.de
+||ewp.live/*/sano/pages/region.php^$doc
 ||dhl.*.potabox.com^$doc,domain=~dhl.com
 ||dhl-event.app^$all,to=~dhl.com
 ||dhexpress.weebly.com^$all,to=~dhl.com
@@ -129592,6 +129597,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||facebook-guidelines.com^$all
 ||hotvideoustiktok2021.blogspot.com^$all
 ||facebookpocztaweb.weebly.com^$all
+||2003.fb12.me^$all
 ||www-mfacebook.$doc
 ||www-facebooks.$doc
 ||www-facebook-$doc
@@ -129601,8 +129607,9 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||www-facebook-com.vn^$all
 ||vww-facebook.com.vn^$all
 ||www-facebooks.com.vn^$all
+||ifbsmetaiidentiityconfirms.com^$all
 ||govern-assessment-validation-*.vercel.app^$all
-||support-center-for-business-page-caseid-*.vercel.app^$all
+||support-center-for-*.vercel.app^$all
 ||request-page-violation-*.surge.sh^$all
 ||violation-*.surge.sh^$doc
 ||copyrights-*.surge.sh^$doc
@@ -129630,12 +129637,16 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||steamommunity.com^$all
 ||steam.communityart-work.com^$all
 ||steancommunlity.com^$all
+||steamcomnumllty.com^$all
+||steanmcommunity.com^$all
+/^https:\/\/stea[mn][a-z]{8}[lt]y\.com\//$doc,domain=com|~steamcommunity.com
 /^https:\/\/(?:www\.)?(?:ff[-.])?member[-.]gare[a-z]+a(?:\.pro)?\.vn\//$doc,domain=vn|~garena.vn
 /^https:\/\/(?:www\.)?(?:ff[-.])?men?mber[-.]garena\.vn\//$doc,domain=vn|~garena.vn
 ||garerna.vn^$all,to=~garena.vn
 ||gareza.vn^$all,to=~garena.vn
 ||garena.pro.vn^$all,to=~garena.vn
 ||ff-menmber-garena.vn^$all,to=~garena.vn
+||gaerana.io.vn^$all,to=~garena.vn
 ||pubg-arena.top^$all
 ||pubgm.kraftonevent.com^$all
 ||globalx.krafton-redeem.com^$all
@@ -129658,6 +129669,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||exceklcmicrosftprotection.pages.dev^$all
 ||microsoft-datamaturity.noisehq.nl^$all
 ||mblholdings.com^$all
+||skype-sg.com^$all
 ||cashum.unam.mx/wp-content/backups-dup-pro/imports/index.htm$all
 ||od.atami.no/one_drive.html$all
 ||vvskomplett.no/dev/tests/functional/config/$all
@@ -129670,6 +129682,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||irrigationservices.co^$all
 ||antivhelp.com^$all
 ||adobesecurequotelink.ru^$all
+||copynet.com.mx/Message%20Centre/$all
+||office.xli102.com^$all
 ||telegramhcn.com^$all
 ||web.telegram.data-bees.cn^$all
 ||telegramkv.com^$all
@@ -129709,6 +129723,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||sviluppo.host/sbb-chf-id/$doc,domain=~swisspass.ch
 ||wcomhost.com/spass/$doc,domain=~swisspass.ch
 ||altitudesim.ca/*/CHFINAL/$doc,domain=~swisspass.ch
+||codeanyapp.com/Swissp/$doc,domain=~swisspass.ch
 ||secureserver.net/myswisscom$doc,domain=~swisscom.ch
 ||codeanyapp.com/Swiss_com/$doc,domain=~swisscom.ch
 ||codeanyapp.com/info/cc.php^$doc,domain=~swisscom.ch
@@ -129726,6 +129741,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||azuki-*.vercel.app^$all,to=~azuki.com
 ||base-swap-frontend-*.vercel.app^$doc
 ||metamask*.webflow.io^$doc
+||cbnotifser.top^$all,to=~coinbase.com
 ||imtoken.org.cn^$all,to=~token.im
 ||imtoken-lk.top^$all,to=~token.im
 ||tokenap.app^$all,to=~token.im
@@ -129749,6 +129765,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||utahpolicetraining.*.mybluehost.me^$all
 ||shoppingmall55.com^$all,to=~falabella.com
 ||rozvag.com.ua/*/ionos/$all,to=~ionos.com
+||mybluehost.me/*/choronopost/$doc,domain=~chronopost.fr
 ||chamsockhachhang-$doc
 /^https?:\/\/dienmayxanh[-a-z0-9]+\.com\//$doc,domain=com|~dienmayxanh.com
 /^https:\/\/dich-vu(?:-[a-z0-9]+){2,3}\.com\//$doc,domain=com
@@ -132835,6 +132852,8 @@ user.guancha.cn##+js(set, sensors.init, noopFunc)
 @@||imp.i305175.net^*justwatch&$document,domain=imp.i305175.net
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,3p,redirect-rule=google-ima.js,domain=fox5sandiego.com
 ||imasdk.googleapis.com/pal/sdkloader/pal.js^$script,3p,redirect-rule=noopjs,domain=fox5sandiego.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect-rule=google-ima.js,domain=kraloyun.com
+flygbussarna.se##+js(no-fetch-if, /piwik-)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
