@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y+gjTAbdPjanwOVITnOy+g
+! Checksum: FKOfO8yJwesUPdKRB9JQgA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407110922
-! Last Modified: 2024年07月11日 09:22
+! Version: 202407111425
+! Last Modified: 2024年07月11日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -69508,6 +69508,8 @@ bitcoinist.com,captainaltcoin.com,cryptonews.com,cryptonewsz.com,cryptopotato.co
 manabadi.co.in##[class*="dsc-banner"]
 douglas.at,douglas.be,douglas.ch,douglas.cz,douglas.de,douglas.es,douglas.hr,douglas.hu,douglas.it,douglas.lt,douglas.lv,douglas.nl,douglas.pl,douglas.pt,douglas.ro,douglas.si,douglas.sk,nocibe.fr##[class="cms-criteo"]
 bloomberg.com##[class^="FullWidthAd_"]
+genius.com##[class^="InnerSectionAd__"]
+genius.com##[class^="InreadContainer__"]
 uploader.link##[class^="ads"]
 weather.us##[class^="dkpw"]
 dallasnews.com##[class^="dmnc_features-ads-"]
@@ -129529,23 +129531,27 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 /^https:\/\/vietg[a-z]v[0-9]*\.cc\//$doc,domain=cc
 ||clickhereecraigslist.tripod.com^$all
 ||mobilelegendsmycode.com^$all
+||1234854.com^$all,to=~shopify.com
 ||final-ua.eu/vasilisa/votings$all
 ||roycamining.com/pdeb/Untitled/$all,to=~docusign.com
 ||codeanyapp.com/neta/*/pay-method.php$doc
 ||otomoto-h229.net^$all,to=~otomoto.pl
-||mybluehost.me/Recibir_paquete.php$doc,domain=~correos.es
+||mybluehost.me/*Recibir_paquete.php$doc,domain=~correos.es
 ||codeanyapp.com/klarna/$doc,domain=~klarna.com
 ||griffithdds.com/*/madeinchina.com/$all,to=~made-in-china.com
 ||mybluehost.me/*/dir/ca/pay/$doc,domain=~canadapost-postescanada.ca
 ||21cpromotions.com/logs/postch/$all,to=~laposte.fr
 ||inner.website/*.html^$all
+||colegiovilamilitar.com.br/*/linkedin^$all,to=~linkedin.com
 ||yellowjacket.co.nz^$all,to=~fedex.com
 ||bookingtool.azurewebsites.net^$all,to=~fedex.com
 ||rating-booking-vip.com^$all,to=~booking.com
 /^https:\/\/(?:[a-z]+\.)?hotel-(?:id)?\d{4,8}\.eu\//$doc,domain=eu|~booking.com
 /^https:\/\/(?:[a-z]+\.)?hotel-(?:id)?\d{4,8}\.com\//$doc,domain=com|~booking.com
-/^https:\/\/(?:[a-z]+\.)?check-(?:id)?\d{4,8}\.com\//$doc,domain=com
-/^https:\/\/support-\d{1,2}\.ru\//$doc,domain=ru|~airbnb.com
+/^https:\/\/hotels-\d{6}\.eu\//$doc,domain=eu|~booking.com
+||booking.inn-$doc
+||air-bnb.check-$doc
+/^https:\/\/(airbnb\.)?support-\d{1,2}\.ru\//$doc,domain=ru|~airbnb.com
 ||abnbclaim.com^$all,to=~airbnb.com
 ||pt-apartmentsairbnb.com^$all,to=~airbnb.com
 ||vodafone.scralead.com^$all,to=~vodafone.es
@@ -129570,7 +129576,9 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||allegrostu.com^$all
 ||allegrostroe.vip^$all
 ||allegrocolombia.com^$all
+||allegro-online.ru^$all
 ||wz-2-allegro-4dv.pages.dev^$all
+||allegro.huui.pl^$all
 ||racks.pages.dev^$all,to=~rackspace.com
 ||rackweb-----support*.weebly.com^$all,to=~rackspace.com
 ||dana-indone*.id^$doc,domain=my.id|web.id|~dana.id
@@ -129584,6 +129592,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||d2naid.cllaim.my.id^$all,to=~dana.id
 ||saaweran-salldodanald.klick-net.my.id^$all,to=~dana.id
 ||dana-dnr.dana-idn.xyz^$all,to=~dana.id
+||gdnapqmhbs.1myall.com^$all,to=~dana.id
 ||orange53.yolasite.com^$all,to=~orange.fr
 ||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
 ||smsmmsernorepls.wixsite.com^$all,to=~orange.fr
@@ -129645,13 +129654,17 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||mbdk99.com^$all,to=~mbbank.com.vn
 ||bmoreferral.com^$all,to=~bmo.com
 ||championlog.com.br^$all,to=~itau.com.br
+||recompensaszurichsantander.com.mx^$all
+||santander.cf.sandbox.motrada.ch^$all,to=~santanderbank.com|~santander.co.uk
+||fislbxcentral.com/lms/santander$doc,domain=~santanderbank.com|~santander.co.uk
 /^https:\/\/tpbank\.[-a-z0-9]{5,}\.[a-z]{3}(?:\.vn)?\//$doc,domain=~edu|~gov|~gov.vn|~tpb.vn
 ||sparkasse-oberhessen.info^$all,to=~sparkasse.de
 ||mybluehost.me/service/*/nkl-log.php$doc,domain=~nickel.eu
 ||turkiyecumhuriyetiziraatbankasi.com^$all,to=~ziraatbank.com.tr
 ||c1.is/BRI/$doc,domain=~bri.co.id
 ||facilitycond.protectorsistemas.com.br/--/*/Login.html^$all,to=~vrb-niederschlesien.de
-||ewp.live/*/sano/pages/region.php^$doc
+||ewp.live/*/pages/region.php^$doc
+||glitch.me/*/nationwide^$doc,domain=~nationwide.co.uk
 ||dhl.*.potabox.com^$doc,domain=~dhl.com
 ||dhl-event.app^$all,to=~dhl.com
 ||dhexpress.weebly.com^$all,to=~dhl.com
@@ -129685,6 +129698,11 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||request-page-violation-*.surge.sh^$all
 ||violation-*.surge.sh^$doc
 ||copyrights-*.surge.sh^$doc
+||content-voilation-$doc
+||appeal-account-copyright-case-review.$doc
+||community-flagged-$doc
+||appealcasesid.com^$doc
+||metabussines.com^$all
 ||instructions-video.vercel.app/detailed_video.mp4$media
 ||instagam.xyz^$all
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=access-control-allow-headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
@@ -129711,7 +129729,9 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||steancommunlity.com^$all
 ||steamcomnumllty.com^$all
 ||steanmcommunity.com^$all
-/^https:\/\/stea[mn][a-z]{8}[lt]y\.com\//$doc,domain=com|~steamcommunity.com
+||stearnccommunity.com^$all
+||steamcomuniry.com^$all
+/^https:\/\/stea[a-z]{1,4}om[a-z]{4,6}y\.com\//$doc,domain=com|~steamcommunity.com
 /^https:\/\/(?:www\.)?(?:ff[-.])?member[-.]gare[a-z]+a(?:\.pro)?\.vn\//$doc,domain=vn|~garena.vn
 /^https:\/\/(?:www\.)?(?:ff[-.])?men?mber[-.]garena\.vn\//$doc,domain=vn|~garena.vn
 ||garerna.vn^$all,to=~garena.vn
@@ -129756,6 +129776,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||adobesecurequotelink.ru^$all
 ||copynet.com.mx/Message%20Centre/$all
 ||office.xli102.com^$all
+||hl.cn^$doc
+||msnoauth*.com/office-$all
 ||telegramhcn.com^$all
 ||web.telegram.data-bees.cn^$all
 ||telegramkv.com^$all
@@ -129767,8 +129789,9 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 /^https:\/\/usps\.[-a-z]{6,}\.(?:com|top)\/(?:address\.html|information|verify)\b/$doc,domain=com|top|~usps.com
 /^https:\/\/ur[cex][a-z]{2,4}\.com\/(?:address\.html|information|verify)\b/$doc,domain=com|~usps.com
 .top/pg?do=$doc,domain=top
-||usps.posttrackingservice.top^$all
 ||wrc-gh.org/redelivery$doc
+||usps.posttrackingservice.top^$all
+||uszq.iafedoec.top^$all
 ||mybluehost.me/2us/verification/$doc
 ||zxb.bgd.mybluehost.me^$all
 ||mybluehost.me/uspshome/$doc
@@ -129823,6 +129846,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||pancakeswap-*.vercel.app^$doc,domain=vercel.app|~pancakeswap.finance
 ||pancake-swap*.vercel.app^$doc,domain=vercel.app|~pancakeswap.finance
 ||pancake-nft*.vercel.app^$doc,domain=vercel.app|~pancakeswap.finance
+||pancakeswap.finance.expolorer.im^$all,to=~pancakeswap.finance
 ||air.bnb-id*.com^$all,to=~airbnb.com
 ||pakket-bpost-be.web.app^$all,to=~bpost.be
 ||mmitalianbeef.square.site^$all,to=~mmitalianbeef.com
@@ -129831,7 +129855,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||mybluehost.me/Cope346/$all
 ||hopp.bio/servernet^$all,to=~sasktel.com
 ||glitch.me/pdf.html?email=$doc
-||fislbxcentral.com/lms/santander$doc,domain=~santanderbank.com|~santander.co.uk
 ||cursorltd.com^$doc
 ||cprapid.com^$doc
 ||utahpolicetraining.*.mybluehost.me^$all
@@ -129882,6 +129905,16 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||arnaudpairoto.com^$all
 ||puttyconnect.info^$all
 ||astrosphere.world^$all
+||uudaikhachhang-$doc
+||nang-hang-$doc
+||tikijaj2.com^$all,to=~tiki.vn
+||tikt88.com^$all,to=~tiki.vn
+||businesseventskp.top^$all,to=~tiki.vn
+||mojgov.weebly.com^$all,to=~moj.gov.vn
+||chinhphu.cc^$all,to=~chinhphu.vn
+||hangtietkiem.com^$all,to=~giaohangtietkiem.vn
+||tcvnhomefic.com^$all,to=~mbbank.com.vn
+||lapdatinternet.net^$all,to=~sctv.com.vn
 ||pythanhosted.org^$all
 ||marketplace-item-*.000.pe^$doc
 /^https:\/\/(?:ai|art|get)-?midjourney[^\/]+\//$doc,domain=~midjourney.com|~edu|~gov
@@ -132925,6 +132958,8 @@ user.guancha.cn##+js(set, sensors.init, noopFunc)
 ||imasdk.googleapis.com/pal/sdkloader/pal.js^$script,3p,redirect-rule=noopjs,domain=fox5sandiego.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect-rule=google-ima.js,domain=kraloyun.com
 flygbussarna.se##+js(no-fetch-if, /piwik-)
+@@||realclearpolicy.com/esm/assets/js/analytics/gaAnalytics.js$xhr,1p
+@@||realclearpolicy.com/esm/assets/js/analytics/chartbeat.js$xhr,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
