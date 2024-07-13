@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OsbIjyKVo2CZRRjpLzsM1g
+! Checksum: tUJL2qmlsmE/s+TKzpxFwQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407132032
-! Last Modified: 2024年07月13日 20:32
+! Version: 202407140222
+! Last Modified: 2024年07月14日 02:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -130118,7 +130118,7 @@ www.reddit.com##+js(rpnt, script, "outboundUrl", "outbound")
 www.reddit.com##+js(json-prune, data.*.elements.edges.[].node.outboundLink)
 www.reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 ||redditstatic.com/shreddit/sentry-$domain=reddit.com
-www.reddit.com##+js(trusted-replace-outbound-text, JSON.stringify, '/^{"([a-z]{4})_token":"[^"]+","info":\[{.*"action_info":.*]}$/', '{"$1_token":"","info":[{"action_info":{"success":true,"trigger_type":"","page_type":""},"request":{"server_render_id":"","canonical_url":""},"screenview_id":"","screen":{"height":"","width":""},"adblock":{"enabled":false},"source":"global","action":"view","noun":"screen","referrer":{"url":"","domain":""},"client_timestamp":"","correlation_id":"","feed":{"correlation_id":""}}]}')
+www.reddit.com##+js(trusted-replace-outbound-text, JSON.stringify, '/^{"([^"]*token[^"]*)":"[0-9a-z]+","info":\[{.*"action_info":.*}]}$/', '{"$1":"","info":[{"action_info":{"success":true,"trigger_type":"","page_type":null},"request":{"server_render_id":"","canonical_url":""},"screenview_id":"","screen":{"height":"","width":""},"adblock":{"enabled":false},"source":"global","action":"view","noun":"screen","referrer":{"url":"","domain":""},"client_timestamp":"","correlation_id":""}]}')
 ||www.reddit.com/|$xhr,1p,method=post
 docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
 www.google.*##+js(set, rwt, noopFunc)
