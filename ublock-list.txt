@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RMdXe40E8OFou3YnQLE7/A
+! Checksum: IoPAaX27g4L5E17ou1O1Hw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407130922
-! Last Modified: 2024年07月13日 09:22
+! Version: 202407131425
+! Last Modified: 2024年07月13日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -129645,11 +129645,13 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||mybluehost.me/*/netflix/net/login.php$doc
 ||mybluehost.me/watch/a/flix/$doc
 ||floridavacationrentalsbyowners.com/*/Info/page_settings/account.php^$all
+||loginnetflixleiojfioje.blogspot.$all
 ||allegrostore.cc^$all
 ||allegrostu.com^$all
 ||allegrostroe.vip^$all
 ||allegrocolombia.com^$all
 ||allegro-online.ru^$all
+||allegro-buy.com^$all
 ||wz-2-allegro-4dv.pages.dev^$all
 ||allegro.huui.pl^$all
 ||racks.pages.dev^$all,to=~rackspace.com
@@ -129666,6 +129668,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||saaweran-salldodanald.klick-net.my.id^$all,to=~dana.id
 ||dana-dnr.dana-idn.xyz^$all,to=~dana.id
 ||gdnapqmhbs.1myall.com^$all,to=~dana.id
+||hadiah-dana2024.beviz.biz.id^$all,to=~dana.id
 ||danaxspaylaterr.biz.id^$all,to=~dana.id
 ||orange53.yolasite.com^$all,to=~orange.fr
 ||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
@@ -129680,6 +129683,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||amazonl3.com^$all
 ||etisalat-amazonprime.com^$all,to=~etisalat.ae
 ||tepoty.com^$all
+||signinamzncawebapp.sviluppo.host^$all
 ||mybluehost.me/wp-admin/amz/$doc
 ||c.vn-ebayn.vip^$all
 ||vn-ebay.quxlpuj.cn^$all
@@ -129711,13 +129715,16 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||btbttt.000webhostapp.com^$all,to=~bt.com
 ||thanhtrapcrt.online^$all,to=~thanhtra.gov.vn
 ||seeproc.com.br^$all,to=~my.gov.au
+||pttgov-*.top^$all,to=top|~ptt.gov.tr
 ||liveflo.qxlva.io^$all,to=~gov.uk
 ||approvaltool.bdukinternal.net^$all,to=~gov.uk
 ||smartaromas.com/income-individual_service_tax-gg-check-hm/$all,to=~gov.uk
+||contabostorage.com^$all,to=~gov.uk
 ||mybluehost.me/*/impo/$doc,domain=~impots.gouv.fr
 ||speedtest.gr/*/Amendes-gouv-fr/$all,to=~amendes.gouv.fr
 ||contactsupport.10ffc20.wcomhost.com^$all
 ||wcomhost.com/amendes-gouv/$doc,domain=~amendes.gouv.fr
+||wcomhost.com/*/am/3dsece.php^$doc,domain=~amendes.gouv.fr
 ||chamsocthekhachhang-$doc,domain=~edu|~gov|~edu.vn|~gov.vn
 ||sotuyenvcb.vietcombanker.com^$all,to=~vietcombank.com.vn
 ||vdbank.com.vn^$all,to=~vdb.gov.vn
@@ -129732,6 +129739,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||personas.devbam.com^$all,to=~bam.com.gt
 ||negociebra.com.br^$all,to=~banco.bradesco
 ||lloyd-group.com^$all,to=~lloydsbank.com
+||qnbkredisorgu.jumpingcrab.com^$all,to=~qnbfinansbank.com
 ||recompensaszurichsantander.com.mx^$all
 ||upsdelivery-nl.com^$all,to=~bancosantander.es
 ||santander.cf.sandbox.motrada.ch^$all,to=~santanderbank.com|~santander.co.uk
@@ -129752,6 +129760,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||app.farmaciadelmonestironline.com/SER/dnkdl/^$all,to=~dhl.com
 ||solutionfun.info^$all
 ||zdrhuagh.elementor.cloud/*/index.html$all
+||leatherqueen.shop^$all
 ||notificationbyfacebook.$doc
 ||notificationbyfacebook.firebaseapp.com^$all
 ||notificationbyfacebook.web.app^$all
@@ -129771,15 +129780,18 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||www-facebook-com.vn^$all
 ||vww-facebook.com.vn^$all
 ||www-facebooks.com.vn^$all
+||mfacebook-com.vn^$all
 ||ifbsmetaiidentiityconfirms.com^$all
 ||govern-assessment-validation-*.vercel.app^$all
 ||support-center-for-*.vercel.app^$all
 ||request-page-violation-*.surge.sh^$all
 ||violation-*.surge.sh^$doc
 ||copyrights-*.surge.sh^$doc
+||fan-page-*.surge.sh^$doc
 ||content-voilation-$doc
 ||appeal-account-copyright-case-review.$doc
 ||community-flagged-$doc
+||help-for-work-*.pages.dev^$doc
 ||appealcasesid.com^$doc
 ||metabussines.com^$all
 ||instructions-video.vercel.app/detailed_video.mp4$media
@@ -129820,6 +129832,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||garena.pro.vn^$all,to=~garena.vn
 ||ff-menmber-garena.vn^$all,to=~garena.vn
 ||gaerana.io.vn^$all,to=~garena.vn
+||gareana.vn^$all,to=~garena.vn
 ||pubg-arena.top^$all
 ||pubgm.kraftonevent.com^$all
 ||globalx.krafton-redeem.com^$all
@@ -129863,6 +129876,9 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||msnoauth*.com/office-$all
 ||sites.google.com/l0gin-microsoftwebonlne.app/$all
 ||monogonzalez.com^$all
+||athenasbaklava.com^$all
+||mail.sorbeadindias.com^$all
+||pages.dev/smart89/$doc
 ||telegramhcn.com^$all
 ||web.telegram.data-bees.cn^$all
 ||telegramkv.com^$all
@@ -129941,6 +129957,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||mmitalianbeef.square.site^$all,to=~mmitalianbeef.com
 ||bigbauer.com^$all,to=~gmx.com
 ||dropbox.obez.de^$all,to=~dropbox.com
+||nitro.neeve.co^$all,to=~discord.com
 ||beluxrepm.followme.fr/FolloWMe$all,to=~realestate.bnpparibas.com
 ||mybluehost.me/Cope346/$all
 ||hopp.bio/servernet^$all,to=~sasktel.com
@@ -133048,8 +133065,8 @@ user.guancha.cn##+js(set, sensors.init, noopFunc)
 ||imasdk.googleapis.com/pal/sdkloader/pal.js^$script,3p,redirect-rule=noopjs,domain=fox5sandiego.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect-rule=google-ima.js,domain=kraloyun.com
 flygbussarna.se##+js(no-fetch-if, /piwik-)
-@@||realclearpolicy.com/esm/assets/js/analytics/gaAnalytics.js$xhr,1p
-@@||realclearpolicy.com/esm/assets/js/analytics/chartbeat.js$xhr,1p
+@@||www.*/esm/assets/js/analytics/gaAnalytics.js?v=$xhr,1p,strict1p,method=get,domain=com|org
+@@||www.*/esm/assets/js/analytics/chartbeat.js?v=$xhr,1p,strict1p,method=get,domain=com|org
 ||maps.arcgis.com/apps/instant/lookup/app/utilites/telemetry/appmeasurement.js$1p,redirect=noopjs,important
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
