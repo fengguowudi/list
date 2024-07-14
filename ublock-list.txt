@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rRwoglMt8dzooPPM9XF7DQ
+! Checksum: y23TJRO49lb2tSlvq95bFg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407142047
-! Last Modified: 2024年07月14日 20:47
+! Version: 202407150234
+! Last Modified: 2024年07月15日 02:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54719,6 +54719,7 @@ browsershots.org#@#.advert_area
 ||actiondesk.com^$third-party
 ||activedancer.com^$third-party
 ||ad-adapex.io^$third-party
+||ad-mixr.com^$third-party
 ||ad-tech.ru^$third-party
 ||ad.plus^$third-party
 ||ad.style^$third-party
@@ -56030,6 +56031,7 @@ browsershots.org#@#.advert_area
 ||20519a.xyz^$document,popup
 ||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^$document,popup
 ||22dd31.xyz^$document,popup
+||258104d2.live^$document,popup
 ||285b0b37.xyz^$document,popup
 ||28d591da.xyz^$document,popup
 ||295c.site^$document,popup
@@ -76154,6 +76156,7 @@ omni.soundestlink.com$image
 ||bringmethehats.com^
 ||briskeagle.io^
 ||briskpelican.io^
+||broadstreet.ai^
 ||brsrvr.com^
 ||brwsrfrm.com^
 ||btloader.com^
@@ -81053,6 +81056,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.flagship.io^
 ||events.jotform.com^
 ||events.launchdarkly.com^$third-party
+||events.mapbox.com^
 ||events.matterport.com^
 ||events.medio.com^
 ||events.missena.io^
@@ -81432,6 +81436,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||l.player.ooyala.com^
 ||l.sharethis.com^
 ||l.typesquare.com^
+||lambda-url.us-east-1.on.aws/chug/event
 ||laurel.macrovision.com^
 ||laurel.rovicorp.com^
 ||lciapi.ninthdecimal.com^
@@ -84317,6 +84322,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.githubapp.com^
 ||collector.megaxh.com^
 ||collector.pi.spectrum.net^
+||collector.quillbot.com^
 ||collector.taoxh.life^
 ||collector.xhaccess.com^
 ||collector.xhamster.com^
@@ -84678,6 +84684,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||imf.org/Assets/IMF/js/SocialScript.js
 ||imgur.com/albumview.gif?
 ||imgur.com/imageview.gif?
+||impressions.svc.abillion.com^
 ||improve.tempest.com^
 ||indeed.com/cmp/_rpc/dwell-log?
 ||indeed.com/cmp/_rpc/flog
@@ -130165,7 +130172,6 @@ www.reddit.com##+js(rpnt, script, "outboundUrl", "outbound")
 www.reddit.com##+js(json-prune, data.*.elements.edges.[].node.outboundLink)
 www.reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 ||redditstatic.com/shreddit/sentry-$domain=reddit.com
-www.reddit.com##+js(trusted-replace-outbound-text, JSON.stringify, '/^{"([^"]*toekn[^"]*)":"[0-9a-z]+","info":\[{.*"action_info":.*}]}$/', '{"$1":"","info":[{"action_info":{"success":true,"trigger_type":"","page_type":null},"request":{"server_render_id":"","canonical_url":""},"screenview_id":"","screen":{"height":"","width":""},"adblock":{"enabled":false},"source":"global","action":"view","noun":"screen","referrer":{"url":"","domain":""},"client_timestamp":"","correlation_id":""}]}')
 ||www.reddit.com/|$xhr,1p,method=post
 docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
 www.google.*##+js(set, rwt, noopFunc)
