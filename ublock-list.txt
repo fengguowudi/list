@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: z/d3KBsGQXyKlnWDuSxKcA
+! Checksum: UJjqf2RKexIp17txpYFklg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407151428
-! Last Modified: 2024年07月15日 14:28
+! Version: 202407152037
+! Last Modified: 2024年07月15日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -65761,6 +65761,7 @@ semiconductor-today.com###undermenu
 dailytrust.com,thequint.com###unitDivWrapper-0
 upworthy.com###upworthyFreeStarVideoAdContainer
 my.juno.com###usWorldTile
+videocardz.com###vc-intermid-desktop-ad
 sammobile.com###venatus-hybrid-banner
 afkgaming.com###venatus-takeover
 nutritioninsight.com###verticlblks
@@ -66311,6 +66312,7 @@ allevents.in##.ads_place_right
 skyve.io##.ads_space
 101soundboards.com##.ads_top_container_publift
 adlice.com,informer.com,waqi.info##.adsbygoogle
+harvardmagazine.com##.adsbygoogle-block
 aitextpromptgenerator.com##.adsbyus_wrapper
 gayvegas.com,looktothestars.org,nintandbox.net,plurk.com,rockpasta.com,thebarentsobserver.com,tolonews.com,webtor.io##.adsense
 radaris.com##.adsense-responsive-bottom
@@ -67532,6 +67534,7 @@ golinuxcloud.com##.golin-video-content
 africanadvice.com,pspad.com,sudantribune.com##.google
 apkmirror.com##.google-ad-leaderboard
 secretchicago.com##.google-ad-manager-ads-header
+videocardz.com##.google-sidebar
 manabadi.co.in##.googleAdsdiv
 smsfi.com##.google_ad_home_page_100percent
 mediamass.net##.googleresponsive
@@ -68418,6 +68421,7 @@ liveuamap.com##.passby
 writerscafe.org##.pay
 nhentai.com##.pb-0.w-100[style]
 newkerala.com##.pb-2 .text-mute
+dermatologytimes.com##.pb-24
 ahajournals.org,royalsocietypublishing.org,tandfonline.com##.pb-ad
 wweek.com##.pb-f-phanzu-phanzu-ad-code
 cattime.com,dogtime.com,liveoutdoors.com,playstationlifestyle.net,thefashionspot.com##.pb-in-article-content
@@ -68943,6 +68947,7 @@ boxofficemojo.com,imdb.com##.slot_wrapper
 drivereasy.com##.sls_pop
 sltrib.com##.sltrib_medrec_sidebar_atf
 skinnyms.com##.sm-above-header
+dermatologytimes.com##.sm\:w-\[728px\]
 bikeexif.com##.small
 dutchnews.nl##.small-add-block
 numuki.com##.small-banner-responsive-wrapper
@@ -69653,7 +69658,7 @@ hedgefollow.com##[data-dee_type^="large_banner"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-empty]
 badgerandblade.com,ginx.tv##[data-ez-ph-id]
 news.sky.com##[data-format="leaderboard"]
-cumbriacrack.com##[data-hbwrap]
+cumbriacrack.com,euromaidanpress.com##[data-hbwrap]
 dannydutch.com,tvzoneuk.com##[data-hook="HtmlComponent"]
 blackbeltmag.com##[data-hook="bgLayers"]
 clevelandclinic.org##[data-identity*="billboard-ad"]
