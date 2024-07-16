@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BpaM/+lGRVz43FRVtDPaAA
+! Checksum: ikFbG4sjpZOZDfNF+x6hXg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407162034
-! Last Modified: 2024年07月16日 20:34
+! Version: 202407170225
+! Last Modified: 2024年07月17日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56013,6 +56013,7 @@ browsershots.org#@#.advert_area
 ||googlevads-cn.com^
 ||00701059.xyz^$document,popup
 ||02777e.site^$document,popup
+||03180d2d.live^$document,popup
 ||0395d1.xyz^$document,popup
 ||05751c.site^$document,popup
 ||072551.xyz^$document,popup
@@ -56027,6 +56028,7 @@ browsershots.org#@#.advert_area
 ||11c7a3.xyz^$document,popup
 ||1350c3.xyz^$document,popup
 ||156fd4.xyz^$document,popup
+||164de830.live^$document,popup
 ||1a1fb6.xyz^$document,popup
 ||1c52e1e2.live^$document,popup
 ||1dd6e9ba.xyz^$document,popup
@@ -56039,7 +56041,7 @@ browsershots.org#@#.advert_area
 ||28d591da.xyz^$document,popup
 ||295c.site^$document,popup
 ||2aeabdd4-3280-4f03-bc92-1890494f28be.xyz^$document,popup
-||2d8bc293.xyz$document,popup
+||2d8bc293.xyz^$document,popup
 ||3a2e.site^$document,popup
 ||3a55f02d.xyz^$document,popup
 ||3ffa255f.xyz^$document,popup
@@ -130265,17 +130267,19 @@ search.brave.com##+js(no-fetch-if, body:browser)
 /\/[a-z0-9]{12}\/[a-zA-Z0-9\/\+\-]{97,106}$/$match-case,script,1p,strict1p
 /^https?:\/\/(?!assets|script|static)(?:[0-9a-z]{10,13}|[0-9a-z]{6})\.[0-9A-Za-z.\-_]+\/(?=[0-9a-z+\/\-]*[A-Z])[0-9A-Za-z+\/\-]{80,106}$/$script,1p,match-case,strict3p
 /dataunlocker$script,1p,domain=~dataunlocker.com
-/www\.eldorado\.gg\/[a-zA-Z0-9]{10,20}\.js/$1p,script,domain=eldorado.gg
 ||data-saver-cindi.herokuapp.com^
 !#if cap_html_filtering
 botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,creatordrop.com,panpots.com,cybernetman.com,bitdomain.biz,gerardbosch.xyz,fort-shop.kiev.ua,accuretawealth.com,resourceya.com,tracktheta.com,adaptive.marketing,camberlion.com,replai.io,trybawaryjny.pl##^script:has-text("join('')")
 alpacafinance.org,tt.live,future-fortune.com,abhijith.page,furucombo.app,madrigalmaps.com,adventuretix.com,bolighub.dk##^script:has-text('join("")')
 panprices.com,intercity.technology,freelancer.taxmachine.be,kodalia.com,adria.gg,fjlaboratories.com,emanualonline.com##^script:has-text(api.dataunlocker.com)
+||eldorado.gg/main.$script,1p,replace=/\,dataUnlocker:\{scriptName:\".*?\"\}//
 !#else
 botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,creatordrop.com,panpots.com,cybernetman.com,bitdomain.biz,gerardbosch.xyz,fort-shop.kiev.ua,accuretawealth.com,resourceya.com,tracktheta.com,camberlion.com,replai.io,trybawaryjny.pl##+js(rmnt, script, /join\(\'\'\)/)
 alpacafinance.org,tt.live,future-fortune.com,abhijith.page,madrigalmaps.com,adventuretix.com,bolighub.dk##+js(rmnt, script, /join\(\"\"\)/)
 panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaboratories.com,emanualonline.com##+js(rmnt, script, api.dataunlocker.com)
 !#endif
+||eldorado.gg/liberate_script_data$script,1p
+/^https?:\/\/(?!assets|script|static)(?:[0-9a-z]{5,25}|[0-9a-z]{6})\.www\.eldorado\.gg\/(?=[0-9a-z+\/\-]*[A-Z])[0-9A-Za-z+\/\-]{80,106}$/$script,1p,match-case,strict3p,domain=eldorado.gg
 ||washpost.nile.works^
 /p13n/batch/action/*$image
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,3p,match-case
@@ -133137,6 +133141,7 @@ flygbussarna.se##+js(no-fetch-if, /piwik-)
 @@||www.*/esm/assets/js/analytics/gaAnalytics.js?v=$xhr,1p,strict1p,method=get,domain=com|org
 @@||www.*/esm/assets/js/analytics/chartbeat.js?v=$xhr,1p,strict1p,method=get,domain=com|org
 ||maps.arcgis.com/apps/instant/lookup/app/utilites/telemetry/appmeasurement.js$1p,redirect=noopjs,important
+jprime.jp##+js(trusted-rpnt, script, var ISMLIB, !function(){const o={apply:(o\,n\,r)=>(new Error).stack.includes("refreshad")?0:Reflect.apply(o\,n\,r)};window.Math.floor=new Proxy(window.Math.floor\,o)}();var ISMLIB)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
