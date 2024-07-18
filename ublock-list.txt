@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jxAAE4YKzYX2bFfH3CB0RQ
+! Checksum: gZZBkaVDUswwjZRefx9TAQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407180921
-! Last Modified: 2024年07月18日 09:21
+! Version: 202407181426
+! Last Modified: 2024年07月18日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63604,6 +63604,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||livescore.az/images/banners
 ||lontent.powzerz.lol^
 ||lordchannel.com/adcash/
+||lowfuelmotorsport.com/assets/img/partners/$image
 ||ltn.hitomi.la/zncVMEzbV/
 ||lw.musictarget.com^
 ||lycos.com/catman/
@@ -65700,7 +65701,7 @@ racingamerica.com###section-15922
 hometheaterreview.com###section-20297-191992
 hometheaterreview.com###section-246-102074
 neoseeker.com###section-pagetop
-searchenginejournal.com###sej-pop-wrapper_v2
+searchenginejournal.com###sej-pop-wrapper_v3
 analyticsinsight.net,moviedokan.lol,shortorial.com###sgpb-popup-dialog-main-div-wrapper
 v3rmillion.net###sharingPlace
 fedex.com###shop-runner-banner-link
@@ -68993,7 +68994,7 @@ thesun.co.uk##.section-sponsorship-wrapper-section
 seattlepride.org##.section_sponsorship
 brandsoftheworld.com##.seedling
 searchenginejournal.com##.sej-hello-bar
-searchenginejournal.com##.sej-tt-link
+searchenginejournal.com##.sej-ttt-link
 timesofisrael.com##.sellwild-label
 hypestat.com##.sem_banner
 spotifydown.com##.semi-transparent
@@ -69125,7 +69126,8 @@ govexec.com##.skybox-item-sponsored
 cbssports.com##.skybox-top-wrapper
 cheese.com,datpiff.com,gtainside.com##.skyscraper
 plos.org##.skyscraper-container
-newsnow.co.uk##.skyscraper-left
+lowfuelmotorsport.com,newsnow.co.uk##.skyscraper-left
+lowfuelmotorsport.com##.skyscraper-right
 singaporeexpats.com##.skyscrapers
 everythingrf.com,futbol24.com##.skyscrapper
 myfoodbook.com.au##.slick--optionset--mfb-banners
@@ -69223,7 +69225,6 @@ ebay.co.uk,ebay.com,ebay.com.au##.srp-1p__link
 mlsbd.shop##.srzads
 theblueoceansgroup.com##.ss-on-media-container
 searchenginejournal.com##.sss2_sllo_o3
-searchenginejournal.com##.sss2_sllo_o5
 aupetitparieur.com##.st85ip42z1v3x
 cnn.com##.stack__ads
 barrons.com##.standard__AdWrapper-sc-14sjre0-6
@@ -70610,6 +70611,7 @@ groupon.com##figure[data-clickurl^="https://api.groupon.com/sponsored/"]
 imgburn.com##font[face="Arial"][size="1"]
 realitytvworld.com##font[size="1"][color="gray"]
 dailydot.com##footer
+mirrored.to##form[action^="//filesdl.cloud/"]
 law.com,topcultured.com##h3
 kazwire.com##h3.tracking-widest
 drive.com.au##hr
@@ -129935,17 +129937,21 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||rackweb-----support*.weebly.com^$all,to=~rackspace.com
 ||dana-indone*.id^$doc,domain=my.id|web.id|~dana.id
 ||xcxcx.my.id^$doc,domain=~dana.id
+||pemesanan*.glowz.my.id^$doc,domain=~dana.id
 -dna-log-*.biz.id^$doc,domain=biz.id|~dana.id
 ||xxtl-v1.biz.id^$doc,domain=~dana.id
 ||xlink-dna-log-new.xxtl-v1.biz.id^$all,to=~dana.id
 ||xform-dna-log-x.resmi-v1.biz.id^$all,to=~dana.id
 ||hadiah-dana2024.beviz.biz.id^$all,to=~dana.id
 ||kelim-kaget-dana.masuk.biz.id^$all,to=~dana.id
+||official-dana-dana-id.bantuanmu.biz.id^$all,to=~dana.id
 ||xclaimz-id-danakagetxid7.x-id.my.id^$all,to=~dana.id
 ||bntuanoffcl-dna.hdco.my.id^$all,to=~dana.id
 ||saaweran-salldodanald.klick-net.my.id^$all,to=~dana.id
 ||pemba4talan-engajuannn-payylater7.e-fiiles.my.id^$all,to=~dana.id
 ||pemesanan-marrket-lpg-pertaminaa.glowz.my.id^$all,to=~dana.id
+||pemesanann-lpg-pertamina-market-deliveryy.glowz.my.id^$all,to=~dana.id
+||claim-hadiah-dxnakaget1.t-7.my.id^$all,to=~dana.id
 ||gdnapqmhbs.1myall.com^$all,to=~dana.id
 ||hadiah.dana.kaget.webappsystem.com^$all,to=~dana.id
 ||danaxspaylaterr.biz.id^$all,to=~dana.id
@@ -129965,6 +129971,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||tepoty.com^$all
 ||signinamzncawebapp.sviluppo.host^$all
 ||bb69nn7.icu^$all
+||ecommrce-web-amazon.netlify.app^$all
 ||mybluehost.me/wp-admin/amz/$doc
 ||c.vn-ebayn.vip^$all
 ||vn-ebay.quxlpuj.cn^$all
@@ -129996,6 +130003,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||btbttt.000webhostapp.com^$all,to=~bt.com
 ||thanhtrapcrt.online^$all,to=~thanhtra.gov.vn
 ||seeproc.com.br^$all,to=~my.gov.au
+||h-i-z-l-i-b-a-s-v-u-r-u.net.tr^$all,to=~turkiye.gov.tr
 ||pttgov-*.top^$all,to=top|~ptt.gov.tr
 ||liveflo.qxlva.io^$all,to=~gov.uk
 ||approvaltool.bdukinternal.net^$all,to=~gov.uk
@@ -130082,6 +130090,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||help-for-work-*.pages.dev^$doc
 ||appealcasesid.com^$doc
 ||metabussines.com^$all
+||transparency-business.com^$all
 ||instructions-video.vercel.app/detailed_video.mp4$media
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=access-control-allow-headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=Access-Control-Allow-Headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
@@ -130104,6 +130113,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||steamcommunitylog.chez.com^$all
 ||steam.workshop*.com^$doc
 /^https:\/\/stea[a-z]{1,4}o[mn][a-z]{4,7}y[a-z]?\.com\//$doc,domain=com|~steamcommunity.com
+/^https:\/\/steam\.(?:community)?workshop-?[a-z]+\.com\//$doc,domain=com|~steamcommunity.com
 ||steam.communityart-work.com^$all
 ||steanmcommunity.com^$all
 ||stearnccommunity.com^$all
@@ -130112,6 +130122,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||steemcommuntiy.com^$all
 ||steam.workshopstyle.com^$all
 ||steam.communitybrowserpowered.com^$all
+||steam.communityworkshopsitem.com^$all
 /^https:\/\/(?:www\.)?(?:ff[-.])?member[-.]gare[a-z]+a(?:\.pro)?\.vn\//$doc,domain=vn|~garena.vn
 /^https:\/\/(?:www\.)?(?:ff[-.])?men?mber[-.]garena\.vn\//$doc,domain=vn|~garena.vn
 ||garerna.vn^$all,to=~garena.vn
@@ -130148,6 +130159,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||skype-sg.com^$all
 ||graettingerlaw.com^$all
 ||hab-sharepoint.weebly.com^$all
+||iamnew.powerappsportals.com^$all
 ||cashum.unam.mx/wp-content/backups-dup-pro/imports/index.htm$all
 ||od.atami.no/one_drive.html$all
 ||vvskomplett.no/dev/tests/functional/config/$all
@@ -130172,6 +130184,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||haveplentymusic.com^$all
 ||newappmssg.ru^$all
 ||telegrambotsolution.pages.dev^$all
+||telegramkp.com^$all
+||cdn-telegram.com^$all
 ||rr.nu^$doc
 /^https:\/\/usps\.[-a-z]{6,}\.(?:com|top)\/(?:address\.html|information|verify)\b/$doc,domain=com|top|~usps.com
 /^https:\/\/ur[cex][a-z]{2,4}\.com\/(?:address\.html|information|verify)\b/$doc,domain=com|~usps.com
@@ -130191,6 +130205,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||airpos.co.kr/.well-known/pki-validation/*/MitID/$doc
 ||autolocksmithpro.com/spt/$all
 ||mybluehost.me/spot/Account/$doc
+||mybluehost.me/dse/main/$doc
 ||swiss-passapp.web.app^$all,to=~swisspass.ch
 ||mybluehost.me/CFF/$doc,domain=~swisspass.ch
 ||mybluehost.me/--/SBBCFF$doc,domain=~swisspass.ch
@@ -130215,6 +130230,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||codeanyapp.com/swiss-login/$doc
 ||swisspost.web.app^$all,to=~post.ch
 ||wcomhost.com/ch/upc/$all,to=~upc.ch
+||ledgerwallive.com^$all,to=~ledger.com
 ||voel.zocsc.top^$all
 ||mantanetworkcn.com^$all,to=~manta.network
 ||interface-git-parallel-cypress-uniswap.vercel.app^$doc,domain=~uniswap.org
@@ -130244,6 +130260,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||beluxrepm.followme.fr/FolloWMe$all,to=~realestate.bnpparibas.com
 ||mybluehost.me/Cope346/$all
 ||hopp.bio/servernet^$all,to=~sasktel.com
+||tesakom.com/aa/index.html^$all,to=~ebestsec.co.kr
 ||glitch.me/pdf.html?email=$doc
 ||cursorltd.com^$doc
 ||cprapid.com^$doc
@@ -130252,6 +130269,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||rozvag.com.ua/*/ionos/$all,to=~ionos.com
 ||mybluehost.me/*/choronopost/$doc,domain=~chronopost.fr
 ||dropbox*.weebly.com^$doc
+||lazada.gg^$all
 ||chamsockhachhang-$doc
 /^https?:\/\/dienmayxanh[-a-z0-9]+\.com\//$doc,domain=com|~dienmayxanh.com
 /^https:\/\/dich-vu(?:-[a-z0-9]+){2,3}\.com\//$doc,domain=com
@@ -130417,8 +130435,10 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||sites.google.com/view/softs-download^$all
 ||sites.google.com/view/sora-ai-v2^$all
 /^https:\/\/[a-z]{6,19}\.(?:com|net)\/js\?t=[_a-z0-9]+&ns=[a-z]{2}$/$script,3p,strict3p,match-case,to=com|net
-/^https:\/\/[a-z]{6,19}\.(?:com|net)\/(?:static_)?file\/\?t=[_a-z0-9]+&ns=[a-z]{2}$/$frame,popup,3p,strict3pmatch-case,to=com|net
+/^https:\/\/[a-z]{6,19}\.(?:com|net)\/(?:static_)?file\/\?t=[_a-z0-9]+&ns=[a-z]{2}$/$frame,popup,3p,strict3p,match-case,to=com|net
 /^https:\/\/[a-z]{6,19}\.(?:com|net)\/(?:static_)?file\/\?t=[_a-z0-9]+&ns=[a-z]{2}$/$doc,match-case,domain=com|net
+||shy-boat-90ce.jiko728928922.workers.dev^$doc,domain=~uniswap.org
+||uniwspapp.com^$all,to=~uniswap.org
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
