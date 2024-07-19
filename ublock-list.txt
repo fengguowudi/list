@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zxVAUPtgCBWn9W+CpI7kRw
+! Checksum: cj7icUVTCOi5qnYMVJq4aQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407191426
-! Last Modified: 2024年07月19日 14:26
+! Version: 202407192035
+! Last Modified: 2024年07月19日 20:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56239,6 +56239,7 @@ browsershots.org#@#.advert_area
 ||68646f.xyz^$document,popup
 ||691f42ad.xyz^$document,popup
 ||6a6672.xyz^$document,popup
+||70b927c8.live^$document,popup
 ||7608d5.xyz^$document,popup
 ||7ca989e1.xyz^$document,popup
 ||7e60f1f9.xyz^$document,popup
@@ -69694,7 +69695,7 @@ gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,goonhammer.com,joemygod.com,shtfplan.com,thestrongtraveller.com,usmagazine.com##.widget_block
 wplift.com##.widget_bsa
 techweekmag.com##.widget_codewidget
-4sysops.com,9to5linux.com,backthetruckup.com,catcountry941.com,cnx-software.com,corrosionhour.com,corvetteblogger.com,dailyveracity.com,dcrainmaker.com,fastestvpns.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,iwatchsouthparks.com,macsources.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,sashares.co.za,scienceabc.com,scienceandliteracy.org,spokesman-recorder.com,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com##.widget_custom_html
+4sysops.com,9to5linux.com,backthetruckup.com,catcountry941.com,cnx-software.com,corrosionhour.com,corvetteblogger.com,dailyveracity.com,dcrainmaker.com,discover.is,fastestvpns.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,iwatchsouthparks.com,macsources.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,sashares.co.za,scienceabc.com,scienceandliteracy.org,spokesman-recorder.com,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com##.widget_custom_html
 domaingang.com##.widget_execphp
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
 inlandvalleynews.com##.widget_goodlayers-1-1-banner-widget
@@ -73108,7 +73109,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 !! https://adssettings.google.com/anonymous?hl=en
 @@||googleads.g.doubleclick.net/ads/preferences/$domain=googleads.g.doubleclick.net
 !! imasdk.googleapis.com/js/sdkloader/ima3_dai.js
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|4029tv.com|bet.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|cc.com|embed.comicbook.com|gbnews.com|history.com|kcci.com|kcra.com|ketv.com|kmbc.com|koat.com|koco.com|ksbw.com|mynbc5.com|paramountplus.com|s.yimg.jp|sbs.com.au|tv.rakuten.co.jp|vk.sportsbull.jp|wapt.com|wbaltv.com|wcvb.com|wdsu.com|wesh.com|wgal.com|wisn.com|wjcl.com|wlky.com|wlwt.com|wmtw.com|wmur.com|worldsurfleague.com|wpbf.com|wtae.com|wvtm13.com|wxii12.com|wyff4.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|4029tv.com|bet.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|cc.com|embed.comicbook.com|gbnews.com|history.com|kcci.com|kcra.com|ketv.com|kmbc.com|koat.com|koco.com|ksbw.com|mdstrm.com|mynbc5.com|paramountplus.com|s.yimg.jp|sbs.com.au|tv.rakuten.co.jp|vk.sportsbull.jp|wapt.com|wbaltv.com|wcvb.com|wdsu.com|wesh.com|wgal.com|wisn.com|wjcl.com|wlky.com|wlwt.com|wmtw.com|wmur.com|worldsurfleague.com|wpbf.com|wtae.com|wvtm13.com|wxii12.com|wyff4.com
 !! pubads.g.doubleclick.net/ondemand/hls/
 @@||pubads.g.doubleclick.net/ondemand/hls/$domain=history.com
 !! ||imasdk.googleapis.com/js/core/bridge
@@ -80008,6 +80009,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking*.euroads.fi^$third-party
 ||vihtori-analytics.fi^$third-party
 ||tbcconnect.ge^$third-party
+||appocalypsis.com^$third-party
 ||linkwi.se^$third-party
 ||enter-system.com^$third-party
 ||erate.co.il^$third-party
@@ -84698,6 +84700,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||el.quizlet.com^
 ||elitesingles.com/cs/tp.png?
 ||embed.reddit.com/svc/shreddit
+||embedme.top/embed/extra
 ||engagefront.meteomedia.com^
 ||engagefront.theweathernetwork.com^
 ||engagement.feedly.com^
@@ -85785,6 +85788,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wattpad.com/js/tracker/app.
 ||wc.yahoodns.net^$image
 ||wccftech.com/cnt7vfDVvWa3.js
+||web.snapchat.com/web-analytics-v2/web/events
 ||web.whatsapp.com/wam
 ||webd-assets.cdn4dd.com/s.js$domain=doordash.com
 ||weblog.flyasiana.com^
@@ -129911,12 +129915,13 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||otomoto-h229.net^$all,to=~otomoto.pl
 ||mybluehost.me/*Recibir_paquete.php$doc,domain=~correos.es
 ||codeanyapp.com/klarna/$doc,domain=~klarna.com
-||griffithdds.com/*/madeinchina.com/$all,to=~made-in-china.com
 ||mybluehost.me/*/dir/ca/pay/$doc,domain=~canadapost-postescanada.ca
 ||21cpromotions.com/logs/postch/$all,to=~laposte.fr
 ||inner.website/*.html^$all
 ||colegiovilamilitar.com.br/*/linkedin_^$all,to=~linkedin.com
 ||hand-to-hand.cfolks.pl^$all,to=~ram.co.za
+||griffithdds.com/*/madeinchina.com/$all,to=~made-in-china.com
+||oortech.com/mic.shtml^$doc,domain=~made-in-china.com
 ||yellowjacket.co.nz^$all,to=~fedex.com
 ||bookingtool.azurewebsites.net^$all,to=~fedex.com
 ||saham.hugaf.dev^$all,to=~fedex.com
@@ -129957,8 +129962,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||racks.pages.dev^$all,to=~rackspace.com
 ||rackweb-----support*.weebly.com^$all,to=~rackspace.com
 ||dana-indone*.id^$doc,domain=my.id|web.id|~dana.id
-||xcxcx.my.id^$doc,domain=~dana.id
-||pemesanan*.glowz.my.id^$doc,domain=~dana.id
 -dna-log-*.biz.id^$doc,domain=biz.id|~dana.id
 ||xxtl-v1.biz.id^$doc,domain=~dana.id
 ||xlink-dna-log-new.xxtl-v1.biz.id^$all,to=~dana.id
@@ -129966,16 +129969,19 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||hadiah-dana2024.beviz.biz.id^$all,to=~dana.id
 ||kelim-kaget-dana.masuk.biz.id^$all,to=~dana.id
 ||official-dana-dana-id.bantuanmu.biz.id^$all,to=~dana.id
+||danaxspaylaterr.biz.id^$all,to=~dana.id
+||xcxcx.my.id^$doc,domain=~dana.id
+||pemesanan*.glowz.my.id^$doc,domain=~dana.id
 ||xclaimz-id-danakagetxid7.x-id.my.id^$all,to=~dana.id
 ||bntuanoffcl-dna.hdco.my.id^$all,to=~dana.id
 ||saaweran-salldodanald.klick-net.my.id^$all,to=~dana.id
 ||pemba4talan-engajuannn-payylater7.e-fiiles.my.id^$all,to=~dana.id
+||claim-hadiah-dxnakaget1.t-7.my.id^$all,to=~dana.id
 ||pemesanan-marrket-lpg-pertaminaa.glowz.my.id^$all,to=~dana.id
 ||pemesanann-lpg-pertamina-market-deliveryy.glowz.my.id^$all,to=~dana.id
-||claim-hadiah-dxnakaget1.t-7.my.id^$all,to=~dana.id
+||lyn4anbantu4n-dna.id-my.web.id^$all,to=~dana.id
 ||gdnapqmhbs.1myall.com^$all,to=~dana.id
 ||hadiah.dana.kaget.webappsystem.com^$all,to=~dana.id
-||danaxspaylaterr.biz.id^$all,to=~dana.id
 ||orange53.yolasite.com^$all,to=~orange.fr
 ||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
 ||smsmmsernorepls.wixsite.com^$all,to=~orange.fr
@@ -129990,8 +129996,9 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||amazonl3.com^$all
 ||etisalat-amazonprime.com^$all,to=~etisalat.ae
 ||tepoty.com^$all
-||signinamzncawebapp.sviluppo.host^$all
+||daroznel.com^$all
 ||bb69nn7.icu^$all
+||signinamzncawebapp.sviluppo.host^$all
 ||ecommrce-web-amazon.netlify.app^$all
 ||mybluehost.me/wp-admin/amz/$doc
 ||c.vn-ebayn.vip^$all
@@ -130075,6 +130082,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||solutionfun.info^$all
 ||zdrhuagh.elementor.cloud/*/index.html$all
 ||leatherqueen.shop^$all
+||dhl-express-ppd.infanion.com^$all,to=~dhl.com
 ||notificationbyfacebook.$doc
 ||notificationbyfacebook.firebaseapp.com^$all
 ||notificationbyfacebook.web.app^$all
@@ -130112,6 +130120,9 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||appealcasesid.com^$doc
 ||metabussines.com^$all
 ||transparency-business.com^$all
+||http://marketplace-item-details-*.zya.me^$all
+/^https:\/\/business\.[a-z]+identiityconfirm\.com\/meta-community-standard\d{15}\/?/$doc,domain=com
+/\.pages\.dev\/help\/contact\/\d{14,19}\b/$doc,match-case,domain=pages.dev|~facebook.com
 ||instructions-video.vercel.app/detailed_video.mp4$media
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=access-control-allow-headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=Access-Control-Allow-Headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
@@ -140643,6 +140654,7 @@ jprime.jp##+js(trusted-rpnt, script, var ISMLIB, !function(){const o={apply:(o\,
 127.0.0.1 adadvisor.net
 127.0.0.1 adalliance.io
 127.0.0.1 adanging.blog
+127.0.0.1 adap.tv
 127.0.0.1 adapt.tv
 127.0.0.1 adaranth.com
 127.0.0.1 adbilty.me
@@ -143236,7 +143248,6 @@ jprime.jp##+js(trusted-rpnt, script, var ISMLIB, !function(){const o={apply:(o\,
 127.0.0.1 rle.ru
 127.0.0.1 rmads.msn.com
 127.0.0.1 rmedia.boston.com
-127.0.0.1 rmgserving.com
 127.0.0.1 roar.com
 127.0.0.1 robotreplay.com
 127.0.0.1 rockabox.co
