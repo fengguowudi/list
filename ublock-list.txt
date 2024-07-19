@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UBT4m1tbK1f4ztSAHPw+ew
+! Checksum: zxVAUPtgCBWn9W+CpI7kRw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407190923
-! Last Modified: 2024年07月19日 09:23
+! Version: 202407191426
+! Last Modified: 2024年07月19日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -75380,6 +75380,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /statistic/pixel?
 /statistics.js?$third-party
 /statistics/pixel/*
+/statistics/visit?id=
 /StatRecorder.asp?
 /stats-collect
 /stats-js.cgi?
@@ -75813,7 +75814,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /visit/log.js?
 /visit/record.gif?
 /visit/record?
-/visit?id=
 /visit_log.js
 /visitcounter.do
 /visitcounter.js
