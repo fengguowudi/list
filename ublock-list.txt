@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i/F38y1x6ypgQQlwqT8HZQ
+! Checksum: 0uYIsHwtMzJY2SKlhe3IhA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407202033
-! Last Modified: 2024年07月20日 20:33
+! Version: 202407210225
+! Last Modified: 2024年07月21日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56298,6 +56298,7 @@ browsershots.org#@#.advert_area
 ||b82978.xyz^$document,popup
 ||b903c2.xyz^$document,popup
 ||b9f25b.site^$document,popup
+||bc0ca74b.live^$document,popup
 ||bc98ad.xyz^$document,popup
 ||bcbe.site^$document,popup
 ||bd5a57.xyz^$document,popup
@@ -65141,7 +65142,11 @@ appleworld.today###block-26
 raspians.com###block-29
 raspians.com###block-31
 upfivedown.com###block-4
+club386.com###block-43
+club386.com###block-47
+club386.com###block-49
 game-news24.com###block-50
+club386.com###block-51
 ericpetersautos.com,upfivedown.com###block-6
 systutorials.com###block-7
 upfivedown.com###block-8
@@ -66976,7 +66981,11 @@ rpgsite.net##.block
 soundonsound.com##.block---managed
 worldviewweekend.com##.block--advertisement
 analyticsinsight.net##.block-10
+club386.com##.block-25
+club386.com##.block-30
+club386.com##.block-39
 megagames.com##.block-4
+club386.com##.block-41
 crash.net##.block-ad-manager
 thebaltimorebanner.com##.block-ad-zone
 autocar.co.uk##.block-autocar-ads-lazyloaded-mpu2
@@ -129533,6 +129542,24 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||miray-k.jp^$doc
 ||kaimiray-k.jp^$doc
 ||luna-ria.jp^$doc
+||ms88sv.com^$doc
+||msiv5.com^$doc
+||free-ren.jp^$doc
+||free-ren.com^$doc
+||zeroappointment.com^$doc
+||zeroapo.com^$doc
+||zeroendeapo.com^$doc
+||fortune-crystal.com^$doc
+||ctl.ultima.fun^$doc
+||fab-inst.com^$doc
+||ube71ki83.com^$doc
+||ai-mono.jp^$doc
+||again-agreement.com^$doc
+||birth-bravery.com^$doc
+||cross-customer.com^$doc
+||desk-dictionary.com^$doc
+||event-experiment.com^$doc
+||final-future.com^$doc
 ||soft-pro.site^$all
 ||apkmirror.co^$all
 ||webogram.org^$all
@@ -129708,6 +129735,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||blob.core.windows.net/$web/index.html$doc
 ||windows.net/*?bcda=$doc
 /index.html?ph0n=1-$doc
+||technosoft35.ru^$all
 ||japanonlinebroadcast.live^$all
 ||crackedpc.org^$all
 ||cracksway.com^$all
@@ -130010,6 +130038,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||pemesanan*.glowz.my.id^$doc,domain=~dana.id
 ||pemesanan-marrket-lpg-pertaminaa.glowz.my.id^$all,to=~dana.id
 ||pemesanann-lpg-pertamina-market-deliveryy.glowz.my.id^$all,to=~dana.id
+||penerimaan-hadiah-giveaway-10juta.clau.my.id^$all,to=~dana.id
+||pemulihan.akun-dana-24.system-online.my.id^$all,to=~dana.id
 ||gdnapqmhbs.1myall.com^$all,to=~dana.id
 ||orange53.yolasite.com^$all,to=~orange.fr
 ||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
@@ -130019,6 +130049,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||enjoymatic.com/landings/es-avengers/$all,to=~orange.es
 ||servicemailorange25.wixsite.com^$all,to=~orange.fr
 ||assistancesosh.wixsite.com^$all,to=~orange.fr
+/or/.espace-.client/(;authentication.htm^$doc,domain=~orange.fr
 ||amazon-*.shop^$doc
 ||amazon-shopping.shop^$all
 ||amazonl3.com^$all
@@ -130033,6 +130064,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||51eabay.com^$all
 ||135buy.com^$all
 ||ebaydw.cc^$all
+||pages.dev/errors/validateCaptcha^$doc
 ||wixsite.com/att-support/$doc
 ||diwapa3051.wixsite.com^$all
 ||idhnochalter.wixsite.com^$all
@@ -130133,7 +130165,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||transparency-business.com^$all
 ||http://marketplace-item-details-*.zya.me^$all
 /^https:\/\/business\.[a-z]+identiityconfirm\.com\/meta-community-standard\d{15}\/?/$doc,domain=com
-/\.pages\.dev\/help\/contact\/\d{14,19}\b/$doc,match-case,domain=pages.dev|~facebook.com
+/\.(?:pages\.dev|surge\.sh)\/help\/contact\/\d{14,19}\b/$doc,match-case,domain=pages.dev|surge.sh|~facebook.com
+||business-help-temp-$doc
 ||instructions-video.vercel.app/detailed_video.mp4$media
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=access-control-allow-headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=Access-Control-Allow-Headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
@@ -130164,7 +130197,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||steemcommuntiy.com^$all
 ||steam.workshopstyle.com^$all
 ||steam.communitybrowserpowered.com^$all
-||mobilelegendsmycode.com^$all
 /^https:\/\/(?:www\.)?(?:ff[-.])?member[-.]gare[a-z]+a(?:\.pro)?\.vn\//$doc,domain=vn|~garena.vn
 /^https:\/\/(?:www\.)?(?:ff[-.])?men?mber[-.]garena\.vn\//$doc,domain=vn|~garena.vn
 ||garerna.vn^$all,to=~garena.vn
@@ -130176,6 +130208,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||pubg-arena.top^$all
 ||register-turnamen.free.nf^$all
 ||pubgm-zing-vn.com^$all
+||mobilelegendsmycode.com^$all
+||eventdmkuning.brenn.biz.id^$all
 ||bxzxenzidrmrksu.jiongcao.cn^$all
 ||google-stare.com^$all
 ||datahub.center^$all
@@ -130300,6 +130334,10 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||utahpolicetraining.*.mybluehost.me^$all
 ||mybluehost.me/*/choronopost/$doc,domain=~chronopost.fr
 ||dropbox*.weebly.com^$doc
+?email=3mail@b.c|$doc
+?email=3mail@b.c/|$doc
+||com/isignesp.php^$doc,domain=com|~apple.com
+||help/isignesp.php^$doc,domain=help|~apple.com
 ||lazada.gg^$all
 ||chamsockhachhang-$doc
 /^https?:\/\/dienmayxanh[-a-z0-9]+\.com\//$doc,domain=com|~dienmayxanh.com
@@ -130340,9 +130378,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||nze98582s.com^$all,to=~shopee.vn
 ||tdke00.com^$all,to=~tiki.vn
 ||uudai-tructuyen-$doc
-||arnaudpairoto.com^$all
-||puttyconnect.info^$all
-||astrosphere.world^$all
 ||uudaikhachhang-$doc
 ||nang-hang-$doc
 ||tikijaj2.com^$all,to=~tiki.vn
@@ -130353,6 +130388,9 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||hangtietkiem.com^$all,to=~giaohangtietkiem.vn
 ||tcvnhomefic.com^$all,to=~mbbank.com.vn
 ||lapdatinternet.net^$all,to=~sctv.com.vn
+||arnaudpairoto.com^$all
+||puttyconnect.info^$all
+||astrosphere.world^$all
 ||pythanhosted.org^$all
 ||marketplace-item-*.000.pe^$doc
 /^https:\/\/(?:ai|art|get)-?midjourney[^\/]+\//$doc,domain=~midjourney.com|~edu|~gov
