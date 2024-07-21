@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tVYvt1brNwAe0sXm7VY3zg
+! Checksum: MC+iJhHIhUMlJjWhXZtNGg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407212034
-! Last Modified: 2024年07月21日 20:34
+! Version: 202407220223
+! Last Modified: 2024年07月22日 02:23
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -47636,6 +47636,7 @@ browsershots.org#@#.advert_area
 ||strikinghystericalglove.com^
 ||stringssymptomfishing.com^
 ||stringthumbprowl.com^
+||stripedcover.pro^
 ||stripedonerous.com^
 ||striperaised.com^
 ||striperewind.com^
@@ -48480,6 +48481,7 @@ browsershots.org#@#.advert_area
 ||teeglimu.com^
 ||teelconch.com^
 ||teemcapablespinal.com^
+||teemingweekend.com^
 ||teemooge.net^
 ||teenagerapostrophe.com^
 ||teensexgfs.com^
@@ -56325,6 +56327,7 @@ browsershots.org#@#.advert_area
 ||e076.xyz^$document,popup
 ||e1577bbd-2a7e-4bee-b2fe-12a6406689e5.xyz^$document,popup
 ||e1ce13d5.xyz^$document,popup
+||e75d10b9.live^$document,popup
 ||ec44.site^$document,popup
 ||f090.site^$document,popup
 ||f2f8.xyz^$document,popup
@@ -84759,6 +84762,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eighten-bloc-party.thebrowser.company/script.js
 ||ejlytics.editorji.com^
 ||el.quizlet.com^
+||eldorado.gg/liberate_script_data_
 ||elitesingles.com/cs/tp.png?
 ||embed.reddit.com/svc/shreddit
 ||embedme.top/embed/extra
@@ -85668,6 +85672,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||terabox.app/issue/terabox/ts_ad/
 ||terabox.com/abdr?
 ||termsfeed.com/track/
+||test.torrentfreak.com^
 ||tgt.maep.ibm.com^
 ||theblock.co/api/analytics
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
@@ -123465,7 +123470,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||ipinfo.io/json$domain=queye.co
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
-@@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
+@@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com|live.griiip.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com|thefork.com
 @@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
@@ -129827,7 +129832,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||vanced.pro^$all,domain=~revanced.app
 ||vancedmanager.$all,domain=~revanced.app
 ||revancedapps.$all,domain=~revanced.app
-||luckypatchers.net^$all,domain=~luckypatchers.com
+||luckypatcher.*^$all,domain=~luckypatchers.com
+||luckypatchers.*^$all,domain=~luckypatchers.com,to=~luckypatchers.com
 ||luckypatcherwin.com^$all,domain=~luckypatchers.com
 ||etcher.net^$all,domain=~etcher.balena.io
 ||etcher.download^$all,domain=~etcher.balena.io
@@ -131073,7 +131079,7 @@ dev.to##+js(cookie-remover, ahoy_visit)
 ||autotrader.com/*/pep?pixallId
 ||partner.awscconsumerinfo.autotrader.com/*/beacon/
 advocate-news.com,akronnewsreporter.com,bocopreps.com,bostonherald.com,broomfieldenterprise.com,brushnewstribune.com,buffzone.com,burlington-record.com,canoncitydailyrecord.com,chicagotribune.com,chicoer.com,coloradodaily.com,coloradohometownweekly.com,courant.com,dailybreeze.com,dailybulletin.com,dailycamera.com,dailydemocrat.com,dailyfreeman.com,dailylocal.com,dailynews.com,dailypress.com,dailytribune.com,delcotimes.com,denverpost.com,eastbaytimes.com,eastbaytimes.com,eptrail.com,excelsiorcalifornia.com,fortmorgantimes.com,greeleytribune.com,journal-advocate.com,julesburgadvocate.com,lamarledger.com,lowellsun.com,macombdaily.com,mainlinemedianews.com,marinij.com,mcall.com,mendocinobeacon.com,mercurynews.com,mercurynews.com,montereyherald.com,morningjournal.com,nashobavalleyvoice.com,news-herald.com,nydailynews.com,ocregister.com,oneidadispatch.com,orlandosentinel.com,orovillemr.com,paradisepost.com,pasadenastarnews.com,pilotonline.com,pottsmerc.com,pressandguide.com,pressenterprise.com,presstelegram.com,readingeagle.com,record-bee.com,redbluffdailynews.com,redlandsdailyfacts.com,reporterherald.com,sandiegouniontribune.com,santacruzsentinel.com,saratogian.com,sbsun.com,sentinelandenterprise.com,sgvtribune.com,siliconvalley.com,southplattesentinel.com,sun-sentinel.com,themorningsun.com,thenewsherald.com,theoaklandpress.com,thereporter.com,thereporteronline.com,times-standard.com,timescall.com,timesherald.com,timesheraldonline.com,trentonian.com,troyrecord.com,twincities.com,ukiahdailyjournal.com,voicenews.com,whittierdailynews.com,willitsnews.com##+js(set-session-storage-item, nxt_is_incognito, false)
-||test.torrentfreak.com^
+pitchfork.com##+js(href-sanitizer, a[href^="https://cna.st/"][data-offer-url^="https://"], [data-offer-url])
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
