@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KOK4OqPDCX/h3lQH70iXgQ
+! Checksum: f/3ZHfVLlhJaiNZkWgmRtA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407220925
-! Last Modified: 2024年07月22日 09:25
+! Version: 202407221427
+! Last Modified: 2024年07月22日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -65087,7 +65087,7 @@ gayvegas.com###background
 presearch.com###background-cover
 soccerbase.com###ball_splash_holder
 gamepressure.com###baner-outer
-allmyfaves.com,allthetests.com,dailynews.lk,dealsonwheels.co.nz,eth-converter.com,farmtrader.co.nz,freealts.pw,goosegame.io,greatbritishchefs.com,moviesfoundonline.com,pajiba.com,sundayobserver.lk,techconnect.com,vstreamhub.com###banner
+allmyfaves.com,allthetests.com,dailynews.lk,dealsonwheels.co.nz,eth-converter.com,farmtrader.co.nz,freealts.pw,goosegame.io,greatbritishchefs.com,moviesfoundonline.com,mp3-convert.org,pajiba.com,sundayobserver.lk,techconnect.com,vstreamhub.com###banner
 euroweeklynews.com###banner-970
 interest.co.nz###banner-ad-wrapper
 bbcamerica.com,ifc.com,sundancetv.com,wetv.com###banner-bottom
@@ -130016,10 +130016,20 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||mybluehost.me/*/dir/ca/pay/$doc,domain=~canadapost-postescanada.ca
 ||21cpromotions.com/logs/postch/$all,to=~laposte.fr
 ||inner.website/*.html^$all
+/^https:\/\/www\.[a-z]{4,5}\.[a-z]{3,7}\/[a-z0-9]{36}\.html\b/$doc,match-case,domain=com|info|website|~edu|~gov|~google.com
 ||colegiovilamilitar.com.br/*/linkedin_^$all,to=~linkedin.com
 ||hand-to-hand.cfolks.pl^$all,to=~ram.co.za
+/\/recharge\d?\.(?:html|php)\?mobile=\d{10}\b/$doc,match-case,domain=~jio.com|~edu|~gov
+/offer.php?rechargenumber=$doc,domain=~jio.com|~edu|~gov
+/offer.html?rechargenumber=$doc,domain=~jio.com|~edu|~gov
+||com/isignesp.php^$doc,domain=com|~apple.com
+||help/isignesp.php^$doc,domain=help|~apple.com
+/^https:\/\/apple\.[a-z]{6}\.com\//$domain=com|~apple.com
+||login-ourtime.members-datings.workers.dev^$all,domain=~ourtime.com
+||profile-ourtime.*.workers.dev^$doc,domain=~ourtime.com
 /^https:\/\/(?:[a-z]{4,6}\.)?tiktok\d{2,5}\.com\//$doc,domain=com|~tiktok.com
 /^https:\/\/(?:[a-z]{4,6}\.)?tiktok\d{2,5}\.cc\//$doc,domain=cc|~tiktok.com
+/\/wap\/api\/(?:activity\/)?[a-zA-Z]+![_-a-zA-Z]+\.action\?/$xhr,1p,strict1p,match-case
 ||griffithdds.com/*/madeinchina.com/$all,to=~made-in-china.com
 ||oortech.com/mic.shtml^$doc,domain=~made-in-china.com
 ||yellowjacket.co.nz^$all,to=~fedex.com
@@ -130064,6 +130074,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||hadiah-dana2024.beviz.biz.id^$all,to=~dana.id
 ||kelim-kaget-dana.masuk.biz.id^$all,to=~dana.id
 ||aktivasi-danaid.resmi7752.biz.id^$all,to=~dana.id
+||customer-service-danaid.dankyz.biz.id^$all,to=~dana.id
 ||danaxspaylaterr.biz.id^$all,to=~dana.id
 ||xcxcx.my.id^$doc,domain=~dana.id
 ||pemesanan*.glowz.my.id^$doc,domain=~dana.id
@@ -130084,16 +130095,18 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||amazon-*.shop^$doc
 ||amazon-shopping.shop^$all
 ||amazonl3.com^$all
-||etisalat-amazonprime.com^$all,to=~etisalat.ae
 ||tepoty.com^$all
 ||daroznel.com^$all
+||shop73.online^$all
 ||ecommrce-web-amazon.netlify.app^$all
+||etisalat-amazonprime.com^$all,to=~etisalat.ae
 ||mybluehost.me/wp-admin/amz/$doc
 ||c.vn-ebayn.vip^$all
 ||vn-ebay.quxlpuj.cn^$all
 ||ebayasean.com^$all
 ||vilbuy.com^$all
 ||ebaydw.com^$all
+||show.naturecircle.shop^$all
 ||51eabay.com^$all
 ||135buy.com^$all
 ||ebaydw.cc^$all
@@ -130130,6 +130143,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||wcomhost.com/amendes-gouv/$doc,domain=~amendes.gouv.fr
 ||wcomhost.com/*/am/3dsece.php^$doc,domain=~amendes.gouv.fr
 /am/*.php^$doc,domain=mybluehost.me|wcomhost.com|~amendes.gouv.fr
+||fi/a/Amendes/*.php^$doc,domain=fi|~amendes.gouv.fr
+||fi/part/Amendes/*.php^$doc,domain=fi|~amendes.gouv.fr
 ||chamsocthekhachhang-$doc,domain=~edu|~gov|~edu.vn|~gov.vn
 ||sotuyenvcb.vietcombanker.com^$all,to=~vietcombank.com.vn
 ||vdbank.com.vn^$all,to=~vdb.gov.vn
@@ -130157,6 +130172,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||glitch.me/*/nationwide^$doc,domain=~nationwide.co.uk
 ||mybluehost.me/ameli/$doc,domain=~ameli.fr
 /28kxhS^$doc,domain=online|shop|top|~sberbank.ru
+||xyz/akbank/$doc,domain=xyz|~akbank.com
+||artecafe.eu/html/postde/pst/$all,to=~postbank.de
 ||dhl.*.potabox.com^$doc,domain=~dhl.com
 ||dhl-event.app^$all,to=~dhl.com
 ||dhexpress.weebly.com^$all,to=~dhl.com
@@ -130168,11 +130185,13 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||zdrhuagh.elementor.cloud/*/index.html$all
 ||leatherqueen.shop^$all
 ||dhl-express-ppd.infanion.com^$all,to=~dhl.com
+||instagram-mail.net^$all
 ||notificationbyfacebook.$doc
 ||notificationbyfacebook.firebaseapp.com^$all
 ||notificationbyfacebook.web.app^$all
 ||business-facebook-*.pages.dev^$all
 ||unusualaccountcnfrmpages.github.io^$all
+||review-your-page.000.pe^$all
 ||facebook.prantiksoft.com^$all
 ||facebook-guidelines.com^$all
 ||www-mfacebook.$doc
@@ -130241,6 +130260,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||gareza.vn^$all,to=~garena.vn
 ||garena.pro.vn^$all,to=~garena.vn
 ||ff-menmber-garena.vn^$all,to=~garena.vn
+||rewards-ff-garenaa.ru^$all
 ||gaerana.io.vn^$all,to=~garena.vn
 ||gareana.vn^$all,to=~garena.vn
 ||pubg-arena.top^$all
@@ -130289,12 +130309,15 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||microsofthotmailsi1.wixsite.com^$all
 ||telegramhcn.com^$all
 ||web.telegram.data-bees.cn^$all
-||telegramkv.com^$all
 ||haveplentymusic.com^$all
 ||newappmssg.ru^$all
 ||telegrambotsolution.pages.dev^$all
+/^https:\/\/www\.telegramk[a-z]\.com\//$domain=com|~telegram.org
+||telegramkv.com^$all
 ||telegramkp.com^$all
 ||cdn-telegram.com^$all
+||telegramkd.com^$all
+||telegram-zhongwen.com^$all
 ||rr.nu^$doc
 /^https:\/\/usps\.[-a-z]{6,}\.(?:com|top)\/(?:address\.html|information|verify)\b/$doc,domain=com|top|~usps.com
 /^https:\/\/ur[cex][a-z]{2,4}\.com\/(?:address\.html|information|verify)\b/$doc,domain=com|~usps.com
@@ -130378,8 +130401,6 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||dropbox*.weebly.com^$doc
 ?email=3mail@b.c|$doc
 ?email=3mail@b.c/|$doc
-||com/isignesp.php^$doc,domain=com|~apple.com
-||help/isignesp.php^$doc,domain=help|~apple.com
 /^https:\/\/([a-z]-){10,15}[a-z]\.(?:com|net)\.tr\//$doc,domain=com.tr|net.tr
 ||lazada.gg^$all
 ||chamsockhachhang-$doc
@@ -130564,6 +130585,11 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||portalintranetgrupobbva.com^$all
 ||dropbox.com/*/crowdstrike-hotfix.zip^$all
 ||amazon-analytic.com^$all
+||eventstickets.club^$all,to=~tickets.paris2024.org
+||tickets.website.com.se^$all,to=~tickets.paris2024.org
+||ticketsparis24.com^$all,to=~tickets.paris2024.org
+||tickets-paris24.com^$all,to=~tickets.paris2024.org
+||ticket-paris24.com^$all,to=~tickets.paris2024.org
 ||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
