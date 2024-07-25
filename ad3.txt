@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: x8G+bd4Au19Mfua0zBVaaA
+! Checksum: 5ThHtIICgkH/SgO47y9xPQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202407250923
-! Last Modified: 2024年07月25日 09:23
+! Version: 202407251426
+! Last Modified: 2024年07月25日 14:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1855,6 +1855,7 @@ newduba.cn###jq_youxi
 ||vpdnjl.xyz^
 ||8q88n.icu^
 ||shbzegs.cn^
+||myretux.top^
 ||wbqqo.com^$third-party
 ||jetlwsa.top^
 ||er1h4.icu^
@@ -32067,6 +32068,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.box.com/app-api/split-proxy/api/metrics
 ||app.box.com/gen204
 ||appanalysis.banggood.com^
+||apple-mapkit.com/mw/v1/reportAnalytics
 ||argtesa.com/cdn-cgi/trace
 ||armedangels.com/javascript/script.js
 ||arttrk.com/pixel/
@@ -33485,6 +33487,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||xhcdn.com/js/*.track.min.js
 ||xing.com/logjam/
 ||xnxx.com/picserror/
+||xp-qa.apple.com/report/2/xp_amp_web_error_log
+||xp-qa.apple.com/report/2/xp_amp_web_perf_log
 ||xvideos.com/picserror/
 ||xxf.mobi/hit
 ||ya.ru/clck/
