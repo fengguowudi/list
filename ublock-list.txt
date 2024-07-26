@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: edd+43T09lI7AnfK2ufvNQ
+! Checksum: 8RivWXYdz7yXpe1SJMwDCQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407260922
-! Last Modified: 2024年07月26日 09:22
+! Version: 202407261426
+! Last Modified: 2024年07月26日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -9698,6 +9698,7 @@ _800x80_
 ##.adthrive-placeholder-content
 ##.adthrive-placeholder-header
 ##.adthrive-placeholder-static-sidebar
+##.adthrive-sidebar
 ##.adthrive-video-player
 ##.adthrive_custom_ad
 ##.adtile
@@ -64180,7 +64181,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||purexbox.com/javascript/gn/prebid-
 ||wsj.net/pb/pb.js
 ||fireworkapi1.com^$domain=boldsky.com
-||anyclip.com^$third-party,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~video.timeout.com|~wsls.com
+||anyclip.com^$third-party,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~therealdeal.com|~video.timeout.com|~wsls.com
 ||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
@@ -80937,6 +80938,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analyticssec.overwolf.com^
 ||ancestrycdn.com/tao/at/
 ||anyclip.com/getuids?
+||anyclip.com/v1/lre-events?
 ||ao-freegeoip.herokuapp.com^
 ||aol.com/ping?
 ||aolcdn.com/js/mg2.js
@@ -83048,6 +83050,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uid.mediacorp.sg^
 ||uim.tifbs.net^
 ||unibet.de/stan/campaign.do?*&affiliateId=$subdocument,third-party
+||unifyintent.com/analytics/
 ||units.knotch.it^
 ||unpkg.com/web-vitals?
 ||uptime.com/static/rum/$third-party
@@ -84839,6 +84842,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consumer.org.nz/session/ping/
 ||containers.appdomain.cloud/api/send-log$domain=ibm.com
 ||copilot-telemetry.githubusercontent.com^
+||count.darkreader.app^
 ||count.rin.ru^
 ||counter.darkreader.app^
 ||coursehero.com/v1/data-tracking
@@ -85785,6 +85789,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||strtapewithadblock.xyz/stat/
 ||strtpe.link/stat/
 ||stubhub.com/a/icph
+||stytch.com/sdk/v1/events
 ||suaurl.com/adblock/js/smarttag.js
 ||support.github.com/_event
 ||support.github.com/_stats
@@ -85860,6 +85865,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||telemetry.algolia.com^
 ||telemetry.api.playstation.com^
 ||telemetry.firez.one^
+||telemetry.stytch.com^
 ||telemetry.tradingview.com^
 ||tellerreport.com/react/pixel
 ||terabox.app/api/analytics?
@@ -130210,6 +130216,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||thriveinclusion.com^$all,to=~web.de
 ||talktalk0.godaddysites.com^$all,to=~talktalk.co.uk
 ||unclepigva.com^$all,to=~chase.com
+||ee-billing-recovery.web.app^$all,to=~ee.co.uk
 ||final-ua.eu/vasilisa/votings$all
 ||roycamining.com/pdeb/Untitled/$all,to=~docusign.com
 ||flow.page/foxhills.co.uk^$all,to=~foxhills.co.uk
@@ -130224,6 +130231,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||colegiovilamilitar.com.br/*/linkedin_^$all,to=~linkedin.com
 ||hand-to-hand.cfolks.pl^$all,to=~ram.co.za
 ||mybluehost.me/intesasanpaolo/$doc,domain=~intesasanpaolo.com
+||snapchatplus.fr^$all,to=~snapchat.com
+||snapscrttm.serv00.net^$all,to=~snapchat.com
 ||1234854.com^$all,to=~shopify.com
 ||suoncopbaonk.com^$all,to=~shopify.com
 ||paypal-complete.com^$all
@@ -130298,6 +130307,9 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||penerimaan-hadiah-giveaway-10juta.clau.my.id^$all,to=~dana.id
 ||pemulihan.akun-dana-24.system-online.my.id^$all,to=~dana.id
 ||gdnapqmhbs.1myall.com^$all,to=~dana.id
+||ambiil-hadiaa4h.cs-resmi.com^$all,to=~dana.id
+||danadigital2024.cs-zx.top^$all,to=~dana.id
+~edu,~gov##html[lang] > body:not([class]):not([id]) > div.container.hid[style] > div.box-login:not([id]) > form#formNohp[onsubmit="sendNohp(event);"]:not([class])
 ||orange53.yolasite.com^$all,to=~orange.fr
 ||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
 ||smsmmsernorepls.wixsite.com^$all,to=~orange.fr
@@ -130352,6 +130364,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||deenveerww.wixsite.com^$all
 ||att5h6.wixsite.com^$all
 ||wixstudio.io/mysiteattmail940940^$doc
+||f.digital-*.com/igit/$doc
 ||homelogginbbt.weebly.com^$all,to=~bt.com
 ||boardband.univer.se^$all,to=~bt.com
 ||thanhtrapcrt.online^$all,to=~thanhtra.gov.vn
@@ -130365,9 +130378,10 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||contactsupport.10ffc20.wcomhost.com^$all
 ||wcomhost.com/amendes-gouv/$doc,domain=~amendes.gouv.fr
 ||wcomhost.com/*/am/3dsece.php^$doc,domain=~amendes.gouv.fr
-/am/*.php^$doc,domain=mybluehost.me|wcomhost.com|~amendes.gouv.fr
+/am/*.php^$doc,domain=arubabusiness.it|mybluehost.me|wcomhost.com|~amendes.gouv.fr
 ||fi/a/Amendes/*.php^$doc,domain=fi|~amendes.gouv.fr
 ||fi/part/Amendes/*.php^$doc,domain=fi|~amendes.gouv.fr
+||mybluehost.me/wp-content/12/*.php^$doc,domain=~amendes.gouv.fr
 ||chamsocthekhachhang-$doc,domain=~edu|~gov|~edu.vn|~gov.vn
 ||sotuyenvcb.vietcombanker.com^$all,to=~vietcombank.com.vn
 ||vdbank.com.vn^$all,to=~vdb.gov.vn
@@ -130413,6 +130427,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||leatherqueen.shop^$all
 ||dhl-express-ppd.infanion.com^$all,to=~dhl.com
 ||elementor.cloud/*/ENGHUY645/$doc,domain=~dhl.com
+||mybluehost.me/*/phpmailer/src/dh/$doc,domain=~dhl.com
 ||ann.tess1.top^$all
 ||play.funfourmob.com^$all
 ||instagram-mail.net^$all
@@ -130503,6 +130518,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||gaerana.io.vn^$all,to=~garena.vn
 ||gareana.vn^$all,to=~garena.vn
 ||doivangfreefiregarena.io.vn^$all,to=~garena.vn
+||garane.io.vn^$all,to=~garena.vn
 ||pubg-arena.top^$all
 ||register-turnamen.free.nf^$all
 ||pubgm-zing-vn.com^$all
@@ -130555,6 +130571,9 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||e-messsage.com^$all
 ||supp0rt.co.za^$all
 ||ariabcon.com^$all
+||vkcs.cloud/owa.html^$doc
+||ocalam.com:8443/impact^$doc
+~edu,~gov##html[lang] > body[style="opacity: 1;"]:not([class]):not([id]) > div.wrapper.xbg-101:not([id]) > div.w3-display-container[style]:not([id])
 ||telegramhcn.com^$all
 ||web.telegram.data-bees.cn^$all
 ||haveplentymusic.com^$all
@@ -130610,9 +130629,11 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||mybluehost.me/*/csom/$doc,domain=~swisscom.ch
 ||secureserver.net/ruckstantung907921/$doc,domain=~swisscom.ch
 ||sviluppo.host/df/pass.php^$doc,domain=~swisscom.ch
+||mybluehost.me/sssssssssssssss/$doc,domain=~swisscom.ch
 ||codeanyapp.com/swiss-login/$doc
 ||swisspost.web.app^$all,to=~post.ch
 ||wcomhost.com/ch/upc/$all,to=~upc.ch
+||exodusrt.azurewebsites.net^$all,to=~exodus.com
 ||ledgerwallive.com^$all,to=~ledger.com
 ||mantanetworkcn.com^$all,to=~manta.network
 ||interface-git-parallel-cypress-uniswap.vercel.app^$doc,domain=~uniswap.org
@@ -130642,7 +130663,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||mmitalianbeef.square.site^$all,to=~mmitalianbeef.com
 ||bigbauer.com^$all,to=~gmx.com
 ||sacredtreespirit.com^$all,to=~ups.com
-||snapchatplus.fr^$all,to=~snapchat.com
 ||lkmw88.com^$all,to=~mercadolibre.com
 ||hologramid.cn^$all,to=~alibaba.com
 ||beluxrepm.followme.fr/FolloWMe$all,to=~realestate.bnpparibas.com
@@ -130669,6 +130689,9 @@ r2.dev##html[lang] > body.signInBg[oncontextmenu="return false;"][style]:not([id
 ||r2.dev/auth_*.html^$doc,domain=~docusign.com
 ||r2.dev/response_*.html^$doc,domain=~docusign.com
 r2.dev##html.account-server[lang] > body.site-content[onload="Z()"]:not([id]) > div#root:not([class]) > div.ink-authentication:not([id])
+||tin-dung-$doc
+||khcn-tindung-$doc
+||viettelgroup.com^$all,to=~viettel.com.vn
 ||khach-hang-the-$doc
 ||lazada.gg^$all
 ||chamsockhachhang-$doc
@@ -130748,7 +130771,6 @@ r2.dev##html.account-server[lang] > body.site-content[onload="Z()"]:not([id]) > 
 ||magicslimnhatban.com^$all
 ||giamcannhatban.com^$all
 ||examated.co.in^$doc
-||github.com/abyous3r/pocketfi_switch_farm-bot^$doc
 ||github.com/linarweloper/Blumfarmbot^$doc
 ||waredot.com^$doc
 ||waredot.us^$doc
@@ -130868,7 +130890,6 @@ r2.dev##html.account-server[lang] > body.site-content[onload="Z()"]:not([id]) > 
 ||kongtuke.com^$all
 ||egisela.com^$all
 ||uhsee.com^$all
-||taboola.com^$3p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -130945,7 +130966,6 @@ tweakers.net##+js(aost, btoa, send)
 ||yuktamedia.com^$3p
 ||gamedock.io^$3p
 ||stats.webgames.io^
-||sporizle1.pw/embed/*?stat=$frame
 ||blogfoster.com^$3p
 ||myanalytic.net^$3p
 ||t.simply-hentai.com^
@@ -131390,6 +131410,8 @@ dev.to##+js(cookie-remover, ahoy_visit)
 ||partner.awscconsumerinfo.autotrader.com/*/beacon/
 advocate-news.com,akronnewsreporter.com,bocopreps.com,bostonherald.com,broomfieldenterprise.com,brushnewstribune.com,buffzone.com,burlington-record.com,canoncitydailyrecord.com,chicagotribune.com,chicoer.com,coloradodaily.com,coloradohometownweekly.com,courant.com,dailybreeze.com,dailybulletin.com,dailycamera.com,dailydemocrat.com,dailyfreeman.com,dailylocal.com,dailynews.com,dailypress.com,dailytribune.com,delcotimes.com,denverpost.com,eastbaytimes.com,eastbaytimes.com,eptrail.com,excelsiorcalifornia.com,fortmorgantimes.com,greeleytribune.com,journal-advocate.com,julesburgadvocate.com,lamarledger.com,lowellsun.com,macombdaily.com,mainlinemedianews.com,marinij.com,mcall.com,mendocinobeacon.com,mercurynews.com,mercurynews.com,montereyherald.com,morningjournal.com,nashobavalleyvoice.com,news-herald.com,nydailynews.com,ocregister.com,oneidadispatch.com,orlandosentinel.com,orovillemr.com,paradisepost.com,pasadenastarnews.com,pilotonline.com,pottsmerc.com,pressandguide.com,pressenterprise.com,presstelegram.com,readingeagle.com,record-bee.com,redbluffdailynews.com,redlandsdailyfacts.com,reporterherald.com,sandiegouniontribune.com,santacruzsentinel.com,saratogian.com,sbsun.com,sentinelandenterprise.com,sgvtribune.com,siliconvalley.com,southplattesentinel.com,sun-sentinel.com,themorningsun.com,thenewsherald.com,theoaklandpress.com,thereporter.com,thereporteronline.com,times-standard.com,timescall.com,timesherald.com,timesheraldonline.com,trentonian.com,troyrecord.com,twincities.com,ukiahdailyjournal.com,voicenews.com,whittierdailynews.com,willitsnews.com##+js(set-session-storage-item, nxt_is_incognito, false)
 pitchfork.com##+js(href-sanitizer, a[href^="https://cna.st/"][data-offer-url^="https://"], [data-offer-url])
+||vpnmentor.com/jssdk/track/
+vpnmentor.com##+js(cookie-remover, /_alooma/)
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -133837,6 +133859,12 @@ jprime.jp##+js(trusted-rpnt, script, var ISMLIB, !function(){const o={apply:(o\,
 @@||fundingchoicesmessages.google.com^$script,domain=hurriyet.com.tr
 @@||googletagmanager.com/gtm.js$script,3p,domain=eu.community.samsung.com
 @@||t.eloqua.com/e/$xhr,domain=fortinet.com
+||g.doubleclick.net/gampad/ads?env=$xmlhttprequest,domain=wunderground.com,important
+||pagead2.googlesyndication.com/tag/js/gpt.js$script,domain=wunderground.com,important
+||pagead2.googlesyndication.com/pagead/managed/js/gpt/*/pubads_impl.js?$script,domain=wunderground.com,important
+wunderground.com##+js(no-fetch-if, doubleclick)
+wunderground.com##+js(nano-stb, isPeriodic, 2200, 0.001)
+wunderground.com##+js(nano-stb, isPeriodic, 2300, 0.001)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
