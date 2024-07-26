@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8RivWXYdz7yXpe1SJMwDCQ
+! Checksum: s+VOhcEVYhBC5uwYQ+muog
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407261426
-! Last Modified: 2024年07月26日 14:26
+! Version: 202407262034
+! Last Modified: 2024年07月26日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15977,7 +15977,7 @@ stuff.tv#@#.c-ad
 thedigestweb.com#@#.c-ad-banner
 deployhappiness.com,dmitrysotnikov.wordpress.com,faravirusi.com,freedom-shift.net,lovepanky.com,markekaizen.jp,netafull.net,photopoint.com.ua,posh-samples.com#@#.category-ad:not(html):not(body)
 business-hack.net,clip.m-boso.net,iine-tachikawa.net,meihong.work#@#.category-ads:not(html):not(body)
-accuweather.com,deadline.com,elnuevoherald.com,heraldsun.com,olhardigital.com.br#@#.cnx-player-wrapper
+accuweather.com,deadline.com,elnuevoherald.com,heraldsun.com,olhardigital.com.br,tvinsider.com#@#.cnx-player-wrapper
 studio55.fi#@#.column-ad
 huffpost.com#@#.connatix-wrapper
 fontspace.com,skyrimcommands.com#@#.container-ads
@@ -17710,6 +17710,7 @@ browsershots.org#@#.advert_area
 ||adserved.net^
 ||adserverplus.com^
 ||adserverpub.com^
+||adservf.com^
 ||adservicemedia.dk^
 ||adservon.com^
 ||adservr.de^
@@ -56467,6 +56468,7 @@ browsershots.org#@#.advert_area
 ||6a6672.xyz^$document,popup
 ||70b927c8.live^$document,popup
 ||7608d5.xyz^$document,popup
+||7841ffda.xyz^$document,popup
 ||7ca989e1.xyz^$document,popup
 ||7e60f1f9.xyz^$document,popup
 ||7e809ed7-e553-4e29-acb1-4e3c0e986562.site^$document,popup
@@ -66355,6 +66357,7 @@ hulu.com##.PauseAdCreative-wrap
 thekitchn.com##.Post__inPostVideoAdDesktop
 stocktwits.com##.Primis_container__KwtjV
 tech.hindustantimes.com##.ProductAffilateWrapper
+yandex.com##.ProductGallery
 atlasobscura.com##.ProgrammaticMembershipCallout--taboola-member-article-container
 plainenglish.io##.PromoContainer_container__sZ3ls
 citybeat.com,clevescene.com,cltampa.com##.PromoTopBar
@@ -66974,6 +66977,7 @@ maritimeprofessional.com##.b300x250
 coin360.com##.b5BiRm
 crypto.news,nft.news##.b6470de94dc
 iol.co.za##.bDEZXQ
+independent.co.uk##.bXYFQI.dAHemH
 copilot.microsoft.com##.b_ad
 vidcloud9.me##.backdrop
 kitguru.net,mcvuk.com,technologyx.com,thessdreview.com##.background-cover
@@ -67472,6 +67476,7 @@ metar-taf.com##.controls-right
 live-tennis.eu##.copyright
 imdb.com##.cornerstone_slot
 physicsworld.com##.corporate-partners
+corrosionhour.com##.corro-widget
 pcworld.com##.coupons
 wolfstream.tv##.cover2
 creativecow.net##.cowtracks-interstitial
@@ -68373,7 +68378,7 @@ howstuffworks.com##.leaderboard-banner
 poe.ninja##.leaderboard-bottom
 chess.com##.leaderboard-btf-ad-wrapper
 mxdwn.com##.leaderboard-bucket
-apnews.com,arabiaweather.com,atlasobscura.com,forum.audiogon.com,gamesindustry.biz,news957.com##.leaderboard-container
+apnews.com,arabiaweather.com,atlasobscura.com,forum.audiogon.com,gamesindustry.biz,golfdigest.com,news957.com##.leaderboard-container
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder-desktop
 bluesnews.com##.leaderboard-gutter
@@ -69108,6 +69113,7 @@ utahgunexchange.com##.rev_slider_wrapper
 latimes.com,sandiegouniontribune.com##.revcontent
 al.com,cleveland.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,oregonlive.com,pennlive.com,silive.com,syracuse.com##.revenue-display
 grammar.yourdictionary.com##.revenue-placeholder
+therailwayhub.co.uk##.revive
 hindustantimes.com##.rgtAdSection
 timesofindia.indiatimes.com##.rgt_ad
 newindian.in##.rhs-ad2
@@ -70122,6 +70128,7 @@ euroweeklynews.com##[data-revive-zoneid]
 chemistwarehouse.com.au##[data-rm-beacon-state]
 disqus.com##[data-role="ad-content"]
 news.sky.com##[data-role="ad-label"]
+olympics.com##[data-row-type="custom-row-adv"]
 washingtonpost.com##[data-sc-c="adslot"]
 timesofindia.indiatimes.com##[data-scrollga="spotlight_banner_widget"]
 trakt.tv##[data-snigel-id]
@@ -70668,6 +70675,7 @@ technologyreview.com##div[class^="headerTemplate__leaderboardRow-"]
 localjewishnews.com##div[class^="local-feed-banner-ads"]
 bloomberg.com##div[class^="media-ui-BaseAd"]
 bloomberg.com##div[class^="media-ui-FullWidthAd"]
+goal.com##div[class^="open-web-ad_"]
 odishatv.in##div[class^="otv-"]
 nltimes.nl##div[class^="r89-"]
 nationalmemo.com,spectrum.ieee.org,theodysseyonline.com##div[class^="rblad-"]
@@ -70699,6 +70707,7 @@ thestudentroom.co.uk##div[data-freestar-ad]
 my.clevelandclinic.org##div[data-identity*="board-ad"]
 yandex.com##div[data-name="adWrapper"]
 uefa.com##div[data-name="sponsors-slot"]
+thebay.com##div[data-piq-toggle="true"]
 opentable.ae,opentable.ca,opentable.co.th,opentable.co.uk,opentable.com,opentable.com.au,opentable.com.mx,opentable.de,opentable.es,opentable.hk,opentable.ie,opentable.it,opentable.jp,opentable.nl,opentable.sg##div[data-promoted="true"]
 scmp.com##div[data-qa="AdSlot-Container"]
 scmp.com##div[data-qa="AppBar-AdSlotContainer"]
@@ -70805,6 +70814,7 @@ streamingsites.com##div[style="margin-bottom: 10px; display: flex;"]
 upjoke.com##div[style="margin-bottom:0.5rem; min-height:250px;"]
 gsmarena.com##div[style="margin-left: -10px; margin-top: 30px; height: 145px;"]
 editpad.org##div[style="min-height: 300px;min-width: 300px"]
+wikiwand.com##div[style="min-height: 325px; max-width: 600px;"]
 gamereactor.asia,gamereactor.cn,gamereactor.cz,gamereactor.de,gamereactor.dk,gamereactor.es,gamereactor.eu,gamereactor.fi,gamereactor.fr,gamereactor.it,gamereactor.jp,gamereactor.kr,gamereactor.nl,gamereactor.no,gamereactor.pl,gamereactor.pt,gamereactor.se##div[style="min-height: 600px; margin-bottom: 20px;"]
 disneydining.com##div[style="min-height:125px;"]
 askdifference.com##div[style="min-height:280px;"]
@@ -70971,7 +70981,6 @@ bbc.com###sticky-mpu:has(.dotcom-ad-inner)
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
 nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
 luxa.org##.MuiContainer-root:has(> ins.adsbygoogle)
-yandex.com##.ProductGallery
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##.Ssfiu-:has([data-testid="popoverTriggersponsoredLabel"])
 outlook.live.com##.VdboX[tabindex="0"]:has(img[src="https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
@@ -70984,7 +70993,6 @@ forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)
 time.com##.article-small-sidebar > .sticky-container:has(div[id^="ad-"])
 blitz.gg##.aside-content-column:has(.display-ad)
 olympics.com##.b2p-list__item:has(> .adv-fluid)
-independent.co.uk##.bXYFQI.dAHemH
 atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca##.block-wrapper:has(.element-header__sponsoredLabel)
 haveibeenpwned.com##.bodyGradient > :has(.why1Password)
 chosun.com##.box--bg-grey-20:has(.dfpAd)
@@ -70995,13 +71003,11 @@ homedepot.com##.browse-search__pod:has([id^="plp_pod_sponsored"])
 doordash.com##.carousel-virtual-wrapper:has([href*="collection_type=sponsored_brand"])
 doordash.com##.ccdtLs:has([data-testid="sponsored:Sponsored"])
 asda.com##.cms-modules:has([data-module*="Sponsored Products"])
-tvinsider.com#@#.cnx-player-wrapper
 asda.com##.co-item:has(.co-item__sponsored-label)
 theautopian.com##.code-block:has(.htlad-InContent)
 templateshub.net##.col-lg-4.col-md-6:has(> div.singel-course)
 autotrader.com##.col-xs-12.col-sm-4:has([data-cmp="inventorySpotlightListing"])
 costco.com##.col-xs-12:has([data-bi-placement^="Criteo_Product_Display"])
-corrosionhour.com##.corro-widget
 infinitestart.com##.cs-sidebar__inner > .widget:has(> ins.adsbygoogle)
 alphacoders.com##.css-grid-content:has(> .in-thumb-ad-css-grid)
 dollargeneral.com##.dg-product-card:has(.dg-product-card__sponsored[style="display: block;"])
@@ -71021,7 +71027,6 @@ qwant.com##.is-sidebar:has(a[data-testid="advertiserAdsLink"])
 yovizag.com##.jeg_column:has(> .jeg_wrapper > .jeg_ad)
 motortrend.com##.justify-center:has(.nativo-news)
 chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
-golfdigest.com##.leaderboard-container
 content.dictionary.com##.lp-code:has(> [class$="Ad"])
 euronews.com##.m-object:has(.m-object__spons-quote)
 acmemarkets.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,shaws.com,starmarket.com,tomthumb.com,vons.com##.master-product-carousel:has([data-carousel-api*="search/sponsored-carousel"])
@@ -71031,6 +71036,7 @@ officedepot.com##.od-col:has(.od-product-card-region-colors-sponsored)
 pollunit.com##.owl-carousel:has(.carousel-ad)
 hannaford.com##.plp_thumb_wrap:has([data-citrusadimpressionid])
 niagarathisweek.com##.polarBlock:has(.polarAds)
+404media.co##.post__content > p:has(a[href^="https://srv.buysellads.com/"])
 myntra.com##.product-base:has(.product-waterMark)
 douglas.at,douglas.be,douglas.ch,douglas.cz,douglas.de,douglas.es,douglas.hr,douglas.hu,douglas.it,douglas.nl,douglas.pl,douglas.pt,douglas.ro,douglas.si,douglas.sk##.product-grid-column:has(.product-tile__sponsored)
 woolworths.com.au##.product-grid-v2--tile:has(.sponsored-text)
@@ -71137,9 +71143,7 @@ wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="Desig
 wish.com##div[class^="ProductTray__ProductStripItem-"]:has(div[class^="DesignSpec__TextSpecWrapper-"][color="#6B828F"][data-testid] + div[class^="DesignSpec__TextSpecWrapper-"][color="#6B828F"])
 virginradio.co.uk##div[class^="css-"]:has(> .ad-outline)
 flickr.com##div[class^="main view"]:has(a[href$="&ref=sponsored"])
-goal.com##div[class^="open-web-ad_"]
 cargurus.com##div[data-cg-ft="car-blade"]:has(div[data-cg-ft="sponsored-listing-badge"])
-thebay.com##div[data-piq-toggle="true"]
 rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
 pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt##div[data-test-id="pin"]:has(div[title^="Promoted"])
 priceline.com##div[data-testid="HTL_NEW_LISTING_CARD_RESP"]:has(a[aria-label*=" Promoted"])
@@ -71151,7 +71155,6 @@ twiiter.com,x.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
 truthsocial.com##div[item="[object Object]"]:has(path[d="M17 7l-10 10"])
 truthsocial.com##div[item="[object Object]"]:has(path[d="M9.83333 1.83398H16.5M16.5 1.83398V8.50065M16.5 1.83398L9.83333 8.50065L6.5 5.16732L1.5 10.1673"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style="max-width: 390px; min-width: 190px;"]:has(a[href^="/ads/"])
-wikiwand.com##div[style="min-height: 325px; max-width: 600px;"]
 thisday.app##div[style="min-height: 340px;"]:has(div.ad)
 nicelocal.com##div[style="min-height: 600px;"]:has(iframe[id^="google_ads_"])
 nicelocal.com##div[style="min-height: 90px;"]:has(iframe[id^="google_ads_"])
@@ -71970,7 +71973,7 @@ str8ongay.com##.aside-itempage-col
 ad69.com##.aside-section
 sexvid.pro##.aside_thumbs
 hd21.com##.aside_video
-onlyppv.com,xmateur.com##.asside-link
+fapnfuck.com,onlyppv.com,xmateur.com##.asside-link
 veev.to##.avb-active
 avn.com##.avn-article-tower
 mrskin.com##.az
@@ -72282,6 +72285,7 @@ missav.ai,missav.com,missav.ws,missav123.com,missav789.com,myav.com##.lg\:block
 missav.ai,missav.com,missav.ws,missav123.com,missav789.com,myav.com##.lg\:hidden
 xxxvogue.net##.link-adv
 escortnews.eu,topescort.com##.link-buttons-container
+fapnfuck.com##.link-offer
 totsantcugat.info##.live > a[href="http://totsantcugat.info/wp-content/video.php"]
 spankbang.com##.live-rotate
 alloldpics.com,sexygirlspics.com##.live-spot
@@ -72472,7 +72476,7 @@ nakedpornpics.com##.sponsor-wrapper
 4kporn.xxx,hoes.tube,love4porn.com##.sponsorbig
 fux.com,pornerbros.com,porntube.com,tubedupe.com##.sponsored
 hoes.tube##.sponsorsmall
-3movs.com,3movs.xxx,bravotube.net,camvideos.tv,cluset.com,deviants.com,dixyporn.com,hello.porn,javcab.com,katestube.com,pornicom.com,sleazyneasy.com,videocelebs.net,vikiporn.com,vjav.com##.spot
+3movs.com,3movs.xxx,bravotube.net,camvideos.tv,cluset.com,deviants.com,dixyporn.com,fapnfuck.com,hello.porn,javcab.com,katestube.com,pornicom.com,sleazyneasy.com,videocelebs.net,vikiporn.com,vjav.com##.spot
 pornicom.com##.spot-after
 faptube.xyz,hqpornstream.com,magicaltube.com##.spot-block
 3movs.com##.spot-header
@@ -130284,6 +130288,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||allegrostu.com^$all
 ||allegrocolombia.com^$all
 ||allegrocx.com^$all
+||allegrocns.com^$all
+||allegro-005.com^$all
 ||allegro-online.ru^$all
 ~edu,~gov##html[lang][style] > body[ontouchstart=""] > div#app[data-v-app=""] > div#app[class] > div.grow
 /^https:\/\/allegro[a-z]{2,}\.shop\//$doc,domain=shop
@@ -130344,7 +130350,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||135buy.com^$all
 ||ebaydw.cc^$all
 ||pages.dev/errors/validateCaptcha^$doc
-||shopvip-alibaba.com^$all
+||topmarifle.life^$all,to=~alibaba.com
+||shopvip-alibaba.com^$all,to=~alibaba.com
 ~alibaba.com,~edu,~gov##html[lang][translate] > body.deeppurple-theme:not([id]) > div#app:not([class]) > div.aiz-main-wrapper:not([id])
 ||wixsite.com/att-support/$doc
 ||diwapa3051.wixsite.com^$all
@@ -130396,6 +130403,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||itaconsorciodigital.com.br^$all,to=~itau.com.br
 ||americanexpressempresas.com^$all,to=~americanexpress.com
 ||wizardpayroll.com.ar^$all,to=~hsbc.com
+||spareb1.com^$all,to=~sparebank1.no
 ||amigosdelasfinanzas.com^$all,to=~bancocajasocial.com
 ||e-cmv.ph^$all,to=~grupobancolombia.com
 ||recompensaszurichsantander.com.mx^$all
@@ -130480,6 +130488,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 /^https:\/\/sp\d{2,3}88(?:vn)?\.com\//$doc,domain=com|~shopee.vn
 ||vivanoticiando.com^$all
 ||mez.ink/reademcashbackshopee.1.1^$all
+||virtualnoticiasaqui.com^$all
 ||vnsendo.*^$all,to=info|shop|vip|~sendo.vn
 ||sendotv.com^$all,to=~sendo.vn
 ||mayxanhsupport.com^$all,to=~dienmayxanh.com
@@ -130519,10 +130528,12 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||gareana.vn^$all,to=~garena.vn
 ||doivangfreefiregarena.io.vn^$all,to=~garena.vn
 ||garane.io.vn^$all,to=~garena.vn
+||garcna.vn^$all,to=~garena.vn
 ||pubg-arena.top^$all
 ||register-turnamen.free.nf^$all
 ||pubgm-zing-vn.com^$all
 ||sukien-pubg.io.vn^$all
+||napthepubg.mobi^$all
 ||mobilelegendsmycode.com^$all
 ||eventdmkuning.brenn.biz.id^$all
 ||bxzxenzidrmrksu.jiongcao.cn^$all
@@ -130589,6 +130600,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||telegramkd.com^$all
 ||telegram-zhongwen.com^$all
 ||rr.nu^$doc
+||uspsparcels.net^$all,to=~usps.com
 /^https:\/\/usps\.[-a-z]{6,}\.(?:com|top)\/(?:address\.html|information|verify)\b/$doc,domain=com|top|~usps.com
 /^https:\/\/ur[cex][a-z]{2,4}\.com\/(?:address\.html|information|verify)\b/$doc,domain=com|~usps.com
 .top/pg?do=$doc,domain=top
@@ -130665,6 +130677,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||sacredtreespirit.com^$all,to=~ups.com
 ||lkmw88.com^$all,to=~mercadolibre.com
 ||hologramid.cn^$all,to=~alibaba.com
+||seguro.serasaexperian.site^$all,to=~serasa.com.br
 ||beluxrepm.followme.fr/FolloWMe$all,to=~realestate.bnpparibas.com
 ||mybluehost.me/Cope346/$all
 ||tesakom.com/aa/index.html^$all,to=~ebestsec.co.kr
@@ -130745,13 +130758,19 @@ r2.dev##html.account-server[lang] > body.site-content[onload="Z()"]:not([id]) > 
 ||lapdatinternet.net^$all,to=~sctv.com.vn
 ||hethongnhanvien.com^$all,to=~lazada.vn
 ||lazadaevent.com^$all,to=~lazada.vn
-||tikifreeship.vip^$all,to=~tiki.vn
 ||vntiki.vip^$all,to=~tiki.vn
-||momoshopvip.com^$all,to=~momo.vn
 ||baovietcom.vip^$all,to=~baovietbank.vn
 ||mcqdvn.com^$all,to=~mbbank.com.vn
 ||hethongvaynhanh247.com^$all
 ||bethivetranh2024.weebly.com^$all
+||ebaymall168.shop^$all
+||tikifreeship.vip^$all,to=~tiki.vn
+~tiki.vn,~ebay.com,~edu,~gov##html[data-dpr="1"][style] > body[style]:not([class]):not([id]) > div#app:not([class]) > div.main:not([id])
+||flikois.com^$all
+||f997.sbs^$all
+||371j.xyz^$all
+||momoshopvip.com^$all,to=~momo.vn
+~amazon.com,~momo.vn,~edu,~gov##html[lang][style] > body:not([id]) > uni-app.uni-app--maxwidth > uni-page[data-page] > uni-page-wrapper > uni-page-body
 ||puttyconnect.info^$all
 ||astrosphere.world^$all
 ||marketplace-item-*.000.pe^$doc
@@ -140903,7 +140922,7 @@ wunderground.com##+js(nano-stb, isPeriodic, 2300, 0.001)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 25 Jul 2024 11:04:17 GMT
-# entries:        3551
+# entries:        3547
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -141480,7 +141499,6 @@ wunderground.com##+js(nano-stb, isPeriodic, 2300, 0.001)
 127.0.0.1 ads.shizmoo.com
 127.0.0.1 ads.shopstyle.com
 127.0.0.1 ads.sift.co.uk
-127.0.0.1 ads.simplyhired.com
 127.0.0.1 ads.sjon.info
 127.0.0.1 ads.smartclick.com
 127.0.0.1 ads.socialtheater.com
@@ -141671,7 +141689,6 @@ wunderground.com##+js(nano-stb, isPeriodic, 2300, 0.001)
 127.0.0.1 adsmartracker.com
 127.0.0.1 adsmetadata.startappservice.com
 127.0.0.1 adsmogo.com
-127.0.0.1 adsnative.com
 127.0.0.1 adsoftware.com
 127.0.0.1 adsolut.in
 127.0.0.1 adspeed.net
@@ -141762,7 +141779,6 @@ wunderground.com##+js(nano-stb, isPeriodic, 2300, 0.001)
 127.0.0.1 adxpose.com
 127.0.0.1 adyoulike.com
 127.0.0.1 adz.rashflash.com
-127.0.0.1 adz2you.com
 127.0.0.1 adzbazar.com
 127.0.0.1 adzerk.net
 127.0.0.1 adzerk.s3.amazonaws.com
@@ -141844,7 +141860,6 @@ wunderground.com##+js(nano-stb, isPeriodic, 2300, 0.001)
 127.0.0.1 analytics.pointdrive.linkedin.com
 127.0.0.1 analytics.poolshool.com
 127.0.0.1 analytics.posttv.com
-127.0.0.1 analytics.samdd.me
 127.0.0.1 analytics.santander.co.uk
 127.0.0.1 analytics.shorte.st
 127.0.0.1 analytics.swiggy.com
