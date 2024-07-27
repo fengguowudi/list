@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nrhdHaRht0Sy02OeehnZCA
+! Checksum: kdXSlYG1OAqV2AcH79wgLA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407271423
-! Last Modified: 2024年07月27日 14:23
+! Version: 202407272035
+! Last Modified: 2024年07月27日 20:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -67210,6 +67210,7 @@ oxygen.com,syfy.com##.blog-post-section__zergnet
 blogto.com##.blogto-sticky-banner
 manhwaindo.id##.blox
 bescore.com##.bn
+firstpost.com##.bn-add
 savefree.in,surattimes.com##.bn-content
 nilechronicles.com##.bn-lg-sidebar
 snow-forecast.com,weather-forecast.com##.bn-placeholder
@@ -71546,6 +71547,7 @@ msn.com###displayAdCard
 msn.com###div[id^="mrr-topad-"]
 msn.com###partners
 msn.com###promotions
+msn.com##.ad-banner-wrapper
 msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
 msn.com##.articlePage_eoabNativeAd_new-DS-EntryPoint1-1
 msn.com##.bannerAdContainer-DS-EntryPoint1-1
@@ -123956,6 +123958,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cookielaw.org^*/OtAutoBlock.js$domain=bancsabadell.com|darkreading.com|uphold.com
 !! cxense.com/document/search?
 @@||cxense.com/document/search?
+!! cxense.com/persisted/execute
+@@||cxense.com/persisted/execute$domain=nippon.com
 !! cxense.com/public/widget/
 @@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 !! cxense.com/cx.cce.js
