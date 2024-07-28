@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CAAO/FJims5PSDYtEam2Tg
+! Checksum: wq16ZNcKKDnxKNK/cGCbYw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407280224
-! Last Modified: 2024年07月28日 02:24
+! Version: 202407280935
+! Last Modified: 2024年07月28日 09:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -133935,6 +133935,7 @@ wunderground.com##+js(no-fetch-if, doubleclick)
 wunderground.com##+js(nano-stb, isPeriodic, 2200, 0.001)
 wunderground.com##+js(nano-stb, isPeriodic, 2300, 0.001)
 sosovalue.com##+js(set, sensors.track, noopFunc)
+@@||s.zmctrack.net/z|$xhr
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
