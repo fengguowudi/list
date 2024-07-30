@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ac0/EeiHN1uUv/sZDBKZgw
+! Checksum: aaooT6oZ09KjnfWckXyPPw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407301426
-! Last Modified: 2024年07月30日 14:26
+! Version: 202407302036
+! Last Modified: 2024年07月30日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -47982,7 +47982,6 @@ browsershots.org#@#.advert_area
 ||succeedappointedsteve.com^
 ||succeedingpeacefully.com^
 ||succeedprosperity.com^
-||succeedscene.com^
 ||success-news.net^
 ||successcuff.com^
 ||successfulpatience.com^
@@ -54647,6 +54646,7 @@ browsershots.org#@#.advert_area
 ||yimkju.com^
 ||zhu-ni-hao-yun.sh^
 ||zxcbaby.ru^
+||123-stream.org^$document
 ||1winpost.com^$document
 ||20trackdomain.com^$document
 ||2ltm627ho.com^$document
@@ -54684,6 +54684,7 @@ browsershots.org#@#.advert_area
 ||adverttulimited.biz^$document
 ||adxproofcheck.com^$document
 ||aferpush.com^$document
+||affcpatrk.com^$document
 ||affflow.com^$document
 ||affiliatestonybet.com^$document
 ||affpa.top^$document
@@ -56313,6 +56314,7 @@ browsershots.org#@#.advert_area
 ||subendorse.com^$third-party
 ||sublimemedia.net^$third-party
 ||submitexpress.co.uk^$third-party
+||succeedscene.com^$third-party,xmlhttprequest
 ||suite6ixty6ix.com^$third-party
 ||suitesmart.com^$third-party
 ||sulvo.co^$third-party
@@ -66525,7 +66527,7 @@ baptistnews.com,chimpreports.com,collive.com,defence-industry.eu,islandecho.co.u
 abcya.com##.a-skyscraper
 krebsonsecurity.com##.a-statement
 tellymix.co.uk##.a-text
-androidtrends.com,backthetruckup.com,bingehulu.com,buffalorising.com,streamsgeek.com,techcentral.co.za,techrushi.com,trendstorys.com,vedantbhoomi.com##.a-wrap
+androidtrends.com,aviationa2z.com,backthetruckup.com,bingehulu.com,buffalorising.com,streamsgeek.com,techcentral.co.za,techrushi.com,trendstorys.com,vedantbhoomi.com##.a-wrap
 breitbart.com##.a-wrapper
 getpocket.com##.a1cawpek
 chordify.net##.a1p2y5ib
@@ -83937,6 +83939,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||da.netease.com^
 ||datacollector-dra.dt.hicloud.com^
 ||dcbpm.suning.cn^
+||dt.xfyun.cn^
 ||dup.baidustatic.com^
 ||eclick.baidu.com^
 ||epro.sogou.com^
@@ -125227,7 +125230,6 @@ livesport24.net##[href^="https://b-partner.xyz/"]
 123moviesme.*##+js(aopr, decodeURI)
 jattmate.com,saveshared.com,simpledownload.net##+js(aopr, String.fromCharCode)
 inextmovies.*##+js(nowoif)
-asianembed.io##+js(aeld, click, 0x)
 emb.apl236.me###ads
 ||livesport24.net/*.gif$image
 emb.apl305.me##+js(nowoif, _blank)
@@ -127979,6 +127981,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||lamilagq.com^$all
 /1/index.html?p1=$doc
 /fb_video_googleplay/*/index.html?*p1=$doc
+.sbs/c/*?s1=$doc
 ||mikkim.top^$all
 ||discordvip.createsocialcard.top^$all
 ||discordvip.pages.dev^$all
@@ -129981,6 +129984,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||touchtacchi.net^$all
 ||wsws1234.net^$all
 ||wswsnews.net^$all
+||fotkyin.top^$all
 ||s3.amazonaws.com/extpro/speed4.html$all
 ||imgfarm.com/images/dlp2/prod$3p
 ||myway.com^$all
@@ -130125,6 +130129,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 /index.html?ph0n=1-$doc
 ||technosoft35.ru^$all
 ||tube-dvm.com^$all
+||cj7tv5fq8p.com^$all
 ||japanonlinebroadcast.live^$all
 ||crackedpc.org^$all
 ||cracksway.com^$all
@@ -131230,7 +131235,7 @@ ericdraken.com##^script[async]
 linkedin.com##+js(href-sanitizer, a[href^="https://www.linkedin.com/redir/redirect?url=http"], ?url)
 utreon.com##+js(no-xhr-if, utreon.com/pl/api/event method:POST)
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$script,xhr,3p,match-case
-/^https:\/\/[0-9a-z]{7,25}\.com\/(?:build|bundles|chunks|dist|files|j|public|scripts|static)?\/?[0-9a-f]{6,15}\/?[0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index))?(?:\.js)?$/$script,3p,match-case,redirect=noopjs
+/^https:\/\/[0-9a-z]{7,25}\.com\/(?:build|bundles|chunks|dist|files|j|public|scripts|static)?\/?(?:js\/)?[_0-9a-f]{6,15}\/?[_0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index))?(?:\.js)?$/$script,3p,match-case,to=com,redirect=noopjs
 zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST)
 ||torimochi.line-apps.com^$image,redirect=1x1.gif
 ||api.bilibili.com/x/internal/gaia-gateway/ExClimbWuzhi$xhr,1p
@@ -131337,6 +131342,7 @@ slickdeals.net##+js(href-sanitizer, a[href*="go.redirectingat.com"][href*="url=h
 slickdeals.net##+js(href-sanitizer, a[href^="https://slickdeals.net/?"][href*="u2=http"], ?u2)
 dk.pcpartpicker.com##+js(href-sanitizer, a[href^="https://online.adservicemedia.dk/"][href*="deeplink=http"], ?deeplink)
 justwatch.com##+js(href-sanitizer, a[href^="https://click.justwatch.com/"][href*="r="], ?r)
+||cdn.digg.com/fragments/homepage/static/view-frontpage.js
 /detroitchicago/dpv.gif?$image
 /detroitchicago/imp.gif$ping
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,newstimes.com,nhregister.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,timesunion.com##+js(cookie-remover, realm.cookiesAndJavascript)
@@ -131491,7 +131497,6 @@ natgeotv.com##+js(set, Visitor, {})
 ||house.comikey.com/unw.gif?$image,1p
 ||googletagmanager.com/gtag/js$domain=starblast.io,important
 ||cdn.cuty.io/fps.js$script
-||roshy.tv/wp-content/uploads/perfmatters/gtagv4.js
 www.lenovo.com##+js(aost, history.replaceState, injectedScript)
 !*$1p,strict3p,script,header=via:1.1 google
 !#if !env_mobile
@@ -131515,8 +131520,6 @@ pepper.ru##+js(href-sanitizer, a[href*="https://www.pepper.ru/visit/"][title^="h
 preisjaeger.at##+js(href-sanitizer, a[href*="https://www.preisjaeger.at/visit/"][title^="https://"], [title])
 promodescuentos.com##+js(href-sanitizer, a[href*="https://www.promodescuentos.com/visit/"][title^="https://"], [title])
 pelando.com.br##+js(href-sanitizer, a[href*="https://www.pelando.com.br/api/redirect?url="], ?url)
-||r.aachener-zeitung.de^
-||prod-mhaa.mhtr.be^
 proboards.com,winclassic.net##+js(rmnt, script, vglnk)
 proboards.com,winclassic.net##^script:has-text(vglnk)
 ||res.office365.com/footprint/v*/scripts/fp-min.js$script
@@ -134019,6 +134022,9 @@ sosovalue.com##+js(set, sensors.track, noopFunc)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=univtec.com,important
 apfeltalk.de#@#.samCodeUnit
 lastampa.it##+js(nostif, googleFC)
+nytimes.com#@#.pz-ad-box
+digg.com###header-banner
+digg.com##.desktop-wrapper.has-header-banner.mt-32:style(margin-top: 8rem !important;)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -140837,6 +140843,7 @@ lastampa.it##+js(nostif, googleFC)
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||qetlwsy.top^
 ||cengqinglin.cn^
 ||sprewcereous.com^
 ||shouldercommandmentlimitless.com^
