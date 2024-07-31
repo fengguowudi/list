@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: S0TJz+E4DH6f/RQFmSnDfw
+! Checksum: 6a+8auZUP3b1Vnu2Q9C65Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407310909
-! Last Modified: 2024年07月31日 09:09
+! Version: 202407311421
+! Last Modified: 2024年07月31日 14:21
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -65242,6 +65242,8 @@ lasvegassun.com###ad-colB-
 getmodsapk.com###ad-container
 retrostic.com,sickchirpse.com,thetimes.co.uk###ad-header
 livescore.com###ad-holder-gad-news-article-item
+nationalrail.co.uk###ad-homepage-advert-a-grey-b-wrapper
+nationalrail.co.uk###ad-homepage-advert-d-grey-b-wrapper
 healthbenefitstimes.com###ad-image-below
 thetimes.co.uk###ad-intravelarticle-inline
 dvdsreleasedates.com###ad-movie
@@ -67426,6 +67428,7 @@ forbes.com.au##.bz-viewability-container
 insurancejournal.com##.bzn
 coingraph.us,hosty.uprwssp.org##.c
 globalnews.ca,stuff.tv##.c-ad
+theglobeandmail.com##.c-ad--base
 stuff.tv##.c-ad--mpu-bottom
 stuff.tv##.c-ad--mpu-top
 theglobeandmail.com##.c-ad-sticky
@@ -70060,7 +70063,7 @@ superdeluxeedition.com##.widget-bg-image__deal-alert
 cinemaexpress.com##.widget-container-133
 thebeet.com##.widget-promotion
 screencrush.com##.widget-widget_third_party_content
-adexchanger.com##.widget_ai_ad_widget
+adexchanger.com,live-adexchanger.pantheonsite.io##.widget_ai_ad_widget
 gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,goonhammer.com,joemygod.com,shtfplan.com,thestrongtraveller.com,usmagazine.com##.widget_block
 wplift.com##.widget_bsa
@@ -70693,6 +70696,7 @@ nslookup.io,unsplash.com##a[rel^="sponsored"]
 opensubtitles.org##a[target="_blank"][href^="https://www.amazon.com/gp/search"]
 abysscdn.com,hqq.ac,hqq.to,hqq.tv,linris.xyz,megaplay.cc,meucdn.vip,netuplayer.top,ntvid.online,oceanplay.xyz,plushd.bio,waaw.to,watchonlinehd123.sbs,wiztube.xyz##a[title="Free money easy"]
 kroger.com##a[title^="Advertisement:"]
+rottentomatoes.com##ad-unit
 unmatched.gg##app-advertising
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##article[data-ft*="\"ei\":\""]
 linkedin.com##article[data-is-sponsored]
@@ -130508,6 +130512,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||gdnapqmhbs.1myall.com^$all,to=~dana.id
 ||ambiil-hadiaa4h.cs-resmi.com^$all,to=~dana.id
 ||danadigital2024.cs-zx.top^$all,to=~dana.id
+||pulihkan-dana.ww-da.cfd^$all,to=~dana.id
 ||orange53.yolasite.com^$all,to=~orange.fr
 ||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
 ||smsmmsernorepls.wixsite.com^$all,to=~orange.fr
@@ -130580,7 +130585,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||sotuyenvcb.vietcombanker.com^$all,to=~vietcombank.com.vn
 ||vdbank.com.vn^$all,to=~vdb.gov.vn
 ||conveyancingportal.com^$all
-||tinchapshinhan.online^$all,to=~shinhan.com.vn
 ||canhantpb.com^$all,to=~tpb.vn
 ||mbdk99.com^$all,to=~mbbank.com.vn
 ||bmoreferral.com^$all,to=~bmo.com
@@ -130590,8 +130594,11 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||itaconsorciodigital.com.br^$all,to=~itau.com.br
 ||wizardpayroll.com.ar^$all,to=~hsbc.com
 ||spareb1.com^$all,to=~sparebank1.no
+||login-banca-web.firebaseapp.com^$all,to=~pichincha.com
 ||amigosdelasfinanzas.com^$all,to=~bancocajasocial.com
 ||e-cmv.ph^$all,to=~grupobancolombia.com
+||tinchapshinhan.online^$all,to=~shinhan.com.vn
+||sites.google.com/view/shinhan-fiinance/^$all,to=~shinhan.com.vn
 ||recompensaszurichsantander.com.mx^$all
 ||upsdelivery-nl.com^$all,to=~bancosantander.es
 ||santander.cf.sandbox.motrada.ch^$all,to=~santanderbank.com|~santander.co.uk
@@ -130599,7 +130606,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 /^https:\/\/tpbank\.[-a-z0-9]{5,}\.[a-z]{3}(?:\.vn)?\//$doc,domain=~edu|~gov|~gov.vn|~tpb.vn
 ||americanexpressempresas.com^$all,to=~americanexpress.com
 ||r2.dev/blobamexbsatt.html^$doc,domain=~americanexpress.com
-||sparkasse-oberhessen.info^$all,to=~sparkasse.de
 ||mybluehost.me/service/*/nkl-log.php$doc,domain=~nickel.eu
 ||turkiyecumhuriyetiziraatbankasi.com^$all,to=~ziraatbank.com.tr
 ||c1.is/BRI/$doc,domain=~bri.co.id
@@ -130610,6 +130616,9 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||xyz/akbank/$doc,domain=xyz|~akbank.com
 ||artecafe.eu/html/postde/pst/$all,to=~postbank.de
 /views/choice/*/start.php^$doc
+||sparkasse-oberhessen.info^$all,to=~sparkasse.de
+||sp-digi*.net^$doc,to=~sparkasse.de
+||spk-digi*.net^$doc,to=~sparkasse.de
 ||dhl.*.potabox.com^$doc,domain=~dhl.com
 ||dhl-event.app^$all,to=~dhl.com
 ||dhexpress.weebly.com^$all,to=~dhl.com
@@ -130632,8 +130641,10 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||notificationbyfacebook.web.app^$all
 ||business-facebook-*.pages.dev^$all
 ||unusualaccountcnfrmpages.github.io^$all
+||business-manange.com^$all
 ||facebook.prantiksoft.com^$all
 ||facebook-guidelines.com^$all
+||mfacebook-com.vn^$all
 ||www-mfacebook.$doc
 ||www-facebooks.$doc
 ||www-facebook-$doc
@@ -130777,6 +130788,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||vkcs.cloud/owa.html^$doc
 ||ocalam.com:8443/impact^$doc
 ||pub-*.r2.dev/owa.html^$doc
+||enexdirecto.com^$all
 ||telegramhcn.com^$all
 ||web.telegram.data-bees.cn^$all
 ||newappmssg.ru^$all
@@ -130789,6 +130801,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||telegram-zhongwen.com^$all
 ||rr.nu^$doc
 ||uspsparcels.net^$all,to=~usps.com
+||freeusps.com^$all,to=~usps.com
 /^https:\/\/usps\.[-a-z]{6,}\.(?:com|top)\/(?:address\.html|information|verify)\b/$doc,domain=com|top|~usps.com
 /^https:\/\/ur[cex][a-z]{2,4}\.com\/(?:address\.html|information|verify)\b/$doc,domain=com|~usps.com
 .top/pg?do=$doc,domain=top
@@ -130823,6 +130836,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||wcomhost.com/spass/$doc,domain=~swisspass.ch
 ||altitudesim.ca/*/CHFINAL/$doc,domain=~swisspass.ch
 ||codeanyapp.com/Swissp/$doc,domain=~swisspass.ch
+||orr.swq.mybluehost.me^$doc,to=~swisspass.ch
 ||secureserver.net/myswisscom$doc,domain=~swisscom.ch
 ||codeanyapp.com/Swiss_com/$doc,domain=~swisscom.ch
 ||codeanyapp.com/info/cc.php^$doc,domain=~swisscom.ch
@@ -130855,12 +130869,15 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||imcosom.com^$all,to=~token.im
 ||tokenap.app^$all,to=~token.im
 ||tokenax.app^$all,to=~token.im
+||imtoken-etc.com^$all,to=~token.im
 app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([class]) > iframe#external-frame[src="https://im136.mom/"]:not([class])
 /^https:\/\/pancake(?:dro|swa)pclick\d+\.vercel\.app\//$doc,domain=vercel.app|~pancakeswap.finance
-||pancakeswap-*.vercel.app^$doc,domain=vercel.app|~pancakeswap.finance
-||pancake-swap*.vercel.app^$doc,domain=vercel.app|~pancakeswap.finance
-||pancake-nft*.vercel.app^$doc,domain=vercel.app|~pancakeswap.finance
+||pancakeswap-*.vercel.app^$doc,to=~pancakeswap.finance
+||pancake-swap*.vercel.app^$doc,to=~pancakeswap.finance
+||pancake-nft*.vercel.app^$doc,to=~pancakeswap.finance
+||pancakeclaim-*.vercel.app^$doc,to=~pancakeswap.finance
 ||pancakeswap.finance.expolorer.im^$all,to=~pancakeswap.finance
+||pancake.run^$all,to=~pancakeswap.finance
 ||air.bnb-id*.com^$all,to=~airbnb.com
 ||pakket-bpost-be.web.app^$all,to=~bpost.be
 ||mmitalianbeef.square.site^$all,to=~mmitalianbeef.com
@@ -134063,7 +134080,7 @@ sosovalue.com##+js(set, sensors.track, noopFunc)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=univtec.com,important
 apfeltalk.de#@#.samCodeUnit
 lastampa.it##+js(nostif, googleFC)
-nytimes.com#@#.pz-ad-box
+nytimes.com##[data-testid="connection-toast"]:style(margin-top: 330px !important;)
 digg.com###header-banner
 digg.com##.desktop-wrapper.has-header-banner.mt-32:style(margin-top: 8rem !important;)
 /c.gif?$image,redirect-rule=1x1.gif,domain=web.skype.com
