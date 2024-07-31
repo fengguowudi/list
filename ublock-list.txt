@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6a+8auZUP3b1Vnu2Q9C65Q
+! Checksum: m82TYy4eqvD8sjsj2I340Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407311421
-! Last Modified: 2024年07月31日 14:21
+! Version: 202407312037
+! Last Modified: 2024年07月31日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15567,6 +15567,7 @@ _800x80_
 ###block-taboolablock
 ###js-Taboola-Container-0
 ###moduleTaboolaRightRail
+###original_taboola
 ###possible_taboola
 ###taboola
 ###taboola-above-homepage-thumbnails
@@ -37047,6 +37048,7 @@ browsershots.org#@#.advert_area
 ||mewgzllnsp.com^
 ||mewlstomolo.top^
 ||mexicantransmission.com^
+||mexoacmaidu.com^
 ||meyopuae.com^
 ||meyximegrgypnv.com^
 ||mf233y3dg6n.shop^
@@ -65862,6 +65864,7 @@ mmorpg.com###mmorpg_desktop_list_3
 si.com###mmvid
 appleinsider.com###mobile-article-anchor
 pocketgamer.com###mobile-background
+accuradio.com###mobile-bottom
 tvtropes.org###mobile_1
 tvtropes.org###mobile_2
 permanentstyle.com###mobtop
@@ -65936,6 +65939,7 @@ drivevideo.xyz###overlays
 animetrilogy.com,animexin.vip###overplay
 vure.cx###page-inner > div > div > a[href^="https://www.vure.cx/shorten-link.php/"]
 vure.cx###page-inner > div > div > div > a[href^="https://www.vure.cx/shorten-link.php/"]
+accuradio.com###pageSidebarWrapper
 cyclenews.com###pamnew
 aninews.in,devdiscourse.com,footballorgin.com,gadgets360.com,justthenews.com,ndtv.com,oneindia.com,wionews.com,zeebiz.com###parentDiv0
 mg.co.za###partner-content
@@ -66464,6 +66468,7 @@ abergavennychronicle.com,tenby-today.co.uk##.MPUstyled__MPUWrapper-sc-1cdmm4p-0
 wayfair.com##.MediaNativePlacement-wrapper-link
 engadget.com##.Mih\(90px\)
 medievalists.net##.Mnet_TopLeft_970x250
+accuradio.com##.MobileSquareAd__Container-sc-1p4cjdt-0
 metservice.com##.Mrec-min-height
 boardgameoracle.com##.MuiContainer-root > .jss232
 tvtv.us##.MuiPaper-root.jss12
@@ -68683,7 +68688,7 @@ fruitnet.com##.midpageAdvert
 extremetech.com##.min-h-24
 copyprogramming.com,imagecolorpicker.com##.min-h-250
 gizmodo.com##.min-h-\[1000px\]
-gizmodo.com##.min-h-\[250px\]
+gizmodo.com,radio.net##.min-h-\[250px\]
 radiome.ar,radiome.at,radiome.bo,radiome.ch,radiome.cl,radiome.com.do,radiome.com.ec,radiome.com.gr,radiome.com.ni,radiome.com.pa,radiome.com.py,radiome.com.sv,radiome.com.ua,radiome.com.uy,radiome.cz,radiome.de,radiome.fr,radiome.gt,radiome.hn,radiome.ht,radiome.lu,radiome.ml,radiome.org,radiome.pe,radiome.si,radiome.sk,radiome.sn,radyome.com##.min-h-\[250px\].mx-auto.w-full.hidden.my-1.lg\:flex.center-children
 uwufufu.com##.min-h-\[253px\]
 instavideosave.net##.min-h-\[280px\]
@@ -71066,6 +71071,7 @@ cgpress.org##li > div[id^="cgpre-"]
 bestbuy.com##li.embedded-sponsored-listing
 cultbeauty.co.uk,dermstore.com,skinstore.com##li.sponsoredProductsList
 laredoute.be,laredoute.ch,laredoute.co.uk,laredoute.com,laredoute.de,laredoute.es,laredoute.fr,laredoute.gr,laredoute.it,laredoute.nl,laredoute.pt,laredoute.ru##li[class*="sponsored-"]
+yahoo.com##li[class="first"]:has([data-ylk*="affiliate_link"])
 linkedin.com##li[data-is-sponsored="true"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##li[data-layout="products"]
 duckduckgo.com##li[data-layout="products_middle"]
@@ -76990,7 +76996,6 @@ omni.soundestlink.com$image
 ||mdhv.io^
 ||mdstats.info^
 ||mediamathrdrt.com^
-||mgln.ai^
 ||michiganrobotflower.com^
 ||mirabelanalytics.com^
 ||mircheigeshoa.com^
@@ -78506,6 +78511,7 @@ omni.soundestlink.com$image
 ||metricsdirect.com^$third-party
 ||metricswave.com^$third-party
 ||mezzobit.com^$third-party
+||mgln.ai^$third-party
 ||miadates.com^$third-party
 ||mialbj6.com^$third-party
 ||micpn.com^$script,third-party
@@ -131115,6 +131121,13 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||egisela.com^$all
 ||uhsee.com^$all
 ||kostumn1.ilabserver.com^
+||freeadd.me^$doc
+||askfollow.us^$doc
+||more-followers.com^$doc
+||twitob.com^$doc
+||twitterfollowers.site^$doc
+##html[lang] > body#body > head\" > div.cv-xwrapper > div.cvc > div.cv-inner
+##html[lang] > body#body > head\" > div.cvh.BlockClicksActivityBusy
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -131293,7 +131306,9 @@ ericdraken.com##^script[async]
 linkedin.com##+js(href-sanitizer, a[href^="https://www.linkedin.com/redir/redirect?url=http"], ?url)
 utreon.com##+js(no-xhr-if, utreon.com/pl/api/event method:POST)
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$script,xhr,3p,match-case
-/^https:\/\/[0-9a-z]{7,25}\.com\/(?:assets|build|bundles|chunks|dist|files|j|public|scripts|static)?\/?(?:js\/)?[_0-9a-f]{6,15}\/?[_0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index|v1|vendor))?(?:\.js)?$/$script,3p,match-case,to=com,redirect=noopjs
+/^https:\/\/[0-9a-z]{7,25}\.com\/(?:assets|build|bundles|chunks|dist|files|j|public|scripts|static)?\/?(?:js\/)?[_0-9a-f]{6,16}\/?[_0-9a-f]{20,36}(?:[-.](?:bundle|ma?in|module|prod|index|v\d|vendor))?(?:\.js)?$/$script,3p,match-case,to=com,redirect=noopjs
+||succeedscene.com^$badfilter
+||succeedscene.com^$~script
 zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST)
 ||torimochi.line-apps.com^$image,redirect=1x1.gif
 ||api.bilibili.com/x/internal/gaia-gateway/ExClimbWuzhi$xhr,1p
@@ -131413,7 +131428,8 @@ columbian.com,nypost.com,pagesix.com##+js(cookie-remover, blaize_tracking_id)
 factable.com##+js(cookie-remover, akaclientip)
 factable.com##+js(cookie-remover, hive_geoloc)
 watchporn.to##+js(cookie-remover, kt_ips)
-bing.com,msn.com##+js(cookie-remover, MicrosoftApplicationsTelemetryDeviceId)
+bing.com,msn.com,web.skype.com##+js(cookie-remover, MicrosoftApplicationsTelemetryDeviceId)
+web.skype.com##+js(cookie-remover, MicrosoftApplicationsTelemetryFirstLaunchTime)
 fandom.com##+js(set-cookie, Geo, OK)
 clickorlando.com##+js(set-cookie, bitmovin_analytics_uuid, OK)
 $removeparam=gbraid
@@ -134084,6 +134100,8 @@ nytimes.com##[data-testid="connection-toast"]:style(margin-top: 330px !important
 digg.com###header-banner
 digg.com##.desktop-wrapper.has-header-banner.mt-32:style(margin-top: 8rem !important;)
 /c.gif?$image,redirect-rule=1x1.gif,domain=web.skype.com
+bandyforbundet.no##+js(set, adn, {})
+bandyforbundet.no##+js(set, adn.clearDivs, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
@@ -140902,6 +140920,7 @@ digg.com##.desktop-wrapper.has-header-banner.mt-32:style(margin-top: 8rem !impor
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||uetlwst.top^
 ||qetlwsy.top^
 ||cengqinglin.cn^
 ||sprewcereous.com^
