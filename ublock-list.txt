@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m82TYy4eqvD8sjsj2I340Q
+! Checksum: TfQy78xO9yzyvpLj5SjXHQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202407312037
-! Last Modified: 2024年07月31日 20:37
+! Version: 202408010224
+! Last Modified: 2024年08月01日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -39580,6 +39580,7 @@ browsershots.org#@#.advert_area
 ||ojomrgmhbbpkpz.com^
 ||ojoodoaptouz.com^
 ||ojpem.com^
+||ojrq.net^
 ||ojsxtysilofk.com^
 ||ojtarsdukk.com^
 ||ojtatygrl.xyz^
@@ -54966,6 +54967,7 @@ browsershots.org#@#.advert_area
 ||offergate-software6.com^$document
 ||offernow24.com^$document
 ||offwardtendry.top^$document
+||ojrq.net^$document
 ||omgt3.com^$document
 ||omguk.com^$document
 ||onclickperformance.com^$document
@@ -56623,6 +56625,7 @@ browsershots.org#@#.advert_area
 ||d8b0a5.xyz^$document,popup
 ||d980ed.xyz^$document,popup
 ||da28c69e.xyz^$document,popup
+||dcad1d97.xyz^$document,popup
 ||dd2270.xyz^$document,popup
 ||de214f.xyz^$document,popup
 ||e076.xyz^$document,popup
@@ -59188,6 +59191,7 @@ browsershots.org#@#.advert_area
 ||ogtrk.net^$popup
 ||ohrdsplu.com^$popup
 ||ointmentfloatingsaucepan.com^$popup
+||ojrq.net^$popup
 ||okayfreemanknot.com^$popup
 ||okueroskynt.com^$popup
 ||ologeysurincon.com^$popup
@@ -63111,6 +63115,7 @@ browsershots.org#@#.advert_area
 ||adrotator.se^$popup
 ||ads.planetwin365affiliate.com^$popup,third-party
 ||adserving.unibet.com^$popup
+||affiliates.abebooks.comh^$popup,third-party
 ||affiliates.fantasticbet.com^$popup
 ||amazing-dating.com^$popup
 ||americascardroom.eu/ads/$popup,third-party
@@ -71240,6 +71245,7 @@ popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
 avclub.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com##[class] > div:has(> [is="bulbs-dfp"])
 fortune.com##[class]:has(> #Leaderboard0)
+skyscanner.com##[class^="FlightsResults"] > div:has([class^="Sponsored"])
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
 tesco.com##[class^="styled__StyledLIProductItem"]:has([class^="styled__StyledOffers"])
@@ -72982,6 +72988,7 @@ twiman.net##div[class*="my-"][class*="px\]"]
 xhaccess.com,xhamster.com,xhamster.desi,xhamster2.com,xhamster3.com,xhamster42.desi##div[class*="promoMessageBanner-"]
 camsoda.com##div[class^="AdsRight-"]
 ovacovid.com##div[class^="Banner-"]
+cam4.com,cam4.eu##div[class^="SponsoredAds_"]
 hentaicovid.com##div[class^="banner-"]
 xporno.tv##div[class^="block_ads_"]
 hpjav.top##div[class^="happy-"]
@@ -73041,6 +73048,7 @@ xxxcomics.org##video
 tube8.es,tube8.fr,youporngay.com##video[autoplay]
 porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
+cam4.*##div[class^="SponsoredAds_"]
 porn-w.org##.align-items-center.list-row:has(.col:empty)
 picsporn.net##.box:has(> .dip-exms)
 porngames.com##.contentbox:has(a[href="javascript:void(0);"])
@@ -78663,7 +78671,6 @@ omni.soundestlink.com$image
 ||ogt.jp^$third-party
 ||ohayoo.io^$third-party
 ||ohmystats.com^$third-party
-||ojrq.net^$third-party
 ||okt.to^$third-party
 ||oktopost.com^$third-party
 ||ometria.com^$third-party
@@ -130708,8 +130715,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||steamcommunitylog.chez.com^$all
 ||steam.workshop*.com^$doc
 !#if !env_mv3
-/^https:\/\/stea[a-z]{1,4}o[mn][a-z]{4,7}y[a-z]?\.com\//$doc,domain=com|~steamcommunity.com
-/^https:\/\/steam\.(?:community)?workshop-?[a-z]+\.com\//$doc,domain=com|~steamcommunity.com
+/^https:\/\/stea[a-z]{1,4}o[mn][a-z]{4,7}y[a-z]?\.com\//$doc,to=com|~steamcommunity.com
+/^https:\/\/steam\.(?:community)?workshop-?[a-z]+\.com\//$doc,to=com|~steamcommunity.com
 !#endif
 ||steam.communityart-work.com^$all
 ||stearnccommunity.com^$all
@@ -134102,6 +134109,8 @@ digg.com##.desktop-wrapper.has-header-banner.mt-32:style(margin-top: 8rem !impor
 /c.gif?$image,redirect-rule=1x1.gif,domain=web.skype.com
 bandyforbundet.no##+js(set, adn, {})
 bandyforbundet.no##+js(set, adn.clearDivs, noopFunc)
+@@||assets.adobedtm.com/*-source.min.js^$script,domain=bjs.com
+@@||cdn.pendo.io/agent/static/*/pendo.js^$script,domain=bjs.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
