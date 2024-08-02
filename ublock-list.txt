@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cVvoYbkOBiQ+sY1SQHP0hQ
+! Checksum: 2NR/nS+fCLejzVnZkyeuiw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408020923
-! Last Modified: 2024年08月02日 09:23
+! Version: 202408021428
+! Last Modified: 2024年08月02日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20,7 +20,6 @@
 -ad-unit.
 -ad-util.
 -ad.jpg.pagespeed.
--adbanner.
 -ads-banner.
 -ads-bottom.
 -ads-manager/$domain=~wordpress.org
@@ -537,7 +536,6 @@
 /css/adsense.
 /css/adv.
 /curveball/ads/*$image
-/custom_ads.js
 /data-file_123.js
 /deliverad/fc.js
 /delivery.ads.
@@ -70491,6 +70489,7 @@ analyticsindiamag.com##[href^="https://business.louisville.edu/"]
 learn-cpp.org##[href^="https://codingforkids.io"]
 wccftech.com##[href^="https://cutt.ly/"]
 yourstory.com##[href^="https://form.jotform.com/"]
+limetorrents.ninjaproxy1.com##[href^="https://gamestoday.org/"]
 ahaan.co.uk,emailnator.com,myip.is,scrolller.com,whereto.stream##[href^="https://go.nordvpn.net/"]
 everybithelps.io##[href^="https://hi.switchy.io/"]
 imagetwist.com##[href^="https://imagetwist.com/pxt/"]
@@ -73559,6 +73558,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||wordpress.org/stats/plugin/$domain=wordpress.org
 @@||fingerprintjs.com^$generichide
 @@||schemeflood.com^$generichide
+@@||succeedscene.com^$script
 @@||akinator.mobi.cdn.ezoic.net^$domain=akinator.mobi
 @@||banner.customer.kyruus.com^$domain=doctors.bannerhealth.com
 @@||hwcdn.net^$script,domain=mp4upload.com
@@ -130569,6 +130569,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||colegiovilamilitar.com.br/*/linkedin_^$all,to=~linkedin.com
 ||1234854.com^$all,to=~shopify.com
 ||suoncopbaonk.com^$all,to=~shopify.com
+||xsjt.site^$all,to=~shopify.com
 ||paypal-complete.com^$all
 ||prizegift.top^$all
 /\/recharge\d?\.(?:html|php)\?mobile=\d{10}\b/$doc,match-case,to=~jio.com|~edu|~gov
@@ -130651,6 +130652,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||assistancesosh.wixsite.com^$all,to=~orange.fr
 /or/.espace-.client/(;authentication.htm^$doc,to=~orange.fr
 ||tw1.ru/Orange/$doc,to=~orange.fr
+||dariusdomain.com/orange/$doc,to=~orange.fr
 ||amazon-*.shop^$doc
 ||amazon-shopping.shop^$all
 ||amazonl3.com^$all
@@ -130661,6 +130663,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||shop73.online^$all
 ||syae3289.top^$all
 ||mybluehost.me/wp-admin/amz/$doc
+||adswip.com^$all
 ||c.vn-ebayn.vip^$all
 ||vn-ebay.quxlpuj.cn^$all
 ||ebayasean.com^$all
@@ -130755,6 +130758,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||dhexpress.weebly.com^$all,to=~dhl.com
 ||delivery.attempt.failure.ebbs.co.za^$all,to=~dhl.com
 ||packages.mpinsureit.com^$all,to=~dhl.com
+||deliverytodayrequest.com^$all,to=~dhl.com
 ||sites.google.com/view/expressdhl^$all,to=~dhl.com
 ||xn--d1aqfkf.xn--p1ai/bitrix/.../GlobalSources/$all,to=~dhl.com
 ||app.farmaciadelmonestironline.com/SER/dnkdl/$all,to=~dhl.com
@@ -130764,10 +130768,12 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||elementor.cloud/*/ENGHUY645/$doc,to=~dhl.com
 ||mybluehost.me/*/phpmailer/src/dh/$doc,to=~dhl.com
 ||acheter-fichier-email.com^$all,to=~dhl.com
+||de.pathloading.com^$all,to=~dhl.com
 ||ann.tess1.top^$all
 ||play.funfourmob.com^$all
 ||privrendom.com^$all
 ||mait.inhhome.top^$all
+||mail.pages.exchange-midasbuy.com^$all
 ||notificationbyfacebook.$doc
 ||notificationbyfacebook.firebaseapp.com^$all
 ||notificationbyfacebook.web.app^$all
@@ -130818,6 +130824,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 /api/webapi/login|$xhr,3p,to=online|vip,method=post,header=access-control-allow-headers:Origin, X-Requested-With, Content-Type, Accept, Authorization
 ||lazada.bbc6666.com^$all
 ||tuyendungtiki2024.vn^$all,to=~tiki.vn
+||shopeas.cc^$all
 /^https:\/\/sp\d{2,3}88(?:vn)?\.com\//$doc,to=com|~shopee.vn
 ||vivanoticiando.com^$all
 ||virtualnoticiasaqui.com^$all
@@ -130926,6 +130933,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||enexdirecto.com^$all
 ||ccefactoring.com.br/ziujhyhtrer/$doc
 /Message%20Centre/mc.php^$doc
+/\.com\.[a-z]{2}\/wp-includes\/images\/smilies\/images?\/smili?es\/[a-z]{25,35}\.html/$doc
 ||telegramhcn.com^$all
 ||web.telegram.data-bees.cn^$all
 ||newappmssg.ru^$all
@@ -130950,6 +130958,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||mybluehost.me/uspshome/$doc
 ||mybluehost.me/us/post/$doc
 ||mybluehost.me/tracking-mail-delivery/$doc
+/^https:\/\/transportation[a-z]{4,5}pro\.top\/i\b/$doc,to=top
 /^https:\/\/(?:[a-z0-9]{2,}-)+10\d{4}\.weeblysite\.com\//$doc,to=weeblysite.com
 /^https:\/\/(?:[a-z0-9]{2,}-)+10\d{4}\.square\.site\//$doc,to=square.site
 /^https:\/\/[^.]+\.codeanyapp\.com\/wp-content\/.+\/spo[a-z]{2}i\//$doc,to=codeanyapp.com
@@ -131027,6 +131036,7 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||vangphutai.com^$all,to=~vangphutai.vn
 ||snapscrttm.serv00.net^$all,to=~snapchat.com
 ||aliexpressr.top^$all,to=~aliexpress.com
+||autoscurt24.de^$all,to=~autoscout24.de
 ||beluxrepm.followme.fr/FolloWMe$all,to=~realestate.bnpparibas.com
 ||mybluehost.me/Cope346/$all
 ||tesakom.com/aa/index.html^$all,to=~ebestsec.co.kr
@@ -131443,7 +131453,8 @@ ericdraken.com##^script[async]
 linkedin.com##+js(href-sanitizer, a[href^="https://www.linkedin.com/redir/redirect?url=http"], ?url)
 utreon.com##+js(no-xhr-if, utreon.com/pl/api/event method:POST)
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$script,xhr,3p,match-case
-/^https:\/\/[0-9a-z]{7,25}\.com\/(?:assets|build|bundles|chunks|dist|files|j|public|scripts|static)?\/?(?:js\/)?[_0-9a-f]{6,16}\/?[_0-9a-f]{20,36}(?:[-.](?:bundle|ma?in|module|prod|index|v\d|vendor))?(?:\.js)?$/$script,3p,match-case,to=com,redirect=noopjs
+/^https:\/\/[0-9a-z]{7,25}\.com\/(?:assets|build|bundles|chunks|dist|files|j|public|scripts|static)?\/?(?:js\/)?[_0-9a-f]{6,16}\/?[_0-9a-f]{20,36}(?:[-.](?:app|bundle|ma?in|module|prod|index|v\d|vendor))?(?:\.js)?$/$script,3p,match-case,to=com,redirect=noopjs
+/^https:\/\/[0-9a-z]{7,25}\.com\/[a-z]{0,7}\/?(?:js\/)?[_0-9a-f]{6,16}\/?[_0-9a-f]{20,36}(?:[-.][a-z0-9]{2,6})?(?:\.js)?$/$script,3p,match-case,to=com,header=x-datacenter
 ||succeedscene.com^$badfilter
 ||succeedscene.com^$~script
 zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST)
