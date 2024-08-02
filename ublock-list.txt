@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sSl0ayxRbkbQd+E20ZWEKg
+! Checksum: bxtLlYSpSRZbHjISooCKjg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408022036
-! Last Modified: 2024年08月02日 20:36
+! Version: 202408030225
+! Last Modified: 2024年08月03日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56688,6 +56688,7 @@ browsershots.org#@#.advert_area
 ||e1577bbd-2a7e-4bee-b2fe-12a6406689e5.xyz^$document,popup
 ||e1ce13d5.xyz^$document,popup
 ||e75d10b9.live^$document,popup
+||e8e2063b.xyz^$document,popup
 ||ea6c0ac4.xyz^$document,popup
 ||ec44.site^$document,popup
 ||f090.site^$document,popup
@@ -128189,14 +128190,9 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||mediafire.com/folder/47ccu44v3b5sq/$doc
 ||mediafire.com/folder/s5k8d836a2xwr/$doc
 ||mediafire.com/folder/atuqt39mahs1x/$doc
-||mediafire.com/folder/upkvl96lgm82i/$doc
 ||mediafire.com/folder/n2cwlepl4zeov/$doc
 ||mediafire.com/folder/cybqk7ulnmptm/$doc
-||mediafire.com/folder/dsnn4gpdlnig4/$doc
-||mediafire.com/folder/6q6psz38mqj7b/$doc
-||mediafire.com/folder/d36tcrxj403tj/$doc
-||www.youtube.com/channel/UCuHeiORKwgjZ5-n8xoq_zVA/$doc
-||www.youtube.com/channel/UCCmzcphyrH6Br5eNUnQR2mw/$doc
+||mediafire.com/folder/dqp2hwa872obn/$doc
 ||www.youtube.com/@pengwincheat/$doc
 ||sites.google.com/view/amamsoft|$doc
 ||sites.google.com/view/hubgames|$doc
@@ -128212,12 +128208,12 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||cheatworld.site^$doc
 ||sssrust.com^$doc
 ||softport.fun^$all
-||cheat.sierramercado.com^$doc
 ||upload.advgroup.ru/mvWwiE4h$all
 ||blazehack.top^$doc
 ||fusionhacks.pro^$doc
-||gameggss.site^$all
 ||cheatify.co^$doc
+||whitegames.club^$doc
+||apocalypsecheats.xyz^$all
 ||cloud-folder.org^$doc
 .systems/signup?ad_domain=$doc,popup
 ||1perpersqe1.com^$all
@@ -130822,6 +130818,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||xyzxyz55.xyz^$all
 ||thepatrones.blob.core.windows.net^$all
 ||m-isist-emai-nmu-ne-*.vercel.app^$all
+||vah-cont-in-uou-slyle-com-ay7t6dbmag9vhg8srhj4.vercel.app^$all
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=access-control-allow-headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=Access-Control-Allow-Headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/webapi/login|$xhr,3p,to=online|vip,method=post,header=access-control-allow-headers:Origin, X-Requested-With, Content-Type, Accept, Authorization
@@ -131278,6 +131275,14 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||twitterfollowers.site^$doc
 ##html[lang] > body#body > * > div.cv-xwrapper > div.cvc > div.cv-inner
 ##html[lang] > body#body > * > div.cvh.BlockClicksActivityBusy
+||bilsevvakfi.org^$doc
+||ogrencilerbirligi.com^$doc
+||lcwpaketleme.com^$doc
+||herkeseuygunisilanlari.com^$doc
+||cagrievi.com^$doc
+||kariyerfirsatin.com.tr^$doc
+||cartepak.online^$doc
+||aryapaketleme.com^$doc
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
