@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: b6RM4gh0Jylrzo4cgXe/ug
+! Checksum: NHw5n1DUIhkFiQLVVCVSFw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408031425
-! Last Modified: 2024年08月03日 14:25
+! Version: 202408032033
+! Last Modified: 2024年08月03日 20:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -278,6 +278,7 @@
 /ads/banners/*$image
 /ads/bottom.
 /ads/cbr.
+/ads/custom_ads.js
 /ads/delivery.
 /ads/footer.
 /ads/ga-audiences?
@@ -726,6 +727,7 @@
 /nxst-advertising/dist/htlbid-advertising.min.js
 /oiopub-direct/js.php
 /oncc-ad.js
+/oncc-adbanner.js
 /openads.js
 /owa.MessageAdList.
 /p8network.js
@@ -55149,6 +55151,7 @@ browsershots.org#@#.advert_area
 ||sourcecodeif.com^$document
 ||sprinlof.com^$document
 ||srvpcn.com^$document
+||srvtrck.com^$document
 ||stake.com/*&clickId=$document
 ||streameventzone.com^$document
 ||stt6.cfd^$document
@@ -55157,6 +55160,7 @@ browsershots.org#@#.advert_area
 ||sxlflt.com^$document
 ||tacopush.ru^$document
 ||takemybackup.co^$document
+||tatrck.com^$document
 ||tbao684tryo.com^$document
 ||tertracks.site^$document
 ||theirbellsound.co^$document
@@ -60123,6 +60127,7 @@ browsershots.org#@#.advert_area
 ||srv2trking.com^$popup
 ||srvpcn.com^$popup
 ||srvpub.com^$popup
+||srvtrck.com^$popup
 ||ssdwellsgrpo.info^$popup
 ||ssllink.net^$popup
 ||st-rdirect.com^$popup
@@ -60246,6 +60251,7 @@ browsershots.org#@#.advert_area
 ||taprtopcldfb.co^$popup
 ||tarebearpaw.top^$popup
 ||taroads.com^$popup
+||tatrck.com^$popup
 ||tauphaub.net^$popup
 ||tausoota.xyz^$popup
 ||tcare.today^$popup
@@ -63683,6 +63689,7 @@ browsershots.org#@#.advert_area
 ||zillastream.com/api/$popup
 !----------------------Specific advert blocking filters-----------------------!
 /assets/bn/movie.jpg$image,domain=vidstream.pro
+/pmc-adm-v2/build/setup-ads.js$domain=bgr.com|deadline.com|rollingstone.com
 /resolver/api/resolve/v3/config/?$xmlhttprequest,domain=msn.com
 asgg.php$domain=ghostbin.me|paste.fo
 ||0xtracker.com/assets/advertising/
@@ -75604,6 +75611,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /public/visitor/create?
 /publisher:getClientId?key=
 /publishertag.js
+/publitas-stats.js
 /pubstats.$domain=~pubstats.dev
 /pubtag.js
 /pulsario.js
@@ -130457,7 +130465,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||akyr3h9x5mb.com^$all
 ||tiger.qnews.media^$3p
 ||s8bet.com^$doc
-/\.br\/(?:[a-z]{4,8}\/){1,2}\?(?:app|patt|videos?)=\S+\.shtml$/$doc,match-case,domain=gov.br
+/\.br\/(?:[a-z]{4,8}\/){1,2}\?(?:app|patt|videos?)=\S+\.shtml$/$doc,match-case,to=gov.br
 c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||azure.z97z.com/go.html$doc
 ||sites.uft.edu.br/topama/news.php$doc
@@ -130707,16 +130715,19 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||amazonl3.com^$all
 ||tepoty.com^$all
 ||daroznel.com^$all
+||amazon8898.com^$all
 ||ecommrce-web-amazon.netlify.app^$all
 ||etisalat-amazonprime.com^$all,to=~etisalat.ae
 ||shop73.online^$all
 ||syae3289.top^$all
 ||mybluehost.me/wp-admin/amz/$doc
 ||adswip.com^$all
+||amserva.com^$all
 ||c.vn-ebayn.vip^$all
 ||vn-ebay.quxlpuj.cn^$all
 ||ebayasean.com^$all
 ||vilbuy.com^$all
+||epayu.cc^$all
 ||show.naturecircle.shop^$all
 /^https:\/\/(?:seller\.)?ebay-[a-z]{8,15}\.com\//$doc,to=com
 ||ebay-european.com^$all
@@ -130802,6 +130813,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 /views/choice/*/start.php^$doc
 ||sparkasse-oberhessen.info^$all,to=~sparkasse.de
 ||skylarkspb.ru/raiffeisentwint/$all,to=~raiffeisen.ch
+||amxprd.com^$doc,to=~americanexpress.com
 ||dhl.*.potabox.com^$doc,to=~dhl.com
 ||dhl-event.app^$all,to=~dhl.com
 ||dhexpress.weebly.com^$all,to=~dhl.com
@@ -130860,8 +130872,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||transparency-business.com^$all
 ||http://marketplace-item-details-*.zya.me^$all
 ||mediacontrolcenters.com^$all
-/^https:\/\/business\.[a-z]+confirm\.com\/meta-community-standard\d{15}\/?/$doc,match-case,to=com
-/\.(?:click|pages\.dev|surge\.sh)\/help\/contact\/\d{14,19}\b/$doc,match-case,to=click|pages.dev|surge.sh|~facebook.com
+/^https:\/\/business\.[a-z]+confii?rm\.com\/meta-community-standard\d{15}\/?/$doc,match-case,to=com
+/\.(?:click|dev|surge\.sh)\/help\/contact\/\d{14,19}\b/$doc,match-case,to=click|dev|surge.sh|~facebook.com
 ||business-help-temp-$doc
 /\.cfd\/contract\/\d{14,19}\b/$doc,match-case,to=cfd|~facebook.com
 ||business-center-$doc
@@ -130900,6 +130912,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||steamcomuniry.com^$all
 ||steamcommunlyt.com^$all
 ||steemcommuntiy.com^$all
+||stemcommunty.com^$all
 ||workshop-users.com^$all
 ||steam.poweredworkcreate.com^$all
 ||st-friends.com^$all
@@ -130988,6 +131001,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||web.telegram.data-bees.cn^$all
 ||newappmssg.ru^$all
 ||brawllstars.ru^$all
+||webz.dev^$all
 ||telegrambotsolution.pages.dev^$all
 /^https:\/\/www\.telegramk[a-z]\.com\//$to=com|~telegram.org
 ||telegramkv.com^$all
@@ -131035,6 +131049,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||altitudesim.ca/*/CHFINAL/$doc,to=~swisspass.ch
 ||codeanyapp.com/Swissp/$doc,to=~swisspass.ch
 ||orr.swq.mybluehost.me^$doc,to=~swisspass.ch
+||xrphealthcare.com^$doc
 ||secureserver.net/myswisscom$doc,to=~swisscom.ch
 ||codeanyapp.com/Swiss_com/$doc,to=~swisscom.ch
 ||codeanyapp.com/info/cc.php^$doc,to=~swisscom.ch
@@ -131087,6 +131102,7 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||snapscrttm.serv00.net^$all,to=~snapchat.com
 ||aliexpressr.top^$all,to=~aliexpress.com
 ||autoscurt24.de^$all,to=~autoscout24.de
+||rogersales.com^$all,to=~rogers.com
 ||beluxrepm.followme.fr/FolloWMe$all,to=~realestate.bnpparibas.com
 ||mybluehost.me/Cope346/$all
 ||tesakom.com/aa/index.html^$all,to=~ebestsec.co.kr
@@ -131182,8 +131198,8 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||puttyconnect.info^$all
 ||astrosphere.world^$all
 ||marketplace-item-*.000.pe^$doc
-/^https:\/\/(?:ai|art|get)-?midjourney[^\/]+\//$doc,domain=~midjourney.com|~edu|~gov
-/^https:\/\/mid-journey\.[a-z]+\//$doc,domain=~midjourney.com|~edu|~gov
+/^https:\/\/(?:ai|art|get)-?midjourney[^\/]+\//$doc,to=~midjourney.com|~edu|~gov
+/^https:\/\/mid-journey\.[a-z]+\//$doc,to=~midjourney.com|~edu|~gov
 ||midjourney.co^$all
 ||runningapplications-b7dae-default-rtdb.firebaseio.com^$all
 ||kisanbethak.com^$all
@@ -131281,8 +131297,8 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||sites.google.com/view/sora-ai-v2^$all
 /^https:\/\/[a-z]{6,19}\.(?:com|net)\/js\?t=[_a-z0-9]+&ns=[a-z]{2}$/$script,3p,strict3p,match-case,to=com|net
 /^https:\/\/[a-z]{6,19}\.(?:com|net)\/(?:static_)?file\/\?t=[_a-z0-9]+&ns=[a-z]{2}$/$frame,popup,3p,strict3p,match-case,to=com|net
-/^https:\/\/[a-z]{6,19}\.(?:com|net)\/(?:static_)?file\/\?t=[_a-z0-9]+&ns=[a-z]{2}$/$doc,match-case,domain=com|net
-||shy-boat-90ce.jiko728928922.workers.dev^$doc,domain=~uniswap.org
+/^https:\/\/[a-z]{6,19}\.(?:com|net)\/(?:static_)?file\/\?t=[_a-z0-9]+&ns=[a-z]{2}$/$doc,match-case,to=com|net
+||shy-boat-90ce.jiko728928922.workers.dev^$doc,to=~uniswap.org
 ||uniwspapp.com^$all,to=~uniswap.org
 ||crowdstrike-helpdesk.com^$doc
 ||crowdstrikebluescreen.com^$doc
@@ -134313,6 +134329,7 @@ bandyforbundet.no##+js(set, adn.clearDivs, noopFunc)
 @@||cdn.pendo.io/agent/static/*/pendo.js^$script,domain=bjs.com
 rpgbot.net#@#.ez-video-wrap
 @@||rpgbot.net/ezais/analytics^$xhr,1p
+@@||g.ezoic.net/ezais/analytics^$xhr,domain=rpgbot.net
 @@||humix.com/video.js^$script,domain=rpgbot.net
 @@||go.ezodn.com/beardeddragon/$script,domain=rpgbot.net
 @@||videosvc.ezoic.com^$xhr,domain=rpgbot.net
