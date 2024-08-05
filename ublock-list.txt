@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EOrKDskLrJlgpwkaoU9/vA
+! Checksum: r/+hon/BY0IE3/YUd2/S8g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408050925
-! Last Modified: 2024年08月05日 09:25
+! Version: 202408051427
+! Last Modified: 2024年08月05日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -14756,6 +14756,7 @@ _800x80_
 ##.vuukle-ads
 ##.vw-header__ads
 ##.w-ad-box
+##.w-adsninja-video-player
 ##.w-content--ad
 ##.wAdvert
 ##.w_AdExternal
@@ -55145,6 +55146,7 @@ browsershots.org#@#.advert_area
 ||sahiwaldisform.top^$document
 ||savinist.com^$document
 ||score-feed.com^$document
+||searchresultsadblocker.com^$document
 ||sessfetchio.com^$document
 ||sgad.site^$document
 ||shauladubhe.top^$document
@@ -65253,6 +65255,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 !------------------------Specific element hiding rules------------------------!
 magnet.so###AD
+passwordsgenerator.net###ADTOP
 advfn.com###APS_300_X_600
 advfn.com###APS_BILLBOARD
 seafoodsource.com###Ad1-300x250
@@ -66456,6 +66459,7 @@ xdaforums.com###xdaforums_right_1
 xdaforums.com###xdaforums_right_2
 blasternation.com###xobda
 yardbarker.com###yb_recirc
+yardbarker.com###yb_recirc_container_mobile
 transfermarkt.com###zLHXgnIj
 croxyproxy.rocks###zapperSquare
 beyondgames.biz,ecoustics.com###zox-lead-bot
@@ -66762,6 +66766,7 @@ mv-voice.com##.ad-break
 imsa.com##.ad-close-container
 npr.org##.ad-config
 12news.com,9news.com,9to5google.com,9to5mac.com,aad.org,advfn.com,all3dp.com,allaboutcookies.org,allnovel.net,amny.com,athleticbusiness.com,audiokarma.org,beeradvocate.com,beliefnet.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,cbs8.com,cc.com,ccjdigital.com,dailytrust.com,delish.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,equipmentworld.com,etcanada.com,euromaidanpress.com,fastcompany.com,footyheadlines.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,globalspec.com,gmanetwork.com,grammarbook.com,hbr.org,highdefdigest.com,howstuffworks.com,huffpost.com,insidehook.com,insider.com,intouchweekly.com,khou.com,koat.com,ktvu.com,lifeandstylemag.com,longislandpress.com,macstories.net,mail.com,mangakakalot.app,memuplay.com,metro.us,metrophiladelphia.com,minecraftforum.net,miningweekly.com,mixed-news.com,mobilesyrup.com,modernhealthcare.com,msnbc.com,my9nj.com,namemc.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,outkick.com,papermag.com,physiology.org,pixiv.net,punchng.com,qns.com,realsport101.com,reason.com,refinery29.com,roadandtrack.com,scroll.in,seattletimes.com,songkick.com,sportskeeda.com,thebaltimorebanner.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,themarketherald.ca,thenationonlineng.net,thenewstack.io,tmz.com,toofab.com,uploadvr.com,usmagazine.com,vanguardngr.com,wildtangent.com,wogx.com,worldsoccertalk.com,wral.com##.ad-container
+24timezones.com##.ad-container-diff
 newthinking.com##.ad-container-mpu
 wheelofnames.com##.ad-declaration
 sciencealert.com##.ad-desktop\:block
@@ -67874,6 +67879,7 @@ coingape.com##.dfd
 avclub.com,gadgetsnow.com,jezebel.com,nationaljeweler.com,pastemagazine.com,splinter.com,theonion.com##.dfp
 gazette.com,thehindu.com##.dfp-ad
 vox.com##.dfp-ad--connatix
+ibtimes.com##.dfp-ad-lazy
 investing.com##.dfp-native
 investing.com##.dfpVideo
 yts.mx##.dfskieurjkc23a
@@ -70186,6 +70192,7 @@ cpu-monkey.com,cpu-panda.com,gpu-monkey.com##.werb
 best-faucets.com,transfermarkt.co.uk,transfermarkt.com##.werbung
 transfermarkt.co.uk##.werbung-skyscraper
 transfermarkt.co.uk,transfermarkt.com##.werbung-skyscraper-container
+westsiderag.com##.wests-widget
 tametimes.co.za##.white-background
 gadgethacks.com,reality.news,wonderhowto.com##.whtaph
 pch.com##.wide_banner
@@ -70293,6 +70300,7 @@ titantv.com##.yRDh6z2_d0DkfsT3
 247mirror.com,365economist.com,bridewired.com,dailybee.com,drgraduate.com,historictalk.com,mvpmode.com,parentmood.com,theecofeed.com,thefunpost.com,visualchase.com,wackojaco.com##.ya-slot
 pravda.ru##.yaRtbBlock
 yardbarker.com##.yb-card-ad
+yardbarker.com##.yb-card-leaderboard
 yardbarker.com##.yb-card-out
 gamereactor.asia,gamereactor.cn,gamereactor.cz,gamereactor.de,gamereactor.dk,gamereactor.es,gamereactor.eu,gamereactor.fi,gamereactor.fr,gamereactor.it,gamereactor.jp,gamereactor.kr,gamereactor.nl,gamereactor.no,gamereactor.pl,gamereactor.pt,gamereactor.se##.yks300
 desmoinesregister.com##.ymHyVK__ymHyVK
@@ -71656,6 +71664,7 @@ avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot
 kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
+movieweb.com##.video
 petapixel.com##.video-aspect-wrapper
 gearjunkie.com##.video-jwplayer
 bolavip.com##.video-player-placeholder
@@ -130649,6 +130658,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||mybluehost.me/*/itx/it/conto/$doc,to=~intesasanpaolo.com
 ||suoncopbaonk.com^$all,to=~shopify.com
 ||xsjt.site^$all,to=~shopify.com
+||shopify-careers.com^$all,to=~shopify.com
 ||paypal-complete.com^$all
 ||prizegift.top^$all
 /\/recharge\d?\.(?:html|php)\?mobile=\d{10}\b/$doc,match-case,to=~jio.com|~edu|~gov
@@ -130716,12 +130726,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||danaxspaylaterr.biz.id^$all,to=~dana.id
 ||xcxcx.my.id^$doc,to=~dana.id
 ||pemesanan*.glowz.my.id^$doc,to=~dana.id
-||pemesanann-lpg-pertamina-market-deliveryy.glowz.my.id^$all,to=~dana.id
-||penerimaan-hadiah-giveaway-10juta.clau.my.id^$all,to=~dana.id
-||gdnapqmhbs.1myall.com^$all,to=~dana.id
-||ambiil-hadiaa4h.cs-resmi.com^$all,to=~dana.id
-||danadigital2024.cs-zx.top^$all,to=~dana.id
-||pulihkan-dana.ww-da.cfd^$all,to=~dana.id
 ||orange53.yolasite.com^$all,to=~orange.fr
 ||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
 ||smsmmsernorepls.wixsite.com^$all,to=~orange.fr
@@ -130739,11 +130743,12 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||tepoty.com^$all
 ||daroznel.com^$all
 ||amazon8898.com^$all
-||ecommrce-web-amazon.netlify.app^$all
-||etisalat-amazonprime.com^$all,to=~etisalat.ae
+||dalabuso.com^$all
 ||shop73.online^$all
 ||syae3289.top^$all
 ||mm39sg6.top^$all
+||ecommrce-web-amazon.netlify.app^$all
+||etisalat-amazonprime.com^$all,to=~etisalat.ae
 ||mybluehost.me/wp-admin/amz/$doc
 ||adswip.com^$all
 ||amserva.com^$all
@@ -131102,6 +131107,12 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||codeanyapp.com/swiss-login/$doc
 ||swisspost.web.app^$all,to=~post.ch
 ||wcomhost.com/ch/upc/$all,to=~upc.ch
+||etuktukmain.pages.dev^$doc,to=~etuktuk.io
+||appmemekombatclaim.pages.dev^$doc,to=~memekombat.io
+||claimturbo.co^$doc,to=~turbotoken.io
+||laeer3xyz.com^$doc,to=~layer3.xyz
+||cyberblast.info^$doc,to=~cyberblast.io
+||claimable-bankless.com^$all,to=~bankless.com
 ||gz-gmy.com^$all,to=~paxos.com
 ||aevoclaim.live^$doc,to=~aevo.xyz
 ||treezorrwallett.webflow.io^$all,to=~trezor.io
@@ -131580,8 +131591,8 @@ utreon.com##+js(no-xhr-if, utreon.com/pl/api/event method:POST)
 zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST)
 ||torimochi.line-apps.com^$image,redirect=1x1.gif
 ||api.bilibili.com/x/internal/gaia-gateway/ExClimbWuzhi$xhr,1p
-||p.typekit.net/p.css$css,redirect-rule=noop.css
-||p.typekit.net/p.css$css,domain=browserstack.com|bungie.net|robertsspaceindustries.com,redirect=noop.css,important
+||p.typekit.net/p.css^$css,redirect=noop.css
+||p.typekit.net/p.css^$css,domain=browserstack.com|bungie.net|robertsspaceindustries.com,redirect=noop.css,important
 -telemetry.officeapps.live$ping,xhr
 ||flow.microsoft.com/providers/Internal.Telemetry
 ||client-telemetry.roblox.com^
@@ -134030,7 +134041,7 @@ neurotray.com##+js(nano-stb, /EzoIvent|TDELAY/, 5000)
 @@||go.ezodn.com^$css,image,3p,domain=neurotray.com
 @@||go.ezodn.com/tardisrocinante/$script,3p,domain=neurotray.com
 @@||receiita.xyz^$popup,domain=animexhd.com
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js:5,domain=abczdrowie.pl|animezone.pl|antyradio.pl|chillizet.pl|claudia.pl|echirurgia.pl|elevensports.pl|elle.pl|elleman.pl|fm.tuba.pl|focusnauka.pl|games.cdn.famobi.com|glamour.pl|grydladzieci.pl|ipla.tv|ipla.tv|kobieta.pl|meloradio.pl|mojegotowanie.pl|mojpieknyogrod.pl|money.pl|national-geographic.pl|parenting.pl|partner.redefine.pl|playpuls.pl|pluscdn.pl|polsatgo.pl|polsatnews.pl|polsatsport.pl|przyslijprzepis.pl|radioplus.pl|radiozet.pl|sadeczanin.info|tvokazje.pl|tvp.pl|twojapogoda.pl|video.onnetwork.tv|videotarget.pl|wp.pl|wtk.pl|interia.pl|www.polsatnews.pl|autocentrum.pl
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js:5,domain=abczdrowie.pl|animezone.pl|chillizet.pl|claudia.pl|echirurgia.pl|elevensports.pl|elle.pl|elleman.pl|fm.tuba.pl|focusnauka.pl|games.cdn.famobi.com|glamour.pl|grydladzieci.pl|ipla.tv|ipla.tv|kobieta.pl|meloradio.pl|mojegotowanie.pl|mojpieknyogrod.pl|money.pl|national-geographic.pl|parenting.pl|partner.redefine.pl|playpuls.pl|pluscdn.pl|polsatgo.pl|polsatnews.pl|polsatsport.pl|przyslijprzepis.pl|radioplus.pl|radiozet.pl|sadeczanin.info|tvokazje.pl|tvp.pl|twojapogoda.pl|video.onnetwork.tv|videotarget.pl|wp.pl|wtk.pl|interia.pl|www.polsatnews.pl|autocentrum.pl
 virginmediatelevision.ie##+js(set, google.ima.dai, {})
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=virginmediatelevision.ie
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=virginmediatelevision.ie
@@ -134378,6 +134389,7 @@ rpgbot.net#@#.ez-video-wrap
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=typingtest.com
 typingtest.com###ad-container:style(display: block !important;)
 tatacommunications.com##+js(set, _vwo_code, {})
+@@||content.online-banking.sabbnet.com/app/group/gpib/cmn/js/webtrends.js^$script,1p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
