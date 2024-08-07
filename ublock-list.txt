@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XMZOV7h5COUR6J8tt1UdDw
+! Checksum: sfz9w94IYihV38ZNWt6yVQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408070924
-! Last Modified: 2024年08月07日 09:24
+! Version: 202408071426
+! Last Modified: 2024年08月07日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -61975,7 +61975,6 @@ browsershots.org#@#.advert_area
 ||dunhilltraveldeals.com^$third-party
 ||dx.com/affiliate/
 ||e-tailwebstores.com/accounts/default1/banners/
-||e11956.x.akamaiedge.net^
 ||earn-bitcoins.net/banner_
 ||ecufiles.com/advertising/
 ||elliottwave.com/fw/regular_leaderboard.js
@@ -130828,8 +130827,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||assistancesosh.wixsite.com^$all,to=~orange.fr
 /or/.espace-.client/(;authentication.htm^$doc,to=~orange.fr
 ||tw1.ru/Orange/$doc,to=~orange.fr
-||dariusdomain.com/orange/$doc,to=~orange.fr
-||dailycontestportal.com^$all,to=~orange.fr
 ||amazon-*.shop^$doc
 ||amazon-shopping.shop^$all
 ||amazonl3.com^$all
@@ -130850,6 +130847,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||ebayasean.com^$all
 ||vilbuy.com^$all
 ||epayu.cc^$all
+||svipeebay.com^$all
 ||ebaymerchant.shop^$all
 ||show.naturecircle.shop^$all
 /^https:\/\/(?:seller\.)?ebay-[a-z]{8,15}\.com\//$doc,to=com
@@ -130873,6 +130871,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||ewueuweudsjdjsdjjd.weeblysite.com^$all
 ||maiil-myatt.weeblysite.com^$all
 ||rtm-att.directly.com^$all
+||attxsdasdasmail.yolasite.com^$all
 ||keepo.io/KJOUYHUBU799BH/$all
 ||keepo.io/loginatt/$all
 ||dlhessell.wixsite.com/att-support/$all
@@ -130933,6 +130932,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||ewp.live/*/pages/region.php^$doc
 ||glitch.me/*/nationwide^$doc,to=~nationwide.co.uk
 ||mybluehost.me/ameli/$doc,to=~ameli.fr
+||mybluehost.me/meke/cc/clients/$doc,to=~targobank.de
 /28kxhS^$doc,to=online|shop|top|~sberbank.ru
 ||xyz/akbank/$doc,to=xyz|~akbank.com
 ||artecafe.eu/html/postde/pst/$all,to=~postbank.de
@@ -131002,7 +131002,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||http://marketplace-item-details-*.zya.me^$all
 ||mediacontrolcenters.com^$all
 ||supportcreatorportal.com^$all
-/^https:\/\/business\.[a-z]+confii?rm\.com\/meta-community-standard\d{15}\/?/$doc,match-case,to=com|~facebook.com
+/^https:\/\/business\.[a-z]+confii?rm\.com\/meta-community-standard\d{14,15}[^\d]?/$doc,match-case,to=com|~facebook.com
 /^https:\/\/business-component\.[a-z]+(-[a-z]+){2}\.com\//$doc,to=com|~facebook.com
 /\.(?:click|dev|net|surge\.sh)\/help\/contact\/\d{14,19}\b/$doc,match-case,to=click|dev|net|surge.sh|~facebook.com
 ||business-help-temp-$doc
@@ -131048,8 +131048,12 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||steamcommunlyt.com^$all
 ||steemcommuntiy.com^$all
 ||stemcommunty.com^$all
+||staemcommunnitty.com^$all
+||staemcommunnitty.com^$all
+||staemcommunnity.com^$all
 ||workshop-users.com^$all
 ||steam.poweredworkcreate.com^$all
+||steam.poweredstudiowork.com^$all
 ||st-friends.com^$all
 ||st-invite.com^$all
 ||cn-steam.com^$all
@@ -131104,6 +131108,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||gocolonial.local-user.com^$all
 ||skype-com.cn^$all
 ||login.sby48.com^$all
+||officesoftcn.com^$all
 ||cashum.unam.mx/wp-content/backups-dup-pro/imports/index.htm$all
 ||od.atami.no/one_drive.html$all
 ||johnhstngs4.wixsite.com^$all
@@ -131160,6 +131165,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||mybluehost.me/uspshome/$doc
 ||mybluehost.me/us/post/$doc
 ||mybluehost.me/tracking-mail-delivery/$doc
+||mybluehost.me/unitess/$doc
 /^https:\/\/transportation[a-z]{4,5}pro\.top\/i\b/$doc,to=top
 ||usps.*.top^$doc,to=top
 /^https:\/\/(?:[a-z0-9]{2,}-)+10\d{4}\.weeblysite\.com\//$doc,to=weeblysite.com
@@ -131202,6 +131208,13 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||codeanyapp.com/swiss-login/$doc
 ||swisspost.web.app^$all,to=~post.ch
 ||wcomhost.com/ch/upc/$all,to=~upc.ch
+||whitelist-memefi.com^$doc,to=~memefi.club
+||harambetok-eng.pages.dev^$doc,to=~harambetoken.ai
+||trekki.info^$doc,to=~trekki.io
+||arrisdapp.com^$doc,to=~arris.club
+||bnbfour.net^$doc,to=~bnbfour.meme
+||mode-claim.xyz^$doc,to=~mode.network
+||claim-bool.com^$doc,to=~bool.network
 ||etuktukmain.pages.dev^$doc,to=~etuktuk.io
 ||appmemekombatclaim.pages.dev^$doc,to=~memekombat.io
 ||claimturbo.co^$doc,to=~turbotoken.io
@@ -131223,6 +131236,9 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||azuki-*.vercel.app^$all,to=~azuki.com
 ||base-swap-frontend-*.vercel.app^$doc
 ||metamask*.webflow.io^$doc
+||final-claim.pages.dev^$doc
+||ethfi-claims.xyz^$doc,to=~ether.fi
+||claim-etherfi.me^$doc,to=~ether.fi
 ||baseguardauth.net^$all,to=~coinbase.com
 ||cbnotifser.top^$all,to=~coinbase.com
 ||cbnotif.top^$all,to=~coinbase.com
@@ -134485,6 +134501,7 @@ tatacommunications.com##+js(set, _vwo_code, {})
 ||synchrobox.adswizz.com/register2.php$script,domain=player.amperwave.net,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=player.amperwave.net,important
 player.amperwave.net##+js(no-xhr-if, live.streamtheworld.com/partnerIds)
+||st.dynamicyield.com^$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
