@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sfz9w94IYihV38ZNWt6yVQ
+! Checksum: wUM817BvipNTSnUx/2RvWw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408071426
-! Last Modified: 2024年08月07日 14:26
+! Version: 202408072037
+! Last Modified: 2024年08月07日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -7109,7 +7109,9 @@ _800x80_
 ##.ad-panel__googlead
 ##.ad-panorama
 ##.ad-parallax
+##.ad-parent-billboard
 ##.ad-parent-class
+##.ad-parent-halfpage
 ##.ad-pb
 ##.ad-peg
 ##.ad-pencil-margin
@@ -20035,6 +20037,7 @@ browsershots.org#@#.advert_area
 ||b3ra6hmstrioek54er.com^
 ||b3stcond1tions.com^
 ||b3z29k1uxb.com^
+||b41732fb1b.com^
 ||b42rracj.com^
 ||b44794baad.com^
 ||b4dda3f4a1.com^
@@ -27275,6 +27278,7 @@ browsershots.org#@#.advert_area
 ||eo62cocntx.com^
 ||eoasxirquewfyn.com^
 ||eobvppi.com^
+||eoedchucdtkep.com^
 ||eofripvanwin.org^
 ||eofst.com^
 ||eoftheappyrinc.info^
@@ -29447,6 +29451,7 @@ browsershots.org#@#.advert_area
 ||fzamtef.com^
 ||fzfcrqlwph.com^
 ||fzipipalkri.com^
+||fzivunnigra.com^
 ||fzszuvb.com^
 ||g-statistic.com^
 ||g0-g3t-msg.com^
@@ -33618,6 +33623,7 @@ browsershots.org#@#.advert_area
 ||javacid.fun^
 ||javascriptcdnlive.com^
 ||javdawn.fun^
+||javgenetic11.fun^
 ||javgg.eu^
 ||javgulf.fun^
 ||javjean.fun^
@@ -34952,6 +34958,7 @@ browsershots.org#@#.advert_area
 ||ktmayxvea.com^
 ||ktnukmtsbfko.com^
 ||ktobedirectu.xyz^
+||ktpcsqnij.com^
 ||ktqiyjojiya.com^
 ||ktrfzka.com^
 ||ktrmmxocabjd.com^
@@ -36733,6 +36740,7 @@ browsershots.org#@#.advert_area
 ||masqueradeflashy.com^
 ||massacreintentionalmemorize.com^
 ||massacresurrogate.com^
+||massagefumaria.click^
 ||massariuscdn.com^
 ||massbrag.care^
 ||massecephid.uno^
@@ -38819,6 +38827,7 @@ browsershots.org#@#.advert_area
 ||nogxlplmx.xyz^
 ||nohezu.xyz^
 ||noiselessvegetables.com^
+||noisesperusemotel.com^
 ||noisybeforemorton.com^
 ||noisyjoke.pro^
 ||noisyoursarrears.com^
@@ -50568,6 +50577,7 @@ browsershots.org#@#.advert_area
 ||ukentsiwoulukdlik.info^
 ||ukfareputfea.xyz^
 ||ukidiayddbshfl.com^
+||ukindwouldmeu.com^
 ||ukizeiasninan.info^
 ||uklgakwqy.com^
 ||ukloxmchcdnn.com^
@@ -51993,6 +52003,7 @@ browsershots.org#@#.advert_area
 ||vpico.com^
 ||vpipi.com^
 ||vpixrlkggv.com^
+||vpkdrxyx.com^
 ||vplgggd.com^
 ||vpn-defend.com^
 ||vpn-offers.com^
@@ -54416,6 +54427,7 @@ browsershots.org#@#.advert_area
 ||zhuwjujpub.com^
 ||zhyivocrjeplby.com^
 ||zhzclbysg.com^
+||zi3nna.xyz^
 ||zi8ivy4b0c7l.com^
 ||zibaweva.com^
 ||ziblo.cloud^
@@ -54523,6 +54535,7 @@ browsershots.org#@#.advert_area
 ||zoizfaodz.com^
 ||zokaukree.net^
 ||zokbywpncgqrq.com^
+||zombyfairfax.com^
 ||zonealta.com^
 ||zontgohjw.com^
 ||zonupiza.com^
@@ -63328,6 +63341,7 @@ browsershots.org#@#.advert_area
 ||dianomi.com^$popup
 ||download-adblock360.com^$popup
 ||downloadoperagx.com/ef/$popup
+||e11956.x.akamaiedge.net^$popup
 ||eatcells.com/land/$popup
 ||error-alerts.com^$popup
 ||esports1x.com^$popup
@@ -65817,7 +65831,6 @@ healthshots.com###fitnessTools
 healthshots.com###fitnessToolsAdBot
 thisismoney.co.uk###fiveDealsWidget
 point2homes.com,propertyshark.com###fixedban
-cnx-software.com###fixeddbar
 topsporter.net###fl-ai-widget-placement
 vscode.one###flamelab-convo-widget
 nanoreview.net###float-sb-right
@@ -68160,6 +68173,7 @@ theblock.co##.fixedUnit
 cgdirector.com##.fixed_ad_container_420
 2conv.com##.fixed_banner
 timesofindia.indiatimes.com##.fixed_elements_on_page
+cnx-software.com##.fixedmbar
 fixya.com##.fixya_primis_container
 whatismyipaddress.com##.fl-module-wipa-concerns
 whatismyipaddress.com##.fl-photo
@@ -68292,7 +68306,6 @@ cometbird.com##.gg_250x250
 cornish-times.co.uk,farnhamherald.com,iomtoday.co.im##.ggzoWi
 ghacks.net##.ghacks-ad
 ghacks.net##.ghacks_ad_code
-cnx-software.com##.ghelpme
 mql5.com##.giyamx4tr
 goodmenproject.com##.gmp-instream-wrap
 militaryleak.com##.gmr-floatbanner
@@ -68336,6 +68349,7 @@ teleboy.ch##.grid-col-content-leaderboard
 newsnow.co.uk##.grid-column__container
 groovypost.com##.groov-adlabel
 leetcode.com##.group\/ads
+cnx-software.com##.gsangle
 gulftoday.ae##.gt-ad-center
 gulf-times.com##.gt-horizontal-ad
 gulf-times.com##.gt-square-desktop-ad
@@ -70395,6 +70409,7 @@ tekdeeps.com##.zAzfDBzdxq3
 ign.com,mashable.com,pcmag.com##.zad
 windows101tricks.com##.zanui-container
 antimusic.com##.zerg
+pcmag.com##.zmgad-full-width
 bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com##.zone
 bellinghamherald.com##.zone-el
 cnn.com##.zone__ads
@@ -70507,6 +70522,7 @@ washingtonpost.com##[data-sc-c="adslot"]
 timesofindia.indiatimes.com##[data-scrollga="spotlight_banner_widget"]
 trakt.tv##[data-snigel-id]
 amp.theguardian.com##[data-sort-time="1"]
+theinertia.com##[data-spotim-module="tag-tester"]
 vrbo.com##[data-stid="meso-ad"]
 etherscan.io##[data-t8xt5pt6kr-seq="0"]
 si.com##[data-target="ad"]
@@ -71745,9 +71761,10 @@ swimswam.com##.polls-461
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com,thetakeout.com##.related-stories-inset-video
 kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
+si.com##.style_hfl21i-o_O-style_uhlm2
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 sportskeeda.com##.vidazoo-player-container
-movieweb.com,screenrant.com##.video
+justthenews.com,movieweb.com,screenrant.com##.video
 petapixel.com##.video-aspect-wrapper
 gearjunkie.com##.video-jwplayer
 bolavip.com##.video-player-placeholder
@@ -130518,8 +130535,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 .com/api/users*^in=false&token=$doc
 ||asdmcm.com^$all
 .com/bot-captcha-1?h=$doc
-/^https:\/\/[a-z]{5,7}\.[0-9a-z]{12}\.top\/[0-9a-f]{32}\/[0-9-a-f]{32}\/$/$doc,match-case,domain=top
-/\/[0-9a-f]{32}\/maq\/$/$doc,match-case,domain=com|top
+/^https:\/\/[a-z]{5,7}\.[0-9a-z]{12}\.top\/[0-9a-f]{32}\/[0-9-a-f]{32}\/$/$doc,match-case,to=top
+/\/[0-9a-f]{32}\/maq\/$/$doc,match-case,to=com|top
 /antivirus/main/cleaner-default/*$doc
 ||fitgirl-repacks.*^$all,domain=~fitgirl-repacks.site,to=~fitgirl-repacks.site
 ||fitgirl-repack.*^$all,domain=~fitgirl-repacks.site
@@ -131804,7 +131821,8 @@ idnes.cz##+js(aeld, mousedown, scoreUrl)
 slickdeals.net##+js(href-sanitizer, a[href*="go.redirectingat.com"][href*="url=http"], ?url)
 slickdeals.net##+js(href-sanitizer, a[href^="https://slickdeals.net/?"][href*="u2=http"], ?u2)
 dk.pcpartpicker.com##+js(href-sanitizer, a[href^="https://online.adservicemedia.dk/"][href*="deeplink=http"], ?deeplink)
-justwatch.com##+js(href-sanitizer, a[href^="https://click.justwatch.com/"][href*="r="], ?r)
+justwatch.com##+js(href-sanitizer, 'a:is([href^="https://click.justwatch.com/"],[href^="https://c.justwatch.com/"])[href*="r=http"]:not([href*=".pxf.io"])', ?r)
+justwatch.com##+js(href-sanitizer, 'a:is([href^="https://click.justwatch.com/"],[href^="https://c.justwatch.com/"])[href*="r=http"][href*=".pxf.io"]', ?r?u)
 ||cdn.digg.com/fragments/homepage/static/view-frontpage.js
 /detroitchicago/dpv.gif?$image
 /detroitchicago/imp.gif$ping
@@ -134372,7 +134390,7 @@ myair.resmed.com##+js(no-xhr-if, 1.1.1.1/cdn-cgi/trace)
 gifmagic.com###logoContainer:style(top: 0px !important;)
 @@||go.redirectingat.com^$popup,3p,domain=slickdeals.net
 @@||googletagmanager.com/gtag/js$3p,script,domain=trinket.io
-||artstation.com/*/views_tracking/$xhr,1p,redirect-rule=nooptext
+||artstation.com/*/views_tracking/$xhr,1p,redirect=nooptext
 ||tapad.com^$badfilter
 ||tapad.com^$domain=~crportal.tapad.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect=google-ima.js,domain=pilipinaslive.com
@@ -134447,10 +134465,6 @@ user.guancha.cn##+js(set, sensors.init, noopFunc)
 @@||assets.adobedtm.com/*-source.min.js$script,domain=chegg.com
 @@||client.perimeterx.net/PXzYvFOXaC/main.min.js$script,domain=chegg.com
 @@||pxchk.net/api/v2/collector^$xhr,domain=chegg.com
-@@||click.justwatch.com^$document,domain=click.justwatch.com
-@@||crunchyroll.pxf.io^$document,domain=crunchyroll.pxf.io
-@@||ojrq.net^*www.justwatch.com$document,domain=ojrq.net
-@@||imp.i305175.net^*justwatch&$document,domain=imp.i305175.net
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,3p,redirect=google-ima.js,domain=fox5sandiego.com
 ||imasdk.googleapis.com/pal/sdkloader/pal.js^$script,3p,redirect=noopjs,domain=fox5sandiego.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect=google-ima.js,domain=kraloyun.com
