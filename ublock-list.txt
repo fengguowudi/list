@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q4gjOU6fZAXL1vlS4EWdQg
+! Checksum: 9oHiT/koi1iB9UKorauSUQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408082037
-! Last Modified: 2024年08月08日 20:37
+! Version: 202408090226
+! Last Modified: 2024年08月09日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15035,6 +15035,7 @@ _800x80_
 ##[href^="http://mypillow.com/"] > img
 ##[href^="http://www.mypillow.com/"] > img
 ##[href^="https://ad.admitad.com/"]
+##[href^="https://ad1.adfarm1.adition.com/"]
 ##[href^="https://affiliate.fastcomet.com/"] > img
 ##[href^="https://antiagingbed.com/discount/"] > img
 ##[href^="https://ap.octopuspop.com/click/"] > img
@@ -19463,6 +19464,7 @@ browsershots.org#@#.advert_area
 ||assobredrouked.com^
 ||associationstoopedacid.com^
 ||associationwish.com^
+||assodbobfad.com^
 ||assoilrehboc.top^
 ||assortmentberry.com^
 ||assortmentcriminal.com^
@@ -24883,6 +24885,7 @@ browsershots.org#@#.advert_area
 ||dearfiring.com^
 ||dearlyseedsad.com^
 ||dearlystoop.com^
+||deasandcomemunic.com^
 ||deatchshipsmotor.com^
 ||deathssm.com^
 ||debatableslippers.com^
@@ -125730,6 +125733,8 @@ nudeof.com##div.happy-section
 @@||skmedix.pl^$ghide,script,1p
 ||skmedix.pl/cdn-cgi/zaraz/$script,1p,important
 *$frame,redirect-rule=noopframe,domain=skmedix.pl
+skmedix.pl##+js(cookie-remover)
+skmedix.pl##+js(trusted-click-element, button.fc-button)
 yxoshort.com##+js(aopr, app_vars.force_disable_adblock)
 yxoshort.com##+js(set, blurred, false)
 yxoshort.com##.banner
@@ -128391,7 +128396,8 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||datesmart.link^$all
 ||maxerotica.com^$all
 ||foxymilfspo.com^$all
-^click_id=*&s1=$doc
+||kissablepopsyv.click^$all
+||kissablepopsyv43.com^$all
 ||mikkim.top^$all
 ||discordvip.createsocialcard.top^$all
 ^s1=*&click_id=$doc
@@ -128654,6 +128660,7 @@ origincrack.com##center > button
 .pro/?h=*&user=$script,3p
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&$doc
 /?*&gkss=$doc,to=cfd|click|pro|world|xyz
+^click_id=*&s1=$doc
 ||theannoyingsite.com^$all
 /vpnupdate/*/index.html?*p1=$doc
 ||smartklick.biz^$all
@@ -130830,8 +130837,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||login-ourtime.members-datings.workers.dev^$all,to=~ourtime.com
 ||profile-ourtime.*.workers.dev^$doc,to=~ourtime.com
 /^https:\/\/ourtime\.[a-z]+-[a-z]+\.workers\.dev\//$doc,to=workers.dev|~ourtime.com
-/^https:\/\/(?:[a-z]{4,6}\.)?tiktok\d{2,5}\.com\//$doc,to=com|~tiktok.com
-/^https:\/\/(?:[a-z]{4,6}\.)?tiktok\d{2,5}\.cc\//$doc,to=cc|~tiktok.com
 /\/wap\/api\/(?:activity\/)?[a-zA-Z]+![-_a-zA-Z]+\.action\?/$xhr,1p,strict1p,match-case
 ||griffithdds.com/*/madeinchina.com/$all,to=~made-in-china.com
 ||oortech.com/mic.shtml^$doc,to=~made-in-china.com
@@ -131611,6 +131616,8 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||cdmx-gob-mx.com^$doc,to=~cdmx.gob.mx
 ||comd-neuerung1.com^$all
 ||comd-refresh.com^$all
+||hkdk.events/8cjknac3yxdqk4^$all
+||xdxg.xyz^$all
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -131708,7 +131715,6 @@ botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,m
 alpacafinance.org,tt.live,future-fortune.com,abhijith.page,madrigalmaps.com,adventuretix.com,bolighub.dk##+js(rmnt, script, /join\(\"\"\)/)
 panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaboratories.com,emanualonline.com##+js(rmnt, script, api.dataunlocker.com)
 !#endif
-||eldorado.gg/liberate_script_data$script,1p
 /^https?:\/\/(?!assets|script|static)(?:[0-9a-z]{5,25}|[0-9a-z]{6})\.www\.eldorado\.gg\/(?=[0-9a-z+\/\-]*[A-Z])[0-9A-Za-z+\/\-]{80,106}$/$script,1p,match-case,strict3p,domain=eldorado.gg
 ||washpost.nile.works^
 /p13n/batch/action/*$image
