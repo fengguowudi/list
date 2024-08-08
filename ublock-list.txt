@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pxejM4cVo1nwH1/bi9po0g
+! Checksum: q4gjOU6fZAXL1vlS4EWdQg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408081427
-! Last Modified: 2024年08月08日 14:27
+! Version: 202408082037
+! Last Modified: 2024年08月08日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53133,6 +53133,7 @@ browsershots.org#@#.advert_area
 ||wopsedoaltuwp.com^
 ||woqycyda.com^
 ||wordbodily.com^
+||wordfence.me^
 ||wordingget.com^
 ||wordpersonify.com^
 ||wordsnought.com^
@@ -56820,6 +56821,7 @@ browsershots.org#@#.advert_area
 ||f33d11b5.xyz^$document,popup
 ||f417a726.xyz^$document,popup
 ||f4c9a0fb.xyz^$document,popup
+||f54cd504.xyz^$document,popup
 ||f6176563.site^$document,popup
 ||f6b458fd.xyz^$document,popup
 ||f700fa18.live^$document,popup
@@ -71787,6 +71789,7 @@ insideevs.com##.minutely_video_wrap
 lifewire.com##.mntl-jwplayer-broad
 respawnfirst.com##.mv-ad-box
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
+pagesix.com##.nyp-video-player
 picrew.me##.play-Imagemaker_Footer
 sciencetimes.com##.player
 bossip.com##.player-wrapper-inner
@@ -82186,6 +82189,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geckofoot.com/gfvisitormap.aspx?
 ||gem.com/api/o/$image,third-party
 ||gemius.mgr.consensu.org^
+||generflow.com/client-logs/
 ||genesis.malwarebytes.com^
 ||geni.us/snippet.js
 ||geni.us/snippet.min.js
@@ -85864,6 +85868,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||marketing.dropbox.com^
 ||massivecams.com/api/events
 ||massivecams.com/api/metrics
+||massivecams.com/api/statsd
+||massivecams.com/api/v1/activity
 ||mat6tube.com/api/stats?
 ||mcc-tags.cisco.com^
 ||mcs-ie.tiktokw.eu^
@@ -123644,6 +123650,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||pzd.rakuten.co.jp^
 ||rakuten.co.jp/com/js/omniture/
 ||rakuten.co.jp/gw.js
+||ranking.fc2.com/analyze.js
 ||rat.rakuten.co.jp^
 ||rdsig.yahoo.co.jp^$image
 ||rebuyengine.com/api/*/analytics/event/
@@ -128384,6 +128391,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||datesmart.link^$all
 ||maxerotica.com^$all
 ||foxymilfspo.com^$all
+^click_id=*&s1=$doc
 ||mikkim.top^$all
 ||discordvip.createsocialcard.top^$all
 ^s1=*&click_id=$doc
@@ -128580,7 +128588,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||1980s.click^$doc
 goharpc.com,pccrackbox.com,cracklabel.com,pcwarezbox.com,10crack.com,crackproductkey.com,crackpcsoft.net,crackwinz.com,genuineactivator.com,topcracked.com,fullcrackedpc.com,idmfullcrack.info,idmpatched.com,productkeyfree.org,patchcracks.com,cracksole.com,allsoftwarekeys.com,softwar2crack.com,productkeyforfree.com,wazusoft.com,rootscrack.com,activators4windows.com,procrackhere.com,proproductkey.com,freelicensekey.org,pcsoftz.net,freecrackdownload.com,f4file.com,serialkey360.com,zuketcreation.net,filedownloads.store##[onclick*="open"]
 serialkey89.com,installcracks.com,crackserialkey.co,maliksofts.com,crackpropc.com,ayeshapc.com,crackhomes.com,crackspro.co,crackknow.com,4howcrack.com,trycracksoftware.com,getprocrack.co,activationkeys.co,organiccrack.com,softwarance.com,procrackkey.co,download4mac.com,freeactivationkeys.org,explorecrack.com,okproductkey.com,downloadpc.net,up4pc.com,hitproversion.com,cracktube.net,abbaspc.net,crackdownload.org,crackdownload.me,corecrack.com,windowsactivator.info,keygenstore.com,procrackpc.co,getmacos.org,latestproductkey.co,shanpc.com,crackpckey.com,torrentfilefree.com,patchcracks.com,idmfullversion.com,wareskey.com,crackbell.com,newproductkey.com,osproductkey.com,serialkeysfree.org,autocracking.com,crackzoom.com,greencracks.com,profullversion.com,crackswall.com,rootcracks.org,licensekeys.org,softserialkey.com,free4pc.org,productkeys.org,crackedfine.com,idmcrackeys.com,crackedhere.com,licensekeysfree.org,trycracksetup.com,crackedsoft.org,assadpc.com,thecrackbox.com,crackproductkey.com,cracklabel.com,keystool.com,crackedpcs.com,cracksmad.com,licensekeyup.com,chcracked.com,finalcracked.com,activatorpros.com,crackedmod.com,whitecracked.com,cracksoon.com,boxcracked.com,activationkey.org,serialkeypatch.org,crackedsoftpc.com,proapkcrack.com,softscracked.com,freeappstorepc.com,reallpccrack.com,crackfullkey.net,hmzapc.com,zcracked.com,usecracked.com,crackedversion.com,aryancrack.com,piratespc.net,reallcrack.com,fultech.org,crackpro.org,cracksray.com,pcwarezbox.com,cracksmat.com,crackxpoint.com,startcrack.co,crackbros.com,pcfullversion.com,sjcrack.com,repack-games.com,bypassapp.com,crackfury.com,9to5crack.com##center > [class*="buttonPress-"]
-warezcrack.net,freeprosoftz.com,vcracks.com,crackthere.com,keygenfile.net,scracked.com,cyberspc.com,softzcrack.com,crackintopc.com,zslicensekey.com,procrackpc.com,crackshere.com,crackdj.com,cracktopc.com,serialsofts.com,prosoftlink.com,zscracked.com,crackvip.com,windowcrack.com,softsnew.com,licensecrack.net,vstpatch.net,newcrack.info,topkeygen.com,vsthomes.com,vstserial.com,procrackerz.com,pcfullcrack.org,keygenpc.com,bicfic.com,ikcrack.com,downloadcracker.com,karancrack.com,piratesfile.com,activatorwin.com,starcrack.net,crackproduct.com,dgkcrack.com,crackglobal.com,crackcan.com,keygendownloads.com,crackpatched.com,windowsactivators.org,serialsoft.org,crackit.org,productscrack.com,crackurl.info,crackroot.net,crackmak.com,seeratpc.com,crackmix.com,piratepc.me,activators4windows.com,letcracks.com,latestcracked.com,proproductkey.com,fullversionforever.com,vlsoft.net,topcracked.com,goharpc.com,crackeado.net,freecrackdownload.com,assadpc.com,fileoye.com,f4file.com,crackpcsoft.net,crackwinz.com,excrack.com,mahcrack.com,get4pcs.com,keygenwin.com,mycrackfree.com,crackfullpro.com,crackkey4u.com,fileserialkey.com,cracksdat.com,crackgrid.com,licensekeysfree.com,crackkeymac.com,freecrack4u.com,getintomac.net,crackreview.com,activatorskey.com,kuyhaa.cc,cracktel.com,up4crack.com,cracksmat.com,crackbros.com,pcfullversion.com,crackcut.com,game-repack.site,dodi-repacks.download,yasir-252.net,getpcsofts.net,keystool.com,rootcracks.org,procracks.net,newproductkey.com,greencracks.com,zeemalcrack.com,macfiles.org##div[class^="code-block code-block-"]
+warezcrack.net,freeprosoftz.com,vcracks.com,crackthere.com,keygenfile.net,scracked.com,cyberspc.com,softzcrack.com,crackintopc.com,zslicensekey.com,procrackpc.com,crackshere.com,crackdj.com,cracktopc.com,serialsofts.com,prosoftlink.com,zscracked.com,crackvip.com,windowcrack.com,softsnew.com,licensecrack.net,vstpatch.net,newcrack.info,topkeygen.com,vsthomes.com,vstserial.com,procrackerz.com,pcfullcrack.org,keygenpc.com,bicfic.com,ikcrack.com,downloadcracker.com,karancrack.com,piratesfile.com,activatorwin.com,starcrack.net,crackproduct.com,dgkcrack.com,crackglobal.com,crackcan.com,keygendownloads.com,crackpatched.com,windowsactivators.org,serialsoft.org,crackit.org,productscrack.com,crackurl.info,crackroot.net,crackmak.com,seeratpc.com,crackmix.com,piratepc.me,activators4windows.com,letcracks.com,latestcracked.com,proproductkey.com,fullversionforever.com,vlsoft.net,topcracked.com,goharpc.com,crackeado.net,freecrackdownload.com,assadpc.com,fileoye.com,f4file.com,crackpcsoft.net,crackwinz.com,excrack.com,mahcrack.com,get4pcs.com,keygenwin.com,mycrackfree.com,crackfullpro.com,crackkey4u.com,fileserialkey.com,cracksdat.com,crackgrid.com,licensekeysfree.com,crackkeymac.com,freecrack4u.com,getintomac.net,crackreview.com,activatorskey.com,kuyhaa.cc,cracktel.com,up4crack.com,cracksmat.com,crackbros.com,pcfullversion.com,crackcut.com,game-repack.site,dodi-repacks.download,yasir-252.net,getpcsofts.net,keystool.com,rootcracks.org,procracks.net,newproductkey.com,greencracks.com,zeemalcrack.com,macfiles.org,softzspot.com##div[class^="code-block code-block-"]
 crackkits.com,crackwatch.org,origincrack.com,procrackerz.com,crackhub.org,crackrules.com,zeemalcrack.com,haxmac.cc,cracka2zsoft.com,clevercracks.com,crackpropc.com,crackspro.co,crackknow.com,onhax.in,haxpc.net##.getox
 alicracks.com,win-crack.com,productkeyfree.org,productkeyforfree.com,wazusoft.com,piratesfile.com,kalicrack.com,sadeempc.com,letcracks.com,topkeygen.com,thepiratecity.co,torrentmac.net,ryuugames.com,rootscrack.com,pesktop.com,profullversion.com,crackswall.com,proappcrack.com,thecrackbox.com,autocracking.com,zgamespc.com,serialkeysfree.org,torrentfilefree.com,crack11.com##center > a
 cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:center;"]
@@ -128625,6 +128633,12 @@ origincrack.com##center > button
 ||securecracked.info^$all
 ||sushilprajapati.com^$all
 ||aneurismuox.click^$all
+||afiletoget.click^$all
+||redis08.sbs^$all
+||filexstorage.site^$all
+||jourl.live^$all
+||sleetposition.website^$all
+||funfilenow.com^$all
 .click/?s=*&g=*&q=files.zip$doc
 .click/*?s=*&g=*&q=$script,3p
 .click/?h=*&user=$script,3p
@@ -130851,6 +130865,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||floridavacationrentalsbyowners.com/*/Info/page_settings/account.php^$all
 ||loginnetflixleiojfioje.blogspot.$all
 ||xsph.ru/*/netfi2k/$doc
+||bulksms.services/*/NetFlxinc/$doc
+||bulksms.services/NetFxs/$all
 ||allegrostore.cc^$all
 ||allegrostu.com^$all
 ||allegrocolombia.com^$all
@@ -131034,10 +131050,13 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||www-facebook-com.vn^$all
 ||vww-facebook.com.vn^$all
 ||www-facebooks.com.vn^$all
+||faceb00k.com.vn^$all
 ||facabook.vn^$all
 ||facebooks-com.vn^$all
 ||mobile-facebook.com.vn^$all
 ||m-facebookk.com.vn^$all
+||mfacebook.net.vn^$all
+||mfacebookk.com.vn^$all
 ||ifbsmetaiidentiityconfirms.com^$all
 ||ad-activity-center.com^$all
 ||govern-assessment-validation-*.vercel.app^$all
@@ -131055,12 +131074,16 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||http://marketplace-item-details-*.zya.me^$all
 ||mediacontrolcenters.com^$all
 ||supportcreatorportal.com^$all
+||info-meta-noreply.com^$all
 /^https:\/\/business\.[a-z]+confii?rm\.com\/meta-community-standard\d{14,15}[^\d]?/$doc,match-case,to=com|~facebook.com
 /^https:\/\/business-component\.[a-z]+(-[a-z]+){2}\.com\//$doc,to=com|~facebook.com
 /\.(?:click|dev|net|surge\.sh)\/help\/contact\/\d{14,19}\b/$doc,match-case,to=click|dev|net|surge.sh|~facebook.com
 ||business-help-temp-$doc
+/\.workers\.dev\/help\/\d{14,19}\b/$doc,to=workers.dev|~facebook.com
+||royal-glade-286f.kdsj.workers.dev^$doc
 /\.cfd\/contract\/\d{14,19}\b/$doc,match-case,to=cfd|~facebook.com
 ||business-center-$doc
+||amarmehandiart.in/metaen/$all
 ||helps-center-page-number-$doc
 ||xyzxyz55.xyz^$all
 ||thepatrones.blob.core.windows.net^$all
@@ -131193,6 +131216,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||ccefactoring.com.br/ziujhyhtrer/$doc
 /Message%20Centre/mc.php^$doc
 /\.com(\.[a-z]{2})?\/wp-includes\/images\/smilies\/images?\/smili?es\/[a-z]{25,35}\.html/$doc
+||mlcrosoftonline.com.eu-secured.com^$all
+||carrierzone.com/sharepoint/$doc
 ||telegramhcn.com^$all
 ||web.telegram.data-bees.cn^$all
 ||newappmssg.ru^$all
@@ -131298,6 +131323,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||baseguardauth.net^$all,to=~coinbase.com
 ||cbnotifser.top^$all,to=~coinbase.com
 ||cbnotif.top^$all,to=~coinbase.com
+||coin-notif.top^$all,to=~coinbase.com
+||e-stata.ru/track/1/$all,to=~coinbase.com
 ||imtoken.org.cn^$all,to=~token.im
 ||imcosom.com^$all,to=~token.im
 ||tokenap.app^$all,to=~token.im
@@ -134422,7 +134449,7 @@ fapeza.com##.azz_div:style(height: unset !important;)
 fapeza.com##.azz_iframe
 ||stats.wp.com^$script,3p,redirect-rule=noopjs,domain=europeanspaceflight.com
 @@||nxp.com/resources/scripts/analytics/webanalytics.js$script,1p
-||appboycdn.com^$script,3p,redirect-rule=noopjs,domain=animates.co.nz
+||appboycdn.com^$script,3p,redirect=noopjs,domain=animates.co.nz
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,3p,redirect=google-ima.js,domain=etonline.com,important
 ||yieldlove.com/v2/yieldlove.js$script,domain=whatismyip.com,important
 whatismyip.com##+js(set, yieldlove_cmd, {})
@@ -141601,8 +141628,8 @@ player.amperwave.net##+js(no-xhr-if, live.streamtheworld.com/partnerIds)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 06 Aug 2024 21:48:18 GMT
-# entries:        3558
+# last updated:   Thu, 08 Aug 2024 10:34:44 GMT
+# entries:        3559
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -143609,6 +143636,7 @@ player.amperwave.net##+js(no-xhr-if, live.streamtheworld.com/partnerIds)
 127.0.0.1 jsecoin.com
 127.0.0.1 jsrdn.com
 127.0.0.1 jubilantglimmer.com
+127.0.0.1 juiceblocks.com
 127.0.0.1 juicyads.com
 127.0.0.1 juicyads.me
 127.0.0.1 jumptap.com
