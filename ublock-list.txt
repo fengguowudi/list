@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: C0eo06axqdd1ipaUoExkWA
+! Checksum: EZ0N03pZ7gEIVFIGdTcSMw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408091427
-! Last Modified: 2024年08月09日 14:27
+! Version: 202408092036
+! Last Modified: 2024年08月09日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -65435,7 +65435,7 @@ fanlesstech.com###HTML6 > .widget-content
 breitbart.com###HavDW
 semiconductor-today.com###Header-Standard-Middle-Evatec
 sitelike.org###HeaderAdsenseCLSFix
-kstp.com###Header_1
+kob.com,kstp.com###Header_1
 stockinvest.us###IC_d_300x250_1
 stockinvest.us###IC_d_728x90_1
 messitv.net###Image5
@@ -86684,7 +86684,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||youtube.com/ptracking?
 ||youtube.com/set_awesome?
 ||youtube.com/youtubei/v1/log_event?
-||youtube.com/youtubei/v1/player/heartbeat?
 ||youtube.googleapis.com/youtubei/v1/log_event?
 ||youtubekids.com/api/stats/ads?
 ||youtubekids.com/api/stats/qoe?
@@ -130995,6 +130994,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||odeal.fi/fr/AMA/*.php^$doc,to=~amendes.gouv.fr
 ||odeal.fi/amndes/*.php^$doc,to=~amendes.gouv.fr
 ||askozvar.sk/*/amendesgouv/$all,to=~amendes.gouv.fr
+/wp-content/ntww/natwest3/*.php^$doc,to=~natwest.com
 ||chamsocthekhachhang-$doc,to=~edu|~gov|~edu.vn|~gov.vn
 ||sotuyenvcb.vietcombanker.com^$all,to=~vietcombank.com.vn
 ||vdbank.com.vn^$all,to=~vdb.gov.vn
@@ -131074,6 +131074,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||www-facebook-$doc
 ||www-facebook.$doc
 ||vww-facebook.$doc
+||biocaremalta.com/www.facebook.com/$all
 ||www-mfacebook.vn^$all
 ||www-facebook-com.vn^$all
 ||vww-facebook.com.vn^$all
@@ -131650,6 +131651,7 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||comd-refresh.com^$all
 ||hkdk.events/8cjknac3yxdqk4^$all
 ||xdxg.xyz^$all
+||zebg.top^$all
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -141670,7 +141672,7 @@ suamusica.com.br##+js(set, _taboola.push, noopFunc)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 08 Aug 2024 10:34:44 GMT
-# entries:        3559
+# entries:        3555
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -142648,7 +142650,6 @@ suamusica.com.br##+js(set, _taboola.push, noopFunc)
 127.0.0.1 aptabase.com
 127.0.0.1 apture.com
 127.0.0.1 apu.samsungelectronics.com
-127.0.0.1 aquaticanswer.com
 127.0.0.1 aquaticowl.com
 127.0.0.1 ar1nvz5.com
 127.0.0.1 aralego.com
@@ -143366,7 +143367,6 @@ suamusica.com.br##+js(set, _taboola.push, noopFunc)
 127.0.0.1 fimserve.com
 127.0.0.1 findcommerce.com
 127.0.0.1 findyourcasino.com
-127.0.0.1 fineoffer.net
 127.0.0.1 fingahvf.top
 127.0.0.1 fireworkadservices.com
 127.0.0.1 fireworkanalytics.com
@@ -143634,7 +143634,6 @@ suamusica.com.br##+js(set, _taboola.push, noopFunc)
 127.0.0.1 inskinad.com
 127.0.0.1 inspectlet.com
 127.0.0.1 install.365-stream.com
-127.0.0.1 instantmadness.com
 127.0.0.1 insticator.com
 127.0.0.1 intelliads.com
 127.0.0.1 intelligenceadx.com
@@ -144929,7 +144928,6 @@ suamusica.com.br##+js(set, _taboola.push, noopFunc)
 127.0.0.1 tracking.hyros.com
 127.0.0.1 tracking.ibxlink.com
 127.0.0.1 tracking.intentsify.io
-127.0.0.1 tracking.internetstores.de
 127.0.0.1 tracking.intl.miui.com
 127.0.0.1 tracking.jiffyworld.com
 127.0.0.1 tracking.markethero.io
