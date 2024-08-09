@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EZ0N03pZ7gEIVFIGdTcSMw
+! Checksum: ZwgC4dKlGrF7LfLpb3ed7Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408092036
-! Last Modified: 2024年08月09日 20:36
+! Version: 202408100225
+! Last Modified: 2024年08月10日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -85807,7 +85807,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kgoma.com/v1/stat/
 ||khanacademy.org/api/internal/_analytics/
 ||kinesis.us-east-1.analytics.edmentum.com^
-||kkam.com/rest/high/api/cogitoergosum^
 ||klm.us/CWZUvc/
 ||kloth.net/images/pixel.gif
 ||knewz.com/api/event
@@ -128751,10 +128750,10 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||nnggo.com^$all
 /axad/?lpkey=$doc
 ||vlcdownloads.com^$all
-&t=main9|$doc,domain=live
-&t=main9ljs|$doc,domain=live
-&t=main9expsess|$doc,domain=live
-&t=mono|$doc,domain=info
+&t=main9|$doc,to=live
+&t=main9ljs|$doc,to=live
+&t=main9expsess|$doc,to=live
+&t=mono|$doc,to=info
 ||hypixei.com^$all
 ||99box.com^$all
 ||ezadblocker.com^$all
@@ -134137,7 +134136,6 @@ sofascore.com#@#[display^="block,none"]
 sofascore.com#@#[display^="none,none"]
 sofascore.com##.adUnitBox
 /mixpanel.$domain=~mixpanel.com,badfilter
-linktr.ee##+js(set, DD_LOGS, noopFunc)
 /webTracking.$domain=~webtracking.girard-agediss.com,badfilter
 /webtracking.min.js
 ||qualzz.com/assets/trackingScript/webtracking.js
@@ -134479,7 +134477,7 @@ reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 @@||cdn.pendo.io/agent/static/*/pendo.js$script,domain=secure.backblaze.com
 @@||data.pendo.io/data/guide.js/*$script,domain=secure.backblaze.com
 ||beforeitsnews.com/core/ajax/counter/count.php^$badfilter
-||plausible.io^$xhr,3p,redirect-rule=nooptext,domain=you.com
+||plausible.io^$xhr,3p,redirect=nooptext,domain=you.com
 @@||googletagmanager.com/gtm.js^$script,3p,domain=accounts.mailerlite.com
 sunshine-live.de##+js(set, cpd_configdata, {})
 sunshine-live.de##+js(set, cpd_configdata.url, '')
@@ -134632,6 +134630,8 @@ player.amperwave.net##+js(no-xhr-if, live.streamtheworld.com/partnerIds)
 suamusica.com.br##+js(set, gtag, noopFunc)
 suamusica.com.br##+js(set, _taboola, {})
 suamusica.com.br##+js(set, _taboola.push, noopFunc)
+dji.com##+js(set, sensorsDataAnalytic201505, {})
+dji.com##+js(set, sensorsDataAnalytic201505.track, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
