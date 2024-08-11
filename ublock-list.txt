@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: b4daEa/VqjW3/xz6ZBDUug
+! Checksum: aZGgK3Ptkvx9gtCKS5vQgA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408111426
-! Last Modified: 2024年08月11日 14:26
+! Version: 202408112034
+! Last Modified: 2024年08月11日 20:34
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -82719,6 +82719,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||myfinance.com/widget/
 ||myfreecams.com/mfc2/lib/o-mfccore.js
 ||mymarketing.co.il/Include/tracker.js
+||myopenpass.com/v1/api/telemetry/event
 ||myprivacy.dpgmedia.net/audits
 ||myscoop-tracking.googlecode.com^$third-party
 ||mysdcc.sdccd.edu^*/.log/
