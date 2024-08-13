@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mAGI1vjOzHDsRJmG7TsKow
+! Checksum: PBBn/cAorM+1yLnMf7/WUg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408130926
-! Last Modified: 2024年08月13日 09:26
+! Version: 202408131427
+! Last Modified: 2024年08月13日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -64872,6 +64872,7 @@ infowars.com##.css-1vj1npn
 gamingbible.com##.css-1z9hhh
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##.css-20w1gi
 delish.com##.css-3oqygl
+news.abs-cbn.com##.css-a5foyt
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.css-bs95eu
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.css-oeful5
 sbs.com.au##.css-p21i0d
@@ -67768,8 +67769,10 @@ manhwabtt.com,tennismajors.com##[style$="min-height: 250px;"]
 livejournal.com##[style$="width: 300px;"]
 circleid.com##[style*="300px;"]
 circleid.com##[style*="995px;"]
+news.abs-cbn.com##[style*="background-color: rgb(236, 237, 239)"]
 coolors.co##[style*="position:absolute;top:20px;"]
 4anime.gg,apkmody.io,bollyflix.nexus,bravoporn.com,dramacool.sr,gogoanime.co.in,gogoanime.run,harimanga.com,hdmovie2.rest,himovies.to,hurawatch.cc,instamod.co,leercapitulo.com,linksly.co,mangadna.com,manhwadesu.bio,messitv.net,miraculous.to,movies-watch.com.pk,moviesmod.zip,nkiri.com,prmovies.dog,putlockers.li,sflix.se,sockshare.ac,ssoap2day.to,sukidesuost.info,tamilyogi.bike,uwatchfre.cam,waploaded.com,watchomovies.net,y-2mate.com,yomovies.team,ytmp3.cc,yts-subs.com##[style*="width: 100% !important;"]
+news.abs-cbn.com##[style*="width:100%;min-height:300px;"]
 shotcut.org##[style="background-color: #fff; padding: 6px; text-align: center"]
 realitytvworld.com##[style="background-color: white; background: white"]
 guides.wp-bullet.com##[style="height: 288px;"]
@@ -78204,6 +78207,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||51network.com^$third-party
 ||99widgets.com/counters/
 ||9w2zed1szg.execute-api.us-east-1.amazonaws.com^
+||a.emea01.idio.episerver.net^
 ||a.getflowbox.com^
 ||a.hcaptcha.com^
 ||a.mobify.com^
@@ -127688,6 +127692,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||clickhereecraigslist.tripod.com^$all
 ||unclepigva.com^$all,to=~chase.com
 ||ee-billing-recovery.web.app^$all,to=~ee.co.uk
+||mymokki.ru^$all,to=~hozblokspb.ru
+||shawupdatingservic.wixstudio.io^$all,to=~webmail.shaw.ca
 ||final-ua.eu/vasilisa/votings$all
 ||flow.page/foxhills.co.uk^$all,to=~foxhills.co.uk
 ||faran.ac.ir/wp-content/$all,to=~linkedin.com
@@ -127712,6 +127718,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 /offer.php?rechargenumber=$doc,to=~jio.com|~edu|~gov
 /offer.html?rechargenumber=$doc,to=~jio.com|~edu|~gov
 /\/offer\.(?:html|php)\?(?:mobile|rechargenumber)=\d{10}\b/$doc,match-case,to=~jio.com|~edu|~gov
+||dbs.applerewardsstore.com^$all,to=~dbs.com
 ||com/isignesp.php^$doc,to=com|~apple.com
 ||help/isignesp.php^$doc,to=help|~apple.com
 ||login-ourtime.members-datings.workers.dev^$all,to=~ourtime.com
@@ -127776,6 +127783,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||xcxcx.my.id^$doc,to=~dana.id
 ||pemesanan*.glowz.my.id^$doc,to=~dana.id
 ||danaespay.my.id^$doc,to=~dana.id
+||dana.system-online.web.id^$all,to=~dana.id
 ||jeuconcoursorange.com^$all,to=~orange.fr
 ||orange53.yolasite.com^$all,to=~orange.fr
 ||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
@@ -127870,6 +127878,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||spareb1.com^$all,to=~sparebank1.no
 ||amigosdelasfinanzas.com^$all,to=~bancocajasocial.com
 ||bdvenlineaconfirmate.pages.dev^$all,to=~bancodevenezuela.com
+||e-cmv.ph^$all,to=~grupobancolombia.com
 ||anz.brandkit.io^$all,to=~anz.co.nz
 ||baovietin.top^$all,to=~baoviet.com.vn
 /^https:\/\/tpbank\.[-a-z0-9]{5,}\.[a-z]{3}(?:\.vn)?\//$doc,to=~edu|~gov|~gov.vn|~tpb.vn
@@ -127887,15 +127896,12 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||skylarkspb.ru/raiffeisentwint/$all,to=~raiffeisen.ch
 ||hclsoftware.cloud/*/tdbanknotes^$all,to=~td.com
 /wp-content/ntww/natwest3/*.php^$doc,to=~natwest.com
-||e-cmv.ph^$all,to=~grupobancolombia.com
-||agenciaidee.com^$all,to=~grupobancolombia.com
 ||tinchapshinhan.online^$all,to=~shinhan.com.vn
 ||sites.google.com/view/shinhan-fiinance/^$all,to=~shinhan.com.vn
 ||americanexpressempresas.com^$all,to=~americanexpress.com
 ||r2.dev/blobamexbsatt.html^$doc,to=~americanexpress.com
 ||amxprd.com^$doc,to=~americanexpress.com
 ||recompensaszurichsantander.com.mx^$all
-||upsdelivery-nl.com^$all,to=~bancosantander.es
 ||santander.cf.sandbox.motrada.ch^$all,to=~santanderbank.com|~santander.co.uk
 ||dhl.*.potabox.com^$doc,to=~dhl.com
 ||dhl-event.app^$all,to=~dhl.com
@@ -127914,6 +127920,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||de.pathloading.com^$all,to=~dhl.com
 ||mpinsureit.com^$doc,to=~dhl.com
 ||goldsystem.com.br/amds/css/secure/dhlFR^$doc,to=~dhl.com
+||elementor.cloud/*/ESDHL/$doc,to=~dhl.com
 ||ann.tess1.top^$all
 ||play.funfourmob.com^$all
 ||privrendom.com^$all
@@ -128353,6 +128360,11 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||mmbonline01.com^$all,to=~mbbank.com.vn
 ||govn.cc^$all,to=~gov.vn
 ||thongtincutru.org^$all,to=~gov.vn
+||mmb-online.com^$all,to=~mbbank.com.vn
+||soppe86.life^$all,to=~shopee.vn
+||nhanvientiki.org^$all,to=~tiki.vn
+||iazada.com^$all,to=~lazada.vn
+||lzdkiemdon24.com^$all,to=~lazada.vn
 ||puttyconnect.info^$all
 ||astrosphere.world^$all
 ||marketplace-item-*.000.pe^$doc
@@ -129013,6 +129025,7 @@ vpnmentor.com##+js(cookie-remover, /_alooma/)
 ||fundingchoicesmessages.google.com/i/$script,domain=globo.com,important
 ||babia.to/index.php^
 ||babia.to/job.php^
+||g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js:5,domain=euronews.com,important
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -131499,6 +131512,8 @@ forum.dji.com##+js(set, sensorsDataAnalytic201505.track, noopFunc)
 ||pubscholar.cn/static/common/fingerprint.js^$script,1p,redirect=fingerprint2.js,important
 @@||v.fwmrm.net/ad/p/1?*html5_live^$script,domain=channel4.com
 hltv.org#@#.playerOfTheWeekContainer
+@@||fundingchoicesmessages.google.com/i/pub-$script,domain=fanatik.com.tr
+@@||fundingchoicesmessages.google.com/f/$script,domain=fanatik.com.tr
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
