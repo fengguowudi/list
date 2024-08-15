@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7POuxckXxjyVjXKsw0m9UQ
+! Checksum: hWPg8kMsSE1xhFabczoFqw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408150920
-! Last Modified: 2024年08月15日 09:20
+! Version: 202408151426
+! Last Modified: 2024年08月15日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62605,6 +62605,7 @@ kshow123.tv###ab-sider-bar
 travelpulse.com###ab_container
 uinterview.com###above-content
 slideshare.net###above-recs-desktop-ad-sm
+smartertravel.com###above-the-fold-leaderboard
 jezebel.com,pastemagazine.com###above_logo
 peacemakeronline.com###above_top_banner
 breitbart.com###accontainer
@@ -62764,6 +62765,7 @@ phuketwan.com###bannersTop
 baltic-course.com,webfail.com###bannertop
 h-online.com###bannerzone
 uinterview.com###below-content
+smartertravel.com###below-the-fold-leaderboard
 al.com,cleveland.com,gulflive.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,nj.com,oregonlive.com,pennlive.com,silive.com,syracuse.com###below-toprail
 post-gazette.com###benn-poll-iframe-container
 safetydetectives.com###best_deals_widget
@@ -127742,6 +127744,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||inner.website/*.html^$doc
 /^https:\/\/www\.[a-z]{4,5}\.[a-z]{3,7}\/[a-z0-9]{36}\.html\b/$doc,match-case,to=com|info|website|~edu|~gov|~google.com
 ||pub-*.r2.dev/gsecondcheck.html^$doc
+||uwelldeutschland.com^$all,to=~myuwell.com
 ||ee-billing-recovery.web.app^$all,to=~ee.co.uk
 ||my-ee-web.web.app^$all,to=~ee.co.uk
 ||pakket-bpost-be.web.app^$all,to=~bpost.be
@@ -128584,6 +128587,7 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||hkdk.events/8cjknac3yxdqk4^$all
 ||xdxg.xyz^$all
 ||zebg.top^$all
+||record-x-center.com^$all,to=~x.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -138623,7 +138627,7 @@ macrotrends.net##+js(set, clicky.goal, noopFunc)
 # entries:        3556
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
-# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=5771528251386588239400
+# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
 # Patreon:        https://patreon.com/blocklist
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
