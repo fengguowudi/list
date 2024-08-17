@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mUe6jD8JLSV3RAuCv17MOg
+! Checksum: YIkT5PC10vymWsisvNKbng
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408170225
-! Last Modified: 2024年08月17日 02:25
+! Version: 202408170922
+! Last Modified: 2024年08月17日 09:22
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -9702,6 +9702,7 @@ _800x80_
 ##.adthrive-placeholder-content
 ##.adthrive-placeholder-header
 ##.adthrive-placeholder-static-sidebar
+##.adthrive-placeholder-video
 ##.adthrive-sidebar
 ##.adthrive-video-player
 ##.adthrive_custom_ad
@@ -19579,6 +19580,7 @@ browsershots.org#@#.advert_area
 ||auspipe.com^
 ||austaihauna.com^
 ||austaits.xyz^
+||austaptool.net^
 ||austeemsa.com^
 ||austere-familiar.com^
 ||austeritylegitimate.com^
@@ -25678,6 +25680,7 @@ browsershots.org#@#.advert_area
 ||dusterrubberfarmer.com^
 ||dustersee.com^
 ||dustratebilate.com^
+||dustupsstekan.com^
 ||dustymural.com^
 ||dustywrenchdesigned.com^
 ||dusunfloraer.com^
@@ -41429,6 +41432,7 @@ browsershots.org#@#.advert_area
 ||pxyympkyvqc.com^
 ||pycvlnu.com^
 ||pygopodwrytailbaskett.sbs^
+||pygopustimawa.com^
 ||pyhdvvimr.com^
 ||pyknrhm5c.com^
 ||pympbhxyhnd.xyz^
@@ -46487,6 +46491,7 @@ browsershots.org#@#.advert_area
 ||taughtwandamazingly.com^
 ||tauphaub.net^
 ||taurse.com^
+||taurunperch.shop^
 ||tausaakcntiwp.com^
 ||tauspenup.top^
 ||tauvoojo.net^
@@ -47282,6 +47287,7 @@ browsershots.org#@#.advert_area
 ||tonsilyearling.com^
 ||tontrinevengre.com^
 ||toojaipi.net^
+||tooledvacant.com^
 ||toolspaflinch.com^
 ||toolughitilagu.com^
 ||toomeepi.xyz^
@@ -48459,6 +48465,7 @@ browsershots.org#@#.advert_area
 ||unrulyvoice.com^
 ||unsaltyalemmal.com^
 ||unsealsweller.top^
+||unseamssafes.com^
 ||unseenrazorcaptain.com^
 ||unseenreport.com^
 ||unseenshingle.com^
@@ -63648,6 +63655,7 @@ siasat.com###tie-block_3274
 box-core.net,mma-core.com###tlbrd
 technewsworld.com###tnavad
 bramptonguardian.com###tncms-region-global-container-bottom
+whatismyip.com###tool-what-is-my-ip-ad
 accuweather.com,phonescoop.com###top
 crn.com###top-ad-fragment-container
 zap-map.com###top-advert-content
@@ -63734,6 +63742,7 @@ the-express.com###web-strip-banner
 webfail.com###wf-d-300x250-sb1
 walterfootball.com###wf_brow_box
 sportscardforum.com###wgo_affiliates
+whatismyipaddress.com###whatismyipaddress_728x90_Desktop_ATF
 itnews.com.au###whitepapers-container
 tribunnews.com###wideskyscraper
 shawlocal.com###widget-html-box-ownlocal
@@ -64813,6 +64822,7 @@ filmbooster.com,ghacks.net##.box-banner
 mybroadband.co.za##.box-sponsored
 kiz10.com##.box-topads-x2
 fctables.com##.box-width > .hidden-xs
+cubdomain.com##.box.mb-2.mh-300px.text-center
 wahm.com##.box2
 flashscore.co.za##.boxOverContent--a
 tribunnews.com##.box__reserved
@@ -65672,6 +65682,7 @@ collegedunia.com##.headerslot
 darkreader.org##.heading
 phonearena.com##.heading-deal
 autoplius.lt##.headtop
+cubdomain.com##.hello-bar
 onlinevideoconverter.pro##.helper-widget
 lincolnshireworld.com,nationalworld.com##.helper__AdContainer-sc-12ggaoi-0
 farminglife.com,newcastleworld.com##.helper__DesktopAdContainer-sc-12ggaoi-1
@@ -79052,6 +79063,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.circulate.com^
 ||data.digitalks.az^
 ||data.eetech.com^
+||data.embeddables.com^
 ||data.gosquared.com^
 ||data.minute.ly^
 ||data.nexxt.com^
@@ -79140,6 +79152,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ecustomeropinions.com^*/i.php?
 ||edge-hls.doppiocdn.com/ping
 ||edge-hls.doppiocdn.live/ping
+||edge-hls.doppiocdn.media/ping
 ||edge.adobedc.net^
 ||edge.bredg.com^$third-party
 ||edgesuite.net^*/googleanalyt
@@ -80015,6 +80028,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||propps.com/v1/referrer/
 ||providesupport.com/cmd/$image
 ||proxy.dzeio.com^
+||proxy.trysavvy.com^
 ||proxycheck.io/v2/
 ||pswec.com/px/$third-party
 ||pt.crossmediaservices.com^
@@ -80174,6 +80188,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sermoncloud.com/logger/
 ||service.trustpid.com^
 ||session.timecommerce.net^
+||sessions.embeddables.com^
 ||sexhd.pics/x/x.js
 ||sezzle.com/v1/event/log
 ||sfstatic.net/build/js/basicMetricsTracking.
@@ -82134,6 +82149,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aax-eu-dub.amazon.com^$script
 ||aax-us-iad.amazon.com^$script
 ||ab-machine.forbes.com^
+||ab.chatgpt.com^
 ||ab.fanatical.com^
 ||abcnews.com/assets/dtci/js/abcnews_visitorId.js
 ||abcnews.com/assets/dtci/js/at.js
@@ -82376,6 +82392,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||change.org/api-proxy/-/event_tracker
 ||channel.io/front/v*/channels/*/events
 ||chatfuel.com/cf-analytics/
+||chatgpt.com/ces/
 ||chatroll.com/t.gif
 ||chewy.com/api/event/
 ||chickadvisor.com/js/detect.min.js
@@ -83088,6 +83105,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.sfx.ms/is/invis.gif
 ||pac.thescottishsun.co.uk^
 ||pac.thesun.co.uk^
+||papi.stylar.ai^
 ||pappagallu.onefootball.com^
 ||pardot.com/pd.js
 ||paypal.com/credit-presentment/log
@@ -121232,6 +121250,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cnet.com/a/video-player/uvpjs-rv/$script,~third-party
 @@||cohesionapps.com/cohesion/$domain=bankrate.com|frontier.com
 @@||cohesionapps.com/preamp/$subdocument,xmlhttprequest,domain=frontier.com
+@@||collections.archives.govt.nz/combo/*/gtag.js$script,~third-party
 @@||collusion.com/static/newrelic.js$script,~third-party
 @@||commerce.adobe.io^$xmlhttprequest,domain=superbrightleds.com
 @@||community.brave.com/t/$xmlhttprequest
