@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6rqutONh/ONUOqx0KDGnRg
+! Checksum: AAY5nZSgHV4gUl0XsA4v5g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408181425
-! Last Modified: 2024年08月18日 14:25
+! Version: 202408182036
+! Last Modified: 2024年08月18日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -61603,6 +61603,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||storage.googleapis.com/cdn.newsfirst.lk/advertisements/$domain=newsfirst.lk
 ||store-api.mumuglobal.com^
 ||strcloud.club/mainstream
+||streamingsites.com/images/adverticement/
 ||streamoupload.*/api/spots/$script
 ||streams.tv/js/slidingbanner.js
 ||streamsport.pro/hd/popup.php
@@ -63577,6 +63578,7 @@ newsfirst.lk###sponsored-content-1
 cnn.com###sponsored-outbrain-1
 hiphopkit.com###sponsored-sidebar
 homedepot.com###sponsored-standard-banner-nucleus
+philstar.com###sponsored_posts
 techmeme.com###sponsorposts
 fastseduction.com,geekwire.com,landreport.com,vuejs.org,whenitdrops.com###sponsors
 colourlovers.com###sponsors-links
@@ -63852,7 +63854,7 @@ yandex.com##.AdvOffers
 airportinfo.live,audiokarma.org,audizine.com##.AdvallyTag
 tennesseestar.com,themichiganstar.com,theminnesotasun.com,theohiostar.com##.AdvancedText
 iogames.onl##.Advc
-tvnz.co.nz##.Advert
+tvnz.co.nz,world-nuclear-news.org##.Advert
 suffolknews.co.uk##.Advertisement
 thesouthafrican.com##.Advertisement__AdsContainer-sc-4s7fst-0
 phoenixnewtimes.com##.AirBillboard
@@ -64967,6 +64969,7 @@ thecable.ng##.cableads_mid
 encycarpedia.com##.cac
 strategie-bourse.com##.cadre_encadre_pub
 cafonline.com##.caf-o-sponsors-nav
+merriam-webster.com##.cafemedia-ad-slot-top
 clutchpoints.com##.cafemedia-clutchpoints-header
 challonge.com##.cake-unit
 calculat.io##.calc67-container
@@ -66556,6 +66559,7 @@ bramptonguardian.com,guelphmercury.com,insideottawavalley.com,thestar.com##.pola
 autoexpress.co.uk##.polaris__below-header-ad-wrapper
 autoexpress.co.uk,carbuyer.co.uk,evo.co.uk##.polaris__partnership-block
 bigissue.com##.polaris__simple-grid--full
+epmonthly.com##.polis-target
 compoundsemiconductor.net##.popular__section-newsx
 wethegeek.com##.popup-dialog
 welovemanga.one##.popup-wrap
@@ -127827,6 +127831,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||stickloader.info^$all
 ||fueltypebel.info^$all
 ||re-captha-version-$all
+||valid-check-tl-$all
 ||check-tl-ver-$all
 ||gemfowls.com^$all
 ||tech4u.app^$all
@@ -128580,6 +128585,15 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||pddgov.cc^$all,to=~gov.vn
 ||vssid.*.cc^$doc,to=~baohiemxahoi.gov.vn
 ||kbthuhoivontreo.com^$all,to=~vst.mof.gov.vn
+/^https:\/\/[a-z0-9]{3,}\.[a-z0-9]{8,10}\.com\/[a-zA-Z0-9]{50,}\?[a-zA-Z0-9]{60,}$/$doc,match-case,to=com
+/^https:\/\/[a-z0-9]{3,}\.[a-z0-9]{8,10}\.su\/[a-zA-Z0-9]{50,}\?[a-zA-Z0-9]{60,}$/$doc,match-case,to=su
+||chervindi.com^$all
+||grahurgum.com^$all
+||liverun0.com^$all
+||wexluftor.com^$all
+||donostain.com^$all
+||ephemeral9.com^$all
+||arciansi.su^$all
 ||puttyconnect.info^$all
 ||astrosphere.world^$all
 ||marketplace-item-*.000.pe^$doc
@@ -128741,6 +128755,7 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||record-x-center.com^$all,to=~x.com
 ||center-x-customer.com^$all,to=~x.com
 ||extensions-x-faq.com^$all,to=~x.com
+/^https:\/\/help\.[a-z]{3,}-x-[a-z]{3,}\.com\//$doc,to=com|~x.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
