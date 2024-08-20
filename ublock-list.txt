@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LGawEbl9pDP23zmvg6x8ig
+! Checksum: ctZ1c4I+YWo+6bYefDS2xg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408200924
-! Last Modified: 2024年08月20日 09:24
+! Version: 202408201427
+! Last Modified: 2024年08月20日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -66306,7 +66306,6 @@ weatherpro.com##.medium-rectangle-wrapper-2
 ebaumsworld.com##.mediumRect
 ubergizmo.com##.mediumbox_container
 allnurses.com##.medrec
-techrepublic.com##.medusa-list
 compoundsemiconductor.net##.mega-bar
 theweather.com,theweather.net,yourweather.co.uk##.megabanner
 mentalmars.com##.menta-target
@@ -69193,7 +69192,7 @@ the-express.com##.stn-video-container
 si.com##.style_hfl21i-o_O-style_uhlm2
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 sportskeeda.com##.vidazoo-player-container
-justthenews.com,movieweb.com,screenrant.com##.video
+justthenews.com,movieweb.com,screenrant.com,thegamer.com##.video
 petapixel.com##.video-aspect-wrapper
 gearjunkie.com##.video-jwplayer
 bolavip.com##.video-player-placeholder
@@ -70778,7 +70777,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(data:)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
 !-----------------------Allowlists to fix broken sites------------------------!
-@@||2mdn.net/instream/html5/ima3.js$script,domain=earthtv.com|techrepublic.com|zdnet.com
+@@||2mdn.net/instream/html5/ima3.js$script,domain=earthtv.com|zdnet.com
 @@||4cdn.org/adv/$image,xmlhttprequest,domain=4channel.org
 @@||4channel.org/adv/$image,xmlhttprequest,domain=4channel.org
 @@||abcnews.com/assets/js/prebid.min.js$~third-party
@@ -70997,7 +70996,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||pub.pixels.ai/wrap-independent-no-prebid-lib.js$script,domain=independent.co.uk
 @@||radiotimes.com/static/advertising/$script,~third-party
 @@||raw.githubusercontent.com^$domain=viewscreen.githubusercontent.com
-@@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|techrepublic.com|zdnet.com
+@@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|zdnet.com
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 @@||rubiconproject.com/prebid/dynamic/$script,domain=ask.com|journaldequebec.com
 @@||runescape.wiki^$image,~third-party
@@ -71263,7 +71262,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||ads-i.org/images/ads3.jpg$~third-party
 @@||ads-twitter.com/uwt.js$domain=factory.pixiv.net
 @@||adtraction.com^$image,domain=ebjudande.se
-@@||aiasahi.jp/ads/$image,domain=japan.techrepublic.com|japan.zdnet.com
+@@||aiasahi.jp/ads/$image,domain=japan.zdnet.com
 @@||amebame.com/pub/ads/$image,domain=abema.tv|ameba.jp|ameblo.jp
 @@||api.friends.ponta.jp/api/$~third-party
 @@||arukikata.com/images_ad/$image,~third-party
@@ -128360,8 +128359,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||workshop-users.com^$all
 ||cn-steam.com^$all
 ||com/p/jcod-ppsr/huasdirjdo^$doc,to=~steamcommunity.com
-||limited-eventkrafton.com^$all
-||rewards-ff-garenaa.ru^$all
 /^https:\/\/(?:www\.)?(?:ff[-.])?member[-.]gare[a-z]+a(?:\.pro)?\.vn\//$doc,to=vn|~garena.vn
 /^https:\/\/(?:www\.)?(?:ff[-.])?men?mber[-.]garena\.vn\//$doc,to=vn|~garena.vn
 ||xn--npth-5q5a1g.vn^$all,to=~napthe.vn
@@ -128382,6 +128379,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||sukien-pubg.io.vn^$all
 ||napthepubg.mobi^$all
 /volt/*?nox=$doc,to=ai|com
+||kraftonevent.com^$all
 ||mobilelegendsmycode.com^$all
 ||eventdmkuning.brenn.biz.id^$all
 ||bxzxenzidrmrksu.jiongcao.cn^$all
@@ -128404,7 +128402,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||microsoft-datamaturity.noisehq.nl^$all
 ||graettingerlaw.com^$all
 ||hab-sharepoint.weebly.com^$all
-||iamnew.powerappsportals.com^$all
 ||post.nationalrent.ru^$all
 ||gocolonial.local-user.com^$all
 ||skype-com.cn^$all
@@ -128434,6 +128431,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||ariabcon.com^$all
 ||vkcs.cloud/owa.html^$doc
 ||ocalam.com:8443/impact^$doc
+||indylatinawrds.com:8443/impact^$doc
+:8443/impact?impact=$doc
 ||todordigital.co.uk^$all
 ||pub-*.r2.dev/owa.html^$doc
 ||pub-*.r2.dev/onecode55.html^$doc
@@ -128523,6 +128522,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||codeanyapp.com/swiss-login/$doc
 ||swisspost.web.app^$all,to=~post.ch
 ||wcomhost.com/ch/upc/$all,to=~upc.ch
+||whitelists-layerai.pro^$doc,to=~layerai.org
 ||pepesunchained.net^$doc,to=~pepeunchained.com
 ||airdrope.live^$doc,to=~ton.org
 ||airdrop-grvt.com^$doc,to=~grvt.io
@@ -128633,6 +128633,8 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||namecheapsupport-*.codeanyapp.com^$all,to=~namecheap.com
 ||vercel.app/magi/olde/saac-wetr-magi.html^$doc,to=~wetransfer.com
 ||download-wetransfer-*.vercel.app^$doc,to=~wetransfer.com
+||mybluehost.me/vcd/$doc
+||kvv.jxc.mybluehost.me^$doc
 ||signature-rho.vercel.app^$all,to=~docusign.com
 ||roycamining.com/pdeb/Untitled/$all,to=~docusign.com
 ||msoft_docusign_verification_secured-doc_office.zatrdg.com^$all,to=~docusign.com
@@ -128742,11 +128744,21 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||pddgov.cc^$all,to=~gov.vn
 ||vssid.*.cc^$doc,to=~baohiemxahoi.gov.vn
 ||kbthuhoivontreo.com^$all,to=~vst.mof.gov.vn
+||incorcg.com^$all
+||datumdellago.com^$all
+||lokuracristiana.com^$all
+||clinicaimplantologica3d.com^$all
+||gruposabar.com^$all
+||xalatlaco.org^$all
+||r2.dev/INV-CHKCOPY-Remittance-Overpayment%20Refund$doc
 ##html[lang] > body:not([style]) > div.captchaBody:not([id]):not([style]) > div[id]:not([class]):not([style])
 ||cam/secured/host/*.php|$xhr,3p,domain=r2.dev
 ||belezaesaudeinnovations.com^$all
 ||implarededeensino.com.br^$all
 ||bioparquemonterrey.net^$all
+||iniupcorporate.com^$all
+||vertiselevadores.com.br^$all
+||r2.dev/Outlook%20Secured%20Document$doc
 /^https:\/\/[a-z0-9]{3,}\.[a-z0-9]{8,10}\.com\/[a-zA-Z0-9]{50,}\?[a-zA-Z0-9]{60,}$/$doc,match-case,to=com
 /^https:\/\/[a-z0-9]{3,}\.[a-z0-9]{8,10}\.su\/[a-zA-Z0-9]{50,}\?[a-zA-Z0-9]{60,}$/$doc,match-case,to=su
 ||chervindi.com^$all
