@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ctZ1c4I+YWo+6bYefDS2xg
+! Checksum: Tjtyqsu7o2OICQt1aqIMNA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408201427
-! Last Modified: 2024年08月20日 14:27
+! Version: 202408202037
+! Last Modified: 2024年08月20日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -61378,6 +61378,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||files.im/images/bbnr/
 ||filext.com/tools/fileviewerplus_b1/
 ||filmibeat.com/images/betindia.jpg
+||filmkuzu.com/pops$script
 ||finish.addurl.biz/webroot/ads/adsterra/
 ||finviz.com/gfx/banner_
 ||fishki.net/code?
@@ -69194,6 +69195,7 @@ gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 sportskeeda.com##.vidazoo-player-container
 justthenews.com,movieweb.com,screenrant.com,thegamer.com##.video
 petapixel.com##.video-aspect-wrapper
+fodors.com##.video-inline
 gearjunkie.com##.video-jwplayer
 bolavip.com##.video-player-placeholder
 benzinga.com##.video-player-wrapper
@@ -128064,6 +128066,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 /^https:\/\/(?:[a-z]+\.)?hotel-(?:id)?\d{3,8}\.com\//$doc,to=com|~booking.com
 /^https:\/\/hotels-\d{6}\.eu\//$doc,to=eu|~booking.com
 /^https:\/\/booking\.[a-z]{3,}-(?:id)?\d{3,8}\.eu\//$doc,to=eu|~booking.com
+/^https:\/\/booking(-[a-z]{3,}){2}\.(?:baby|lat|lol|xyz)\//$doc,to=baby|lat|lol|xyz|~booking.com
 ||air-bnb.check-$doc
 ||abnbclaim.com^$all,to=~airbnb.com
 /^https?:\/\/([a-z]{4,}\.)?support-\d{1,2}\.ru\//$doc,to=ru
@@ -128308,7 +128311,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||info-meta-noreply.com^$all
 /^https:\/\/business\.[a-z]+confii?rm\.com\/meta-community-standard\d{14,15}[^\d]?/$doc,match-case,to=com|~facebook.com
 /^https:\/\/business-component\.[a-z]+(-[a-z]+){2}\.com\//$doc,to=com|~facebook.com
-/\.(?:click|dev|net|surge\.sh)\/help\/contact\/\d{14,19}\b/$doc,match-case,to=click|dev|net|surge.sh|~facebook.com
+/\.(?:click|pages\.dev|surge\.sh)\/help\/contact\/\d{14,19}\b/$doc,match-case,to=click|pages.dev|surge.sh|~facebook.com
 ||business-help-temp-$doc
 /\.workers\.dev\/help\/\d{14,19}\b/$doc,to=workers.dev|~facebook.com
 ||royal-glade-286f.kdsj.workers.dev^$doc
@@ -128410,6 +128413,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||cashum.unam.mx/wp-content/backups-dup-pro/imports/index.htm$all
 ||od.atami.no/one_drive.html$all
 ||thermovitraffic.com.mx/SharepointFileProject/$all
+||cognitoforms.com/FiRe21/EmployeeTeammateQuarterNominationPeriodForMidyear^$all
 ||johnhstngs4.wixsite.com^$all
 ||acir.postofficeweb.com/grupoacir/$all
 ||storageapi-new.fleek.co/*/yss/ind.html$all
@@ -128454,6 +128458,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||webz.dev^$all
 ||telegremapp.me^$all
 ||telegerasm.work^$all
+||webtelegram.eu.org^$all
 ||telegrambotsolution.pages.dev^$all
 /^https:\/\/www\.telegramk[a-z]\.com\//$doc,to=com|~telegram.org
 ||telegramkv.com^$all
@@ -128635,6 +128640,7 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||download-wetransfer-*.vercel.app^$doc,to=~wetransfer.com
 ||mybluehost.me/vcd/$doc
 ||kvv.jxc.mybluehost.me^$doc
+||hypnotes.net/*/aupost/$all,to=~auspost.com.au
 ||signature-rho.vercel.app^$all,to=~docusign.com
 ||roycamining.com/pdeb/Untitled/$all,to=~docusign.com
 ||msoft_docusign_verification_secured-doc_office.zatrdg.com^$all,to=~docusign.com
@@ -128648,6 +128654,7 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||pub-*.r2.dev/response_start.html^$doc,to=~docusign.com
 ||pub-*.r2.dev/response_type.html^$doc,to=~docusign.com
 ||pub-*.r2.dev/secure_response.html^$doc,to=~docusign.com
+||pub-*.r2.dev/traffic.html^$doc,to=~docusign.com
 ||pub-*.r2.dev/utility_base.html^$doc,to=~docusign.com
 ||pub-*.r2.dev/docuss_3456787654324567897865433456789.html^$doc,to=~docusign.com
 ||chanlemomo.vet^$all,to=~momo.vn
@@ -129235,6 +129242,8 @@ bing.com,msn.com,web.skype.com##+js(cookie-remover, MicrosoftApplicationsTelemet
 web.skype.com##+js(cookie-remover, MicrosoftApplicationsTelemetryFirstLaunchTime)
 fandom.com##+js(set-cookie, Geo, OK)
 clickorlando.com##+js(set-cookie, bitmovin_analytics_uuid, OK)
+1und1.de##+js(cookie-remover, /optimizelyEndUserId|s_fid|sc_tcr|s_cc/)
+1und1.de##+js(set-local-storage-item, /optimizely_data|tealium_timing/, $remove$)
 $removeparam=gbraid
 $removeparam=wbraid
 $removeparam=gclsrc
