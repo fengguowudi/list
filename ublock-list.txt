@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IAbAJTOBBAmvNa/7Cx4utQ
+! Checksum: k8uGjxVhl3sWFx2Hs7OkuQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408212035
-! Last Modified: 2024年08月21日 20:35
+! Version: 202408220225
+! Last Modified: 2024年08月22日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54256,6 +54256,7 @@ browsershots.org#@#.advert_area
 ||420db600.xyz^$document,popup
 ||45496fee.xyz^$document,popup
 ||4602306b.xyz^$document,popup
+||46276192.xyz^$document,popup
 ||466c4d0f.xyz^$document,popup
 ||485728.xyz^$document,popup
 ||48a16802.site^$document,popup
@@ -131746,7 +131747,7 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 ||munchkin.marketo.net/munchkin.js$script,important,redirect=noop.js,domain=st.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect=google-ima3,domain=humix.com|mistergadget.tech,important
 meijer.com#@#.product-grid__product:has(.product-tile__sponsored)
-/web-vitals.$script,redirect-rule=noopjs,domain=amazon.com
+/web-vitals.$script,redirect=noopjs,domain=amazon.com
 @@||amazonwebservicesinc.tt.omtrdc.net/m2/amazonwebservicesinc/ubox/raw$xhr,3p,domain=aws.amazon.com
 ||amazonwebservicesinc.tt.omtrdc.net/m2/amazonwebservicesinc/ubox/raw$xhr,3p,removeparam,domain=aws.amazon.com
 ||cdnwebonplay.gviet.vn/public/js/player/ads/ima3.js$script,3p,redirect=google-ima.js,domain=vtvcab.vn,important
