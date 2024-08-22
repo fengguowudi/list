@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Rja/hp7KoFyOAEYHhIRJ3g
+! Checksum: vTxc7n/TWtdMrXTmsjPB5w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408221426
-! Last Modified: 2024年08月22日 14:26
+! Version: 202408222037
+! Last Modified: 2024年08月22日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -54217,6 +54217,7 @@ browsershots.org#@#.advert_area
 ||googleadsserving.cn^
 ||googlevads-cn.com^
 ||00701059.xyz^$document,popup
+||01045395.xyz^$document,popup
 ||02777e.site^$document,popup
 ||03180d2d.live^$document,popup
 ||0395d1.xyz^$document,popup
@@ -65163,6 +65164,7 @@ giveawayoftheday.com##.center_ab
 whattomine.com##.centered-image-short
 spiceworks.com##.centerthe1
 digminecraft.com##.cf47a252
+top.gg##.chakra-stack.css-15xujv4
 tlgrm.eu##.channel-card--promoted
 thefastmode.com##.channel_long
 thefastmode.com##.channel_small
@@ -66047,6 +66049,7 @@ capitalfm.com##.instream_item
 coincarp.com##.interact-mobileBox
 monochrome-watches.com##.interscroll
 mrctv.org,newsbusters.org##.intranet-mid-size
+interactives.stuff.co.nz##.intro_adside__in8il
 allnurses.com##.ipsAreaBackground
 1tamilmv.click##.ipsCarousel
 uk420.com##.ipsLayout_container > div[align="center"]
@@ -82361,6 +82364,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||0.myikas.com^
 ||analitik.bik.gov.tr^
 ||analytics.cdnstr.com^$third-party
+||analytics.faprika.net^
 ||analytics.kkb.com.tr^
 ||analytics.turk.pro^$third-party
 ||c.keltis.com^
@@ -82368,6 +82372,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hulyagedikci.com/vhit.php?
 ||iyzipay.com/buyer-protection/assets/js/analytics.js
 ||izinal.com/log
+||log.collectaction.com^
 ||sayac.kapital.com.tr^
 ||statistics.daktilo.com^
 ||stats.vidyome.com^
@@ -83405,6 +83410,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pks-analytics.raenonx.cc^
 ||pl.letsblock.it^
 ||plausible.bots.gg^
+||plausible.corsme.com^
 ||plausible.dragonfru.it^
 ||plausible.omgapi.org^
 ||plausible.safing.io^
@@ -127661,6 +127667,41 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||present-folio.jp^$doc
 ||surprise-folio.jp^$doc
 ||advisory.stockss.top^$doc
+||gamecygenn.com^$doc
+||cryp-prel.com^$doc
+||medianews77.com^$doc
+||lowsoop.com^$doc
+||5qex5.com^$doc
+||bxn45.com^$doc
+||gnkpy.com^$doc
+||cgcsarz0opg.jp^$doc
+||sakudon293ssp.jp^$doc
+||accord-adoration.com^$doc
+||banquet-barbecue.com^$doc
+||campus-cardigan.com^$doc
+||desirable-desktop.com^$doc
+||efficient-election.com^$doc
+||fantasy-federation.com^$doc
+||only.hearty-community.com^$doc
+||ee9gf8d6.com^$doc
+||mithu02s.com^$doc
+||impoverishedordealscrutinize.com^$doc
+||hfykmfd1.com^$doc
+||urgentrecommendationclimate.com^$doc
+||worlddating365.com^$doc
+||lien-lienam.com^$doc
+||rune-luna-moon.com^$doc
+||blue-could.com^$doc
+||happy-life-everyday.club^$doc
+||lovely-fortune.com^$doc
+||ombrewa.space^$doc
+||will-lucky-will.com^$doc
+||chosentalladvanced.com^$doc
+||methodsbillboardssurface.com^$doc
+||li-ke-lo-ve.com^$doc
+||like-love.net^$doc
+||m-eteor.com^$doc
+||m-eteor.shop^$doc
 ||soft-pro.site^$all
 ||apkmirror.co^$all
 ||webogram.org^$all
@@ -128224,6 +128265,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||vn-ebay.quxlpuj.cn^$all
 ||ebayasean.com^$all
 ||vilbuy.com^$all
+||ebay839.cc^$all
 ||epayu.cc^$all
 ||svipeebay.com^$all
 ||ebaymerchant.shop^$all
@@ -128350,6 +128392,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||slimhealth.us^$all
 ||mait.inhhome.top^$all
 ||mail.pages.exchange-midasbuy.com^$all
+||easy-way-system.sbs^$all
 ||notificationbyfacebook.$doc
 ||notificationbyfacebook.firebaseapp.com^$all
 ||notificationbyfacebook.web.app^$all
@@ -128405,6 +128448,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 /\.(?:pages\.dev|vercel\.app)\/appeal_case_id\b/$doc,to=pages.dev|vercel.app
 /^https:\/\/(?:appeal|contact|page)\.[a-z]{15,}\.com\/appeal_case_id\b/$doc,to=com|~facebook.com
 ||akuanakmamah.de^$doc,to=~facebook.com
+||kraftonmidas.com^$doc,to=~facebook.com
 ||xyzxyz55.xyz^$all
 ||thepatrones.blob.core.windows.net^$all
 ||m-isist-emai-nmu-ne-*.vercel.app^$all
@@ -128532,6 +128576,8 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 /^https:\/\/[a-z]{14}\.azureedge\.net\/\d{4}j\b/$doc,to=azureedge.net
 ||microsoft-notifcation.com^$all
 ||eunssiatel.tech^$all
+/neteasyes/neteasyest/900^$doc
+/^https:\/\/[-a-z]{4,}\.dogfriendlytahoe\.com\//$doc,to=dogfriendlytahoe.com
 ||telegramhcn.com^$all
 ||web.telegram.data-bees.cn^$all
 ||newappmssg.ru^$all
@@ -128609,6 +128655,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||codeanyapp.com/swiss-login/$doc
 ||swisspost.web.app^$all,to=~post.ch
 ||wcomhost.com/ch/upc/$all,to=~upc.ch
+||kucoin0101.com^$all,to=~kucoin.com
 ||whitelists-layerai.pro^$doc,to=~layerai.org
 ||pepesunchained.net^$doc,to=~pepeunchained.com
 ||airdrope.live^$doc,to=~ton.org
@@ -128706,6 +128753,7 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||internal-checker.com^$all,to=~id.me
 ||web1.emanar.cl^$all,to=~yahoo.co.jp
 ||auth-llbc.elementfx.com^$all,to=~leboncoin.fr
+||dc.tensgpt.com^$all,to=~discord.com
 ||beluxrepm.followme.fr/FolloWMe$all,to=~realestate.bnpparibas.com
 ||mybluehost.me/Cope346/$all
 ||tesakom.com/aa/index.html^$all,to=~ebestsec.co.kr
@@ -129027,6 +129075,7 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||zebg.top^$all
 /^https:\/\/help\.[a-z]{3,}-x-[a-z]{3,}\.com\//$doc,to=com|~x.com
 ||chromeweb-authenticators.com^$all
+||60q565qe5.top^$all
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
