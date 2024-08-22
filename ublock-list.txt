@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k8uGjxVhl3sWFx2Hs7OkuQ
+! Checksum: esLmr1gDjIzqLYKRZJIYJw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408220225
-! Last Modified: 2024年08月22日 02:25
+! Version: 202408220926
+! Last Modified: 2024年08月22日 09:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18816,6 +18816,7 @@ browsershots.org#@#.advert_area
 ||anthonypush.com^
 ||antiadblock.info^
 ||antiadblocksystems.com^
+||antiaecroon.com^
 ||antiagingbiocream.com^
 ||antibioticborough.com^
 ||antibot.me^
@@ -20249,6 +20250,7 @@ browsershots.org#@#.advert_area
 ||beakobjectcaliber.com^
 ||beambroth.com^
 ||beamedshipwreck.com^
+||beamierwaisted.com^
 ||beanborrowed.com^
 ||bearableforever.com^
 ||bearableher.com^
@@ -21881,6 +21883,7 @@ browsershots.org#@#.advert_area
 ||campootethys.com^
 ||camprime.com^
 ||camptrck.com^
+||camptwined.com^
 ||campusmister.com^
 ||cams.gratis^
 ||camschat.net^
@@ -27995,6 +27998,7 @@ browsershots.org#@#.advert_area
 ||foalwoollenwolves.com^
 ||foamsomethingrobots.com^
 ||foapsovi.net^
+||foasowut.xyz^
 ||fobeetch.net^
 ||focalex.com^
 ||focumu.com^
@@ -33221,6 +33225,7 @@ browsershots.org#@#.advert_area
 ||karoup.com^
 ||karpatzi.com^
 ||karshacheney.click^
+||karstsnill.com^
 ||karwobeton.com^
 ||kaslcuin.com^
 ||kassitegamy.top^
@@ -33313,6 +33318,7 @@ browsershots.org#@#.advert_area
 ||kentlecosts.top^
 ||kentorjose.com^
 ||kepersaonwho.org^
+||kepnatick.com^
 ||keppendragoon.top^
 ||keptoojals.xyz^
 ||keraclya.com^
@@ -35941,6 +35947,7 @@ browsershots.org#@#.advert_area
 ||mishandlemole.com^
 ||mishapideal.com^
 ||mishapsummonmonster.com^
+||miskalsbending.com^
 ||miskoru.com^
 ||mislaer.com^
 ||mismaum.com^
@@ -37841,6 +37848,7 @@ browsershots.org#@#.advert_area
 ||obedientapologyinefficient.com^
 ||obedientrock.com^
 ||obedirectukly.info^
+||obelionkiter.click^
 ||obeselysass.top^
 ||obeus.com^
 ||obeyedortostr.cc^
@@ -50883,6 +50891,7 @@ browsershots.org#@#.advert_area
 ||wuefmls.com^
 ||wuftoars.net^
 ||wuidtethhkcko.com^
+||wujungexo.net^
 ||wujyeflb.com^
 ||wukbgater.buzz^
 ||wukoopicee.com^
@@ -77201,7 +77210,6 @@ omni.soundestlink.com$image
 ||va-endpoint.com^$third-party
 ||valuedopinions.co.uk^$third-party
 ||vbanalytics.com^$third-party
-||vbt.io^$third-party
 ||vdna-assets.com^$third-party
 ||veduy.com^$third-party
 ||veille-referencement.com^$third-party
@@ -80082,6 +80090,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||noflake-aggregator-http.narvar.com^
 ||nojscontainer.pepperjam.com^$third-party
 ||nol.yahoo.com^
+||nosto.com/analytics/
 ||notyf.com/pixel/
 ||nova.dice.net^
 ||nr.static.mmcdn.com^
@@ -82296,6 +82305,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||engerio.sk/api/v1/listener/
 ||stat.ringier.sk^
 ||tipsport.sk/c/1x1.php?
+||cpx.smind.si^
 ||1to1.bbva.com^
 ||ab.blogs.es^
 ||advgo.net/hits/
@@ -82351,7 +82361,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.matichon.co.th^
 ||0.myikas.com^
 ||analitik.bik.gov.tr^
+||analytics.cdnstr.com^$third-party
 ||analytics.kkb.com.tr^
+||analytics.turk.pro^$third-party
 ||c.keltis.com^
 ||collector.wawlabs.com^
 ||hulyagedikci.com/vhit.php?
@@ -82869,6 +82881,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||evs.icy-lake.kickstarter.com^
 ||evs.sgmt.loom.com^$script
 ||excess.duolingo.com/batch
+||exp.notion.so^
 ||expedia.*/cl/
 ||experiences.wyng.com/api/*/event-api/events
 ||exporntoons.net/api/stats?
@@ -124614,6 +124627,7 @@ kinas.tv##+js(nowoif)
 stocktwits.com##div[class*="AdBanner_"]
 stocktwits.com##.LazyLoad.is-visible:has([data-aa-adunit])
 stocktwits.com##p[class^="Disclosure_disclosure"]:has(a[href="https://stocktwits.com/about/legal/disclosures/3rd-party-ads/"])
+stocktwits.com##[class^="FooterAd_container"]
 genius.com##div:has(> div[class^="TopContentdesktop__PromoContainer-"])
 xxxdl.net##.banners
 ||xxxdl.net/nothing.aspx?
@@ -125796,6 +125810,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||clc-link.me^$all
 ||soft-portal.me^$doc
 ||app.mediafire.com/jjtzeom4qvvxb$doc
+||app.mediafire.com/36culjifmas7b$doc
 ||mediafire.com/folder/10ejpiwio2gfh/$doc
 ||mediafire.com/folder/47ccu44v3b5sq/$doc
 ||mediafire.com/folder/n2cwlepl4zeov/$doc
@@ -125803,11 +125818,14 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||mediafire.com/folder/v6itahr4p07b1/$doc
 ||mediafire.com/folder/01t0gadw328j9/$doc
 ||mediafire.com/folder/h9o4dqf15amrc/$doc
+||mediafire.com/folder/ofa1qju50ffaz/$doc
+||mediafire.com/folder/mk5hnt3yz8xh8/$doc
+||mediafire.com/folder/hy8zlvfg5fwb1/$doc
 ||www.youtube.com/@pengwincheat/$doc
 ||sites.google.com/view/amamsoft|$doc
 ||sites.google.com/view/hubgames|$doc
 ||sites.google.com/view/ulpackmnn|$doc
-||sites.google.com/view/zxcmell|$doc
+||sites.google.com/view/zxcqq|$doc
 ||gamefree.vip^$doc
 ||gocrazy.gg^$doc
 ||murhack.com^$doc
@@ -125819,11 +125837,14 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||softport.fun^$all
 ||upload.advgroup.ru/mvWwiE4h$all
 ||fusionhacks.pro^$doc
-||cheatify.co^$doc
-||apocalypsecheats.xyz^$all
 ||yuqucheat.com^$doc
+||games-blacksoft.com^$doc
+||freefiles-upload.com^$doc
+||rgcatalyst.biz^$all
+||arcanecheat.com^$doc
 ||gameggss.store^$all
 ||cloud-folder.org^$doc
+||cloud-pack.org^$doc
 .systems/signup?ad_domain=$doc,popup
 ||atnpx.com^
 ||best-winplace.life^$all
@@ -132009,15 +132030,15 @@ hltv.org#@#.playerOfTheWeekContainer
 @@||fundingchoicesmessages.google.com/f/$script,domain=fanatik.com.tr|milliyet.com.tr|posta.com.tr
 macrotrends.net##+js(set, clicky, {})
 macrotrends.net##+js(set, clicky.goal, noopFunc)
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=gamerant.com
-@@||cdn.adsninja.ca/adsninja_worker_caller.js$script,domain=gamerant.com
-@@||cdn.adsninja.ca/adsninja_client$script,css,domain=gamerant.com
-@@||gamerant.com^$ghide
-gamerant.com#@#+js(abort-on-property-read, googletag)
-gamerant.com##[id^="adsninja-ad-zone-div-gpt-ad"]
-gamerant.com##[id^="adsninja-ad-zone-adsninja-ad-unit-footer"]
-gamerant.com##[class*="ad-zone-container-content-character-count-repeatable"]
-gamerant.com##.adzone-above-latest
+||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect=google-ima.js,domain=dualshockers.com|gamerant.com
+@@||cdn.adsninja.ca/adsninja_worker_caller.js$script,domain=dualshockers.com|gamerant.com
+@@||cdn.adsninja.ca/adsninja_client$script,css,domain=dualshockers.com|gamerant.com
+@@*$ghide,domain=dualshockers.com|gamerant.com
+dualshockers.com,gamerant.com#@#+js(abort-on-property-read, googletag)
+dualshockers.com,gamerant.com##[id^="adsninja-ad-zone-div-gpt-ad"]
+dualshockers.com,gamerant.com##[id^="adsninja-ad-zone-adsninja-ad-unit-footer"]
+dualshockers.com,gamerant.com##[class*="ad-zone-container-content-character-count-repeatable"]
+dualshockers.com,gamerant.com##.adzone-above-latest
 code.world##+js(set, WURFL, {})
 @@||mpsnare.iesnare.com/snare.js^$script,domain=ridejetson.com
 ||0-24bpautomentes.hu$all
