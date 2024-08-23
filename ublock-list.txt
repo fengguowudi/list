@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y2YitEZLknrvT8NGv4pOPg
+! Checksum: EeoVsYl3CKQIMaLq16Oz7A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408230924
-! Last Modified: 2024年08月23日 09:24
+! Version: 202408231426
+! Last Modified: 2024年08月23日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -66912,7 +66912,7 @@ dappradar.com##.rankings-ad-row
 rappler.com##.rappler-ad-container
 benzinga.com##.raptive-ad-placement
 wdwmagic.com##.raptive-custom-sidebar1
-atlantablackstar.com,finurah.com##.raptive-ddm-header
+atlantablackstar.com,finurah.com,theshadowleague.com##.raptive-ddm-header
 epicdope.com##.raptive-placeholder-header
 gobankingrates.com##.rate-table-header
 mydorpie.com##.rbancont
@@ -68559,7 +68559,7 @@ greatandhra.com##div[class^="add"]
 ndtv.com##div[class^="add_"]
 ntdeals.net,psdeals.net,xbdeals.net##div[class^="ads-"]
 dnaindia.com##div[class^="ads-box"]
-unilad.com##div[class^="advert-placeholder_"]
+tyla.com,unilad.com##div[class^="advert-placeholder_"]
 365scores.com##div[class^="all-scores-container_ad_placeholder_"]
 247solitaire.com,247spades.com##div[class^="aspace-"]
 stakingrewards.com##div[class^="assetFilters_desktop-banner_"]
@@ -69268,6 +69268,7 @@ picrew.me##.play-Imagemaker_Footer
 sciencetimes.com##.player
 bossip.com##.player-wrapper-inner
 swimswam.com##.polls-461
+iheart.com##.provider-stn
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com,thetakeout.com##.related-stories-inset-video
 kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
@@ -121598,6 +121599,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
 @@||fichub.com/plugins/adobe/lib/AppMeasurement.js$domain=natgeotv.com
 @@||fichub.com/plugins/adobe/lib/VisitorAPI.js$domain=natgeotv.com
+@@||filme.imyfone.com/assets/js/gatrack.js$~third-party
 @@||firebase.google.com/docs/analytics/$~third-party
 @@||forum.djicdn.com/static/js/sensorsdata.min.js$script,domain=forum.dji.com
 @@||friendbuy.com^$domain=butcherbox.com
@@ -125824,6 +125826,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||tinyurl.com/25wegbkm^$doc
 ||tinyurl.com/2clnbozb^$doc
 ||tinyurl.com/27xz35pu^$doc
+||c0nt4ct-me.pages.dev^$all
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/(?:article\d{4}\.doc)?\?utm_campaign=\w{40,}/$doc,match-case,to=life|live|top|xyz
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,to=biz
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\.?[a-z]{0,7}\/(?:[0-9a-z]{6,10}\/)?\/?(?:article\d{4}\.doc)?\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]{7}(?:&t=\d+)?&o=[0-9a-z]{7}/$doc,frame,match-case
@@ -128184,6 +128187,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 /^https:\/\/www\.[a-z]{4,5}\.[a-z]{3,7}\/[a-z0-9]{36}\.html\b/$doc,match-case,to=com|info|website|~edu|~gov|~google.com
 ||pub-*.r2.dev/gsecondcheck.html^$doc
 ||uwelldeutschland.com^$all,to=~myuwell.com
+||mail-cytanet.pages.dev^$all,to=~mail.cytanet.com.cy
 ||mybluehost.me/Versan/UPS/$doc,to=~ups.com
 ||preprod.exclusifparis.com/modules/deleteordersfree/$all,to=~ups.com
 ||ee-billing-recovery.web.app^$all,to=~ee.co.uk
@@ -128201,6 +128205,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 /offer.php?rechargenumber=$doc,to=~jio.com|~edu|~gov
 /offer.html?rechargenumber=$doc,to=~jio.com|~edu|~gov
 /\/offer\.(?:html|php)\?(?:mobile|rechargenumber)=\d{10}\b/$doc,match-case,to=~jio.com|~edu|~gov
+||rbchidraulica.com.br/info/verify^$all
 ||dbs.applerewardsstore.com^$all,to=~dbs.com
 ||com/isignesp.php^$doc,to=com|~apple.com
 ||help/isignesp.php^$doc,to=help|~apple.com
@@ -128317,6 +128322,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||topmarifle.life^$all,to=~alibaba.com
 ||jybelinda.com^$all,to=~alibaba.com
 ||shopvip-alibaba.com^$all,to=~alibaba.com
+||vetsinthecity.me/*/Alibaba/$doc,to=~alibaba.com
 ||wixsite.com/att-support/$doc
 ||diwapa3051.wixsite.com^$all
 ||idhnochalter.wixsite.com^$all
@@ -128372,7 +128378,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||wizardpayroll.com.ar^$all,to=~hsbc.com
 ||spareb1.com^$all,to=~sparebank1.no
 ||amigosdelasfinanzas.com^$all,to=~bancocajasocial.com
-||bdvenlineaconfirmate.pages.dev^$all,to=~bancodevenezuela.com
 ||e-cmv.ph^$all,to=~grupobancolombia.com
 ||anz.brandkit.io^$all,to=~anz.co.nz
 ||baovietin.top^$all,to=~baoviet.com.vn
@@ -128394,6 +128399,9 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 /wp-content/ntww/natwest3/*.php^$doc,to=~natwest.com
 ^novobanco.pt-canais-digital/$doc,to=~novobanco.pt
 ^novobanco.pt-canais-digital-$doc,to=~novobanco.pt
+||bdvenlinea*.pages.dev^$doc,to=~bancodevenezuela.com
+||bdvenlineaconfirmate.pages.dev^$all,to=~bancodevenezuela.com
+||bdvenlinea-banvenez-beram.pages.dev^$all,to=~bancodevenezuela.com
 ||tinchapshinhan.online^$all,to=~shinhan.com.vn
 ||sites.google.com/view/shinhan-fiinance/^$all,to=~shinhan.com.vn
 ||americanexpressempresas.com^$all,to=~americanexpress.com
@@ -128422,6 +128430,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||elementor.cloud/*/ESDHL/$doc,to=~dhl.com
 ||ann.tess1.top^$all
 ||play.funfourmob.com^$all
+||instagramofficialaccount10.blogspot.com^$all
 ||bcit.pro/*/Instagram$doc
 ||fevertime.com/wasop/$all
 ||slimhealth.us^$all
@@ -128613,11 +128622,10 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||eunssiatel.tech^$all
 /neteasyes/neteasyest/900^$doc
 /^https:\/\/[-a-z]{4,}\.dogfriendlytahoe\.com\//$doc,to=dogfriendlytahoe.com
+||email.hvviinc.com/owa/$all
 ||telegramhcn.com^$all
-||web.telegram.data-bees.cn^$all
 ||newappmssg.ru^$all
 ||brawllstars.ru^$all
-||webz.dev^$all
 ||telegremapp.me^$all
 ||telegerasm.work^$all
 ||webtelegram.eu.org^$all
@@ -128629,7 +128637,6 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||telegramkd.com^$all
 ||telegram-zhongwen.com^$all
 ||rr.nu^$doc
-||joinxtelegram.com^$all
 /^https:\/\/ht[a-z]\d{2}\.vip\//$doc,to=vip
 ||uspsparcels.net^$all,to=~usps.com
 ||freeusps.com^$all,to=~usps.com
@@ -128690,6 +128697,7 @@ c0c9d.cmi.rj.gov.br,cambe.pr.gov.br##^responseheader(location)
 ||codeanyapp.com/swiss-login/$doc
 ||swisspost.web.app^$all,to=~post.ch
 ||wcomhost.com/ch/upc/$all,to=~upc.ch
+||beraprotocol.com^$doc,to=~berachain.com
 ||kucoin0101.com^$all,to=~kucoin.com
 ||whitelists-layerai.pro^$doc,to=~layerai.org
 ||pepesunchained.net^$doc,to=~pepeunchained.com
@@ -128817,6 +128825,7 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||pub-*.r2.dev/alt_type.html^$doc,to=~docusign.com
 ||pub-*.r2.dev/auth_gen.html^$doc,to=~docusign.com
 ||pub-*.r2.dev/auth_response.html^$doc,to=~docusign.com
+||pub-*.r2.dev/auth_start.html^$doc,to=~docusign.com
 ||pub-*.r2.dev/DocuSign.html^$doc,to=~docusign.com
 ||pub-*.r2.dev/doc_start.html^$doc,to=~docusign.com
 ||pub-*.r2.dev/dse_sign.html^$doc,to=~docusign.com
@@ -129565,7 +129574,7 @@ www.lenovo.com##+js(aost, history.replaceState, injectedScript)
 !#endif
 ||upera.shop/ref/$doc,uritransform=/^\/ref\/[^\/]+//
 androidpolice.com,makeuseof.com,movieweb.com,xda-developers.com##+js(cookie-remover, /articlesRead|previousPage/) 
-/^https?:\/\/chat\.openai\.com\/ces\/v1\/[a-z]$/$xhr,1p,domain=chat.openai.com,method=post
+/^https?:\/\/chatgpt\.com\/ces\/v1\/[a-z]$/$xhr,domain=chatgpt.com|openai.com,method=post
 airtel.in##+js(no-xhr-if, analytics/bulk-pixel)
 elevenlabs.io##+js(set-local-storage-item, IIElevenLabsDubbingResult, $remove$)
 chollometro.com##+js(href-sanitizer, a[href*="https://www.chollometro.com/visit/"][title^="https://"], [title])
@@ -132127,6 +132136,7 @@ code.world##+js(set, WURFL, {})
 @@||mpsnare.iesnare.com/snare.js^$script,domain=ridejetson.com
 ||services.haaretz.co.il^$badfilter
 ||services.haaretz.co.il^$from=~haaretz.co.il|~haaretz.com
+topgear.com##+js(set, _sp_.config.events.onSPPMObjectReady, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
