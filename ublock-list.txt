@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EeoVsYl3CKQIMaLq16Oz7A
+! Checksum: CiXZ64wgQoVkWLAOCZwZkA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408231426
-! Last Modified: 2024年08月23日 14:26
+! Version: 202408232036
+! Last Modified: 2024年08月23日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24910,6 +24910,7 @@ browsershots.org#@#.advert_area
 ||dinnercreekawkward.com^
 ||dinomicrummies.com^
 ||dinseegny.com^
+||diosminlissome.com^
 ||dioxidtoluyls.com^
 ||diplic.com^
 ||diplnk.com^
@@ -25674,6 +25675,7 @@ browsershots.org#@#.advert_area
 ||duellosheliced.com^
 ||duesirresponsible.com^
 ||duetads.com^
+||dufflesmorinel.com^
 ||dufjgdjeyo.com^
 ||dufrom.com^
 ||duftoagn.com^
@@ -26210,6 +26212,7 @@ browsershots.org#@#.advert_area
 ||ehqdzqi.com^
 ||ehrydnmdoe.com^
 ||eicbgbnbvjf.com^
+||eidoscruster.com^
 ||eiewwepb.com^
 ||eighteenderived.com^
 ||eighteenprofit.com^
@@ -27514,6 +27517,7 @@ browsershots.org#@#.advert_area
 ||femsurgo.com^
 ||fenacheaverage.com^
 ||fencerecollect.com^
+||fencersdatcha.com^
 ||fenddiscourse.com^
 ||feneverybodypsychological.com^
 ||fenixm.com^
@@ -29243,6 +29247,7 @@ browsershots.org#@#.advert_area
 ||gloogeed.xyz^
 ||gloognoogrix.com^
 ||gloogruk.com^
+||gloohozedoa.xyz^
 ||gloolrey.com^
 ||glooltoora.net^
 ||gloomfabricgravy.com^
@@ -30011,6 +30016,7 @@ browsershots.org#@#.advert_area
 ||habovethecit.info^
 ||habovethecity.info^
 ||habovethecityon.info^
+||habutaeirisate.com^
 ||habutaeunroost.com^
 ||hadajvqpha.com^
 ||hadfrizzprofitable.com^
@@ -42741,6 +42747,7 @@ browsershots.org#@#.advert_area
 ||resignedcamelplumbing.com^
 ||resignedsauna.com^
 ||resinherjecling.com^
+||resinkaristos.com^
 ||resionsfrester.com^
 ||resistanceouter.com^
 ||resistcorrectly.com^
@@ -50453,6 +50460,7 @@ browsershots.org#@#.advert_area
 ||wilfridjargonby.com^
 ||wilfulknives.com^
 ||wilfulsatisfaction.com^
+||wililylaus.com^
 ||williamfaxarts.com^
 ||williamporterlilac.com^
 ||williednb.com^
@@ -51903,6 +51911,7 @@ browsershots.org#@#.advert_area
 ||zebjlmmejbybz.top^
 ||zebjlmmejbzlb.top^
 ||zebrinanoteman.top^
+||zebusentour.com^
 ||zedoaryrejects.com^
 ||zedxknzlwyofh.com^
 ||zeebaith.xyz^
@@ -125812,6 +125821,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||kissablepopsyv43.com^$all
 /click.php?key=*&type=push&$doc
 .com/dating/*/index.html?lang=$doc
+.info/?key=*&pixel=$doc
 ||mikkim.top^$all
 ||discordvip.createsocialcard.top^$all
 ^s1=*&click_id=$doc
@@ -128937,6 +128947,11 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||tikivn84.com^$all,to=~tiki.vn
 ||snggov.com^$all,to=~gov.vn
 ||vn-eid.com^$all,to=~dichvucong.gov.vn
+##html[lang] > body.startnew:not([id]):not([style]) > div#sections:not([style]) > section#section_uname:not([style])
+||wwbudmh.ru^$all
+||sichogyp.su^$all
+||orownsdow.com^$all
+||identente.com^$all
 ||incorcg.com^$all
 ||datumdellago.com^$all
 ||lokuracristiana.com^$all
@@ -128952,8 +128967,9 @@ app##html > body[style]:not([class]):not([id]) > center#yangchen[style]:not([cla
 ||iniupcorporate.com^$all
 ||vertiselevadores.com.br^$all
 ||r2.dev/Outlook%20Secured%20Document$doc
-/^https:\/\/[a-z0-9]{3,}\.[a-z0-9]{8,10}\.com\/[a-zA-Z0-9]{50,}\?[a-zA-Z0-9]{60,}$/$doc,match-case,to=com
-/^https:\/\/[a-z0-9]{3,}\.[a-z0-9]{8,10}\.su\/[a-zA-Z0-9]{50,}\?[a-zA-Z0-9]{60,}$/$doc,match-case,to=su
+/^https:\/\/[a-z0-9]{3,}\.[a-z0-9]{7,10}\.com\/[a-zA-Z0-9]{50,}\?[a-zA-Z0-9]{60,}$/$doc,match-case,to=com|~microsoft.com
+/^https:\/\/[a-z0-9]{3,}\.[a-z0-9]{7,10}\.ru\/[a-zA-Z0-9]{50,}\?[a-zA-Z0-9]{60,}$/$doc,match-case,to=ru
+/^https:\/\/[a-z0-9]{3,}\.[a-z0-9]{7,10}\.su\/[a-zA-Z0-9]{50,}\?[a-zA-Z0-9]{60,}$/$doc,match-case,to=su
 ||chervindi.com^$all
 ||grahurgum.com^$all
 ||liverun0.com^$all
@@ -131642,11 +131658,6 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 @@||googletagmanager.com/gtm.js$script,domain=nykaa.com
 @@||cdn.pendo.io/agent/static/*/pendo.js$script,domain=adp.com
 @@||bat.bing.com/bat.js$script,domain=northwell.edu
-@@||cdn.segmentify.com^$css,image,script,domain=mediamarkt.com.tr
-@@||img.segmentify.com^$image,domain=mediamarkt.com.tr
-@@||per2.segmentify.com^$xhr,domain=mediamarkt.com.tr
-@@||googletagmanager.com/gtm.js$script,domain=mediamarkt.com.tr
-||googletagmanager.com/gtm.js?*&l=dataLayer$script,domain=mediamarkt.com.tr,important
 @@||vbt.io^$css,image,domain=landing.davidho.sg
 @@||challenges.cloudflare.com/turnstile/$3p,script
 ||analytics.google.com^$badfilter
@@ -131765,8 +131776,9 @@ neurotray.com##+js(nano-stb, /EzoIvent|TDELAY/, 5000)
 @@||receiita.xyz^$popup,domain=animexhd.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js:5,domain=abczdrowie.pl|animezone.pl|chillizet.pl|claudia.pl|echirurgia.pl|elevensports.pl|elle.pl|elleman.pl|fm.tuba.pl|focusnauka.pl|games.cdn.famobi.com|glamour.pl|grydladzieci.pl|ipla.tv|ipla.tv|kobieta.pl|meloradio.pl|mojegotowanie.pl|mojpieknyogrod.pl|money.pl|national-geographic.pl|parenting.pl|partner.redefine.pl|playpuls.pl|pluscdn.pl|polsatgo.pl|polsatnews.pl|polsatsport.pl|przyslijprzepis.pl|radioplus.pl|radiozet.pl|sadeczanin.info|tvokazje.pl|tvp.pl|twojapogoda.pl|video.onnetwork.tv|videotarget.pl|wp.pl|wtk.pl|interia.pl|www.polsatnews.pl|autocentrum.pl
 virginmediatelevision.ie##+js(set, google.ima.dai, {})
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=virginmediatelevision.ie
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=virginmediatelevision.ie
+||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect=google-ima.js,domain=virginmediatelevision.ie
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js^$script,domain=virginmediatelevision.ie
+virginmediatelevision.ie##+js(no-xhr-if, /froloa.js)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=3bmeteo.com,important
 3bmeteo.com##+js(nano-sib, adv, *)
 /fingerprint2.min.js$script,3p,redirect=fingerprint2.js,important
@@ -139177,7 +139189,7 @@ topgear.com##+js(set, _sp_.config.events.onSPPMObjectReady, noopFunc)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Mon, 12 Aug 2024 11:05:58 GMT
-# entries:        3547
+# entries:        3545
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -141523,7 +141535,6 @@ topgear.com##+js(set, _sp_.config.events.onSPPMObjectReady, noopFunc)
 127.0.0.1 netcommunities.com
 127.0.0.1 netdirect.nl
 127.0.0.1 netech.postaffiliatepro.com
-127.0.0.1 netincap.com
 127.0.0.1 netmera-web.com
 127.0.0.1 netmera.com
 127.0.0.1 netmng.com
@@ -141644,7 +141655,6 @@ topgear.com##+js(set, _sp_.config.events.onSPPMObjectReady, noopFunc)
 127.0.0.1 oxcash.com
 127.0.0.1 oxen.hillcountrytexas.com
 127.0.0.1 p-n.io
-127.0.0.1 p.nag.ru
 127.0.0.1 pagead.l.google.com
 127.0.0.1 pagefair.com
 127.0.0.1 pagerank-ranking.de
