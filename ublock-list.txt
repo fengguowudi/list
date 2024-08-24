@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m7WIXpffWX13+kQUYPV/ow
+! Checksum: 8Y9IDc7VTaop37DnkQAeWg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408240923
-! Last Modified: 2024年08月24日 09:23
+! Version: 202408241425
+! Last Modified: 2024年08月24日 14:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -64204,6 +64204,7 @@ desmoinesregister.com##.ZJBvMP__ZJBvMP
 getpocket.com##.\'syndication-ad\'
 olympics.com##.\-partners
 androidauthority.com##._--_-___0b
+androidauthority.com##._--_-___Sb
 androidauthority.com##._--_-___Yb
 freepik.com##._1286nb18b
 freepik.com##._1286nb1rx
@@ -67495,7 +67496,7 @@ brila.net,cgmagonline.com,cycling.today,gayexpress.co.nz,theyeshivaworld.com##.t
 boxthislap.org,ticgn.com,wtf1.co.uk##.td-footer-wrapper
 91mobiles.com,techyv.com##.td-header-header
 healthyceleb.com##.td-header-header-full
-androidcommunity.com,techworm.net##.td-header-rec-wrap
+androidcommunity.com,sfbg.com,techworm.net##.td-header-rec-wrap
 5pillarsuk.com,babeltechreviews.com,cybersecuritynews.com,sonorannews.com,techviral.net,thestonedsociety.com,weekendspecial.co.za##.td-header-sp-recs
 runnerstribe.com##.td-post-content a[href^="https://tarkine.com/"]
 antiguanewsroom.com,gadgetstouse.com##.td-ss-main-sidebar
@@ -129655,6 +129656,7 @@ vpnmentor.com##+js(cookie-remover, /_alooma/)
 ||g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js:5,domain=euronews.com,important
 /cdn-cgi/challenge-platform/scripts/jsd/main.js$script,1p
 ||onlyfans.com/api2/v2/users/clicks-stats^
+||infinityscans.net/api/collect^
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -132032,6 +132034,11 @@ optimum.net##+js(set, s.tl, noopFunc)
 @@||jssdkcdns.mparticle.com/js/*/mparticle.js^$script,3p,domain=syfy.com
 pvrcinemas.com##+js(set, SalesforceInteractions, {})
 pvrcinemas.com##+js(set, SalesforceInteractions.CatalogObjectInteractionName)
+pvrcinemas.com##+js(set, SalesforceInteractions.init, noopFunc)
+pvrcinemas.com##+js(set, SalesforceInteractions.sendEvent, noopFunc)
+pvrcinemas.com##+js(set, Evergage, {})
+pvrcinemas.com##+js(set, Evergage.init, noopFunc)
+pvrcinemas.com##+js(set, Evergage.sendEvent, noopFunc)
 @@||hog.tv^$cname
 @@||fundingchoicesmessages.google.com/i/$script,domain=sudokugame.org
 howtogeek.com,makeuseof.com,xda-developers.com#@#+js(aopr, googletag)
@@ -132157,6 +132164,11 @@ code.world##+js(set, WURFL, {})
 ||services.haaretz.co.il^$badfilter
 ||services.haaretz.co.il^$from=~haaretz.co.il|~haaretz.com
 topgear.com##+js(set, _sp_.config.events.onSPPMObjectReady, noopFunc)
+@@||worldsurfleague.com/js/videojs8/nuevo/plugins/videojs-contrib-ads.min.js^$script,1p
+@@||micro.rubiconproject.com/prebid/dynamic/$script,domain=worldsurfleague.com
+@@||securepubads.g.doubleclick.net/pagead/ima_ppub_config$xhr,domain=worldsurfleague.com
+@@||pubads.g.doubleclick.net/gampad/ads?*www.worldsurfleague.com$xhr,domain=imasdk.googleapis.com
+||pubads.g.doubleclick.net/gampad/ads?*www.worldsurfleague.com$xhr,domain=imasdk.googleapis.com,replace=/<vmap:VMAP.+//
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
