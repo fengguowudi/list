@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8twCnB1NJIMBOwM5sPNrSw
+! Checksum: r4evgqUagKMDSd55+VCTFQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408260223
-! Last Modified: 2024年08月26日 02:23
+! Version: 202408260925
+! Last Modified: 2024年08月26日 09:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -68174,6 +68174,8 @@ nzbstars.com,upload.ee##[href*=".php"]
 complaintsingapore.com##[href*="/adv.php"]
 utahgunexchange.com##[href*="/click.track"]
 libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com##[href*="://go.nordvpn.net/"]
+auto.creavite.co##[href*="?aff="]
+auto.creavite.co##[href*="?utm_medium=ads"]
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
 steroid.com##[href*="anabolics.com"]
 9jaflaver.com,alaskapublic.org,allkeyshop.com,analyticsinsight.net,ancient-origins.net,animeidhentai.com,arabtimesonline.com,asura.gg,biblestudytools.com,bitcoinworld.co.in,christianity.com,cnx-software.com,coingolive.com,csstats.gg,digitallydownloaded.net,digitbin.com,domaingang.com,downturk.net,fresherslive.com,gizmochina.com,glitched.online,glodls.to,guidedhacking.com,hackernoon.com,hubcloud.day,indishare.org,kaas.am,katfile.com,khmertimeskh.com,litecoin-faucet.com,mbauniverse.com,mediaite.com,mgnetu.com,myreadingmanga.info,newsfirst.lk,nexter.org,owaahh.com,parkablogs.com,pastemytxt.com,premiumtimesng.com,railcolornews.com,resultuniraj.co.in,retail.org.nz,ripplesnigeria.com,rtvonline.com,ryuugames.com,sashares.co.za,sofascore.com,thinknews.com.ng,timesuganda.com,totemtattoo.com,trancentral.tv,vumafm.co.za,yugatech.com,zmescience.com##[href*="bit.ly/"]
@@ -70850,6 +70852,7 @@ redtube.com##div > iframe
 motherless.com##div > table[style][border]
 publicflashing.me##div.hentry
 xxxdl.net##div.in_thumb.thumb
+sexwebvideo.net##div.trailer-sponsor
 underhentai.net##div[class*="afi-"]
 redtube.com##div[class*="display: block; height:"]
 twiman.net##div[class*="my-"][class*="px\]"]
@@ -83985,6 +83988,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trk.decido.io^
 ||trk.tirto.id^
 ||trumba.com/et.aspx?
+||truthsocial.com/instance/innovid.js
 ||trx3.famousfix.com^
 ||ts.delfi.lt^
 ||tubepornstars.com/js/analytics
@@ -129784,6 +129788,7 @@ ceramic.or.kr##+js(no-fetch-if, hostingcloud.racing)
 timesofindia.indiatimes.com##+js(no-fetch-if, tvid.in/log/)
 duolingo.com##+js(no-xhr-if, excess.duolingo.com/batch)
 study.com##+js(no-xhr-if, /eventLog.ajax)
+loom.com##+js(no-fetch-if, loom.com/insights-api/graphql)
 @@||awstrack.me/*auth.coindesk.com$doc,popup
 @@||awstrack.me/*cmd=ac-inactive-restore$doc,popup
 ||2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=video.foxnews.com
