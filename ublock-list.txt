@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m7Qb5bVe+zFpkWFOC2w7+A
+! Checksum: 4r2VGwI5mCnkYPPNATJz3Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408281427
-! Last Modified: 2024年08月28日 14:27
+! Version: 202408282038
+! Last Modified: 2024年08月28日 20:38
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -43683,6 +43683,7 @@ browsershots.org#@#.advert_area
 ||rxtgbihqbs99.com^
 ||rxthdr.com^
 ||rxvej.com^
+||ryads.xyz^
 ||ryanfrqxjl.com^
 ||ryauzo.xyz^
 ||ryazabti.com^
@@ -54388,6 +54389,7 @@ browsershots.org#@#.advert_area
 ||156fd4.xyz^$document,popup
 ||15752525.xyz^$document,popup
 ||164de830.live^$document,popup
+||16972675.xyz^$document,popup
 ||19706903.xyz^$document,popup
 ||1a1fb6.xyz^$document,popup
 ||1c52e1e2.live^$document,popup
@@ -64634,6 +64636,7 @@ dnaindia.com,wionews.com##.ads-box-970x90
 dnaindia.com,wionews.com##.ads-box-d90-m300
 thefinancialexpress.com.bd##.ads-carousel-container
 gosunoob.com,indianexpress.com,matrixcalc.org,phys.org,roblox.com,spotify.com,wccftech.com##.ads-container
+pcquest.com##.ads-div-style
 samehadaku.email##.ads-float-bottom
 thetruthaboutcars.com##.ads-fluid-wrap
 spambox.xyz##.ads-four
@@ -64855,6 +64858,7 @@ eonline.com##.article-detail__right-rail--topad
 eonline.com##.article-detail__segment-ad
 christianpost.com##.article-divider
 purewow.com##.article-in-content-ad
+aerotime.aero##.article-leaderboard
 squaremile.com##.article-leaderboard-wrapper
 scoop.co.nz##.article-left-box
 slashdot.org##.article-nel-12935
@@ -65092,7 +65096,7 @@ hellenicshippingnews.com##.bigbanner
 advocate.com##.bigbox_top_ad-wrap
 scienceabc.com##.bigincontentad
 snokido.com##.bigsquare
-9gag.com,blackpoolgazette.co.uk,bundesliga.com,farminglife.com,hotstar.com,ipolitics.ca,lep.co.uk,northamptonchron.co.uk,qpbriefing.com,scotsman.com,shieldsgazette.com,talksport.com,the-sun.com,thescottishsun.co.uk,thestar.co.uk,thesun.co.uk,thesun.ie##.billboard
+9gag.com,aerotime.aero,blackpoolgazette.co.uk,bundesliga.com,farminglife.com,hotstar.com,ipolitics.ca,lep.co.uk,northamptonchron.co.uk,qpbriefing.com,scotsman.com,shieldsgazette.com,talksport.com,the-sun.com,thescottishsun.co.uk,thestar.co.uk,thesun.co.uk,thesun.ie##.billboard
 nypost.com,pagesix.com##.billboard-overlay
 electronicproducts.com##.billboard-wrap
 weatherpro.com##.billboard-wrapper
@@ -66345,6 +66349,7 @@ legit.ng,tuko.co.ke##.l-adv-branding__top
 iphonelife.com##.l-header
 globalnews.ca##.l-headerAd
 wwe.com##.l-hybrid-col-frame_rail-wrap
+aerotime.aero##.l-side-banner
 vox.com##.l66a0c1k
 vox.com##.l66a0c1n
 vox.com##.l66a0c1p
@@ -67218,6 +67223,7 @@ rswebsols.com##.rsws_banner_sidebar
 nextofwindows.com##.rtsidebar-cm
 freewebarcade.com##.rxads
 freewebarcade.com##.rxse
+aerotime.aero##.s-banner
 bleepingcomputer.com##.s-ou-wrap
 hope1032.com.au##.s-supported-by
 japantoday.com##.s10r
@@ -68184,6 +68190,7 @@ greenbaycrimereports.com##[data-original-width="820"]
 jeffdornik.com##[data-pin-url]
 extremetech.com##[data-pogo="sidebar"]
 gumtree.com##[data-q="section-middle"] > div[style^="display:grid;margin"]
+scmp.com##[data-qa="AppBar-renderLayout-AdSlotContainer"]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
 ginx.tv##[data-ref]
@@ -121952,6 +121959,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||qm.redbullracing.com/gtm.js$~third-party
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quickmath.com/js/r/web-vitals.js$script,~third-party
+@@||rcb-gis.maps.arcgis.com/apps/instant/minimalist/*/AppMeasurement.js$script,~third-party
 @@||reactandshare.com^$domain=maanmittauslaitos.fi
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
@@ -126080,7 +126088,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||mediafire.com/folder/10ejpiwio2gfh/$doc
 ||mediafire.com/folder/47ccu44v3b5sq/$doc
 ||mediafire.com/folder/n2cwlepl4zeov/$doc
-||mediafire.com/folder/cybqk7ulnmptm/$doc
 ||mediafire.com/folder/v6itahr4p07b1/$doc
 ||mediafire.com/folder/01t0gadw328j9/$doc
 ||mediafire.com/folder/h9o4dqf15amrc/$doc
@@ -126108,6 +126115,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||freefiles-upload.com^$doc
 ||rgcatalyst.biz^$all
 ||arcanecheat.com^$doc
+||apocalypsecheats.fun^$all
 ||gameggss.store^$all
 ||cloud-folder.org^$doc
 ||cloud-pack.org^$doc
@@ -128402,8 +128410,13 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||powersolutions4u.com/*/WEBMAIL1.html^$doc
 ||mybluehost.me/Versan/UPS/$doc,to=~ups.com
 ||preprod.exclusifparis.com/modules/deleteordersfree/$all,to=~ups.com
+/^https:\/\/ee(?:-[a-z]{7,}){1,2}\.web\.app\//$doc,to=web.app|~ee.co.uk
+||my-ee-*.web.app^$doc,to=~ee.co.uk
+||ee-network.web.app^$all,to=~ee.co.uk
 ||ee-billing-recovery.web.app^$all,to=~ee.co.uk
 ||my-ee-web.web.app^$all,to=~ee.co.uk
+||my-ee-details.web.app^$all,to=~ee.co.uk
+||my-info-ee.web.app^$all,to=~ee.co.uk
 ||ee-payment-method-issue.firebaseapp.com^$all,to=~ee.co.uk
 ||pakket-bpost-be.web.app^$all,to=~bpost.be
 ||crpostbelnk.glitch.me^$all,to=~bpost.be
@@ -128443,6 +128456,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||group-postban.firebaseapp.com^$all,to=~labanquepostale.fr
 ||oasisministries.com/fr/postale/$all,to=~labanquepostale.fr
 ||lidarusa.com/*/Bpostale2022/$all,to=~labanquepostale.fr
+||plesk.page/*--_--$doc,to=~labanquepostale.fr
 ||adobecloud5xpo.yolasite.com^$all,to=~adobe.com
 ||socalthesyndicate.com/*/adobefud/$all,to=~adobe.com
 ||pub-*.r2.dev/adobe2024.html^$doc
@@ -128507,6 +128521,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||dalabuso.com^$all
 ||mm39sg6.top^$all
 ||dalazeey.com^$all
+||gimkax.com^$all
 ||ecommrce-web-amazon.netlify.app^$all
 ||etisalat-amazonprime.com^$all,to=~etisalat.ae
 ||mybluehost.me/wp-admin/amz/$doc
@@ -128656,6 +128671,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||ann.tess1.top^$all
 ||play.funfourmob.com^$all
 ||fevertime.com/wasop/$all
+||instogromv.com^$all
 ||slimhealth.us^$all
 ||mait.inhhome.top^$all
 ||mail.pages.exchange-midasbuy.com^$all
@@ -128948,7 +128964,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||cyberblast.info^$doc,to=~cyberblast.io
 ||gz-gmy.com^$all,to=~paxos.com
 ||tokenpocket-com.cc^$all,to=~tokenpocket.pro
-||ledgerwallive.com^$all,to=~ledger.com
 ||mantanetworkcn.com^$all,to=~manta.network
 ||interface-git-parallel-cypress-uniswap.vercel.app^$doc,to=~uniswap.org
 ||mode-claim.xyz^$doc,to=~mode.network
@@ -128979,6 +128994,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||alienxchain*.pages.dev^$doc,to=~alienxchain.io
 ||bfq.h100.top^$all,to=~bybit.com
 /index/index/*Trade/tradelist^$doc
+||ledgerwallive.com^$all,to=~ledger.com
+||pub-*.r2.dev/ledge.html^$doc,to=~ledger.com
 ||trump-coin1.pages.dev^$doc,to=~magamemecoin.com
 ||coin-trump.pages.dev^$doc,to=~magamemecoin.com
 ||pinksales-pools.pages.dev^$doc,to=~pinksale.finance
@@ -129043,6 +129060,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||mybluehost.me/wise/number-account-$doc,to=~wise.com
 ||smrturl.co/o/*/53458494^$doc
 ||play.huikzkw.top^$doc,to=~dbsvickers.com
+||agripro-fr-*.com^$doc,to=~agriaffaires.com
 ||signature-rho.vercel.app^$all,to=~docusign.com
 ||roycamining.com/pdeb/Untitled/$all,to=~docusign.com
 ||msoft_docusign_verification_secured-doc_office.zatrdg.com^$all,to=~docusign.com
@@ -129168,6 +129186,10 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||nzx65821s.com^$all,to=~shopee.vn
 ||congtygiaohangtietkiemvn.com^$all,to=~giaohangtietkiem.vn
 ||giaohangtietkiemvn.com^$all,to=~giaohangtietkiem.vn
+||adobedownloader.info^$all
+||opiumundi.com^$all
+||mirtiat.com^$all
+||lernehat.com^$all
 ||endrowl.com^$all
 ||xceteu.com^$all
 ||ripliguay.com^$all
@@ -129394,6 +129416,10 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||bit.ly/3MjP129$all
 ||cdn.discordapp.com/attachments/1277836331501883449/1278023442498588702/fix.zip$all
 ||eltacosu.lol^$all,to=~elta.gr
+||app.mediafire.com/9mrkd33xulszl^$all
+||mediafire.com/file/lsf541rgd5dyiam/x86_64-w64-ranlib.rar/file^$all
+||bit.ly/3MjP129^$all
+||cdn.discordapp.com/attachments/1277836331501883449/1278023442498588702/fix.zip^$all
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -129496,11 +129522,11 @@ panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaborator
 ||washpost.nile.works^
 /p13n/batch/action/*$image
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,3p,match-case
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWRz$/, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua##+js(set-local-storage-item, /_fa_Y2FjaGVfYWRibG9ja19jaXJjdW12ZW50X3Njb3Jl$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWRz$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com##+js(set-local-storage-item, /_fa_Y2FjaGVfYWRibG9ja19jaXJjdW12ZW50X3Njb3Jl$/, $remove$)
 meconomynews.com,brandbrief.co.kr,motorgraph.com,topstarnews.net##+js(noeval-if, /07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/)
 !#if cap_html_filtering
 meconomynews.com,brandbrief.co.kr,motorgraph.com##^script:has-text(KCgpPT57bGV0IGU)
@@ -132391,6 +132417,7 @@ topgear.com##+js(set, _sp_.config.events.onSPPMObjectReady, noopFunc)
 eservice.directauto.com##+js(set, gtm, {})
 eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 ||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$script,redirect=google-ima.js,domain=mais.sbt.com.br,important
+||wpfc.ml^$image,redirect=1x1.gif,domain=ht-instruments.de
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
