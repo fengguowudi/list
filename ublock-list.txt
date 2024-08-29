@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: utCUbkrlBUh0SDfkFOI9jQ
+! Checksum: 79wpdtA1HF8WBhfgcjVgMg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408290934
-! Last Modified: 2024年08月29日 09:34
+! Version: 202408291428
+! Last Modified: 2024年08月29日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -27372,6 +27372,7 @@ browsershots.org#@#.advert_area
 ||farteniuson.com^
 ||fartherpensionerassure.com^
 ||fartmoda.com^
+||farwine.com^
 ||fasciaekatcina.com^
 ||fascinateddashboard.com^
 ||fasgazazxvi.com^
@@ -37665,6 +37666,7 @@ browsershots.org#@#.advert_area
 ||nrnmsqpjghj.com^
 ||nrqppdgnhaagjq.com^
 ||nrs6ffl9w.com^
+||nrtaimyrk.com^
 ||nrunmoldy.com^
 ||nrvbadypy.com^
 ||nrxdmssm.com^
@@ -128434,7 +128436,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||shawupdatingservic.wixstudio.io^$all,to=~webmail.shaw.ca
 ||final-ua.eu/vasilisa/votings$all
 ||flow.page/foxhills.co.uk^$all,to=~foxhills.co.uk
-||faran.ac.ir/wp-content/$all,to=~linkedin.com
 ||codeanyapp.com/neta/*/pay-method.php$doc
 ||otomoto-h229.net^$all,to=~otomoto.pl
 ||mybluehost.me/*Recibir_paquete.php$doc,to=~correos.es
@@ -128444,6 +128445,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 /^https:\/\/www\.[a-z]{4,5}\.[a-z]{3,7}\/[a-z0-9]{36}\.html\b/$doc,match-case,to=com|info|website|~edu|~gov|~google.com
 ||pub-*.r2.dev/gsecondcheck.html^$doc
 ||uwelldeutschland.com^$all,to=~myuwell.com
+||faran.ac.ir/wp-content/$all,to=~linkedin.com
+||lnkdeka.standard.*.oortech.com^$doc,to=~linkedin.com
+||oortech.com/loginfromSignIn.pdf-shtml^$doc,to=~linkedin.com
 ||pages.dev/account/js-reporting^$doc,to=~yahoo.com
 ||iwq.pages.dev^$all,to=~yahoo.com
 ||jss.pages.dev^$all,to=~yahoo.com
@@ -128513,6 +128517,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||pe4hk.shop^$all,to=~gazprom.ru
 ||g1vm6.shop^$all,to=~gazprom.ru
 ||reactiver-abonnement.com^$all,to=~netflix.com
+||myeloma.gr.jp/zz.php^$all
 ||mybluehost.me/*/netflix/net/login.php$doc
 ||mybluehost.me/watch/a/flix/$doc
 ||floridavacationrentalsbyowners.com/*/Info/page_settings/account.php^$all
@@ -128532,6 +128537,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 /^https:\/\/allegro[a-z]{2,}\.shop\//$doc,to=shop
 ||allegroshop.shop^$all
 ||allegrocn.shop^$all
+/^https:\/\/allegro-\d{3,4}\.com\//$doc,to=com
 ||racks.pages.dev^$all,to=~rackspace.com
 ||rackweb-----support*.weebly.com^$all,to=~rackspace.com
 ||dana-indone*.id^$doc,to=my.id|web.id|~dana.id
@@ -128818,7 +128824,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||workshop-users.com^$all
 ||cn-steam.com^$all
 ||com/p/jcod-ppsr/huasdirjdo^$doc,to=~steamcommunity.com
-||mobilelegendsmycode.com^$all
 /^https:\/\/(?:www\.)?(?:ff[-.])?member[-.]gare[a-z]+a(?:\.pro)?\.vn\//$doc,to=vn|~garena.vn
 /^https:\/\/(?:www\.)?(?:ff[-.])?men?mber[-.]garena\.vn\//$doc,to=vn|~garena.vn
 ||xn--npth-5q5a1g.vn^$all,to=~napthe.vn
@@ -128833,6 +128838,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||garenae.vn^$all,to=~garena.vn
 ||gasenna.io.vn^$all,to=~garena.vn
 ||garenaea.vn^$all,to=~garena.vn
+||mobilelegendsmycode.com^$all
+||weysg.com.tr^$doc
 ||pubg-arena.top^$all
 ||register-turnamen.free.nf^$all
 ||pubgm-zing-vn.com^$all
@@ -128911,6 +128918,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||backblazeb2.com/securescriptindustriusfinanceprivate99.HTML^$doc
 /landingpages/daec0dfa-de7a-4f73-9b8e-44fde686ce12^$doc
 ||contoso-travel.com/login^$all
+||sitio-interno.com^$all
+||oortech.com/onedrive.-html^$doc
 ||telegramhcn.com^$all
 ||newappmssg.ru^$all
 ||brawllstars.ru^$all
@@ -128940,6 +128949,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||mybluehost.me/tracking-mail-delivery/$doc,to=~usps.com
 ||mybluehost.me/*unitess/$doc,to=~usps.com
 ||mybluehost.me/UNITEDSTATESPOSTAL/$doc,to=~usps.com
+||yah.ppl.mybluehost.me^$doc,to=~usps.com
 /^https:\/\/transporta[a-z]{8,9}pro\.top\/i\b/$doc,to=top|~usps.com
 ||usps.*.top^$doc,to=top|~usps.com
 /^https:\/\/(?:[a-z0-9]{2,}-)+10\d{4}\.weeblysite\.com\//$doc,to=weeblysite.com
@@ -128953,6 +128963,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||mybluehost.me/spot/Account/$doc
 ||mybluehost.me/dse/main/$doc
 ||mybluehost.me/MUSIC/SPOTIFY24K/$doc
+||veratv-mtic.vera.com.uy/r/$doc
 ||swiss-passapp.web.app^$all,to=~swisspass.ch
 ||mybluehost.me/CFF/$doc,to=~swisspass.ch
 ||mybluehost.me/--/SBBCFF$doc,to=~swisspass.ch
@@ -128960,6 +128971,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||mybluehost.me/*/swisspass/$doc,to=~swisspass.ch
 ||mybluehost.me/Konto/SBB/$doc,to=~swisspass.ch
 ||mybluehost.me/sbb-ch/$doc,to=~swisspass.ch
+||mybluehost.me/SBB/$doc,to=~swisspass.ch
+||the.jxc.mybluehost.me^$doc,to=~swisspass.ch
 ||mybluehost.me/pass/index/$doc,to=~swisspass.ch
 ||mybluehost.me/seitech/$doc,to=~swisspass.ch
 ||mybluehost.me/*/swpassfr/$doc,to=~swisspass.ch
@@ -128984,6 +128997,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||sviluppo.host/df/pass.php^$doc,to=~swisscom.ch
 ||mybluehost.me/sssssssssssssss/$doc,to=~swisscom.ch
 ||mybluehost.me/comssss/$doc,to=~swisscom.ch
+||mybluehost.me/swisscom-login/$doc,to=~swisscom.ch
+||mst.ail.mybluehost.me^$doc,to=~swisscom.ch
 ||mybluehost.me/*/swisscom/$doc,to=~swisscom.ch
 ||codeanyapp.com/swiss-login/$doc
 ||swisspost.web.app^$all,to=~post.ch
@@ -129025,6 +129040,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||miles-plume-network.pages.dev^$all,to=~plumenetwork.xyz
 ||equi-dsw.pages.dev^$doc,to=~equilibria.fi
 ||agentlayer-xyz.pages.dev^$doc,to=~agentlayer.xyz
+||pngvnreward.pages.dev^$doc,to=~pngvntoken.com
 ||web3mainnetdapp.pages.dev^$all
 ||web3connectfix.pages.dev^$all
 ||clinitex.fr/META5KYC/$doc,to=~metamask.io
@@ -129225,6 +129241,15 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||nzx65821s.com^$all,to=~shopee.vn
 ||congtygiaohangtietkiemvn.com^$all,to=~giaohangtietkiem.vn
 ||giaohangtietkiemvn.com^$all,to=~giaohangtietkiem.vn
+||xigh.ru^$all
+||newreuti.com^$all
+||halowasus.com^$all
+||emorasp8.com^$all
+||iquitorr.com^$all
+||moncelork.com^$all
+||amboya6.com^$all
+||anathemv.com^$all
+||eangetar.com^$all
 ||adobedownloader.info^$all
 ||opiumundi.com^$all
 ||mirtiat.com^$all
@@ -129260,8 +129285,8 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||vertiselevadores.com.br^$all
 ||r2.dev/Outlook%20Secured%20Document$doc
 /^https:\/\/[a-z0-9]{3,}\.[a-z0-9]{6,10}\.com\/[a-zA-Z0-9]{50,}\?[a-zA-Z0-9]{60,}$/$doc,to=com|~google.com|~microsoft.com
-/^https:\/\/[a-z0-9]{3,}\.[a-z0-9]{6,10}\.ru\/[a-zA-Z0-9]{50,}\?[a-zA-Z0-9]{60,}$/$doc,to=ru
-/^https:\/\/[a-z0-9]{3,}\.[a-z0-9]{6,10}\.su\/[a-zA-Z0-9]{50,}\?[a-zA-Z0-9]{60,}$/$doc,to=su
+/^https:\/\/[a-z0-9]{3,}\.[a-z0-9]{4,10}\.ru\/[a-zA-Z0-9]{50,}\?[a-zA-Z0-9]{60,}$/$doc,to=ru
+/^https:\/\/[a-z0-9]{3,}\.[a-z0-9]{4,10}\.su\/[a-zA-Z0-9]{50,}\?[a-zA-Z0-9]{60,}$/$doc,to=su
 ||chervindi.com^$all
 ||grahurgum.com^$all
 ||liverun0.com^$all
