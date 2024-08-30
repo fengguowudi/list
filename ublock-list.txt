@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /i4OWeT/BkatBKd91JzeCw
+! Checksum: LFYLBBV2/1XvgKrwkkVLUQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202408302038
-! Last Modified: 2024年08月30日 20:38
+! Version: 202408310226
+! Last Modified: 2024年08月31日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -123265,9 +123265,9 @@ cine-calidad.*##+js(aopw, adcashMacros)
 cine-calidad.*##+js(ra, href, #opfk)
 cine-calidad.*##.links
 cambb.xxx##.thumb div.ad:upward(.thumb)
-cambb.xxx##+js(no-xhr-if, googlesyndication)
-cambb.xxx##+js(set, adbPopup, noopFunc)
-cambb.xxx###adb
+cambb.xxx,nudecams.xxx##+js(no-xhr-if, googlesyndication)
+cambb.xxx,nudecams.xxx##+js(set, adbPopup, noopFunc)
+cambb.xxx,nudecams.xxx###adb
 embed.indavideo.hu##+js(set, AdHandler.adblocked, 0)
 sexgames.xxx##+js(aopr, loadTool)
 coinurl.net##+js(aopr, app_vars.force_disable_adblock)
@@ -130071,6 +130071,7 @@ vpnmentor.com##+js(cookie-remover, /_alooma/)
 ||infinityscans.net/api/collect^
 ||forecast.lemonde.fr/p/action/
 ||lemonde.fr/*?s=$xhr,method=post
+||spankbang.com/static/dist/desktop/js/analytics$script
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -132555,6 +132556,7 @@ eservice.directauto.com##+js(set, gtm, {})
 eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 ||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$script,redirect=google-ima.js,domain=mais.sbt.com.br,important
 ||wpfc.ml^$image,redirect=1x1.gif,domain=ht-instruments.de
+||trycloudflare.com^$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
