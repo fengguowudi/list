@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8wwQ1RpqzxSw4yhn6YBK+A
+! Checksum: 3ZjeQujSKlddYL1aqQAncg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202409042039
-! Last Modified: 2024年09月04日 20:39
+! Version: 202409050224
+! Last Modified: 2024年09月05日 02:24
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18225,6 +18225,7 @@ browsershots.org#@#.advert_area
 ||ahngnhjdcu.com^
 ||ahoxirsy.com^
 ||ahporntube.com^
+||ahqovxli.com^
 ||ahqpqpdjpj.com^
 ||ahscdn.com^
 ||ahtalcruzv.com^
@@ -23131,6 +23132,7 @@ browsershots.org#@#.advert_area
 ||coinadster.com^
 ||coinblocktyrusmiram.com^
 ||coinio.cc^
+||coinsmanning.com^
 ||coinverti.com^
 ||cokepompositycrest.com^
 ||colanbalkily.com^
@@ -24385,6 +24387,7 @@ browsershots.org#@#.advert_area
 ||dcjeeqwrhg.com^
 ||dclakbrifusivy.com^
 ||dclfuniv.com^
+||dcsewjll.com^
 ||dctkubltpbtt.com^
 ||dcybyvmtwgnp.com^
 ||dd0122893e.com^
@@ -29553,6 +29556,7 @@ browsershots.org#@#.advert_area
 ||gougersorrier.top^
 ||gouheethsurvey.space^
 ||goulbap287evenost.com^
+||gounevou.net^
 ||gourgoldpieceso.com^
 ||gousouse.com^
 ||goutee.top^
@@ -33402,6 +33406,7 @@ browsershots.org#@#.advert_area
 ||kfjhd.com^
 ||kfjkgfgr.com^
 ||kfngvuu.com^
+||kfpljakmiousajl.com^
 ||kfxkxyb.com^
 ||kgdvs9ov3l2aasw4nuts.com^
 ||kgfjrb711.com^
@@ -41704,6 +41709,7 @@ browsershots.org#@#.advert_area
 ||qcxhwrm.com^
 ||qczukeud.com^
 ||qdaawkgdaiwlh.com^
+||qdeduzaixe.com^
 ||qdibvllqu.com^
 ||qdlbdpsctalt.com^
 ||qdlesuneeqoglp.com^
@@ -59462,6 +59468,7 @@ browsershots.org#@#.advert_area
 ||1437953666.rsc.cdn77.org^
 ||1529462937.rsc.cdn77.org^
 ||1548164934.rsc.cdn77.org^
+||1588341617.rsc.cdn77.org^
 ||1675450967.rsc.cdn77.org^
 ||1736253261.rsc.cdn77.org^
 ||1wnurc.com^
@@ -129570,6 +129577,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||tempisite.com^$all
 ||eltacosu.lol^$all,to=~elta.gr
 ||sunpass-etoll-id.kupu.desa.id^$all
+||gofile.io/d/yMHabA|$doc
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -130086,6 +130094,7 @@ vpnmentor.com##+js(cookie-remover, /_alooma/)
 ||spankbang.com/static/dist/desktop/js/analytics$script
 perplexity.ai##+js(aost, window.screen.height, setTimeout)
 ||perplexity.ai/rest/metrics/collect^$xhr,1p,method=post
+ nytimes.com##+js(no-fetch-if, api.theathletic.com/graphql body:/PostEvent|PostImpressions/)
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -139389,13 +139398,9 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
-||uetlwst.top^
-||qetlwsy.top^
 ||cengqinglin.cn^
-||sprewcereous.com^
 ||shouldercommandmentlimitless.com^
 ||ad.ettoday.net^$redirect=nooptext
-||ttad125.com^
 ||996js123.com^
 ||tagtoo.co^$third-party
 ||ad.886112.xyz^
@@ -139403,22 +139408,11 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 ||98765.pw^
 ||cdn.holmesmind.com^$third-party
 ||aziekg.xyz^
-||max211.top^
 ||st-fly.b-cdn.net^
 ||ggsfq.xyz^$third-party
 ||noafoaji.xyz^
 ||bilec.xyz^
-||vkjsnvk.com^
-||yruws6.com^
 ||mlstx.cn^
-||yh18h8s.com^
-||qhx1h2g.com^
-||jh16csf.com^
-||kl91ccp.com^
-||kxm1b0u.com^
-||sa8zdui.com^
-||pr88vhg.com^
-||gw1jvhs.com^
 ||p97387hj.xyz^
 ||tfcdn.jingmiuyyds.com^$all
 ||vzttq.brfvyrrp.com^$all
@@ -139432,7 +139426,6 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 ||uu3192uu.com^
 ||ue8im.com^
 ||uu8811uu.com^
-||u1055.com^
 ||beacher56.xyz^
 ||666579.xyz^
 ||zhibo128x1.xyz^
@@ -139450,7 +139443,6 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 ||dian.brecm.xyz^
 ||awoudsoo.xyz^
 ||1200555.com^
-||kzepp.com^
 ||n0611.com^
 ||jcreje.com^
 ||99886aaa.com^
@@ -139462,7 +139454,6 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 ||73652253191.com^$third-party
 ||ymdxl.com^
 ||wildwist.com^
-||876920.com^
 ||mg.xhkvff.cn^
 ||mc.mwgpg.cn^
 ||pm.poqwua.cn^
@@ -139493,7 +139484,6 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 ||cxdcn9c.fjshxjs.cn^$third-party
 ||sdofp9c.cddrhx.cn^$third-party
 ||dat1.jzjxmj.com^$third-party
-||dlads.cn^$third-party
 ||dns.chuzushijian.cn^$third-party
 ||j.sdqoi2d.com^$third-party
 ||7daystodie.cn^$third-party
@@ -139587,7 +139577,6 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 ||web.51fishplace.com^$third-party
 ||cdntlz.cn^$third-party
 ||m.qhxcdmfj.cn^$third-party
-||emdcadvertise.eastmoney.com^
 ||szjyfund.com^$third-party
 ||y.21haodianmt.com^$third-party
 ||156.233.32.123^$third-party
@@ -139604,8 +139593,6 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 ||ulukaris.com^$third-party
 ||itadapi.ithome.com.tw^
 ||zjgfq.com^$third-party
-!+ NOT_OPTIMIZED
-||1002.men^
 ! Peter
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
