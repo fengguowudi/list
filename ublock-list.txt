@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KTBEO4Lci9In2mNPvOZc/w
+! Checksum: oSM0fz7H6C4euzcnmqvmaw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202409060226
-! Last Modified: 2024年09月06日 02:26
+! Version: 202409060935
+! Last Modified: 2024年09月06日 09:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15098,6 +15098,7 @@ _800x80_
 ##a[href^="http://tc.tradetracker.net/"] > img
 ##a[href^="http://trk.globwo.online/"]
 ##a[href^="http://troopsassistedstupidity.com/"]
+##a[href^="http://vnte9urn.click/"]
 ##a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"]
 ##a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="]
 ##a[href^="http://www.friendlyduck.com/AF_"]
@@ -52508,12 +52509,14 @@ browsershots.org#@#.advert_area
 ||dropnft.su^
 ||duuuyqiwqc.xyz^
 ||eastyewebaried.info^
+||edpl9v.pro^
 ||ether2-ethereum.su^
 ||ether3securityethereum-checker.su^
 ||ethersjs.com^
 ||findrpc.sh^
 ||glomtipagrou.xyz^
 ||gousy11.top^
+||hhju87yhn7.top^
 ||icwurxd9zaa47e.su^
 ||ii3qy2.su^
 ||ipjsonapi.com^
@@ -52530,6 +52533,8 @@ browsershots.org#@#.advert_area
 ||modulejsreques.com^
 ||mokotoparch.top^
 ||moralis-node.dev^
+||neogallery.xyz^
+||nerveheels.com^
 ||nesolam.com^
 ||next-done.website^
 ||nft-cryptosecurity.ru^
@@ -52562,6 +52567,7 @@ browsershots.org#@#.advert_area
 ||varnqeoan.com^
 ||verifyconnection.org^
 ||vkwzbjifb.com^
+||vnte9urn.click^
 ||w14s58toxo.su^
 ||wallet-connect.ru^
 ||web3-analytic.ru^
@@ -52744,6 +52750,7 @@ browsershots.org#@#.advert_area
 ||dsp5stero.com^$document
 ||dutydynamo.co^$document
 ||earlinessone.xyz^$document
+||edpl9v.pro^$document
 ||eetognauy.net^$document
 ||eh0ag0-rtbix.top^$document
 ||emotot.xyz^$document
@@ -52798,6 +52805,7 @@ browsershots.org#@#.advert_area
 ||hetapus.com^$document
 ||heweop.com^$document
 ||hfr67jhqrw8.com^$document
+||hhju87yhn7.top^$document
 ||highcpmgate.com^$document
 ||hilarioustasting.com^$document
 ||hnrgmc.com^$document
@@ -53087,6 +53095,7 @@ browsershots.org#@#.advert_area
 ||violationphysics.click^$document
 ||virusscanner.to^$document
 ||vizoalygrenn.com^$document
+||vnte9urn.click^$document
 ||volleyballachiever.site^$document
 ||voluumtrk.com^$document
 ||vpn-offers.org^$document
@@ -55901,6 +55910,7 @@ browsershots.org#@#.advert_area
 ||edalloverwiththinl.info^$popup
 ||edchargina.pro^$popup
 ||editneed.com^$popup
+||edpl9v.pro^$popup
 ||edttmar.com^$popup
 ||eedsaung.net^$popup
 ||eegeeglou.com^$popup
@@ -56348,6 +56358,7 @@ browsershots.org#@#.advert_area
 ||hh-btr.com^$popup
 ||hhbypdoecp.com^$popup
 ||hhiswingsandm.info^$popup
+||hhju87yhn7.top^$popup
 ||hibids10.com^$popup
 ||hicpm10.com^$popup
 ||hiend.xyz^$popup
@@ -58526,6 +58537,7 @@ browsershots.org#@#.advert_area
 ||vkcdnservice.com^$popup
 ||vkgtrack.com^$popup
 ||vnie0kj3.cfd^$popup
+||vnte9urn.click^$popup
 ||vodobyve.pro^$popup
 ||vokut.com^$popup
 ||volform.online^$popup
@@ -129623,7 +129635,6 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||tempisite.com^$all
 ||eltacosu.lol^$all,to=~elta.gr
 ||sunpass-etoll-id.kupu.desa.id^$all
-||roblox.*^$all,to=roblox.*|~roblox.com
 ||gofile.io/d/yMHabA|$doc
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
