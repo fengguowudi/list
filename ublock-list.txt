@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lx5DllVIKZrIHHK6DXIFOg
+! Checksum: qpHS2sbc9zoZNoAfrwN+UA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202409091431
-! Last Modified: 2024年09月09日 14:31
+! Version: 202409092039
+! Last Modified: 2024年09月09日 20:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -69334,6 +69334,7 @@ darkreader.org##.up:has(.h-logo-link)
 duckduckgo.com##.vertical-section-divider:has(span.badge--ad-wrap)
 neonheightsservers.com##.well:has(ins.adsbygoogle)
 9to5linux.com##.widget:has([href$=".php"])
+evreporter.com##.widget_media_image:not(:has(a[href^="https://evreporter.com/"]))
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
@@ -70898,6 +70899,7 @@ indianpornvideos.com##.vdo-unit
 xnxxporn.video##.vertbars
 milfporn8.com,ymlporn7.net##.vid-ave-pl
 ymlporn7.net##.vid-ave-th
+xvideos.com##.video-ad
 pornone.com##.video-add
 ad69.com,risextube.com##.video-aside
 sexseeimage.com##.video-block-happy
@@ -74647,6 +74649,7 @@ _trackWebtrekkEvents.
 _view_pixel&$image
 _webanalytics.
 _WebVitalsReporter_
+/ng.gif?
 /ajax/bz?_
 .com/vtrack
 /ls.php?t=
@@ -80601,6 +80604,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||panorama.wixapps.net^
 ||pap.qualityunit.com^$third-party
 ||parallax.askmediagroup.com^
+||paramount.tech/lookup/
 ||parkwhiz.com/events/
 ||parsely.com/keys/$script,third-party
 ||partners.etoro.com^$script
@@ -121991,7 +121995,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
 @@||cleverpush.com/sdk/$script,domain=heise.de
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|login.kroton.com.br
-@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|myair.resmed.com
+@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|kiichin.com|myair.resmed.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
@@ -124282,7 +124286,8 @@ maxstream.video,maxlinks.online##+js(nano-stb, .fadeIn(), 3000)
 maxstream.video,maxlinks.online##+js(nowoif)
 @@*$script,1p,domain=maxstream.video|maxlinks.online|maxstreams.site
 @@||linkonclick.com/*/display.php$script,frame,domain=maxstream.video|maxlinks.online|maxstreams.site
-@@||ads.host-cdn.net/*.js|$script,domain=maxstream.video|maxlinks.online|maxstreams.site
+@@||ads.host-cdn.net/*.js|$script,domain=maxstream.video|maxlinks.online|maxstreams.site|uprot.net
+@@/^https:\/\/ads\.host-cdn\.net\/\w+\.js\?\w+$/$script,3p,to=ads.host-cdn.net,from=maxstream.video|maxlinks.online|maxstreams.site|uprot.net
 host-cdn.net^$image,redirect-rule=32x32.png,domain=maxstream.video|maxlinks.online|maxstreams.site
 maxstream.video,maxlinks.online,maxstreams.site###adsads:style(height: 9px !important;)
 maxstream.video,maxlinks.online,maxstreams.site##h1:has-text(/adblock|supporter/)
@@ -129645,7 +129650,6 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||kariyerfirsatin.com.tr^$doc
 ||cartepak.online^$doc
 ||aryapaketleme.com^$doc
-||cdmx-gob-mx.com^$doc,to=~cdmx.gob.mx
 ||hkdk.events/8cjknac3yxdqk4^$all
 ||xdxg.xyz^$all
 ||zebg.top^$all
