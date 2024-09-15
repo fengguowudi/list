@@ -17,9 +17,9 @@ jobs:
 
       - name: Set $GOPATH and more variables
         run: |
-          echo "RELEASE_NAME=Released on $(date -d "8 hour" -u +%Y%m%d%H%M)" >> $GITHUB_ENV
-          echo "TAG_NAME=$(date -d "8 hour" -u +%Y%m%d%H%M)" >> $GITHUB_ENV
-          echo "MODIFIED_TIME=$(date -d "8 hour" -u "+%Y年%m月%d日 %H:%M")" >> $GITHUB_ENV
+          echo "RELEASE_NAME=Released on $(date -d '8 hour' -u +%Y%m%d%H%M)" >> $GITHUB_ENV
+          echo "TAG_NAME=$(date -d '8 hour' -u +%Y%m%d%H%M)" >> $GITHUB_ENV
+          echo "MODIFIED_TIME=$(date -d '8 hour' -u '+%Y年%m月%d日 %H:%M')" >> $GITHUB_ENV
           echo "EASYLIST_URL=https://easylist-downloads.adblockplus.org/easylist.txt" >> $GITHUB_ENV
           echo "EASYLISTCHINA_URL=https://easylist-downloads.adblockplus.org/easylistchina.txt" >> $GITHUB_ENV
           echo "EASYPRIVACY_URL=https://easylist-downloads.adblockplus.org/easyprivacy.txt" >> $GITHUB_ENV
@@ -40,12 +40,12 @@ jobs:
           echo "GOPATH=$(dirname $GITHUB_WORKSPACE)" >> $GITHUB_ENV
           echo "$(dirname $GITHUB_WORKSPACE)/bin" >> $GITHUB_PATH
         shell: bash
-    
+
       - name: Checkout the "master" branch
         uses: actions/checkout@v4
         with:
           ref: master
-    
+
       - name: Get every files
         id: download
         run: |
@@ -71,16 +71,16 @@ jobs:
           curl -sSL $ANTI_ADBLOCK_KILLER_FILTERS_URL | sed -e '1c ! AakList (Anti-Adblock Killer)' -e '/^! Title/,/^! RegExpVisualizer/d' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./anti-adblock-killer-filters.txt
           for i in $(ls *.txt); do
             if [[ `cat $i |wc -l` -eq 0 ]]; then
-              echo "::set-output name=status::failed"
+              echo "status=failed" >> $GITHUB_ENV
               break
             else
-              echo "::set-output name=status::success"
+              echo "status=success" >> $GITHUB_ENV
               echo "" >> $i
             fi
           done
-    
+
       - name: Generate adblock files
-        if: steps.download.outputs.status == 'success'
+        if: env.status == 'success'
         run: |
           mkdir -p ./new/
           cd ./download
@@ -94,10 +94,10 @@ jobs:
           for i in $(ls ../new/*.txt); do
             sed -i '/^$/d' $i
           done
-    
+
       - name: Diff and addChecksum
         id: diffResult
-        if: steps.download.outputs.status == 'success'
+        if: env.status == 'success'
         run: |
           mkdir -p ./old_no_title/
           chmod +x ./mod/addChecksum.pl
@@ -111,32 +111,32 @@ jobs:
               cat ./mod/$titleName ./new/$i > ./$i
               sed -i -e "s#201412030951#$TAG_NAME#" -e "s#201412030952#$MODIFIED_TIME#" ./$i
               perl ./mod/addChecksum.pl ./$i
-              echo "::set-output name=status::success"
+              echo "status=success" >> $GITHUB_ENV
             done
           else
-            echo "::set-output name=status::failed"
+            echo "status=failed" >> $GITHUB_ENV
           fi
-    
+
       - name: Deliver download Dir
         uses: actions/upload-artifact@v4
-        if: steps.download.outputs.status == 'failed'
+        if: env.status == 'failed'
         with:
           name: AllFiles
           path: |
             ./download/
-    
-      - name: Deliver new and old_no_title Di
+
+      - name: Deliver new and old_no_title Dir
         uses: actions/upload-artifact@v4
-        if: steps.diffResult.outputs.status == 'failed'
+        if: env.status == 'failed'
         with:
           name: AllFiles
           path: |
             *
             !./.git/
-    
+
       - name: Git push assets to "master" branch
         continue-on-error: true
-        if: steps.diffResult.outputs.status == 'success'
+        if: env.status == 'success'
         run: |
           rm -rf download new old_no_title
           sed -i '/url =/d' ./.git/config
@@ -148,9 +148,9 @@ jobs:
           git remote set-url --add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git fetch --unshallow origin
           git push -f -u origin master
-    
+
       - name: Purge jsdelivr cache
-        if: steps.diffResult.outputs.status == 'success'
+        if: env.status == 'success'
         run: |
           result=$(curl -s https://purge.jsdelivr.net/gh/fengguowudi/list@master/)
           if echo $result |grep -q 'success.*true'; then
