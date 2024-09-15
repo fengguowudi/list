@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hIpxUFvvr3UVLhQx+hutVg
+! Checksum: FVPD4/fRYxS5L/a5ZoC3QQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202409152101
-! Last Modified: 2024年09月15日 21:01
+! Version: 202409160226
+! Last Modified: 2024年09月16日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -166,7 +166,7 @@
 /ad?pos_
 /ad?type=
 /ad_728.jpg$image
-/ad_728.js
+/ad_728.js$script
 /ad_banner/*$image,domain=~ccf.com.cn
 /ad_bottom.jpg$image
 /ad_bottom.js$script
@@ -302,7 +302,7 @@
 /adserver.$~stylesheet,~xmlhttprequest
 /adserver3.$image,script
 /adserver?
-/adsforwp-front.min.css
+/adsforwp-front.min.css$stylesheet
 /adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
 /adsimages/*$image,domain=~bdjobstoday.com
 /adsimg/*$image
@@ -339,7 +339,6 @@
 /advert?
 /advertbanner.
 /advertising/banners/*$image
-/advertisingWebRenderer.min.js
 /advertisment/*$~image
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
@@ -384,8 +383,6 @@
 /asyncspc.php$third-party
 /awaps-ad-sdk-$script
 /ban.php?
-/ban300.php
-/ban728.php
 /ban728x90.$image
 /banman/ad.aspx$image
 /banner-ad.$~script
@@ -421,10 +418,8 @@
 /buysellads.js$script
 /callAdserver?
 /cgi-bin/ad/*$~xmlhttprequest
-/cgi-bin/ads.cgi
 /click/zone?
 /click?adv=
-/clickadu300.aspx
 /cms_ads.js
 /code/https-v2.js?uid=
 /code/native.js?h=$script
@@ -558,7 +553,7 @@
 /lazyload.ads?
 /left_ads.js$script
 /leftad.js$script
-/leftad.png
+/leftad.png$image
 /legion-advertising-atlasastro/*$script
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
@@ -570,7 +565,6 @@
 /mcad.php
 /media/ads/*$image
 /media_ads/*$image
-/mgid.html
 /microad.js$script
 /mnpw3.js$script
 /mobile_ad.
@@ -660,7 +654,6 @@
 /popup2.js$script
 /popup3.js$script
 /popup_ad.js$script
-/popup_ad.php
 /popup_code.php$script
 /popupads.js$script
 /prbt/v1/ads/?
@@ -686,7 +679,7 @@
 /rad_singlepageapp.js$script
 /railad.jpg
 /RdmAdFeed.js
-/rdrr/renderer.js
+/rdrr/renderer.js$third-party
 /RealMedia/ads/*$~xmlhttprequest
 /redirect/?spot_id=
 /redirect?tid=
@@ -704,7 +697,6 @@
 /resources/ads/*$~xmlhttprequest
 /responsive/ad_$subdocument
 /responsive_ads.js$script
-/right_ad.
 /right_ads.$~xmlhttprequest
 /rightad.js$script
 /s.ashx?btag
@@ -761,7 +753,7 @@
 /size=*/random=*/viewid=
 /skin/ad/*$image,script
 /skin/adv/*$~xmlhttprequest
-/skyscraperad.
+/skyscraperad.$image
 /slide_in_ads_close.gif$image
 /slider_ad.js$script
 /sliderad.js$script
@@ -798,12 +790,13 @@
 /tmbi-a9-header-$script
 /tncms/ads/*$script
 /tnt.ads.$script
-/top-ad.
+/top-ad.$~xmlhttprequest
 /top_ad.$~xmlhttprequest,domain=~sunco.co.jp
 /top_ads.$~xmlhttprequest
 /topad.html$subdocument
 /triadshow.asp$script,subdocument
 /ttj?id=
+/umd/advertisingWebRenderer.min.js$script
 /ut.js?cb=
 /utx?cb=$third-party
 /v2/a/push/js/*$third-party
@@ -825,7 +818,6 @@
 /virtuagirlhd.$image
 /web/ads/*$image
 /web_ads/*$image
-/webads.htm
 /webads/*$image,domain=~cccc.edu|~meatingplace.com
 /webadverts/ads.pl?
 /widget-advert?
@@ -1121,7 +1113,7 @@ _prebid8.
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
 /adblock-detect.
-/adblock-detector.
+/adblock-detector.min.js$script
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock.gif?
 /adblock_detector2.$script
@@ -1129,7 +1121,6 @@ _prebid8.
 /adblockdetect.js$script
 /adblockdetection.
 /adBlockDetector/*$script
-/adblocker-leader.
 /adbuddy.$domain=~adbuddy.be|~adbuddy.beeldstudio.be
 /ads-blocking-detector.$script
 /anti-adblock/*$~stylesheet
@@ -14970,6 +14961,7 @@ _800x80_
 ##a[href^="https://ak.hauchiwu.com/"]
 ##a[href^="https://ak.oalsauwy.net/"]
 ##a[href^="https://ak.psaltauw.net/"]
+##a[href^="https://allhost.shop/aff.php?"]
 ##a[href^="https://auesk.cfd/"]
 ##a[href^="https://ausoafab.net/"]
 ##a[href^="https://aweptjmp.com/"]
@@ -21499,6 +21491,7 @@ browsershots.org#@#.advert_area
 ||bumpexchangedcadet.com^
 ||bumphsquilla.com^
 ||bumpthank.com^
+||bumxmomcu.com^
 ||bunbeautifullycleverness.com^
 ||bundlerenown.com^
 ||bunfreezer.com^
@@ -23493,6 +23486,7 @@ browsershots.org#@#.advert_area
 ||couldobliterate.com^
 ||coumasha.xyz^
 ||counaupsi.com^
+||councernedasesi.com^
 ||counciladvertising.net^
 ||councilheader.com^
 ||counsellinggrimlyengineer.com^
@@ -23744,6 +23738,7 @@ browsershots.org#@#.advert_area
 ||crptentry.com^
 ||crptgate.com^
 ||crrepo.com^
+||crsope.com^
 ||crsspxl.com^
 ||crtracklink.com^
 ||crubtokopat.top^
@@ -24594,6 +24589,7 @@ browsershots.org#@#.advert_area
 ||despotbenignitybluish.com^
 ||despotfifteen.com^
 ||dessertgermdimness.com^
+||dessillucian.com^
 ||dessly.ru^
 ||destinationoralairliner.com^
 ||destinedsponsornominate.com^
@@ -25091,6 +25087,7 @@ browsershots.org#@#.advert_area
 ||djldrhxb.com^
 ||djmwwdrznntss.com^
 ||djmwxpsijxxo.xyz^
+||djosbhwpnfxmx.com^
 ||djphnuhkbjf.com^
 ||djqacscl.com^
 ||djqitgfjfu.com^
@@ -26062,6 +26059,7 @@ browsershots.org#@#.advert_area
 ||ef9i0f3oev47.com^
 ||efanyorgagetni.info^
 ||efdjelx.com^
+||efemsvcdjuov.com^
 ||effacedefend.com^
 ||effaceecho.com^
 ||effacerevealing.com^
@@ -26532,6 +26530,7 @@ browsershots.org#@#.advert_area
 ||epicgameads.com^
 ||epipialbeheira.com^
 ||epitokealraun.top^
+||eplndhtrobl.com^
 ||epmfjjabhfwgkun.com^
 ||epnjbpnncucp.com^
 ||epnredirect.ru^
@@ -30531,6 +30530,7 @@ browsershots.org#@#.advert_area
 ||hightopnews.com^
 ||highwaycpmrevenue.com^
 ||highwaysenufo.guru^
+||hiidevelelastic.com^
 ||hijpdcvwb.com^
 ||hikestale.com^
 ||hikrfneh.xyz^
@@ -32847,6 +32847,7 @@ browsershots.org#@#.advert_area
 ||jotskuffieh.website^
 ||jotterswirrah.com^
 ||jouaboe.com^
+||joucefeet.xyz^
 ||joudauhee.com^
 ||joudotee.com^
 ||joukaglie.com^
@@ -32902,6 +32903,7 @@ browsershots.org#@#.advert_area
 ||jrbbavbmwmleb.top^
 ||jrbbavbmwqwjl.top^
 ||jrfwfwk.com^
+||jrgmooxsln.com^
 ||jrhsjmwtrwiam.com^
 ||jrilbcd.com^
 ||jrilkvjehrjlri.com^
@@ -34989,6 +34991,7 @@ browsershots.org#@#.advert_area
 ||lvlmhyjzdan.com^
 ||lvnnqdgxdlhj.com^
 ||lvodomo.info^
+||lvojjayaaoqym.top^
 ||lvomenbxbyl.com^
 ||lvpcxqcoohcviks.com^
 ||lvsnmgg.com^
@@ -37091,6 +37094,7 @@ browsershots.org#@#.advert_area
 ||news-weekend1.xyz^
 ||news-wew.click^
 ||news-xehola.com^
+||news-xmiyasa.com^
 ||newsaboutsugar.com^
 ||newsadst.com^
 ||newsatads.com^
@@ -42967,6 +42971,7 @@ browsershots.org#@#.advert_area
 ||revstripe.com^
 ||revulsiondeportvague.com^
 ||revupads.com^
+||rewaawoyamvky.top^
 ||rewallesthete.shop^
 ||rewardrush.life^
 ||rewardsaffiliates.com^
@@ -43153,6 +43158,7 @@ browsershots.org#@#.advert_area
 ||riverhit.com^
 ||riverpush.com^
 ||riversingratitudestifle.com^
+||riverstressful.com^
 ||rivetrearrange.com^
 ||rivmuvlnu.com^
 ||rivne.space^
@@ -45342,6 +45348,7 @@ browsershots.org#@#.advert_area
 ||soonlint.com^
 ||soonpersuasiveagony.com^
 ||soonstrongestquoted.com^
+||soopsepsi.net^
 ||soopsulo.xyz^
 ||soosooka.com^
 ||sootconform.com^
@@ -46160,6 +46167,7 @@ browsershots.org#@#.advert_area
 ||stupidityitaly.com^
 ||stupidityscream.com^
 ||stupidspaceshipfestivity.com^
+||stuwhost.net^
 ||stvbiopr.net^
 ||stvkr.com^
 ||stvsmdhfplfrcy.xyz^
@@ -47944,6 +47952,7 @@ browsershots.org#@#.advert_area
 ||trellian.com^
 ||trembleday.com^
 ||tremorhub.com^
+||trenchpoor.net^
 ||trendmouthsable.com^
 ||trenhsasolc.com^
 ||trenhsmp.com^
@@ -51176,6 +51185,7 @@ browsershots.org#@#.advert_area
 ||wwpush22.com^
 ||wwqssmg.com^
 ||wwunnmshmv.xyz^
+||wwvxdhbmlqcgk.xyz^
 ||www6.hentai-zone.com^
 ||www8.upload-pics.com^
 ||wwwadcntr.com^
@@ -51237,6 +51247,7 @@ browsershots.org#@#.advert_area
 ||xads.one^
 ||xadsmart.com^
 ||xageyai.com^
+||xahttwmfmyji.com^
 ||xajqhrrrnxmy.com^
 ||xalienstreamx.com^
 ||xambxhihx.com^
@@ -51367,6 +51378,7 @@ browsershots.org#@#.advert_area
 ||xivmviuynlt.com^
 ||xjakcitm.com^
 ||xjfbhxp.com^
+||xjfqqyrcz.com^
 ||xjincmbrulchml.xyz^
 ||xjkhaow.com^
 ||xjktawqrcaw.com^
@@ -52272,6 +52284,7 @@ browsershots.org#@#.advert_area
 ||zlacraft.com^
 ||zlbvewof.com^
 ||zlebdfhnampju.com^
+||zlhaekgfrqlu.com^
 ||zlink2.com^
 ||zlink6.com^
 ||zlinkc.com^
@@ -70205,6 +70218,7 @@ hentaiasmr.moe###bottom-tab
 hentaidude.com###box-canai
 cockdude.com###box-txtovka-con
 eporner.com###btasd
+pornstar-scenes.com###chatCamAjaxV0
 sexu.site###closeplay
 anysex.com###content > .main > .content_right
 imagebam.com###cs-link
@@ -70470,7 +70484,7 @@ onlydudes.tv##.b-footer-place
 onlydudes.tv##.b-side-col
 japan-whores.com##.b-sidebar
 rat.xxx##.b-spot
-me-gay.com##.b-uvb-spot
+me-gay.com,redporn.porn##.b-uvb-spot
 buondua.com##.b1a05af5ade94f4004a7f9ca27d9eeffb
 buondua.com##.b2b4677020d78f744449757a8d9e94f28
 pornburst.xxx##.b44nn3rss
@@ -128345,6 +128359,11 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||b-cdn.net/human-verify-system.html$doc
 ||b-cdn.net/verify-captcha-$doc
 ||r2.dev/human-verify-system.html$doc
+||sun123o.space^$doc
+||harmonic-serenity.space^$doc
+||yy8j.com^$doc
+||pt.halhal.click^$doc
+||reductioncarnival.com^$doc
 ||soft-pro.site^$all
 ||apkmirror.co^$all
 ||webogram.org^$all
@@ -130416,6 +130435,7 @@ coursera.org##+js(no-fetch-if, eventing)
 ||rambler.ru/*#rcmrclid=$uritransform=/#rcmrclid=.*//
 ||cmp.*.no^*/metrics/$important
 /^https:\/\/mudah\.my\/[a-zA-Z0-9]{16}\/[a-zA-Z0-9]{16}\?apiKey=/$script,1p,domain=mudah.my
+||youtube.com/redirect?$urlskip=?q
 ||view.mngusr.com^$domain=chapmanganato.to|manganato.com
 ||analytics.strapi.io^
 ||royalroad.com/dist/sentry.js$script
