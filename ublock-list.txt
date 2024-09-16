@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: J8YkJt3jk4fO1d7JI0F2Ag
+! Checksum: NJEx0zjtYIBvxGsoaVswsw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202409161429
-! Last Modified: 2024年09月16日 14:29
+! Version: 202409162041
+! Last Modified: 2024年09月16日 20:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -36548,7 +36548,6 @@ browsershots.org#@#.advert_area
 ||neshigreek.com^
 ||nessainy.net^
 ||nestledmph.com^
-||net.geo.opera.com^
 ||netcatx.com^
 ||netflopin.com^
 ||nethebravero.com^
@@ -52167,7 +52166,6 @@ browsershots.org#@#.advert_area
 ||nan0cns.com^$document
 ||naubatodo.com^$document
 ||nauwheer.net^$document
-||net.geo.opera.com^$document
 ||news-jivera.com^$document
 ||nexaapptwp.top^$document
 ||nightbesties.com^$document
@@ -53806,6 +53804,7 @@ browsershots.org#@#.advert_area
 ||224cc86d.xyz^$document,popup
 ||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^$document,popup
 ||22dd31.xyz^$document,popup
+||23879858.xyz^$document,popup
 ||24052107.live^$document,popup
 ||258104d2.live^$document,popup
 ||285b0b37.xyz^$document,popup
@@ -56344,7 +56343,6 @@ browsershots.org#@#.advert_area
 ||neptuntrack.com^$popup
 ||nereu-gdr.com^$popup
 ||nessainy.net^$popup
-||net.geo.opera.com^$popup
 ||netcpms.com^$popup
 ||netpatas.com^$popup
 ||netund.com^$popup
@@ -63963,6 +63961,7 @@ valetmag.com##.ad-full_span_homepage-container
 valetmag.com##.ad-full_span_section-container
 mobilesyrup.com##.ad-goes-here
 business-standard.com##.ad-height-desktop
+carsauce.com##.ad-holder
 symbl.cc##.ad-incontent-rectangle
 andscape.com##.ad-incontent-wrapper
 dailyuptea.com##.ad-info
@@ -123696,6 +123695,7 @@ imeteo.sk##.page-container__ad-container
 sixsave.com##+js(no-fetch-if, method:HEAD)
 fluttercampus.com##.widget > .card
 fluttercampus.com##div[id^="ezoic-pub-ad-"]
+fluttercampus.com##+js(nosiif, visibility, 1000)
 freebulksmsonline.com##+js(aost, String.prototype.charCodeAt, ai_)
 @@||univers-simu.com^$ghide
 univers-simu.com##.adsbygoogle:style(max-height: 1px !important;)
