@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +Rg2yZMSaT4Q3BhHHU9mGA
+! Checksum: fC5Wy2rGqL3BSLmMc4SZkw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202409181429
-! Last Modified: 2024年09月18日 14:29
+! Version: 202409182039
+! Last Modified: 2024年09月18日 20:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -600,7 +600,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/serve?
 /ads/show.$script
 /ads/slideup.$script
-/ads/spacer.
+/ads/spacer.$image
 /Ads/sponsor.$stylesheet
 /ads/square-$image,domain=~spoolimports.com
 /ads/ta_wppas/*$third-party
@@ -850,7 +850,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /include/ad/*$script
 /includes/ads/*$script
 /index-ad-$stylesheet
-/index-ad.js
+/index-ad.js$script
 /index_ad/*$image
 /index_ads.js$script
 /infinity.js.aspx?
@@ -994,7 +994,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /puff_ad?
 /push/p.js?
 /rad_singlepageapp.js$script
-/RdmAdFeed.js
+/RdmAdFeed.js$script
 /rdrr/renderer.js$third-party
 /RealMedia/ads/*$~xmlhttprequest
 /redirect/?spot_id=
@@ -67531,6 +67531,7 @@ steelersdepot.com##.theiaStickySidebar
 serverhunter.com##.this-html-will-keep-changing-these-ads-dont-hurt-you-advertisement
 gearspace.com##.thread__sidebar-ad-container
 geeksforgeeks.org##.three90RightBarBanner
+nzherald.co.nz##.ticker-banner
 aardvark.co.nz##.tinyprint
 blendernation.com##.title
 cryptocompare.com##.title-hero
@@ -73304,6 +73305,7 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||dscds111.fun^
 ||jy08.shop^
 ||fq06.shop^
 ||qkitery.top^
@@ -89665,7 +89667,7 @@ theporn.cc##.toolbar-gg
 !#torrentkitty
 ###vpnModal.nordvpn-popup
 ##.nordvpn-popup + .sidebar-vpn
-$script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
+$script,third-party,domain=torrentkitty.one|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
 .tor*/js/jquery.bpopup.
 /nordvpn/autoptimize_
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Bt7G2ZJhDzJ5i6C5L2ec2w
+! Checksum: 0grHD+OxRdEBw3dmxliCaA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202409181429
-! Last Modified: 2024年09月18日 14:29
+! Version: 202409182039
+! Last Modified: 2024年09月18日 20:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -262,7 +262,7 @@
 /ads/serve?
 /ads/show.$script
 /ads/slideup.$script
-/ads/spacer.
+/ads/spacer.$image
 /Ads/sponsor.$stylesheet
 /ads/square-$image,domain=~spoolimports.com
 /ads/ta_wppas/*$third-party
@@ -512,7 +512,7 @@
 /include/ad/*$script
 /includes/ads/*$script
 /index-ad-$stylesheet
-/index-ad.js
+/index-ad.js$script
 /index_ad/*$image
 /index_ads.js$script
 /infinity.js.aspx?
@@ -656,7 +656,7 @@
 /puff_ad?
 /push/p.js?
 /rad_singlepageapp.js$script
-/RdmAdFeed.js
+/RdmAdFeed.js$script
 /rdrr/renderer.js$third-party
 /RealMedia/ads/*$~xmlhttprequest
 /redirect/?spot_id=
@@ -67193,6 +67193,7 @@ steelersdepot.com##.theiaStickySidebar
 serverhunter.com##.this-html-will-keep-changing-these-ads-dont-hurt-you-advertisement
 gearspace.com##.thread__sidebar-ad-container
 geeksforgeeks.org##.three90RightBarBanner
+nzherald.co.nz##.ticker-banner
 aardvark.co.nz##.tinyprint
 blendernation.com##.title
 cryptocompare.com##.title-hero
@@ -127905,6 +127906,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||teslacore.io^$doc
 ||btc24.info^$doc
 ||youtube.com/@tesla24official^$doc
+||usmusk.net^$doc
 ||counter-strike2-official.net^$all
 ||primeleech.com^$all
 ||privacyguides.io^$all
@@ -129138,6 +129140,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 /^https:\/\/(?:www\.)?roblox(?:\.com)?\.[a-z]{2}\//$doc,to=roblox.*|~roblox.com
 ||feather-wallet.org^$doc,to=~featherwallet.org
 ||sparrowwallet.net^$doc,to=~sparrowwallet.com
+||electrum.is^$doc,to=~electrum.org
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -129466,6 +129469,7 @@ $removeparam=twclid
 $removeparam=__hsfp
 $removeparam=__hssc
 $removeparam=__hstc
+$removeparam=_hsenc
 $removeparam=hsa_acc
 $removeparam=hsa_ad
 $removeparam=hsa_cam
@@ -129577,6 +129581,7 @@ $removeparam=igshid,domain=instagram.com|threads.net
 ||reddit.com^$removeparam=rdt,doc
 !#endif
 @@||web.archive.org/*/http$removeparam
+@@||urldefense.com^$removeparam
 natgeotv.com##+js(no-xhr-if, /VisitorAPI|AppMeasurement/)
 natgeotv.com##+js(set, Visitor, {})
 ||fichub.com/plugins/adobe/lib/$xhr,domain=natgeotv.com,important
@@ -132084,6 +132089,7 @@ sosovalue.com##+js(set, sensors.track, noopFunc)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=univtec.com,important
 apfeltalk.de#@#.samCodeUnit
 lastampa.it##+js(nostif, googleFC)
+lastampa.it##gdwc-recommendations.is-hidden:style(display: block !important;)
 nytimes.com##[data-testid="connection-toast"]:style(margin-top: 330px !important;)
 digg.com###header-banner
 digg.com##.desktop-wrapper.has-header-banner.mt-32:style(margin-top: 8rem !important;)
