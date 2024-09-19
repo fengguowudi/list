@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8ekYYog99CbOQ5ltodo8jQ
+! Checksum: a9XMbHBvF8ZSMIB0AgPCpA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202409192039
-! Last Modified: 2024年09月19日 20:39
+! Version: 202409200227
+! Last Modified: 2024年09月20日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -39354,6 +39354,7 @@ browsershots.org#@#.advert_area
 ||phumpauk.com^
 ||phupours.com^
 ||phursefter.net^
+||phuthobsee.com^
 ||phuzeeksub.com^
 ||phvhnxebmrzf.com^
 ||phxnkysa.com^
@@ -45140,6 +45141,7 @@ browsershots.org#@#.advert_area
 ||statsforads.com^
 ||statsmobi.com^
 ||staubsuthil.com^
+||staukaul.com^
 ||staumersleep.com^
 ||staunchchivied.top^
 ||staunchgenetwitch.com^
@@ -53858,6 +53860,7 @@ browsershots.org#@#.advert_area
 ||7e809ed7-e553-4e29-acb1-4e3c0e986562.site^$document,popup
 ||7fc8.site^$document,popup
 ||814272c4.xyz^$document,popup
+||83761158.xyz^$document,popup
 ||83887336.xyz^$document,popup
 ||84631949.xyz^$document,popup
 ||88129513.xyz^$document,popup
@@ -56634,6 +56637,7 @@ browsershots.org#@#.advert_area
 ||phosphatepossible.com^$popup
 ||phu1aefue.com^$popup
 ||phumpauk.com^$popup
+||phuthobsee.com^$popup
 ||pickaflick.co^$popup
 ||pierisrapgae.com^$popup
 ||pigletsmunsee.top^$popup
@@ -57277,6 +57281,7 @@ browsershots.org#@#.advert_area
 ||statestockingsconfession.com^$popup
 ||statistic-data.com^$popup
 ||statsmobi.com^$popup
+||staukaul.com^$popup
 ||stawhoph.com^$popup
 ||stellarmingle.store^$popup
 ||stemboastfulrattle.com^$popup
@@ -70155,6 +70160,7 @@ queermenow.net##.sidebar > #text-2
 flyingjizz.com##.sidebar-banner
 pornid.name##.sidebar-holder
 vidxnet.com##.sidebar_banner
+javedit.com##.sidebar_widget
 waybig.com##.sidebar_zing
 taxidrivermovie.com##.sidebarban1
 xxxporntalk.com##.sidenav
@@ -82987,6 +82993,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||j927.statnews.com^
 ||jansatta.com/api/capture/ua
 ||jav4tv.com/player/analytics
+||javedit.com/e/public/ViewClick/
 ||javhd.com/ascripts/gcu.js
 ||javhd.com/rstat
 ||jetbluevacations.com/apis/v2-analytics/
@@ -129166,6 +129173,9 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||feather-wallet.org^$doc,to=~featherwallet.org
 ||sparrowwallet.net^$doc,to=~sparrowwallet.com
 ||electrum.is^$doc,to=~electrum.org
+||tracker.club-os.com^
+||onelink.me/*&af_web_dp=$doc
+||guide-orientation.tn/go_page.php?$doc
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
