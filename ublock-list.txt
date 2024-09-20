@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bkoLWemVmSzlinWtumrRZA
+! Checksum: BgNJsygHYGMVvTr+Wvqq5w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202409200938
-! Last Modified: 2024年09月20日 09:38
+! Version: 202409201428
+! Last Modified: 2024年09月20日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -122317,6 +122317,7 @@ jetpunk.com##.banner-x-outer
 jetpunk.com##.support-beg
 imgur.com##+js(set, ADBLOCKED, false)
 imgur.com,imgur-com.translate.goog##+js(set-cookie, WHITELISTED_CLOSED, 1)
+imgur.com##a[href].Post-item:has(.Post-item-external-ad):style(opacity: 0 !important; cursor: unset !important; pointer-events: none !important;)
 thodkyaat.com##pp
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=comidoc.net
 comidoc.net#@#.googlead
@@ -123215,6 +123216,8 @@ pythonmatplotlibtips.blogspot.com##+js(acs, addEventListener, nextFunction)
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/streams$xhr,domain=10play.com.au
 10play.com.au##+js(m3u-prune, /^https?:\/\/redirector\.googlevideo\.com.*/, /.*m3u8/)
 10play.com.au##+js(json-prune, cuepoints, cuepoints.[].start cuepoints.[].end cuepoints.[].start_float cuepoints.[].end_float)
+@@||pubads.g.doubleclick.net/ondemand/dash/content/*/streams$xhr,domain=10play.com.au
+10play.com.au##+js(xml-prune, Period[id*="-roll-"][id*="-ad-"], , pubads.g.doubleclick.net/ondemand)
 ||sered.net^$3p
 ||grab.tc^$3p
 ||ad-doge.com^$3p
@@ -129704,7 +129707,7 @@ perplexity.ai##+js(aost, window.screen.height, setTimeout)
 ||perplexity.ai/rest/metrics/collect^$xhr,1p,method=post
 nytimes.com##+js(no-fetch-if, api.theathletic.com/graphql body:/PostEvent|PostImpressions/)
 *$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
-*$all,ipaddress=/^::$/,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
+*$all,ipaddress=::,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
