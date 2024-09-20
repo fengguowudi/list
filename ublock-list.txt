@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BgNJsygHYGMVvTr+Wvqq5w
+! Checksum: o2s06Te0EktepsvwOKh26Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202409201428
-! Last Modified: 2024年09月20日 14:28
+! Version: 202409202039
+! Last Modified: 2024年09月20日 20:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -70668,8 +70668,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
 @@||ads.rubiconproject.com/prebid/$script,domain=drudgereport.com|everydayhealth.com
 @@||ads3.xumo.com^$domain=2vnews.com|redbox.com
-@@||adsafeprotected.com/iasPET.$script,domain=independent.co.uk|reuters.com
-@@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com
+@@||adsafeprotected.com/iasPET.$script,domain=independent.co.uk|reuters.com|wjs.com
+@@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com|wjs.com
 @@||adsales.snidigital.com/*/ads-config.min.js$script
 @@||adserver.skiresort-service.com/www/delivery/spcjs.php?$script,domain=skiresort.de|skiresort.fr|skiresort.info|skiresort.it|skiresort.nl
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=jjazz.net
@@ -83162,6 +83162,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||motorsport.com/stat/
 ||mov.t-mobile.com/p/js/1.js
 ||movetv.com/sa-events
+||mp.imgur.com^
 ||mp.theepochtimes.com^
 ||mparticle.weather.com/identity/
 ||mps.nbcuni.com/request/page/json/params/*&adunits=$xmlhttprequest
@@ -83593,7 +83594,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.dailymail.co.uk^
 ||t.deepnote.com^
 ||t.freelancer.com^
-||t.imgur.com^
 ||t.indeed.com^
 ||t.ionos.com^
 ||t.jossandmain.com^
@@ -123870,6 +123870,7 @@ buydekhke.com##+js(aost, String.prototype.charCodeAt, ai_)
 mylinkconverter.com##a[href^="https://go.nordvpn.net/aff"] > img
 asyadrama.com,bitcoinegypt.news,citychilli.com,talkjarvis.com##+js(nostif, css_class.show)
 cardiagn.com,routech.ro##+js(acs, eval, replace)
+@@||cardiagn.com^$script,1p
 privatemoviez.*##+js(aeld, DOMContentLoaded, adsBlocked)
 privatemoviez.*##+js(nostif, magnificPopup)
 routech.ro##+js(nostif, blur)
@@ -124502,6 +124503,8 @@ uploady.io##+js(set, timeleft, 0)
 uploady.io##+js(nowoif)
 uploady.io##+js(noeval-if, replace)
 uploady.io###downloadbtn[style$="z-index: 99999;"]
+uploady.io###dlnk
+uploady.io###iframe_id
 ravenmanga.xyz##+js(acs, addEventListener, onerror)
 ravenmanga.xyz##[href^="https://a-ads.com"]
 ||i.imgur.com/niNoP1F.gif^$3p
@@ -129706,8 +129709,10 @@ vpnmentor.com##+js(cookie-remover, /_alooma/)
 perplexity.ai##+js(aost, window.screen.height, setTimeout)
 ||perplexity.ai/rest/metrics/collect^$xhr,1p,method=post
 nytimes.com##+js(no-fetch-if, api.theathletic.com/graphql body:/PostEvent|PostImpressions/)
+!#if cap_ipaddress
 *$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
 *$all,ipaddress=::,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
+!#endif
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -139208,7 +139213,7 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 19 Sep 2024 09:53:32 GMT
-# entries:        3550
+# entries:        3547
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -139323,7 +139328,6 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 127.0.0.1 ad.dnoticias.pt
 127.0.0.1 ad.domainfactory.de
 127.0.0.1 ad.exyws.org
-127.0.0.1 ad.foxnetworks.com
 127.0.0.1 ad.grafika.cz
 127.0.0.1 ad.gt
 127.0.0.1 ad.hbv.de
@@ -139428,7 +139432,6 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 127.0.0.1 adengage.com
 127.0.0.1 adetracking.com
 127.0.0.1 adeure.com
-127.0.0.1 adexc.net
 127.0.0.1 adexchangegate.com
 127.0.0.1 adexchangeprediction.com
 127.0.0.1 adexpose.com
@@ -139569,6 +139572,7 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 127.0.0.1 ads.adfox.ru
 127.0.0.1 ads.administrator.de
 127.0.0.1 ads.adred.de
+127.0.0.1 ads.adsbtc.fun
 127.0.0.1 ads.adstream.com.ro
 127.0.0.1 ads.adultfriendfinder.com
 127.0.0.1 ads.advance.net
@@ -139658,7 +139662,6 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 127.0.0.1 ads.formit.cz
 127.0.0.1 ads.fortunecity.com
 127.0.0.1 ads.fotosidan.se
-127.0.0.1 ads.foxnetworks.com
 127.0.0.1 ads.friendfinder.com
 127.0.0.1 ads.gamecity.net
 127.0.0.1 ads.gamespyid.com
@@ -142314,7 +142317,6 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 127.0.0.1 t.x.co
 127.0.0.1 taboola.com
 127.0.0.1 tag-demo.mention-me.com
-127.0.0.1 tag.links-analytics.com
 127.0.0.1 tag.mention-me.com
 127.0.0.1 tagcommander.com
 127.0.0.1 tagger.opecloud.com
