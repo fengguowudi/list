@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Po9JzrgLgU26C3kckSMwpg
+! Checksum: fJ/TjYyMPPgu5zQqBIibCQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202409230225
-! Last Modified: 2024年09月23日 02:25
+! Version: 202409230940
+! Last Modified: 2024年09月23日 09:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -139248,8 +139248,8 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Sat, 21 Sep 2024 21:18:08 GMT
-# entries:        3548
+# last updated:   Sun, 22 Sep 2024 22:57:26 GMT
+# entries:        3550
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -140566,6 +140566,7 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 127.0.0.1 click.twcwigs.com
 127.0.0.1 click2freemoney.com
 127.0.0.1 click360v2-ingest.azurewebsites.net
+127.0.0.1 clickadddilla.com
 127.0.0.1 clickadz.com
 127.0.0.1 clickagents.com
 127.0.0.1 clickbank.com
@@ -140769,6 +140770,7 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 127.0.0.1 directtrack.com
 127.0.0.1 discountclick.com
 127.0.0.1 discreetfield.com
+127.0.0.1 displayvertising.com
 127.0.0.1 disqusads.com
 127.0.0.1 dist.belnk.com
 127.0.0.1 distillery.wistia.com
