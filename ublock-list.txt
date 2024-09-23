@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fJ/TjYyMPPgu5zQqBIibCQ
+! Checksum: bmVusuZQks2CiFg1Qcg2Ew
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202409230940
-! Last Modified: 2024年09月23日 09:40
+! Version: 202409232040
+! Last Modified: 2024年09月23日 20:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -61173,6 +61173,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||mafvertizing.crazygames.com^
 ||mail-ads.google.com^
 ||mail.aol.com/d/gemini_api/?adCount=
+||majorgeeks.com/mg/slide/mg-slide.js
 ||manga1000.top/hjshds.js
 ||manga1001.top/gdh/dd.js
 ||manga18.me/usd2023/usd_frontend.js
@@ -65201,6 +65202,8 @@ mothership.sg##.events
 appleinsider.com##.exclusive-wrap
 mashable.com##.exco
 nypost.com##.exco-video__container
+executivegov.com##.execu-target
+executivegov.com##.execu-widget
 metric-conversions.org##.exists
 proprivacy.com##.exit-popup.modal-background
 streamingmedia.com##.expand
@@ -71316,7 +71319,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 !-----------------General tracking systems-----------------!
 &action=js_stats&
 &ev=PageView&
-&event=view&
 &EventType=DataDealImpression&
 &EventType=Impression&
 &hitType=pageview&
@@ -129218,6 +129220,11 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||skysportspro.com^$doc
 /^https:\/\/(?:www\.)?[-a-z0-9]+\.com\.[-a-z0-9]+\.com\//$doc,to=com,ipaddress=148.251.54.196
 /^https:\/\/(?:www\.)?[-a-z0-9]+\.xyz\.[-a-z0-9]+\.com\//$doc,to=com,ipaddress=148.251.54.196
+||belliniepecuniaimmobili.*^$doc,to=belliniepecuniaimmobili.*
+||immobilibelliniepecunia.*^$doc,to=immobilibelliniepecunia.*
+||bpecuniaimmobili.*^$doc,to=bpecuniaimmobili.*
+||belliniepecuniaimmobilisrl.*^$doc,to=belliniepecuniaimmobilisrl.*
+||immobiliarebelliniepecunia.*^$doc,to=immobiliarebelliniepecunia.*
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -132226,6 +132233,7 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 ||trycloudflare.com^$badfilter
 @@||track.adtraction.com/*&url=https://www.gog.com/$popup,domain=gamingonlinux.com|rpgcodex.net
 ||track.adtraction.com/*&url=https://www.gog.com/$urlskip=?url
+gazzetta.gr###comment-section:style(display: block !important;)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
