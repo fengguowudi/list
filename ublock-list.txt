@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Wr74sLgSZusa3bcnDzDJrg
+! Checksum: El/xW2k/oOA9wvMUgXfFvA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202409290226
-! Last Modified: 2024年09月29日 02:26
+! Version: 202409290947
+! Last Modified: 2024年09月29日 09:47
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -121897,7 +121897,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||rest.edit.site/geoip-service/geoip$domain=systemshouse.com
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
-@@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
+@@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com|spirithalloween.com
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
 @@||sc.youmaker.com/site/article/count?
