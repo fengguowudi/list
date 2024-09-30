@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MCyJOwC7Lq7y/Vt+yJzkGw
+! Checksum: 2Wl7iysJKWXlKW7KSKr+Yw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202409300226
-! Last Modified: 2024年09月30日 02:26
+! Version: 202409300944
+! Last Modified: 2024年09月30日 09:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -129415,6 +129415,8 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||immobiliarebelliniepecunia.*^$doc,to=immobiliarebelliniepecunia.*
 ||live-samsaratrucking.com^$all,to=~samsara.com
 ||bit.ly/47P0Nvo$all
+||the-north-face.gr^$all
+||thenorthfacegreece.com^$all
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -129941,6 +129943,8 @@ nytimes.com##+js(no-fetch-if, api.theathletic.com/graphql body:/PostEvent|PostIm
 !#endif
 /^https:\/\/[a-z]\d{3}\.[a-z]+\.com\/script\.js$/$script,1p,strict3p,domain=com,redirect=noopjs
 ||cdn.blueconic.net/hearst.js^$script,3p,redirect=noopjs,domain=bigrapidsnews.com
+||inficourses.com/_next/static/chunks/pages/course/%5Bslug%5D-$1p,script
+||shrinkearn.com/full?*&type=1$urlskip=?url -base64
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
