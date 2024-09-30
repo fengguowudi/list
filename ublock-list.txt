@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2Wl7iysJKWXlKW7KSKr+Yw
+! Checksum: VRY/MnEejVeCJad8A9e3LA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202409300944
-! Last Modified: 2024年09月30日 09:44
+! Version: 202409301430
+! Last Modified: 2024年09月30日 14:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63825,6 +63825,7 @@ interestingengineering.com##.Ad_adContainer__XNCwI
 charlieintel.com,dexerto.com##.Ad_ad__SqDQA
 interestingengineering.com##.Ad_ad__hm0Ut
 newspointapp.com##.Ad_wrapper
+aleteia.org##.Ad_wrapper__B_hxA
 greatandhra.com##.AdinHedare
 jagranjosh.com##.Ads
 coingape.com##.AdsMid
@@ -64726,6 +64727,7 @@ hotnewhiphop.com##.bg-ad-bg-color
 batimes.com.ar##.bg-ads-space
 bgr.com##.bg-black
 whatismyisp.com##.bg-blue-50
+officialcharts.com##.bg-design-hoverGreige
 republicworld.com##.bg-f0f0f0
 amgreatness.com##.bg-gray-200.mx-auto
 kongregate.com##.bg-gray-800.mx-4.p-1
@@ -65025,6 +65027,7 @@ top.gg##.chakra-stack.css-15xujv4
 tlgrm.eu##.channel-card--promoted
 thefastmode.com##.channel_long
 thefastmode.com##.channel_small
+officialcharts.com##.chart-ad
 crn.com##.chartbeat-wrapper
 cheknews.ca##.chek-advertisement-placeholder
 sevenforums.com,tenforums.com##.chill
@@ -128139,6 +128142,12 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||pepzk-community.xyz^$all
 ||earth-ling.org^$doc
 ||pacmoonn.icu^$doc
+||muskevent.info^$doc
+||teslafond.io^$doc
+||teslacore.io^$doc
+||btc24.info^$doc
+||youtube.com/@tesla24official^$doc
+||usmusk.net^$doc
 ||arbitragebot.team^$all
 ||arbitrageinstruction.media^$all
 ||arbitrageproject.blog^$all
@@ -128169,11 +128178,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||uniproject.substack.com^$all
 ||web3projects.substack.com^$all
 ||webpublic.substack.com^$all
-||teslafond.io^$doc
-||teslacore.io^$doc
-||btc24.info^$doc
-||youtube.com/@tesla24official^$doc
-||usmusk.net^$doc
 ||counter-strike2-official.net^$all
 ||primeleech.com^$all
 ||privacyguides.io^$all
@@ -129526,15 +129530,16 @@ loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,i
 loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,economictimes.com,gloria.hr,laleggepertutti.it,missyusa.com,mlbpark.donga.com,motscroises.fr,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,suzusoku.blog.jp,the-crossword-solver.com,wort-suchen.de,woxikon.*,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu##+js(set-local-storage-item, /_fa_Y2FjaGVfYWRibG9ja19jaXJjdW12ZW50X3Njb3Jl$/, $remove$)
 meconomynews.com,brandbrief.co.kr,motorgraph.com,topstarnews.net##+js(noeval-if, /07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/)
 ||html-load.com/loader.min.js^$domain=tvtropes.org
+||html-load.com^$redirect=noopjs,domain=doanhnghiepvn.vn
 !#if cap_html_filtering
 meconomynews.com,brandbrief.co.kr,motorgraph.com##^script:has-text(KCgpPT57bGV0IGU)
 topstarnews.net,islamicfinder.org,secure-signup.net,dramabeans.com,tvtropes.org##^script:has-text(error-report.com)
-aikatu.jp,adintrend.tv,ark-unity.com,cool-style.com.tw,mynet.com##^script[onload*="error-report.com"]
+aikatu.jp,adintrend.tv,ark-unity.com,cool-style.com.tw,doanhnghiepvn.vn,mynet.com##^script[onload*="error-report.com"]
 !#else
 meconomynews.com,brandbrief.co.kr,motorgraph.com##+js(rmnt, script, KCgpPT57bGV0IGU)
 topstarnews.net,islamicfinder.org,secure-signup.net,dramabeans.com,tvtropes.org##+js(rmnt, script, error-report.com)
 ||html-load.com^$redirect=noopjs,domain=aikatu.jp|adintrend.tv|ark-unity.com|cool-style.com.tw|mynet.com
-aikatu.jp,adintrend.tv,ark-unity.com,cool-style.com.tw,mynet.com##+js(nostif, error-report.com)
+aikatu.jp,adintrend.tv,ark-unity.com,cool-style.com.tw,doanhnghiepvn.vn,mynet.com##+js(nostif, error-report.com)
 !#endif
 ||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,redirect=fingerprint2.js,important
 ||g.jwpsrv.com/g/gcid-*?notrack$frame
