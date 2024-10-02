@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ddpvcrblBhtuQ5QyOiPJ7g
+! Checksum: KNgDQcUhGww6wRdjYjDgrg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410021429
-! Last Modified: 2024年10月02日 14:29
+! Version: 202410022041
+! Last Modified: 2024年10月02日 20:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -67446,7 +67446,7 @@ brila.net,cgmagonline.com,cycling.today,gayexpress.co.nz,theyeshivaworld.com##.t
 boxthislap.org,ticgn.com,wtf1.co.uk##.td-footer-wrapper
 91mobiles.com,techyv.com##.td-header-header
 healthyceleb.com##.td-header-header-full
-androidcommunity.com,sfbg.com,techworm.net##.td-header-rec-wrap
+androidcommunity.com,euro-sd.com,sfbg.com,techworm.net##.td-header-rec-wrap
 5pillarsuk.com,babeltechreviews.com,cybersecuritynews.com,sonorannews.com,techviral.net,thestonedsociety.com,weekendspecial.co.za##.td-header-sp-recs
 runnerstribe.com##.td-post-content a[href^="https://tarkine.com/"]
 antiguanewsroom.com,gadgetstouse.com##.td-ss-main-sidebar
@@ -128208,7 +128208,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||thefinanceadvice.com^$all
 ||fralstamp-genglyric.icu^$all
 ||ilil.in^$all
-||ruiukp.top^$all
 ||ets2.gr^$all
 ||chromegoogle.cn^$all
 ||mk90.shop^$all
@@ -128552,6 +128551,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||casadosvidrosmt.com.br/wp-admin/csii/$all,to=~gov.uk
 ||smartaromas.com/income-individual_service_tax-gg-check-hm/$all,to=~gov.uk
 ||insolvency-development.co.uk^$all,to=~gov.uk
+||antai-gouv-fr.troliga.sk^$all,to=~amendes.gouv.fr
 ||mybluehost.me/*/impo/$doc,to=~impots.gouv.fr
 ||isz.bqv.mybluehost.me^$doc,to=~impots.gouv.fr
 ||mybluehost.me/wp-content/12/*.php^$doc,to=~amendes.gouv.fr
@@ -128614,6 +128614,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||ingresocancelacion.wixsite.com^$all,to=~bb.com.mx
 ||wixsite.com/foliobanbajio$doc,to=~bb.com.mx
 ||shahidulislamaurko.com^$all,to=~vr.de
+||www-winbank-lfremhmida*.codeanyapp.com^$doc,to=~dkb.de
+||codeanyapp.com/*/DKB_new/$doc,to=~dkb.de
 /^https:\/\/mbdk\d+\.com\//$doc,to=com|~mbbank.com.vn
 ||mbdk99.com^$all,to=~mbbank.com.vn
 ||bbvaar.zeabur.app^$all,to=~bbva.com
@@ -128935,6 +128937,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||codeanyapp.com/Swissp/$doc,to=~swisspass.ch
 ||suissscomee-correo*.codeanyapp.com^$doc,to=~swisspass.ch
 ||codeanyapp.com/Sus/*/sign.php^$doc,to=~swisspass.ch
+||verwalten-sbb-informationen-managecff-kundenportal-online.codeanyapp.com^$all,to=~swisspass.ch
+||codeanyapp.com/manage-SBB/$doc,to=~swisspass.ch
 ||manage-administrere-swisspass-*.codeanyapp.com^$doc,to=~swisspass.ch
 ||romacsystems.com/*/CHFINAL/$doc,to=~swisspass.ch
 ||secureserver.net/myswisscom$doc,to=~swisscom.ch
@@ -128992,12 +128996,14 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||interface-git-parallel-cypress-uniswap.vercel.app^$doc,to=~uniswap.org
 ||mode-claim.xyz^$doc,to=~mode.network
 ||claim-bool.com^$doc,to=~bool.network
-||secure---sso---robinhood---com-cdn.webflow.io^$doc,to=~robinhood.com
 ||tronlink-walletextension.webflow.io^$all,to=~tronlink.org
 ||tpro-airdrop.pages.dev^$doc,to=~tpro.network
 ||claim-wienerdog.com^$doc,to=~wienerdog.ai
 ||claimable-bankless.com^$all,to=~bankless.com
 ||pepesunchained.net^$doc,to=~pepeunchained.com
+||secure---sso---robinhood---com-cdn.webflow.io^$doc,to=~robinhood.com
+||auth--sso-trust.webflow.io^$all,to=~trustwallet.com
+||sso--en--cobo--trsuted-auth.webflow.io^$all,to=~cobo.com
 ||pepecoinsuper-airdrop.pages.dev^$doc,to=~pepe20.vip
 ||appmemekombatclaim.pages.dev^$doc,to=~memekombat.io
 ||testmyaa.pages.dev^$doc,to=~earndrop.io
@@ -132226,12 +132232,13 @@ help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
 @@||src.litix.io/videojs/$script,domain=nasa.gov
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=moviesandtv.myvi.in
 @@||moviesandtv.myvi.in/videojs/videojs-contrib-ads.min.js$script,domain=moviesandtv.myvi.in
+purepeople.com##+js(rpnt, script, window.gdprAppliesGlobally, '(()=>{window.addEventListener("load",(function(){var intervalId=window.setInterval((function(){let iframe=document.querySelector("iframe.dailymotion-player");if(!iframe)return;const playerItem=document.querySelector("div.player-item[data-video-id]");if(!playerItem)return;iframe.src=iframe.src.replace(".html?",`.html?video=${playerItem.dataset.videoId}&`);clearInterval(intervalId)}),1e3)}))})();window.gdprAppliesGlobally', sedCount, 1)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=dailymotion.com,important
-@@||cdn.lib.getjad.io/library/$script,3p,domain=gry-online.pl|le10sport.com|ozap.com|purepeople.com|vidaextra.com
-@@||cdn.lib.getjad.io/prebid/$script,3p,domain=gry-online.pl|le10sport.com|ozap.com|purepeople.com|vidaextra.com
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,3p,domain=gry-online.pl|le10sport.com|ozap.com|purepeople.com|vidaextra.com
-@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js^$script,3p,domain=gry-online.pl|le10sport.com|ozap.com|purepeople.com|vidaextra.com
-@@||amazon-adsystem.com/*/apstag.js$script,3p,redirect-rule,domain=gry-online.pl|le10sport.com|ozap.com|purepeople.com|vidaextra.com
+@@||cdn.lib.getjad.io/library/$script,3p,domain=gry-online.pl|le10sport.com|ozap.com|vidaextra.com
+@@||cdn.lib.getjad.io/prebid/$script,3p,domain=gry-online.pl|le10sport.com|ozap.com|vidaextra.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,3p,domain=gry-online.pl|le10sport.com|ozap.com|vidaextra.com
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js^$script,3p,domain=gry-online.pl|le10sport.com|ozap.com|vidaextra.com
+@@||amazon-adsystem.com/*/apstag.js$script,3p,redirect-rule,domain=gry-online.pl|le10sport.com|ozap.com|vidaextra.com
 @@||c.amazon-adsystem.com/aax2/apstag.js^$script,3p,domain=gry-online.pl
 @@||vidaextra.com^$ghide
 gry-online.pl,le10sport.com,ozap.com,purepeople.com,vidaextra.com##+js(no-fetch-if, /gampad/ads)
