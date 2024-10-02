@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HFWlrxrap+vQ7DreS3nFhA
+! Checksum: ddpvcrblBhtuQ5QyOiPJ7g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410020940
-! Last Modified: 2024年10月02日 09:40
+! Version: 202410021429
+! Last Modified: 2024年10月02日 14:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -68166,7 +68166,7 @@ tripsonabbeyroad.com##[href^="https://tp.media/"]
 minidl.org##[href^="https://uploadgig.com/premium/index/"]
 wikifeet.com##[href^="https://vip.stakeclick.com/"]
 cracked.io##[href^="https://vshield.com/"]
-thespoken.cc##[href^="https://www.amazon.com/"]
+spectator.org,thespoken.cc##[href^="https://www.amazon.com/"]
 mailshub.in##[href^="https://www.amazon.in/"]
 workhouses.org.uk##[href^="https://www.awin1.com"]
 businessonhome.com##[href^="https://www.binance.com/en/register?ref="]
@@ -69263,6 +69263,7 @@ onlyinyourstate.com###video1-1
 newseveryday.com###vplayer_large
 tvline.com##._video_ti56x_1
 indy100.com##.addressed_cls
+muscleandfitness.com##.ami-video-placeholder
 telegraph.co.uk##.article-betting-unit-container
 sciencetimes.com##.article-videoplayer
 people.com##.article__broad-video
@@ -79928,6 +79929,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jsdelivr.net/gh/sensitiveio/sbtracker@master/
 ||jsdelivr.net/npm/navigator.sendbeacon
 ||jsdelivr.net^*/fp.min.js
+||jsrdn.com/creatives/
 ||jsrdn.com/s/1.js
 ||jst.ai/vck.js
 ||jtracking-gate.lulusoft.com^
@@ -80141,6 +80143,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mmi.bemobile.ua^
 ||mochiads.com/clk/
 ||moco.yukata.dev/get/$image,third-party
+||moderate.cleantalk.org/ct-bot-detector-wrapper.js
 ||modules.ooyala.com^*/analytics-
 ||mon.domdog.io^
 ||monitor-api.blackcrow.ai^
@@ -128224,6 +128227,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||btc24.info^$doc
 ||youtube.com/@tesla24official^$doc
 ||usmusk.net^$doc
+||foundations-x2024.*^$doc,to=foundations-x2024.*
 ||arbitragebot.team^$all
 ||arbitrageinstruction.media^$all
 ||arbitrageproject.blog^$all
