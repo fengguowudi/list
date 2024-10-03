@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2az9kASTYFnGiDg9CGspcw
+! Checksum: 3H6GGXVvHASEOETpKLk3pw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410032040
-! Last Modified: 2024年10月03日 20:40
+! Version: 202410040228
+! Last Modified: 2024年10月04日 02:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -23872,6 +23872,7 @@ browsershots.org#@#.advert_area
 ||daedaelousscri.com^
 ||daejyre.com^
 ||daffaite.com^
+||daffodilnotifyquarterback.com^
 ||daffyfleecy.top^
 ||daggerwantedliterally.com^
 ||dagnurgihjiz.com^
@@ -31083,6 +31084,7 @@ browsershots.org#@#.advert_area
 ||ihgmsdypohtg.com^
 ||ihhqwaurke.com^
 ||ihknbyeaclaxikb.com^
+||ihkybtde.com^
 ||ihnhnpz.com^
 ||ihoolrun.net^
 ||ihqnckvpfx.com^
@@ -36690,6 +36692,7 @@ browsershots.org#@#.advert_area
 ||newbluetrue.xyz^
 ||newbornleasetypes.com^
 ||newbornprayerseagle.com^
+||newcategory.pro^
 ||newdhopr.com^
 ||newdisplayformats.com^
 ||newdomain.center^
@@ -37417,6 +37420,7 @@ browsershots.org#@#.advert_area
 ||o626b32etkg6.com^
 ||o911o.com^
 ||oacaighy.com^
+||oaceewhouceet.net^
 ||oachailo.net^
 ||oackoubs.com^
 ||oackoulimtoo.com^
@@ -41482,6 +41486,7 @@ browsershots.org#@#.advert_area
 ||qtbb6.com^
 ||qtdopwuau.xyz^
 ||qtejflbrrtesvk.com^
+||qtoxhaamntfi.com^
 ||qtuopsqmunzo.com^
 ||qtuxulczymu.com^
 ||qtuzpoopwv.com^
@@ -47603,6 +47608,7 @@ browsershots.org#@#.advert_area
 ||trustedzone.info^
 ||trusteenubian.com^
 ||trustflayer1.online^
+||trusting-offer.com^
 ||trustlearningclearly.com^
 ||trustmaxonline.com^
 ||trustworthyturnstileboyfriend.com^
@@ -49831,6 +49837,7 @@ browsershots.org#@#.advert_area
 ||weethery.com^
 ||weeweesozoned.com^
 ||weewhunoamo.xyz^
+||weezoptez.net^
 ||wefoonsaidoo.com^
 ||wegastroky.com^
 ||wegeeraitsou.xyz^
@@ -58204,6 +58211,7 @@ browsershots.org#@#.advert_area
 ||webteensyusa.com^$popup
 ||webtrackerplus.com^$popup
 ||wecouldle.com^$popup
+||weezoptez.net^$popup
 ||welcomeneat.pro^$popup
 ||welfarefit.com^$popup
 ||weliketofuckstrangers.com^$popup
@@ -69606,7 +69614,7 @@ shopee.sg#?#.shopee-header-section__content:-abp-contains(Ad)
 kogan.com#?#.rs-infinite-scroll > div:-abp-contains(Sponsored)
 kogan.com#?#._2EeeR:-abp-contains(Sponsored)
 kogan.com#?#.slider-slide:-abp-contains(Sponsored)
-euronews.com#?#.m-object:has(.m-object__quote:-abp-contains(/IN PARTNERSHIP WITH|MIT UNTERSTÜTZUNG VON|IN COLLABORAZIONE CON|EN PARTENARIAT AVEC|EN COLABORACIÓN CON|EM PARCERIA COM|СОВМЕСТНО С|ILE BIRLIKTE|EGYÜTTMŰKÖDÉSBEN A|با همکاری|بالمشاركة مع/))
+euronews.com#?#.m-object:has(.m-object__quote:-abp-contains(/In partnership with|En partenariat avec|Mit Unterstützung von|In collaborazione con|En colaboración con|Em parceria com|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|بالمشاركة مع/))
 nordstrom.com#?#ul[style^="padding: 0px; position: relative;"] > li[class]:-abp-contains(Sponsored)
 loblaws.ca#?#[data-testid="product-grid"]>div:-abp-contains(Sponsored)
 semafor.com#?#.suppress-rss:-abp-has(:-abp-contains(Supported by))
@@ -71498,6 +71506,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||jobs.bg/front_job_search.php$~third-party
 @@||js.assemblyexchange.com/videojs-skip-$domain=worldstar.com
 @@||js.assemblyexchange.com/wana.$domain=worldstar.com
+@@||kabumap.com/servlets/kabumap/html/common/img/ad/$~third-party
 @@||kanalfrederikshavn.dk^*/jquery.openx.js?
 @@||kincho.co.jp/cm/img/bnr_ad_$image,~third-party
 @@||ladsp.com/script-sf/$script,domain=str.toyokeizai.net
@@ -124696,14 +124705,16 @@ eplayer.click##+js(aopr, AaDetector)
 ustream.click##+js(acs, RegExp, 'shift')
 ustream.click##^script:has-text('shift')
 ustream.click##^script:has-text(\'shift\')
+1cloudfile.com##+js(no-xhr-if, pagead2.googlesyndication.com)
+1cloudfile.com##+js(rpnt, script, 200===r.status, 0===r.status, condition, getNextDownloadPageLink)
+1cloudfile.com##+js(rpnt, script, return r.responseText, return `a.getAttribute("data-ad-client")||""`, condition, getNextDownloadPageLink)
 1cloudfile.com##+js(nosiif, !display)
 1cloudfile.com##+js(nowoif)
-1cloudfile.com##+js(no-fetch-if, /googlesyndication|nerveheels/)
+1cloudfile.com##+js(no-fetch-if, /nerveheels/)
 1cloudfile.com##+js(acs, navigator, FingerprintJS)
 ||1cloudfile.com/sw.js$script
 1cloudfile.com#@#.advert-wrapper
 1cloudfile.com##.advert-wrapper:style(clip-path: circle(0) !important;)
-1cloudfile.com##.uk-text-center
 1cloudfile.com##.preview-download-wrapper
 1cloudfile.com##.content-preview-wrapper
 ||browsingcontredir.com^
@@ -129573,7 +129584,75 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||the-north-face.gr^$all
 ||thenorthfacegreece.com^$all
 ||forimg.net^$all
-ngsingleissues.nationalgeographic.com##+js(acs, atob, document.currentScript.remove)
+||hobidoch.store^$all
+||heqipop.space^$all
+crimsonav.com,ngsingleissues.nationalgeographic.com##+js(acs, atob, new Function(atob()
+||cdnstatics.net^$all
+/^https:\/\/[a-z]{7,}\.[a-z]{3,}\/get\/\?s=[a-zA-Z0-9]+=*$/$script,3p,to=~edu|~gov,header=speculation-rules:"/cdn-cgi/speculation"
+/^https:\/\/[a-z]{7,}\.[a-z]{3,}\/img\/$/$script,3p,to=~edu|~gov,header=speculation-rules:"/cdn-cgi/speculation"
+||quantunnquest.com^$all
+||analytisgroup.com^$all
+||analytisweb.com^$all
+||bytesbazar.com^$all
+||chartismart.com^$all
+||codecarawan.com^$all
+||creativeslim.com^$all
+||creatls.com^$all
+||cssmagic.shop^$all
+||datifyny.com^$all
+||dealhunt.website^$all
+||desiqnia.shop^$all
+||desynlabtech.com^$all
+||getstylify.com^$all
+||graphiqsw.com^$all
+||happyllfe.online^$all
+||horlzonhub.com^$all
+||javaninja.shop^$all
+||marketiqhub.com^$all
+||marketrom.shop^$all
+||marketsoilmart.com^$all
+||metricsy.shop^$all
+||novastraem.com^$all
+||radlantroots.com^$all
+||sellifypro.com^$all
+||sellwisehub.com^$all
+||statify.online^$all
+||statlstic.shop^$all
+||statspots.com^$all
+||techtnee.com^$all
+||trendgurupro.com^$all
+||trendor.website^$all
+||trendori.shop^$all
+||vizualis.online^$all
+!#if cap_html_filtering
+energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##^div[onmousemove*=".innerHTML"][onmousemove*="String.fromCharCode"]
+!#else
+energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(trusted-replace-argument, String.prototype.includes, 0, undefined, condition, /^checkout$/)
+!#endif
+/^wss:\/\/[^\/]+\.[a-z]{2,}\/(?:common|ws)\?source=http[^&]+$/$websocket,3p,to=~edu|~gov
+||accept.bar^$all
+||amocha.xyz^$all
+||cdn-webstats.com^$all
+||inspectdlet.net^$all
+||clearnetfab.net^$all
+||cloudflare-stat.net^$all
+||fallodick87-78.sbs^$all
+||iconstaff.top^$all
+||jquerypackageus.com^$all
+||jqueryuslibs.com^$all
+||jstatic201.com^$all
+||lererikal.org^$all
+||mamatmavali.ru^$all
+||nothingillegal.bond^$all
+||paie-locli.com^$all
+||sellerstat.site^$all
+||shoponlinemelike.shop^$all
+||statsseo.com^$all
+||statstoday.org^$all
+||vincaolet.xyz^$all
+||webexcelsior.org^$all
+adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forqueen.cz,joinusonline.net,jollibee.com.vn,kitapsan.com.tr,mebelinovdom.com,ojworld.it,qualityrental.com,szaszmotorshop.hu,tvojstyl.sk,up-shop.org,yairalon.com.br##+js(acs, WebSocket, event.data)
+||whyareyouherewho.ru^
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
