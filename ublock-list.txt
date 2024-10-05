@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MMPGBNqkNGJ+AnIU+CFDsQ
+! Checksum: vrdwBs5Q/Z88CwSisC96IQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410050228
-! Last Modified: 2024年10月05日 02:28
+! Version: 202410050939
+! Last Modified: 2024年10月05日 09:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63112,6 +63112,7 @@ comicsheatingup.net###custom_html-5
 colombiareports.com,filmschoolrejects.com,hongkongfp.com,phoneia.com,sarkarideals.com,weatherboy.com###custom_html-6
 medievalists.net###custom_html-7
 theteche.com###custom_html-8
+wsj.com###cx-deloitte-insight
 dailycaller.com###dailycaller_incontent_2
 dailycaller.com###dailycaller_incontent_3
 dailycaller.com###dailycaller_incontent_4
@@ -67890,7 +67891,7 @@ kiryuu.id##.wp-image-465340
 thecricketlounge.com##.wp-image-88221
 weisradio.com##.wp-image-931153
 appuals.com##.wp-timed-p-content
-bevmalta.org,chromoscience.com,conandaily.com,hawaiireporter.com,michaelsavage.com##.wpa
+bevmalta.org,chromoscience.com,conandaily.com,gamersocialclub.ca,hawaiireporter.com,michaelsavage.com##.wpa
 techyv.com##.wpb_raw_code
 premiumtimesng.com##.wpb_raw_code > .wpb_wrapper
 ukutabs.com##.wpb_raw_html
@@ -68971,6 +68972,7 @@ barandbench.com##.ad-wrapper-module__adContainer__iD4aI
 slickdeals.net##.announcementBar:has(.sponsorContent)
 nation.africa##.article-collection-teaser:has(.sponsored-label)
 thesun.co.uk##.article-sidebar .widget-sticky:has([class*="ad_widget"])
+historic-uk.com##.article-sidebar:has-text(Advertisement)
 forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)
 time.com##.article-small-sidebar > .sticky-container:has(div[id^="ad-"])
 blitz.gg##.aside-content-column:has(.display-ad)
@@ -84388,6 +84390,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
 ||event.evtm.53.com^
 ||idstatus.sky.com^
+||img2021.navyfederal.org^
 ||imgs.signifyd.com^
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
 ||olacontent.schwab.com^$script
@@ -121835,8 +121838,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||community.brave.com/t/$xmlhttprequest
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||console.statsig.com/_next/$~third-party
-@@||content.gap.com/fp/check.js$script,domain=oldnavy.gap.com
-@@||content.gap.com/fp/tags.js$script,domain=oldnavy.gap.com
 @@||coremetrics.com*/eluminate.js
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/app-measurement.html$xmlhttprequest
