@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qU0QZnHPQ9vVRCtjkEk++w
+! Checksum: EOKzGKLOsevE8e7svdhilA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410060947
-! Last Modified: 2024年10月06日 09:47
+! Version: 202410061427
+! Last Modified: 2024年10月06日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -64755,7 +64755,7 @@ conservativefiringline.com##.az6l2zz4
 coin360.com##.azJOX6
 coingraph.us,hosty.uprwssp.org##.b
 irishnews.com##.b-ads-block
-bnnbloomberg.ca##.b-ads-custom
+bnnbloomberg.ca,cp24.com##.b-ads-custom
 dailyvoice.com##.b-banner
 ownedcore.com##.b-below-so-content
 informer.com##.b-content-btm > table[style="margin-left: -5px"]
@@ -67880,7 +67880,7 @@ inlandvalleynews.com##.widget_goodlayers-1-1-banner-widget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 gizmodo.com##.widget_keleops-ad
 theiphoneappreview.com##.widget_links
-247media.com.ng,appleworld.today,athleticsillustrated.com,businessaccountingbasics.co.uk,circuitbasics.com,closerweekly.com,coincodecap.com,cozyberries.com,crickhabari.com,dbknews.com,deshdoaba.com,developer-tech.com,foreverconscious.com,glitched.online,globalgovernancenews.com,granitegrok.com,intouchweekly.com,jharkhandmirror.net,kashmirreader.com,kkfm.com,levittownnow.com,lifeandstylemag.com,londonnewsonline.co.uk,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,ognsc.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,pstribune.com,raspians.com,robinhoodnews.com,rok.guide,rsbnetwork.com,showbiz411.com,spokesman-recorder.com,sportsspectrum.com,stacyknows.com,supertotobet90.com,thecatholictravelguide.com,thedefensepost.com,theoverclocker.com,therainbowtimesmass.com,thethaiger.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
+247media.com.ng,appleworld.today,athleticsillustrated.com,businessaccountingbasics.co.uk,circuitbasics.com,closerweekly.com,coincodecap.com,cozyberries.com,crickhabari.com,dbknews.com,deshdoaba.com,developer-tech.com,foreverconscious.com,glitched.online,globalgovernancenews.com,granitegrok.com,intouchweekly.com,jharkhandmirror.net,kashmirreader.com,kkfm.com,levittownnow.com,lifeandstylemag.com,londonnewsonline.co.uk,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,ognsc.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,pstribune.com,raspians.com,robinhoodnews.com,rok.guide,rsbnetwork.com,showbiz411.com,spokesman-recorder.com,sportsspectrum.com,stacyknows.com,supertotobet90.com,teksyndicate.com,thecatholictravelguide.com,thedefensepost.com,theoverclocker.com,therainbowtimesmass.com,thethaiger.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
 palestinechronicle.com##.widget_media_image > a[href^="https://www.amazon.com/"]
 cracked-games.org##.widget_metaslider_widget
 washingtoncitypaper.com##.widget_newspack-ads-widget
@@ -69497,6 +69497,7 @@ yahoo.com##.viewer-sda-container
 yahoo.com##[data-content="Advertisement"]
 mail.yahoo.com##[data-test-id="gam-iframe"]
 mail.yahoo.com##[data-test-id^="pencil-ad"]
+mail.yahoo.com##[data-test-id^="taboola-ad-"]
 yahoo.com##[data-wf-beacons]
 finance.yahoo.com##[id^="defaultLREC"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
@@ -123498,6 +123499,11 @@ tekfiz.com##ins.adsbygoogle
 files.fm##+js(aopr, canRunAds)
 ||cdn.flashtalking.com^$media,redirect=noopmp3-0.1s,domain=app.plex.tv
 app.plex.tv##+js(json-prune, MediaContainer.Metadata.[].Ad)
+!#if env_firefox
+imasdk.googleapis.com##+js(no-xhr-if, vod.provider.plex.tv/ad?, war:noop-vast3.xml)
+!#else
+||vod.provider.plex.tv/ad?$xhr,redirect=noopvast-3.0
+!#endif
 ||neonime.*/wp-content/themes/grifus/images/donate/yunita/
 discoveryplus.in##+js(no-fetch-if, ads)
 ||appnext.hs.llnwd.net^
@@ -132320,12 +132326,6 @@ kcra.com,wcvb.com##+js(set, google.ima.settings.setDisableFlashAds, noopFunc)
 @@||ads.pubmatic.com/AdServer/js/pwt/*/pwt.js$script,domain=wionews.com
 wionews.com##^link[rel="canonical"]:not([href^="https://www.wionews.com/videos/"]) ~ script#pwt_script
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*$script,domain=moviepilot.de
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=filmstarts.de
-@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=filmstarts.de
-@@||securepubads.g.doubleclick.net/gampad/ads$xhr,domain=filmstarts.de
-@@||cdn.lib.getjad.io/library/*$script,domain=filmstarts.de
-@@||cdn.lib.getjad.io/prebid/*$script,domain=filmstarts.de
-@@||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js:5,domain=filmstarts.de
 @@||hs.eloqua.com^$frame,domain=anthology.com
 @@||mindbodygreen.com/ads-leaderboard-ad-$script,domain=www.mindbodygreen.com
 @@||cjisonline.com^$permissions=browsing-topics=()
@@ -132477,7 +132477,7 @@ lumens.com##+js(set, _satellite.track, noopFunc)
 @@||npttech.com/advertising.js$domain=independent.co.uk
 ||inmobi.com^$badfilter
 @@||twinkie.xyz/cdn-cgi/apps/$script,1p
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js,domain=atv.at|autobild.de|chip.de|computerbild.de|gentside.de|oe24.at|ohmymag.de|phonostar.de|schwaebische.de|spielaffe.de|sport.sky.de|wetteronline.de
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js,domain=atv.at|autobild.de|chip.de|computerbild.de|gentside.de|kibagames.com|oe24.at|ohmymag.de|phonostar.de|schwaebische.de|spielaffe.de|sport.sky.de|wetteronline.de
 ||jsrdn.com^$badfilter
 @@||geo.dailymotion.com^$cname
 ||munchkin.marketo.net/munchkin.js$script,important,redirect=noop.js,domain=st.com
@@ -132753,6 +132753,10 @@ eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 @@||track.adtraction.com/*&url=https://www.gog.com/$popup,domain=gamingonlinux.com|rpgcodex.net
 ||track.adtraction.com/*&url=https://www.gog.com/$urlskip=?url
 gazzetta.gr###comment-section:style(display: block !important;)
+||mparticle.com/js/v2/*/mparticle.js$script,domain=nbcsports.com,important
+nbcsports.com##+js(set, mParticle.Identity.getCurrentUser, noopFunc)
+||api.omappapi.com/v3/geolocate/json$domain=seclore.com,important
+seclore.com##+js(trusted-set, _omapp.scripts.geolocation, '{"value": {"status":"loaded","object":null,"data":{"country":{"shortName":"","longName":""},"administrative_area_level_1":{"shortName":"","longName":""},"administrative_area_level_2":{"shortName":"","longName":""},"locality":{"shortName":"","longName":""},"original":{"ip":"","ip_decimal":null,"country":"","country_eu":false,"country_iso":"","city":"","latitude":null,"longitude":null,"user_agent":{"product":"","version":"","comment":"","raw_value":""},"zip_code":"","time_zone":""}},"error":""}}')
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
