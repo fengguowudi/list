@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EOKzGKLOsevE8e7svdhilA
+! Checksum: UHTLPEhut0sT/95wW6YBKA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410061427
-! Last Modified: 2024年10月06日 14:27
+! Version: 202410062037
+! Last Modified: 2024年10月06日 20:37
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -64161,9 +64161,6 @@ tumblr.com##.Yc2Sp
 desmoinesregister.com##.ZJBvMP__ZJBvMP
 getpocket.com##.\'syndication-ad\'
 olympics.com##.\-partners
-androidauthority.com##._--_-___0b
-androidauthority.com##._--_-___Sb
-androidauthority.com##._--_-___Yb
 freepik.com##._1286nb18b
 freepik.com##._1286nb1rx
 swarajyamag.com##._1eNH8
@@ -65152,6 +65149,8 @@ techonthenet.com##.c79ee2c9
 sussexexpress.co.uk##.cIffkq
 filepuma.com##.cRight_footer
 fmforums.com##.cWidgetContainer
+androidauthority.com##.c_Sb
+androidauthority.com##.c_kh
 digg.com,money.com##.ca-pcu-inline
 digg.com##.ca-widget-wrapper
 engadget.com##.caas-da
@@ -69175,7 +69174,6 @@ outlook.live.com##div:has(> div > div.fbAdLink)
 tripadvisor.com##div:has(> div > div[class="ui_column ovNFo is-3"])
 tripadvisor.com##div:has(> div[class="ui_columns is-multiline "])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
-androidauthority.com##div:not([class]) > div[class^="_--_-___"]:has(> div[data-ad-type="leaderboard_atf"])
 webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
 shoprite.com##div[class*="Row--"]:has(img[src*="/PROMOTED-TAG_"])
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
@@ -139781,8 +139779,8 @@ seclore.com##+js(trusted-set, _omapp.scripts.geolocation, '{"value": {"status":"
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 25 Sep 2024 14:12:10 GMT
-# entries:        3539
+# last updated:   Sun, 06 Oct 2024 12:00:27 GMT
+# entries:        3541
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -141886,6 +141884,7 @@ seclore.com##+js(trusted-set, _omapp.scripts.geolocation, '{"value": {"status":"
 127.0.0.1 linkvertise.com
 127.0.0.1 liquidad.narrowcastmedia.com
 127.0.0.1 litix.io
+127.0.0.1 live.trmzum.com
 127.0.0.1 liveadexchanger.com
 127.0.0.1 liveintent.com
 127.0.0.1 livelylaugh.com
@@ -141935,6 +141934,7 @@ seclore.com##+js(trusted-set, _omapp.scripts.geolocation, '{"value": {"status":"
 127.0.0.1 madvertise.de
 127.0.0.1 magicadz.co
 127.0.0.1 magicaljoin.com
+127.0.0.1 magsrv.com
 127.0.0.1 mail-ads.google.com
 127.0.0.1 maltiverse.lt.acemlnc.com
 127.0.0.1 manageadv.cblogs.eu
