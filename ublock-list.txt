@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 362L6GkPuXq4Jq9cVpN52g
+! Checksum: jaRCZ2onAz4m+5mS4w7Jsg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410070944
-! Last Modified: 2024年10月07日 09:44
+! Version: 202410071430
+! Last Modified: 2024年10月07日 14:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62855,6 +62855,7 @@ all-nettools.com,britsabroad.com,filesharingtalk.com,kiwibiker.co.nz,printroot.c
 myevreview.com###ad_main_bottom
 myevreview.com###ad_main_middle
 free-icon-rainbow.com###ad_responsive
+hulkshare.com###ad_user_banner_2
 coinarbitragebot.com###adathm
 offidocs.com###adbottomoffidocs
 canadianlisted.com###adcsacl
@@ -68410,6 +68411,7 @@ eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
 cript.to##a.btn[target="_blank"][href^="https://cript.to/"]
 infowars.com##a.css-1yw960t
 darkreader.org##a.logo-link[target="_blank"]
+hulkshare.com##a.nhsIndexPromoteBlock
 steam.design##a.profile_video[href^="https://duobot.com/"]
 marinelink.com##a.sponsored
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[ajaxify*="&eid="] + a[href^="https://l.facebook.com/l.php?u="]
@@ -69429,6 +69431,7 @@ hiphopdx.com##.video-player
 bolavip.com##.video-player-placeholder
 benzinga.com##.video-player-wrapper
 thepinknews.com##.video-player__container
+dpreview.com##.videoWrapper
 consequence.net##.video_container
 bigthink.com##.wrapper-connatixElements
 bigthink.com##.wrapper-connatixPlayspace
@@ -82707,12 +82710,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ab-machine.forbes.com^
 ||ab.chatgpt.com/v1/rgstr
 ||ab.fanatical.com^
-||abcnews.com/assets/dtci/js/abcnews_visitorId.js
-||abcnews.com/assets/dtci/js/at.js
-||abebooks.com/timer.gif?
 ||about.me/track?
 ||abysscdn.com/cdn-cgi/trace
-||academia.edu/record_hit
+||academia.edu/record_hit?
 ||acast.com/api/stats
 ||accor.com/g/collect?
 ||accuterm.com/data/stat.js
@@ -82787,7 +82787,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-zone-1.api.leadfamly.com^
 ||analytics.3c5.com^
 ||analytics.academy.com^
-||analytics.adfreetime.com^
 ||analytics.archive.org^
 ||analytics.brave.com^
 ||analytics.chase.com^
@@ -82852,7 +82851,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||armedangels.com/javascript/script.js
 ||arttrk.com/pixel/
 ||as.coinbase.com/metrics
-||atrack.allposters.com^
+||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||ats.alot.com^
 ||audacy.com/data-events/
 ||aulart.com/wp-admin/admin-ajax.php?data_send=pageView
@@ -83384,7 +83383,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ibtimes.com/front/js/counter.js
 ||icgp.ie/overview/js/tracker.php
 ||idiva.com/analytics_
-||iedc.fitbit.com^
 ||iguazu.doordash.com^
 ||ih.newegg.com^
 ||iheart.com/api/v3/playback/reporting
@@ -83727,7 +83725,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.clutter.com^
 ||pixel.convertize.io^
 ||pixel.facebook.com^
-||pixel.honestjohn.co.uk^
 ||pixel.ionos.com^
 ||pixel.nine.com.au^
 ||pixel.tuko.co.ke^
@@ -84084,7 +84081,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tc.geniusmonkey.com^
 ||tccd.douglas.
 ||td.airdroid.com^
-||ted.dailymail.co.uk^
 ||telegraph.prd.api.max.com^
 ||telem.sre.gopuff.com^
 ||telemetry.adobe.io^
@@ -84310,7 +84306,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wiztube.xyz/cdn-cgi/trace
 ||wnyc.org/analytics/
 ||wolfram.com/common/javascript/analytics.js
-||wolfram.com/common/javascript/wal/
+||wolfram.com/common/javascript/wal/latest/walLoad.js
 ||wondershare.com/trk
 ||worldremit.com/web-cms/api/metric
 ||wsj.com/cookies/pixel.gif
@@ -130279,6 +130275,10 @@ nytimes.com##+js(no-fetch-if, api.theathletic.com/graphql body:/PostEvent|PostIm
 ||shrinkearn.com/full?*&type=1$urlskip=?url -base64
 blog.cloudflare.com##+js(no-fetch-if, method:POST body:zaraz)
 ||s.yimg.com/ss/analytics
+yahoo.com,~mail.yahoo.com##+js(set-attr, img.caas-lazy[data-src]:not([src]), src, [data-src])
+yahoo.com,~mail.yahoo.com##.caas-img-container.caas-img-loader .caas-img:style(opacity: 1 !important;)
+yahoo.com,~mail.yahoo.com##.caas-img-container.caas-img-loader:style(background-color: transparent !important;)
+yahoo.com,~mail.yahoo.com##.caas-img-container.caas-img-loader::after:style(background: unset !important;)
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -130339,6 +130339,8 @@ study.com##+js(no-xhr-if, /eventLog.ajax)
 loom.com##+js(no-fetch-if, loom.com/insights-api/graphql)
 @@||awstrack.me/*auth.coindesk.com$doc,popup
 @@||awstrack.me/*cmd=ac-inactive-restore$doc,popup
+@@||track.adtraction.com/*&url=https://www.gog.com/$popup,domain=gamingonlinux.com|isthereanydeal.com|rpgcodex.net
+||track.adtraction.com/*&url=https://www.gog.com/$urlskip=?url
 ||2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=video.foxnews.com
 ||cdn.krxd.net^$script,redirect=noopjs,domain=video.foxnews.com
 @@||akamaihd.net/player/*/akamai/amp/prebid/*$script,domain=static.foxnews.com
@@ -132645,7 +132647,6 @@ optimum.net##+js(set, s.tl, noopFunc)
 ||js-agent.newrelic.com^$3p
 emailnator.com##[style^="width: 15px; height: 15px; overflow: scroll; visibility: hidden; color: rgb(calc(var(--x2)"]
 mediaite.com##+js(set-cookie, am-sub, 1)
-@@||track.adtraction.com/*www.gog.com$popup,3p,domain=isthereanydeal.com
 @@||netshoes.com.br/webanalytics/*$xhr,1p
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=tabii.com,redirect=google-ima.js
 ||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=tabii.com,redirect=noopjs
@@ -132678,8 +132679,8 @@ user.guancha.cn##+js(set, sensors.init, noopFunc)
 ||imasdk.googleapis.com/pal/sdkloader/pal.js^$script,3p,redirect=noopjs,domain=fox5sandiego.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect=google-ima.js,domain=kraloyun.com
 flygbussarna.se##+js(no-fetch-if, /piwik-)
-@@||www.*/esm/assets/js/analytics/gaAnalytics.js?v=$xhr,1p,strict1p,method=get,domain=com|org
-@@||www.*/esm/assets/js/analytics/chartbeat.js?v=$xhr,1p,strict1p,method=get,domain=com|org
+@@||www.realclear*/esm/assets/js/analytics/gaAnalytics.js?v=$xhr,1p,strict1p,method=get,domain=com|org
+@@||www.realclear*/esm/assets/js/analytics/chartbeat.js?v=$xhr,1p,strict1p,method=get,domain=com|org
 ||maps.arcgis.com/apps/instant/lookup/app/utilites/telemetry/appmeasurement.js$1p,redirect=noopjs,important
 jprime.jp##+js(trusted-rpnt, script, var ISMLIB, !function(){const o={apply:(o\,n\,r)=>(new Error).stack.includes("refreshad")?0:Reflect.apply(o\,n\,r)};window.Math.floor=new Proxy(window.Math.floor\,o)}();var ISMLIB)
 @@||js.datadome.co/tags.js$script,domain=account.samsung.com
@@ -132747,14 +132748,16 @@ topgear.com##+js(set, _sp_.config.events.onSPPMObjectReady, noopFunc)
 @@||worldsurfleague.com/js/videojs8/nuevo/plugins/videojs-contrib-ads.min.js^$script,1p
 @@||micro.rubiconproject.com/prebid/dynamic/$script,domain=worldsurfleague.com
 @@||securepubads.g.doubleclick.net/pagead/ima_ppub_config$xhr,domain=worldsurfleague.com
+!#if env_firefox
+imasdk.googleapis.com##+js(no-xhr-if, worldsurfleague.com, war:noop-vmap1.0.xml)
+!#else
 ||pubads.g.doubleclick.net/gampad/ads?*www.worldsurfleague.com$xhr,redirect=noop-vmap1.0.xml:5,domain=imasdk.googleapis.com
+!#endif
 eservice.directauto.com##+js(set, gtm, {})
 eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 ||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$script,redirect=google-ima.js,domain=mais.sbt.com.br,important
 ||wpfc.ml^$image,redirect=1x1.gif,domain=ht-instruments.de
 ||trycloudflare.com^$badfilter
-@@||track.adtraction.com/*&url=https://www.gog.com/$popup,domain=gamingonlinux.com|rpgcodex.net
-||track.adtraction.com/*&url=https://www.gog.com/$urlskip=?url
 gazzetta.gr###comment-section:style(display: block !important;)
 ||mparticle.com/js/v2/*/mparticle.js$script,domain=nbcsports.com,important
 nbcsports.com##+js(set, mParticle.Identity.getCurrentUser, noopFunc)
