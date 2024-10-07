@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5IOSQfLNNGNevc5DtuT4jw
+! Checksum: 362L6GkPuXq4Jq9cVpN52g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410070225
-! Last Modified: 2024年10月07日 02:25
+! Version: 202410070944
+! Last Modified: 2024年10月07日 09:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -64828,7 +64828,7 @@ historydaily.org,israelnationalnews.com,news12.com,pwinsider.com,spaceref.com,us
 wpneon.com##.banner-week
 news.net##.banner-wr
 admonsters.com##.banner-wrap
-primewire.link##.banner-wrapper
+benzinga.com,primewire.link##.banner-wrapper
 depositfiles.com,dfiles.eu##.banner1
 gsprating.com##.banner2
 coinalpha.app##.bannerAdv
@@ -66558,7 +66558,7 @@ mail.google.com##.nH.PS
 cryptobriefing.com##.na-item.item
 nanoreview.net##.nad_only_desktop
 nextdoor.com##.nas-container
-imsa.com,nascar.com##.nascar-ad-container
+imsa.com,jayski.com,nascar.com##.nascar-ad-container
 zerohedge.com##.native
 old.reddit.com##.native-ad-container
 allthatsinteresting.com##.native-box
@@ -67716,6 +67716,7 @@ todayonline.com##.tw-flex-shrink-2
 drivencarguide.co.nz##.tw-min-h-\[18\.75rem\]
 karnalguide.com##.two_third > .push20
 tripadvisor.at,tripadvisor.be,tripadvisor.ca,tripadvisor.ch,tripadvisor.cl,tripadvisor.cn,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.il,tripadvisor.co.kr,tripadvisor.co.nz,tripadvisor.co.uk,tripadvisor.co.za,tripadvisor.com,tripadvisor.com.ar,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.eg,tripadvisor.com.gr,tripadvisor.com.hk,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.pe,tripadvisor.com.ph,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.com.ve,tripadvisor.com.vn,tripadvisor.de,tripadvisor.dk,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.pt,tripadvisor.ru,tripadvisor.se##.txxUo
+geekwire.com##.type-sponsor_post.teaser
 theroar.com.au##.u-d-block
 patriotnationpress.com##.u8s470ovl
 tumblr.com##.uOyjG
@@ -69350,6 +69351,7 @@ ginx.tv###ginx-floatingvod-containerspacer
 gunsandammo.com###inline-player
 pubs.rsc.org###journal-info > .text--centered
 forums.whathifi.com###jwplayer-container-div
+express.co.uk###mantis-recommender-top-placeholder
 ispreview.co.uk###mobile-takeover-slot-8
 express.co.uk###ovp-primis
 blackamericaweb.com,bossip.com,cassiuslife.com,charlieintel.com,dexerto.com,hiphopwired.com,madamenoire.com,newsone.com,tvone.tv###player-wrapper
@@ -76987,7 +76989,6 @@ omni.soundestlink.com$image
 ||salesviewer.org^$third-party
 ||san-spr-01.net^$third-party
 ||sapha.com^$third-party
-||sardine.ai^$third-party
 ||sas15k01.com^$third-party
 ||say.ac^$third-party
 ||sayutracking.co.uk^$third-party
@@ -79096,6 +79097,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.collarity.com/cws/*http
 ||api.country.is^$third-party
 ||api.iris.tv/update
+||api.sardine.ai/assets/loader.min.js
 ||api.wipmania.com^
 ||apibaza.com/pixel/
 ||apm-engine.meteor.com^$third-party,xmlhttprequest
