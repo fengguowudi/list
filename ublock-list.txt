@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i+JFFx8eeHtQOWMYXx1huw
+! Checksum: WVtSXIvCNZ5Uh5k7MX+OCQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410082039
-! Last Modified: 2024年10月08日 20:39
+! Version: 202410090228
+! Last Modified: 2024年10月09日 02:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -25013,6 +25013,7 @@ browsershots.org#@#.advert_area
 ||doctoryoungster.com^
 ||documentaryextraction.com^
 ||documentaryselfless.com^
+||dodaihoptu.xyz^
 ||dodgefondness.com^
 ||dodgyvertical.com^
 ||dodouhoa.com^
@@ -33312,6 +33313,7 @@ browsershots.org#@#.advert_area
 ||knownwarn.com^
 ||knowsdcollet.com^
 ||knprbbye.com^
+||kntodvofiyjjl.xyz^
 ||knudsenunmast.top^
 ||knutenegros.pro^
 ||knwsyddyx.com^
@@ -33493,6 +33495,7 @@ browsershots.org#@#.advert_area
 ||kuwhetsa.net^
 ||kuwoucaxoad.com^
 ||kuxatsiw.net^
+||kuxfsgwjkfu.com^
 ||kuyncvkntfke.com^
 ||kvaaa.com^
 ||kvahvault.top^
@@ -37416,6 +37419,7 @@ browsershots.org#@#.advert_area
 ||nxbxxnpb.com^
 ||nxdcyhmwxlqc.com^
 ||nxexydg.com^
+||nxgzeejhs.com^
 ||nxhnaibu.com^
 ||nxikijn.com^
 ||nxiqvhhm.com^
@@ -41399,6 +41403,7 @@ browsershots.org#@#.advert_area
 ||qianaecrus.top^
 ||qiaoxz.xyz^
 ||qibkkioqqw.com^
+||qibqiwczoojw.com^
 ||qickazzmoaxv.com^
 ||qidmhohammat.com^
 ||qifxwiruhrr.com^
@@ -43437,6 +43442,7 @@ browsershots.org#@#.advert_area
 ||saimiripullman.shop^
 ||saintselfish.com^
 ||saipeevit.net^
+||saiphoogloobo.net^
 ||saipsoan.net^
 ||saiwecee.com^
 ||saiwhute.com^
@@ -44414,6 +44420,7 @@ browsershots.org#@#.advert_area
 ||sidewalkcrazinesscleaning.com^
 ||sidewayfrosty.com^
 ||sidewaysuccession.com^
+||sidsaignoo.net^
 ||sierradissolved.com^
 ||sierrasectormacaroni.com^
 ||sieveallegeministry.com^
@@ -46855,6 +46862,7 @@ browsershots.org#@#.advert_area
 ||thoorteeboo.xyz^
 ||thootsoumsoa.com^
 ||thoralephebea.top^
+||thordoodovoo.net^
 ||thornfloatingbazaar.com^
 ||thornrancorouspeerless.com^
 ||thoroughfarefeudalfaster.com^
@@ -50054,6 +50062,7 @@ browsershots.org#@#.advert_area
 ||whechypheshu.com^
 ||wheebsadree.com^
 ||wheedran.com^
+||wheegaulrie.net^
 ||wheeksir.net^
 ||wheel-of-fortune-prod.com^
 ||wheelbarrowbenignity.com^
@@ -51139,6 +51148,7 @@ browsershots.org#@#.advert_area
 ||xvvclhrrpgiln.com^
 ||xvvsnnciengskyx.xyz^
 ||xvwqdrwiyi.com^
+||xvzyyzix.com^
 ||xwagtyhujov.com^
 ||xwazafkzej.com^
 ||xwcfvvnegv.com^
@@ -57233,6 +57243,7 @@ browsershots.org#@#.advert_area
 ||psaugourtauy.com^$popup
 ||psauwaun.com^$popup
 ||psefteeque.com^$popup
+||psilaurgi.net^$popup
 ||psma02.com^$popup
 ||psockapa.net^$popup
 ||psotudev.com^$popup
@@ -59176,6 +59187,7 @@ browsershots.org#@#.advert_area
 ||1846032945.rsc.cdn77.org^
 ||1881574171.rsc.cdn77.org^
 ||1wnurc.com^
+||1xlite-016702.top^
 ||26216.stunserver.net/a8.js
 ||360playvid.com^$third-party
 ||360playvid.info^$third-party
@@ -60662,6 +60674,7 @@ browsershots.org#@#.advert_area
 ||123-stream.org^$popup
 ||1wnurc.com^$popup
 ||1x001.com^$popup
+||1xlite-016702.top^$popup
 ||6angebot.ch^$popup,third-party
 ||a1087.b.akamai.net^$popup
 ||ad.22betpartners.com^$popup
@@ -130335,14 +130348,6 @@ nytimes.com##+js(no-fetch-if, api.theathletic.com/graphql body:/PostEvent|PostIm
 ||inficourses.com/_next/static/chunks/pages/course/%5Bslug%5D-$1p,script
 ||shrinkearn.com/full?*&type=1$urlskip=?url -base64
 blog.cloudflare.com##+js(no-fetch-if, method:POST body:zaraz)
-||s.yimg.com/ss/analytics
-yahoo.com,~mail.yahoo.com##+js(set-attr, img.caas-lazy[data-src]:not([src]), src, [data-src])
-yahoo.com,~mail.yahoo.com##.caas-img-container.caas-img-loader .caas-img:style(opacity: 1 !important;)
-yahoo.com,~mail.yahoo.com##.caas-img-container.caas-img-loader:style(background-color: transparent !important;)
-yahoo.com,~mail.yahoo.com##.caas-img-container.caas-img-loader::after:style(background: unset !important;)
-yahoo.com,~mail.yahoo.com##+js(set, rapidInstance, {})
-yahoo.com,~mail.yahoo.com##+js(set, rapidInstance.beaconLinkViews, noopFunc)
-yahoo.com,~mail.yahoo.com##+js(set, rapidInstance.beaconClick, noopFunc)
 ||gitbook.com/v1/integrations/googleanalytics/
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
@@ -132830,6 +132835,11 @@ unionpayintl.com##+js(set, sensorsDataAnalytic201505, {})
 unionpayintl.com##+js(set, sensorsDataAnalytic201505.quick, noopFunc)
 ||qds.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,1p,redirect=noopjs,important
 ||qds.it^$script,1p,redirect-rule=noopjs
+standard.co.uk##+js(set, JSGlobals.prebidEnabled, false)
+standard.co.uk##+js(nano-stb, [native code], 3000, 0.001)
+standard.co.uk##+js(nano-stb, 'i||(e(),i=!0)', 2500, 0.001)
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=cnnbrasil.com.br,redirect=google-ima.js,important
+@@||wurfl.io/wurfl.js$script,domain=cram.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
