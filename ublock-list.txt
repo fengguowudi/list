@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 50WI45fvMH3FAAaQ7fRNBw
+! Checksum: nlwWG5jnwU58Thmf5MmvLw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410090940
-! Last Modified: 2024年10月09日 09:40
+! Version: 202410091430
+! Last Modified: 2024年10月09日 14:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -129557,7 +129557,16 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||grahurgum.com^$all
 ||liverun0.com^$all
 ||ephemeral9.com^$all
+||hocklahro.ru^$all
+||tinjudish.ru^$all
 ||arciansi.su^$all
+/^https:\/\/[a-z0-9]{50,}\.[a-z0-9]{4,11}\.com\/[a-zA-Z0-9]{50,}$/$xhr,3p,method=get,to=com|~google.com|~microsoft.com,from=com|ru|su
+/^https:\/\/[a-z0-9]{50,}\.[a-z0-9]{4,11}\.ru\/[a-zA-Z0-9]{50,}$/$xhr,3p,method=get,to=ru,from=com|ru|su
+/^https:\/\/[a-z0-9]{50,}\.[a-z0-9]{4,11}\.su\/[a-zA-Z0-9]{50,}$/$xhr,3p,method=get,to=su,from=com|ru|su
+/^https:\/\/[^.]+\.favoripirlanta\.com\//$doc,to=favoripirlanta.com
+||amernamproa.com^$all
+||tivorica.su^$all
+||xylentura.su^$all
 ||puttyconnect.info^$all
 ||astrosphere.world^$all
 ||marketplace-item-*.000.pe^$doc
@@ -130362,6 +130371,7 @@ nytimes.com##+js(no-fetch-if, api.theathletic.com/graphql body:/PostEvent|PostIm
 ||inficourses.com/_next/static/chunks/pages/course/%5Bslug%5D-$1p,script
 ||shrinkearn.com/full?*&type=1$urlskip=?url -base64
 blog.cloudflare.com##+js(no-fetch-if, method:POST body:zaraz)
+||udc.yahoo.com^
 ||gitbook.com/v1/integrations/googleanalytics/
 !#if env_firefox
 forum.blu-ray.com##a[href][onclick*="this.href"]:remove-attr(/^on(?:click|contextmenu|mouseover)$/)
@@ -130426,6 +130436,8 @@ timesofindia.indiatimes.com##+js(no-fetch-if, tvid.in/log/)
 duolingo.com##+js(no-xhr-if, excess.duolingo.com/batch)
 study.com##+js(no-xhr-if, /eventLog.ajax)
 loom.com##+js(no-fetch-if, loom.com/insights-api/graphql)
+wayfair.com##+js(no-xhr-if, t.wayfair.com)
+wayfair.com##+js(set, navigator.sendBeacon, noopFunc)
 @@||awstrack.me/*auth.coindesk.com$doc,popup
 @@||awstrack.me/*cmd=ac-inactive-restore$doc,popup
 @@||track.adtraction.com/*&url=https://www.gog.com/$popup,domain=gamingonlinux.com|isthereanydeal.com|rpgcodex.net
