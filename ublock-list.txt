@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nlwWG5jnwU58Thmf5MmvLw
+! Checksum: aDoqYyfDEPesQHwIPElurQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410091430
-! Last Modified: 2024年10月09日 14:30
+! Version: 202410092040
+! Last Modified: 2024年10月09日 20:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -122362,6 +122362,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||outbrainimg.com^$third-party,domain=computerbild.de|fitbook.de|metal-hammer.de|rollingstone.de|stylebook.de
+@@||pruefernavi.de/vendor/elasticsearch/elastic-apm-rum.umd.min.js$~third-party
 @@||rackcdn.com/stf.js$script,domain=20min.ch
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
@@ -129563,7 +129564,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 /^https:\/\/[a-z0-9]{50,}\.[a-z0-9]{4,11}\.com\/[a-zA-Z0-9]{50,}$/$xhr,3p,method=get,to=com|~google.com|~microsoft.com,from=com|ru|su
 /^https:\/\/[a-z0-9]{50,}\.[a-z0-9]{4,11}\.ru\/[a-zA-Z0-9]{50,}$/$xhr,3p,method=get,to=ru,from=com|ru|su
 /^https:\/\/[a-z0-9]{50,}\.[a-z0-9]{4,11}\.su\/[a-zA-Z0-9]{50,}$/$xhr,3p,method=get,to=su,from=com|ru|su
-/^https:\/\/[^.]+\.favoripirlanta\.com\//$doc,to=favoripirlanta.com
+|https://*.favoripirlanta.com^$doc
 ||amernamproa.com^$all
 ||tivorica.su^$all
 ||xylentura.su^$all
@@ -129840,6 +129841,10 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||comodozeropoint.com^$all,to=~comodo.com
 ||avatrade-services.com^$all,to=~avatrade.com
 ||ailurophilestealer.shop^$all
+##html#html[sti][vic][lang] > body#allbody
+/\/m\/js(?:drive|nom|sp|v)\.js\b/$script,1p,strict1p
+/\/n\/js(?:drive|nom|sp|v)\.js\b/$script,1p,strict1p
+/\/o\/js(?:drive|nom|sp|v)\.js\b/$script,1p,strict1p
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -130370,7 +130375,8 @@ nytimes.com##+js(no-fetch-if, api.theathletic.com/graphql body:/PostEvent|PostIm
 ||cdn.blueconic.net/hearst.js^$script,3p,redirect=noopjs,domain=bigrapidsnews.com
 ||inficourses.com/_next/static/chunks/pages/course/%5Bslug%5D-$1p,script
 ||shrinkearn.com/full?*&type=1$urlskip=?url -base64
-blog.cloudflare.com##+js(no-fetch-if, method:POST body:zaraz)
+blog.cloudflare.com,www.cloudflare.com##+js(no-fetch-if, method:POST body:zaraz)
+||radar.cloudflare.com/api/analytics
 ||udc.yahoo.com^
 ||gitbook.com/v1/integrations/googleanalytics/
 !#if env_firefox
@@ -130436,7 +130442,7 @@ timesofindia.indiatimes.com##+js(no-fetch-if, tvid.in/log/)
 duolingo.com##+js(no-xhr-if, excess.duolingo.com/batch)
 study.com##+js(no-xhr-if, /eventLog.ajax)
 loom.com##+js(no-fetch-if, loom.com/insights-api/graphql)
-wayfair.com##+js(no-xhr-if, t.wayfair.com)
+wayfair.com##+js(no-xhr-if, t.wayfair.com/b.php?)
 wayfair.com##+js(set, navigator.sendBeacon, noopFunc)
 @@||awstrack.me/*auth.coindesk.com$doc,popup
 @@||awstrack.me/*cmd=ac-inactive-restore$doc,popup
@@ -132871,6 +132877,9 @@ standard.co.uk##+js(nano-stb, [native code], 3000, 0.001)
 standard.co.uk##+js(nano-stb, 'i||(e(),i=!0)', 2500, 0.001)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=cnnbrasil.com.br,redirect=google-ima.js,important
 @@||wurfl.io/wurfl.js$script,domain=cram.com
+||pruefernavi.de/vendor/elasticsearch/elastic-apm-rum.umd.min.js$1p,important
+pruefernavi.de##+js(set, elasticApm, {})
+pruefernavi.de##+js(set, elasticApm.init, noopFunc)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
