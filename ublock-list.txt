@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qZqezrYIZg31Ly64pDH7lg
+! Checksum: u7ct6nHNFum+I3AM9IxbLg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410111429
-! Last Modified: 2024年10月11日 14:29
+! Version: 202410112040
+! Last Modified: 2024年10月11日 20:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24223,6 +24223,7 @@ browsershots.org#@#.advert_area
 ||differpurifymustard.com^
 ||differsassassin.com^
 ||differsprosperityprotector.com^
+||diffhobbet.click^
 ||difficultydilapidationsodium.com^
 ||difficultyearliestclerk.com^
 ||difficultyefforlessefforlessthump.com^
@@ -29002,6 +29003,7 @@ browsershots.org#@#.advert_area
 ||guitarfelicityraw.com^
 ||gujakqludcuk.com^
 ||gulfimply.com^
+||gullahbaraca.com^
 ||gullible-hope.com^
 ||gullible-lawyer.pro^
 ||gullibleanimated.com^
@@ -34044,6 +34046,7 @@ browsershots.org#@#.advert_area
 ||makingnude.com^
 ||malay.buzz^
 ||maldini.xyz^
+||malduckcompile.com^
 ||maleliteral.com^
 ||malelocated.com^
 ||malignantbriefcaseleading.com^
@@ -39673,6 +39676,7 @@ browsershots.org#@#.advert_area
 ||psugkfqmys.com^
 ||psumainy.xyz^
 ||psungaum.com^
+||psunseewhu.com^
 ||psuphuns.net^
 ||psurdoak.com^
 ||psurigrabi.com^
@@ -40086,6 +40090,7 @@ browsershots.org#@#.advert_area
 ||pzoynkxexnx.com^
 ||pzqfmhy.com^
 ||pztpygaul.com^
+||pzvai.site^
 ||pzwdtz.com^
 ||pzwigrnuimeh.com^
 ||q1-tdsge.com^
@@ -44577,6 +44582,7 @@ browsershots.org#@#.advert_area
 ||supposerevenue.com^
 ||suppressedanalogyrain.com^
 ||suppressedbottlesenjoyable.com
+||supqajfecgjv.com^
 ||supremeden.com^
 ||supremeoutcome.com^
 ||supremepresumptuous.com^
@@ -53123,6 +53129,7 @@ browsershots.org#@#.advert_area
 ||adzerk.net^$popup
 ||adzshield.info^$popup
 ||aeeg5idiuenbi7erger.com^$popup
+||aeelookithdifyf.com^$popup
 ||afcpatrk.com^$popup
 ||aferpush.com^$popup
 ||aff-handler.com^$popup
@@ -58610,6 +58617,7 @@ browsershots.org#@#.advert_area
 ||d2vwl2vhlatm2f.cloudfront.net^
 ||d2vwsmst56j4zq.cloudfront.net^
 ||d2w92zbcg4cwxr.cloudfront.net^
+||d2w9cdu84xc4eq.cloudfront.net^
 ||d2werg7o2mztut.cloudfront.net^
 ||d2wexw25ezayh1.cloudfront.net^
 ||d2wpx0eqgykz4q.cloudfront.net^
@@ -66469,6 +66477,7 @@ cmswire.com##[class^="styles_ad-block"]
 cmswire.com##[class^="styles_article__text-ad"]
 cmswire.com##[class^="styles_article__top-ad-wrapper"]
 hancinema.net##[class^="wmls_"]
+enostech.com##[class^="wp-image-41"]
 torlock.com##[class^="wrn"]
 mydramalist.com##[class^="zrsx_"]
 newspointapp.com##[ctn-style]
@@ -67468,6 +67477,7 @@ gpro.net##.boxy:has(#blockblockA)
 slickdeals.net##.bp-p-filterGrid_item:has(.bp-c-label--promoted)
 homedepot.com##.browse-search__pod:has([id^="plp_pod_sponsored"])
 bws.com.au##.card-list-item:has(.productTile.is-Sponsored)
+truecar.com##.card:has([href*="marketplace&sponsored"])
 doordash.com##.carousel-virtual-wrapper:has([href*="collection_type=sponsored_brand"])
 doordash.com##.ccdtLs:has([data-testid="sponsored:Sponsored"])
 asda.com##.cms-modules:has([data-module*="Sponsored Products"])
@@ -79080,6 +79090,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rltd.io/tags/
 ||roadster.com/roadster_dealer_analytics
 ||rodale.com/ga/
+||roomvo.com/services/event/
 ||route.com/collect
 ||routeapp.io/route-analytics/
 ||rs.sinajs.cn^
@@ -81110,6 +81121,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statistics.daktilo.com^
 ||stats.vidyome.com^
 ||traffic.wdc.center^
+||web.tv/analytics/
 ||informers.sinoptik.ua^
 ||top.zp.ua/counter/
 ||tracker.multisearch.io^
@@ -130469,7 +130481,8 @@ gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 @@||google.com/adsense/search/ads.js$script,domain=diigo.com
 ||join.megaphonetv.com^$3p,badfilter
 @@||video.qq.com/getvinfo$script,1p
-||arcgis.com/apps/instant/node_modules/templates-common-library/structuralFunctionality/telemetry/AppMeasurement.js$script,1p,redirect-rule=noopjs
+||arcgis.com/apps/instant/node_modules/templates-common-library/structuralFunctionality/telemetry/AppMeasurement.js^$script,1p,redirect=noopjs
+||noaa.maps.arcgis.com/apps/instant/*/AppMeasurement.js$1p,important
 /google-tag-manager.min.js$script,domain=511tactical.com,redirect-rule=googletagmanager_gtm.js
 @@||herz-fuer-tiere.de^$cname
 @@||wikipedia.org/api/rest*$xhr,1p
@@ -138064,6 +138077,24 @@ pruefernavi.de##+js(set, elasticApm.init, noopFunc)
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||666hh999gg.com^
+||776.jstatic.xyz^
+||kmqianneng66.com^
+||cg-pao-tu.nanyanglk.com^
+||cos1999.top^
+||cosmo202.top^
+||d24fnxkxwarvg8.cloudfront.net^
+||files.xtpag.top^
+||img.175532.com^
+||img.911787.com^
+||img.qxwoiv.com^
+||tu0379199038.cc^
+||n55ylc001.vip^
+||tu5551976196.cc^
+||dpjzr.top^
+||n55cpw.vip^
+||xpjcg.oss-accelerate.aliyuncs.com^
+||qxwoiv.com^
 ||krbulhb.com^
 ||wl.uqwjdhgv.top^
 ||mm.wxc.cc^
@@ -138271,7 +138302,7 @@ pruefernavi.de##+js(set, elasticApm.init, noopFunc)
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Sun, 06 Oct 2024 12:00:27 GMT
-# entries:        3541
+# entries:        3548
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -139481,6 +139512,7 @@ pruefernavi.de##+js(set, elasticApm.init, noopFunc)
 127.0.0.1 calypsocapsule.com
 127.0.0.1 campaign.bharatmatrimony.com
 127.0.0.1 caniamedia.com
+127.0.0.1 capablecows.com
 127.0.0.1 capriciouscorn.com
 127.0.0.1 captainbicycle.com
 127.0.0.1 carambo.la
@@ -139651,6 +139683,7 @@ pruefernavi.de##+js(set, elasticApm.init, noopFunc)
 127.0.0.1 comparereaction.com
 127.0.0.1 compiledoctor.com
 127.0.0.1 comprabanner.it
+127.0.0.1 concernedchange.com
 127.0.0.1 conditionchange.com
 127.0.0.1 conductrics.com
 127.0.0.1 connatix.com
@@ -139730,6 +139763,7 @@ pruefernavi.de##+js(set, elasticApm.init, noopFunc)
 127.0.0.1 customad.cnn.com
 127.0.0.1 customads.co
 127.0.0.1 customers.kameleoon.com
+127.0.0.1 cutcurrent.com
 127.0.0.1 cutechin.com
 127.0.0.1 cxense.com
 127.0.0.1 cyberbounty.com
@@ -140853,6 +140887,7 @@ pruefernavi.de##+js(set, elasticApm.init, noopFunc)
 127.0.0.1 premium-offers.com
 127.0.0.1 presetrabbits.com
 127.0.0.1 previousplayground.com
+127.0.0.1 previouspotato.com
 127.0.0.1 prf.hn
 127.0.0.1 priceypies.com
 127.0.0.1 pricklydebt.com
@@ -140928,6 +140963,7 @@ pruefernavi.de##+js(set, elasticApm.init, noopFunc)
 127.0.0.1 ql.tc
 127.0.0.1 qnsr.com
 127.0.0.1 qrlsx.com
+127.0.0.1 quacksquirrel.com
 127.0.0.1 quaintcan.com
 127.0.0.1 quantcast.com
 127.0.0.1 quantcount.com
@@ -141101,6 +141137,7 @@ pruefernavi.de##+js(set, elasticApm.init, noopFunc)
 127.0.0.1 scaredswing.com
 127.0.0.1 scarfsmash.com
 127.0.0.1 scatteredheat.com
+127.0.0.1 scatteredquiver.com
 127.0.0.1 scintillatingscissors.com
 127.0.0.1 scintillatingsilver.com
 127.0.0.1 scissorsstatement.com
@@ -141244,7 +141281,6 @@ pruefernavi.de##+js(set, elasticApm.init, noopFunc)
 127.0.0.1 sponsorads.de
 127.0.0.1 sponsorpro.de
 127.0.0.1 spookysleet.com
-127.0.0.1 spot.fitness.com
 127.0.0.1 spotlessstamp.com
 127.0.0.1 spotscenered.info
 127.0.0.1 spotx.tv
@@ -141310,6 +141346,7 @@ pruefernavi.de##+js(set, elasticApm.init, noopFunc)
 127.0.0.1 steadfastsystem.com
 127.0.0.1 steelhouse.com
 127.0.0.1 steelhousemedia.com
+127.0.0.1 steepscale.com
 127.0.0.1 stickyadstv.com
 127.0.0.1 stiffgame.com
 127.0.0.1 stimulatingsneeze.com
@@ -141673,6 +141710,7 @@ pruefernavi.de##+js(set, elasticApm.init, noopFunc)
 127.0.0.1 vivtracking.com
 127.0.0.1 vmmpxl.com
 127.0.0.1 voicefive.com
+127.0.0.1 voicelessvein.com
 127.0.0.1 volatilevessel.com
 127.0.0.1 voluum.com
 127.0.0.1 voluumtrk2.com
