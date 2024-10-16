@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BgENIlwXc5aspX5VCyR71A
+! Checksum: v7yRnlezuRfJkkGARxUchw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410161429
-! Last Modified: 2024年10月16日 14:29
+! Version: 202410162041
+! Last Modified: 2024年10月16日 20:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -61789,7 +61789,7 @@ streetdirectory.com###splash_screen_overlay
 downloads.codefi.re###spo
 downloads.codefi.re###spo2
 firmwarefile.com###spon
-slitaz.org###sponsor
+cssbattle.dev,slitaz.org###sponsor
 meteocentrale.ch###sponsor-info
 nordstrom.com###sponsored-carousel-sponsored-carousel
 newsfirst.lk###sponsored-content-1
@@ -73119,6 +73119,7 @@ omni.soundestlink.com$image
 ||nimbleswan.io^
 ||nmgassets.com^
 ||nmgplatform.com^
+||nmo-ep.nl^
 ||notifpush.com^
 ||ns1p.net^
 ||nxakpj4ac8gkd53.info^
@@ -128427,6 +128428,11 @@ forum.blu-ray.com##+js(ra, onclick|oncontextmenu|onmouseover, a[href][onclick*="
 ||gog.com/productcard/users/activity/log
 ||onual.com/*^link_t=$doc,uritransform=/#[^\/?]+//
 onual.com##+js(href-sanitizer, a.btn[href^="https://zxro.com/u/?url=http"], ?url)
+*$removeparam=ocid,document,domain=msn.com
+*$removeparam=pc,document,domain=msn.com
+*$removeparam=cvid,document,domain=msn.com
+*$removeparam=ei,document,domain=msn.com
+*$removeparam=vid,document,domain=msn.com
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
