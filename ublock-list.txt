@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6r55hbSfFLzOvyjoOhHLhA
+! Checksum: 8WVgVji8K9dLM55E2Yy7+Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410170941
-! Last Modified: 2024年10月17日 09:41
+! Version: 202410171429
+! Last Modified: 2024年10月17日 14:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -67106,7 +67106,7 @@ douglas.*##.swiper-slide:has(button[data-testid="sponsored-button"])
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 laredoute.*###hp-sponsored-banner
 lazada.*##.pdp-block__product-ads
-pinterest.*##[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"])
+pinterest.*##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 pricespy.*##.AdPlacementMarginTop-sc-0-3
 pricespy.*##.AdPlacementMarginTop-sc-15ga2eg-3
 pricespy.*##.AdPlacementWrapper-sc-0-3
@@ -123446,7 +123446,6 @@ boainformacao.com.br##+js(no-xhr-if, adsbygoogle)
 pinterest.*##a[href*="&epik="]:upward([data-grid-item])
 !pinterest.*##[data-grid-item]:has([aria-label]:not([aria-label*="pinterest"])[href^="http"])
 !#if !env_mobile
-pinterest.*##[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"])
 !#else
 pinterest.*##[data-grid-item]:has([data-test-pin-id] a[href^="http"][rel] [data-test-id="pincard-oneTap-with-link"])
 !#endif
@@ -130987,6 +130986,7 @@ pruefernavi.de##+js(set, elasticApm.init, noopFunc)
 steamidfinder.com###nn_bfa_wrapper + .container:style(margin-top: 50px !important;)
 !#endif
 steamidfinder.com##.section-advert-banner--top:remove()
+@@||segmentify.com^$domain=puma.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
