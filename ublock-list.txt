@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: u3DwvR9Zz5mcdxTsyF5/TA
+! Checksum: SSgidvyxzXhPY2wA4dIAzg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410181429
-! Last Modified: 2024年10月18日 14:29
+! Version: 202410182040
+! Last Modified: 2024年10月18日 20:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63243,6 +63243,7 @@ bbc.com##li[class*="-ListItem"]:has(div.dotcom-ad)
 yandex.com##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.com##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 yahoo.com##li[class="first"]:has([data-ylk*="affiliate_link"])
+zillow.com##li[class^="ListItem-"]:has(#nav-ad-container)
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:-abp-contains(Ad)
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
@@ -69788,7 +69789,6 @@ omni.soundestlink.com$image
 ||dcmn.com^$third-party
 ||ddm.io^$third-party
 ||deadlinefunnel.com^$third-party
-||debugbear.com^$third-party
 ||decdna.net^$third-party
 ||decibelinsight.net^$third-party
 ||decideinteractive.com^$third-party
@@ -73328,6 +73328,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn-channels-pixel.ex.co^
 ||cdn-ds.com/analytics/
 ||cdn.clkmc.com/cmc.js
+||cdn.debugbear.com^$third-party
 ||cdn.one.store/xdomain_cookie.html
 ||cdn.ravm.tv^
 ||cdn.sourcesync.io/open-pixel/source-pixel.js
@@ -73579,6 +73580,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dash.getsitecontrol.com^
 ||dashboard.nowdialogue.com/api/events/
 ||data.circulate.com^
+||data.debugbear.com^$third-party
 ||data.digitalks.az^
 ||data.eetech.com^
 ||data.embeddables.com^
@@ -123818,6 +123820,10 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 /human-captcha-v*.html^$doc
 /captcha-verify-v*.html^$doc
 /verify-captcha-v*.html^$doc
+||rustdesk.co.nz^$doc
+||rustdesk.io^$doc
+||rustdesk.pl^$doc
+||rustdesk.secure-box.de^$doc
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -133926,7 +133932,7 @@ steamidfinder.com##.section-advert-banner--top:remove()
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Sun, 06 Oct 2024 12:00:27 GMT
-# entries:        3548
+# entries:        3545
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -134068,7 +134074,6 @@ steamidfinder.com##.section-advert-banner--top:remove()
 127.0.0.1 ad.profiwin.de
 127.0.0.1 ad.prv.pl
 127.0.0.1 ad.reachlocal.com
-127.0.0.1 ad.simflight.com
 127.0.0.1 ad.simgames.net
 127.0.0.1 ad.style
 127.0.0.1 ad.tapthislink.com
@@ -134118,7 +134123,6 @@ steamidfinder.com##.section-advert-banner--top:remove()
 127.0.0.1 adbroker.de
 127.0.0.1 adbunker.com
 127.0.0.1 adbutler.com
-127.0.0.1 adbuyer.com
 127.0.0.1 adbuyer3.lycos.com
 127.0.0.1 adcampo.com
 127.0.0.1 adcannyads.com
@@ -135300,7 +135304,6 @@ steamidfinder.com##.section-advert-banner--top:remove()
 127.0.0.1 collector.cdp.cnn.com
 127.0.0.1 colonize.com
 127.0.0.1 comfortablecheese.com
-127.0.0.1 commindo-media-ressourcen.de
 127.0.0.1 commissionmonster.com
 127.0.0.1 communications.melitaltd.com
 127.0.0.1 compactbanner.com
