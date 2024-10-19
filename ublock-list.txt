@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HC8bUaqf31NErMaqMeq88A
+! Checksum: sQaAUE3RHNjLcGFA21mdhw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410190939
-! Last Modified: 2024年10月19日 09:39
+! Version: 202410191427
+! Last Modified: 2024年10月19日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -126991,6 +126991,8 @@ steamidfinder.com###nn_bfa_wrapper + .container:style(margin-top: 50px !importan
 !#endif
 steamidfinder.com##.section-advert-banner--top:remove()
 @@||segmentify.com^$domain=puma.com
+spotifydown.com#@#.semi-transparent
+spotifydown.com##.semi-transparent:has(ins.adsbygoogle[data-ad-slot])
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
