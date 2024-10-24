@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TA+rlVl7+ACa9ftjyaDJJQ
+! Checksum: SJ4JClwBTTRcBnbI5MHmvQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410240941
-! Last Modified: 2024年10月24日 09:41
+! Version: 202410241430
+! Last Modified: 2024年10月24日 14:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18564,6 +18564,7 @@ browsershots.org#@#.advert_area
 ||ascensionunfinished.com^
 ||ascentflabbysketch.com^
 ||ascentloinconvenience.com^
+||ascentsboni.com^
 ||ascertainedthetongs.com^
 ||ascertainintend.com^
 ||ascraftan.com^
@@ -26283,6 +26284,7 @@ browsershots.org#@#.advert_area
 ||freelancebeheld.com^
 ||freelancepicketpeople.com^
 ||freelancerarity.com^
+||freepopnews.skin^
 ||freesoftwarelive.com^
 ||freestar.io^
 ||freetrckr.com^
@@ -29725,6 +29727,7 @@ browsershots.org#@#.advert_area
 ||izjzkye.com^
 ||izlok.xyz^
 ||izlutev.com^
+||izoaghiwoft.net^
 ||izrnvo.com^
 ||izzzlfrzmwtter.com^
 ||j45.webringporn.com^
@@ -32630,6 +32633,7 @@ browsershots.org#@#.advert_area
 ||mittenheatdied.com^
 ||miuo.cloud^
 ||miveci.uno^
+||mivibsegnuhaub.xyz^
 ||miwllmo.com^
 ||mixandfun.com^
 ||mixclckchat.net^
@@ -42067,6 +42071,7 @@ browsershots.org#@#.advert_area
 ||throwsceases.com^
 ||thrtle.com^
 ||thrustlumpypulse.com^
+||thsantmirza.shop^
 ||thterras.com^
 ||thuangreith.shop^
 ||thubanoa.com^
@@ -42293,6 +42298,7 @@ browsershots.org#@#.advert_area
 ||toffeeallergythrill.com^
 ||toffeebigot.com^
 ||toffeecollationsdogcollar.com^
+||toffiesoxgall.com^
 ||toftheca.buzz^
 ||togenron.com^
 ||togetherballroom.com^
@@ -55928,6 +55934,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||sedo.cachefly.net^$domain=~sedoparking.com
 ||segmentnext.com/LhfdY3JSwVQ8.js
 ||sermonaudio.com/images/sponsors/
+||sfgate.com/juiceExport/production/sfgate.com/loadAds.js
 ||sgtreport.com/wp-content/uploads/*Banner
 ||sharecast.ws/cum.js
 ||sharecast.ws/fufu.js
@@ -60330,6 +60337,7 @@ exchangerates.org.uk##.imt4
 reuters.com##.in-article-desktop-connatix-player
 carscoops.com##.in-asd-content
 thecanary.co##.in-content-ad
+thepostmillennial.com##.in-content-top
 outlookindia.com##.in-house-banner1
 businessinsider.com,insider.com##.in-post-sticky
 faithpot.com##.inarticle-ad
@@ -66888,6 +66896,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /ezais/analytics?
 /ezytrack.js
 /f.gif?
+/facebook-pixel-worker.js
+/facebook-pixel.js
 /facebook/pixel.js
 /facebook_fbevents.js
 /facebook_pixel_3_1_2.js
@@ -73450,6 +73460,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appliedsemantics.com/images/x.gif
 ||applovin.com/shopify/*/pixel
 ||appmifile.com/webfile/globalweb/stat/
+||apps.omegatheme.com/facebook-pixel/
 ||appsolutions.com/hitme?$third-party
 ||appspot.com/analytics/
 ||appspot.com/api/track/
@@ -74267,6 +74278,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hit.mybestpro.com^
 ||hits.dealer.com^
 ||hits.getelevar.com^
+||hits.gokwik.co^
 ||hits.informer.com^
 ||hktracker.hankookilbo.com^
 ||hm.baidu.com^$third-party
@@ -74888,6 +74900,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.fbot.me/track/
 ||publicbroadcasting.net/analytics/
+||pulse.shopflo.com^
 ||purevideo.com^*/pvshim.gif?
 ||pushly.com/pushly-event-tracker
 ||pushpro.io/api/logging/
@@ -75109,6 +75122,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squarecdn.com/square-marketplace-js/chunk-analytics-vendors.js
 ||squarecdn.com/square-marketplace-js/chunk-analytics.js
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
+||src.freshmarketer.in^
 ||srvmath.com^*/analytics.js
 ||ssa.stepstone.com^
 ||ssc.shopstyle.com/collective.min.js
@@ -75714,6 +75728,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yimg.com/ss/vops.js
 ||yimg.com/wi/ytc.js
 ||yoast-schema-graph.com^$third-party
+||yotpo.com/widget-assets/yotpo-pixel/
 ||yottaa.com/rapid.min.js
 ||yottaa.net/log-jh
 ||zapcdn.space/zapret.js
@@ -77161,6 +77176,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.tomato.gg^
 ||analytics.tradedoubler.com^
 ||analytics.vedantu.com^
+||analytics.vortexscans.com^
 ||analytics.wavebox.io^
 ||analytics.yugen.to^
 ||analyticsapi.qogita.com^
@@ -124414,6 +124430,8 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||howl.me/link?url=http$doc,urlskip=?url
 ||shopping.yahoo.com/rdlw*^gcReferrer=http$doc,urlskip=?gcReferrer
 ||go.redirectingat.com/*^url=http$doc,urlskip=?url
+||track.flexlinks.com/a.ashx*^url=http$doc,urlskip=?url
+/t/*^url=http$doc,urlskip=?url,to=gopjn.com|pjatr.com|pjtra.com|pntra.com|pntrac.com|pntrs.com
 html.duckduckgo.com,lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
 androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.com/wp-json/api/advanced_redirect?ref="], ?ref)
 ||androidauthority.com/api/locate/
@@ -124451,11 +124469,10 @@ justwatch.com##+js(href-sanitizer, 'a:is([href^="https://click.justwatch.com/"],
 justwatch.com##+js(href-sanitizer, 'a:is([href^="https://click.justwatch.com/"],[href^="https://d.justwatch.com/"])[href*="r=http"][href*=".pxf.io"]', ?r?u)
 variety.com##+js(href-sanitizer, a[href^="https://clicks.trx-hub.com/"][href*="bn5x.net"], ?q?u)
 otherweb.com##+js(href-sanitizer, a[href^="https://cc.mashable.com/v1/"][href*="url=http"], ?url)
-streetinsider.com##+js(href-sanitizer, a[href^="https://c212.net/c/link/?"][href*="u=http"], ?u)
 engadget.com##+js(href-sanitizer, a[href^="https://shopping.yahoo.com/rdlw?"][href*="gcReferrer=http"], ?gcReferrer)
 cnet.com##+js(set, Object.prototype.updateModifiedCommerceUrl, noopFunc)
 cnet.com##+js(href-sanitizer, 'a[href*="url=http"]:is([href^="https://shop-links.co/link/?url=http"],[href^="https://www.kqzyfj.com/click-"])', ?url)
-cnet.com,sheknows.com##+js(href-sanitizer, 'a[href*="&u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"])', ?u)
+cnet.com,sheknows.com,streetinsider.com##+js(href-sanitizer, 'a[href*="&u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"])', ?u)
 ||cdn.digg.com/fragments/homepage/static/view-frontpage.js
 /detroitchicago/dpv.gif?$image
 /detroitchicago/imp.gif$ping
