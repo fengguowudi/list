@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SJ4JClwBTTRcBnbI5MHmvQ
+! Checksum: LFGz3HQzCaGVdRo9WBLvVQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410241430
-! Last Modified: 2024年10月24日 14:30
+! Version: 202410242041
+! Last Modified: 2024年10月24日 20:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -2611,7 +2611,6 @@ _800x80_
 ###adcontainer5
 ###adcontainerRight
 ###adcontainer_ad_content_top
-###adcontent
 ###adcontent1
 ###adcontent2
 ###adcontextlinks
@@ -48536,6 +48535,7 @@ browsershots.org#@#.advert_area
 ||7608d5.xyz^$document,popup
 ||77886044.xyz^$document,popup
 ||7841ffda.xyz^$document,popup
+||78847798.xyz^$document,popup
 ||78b78ff8.xyz^$document,popup
 ||79180284.xyz^$document,popup
 ||7ca989e1.xyz^$document,popup
@@ -62489,6 +62489,7 @@ photopea.com##[href*=".ivank.net"]
 nzbstars.com,upload.ee##[href*=".php"]
 complaintsingapore.com##[href*="/adv.php"]
 utahgunexchange.com##[href*="/click.track"]
+thepiratebay.org##[href*="/redirect?tid="]
 libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com,utorrent.com##[href*="://go.nordvpn.net/"]
 auto.creavite.co##[href*="?aff="]
 auto.creavite.co##[href*="?utm_medium=ads"]
@@ -65996,6 +65997,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|creditcard.com.au|debitcards.com.au|finder.com|finder.com.au|findershopping.com.au|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be|whatphone.com.au
 @@||ad.doubleclick.net/ddm/clk/*http$popup
 @@||ad.doubleclick.net/ddm/trackclk/*http$popup
+@@||ads.atmosphere.copernicus.eu^$popup
 @@||ads.doordash.com^$popup
 @@||ads.elevateplatform.co.uk^$popup
 @@||ads.emarketer.com/redirect.spark?$popup,domain=emarketer.com
@@ -120363,7 +120365,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||bestvideo.cloud^$all
 ||bmtracks.com^$all
 ||doublebangers.com^$all
-||laddler.site^$all
 ||bintrr.top^$all
 ||bustymeets.com^$all
 ||aht42trk.com^$all
@@ -120372,7 +120373,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||lewdmilfh22y.com^$all
 /mc-test/*/index.php?cid=$doc
 ||attractivecutiewcx.com^$all
-||onecupcoffeereviews.com^$all
 ||skollett.site^$all
 ||browserneedupdate.com^
 ||click-allow.top^
@@ -120452,7 +120452,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||rekosx.co.in^$all
 ||remor.xyz^$all
 ||github.io/health-records-x-ray$doc
-||rusoil24.ru^$all
 ||adultminglenight.click^$all
 ||miallafun.com^$all
 ||derriks.site^$all
@@ -120467,7 +120466,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||olosex.pics^$all
 ||painfont.cyou^$all
 ||builder.hufs.ac.kr/goLink.jsp?url=xn-$doc
-||m.jubilantrefreshingvisit.buzz^$all
 ||lamilagq.com^$all
 /1/index.html?p1=$doc
 /fb_video_googleplay/*/index.html?*p1=$doc
@@ -120582,7 +120580,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||zvideo-live.com^
 /index.php?uid=*&code=ad^$doc
 ||koitushinterneinnehmen.s3.eu-central-1.amazonaws.com^$all
-||localsexfinderxxx4.com^$all
 ||sinder8.com^$all
 ||bigosext69.com^$all
 ||captcharesolving-universe.com^$all
@@ -120671,7 +120668,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||updatemobilee.com^$all
 ||supreme-ad-blocker.info^$all
 ||allprizesforme.com^$all
-||hypernitro.ru^$all
 ||nitrohunt.com^$all
 ||tekhacks.net^$all
 ||freedownloadfiles.org^$all
@@ -120708,7 +120704,6 @@ origincrack.com##center > button
 ||thefreesoft.com^$doc
 ||scane.click^$all
 .click/track/*?title=*&key=$doc,to=click
-||sbjjzdwqg41ps.click^$all
 ||vgfrrtc.click^$all
 ||vablecable.click^$all
 ||mcteirx.click^$all
@@ -120809,7 +120804,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||oyndr.com^$all
 ||lpoms.com^$all
 ||psfmi.com^$all
-||gftet.com^$all
 ||fwern.com^$all
 ||ytomb.com^$all
 ||gghut.com^$all
@@ -120853,13 +120847,11 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||007itshop.com^$all
 ||tonghongad.com^$all
 ||e-tax-nta.web.app^$all
-||dinglike.com^$all
 ||blisterlngdate.com^$all
 ||fapello.xyz^$all
 ||pf0755.cn^$all
 ||hohshops.com^$all
 ||bavaria-cup.ru^$all
-||patriothomestore.com^$all
 ||luckypapa.xyz^$doc
 ||manage-fpw-my-sakura-fpw-jp-fpw.impulsion.mu^$all
 ||honda-law-office.jp/wp-includes/70038/Earthcorejp/|$doc
@@ -120867,9 +120859,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||qhigh.com^$all
 ||yoinst.com^$doc
 ||almostmy.com^$all
-||mkwlejfnaklglkasdjg.com^$all
-||caponefx.com^$all
-||jpzone.vip^$all
 ||tokyobag.shop^$all
 ||erdfkhxrnanm.top^$all
 ||tfehmsag.xyz^$all
@@ -120888,13 +120877,10 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||totalpcsecure.com^$all
 ||gczxaczixzierxzier.com^$all
 ||zhikunux.com^$all
-||myetherwalletet.org^$all
 ||smart-ex-jp.top^$all
 ||luckvote.top^$all
 ||kuronekoyamato-jp.com^$all
-||appleidliy.com^$all
 ||jp-kensatsu.com^$all
-||saichengbs.com^$all
 ||npajp.icu^$all
 ||web-telegvm.org^$all
 ||m-k-r-5.com^$all
@@ -120904,7 +120890,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||t-pia.me^$all
 ||toythieves.com^$all
 ||rlfrbxj.com^$all
-||dsichina.com^$all
 ||rigidconcrete.ca^$all
 ||sportslevels.com^$all
 ||sso.biglobe.jp.net^$all
@@ -120938,7 +120923,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||aqmessage.jp^$doc
 ||astraeus-star.site^$doc
 ||best-chat.net^$doc
-||best-friendd.net^$doc
 ||best-friendd2022.net^$doc
 ||bestxchat.net^$doc
 ||bluew-web.com^$doc
@@ -121065,7 +121049,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||plati-num.com^$doc
 ||pr0m.site^$doc
 ||privatelife.jp^$doc
-||psg.make9-salon.com^$doc
 ||purpleiyvf.com^$doc
 ||r30address.com^$doc
 ||r30deai.com^$doc
@@ -121106,13 +121089,11 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||ura-nai-best.com^$doc
 ||vanilla-japan.net^$doc
 ||verita-t.jp^$doc
-||very.bes-tplay.com^$doc
 ||with.2-on-line.com^$doc
 ||yu0287tk.com^$doc
 ||yumajhsbsff.com^$doc
 ||jivo-ce.jp^$doc
 ||whimsicalrain.com^$doc
-||myjapanonlineshop.xyz^$all
 ||mynameserverok.xyz^$all
 ||slapcleaner.com^$all
 ||tatikhale.xyz^$all
@@ -121131,15 +121112,12 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||oo.opaall.com^$doc
 ||sldg02.com^$doc
 ||sll-lp1f.com^$doc
-||smart-chat.info^$doc
 ||tenseikaiun.com^$doc
-||v1v-g1ft-o7.com^$doc
 ||woman-busi.com^$doc
 ||secure-57v.pages.dev^$all
 ||ll-m-work-2020.com^$doc
 ||slb3cr9dx9.jp^$doc
 ||sukui05.com^$doc
-||36vv-ssj.com^$doc
 ||4miracle4.jp^$doc
 ||abc.youtus7216.com^$doc
 ||amari-ama.com^$doc
@@ -121196,10 +121174,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||wishhoree1890.com^$doc
 ||with-with.net^$doc
 ||xs5rur1she7eyry.jpn.com^$doc
-||you.y-uh9k7n5y.tokyo^$doc
 ||57zyazmk.jp^$doc
 ||a.tlineat.jp^$doc
-||abc.lemon2023.com^$doc
 ||angelchance.com^$doc
 ||b2ujcm.com^$doc
 ||be-loaded.com^$doc
@@ -121227,7 +121203,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||im-excellent.com^$doc
 ||infomessagehappy.com^$doc
 ||iris-808.com^$doc
-||jdig56po.com^$doc
 ||kaaairoo549kai.com^$doc
 ||kahimeyuki.jp^$doc
 ||karinaroom.wixsite.com^$doc
@@ -121258,9 +121233,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||s-kiseki.jp^$doc
 ||sebumu28.com^$doc
 ||sevensmooon.com^$doc
-||su-hisenjutu.com^$doc
-||suhi-senjutsu.com^$doc
-||suhi-sejutsuexpert.com^$doc
 ||tada10ve.jp^$doc
 ||tada1ove.com^$doc
 ||take.the.n-chapter.jp^$doc
@@ -121289,7 +121261,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||forum0120.com^$doc
 ||foundate-core.net^$doc
 ||intern0120.com^$doc
-||kasegeru-rank.com^$doc
 ||li-neeee.net^$doc
 ||linemail.work^$doc
 ||make2022.com^$doc
@@ -121414,8 +121385,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||vhills.net^$doc
 ||votteetten.com^$doc
 ||vqydliiyda.net^$doc
-||wbpb9.com^$doc
-||whim-w.net^$doc
 ||xn--4dkua4c8143c.jp^$doc
 ||xn--edkc9m807k.jp^$doc
 ||xn--n8j0la8wb3547bghe.jp^$doc
@@ -121559,7 +121528,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||5050.fm^$doc
 ||6xtpke4.com^$doc
 ||8xpamp5fxd.com^$doc
-||aberration-0000000001.com^$doc
 ||adoptmeantranslate.com^$doc
 ||after-7.net^$doc
 ||aikatuz.jp^$doc
@@ -121635,7 +121603,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||sp-gt-meet.com^$doc
 ||spring-sealion.com^$doc
 ||spiritual-leading.com^$doc
-||star-superstar-yellow.com^$doc
 ||sugusagasu.com^$doc
 ||sukui01.com^$doc
 ||sukui02.com^$doc
@@ -121666,7 +121633,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||mor.chance-10dayful.com^$doc
 ||octagongon.com^$doc
 ||s.meru.jp^$doc
-||vcrwv.monster^$doc
 ||x-yz6asktoi.com^$doc
 ||x-yzn6.com^$doc
 ||x6-yz-kzyx0.com^$doc
@@ -121821,10 +121787,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||moustachespontaneous.com^$doc
 ||w-dbl.com^$doc
 ||recruit-gold.com^$doc
-||6q5c53c6sg4z9vkkpqnc.com^$doc
 ||emoti-on.com^$doc
 ||jinsei-undesu.com^$doc
-||sftqg7t9cyzjaw0b.com^$doc
 ||spiritual-jp.com^$doc
 ||unki-josho.com^$doc
 ||xdpiwrx7ub.net^$doc
@@ -121851,14 +121815,12 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||softlab.fun^$doc
 ||appxfree.com^$doc
 ||appxfree.top^$doc
-||grasshoppermirro.com^$doc
 ||nuts.sugar1105.com^$doc
 ||prc.pr-e-c-i-o-us.com^$doc
 ||kounnomichishirube.net^$doc
 ||lucksignpost0804.org^$doc
 ||lightning02s.com^$doc
 ||lightning0707.com^$doc
-||jkytd-rd3.com^$doc
 ||le.tter99.com^$doc
 ||silversex.com^$doc
 ||flirttime.com^$doc
@@ -121868,12 +121830,10 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||ma-rry.net^$doc
 ||ma-rry.site^$doc
 ||altdorfer-niklaus.com^$doc
-||lucky-star69.com^$doc
 ||lucky-star8.com^$doc
 ||tulip-tulip.net^$doc
 ||koinik.net^$doc
 ||ukylcim.top^$doc
-||gallery-sight.com^$doc
 ||yurizono.com^$doc
 ||9gcpz8hu.com^$doc
 ||bobonheur.com^$doc
@@ -121891,7 +121851,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||the-match.jp^$doc
 ||gekkei-jyu-gekkei-jyu.com^$doc
 ||gekkeijyu-gekkeijyu.com^$doc
-||lemonadebb.net^$doc
 ||ev4ev.biz^$doc
 ||evkakuri2308.click^$doc
 ||gtex3.com^$doc
@@ -121978,7 +121937,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||tsumatsuma.xyz^$doc
 ||olive-ft.jp^$doc
 ||fortuna-destiny.com^$doc
-||shiawasenokotae.com^$doc
 ||az-l.com^$doc
 ||luna-t.net^$doc
 ||sm-bt.net^$doc
@@ -121995,7 +121953,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||y54wdrg.com^$doc
 ||peach2023.net^$doc
 ||gokinjo---hot.com^$doc
-||matchin.site^$doc
 ||metalepsa.me^$doc
 ||nysoctieotion.tech^$doc
 ||peroiramus.me^$doc
@@ -122019,8 +121976,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||keenchimairaanthem.com^$doc
 ||pc.h1ma.jp^$doc
 ||pc.ta1k.jp^$doc
-||63jehxd5vfi6.jp^$doc
-||imiqmcyj4wjj.jp^$doc
 ||kev8ffh2n9a8.jp^$doc
 ||qeucuzpbv6jq.jp^$doc
 ||ccappu-ccinno.com^$doc
@@ -122058,15 +122013,11 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||qxb0v.com^$doc
 ||w0o.eu^$doc
 ||zj5c3.com^$doc
-||e-summer.top^$doc
 ||getchance.top^$doc
 ||ilovu.store^$doc
-||in-sight.top^$doc
 ||moneyget.top^$doc
 ||millionget.top^$doc
-||premiers.top^$doc
 ||sugukasegu.top^$doc
-||tbotb.top^$doc
 ||iris-making.com^$doc
 ||lm-mousey-happy.com^$doc
 ||speeds5-mmiliked.com^$doc
@@ -122112,7 +122063,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||t-haihukikaku.online^$doc
 ||t-present.online^$doc
 ||rich-cash.site^$doc
-||fr4aj87j.com^$doc
 ||island-vanity.com^$doc
 ||side-joblp.com^$doc
 ||32k987.com^$doc
@@ -122260,7 +122210,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||webworks-plus.jp^$doc
 ||colorfulromance.com^$doc
 ||gmatch.jp^$doc
-||me-l-t1.com^$doc
 ||blue-uranai.com^$doc
 ||bluemoon-uranai.com^$doc
 ||bm-bluemoon.com^$doc
@@ -122401,12 +122350,10 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 !#if !env_mobile
 ||n.fcd.su^$all
 !#endif
-||ru-torproject.ru^$all
 ||anapatformacion.org/modules/file/tor/tor-browser.zip^$all
 /^https:\/\/[a-z]+\.com\/away\.php\?url=[%0-9A-z]{100,}$/$doc
 ||a-new86.com^$all
 ||ane102.net^$all
-||honey888.love^$all
 ||ima55notice.biz^$all
 ||infozoomplus.biz^$all
 ||koi2ru.com^$all
@@ -122468,23 +122415,13 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||185.161.248.253^$all
 ||golovanov.net^$all
 ||165-227-173-120.plesk.page^$all
-||dare2life.click^$all
 ||pushlandings.b-cdn.net^$all
-||webaudhar.online^$all
-||asian-maturedates.click^$all
-||flextd.shop^$all
 ||64-226-126-114.plesk.page^$all
-||boomdates.online^$all
-||erroarwasuppoto.world^$all
 ||fastndio.s3.eu-central-1.amazonaws.com^$all
-||ikiped.online^$all
 ||pub-77106c9273be4f3fbec6b6d6c3c51b7f.r2.dev^$all
-||erroarwasuppoto.life^$all
 ||janganhackya.com^$all
-||viewmerit.info^$all
 ||blexad.shop^$all
 ||xoty55.cfd^$all
-||dumbabd.online^$all
 ||alewis.sbs^$all
 ||edeyk.sbs^$all
 ||edfzh.sbs^$all
@@ -122651,7 +122588,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||zlib-official.com^$all
 ||zlibrary.lol^$all
 ||z-library.live^$all
-||z-library.wiki^$all
 ||z-library.blog^$all
 ||z-library-proxy.com^$all
 ||go-to-zlibrary.com^$all
@@ -122871,7 +122807,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||oortech.com/mic.shtml^$doc,to=~made-in-china.com
 ||fedexridn.com^$all
 ||yellowjacket.co.nz^$all,to=~fedex.com
-||bookingtool.azurewebsites.net^$all,to=~fedex.com
 ||saham.hugaf.dev^$all,to=~fedex.com
 /^https:\/\/(?:[a-z]+\.)?hotel-(?:id)?\d{3,8}\.eu\//$doc,to=eu|~booking.com
 /^https:\/\/(?:[a-z]+\.)?hotel-(?:id)?\d{3,8}\.com\//$doc,to=com|~booking.com
@@ -122899,7 +122834,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||v5hhx.shop^$all,to=~gazprom.ru
 ||pe4hk.shop^$all,to=~gazprom.ru
 ||g1vm6.shop^$all,to=~gazprom.ru
-||reactiver-abonnement.com^$all,to=~netflix.com
 ||vstergioul.sites.sch.gr^$all,to=~netflix.com
 ||myeloma.gr.jp/zz.php^$all
 ||mybluehost.me/*/netflix/net/login.php$doc
@@ -122919,7 +122853,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||allegrocx.com^$all
 ||allegrocns.com^$all
 ||allegro-005.com^$all
-||allegro-online.ru^$all
 ||allegro-reinigung.de^$all
 ||chn-allegroshopac.one^$all
 /^https:\/\/allegro[a-z]{2,}\.shop\//$doc,to=shop
@@ -122930,11 +122863,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||rackweb-----support*.weebly.com^$all,to=~rackspace.com
 ||dana-indone*.id^$doc,to=my.id|web.id|~dana.id
 -dna-log-*.biz.id^$doc,to=biz.id|~dana.id
-||xxtl-v1.biz.id^$doc,to=~dana.id
-||danaxspaylaterr.biz.id^$all,to=~dana.id
-||xcxcx.my.id^$doc,to=~dana.id
 ||pemesanan*.glowz.my.id^$doc,to=~dana.id
-||danaespay.my.id^$doc,to=~dana.id
 ||jeuconcoursorange.com^$all,to=~orange.fr
 ||orange53.yolasite.com^$all,to=~orange.fr
 ||dev-7614646544.pantheonsite.io^$all,to=~orange.fr
@@ -123023,7 +122952,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||telegra.ph/British-Telecommunication-08-22^$all,to=~bt.com
 ||telegra.ph/BT-Business-Communications-$all,to=~bt.com
 ||thanhtrapcrt.online^$all,to=~thanhtra.gov.vn
-||chinhphu.hodancu.com^$all,to=~gov.vn
 ||pttgov*.top^$doc,to=top|~ptt.gov.tr
 ||irstaxrefunds.$doc,to=~irs.gov
 ||seeproc.com.br^$all,to=~my.gov.au
@@ -123145,7 +123073,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||github.io/samedaydelivery/$doc,to=~dhl.com
 ||myjobdhl.earcu.com^$all,to=~dhl.com
 ||ann.tess1.top^$all
-||whats.met-esm.top^$all
 ||firavave.club^$all
 ||play.funfourmob.com^$all
 ||fevertime.com/wasop/$all
@@ -123210,7 +123137,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 /\.(?:boats|cfd)\/contract\/\d{14,19}\b/$doc,match-case,to=boats|cfd|~facebook.com
 ||business-center-$doc
 ||meta.com-case*.com/help/contact/$doc
-||amarmehandiart.in/metaen/$all
 ||helps-center-page-number-$doc
 ||support-16.ubpages.com^$all
 /\.(?:pages\.dev|vercel\.app)\/appeal_case_id\b/$doc,to=pages.dev|vercel.app
@@ -123229,7 +123155,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 /api/webapi/login|$xhr,3p,to=online|vip,method=post,header=access-control-allow-headers:Origin, X-Requested-With, Content-Type, Accept, Authorization
 ||lazada.bbc6666.com^$all
 ||tuyendungtiki2024.vn^$all,to=~tiki.vn
-||shopeas.cc^$all
 /^https:\/\/sp\d{2,3}88(?:vn)?\.com\//$doc,to=com|~shopee.vn
 ||virtualnoticiasaqui.com^$all
 ||vnsendo.*^$all,to=info|shop|vip|~sendo.vn
@@ -123243,7 +123168,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||11steam.com^$all
 ||gtm.you1.cn^$all
 ||steamxiazai.cn^$all
-||s.team-pn.com^$all
 ||steam.zssjsq.com^$all
 ||steamtopup.ru^$all
 ||steamcommunitylog.chez.com^$all
@@ -123264,10 +123188,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||com/p/jcod-ppsr/huasdirjdo^$doc,to=~steamcommunity.com
 /^https:\/\/(?:www\.)?(?:ff[-.])?member[-.]gare[a-z]+a(?:\.pro)?\.vn\//$doc,to=vn|~garena.vn
 /^https:\/\/(?:www\.)?(?:ff[-.])?men?mber[-.]garena\.vn\//$doc,to=vn|~garena.vn
-||xn--npth-5q5a1g.vn^$all,to=~napthe.vn
 ||garerna.vn^$all,to=~garena.vn
-||gareza.vn^$all,to=~garena.vn
-||ff-menmber-garena.vn^$all,to=~garena.vn
 ||gasenna.id.vn^$all,to=~garena.vn
 ||garenaa.id.vn^$all,to=~garena.vn
 ||gaerana.io.vn^$all,to=~garena.vn
@@ -123278,7 +123199,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||garenaea.vn^$all,to=~garena.vn
 ||garecna.vn^$all,to=~garena.vn
 ||mobilelegendsmycode.com^$all
-||weysg.com.tr^$doc
 ||pubg-arena.top^$all
 ||register-turnamen.free.nf^$all
 ||pubgm-zing-vn.com^$all
@@ -123459,13 +123379,11 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||helixapp.com.3web.ink^$doc,to=~helixapp.com
 ||kangamoon-claim.com^$doc,to=~kangamoon.game
 ||oeth-airdrop.com^$doc,to=~originprotocol.com
-||5ireclaims.org^$doc,to=~5ire.org
 ||web-tonkeep.website^$doc,to=~tonkeeper.com
 ||sparkflaretrustline.xyz^$doc,to=~flare.network
 ||airdrop-checker-grass.com^$doc,to=~getgrass.io
 ||paidnetwork-migration.com^$doc,to=~paidnetwork.com
 ||app-maplerpc.online^$doc,to=~maple.finance
-||disneypinnacle.taffds.org^$doc,to=~disneypinnacle.com
 ||stake-defisaver.com^$doc,to=~defisaver.com
 ||base-dawgz.web.app^$doc,to=~basedawgz.com
 ||migration-z1labs.com^$doc,to=~z1labs.ai
@@ -123521,7 +123439,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||final-claim.pages.dev^$doc
 ||indiewears.com^$all
 ||alienxchain*.pages.dev^$doc,to=~alienxchain.io
-||bfq.h100.top^$all,to=~bybit.com
 /index/index/*Trade/tradelist^$doc
 ||bitvavo*.vip^$doc,to=~bitvavo.com
 ||trustservices4.godaddysites.com^$all,to=~trustwallet.com
@@ -123533,7 +123450,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||ledgerwallive.com^$all,to=~ledger.com
 ||pub-*.r2.dev/ledge.html^$doc,to=~ledger.com
 ||trump-coin1.pages.dev^$doc,to=~magamemecoin.com
-||coin-trump.pages.dev^$doc,to=~magamemecoin.com
 ||pinksales-pools.pages.dev^$doc,to=~pinksale.finance
 ||pink-sales.pages.dev^$doc,to=~pinksale.finance
 ||pink-sale.pages.dev^$doc,to=~pinksale.finance
@@ -123545,12 +123461,10 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||e-stata.ru/track/1/$all,to=~coinbase.com
 ||imtoken.org.cn^$all,to=~token.im
 ||imcosom.com^$all,to=~token.im
-||tokenap.app^$all,to=~token.im
 ||tokenax.app^$all,to=~token.im
 ||imtoken-etc.com^$all,to=~token.im
 ||scszdm.com^$all,to=~token.im
 app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([class])
-||pancake.saaedal.com^$all,to=~pancakeswap.finance
 ||pancak-e-swap.com^$all,to=~pancakeswap.finance
 /^https:\/\/pancake(?:dro|swa)pclick\d+\.vercel\.app\//$doc,to=vercel.app|~pancakeswap.finance
 ||pancakeswap-*.vercel.app^$doc,to=~pancakeswap.finance
@@ -123599,7 +123513,6 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||afflatus.consulting/deutschepost/$all,to=~deutschepost.de
 ||signature-rho.vercel.app^$all,to=~docusign.com
 ||roycamining.com/pdeb/Untitled/$all,to=~docusign.com
-||msoft_docusign_verification_secured-doc_office.zatrdg.com^$all,to=~docusign.com
 ||f1nancier.com^$doc
 ||myvalue365.com/calender/css/images/$doc,to=~docusign.com
 ||pub-*.r2.dev/alt_type.html^$doc,to=~docusign.com
@@ -123680,7 +123593,6 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||vnsehotro.com^$all,to=~mbbank.com.vn
 ||mmbonline01.com^$all,to=~mbbank.com.vn
 ||govn.cc^$all,to=~gov.vn
-||thongtincutru.org^$all,to=~gov.vn
 ||baoviet.vip^$all,to=~baovietbank.vn
 ||baoviet*.vip^$doc,to=vip|~baovietbank.vn
 ||mmb-online.com^$all,to=~mbbank.com.vn
@@ -124016,7 +123928,6 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||tempisite.com^$all
 ||sunpass-etoll-id.kupu.desa.id^$all
 /^https:\/\/(?:www\.)?roblox(?:\.com)?\.[a-z]{2}\//$doc,to=roblox.*|~roblox.com
-||feather-wallet.org^$doc,to=~featherwallet.org
 ||sparrowwallet.net^$doc,to=~sparrowwallet.com
 ||electrum.is^$doc,to=~electrum.org
 ||tracker.club-os.com^
@@ -124098,7 +124009,6 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 ||jqueryuslibs.com^$all
 ||jstatic201.com^$all
 ||lererikal.org^$all
-||mamatmavali.ru^$all
 ||nothingillegal.bond^$all
 ||paie-locli.com^$all
 ||sellerstat.site^$all
@@ -124108,7 +124018,6 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 ||vincaolet.xyz^$all
 ||webexcelsior.org^$all
 adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forqueen.cz,joinusonline.net,jollibee.com.vn,kitapsan.com.tr,mebelinovdom.com,ojworld.it,qualityrental.com,szaszmotorshop.hu,tvojstyl.sk,up-shop.org,yairalon.com.br##+js(acs, WebSocket, event.data)
-||whyareyouherewho.ru^
 ||last-blink.com^
 ||orcaslicer.net^$doc
 ||comodozeropoint.com^$all,to=~comodo.com
@@ -124420,11 +124329,13 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||ab.blogs.es/abtest.png^$image,3p,domain=xataka.com|trendencias.com,redirect=1x1.gif,important
 @@||track.adtraction.com/*&url=https://www.gog.com/$popup
 ||track.adtraction.com/*^url=https://www.gog.com/$doc,urlskip=?url
-/c/*^u=http$doc,urlskip=?u,to=goto.target.com|goto.walmart.com|bn5x.net|e9jo.net|fziv.net|qflm.net|pxf.io|sjv.io|tkjf.net|xovt.net
+/c/*^u=http$doc,urlskip=?u,to=goto.target.com|goto.walmart.com|bn5x.net|c9ftyd.net|e9jo.net|fziv.net|qflm.net|pxf.io|sjv.io|tkjf.net|xovt.net
+/click-*^url=http$doc,urlskip=?url,to=dpbolvw.net|jdoqocy.com|kqzyfj.com
 ||clicks.trx-hub.com/*^q=http$doc,urlskip=?q
-||kqzyfj.com/click-*^url=http$doc,urlskip=?url
 ||shop-links.co/link/?url=http$doc,urlskip=?url
 ||buy.geni.us/Proxy.ashx*^GR_URL=http$urlskip=?GR_URL
+||go.skimresources.com/*^url=http$doc,urlskip=?url
+||shareasale.com/r.cfm*^urllink=$doc,urlskip=/urllink=(\w+\.[^\/]+)/ +https -uricomponent
 ||cc.mashable.com/v1/*^url=http$doc,urlskip=?url
 ||click.pstmrk.it/*/$doc,urlskip=/\.pstmrk\.it\/[23][mst]{0,2}\/(.+)/ +https -uricomponent
 ||howl.me/link?url=http$doc,urlskip=?url
@@ -124435,8 +124346,6 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 html.duckduckgo.com,lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
 androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.com/wp-json/api/advanced_redirect?ref="], ?ref)
 ||androidauthority.com/api/locate/
-pcgamingwiki.com##+js(href-sanitizer, a[href^="https://www.dpbolvw.net/click-"][href*="?url="], ?url)
-pcgamingwiki.com##+js(href-sanitizer, a[href^="https://greenmangaming.sjv.io/c/"][href*="?u="], ?u)
 starstyle.com##+js(href-sanitizer, a[href^="https://go.skimresources.com/"][href*="&url=http"], ?url)
 insidehook.com##+js(href-sanitizer, a[href^="https://click.linksynergy.com/deeplink?id="][href*="&murl="], ?murl)
 insidehook.com##+js(href-sanitizer, a[href*="?"][href*="&url=http"], ?url)
@@ -124468,11 +124377,10 @@ dk.pcpartpicker.com##+js(href-sanitizer, a[href^="https://online.adservicemedia.
 justwatch.com##+js(href-sanitizer, 'a:is([href^="https://click.justwatch.com/"],[href^="https://d.justwatch.com/"])[href*="r=http"]:not([href*=".pxf.io"])', ?r)
 justwatch.com##+js(href-sanitizer, 'a:is([href^="https://click.justwatch.com/"],[href^="https://d.justwatch.com/"])[href*="r=http"][href*=".pxf.io"]', ?r?u)
 variety.com##+js(href-sanitizer, a[href^="https://clicks.trx-hub.com/"][href*="bn5x.net"], ?q?u)
-otherweb.com##+js(href-sanitizer, a[href^="https://cc.mashable.com/v1/"][href*="url=http"], ?url)
 engadget.com##+js(href-sanitizer, a[href^="https://shopping.yahoo.com/rdlw?"][href*="gcReferrer=http"], ?gcReferrer)
 cnet.com##+js(set, Object.prototype.updateModifiedCommerceUrl, noopFunc)
-cnet.com##+js(href-sanitizer, 'a[href*="url=http"]:is([href^="https://shop-links.co/link/?url=http"],[href^="https://www.kqzyfj.com/click-"])', ?url)
-cnet.com,sheknows.com,streetinsider.com##+js(href-sanitizer, 'a[href*="&u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"])', ?u)
+cnet.com,hunker.com,pcgamingwiki.com,sheknows.com,streetinsider.com##+js(href-sanitizer, 'a[href*="u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"])', ?u)
+cnet.com,hunker.com,otherweb.com,pcgamingwiki.com##+js(href-sanitizer, 'a[href*="url=http"]:is([href^="https://cc.mashable.com/v1/"],[href^="https://go.skimresources.com?"],href^="https://shop-links.co/link/?url=http"],[href*=".com/click-"],[href*=".net/click-"])', ?url)
 ||cdn.digg.com/fragments/homepage/static/view-frontpage.js
 /detroitchicago/dpv.gif?$image
 /detroitchicago/imp.gif$ping
