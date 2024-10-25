@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NC33FpWidzdk+00mWR+Rig
+! Checksum: JlCxRM9Tkdzv5ZCrBnOaJg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410250942
-! Last Modified: 2024年10月25日 09:42
+! Version: 202410251429
+! Last Modified: 2024年10月25日 14:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -117485,10 +117485,10 @@ best18porn.com##.in-player-spot
 ||best18porn.com/best18.js
 shooshtime.com##+js(acs, document.getElementsByTagName, adn)
 th-world.com##+js(nostif, nextFunction, 250)
-*$3p,script,xhr,denyallow=cloudflare.net|google.com|gstatic.com|googleapis.com|hcaptcha.com|jsdelivr.net|pvvstream.pro|recaptcha.net|userapi.com,domain=noodlemagazine.com
-actionviewphotography.com,exporntoons.net,mat6tube.com,noodlemagazine.com,tyler-brown.com,ukdevilz.com##div[style]:has(> ins)
-actionviewphotography.com,exporntoons.net,mat6tube.com,noodlemagazine.com,tyler-brown.com,ukdevilz.com##noindex
-actionviewphotography.com,exporntoons.net,mat6tube.com,noodlemagazine.com,tyler-brown.com,ukdevilz.com##+js(nano-stb, download, 1100)
+actionviewphotography.com,exporntoons.net,mat6tube.*,noodlemagazine.com,exporntoons.net,whatisareverseauction.com,sibtok.com,ukdevilz.com,tyler-brown.com##div[style]:has(> ins)
+actionviewphotography.com,exporntoons.net,mat6tube.*,noodlemagazine.com,exporntoons.net,whatisareverseauction.com,sibtok.com,ukdevilz.com,tyler-brown.com##div[style]:has(> [id*="_ad_native_"])
+actionviewphotography.com,exporntoons.net,mat6tube.*,noodlemagazine.com,exporntoons.net,whatisareverseauction.com,sibtok.com,ukdevilz.com,tyler-brown.com##noindex
+actionviewphotography.com,exporntoons.net,mat6tube.*,noodlemagazine.com,exporntoons.net,whatisareverseauction.com,sibtok.com,ukdevilz.com,tyler-brown.com##+js(nano-stb, download, 1100)
 ||ipvertnet.com/clickunder/
 ||binpartner.com^$3p
 ||olymptrade.com^$3p
@@ -124112,6 +124112,7 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||rustdesk.pl^$doc
 ||rustdesk.secure-box.de^$doc
 ||update-tracks.com^$all,to=~dhl.com
+||bitdefender.top^$doc,to=~bitdefender.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -124379,13 +124380,14 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||ab.blogs.es/abtest.png^$image,3p,domain=xataka.com|trendencias.com,redirect=1x1.gif,important
 @@||track.adtraction.com/*&url=https://www.gog.com/$popup
 ||track.adtraction.com/*^url=https://www.gog.com/$doc,urlskip=?url
-/c/*^u=http$doc,urlskip=?u,to=goto.target.com|goto.walmart.com|bn5x.net|c9ftyd.net|e9jo.net|fziv.net|qflm.net|pxf.io|sjv.io|tkjf.net|xovt.net
+/^https:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\?.+?&u=http/$doc,to=com|io|net,urlskip=?u
 /click-*^url=http$doc,urlskip=?url,to=dpbolvw.net|jdoqocy.com|kqzyfj.com
 ||clicks.trx-hub.com/*^q=http$doc,urlskip=?q
 ||shop-links.co/link/?url=http$doc,urlskip=?url
 ||buy.geni.us/Proxy.ashx*^GR_URL=http$urlskip=?GR_URL
 ||go.skimresources.com/*^url=http$doc,urlskip=?url
 ||shareasale.com/r.cfm*^urllink=$doc,urlskip=/urllink=(\w+\.[^\/]+)/ +https -uricomponent
+||prf.hn/click/*/destination:http$doc,urlskip=/\/destination:([^\/]+)/ -uricomponent
 ||cc.mashable.com/v1/*^url=http$doc,urlskip=?url
 ||click.pstmrk.it/*/$doc,urlskip=/\.pstmrk\.it\/[23][mst]{0,2}\/(.+)/ +https -uricomponent
 ||howl.me/link?url=http$doc,urlskip=?url
@@ -124759,6 +124761,7 @@ study.com##+js(no-xhr-if, /eventLog.ajax)
 loom.com##+js(no-fetch-if, loom.com/insights-api/graphql)
 wayfair.com##+js(no-xhr-if, t.wayfair.com/b.php?)
 wayfair.com##+js(set, navigator.sendBeacon, noopFunc)
+pandadoc.com##+js(no-fetch-if, segment.io)
 @@||awstrack.me/*auth.coindesk.com$doc,popup
 @@||awstrack.me/*cmd=ac-inactive-restore$doc,popup
 ||2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=video.foxnews.com
@@ -127196,6 +127199,8 @@ steamidfinder.com##.section-advert-banner--top:remove()
 spotifydown.com#@#.semi-transparent
 spotifydown.com##.semi-transparent:has(ins.adsbygoogle[data-ad-slot])
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=maxpreps.com,important
+@@||cdn.segment.com/*/analytics.min.js$script,domain=app.pandadoc.com
+pandadoc.com##+js(rmnt, script, adBlockEnabled)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
