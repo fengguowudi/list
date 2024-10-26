@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IkUgyzY3s6v+NNtfHCs5eA
+! Checksum: HxxpWaFijiFtgFYwEe2FcQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410260938
-! Last Modified: 2024年10月26日 09:38
+! Version: 202410261427
+! Last Modified: 2024年10月26日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -124430,6 +124430,8 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||go.uncrate.com/*^url=http$doc,urlskip=?url
 ||llo.to/e/*^url=http$doc,urlskip=?url
 ||events.laylo.com/r/redirect*^link=http$urlskip=?link
+||streaklinks.com/*/http$doc,urlskip=/\bstreaklinks\.com\/[^\/]+\/https?%3A%2F%2F([^\/]+)/ +https -uricomponent
+||streak-link.com/*/http$doc,urlskip=/\bstreak-link\.com\/[^\/]+\/https?%3A%2F%2F([^\/]+)/ +https -uricomponent
 html.duckduckgo.com,lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
 androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.com/wp-json/api/advanced_redirect?ref="], ?ref)
 ||androidauthority.com/api/locate/
