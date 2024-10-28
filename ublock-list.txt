@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1e3bFkWLGtBar9aDsOHaLw
+! Checksum: G/CncEQGRu8+wGvnJIpABg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410280945
-! Last Modified: 2024年10月28日 09:45
+! Version: 202410281431
+! Last Modified: 2024年10月28日 14:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57753,6 +57753,7 @@ jigzone.com###jz
 ceoexpress.com###kalamazooDiv
 msguides.com###kknbnpcv
 kohls.com###kmnsponsoredbrand-sponsored_top-anchor
+karryon.com.au###ko-ads-takeover
 kvraudio.com###kvr300600
 freeads.co.uk###l_sk1
 inc42.com###large_leaderboard_desktop-0
@@ -58870,6 +58871,7 @@ gameshub.com##.ads-slot
 batimes.com.ar##.ads-space
 lowfuelmotorsport.com##.ads-stats
 wallpapers.com##.ads-unit-fts
+karryon.com.au##.ads-wrap
 ndtv.com##.ads-wrp
 bestcrazygames.com##.ads160600
 m.mouthshut.com##.adsBoxRpt2
@@ -60603,6 +60605,7 @@ khmertimeskh.com##.khmer-content_28
 ytfreedownloader.com##.kl-before-header
 kiryuu.id##.kln
 wantedinafrica.com##.kn-widget-banner
+karryon.com.au##.ko-ads-wrapper
 kvraudio.com##.kvrblockdynamic
 businessinsider.com##.l-ad
 legit.ng,tuko.co.ke##.l-adv-branding__top
@@ -117614,7 +117617,19 @@ boobsrealm.com##iframe[style$="height: 250px;"]
 720pstream.*##+js(nowoif)
 720pstream.*##+js(nostif, "admc")
 *$script,3p,denyallow=chatango.com|cloudfront.net|sharethis.com,domain=720pstream.*
-720pstream.*##.bg-dark.position-absolute
+720pstream.*,embedstream.me,jumbtv.com##.bg-dark.position-absolute
+!#if cap_html_filtering
+720pstream.*,embedstream.me,jumbtv.com##^script:has-text(adserverDomain)
+jumbtv.com##^script:has-text(/break;case|FingerprintJS/)
+!#else
+720pstream.*,embedstream.me,jumbtv.com##+js(rmnt, script, adserverDomain)
+jumbtv.com##+js(rmnt, script, /break;case|FingerprintJS/)
+jumbtv.com##+js(aeld, message)
+!#endif
+||usaballs.fun^
+||variationsradio.com^
+||kaitakavixen.shop^
+||gliraimsofu.net^
 ytanime.tv##^script:has-text(u_cfg)
 ytanime.tv##+js(aopr, u_cfg)
 ytanime.tv##+js(aopw, adcashMacros)
