@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wznH5fufDha1SEC1Z5RAIg
+! Checksum: SrlKEuMh3tWoDtFROKRKWw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410291430
-! Last Modified: 2024年10月29日 14:30
+! Version: 202410292042
+! Last Modified: 2024年10月29日 20:42
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -60819,6 +60819,7 @@ pushsquare.com,songlyrics.com##.masthead
 eetimes.eu,korinthostv.gr,powerelectronicsnews.com##.masthead-banner
 augustman.com##.masthead-container
 cloudwards.net##.max-medium
+buzzheavier.com##.max-w-\[60rem\] > p.mt-5.text-center.text-lg
 spin.com##.max-w-\[970px\]
 mayoclinic.org##.mayoad
 racgp.org.au##.mb-1.small
@@ -122930,8 +122931,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||mybluehost.me/*Recibir_paquete.php$doc,to=~correos.es
 ||codeanyapp.com/klarna/$doc,to=~klarna.com
 ||mybluehost.me/*/dir/ca/pay/$doc,to=~canadapost-postescanada.ca
-||inner.website/*.html^$doc
-/^https:\/\/www\.[a-z]{4,5}\.[a-z]{3,7}\/[a-z0-9]{36}\.html\b/$doc,match-case,to=com|info|website|~edu|~gov|~google.com
 ||pub-*.r2.dev/gsecondcheck.html^$doc
 ||uwelldeutschland.com^$all,to=~myuwell.com
 ||auth-llbc.elementfx.com^$all,to=~leboncoin.fr
@@ -123004,11 +123003,15 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 /^https:\/\/booking(-[a-z]{3,}){2}\.(?:baby|lat|lol|xyz)\//$doc,to=baby|lat|lol|xyz|~booking.com
 ||air-bnb.check-$doc
 ||abnbclaim.com^$all,to=~airbnb.com
+||air.bnb-id*.com^$all,to=~airbnb.com
+||navi-airbnb.vercel.app^$all,to=~airbnb.com
 /^https?:\/\/([a-z]{4,}\.)?support-\d{1,2}\.ru\//$doc,to=ru
 ||group-postban.firebaseapp.com^$all,to=~labanquepostale.fr
 ||oasisministries.com/fr/postale/$all,to=~labanquepostale.fr
 ||lidarusa.com/*/Bpostale2022/$all,to=~labanquepostale.fr
 ||plesk.page/*--_--$doc,to=~labanquepostale.fr
+||spsb.vantechdns.com^$all,to=~labanquepostale.fr
+||vantechdns.com/bpnew/$doc,to=~labanquepostale.fr
 ||adobecloud5xpo.yolasite.com^$all,to=~adobe.com
 ||socalthesyndicate.com/*/adobefud/$all,to=~adobe.com
 ||pub-*.r2.dev/adobe2024.html^$doc,to=~adobe.com
@@ -123024,6 +123027,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||pe4hk.shop^$all,to=~gazprom.ru
 ||g1vm6.shop^$all,to=~gazprom.ru
 ||vstergioul.sites.sch.gr^$all,to=~netflix.com
+||netflix.avdhoothadke.com^$all,to=~netflix.com
 ||myeloma.gr.jp/zz.php^$all
 ||mybluehost.me/*/netflix/net/login.php$doc
 ||mybluehost.me/watch/a/flix/$doc
@@ -123050,6 +123054,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 /^https:\/\/allegro-\d{3,4}\.com\//$doc,to=com
 ||racks.pages.dev^$all,to=~rackspace.com
 ||rackweb-----support*.weebly.com^$all,to=~rackspace.com
+||danakagetrsm.vercel.app^$all,to=~dana.id
 ||dana-indone*.id^$doc,to=my.id|web.id|~dana.id
 -dna-log-*.biz.id^$doc,to=biz.id|~dana.id
 ||pemesanan*.glowz.my.id^$doc,to=~dana.id
@@ -123123,6 +123128,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||ruthah9.wixsite.com^$all
 ||iirrrrrrii.wixsite.com^$all
 ||attstsv.weebly.com^$all
+||newversionattmailapps.weebly.com^$all
 ||ewueuweudsjdjsdjjd.weeblysite.com^$all
 ||maiil-myatt.weeblysite.com^$all
 ||rtm-att.directly.com^$all
@@ -123138,6 +123144,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||f.digital-*.com/igit/$doc
 ||currentlyatt*.weebly.com^$all
 ||homelogginbbt.weebly.com^$all,to=~bt.com
+||loogginhomebtcom.weebly.com^$all,to=~bt.com
 ||boardband.univer.se^$all,to=~bt.com
 ||telegra.ph/British-Telecommunication-08-22^$all,to=~bt.com
 ||telegra.ph/BT-Business-Communications-$all,to=~bt.com
@@ -123269,6 +123276,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||instogromv.com^$all
 ||fr-instagram.com^$all
 ||igleak.info^$all
+||instagram.irancell-10g-free.rf.gd^$all
 ||slimhealth.us^$all
 ||mait.inhhome.top^$all
 ||mail.pages.exchange-midasbuy.com^$all
@@ -123472,6 +123480,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||sitio-interno.com^$all
 ||oortech.com/onedrive.-html^$doc
 ||shockaholic.net/jgr/$all
+||earovit.dk^$all
+||user.fm/files/v2-*/Refundnotice.html^$doc
 ||telegramhcn.com^$all
 ||newappmssg.ru^$all
 ||brawllstars.ru^$all
@@ -123479,6 +123489,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||telegerasm.work^$all
 ||telegeram.work^$all
 ||webtelegram.eu.org^$all
+||telaagam.maxisl.vip^$all
 ||telegrambotsolution.pages.dev^$all
 /^https:\/\/www\.telegramk[a-z]\.com\//$doc,to=com|~telegram.org
 ||telegramkv.com^$all
@@ -123639,6 +123650,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||reward-sky.money^$doc,to=~sky.money
 ||bnbc-onay-sayfasi-global.smtp-host.de^$all,to=~binance.com
 ||dendreonlawsuit.com^$all,to=~binance.com
+||binace-epa.com^$all,to=~binance.com
+||binance-btc1.com^$all,to=~binance.com
 ||ledgerwallive.com^$all,to=~ledger.com
 ||pub-*.r2.dev/ledge.html^$doc,to=~ledger.com
 ||trump-coin1.pages.dev^$doc,to=~magamemecoin.com
@@ -123651,6 +123664,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||coin-notif.top^$all,to=~coinbase.com
 ||koinssendspro.top^$all,to=~coinbase.com
 ||e-stata.ru/track/1/$all,to=~coinbase.com
+/^https:\/\/\d{6}-coinbase\.com\//$doc,to=~coinbase.com
+||178368-coinbase.com^$all,to=~coinbase.com
 ||imtoken.org.cn^$all,to=~token.im
 ||imcosom.com^$all,to=~token.im
 ||tokenax.app^$all,to=~token.im
@@ -123666,7 +123681,6 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||pancake.run^$all,to=~pancakeswap.finance
 ||pay8-2v-*-gmailcom.vercel.app^$all,to=~pancakeswap.finance
 ||vodafone-business.develop-a.website^$all,to=~vodafone.com
-||air.bnb-id*.com^$all,to=~airbnb.com
 ||mmitalianbeef.square.site^$all,to=~mmitalianbeef.com
 ||bigbauer.com^$all,to=~gmx.com
 ||lkmw88.com^$all,to=~mercadolibre.com
@@ -123677,9 +123691,11 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||dc.tensgpt.com^$all,to=~discord.com
 ||mol-finance.top^$all,to=~mol.co.jp
 ||carrefour-enbacktoschool4.pages.dev^$all,to=~carrefour.com
+||sacolamobile.influenciadormagalu.com.br^$all,to=~sacola.magazineluiza.com.br
 ||beluxrepm.followme.fr/FolloWMe$all,to=~realestate.bnpparibas.com
 ||mybluehost.me/Cope346/$all
 ||tesakom.com/aa/index.html^$all,to=~ebestsec.co.kr
+||allbikesputte.be/sumconfirm.php/$all,to=~sumup.com
 ||glitch.me/pdf.html?email=$doc
 ||chattts-49f1.beszyrecala.workers.dev^$all,to=~christianmingle.com
 ||cursorltd.com^$doc
@@ -123703,6 +123719,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||eboo-retablir-lu.com^$all,to=~eboo.lu
 ||aolmaiillogin.blogspot.$doc,to=~mail.aol.com
 ||afflatus.consulting/deutschepost/$all,to=~deutschepost.de
+||id-ionos.premiumservicesrl.com^$all,to=~id.ionos.com
 ||signature-rho.vercel.app^$all,to=~docusign.com
 ||roycamining.com/pdeb/Untitled/$all,to=~docusign.com
 ||f1nancier.com^$doc
@@ -124585,6 +124602,7 @@ engadget.com##+js(href-sanitizer, a[href^="https://shopping.yahoo.com/rdlw?"][hr
 cnet.com##+js(set, Object.prototype.updateModifiedCommerceUrl, noopFunc)
 cnet.com,hunker.com,pcgamingwiki.com,sheknows.com,streetinsider.com##+js(href-sanitizer, 'a[href*="u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"])', ?u)
 cnet.com,hunker.com,otherweb.com,pcgamingwiki.com##+js(href-sanitizer, 'a[href*="url=http"]:is([href^="https://cc.mashable.com/v1/"],[href^="https://go.skimresources.com?"],href^="https://shop-links.co/link/?url=http"],[href*=".com/click-"],[href*=".net/click-"])', ?url)
+windowscentral.com##+js(href-sanitizer, a[href^="https://go.redirectingat.com/"][href*="&url=http"], ?url)
 ||cdn.digg.com/fragments/homepage/static/view-frontpage.js
 /detroitchicago/dpv.gif?$image
 /detroitchicago/imp.gif$ping
@@ -124745,6 +124763,7 @@ $removeparam=igshid,domain=instagram.com|threads.net
 !#endif
 @@||web.archive.org/*/http$removeparam
 @@||urldefense.com^$removeparam
+/dp/*/ref=$document,uritransform=/\/ref=[^\/?]+//,to=www.amazon.*
 natgeotv.com##+js(no-xhr-if, /VisitorAPI|AppMeasurement/)
 natgeotv.com##+js(set, Visitor, {})
 ||fichub.com/plugins/adobe/lib/$xhr,domain=natgeotv.com,important
