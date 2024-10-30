@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZhEAGtMy4/TtZLnsMH1y1w
+! Checksum: M0QlLeGpCrXenK2t4ZdNMw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202410300229
-! Last Modified: 2024年10月30日 02:29
+! Version: 202410300942
+! Last Modified: 2024年10月30日 09:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1868,6 +1868,8 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||whrwlxg.icu^
+||bdawrsi.icu^
 ||mzpecui.icu^
 ||chmueyv.icu^
 ||kemmars.com^
@@ -10799,6 +10801,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 .sinaimg.cn/large/008qC0LFgy1hutqvck5ufj30qe02i74t.
 ||zzzyk.com/js/
 ||huo720.com/files/vidhub.
+||69shuba.cx^*/shu.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 element-plus.org##.page-sidebar-row
@@ -24723,6 +24726,7 @@ omni.soundestlink.com$image
 ||spinnaker-js.com^
 ||sprtnd.com^
 ||srmdata-eur.com^
+||srvgl.com^
 ||ssevt.com^
 ||stack-sonar.com^
 ||stat.ovh^
@@ -30948,7 +30952,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||weather.ca/counter.gif?
 ||web-tracker.smsbump.com^
 ||web1.51.la^
-||webcare.byside.com^
+||webcare.byside.com/agent/usert_agent.php
 ||webedia.fr/js/gs.js
 ||webeyo.com/ipinfo
 ||webgames.io/imp/
