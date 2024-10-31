@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xSbcraL6v8mwecaJ5e1ZYw
+! Checksum: yiWPoSXFYyx/WZwQm2hbVg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202410311429
-! Last Modified: 2024年10月31日 14:29
+! Version: 202410312041
+! Last Modified: 2024年10月31日 20:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15491,6 +15491,7 @@ _800x80_
 ###taboola-below-article-1
 ###taboola-below-article-thumbnails
 ###taboola-below-article-thumbnails-express
+###taboola-below-article-thumbnails-photo
 ###taboola-below-article-thumbnails-v2
 ###taboola-below-forum-thumbnails
 ###taboola-mid-article-thumbnails
@@ -56047,7 +56048,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph|philstarlife.com
 ||go.trvdp.com^$domain=~canaltech.com.br|~ig.com.br|~monitordomercado.com.br|~noataque.com.br|~oantagonista.com.br|~omelete.com.br
 ||gpv.ex.co^$third-party
-||imgix.video^
+||imgix.video^$domain=inverse.com
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com
 ||interestingengineering.com/partial/connatix_desktop.html
 ||jwpcdn.com^$script,domain=bgr.com|decider.com|dexerto.com
@@ -59443,6 +59444,7 @@ upi.com##.col-md-12 > table
 roseindia.net##.col-md-4
 disqus.com##.col-promoted
 lapa.ninja##.col-sm-1
+tineye.com##.collection.match-row
 collegedunia.com##.college-sidebar .course-finder-banner
 gadgetsnow.com,iamgujarat.com,indiatimes.com,samayam.com,vijaykarnataka.com##.colombia
 businessinsider.in##.colombia-rhs-wdgt
@@ -59719,7 +59721,6 @@ yts.mx##.durs-bordered
 bloomberg.com##.dvz-v0-ad
 daniweb.com##.dw-inject-bsa
 ubereats.com##.dw.ec
-kirastream.my.id##.dwnLink
 dmarge.com##.dx-ad-wrapper
 coinpaprika.com##.dynamic-ad
 dailydot.com##.dynamic-block
@@ -66282,6 +66283,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /api/0/stats
 /api/adplogger/*
 /api/async.php?t=user&m=pagehits&
+/api/bfb_write_log
 /api/cmp_tracker|
 /api/drpStats
 /api/event-rfkj/*
@@ -66347,6 +66349,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /atatus.js
 /atrk.gif?
 /atrk.js
+/attpro/a?
 /audience-extraction.js
 /audience.gif?
 /audience.min.js
@@ -67624,6 +67627,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /ping_g.jsp?
 /ping_hotclick.js
 /pingAudience?
+/pingback|
 /pingd?
 /pinger.cgi?
 /pingServerAction?
@@ -77332,6 +77336,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||connatix.com/us/google/
 ||connect.airfrance.com/ach/api/event^
 ||connecteam.com/bi/api/ReportHit/
+||consent.api.osano.com/record
 ||consent.ghostery.com/v1.js
 ||consent.trustarc.com/bannermsg?
 ||consent.trustarc.com/noticemsg?
@@ -78171,6 +78176,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sciencechannel.com/events/
 ||scloud.online/stat/
 ||scoot.co.uk/ajax/log_
+||scribd.com/log/
 ||search.anonymous.ads.brave.com^
 ||search.aol.com/beacon/
 ||search.brave.com/api/feedback$~third-party
@@ -119705,7 +119711,6 @@ mangastream.mobi###myModal
 ||doubleclickbygoogle.com/favicon.ico$image,3p,redirect-rule=32x32.png
 ||google.com/adsense/start/images/favicon.ico$image,3p,redirect-rule=32x32.png
 ||gstatic.com/adx/doubleclick.ico$image,3p,redirect-rule=32x32.png
-#@##AdLayer1
 #@##ad_300
 #@##ad_728
 #@##ad_area
@@ -119723,7 +119728,6 @@ mangastream.mobi###myModal
 #@##adsquare
 #@##banner468
 #@##banner728x90
-###AdLayer1:not([style^="position: absolute; left: -5000px"])
 ###ad_300:not([style^="position: absolute; left: -5000px"])
 ###ad_728:not([style^="position: absolute; left: -5000px"])
 ###ad_area:not([style^="position: absolute; left: -5000px"])
@@ -122719,7 +122723,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||fueltypebel.info^$all
 ||re-captha-version-$all
 ||valid-check-tl-$all
-||check-tl-ver-$all
+||psh-static.b-cdn.net^
+||check-tl-$all
 ||tech4u.app^$all
 .com/?news&s|$popup
 ||cloud.tnewstraffic.com^$all
@@ -122818,6 +122823,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||profile-ourtime.*.workers.dev^$doc,to=~ourtime.com
 /^https:\/\/ourtime\.[a-z]+-[a-z]+\.workers\.dev\//$doc,to=workers.dev|~ourtime.com
 /\/wap\/api\/(?:activity\/)?[a-zA-Z]+![-_a-zA-Z]+\.action\?/$xhr,1p,strict1p,match-case
+||wetching.ru^$doc,frame
 ||griffithdds.com/*/madeinchina.com/$all,to=~made-in-china.com
 ||oortech.com/mic.shtml^$doc,to=~made-in-china.com
 ||fedexridn.com^$all
@@ -123020,7 +123026,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||bmoreferral.com^$all,to=~bmo.com
 ||personas.devbam.com^$all,to=~bam.com.gt
 ||negociebra.com.br^$all,to=~banco.bradesco
-||lloyd-group.com^$all,to=~lloydsbank.com
 ||itaconsorciodigital.com.br^$all,to=~itau.com.br
 ||wizardpayroll.com.ar^$all,to=~hsbc.com
 ||spareb1.com^$all,to=~sparebank1.no
@@ -123031,6 +123036,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||pncexc.com^$all,to=~pnc.com
 ||moonlightproshop.com^$all,to=~volksbank.at
 ||nbtbank.architect-cert.fiservapps.com^$all,to=~nbtbank.com
+||douroweb.eu^$all,to=~bankofamerica.com
 /^https:\/\/tpbank\.[-a-z0-9]{5,}\.[a-z]{3}(?:\.vn)?\//$doc,to=~edu|~gov|~gov.vn|~tpb.vn
 ||mybluehost.me/service/*/nkl-log.php$doc,to=~nickel.eu
 ||turkiyecumhuriyetiziraatbankasi.com^$all,to=~ziraatbank.com.tr
@@ -123055,6 +123061,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||codeanyapp.com/*/DKB_new/$doc,to=~dkb.de
 ||correopackvia.freewebhostmost.com^$all,to=~hype.it
 ||freewebhostmost.com/DARKSIDE/hype/$doc,to=~hype.it
+||lloyd-group.com^$all,to=~lloydsbank.com
+||lbg-calcs.vercel.app^$all,to=~lloydsbank.com
 ||gohvb-d634f.web.app^$all,to=~hypovereinsbank.de
 ||gohvb-*.web.app^$doc,to=~hypovereinsbank.de
 /^https:\/\/mbdk\d+\.com\//$doc,to=com|~mbbank.com.vn
@@ -124382,6 +124390,7 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||ab.blogs.es/abtest.png^$image,3p,domain=xataka.com|trendencias.com,redirect=1x1.gif,important
 @@||track.adtraction.com/*&url=https://www.gog.com/$popup
 ||track.adtraction.com/*^url=https://www.gog.com/$doc,urlskip=?url
+||track.adtraction.com/*^url=https://www.gog.com/$doc,urlskip=?url -blocked
 /^https:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\?.+?&u=http/$doc,to=com|io|net,urlskip=?u
 /click-*^url=http$doc,urlskip=?url,to=dpbolvw.net|jdoqocy.com|kqzyfj.com
 ||clicks.trx-hub.com/*^q=http$doc,urlskip=?q
@@ -124571,6 +124580,10 @@ $removeparam=bbeml
 $removeparam=_branch_match_id
 $removeparam=_branch_referrer
 $removeparam=_bhlid
+$removeparam=sms_click
+$removeparam=sms_source
+$removeparam=sms_uph
+$removeparam=ttclid
 $removeparam=asc_campaign,domain=aboutamazon.com|amazon.*|amzn.to
 $removeparam=asc_refurl,domain=aboutamazon.com|amazon.*|amzn.to
 $removeparam=asc_source,domain=aboutamazon.com|amazon.*|amzn.to
