@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: csikVTSWuZZqY+XEsKQv6w
+! Checksum: uQy3D46q0bMfGV0OweLmeQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411010949
-! Last Modified: 2024年11月01日 09:49
+! Version: 202411011431
+! Last Modified: 2024年11月01日 14:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -58750,7 +58750,7 @@ bolnews.com##.adspadding
 downzen.com##.adt
 makemytrip.com##.adtech-desktop
 cosmopolitan.in,indiatodayne.in,miamitodaynews.com##.adtext
-gcaptain.com,mp1st.com##.adthrive
+gcaptain.com,mp1st.com,unofficialnetworks.com##.adthrive
 wdwmagic.com##.adthrive-homepage-header
 wdwmagic.com##.adthrive-homepage-in_content_1
 quadraphonicquad.com##.adthrive-placeholder-header
@@ -60622,7 +60622,7 @@ augustman.com##.masthead-container
 cloudwards.net##.max-medium
 buzzheavier.com##.max-w-\[60rem\] > p.mt-5.text-center.text-lg
 spin.com##.max-w-\[970px\]
-mayoclinic.org##.mayoad
+mayoclinic.org##.mayoad > .policy
 racgp.org.au##.mb-1.small
 wccftech.com##.mb-11
 coinlean.com##.mb-3
@@ -118204,6 +118204,8 @@ myabandonware.com##div:matches-css-after(content:/Ads/)
 myabandonware.com##[onclick*="aff"]
 myabandonware.com##style:has-text(justify-content):remove()
 myabandonware.com##[src*="banner"]
+myabandonware.com##a[target="_top"]:has(img)
+myabandonware.com##a[href*="jeroud.com"]:has(img)
 gayck.com##+js(set, flashvars.adv_pause_html, '')
 romhustler.org##+js(nano-sib, timer.remove)
 romhustler.org##.tower_ad_desktop
@@ -125234,6 +125236,10 @@ calgaryherald.com#@#.local-branding
 @@*$csp,domain=activistpost.com
 @@||d24n15hnbwhuhn.cloudfront.net/libs/amplitude-$script,domain=gethuman.com
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.css$stylesheet,domain=abcya.com
+||px.moatads.com/pixel.gif$image,domain=abcya.com,redirect=1x1.gif
+*$script,domain=abcya.com,redirect-rule=noopjs
+||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect=google-ima.js:5,domain=abcya.com
+abcya.com##+js(nano-stb, t++, 500)
 @@||hyundaiusa.com/js/analytics/analytics.js$script,1p
 @@||appspot.com/api/*/feed/tag$xhr,domain=apnews.com
 apnews.com##html[data-header-hasleaderboard]:remove-attr(data-header-hasleaderboard)
@@ -125488,7 +125494,6 @@ bearteach.com###externalinject-gpt-passback-iframe
 @@||4strokemedia.com^$xhr,script,domain=ilmeteo.it
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect=noopjs,domain=ilmeteo.it
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl#@#+js(set-constant, pp_adblock_is_off, trueFunc)
-||px.moatads.com/pixel.gif$image,domain=abcya.com,redirect-rule=1x1.gif
 ||metaffiliation.com^$badfilter
 ||metaffiliation.com^$3p,domain=~netaffiliation.com
 ||netaffiliation.com^$badfilter
@@ -126750,7 +126755,6 @@ metastats.net##.col-md-6:style(height: 150px !important;)
 metastats.net###page-wrapper > div.row:nth-of-type(1)
 @@||4chan.org/adv/$image,domain=boards.4channel.org
 ||siteintercept.qualtrics.com^$badfilter
-*$script,domain=abcya.com,redirect-rule=noopjs
 ||googletagmanager.com/gtag/js$script,redirect-rule=noop.js:10,domain=scobel.pasaz24.pl
 goku.sx##.st-hidden:remove-class(st-hidden)
 goku.sx##.st-btn:not(.st-first):style(display: inline-block !important; min-width: 50px !important; width: 50px !important;)
