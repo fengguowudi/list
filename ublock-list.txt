@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uQy3D46q0bMfGV0OweLmeQ
+! Checksum: y/TPH7dfDlbYca6N9g4xUA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411011431
-! Last Modified: 2024年11月01日 14:31
+! Version: 202411012039
+! Last Modified: 2024年11月01日 20:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -18140,6 +18140,7 @@ browsershots.org#@#.advert_area
 ||amswadloonan.com^
 ||amtracking01.com^
 ||amtropiusr.com^
+||amulaswhitish.com^
 ||amuletcontext.com^
 ||amunfezanttor.com^
 ||amused-ground.com^
@@ -26747,6 +26748,7 @@ browsershots.org#@#.advert_area
 ||geejetag.com^
 ||geephenuw.com^
 ||geerairu.net^
+||geeseruesome.com^
 ||geetacog.xyz^
 ||geethaihoa.com^
 ||geethaiw.xyz^
@@ -32713,6 +32715,7 @@ browsershots.org#@#.advert_area
 ||mobileoffers-dld-download.com^
 ||mobileoffers-ep-download.com^
 ||mobilepreviouswicked.com^
+||mobilerefreit.com^
 ||mobiletracking.ru^
 ||mobipromote.com^
 ||mobiprotg.com^
@@ -43697,6 +43700,7 @@ browsershots.org#@#.advert_area
 ||varietiesassuage.com^
 ||varietiesplea.com^
 ||varietyofdisplayformats.com^
+||varietypatrice.com^
 ||variousanyplaceauthorized.com^
 ||variouscreativeformats.com^
 ||variousformatscontent.com^
@@ -122856,12 +122860,13 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||shopify-careers.com^$all,to=~shopify.com
 ||paypal-complete.com^$all
 ||prizegift.top^$all
-||paypalloginin-usa.blogspot.$doc
+||paypal*.blogspot.$doc
 /\/recharge\d?\.(?:html|php)\?mobile=\d{10}\b/$doc,match-case,to=~jio.com|~edu|~gov
 /offer.php?rechargenumber=$doc,to=~jio.com|~edu|~gov
 /offer.html?rechargenumber=$doc,to=~jio.com|~edu|~gov
 /\/offer\.(?:html|php)\?(?:mobile|rechargenumber)=\d{10}\b/$doc,match-case,to=~jio.com|~edu|~gov
 ||buscaapp.com^$all
+||apples-24x7-help.pages.dev^$all
 ||dbs.applerewardsstore.com^$all,to=~dbs.com
 ||rbchidraulica.com.br/info/verify^$all
 /isignesp.php^$doc,to=~edu|~gov|~apple.com
@@ -122988,6 +122993,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||939l.xyz^$all
 ||bebayb.cc^$all
 ||ebayma77.com^$all
+||ebnays.xyz^$all
 /^https:\/\/(?:seller\.)?ebay-[a-z]{8,15}\.com\//$doc,to=com
 ||ebay-european.com^$all
 ||ebay-shopprogj.com^$all
@@ -123014,9 +123020,10 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||maiil-myatt.weeblysite.com^$all
 ||rtm-att.directly.com^$all
 ||attvip.mx^$all
+||olive121407.studio.site^$all
 ||keepo.io/loginatt/$all
 ||dlhessell.wixsite.com/att-support/$all
-||olive121407.studio.site^$all
+||bio.site/atttt^$all
 ||dones9.wixsite.com^$all
 ||alisongaudino992.wixsite.com^$all
 ||deenveerww.wixsite.com^$all
@@ -123611,6 +123618,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||afflatus.consulting/deutschepost/$all,to=~deutschepost.de
 ||id-ionos.premiumservicesrl.com^$all,to=~id.ionos.com
 ||drcolomo.com^$doc,to=~orlen.pl
+||konopslski.top/robot/$doc
 ||signature-rho.vercel.app^$all,to=~docusign.com
 ||roycamining.com/pdeb/Untitled/$all,to=~docusign.com
 ||f1nancier.com^$doc
@@ -124171,6 +124179,9 @@ adrissa.com.co,americansoda.co.uk,casteloforte.com.br,centerfabril.com.br,forque
 ||netflix-logariasmos.com^$all,to=~netflix.com
 ||buywayfair.com^$all,to=~wayfair.com
 webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[class="w-inline-block"][href^="http"]
+||cakewallet.cc^$all,to=~cakewallet.com
+||coinomiwallet.cc^$all,to=~coinomi.com
+||infinityvvallet.io^$all,to=~infinitywallet.io
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -124773,6 +124784,7 @@ globo.com##+js(set, libAnalytics.data.get, noopFunc)
 ||videovak.com/log/
 dailystar.co.uk,mirror.co.uk##+js(no-xhr-if, cmp.inmobi.com/geoip)
 ||an.yandex.ru^$script,redirect=noopjs,domain=moyaposylka.ru
+||flaticon.com/_ga?
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
