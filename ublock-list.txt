@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dtFThlq1EH0INyVJTP1nsg
+! Checksum: XI3exBvZmX/Oa0XBWAdULg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411022038
-! Last Modified: 2024年11月02日 20:38
+! Version: 202411030226
+! Last Modified: 2024年11月03日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -452,6 +452,7 @@
 /exoads/*$script
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/*$script
+/exonob/*$script
 /exports/tour/*$third-party
 /exports/tour_20/*$subdocument
 /external/ad.$script
@@ -64788,6 +64789,7 @@ empflix.com,tnaflix.com##.mewBlock
 sopornmovies.com##.mexu-bns-bl
 avn.com##.mfc
 online-xxxmovies.com##.middle-spots
+allpornstream.com##.min-h-\[237px\]
 lic.me##.miniplayer
 tryindianporn.com##.mle
 hentaicore.org##.mob-lock
@@ -66070,6 +66072,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||www.ticketmaster.$popup,domain=adclick.g.doubleclick.net
 @@/api/models?$domain=tik.porn
 @@/api/v2/models-online?$domain=tik.porn
+@@||allpornstream.com/api/ads?type=thumbnail$~third-party
 @@||chaturbate.com/in/$subdocument,domain=cam-sex.net
 @@||exosrv.com/video-slider.js$domain=xfreehd.com
 @@||gaynetwork.co.uk/Images/ads/bg/$image,~third-party
@@ -124846,6 +124849,7 @@ dailystar.co.uk,mirror.co.uk##+js(no-xhr-if, cmp.inmobi.com/geoip)
 ||an.yandex.ru^$script,redirect=noopjs,domain=moyaposylka.ru
 ||flaticon.com/_ga?
 ||googletagmanager.com/gtag/js$domain=17track.net,important
+bentasker.co.uk##+js(no-xhr-if, method:POST url:pfanalytics.bentasker.co.uk)
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
