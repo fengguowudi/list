@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P1ahJWG+nzRxLsa6nb63ow
+! Checksum: RwRL/0jaOPEPAXz2ehccHw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411030947
-! Last Modified: 2024年11月03日 09:47
+! Version: 202411031429
+! Last Modified: 2024年11月03日 14:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62662,7 +62662,7 @@ filecrypt.cc,filecrypt.co##[onclick^="var lj"]
 transfermarkt.co.uk##[referrerpolicy]
 appleinsider.com,dappradar.com,euroweeklynews.com,sitepoint.com,tld-list.com##[rel*="sponsored"]
 warecracks.com,websiteoutlook.com##[rel="nofollow"]
-metro.co.uk##[rel="sponsored"]
+metro.co.uk,wccftech.com##[rel="sponsored"]
 myanimelist.net##[src*="/c/img/images/event/"]
 audioz.download##[src*="/promo/"]
 transfermarkt.com##[src*="https://www.transfermarkt.com/image/"]
@@ -122979,6 +122979,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||g1vm6.shop^$all,to=~gazprom.ru
 ||vstergioul.sites.sch.gr^$all,to=~netflix.com
 ||netflix.avdhoothadke.com^$all,to=~netflix.com
+||supporto-netflix.com^$all,to=~netflix.com
 ||myeloma.gr.jp/zz.php^$all
 ||mybluehost.me/*/netflix/net/login.php$doc
 ||mybluehost.me/watch/a/flix/$doc
@@ -123157,6 +123158,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||moonlightproshop.com^$all,to=~volksbank.at
 ||nbtbank.architect-cert.fiservapps.com^$all,to=~nbtbank.com
 ||douroweb.eu^$all,to=~bankofamerica.com
+||gaoyinjiao.com^$all,to=~jabank.jp
 /^https:\/\/tpbank\.[-a-z0-9]{5,}\.[a-z]{3}(?:\.vn)?\//$doc,to=~edu|~gov|~gov.vn|~tpb.vn
 ||mybluehost.me/service/*/nkl-log.php$doc,to=~nickel.eu
 ||turkiyecumhuriyetiziraatbankasi.com^$all,to=~ziraatbank.com.tr
@@ -123194,6 +123196,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||bdvenlinea*.pages.dev^$doc,to=~bancodevenezuela.com
 ||bdvenlineaconfirmate.pages.dev^$all,to=~bancodevenezuela.com
 ||bdvenlinea-banvenez-beram.pages.dev^$all,to=~bancodevenezuela.com
+||bdvenlineabanven.line.pm^$all,to=~bancodevenezuela.com
 ||tinchapshinhan.online^$all,to=~shinhan.com.vn
 ||sites.google.com/view/shinhan-fiinance/^$all,to=~shinhan.com.vn
 ||americanexpressempresas.com^$all,to=~americanexpress.com
@@ -123341,6 +123344,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||staemcommunnitty.com^$all
 ||staemcommunnity.com^$all
 ||staemcomunnutty.com^$all
+||slfeamcoomnnumnlty.com^$all
 ||workshop-users.com^$all
 ||cn-steam.com^$all
 ||com/p/jcod-ppsr/huasdirjdo^$doc,to=~steamcommunity.com
@@ -123460,6 +123464,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 /^https:\/\/ht[a-z]\d{2}\.vip\//$doc,to=vip
 ||recouphh.top^$all
 ||recovery-cr.top^$all
+||recovery-gzo.top^$all
 /^https:\/\/xy[a-z]\d{2}\.cc\//$doc,to=cc
 ||uspsparcels.net^$all,to=~usps.com
 ||freeusps.com^$all,to=~usps.com
