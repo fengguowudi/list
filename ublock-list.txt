@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1VRS3nuXKZZ8Rs4qldcKhw
+! Checksum: gAKtHYWxjXHsojdCg2rnJQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411062040
-! Last Modified: 2024年11月06日 20:40
+! Version: 202411070228
+! Last Modified: 2024年11月07日 02:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -22248,6 +22248,7 @@ browsershots.org#@#.advert_area
 ||cubchillysail.com^
 ||cubeletrewater.shop^
 ||cubeuptownpert.com^
+||cubiclerunner.com^
 ||cubicnought.com^
 ||cucaftultog.net^
 ||cuckooretire.com^
@@ -32112,6 +32113,7 @@ browsershots.org#@#.advert_area
 ||ninnycoastal.com^
 ||ninsu-tmc.com^
 ||ninthfad.com^
+||nipcrater.com^
 ||nippona7n2theum.com^
 ||niqwtevkb.xyz^
 ||nishoagn.com^
@@ -42812,6 +42814,7 @@ browsershots.org#@#.advert_area
 ||xgdljiasdo.xyz^
 ||xgihlgcfuu.com^
 ||xgraph.net^
+||xgroserhkug.com^
 ||xgtfptm.com^
 ||xhhaakxn.xyz^
 ||xhmnbvn.com^
@@ -46827,6 +46830,7 @@ browsershots.org#@#.advert_area
 ||css-load.com^$popup
 ||ctosrd.com^$popup
 ||ctrdwm.com^$popup
+||cubiclerunner.com^$popup
 ||cuddlethehyena.com^$popup
 ||cudgeletc.com^$popup
 ||cuevastrck.com^$popup
@@ -122048,7 +122052,7 @@ dailystar.co.uk,mirror.co.uk##+js(no-xhr-if, cmp.inmobi.com/geoip)
 bentasker.co.uk##+js(no-xhr-if, method:POST url:pfanalytics.bentasker.co.uk)
 ||data.cheatography.com^
 ||herokudns.com^$xhr,domain=darkreader.org
-computerbase.de##+js(nostif, ads.provider||)
+/^https?:\/\/www\.computerbase\.de\/[a-z]{6}$/$xhr,1p,domain=computerbase.de
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
