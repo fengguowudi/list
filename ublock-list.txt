@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YII2WnGt+fNbT85C7VPOpw
+! Checksum: mLwDGk60ZCrXWul+BMUaIQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411072039
-! Last Modified: 2024年11月07日 20:39
+! Version: 202411080227
+! Last Modified: 2024年11月08日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20870,6 +20870,7 @@ browsershots.org#@#.advert_area
 ||cdnvideo3.com^
 ||cdnware.com^
 ||cdnware.io^
+||cdojukbtib.com^
 ||cdoqjxlnegnhm.com^
 ||cdosagebreakfast.com^
 ||cdotrvjaiupk.com^
@@ -26190,6 +26191,7 @@ browsershots.org#@#.advert_area
 ||gleeglis.net^
 ||gleegloo.net^
 ||gleejoad.net^
+||gleeltukaweetho.xyz^
 ||gleemsomto.com^
 ||gleemsub.com^
 ||gleetchisurvey.top^
@@ -32178,6 +32180,7 @@ browsershots.org#@#.advert_area
 ||nizarstream.xyz^
 ||nizvimq.com^
 ||njekohrpid.com^
+||njmhklddv.xyz^
 ||njpaqnkhaxpwg.xyz^
 ||nkewdzp.com^
 ||nkfinsdg.com^
@@ -35317,6 +35320,7 @@ browsershots.org#@#.advert_area
 ||puczuxqijadg.com^
 ||puddingdefeated.com^
 ||puddleincidentally.com^
+||pudraugraurd.net^
 ||puerty.com^
 ||puffingtiffs.com^
 ||pugdisguise.com^
@@ -35600,6 +35604,7 @@ browsershots.org#@#.advert_area
 ||qgevavwyafjf.com^
 ||qgexkmi.com^
 ||qglinlrtdfc.com^
+||qgwjydxo.com^
 ||qgxbluhsgad.com^
 ||qhcmspgkoaixup.com^
 ||qhdtlgthqqovcw.xyz^
@@ -35630,6 +35635,7 @@ browsershots.org#@#.advert_area
 ||qksrv1.com^
 ||qksz.net^
 ||qkyliljavzci.com^
+||qkyojtlabrhy.com^
 ||qlfqkjluvz.com^
 ||qlnkt.com^
 ||qmaacxajsovk.com^
@@ -41448,6 +41454,7 @@ browsershots.org#@#.advert_area
 ||vcsjbnzmgjs.com^
 ||vctcajeme.tech^
 ||vcxzp.com^
+||vcynnyujt.com^
 ||vczypss.com^
 ||vdbaa.com^
 ||vddf0.club^
@@ -64155,7 +64162,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /events/tracking
 /events/view-form-open
 /events/view?
-/events?data=
 /events?rpId=
 /eventsBeacon?
 /eventtracker.js
@@ -74318,6 +74324,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.turk.pro^$third-party
 ||c.keltis.com^
 ||collector.wawlabs.com^
+||daioncdn.net/events?
 ||hulyagedikci.com/vhit.php?
 ||iyzipay.com/buyer-protection/assets/js/analytics.js
 ||izinal.com/log
@@ -112163,7 +112170,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||cnt.wetteronline.de^
 ||comparis.ch/comparis/Tracking/
 ||computerbase.de/api2/$ping,xmlhttprequest
-||computerbase.de/nlylev
+||computerbase.de/blvlevblvlev
 ||cp.finanzfrage.net/stats
 ||cpx.golem.de^
 ||cpxl.golem.de^
@@ -115872,6 +115879,7 @@ maxstream.video,maxlinks.online,maxstreams.site##h1:has-text(/adblock|supporter/
 @@||uprot.net^$ghide
 uprot.net##*[style="display:none;"]:style(display:block !important)
 @@||ads.host-cdn.net/ads2.js$script,domain=maxstream.video|maxlinks.online|maxstreams.site|uprot.net
+@@||maxlinks.online^$ghide
 videoseyred.in##+js(nowoif)
 !#if !cap_html_filtering
 listendata.com##+js(rmnt, script, AdBlocker)
