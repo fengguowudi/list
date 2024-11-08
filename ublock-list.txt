@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vSw6lAb7hl2VWM1/TI3piw
+! Checksum: c7zmkesCS+Y3yK9oiqkzfg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411081428
-! Last Modified: 2024年11月08日 14:28
+! Version: 202411082039
+! Last Modified: 2024年11月08日 20:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -26241,6 +26241,7 @@ browsershots.org#@#.advert_area
 ||glimpsemankind.com^
 ||glimtors.net^
 ||glipigaicm.net^
+||gliptoacaft.net^
 ||glistening-novel.pro^
 ||glitteringinsertsupervise.com^
 ||glitteringobsessionchanges.com^
@@ -47562,6 +47563,7 @@ browsershots.org#@#.advert_area
 ||glersakr.com^$popup
 ||glersooy.net^$popup
 ||glimpsemankind.com^$popup
+||gliptoacaft.net^$popup
 ||glizauvo.net^$popup
 ||globaladblocker.com^$popup
 ||globaladblocker.net^$popup
@@ -112254,7 +112256,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||cnt.wetteronline.de^
 ||comparis.ch/comparis/Tracking/
 ||computerbase.de/api2/$ping,xmlhttprequest
-||computerbase.de/blvlevblvlev
+||computerbase.de/news-ticker
 ||cp.finanzfrage.net/stats
 ||cpx.golem.de^
 ||cpxl.golem.de^
@@ -120237,6 +120239,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||seguro.serasaexperian.site^$all,to=~serasa.com.br
 ||seguros-pag.com^$all,to=~serasa.com.br
 ||formspark.rongviet.com.vn^$all
+||webmailrupdatekorea.firebaseapp.com^$all
 ||mail-cytanet.pages.dev^$all,to=~mail.cytanet.com.cy
 ||jhwbcvkjkshaw.weebly.com^$all,to=~webmail.shaw.ca
 ||powersolutions4u.com/*/WEBMAIL1.html^$doc
@@ -120300,6 +120303,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||air.bnb-id*.com^$all,to=~airbnb.com
 ||navi-airbnb.vercel.app^$all,to=~airbnb.com
 ||property-rental-seven.vercel.app^$all,to=~airbnb.com
+||airbnb-pi-three.vercel.app^$all,to=~airbnb.com
 /^https?:\/\/([a-z]{4,}\.)?support-\d{1,2}\.ru\//$doc,to=ru
 ||group-postban.firebaseapp.com^$all,to=~labanquepostale.fr
 ||oasisministries.com/fr/postale/$all,to=~labanquepostale.fr
@@ -120718,6 +120722,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||garenaa.id.vn^$all,to=~garena.vn
 ||gaerana.io.vn^$all,to=~garena.vn
 ||gasenna.io.vn^$all,to=~garena.vn
+||gerarna.io.vn^$all,to=~garena.vn
 ||gareana.vn^$all,to=~garena.vn
 ||doivangfreefiregarena.io.vn^$all,to=~garena.vn
 ||garenae.vn^$all,to=~garena.vn
@@ -120821,6 +120826,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||telegeram.work^$all
 ||webtelegram.eu.org^$all
 ||telaagam.maxisl.vip^$all
+||zhongwen-telegram.com^$all
 ||telegrambotsolution.pages.dev^$all
 /^https:\/\/www\.telegramk[a-z]\.com\//$doc,to=com|~telegram.org
 ||telegramkv.com^$all
@@ -120981,8 +120987,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||alienxchain*.pages.dev^$doc,to=~alienxchain.io
 /\.(?:cc|com|top|vip)\/index\/index\/lang\/[a-z]{2}-[a-z]{2}\b/$doc,to=cc|com|top|vip
 /index/index/*Trade/tradelist^$doc
-||bitvavo*.vip^$doc,to=~bitvavo.com
-||bitvavo*.cc^$doc,to=~bitvavo.com
+||bitvavo*.cc^$doc,to=cc|~bitvavo.com
+||bitvavo*.top^$doc,to=top|~bitvavo.com
+||bitvavo*.vip^$doc,to=vip|~bitvavo.com
 ||trustservices4.godaddysites.com^$all,to=~trustwallet.com
 ||auth--sso-trust.webflow.io^$all,to=~trustwallet.com
 ||enlist-skymoney.com^$doc,to=~sky.money
@@ -120991,6 +120998,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||dendreonlawsuit.com^$all,to=~binance.com
 ||binace-epa.com^$all,to=~binance.com
 ||binance-btc1.com^$all,to=~binance.com
+||megadropclaim.com^$all,to=~binance.com
 ||ledgerwallive.com^$all,to=~ledger.com
 ||pub-*.r2.dev/ledge.html^$doc,to=~ledger.com
 ||trump-coin1.pages.dev^$doc,to=~magamemecoin.com
@@ -121567,6 +121575,7 @@ energiasolare100.it,lundracing.com,red17.co.uk,workplace-products.co.uk##+js(tru
 ||accept.bar^$all
 ||amocha.xyz^$all
 ||cdn-webstats.com^$all
+||cpeciadogfoods.com^$all
 ||inspectdlet.net^$all
 ||clearnetfab.net^$all
 ||cloudflare-stat.net^$all
@@ -124807,6 +124816,8 @@ pandadoc.com##+js(rmnt, script, adBlockEnabled)
 @@||b.cdnst.net/javascript/prebid*.min.js$script,3p,domain=www.speedtest.net
 17track.net##+js(set, ga.sendGaEvent, noopFunc)
 @@||taplytics-umami.grubhub.com/jssdk/$script,1p
+||klclick1.com^$badfilter
+||klclick1.com^$3p
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
