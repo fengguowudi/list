@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PDqmHVxH7OoxVu9cHEr+EA
+! Checksum: NpzQnacft7/VNlHms9pi0w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411090936
-! Last Modified: 2024年11月09日 09:36
+! Version: 202411091426
+! Last Modified: 2024年11月09日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52717,6 +52717,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||afr.com/assets/europa.
 ||aiimgvlog.fun/ad$subdocument
 ||aimclicks.com/layerad.js
+||allkeyshop.com/blog/wp-content/uploads/*sale$image
 ||allkeyshop.com/blog/wp-content/uploads/allkeyshop_background_
 ||allmonitors24.com/ads-
 ||amazon.com/aan/$subdocument
@@ -56552,6 +56553,8 @@ softonic.com##.black-friday-ads
 ehftv.com##.blackPlayer
 nowsci.com##.black_overlay
 tvmaze.com##.blad
+allkeyshop.com##.blc-left
+allkeyshop.com##.blc-right
 fastpic.ru##.bleft
 kottke.org##.bling-title
 wearedore.com##.bloc-pub
@@ -121719,6 +121722,13 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 /wp-content/plugins/seo-optimizer-pro/sop-script.js
 /wp-content/plugins/simple-post-enhancer/spe-script.js
 /wp-content/plugins/social-media-integrator/smi-script.js
+||solomonegbe.com^$all
+||notion.ramchhaya.com^$all,to=~notion.so
+||furnotilioin.site^$all,to=~notion.so
+||jqueri.at^$all
+||jsdelivr.at^$all
+||gstatis.co^$all
+||at^$script,xhr,3p,ipaddress=185.215.113.111
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -122290,6 +122300,7 @@ vpnmentor.com##+js(cookie-remover, /_alooma/)
 ||forecast.lemonde.fr/p/action/
 ||lemonde.fr/*?s=$xhr,method=post
 ||spankbang.com/static/dist/desktop/js/analytics$script
+spankbang.com##+js(set, send_gravity_event, noopFunc)
 perplexity.ai##+js(aost, window.screen.height, setTimeout)
 ||perplexity.ai/rest/metrics/collect^$xhr,1p,method=post
 nytimes.com##+js(no-fetch-if, api.theathletic.com/graphql body:/PostEvent|PostImpressions/)
@@ -124836,6 +124847,8 @@ pandadoc.com##+js(rmnt, script, adBlockEnabled)
 @@||taplytics-umami.grubhub.com/jssdk/$script,1p
 ||klclick1.com^$badfilter
 ||klclick1.com^$3p
+||wurfl.io/wurfl.js$script,redirect=noopjs,domain=smartcharts.net,important
+smartcharts.net##+js(set, WURFL, {})
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
