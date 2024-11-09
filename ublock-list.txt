@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NpzQnacft7/VNlHms9pi0w
+! Checksum: cwxSmOPC7AaeOW5+308yiQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411091426
-! Last Modified: 2024年11月09日 14:26
+! Version: 202411092036
+! Last Modified: 2024年11月09日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -72431,6 +72431,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||salescs.com/liveagent/scripts/track.js
 ||salesforce.com/sfga.js
 ||salesloft.com/sl.js
+||salesmartly.com/client/log/
+||salesmartly.com/client/station/log?
 ||sascdn.com/mh_audience/
 ||sawpf.com/1.0.js$third-party
 ||saymedia.com/latest/tetrapak.js
@@ -74611,6 +74613,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.ffm.to/sl/e/$image
 ||api.invideo.io/v3/send_analytics_event
 ||api.narrativ.com/favicon.ico
+||api.samsungfind.com/log-collector
 ||api.streamelements.com/science/
 ||api.takealot.com^$ping
 ||api.tsc.ca/Tracking/v1/events/
@@ -74875,6 +74878,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||domaintools.com/buffer.pgif?
 ||dominos.co.uk/qRgAwS/
 ||dotesports.com/sp.js
+||downdetector.com/cdn-cgi/trace
 ||dp.shoprunner.com^
 ||dribbble.com/client_app/events
 ||dribbble.com/client_app/screenshot_boost_ad_events
@@ -120263,6 +120267,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||webmailrupdatekorea.firebaseapp.com^$all
 ||mail-cytanet.pages.dev^$all,to=~mail.cytanet.com.cy
 ||jhwbcvkjkshaw.weebly.com^$all,to=~webmail.shaw.ca
+||hootbio.com/bellmail$all,to=~webmail.bell.net
 ||powersolutions4u.com/*/WEBMAIL1.html^$doc
 ||phoenixvilla.rw/wp-about/*.html^$doc
 ||moonworks.in/jpcpanel/$all
@@ -120412,6 +120417,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||gimkax.com^$all
 ||dalobatter.com^$all
 ||skae3299.top^$all
+||yenrtonm3367.top^$all
 ||ecommrce-web-amazon.netlify.app^$all
 ||etisalat-amazonprime.com^$all,to=~etisalat.ae
 ||mybluehost.me/wp-admin/amz/$doc
@@ -120535,6 +120541,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||nbtbank.architect-cert.fiservapps.com^$all,to=~nbtbank.com
 ||douroweb.eu^$all,to=~bankofamerica.com
 ||gaoyinjiao.com^$all,to=~jabank.jp
+||activatecustomerduesupportdillegence.com^$all,to=~asb.co.nz
 /^https:\/\/tpbank\.[-a-z0-9]{5,}\.[a-z]{3}(?:\.vn)?\//$doc,to=~edu|~gov|~gov.vn|~tpb.vn
 ||mybluehost.me/service/*/nkl-log.php$doc,to=~nickel.eu
 ||turkiyecumhuriyetiziraatbankasi.com^$all,to=~ziraatbank.com.tr
@@ -120783,6 +120790,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||e-outlook-online.com^$all
 ||serverdata.ch^$all
 ||nilousplaypen.com^$all
+||microsoft-verify.glitch.me^$all
 ||cashum.unam.mx/wp-content/backups-dup-pro/imports/index.htm$all
 ||od.atami.no/one_drive.html$all
 ||thermovitraffic.com.mx/SharepointFileProject/$all
