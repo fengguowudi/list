@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xVpqY3AYn4TfDq+lnl2IzQ
+! Checksum: QcRe9GNqVCcZvP9D6vFrAw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411130940
-! Last Modified: 2024年11月13日 09:40
+! Version: 202411131429
+! Last Modified: 2024年11月13日 14:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1605,26 +1605,15 @@ _800x80_
 ###IK-ad-area
 ###IK-ad-block
 ###IM_AD
-###LargeRectangleAd
 ###LayoutBottomAdBox
 ###LayoutHomeAdBoxBottom
-###LeaderboardAdvertising
 ###LeftAd
 ###LeftAd1
 ###MPUAdSpace
 ###MPUadvertising
-###MPUadvertisingDetail
 ###MainAd
-###MediumRectangleAD
-###MidPageAds
-###MiddleRightRadvertisement
-###Mpu_Bottom
-###Mpu_Top
-###MyAdsId3
 ###NR-Ads
-###PaneAdvertisingContainer
 ###PromotionAdBox
-###RadAdSkyscraper
 ###RightAd
 ###RightAdBlock
 ###RightAdSpace
@@ -1640,7 +1629,6 @@ _800x80_
 ###SponsorsAds
 ###StickyBannerAd
 ###Top-ad
-###Top1AdWrapper
 ###TopADs
 ###TopAd
 ###TopAd0
@@ -57734,6 +57722,7 @@ gocomics.com##.gc-deck--is-ad
 gocomics.com##.gc-top-advertising
 letsdopuzzles.com##.gda-home-box
 kansascity.com,rotowire.com##.gdcg-oplist
+verdict.co.uk##.gdm-company-profile-unit
 just-food.com##.gdm-company-profile-unit__container
 naval-technology.com##.gdm-recommended-reports
 gearpatrol.com##.gearpatrol-ad
@@ -61466,6 +61455,7 @@ kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
 the-express.com##.stn-video-container
 si.com##.style_hfl21i-o_O-style_uhlm2
+thegrio.com##.tpd-featured-video
 bestlifeonline.com,eatthis.com,hellogiggles.com##.vi-video-wrapper
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 sportskeeda.com##.vidazoo-player-container
@@ -122535,6 +122525,10 @@ bentasker.co.uk##+js(no-xhr-if, method:POST url:pfanalytics.bentasker.co.uk)
 ||herokudns.com^$xhr,domain=darkreader.org
 ||karistudio.com/wp-content/plugins/wp-statistics/assets/js/tracker.js^$important
 ||quora.com/ajax/receive_POST^
+||facebook.com/security/hsts-pixel.gif
+||facebook.com/async/wbloks/log/
+||ingest.coincodex.com^
+||coincodex.com/cdn-cgi/trace
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
