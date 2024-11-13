@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1UfxxG+/O/knIebna45Acw
+! Checksum: xVpqY3AYn4TfDq+lnl2IzQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411130227
-! Last Modified: 2024年11月13日 02:27
+! Version: 202411130940
+! Last Modified: 2024年11月13日 09:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -63207,6 +63207,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||dodo.ac/np/images/$image,domain=nookipedia.com
 @@||doodcdn.co^$domain=dood.la|dood.pm|dood.to|dood.ws
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com
+@@||doubleclick.net/|$xmlhttprequest,domain=tvnz.co.nz
 @@||edmodo.com/ads$~third-party,xmlhttprequest
 @@||einthusan.tv/prebid.js$script,~third-party
 @@||embed.ex.co^$xmlhttprequest,domain=espncricinfo.com
