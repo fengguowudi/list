@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JP43ODjaq+CStlc18rmbPg
+! Checksum: NwJnwo5gy5Z8nNiXUoFPUw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411141429
-! Last Modified: 2024年11月14日 14:29
+! Version: 202411142042
+! Last Modified: 2024年11月14日 20:42
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -75261,7 +75261,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||domaintools.com/buffer.pgif?
 ||dominos.co.uk/qRgAwS/
 ||dotesports.com/sp.js
-||downdetector.com/cdn-cgi/trace
 ||dp.shoprunner.com^
 ||dribbble.com/client_app/events
 ||dribbble.com/client_app/screenshot_boost_ad_events
@@ -122219,16 +122218,16 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 @@||track.adtraction.com/*&url=https://www.gog.com/$popup
 ||track.adtraction.com/*^url=https://www.gog.com/$doc,urlskip=?url
 ||track.adtraction.com/*^url=https://www.gog.com/$doc,urlskip=?url -blocked
-/^https:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\?.+?&u=http/$doc,to=com|io|net,urlskip=?u
-/click-*^url=http$doc,urlskip=?url,to=dpbolvw.net|jdoqocy.com|kqzyfj.com
+/^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\?.+?&u=http/$doc,to=com|io|net,urlskip=?u
+/^https?:\/\/www\.[a-z]+\.(?:com|net)\/click-\d{7}-\d{8}\b.*?[?&]url=http/$doc,to=com|net,urlskip=?url
 ||clicks.trx-hub.com/*^q=http$doc,urlskip=?q
 ||shop-links.co/link/?url=http$doc,urlskip=?url
 ||buy.geni.us/Proxy.ashx*^GR_URL=http$urlskip=?GR_URL
 ||go.skimresources.com/*^url=http$doc,urlskip=?url
-||shareasale.com/r.cfm*^urllink=$doc,urlskip=/urllink=(\w+\.[^\/]+)/ +https -uricomponent
+||shareasale.com/r.cfm*^urllink=$doc,urlskip=/urllink=(\w+\.[^\/]+)/ -uricomponent +https
 ||prf.hn/click/*/destination:http$doc,urlskip=/\/destination:([^\/]+)/ -uricomponent
-||cc.mashable.com/v1/*^url=http$doc,urlskip=?url
-||click.pstmrk.it/*/$doc,urlskip=/\.pstmrk\.it\/[23][mst]{0,2}\/(.+)/ +https -uricomponent
+||cc.*.com/v1/otc/*?merchant=*&url=http$doc,to=com,urlskip=?url
+||click.pstmrk.it/*/$doc,urlskip=/\.pstmrk\.it\/[23][mst]{0,2}\/(.+)/ -uricomponent +https
 ||howl.me/link?url=http$doc,urlskip=?url
 ||shopping.yahoo.com/rdlw*^gcReferrer=http$doc,urlskip=?gcReferrer
 ||go.redirectingat.com/*^url=http$doc,urlskip=?url
@@ -122239,8 +122238,8 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||go.uncrate.com/*^url=http$doc,urlskip=?url
 ||llo.to/e/*^url=http$doc,urlskip=?url
 ||events.laylo.com/r/redirect*^link=http$urlskip=?link
-||streaklinks.com/*/http$doc,urlskip=/\bstreaklinks\.com\/[^\/]+\/https?%3A%2F%2F([^\/]+)/ +https -uricomponent
-||streak-link.com/*/http$doc,urlskip=/\bstreak-link\.com\/[^\/]+\/https?%3A%2F%2F([^\/]+)/ +https -uricomponent
+||streaklinks.com/*/http$doc,urlskip=/\bstreaklinks\.com\/[^\/]+\/https?%3A%2F%2F([^\/]+)/ -uricomponent +https
+||streak-link.com/*/http$doc,urlskip=/\bstreak-link\.com\/[^\/]+\/https?%3A%2F%2F([^\/]+)/ -uricomponent +https
 ||search.app^*link=http$doc,urlskip=?link
 html.duckduckgo.com,lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
 androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.com/wp-json/api/advanced_redirect?ref="], ?ref)
@@ -125078,6 +125077,7 @@ smartcharts.net##+js(set, WURFL, {})
 /^https?:\/\/.*\.(jpg|jpeg|gif|png|svg|ico|js|txt|css|srt|vtt|webp)/$popup,from=123series.ru|19turanosephantasia.com|1movieshd.cc|4anime.gg|4stream.gg|5movies.fm|720pstream.nu|745mingiestblissfully.com|adblockstrtape.link|animepahe.ru|animesultra.net|asianembed.io|bato.to|batotoo.com|batotwo.com|bigclatterhomesguideservice.com|bormanga.online|bunnycdn.ru|clicknupload.to|cloudvideo.tv|dailyuploads.net|databasegdriveplayer.co|divicast.com|dood.la|dood.pm|dood.sh|dood.so|dood.to|dood.video|dood.watch|dood.ws|dood.yt|doodcdn.com|dopebox.to|dramacool.pk|eplayvid.com|eplayvid.net|europixhd.net|exey.io|extreme-down.plus|files.im|filmestorrents.net|flashx.net|fmovies.app|fmovies.ps|fmovies.world|fraudclatterflyingcar.com|gayforfans.com|gdtot.nl|go-stream.site|gogoanime.run|gogoanimes.to|gomovies.pics|gospeljingle.com|hexupload.net|hindilinks4u.cam|hindilinks4u.nl|housecardsummerbutton.com|kaiju-no8.com|kaisen-jujutsu.com|kimoitv.com|kissanimes.net|leveling-solo.org|lookmoviess.com|magusbridemanga.com|mixdrop.sx|mkvcage.site|mlbstream.me|mlsbd.shop|mlwbd.host|movierulz.cam|movies2watch.ru|movies2watch.tv|moviesrulz.net|mp4upload.com|myflixer.it|myflixer.pw|myflixer.today|myflixertv.to|nflstream.io|ngomik.net|nkiri.com|nswgame.com|olympicstreams.co|paidnaija.com|playemulator.online|primewire.today|prmovies.org|putlocker-website.com|putlocker.digital|racaty.io|racaty.net|record-ragnarok.com|redirect-ads.com|reputationsheriffkennethsand.com|sflix.to|shadowrangers.live|skidrow-games.com|skidrowcodex.net|sockshare.ac|sockshare1.com|solarmovies.movie|speedvideo.net|sportsbay.watch|steampiay.cc|stemplay.cc|streamani.net|streamsb.net|streamsport.icu|streamta.pe|streamtape.cc|streamtape.com|streamtape.net|streamz.ws|strikeout.cc|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.me|strtpe.link|tapecontent.net|telerium.net|tinycat-voe-fashion.com|toxitabellaeatrebates306.com|turkish123.com|un-block-voe.net|upbam.org|uploadmaza.com|upmovies.net|upornia.com|uprot.net|upstream.to|upvid.co|v-o-e-unblock.com|vidbam.org|vidembed.cc|vidnext.net|vido.fun|vidsrc.me|vipbox.lc|vipleague.pm|viprow.nu|vipstand.pm|voe-un-block.com|voe-unblock.com|voe.sx|voeun-block.net|voeunbl0ck.com|voeunblck.com|voeunblk.com|voeunblock3.com|vumooo.vip|watchserieshd.tv|watchseriesstream.com|xmovies8.fun|xn--tream2watch-i9d.com|yesmovies.mn|youflix.site|youtube4kdownloader.com|ytanime.tv|yts-subs.com,badfilter
 @@||static.hentai.direct/hentai/*.jpg$popup,3p,domain=hentai2read.com
 @@||static.hentaicdn.com/hentai/*.jpg$popup,3p,domain=hentai2read.com
+forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
