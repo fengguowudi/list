@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NwJnwo5gy5Z8nNiXUoFPUw
+! Checksum: XXSkrDQDLZwViqWn+s/M8w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411142042
-! Last Modified: 2024年11月14日 20:42
+! Version: 202411150229
+! Last Modified: 2024年11月15日 02:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -16732,6 +16732,7 @@ browsershots.org#@#.advert_area
 ||absentlybiddingleopard.com^
 ||absentlygratefulcamomile.com^
 ||absentlyrindbulk.com^
+||absentmissingaccept.com^
 ||abservinean.com^
 ||abskursin.com^
 ||abslroan.com^
@@ -20500,6 +20501,7 @@ browsershots.org#@#.advert_area
 ||buttersource.com^
 ||buuftxcii.com^
 ||buxbaumiaceae.sbs^
+||buxfmookn.com^
 ||buyadvupfor24.com^
 ||buyeasy.by^
 ||buyfrightencheckup.com^
@@ -26397,6 +26399,7 @@ browsershots.org#@#.advert_area
 ||gloumsie.net^
 ||glounugeepse.xyz^
 ||glouseer.net^
+||glousoonomsy.xyz^
 ||gloussowu.xyz^
 ||gloustoa.net^
 ||gloutanacard.com^
@@ -33635,6 +33638,7 @@ browsershots.org#@#.advert_area
 ||outofthecath.org^
 ||outrotomr.com^
 ||outseeltor.com^
+||outseethoozet.net^
 ||outsetnormalwaited.com^
 ||outseylor.com^
 ||outsimiseara.com^
@@ -36873,6 +36877,7 @@ browsershots.org#@#.advert_area
 ||rhinocerosobtrusive.com^
 ||rhombicsomeday.com^
 ||rhouseoyopers.info^
+||rhoxbneasg.xyz^
 ||rhrim.com^
 ||rhsorga.com^
 ||rhubarbmasterpiece.com^
@@ -41273,6 +41278,7 @@ browsershots.org#@#.advert_area
 ||umoxomv.icu^
 ||umpedshumal.com^
 ||umqmxawxnrcp.com^
+||umtchdhkrx.com^
 ||umtudo.com^
 ||umumallowecouldl.info^
 ||unacceptableclevercapable.com^
@@ -56851,6 +56857,7 @@ lonestarlive.com##.below-toprail
 gobankingrates.com##.bestbanks-slidein
 aiscore.com##.bet365
 azscore.com##.bettingTip__buttonsContainer
+scribd.com##.between_page_portal_root
 nationalworld.com##.bfQGof
 mindbodygreen.com##.bftiFX
 theepochtimes.com##.bg-\[\#f8f8f8\]
@@ -61030,6 +61037,7 @@ winaero.com###content p:has(~ ins.adsbygoogle)
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se###headerTopBar ~ div > div:has(div#RAD_D_station_top)
 gtaforums.com###ipsLayout_mainArea div:has(> #pwDeskLbAtf)
 aleteia.org###root > div[class]:has(> .adslot)
+scribd.com###sidebar > div:has(> div > [data-e2e^="dismissible-ad-header"])
 bbc.com###sticky-mpu:has(.dotcom-ad-inner)
 gamereactor.asia,gamereactor.cn,gamereactor.com.tr,gamereactor.cz,gamereactor.de,gamereactor.dk,gamereactor.es,gamereactor.eu,gamereactor.fi,gamereactor.fr,gamereactor.gr,gamereactor.it,gamereactor.jp,gamereactor.kr,gamereactor.me,gamereactor.nl,gamereactor.no,gamereactor.pl,gamereactor.pt,gamereactor.se,gamereactor.vn###videoContainer:has(> [id^="videoContent-videoad-"])
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
@@ -114762,10 +114770,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 deine-tierwelt.de##.OUTBRAIN
 deine-tierwelt.de##.header-leaderboard
 deine-tierwelt.de##.js-sticky-ad
-||sexgamefun.com/images/sex-games.gif
-||sexgamefun.com/images/villa/
-sexgamefun.com##.footer_banner
-sexgamefun.com##.hidden-xs > .well:has(> a > img)
 haho.moe##+js(aeld, mouseup, decodeURIComponent)
 haho.moe##div:has(> div[title="Click to Close the Ad"])
 haho.moe##[href^="//"][style*="position: fixed;"]
@@ -114786,7 +114790,6 @@ cararegistrasi.com##+js(nano-sib, timer)
 cararegistrasi.com##+js(nowoif)
 cararegistrasi.com##a[href="https://bahasteknologi.com/"]
 pornhd8k.*###invideo_wrapper
-pornhd8k.net##.content-kus
 xxvideoss.org##+js(acs, String.fromCharCode, 'shift')
 ||xxvideoss.org/wp-content/uploads/*/bannerrtx.jpg$image,1p
 /player/html.php?aid=post_roll_html^$redirect=noopframe,frame,1p
@@ -114799,8 +114802,7 @@ qashbits.com##+js(aopr, NoAdBlock)
 qashbits.com##.mx-auto
 modapk.link##+js(aopr, app_vars.force_disable_adblock)
 modapk.link##+js(set, blurred, false)
-e-sushi.fr##+js(ra, onclick, body)
-encodinghub.com##+js(aeld, load, nextFunction)
+e-sushi.fr##+js(rmnt, script, window.open)
 freeindianporn.mobi##+js(aeld, /.?/, popMagic)
 ||xedo.me^$3p
 radionylive.com,radioitalylive.com,radiolovelive.com,radiocountrylive.com,radiosymphony.com,miamibeachradio.com,radiorockon.com,radioitaliacanada.com,radioitalianmusic.com,radioamericalatina.com,radiosantaclaus.com,radionorthpole.com,radionatale.com##+js(aopr, adp)
@@ -115030,10 +115032,6 @@ taming.io###preroll
 taming.io###main-box > #middle-wrap ~ div[id$="-left"]
 taming.io###main-box > #middle-wrap ~ div[id$="-bottom"]
 y2mate.guru##+js(nowoif)
-javstream.top##+js(set, clientSide.adbDetect, noopFunc)
-javstream.top##+js(nowoif)
-javstream.top##+js(aopr, jwplayer.utils.Timer)
-javstream.top##+js(aopr, __Y)
 todaypk.*,todaypktv.*,1todaypk.*,watchtodaypk.com##+js(nowoif)
 1todaypk.*,todaypk.*,watchtodaypk.com##[href="/watchnow.php"]
 todaypk.*##[href="/watchfree.php"]
@@ -115710,10 +115708,9 @@ imasdk.googleapis.com##+js(no-xhr-if, vod.provider.plex.tv/ad?, war:noop-vast3.x
 ||neonime.*/wp-content/themes/grifus/images/donate/yunita/
 discoveryplus.in##+js(no-fetch-if, ads)
 ||appnext.hs.llnwd.net^
-olympicstreams.me,vipboxtv.*##+js(nowoif, //)
+vipboxtv.*##+js(nowoif, //)
 vipboxtv.*##+js(aopr, Adcash)
 ||raw.githubusercontent.com/*/just-detect-adblock/*$3p,xhr,redirect-rule=nooptext
-olympicstreams.me##.position-absolute
 /vppdzdrw.js
 buffstreams.*##+js(nowoif)
 buffstreams.*##+js(acs, setTimeout, admc)
@@ -116095,8 +116092,6 @@ neos-easygames.com,synk-casualgames.com#@##ad_block
 ||tny.so^$3p
 hitproversion.com##.onp-sl-content:style(display:block !important)
 hitproversion.com##.onp-sl-social-locker
-mavplay.xyz##+js(aeld, , _blank)
-math-drills.com#@#.ad-block
 @@||allsmo.com^$ghide
 allsmo.com##[id^="ezoic-pub-ad-placeholder"]
 *$xhr,redirect-rule=nooptext,domain=costumbresmexico.com
@@ -116156,8 +116151,6 @@ sharetext.me##+js(set, isAdBlockActive, false)
 theblissempire.com##+js(aopr, app_vars.force_disable_adblock)
 theblissempire.com##+js(set, blurred, false)
 theblissempire.com##+js(aopr, open)
-kisscartoon.info##.offads
-kisscartoon.info##.countdown
 ||max-adserv.com^$3p
 newsinlevels.com,videosinlevels.com##+js(set, sgpbCanRunAds, true)
 knightnoscanlation.com##+js(acs, eval, replace)
@@ -116194,8 +116187,6 @@ electricaltechnology.org###stream-item-widget-7
 electricaltechnology.org###stream-item-widget-2
 @@||uniquetutorialsnew.blogspot.com^$ghide
 uniquetutorialsnew.blogspot.com##ins.adsbygoogle
-theicongenerator.com,zentum.club##+js(nowoif)
-theicongenerator.com,zentum.club##+js(nano-sib, timer)
 foreca.com##main > div > div > div[class]:matches-css(width:350px)
 !#if env_mobile
 foreca.com##main > div > div > div > div[class]:matches-css(min-height:326px)
@@ -116233,7 +116224,6 @@ uproxy2.*##+js(aost, Math.floor, )
 *$script,3p,domain=uproxy2.biz
 18tube.sex##+js(aeld, getexoloader)
 18tube.sex##.opt
-pix4link.com##+js(set, blurred, false)
 liveschauen.com##.banner
 liveschauen.com###werbung
 @@||therokuchannel.roku.com/$xhr,1p
@@ -116247,7 +116237,6 @@ civilenggforall.com##+js(aopr, blockAdBlock)
 rawkuma.com##+js(aeld, readystatechange, document.removeEventListener)
 rawkuma.com##+js(aeld, mousedown, shown_at)
 .com/btag.min.js|$3p
-||sentry-cdn.com^$script,redirect-rule=noopjs,domain=freebitz.xyz
 youwatch.*##[href^="https://minilink.id/"]
 youwatch.*##.sgpb-popup-dialog-main-div-wrapper
 youwatch.*##.sgpb-popup-overlay
@@ -116319,11 +116308,6 @@ codare.fun##+js(acs, document.addEventListener, google_ad_client)
 @@||explosivemenu.com^$ghide
 explosivemenu.com##ins.adsbygoogle
 ||explosivemenu.com^$image,redirect-rule=1x1.gif,1p
-serialeonline.biz##+js(nowoif)
-serialeonline.biz###overlay
-alocdn.co##+js(aopr, BetterJsPop)
-alocdn.co##+js(aopr, doSecondPop)
-alocdn.co##+js(nowoif)
 @@||code2care.org^$ghide
 code2care.org##ins.adsbygoogle
 code2care.org##.right-content
@@ -117620,7 +117604,8 @@ live.cricket.com.au##.ad-placement, .yes
 ##.ad-link:not(.adsbox)
 #@#.ad-unit
 #@#.ad_unit
-~lamire.jp##.ad-unit:not(.text-ad):not(.textads)
+##.ad-unit:not(.text-ad):not(.textads)
+lamire.jp#@#.ad-unit:not(.text-ad):not(.textads)
 ##.ad_unit:not(.text-ad)
 #@#[data-ad-module]
 #@#[data-ad-width]
@@ -120470,11 +120455,14 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||uwelldeutschland.com^$all,to=~myuwell.com
 ||user.fm/files/*/AbsaOnlinePop.html^$doc,to=~absa.co.za
 ||user.fm/files/*/ProofOfPayment.HTML^$doc
+||rampostsouthafrican-*.codeanyapp.com^$all,to=~ram.co.za
+||codeanyapp.com/southafrica/*/PAYU^$doc,to=~ram.co.za
 ||vercel.app/magi/olde/saac-wetr-magi.html^$doc,to=~wetransfer.com
 ||download-wetransfer-*.vercel.app^$doc,to=~wetransfer.com
 ||specific-sample-orderline.vercel.app^$all,to=~wetransfer.com
 ||purring-wood-magnolia.glitch.me^$all,to=~wetransfer.com
 ||wetransferlogin.freewebhostmost.com^$all,to=~wetransfer.com
+||bingkasprogram-*.xdbng.com^$all
 ||auth-llbc.elementfx.com^$all,to=~leboncoin.fr
 ||epayln.site.tb-hosting.com^$all,to=~leboncoin.fr
 ||shawupdatingservic.wixstudio.io^$all,to=~webmail.shaw.ca
@@ -120721,6 +120709,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||vmb.wvs.mybluehost.me^$doc,to=~amendes.gouv.fr
 ||mybluehost.me/*/amendes2024org/$doc,to=~amendes.gouv.fr
 ||kby.oqp.mybluehost.me^$doc,to=~amendes.gouv.fr
+||vdv.oqp.mybluehost.me^$doc,to=~amendes.gouv.fr
+||mybluehost.me/*/3dsec.php^$doc,to=~amendes.gouv.fr
 ||wcomhost.com/amendes-gouv/$doc,to=~amendes.gouv.fr
 ||wcomhost.com/impots-gouv/$doc,to=~impots.gouv.fr
 ||impotsgouv.*.wcomhost.com^$doc,to=~impots.gouv.fr
@@ -122561,8 +122551,7 @@ bentasker.co.uk##+js(no-xhr-if, method:POST url:pfanalytics.bentasker.co.uk)
 ||quora.com/ajax/receive_POST^
 ||facebook.com/security/hsts-pixel.gif
 ||facebook.com/async/wbloks/log/
-||ingest.coincodex.com^
-||coincodex.com/cdn-cgi/trace
+||windowspro.de/stats/
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
