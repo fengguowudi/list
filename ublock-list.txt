@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XXSkrDQDLZwViqWn+s/M8w
+! Checksum: P9lXsLgkRCI4wOeoSq0aPw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411150229
-! Last Modified: 2024年11月15日 02:29
+! Version: 202411150946
+! Last Modified: 2024年11月15日 09:46
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57652,6 +57652,7 @@ bdnews24.com##.floating-ad-bottom
 chaseyoursport.com##.floating-adv
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.floatingWrapper
 thehindu.com##.flooting-ad
+frankspeech.com##.flyer-space
 golinuxcloud.com##.flying-carpet
 momjunction.com,stylecraze.com##.flying-carpet-wrapper
 emergencyemail.org,out.com##.footer
@@ -114368,6 +114369,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
+@@||zillow.com/rental-manager/proxy/rental-manager-api/api/v1/users/freemium/analytics/pageViews$~third-party
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 !! https://old.reddit.com/r/uBlockOrigin/comments/1czbcvg/foundit_is_blocking_searches_until_ublock_origin/
 @@||media.foundit.*/trex/public/theme_3/dist/js/userTracking.js$script,~third-party
@@ -120351,6 +120353,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||youtube.com/@tesla.Iive.officiaI.24^$doc
 ||elondonald.com^$all
 ||musktrump.io^$all
+||stage3-last.pro^$all
 ||arbitragebot.team^$all
 ||arbitrageinstruction.media^$all
 ||arbitrageproject.blog^$all
@@ -121934,6 +121937,7 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 /^https:\/\/winterpaymen[a-z]{2,5}\.top\//$doc,to=top|~gov.uk
 ||securevault.top^$all
 ||usps.com-*.live^$doc,to=live|~usps.com
+||orcaslicer.info^$doc
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
