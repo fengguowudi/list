@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P9lXsLgkRCI4wOeoSq0aPw
+! Checksum: GuputTL85z5upGZq3lO4lg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411150946
-! Last Modified: 2024年11月15日 09:46
+! Version: 202411151433
+! Last Modified: 2024年11月15日 14:33
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56896,7 +56896,7 @@ hellenicshippingnews.com##.bigbanner
 advocate.com##.bigbox_top_ad-wrap
 scienceabc.com##.bigincontentad
 snokido.com##.bigsquare
-9gag.com,aerotime.aero,blackpoolgazette.co.uk,bundesliga.com,farminglife.com,hotstar.com,ipolitics.ca,lep.co.uk,northamptonchron.co.uk,qpbriefing.com,scotsman.com,shieldsgazette.com,talksport.com,the-sun.com,thescottishsun.co.uk,thestar.co.uk,thesun.co.uk,thesun.ie##.billboard
+9gag.com,aerotime.aero,blackpoolgazette.co.uk,bundesliga.com,farminglife.com,hotstar.com,ipolitics.ca,lep.co.uk,northamptonchron.co.uk,qpbriefing.com,scotsman.com,shieldsgazette.com,talksport.com,techforbrains.com,the-sun.com,thescottishsun.co.uk,thestar.co.uk,thesun.co.uk,thesun.ie##.billboard
 nypost.com,pagesix.com##.billboard-overlay
 electronicproducts.com##.billboard-wrap
 weatherpro.com##.billboard-wrapper
@@ -57408,7 +57408,7 @@ hanime.tv##.desktop.htvad
 randomarchive.com##.desktop[style="text-align:center"]
 australiangolfdigest.com.au##.desktop_header
 inquirer.net##.desktop_smdc-FT-survey
-cyclingstage.com,news18.com##.desktopad
+cyclingstage.com,news18.com,techforbrains.com##.desktopad
 news18.com##.desktopadh
 coingape.com##.desktopds
 news18.com##.desktopflex
@@ -59687,7 +59687,7 @@ allnigerianrecipes.com,antimusic.com,roadtests.com##.topad
 cycleexif.com,thespoken.cc##.topban
 eurointegration.com.ua##.topban_r
 axisbank.com##.topbandBg_New
-algemeiner.com,allmonitors24.com,streamable.com##.topbanner
+algemeiner.com,allmonitors24.com,streamable.com,techforbrains.com##.topbanner
 drugs.com##.topbanner-wrap
 videogamemods.com##.topbanners
 papermag.com##.topbarplaceholder
@@ -59882,7 +59882,7 @@ gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,goonhammer.com,joemygod.com,shtfplan.com,thestrongtraveller.com,usmagazine.com##.widget_block
 wplift.com##.widget_bsa
 techweekmag.com##.widget_codewidget
-4sysops.com,9to5linux.com,arcadepunks.com,backthetruckup.com,catcountry941.com,cnx-software.com,corrosionhour.com,corvetteblogger.com,dailyveracity.com,dcrainmaker.com,discover.is,fastestvpns.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,iwatchsouthparks.com,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceabc.com,scienceandliteracy.org,spokesman-recorder.com,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com##.widget_custom_html
+4sysops.com,9to5linux.com,arcadepunks.com,backthetruckup.com,catcountry941.com,cnx-software.com,corrosionhour.com,corvetteblogger.com,dailyveracity.com,dcrainmaker.com,discover.is,fastestvpns.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,iwatchsouthparks.com,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceabc.com,scienceandliteracy.org,spokesman-recorder.com,survivopedia.com,techdows.com,techforbrains.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com##.widget_custom_html
 insidehpc.com##.widget_download_manager_widget
 domaingang.com##.widget_execphp
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
@@ -120349,11 +120349,12 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||foundations-x2024.*^$doc,to=foundations-x2024.*
 ||foundations-x2024.cloud^$doc
 ||foundations-x2024.sbs^$doc
-||trump-drop.org^$doc
+||trump-drop.org^$all
 ||youtube.com/@tesla.Iive.officiaI.24^$doc
 ||elondonald.com^$all
 ||musktrump.io^$all
-||stage3-last.pro^$all
+||stage3-last.$doc,to=~edu|~gov
+||stage2024.$doc,to=~edu|~gov
 ||arbitragebot.team^$all
 ||arbitrageinstruction.media^$all
 ||arbitrageproject.blog^$all
@@ -122212,7 +122213,7 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 @@||track.adtraction.com/*&url=https://www.gog.com/$popup
 ||track.adtraction.com/*^url=https://www.gog.com/$doc,urlskip=?url
 ||track.adtraction.com/*^url=https://www.gog.com/$doc,urlskip=?url -blocked
-/^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\?.+?&u=http/$doc,to=com|io|net,urlskip=?u
+/^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\?.*?&?u=http/$doc,to=com|io|net,urlskip=?u
 /^https?:\/\/www\.[a-z]+\.(?:com|net)\/click-\d{7}-\d{8}\b.*?[?&]url=http/$doc,to=com|net,urlskip=?url
 ||clicks.trx-hub.com/*^q=http$doc,urlskip=?q
 ||shop-links.co/link/?url=http$doc,urlskip=?url
@@ -122234,6 +122235,7 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||events.laylo.com/r/redirect*^link=http$urlskip=?link
 ||streaklinks.com/*/http$doc,urlskip=/\bstreaklinks\.com\/[^\/]+\/https?%3A%2F%2F([^\/]+)/ -uricomponent +https
 ||streak-link.com/*/http$doc,urlskip=/\bstreak-link\.com\/[^\/]+\/https?%3A%2F%2F([^\/]+)/ -uricomponent +https
+||app.hive.co/email/elt/*^next=http$doc,urlskip=?next
 ||search.app^*link=http$doc,urlskip=?link
 html.duckduckgo.com,lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
 androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.com/wp-json/api/advanced_redirect?ref="], ?ref)
@@ -122271,8 +122273,8 @@ justwatch.com##+js(href-sanitizer, 'a:is([href^="https://click.justwatch.com/"],
 variety.com##+js(href-sanitizer, a[href^="https://clicks.trx-hub.com/"][href*="bn5x.net"], ?q?u)
 engadget.com##+js(href-sanitizer, a[href^="https://shopping.yahoo.com/rdlw?"][href*="gcReferrer=http"], ?gcReferrer)
 cnet.com##+js(set, Object.prototype.updateModifiedCommerceUrl, noopFunc)
-cnet.com,hunker.com,pcgamingwiki.com,sheknows.com,streetinsider.com##+js(href-sanitizer, 'a[href*="u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"])', ?u)
-cnet.com,hunker.com,otherweb.com,pcgamingwiki.com##+js(href-sanitizer, 'a[href*="url=http"]:is([href^="https://cc.mashable.com/v1/"],[href^="https://go.skimresources.com?"],href^="https://shop-links.co/link/?url=http"],[href*=".com/click-"],[href*=".net/click-"])', ?url)
+cnet.com,hunker.com,pcgamingwiki.com,purewow.com,sheknows.com,streetinsider.com##+js(href-sanitizer, 'a[href*="u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"])', ?u)
+cnet.com,hunker.com,otherweb.com,pcgamingwiki.com,purewow.com##+js(href-sanitizer, 'a[href*="url=http"]:is([href^="https://cc."][href*=".com/v1/otc/"][href*="merchant="],[href^="https://go.skimresources.com"],[href^="https://shop-links.co/link/?url=http"],[href*=".com/click-"],[href*=".net/click-"])', ?url)
 windowscentral.com##+js(href-sanitizer, a[href^="https://go.redirectingat.com/"][href*="&url=http"], ?url)
 ||cdn.digg.com/fragments/homepage/static/view-frontpage.js
 /detroitchicago/dpv.gif?$image
