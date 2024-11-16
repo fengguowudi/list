@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: W8u2trUx6Rj+NWChKb7yPQ
+! Checksum: GZ9Bm3l3hN567Z+KhINk2Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411160229
-! Last Modified: 2024年11月16日 02:29
+! Version: 202411160944
+! Last Modified: 2024年11月16日 09:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15171,6 +15171,7 @@ _800x80_
 ###gpt-dynamic_native_article_4
 ###gpt-high_impact
 ###gpt-poster
+##.gnt_em_vp__tavp
 ##.gnt_em_vp_c[data-g-s="vp_dk"]
 ##.gnt_flp
 ##.gnt_rr_xpst
@@ -21421,6 +21422,7 @@ browsershots.org#@#.advert_area
 ||click.scour.com^
 ||click4free.info^
 ||clickadin.com^
+||clickadsource.com^
 ||clickagy.com^
 ||clickalinks.xyz^
 ||clickallow.net^
@@ -39675,6 +39677,7 @@ browsershots.org#@#.advert_area
 ||syiwgwsqwngrdw.xyz^
 ||sykfmgu.com^
 ||syllableliking.com^
+||syllabusbastardchunk.com^
 ||syllabusimperfect.com^
 ||syllabuspillowcasebake.com^
 ||sylxisys.com^
@@ -47281,6 +47284,7 @@ browsershots.org#@#.advert_area
 ||clentrk.com^$popup
 ||clerkrevokesmiling.com^$popup
 ||click-cdn.com^$popup
+||clickadsource.com^$popup
 ||clickalinks.xyz^$popup
 ||clickbank.net/*offer_id=$popup
 ||clickdaly.com^$popup
@@ -55109,6 +55113,9 @@ pikalytics.com###dex-list-0
 scoop.co.nz###dfp-shadow
 flyordie.com###dgad
 datagenetics.com###dgsidebar
+webgames.io###di-ai-left
+webgames.io###di-ai-right
+webgames.io###di-ai-right-big
 tmo.report###directad
 realclearpolitics.com###distro_right_rail
 tribunnews.com###div-Inside-MediumRectangle
@@ -55843,6 +55850,7 @@ macmillandictionary.com,macmillanthesaurus.com,oxfordlearnersdictionaries.com###
 atomic-robo.com###topspace
 charlieintel.com###topunit
 bmj.com###trendmd-suggestions
+devast.io###trevda
 jigsawplanet.com###tsi-9c55f80e-3
 pcworld.com,techhive.com###tso
 trumparea.com###udmvid
@@ -56807,6 +56815,7 @@ benzinga.com,primewire.link##.banner-wrapper
 depositfiles.com,dfiles.eu##.banner1
 gsprating.com##.banner2
 coinalpha.app##.bannerAdv
+brutal.io##.bannerBox
 arras.io##.bannerHolder
 alternativeto.net##.bannerLink
 securenetsystems.net##.bannerPrerollArea
@@ -57375,6 +57384,7 @@ thestreamable.com##.d-md-flex
 publish0x.com##.d-md-none.text-center
 arbiscan.io##.d-none.text-center.pl-lg-4.pl-xll-5
 cutyt.com,onlineocr.net,publish0x.com##.d-xl-block
+techonthenet.com##.d0230ed3
 artsy.net##.dDusYa
 yourstory.com##.dJEWSq
 fxempire.com##.dKBfBG
@@ -57577,6 +57587,7 @@ futuregaming.io##.ez-video-wrap
 cgpress.org##.ezlazyloaded.header-wrapper
 chorus.fm##.f-soc
 formula1.com##.f1-dfp-banner-wrapper
+techonthenet.com##.f16bdbce
 audiophilereview.com##.f7e65-midcontent
 audiophilereview.com##.f7e65-sidebar-ad-widget
 globimmo.net##.fAdW
@@ -59289,6 +59300,7 @@ metalsucks.net##.single-300-insert
 lgbtqnation.com##.single-bottom-ad
 9to5mac.com##.single-custom-post-ad
 kolompc.com##.single-post-content > center
+geoawesome.com##.single-post__extra-info
 abovethelaw.com##.single-post__sponsored-post--desktop
 policyoptions.irpp.org##.single__ad
 mixonline.com##.site-ad
@@ -60601,6 +60613,7 @@ greekreporter.com##center > p > [href]
 pricehistoryapp.com##center[class^="min-h-"]
 builtbybit.com##center[style="margin-top: 20px"]
 weatherbug.com##display-ad-widget
+wings.io##div > [href="https://mechazilla.io"]
 readonepiece.com##div > b
 coffeeordie.com##div.HtmlModule > [href]
 web.telegram.org##div.bubbles > div.scrollable > div.bubbles-inner > div.is-sponsored
@@ -61098,6 +61111,7 @@ upfivedown.com##.entry > hr.wp-block-separator:has(+ .has-text-align-center)
 insidehpc.com##.featured-728x90-ad
 morrisons.com##.featured-items:has(.js-productCarouselFops)
 morrisons.com##.fops-item:has([title="Advertisement"])
+wings.io##.form-group center:has-text(Advertisement)
 pigglywigglystores.com##.fp-item:has(.fp-tag-ad)
 slickdeals.net##.frontpageGrid__feedItem:has(.dealCardBadge--promoted)
 tumblr.com##.ge_yK:has(.hM19_)
@@ -63473,6 +63487,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||mail.google.com^$generichide
 @@||material.angular.io^$generichide
 @@||material.io^$generichide
+@@||matlab.mathworks.com^$generichide
 @@||max.com^$generichide
 @@||meet.google.com^$generichide
 @@||morphic.sh^$generichide
@@ -121946,6 +121961,12 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||marabase-bi.com^$doc,to=~mara.com
 ||ev.ri-7a5935gb.com^$all,to=~evri.com
 ||ev.ri-*gb.com^$doc,to=~evri.com
+/^https:\/\/www\.air-?up-?[a-z]{2,}\.com\//$doc,to=com|~air-up.com
+/^https:\/\/www\.xn--airup[a-z]{5,6}-[a-z0-9]{3}\.com\//$doc,to=com|~air-up.com
+||airupgreece.net^$doc,to=~air-up.com
+||airupromania.ro^$doc,to=~air-up.com
+||airupitaly.it^$doc,to=~air-up.com
+||airupfrance.fr^$doc,to=~air-up.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -132124,7 +132145,7 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Tue, 12 Nov 2024 12:45:46 GMT
-# entries:        3557
+# entries:        3537
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -132859,7 +132880,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 adserverpub.com
 127.0.0.1 adserversolutions.com
 127.0.0.1 adserverxxl.de
-127.0.0.1 adservetx.media.net
 127.0.0.1 adservice.google.com
 127.0.0.1 adservice.google.com.mt
 127.0.0.1 adserving.unibet.com
@@ -132944,7 +132964,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 advert.dyna.ultraweb.hu
 127.0.0.1 adverticum.com
 127.0.0.1 adverticum.net
-127.0.0.1 adverticus.de
 127.0.0.1 advertise.com
 127.0.0.1 advertiseireland.com
 127.0.0.1 advertiserurl.com
@@ -133105,7 +133124,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 aserv.motorsgate.com
 127.0.0.1 asewlfjqwlflkew.com
 127.0.0.1 aso1.net
-127.0.0.1 assets1.exgfnetwork.com
 127.0.0.1 assoc-amazon.com
 127.0.0.1 aswpapius.com
 127.0.0.1 aswpsdkus.com
@@ -133657,7 +133675,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 dockdigestion.com
 127.0.0.1 dogcollarfavourbluff.com
 127.0.0.1 domaining.in
-127.0.0.1 domainsteam.de
 127.0.0.1 domdex.com
 127.0.0.1 dotmetrics.net
 127.0.0.1 dotomi.com
@@ -134138,7 +134155,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 kameleoon.eu
 127.0.0.1 kanoodle.com
 127.0.0.1 kargo.com
-127.0.0.1 keymedia.hu
 127.0.0.1 kindads.com
 127.0.0.1 kissmetrics.com
 127.0.0.1 klclick.com
@@ -134247,7 +134263,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 loadsurprise.com
 127.0.0.1 locked4.com
 127.0.0.1 lockerdome.com
-127.0.0.1 locpub.com
 127.0.0.1 log.btopenworld.com
 127.0.0.1 log.logrocket.io
 127.0.0.1 log.pinterest.com
@@ -134367,7 +134382,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 metrics.articulate.com
 127.0.0.1 metrics.cnn.com
 127.0.0.1 metrics.consumerreports.org
-127.0.0.1 metrics.ctv.ca
 127.0.0.1 metrics.foxnews.com
 127.0.0.1 metrics.getrockerbox.com
 127.0.0.1 metrics.gfycat.com
@@ -134412,7 +134426,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 monarchads.com
 127.0.0.1 monetate.net
 127.0.0.1 monetizer101.com
-127.0.0.1 moneyexpert.co.uk
 127.0.0.1 monsterpops.com
 127.0.0.1 mookie1.com
 127.0.0.1 mopub.com
@@ -134594,7 +134607,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 overkick.com
 127.0.0.1 overture.com
 127.0.0.1 ow.pubmatic.com
-127.0.0.1 owebanalytics.com
 127.0.0.1 owebmoney.ru
 127.0.0.1 owlsr.us
 127.0.0.1 owneriq.net
@@ -134609,7 +134621,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 pageranktop.com
 127.0.0.1 painstakingpickle.com
 127.0.0.1 paleleaf.com
-127.0.0.1 panickycurtain.com
 127.0.0.1 panickypancake.com
 127.0.0.1 panoramicplane.com
 127.0.0.1 parachutehome.sjv.io
@@ -134706,7 +134717,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 postrelease.com
 127.0.0.1 ppc.adhere.marchex.com
 127.0.0.1 pr-star.de
-127.0.0.1 praddpro.de
 127.0.0.1 prchecker.info
 127.0.0.1 prebid.org
 127.0.0.1 predictad.com
@@ -134736,7 +134746,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 promote.pair.com
 127.0.0.1 promotions-884485.c.cdn77.org
 127.0.0.1 pronetadvertising.com
-127.0.0.1 proof-x.com
 127.0.0.1 propellerads.com
 127.0.0.1 propellerclick.com
 127.0.0.1 proper.io
@@ -134748,7 +134757,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 proton-tm.com
 127.0.0.1 protraffic.com
 127.0.0.1 provenpixel.com
-127.0.0.1 provexia.com
 127.0.0.1 prpops.com
 127.0.0.1 prsitecheck.com
 127.0.0.1 pstmrk.it
@@ -134859,7 +134867,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 redirectvoluum.com
 127.0.0.1 redrection.pro
 127.0.0.1 redshell.io
-127.0.0.1 reduxmedia.com
 127.0.0.1 referralware.com
 127.0.0.1 referrer.disqus.com
 127.0.0.1 regnow.com
@@ -134986,7 +134993,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 secretspiders.com
 127.0.0.1 secure.webconnect.net
 127.0.0.1 securedopen-bp.com
-127.0.0.1 securely-protectsoft.com
 127.0.0.1 securemetrics.apple.com
 127.0.0.1 securemetrics.apple.com.cn
 127.0.0.1 sedoparking.com
@@ -135086,7 +135092,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 somniture.stuff.co.nz
 127.0.0.1 somoaudience.com
 127.0.0.1 sonobi.com
-127.0.0.1 sordidsmile.com
 127.0.0.1 sortable.com
 127.0.0.1 sourcepoint.vice.com
 127.0.0.1 sovrn.com
@@ -135194,7 +135199,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 succeedscene.com
 127.0.0.1 sugoicounter.com
 127.0.0.1 sulkycook.com
-127.0.0.1 summerhamster.com
 127.0.0.1 summerobject.com
 127.0.0.1 sumo.com
 127.0.0.1 sumome.com
@@ -135377,8 +135381,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 tracker.metricswave.com
 127.0.0.1 tracker.mmdlv.it
 127.0.0.1 tracker.samplicio.us
-127.0.0.1 tracking.28-91473-wbm.co.uk
-127.0.0.1 tracking.39-bb4a9-osm.co.uk
 127.0.0.1 tracking.42-01pr5-osm-secure.co.uk
 127.0.0.1 tracking.5-47737-bi.co.uk
 127.0.0.1 tracking.epicgames.com
@@ -135548,7 +135550,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 voluumtrk2.com
 127.0.0.1 vpon.com
 127.0.0.1 vrs.cz
-127.0.0.1 vs.tucows.com
 127.0.0.1 vtracy.de
 127.0.0.1 vungle.com
 127.0.0.1 w55c.net
