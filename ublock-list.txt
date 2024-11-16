@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lPl1cbEybxTEI70puAeRDg
+! Checksum: 0wNNofTJQxYU5BvFLV2gqA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411161428
-! Last Modified: 2024年11月16日 14:28
+! Version: 202411162039
+! Last Modified: 2024年11月16日 20:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -74419,7 +74419,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.popin.cc/conversion2.js
 ||appront.net/click.js
 ||asumi.shinobi.jp^
-||b.karte.io^
 ||b.sli-spark.com^
 ||b0.yahoo.co.jp^
 ||bance.jp/bnctag.js
@@ -74456,6 +74455,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ipcheck.blogsys.jp^
 ||jal.co.jp/common_rn/img/rtam.gif
 ||jal.co.jp/common_rn/js/rtam.js
+||karte.io/libs/tracker.
+||karte.io/mirror-record/
+||karte.io/rewrite-log/
 ||kccsrecommend.site/torimochi_log/
 ||kitchen.juicer.cc^
 ||l-tike.com/akam/$script
@@ -74469,6 +74471,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.popin.cc^
 ||log000.goo.ne.jp^
 ||logger.torimochi-ad.net^
+||logs.chatboost-cv.algoage.co.jp^
 ||macromill.com/imp/
 ||mail-count.matsui.co.jp^
 ||metrics.streaks.jp^
@@ -113632,6 +113635,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||stats.nhk.or.jp^
 ||sy.amebame.com^
 ||sy.ameblo.jp^
+||t.rentio.jp^
 ||t.syosetu.org^
 ||tanweb.net/wordpress/?rest_route=/sng/v1/page-count
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare_
@@ -114356,6 +114360,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||static.cloud.coveo.com/coveo.analytics.js/$domain=cabelas.com
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
 @@||static.knowledgehub.com/global/images/ping.gif?$~third-party
+@@||stats.gleague.nba.com/templates/angular/tables/events/shots.html$~third-party
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
 @@||stats.sports.bellmedia.ca^$domain=rds.ca|tsn.ca
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
@@ -114645,7 +114650,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||analytics.digitalpfizer.com/js/prod/pcc/pf_appmeasurement.js$domain=pfizer-covid19-vaccine.jp
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
 @@||b-cloud.templatebank.com/js/gtag.js$~third-party
-@@||b.karte.io/event$domain=online.ysroad.co.jp
 @@||bdash-cloud.com/recommend-script/$script,domain=junonline.jp
 @@||bdash-cloud.com/tracking-script/*/tracking.js$domain=junonline.jp
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
@@ -114675,7 +114679,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||js.appboycdn.com/web-sdk/$domain=kfc.co.jp
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
-@@||karte.io/libs/tracker.$domain=zf1.tohoku-epco.co.jp|zozo.jp
+@@||karte.io/libs/tracker.$domain=online.ysroad.co.jp|zf1.tohoku-epco.co.jp|zozo.jp
 @@||l.logly.co.jp/lift$script,domain=sponichi.co.jp
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
 @@||linksynergy.com/minified_logic.js$xmlhttprequest
@@ -121982,6 +121986,8 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||airupromania.ro^$doc,to=~air-up.com
 ||airupitaly.it^$doc,to=~air-up.com
 ||airupfrance.fr^$doc,to=~air-up.com
+||ftuapps.io^$doc
+||ftuapps.dev^$doc
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
