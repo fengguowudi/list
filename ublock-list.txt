@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nQ0S5cLKSCNe+pVFM9Pf8w
+! Checksum: QvuF3JVEK2movqgmGhos+w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411180227
-! Last Modified: 2024年11月18日 02:27
+! Version: 202411180948
+! Last Modified: 2024年11月18日 09:48
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15179,6 +15179,7 @@ _800x80_
 ##.gnt_x
 ##.gnt_x__lbl
 ##.gnt_xmst
+##.mntl-jwplayer-broad.article__broad-video-jw
 ###Player_Playoncontent
 ###Player_Playoncontent_footer
 ###aniview--player
@@ -54734,7 +54735,7 @@ engadget.com###LB-MULTI_ATF
 fortune.com###Leaderboard0
 naturalnews.com###MastheadRowB
 stripes.com###MidPageAd
-medicalnewstoday.com###MyFiAd
+cnet.com,medicalnewstoday.com###MyFiAd
 medicalnewstoday.com###MyFiAd0
 neatorama.com###Neatorama_300x250_300x600_160x600_ATF
 neatorama.com###Neatorama_300x250_300x600_160x600_BTF
@@ -58841,6 +58842,7 @@ washingtontimes.com##.piano-right-rail-reco
 reelviews.net##.picHolder
 locklab.com##.picwrap
 yopmail.com,yopmail.fr,yopmail.net##.pindexhautctn
+hianime.to##.pizza
 carsized.com##.pl_header_ad
 redgifs.com##.placard-wrapper
 gismeteo.com,meteofor.com,nofilmschool.com##.placeholder
