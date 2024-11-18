@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lLDl6hCN/+oBGaMFkqLG9w
+! Checksum: W4ZMMHyWOi5usgaUVcjQng
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411182045
-! Last Modified: 2024年11月18日 20:45
+! Version: 202411190230
+! Last Modified: 2024年11月19日 02:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -364,6 +364,7 @@
 /api.ads.$domain=~ads.instacart.com|~www.ads.com
 /api/ad.$script
 /api/ads?
+/api/users?token=$subdocument,third-party
 /apopwin.js$script
 /apstag.js$script
 /apu.php?
@@ -503,7 +504,6 @@
 /image/ads/*$image,domain=~edatop.com
 /image/affiliate/*$image
 /imageads/*$image
-/images/ads-$domain=~ads.com
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest,domain=~weblio.jp
 /img/aff/*$image
@@ -18895,6 +18895,7 @@ browsershots.org#@#.advert_area
 ||avgads.space^
 ||avgive3431.fun^
 ||avhduwvirosl.com^
+||avhjzemp.com^
 ||avhtaapxml.com^
 ||aviatedrasure.top^
 ||aviationbe.com^
@@ -19540,6 +19541,7 @@ browsershots.org#@#.advert_area
 ||besidesparties.com^
 ||beskittyan.com^
 ||besmeargleor.com^
+||best-girls-around.com^
 ||best-offer-for-you.com^
 ||best-prize.life^
 ||best-protection4.me^
@@ -26550,6 +26552,7 @@ browsershots.org#@#.advert_area
 ||gomain.pro^
 ||gomain2.pro^
 ||gomnlt.com^
+||gomucreu.com^
 ||gonairoomsoo.xyz^
 ||goneawaytogy.info^
 ||gonoushauw.net^
@@ -26636,6 +26639,7 @@ browsershots.org#@#.advert_area
 ||gqfuf.com^
 ||gqjdweqs.com^
 ||gqjeqaqrxexmd.com^
+||gquwuefddojikxo.xyz^
 ||gr3hjjj.pics^
 ||graboverhead.com^
 ||gracefullisten.pro^
@@ -29271,6 +29275,7 @@ browsershots.org#@#.advert_area
 ||jxvilsjyrh.com^
 ||jxxnnhdgbfo.xyz^
 ||jxybgyu.com^
+||jybaekajjmqrz.top^
 ||jycrjkuspyv.fun^
 ||jyfirjqojg.xyz^
 ||jygcv.sbs^
@@ -31668,6 +31673,7 @@ browsershots.org#@#.advert_area
 ||moonrocketaffiliates.com^
 ||moonvids.online^
 ||moonvids.space^
+||mooptoasinudy.net^
 ||mooroore.xyz^
 ||mootermedia.com^
 ||mooxar.com^
@@ -33652,6 +33658,7 @@ browsershots.org#@#.advert_area
 ||outhulem.net^
 ||outkisslahuli.com^
 ||outlayomnipresentdream.com^
+||outlayreliancevine.com^
 ||outlineappearbar.com^
 ||outloginequity.com^
 ||outlookabsorb.com^
@@ -35255,6 +35262,7 @@ browsershots.org#@#.advert_area
 ||profilingerror.online^
 ||profitablecpmgate.com^
 ||profitablecpmnetwork.com^
+||profitablecpmrate.com^
 ||profitablecreativeformat.com^
 ||profitabledisplaycontent.com^
 ||profitabledisplayformat.com^
@@ -38963,6 +38971,7 @@ browsershots.org#@#.advert_area
 ||sptrkr.com^
 ||spuezain.com^
 ||spuncomplaintsapartment.com^
+||spunorientation.com^
 ||spuppeh.com^
 ||spurproteinopaque.com^
 ||spurryalgoid.top^
@@ -39141,6 +39150,7 @@ browsershots.org#@#.advert_area
 ||steeplederivedinattentive.com^
 ||steeplesaturday.com^
 ||steepto.com^
+||steepuleltou.xyz^
 ||steeringsunshine.com^
 ||steesamax.com^
 ||steessay.com^
@@ -49651,6 +49661,7 @@ browsershots.org#@#.advert_area
 ||spotscenered.info^$popup
 ||sprinlof.com^$popup
 ||sptrkr.com^$popup
+||spunorientation.com^$popup
 ||spuppeh.com^$popup
 ||sr7pv7n5x.com^$popup
 ||srtrak.com^$popup
@@ -113601,6 +113612,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ln.ameba.jp^
 ||log-lb.skyperfectv.co.jp^
 ||log.recommend.nicovideo.jp^
+||logcollector.note.com^
 ||logql.yahoo.co.jp^
 ||m-oo-m.com/data/report/
 ||mangaraw.to/api/v1/view/
@@ -118321,6 +118333,8 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||sweet-hot-lady.top^$all
 ||ntfck.com^$all
 ||malenirt.site^$all
+||repostponing.cfd^$all
+/post/FileRotator_ID*/download.php?subid=$xhr
 ||mikkim.top^$all
 ||discordvip.createsocialcard.top^$all
 ||whatsapp-32w.pages.dev^$all
@@ -120090,6 +120104,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||e95nfjld.com^$doc
 ||orga29.com^$doc
 ||the-latest-version.com^$doc
+||book234h.fun^$doc
+||litlink.site^$doc
 ||apkmirror.co^$all
 ||webogram.org^$all
 ||webogram.ru^$all
@@ -121471,6 +121487,19 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||tb88789.com^$all,to=~shopee.vn
 ||tikione.vip^$all,to=~tiki.vn
 ||tikifreeship.$all,to=~tiki.vn
+||tiktok-svip*.com^$all,to=~tiktok.com
+||evaluatetravels.com^$all,to=~traveloka.com
+||ocbcccreonline.com^$all,to=~ocb.com.vn
+||khachhangcnvib.com^$all,to=~vib.com.vn
+||vimoney.credit^$all,to=~mbbank.com.vn
+||ungdung6buoc.com^$all,to=~mbbank.com.vn
+||evnsp.com^$all,to=~evn.com.vn
+||evnsspc.com^$all,to=~evn.com.vn
+||sellings-global.com^$all
+||ebayve.com^$all
+||zvogo.com^$all
+||wrgov.com^$all,to=~gov.vn
+||vn-chinhphu.com^$all,to=~dichvucong.gov.vn
 ||msk.su^$all
 ||bleyeare.com^$all
 ||hberify.com^$all
@@ -122272,6 +122301,11 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||rd.bizrate.com/rd*^t=http$doc,urlskip=?t +https
 ||engage.squarespace-mail.com/r*^u=http$doc,urlskip=?u
 /Prod/link-tracker?*redirectUrl=aHR0c$doc,urlskip=?redirectUrl -base64 -uricomponent +https
+||awin1.com/cread.php*^p=http$doc,urlskip=?p +https
+||awin1.com/cread.php*^ued=http$doc,urlskip=?ued +https
+||awin1.com/awclick.php*^p=http$doc,urlskip=?p +https
+threads.net##+js(json-prune, require.0.3.0.__bbox.define.[].2.is_linkshim_supported)
+||l.threads.net/?u=http$doc,urlskip=?u
 ||search.app^*link=http$doc,urlskip=?link
 html.duckduckgo.com,lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
 androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.com/wp-json/api/advanced_redirect?ref="], ?ref)
@@ -122312,6 +122346,8 @@ cnet.com##+js(set, Object.prototype.updateModifiedCommerceUrl, noopFunc)
 cnet.com,hunker.com,pcgamingwiki.com,purewow.com,sheknows.com,streetinsider.com##+js(href-sanitizer, 'a[href*="u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"])', ?u)
 cnet.com,hunker.com,otherweb.com,pcgamingwiki.com,purewow.com##+js(href-sanitizer, 'a[href*="url=http"]:is([href^="https://cc."][href*=".com/v1/otc/"][href*="merchant="],[href^="https://go.skimresources.com"],[href^="https://shop-links.co/link/?url=http"],[href*=".com/click-"],[href*=".net/click-"])', ?url)
 windowscentral.com##+js(href-sanitizer, a[href^="https://go.redirectingat.com/"][href*="&url=http"], ?url)
+shutupandtakemyyen.com##+js(href-sanitizer, a[href^="https://www.awin1.com/cread.php?"][href*="ued=http"], ?ued)
+shutupandtakemyyen.com##+js(href-sanitizer, a[href^="https://www.awin1.com/cread.php?"][href*="p=http"], ?p)
 ||cdn.digg.com/fragments/homepage/static/view-frontpage.js
 /detroitchicago/dpv.gif?$image
 /detroitchicago/imp.gif$ping
