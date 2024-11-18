@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MU/d2+56aYOA50zzV39W4A
+! Checksum: lLDl6hCN/+oBGaMFkqLG9w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411181431
-! Last Modified: 2024年11月18日 14:31
+! Version: 202411182045
+! Last Modified: 2024年11月18日 20:45
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53854,7 +53854,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com
 ||interestingengineering.com/partial/connatix_desktop.html
 ||jwpcdn.com^$script,domain=bgr.com|decider.com|dexerto.com
-||jwplayer.com^$domain=americansongwriter.com|dexerto.com|ginx.tv|imfdb.org|infoworld.com|kiplinger.com|lifewire.com|soulbounce.com|spokesman-recorder.com|tennis.com|thestreet.com|tomshardware.com|variety.com|whathifi.com
+||jwplayer.com^$domain=americansongwriter.com|dexerto.com|ginx.tv|imfdb.org|infoworld.com|kiplinger.com|lifewire.com|soulbounce.com|spokesman-recorder.com|tennis.com|thecooldown.com|thestreet.com|tomshardware.com|variety.com|whathifi.com
 ||live.primis.tech^$third-party
 ||minute.ly^$third-party
 ||minutemedia-prebid.com^$third-party
@@ -55353,6 +55353,9 @@ thefinancialexpress.com.bd###innerAds
 timesofmalta.com###inscroll-banner
 imagebam.com###inter > [src]
 booklife.com,yabeat.org###interstitial
+rightmove.co.uk###interstititalSlot-0
+rightmove.co.uk###interstititalSlot-1
+rightmove.co.uk###interstititalSlot-2
 lcpdfr.com###ipsLayout_mainArea > .uBlockBrokeOurSiteIpsAreaBackground
 osbot.org###ipsLayout_mainArea > div > div
 uk420.com###ipsLayout_sidebar > div[align="center"]
@@ -61566,6 +61569,7 @@ thepinknews.com##.video-player__container
 dpreview.com##.videoWrapper
 consequence.net##.video_container
 comicbook.com##.wp-block-savage-platform-primis-video
+thecooldown.com##.wp-block-tcd-multipurpose-gutenberg-block
 bigthink.com##.wrapper-connatixElements
 bigthink.com##.wrapper-connatixPlayspace
 totalprosports.com##[data-stn-player="n2psbctm"]
@@ -68574,6 +68578,7 @@ omni.soundestlink.com$image
 ||llanalytics.com^$third-party
 ||lloogg.com^$third-party
 ||lngtd.com^$third-party
+||loc.kr^$third-party
 ||localytics.com^$third-party
 ||lockview.cn^$third-party
 ||locotrack.net^$third-party
@@ -115187,7 +115192,6 @@ usagoals.*##+js(nowoif)
 haoweichi.com##+js(aopr, onload)
 haoweichi.com##.ad2
 okteve.com##+js(acs, String.fromCharCode, marginheight)
-squirtplus.com#@#.adsBanner
 msubplix.com##+js(nowoif)
 ||msubplix.com/cdn-cgi/trace$xhr,1p
 arab4media.com##+js(acs, addEventListener, nextFunction)
@@ -115485,7 +115489,6 @@ freecoursewebsite.com##ins.adsbygoogle
 codesnail.com##+js(nostif, css_class.show)
 codesnail.com##.widget_custom_html
 babytorrent.*,eztv-torrent.net##+js(aopr, decodeURI)
-pops.tv#@##adsContainer
 rojadirectatvhd.*##+js(aeld, , _0x)
 *$script,3p,domain=tanix.net
 tvn.pl##+js(json-prune, movie.advertising.ad_server playlist.movie.advertising.ad_server)
@@ -117431,7 +117434,8 @@ wpking.in##+js(acs, eval, replace)
 #@#.Ad-Container
 #@#.sidebar-ad
 ##.Ad-Container:not(.adsbygoogle)
-~ekitan.com,~kissanadu.com##.sidebar-ad:not(.adsbygoogle)
+##.sidebar-ad:not(.adsbygoogle)
+ekitan.com,kissanadu.com#@#.sidebar-ad:not(.adsbygoogle)
 ##.stream-item-widget
 @@||printablebricks.com^$ghide
 orgasmatrix.com##.card.post:has([href*="landing."])
@@ -117587,23 +117591,28 @@ mangastream.mobi###myModal
 ###ad_728:not([style^="position: absolute; left: -5000px"])
 ###ad_area:not([style^="position: absolute; left: -5000px"])
 ###ad_big:not([style^="position: absolute; left: -5000px"])
-~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
+###ad_box:not([style^="position: absolute; left: -5000px"])
+zunda.site#@##ad_box:not([style^="position: absolute; left: -5000px"])
 ###ad_footer:not([style^="position: absolute; left: -5000px"])
 ###ad_slot:not([style^="position: absolute; left: -5000px"])
-~musmus.main.jp,~streetinsider.com###ad_space:not([style^="position: absolute; left: -5000px"])
-~freehostbox.net,~hatenablog.com,~puzzle-ch.com###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
+###ad_space:not([style^="position: absolute; left: -5000px"])
+musmus.main.jp,streetinsider.com#@##ad_space:not([style^="position: absolute; left: -5000px"])
+###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
+freehostbox.net,hatenablog.com,puzzle-ch.com#@##adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
 ###adheader:not([style^="position: absolute; left: -5000px"])
 ###ads-1:not([style^="position: absolute; left: -5000px"])
 ###ads-banner:not([style^="position: absolute; left: -5000px"])
 ###ads-footer:not([style^="position: absolute; left: -5000px"])
-~ma-bank.net,~rxlife.net,~video.tv-tokyo.co.jp###adspace:not([style^="position: absolute; left: -5000px"])
+###adspace:not([style^="position: absolute; left: -5000px"])
+ma-bank.net,rxlife.net,video.tv-tokyo.co.jp#@##adspace:not([style^="position: absolute; left: -5000px"])
 ###adsquare:not([style^="position: absolute; left: -5000px"])
 ###banner468:not([style^="position: absolute; left: -5000px"])
 ###banner728x90:not([style^="position: absolute; left: -5000px"])
 xnxx.com,xvideos.*###ad-footer
 live.cricket.com.au##.ad-placement, .yes
 #@#.google-ad
-~mmiyue.com##.google-ad:not(.testAd)
+##.google-ad:not(.testAd)
+mmiyue.com#@#.google-ad:not(.testAd)
 /ads-prebid.js$script,redirect-rule=prebid-ads.js
 /prebid-ads.js$script,redirect-rule=prebid-ads.js,domain=~exey.io
 /prebid-ads/adsensebase.js$script,redirect-rule=prebid-ads.js
@@ -118631,7 +118640,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||99box.com^$all
 ||ezadblocker.com^$all
 ||watchadsfree.com^$all
-||discordoauthverification.onrender.com^$all
 ||barlear.ru^$all
 ||kaminarisubs.net^$all
 ||galeden.cn^$all
