@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YZH9FPzZuf1xSNcxXoCQIA
+! Checksum: tWwdlqQtgzZ/XklF1UYNQA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411191430
-! Last Modified: 2024年11月19日 14:30
+! Version: 202411192044
+! Last Modified: 2024年11月19日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -45609,6 +45609,7 @@ browsershots.org#@#.advert_area
 ||germaniavid.com^$third-party
 ||girls.xyz^$third-party
 ||goadserver.com^$third-party
+||goclicknext.com^$third-party
 ||gourmetads.com^$third-party
 ||gplinks.in^$third-party
 ||grabo.bg^$third-party
@@ -55460,7 +55461,7 @@ hackerbot.net###madiv
 hackerbot.net###madiv2
 hackerbot.net###madiv3
 animehub.ac###main-content > center
-slashdot.org###main-nav-badge
+slashdot.org###main-nav-badge-link
 proprivacy.com###main-popup
 w3big.com,w3schools.com###mainLeaderboard
 express.co.uk###mantis-recommender-placeholder
@@ -58178,6 +58179,7 @@ darkreader.org##.instinctools
 flixboss.com##.instream-dynamic
 lol.ps##.instream-video-ad
 capitalfm.com##.instream_item
+dermstore.com,lookfantastic.com##.integration-sponsored-ads-pdp-container
 coincarp.com##.interact-mobileBox
 monochrome-watches.com##.interscroll
 mrctv.org,newsbusters.org##.intranet-mid-size
@@ -59455,6 +59457,7 @@ washingtontimes.com##.sponsored-heading
 itweb.co.za##.sponsored-highlights
 breakingdefense.com##.sponsored-inline
 freesvg.org##.sponsored-main-detail
+dermstore.com,lookfantastic.com##.sponsored-product-plp
 justwatch.com##.sponsored-recommendation
 crn.com##.sponsored-resources
 search.brave.com##.sponsored-unit_wrapper
@@ -75916,6 +75919,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||notion.so/api/v*/teV1
 ||novanthealth.org/v1/tagular/beam
 ||novelcool.com/files/js/yh_tj.js
+||npa.thetimes.com/stats
 ||nr-data.noelleeming.co.nz^
 ||nr.noelleeming.co.nz^
 ||ntvid.online/cdn-cgi/trace
@@ -75947,6 +75951,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.sfx.ms/is/invis.gif
 ||pac.thescottishsun.co.uk^
 ||pac.thesun.co.uk^
+||pac.thetimes.com^
 ||papi.stylar.ai^
 ||pappagallu.onefootball.com^
 ||pardot.com/pd.js
@@ -118599,7 +118604,7 @@ origincrack.com##center > button
 ||smartklick.biz^$all
 ||zoosk.online^$all
 ||fulptube.org^$all
-*/bouncy.php?*&inPopUp=$all
+/bouncy.php?*&inPopUp=$all
 ||onpharmvermen.com^$doc
 ||sale24-pills.com^$doc
 ||hdvideosnet.com^
@@ -118613,7 +118618,6 @@ origincrack.com##center > button
 /?c=propeller&lpid=$all
 ||geoflix.me^$all
 ||skymods.net^$all
-||hypixelstorexyz.pages.dev^$all
 ||slugmefilehos.xyz^$all
 ||tinyurl.com/setup-full-version$doc
 torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
@@ -120655,6 +120659,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||messagerie*.yolasite.com^$doc
 ||disponible.temp.swtest.ru/*/login.php^$all,to=~orange.fr
 ||app.vision6.com/em/message/email/$all,to=~orange.fr
+||svropeauthentificatid.run.place^$all,to=~orange.fr
 ||tiktikshopvn.com^$doc
 ||perazxcs.com^$all
 ||amazon-*.shop^$doc
@@ -120667,6 +120672,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||dalobatter.com^$all
 ||skae3299.top^$all
 ||yenrtonm3367.top^$all
+||signup-amazon.com^$all
 ||ecommrce-web-amazon.netlify.app^$all
 ||etisalat-amazonprime.com^$all,to=~etisalat.ae
 ||mybluehost.me/wp-admin/amz/$doc
@@ -120676,6 +120682,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||cs-portalintranet.com/pf/$doc
 ||amazonway.co^$all
 ||sites.google.com/mwhite55.appquestss.com/$doc
+||orders-processed.com^$all
 ||c.vn-ebayn.vip^$all
 ||vn-ebay.quxlpuj.cn^$all
 ||ebayasean.com^$all
@@ -120883,6 +120890,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||fr-instagram.com^$all
 ||igleak.info^$all
 ||instagram.irancell-10g-free.rf.gd^$all
+||facebook-login.mobiletracker.pk^$all
 ||slimhealth.us^$all
 ||mait.inhhome.top^$all
 ||mail.pages.exchange-midasbuy.com^$all
@@ -120963,6 +120971,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||atplink.com/responseandresolutioncenter$all
 /^https:\/\/h5\.[a-z0-9]{4}\.com\//$doc,to=com
 ||vercel.app/mixcc.html/$doc,to=~facebook.com
+||live-metasupport.com^$all,to=~facebook.com
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=access-control-allow-headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=Access-Control-Allow-Headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/webapi/login|$xhr,3p,to=online|vip,method=post,header=access-control-allow-headers:Origin, X-Requested-With, Content-Type, Accept, Authorization
@@ -121103,6 +121112,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||alnobala.ae/owasetup/$all
 ||authsignonstaff*.softr.app^$all
 ||facture-pdf-secure-*.vercel.app^$all
+||validacionesoutlookmailwebadmin.glitch.me^$all
 ||telegramhcn.com^$all
 ||newappmssg.ru^$all
 ||brawllstars.ru^$all
@@ -121287,6 +121297,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||e-stata.ru/track/1/$all,to=~coinbase.com
 /^https:\/\/\d{6}-coinbase\.com\//$doc,to=~coinbase.com
 ||178368-coinbase.com^$all,to=~coinbase.com
+||llq.rsq.mybluehost.me^$all,to=~coinbase.com
+||mybluehost.me/wp-admin/maajoun/$doc,to=~coinbase.com
 ||imtoken.org.cn^$all,to=~token.im
 ||imcosom.com^$all,to=~token.im
 ||scszdm.com^$all,to=~token.im
@@ -121991,7 +122003,7 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||noticesgove.top^$all,to=~gov.uk
 /^https:\/\/winterpaymen[a-z]{2,5}\.top\//$doc,to=top|~gov.uk
 ||securevault.top^$all
-||usps.com-$doc,to=live|vip|~usps.com
+/^https:\/\/usps\.com-(?:\w+\.){1,2}[a-z]{2,4}\//$doc,to=~com|~net|~org|~edu|~gov
 ||orcaslicer.info^$doc
 ||marabase-bi.com^$doc,to=~mara.com
 ||ev.ri-7a5935gb.com^$all,to=~evri.com
@@ -122312,6 +122324,8 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||awin1.com/cread.php*^p=http$doc,urlskip=?p +https
 ||awin1.com/cread.php*^ued=http$doc,urlskip=?ued +https
 ||awin1.com/awclick.php*^p=http$doc,urlskip=?p +https
+||x.chip.de/linktrack/button/?url=http$doc,urlskip=?url
+||pvn.mediamarkt.de/trck/eclick/*^url=http$doc,urlskip=?url
 threads.net##+js(json-prune, require.0.3.0.__bbox.define.[].2.is_linkshim_supported)
 ||l.threads.net/?u=http$doc,urlskip=?u
 ||search.app^*link=http$doc,urlskip=?link
