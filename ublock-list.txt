@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wAqDGvq+w4bgNK8XJzWWJg
+! Checksum: Bhd2DAuO5J3zsmwVDeuq/w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411200229
-! Last Modified: 2024年11月20日 02:29
+! Version: 202411200945
+! Last Modified: 2024年11月20日 09:45
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -37609,6 +37609,7 @@ browsershots.org#@#.advert_area
 ||saryprocedentw.info^
 ||sasinsetuid.com^
 ||sassaglertoulti.xyz^
+||satiresboy.com^
 ||satireunhealthy.com^
 ||satisfaction399.fun^
 ||satisfaction423.fun^
@@ -56899,6 +56900,7 @@ bsc.news,web3wire.news##.banner-one
 timesofisrael.com##.banner-placeholder
 tweakreviews.com##.banner-placement__article
 balkangreenenergynews.com##.banner-premium
+gg.deals##.banner-side-link
 bikepacking.com##.banner-sidebar
 livescores.biz##.banner-slot
 livescores.biz##.banner-slot-filled
@@ -59401,6 +59403,7 @@ geoawesome.com##.single-post__extra-info
 abovethelaw.com##.single-post__sponsored-post--desktop
 policyoptions.irpp.org##.single__ad
 mixonline.com##.site-ad
+gg.deals##.site-banner-content-widget
 deshdoaba.com##.site-branding
 archaeology.org##.site-header__iykyk
 emulatorgames.net##.site-label
@@ -60352,6 +60355,7 @@ ar15.com##[href^="/forums/transfers.html"]
 notbanksyforum.com,pooletown.co.uk,tossinggames.com,urbanartassociation.com##[href^="http://redirect.viglink.com"]
 eevblog.com##[href^="http://s.click.aliexpress.com/"]
 learn-cpp.org##[href^="http://www.spoj.com/"]
+scribd.vpdfs.com##[href^="https://accounts.binance.com"]
 windows-noob.com##[href^="https://adaptiva.com/"]
 open.spotify.com##[href^="https://adclick.g.doubleclick.net/"]
 topfiveforex.com##[href^="https://affiliate.iqoption.com/"]
@@ -122061,6 +122065,8 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||geekupdates.notion.site/Ultra-Security$doc
 ||uobretailcreditmanagement.$doc
 ||blockfiupdates.$doc
+||uploadfox.net^$inline-script
+uploadfox.net###ad-gs-05
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
