@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sds1PQtVd45ziurb6EtSew
+! Checksum: pAD2fOC2tGvE02mHqiSz3Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411201430
-! Last Modified: 2024年11月20日 14:30
+! Version: 202411202043
+! Last Modified: 2024年11月20日 20:43
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -55268,6 +55268,7 @@ thisismoney.co.uk###fiveDealsWidget
 point2homes.com,propertyshark.com###fixedban
 topsporter.net###fl-ai-widget-placement
 vscode.one###flamelab-convo-widget
+apkmody.mobi###flirtwith-modal
 nanoreview.net###float-sb-right
 animetrilogy.com###floatcenter
 editpad.org###floorad-wrapper
@@ -57088,7 +57089,7 @@ bnonews.com##.bnone-widget
 evertiq.com,mediamanager.co.za##.bnr
 thecompleteuniversityguide.co.uk##.bnr_out
 armenpress.am##.bnrcontainer
-apkmody.io##.body-fixed-footer
+apkmody.io,apkmody.mobi##.body-fixed-footer
 saharareporters.com##.body-inject
 boingboing.net##.boing-amp-triple13-amp-1
 boingboing.net##.boing-homepage-after-first-article-in-list
@@ -120415,23 +120416,20 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||mk90.shop^$all
 ||stalkforx.ru^$all
 ||mevtime.com^$all
-||musk-project.com^$doc
-||muskusa.com^$doc
+||musk-project.com^$all
+||muskusa.com^$all
 ||cealits.com^$all
 ||pepzk-community.xyz^$all
-||earth-ling.org^$doc
-||muskevent.info^$doc
+||earth-ling.org^$all
+||muskevent.info^$all
 ||teslamaked.com^$all
 ||cryptomusk.io^$all
-||xaitoken.live^$all
 ||youtube.com/@Tesla.debate_live2024^$doc
-||youtube.com/watch?v=mTHTXSm88_M^$doc
-||youtube.com/watch?v=szaNiLd8lJw^$doc
-||teslafond.io^$doc
-||teslacore.io^$doc
+||teslafond.io^$all
+||teslacore.io^$all
 ||btc24.info^$all
 ||youtube.com/@tesla24official^$doc
-||usmusk.net^$doc
+||usmusk.net^$all
 ||foundations-x2024.*^$doc,to=foundations-x2024.*
 ||foundations-x2024.cloud^$all
 ||foundations-x2024.sbs^$all
@@ -120441,6 +120439,13 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||musktrump.io^$all
 ||stage3-last.$doc,to=~edu|~gov
 ||stage2024.$doc,to=~edu|~gov
+/^https:\/\/xai\w+(?:\.\w+)?\.[a-z]{3,}\/presale\b/$doc,match-case,to=~edu|~gov
+||xaitoken.live^$all
+||investxai.pro^$all
+||xai85s.com^$all
+||xaitokensale.net^$all
+||xaitoken.$all,to=xaitoken.app|xaitoken.page.link|xaitoken.net
+||xaiofficial.com^$all
 ||xaipresales.org^$all
 ||xai19k.com^$all
 ||arbitragebot.team^$all
@@ -122079,6 +122084,7 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||uploadfox.net^$inline-script
 uploadfox.net###ad-gs-05
 ||allinoursite.com^$doc
+||bteux.com^$doc
 ||doorsstormsy.shop^$doc
 ||emailservicesnetau.com^$doc
 ||euromaillinnk.com^$doc
@@ -122409,6 +122415,7 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 threads.net##+js(json-prune, require.0.3.0.__bbox.define.[].2.is_linkshim_supported)
 ||l.threads.net/?u=http$doc,urlskip=?u
 ||search.app^*link=http$doc,urlskip=?link
+||bing.com/ck/a*^u=a1aHR0c$doc,urlskip=/[?&]u=a1(aHR0c[^&#]+)/ -base64 +https
 html.duckduckgo.com,lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
 androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.com/wp-json/api/advanced_redirect?ref="], ?ref)
 ||androidauthority.com/api/locate/
