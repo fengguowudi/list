@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Bhd2DAuO5J3zsmwVDeuq/w
+! Checksum: sds1PQtVd45ziurb6EtSew
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411200945
-! Last Modified: 2024年11月20日 09:45
+! Version: 202411201430
+! Last Modified: 2024年11月20日 14:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -383,7 +383,7 @@
 /banner-affiliate-$image
 /banner.asp?$third-party
 /banner.cgi?
-/banner.php$domain=~research.hchs.hc.edu.tw
+/banner.php$~xmlhttprequest,domain=~research.hchs.hc.edu.tw
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner_468.$image
@@ -1100,7 +1100,6 @@ _prebid.js
 /ads-blocking-detector.$script
 /anti-adblock/*$~stylesheet
 /blockblock/blockblock.jquery.js$script
-/BlockerBanner/*$xmlhttprequest
 /jgcabd-detect-$script
 /no-adblock/*$script,stylesheet
 _atblockdetector/
@@ -26407,6 +26406,7 @@ browsershots.org#@#.advert_area
 ||glomtipagrou.xyz^
 ||glonsophe.com^
 ||gloodsie.com^
+||glooftezoad.net^
 ||gloogeed.xyz^
 ||gloogruk.com^
 ||gloohozedoa.xyz^
@@ -30656,6 +30656,7 @@ browsershots.org#@#.advert_area
 ||lustasserted.com^
 ||lutachechu.pro^
 ||lutoorgourgi.com^
+||lutrineextant.com^
 ||luuming.com^
 ||luvaihoo.com^
 ||luwcp.online^
@@ -30859,6 +30860,7 @@ browsershots.org#@#.advert_area
 ||makemyvids.com^
 ||makethebusiness.com^
 ||makeupenumerate.com^
+||makhzanpopulin.com^
 ||making.party^
 ||makingnude.com^
 ||malay.buzz^
@@ -37029,6 +37031,7 @@ browsershots.org#@#.advert_area
 ||riskelaborate.com^
 ||riskhector.com^
 ||riskymuzzlebiopsy.com^
+||rivacathood.com^
 ||rivalpout.com^
 ||rivatedqualizebruisi.info^
 ||riverhit.com^
@@ -38370,6 +38373,7 @@ browsershots.org#@#.advert_area
 ||sincalled.com^
 ||sincenturypro.org^
 ||sincerelyseverelyminimum.com^
+||sinderpalaced.top^
 ||sing-tracker.com^
 ||singaporetradingchallengetracker1.com^
 ||singelstodate.com^
@@ -43145,6 +43149,7 @@ browsershots.org#@#.advert_area
 ||wombierfloc.com^
 ||wombjingle.com^
 ||womenvocationanxious.com^
+||womerasecocide.com^
 ||woncherish.com^
 ||wonconsists.com^
 ||wondefulapplend.com^
@@ -55230,6 +55235,7 @@ newser.com###divWhizzcoRightRail
 hometheaterreview.com###div_block-382-13
 hindustantimes.com###divshopnowRight
 rednationonline.ca###dnn_BannerPane
+uploadfox.net###downloadxaa
 unite-db.com###ds_lb1
 unite-db.com###ds_lb2
 thedailystar.net###dsspHS
@@ -120417,21 +120423,26 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||muskevent.info^$doc
 ||teslamaked.com^$all
 ||cryptomusk.io^$all
+||xaitoken.live^$all
 ||youtube.com/@Tesla.debate_live2024^$doc
+||youtube.com/watch?v=mTHTXSm88_M^$doc
+||youtube.com/watch?v=szaNiLd8lJw^$doc
 ||teslafond.io^$doc
 ||teslacore.io^$doc
 ||btc24.info^$all
 ||youtube.com/@tesla24official^$doc
 ||usmusk.net^$doc
 ||foundations-x2024.*^$doc,to=foundations-x2024.*
-||foundations-x2024.cloud^$doc
-||foundations-x2024.sbs^$doc
+||foundations-x2024.cloud^$all
+||foundations-x2024.sbs^$all
 ||trump-drop.org^$all
 ||youtube.com/@tesla.Iive.officiaI.24^$doc
 ||elondonald.com^$all
 ||musktrump.io^$all
 ||stage3-last.$doc,to=~edu|~gov
 ||stage2024.$doc,to=~edu|~gov
+||xaipresales.org^$all
+||xai19k.com^$all
 ||arbitragebot.team^$all
 ||arbitrageinstruction.media^$all
 ||arbitrageproject.blog^$all
@@ -122067,6 +122078,22 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||blockfiupdates.$doc
 ||uploadfox.net^$inline-script
 uploadfox.net###ad-gs-05
+||allinoursite.com^$doc
+||doorsstormsy.shop^$doc
+||emailservicesnetau.com^$doc
+||euromaillinnk.com^$doc
+||findthorman.shop^$doc
+||glaters.com^$doc
+||keydoordasher.shop^$doc
+||makitfornows.com^$doc
+||mybach.xyz^$doc
+||threeneptuneboot.com^$doc
+/unsub/unsub^$doc
+/unsub_sent.php|$doc,method=post
+##html > body.hold-transition.theme-primary.bg-img[style^="background-image"][style*="wallpaperaccess.com"][style*="background-repeat"][style*="background-size"]
+##html > body > div.container > form#unsubscribe-form[onsubmit="submitUnsubscribeForm(event)"]
+||detranrapido.co^$all
+||pagamentocnh.com^$all
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -122179,11 +122206,11 @@ dataunlocker.com##+js(rmnt, script, /^Function\(\"/)
 ||washpost.nile.works^
 /p13n/batch/action/*$image
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,3p,match-case
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,demotywatory.pl,dnevno.hr,economictimes.com,gloria.hr,joemonster.org,laleggepertutti.it,lovelive-petitsoku.com,manta.com,mirrored.to,missyusa.com,mistrzowie.org,mlbpark.donga.com,motscroises.fr,netzwelt.de,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,petitfute.com,rabitsokuhou.2chblog.jp,rostercon.com,sourceforge.net,suzusoku.blog.jp,talkwithstranger.com,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,yutura.net,zagreb.info,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu,convertcase.net##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,demotywatory.pl,dnevno.hr,economictimes.com,gloria.hr,joemonster.org,laleggepertutti.it,lovelive-petitsoku.com,manta.com,mirrored.to,missyusa.com,mistrzowie.org,mlbpark.donga.com,motscroises.fr,netzwelt.de,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,petitfute.com,rabitsokuhou.2chblog.jp,rostercon.com,sourceforge.net,suzusoku.blog.jp,talkwithstranger.com,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,yutura.net,zagreb.info,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu,convertcase.net##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,demotywatory.pl,dnevno.hr,economictimes.com,gloria.hr,joemonster.org,laleggepertutti.it,lovelive-petitsoku.com,manta.com,mirrored.to,missyusa.com,mistrzowie.org,mlbpark.donga.com,motscroises.fr,netzwelt.de,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,petitfute.com,rabitsokuhou.2chblog.jp,rostercon.com,sourceforge.net,suzusoku.blog.jp,talkwithstranger.com,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,yutura.net,zagreb.info,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu,convertcase.net##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,demotywatory.pl,dnevno.hr,economictimes.com,gloria.hr,joemonster.org,laleggepertutti.it,lovelive-petitsoku.com,manta.com,mirrored.to,missyusa.com,mistrzowie.org,mlbpark.donga.com,motscroises.fr,netzwelt.de,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,petitfute.com,rabitsokuhou.2chblog.jp,rostercon.com,sourceforge.net,suzusoku.blog.jp,talkwithstranger.com,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,yutura.net,zagreb.info,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu,convertcase.net##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWRz$/, $remove$)
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,demotywatory.pl,dnevno.hr,economictimes.com,gloria.hr,joemonster.org,laleggepertutti.it,lovelive-petitsoku.com,manta.com,mirrored.to,missyusa.com,mistrzowie.org,mlbpark.donga.com,motscroises.fr,netzwelt.de,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,petitfute.com,rabitsokuhou.2chblog.jp,rostercon.com,sourceforge.net,suzusoku.blog.jp,talkwithstranger.com,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,yutura.net,zagreb.info,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu,convertcase.net##+js(set-local-storage-item, /_fa_Y2FjaGVfYWRibG9ja19jaXJjdW12ZW50X3Njb3Jl$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,demotywatory.pl,dnevno.hr,economictimes.com,gloria.hr,joemonster.org,laleggepertutti.it,lovelive-petitsoku.com,manta.com,mirrored.to,missyusa.com,mistrzowie.org,mlbpark.donga.com,motscroises.fr,netzwelt.de,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,persoenlich.com,petitfute.com,rabitsokuhou.2chblog.jp,rostercon.com,sourceforge.net,suzusoku.blog.jp,talkwithstranger.com,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,yutura.net,zagreb.info,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu,convertcase.net##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,demotywatory.pl,dnevno.hr,economictimes.com,gloria.hr,joemonster.org,laleggepertutti.it,lovelive-petitsoku.com,manta.com,mirrored.to,missyusa.com,mistrzowie.org,mlbpark.donga.com,motscroises.fr,netzwelt.de,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,persoenlich.com,petitfute.com,rabitsokuhou.2chblog.jp,rostercon.com,sourceforge.net,suzusoku.blog.jp,talkwithstranger.com,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,yutura.net,zagreb.info,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu,convertcase.net##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,demotywatory.pl,dnevno.hr,economictimes.com,gloria.hr,joemonster.org,laleggepertutti.it,lovelive-petitsoku.com,manta.com,mirrored.to,missyusa.com,mistrzowie.org,mlbpark.donga.com,motscroises.fr,netzwelt.de,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,persoenlich.com,petitfute.com,rabitsokuhou.2chblog.jp,rostercon.com,sourceforge.net,suzusoku.blog.jp,talkwithstranger.com,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,yutura.net,zagreb.info,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu,convertcase.net##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM=$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,demotywatory.pl,dnevno.hr,economictimes.com,gloria.hr,joemonster.org,laleggepertutti.it,lovelive-petitsoku.com,manta.com,mirrored.to,missyusa.com,mistrzowie.org,mlbpark.donga.com,motscroises.fr,netzwelt.de,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,persoenlich.com,petitfute.com,rabitsokuhou.2chblog.jp,rostercon.com,sourceforge.net,suzusoku.blog.jp,talkwithstranger.com,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,yutura.net,zagreb.info,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu,convertcase.net##+js(set-local-storage-item, /_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWRz$/, $remove$)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,demotywatory.pl,dnevno.hr,economictimes.com,gloria.hr,joemonster.org,laleggepertutti.it,lovelive-petitsoku.com,manta.com,mirrored.to,missyusa.com,mistrzowie.org,mlbpark.donga.com,motscroises.fr,netzwelt.de,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,persoenlich.com,petitfute.com,rabitsokuhou.2chblog.jp,rostercon.com,sourceforge.net,suzusoku.blog.jp,talkwithstranger.com,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,yutura.net,zagreb.info,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu,convertcase.net##+js(set-local-storage-item, /_fa_Y2FjaGVfYWRibG9ja19jaXJjdW12ZW50X3Njb3Jl$/, $remove$)
 meconomynews.com,brandbrief.co.kr,motorgraph.com,topstarnews.net##+js(noeval-if, /07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/)
 ||html-load.com^$domain=manta.com|tportal.hr|tvtropes.org|wouldurather.io|convertcase.net
 !#if cap_html_filtering
@@ -122348,7 +122375,7 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||buy.geni.us/Proxy.ashx*^GR_URL=http$urlskip=?GR_URL
 ||go.skimresources.com/*^url=http$doc,urlskip=?url
 ||prf.hn/click/*/destination:http$doc,urlskip=/\/destination:([^\/]+)/ -uricomponent
-/r.cfm*^urllink=$doc,to=shareasale.com|shareasale-analytics.com,urlskip=/urllink=(\w+(?:\.|%2E)[^\/&]+)/ -uricomponent +https
+/r.cfm*^urllink=$document,urlskip=?urllink +https,to=shareasale-analytics.com|shareasale.com
 ||cc.*.com/v1/otc/*?merchant=*&url=http$doc,to=com,urlskip=?url
 ||click.pstmrk.it/*/$document,urlskip=/\.pstmrk\.it\/[23][mst]{0,2}\/([^\/?#]+)/ -uricomponent +https
 ||howl.me/link?url=http$doc,urlskip=?url
@@ -122361,8 +122388,8 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||go.uncrate.com/*^url=http$doc,urlskip=?url
 ||llo.to/e/*^url=http$doc,urlskip=?url
 ||events.laylo.com/r/redirect*^link=http$urlskip=?link
-||streaklinks.com/*/http$doc,urlskip=/\bstreaklinks\.com\/[^\/]+\/https?%3A%2F%2F([^\/]+)/ -uricomponent +https
-||streak-link.com/*/http$doc,urlskip=/\bstreak-link\.com\/[^\/]+\/https?%3A%2F%2F([^\/]+)/ -uricomponent +https
+||streaklinks.com/*/http$doc,urlskip=/\bstreaklinks\.com\/[^\/]+\/https?%3A%2F%2F([^\/?#]+)/ -uricomponent +https
+||streak-link.com/*/http$doc,urlskip=/\bstreak-link\.com\/[^\/]+\/https?%3A%2F%2F([^\/?#]+)/ -uricomponent +https
 ||app.hive.co/email/elt/*^next=http$doc,urlskip=?next
 ||g-o-media.digidip.net/visit?url=http$doc,urlskip=?url
 ||backerkit.com/ahoy/messages/*/click?*url=http$doc,urlskip=?url
@@ -122374,6 +122401,11 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||awin1.com/awclick.php*^p=http$doc,urlskip=?p +https
 ||x.chip.de/linktrack/button/?url=http$doc,urlskip=?url
 ||pvn.mediamarkt.de/trck/eclick/*^url=http$doc,urlskip=?url
+||mailchimp.com/mctx/clicks?url=http$doc,urlskip=?url
+||t.mailpgn.com/l/*^fl=http$doc,urlskip=?fl
+||jsv3.recruitics.com/redirect*^rx_url=http$doc,urlskip=?rx_url
+||app.adjust.com/*^redirect=http$doc,urlskip=?redirect
+||app.adjust.com/*^fallback=http$doc,urlskip=?fallback
 threads.net##+js(json-prune, require.0.3.0.__bbox.define.[].2.is_linkshim_supported)
 ||l.threads.net/?u=http$doc,urlskip=?u
 ||search.app^*link=http$doc,urlskip=?link
