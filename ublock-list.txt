@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LAiUyzO7DGitD23+Qi81MQ
+! Checksum: gdsLMzEY1PMi9N09gjyR0w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411221430
-! Last Modified: 2024年11月22日 14:30
+! Version: 202411222042
+! Last Modified: 2024年11月22日 20:42
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -55861,6 +55861,7 @@ colourlovers.com###sponsors-links
 ourworldofenergy.com###sponsors_container
 rent.ie###sresult_banner
 tokder.org###ssss
+stocktwits.com###st-bottom-content
 torrentgalaxy.to###startad
 geekwire.com###startup-resources-sidebar
 newcartestdrive.com###static-asset-placeholder-2
@@ -58627,7 +58628,7 @@ uwufufu.com##.min-h-\[300px\]
 businesstimes.com.sg##.min-h-\[90px\]
 insiderintelligence.com##.min-h-top-banner
 stripes.com##.min-h90
-motortrend.com,mumsnet.com##.min-w-\[300px\]
+motortrend.com,mumsnet.com,stocktwits.com##.min-w-\[300px\]
 theland.com.au##.min-w-mrec
 moviemeter.com##.minheight250
 phpbb.com##.mini-panel:not(.sections)
@@ -60023,6 +60024,7 @@ vsbattles.com##.vsb_sticky
 notateslaapp.com##.vtwjhpktrbfmw
 wral.com##.vw3Klj
 horoscopes.astro-seek.com##.vyska-sense
+stocktwits.com##.w-\[300px\]
 lolalytics.com##.w-\[336px\]
 androidpolice.com##.w-pencil-banner
 wsj.com##.w27771
@@ -61305,6 +61307,7 @@ dollargeneral.com##.image__desktop-container:has([data-track-image*="|P&G|Gain|"
 vpforums.org##.ipsSideBlock.clearfix:has-text(Affiliates)
 1tamilmv.tax##.ipsWidget:has([href*="RajbetImage"])
 qwant.com##.is-sidebar:has(a[data-testid="advertiserAdsLink"])
+stocktwits.com##.is-visible:has-text(Remove ads)
 yovizag.com##.jeg_column:has(> .jeg_wrapper > .jeg_ad)
 motortrend.com##.justify-center:has(.nativo-news)
 fortune.com##.jzcxNo
@@ -71454,6 +71457,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appliedsemantics.com/images/x.gif
 ||applovin.com/shopify/*/pixel
 ||appmifile.com/webfile/globalweb/stat/
+||apps-pbd.ctraffic.io^
 ||apps.omegatheme.com/facebook-pixel/
 ||appsolutions.com/hitme?$third-party
 ||appspot.com/analytics/
@@ -122496,7 +122500,7 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||awin1.com/cread.php*^ued=http$doc,urlskip=?ued +https
 ||awin1.com/awclick.php*^p=http$doc,urlskip=?p +https
 ||x.chip.de/linktrack/button/?url=http$doc,urlskip=?url
-||pvn.mediamarkt.de/trck/eclick/*^url=http$doc,urlskip=?url
+||de/trck/eclick/*^url=http$doc,to=pvn.mediamarkt.de|pvn.saturn.de,urlskip=?url
 ||mailchimp.com/mctx/clicks?url=http$doc,urlskip=?url
 ||t.mailpgn.com/l/*^fl=http$doc,urlskip=?fl
 ||jsv3.recruitics.com/redirect*^rx_url=http$doc,urlskip=?rx_url
@@ -122513,6 +122517,9 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||valuecommerce.com/resolve/*^u=http$doc,urlskip=?u +https
 ||valuecommerce.ne.jp/cgi-bin/*^vc_url=http$doc,urlskip=?vc_url +https
 ||affiliate.shopping.yahoo.co.jp/entry*^vc_url=http$doc,urlskip=?vc_url +https
+||tradedoubler.com/click*^url=http$doc,urlskip=?url
+||redir.tradedoubler.com/projectr/?_td_deeplink=http$doc,urlskip=?_td_deeplink
+||track.webgains.com/click.html*^wgtarget=http$doc,urlskip=?wgtarget
 threads.net##+js(json-prune, require.0.3.0.__bbox.define.[].2.is_linkshim_supported)
 ||l.threads.net/?u=http$doc,urlskip=?u
 ||search.app^*link=http$doc,urlskip=?link
@@ -122800,6 +122807,7 @@ vpnmentor.com##+js(cookie-remover, /_alooma/)
 ||lemonde.fr/*?s=$xhr,method=post
 ||spankbang.com/static/dist/desktop/js/analytics$script
 spankbang.com##+js(set, send_gravity_event, noopFunc)
+spankbang.com##+js(set, send_recommendation_event, noopFunc)
 perplexity.ai##+js(aost, window.screen.height, setTimeout)
 ||perplexity.ai/rest/metrics/collect^$xhr,1p,method=post
 nytimes.com##+js(no-fetch-if, api.theathletic.com/graphql body:/PostEvent|PostImpressions/)
@@ -132401,7 +132409,7 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 21 Nov 2024 11:03:43 GMT
-# entries:        3538
+# entries:        3530
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -132414,7 +132422,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 101com.com
 127.0.0.1 180hits.de
 127.0.0.1 180searchassistant.com
-127.0.0.1 1link2020.com
 127.0.0.1 1rx.io
 127.0.0.1 207.net
 127.0.0.1 247media.com
@@ -132803,7 +132810,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 ads.colombiaonline.com
 127.0.0.1 ads.com.com
 127.0.0.1 ads.comeon.com
-127.0.0.1 ads.contactmusic.com
 127.0.0.1 ads.creative-serving.com
 127.0.0.1 ads.cybersales.cz
 127.0.0.1 ads.dada.it
@@ -132956,7 +132962,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 ads.psd2html.com
 127.0.0.1 ads.pubmatic.com
 127.0.0.1 ads.quoka.de
-127.0.0.1 ads.radialserver.com
 127.0.0.1 ads.radio1.lv
 127.0.0.1 ads.recoletos.es
 127.0.0.1 ads.rediff.com
@@ -133380,6 +133385,7 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 aserv.motorsgate.com
 127.0.0.1 asewlfjqwlflkew.com
 127.0.0.1 aso1.net
+127.0.0.1 assets1.exgfnetwork.com
 127.0.0.1 assoc-amazon.com
 127.0.0.1 aswpapius.com
 127.0.0.1 aswpsdkus.com
@@ -133605,7 +133611,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 calypsocapsule.com
 127.0.0.1 campaign.bharatmatrimony.com
 127.0.0.1 caniamedia.com
-127.0.0.1 capablecows.com
 127.0.0.1 capriciouscorn.com
 127.0.0.1 captainbicycle.com
 127.0.0.1 carambo.la
@@ -133773,13 +133778,13 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 collector.cdp.cnn.com
 127.0.0.1 colonize.com
 127.0.0.1 comfortablecheese.com
+127.0.0.1 commindo-media-ressourcen.de
 127.0.0.1 commissionmonster.com
 127.0.0.1 communications.melitaltd.com
 127.0.0.1 compactbanner.com
 127.0.0.1 comparereaction.com
 127.0.0.1 compiledoctor.com
 127.0.0.1 comprabanner.it
-127.0.0.1 concernedchange.com
 127.0.0.1 conditionchange.com
 127.0.0.1 conductrics.com
 127.0.0.1 connatix.com
@@ -133860,7 +133865,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 customad.cnn.com
 127.0.0.1 customads.co
 127.0.0.1 customers.kameleoon.com
-127.0.0.1 cutcurrent.com
 127.0.0.1 cutechin.com
 127.0.0.1 cxense.com
 127.0.0.1 cyberbounty.com
@@ -134437,7 +134441,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 lameletters.com
 127.0.0.1 larati.net
 127.0.0.1 largebrass.com
-127.0.0.1 laughcloth.com
 127.0.0.1 launchbit.com
 127.0.0.1 layer-ad.de
 127.0.0.1 layer-ads.de
@@ -134878,6 +134881,7 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 pageranktop.com
 127.0.0.1 painstakingpickle.com
 127.0.0.1 paleleaf.com
+127.0.0.1 panickycurtain.com
 127.0.0.1 panickypancake.com
 127.0.0.1 panoramicplane.com
 127.0.0.1 parachutehome.sjv.io
@@ -134980,7 +134984,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 premium-offers.com
 127.0.0.1 presetrabbits.com
 127.0.0.1 previousplayground.com
-127.0.0.1 previouspotato.com
 127.0.0.1 prf.hn
 127.0.0.1 priceypies.com
 127.0.0.1 pricklydebt.com
@@ -135054,7 +135057,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 ql.tc
 127.0.0.1 qnsr.com
 127.0.0.1 qrlsx.com
-127.0.0.1 quacksquirrel.com
 127.0.0.1 quaintcan.com
 127.0.0.1 quantcast.com
 127.0.0.1 quantcount.com
@@ -135230,7 +135232,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 scaredswing.com
 127.0.0.1 scarfsmash.com
 127.0.0.1 scatteredheat.com
-127.0.0.1 scatteredquiver.com
 127.0.0.1 scintillatingscissors.com
 127.0.0.1 scintillatingsilver.com
 127.0.0.1 scissorsstatement.com
@@ -135349,6 +135350,7 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 somniture.stuff.co.nz
 127.0.0.1 somoaudience.com
 127.0.0.1 sonobi.com
+127.0.0.1 sordidsmile.com
 127.0.0.1 sortable.com
 127.0.0.1 sourcepoint.vice.com
 127.0.0.1 sovrn.com
@@ -135437,7 +135439,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 steadfastsystem.com
 127.0.0.1 steelhouse.com
 127.0.0.1 steelhousemedia.com
-127.0.0.1 steepscale.com
 127.0.0.1 stickyadstv.com
 127.0.0.1 stiffgame.com
 127.0.0.1 stimulatingsneeze.com
@@ -135801,7 +135802,6 @@ forocoches.com#@#[align="center"]:has(div[id^="optidigital-adslot-"])
 127.0.0.1 vivtracking.com
 127.0.0.1 vmmpxl.com
 127.0.0.1 voicefive.com
-127.0.0.1 voicelessvein.com
 127.0.0.1 volatilevessel.com
 127.0.0.1 voluum.com
 127.0.0.1 voluumtrk2.com
