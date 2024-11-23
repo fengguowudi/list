@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F+6vvVGcxmzL5Y9uxB75+A
+! Checksum: 86EMwv4MDtyVCYt7t/ozdg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411230942
-! Last Modified: 2024年11月23日 09:42
+! Version: 202411231428
+! Last Modified: 2024年11月23日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -463,7 +463,6 @@
 /fgh1ijKl.js$script
 /flashad.asp$subdocument
 /flashad.js$script
-/flashads.$domain=~flashads.co.id
 /fleshlight.$domain=~fleshlight.com|~fleshlight.zendesk.com
 /float_ad.js$script
 /floatads.$script
@@ -22068,6 +22067,7 @@ browsershots.org#@#.advert_area
 ||cotchaug.com^
 ||coticoffee.com^
 ||cottersguayabi.click^
+||cottoidearldom.com^
 ||cottoncabbage.com^
 ||cottondivorcefootprint.com^
 ||cotwcpcjcrjfj.xyz^
@@ -24429,6 +24429,7 @@ browsershots.org#@#.advert_area
 ||epu.sh^
 ||epushclick.com^
 ||eputysolomon.com^
+||epylliafending.com^
 ||eqads.com^
 ||eqdudaj.com^
 ||eqhadccx.com^
@@ -26370,6 +26371,7 @@ browsershots.org#@#.advert_area
 ||glideimpulseregulate.com^
 ||glidelamppost.com^
 ||gligheew.xyz^
+||gligoubsed.com^
 ||glimpaid.net^
 ||glimpsedrastic.com^
 ||glimpsemankind.com^
@@ -26447,6 +26449,7 @@ browsershots.org#@#.advert_area
 ||gloustoa.net^
 ||gloutanacard.com^
 ||gloutchi.com^
+||glouvugnirsy.net^
 ||glouxaih.net^
 ||glouxalt.net^
 ||glouzokrache.com^
@@ -54929,7 +54932,7 @@ breitbart.com###accontainer
 usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium
 usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium_after_share
 nextdoor.com,sptfy.be###ad
-touchdownwire.usatoday.com###ad--home-well-wrapper
+ftw.usatoday.com,touchdownwire.usatoday.com###ad--home-well-wrapper
 lasvegassun.com###ad-colB-
 getmodsapk.com###ad-container
 astrolis.com###ad-daily
@@ -57955,7 +57958,7 @@ gocomics.com##.gc-deck--is-ad
 1001games.com##.gc-medium-rectangle
 gocomics.com##.gc-top-advertising
 letsdopuzzles.com##.gda-home-box
-kansascity.com,rotowire.com##.gdcg-oplist
+ftw.usatoday.com,kansascity.com,rotowire.com##.gdcg-oplist
 verdict.co.uk##.gdm-company-profile-unit
 just-food.com##.gdm-company-profile-unit__container
 naval-technology.com##.gdm-recommended-reports
@@ -117150,6 +117153,7 @@ streamingsites.com##.OUTBRAIN:upward(2)
 schoolcheats.net##+js(set, truex, {})
 schoolcheats.net##+js(set, truex.client, noopFunc)
 schoolcheats.net##.blur-sm:style(filter: none !important;)
+schoolcheats.net##+js(nostif, blooket-answers)
 kisscos.net##+js(acs, addEventListener, -0x)
 kisscos.net##span[id$="related"] > div[id^="container-"]
 kisscos.net##[id$="-overlay"]
