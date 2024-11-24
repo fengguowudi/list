@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9MQdXV95Di7xqoiunJgALQ
+! Checksum: s0nEO3S5vz0DCAUo7OKB+g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411240951
-! Last Modified: 2024年11月24日 09:51
+! Version: 202411241429
+! Last Modified: 2024年11月24日 14:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -58054,6 +58054,7 @@ gulftoday.ae##.gt-ad-center
 gulf-times.com##.gt-horizontal-ad
 gulf-times.com##.gt-square-desktop-ad
 gulf-times.com##.gt-vertical-ad
+giphy.com##.guIlWP
 animenewsnetwork.com##.gutter
 attheraces.com##.gutter-left
 attheraces.com##.gutter-right
@@ -60219,6 +60220,7 @@ bellinghamherald.com##.zone-el
 cnn.com##.zone__ads
 marketscreener.com##.zppAds
 haxnode.net##[action^="//href.li/?"]
+tjrwrestling.net##[ad-slot]
 news12.com##[alignitems="normal"][justifycontent][direction="row"][gap="0"]
 cloutgist.com,codesnse.com##[alt="AD DESCRIPTION"]
 hubcloud.day##[alt="New-Banner"]
@@ -116755,7 +116757,7 @@ samehadaku.*###playVideo:style(display: block !important; visibility: visible !i
 samehadaku.*###player_embed:style(display: block !important; visibility: visible !important;)
 samehadaku.*###skipbtn
 samehadaku.*##.box_item_berlangganan_popup
-*$script,3p,denyallow=cloudfront.net|disqus.com|disquscdn.com|fastlylb.net,domain=samehadaku.*
+*$script,3p,denyallow=cloudflare.com|cloudfront.net|disqus.com|disquscdn.com|fastlylb.net,from=samehadaku.*
 ||yimg.com/nn/lib/metro/g/sda/$domain=yahoo.com
 mediapemersatubangsa.com##+js(acs, document.addEventListener, google_ad_client)
 *$script,3p,denyallow=gstatic.com,domain=la123movies.com
