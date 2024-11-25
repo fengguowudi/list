@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3vKKxI6TGLodl1zL7JwHsg
+! Checksum: ViRa+Je2Irybj79dpU1qOA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411251431
-! Last Modified: 2024年11月25日 14:31
+! Version: 202411252044
+! Last Modified: 2024年11月25日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57889,6 +57889,7 @@ game8.co##.footer-overlay
 dhakatribune.com##.footer-pop-up-ads-sec
 supercars.com##.footer-promo
 filma24.ch##.footer-reklama
+coinpedia.org##.footer-side-sticky
 wtatennis.com##.footer-sponsors
 skidrowcodexreloaded.com,tbsnews.net##.footer-sticky
 searchcommander.com##.footer-widget
@@ -58209,7 +58210,9 @@ globalrph.com##.homepage-middle-ad
 designspiration.com##.homepageBanner
 homes.co.nz##.homepageTopLeader__container
 artandeducation.net##.homepage__banner
+coinpedia.org##.homepage_banner_ad
 swimswam.com##.homepage_block_ads
+coinpedia.org##.homepage_sidebanner_ad
 radiocity.in##.horiozontal-add
 flv2mp3.by,flvto.biz,flvto.com.mx##.horizontal-area
 getmyuni.com##.horizontalRectangle
@@ -59892,6 +59895,7 @@ reverso.net##.top-horizontal
 india.com##.top-horizontal-banner
 spectrum.ieee.org##.top-leader-container
 thedailystar.net##.top-leaderboard
+coinpedia.org##.top-menu-advertise
 sportingnews.com##.top-mpu-container
 webmd.com##.top-picks
 speedtest.net##.top-placeholder
@@ -60337,6 +60341,7 @@ jeffdornik.com##[data-pin-url]
 extremetech.com##[data-pogo="sidebar"]
 gumtree.com##[data-q="section-middle"] > div[style^="display:grid;margin"]
 scmp.com##[data-qa="AppBar-renderLayout-AdSlotContainer"]
+scmp.com##[data-qa="ArticleContentRightSection-AdSlot"]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
 ginx.tv##[data-ref]
@@ -122563,7 +122568,8 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||streaklinks.com/*/http$doc,urlskip=/\bstreaklinks\.com\/[^\/]+\/https?%3A%2F%2F([^\/?#]+)/ -uricomponent +https
 ||streak-link.com/*/http$doc,urlskip=/\bstreak-link\.com\/[^\/]+\/https?%3A%2F%2F([^\/?#]+)/ -uricomponent +https
 ||app.hive.co/email/elt/*^next=http$doc,urlskip=?next
-||g-o-media.digidip.net/visit?url=http$doc,urlskip=?url
+||digidip.net/visit?url=http$doc,urlskip=?url
+||action.metaffiliation.com/trk.php*^redir=http$doc,urlskip=?redir
 ||backerkit.com/ahoy/messages/*/click?*url=http$doc,urlskip=?url
 ||rd.bizrate.com/rd*^t=http$doc,urlskip=?t +https
 ||engage.squarespace-mail.com/r*^u=http$doc,urlskip=?u
@@ -122611,6 +122617,7 @@ threads.net##+js(json-prune, require.0.3.0.__bbox.define.[].2.is_linkshim_suppor
 ||bing.com/ck/a*^u=a1aHR0c$doc,urlskip=/[?&]u=a1(aHR0c[^&#]+)/ -base64 +https
 ||ds1.nl/redirect/*^dai_url=http$doc,urlskip=?dai_url
 ||anrdoezrs.net/links/*/type/dlg/http$doc,urlskip=/\/dlg\/(http.+)/ +https
+/tradetracker/?tt=*&r=http$doc,urlskip=?r
 html.duckduckgo.com,lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
 androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.com/wp-json/api/advanced_redirect?ref="], ?ref)
 ||androidauthority.com/api/locate/
