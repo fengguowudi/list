@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XPpkrvipdJod/JLIzXTHKQ
+! Checksum: 3vKKxI6TGLodl1zL7JwHsg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411250948
-! Last Modified: 2024年11月25日 09:48
+! Version: 202411251431
+! Last Modified: 2024年11月25日 14:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -121379,6 +121379,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||mybluehost.me/*/MitID/$doc
 ||airpos.co.kr/.well-known/pki-validation/*/MitID/$doc
 ||autolocksmithpro.com/spt/$all
+||spoti-safe-support*.codeanyapp.com^$all,to=~spotify.com
+||spoti-*.codeanyapp.com^$doc,to=~spotify.com
 ||mybluehost.me/spot/Account/$doc
 ||mybluehost.me/dse/main/$doc
 ||mybluehost.me/MUSIC/SPOTIFY24K/$doc
@@ -122258,7 +122260,10 @@ uploadfox.net###ad-gs-05
 ||steamcomunutty.com^$all
 ||klingxai.com^$all
 ||popular-resort-ads.com^$doc,to=~ads.google.com
+/^https:\/\/[a-z]\.[a-z]{10,}\.top\/us(?:\/|$)/$doc,to=top|~usps.com
 ||infotracklms.top^$all,to=~usps.com
+||pay-ntta.com^$all,to=~ntta.org
+||disneyy-vodd.com^$all,to=~disneyplus.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -122533,7 +122538,7 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 @@||track.adtraction.com/*&url=https://www.gog.com/$popup
 ||track.adtraction.com/*^url=https://www.gog.com/$doc,urlskip=?url
 ||track.adtraction.com/*^url=https://www.gog.com/$doc,urlskip=?url -blocked
-/^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\/?\?.*?&?u=http/$doc,to=com|io|net,urlskip=?u
+/^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\/?\?.*?&?u=http/$doc,to=com|io|net,urlskip=?u +https
 /^https?:\/\/www\.[a-z]+\.(?:com|net)\/click-\d{7}-\d{8}\b.*?[?&]url=http/$doc,to=com|net,urlskip=?url
 /Proxy.ashx?*&GR_URL=http$doc,urlskip=?GR_URL
 ||clicks.trx-hub.com/*^q=http$doc,urlskip=?q
@@ -122548,6 +122553,7 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||howl.me/link?url=http$doc,urlskip=?url
 ||shopping.yahoo.com/rdlw*^gcReferrer=http$doc,urlskip=?gcReferrer
 ||track.flexlinks.com/a.ashx*^url=http$doc,urlskip=?url
+||track.flexlinkspro.com/a.ashx*^url=http$doc,urlskip=?url
 /t/*^url=http$doc,urlskip=?url,to=gopjn.com|pjatr.com|pjtra.com|pntra.com|pntrac.com|pntrs.com
 ||wordseed.com/go/*^url=http$doc,urlskip=?url
 ||visit.ws/visit/*^url=http$doc,urlskip=?url
@@ -122604,7 +122610,7 @@ threads.net##+js(json-prune, require.0.3.0.__bbox.define.[].2.is_linkshim_suppor
 ||search.app^*link=http$doc,urlskip=?link
 ||bing.com/ck/a*^u=a1aHR0c$doc,urlskip=/[?&]u=a1(aHR0c[^&#]+)/ -base64 +https
 ||ds1.nl/redirect/*^dai_url=http$doc,urlskip=?dai_url
-||anrdoezrs.net/links/*/type/dlg/http$doc,urlskip=/\/dlg\/(http.+)/
+||anrdoezrs.net/links/*/type/dlg/http$doc,urlskip=/\/dlg\/(http.+)/ +https
 html.duckduckgo.com,lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
 androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.com/wp-json/api/advanced_redirect?ref="], ?ref)
 ||androidauthority.com/api/locate/
@@ -122642,7 +122648,7 @@ variety.com##+js(href-sanitizer, a[href^="https://clicks.trx-hub.com/"][href*="b
 engadget.com##+js(href-sanitizer, a[href^="https://shopping.yahoo.com/rdlw?"][href*="gcReferrer=http"], ?gcReferrer)
 cnet.com##+js(set, Object.prototype.updateModifiedCommerceUrl, noopFunc)
 cnet.com,hunker.com,pcgamingwiki.com,pcpartpicker.com,purewow.com,sheknows.com,space.com,streetinsider.com##+js(href-sanitizer, 'a[href*="u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"])', ?u)
-cnet.com,hunker.com,otherweb.com,pcgamingwiki.com,purewow.com,space.com,sport-passion.fr##+js(href-sanitizer, 'a[href*="url=http"]:is([href^="https://cc."][href*=".com/v1/otc/"][href*="merchant="],[href^="https://go.skimresources.com/"],[href^="https://go.redirectingat.com/"],[href^="https://shop-links.co/link"],[href^="https://track.effiliation.com/servlet/effi.redir?"],[href*=".com/click-"],[href*=".net/click-"])', ?url)
+cnet.com,hunker.com,jljbacktoclassic.com,otherweb.com,pcgamingwiki.com,purewow.com,space.com,sport-passion.fr##+js(href-sanitizer, 'a[href*="url=http"]:is([href^="https://cc."][href*=".com/v1/otc/"][href*="merchant="],[href^="https://go.skimresources.com/"],[href^="https://go.redirectingat.com/"],[href^="https://shop-links.co/link"],[href^="https://track.effiliation.com/servlet/effi.redir?"],[href*=".com/a.ashx?"],[href*=".com/click-"],[href*=".net/click-"])', ?url)
 pcpartpicker.com##+js(href-sanitizer, a[href^="https://click.linksynergy.com/"][href*="link?id="][href*="&murl=http"], ?murl)
 space.com##+js(href-sanitizer, a[href*="/Proxy.ashx?"][href*="GR_URL=http"], ?GR_URL)
 windowscentral.com##+js(href-sanitizer, a[href^="https://go.redirectingat.com/"][href*="&url=http"], ?url)
@@ -122651,6 +122657,7 @@ shutupandtakemyyen.com##+js(href-sanitizer, a[href^="https://www.awin1.com/cread
 forums.redflagdeals.com##+js(href-sanitizer, a.autolinker_link[href*=".com/t/"][href*="url=http"], ?url)
 sport-passion.fr##+js(href-sanitizer, a[rel="sponsored nofollow"][href^="https://fsx.i-run.fr/?"][href*="redir=http"], ?redir)
 sport-passion.fr##+js(href-sanitizer, a[rel="sponsored nofollow"][href*=".tradeinn.com/ts/"][href*="trg=http"], ?trg)
+jljbacktoclassic.com##+js(href-sanitizer, a[href*=".com/r.cfm?"][href*="urllink=http"], ?urllink)
 ||cdn.digg.com/fragments/homepage/static/view-frontpage.js
 /detroitchicago/dpv.gif?$image
 /detroitchicago/imp.gif$ping
@@ -122815,7 +122822,7 @@ $removeparam=igshid,domain=instagram.com|threads.net
 !#endif
 @@||web.archive.org/*/http$removeparam
 @@||urldefense.com^$removeparam
-/dp/*/ref=$document,uritransform=/\/ref=[^\/?]+//,to=www.amazon.*
+/dp/*/ref=$doc,uritransform=/\/ref=[^\/?#]+//,to=www.amazon.*
 natgeotv.com##+js(no-xhr-if, /VisitorAPI|AppMeasurement/)
 natgeotv.com##+js(set, Visitor, {})
 ||fichub.com/plugins/adobe/lib/$xhr,domain=natgeotv.com,important
@@ -123995,11 +124002,11 @@ hero-magazine.com###header:style(position: inherit !important;)
 !#if env_firefox
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=caminogeek.com
 !#endif
-@@||ads.adthrive.com/sites/*/ads.min.js$script,domain=a-z-animals.com|brewerfanatic.com|fishonfirst.com|northsidebaseball.com|twinsdaily.com
-@@||ads.adthrive.com/builds/core/*$script,domain=a-z-animals.com|brewerfanatic.com|fishonfirst.com|northsidebaseball.com|twinsdaily.com
+@@||ads.adthrive.com/sites/*/ads.min.js$script,domain=brewerfanatic.com|fishonfirst.com|northsidebaseball.com|twinsdaily.com
+@@||ads.adthrive.com/builds/core/*$script,domain=brewerfanatic.com|fishonfirst.com|northsidebaseball.com|twinsdaily.com
 pimylifeup.com##+js(no-fetch-if, marmalade)
-a-z-animals.com,brewerfanatic.com,fishonfirst.com,northsidebaseball.com,twinsdaily.com#@#.adthrive
-a-z-animals.com,brewerfanatic.com,fishonfirst.com,northsidebaseball.com,twinsdaily.com#@#.adthrive-video-player
+brewerfanatic.com,fishonfirst.com,northsidebaseball.com,twinsdaily.com#@#.adthrive
+brewerfanatic.com,fishonfirst.com,northsidebaseball.com,twinsdaily.com#@#.adthrive-video-player
 ||cdn-static.egybest.*/packed/$badfilter
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,important,redirect=noop.js,domain=indy100.com
 @@||googleads.github.io/videojs-ima/$css,domain=boysfood.com
