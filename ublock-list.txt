@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JIzbw60jpcoW9RqCciErFg
+! Checksum: AcQIRKytfwtnhGCqzjXQEQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411261430
-! Last Modified: 2024年11月26日 14:30
+! Version: 202411262044
+! Last Modified: 2024年11月26日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56030,6 +56030,7 @@ govtech.com##.Page-billboard
 afar.com##.Page-header-hat
 apnews.com##.Page-header-leaderboardAd
 quora.com##.PageContentsLayout___StyledBox-d2uxks-0 > .q-box > .q-sticky > .qu-pb--medium
+chronicle.com##.PageHeaderMegaHat
 ask.com##.PartialKelkooResults
 hbr.org##.PartnerCenter-module_container__w6Ige
 hulu.com##.PauseAdCreative-wrap
@@ -56223,6 +56224,7 @@ kenyans.co.ke##.ad-kenyans
 kenyans.co.ke##.ad-kenyans-wrapper
 cbc.ca##.ad-landing
 heise.de##.ad-ldb-container
+revolvermag.com##.ad-leaderboard-foot
 revolvermag.com##.ad-leaderboard-head
 apksum.com##.ad-left
 radiopaedia.org##.ad-link-grey
@@ -56454,6 +56456,7 @@ eatwell101.com##.adsenseright
 libble.eu##.adserver-container
 bolnews.com##.adsheading
 nepallivetoday.com##.adsimage
+indianexpress.com##.adsizes
 search.b1.org##.adslabel
 ev-database.org##.adslot_detail1
 ev-database.org##.adslot_detail2
@@ -58156,6 +58159,7 @@ standard.co.uk##.kcdphh
 tekno.kompas.com##.kcm
 kdnuggets.com##.kdnug-med-rectangle-ros
 goldprice.org##.kenbi
+onlinelibrary.wiley.com##.kevel-ad-placeholder
 physicsworld.com##.key-suppliers
 trustedreviews.com##.keystone-deal
 trustedreviews.com##.keystone-single-widget
@@ -61334,6 +61338,7 @@ nbsnews.com##.TaboolaFeed
 ndtv.com##.TpGnAd_ad-cn
 hindustantimes.com##.ht_taboola
 financialexpress.com##.ie-network-taboola
+indianexpress.com##.o-taboola-story
 6abc.com,abcnews.go.com##.taboola
 kotaku.com,theonion.com,theroot.com##.taboola-container
 firstpost.com##.taboola-div
@@ -118431,7 +118436,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ##.buttonautocl
 ||greenadblocker.com^$doc
 ||flash.cn^$all
-||hentai-tube.me^$doc
 ||foxmods.xyz^$doc
 ||gesas.it^$doc
 ||techinnsrl.com^$doc
@@ -120347,6 +120351,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||sale-friday.$doc,to=~edu|~gov
 ||stage3sale.$doc,to=~edu|~gov
 ||stage3sale2024.$doc,to=~edu|~gov
+||black-sales.$doc,to=~edu|~gov
 /^https:\/\/xai\w+(?:\.\w+)?\.[a-z]{3,}\/presale\b/$doc,match-case,to=~edu|~gov
 ||xaitoken.live^$all
 ||investxai.pro^$all
@@ -120702,6 +120707,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||boardband.univer.se^$all,to=~bt.com
 ||telegra.ph/British-Telecommunication-08-22^$all,to=~bt.com
 ||telegra.ph/BT-Business-Communications-$all,to=~bt.com
+||dazzl.ink/btupdate/$all,to=~bt.com
 ||pttgov*.top^$doc,to=top|~ptt.gov.tr
 ||irstaxrefunds.$doc,to=~irs.gov
 ||seeproc.com.br^$all,to=~my.gov.au
@@ -122248,6 +122254,7 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||cdn.branch.io/branch-latest.min.js$important,domain=nbc.com|pac-12.com
 ||onesignal.com^$domain=blurayufr.xyz|columbian.com|faqwiki.us|freecoursesonline.me|ftuapps.dev|gamersdiscussionhub.com|levelupalone.com|onehack.us|xiaomitools.com
 ||narrativ.com^$domain=androidauthority.com
+||androidauthority.com/api/locate/
 ||optimizely.com^$domain=mindbodygreen.com
 ||mindbodygreen.com/js/optimizely-$script,1p
 mindbodygreen.com##+js(set-local-storage-item, segmentDeviceId, $remove$)
@@ -122305,6 +122312,7 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||go.redirectingat.com/*^url=http$doc,urlskip=?url
 ||go.skimresources.com/*^url=http$doc,urlskip=?url
 ||click.linksynergy.com/*^murl=http$doc,urlskip=?murl
+||bestbuy.7tiv.net/c/*^u=https%3A%2F%2Fwww.bestbuy.com$doc,urlskip=?u -blocked
 /r.cfm*^urllink=$document,urlskip=?urllink +https,to=shareasale-analytics.com|shareasale.com
 ||cc.*.com/v1/otc/*?merchant=*&url=http$doc,to=com,urlskip=?url
 ||click.pstmrk.it/*/$document,urlskip=/\.pstmrk\.it\/[23][mst]{0,2}\/([^\/?#]+)/ -uricomponent +https
@@ -122371,9 +122379,8 @@ threads.net##+js(json-prune, require.0.3.0.__bbox.define.[].2.is_linkshim_suppor
 ||ds1.nl/redirect/*^dai_url=http$doc,urlskip=?dai_url
 ||anrdoezrs.net/links/*/type/dlg/http$doc,urlskip=/\/dlg\/(http.+)/ +https
 /tradetracker/?tt=*&r=http$doc,urlskip=?r
+||r.bttn.io/*^btn_url=http$doc,urlskip=?btn_url
 html.duckduckgo.com,lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
-androidauthority.com##+js(href-sanitizer, a[href^="https://androidauth.wpengine.com/wp-json/api/advanced_redirect?ref="], ?ref)
-||androidauthority.com/api/locate/
 starstyle.com##+js(href-sanitizer, a[href^="https://go.skimresources.com/"][href*="&url=http"], ?url)
 insidehook.com##+js(href-sanitizer, a[href^="https://click.linksynergy.com/deeplink?id="][href*="&murl="], ?murl)
 insidehook.com##+js(href-sanitizer, a[href*="?"][href*="&url=http"], ?url)
@@ -122408,7 +122415,7 @@ variety.com##+js(href-sanitizer, a[href^="https://clicks.trx-hub.com/"][href*="b
 engadget.com##+js(href-sanitizer, a[href^="https://shopping.yahoo.com/rdlw?"][href*="gcReferrer=http"], ?gcReferrer)
 cnet.com##+js(set, Object.prototype.updateModifiedCommerceUrl, noopFunc)
 cnet.com,dogfoodadvisor.com,hunker.com,pcgamingwiki.com,pcpartpicker.com,purewow.com,sheknows.com,space.com,streetinsider.com##+js(href-sanitizer, 'a[href*="u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"])', ?u)
-cnet.com,hunker.com,jljbacktoclassic.com,otherweb.com,pcgamingwiki.com,purewow.com,space.com,sport-passion.fr##+js(href-sanitizer, 'a[href*="url=http"]:is([href^="https://cc."][href*=".com/v1/otc/"][href*="merchant="],[href^="https://go.skimresources.com/"],[href^="https://go.redirectingat.com/"],[href^="https://shop-links.co/link"],[href^="https://track.effiliation.com/servlet/effi.redir?"],[href*=".com/a.ashx?"],[href*=".com/click-"],[href*=".net/click-"])', ?url)
+androidauthority.com,cnet.com,hunker.com,jljbacktoclassic.com,otherweb.com,pcgamingwiki.com,purewow.com,space.com,sport-passion.fr##+js(href-sanitizer, 'a[href*="url=http"]:is([href^="https://cc."][href*=".com/v1/otc/"][href*="merchant="],[href^="https://go.skimresources.com"],[href^="https://go.redirectingat.com"],[href^="https://shop-links.co/link"],[href^="https://track.effiliation.com/servlet/effi.redir?"],[href*=".com/a.ashx?"],[href*=".com/click-"],[href*=".net/click-"])', ?url)
 pcpartpicker.com##+js(href-sanitizer, a[href^="https://click.linksynergy.com/"][href*="link?id="][href*="&murl=http"], ?murl)
 space.com##+js(href-sanitizer, a[href*="/Proxy.ashx?"][href*="GR_URL=http"], ?GR_URL)
 windowscentral.com##+js(href-sanitizer, a[href^="https://go.redirectingat.com/"][href*="&url=http"], ?url)
@@ -124646,6 +124653,7 @@ decathlon.in##body:style(opacity: 1 !important;)
 @@||collect.mopinion.com/assets/surveys/*/js/survey.min.js$script,domain=findmystreet.co.uk
 @@||deploy.mopinion.com^$script,xhr,domain=findmystreet.co.uk
 @@||googletagmanager.com/gtm.js$script,domain=findmystreet.co.uk
+||allkeyshop.com/redirection/$doc,csp=script-src 'none'
 @@||click.allkeyshop.com/*&source=allkeyshop.com$doc
 *$1p,inline-script,script,domain=click.allkeyshop.com
 click.allkeyshop.com##+js(refresh-defuser)
@@ -132256,8 +132264,8 @@ redtube.com#@#svg
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Thu, 21 Nov 2024 11:03:43 GMT
-# entries:        3530
+# last updated:   Tue, 26 Nov 2024 11:46:50 GMT
+# entries:        3532
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -132284,6 +132292,7 @@ redtube.com#@#svg
 127.0.0.1 360yield.com
 127.0.0.1 3lift.com
 127.0.0.1 3o9s.short.gy
+127.0.0.1 4clicker.pro
 127.0.0.1 4d5.net
 127.0.0.1 4info.com
 127.0.0.1 4jnzhl0d0.com
@@ -134386,6 +134395,7 @@ redtube.com#@#svg
 127.0.0.1 look.ufinkln.com
 127.0.0.1 loopme.com
 127.0.0.1 loudlunch.com
+127.0.0.1 lowest-price.eu
 127.0.0.1 lp3tdqle.com
 127.0.0.1 lucidmedia.com
 127.0.0.1 luckyorange.com
