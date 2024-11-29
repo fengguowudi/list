@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cqYKWz4nxFsIXvsPQaWfaA
+! Checksum: MxuaYQV03ttyZCjhWYtj/g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202411290948
-! Last Modified: 2024年11月29日 09:48
+! Version: 202411291431
+! Last Modified: 2024年11月29日 14:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -7194,7 +7194,9 @@ _800x80_
 ##.ad-wrapper--sidebar
 ##.ad-wrapper-250
 ##.ad-wrapper-bg
+##.ad-wrapper-desktop
 ##.ad-wrapper-left
+##.ad-wrapper-mobile
 ##.ad-wrapper-mobile-atf
 ##.ad-wrapper-outer
 ##.ad-wrapper-solid
@@ -55988,6 +55990,7 @@ failory.com##.blog-column-ad
 oxygen.com,syfy.com##.blog-post-section__zergnet
 blogto.com##.blogto-sticky-banner
 manhwaindo.id##.blox
+waterworld.com##.blueconic-recommendations
 azscore.com,bescore.com##.bn
 firstpost.com##.bn-add
 savefree.in,surattimes.com##.bn-content
@@ -56766,7 +56769,7 @@ eonline.com##.gallery-rail-sticky-container
 vicnews.com##.gam
 drive.com.au##.gam-ad
 thechainsaw.com##.gam-ad-container
-locksmithledger.com##.gam-slot-builder
+locksmithledger.com,waterworld.com##.gam-slot-builder
 komikindo.tv##.gambar_pemanis
 cdromance.com##.game-container[style="grid-column: span 2;"]
 geoguessr.com##.game-layout__in-game-ad
@@ -57516,6 +57519,7 @@ snowmagazine.com##.mod_banners
 lakeconews.com##.mod_ijoomlazone
 civilsdaily.com##.modal
 breakingenergy.com,epicload.com,shine.cn##.modal-backdrop
+cleaner.com##.modal__intent-container
 livelaw.in##.modal_wrapper_frame
 autoevolution.com##.modeladmid
 duckduckgo.com##.module--carousel-products
@@ -59033,8 +59037,9 @@ windows101tricks.com##.zanui-container
 techspot.com##.zenerr
 antimusic.com##.zerg
 pcmag.com##.zmgad-full-width
-bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,cults3d.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com,weekand.com##.zone
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,cleaner.com,cults3d.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com,weekand.com##.zone
 bellinghamherald.com##.zone-el
+cleaner.com##.zone-sky
 cnn.com##.zone__ads
 marketscreener.com##.zppAds
 haxnode.net##[action^="//href.li/?"]
@@ -111989,6 +111994,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||gamergen.com/ajax/actualites/addVue
 ||hits.porn.fr^
 ||hlms.ecologie.gouv.fr^
+||horairesdouverture24.fr/ar.js
 ||ianimes.org/img/tracker.gif
 ||ici.radio-canada.ca/v5/*/trace/
 ||igen.fr/modules/statistics/statistics.php
@@ -112457,6 +112463,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||events.ingatlan.com^
 ||hirtv.hu/ajaxx/_stat/
 ||hirtv.hu/nx_general_stat.jpg?
+||nyitvatartas24.hu/ar.js
 ||otthonterkep.hu/c.js
 ||outal.origo.hu^
 ||rtl.hu/_stat/
@@ -121138,6 +121145,10 @@ uploadfox.net###ad-gs-05
 ://backcb.one^$all
 ||marcjacobsusa.us^$all,to=~marcjacobs.com
 ||madgicxde.com^$all,to=~madgicx.com
+||gxsearch.club^$all
+||dynamicopenfonts.app^$all
+||staticfonts.com^$all
+||static-fonts.com^$all
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -121487,13 +121498,14 @@ threads.net##+js(json-prune, require.0.3.0.__bbox.define.[].2.is_linkshim_suppor
 ||search.app^*link=http$doc,urlskip=?link
 ||bing.com/ck/a*^u=a1aHR0c$doc,urlskip=/[?&]u=a1(aHR0c[^&#]+)/ -base64 +https
 ||ds1.nl/redirect/*^dai_url=http$doc,urlskip=?dai_url
-/^https?:\/\/www\.anrdoezrs\.net\/links\/\d+\/type\/dlg\/(?:sid\/\w+\/)?http/$doc,to=anrdoezrs.net,urlskip=/\/dlg\/(?:sid\/\w+\/)?(http.+)/ +https
+/^https?:\/\/www\.anrdoezrs\.net\/links\/\d+\/type\/dlg\/(?:sid\/[^\/]+\/)?http/$doc,to=anrdoezrs.net,urlskip=/\/dlg\/(?:sid\/[^\/]+\/)?(http.+)/ +https
 /tradetracker/?tt=*&r=http$doc,urlskip=?r
 ||r.bttn.io/?*&btn_pub_ref=*&btn_url=http$doc,urlskip=?btn_url
 ||r.bttn.io/?*&btn_pub_ref=*&btn_desktop_url=http$doc,urlskip=?btn_desktop_url
 ||prsm1.com/r?url=http$doc,urlskip=?url
 ||link.theskimm.com/click/*/aHR0c$doc,urlskip=/\/click\/[^\/]+\/(aHR0c[^\/]+)/ -base64
 ||redirect.viglink.com/*^ourl=http$doc,urlskip=?ourl
+||affportal.bhphoto.com/dl/redventures/*^u=http$doc,urlskip=?u
 html.duckduckgo.com,lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
 starstyle.com##+js(href-sanitizer, a[href^="https://go.skimresources.com/"][href*="&url=http"], ?url)
 insidehook.com,pcpartpicker.com,space.com##+js(href-sanitizer, a[href^="https://click.linksynergy.com/"][href*="link?id="][href*="&murl=http"], ?murl)
@@ -121529,9 +121541,9 @@ justwatch.com##+js(href-sanitizer, 'a:is([href^="https://click.justwatch.com/"],
 variety.com##+js(href-sanitizer, a[href^="https://clicks.trx-hub.com/"][href*="bn5x.net"], ?q?u)
 engadget.com##+js(href-sanitizer, a[href^="https://shopping.yahoo.com/rdlw?"][href*="gcReferrer=http"], ?gcReferrer)
 cnet.com##+js(set, Object.prototype.updateModifiedCommerceUrl, noopFunc)
-cnet.com,dogfoodadvisor.com,hunker.com,insidehook.com,pcgamingwiki.com,pcpartpicker.com,purewow.com,sheknows.com,space.com,streetinsider.com##+js(href-sanitizer, 'a[href*="?"][href*="u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"])', ?u)
-androidauthority.com,cnet.com,hunker.com,insidehook.com,jljbacktoclassic.com,otherweb.com,pcgamingwiki.com,purewow.com,space.com,sport-passion.fr##+js(href-sanitizer, 'a[href*="?"][href*="url=http"]:is([href^="https://cc."][href*=".com/v1/otc/"][href*="merchant="],[href^="https://go.skimresources.com"],[href^="https://go.redirectingat.com"],[href^="https://shop-links.co/link"],[href^="https://track.effiliation.com/servlet/effi.redir?"],[href*=".com/a.ashx?"],[href^="https://www."][href*=".com/t/"],[href*=".prsm1.com/r?"],[href*=".com/click-"],[href*=".net/click-"])', ?url)
-space.com##+js(href-sanitizer, a[href*="/Proxy.ashx?"][href*="GR_URL=http"], ?GR_URL)
+cnet.com,dogfoodadvisor.com,hunker.com,insidehook.com,pcgamingwiki.com,pcpartpicker.com,purewow.com,sheknows.com,space.com,streetinsider.com,zdnet.com##+js(href-sanitizer, 'a[href*="?"][href*="u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"],[href^="https://affportal.bhphoto.com/dl/redventures/?"])', ?u)
+androidauthority.com,cnet.com,hunker.com,insidehook.com,jljbacktoclassic.com,otherweb.com,pcgamingwiki.com,purewow.com,space.com,sport-passion.fr,zdnet.com##+js(href-sanitizer, 'a[href*="?"][href*="url=http"]:is([href^="https://cc."][href*=".com/v1/otc/"][href*="merchant="],[href^="https://go.skimresources.com"],[href^="https://go.redirectingat.com"],[href^="https://shop-links.co/link"],[href^="https://track.effiliation.com/servlet/effi.redir?"],[href*=".com/a.ashx?"],[href^="https://www."][href*=".com/t/"],[href*=".prsm1.com/r?"],[href*=".com/click-"],[href*=".net/click-"])', ?url)
+space.com,zdnet.com##+js(href-sanitizer, a[href*="/Proxy.ashx?"][href*="GR_URL=http"], ?GR_URL)
 windowscentral.com##+js(href-sanitizer, a[href^="https://go.redirectingat.com/"][href*="&url=http"], ?url)
 insidehook.com,shutupandtakemyyen.com,space.com,thisiswhyimbroke.com,xda-developers.com##+js(href-sanitizer, a[href*="awin1.com/cread.php?"][href*="ued=http"], ?ued)
 insidehook.com,shutupandtakemyyen.com,space.com,thisiswhyimbroke.com,xda-developers.com##+js(href-sanitizer, a[href*="awin1.com/"][href*=".php?"][href*="p=http"], ?p)
