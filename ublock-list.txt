@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JRHJ1eCGVFYe8GoO1llrvA
+! Checksum: oaBQjhXTFPbK0BcMNxC7ZA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412011430
-! Last Modified: 2024年12月01日 14:30
+! Version: 202412012041
+! Last Modified: 2024年12月01日 20:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -50417,6 +50417,7 @@ browsershots.org#@#.advert_area
 ||dx.com/affiliate/
 ||e-tailwebstores.com/accounts/default1/banners/
 ||earn-bitcoins.net/banner_
+||ebayadservices.com^
 ||ebayrtm.com^
 ||eclipse-adblocker.pro^
 ||ecufiles.com/advertising/
@@ -57065,6 +57066,7 @@ di.fm##.gpt-slot
 travelsupermarket.com##.gptAdUnit__Wrapper-sc-f3ta69-0
 kijiji.ca##.gqNGFh
 beforeitsnews.com##.gquuuu5a
+cnx-software.com##.gradian
 searchenginereports.net##.grammarly-overall
 balls.ie##.gray-ad-title
 greatandhra.com##.great_andhra_logo_panel > div.center-align
@@ -59157,7 +59159,7 @@ gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,goonhammer.com,joemygod.com,shtfplan.com,thestrongtraveller.com,usmagazine.com##.widget_block
 wplift.com##.widget_bsa
 techweekmag.com##.widget_codewidget
-4sysops.com,9to5linux.com,activistpost.com,arcadepunks.com,backthetruckup.com,catcountry941.com,cnx-software.com,corrosionhour.com,corvetteblogger.com,dailyveracity.com,dcrainmaker.com,discover.is,fastestvpns.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,iwatchsouthparks.com,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceabc.com,scienceandliteracy.org,spokesman-recorder.com,survivopedia.com,techdows.com,techforbrains.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com##.widget_custom_html
+4sysops.com,9to5linux.com,activistpost.com,arcadepunks.com,backthetruckup.com,catcountry941.com,corrosionhour.com,corvetteblogger.com,dailyveracity.com,dcrainmaker.com,discover.is,fastestvpns.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,iwatchsouthparks.com,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceabc.com,scienceandliteracy.org,spokesman-recorder.com,survivopedia.com,techdows.com,techforbrains.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com##.widget_custom_html
 insidehpc.com##.widget_download_manager_widget
 domaingang.com##.widget_execphp
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
@@ -59307,6 +59309,7 @@ shoprite.com##[class^="CitrusBannerXContainer"]
 bloomberg.com##[class^="FullWidthAd_"]
 genius.com##[class^="InnerSectionAd__"]
 genius.com##[class^="InreadContainer__"]
+zerohedge.com##[class^="PromoButton"]
 uploader.link##[class^="ads"]
 weather.us##[class^="dkpw"]
 dallasnews.com##[class^="dmnc_features-ads-"]
@@ -66177,6 +66180,8 @@ _WebVitalsReporter_
 /znsrc.com/c/*$image
 ://2ip.*/member_photo/$third-party
 ://cl.melonbooks.co.jp/c/$image
+://click.revolut.com/q/$image
+://e.email.*/open?$image
 ://email.*/e/o/
 ://email.*/o/$image
 ://parcel-api.delivery-status.*/open/$image
@@ -121584,8 +121589,9 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 @@||track.adtraction.com/*&url=https://www.gog.com/$popup
 ||track.adtraction.com/*^url=https://www.gog.com/$doc,urlskip=?url
 ||track.adtraction.com/*^url=https://www.gog.com/$doc,urlskip=?url -blocked
-/^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\/?\?.*?&?u=http/$doc,to=com|io|net,urlskip=?u +https
 /^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/[a-zA-Z0-9]{6}\?subId1=[^&]+&u=http/$doc,to=com|io|net,urlskip=?u +https
+/^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\/?\?.*?&?u=http/$doc,to=com|io|net,urlskip=?u +https
+/^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\/?\?.*?&?url=http/$doc,to=com|io|net,urlskip=?url +https
 /^https?:\/\/www\.[a-z]+\.(?:com|net)\/click-\d{7}-\d{8}\b.*?[?&]url=http/$doc,to=com|net,urlskip=?url
 /Proxy.ashx?*&GR_URL=http$doc,urlskip=?GR_URL
 ||clicks.trx-hub.com/*^q=http$doc,urlskip=?q
@@ -121611,7 +121617,7 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||streaklinks.com/*/http$doc,urlskip=/\bstreaklinks\.com\/[^\/]+\/https?%3A%2F%2F([^\/?#]+)/ -uricomponent +https
 ||streak-link.com/*/http$doc,urlskip=/\bstreak-link\.com\/[^\/]+\/https?%3A%2F%2F([^\/?#]+)/ -uricomponent +https
 ||app.hive.co/email/elt/*^next=http$doc,urlskip=?next
-||digidip.net/visit?url=http$doc,urlskip=?url
+||digidip.net/visit?*url=http$doc,urlskip=?url
 ||action.metaffiliation.com/trk.php*^redir=http$doc,urlskip=?redir
 ||backerkit.com/ahoy/messages/*/click?*url=http$doc,urlskip=?url
 ||rd.bizrate.com/rd*^t=http$doc,urlskip=?t +https
@@ -121666,8 +121672,11 @@ threads.net##+js(json-prune, require.0.3.0.__bbox.define.[].2.is_linkshim_suppor
 ||prsm1.com/r?url=http$doc,urlskip=?url
 ||link.theskimm.com/click/*/aHR0c$doc,urlskip=/\/click\/[^\/]+\/(aHR0c[^\/]+)/ -base64
 ||redirect.viglink.com/*^ourl=http$doc,urlskip=?ourl
+||redirect.viglink.com/*^u=http$doc,urlskip=?u
 ||affportal.bhphoto.com/dl/redventures/*^u=http$doc,urlskip=?u
 ||dlk.ivoox.com/dlk/*^link=http$doc,urlskip=?link
+||amazon.com/gp/redirect.html?*&location=http$doc,urlskip=?location
+||link.sylikes.com/*^url=http$doc,urlskip=?url
 html.duckduckgo.com,lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
 starstyle.com##+js(href-sanitizer, a[href^="https://go.skimresources.com/"][href*="&url=http"], ?url)
 insidehook.com,nbcnews.com,pcpartpicker.com,space.com##+js(href-sanitizer, a[href^="https://click.linksynergy.com/"][href*="link?id="][href*="&murl=http"], ?murl)
