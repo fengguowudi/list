@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +r0nzhjAo4j1jQ+PBcmdlQ
+! Checksum: NrFCxLzKoivXqzb0zl+XYA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202412011004
-! Last Modified: 2024年12月01日 10:04
+! Version: 202412011430
+! Last Modified: 2024年12月01日 14:30
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1884,6 +1884,9 @@ newduba.cn###jq_youxi
 ||jcwlsofn.icu^
 ||brircel.com^
 ||af6s.icu^
+||edamcsw.top^
+||e8d7.icu^
+||aoao12011iis.top^
 ||ruqaks.com^
 ||bmhtwefv.icu^
 ||olkoins.com^
@@ -18872,7 +18875,7 @@ _rony.js$script,third-party
 ||ao1*kas.top/$script,third-party
 /\.[a-z]oubli[a-z].top\//$script,third-party
 /\.[a-z]yjqgp[a-z].top\//$script,third-party
-||aoao11*iis.top/$script,third-party
+||aoao1*iis.top/$script,third-party
 /\.[a-z]weisi[a-z].top\//$script,third-party
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 !#Novels
