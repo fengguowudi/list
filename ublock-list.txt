@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BfcRddRR6KArbrM8S9lPNA
+! Checksum: IC/FqcJYgS0QEbzORZiqfg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412010227
-! Last Modified: 2024年12月01日 02:27
+! Version: 202412011004
+! Last Modified: 2024年12月01日 10:04
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -60480,6 +60480,7 @@ avclub.com,jalopnik.com,kotaku.com,theonion.com,theroot.com##[class] > div:has(>
 fortune.com##[class]:has(> #Leaderboard0)
 jalopnik.com,kotaku.com,theroot.com##[class]:has(> .related-stories-inset-video)
 polygon.com,vox.com##[class]:has(> [data-concert])
+standard.co.uk##[class]:has(> [data-fluid-zoneid])
 independent.co.uk,standard.co.uk,the-independent.com##[class]:has(> [data-mpu])
 thrillist.com##[class^="Container__GridRow-sc-"]:has(> .concert-ad)
 skyscanner.com##[class^="FlightsResults"] > div:has([class^="Sponsored"])
