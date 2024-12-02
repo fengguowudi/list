@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: W2I6g4HeOl5VVyqWIRcQGQ
+! Checksum: UXoxLwCT12Ahklu4Wp4iqA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412021432
-! Last Modified: 2024年12月02日 14:32
+! Version: 202412022047
+! Last Modified: 2024年12月02日 20:47
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -57555,7 +57555,6 @@ latestly.com##.lhs_adv_970x90_div
 gadgets360.com##.lhs_top_banner
 nationthailand.com##.light-box-ads
 iheartradio.ca##.lightbox-wrapper
-rebelnews.com##.lighter-gray-bg
 lilo.org##.lilo-ad-result
 getbukkit.org##.limit
 linuxize.com##.linaff
@@ -58353,8 +58352,6 @@ costco.com##.rm-grid-product
 chemistwarehouse.com.au##.rm__campaign-product__slider-item
 windowsreport.com##.rmdcb
 indiatimes.com##.rmfp
-rebelnews.com##.rn-article-ad
-rebelnews.com##.rn-sidebar-ad
 realitytea.com##.roadblock
 surinenglish.com##.roba
 cults3d.com##.robots-nocontent
@@ -58468,6 +58465,7 @@ bestbuy.com##.shop-dedicated-sponsored-carousel
 bestbuy.com##.shop-pushdown-ad
 stokesentinel.co.uk##.shop-window[data-impr-tracking="true"]
 intouchweekly.com,lifeandstylemag.com,usmagazine.com##.shop-with-us__container
+rebelnews.com##.shopify-buy-frame
 instacart.com##.shoppable-list-a-las2t7
 hypebeast.com##.shopping-break-container
 indiatoday.in##.shopping__widget
@@ -58545,10 +58543,7 @@ linuxtopia.org##.sidelinks > .sidelinks
 atlasobscura.com##.siderail-bottom-affix-placeholder
 thespike.gg##.siderail_ad_right
 classicalradio.com,jazzradio.com,radiotunes.com,rockradio.com,zenradio.com##.sidewall-ad-component
-sifted.eu##.sifted_advert_block
 wncv.com##.simple-image
-nanoreview.net##.sinad_only_desktop
-nanoreview.net##.sinad_only_mobile
 metalsucks.net##.single-300-insert
 lgbtqnation.com##.single-bottom-ad
 9to5mac.com##.single-custom-post-ad
@@ -59201,6 +59196,7 @@ gearpatrol.com##.wp-block-gearpatrol-ad-slot
 gearpatrol.com##.wp-block-gearpatrol-from-our-partners
 gamingskool.com##.wp-block-group-is-layout-constrained
 samehadaku.email##.wp-block-group-is-layout-constrained > [href] > img
+independent.com##.wp-block-group__inner-container
 cryptofeeds.news,defence-industry.eu,gamenguides.com,houstonherald.com,millennial-grind.com,survivopedia.com,teslaoracle.com##.wp-block-image
 lowcarbtips.org##.wp-block-image.size-full
 livability.com##.wp-block-jci-ad-area-two
@@ -59557,7 +59553,6 @@ unknowncheats.me##[href^="https://proxy-seller.com/"]
 multi.xxx##[href^="https://prtord.com/"]
 cryptonews.com##[href^="https://rapi.cryptonews.com/"]
 tcbscans.com##[href^="https://readcbr.com/"]
-rebelnews.com##[href^="https://rebelne.ws/"]
 rlsbb.cc##[href^="https://rlsbb.cc/link.php"]
 rlsbb.ru##[href^="https://rlsbb.ru/link.php"]
 everybithelps.io##[href^="https://shop.ledger.com/"]
@@ -59582,7 +59577,6 @@ work.ink##[href^="https://www.buff.game/buff-download/"]
 seganerds.com##[href^="https://www.canadacasino.ca/"]
 onecompiler.com##[href^="https://www.datawars.io"]
 ratemycourses.io##[href^="https://www.essaypal.ai"]
-rebelnews.com##[href^="https://www.eventbrite.com/"]
 seganerds.com##[href^="https://www.ewinracing.com/"]
 crackwatcher.com##[href^="https://www.kinguin.net"]
 gamecopyworld.com,gamecopyworld.eu##[href^="https://www.kinguin.net/"]
@@ -62913,7 +62907,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 !! ||imasdk.googleapis.com/pal/sdkloader/pal.js
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=pluto.tv|tunein.com
 !! imasdk.googleapis.com/js/sdkloader/ima3_debug.js
-@@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|cbsnews.com|insideedition.com|pch.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|cbsnews.com|embed.sportsline.com|insideedition.com|pch.com
 !! https://github.com/uBlockOrigin/uAssets/issues/18541
 !! cbssports.com|newson.us|worldsurfleague.com
 @@||pubads.g.doubleclick.net/ssai/
@@ -119599,6 +119593,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||xai19k.com^$all
 ||officialxai.com^$all
 ||xaicrypto.org^$all
+||youtube.com/@jesseeckel5^$doc
 ||arbitragebot.team^$all
 ||arbitrageinstruction.media^$all
 ||arbitrageproject.blog^$all
@@ -120073,7 +120068,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 /^https:\/\/mbdk\d+\.com\//$doc,to=com|~mbbank.com.vn
 ||bbvaar.zeabur.app^$all,to=~bbva.com
 ||programajourney.com^$all,to=~bbva.pt
-||targobank-kontowechselservice.de^$all,to=~targobank.de
 ||mybluehost.me/meke/cc/clients/$doc,to=~targobank.de
 ||bdvenlinea*.pages.dev^$doc,to=~bancodevenezuela.com
 ||bdvenlineaconfirmate.pages.dev^$all,to=~bancodevenezuela.com
@@ -120777,6 +120771,17 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||ihomeficvn.com^$all,to=~homecredit.vn
 ||mmmbonline.com^$all,to=~mbbank.com.vn
 ||iplus-fianc24h.online^$all,to=~mbbank.com.vn
+/^https:\/\/giaohangtietkiem\w+\.com\//$doc,to=com|~giaohangtietkiem.vn
+||khuyenmaidacbiet-$doc
+||uudaidacbiet-$doc
+||chinhphu-vn.com^$all,to=~chinhphu.vn
+||evnspccskh.com^$all,to=~evn.com.vn
+||shb-bank.com^$all,to=~shb.com.vn
+||aeoonmallstore.com^$all,to=~aeon.com.vn
+||nhanvienhanghoa.com^$all,to=~giaohangtietkiem.vn
+||dichvutonghop.vip^$all,to=~giaohangtietkiem.vn
+||giaohangtietkiem24.com^$all,to=~giaohangtietkiem.vn
+||giaohangtietkiemm.net^$all,to=~giaohangtietkiem.vn
 ||msk.su^$all
 ||bleyeare.com^$all
 ||hberify.com^$all
@@ -121327,6 +121332,13 @@ uploadfox.net###ad-gs-05
 ||soreloutletblackfriday.com^$all,to=~sorel.com
 ||jcrewblackfriday.com^$all,to=~jcrew.com
 ||hottest-bag.com^$all,to=~louisvuitton.com
+||dopeblackfriday.shop^$all
+||llbeanblackfridays.shop^$all,to=~llbean.com
+||makitablackfriday.shop^$all,to=~makitatools.com
+||eu-blochdance.shop^$all,to=~blochworld.com
+||ikea-euonline.com^$all,to=~ikea.com
+||gardena-eu.com^$all,to=~gardena.com
+||northfacedeals.shop^$all,to=~thenorthface.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -122083,6 +122095,7 @@ wayfair.com##+js(no-xhr-if, t.wayfair.com/b.php?)
 wayfair.com##+js(set, navigator.sendBeacon, noopFunc)
 pandadoc.com##+js(no-fetch-if, segment.io)
 shahid.mbc.net##+js(no-fetch-if, mparticle.com)
+view.ceros.com##+js(no-xhr-if, ceros.com/a?data)
 @@||awstrack.me/*auth.coindesk.com$doc,popup
 @@||awstrack.me/*cmd=ac-inactive-restore$doc,popup
 ||2mdn.net/instream/video/client.js$script,redirect=noopjs,domain=video.foxnews.com
