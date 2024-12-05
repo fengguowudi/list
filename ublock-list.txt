@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SAZF90mhBEV1x6XtLSYhfA
+! Checksum: uYvY+E0qPCe2uv5M/D9fEg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412052046
-! Last Modified: 2024年12月05日 20:46
+! Version: 202412060229
+! Last Modified: 2024年12月06日 02:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -22145,6 +22145,7 @@ browsershots.org#@#.advert_area
 ||cudgeletc.com^
 ||cudgelsupportiveobstacle.com^
 ||cudjgcnwoo-s.icu^
+||cue-oxvpqbt.space^
 ||cuefootingrosy.com^
 ||cueistratting.com^
 ||cuesingle.com^
@@ -25628,6 +25629,7 @@ browsershots.org#@#.advert_area
 ||gafmajosxog.com^
 ||gagdungeon.com^
 ||gagebonus.com^
+||gagheroinintact.com^
 ||gaghygienetheir.com^
 ||gagxsbnbu.xyz^
 ||gaibjhicxrkng.xyz^
@@ -27901,6 +27903,7 @@ browsershots.org#@#.advert_area
 ||imvjcds.com^
 ||imyanmarads.com^
 ||in-appadvertising.com^
+||in-bdcvlj.love^
 ||in-page-push.com^
 ||in-page-push.net^
 ||inabsolor.com^
@@ -47177,6 +47180,7 @@ browsershots.org#@#.advert_area
 ||g33ktr4ck.com^$popup
 ||gadlt.nl^$popup
 ||gadssystems.com^$popup
+||gagheroinintact.com^$popup
 ||galaxypush.com^$popup
 ||galotop1.com^$popup
 ||gamdom.com/?utm_source=$popup
@@ -51970,6 +51974,7 @@ browsershots.org#@#.advert_area
 ||promo.pixelsee.app^$popup
 ||protected-redirect.click^$popup
 ||quantumadblocker.com^$popup
+||random-affiliate.atimaze.com^$popup
 ||record.affiliatelounge.com^$popup
 ||redir.tradedoubler.com/projectr/$popup
 ||refpamjeql.top^$popup
@@ -114597,7 +114602,7 @@ cybermania.ws##+js(acs, document.getElementById, showModal, /^data:text\/javascr
 cybermania.ws##+js(no-xhr-if, /doubleclick|googlesyndication/)
 cybermania.ws##+js(no-fetch-if, doubleclick.net/instream/ad_status.js, war:doubleclick_instream_ad_status.js)
 cybermania.ws##+js(aost, document.getElementsByTagName, adsBlocked)
-cybermania.ws##+js(nostif, /\.redirect/)
+cybermania.ws##+js(aost, Math.random, /(?=^(?!.*(/akismet-frontend\.js|gstatic|jquery/)))/)
 *$script,redirect-rule=noopjs,domain=cybermania.ws
 love4porn.com##+js(set, flashvars.popunder_url, '')
 love4porn.com##div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent none repeat scroll 0% 0%; display: block;"]
