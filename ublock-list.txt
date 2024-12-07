@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q0diCySmAPnCAAenTop8Iw
+! Checksum: gAJTpKpdxD/7ovmO6L+Ilw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412071429
-! Last Modified: 2024年12月07日 14:29
+! Version: 202412072040
+! Last Modified: 2024年12月07日 20:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -65524,7 +65524,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /t/event?
 /t?referer=
 /t?tcid=
-/taboola-header.js
+/taboola-header.js$script
 /taboola.js
 /taboola/loader.js
 /taboolaHead.js
@@ -66488,6 +66488,7 @@ omni.soundestlink.com$image
 ||cloudwp.io^
 ||clrt.ai^
 ||cnna.io^
+||cnstrc.com^
 ||cntxtfl.com^
 ||confiant-integrations.net^
 ||convead.io^
@@ -121511,6 +121512,7 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||airupfrance.fr^$doc,to=~air-up.com
 ||ftuapps.io^$doc
 ||ftuapps.dev^$doc
+||farlad.com^$doc
 ||geekupdates.notion.site/Ultra-Security$doc
 ||uobretailcreditmanagement.$doc
 ||blockfiupdates.$doc
@@ -121581,6 +121583,7 @@ uploadfox.net###ad-gs-05
 ||stylevibe.xyz^$all,to=~usps.com
 ||igetintopc.com^$all
 ||usps-packages-*.com^$doc,to=~usps.com
+||info-trackingcas.cc^$all,to=~usps.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -131849,8 +131852,8 @@ gameplayneo.com##+js(nano-stb, adConfig, *, 0.001)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 04 Dec 2024 10:38:14 GMT
-# entries:        3538
+# last updated:   Sat, 07 Dec 2024 08:59:52 GMT
+# entries:        3540
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -133539,6 +133542,7 @@ gameplayneo.com##+js(nano-stb, adConfig, *, 0.001)
 127.0.0.1 findcommerce.com
 127.0.0.1 findyourcasino.com
 127.0.0.1 fingahvf.top
+127.0.0.1 fireads.org
 127.0.0.1 fireworkadservices.com
 127.0.0.1 fireworkanalytics.com
 127.0.0.1 fireworks-advertising.com
@@ -134167,6 +134171,7 @@ gameplayneo.com##+js(nano-stb, adConfig, *, 0.001)
 127.0.0.1 mycounter.ua
 127.0.0.1 mydas.mobi
 127.0.0.1 mylead-tracking.tracknow.info
+127.0.0.1 mylead.global
 127.0.0.1 mylink-today.com
 127.0.0.1 mypagerank.net
 127.0.0.1 mypagerank.ru
