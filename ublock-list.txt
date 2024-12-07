@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: r8OlJxNmQ+tVr5HDEailRA
+! Checksum: Q0diCySmAPnCAAenTop8Iw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412070948
-! Last Modified: 2024年12月07日 09:48
+! Version: 202412071429
+! Last Modified: 2024年12月07日 14:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52458,6 +52458,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||adrama.to/bbb.php
 ||ads-api.stuff.co.nz^
 ||ads.audio.thisisdax.com^
+||ads.twdcgrid.com^
 ||adsbb.depositfiles.com^
 ||adsmg.fanfox.net^
 ||adultswim.com/ad/
@@ -121946,6 +121947,7 @@ bing.com##+js(href-sanitizer, a[href^="/rebates/welcome?url=http"], ?url)
 ||slickdeals.net/i.php?*&u2=http$doc,urlskip=?u2
 ||amazon.com/gp/redirect.html?*&location=http$doc,urlskip=?location
 ||link.sylikes.com/*^url=http$doc,urlskip=?url
+||sofi.com/atr/p/v1/a?u=http$doc,urlskip=?u
 ||justwatch.com/a?*^r=http$doc,urlskip=?r
 ||click.trafficguard.ai/*^lpurl=http$doc,urlskip=?lpurl
 ||awstrack.me/L0/http$doc,urlskip=/\/L0\/(http[^\/?#]+)/ -uricomponent +https
@@ -124798,6 +124800,8 @@ trutv.com##+js(set, turnerAnalyticsObj.setVideoObject4AnalyticsProperty, noopFun
 @@||cdnt.netcoresmartech.com/smartechclient.js^$script,domain=selfcare.unifi.com.my
 ||tag.aticdn.net/piano-analytics.js$script,domain=toureiffel.paris,important
 toureiffel.paris##+js(set, pa, {})
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=gameplayneo.com,important
+gameplayneo.com##+js(nano-stb, adConfig, *, 0.001)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
