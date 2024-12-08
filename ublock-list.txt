@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Zefm+5LVfUk/jn3P6QJrCA
+! Checksum: 51lvu33TyLNlTyFJfVrcqA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412080228
-! Last Modified: 2024年12月08日 02:28
+! Version: 202412080957
+! Last Modified: 2024年12月08日 09:57
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -13034,7 +13034,7 @@ _800x80_
 ##.pc-ad
 ##.pcads_widget
 ##.pd-ads-mpu
-##.pdpads_desktop
+##.pdpads
 ##.penci-ad-box
 ##.penci-ad-image
 ##.penci-ad_box
@@ -15128,7 +15128,6 @@ _800x80_
 ##.RC-AD-BOX-MIDDLE
 ##.RC-AD-BOX-TOP
 ##.RC-AD-TOP-BANNER
-##.js_related-stories-inset
 ##ins.adsbygoogle[data-ad-client]
 ##ins.adsbygoogle[data-ad-slot]
 ###mgb-container > #mgb
@@ -57631,6 +57630,7 @@ nicelocal.com##.js-results-slot
 theguardian.com##.js-top-banner
 extratv.com##.js-track-link
 chewy.com##.js-tracked-ad-product
+kotaku.com,qz.com,theroot.com##.js_related-stories-inset
 iobroker.net##.jss125
 paycalculator.com.au##.jss336
 calorieking.com##.jss356
@@ -124838,6 +124838,7 @@ trutv.com##+js(set, turnerAnalyticsObj.setVideoObject4AnalyticsProperty, noopFun
 toureiffel.paris##+js(set, pa, {})
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=gameplayneo.com,important
 gameplayneo.com##+js(nano-stb, adConfig, *, 0.001)
+@@||monetize-static.viralize.tv/*viralize_player_content.min.$script,domain=abs-cbn.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
