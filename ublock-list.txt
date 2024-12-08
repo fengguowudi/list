@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /8fuouav1kI5mBHRvqSmHQ
+! Checksum: QxpcGVayhp529dNkYKrJAw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412082041
-! Last Modified: 2024年12月08日 20:41
+! Version: 202412090229
+! Last Modified: 2024年12月09日 02:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -1088,7 +1088,6 @@ _prebid.js
 /adblock_logger.$script
 /adblockdetect.js$script
 /adBlockDetector/*$script
-/adbuddy.$domain=~adbuddy.be|~adbuddy.beeldstudio.be
 /ads-blocking-detector.$script
 /anti-adblock/*$~stylesheet
 /blockblock/blockblock.jquery.js$script
@@ -117661,7 +117660,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 /common-player-arrow/index.html?var=*&zoneid=$doc
 /common-player/index.html?var=*&zoneid=$doc
 /not-a-robot/index.html?$doc
-||dating.service2u.shop^$all
 ||amazonaws.com/www.yournewlocalflingfinder7.com/$all
 ||dirtyfree.games^$all
 ||familycheaters.net^$all
@@ -118155,14 +118153,11 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||tokyobag.shop^$all
 ||erdfkhxrnanm.top^$all
 ||tfehmsag.xyz^$all
-||authority-uspser.top^$all
-||www.uspertest.vip^$all
 ||xqfefdkey.xyz^$all
 ||app-bitbanlk-cc.weebly.com^$all
 ||oioi-tokye.top^$all
 ||tpoint-sites.com^$all
 ||cordialhoist.top^$all
-||app.stocksj.xyz^
 ||oioi-store.vip^$all
 ||totalpcsecure.com^$all
 ||zhikunux.com^$all
@@ -118223,7 +118218,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||determinatioon.jp^$doc
 ||di-ana.jp^$doc
 ||dosukoudo.net^$doc
-||dot-acc.xyz^$doc
 ||drct-match.com^$doc
 ||drct-match.net^$doc
 ||dydynight.org^$doc
@@ -118310,7 +118304,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||navi-match.net^$doc
 ||near-s.com^$doc
 ||new.hpk0fu9.jp^$doc
-||newencounter.pw^$doc
 ||nydlaepytwuekwhfyvivsf.com^$doc
 ||on-glamour.xyz^$doc
 ||one-chan-love.love^$doc
@@ -119059,7 +119052,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||lucksignpost0804.org^$doc
 ||lightning02s.com^$doc
 ||lightning0707.com^$doc
-||le.tter99.com^$doc
 ||silversex.com^$doc
 ||flirttime.com^$doc
 ||scene7goal3.work^$doc
@@ -119085,14 +119077,12 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||the-match.jp^$doc
 ||gekkei-jyu-gekkei-jyu.com^$doc
 ||gekkeijyu-gekkeijyu.com^$doc
-||ev4ev.biz^$doc
 ||evkakuri2308.click^$doc
 ||gtex3.com^$doc
 ||nice.par-even.com^$doc
 ||pr-0m.link^$doc
 ||wa-nago-wagona.com^$doc
 ||chi-yo-1807chiyo.com^$doc
-||fd-2.shop^$doc
 ||cuddle.koi-ba-na.com^$doc
 ||globalreward77.com^$doc
 ||jukukoi.jp^$doc
@@ -119647,8 +119637,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||fastndio.s3.eu-central-1.amazonaws.com^$all
 ||pub-77106c9273be4f3fbec6b6d6c3c51b7f.r2.dev^$all
 ||janganhackya.com^$all
-||blexad.shop^$all
-||xoty55.cfd^$all
 ||s3.ap-northeast-1.amazonaws.com/ongoing.com/aanoitmessure/index.html^$all
 ||setkuttina.pages.dev^$all
 ||liq27qbf.monster^$all
@@ -119663,7 +119651,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||qwudbhasdwq8h.sa.com^$all
 ||uwqghwfdwqywetqwfghewqeqweig.s3.ap-southeast-2.amazonaws.com^$all
 ||baattakkkk.online^$all
-||assitechnique.net^$all
 ||fantastic-salamander-c721cb.netlify.app^$all
 ||shishimishi.shop^$all
 ||track7.online^$all
@@ -119690,7 +119677,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||pages.dev/Wi0n0erAry0mpAlert048/$all
 ||netlify.app/errox01/?$all
 ||infinityserve.life^$all
-||ditenudedittaditenud.z7.web.core.windows.net^$all
 ||pages.dev/*/Fm7-alert.wav
 ||pages.dev/*/ai2.mp3
 ||pages.dev/*_Fm7-alert.mp3
@@ -119993,7 +119979,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||purring-wood-magnolia.glitch.me^$all,to=~wetransfer.com
 ||wetransferlogin.freewebhostmost.com^$all,to=~wetransfer.com
 ||bingkasprogram-*.xdbng.com^$all
-||auth-llbc.elementfx.com^$all,to=~leboncoin.fr
 ||epayln.site.tb-hosting.com^$all,to=~leboncoin.fr
 ||faran.ac.ir/wp-content/$all,to=~linkedin.com
 ||lnkdeka.standard.*.oortech.com^$doc,to=~linkedin.com
@@ -120015,7 +120000,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 /^https://[a-z]{40,}\.pages\.dev\//$doc,to=pages.dev
 ||resisted-amusing-driver.glitch.me^$all
 ||glitch.me/public/index_CNC.html^$doc
-||emaildomains.ezzomatic.online^$all
 ||r2.dev/Zimbra*.html^$doc,to=~mail.zimbra.com
 ||bellsecuredloginfom-net.vercel.app^$all,to=~webmail.bell.net
 ||hootbio.com/bellmail$all,to=~webmail.bell.net
@@ -120243,7 +120227,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||homeinboxlogin.com^$all,to=~my.gov.au
 ||thanhtrapcrt.online^$all,to=~thanhtra.gov.vn
 ||jetkingncsc.online^$all,to=~ncsc.gov.vn
-||portalkemaskinibantuansrt2024.inf1-id1.com^$all,to=~malaysiamadani.gov.my
 ||agenziaentrateriscossione.com^$all,to=~agenziaentrateriscossione.gov.it
 ||aitimaforou.web.app^$all,to=~gov.gr
 ||liveflo.qxlva.io^$all,to=~gov.uk
@@ -120360,7 +120343,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||americanexpressempresas.com^$all,to=~americanexpress.com
 ||r2.dev/blobamexbsatt.html^$doc,to=~americanexpress.com
 ||amxprd.com^$doc,to=~americanexpress.com
-||santanderstaging.interviewtoolkit.io^$all
 ||recompensaszurichsantander.com.mx^$all
 ||santander.orielcapitalch.com^$all
 ||santander.cf.sandbox.motrada.ch^$all,to=~santanderbank.com|~santander.co.uk
@@ -120435,7 +120417,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||facebooks-com.vn^$all
 ||mobile-facebook.com.vn^$all
 ||m-facebookk.com.vn^$all
-||mfacebook.net.vn^$all
 ||mfacebookk.com.vn^$all
 ||fakeserhelpsreivew-facesonseriengoies-16839.io.vn^$all
 ||fakeserhelpsreivew-$doc
@@ -120539,7 +120520,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||exchange-mlbb.go-midfer.com^$all
 ||pubg-arena.top^$all
 ||register-turnamen.free.nf^$all
-||pubgm-zing-vn.com^$all
 ||sukien-pubg.io.vn^$all
 ||napthepubg.mobi^$all
 /volt/*?nox=$doc,to=ai|com
@@ -120565,7 +120545,6 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||graettingerlaw.com^$all
 ||post.nationalrent.ru^$all
 ||gocolonial.local-user.com^$all
-||skype-com.cn^$all
 ||officesoftcn.com^$all
 ||sishui.site^$all
 ||athenasbaklava.com^$all
@@ -120911,7 +120890,6 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||khcn-tindung-$doc
 ||viettelgroup.com^$all,to=~viettel.com.vn
 ||khach-hang-the-$doc
-||lazada.gg^$all
 ||chamsockhachhang-$doc
 /^https?:\/\/dienmayxanh[-a-z0-9]+\.com\//$doc,to=com|~dienmayxanh.com
 /^https:\/\/dich-vu(?:-[a-z0-9]+){2,3}\.com\//$doc,to=com
@@ -120956,7 +120934,6 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||baovietcom.vip^$all,to=~baovietbank.vn
 ||hethongvaynhanh247.com^$all
 ||bethivetranh2024.weebly.com^$all
-||ebaymall168.shop^$all
 ||flikois.com^$all
 ||371j.xyz^$all
 ||momoshopvip.com^$all,to=~momo.vn
@@ -121543,7 +121520,6 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 /wp-content/plugins/simple-post-enhancer/spe-script.js
 /wp-content/plugins/social-media-integrator/smi-script.js
 ||solomonegbe.com^$all
-||notion.ramchhaya.com^$all,to=~notion.so
 ||furnotilioin.site^$all,to=~notion.so
 ||jqueri.at^$all
 ||jsdelivr.at^$all
@@ -121556,7 +121532,6 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 /^https:\/\/usps\.com-(?:\w+\.){1,2}[a-z]{2,4}\//$doc,to=~com|~net|~org|~edu|~gov
 ||orcaslicer.info^$doc
 ||marabase-bi.com^$doc,to=~mara.com
-||ev.ri-7a5935gb.com^$all,to=~evri.com
 ||ev.ri-*gb.com^$doc,to=~evri.com
 /^https:\/\/www\.air-?up-?[a-z]{2,}\.com\//$doc,to=com|~air-up.com
 /^https:\/\/www\.xn--airup[a-z]{5,6}-[a-z0-9]{3}\.com\//$doc,to=com|~air-up.com
@@ -121638,6 +121613,7 @@ uploadfox.net###ad-gs-05
 ||igetintopc.com^$all
 ||usps-packages-*.com^$doc,to=~usps.com
 ||info-trackingcas.cc^$all,to=~usps.com
+||backend.store.eset.co.il/pub/*/ESETUnleashed_*.zip^$all
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
