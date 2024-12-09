@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6V0Cxbc23z7q2dw2B5hPVw
+! Checksum: /hRf87onkUqlCbUvIPT62g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412091433
-! Last Modified: 2024年12月09日 14:33
+! Version: 202412092048
+! Last Modified: 2024年12月09日 20:48
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -289,7 +289,6 @@
 /adsAPI.js$script
 /adsbanner-$image
 /adsbanner/*$image
-/adsbox.$~script,domain=~adsbox.com.sg
 /adscontroller.js$script
 /adscroll.js$script
 /adsdelivery/*$subdocument
@@ -313,7 +312,7 @@
 /adtech;
 /adtools.js$script
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
-/adultdvdparadisecompopinsecound.js
+/adultdvdparadisecompopinsecound.js$script
 /adunit/track-view|
 /adunits/bcid?
 /adutil.js$script
@@ -773,7 +772,7 @@
 /velvet_stack_cmp.js$script
 /vendors~ads.
 /video_ads.$script
-/videoad.$domain=~videoad.in
+/videoad.$~xmlhttprequest,domain=~videoad.in
 /videoad/*$script
 /videoads/*$~xmlhttprequest
 /videojs.ads-$script,stylesheet
@@ -15079,6 +15078,7 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##topadblock
 ##zeus-ad
+###target.pk-page-ready #pk-status-message
 ###sellwild-loader
 ##.ad_1tdq7q5
 ##.style_k8mr7b-o_O-style_uhlm2
@@ -56519,6 +56519,7 @@ flipline.com##.box_grey_tr
 functions-online.com##.box_wide
 kiz10.com##.boxadsmedium
 bolavip.com,worldsoccertalk.com##.boxbanner_container
+kodinerds.net##.boxesSidebarRight
 retailgazette.co.uk##.boxzilla-overlay
 retailgazette.co.uk##.boxzilla-popup-advert
 wbur.org##.bp--native
@@ -56691,7 +56692,7 @@ letras.com##.cnt-space-top
 groceries.asda.com##.co-product-dynamic
 asda.com##.co-product-list[data-module-type="HookLogic"]
 map.riftkit.net##.coachify_wrapper
-100percentfedup.com,247media.com.ng,academicful.com,addapinch.com,aiarticlespinner.co,allaboutfpl.com,alltechnerd.com,americanmilitarynews.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,australiangeographic.com.au,autodaily.com.au,bakeitwithlove.com,bipartisanreport.com,bohemian.com,borncity.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,cjr.org,coincodecap.com,comicbook.com,conservativebrief.com,corrosionhour.com,crimereads.com,cryptobriefing.com,cryptointelligence.co.uk,cryptopotato.com,cryptoreporter.info,cryptoslate.com,cryptotimes.io,dafontfree.io,dailynewshungary.com,dcenquirer.com,dorohedoro.online,engineering-designer.com,epicdope.com,eurweb.com,exeo.app,fandomwire.com,firstcuriosity.com,firstsportz.com,flickeringmyth.com,flyingmag.com,freefontsfamily.net,freemagazines.top,gadgetinsiders.com,gameinfinitus.com,gamertweak.com,gamingdeputy.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,harrowonline.org,hollywoodinsider.com,hollywoodunlocked.com,ifoodreal.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,jujustukaisen.com,libertyunlocked.com,linuxfordevices.com,lithub.com,meaningfulspaces.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,mymodernmet.com,mymotherlode.com,nationalfile.com,nexdrive.lol,notalwaysright.com,nsw2u.com,nxbrew.com,organicfacts.net,patriotfetch.com,politizoom.com,premiumtimesng.com,protrumpnews.com,pureinfotech.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,respawnfirst.com,rezence.com,roadaheadonline.co.za,rok.guide,saabplanet.com,sciencenotes.org,sdnews.com,simscommunity.info,small-screen.co.uk,snowbrains.com,storypick.com,streamingbetter.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techpp.com,techrounder.com,techviral.net,thebeaverton.com,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,theoilrig.ca,thepeoplesvoice.tv,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,walletinvestor.com,washingtonblade.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,whynow.co.uk,win.gg,windowslatest.com,wisden.com,wnd.com,zerohanger.com,ziperto.com##.code-block
+100percentfedup.com,247media.com.ng,academicful.com,addapinch.com,aiarticlespinner.co,allaboutfpl.com,alltechnerd.com,americanmilitarynews.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,australiangeographic.com.au,autodaily.com.au,bakeitwithlove.com,bipartisanreport.com,bohemian.com,borncity.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,cjr.org,coincodecap.com,comicbook.com,conservativebrief.com,corrosionhour.com,crimereads.com,cryptobriefing.com,cryptointelligence.co.uk,cryptopotato.com,cryptoreporter.info,cryptoslate.com,cryptotimes.io,dafontfree.io,dailynewshungary.com,dcenquirer.com,dorohedoro.online,engineering-designer.com,epicdope.com,eurweb.com,exeo.app,fandomwire.com,firstcuriosity.com,firstsportz.com,flickeringmyth.com,flyingmag.com,freefontsfamily.net,freemagazines.top,gadgetinsiders.com,gameinfinitus.com,gamertweak.com,gamingdeputy.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,harrowonline.org,hollywoodinsider.com,hollywoodunlocked.com,ifoodreal.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,jujustukaisen.com,libertyunlocked.com,linuxfordevices.com,lithub.com,meaningfulspaces.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,mymodernmet.com,mymotherlode.com,nationalfile.com,nexdrive.lol,notalwaysright.com,nsw2u.com,nxbrew.com,organicfacts.net,patriotfetch.com,politizoom.com,premiumtimesng.com,protrumpnews.com,pureinfotech.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,respawnfirst.com,rezence.com,roadaheadonline.co.za,rok.guide,saabplanet.com,sciencenotes.org,sdnews.com,simscommunity.info,small-screen.co.uk,snowbrains.com,statisticsbyjim.com,storypick.com,streamingbetter.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techpp.com,techrounder.com,techviral.net,thebeaverton.com,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,theoilrig.ca,thepeoplesvoice.tv,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,walletinvestor.com,washingtonblade.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,whynow.co.uk,win.gg,windowslatest.com,wisden.com,wnd.com,zerohanger.com,ziperto.com##.code-block
 storytohear.com,thefamilybreeze.com,thetravelbreeze.com,theworldreads.com,womensmethod.com##.code-block > center p
 cookingwithdog.com,streamtelly.com##.code-block-1
 powerpyx.com##.code-block-14
@@ -60829,7 +60830,7 @@ nicelocal.com##div[style="min-height: 90px;"]:has(iframe[id^="google_ads_"])
 tartaria-faucet.net##div[style^="display"]:has([src^="https://multiwall-ads.shop/"])
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 nex-software.com##h4:has(a[href$="/reimage"])
-bing.com##li.b_algo:has([class="b_caption"] > p.b_lineclamp2[class*="b_algo"][class*="slug"] > span.algoSlug_icon)
+bing.com##li.b_algo:has(> [class="b_caption"] > p.b_overflow2)
 walmart.com##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 walgreens.com##li.owned-brands:has(figure.sponsored)
 macys.com##li.productThumbnailItem:has(.sponsored-items-label)
@@ -115185,6 +115186,7 @@ uploadshare.net##ins.adsbygoogle
 uploadshare.net##.advert-wrapper
 /js/static/header/sda/ppsuma*.js$script
 xnxx.com##.videoad-title
+xnxx.com##+js(aeld, DOMContentLoaded, /dyn\.ads|loadAdsDelayed/)
 @@||cache.marieclaire.fr/media/videojs/videojs.ads.min.js$script,domain=marieclaire.fr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=marieclaire.fr
 *$script,3p,denyallow=arc.io|cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|fastlylb.net|unpkg.com,domain=hatsukimanga.com
@@ -119828,6 +119830,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||teslamaked.com^$all
 ||cryptomusk.io^$all
 ||youtube.com/@Tesla.debate_live2024^$doc
+||youtube.com/@TheCryptoLarkCrypto^$doc
 ||teslafond.io^$all
 ||teslacore.io^$all
 ||btc24.info^$all
@@ -119848,10 +119851,12 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||stage3sale2024.$doc,to=~edu|~gov
 ||black-sales.$doc,to=~edu|~gov
 /^https:\/\/xai\w+(?:\.\w+)?\.[a-z]{3,}\/presale\b/$doc,match-case,to=~edu|~gov
+/^https:\/\/[-\w]+xai\.[a-z]{3,}\/presale\b/$doc,match-case,to=~edu|~gov
 ||xaitoken.live^$all
 ||investxai.pro^$all
 ||xai85s.com^$all
 ||xaitokensale.net^$all
+||official-xai.com^$all
 ||xaitoken.$all,to=xaitoken.app|xaitoken.page.link|xaitoken.net
 ||xaiofficial.com^$all
 ||xaipresales.org^$all
@@ -119859,6 +119864,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||officialxai.com^$all
 ||xaicrypto.org^$all
 ||youtube.com/@jesseeckel5^$doc
+||xai62f.com^$all
+||xaiofficial.ai^$all
 ||arbitragebot.team^$all
 ||arbitrageinstruction.media^$all
 ||arbitrageproject.blog^$all
@@ -119952,6 +119959,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||lapmangsctv.com.vn^$doc,to=~sctv.com.vn
 ||socgeneralist.firebaseapp.com^$all,to=~societegenerale.com
 ||testra*-covid.weebly.com^$all,to=~telstra.com.au
+||telus.signup.clik2pay.com^$all,to=~telus.com
 ||final-ua.eu/vasilisa/votings$all
 ||flow.page/foxhills.co.uk^$all,to=~foxhills.co.uk
 ||jemi.so/correo-24-ar^$all,to=~correoargentino.com.ar
@@ -121612,6 +121620,11 @@ uploadfox.net###ad-gs-05
 ||usps-packages-*.com^$doc,to=~usps.com
 ||info-trackingcas.cc^$all,to=~usps.com
 ||backend.store.eset.co.il/pub/*/ESETUnleashed_*.zip^$all
+||gnxuohpr.icu^$all,to=~mexc.com
+||mexcgbaip.vip^$all,to=~mexc.com
+||www.*.icu^$doc,ipaddress=/^(13\.227\.254\.\d{2}|2600:9000:2(00a|1d1):[a-z0-9]{2}00:1[1c]:(7b7c|2741):(1ac|2d0)0:93a1)$/
+||www.*.vip^$doc,ipaddress=/^(13\.227\.254\.\d{2}|2600:9000:2(00a|1d1):[a-z0-9]{2}00:1[1c]:(7b7c|2741):(1ac|2d0)0:93a1)$/
+||1312stealer.ru^$all
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
