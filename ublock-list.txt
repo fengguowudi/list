@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dBnTxiekAaCfaBZZZf5C0Q
+! Checksum: /gJNMsXFGEB/Sj8hkYA2OQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412110950
-! Last Modified: 2024年12月11日 09:50
+! Version: 202412111432
+! Last Modified: 2024年12月11日 14:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -115253,7 +115253,8 @@ uploadshare.net##ins.adsbygoogle
 uploadshare.net##.advert-wrapper
 /js/static/header/sda/ppsuma*.js$script
 xnxx.com##.videoad-title
-xnxx.com##+js(aeld, DOMContentLoaded, /dyn\.ads|loadAdsDelayed/)
+xnxx.com,xvideos.*##+js(aeld, DOMContentLoaded, /dyn\.ads|loadAdsDelayed/)
+xnxx.com,xvideos.*##+js(set, xv.sda.pp.init, noopFunc)
 @@||cache.marieclaire.fr/media/videojs/videojs.ads.min.js$script,domain=marieclaire.fr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=marieclaire.fr
 *$script,3p,denyallow=arc.io|cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|fastlylb.net|unpkg.com,domain=hatsukimanga.com
@@ -120563,6 +120564,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||steamxiazai.cn^$all
 ||steam.zssjsq.com^$all
 ||steamtopup.ru^$all
+||steeamcommnity.com^$all
 ||steamcommunitylog.chez.com^$all
 ||steam.workshop*.com^$doc
 /^https:\/\/stea[a-z]{1,4}o[mn][a-z]{4,7}y[a-z]?\.com\//$doc,to=com|~steamcommunity.com
@@ -121970,13 +121972,15 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 /t/t?a=*&url=http$doc,to=com|dk,urlskip=?url
 /^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/[a-zA-Z0-9]{6}\?subId1=[^&]+&u=http/$doc,to=com|io|net,urlskip=?u +https
 /^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\/?\?.*?&?u=http/$doc,to=com|io|net,urlskip=?u +https
-/^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\/?\?.*?&?url=http/$doc,to=com|io|net,urlskip=?url +https
+/^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\/?\?.*?&?url=http/$doc,to=com|io|net,match-case,urlskip=?url +https
+/^https?:\/\/(?:[^.]+\.){2}(?:com|io|net)\/c(?:\/\d+){3}\/?\?.*?&?URL=http/$doc,to=com|io|net,match-case,urlskip=?URL +https
 /^https?:\/\/www\.[a-z]+\.(?:com|net)\/click-\d{6,7}-\d{8}\b.*?[?&]url=http/$doc,to=com|net,match-case,urlskip=?url
 /^https?:\/\/www\.[a-z]+\.(?:com|net)\/click-\d{6,7}-\d{8}\b.*?[?&]URL=http/$doc,to=com|net,match-case,urlskip=?URL
 /Proxy.ashx?*&GR_URL=http$doc,urlskip=?GR_URL
 ||clicks.trx-hub.com/*^q=http$doc,urlskip=?q
 ||shop-links.co/link*^url=http$doc,urlskip=?url
 ||prf.hn/click/*/destination:http$doc,urlskip=/\/destination:([^\/]+)/ -uricomponent
+||7tiv.net/*^u=http$doc,urlskip=?u +https
 ||go.redirectingat.com/*^url=http$doc,urlskip=?url
 ||go.skimresources.com/*^url=http$doc,urlskip=?url
 ||click.linksynergy.com/*^murl=http$doc,urlskip=?murl
@@ -121985,6 +121989,7 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ||cc.*.com/v1/otc/*?merchant=*&url=http$doc,to=com,urlskip=?url
 ||click.pstmrk.it/*/$document,urlskip=/\.pstmrk\.it\/[23][mst]{0,2}\/([^\/?#]+)/ -uricomponent +https
 ||howl.me/link*^url=http$doc,urlskip=?url
+||howl.link/link*^url=http$doc,urlskip=?url
 ||shopping.yahoo.com/rdlw*^gcReferrer=http$doc,urlskip=?gcReferrer
 ||track.flexlinks.com/a.ashx*^url=http$doc,urlskip=?url
 ||track.flexlinkspro.com/a.ashx*^url=http$doc,urlskip=?url
@@ -124925,6 +124930,7 @@ gameplayneo.com##+js(nano-stb, adConfig, *, 0.001)
 ||cdn.cookielaw.org/scripttemplates/otSDKStub.js$script,domain=embed.sportsline.com
 ||g.doubleclick.net/tag/js/gpt.js$script,xhr,redirect=googletagservices_gpt.js:5,domain=wralsportsfan.com,important
 @@||googletagmanager.com^$script,redirect-rule,domain=charleyharper.com|charleyharperartstudio.com|charleyharperwholesale.com|fabframes.com|fabulousframesandart.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=radioviainternet.nl
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
