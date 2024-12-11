@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zMLwrX5EyviI5Qk9tJg1cA
+! Checksum: AVbioR1fXS4XwPpqHtvd8w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412112046
-! Last Modified: 2024年12月11日 20:46
+! Version: 202412120231
+! Last Modified: 2024年12月12日 02:31
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -225,7 +225,6 @@
 /adrecover-new.js$script
 /adrecover.js$script
 /adright.$domain=~adright.com
-/adriver.$~script,domain=~adriver.co
 /ads-250.$image
 /ads-async.$script
 /ads-common.$image,script
@@ -448,7 +447,7 @@
 /exitpopup.js$script
 /exitsplash.php$script
 /exoads/*$script
-/exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
+/exoclick.$~script,~xmlhttprequest,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/*$script
 /exonob/*$script
 /exports/tour/*$third-party
@@ -16316,6 +16315,7 @@ browsershots.org#@#.advert_area
 ||6179b859b8.com^
 ||61t2ll6yy.com^
 ||61zdn1c9.skin^
+||62a77005fb.com^
 ||62ca04e27a.com^
 ||63912b9175.com^
 ||639c909d45.com^
@@ -29526,6 +29526,7 @@ browsershots.org#@#.advert_area
 ||lamplynx.com^
 ||lamppostharmoniousunaware.com^
 ||lampshademirror.com^
+||lamrissmyol.com^
 ||lanceforthwith.com^
 ||landelcut.com^
 ||landitmounttheworld.com^
@@ -118252,6 +118253,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||btemgb.com^$all
 ||amaeex.one^$all
 ||ec2-13-230-253-66.ap-northeast-1.compute.amazonaws.com^$all
+||77jjxx.com^$all
 ||webuzz.me^$doc
 ||coup-ling.net^$all
 ||coup-ling-dm.net^$all
