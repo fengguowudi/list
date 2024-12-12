@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nBz/OsGKYHGHnDNC6W2tqA
+! Checksum: C+F8wUrvxq7zRIowOGsDig
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412120950
-! Last Modified: 2024年12月12日 09:50
+! Version: 202412121432
+! Last Modified: 2024年12月12日 14:32
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -71492,7 +71492,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.release.narrativ.com^$subdocument,xmlhttprequest
 ||events.shareably.net^
 ||events.splash-screen.net^
-||events.split.io^
+||events.split.io^$domain=~collegeboard.org
 ||events.storifyme.com^
 ||events.tryamped.com^
 ||events.tubecup.org^
@@ -120351,6 +120351,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||antaidossiersuivamendimpayeer*.zynekcctv.com^$all,to=~amendes.gouv.fr
 ||zynekcctv.com/amandes/$doc,to=~amendes.gouv.fr
 /amandes/infospage.php^$doc,to=~amendes.gouv.fr
+/\.codeanyapp\.com\/.+\/(?:3dsece?|infospage|paiement)\.php\b/$doc,match-case,to=codeanyapp.com|~amendes.gouv.fr
+||codeanyapp.com/pr/rue/$doc,to=~amendes.gouv.fr
 ||chamsocthekhachhang-$doc,to=~edu|~gov|~edu.vn|~gov.vn
 ||uudaikhachhangthe-$doc,to=~edu|~gov|~edu.vn|~gov.vn
 ||sotuyenvcb.vietcombanker.com^$all,to=~vietcombank.com.vn
@@ -120586,10 +120588,12 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||stemcommunty.com^$all
 ||staemcommunnitty.com^$all
 ||staemcomunnutty.com^$all
+||scearmcommnymnlty.com^$all
 ||workshop-users.com^$all
 ||cn-steam.com^$all
 ||com/p/jcod-ppsr/huasdirjdo^$doc,to=~steamcommunity.com
 ||usersworkshoparts.com^$all
+||communitystudionart.com^$all
 /^https:\/\/(?:www\.)?(?:ff[-.])?member[-.]gare[a-z]+a(?:\.pro)?\.vn\//$doc,to=vn|~garena.vn
 /^https:\/\/(?:www\.)?(?:ff[-.])?men?mber[-.]garena\.vn\//$doc,to=vn|~garena.vn
 ||garerna.vn^$all,to=~garena.vn
@@ -120730,6 +120734,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||telegram-*.com/login/index.html^$all
 ||d*wsapp.icu^$doc
 ||telezelm-*.icu^$doc
+||whatsapp*.icu^$doc
 ||uspsparcels.net^$all,to=~usps.com
 ||freeusps.com^$all,to=~usps.com
 ||netusps.com^$all,to=~usps.com
@@ -120749,9 +120754,14 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 /^https:\/\/[a-z]\.[a-z]{10,}\.top\/l(?:\/|$)/$doc,to=top|~usps.com
 ||usps.*.top^$doc,to=top|~usps.com
 ||wpenginepowered.com/usps/$doc,to=~usps.com
+||usps.*.sbs^$doc,to=~usps.com
+||uspac.sbs^$all,to=~usps.com
+||informed.delivery*.top^$all,to=~usps.com
+||info-tracking*.cc^$all,to=~usps.com
 /^https:\/\/(?:[a-z0-9]{2,}-)+10\d{4}\.weeblysite\.com\//$doc,to=weeblysite.com
 /^https:\/\/(?:[a-z0-9]{2,}-)+10\d{4}\.square\.site\//$doc,to=square.site
 ||upgradeyourspotify.cc^$all
+||keepo.io/opddater-spotifykonto-informas/$all
 /^https:\/\/[^.]+\.codeanyapp\.com\/wp-content\/.+\/spo[a-z]{2}i\//$doc,to=codeanyapp.com
 ||codeanyapp.com/*/spotii/$all
 ||codeanyapp.com/*/spoofi/$all
@@ -121620,7 +121630,8 @@ webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[clas
 ||noticesgove.top^$all,to=~gov.uk
 /^https:\/\/winterpaymen[a-z]{2,5}\.top\//$doc,to=top|~gov.uk
 ||securevault.top^$all
-/^https:\/\/usps\.com-(?:\w+\.){1,2}[a-z]{2,4}\//$doc,to=~com|~net|~org|~edu|~gov
+/^https:\/\/usps\.com-(?:[-\w]+\.){1,2}[a-z]{2,4}\//$doc,to=~com|~net|~org|~edu|~gov
+/^https:\/\/amazon\.com-(?:[-\w]+\.){1,2}[a-z]{2,4}\//$doc,to=~com|~net|~org|~edu|~gov
 ||orcaslicer.info^$doc
 ||marabase-bi.com^$doc,to=~mara.com
 /^https:\/\/www\.air-?up-?[a-z]{2,}\.com\//$doc,to=com|~air-up.com
@@ -122067,7 +122078,9 @@ bing.com##+js(href-sanitizer, a[href^="/rebates/welcome?url=http"], ?url)
 ||bing.com/rebates/welcome?url=http$doc,urlskip=?url
 ||bing.com/alink/link?url=http$doc,urlskip=?url
 ||ds1.nl/redirect/*^dai_url=http$doc,urlskip=?dai_url
-/^https?:\/\/www\.anrdoezrs\.net\/links\/\d+\/type\/dlg\/(?:sid\/[^\/]+\/)?http/$doc,to=anrdoezrs.net,urlskip=/\/dlg\/(?:sid\/[^\/]+\/)?(http.+)/ +https
+||c.next2.io/*^link=http$doc,urlskip=?link
+/^https?:\/\/(?:www\.anrdoezrs\.net|cj\.dotomi\.com)\/links(?:-t)?\/\d+\/sid\/[^\/]+\/http/$doc,to=cj.dotomi.com|www.anrdoezrs.net,urlskip=/\/sid\/[^\/]+\/(http[^?]+)/ +https
+||anrdoezrs.net/links/*/type/dlg/http$doc,urlskip=/\/dlg\/(http[^?]+)/ +https
 /tradetracker/?tt=*&r=http$doc,urlskip=?r
 ||r.bttn.io/?*&btn_pub_ref=*&btn_url=http$doc,urlskip=?btn_url
 ||r.bttn.io/?*&btn_pub_ref=*&btn_desktop_url=http$doc,urlskip=?btn_desktop_url
