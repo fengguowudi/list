@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8anDyZ+VVSj0qQPJ0sd0mg
+! Checksum: ZeSifqozbT7EAz2bDELdGQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412130231
-! Last Modified: 2024年12月13日 02:31
+! Version: 202412130951
+! Last Modified: 2024年12月13日 09:51
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -36517,6 +36517,7 @@ browsershots.org#@#.advert_area
 ||rhagoseasta.com^
 ||rhendam.com^
 ||rheneapfg.com^
+||rhiaxplrolm.com^
 ||rhinioncappers.com^
 ||rhinocerosobtrusive.com^
 ||rhombicsomeday.com^
@@ -42332,6 +42333,7 @@ browsershots.org#@#.advert_area
 ||whirlclick.com^
 ||whirltoes.com^
 ||whirlwindofnews.com^
+||whirredbajau.com^
 ||whishannuent.com^
 ||whiskersbonnetcamping.com^
 ||whiskerssituationdisturb.com^
@@ -60837,6 +60839,7 @@ jalopnik.com,kotaku.com,theroot.com##[class]:has(> .related-stories-inset-video)
 polygon.com,vox.com##[class]:has(> [data-concert])
 standard.co.uk##[class]:has(> [data-fluid-zoneid])
 independent.co.uk,standard.co.uk,the-independent.com##[class]:has(> [data-mpu])
+nytimes.com##[class]:has(> [id="ad-top"])
 thrillist.com##[class^="Container__GridRow-sc-"]:has(> .concert-ad)
 skyscanner.com##[class^="FlightsResults"] > div:has([class^="Sponsored"])
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
@@ -63733,7 +63736,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /analytics.config.js
 /analytics.do
 /analytics.gif?
-/analytics.html?
 /analytics.js/v1/*
 /analytics.plausible.js
 /analytics.prod.$domain=~fifteen.eu
@@ -113523,7 +113525,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||fb.ru/stat/
 ||fontanka.ru/api/metrics/
 ||fotostrana.ru/start/
-||goya.rutube.ru^
+||goya.rutube.ru^$~image
 ||hh.ru/analytics^
 ||hh.ru/stat?
 ||interfax.ru/cnt/
@@ -113854,6 +113856,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||extreme-ip-lookup.com^$script,domain=bulkbarn.ca
 @@||ezodn.com/cmp/gvl.json$xmlhttprequest
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
+@@||fdi.fiduciarydecisions.com/a/lib/gtag/gtag.js$script,~third-party
+@@||fdi.fiduciarydecisions.com/v/app/components/*/Analytics.js$script,~third-party
 @@||fichub.com/plugins/adobe/lib/AppMeasurement.js$domain=natgeotv.com
 @@||fichub.com/plugins/adobe/lib/VisitorAPI.js$domain=natgeotv.com
 @@||filme.imyfone.com/assets/js/gatrack.js$~third-party
@@ -122465,6 +122469,8 @@ bentasker.co.uk##+js(no-xhr-if, method:POST url:pfanalytics.bentasker.co.uk)
 ||substack.com/api/v1/firehose/batch
 ||nakedanalytics.net^
 /^https:\/\/grabify\.org\/[A-Z0-9]+$/$doc
+||email.stripe.com/CL0/$doc,urlskip=/CL0\/(http.*?)(?:\/1\/[a-f0-9-]+\/)/ -uricomponent
+||q.stripe.com/?domain=$image
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -131809,6 +131815,10 @@ gameplayneo.com##+js(nano-stb, adConfig, *, 0.001)
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||wkzw.me^
+||dhkqqe.top^
+||yruadj.top^
+||fjuga.top
 ||ouiokaq.top^
 ||ig65.vip^
 ||ig66.vip^
@@ -132038,8 +132048,8 @@ gameplayneo.com##+js(nano-stb, adConfig, *, 0.001)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Thu, 12 Dec 2024 13:10:44 GMT
-# entries:        3545
+# last updated:   Fri, 13 Dec 2024 01:08:27 GMT
+# entries:        3550
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -132913,6 +132923,7 @@ gameplayneo.com##+js(nano-stb, adConfig, *, 0.001)
 127.0.0.1 affiliatetracking.net
 127.0.0.1 affiliatewindow.com
 127.0.0.1 affiliation-france.com
+127.0.0.1 afflnx.com
 127.0.0.1 afftracking.justanswer.com
 127.0.0.1 afraidlanguage.com
 127.0.0.1 agkn.com
@@ -133404,6 +133415,7 @@ gameplayneo.com##+js(nano-stb, adConfig, *, 0.001)
 127.0.0.1 cnomy.com
 127.0.0.1 cnt.spbland.ru
 127.0.0.1 cnt1.pocitadlo.cz
+127.0.0.1 cnvlink.com
 127.0.0.1 cny.yoyo.org
 127.0.0.1 codeadnetwork.com
 127.0.0.1 cognitiv.ai
@@ -133860,6 +133872,7 @@ gameplayneo.com##+js(nano-stb, adConfig, *, 0.001)
 127.0.0.1 guardedschool.com
 127.0.0.1 gunggo.com
 127.0.0.1 h-bid.com
+127.0.0.1 h-trck.com
 127.0.0.1 h0.t.hubspotemail.net
 127.0.0.1 h78xb.pw
 127.0.0.1 habitualhumor.com
@@ -134730,6 +134743,7 @@ gameplayneo.com##+js(nano-stb, adConfig, *, 0.001)
 127.0.0.1 rambunctiousflock.com
 127.0.0.1 rampidads.com
 127.0.0.1 randkuj.xyz
+127.0.0.1 randkula.online
 127.0.0.1 rankchamp.de
 127.0.0.1 ranking-charts.de
 127.0.0.1 ranking-hits.de
@@ -135265,6 +135279,7 @@ gameplayneo.com##+js(nano-stb, adConfig, *, 0.001)
 127.0.0.1 track.miro.com
 127.0.0.1 track.nationalgunrights.org
 127.0.0.1 track.privacyatclearbit.com
+127.0.0.1 track.przejdzdostrony.pl
 127.0.0.1 track.pubmatic.com
 127.0.0.1 track.segmetrics.io
 127.0.0.1 track.software-codes.com
