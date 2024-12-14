@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TuKMLxlnuOolU3wSjZO3QQ
+! Checksum: SEOdbXhIsRuEN+7m5WTjNA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412140946
-! Last Modified: 2024年12月14日 09:46
+! Version: 202412141429
+! Last Modified: 2024年12月14日 14:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -124995,7 +124995,8 @@ spotifydown.com##.semi-transparent:has(ins.adsbygoogle[data-ad-slot])
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=maxpreps.com,important
 @@||cdn.segment.com/*/analytics.min.js$script,domain=app.pandadoc.com
 pandadoc.com##+js(rmnt, script, adBlockEnabled)
-@@||b.cdnst.net/javascript/prebid*.min.js$script,3p,domain=speedtest.net
+speedtest.net##+js(set, Object.prototype.que, noopFunc)
+speedtest.net##+js(set, Object.prototype.que.push, noopFunc)
 17track.net##+js(set, ga.sendGaEvent, noopFunc)
 @@||taplytics-umami.grubhub.com/jssdk/$script,1p
 ||klclick1.com^$badfilter
