@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3LH1NGhqM1NLdGRpHd75vw
+! Checksum: wK/0PAWKqPn+gNPpvl8ECg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412150957
-! Last Modified: 2024年12月15日 09:57
+! Version: 202412151430
+! Last Modified: 2024年12月15日 14:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -121776,6 +121776,7 @@ uploadfox.net###ad-gs-05
 ||1312stealer.ru^$all
 ||advairmds.ru^$all,to=~bbc.com
 ||pub-549d59daefd74f7583e1766800fe7b07.r2.dev^
+||r-tiktok.com^$all,to=~tiktok.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
