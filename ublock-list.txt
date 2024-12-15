@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wK/0PAWKqPn+gNPpvl8ECg
+! Checksum: YOmQ1cvothw2EHiEq8u+ig
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412151430
-! Last Modified: 2024年12月15日 14:30
+! Version: 202412152041
+! Last Modified: 2024年12月15日 20:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -322,7 +322,7 @@
 /adv_vert.js$script
 /AdvAdsV3/*$script,stylesheet
 /advanced-ads-$script,stylesheet,domain=~transinfo.pl|~wordpress.org
-/advbanner/*$~image
+/advbanner.frontend.js$script
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advert?
 /advertising/banners/*$image
@@ -20209,6 +20209,7 @@ browsershots.org#@#.advert_area
 ||bryond.com^
 ||bsantycbjnf.com^
 ||bsbrcdna.com^
+||bservr.com^
 ||bsgbd77l.de^
 ||bshrdr.com^
 ||bsilzzc.com^
@@ -27023,7 +27024,6 @@ browsershots.org#@#.advert_area
 ||heavespectaclescoefficient.com^
 ||heavyuniversecandy.com^
 ||hebenonwidegab.top^
-||hebiichigo.com^
 ||hectorfeminine.com^
 ||hectorobedient.com^
 ||hedgehoghugsyou.com^
@@ -43023,7 +43023,6 @@ browsershots.org#@#.advert_area
 ||xuiqxlhqyo.com^
 ||xukpqemfs.com^
 ||xukpresesmr.info^
-||xupalace.org^
 ||xuqza.com^
 ||xvbwvle.com^
 ||xvfyubhqjp.xyz^
@@ -53382,7 +53381,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||playwire.com/bolt/js/$script,third-party
 ||poptok.com^$third-party
 ||rumble.com^$domain=tiphero.com
-||sonar.viously.com^$domain=~aufeminin.com|~futura-sciences.com|~marmiton.org|~melty.fr|~nextplz.fr
+||sonar.viously.com^$domain=~aufeminin.com|~futura-sciences.com|~gamekult.com|~lesnumeriques.com|~marmiton.org|~melty.fr|~nextplz.fr
 ||sportrecs.com/redirect/embed/
 ||ultimedia.com/js/common/smart.js$script,third-party
 ||vidazoo.com/basev/$script,third-party
@@ -60804,6 +60803,7 @@ ksl.com##.queue:has(.sponsored)
 olx.com.pk##.react-swipeable-view-container:has([href*="http://onelink.to"])
 downforeveryoneorjustme.com##.relative.bg-white:has-text(PolyBuzz)
 laravel-news.com##.relative:has([wire\:key="article-ad-card"])
+builtbybit.com##.resourceSidebar-belowContent > div > .block:has(.block-container a[href="https://tebex.io/"])
 metager.org##.result:has(a[href^="https://metager.org"][href*="/partner/r?"])
 metager.org##.result:has(a[href^="https://r.search.yahoo.com/"])
 qwant.com##.result__ext > div:has([data-testid="adResult"])
@@ -60949,7 +60949,10 @@ nicelocal.com##div[style="min-height: 90px;"]:has(iframe[id^="google_ads_"])
 tartaria-faucet.net##div[style^="display"]:has([src^="https://multiwall-ads.shop/"])
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 nex-software.com##h4:has(a[href$="/reimage"])
-bing.com##li.b_algo:has(> [class="b_caption"] > p.b_overflow2)
+bing.com##li.b_algo:has(a[aria-label="Amazon"] .rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"])
+bing.com##li.b_algo:has(a[aria-label="B&H Photo Video"] .rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"])
+bing.com##li.b_algo:has(a[aria-label="Walmart"] .rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"])
+bing.com##li.b_algo:has(a[aria-label="eBay"] .rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"])
 walmart.com##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 walgreens.com##li.owned-brands:has(figure.sponsored)
 macys.com##li.productThumbnailItem:has(.sponsored-items-label)
@@ -70341,6 +70344,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gsspcln.jp^$third-party
 ||gyro-n.com^$third-party
 ||h-cast.jp^$third-party
+||hebiichigo.com^$third-party
 ||hitgraph.jp^$third-party
 ||i-mobile.co.jp^$third-party
 ||i2ad.jp^$third-party
@@ -113258,6 +113262,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||eq-beacon.stream.co.jp^
 ||eq-player-log.cdnext.stream.ne.jp^
 ||eropuru.com/plugin/tracking/
+||esports-world.jp/js/banner.event.js
 ||event.lib.visumo.io/js/hbn_track.js
 ||fensi.plus^*/tracking/
 ||fspark-ap.com/ft/analytics_log
@@ -119695,6 +119700,58 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||the-latest-version.com^$doc
 ||book234h.fun^$doc
 ||litlink.site^$doc
+||dem94jfdmn3d.net^$doc
+||nyancokuji.xyz^$doc
+||star789h.fun^$doc
+||vip-money2024.com^$doc
+||g5chat.com^$doc
+||matchtap.site^$doc
+||adak.adm1r3.com^$doc
+||buzz-gric.com^$doc
+||crowd-nrgt.com^$doc
+||drg-mcre.com^$doc
+||filter-zgzy.com^$doc
+||girl-ewun.com^$doc
+||heed-mvor.com^$doc
+||loudly-xipt.com^$doc
+||realm-foym.com^$doc
+||rice-iten.com^$doc
+||sodium-icft.com^$doc
+||abusive-isolate.com^$doc
+||curious-deplete.com^$doc
+||memorial-mem0ria1.com^$doc
+||memory-storage.net^$doc
+||call-chieftain.com^$doc
+||deep-dealings.com^$doc
+||easy-elation.com^$doc
+||o-ka-pilina.com^$doc
+||dr-sapuri.jp^$doc
+||sweet-1ove.jp^$doc
+||u-to--u.com^$doc
+||u-to-u.com^$doc
+||u--to-u.com^$doc
+||aibeautia1.jp^$doc
+||loto7-diamond-club.com^$doc
+||lotochance.hp.peraichi.com^$doc
+||lotochance-vip.com^$doc
+||bizdizorganization.com^$doc
+||connect-s2-chat.com^$doc
+||scrutinizeordealscrutinize.com^$doc
+||story-story.life^$doc
+||mcdonal.fujicandy-balibalione.net^$doc
+||penst-hap9p-chat.com^$doc
+||penst3-hap11o-chat.com^$doc
+||soul-of-compass.com^$doc
+||e-manager-kanri.com^$doc
+||info-top-letter.com^$doc
+||noi9va4ewa.com^$doc
+||thanksgift-special.com^$doc
+||mailtherapyask.com^$doc
+||xs525890.xsrv.jp^$doc
+||mail-m-m.com^$doc
+||raspberrysliceq.jp^$doc
+||amschat.top^$doc
+||coupletalk2024.com^$doc
 ||apkmirror.co^$all
 ||webogram.org^$all
 ||webogram.ru^$all
