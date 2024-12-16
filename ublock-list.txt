@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h6Jpmm0ekng5GmnK6+FNOg
+! Checksum: RHFVBF+G4Ij2I6LNXvFcaw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412160228
-! Last Modified: 2024年12月16日 02:28
+! Version: 202412160954
+! Last Modified: 2024年12月16日 09:54
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15591,6 +15591,7 @@ mastersclub.jp#@#.ads.widget
 getwallpapers.com,wallpaperaccess.com,wallpapercosmos.com,wallpaperset.com#@#.ads1
 jw.org#@#.adsBlock
 cars.mitula.ae#@#.adsList
+bilinovel.com#@#.ads_ad_box
 trustnet.com#@#.ads_right
 search.conduit.com#@#.ads_wrapper
 alluc.org#@#.adsbottombox
@@ -72550,6 +72551,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.pinimg.com/ct/core.js
 ||s.srvsynd.com^
 ||s.vibe.co^
+||s3.amazonaws.com/www.audiencenetwork.ai/
 ||sa.scorpion.co^
 ||saasexch.com/bapi/fe/usd/report/
 ||safe-iplay.com/logger
@@ -114224,7 +114226,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! omtrdc.net
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
 !! tags.tiqcdn.com
-@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|vmware.com
+@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
 @@||gs.statcounter.com/chart.php$script,third-party
 @@||statcounter.com/js//fusioncharts.charts.js
 @@||statcounter.com/js/fusioncharts.js
