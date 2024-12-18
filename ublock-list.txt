@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PFYb2hwaWKWwAeaptXSjkA
+! Checksum: obC8O7pu7+eiqKWNXjXX/w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412182043
-! Last Modified: 2024年12月18日 20:43
+! Version: 202412190230
+! Last Modified: 2024年12月19日 02:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -114577,6 +114577,8 @@ grosnews.com##+js(acs, adcashMacros)
 xxxymovies.com##+js(set, flashvars.adv_pause_html, '')
 dirtyship.com##+js(acs, onload)
 hotscopes.*##+js(aopw, puShown)
+hotscopes.*##+js(nowoif)
+hotscopes.*##.ml-auto.navbar-nav
 afrodity.sk,brato.bg,cinema21fullmovie.com,cotannualconference.org.uk,couponsuniverse.com,cycraracing.com,dahh.net,dlhe-videa.sk,elmalajeno.com,extreme-board.com,free-famous-toons.com,istanbulescortnetworks.com,ok-th.com,payt.com,pcparsi.com,podkontrola.pl,redtubemov.com,shtab.su,spiritword.net##+js(acs, document.createElement, 'script')
 elmalajeno.com##^script:has-text(d.createElement('script'))
 elmalajeno.com##^script:has-text(d.createElement(\'script\'))
@@ -115940,9 +115942,6 @@ lavanguardia.com##+js(aeld, error)
 imeteo.sk##+js(aeld, scroll, detect)
 imeteo.sk##.page-container__ad-container
 sixsave.com##+js(no-fetch-if, method:HEAD)
-fluttercampus.com##.widget > .card
-fluttercampus.com##div[id^="ezoic-pub-ad-"]
-fluttercampus.com##+js(nosiif, visibility, 1000)
 freebulksmsonline.com##+js(aost, String.prototype.charCodeAt, ai_)
 @@||univers-simu.com^$ghide
 univers-simu.com##.adsbygoogle:style(max-height: 1px !important;)
@@ -116630,7 +116629,6 @@ gayvl.net##+js(nowoif)
 gayvl.net###HTML1
 japopav.tv##+js(aopr, __Y)
 japopav.tv##+js(set, isadb, false)
-expresscrypto.io##.content > center
 @@||c.adsco.re/|$script,domain=hotfrog.*
 pirate4all.com##.e3lan-top.e3lan
 pirate4all.com##.pirat-before-content
@@ -117123,19 +117121,19 @@ dl.apkmb.com##.btnDownload:has-text(SHARE)
 autofaucet.dutchycorp.space##[href^="https://enicyvys.xyz/"]
 autofaucet.dutchycorp.space##[href*="banner"]
 autofaucet.dutchycorp.space##[src^="blob:https://autofaucet.dutchycorp.space/"]:remove()
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=coin-free.com|kienthucrangmieng.com|chinhnhacoban.com|tremamnon.com|95news.com|vnpttelle.com
-*$script,3p,domain=coin-free.com|kienthucrangmieng.com|chinhnhacoban.com|95news.com|vnpttelle.com,denyallow=iconify.design|cloudflare.com
-coin-free.com,kienthucrangmieng.com##[id^="wpsafe-wait"]
-coin-free.com,kienthucrangmieng.com###wpsafe-generate, #wpsafe-link:style(display: block !important)
-*$script,redirect-rule=noopjs,domain=coin-free.com|kienthucrangmieng.com|chinhnhacoban.com|95news.com|vnpttelle.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=coin-free.com|chinhnhacoban.com|tremamnon.com|95news.com|vnpttelle.com
+*$script,3p,domain=coin-free.com|chinhnhacoban.com|95news.com|vnpttelle.com,denyallow=iconify.design|cloudflare.com
+coin-free.com##[id^="wpsafe-wait"]
+coin-free.com###wpsafe-generate, #wpsafe-link:style(display: block !important)
+*$script,redirect-rule=noopjs,domain=coin-free.com|chinhnhacoban.com|95news.com|vnpttelle.com
 snowurl.com##+js(nowoif)
 snowurl.com##+js(set, blurred, false)
 snowurl.com##+js(set, go_popup, {})
 tremamnon.com##+js(aeld, DOMContentLoaded, adsBlocked)
 chinhnhacoban.com,tremamnon.com,vnpttelle.com##[id^="wpsafe-generate"], #continue:style(display: block !important;)
-kienthucrangmieng.com,coin-free.com,tremamnon.com##^script:has-text(htmls)
+coin-free.com,tremamnon.com##^script:has-text(htmls)
 !#if !cap_html_filtering
-kienthucrangmieng.com,coin-free.com,tremamnon.com##+js(rmnt, script, htmls)
+coin-free.com,tremamnon.com##+js(rmnt, script, htmls)
 !#endif
 actresstoday.com##+js(acs, eval, replace)
 fastream.to##+js(aopr, afScript)
@@ -120629,7 +120627,6 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 /\.workers\.dev\/help\/\d{14,19}\b/$doc,to=workers.dev|~facebook.com
 ||royal-glade-286f.kdsj.workers.dev^$doc
 /\.(?:boats|cfd)\/contract\/\d{14,19}\b/$doc,match-case,to=boats|cfd|~facebook.com
-||business-center-$doc
 ||meta.com-case*.com/help/contact/$doc
 ||helps-center-page-number-$doc
 ||business-manager-report.com^$all
