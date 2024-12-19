@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rLeHLpsuUxSTGZsIhtKipQ
+! Checksum: 7A21ZNMf2OnYXHQm94WXKA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412191431
-! Last Modified: 2024年12月19日 14:31
+! Version: 202412192044
+! Last Modified: 2024年12月19日 20:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -196,7 +196,6 @@
 /adcgi?
 /adchoice.png$image
 /adcommon?
-/adconfig.js$script
 /adcount.js$script
 /addyn|*;adtech;
 /addyn|*|adtech;
@@ -316,7 +315,6 @@
 /adv-banner-$image
 /adv-scroll-sidebar.js$script
 /adv-scroll.$script
-/adv-socialbar-scroll.js$script
 /adv.css?
 /adv_out.js$third-party
 /adv_vert.js$script
@@ -55971,6 +55969,7 @@ gemoo.com##.adlet_mobile
 prokerala.com##.adm-unit
 goldderby.com##.adma
 brickset.com##.admin.buy
+adn.com##.adn-adwrap
 web-dev-qa-db-fra.com##.adn-ar
 freepik.com##.adobe-coupon-container
 freepik.com##.adobe-detail
@@ -73085,6 +73084,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||veeseo.com/tracking/
 ||ventunotech.com/beacon/
 ||vercel-vitals.axiom.co^
+||vid.media.cm/m.js
 ||vidazoo.com/aggregate?
 ||vidazoo.com/event/
 ||video-ad-stats.googlesyndication.com^
@@ -112654,6 +112654,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ma-petite-recette.fr/visites
 ||marmiton.org/reloaded/errpix.php
 ||medoucine.com/tracking/
+||mesure-pro.engie.fr^
 ||metrics-broker.prod.p.tf1.fr^
 ||neko-san.fr/stats
 ||ocular.dealabs.com^
