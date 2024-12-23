@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yIAOxTOI4YZrTbjIyfOyJg
+! Checksum: +z6RDR7ok6DKO3Se1a/9Ig
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412231430
-! Last Modified: 2024年12月23日 14:30
+! Version: 202412232041
+! Last Modified: 2024年12月23日 20:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -43272,6 +43272,7 @@ browsershots.org#@#.advert_area
 ||zoawufoy.net^
 ||zodiacdinner.com^
 ||zodiacranbehalf.com^
+||zoeacaring.com^
 ||zoeaegyral.com^
 ||zoeaethenar.com^
 ||zofitsou.com^
@@ -113584,6 +113585,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
+@@||cdn.matomo.cloud/tekuchi.matomo.cloud/matomo.js$domain=berkeleygroup.digital
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
 @@||cdn.segment.com/analytics-next/
@@ -122374,6 +122376,7 @@ discord.com##+js(no-xhr-if, discord.com/api/v9/science)
 ||beacons.ai/api/rtanalytics/
 ||beacons.ai/api/public_actions
 ||store.steampowered.com/app/usabilitytracking/
+||joinhoney.com/evs
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -131726,6 +131729,7 @@ hagerty.com##+js(set, MT.track, noopFunc)
 ||zeepanel.online$all
 ||ztekkhosting.com$all
 ! Adguard
+||kqzyfj.com^
 ||qimaf.com^
 ||renrenkanpian.com^
 ||b10.justacdn.net^
