@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JUBeWenbfE3cxy2Tuk1haQ
+! Checksum: fa/JRWjZQAsafpckk1X1Lg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412242040
-! Last Modified: 2024年12月24日 20:40
+! Version: 202412250227
+! Last Modified: 2024年12月25日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -121647,6 +121647,7 @@ uploadfox.net###ad-gs-05
 ||winfreebigwindeal.top^$all
 ||kvkmodule.4dq.com^$all
 /^https:\/\/[0-9a-z]{7}\.([0-9a-z]{7})\.top\/[0-9a-z]{7}\?t=\1&cid=[0-9a-z]+/$document,to=top,match-case
+||dhldeliveryhome2.info^$all,to=~dhl.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
