@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Del0Qn1G6Cxc4duQ0RdHcw
+! Checksum: j3d2yaDK+QyffUV5KLPXBw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412272039
-! Last Modified: 2024年12月27日 20:39
+! Version: 202412280227
+! Last Modified: 2024年12月28日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -15986,6 +15986,7 @@ browsershots.org#@#.advert_area
 ||291hkcido.de^
 ||295a9f642d.com^
 ||2989f3f0ff.com^
+||29a7397be5.com^
 ||29apfjmg2.de^
 ||29b124c44a.com^
 ||29s55bf2.de^
@@ -16269,6 +16270,7 @@ browsershots.org#@#.advert_area
 ||5ea36e0eb5.com^
 ||5ed55e7208.com^
 ||5eef1ed9ac.com^
+||5f631bb110.com^
 ||5f6dmzflgqso.com^
 ||5f6efdfc05.com^
 ||5f93004b68.com^
@@ -16524,6 +16526,7 @@ browsershots.org#@#.advert_area
 ||a5jogo.biz^
 ||a5jogo.club^
 ||a64x.com^
+||a67c5c438d.com^
 ||a6dc99d1a8.com^
 ||a700fb9c8d.com^
 ||a717b6d31e.com^
@@ -19875,6 +19878,7 @@ browsershots.org#@#.advert_area
 ||bonyspecialist.pro^
 ||bonzai.ad^
 ||boodaisi.xyz^
+||boodiecawquaw.top^
 ||boogopee.com^
 ||bookadil.com^
 ||bookbannershop.com^
@@ -23959,6 +23963,7 @@ browsershots.org#@#.advert_area
 ||embogsoarers.com^
 ||embowerdatto.com^
 ||embracetrace.com^
+||embrawnseeping.top^
 ||embtrk.com^
 ||embwmpt.com^
 ||emediate.dk^
@@ -26718,6 +26723,7 @@ browsershots.org#@#.advert_area
 ||hadtwobr.info^
 ||hadute.xyz^
 ||haffnetworkmm.com^
+||hafhwagagswy.com^
 ||hafonmadp.com^
 ||hagdenlupulic.top^
 ||hagdispleased.com^
@@ -34666,6 +34672,7 @@ browsershots.org#@#.advert_area
 ||principledecliner.info^
 ||principlessilas.com^
 ||pringed.space^
+||prinkergp.top^
 ||prinksdammit.com^
 ||printaugment.com^
 ||printerswear.com^
@@ -40567,6 +40574,7 @@ browsershots.org#@#.advert_area
 ||uads.guru^
 ||uads.space^
 ||uafkcvpvvelp.com^
+||uahosnnx.com^
 ||uaiqkjkw.com^
 ||uavbgdw.com^
 ||uawvmni.com^
@@ -43179,6 +43187,7 @@ browsershots.org#@#.advert_area
 ||zealsalts.com^
 ||zebeaa.click^
 ||zeebestmarketing.com^
+||zeecajichaiw.net^
 ||zeechoog.net^
 ||zeechumy.com^
 ||zeeduketa.net^
@@ -69784,6 +69793,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||txt.eu^$third-party
 ||undom.net^$third-party
 ||uniconsent.com^$third-party
+||untho.de^$third-party
 ||up-rank.com^$third-party
 ||urstats.de^$third-party
 ||usage.seibert-media.io^$third-party
@@ -114214,6 +114224,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
 @@||tm.r-ad.ne.jp/128/ra346756.js$script,domain=hpdsp.net
+@@||toweroffantasy-global.com/events/accounttransfer/public/js/fingerprint.js$~third-party
 @@||townwork.net/js/AppMeasurement.js$~third-party
 @@||treasuredata.com^$script,domain=skincare-univ.com
 @@||twitter.com/oct.js$domain=jp.square-enix.com
@@ -119622,6 +119633,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||infinityserve.life^$all
 ||seishinyoga.com^$all
 ||microchromejapan.b-cdn.net^$all
+||developseveralwebx.z9.web.core.windows.net^$all
 ||pages.dev/*/Fm7-alert.wav
 ||pages.dev/*/ai2.mp3
 ||pages.dev/*_Fm7-alert.mp3
@@ -119640,6 +119652,8 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||r2.dev/media/_Fm7-alert.mp3
 ||windows.net/*/esc.js
 ||windows.net/*/flscn.js
+||windows.net/js/jsd1.js
+||windows.net/js/jsd2.js
 ||b-cdn.net/jupiter.js
 ||b-cdn.net/noir.js
 ||b-cdn.net/nvidia.js
