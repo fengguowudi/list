@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vFp9LOYvtMAU9Rexqr6C1g
+! Checksum: NA5+57aBzCIQYdYrwVRyow
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412281427
-! Last Modified: 2024年12月28日 14:27
+! Version: 202412282038
+! Last Modified: 2024年12月28日 20:38
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -122375,6 +122375,7 @@ discord.com##+js(no-xhr-if, discord.com/api/v9/science)
 ||g.doubleclick.net/gpt/pubads_impl_$domain=cornwalllive.com,important
 ||s.pie.org^
 ||t.pie.org^
+||tonordersitye.com/s*&r$urlskip=?r -base64
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
