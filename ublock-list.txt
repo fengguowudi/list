@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MeHU8z6CT/nJJYjMbMBo/A
+! Checksum: dr6TUJip/O0GD8un8rK28Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412290226
-! Last Modified: 2024年12月29日 02:26
+! Version: 202412290949
+! Last Modified: 2024年12月29日 09:49
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -62663,8 +62663,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
 @@||ads.freewheel.tv/|$media,domain=cnbc.com|fxnetworks.com|my.xfinity.com|nbc.com|nbcsports.com
 @@||ads.kbmax.com^$domain=adspipe.com
-@@||ads.pubmatic.com/adserver/js/$script,domain=zeebiz.com
-@@||ads.pubmatic.com/AdServer/js/pwtSync/$script,subdocument,domain=dnaindia.com|independent.co.uk|wionews.com
+@@||ads.pubmatic.com/adserver/js/$script,domain=wionews.com|zeebiz.com
+@@||ads.pubmatic.com/AdServer/js/pwtSync/$script,subdocument,domain=dnaindia.com|independent.co.uk
 @@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
 @@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
 @@||ads.rubiconproject.com/prebid/$script,domain=drudgereport.com|everydayhealth.com
@@ -76201,6 +76201,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com/rs/v/klminxoj1uyzvo0p0qu4nhpg0qo.js
 ||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
 ||event.evtm.53.com^
+||feross.org/views
 ||idstatus.sky.com^
 ||img2021.navyfederal.org^
 ||imgs.signifyd.com^
@@ -121208,7 +121209,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||2d45b3cf2299d8ba038f45cb38aca4f2ecfbcb8d264ba28432ae5c51.com^$doc
 ||protonge.com^$all
 ||get-express-vpn.online^$all,to=~expressvpn.com
-||bloxstrap.*^$doc,domain=~bloxstrap.pizzaboxer.xyz,to=~bloxstrap.pizzaboxer.xyz
+||bloxstrap.*^$doc,to=~bloxstrap.pizzaboxer.xyz|~bloxstrap.cc
 ||bloxstrapmenu.com^$doc
 ||joannst.shop^$doc,to=~joann.com
 ||joannclearances.com^$all,to=~joann.com
@@ -121656,6 +121657,7 @@ uploadfox.net###ad-gs-05
 ||dhldeliveryhome2.info^$all,to=~dhl.com
 ||thetollroads.com-*.cfd^$all,to=~thetollroads.com
 ||dtioykqj1u8de.cloudfront.net^$all,to=~amazon.co.jp
+||photonlabs.app^$all
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
