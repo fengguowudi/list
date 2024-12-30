@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JC1fnwQf3/ATF6uMX5KrvQ
+! Checksum: PFIudGjOG0bcCXlRzRJm1Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202412300944
-! Last Modified: 2024年12月30日 09:44
+! Version: 202412301430
+! Last Modified: 2024年12月30日 14:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -121697,6 +121697,10 @@ uploadfox.net###ad-gs-05
 ||dtioykqj1u8de.cloudfront.net^$all,to=~amazon.co.jp
 ||photonlabs.app^$all
 ||jaowomous.xyz^$all
+?id=*&p1=*&p2=*&p3=*&p4=$doc
+||partners-tds.com^$all
+||likeyoumakehappy.xyz^$all,to=~alza.sk
+||ninnjaofficial.com^$all,to=~ninjakitchen.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -124970,6 +124974,7 @@ visible.com##+js(set, adobe, {})
 @@||h-usps.online-metrix.net^$script,domain=ips.usps.com
 hagerty.com##+js(set, MT, {})
 hagerty.com##+js(set, MT.track, noopFunc)
+||xlivesex.com^$badfilter
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
