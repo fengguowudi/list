@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bBFViM4Z2v7qbwfYEv1Jzw
+! Checksum: MA3QYbqkEGcdZjBLaYZCuQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501011430
-! Last Modified: 2025年01月01日 14:30
+! Version: 202501012039
+! Last Modified: 2025年01月01日 20:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -45588,7 +45588,6 @@ browsershots.org#@#.advert_area
 ||072551.xyz^
 ||07421283.xyz^
 ||076f66b2.live^
-||07c225f3.online^
 ||07e197.site^
 ||08f8f073.xyz^
 ||09745951.xyz^
@@ -122422,6 +122421,7 @@ bentasker.co.uk##+js(no-xhr-if, method:POST url:pfanalytics.bentasker.co.uk)
 discord.com##+js(no-xhr-if, discord.com/api/v9/science)
 ://www.wattpad.com/et?$image
 ://links1.pawns.app/q/$image
+://email-analytics.meetup.com/$image
 ||beacons.ai/api/rtanalytics/
 ||beacons.ai/api/public_actions
 ||store.steampowered.com/app/usabilitytracking/
