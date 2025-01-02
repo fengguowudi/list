@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 129k1N2zO6NEC/+xtv88XQ
+! Checksum: sTzxjN07YUqhTI4kkg02TA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501021429
-! Last Modified: 2025年01月02日 14:29
+! Version: 202501022040
+! Last Modified: 2025年01月02日 20:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -66258,6 +66258,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /wtid.js
 /wtinit.js
 /wtrack?event=
+/wup?cid=
 /wwwcount.cgi?
 /wxhawkeye.js
 /wysistat.js
@@ -76486,6 +76487,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
 ||event.evtm.53.com^
 ||feross.org/views
+||idhtm.bb.com.br^
 ||idstatus.sky.com^
 ||img2021.navyfederal.org^
 ||imgs.signifyd.com^
@@ -116445,6 +116447,7 @@ tattoosbeauty.com##+js(nano-sib, timercounter)
 myflixer.*###gift-middle
 myflixer.*##.premodal.modal
 myflixer.*##.show.modal-backdrop
+myflixer.*##body:style(overflow: auto !important;)
 apfelpatient.de##+js(nostif, css_class)
 myfirstname.rocks##.xcontent.container
 shorturl.unityassets4free.com##+js(aopr, app_vars.force_disable_adblock)
@@ -122447,6 +122450,7 @@ discord.com##+js(no-xhr-if, discord.com/api/v9/science)
 ||suno.com/metrics/
 ||suno.com/v1//rgstr
 ||suno.com/monitoring
+||github.com/_private/browser/errors
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
