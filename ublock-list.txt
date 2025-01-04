@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uZBKSvlEYCgd5SS6vvVJqQ
+! Checksum: 6uk8eK+6F6Yo11W/TnbqVQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501040228
-! Last Modified: 2025年01月04日 02:28
+! Version: 202501040939
+! Last Modified: 2025年01月04日 09:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -76551,6 +76551,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||citibank.com.sg/jso/js/fp.js
 ||citibank.com.sg/tmx/
 ||clear.wallapop.com^
+||content.canadiantire.ca^
 ||content22.bmo.com^
 ||content22.citi.eu^$script
 ||content22.citibank.com.au^
@@ -113937,6 +113938,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/visitor-api.html$xmlhttprequest
 @@||cqcounter.com^$domain=cqcounter.com
 @@||crimemapping.com/cdn/*/analytics/eventtracking.js$~third-party
+@@||criteo.com/delivery/$domain=canadiantire.ca
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com
@@ -121789,6 +121791,8 @@ uploadfox.net###ad-gs-05
 ||likeyoumakehappy.xyz^$all,to=~alza.sk
 ||ninnjaofficial.com^$all,to=~ninjakitchen.com
 ||gtrewe.co.in^$all
+||fiheos.co.in^$all
+/^https?:\/\/[a-z0-9]{18}\.[a-z]{6}\.co\.in\//$all,to=co.in
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
