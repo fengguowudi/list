@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YIwyyRcK1TUTGMXYkODnmg
+! Checksum: Xx3kIc80ybVTK5Rv3wPDjA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501042038
-! Last Modified: 2025年01月04日 20:38
+! Version: 202501050226
+! Last Modified: 2025年01月05日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -60829,6 +60829,7 @@ douglas.*##.swiper-slide:has(button[data-testid="sponsored-button"])
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 laredoute.*###hp-sponsored-banner
 lazada.*##.pdp-block__product-ads
+manomano.*##a[href^="/"][href*="?product_id="]:has(svg)
 pinterest.*##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-1
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-2
@@ -61036,7 +61037,6 @@ kayak.com##[role="tab"]:has([class*="sponsored"])
 crackwatcher.com##[style="background:none !important;"]:has([href^="https://www.kinguin.net"])
 aliexpress.com,aliexpress.us##a[class^="manhattan--container--"][class*="main--card--"]:has(span[style="background-color:rgba(0,0,0,0.20);position:absolute;top:8px;color:#fff;padding:2px 5px;background:rgba(0,0,0,0.20);border-radius:4px;right:8px"])
 aliexpress.com,aliexpress.us##a[class^="manhattan--container--"][class*="main--card--"]:has(span[style="background: rgba(0, 0, 0, 0.2); position: absolute; top: 8px; color: rgb(255, 255, 255); padding: 2px 5px; border-radius: 4px; right: 8px;"])
-manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##a[href^="/"][href*="?product_id="]:has(.ur6iYv)
 yandex.com##a[href^="https://yandex.ru/an/count/"]
 digg.com##article.fp-vertical-story:has(a[href="/channel/digg-pick"])
 digg.com##article.fp-vertical-story:has(a[href="/channel/promotion"])
