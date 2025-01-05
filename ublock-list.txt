@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Im2/6ZGX9oWx7yQ/DsMysg
+! Checksum: Brs3qAmUKHhT+IbE953F9A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501050948
-! Last Modified: 2025年01月05日 09:48
+! Version: 202501051427
+! Last Modified: 2025年01月05日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -75054,6 +75054,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cm-mms.coachmag.co.uk^
 ||cm.nordvpn.com^
 ||cmp.vg.no^*/metrics/
+||cms-stats-view.vitrinabox.com^
 ||cnt.hd21.com^
 ||cnt.iceporn.com^
 ||cnt.viptube.com^
@@ -121799,6 +121800,7 @@ uploadfox.net###ad-gs-05
 ||gtrewe.co.in^$all
 ||fiheos.co.in^$all
 /^https?:\/\/[a-z0-9]{18}\.[a-z]{6}\.co\.in\//$all,to=co.in
+||maxsecurityultimate.com^$all
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
