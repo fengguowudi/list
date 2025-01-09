@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZxIS29y9B0VE05oU4TC7Lg
+! Checksum: cOM7vk8lz1JTWlVQtiKyOA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501090229
-! Last Modified: 2025年01月09日 02:29
+! Version: 202501091008
+! Last Modified: 2025年01月09日 10:08
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -24765,6 +24765,7 @@ browsershots.org#@#.advert_area
 ||fauphesh.com^
 ||fauphoaglu.net^
 ||fausamoawhisi.net^
+||fauseepetoozuk.xyz^
 ||fausothaur.com^
 ||favoredkuwait.top^
 ||favorite-option.pro^
@@ -29323,6 +29324,7 @@ browsershots.org#@#.advert_area
 ||kouceeptait.com^
 ||koucerie.com^
 ||kouphouwhajee.net^
+||koupuchoust.net^
 ||koushauwhie.xyz^
 ||kousjcignye.com^
 ||koutobey.net^
@@ -31630,6 +31632,7 @@ browsershots.org#@#.advert_area
 ||mymembermatchmagic.life^
 ||myniceposts.com^
 ||myolnyr5bsk18.com^
+||myosoteruins.com^
 ||myperfect2give.com^
 ||mypopadpro.com^
 ||mypopads.com^
@@ -39034,6 +39037,7 @@ browsershots.org#@#.advert_area
 ||suchroused.com^
 ||suckae.xyz^
 ||suckfaintlybooking.com^
+||sucreexpos.com^
 ||suctionautomobile.com^
 ||suctionpoker.com^
 ||suddenvampire.com^
@@ -39422,6 +39426,7 @@ browsershots.org#@#.advert_area
 ||tapioni.com^
 ||tapixesa.pro^
 ||tapjoyads.com^
+||taposalett.top^
 ||tapproveofchild.info^
 ||taproximo.com^
 ||taprtopcldfa.co^
@@ -43253,6 +43258,7 @@ browsershots.org#@#.advert_area
 ||youservit.com^
 ||youtube.local^
 ||youtubecenter.net^
+||yowdenfalcial.com^
 ||yowlnibble.shop^
 ||yoyadsdom.com^
 ||ypersonalrecome.com^
@@ -56951,6 +56957,7 @@ whattomine.com##.centered-image-short
 spiceworks.com##.centerthe1
 ceo.ca##.ceoBanner
 digminecraft.com##.cf47a252
+provigo.ca##.chakra-container
 top.gg##.chakra-stack.css-15xujv4
 tlgrm.eu##.channel-card--promoted
 thefastmode.com##.channel_long
@@ -121929,14 +121936,14 @@ search.brave.com##+js(no-fetch-if, body:browser)
 @@||nikitaeverywhere.com/static/js/main-*.js|$script,1p
 @@||nikitaeverywhere.com/nikitaeverywhere-com-content/data.json|$xhr,1p
 !#if cap_html_filtering
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,creatordrop.com,panpots.com,cybernetman.com,bitdomain.biz,gerardbosch.xyz,fort-shop.kiev.ua,accuretawealth.com,resourceya.com,tracktheta.com,adaptive.marketing,camberlion.com,replai.io,trybawaryjny.pl,segops.madisonspecs.com##^script:has-text("join('')")
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,creatordrop.com,panpots.com,cybernetman.com,bitdomain.biz,gerardbosch.xyz,fort-shop.kiev.ua,accuretawealth.com,resourceya.com,tracktheta.com,adaptive.marketing,camberlion.com,replai.io,trybawaryjny.pl,segops.madisonspecs.com,stresshelden-coaching.de,controlconceptsusa.com,ryaktive.com,tip.etip-staging.etip.io##^script:has-text("join('')")
 alpacafinance.org,tt.live,future-fortune.com,furucombo.app,adventuretix.com,bolighub.dk##^script:has-text('join("")')
 panprices.com,intercity.technology,freelancer.taxmachine.be,kodalia.com,adria.gg,fjlaboratories.com,emanualonline.com,abhijith.page,helpmonks.com##^script:has-text(api.dataunlocker.com)
 ||eldorado.gg/main.$script,1p,replace=/"\}\,[a-zA-Z]+:\{scriptName:".*?_data_[a-z0-9]{2,20}"},/"},/
 trybawaryjny.pl##^script[src^="data:text/javascript;base64,CiAgRnVuY"]
 dataunlocker.com##^script:has-text(/^Function\(\"/)
 !#else
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,creatordrop.com,panpots.com,cybernetman.com,bitdomain.biz,gerardbosch.xyz,fort-shop.kiev.ua,accuretawealth.com,resourceya.com,tracktheta.com,camberlion.com,replai.io,trybawaryjny.pl,segops.madisonspecs.com##+js(rmnt, script, /join\(\'\'\)/)
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,creatordrop.com,panpots.com,cybernetman.com,bitdomain.biz,gerardbosch.xyz,fort-shop.kiev.ua,accuretawealth.com,resourceya.com,tracktheta.com,camberlion.com,replai.io,trybawaryjny.pl,segops.madisonspecs.com,stresshelden-coaching.de,controlconceptsusa.com,ryaktive.com,tip.etip-staging.etip.io##+js(rmnt, script, /join\(\'\'\)/)
 alpacafinance.org,tt.live,future-fortune.com,adventuretix.com,bolighub.dk##+js(rmnt, script, /join\(\"\"\)/)
 panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaboratories.com,emanualonline.com,abhijith.page,helpmonks.com##+js(rmnt, script, api.dataunlocker.com)
 ||trybawaryjny.pl^$csp=script-src * 'unsafe-inline' 'wasm-unsafe-eval' data: blob: mediastream: filesystem:
@@ -122541,7 +122548,6 @@ bentasker.co.uk##+js(no-xhr-if, method:POST url:pfanalytics.bentasker.co.uk)
 ||data.cheatography.com^
 ||herokudns.com^$xhr,domain=darkreader.org
 ||karistudio.com/wp-content/plugins/wp-statistics/assets/js/tracker.js^$important
-||quora.com/ajax/receive_POST^
 ||facebook.com/security/hsts-pixel.gif
 ||facebook.com/async/wbloks/log/
 ||windowspro.de/stats/
