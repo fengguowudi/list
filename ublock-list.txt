@@ -1,14 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: cOM7vk8lz1JTWlVQtiKyOA
+! Checksum: dHwh39XnLe/s4a82Axao7Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501091008
-! Last Modified: 2025年01月09日 10:08
+! Version: 202501091428
+! Last Modified: 2025年01月09日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
 !-----------------------General advert blocking filters-----------------------!
--ad-300x600-
 -ad-458x80.
 -ad-manager/$~stylesheet
 -ad-sidebar.
@@ -34,7 +33,6 @@
 -right-ad.
 -sidebar-ad.
 -sponsor-ad.
--sticky-ad-
 -top-ads.
 -web-advert-$image
 -Web-Advert.
@@ -56,8 +54,8 @@
 .cfm?ad=
 .cgi?ad=
 .ch/adv/
-.click/cuid/?
-.click/rf/
+.click/cuid/?$third-party
+.click/rf/$third-party
 .clkads.
 .club/js/popunder.js
 .cn/sc/*?n=$script,third-party
@@ -95,7 +93,6 @@
 .lazyload-ad.
 .lol/js/pub.min.js$third-party
 .lol/sw.js$third-party
-.mx/ads/
 .my/ads/
 .nativeads.
 .net/ad2/$~xmlhttprequest
@@ -117,10 +114,10 @@
 .popunder.js
 .pw/ads/
 .ru/ads/
-.shop/gd/
+.shop/gd/$third-party
 .shop/tsk/$third-party
-.top/cuid/?
-.top/gd/*?md=
+.top/cuid/?$third-party
+.top/gd/*?md=$third-party
 /?abt_opts=1&
 /?fp=*&poru=$subdocument
 /?view=ad
@@ -343,6 +340,7 @@
 /amazon-associates-link-$~stylesheet
 /amp-ad-$script
 /amp-connatix-$script
+/amp-sticky-ad-$script
 /amp4ads-host-v0.js$script
 /ane-popup-1/ane-popup.js$script
 /ane-popup-banner.js$script
@@ -851,7 +849,6 @@ _ad_choices.
 _ad_header.
 _ad_image_
 _ad_layer_
-_ad_leaderboard.
 _ad_right.
 _ad_side.
 _ad_sidebar_
@@ -870,7 +867,6 @@ _ads.cgi
 _ads.cms?
 _ads.php?
 _ads_updater-
-_adscommon.
 _adserve.
 _adskin.
 _adskin_
@@ -912,8 +908,6 @@ _rightad_
 _sidead.
 _sidebar_ad.
 _sidebar_ad_
-_skinad.
-_small_ad.
 _square_ad.
 _sticky_ad.
 _StickyAd.
@@ -63617,6 +63611,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||ienohikari.net/ad/img/$~third-party
 @@||img.rakudaclub.com/adv/$~third-party
 @@||infotop.jp/html/ad/$image,~third-party
+@@||intelyvale.com.mx/ads/images/$domain=valesdegasolina.mx
 @@||jmedj.co.jp/files/$image,~third-party
 @@||jobs.bg/front_job_search.php$~third-party
 @@||js.assemblyexchange.com/videojs-skip-$domain=worldstar.com
@@ -120151,6 +120146,9 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||user.fm/files/*/ProofOfPayment.HTML^$doc
 ||grout-guru.com.au^$all,to=~group.bper.it
 /^https?:\/\/server\.[a-z0-9]{4}\.com\/invite\/\d+\b/$doc,match-case,to=com
+/^https:\/\/[a-z0-9]{3,}\.[a-z]{8,10}\.ru\/[a-zA-Z0-9]{6,8}\/#[A-Z][a-z]{5,}@[a-z]+\.com$/$doc,match-case,to=ru
+/t2dolalrwe/*$doc
+##html[lang] > body:not([class]):not([id]):not([style]) > div.background-container > div.container > div.captcha-box
 ||fgt.ive.mybluehost.me^$doc,to=~ameli.fr
 ||mybluehost.me/*/Ameli/$doc,to=~ameli.fr
 ||line.pm/*/SNF-GKFF.FR/$doc,to=~ameli.fr
