@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1puFo9gkHOoGYHiiH2sleg
+! Checksum: jXcnqG9Xd3HhPCIKOqtf4w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501110228
-! Last Modified: 2025年01月11日 02:28
+! Version: 202501110941
+! Last Modified: 2025年01月11日 09:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -55335,6 +55335,7 @@ dict.cc###recthomebot
 ip-tracker.org###rekl
 tapatalk.com###relatedblogbar
 plurk.com###resp_banner_ads
+homedepot.com###revjet_container
 10minutemail.net,eel.surf7.net.my,javatpoint.com###right
 msguides.com###right-bottom-camp
 comicbookrealm.com###right-rail > .module
@@ -55853,6 +55854,8 @@ stocktwits.com##.Primis_container__KwtjV
 tech.hindustantimes.com##.ProductAffilateWrapper
 yandex.com##.ProductGallery
 atlasobscura.com##.ProgrammaticMembershipCallout--taboola-member-article-container
+icodrops.com##.Project-Card--promo
+icodrops.com##.Promo-Line
 plainenglish.io##.PromoContainer_container__sZ3ls
 citybeat.com,clevescene.com,cltampa.com##.PromoTopBar
 sciencealert.com##.Purch_Y_C_0_1-container
@@ -55884,6 +55887,7 @@ slideshare.net##.StickyVerticalInterstitialAd_root__f7Qki
 slant.co##.SummaryPage-LustreEmbed
 westword.com##.SurveyLinkSlideModal
 newser.com##.TaboolaP1P2
+icodrops.com##.Tbl-Row--promo
 dictionary.com##.TeixwVbjB8cchva8bDlg
 imgur.com##.Top300x600
 cnbc.com##.TopBanner-container
@@ -59164,6 +59168,7 @@ u.today##.something
 u.today##.something--fixed
 u.today##.something--wide
 songfacts.com##.songfacts-song-inline-ads
+macys.com##.sortable-grid-sponsored-items
 greatandhra.com##.sortable-item_top_add123
 khmertimeskh.com##.sow-slider-image
 freeonlineapps.net##.sp
@@ -60949,11 +60954,13 @@ beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenw
 olympics.com##.b2p-list__item:has(> .adv-fluid)
 beincrypto.com##.before-author-block-bio:has-text(Sponsored)
 outsports.com##.bg-gray-100:has(.adb-os-lb-incontent)
+dropstab.com##.bg-slate-100:has-text(Ad)
 atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca##.block-wrapper:has(.element-header__sponsoredLabel)
 loblaws.ca##.block-wrapper:has([data-track-product-component="carousel||rmp_sponsored"])
 haveibeenpwned.com##.bodyGradient > :has(.why1Password)
 coincarp.com##.border-bottom:has-text(Sponsored)
 thenewdaily.com.au##.border-grey-300:has(> [data-ad-id])
+dropstab.com##.bottom-0.gap-2:has-text(/Stake Now|Invest Now/)
 chosun.com##.box--bg-grey-20:has(.dfpAd)
 radioreference.com##.box.gradient:has(a[href*="&Click="])
 gpro.net##.boxy:has(#blockblockA)
@@ -61728,7 +61735,7 @@ euronews.com#?#.m-object:has(.m-object__quote:-abp-contains(/In partnership with
 nordstrom.com#?#ul[style^="padding: 0px; position: relative;"] > li[class]:-abp-contains(Sponsored)
 loblaws.ca#?#[data-testid="product-grid"]>div:-abp-contains(Sponsored)
 semafor.com#?#.suppress-rss:-abp-has(:-abp-contains(Supported by))
-atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.chakra-linkbox:-abp-contains(Sponsored)
+atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.css-0:has(> div > .chakra-linkbox:-abp-contains(sponsored))
 shipt.com#?#li[class]:-abp-contains(Sponsored)
 argos.co.uk#?#[data-test^="component-slider-slide-"]:-abp-contains(SPONSORED)
 atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#[data-testid="card"]:-abp-contains(sponsored)
@@ -72549,8 +72556,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pikapod.net/script.js
 ||ping-admin.ru^$third-party
 ||ping.dozuki.com^
-||ping.fastsimon.com^
-||ping.instantsearchplus.com^
 ||pings.conviva.com^
 ||pings.vidpulse.com^
 ||pipe-collect.ebu.io^
@@ -118069,13 +118074,13 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||one-click.cc^$all
 ||descarga.pw^$doc
 ||clc-link.me^$all
-||app.mediafire.com/jjtzeom4qvvxb$doc
 ||app.mediafire.com/36culjifmas7b$doc
-||app.mediafire.com/29ph7u17caayi$doc
+||app.mediafire.com/v3txu5tkw7ln5$doc
 ||mediafire.com/folder/ofa1qju50ffaz/$doc
 ||mediafire.com/folder/u2is2eo3euyqd/$doc
 ||mediafire.com/folder/oljsfjvzr13f2/$doc
 ||mediafire.com/folder/3x67gs8tbyxdx/$doc
+||mediafire.com/folder/stdkch6gwqrcl/$doc
 ||www.youtube.com/@pengwincheat/$doc
 ||www.youtube.com/@melonitysoft/$doc
 ||www.youtube.com/channel/UCS9ql1ylQmDx7o_6v15X7mw/$doc
@@ -118088,6 +118093,7 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||sites.google.com/view/projectxx1|$doc
 ||sites.google.com/view/exlauncher11|$doc
 ||sites.google.com/view/ex1aucnh3r1/$doc
+||sites.google.com/view/exlauncher69/$doc
 ||gamefree.vip^$doc
 ||gocrazy.gg^$doc
 ||murhack.com^$doc
@@ -118106,7 +118112,8 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||projecthygieia.com^$all
 ||pctopkey.com^$all
 ||zxcprogs.shop^$all
-||echeloncheats.space^$all
+||loaderaura.com^$all
+||loaderware.cc^$all
 ||cloud-folder.org^$doc
 ||cloud-pack.org^$doc
 ||cloud-deployments.org^$doc
