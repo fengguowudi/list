@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mQkTqyV9/JLl/rkIKwI4nQ
+! Checksum: wN8o0/ltWB1nseUp/qxt2g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501140937
-! Last Modified: 2025年01月14日 09:37
+! Version: 202501141428
+! Last Modified: 2025年01月14日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -120310,6 +120310,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 /^https:\/\/[a-z0-9]{3,}\.[a-z]{8,10}\.ru\/[a-zA-Z0-9]{6,8}\/#[A-Z][a-z]{5,}@[a-z]+\.com$/$doc,match-case,to=ru
 /t2dolalrwe/*$doc
 ##html[lang] > body:not([class]):not([id]):not([style]) > div.background-container > div.container > div.captcha-box
+||melbournedistillery.com^$all
 ||fgt.ive.mybluehost.me^$doc,to=~ameli.fr
 ||mybluehost.me/*/Ameli/$doc,to=~ameli.fr
 ||line.pm/*/SNF-GKFF.FR/$doc,to=~ameli.fr
@@ -122610,6 +122611,9 @@ $removeparam=igshid,domain=instagram.com|threads.net
 @@||web.archive.org/*/http$removeparam
 @@||urldefense.com^$removeparam
 /dp/*/ref=$doc,uritransform=/\/ref=[^\/?#]+//,to=www.amazon.*
+||amazon.com/s/ref=$doc,uritransform=/\/ref=[^\/?#]+//
+/gp/*/ref=$doc,uritransform=/\/ref=[^\/?#]+//,to=www.amazon.*
+/^https:\/\/www\.primevideo\.com\/(?:detail|help|offers)[^=]*?\/ref=/$doc,to=primevideo.com,uritransform=/\/ref=[^\/?#]+//
 natgeotv.com##+js(no-xhr-if, /VisitorAPI|AppMeasurement/)
 natgeotv.com##+js(set, Visitor, {})
 ||fichub.com/plugins/adobe/lib/$xhr,domain=natgeotv.com,important
