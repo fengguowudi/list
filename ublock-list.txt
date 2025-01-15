@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bk0WqpgtHdUUVUbUr7NJ3w
+! Checksum: w1bO7FSH0zKeBgLvJKNf2w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501151428
-! Last Modified: 2025年01月15日 14:28
+! Version: 202501152040
+! Last Modified: 2025年01月15日 20:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52575,6 +52575,7 @@ browsershots.org#@#.advert_area
 ||amateur.tv/freecam/$third-party
 ||amateurporn.net^$third-party
 ||anacams.com/cdn/top.
+||apps.dfgtfv.com^
 ||asg.aphex.me^
 ||asg.bhabhiporn.pro^
 ||asg.irontube.net^
@@ -62258,7 +62259,7 @@ str8ongay.com##.aside-itempage-col
 ad69.com##.aside-section
 sexvid.pro##.aside_thumbs
 hd21.com##.aside_video
-babepump.com,fapnfuck.com,fuqster.com,onlyppv.com,sexpester.com,thotcity.su,w1mp.com,w4nkr.com,xmateur.com##.asside-link
+babepump.com,fapnfuck.com,fuqster.com,onlyppv.com,povxl.com,sexpester.com,thotcity.su,w1mp.com,w4nkr.com,xmateur.com##.asside-link
 veev.to##.avb-active
 avn.com##.avn-article-tower
 mrskin.com##.az
@@ -62576,7 +62577,7 @@ missav.ai,missav.city,missav.loan,missav.today,missav.wiki,missav.ws,missav123.c
 videosdemadurasx.com##.link
 xxxvogue.net##.link-adv
 escortnews.eu,topescort.com##.link-buttons-container
-babepump.com,fapnfuck.com,fuqster.com,sexpester.com,w1mp.com,w4nkr.com##.link-offer
+babepump.com,fapnfuck.com,fuqster.com,povxl.com,sexpester.com,w1mp.com,w4nkr.com##.link-offer
 boyfriendtv.com##.live-cam-popunder
 spankbang.com##.live-rotate
 alloldpics.com,sexygirlspics.com##.live-spot
@@ -63209,6 +63210,7 @@ pornhub.com##.sectionWrapper:has(> #bottomVideos > .wrapVideoBlock)
 hentaicomics.pro##.single-portfolio:has(.xxx-banner)
 xasiat.com##.top:has(> [data-zoneid])
 scrolller.com##.vertical-view__column > .vertical-view__item:has(> div[style$="overflow: hidden;"])
+povxl.com##.video-holder > div:has([id^="ts_ad_native_"])
 porndoe.com##.video-item:has(a.video-item-link[ng-native-click])
 jav4tv.com##aside:has(.ads_300_250)
 youporn.com##aside:has(a.ad-remove)
@@ -114408,6 +114410,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||vidible.tv^*/ComScore.StreamSense.js
 @@||vidible.tv^*/ComScore.Viewability.js
 @@||vivocha.com^*/vivocha.js?$script,domain=kartell.com
+@@||we-stats.com/scripts/$script,domain=discover.com
 @@||web-sdk.urbanairship.com/notify/$script,domain=etoro.com
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
@@ -116787,9 +116790,7 @@ uyduportal.net##+js(acs, document.addEventListener, nextFunction)
 businessinsider.fr##[id^="bin-ads"]
 @@||cdnqq.net^$script,1p
 testserver.pro##+js(nostif, google)
-novinhastop.com,warddogs.com##+js(aeld, DOMContentLoaded, adsBlocked)
-novinhastop.com##.single-right
-novinhastop.com##.qpsocb
+warddogs.com##+js(aeld, DOMContentLoaded, adsBlocked)
 warddogs.com##.main-money-01
 warddogs.com##.single-aside > div.flex
 telefullenvivo.com##+js(nostif, nextFunction)
