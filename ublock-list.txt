@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: w1bO7FSH0zKeBgLvJKNf2w
+! Checksum: hqmOzq75fH+yrqm4GsD9Aw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501152040
-! Last Modified: 2025年01月15日 20:40
+! Version: 202501160227
+! Last Modified: 2025年01月16日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -121133,14 +121133,15 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||trava-dapps.pages.dev^$doc,to=~trava.finance
 ||web3mainnetdapp.pages.dev^$all
 ||web3connectfix.pages.dev^$all
-||clinitex.fr/META5KYC/$doc,to=~metamask.io
 ||syncwallet.pages.dev^$all,to=~walletconnect.com
 ||azuki-*.vercel.app^$all,to=~azuki.com
 ||base-swap-frontend-*.vercel.app^$doc
-||metamask*.webflow.io^$doc
 ||final-claim.pages.dev^$doc
 ||indiewears.com^$all
 ||alienxchain*.pages.dev^$doc,to=~alienxchain.io
+||clinitex.fr/META5KYC/$doc,to=~metamask.io
+||metamask*.webflow.io^$doc,to=~metamask.io
+||keychron.in/wp-includes/certificates/home^$all,to=~metamask.io
 /\.(?:cc|com|top|vip)\/index\/index\/lang\/[a-z]{2}-[a-z]{2}\b/$doc,to=cc|com|top|vip
 /index/index/*Trade/tradelist^$doc
 ||bitvavo*.cc^$doc,to=cc|~bitvavo.com
@@ -122173,6 +122174,7 @@ tacobell.com##+js(set, bmak.js_post, false)
 ||cloudflare.com/ajax/libs/fingerprintjs2/$script,redirect=fingerprint2.js,important,domain=gamebox.gesoten.com
 ||gamerch.com/s3-assets/library/js/fingerprint2.min.js$script,redirect=fingerprint2.js,important
 ||ahentai.top/counter.php
+||caitlin.top/counter.php
 ||tr.jianshu.com^
 /lib/f_ad_code.js
 /\.com\/[-_0-9a-zA-Z]{4,}\/[-\/_0-9a-zA-Z]{25,}$/$script,1p,domain=gu-global.com|uniqlo.com
@@ -132370,8 +132372,8 @@ outletarredamento.it#@#.ad-link:not(.adsbox)
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 14 Jan 2025 17:20:54 GMT
-# entries:        3546
+# last updated:   Wed, 15 Jan 2025 14:33:58 GMT
+# entries:        3548
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
@@ -134178,6 +134180,7 @@ outletarredamento.it#@#.ad-link:not(.adsbox)
 127.0.0.1 gp.dejanews.com
 127.0.0.1 graizoah.com
 127.0.0.1 grandfatherguitar.com
+127.0.0.1 granlite.com
 127.0.0.1 grapeshot.co.uk
 127.0.0.1 greyinstrument.com
 127.0.0.1 greystripe.com
@@ -134930,6 +134933,7 @@ outletarredamento.it#@#.ad-link:not(.adsbox)
 127.0.0.1 pointlessprofit.com
 127.0.0.1 pointroll.com
 127.0.0.1 pokkt.com
+127.0.0.1 polishedfolly.com
 127.0.0.1 popads.net
 127.0.0.1 popcash.net
 127.0.0.1 popmyads.com
