@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l2olnmrhDDrtuYIR725bJw
+! Checksum: bk0WqpgtHdUUVUbUr7NJ3w
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501150939
-! Last Modified: 2025年01月15日 09:39
+! Version: 202501151428
+! Last Modified: 2025年01月15日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -59293,7 +59293,7 @@ watchinamerica.com##.smartmag-widget-codes
 pressdemocrat.com##.smiPlugin_rail_ad_widget
 secretchicago.com##.smn-new-gpt-ad
 rugby365.com##.snack-container
-small-screen.co.uk##.snackStickyParent
+foottheball.com,small-screen.co.uk##.snackStickyParent
 dailyevergreen.com##.sno-hac-desktop-1
 khmertimeskh.com##.so-widget-sow-image
 u.today##.something
@@ -59922,6 +59922,7 @@ techyv.com##.wpb_raw_code
 premiumtimesng.com##.wpb_raw_code > .wpb_wrapper
 ukutabs.com##.wpb_raw_html
 nationalfile.com##.wpb_wrapper > p
+foottheball.com##.wpb_wrapper.td_block_wrap.vc_raw_html.tdi_46
 coralspringstalk.com##.wpbdp-listings-widget-list
 tejanonation.net##.wpcnt
 americanfreepress.net,sashares.co.za##.wppopups-whole
@@ -61537,6 +61538,7 @@ arboristsite.com##.gb-sponsored-wrapper
 givemesport.com##.gms-videos-container
 gamesradar.com##.in-article
 bringmethenews.com,mensjournal.com,thestreet.com##.is-fallback-player
+gmanetwork.com##.ivs-placeholder
 evoke.ie##.jw-player-video-widget
 anandtech.com##.jwplayer
 gamesradar.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
@@ -120406,6 +120408,8 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||chat.voice-datings.workers.dev^$all,to=~ourtime.com
 ||profile-ourtime.*.workers.dev^$doc,to=~ourtime.com
 /^https:\/\/ourtime\.[a-z]+-[a-z]+\.workers\.dev\//$doc,to=workers.dev|~ourtime.com
+||voice-ourtime.*.workers.dev^$doc,to=~ourtime.com
+/^https:\/\/(?:[-a-z0-9]+\.){2}workers\.dev\/v3\/(?:forgotpassword|security|signup)\b/$doc,to=workers.dev
 /\/wap\/api\/(?:activity\/)?[a-zA-Z]+![-_a-zA-Z]+\.action\?/$xhr,1p,strict1p,match-case
 ||wetching.ru^$doc,frame
 ||griffithdds.com/*/madeinchina.com/$all,to=~made-in-china.com
@@ -120848,8 +120852,8 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||steamcommunitylog.chez.com^$all
 ||steam.iplay.fit^$all
 ||steam.workshop*.com^$doc
-/^https:\/\/s[ct]y?[ace][aem][a-z]{1,4}o[mn][a-z]{4,8}[iy][a-z]?\.com\//$doc,to=com|~steamcommunity.com
-/^https:\/\/s[ct]y?[ace][aem][a-z]{1,4}o[mn][a-z]{4,8}[iy][a-z]?\.ru\//$doc,to=ru|~steamcommunity.com
+/^https:\/\/s[ct]y?[ace][aemn][a-z]{1,4}o[mn][a-z]{4,8}[iy][a-z]?\.com\//$doc,to=com|~steamcommunity.com
+/^https:\/\/s[ct]y?[ace][aemn][a-z]{1,4}o[mn][a-z]{4,8}[iy][a-z]?\.ru\//$doc,to=ru|~steamcommunity.com
 /^https:\/\/steam\.(?:community)?workshop-?[a-z]+\.com\//$doc,to=com|~steamcommunity.com
 ||steam.communityart-work.com^$all
 ||steamcomuniry.com^$all
@@ -120966,6 +120970,8 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||hkwordpress.com/public/export/SM-ORDER/excelz/$doc
 ||msoftupdate.*.linodeobjects.com^$all
 ||slobeg.com^$all
+||outloksupportbuzoningreso.glitch.me^$all
+||outloksupport*.glitch.me^$doc
 ||telegramhcn.com^$all
 ||brawllstars.ru^$all
 ||telegremapp.me^$all
@@ -125303,6 +125309,7 @@ hagerty.com##+js(set, MT.track, noopFunc)
 @@||trafico.prensaiberica.es/adm/min/pb_wrapper/$script,domain=sport.es
 outletarredamento.it#@#.ad-link:not(.adsbox)
 ||google-analyticals.com^
+||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect=google-ima.js,domain=abcnyheter.no,important
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
