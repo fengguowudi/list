@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nwFyyLR2oXzDOh2nxadUUA
+! Checksum: 24CwTxbcd6kWDQYX9F5oIw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501160938
-! Last Modified: 2025年01月16日 09:38
+! Version: 202501161428
+! Last Modified: 2025年01月16日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -12,7 +12,7 @@
 -ad-manager/$~stylesheet
 -ad-sidebar.
 -ad-util.
--ad.jpg.pagespeed.
+-ad.jpg.pagespeed.$image
 -ads-banner.
 -ads-bottom.
 -ads-manager/$domain=~wordpress.org
@@ -21,9 +21,7 @@
 -banner-ad_
 -banner-ads-$~script
 -contrib-ads.$~stylesheet
--display-ads.
 -footerads.
--page-ad.
 -PcmModule-Taboola-
 -popexit.
 -popunder.
@@ -34,13 +32,11 @@
 -web-advert-$image
 -Web-Advert.
 .adriver.$~object,domain=~adriver.co
-.adrotate.
 .ads-lazy.
 .ads.controller.
-.ads.css
 .adsbox.
 .advert.$domain=~advert.ae|~advert.ge|~advert.io|~advert.ly|~advert.media|~advert.org.pl
-.ar/ads/
+.ar/ads/$~xmlhttprequest
 .ashx?AdID=
 .aspx?adid=
 .az/adv/$~xmlhttprequest
@@ -95,7 +91,7 @@
 .ng/ads/
 .nu/ads/
 .org/ad/$domain=~ylilauta.org
-.org/ads/
+.org/ads/$~xmlhttprequest
 .org/pops.js
 .org/script/compatibility.js$third-party
 .ph/ads/
@@ -584,6 +580,7 @@
 /plg_adbutlerads/*$script,stylesheet
 /plugin/ad/*$script
 /plugins/ad-invalid-click-protector/*$script
+/plugins/adrotate-pro-latest/*$script
 /plugins/adrotate-pro/*$script
 /plugins/adrotate/*$script
 /plugins/ads/*$~xmlhttprequest
@@ -757,6 +754,7 @@
 /videoad/*$script
 /videoads/*$~xmlhttprequest
 /videojs.ads-$script,stylesheet
+/videojs.ads.css$stylesheet
 /videojs.sda.js$script
 /view/ad/*$subdocument
 /view_banner.php$image
@@ -848,7 +846,6 @@ _ad_layer_
 _ad_right.
 _ad_side.
 _ad_skyscraper.
-_ad_wrapper.
 _adchoice.
 _adchoices.
 _adlabel_
@@ -864,19 +861,14 @@ _adv_open_x/
 _advertise-$domain=~linkedin.com
 _advertise.
 _advertisment.$~xmlhttprequest
-_affiliate_ad.
 _assets/ads/
 _asyncspc.
-_background_ad.
 _Banner_Ads_
 _BannerAd_
-_bottom_ads.
 _bottom_ads_
 _footer_ad_
-_header_ad_
 _headerad.
 _images/ad.$image
-_images/ad_
 _images/ads/
 _layerad.
 _panel_ads.
@@ -25415,6 +25407,7 @@ browsershots.org#@#.advert_area
 ||foulfurnished.com^
 ||foundationhemispherebossy.com^
 ||foundationhorny.com^
+||foupeestokiy.net^
 ||foupeethaija.com^
 ||fourteenthcongratulate.com^
 ||fouwheepoh.com^
@@ -30864,6 +30857,7 @@ browsershots.org#@#.advert_area
 ||measuredshared.com^
 ||measuringcabinetclerk.com^
 ||measuringrules.com^
+||meatabdicatedelicatessen.com^
 ||meatjav11.fun^
 ||meawo.cloud^
 ||mechaelpaceway.com^
@@ -34897,6 +34891,7 @@ browsershots.org#@#.advert_area
 ||privacycounter.com^
 ||privacynicerresumed.com^
 ||privacysearching.com^
+||private-stage.com^
 ||privateappealingsymphony.com^
 ||privatelydevotionrewind.com^
 ||privilegedmansfieldvaguely.com^
@@ -37822,6 +37817,7 @@ browsershots.org#@#.advert_area
 ||sherryfaithfulhiring.com^
 ||shertuwipsumt.net^
 ||sheschemetraitor.com^
+||shetchoultoocha.net^
 ||shexawhy.net^
 ||shfewojrmxpy.xyz^
 ||shfsdvc.com^
@@ -38917,6 +38913,7 @@ browsershots.org#@#.advert_area
 ||stixeepou.com^
 ||stjpezyt.com^
 ||stoachaigog.com^
+||stoachdarts.com^
 ||stoadivap.com^
 ||stoaglauksargoo.xyz^
 ||stoagnejums.net^
@@ -116490,9 +116487,7 @@ mediapemersatubangsa.com##+js(acs, document.addEventListener, google_ad_client)
 *$script,3p,denyallow=gstatic.com,domain=la123movies.com
 pornofan.pl###inplayerADS
 pornofan.pl##.PublicitaDestra
-audiobookcup.com##+js(acs, document.addEventListener, google_ad_client)
 gigacourse.com##+js(acs, eval, replace)
-superonleech.biz##+js(acs, document.addEventListener, google_ad_client)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect=noopjs,domain=howstuffworks.com
 userload.*##+js(aeld, , _0x)
 userload.*##+js(nowoif)
@@ -120344,6 +120339,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 /t2dolalrwe/*$doc
 ##html[lang] > body:not([class]):not([id]):not([style]) > div.background-container > div.container > div.captcha-box
 ||melbournedistillery.com^$all
+||koenig.cx^$all,to=~dropbox.com
 ||fgt.ive.mybluehost.me^$doc,to=~ameli.fr
 ||mybluehost.me/*/Ameli/$doc,to=~ameli.fr
 ||line.pm/*/SNF-GKFF.FR/$doc,to=~ameli.fr
@@ -122045,6 +122041,20 @@ uploadfox.net###ad-gs-05
 ||grass-io.$all,to=cc|vip|~getgrass.io
 ||inmotionhosting.com/~myapp/grass_air/$doc,to=~getgrass.io
 ||pubgrlxvote.top^$all
+||teleqpnm.cn^$all,to=~telegram.org
+||gstatic.com/atari/embeds/*/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.5oZHy0SiJxw.O%2Fd%3D1%2Frs%3DAHpOoo-Hry6DG-RE4t9kNz_t6hiwmwXOmA%2Fm%3D__features__&r=$frame,domain=sites.google.com
+||sites.google.com/view/entteraccess^$all,to=~ads.google.com
+||sites.google.com/view/helpp2k^$all,to=~ads.google.com
+||accounts.google.lt1l.com^$all,to=~ads.google.com
+||accounts.lichseagame.com^$all,to=~ads.google.com
+||accousnt.whenin.pt^$all,to=~ads.google.com
+||ads-google.io-es.com^$all,to=~ads.google.com
+||ads-overview.com^$all,to=~ads.google.com
+||adsg00gle-v3.vercel.app^$all,to=~ads.google.com
+||as.vn-login.shop^$all,to=~ads.google.com
+||ads1.google.*.com^$doc,frame,to=~ads.google.com
+||vietnamworks.vn-login.shop^$all,to=~google.com
+||ezdrivema.com-$doc,to=~mass.gov
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -122255,7 +122265,7 @@ zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method
 ||torimochi.line-apps.com^$image,redirect=1x1.gif
 ||api.bilibili.com/x/internal/gaia-gateway/ExClimbWuzhi$xhr,1p
 ||p.typekit.net/p.css^$css,redirect=noop.css
-||p.typekit.net/p.css^$css,domain=browserstack.com|bungie.net|robertsspaceindustries.com,redirect=noop.css,important
+||p.typekit.net/p.css^$css,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|petsafe.com|robertsspaceindustries.com,redirect=noop.css,important
 -telemetry.officeapps.live$ping,xhr
 ||flow.microsoft.com/providers/Internal.Telemetry
 ||client-telemetry.roblox.com^
