@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 24CwTxbcd6kWDQYX9F5oIw
+! Checksum: 4rbVZ/gh13Pob6ZSizobTA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501161428
-! Last Modified: 2025年01月16日 14:28
+! Version: 202501162039
+! Last Modified: 2025年01月16日 20:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53013,6 +53013,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||bigwarp.io/js/big.js
 ||bioinformatics.org/images/ack_banners/
 ||bit.com.au/scripts/js_$script
+||bitchute.com/slot1/value?adDataKey
 ||bitchute.com/static/ad-sidebar.html
 ||bitchute.com/static/ad-sticky-footer.html
 ||bitcotasks.com/je.php
@@ -53886,6 +53887,7 @@ $popup,third-party,domain=1337x.buzz|adblockeronstape.me|adblockeronstreamtape.m
 ||rx.link^$popup,domain=uploadgig.com
 ||s.click.aliexpress.com^$popup,domain=dzapk.com|up-4ever.net
 ||sendspace.com/defaults/sendspace-pop.html$popup
+||short.bitchute.com^$popup
 ||skycheats.com^$popup,domain=elitepvpers.com
 ||t.co^$popup,domain=hltv.org
 ||topeuropix.site/svop4/$popup
@@ -55595,6 +55597,7 @@ fastseduction.com###splash
 streetdirectory.com###splash_screen_overlay
 downloads.codefi.re###spo
 downloads.codefi.re###spo2
+bitchute.com###spoSide
 firmwarefile.com###spon
 cssbattle.dev,slitaz.org###sponsor
 meteocentrale.ch###sponsor-info
@@ -56467,7 +56470,7 @@ freeaddresscheck.com,freecallerlookup.com,freecarrierlookup.com,freeemailvalidat
 gpfans.com##.advertise-panel
 cointelegraph.com##.advertise-with-us-link_O9rIX
 salon.com##.advertise_text
-aan.com,aarp.org,additudemag.com,animax-asia.com,apkforpc.com,audioxpress.com,axn-asia.com,bravotv.com,citiblog.co.uk,cnbctv18.com,cnn59.com,controleng.com,curiosmos.com,downzen.com,dw.com,dwturkce.com,escapeatx.com,foodsforbetterhealth.com,gemtvasia.com,hcn.org,huffingtonpost.co.uk,huffpost.com,inqld.com.au,inspiredminds.de,investmentnews.com,jewishworldreview.com,legion.org,lifezette.com,livestly.com,magtheweekly.com,moneyland.ch,offshore-energy.biz,onetvasia.com,oxygen.com,pch.com,philosophynow.org,prospectmagazine.co.uk,readamericanfootball.com,readarsenal.com,readastonvilla.com,readbasketball.com,readbetting.com,readbournemouth.com,readboxing.com,readbrighton.com,readbundesliga.com,readburnley.com,readcars.co,readceltic.com,readchampionship.com,readchelsea.com,readcricket.com,readcrystalpalace.com,readeverton.com,readeverything.co,readfashion.co,readfilm.co,readfood.co,readfootball.co,readgaming.co,readgolf.com,readhorseracing.com,readhuddersfield.com,readhull.com,readinternationalfootball.com,readlaliga.com,readleicester.com,readliverpoolfc.com,readmancity.com,readmanutd.com,readmiddlesbrough.com,readmma.com,readmotorsport.com,readmusic.co,readnewcastle.com,readnorwich.com,readnottinghamforest.com,readolympics.com,readpl.com,readrangers.com,readrugbyunion.com,readseriea.com,readshowbiz.co,readsouthampton.com,readsport.co,readstoke.com,readsunderland.com,readswansea.com,readtech.co,readtennis.co,readtottenham.com,readtv.co,readussoccer.com,readwatford.com,readwestbrom.com,readwestham.com,readwsl.com,reason.com,redvoicemedia.com,revolver.news,rogerebert.com,smithsonianmag.com,streamingmedia.com,the-scientist.com,thecatholicthing.org,therighthairstyles.com,topsmerch.com,weatherwatch.co.nz,wheels.ca,whichcar.com.au,woot.com,worldofbitco.in##.advertisement
+aan.com,aarp.org,additudemag.com,agbi.com,animax-asia.com,apkforpc.com,audioxpress.com,axn-asia.com,bravotv.com,citiblog.co.uk,cnbctv18.com,cnn59.com,controleng.com,curiosmos.com,downzen.com,dw.com,dwturkce.com,escapeatx.com,foodsforbetterhealth.com,gemtvasia.com,hcn.org,huffingtonpost.co.uk,huffpost.com,inqld.com.au,inspiredminds.de,investmentnews.com,jewishworldreview.com,legion.org,lifezette.com,livestly.com,magtheweekly.com,moneyland.ch,offshore-energy.biz,onetvasia.com,oxygen.com,pch.com,philosophynow.org,prospectmagazine.co.uk,readamericanfootball.com,readarsenal.com,readastonvilla.com,readbasketball.com,readbetting.com,readbournemouth.com,readboxing.com,readbrighton.com,readbundesliga.com,readburnley.com,readcars.co,readceltic.com,readchampionship.com,readchelsea.com,readcricket.com,readcrystalpalace.com,readeverton.com,readeverything.co,readfashion.co,readfilm.co,readfood.co,readfootball.co,readgaming.co,readgolf.com,readhorseracing.com,readhuddersfield.com,readhull.com,readinternationalfootball.com,readlaliga.com,readleicester.com,readliverpoolfc.com,readmancity.com,readmanutd.com,readmiddlesbrough.com,readmma.com,readmotorsport.com,readmusic.co,readnewcastle.com,readnorwich.com,readnottinghamforest.com,readolympics.com,readpl.com,readrangers.com,readrugbyunion.com,readseriea.com,readshowbiz.co,readsouthampton.com,readsport.co,readstoke.com,readsunderland.com,readswansea.com,readtech.co,readtennis.co,readtottenham.com,readtv.co,readussoccer.com,readwatford.com,readwestbrom.com,readwestham.com,readwsl.com,reason.com,redvoicemedia.com,revolver.news,rogerebert.com,smithsonianmag.com,streamingmedia.com,the-scientist.com,thecatholicthing.org,therighthairstyles.com,topsmerch.com,weatherwatch.co.nz,wheels.ca,whichcar.com.au,woot.com,worldofbitco.in##.advertisement
 topsmerch.com##.advertisement--6
 topsmerch.com##.advertisement-2-box
 devdiscourse.com##.advertisement-area
@@ -66833,8 +66836,10 @@ _WebVitalsReporter_
 .na1.hs-sales-engage.com/$image
 .ne16.com/do/
 .netcologne.de/-open2/$image
+.nordvpn.com/q/$image
 .oculus.com/collect/
 .online.costco.com/t?$image
+.pledgebox.com/t/$image
 .pstmrk.it/open^
 .publish0x.com/t/
 .quora.com/qemail/mark_read?
@@ -75030,6 +75035,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adweek.com/wp-content/plugins/adw-parsley/
 ||aegis.trovo.live^
 ||aerlingus.com/ahktqsewxjhguuxe.js
+||agbi.com/kqmp6?
 ||agoda.net/v2/track
 ||aim.cloudflare.com/__log
 ||airtable.com/internal/
@@ -75191,6 +75197,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bing.com/rewardsapp/reportActivity?
 ||binocule21c.merriam-webster.com^
 ||biomedcentral.com/track/
+||bitchute.com/data/script.js
 ||blitz-analytics-batch-server.blitz.gg^
 ||blockworks.co/_vercel/insights/
 ||blue.nbc4i.com^
@@ -122055,6 +122062,8 @@ uploadfox.net###ad-gs-05
 ||ads1.google.*.com^$doc,frame,to=~ads.google.com
 ||vietnamworks.vn-login.shop^$all,to=~google.com
 ||ezdrivema.com-$doc,to=~mass.gov
+||thetollroads.texas-$all,to=~thetollroads.com
+/^https:\/\/thetollroads\.[a-z]+-[a-z]{4}\.[a-z]{3}\//$doc,to=~thetollroads.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -122809,6 +122818,8 @@ discord.com##+js(no-xhr-if, discord.com/api/v9/science)
 ||github.com/_private/browser/errors
 ||curseforge.com/linkout$urlskip=?remoteUrl -uricomponent
 ||razorpay.com/v1/track
+||bitchute.com/data/1
+||analytics.bitchute.com^
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
