@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2oSgkgc9Xi2eAxUXHQPDQA
+! Checksum: PsArQ08TOve4V/i+GYzylg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501171428
-! Last Modified: 2025年01月17日 14:28
+! Version: 202501172039
+! Last Modified: 2025年01月17日 20:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -45896,6 +45896,7 @@ browsershots.org#@#.advert_area
 ||34475780.xyz^
 ||36833185.xyz^
 ||37066957.xyz^
+||38167473.xyz^
 ||38835571.xyz^
 ||38941752.xyz^
 ||3a55f02d.xyz^
@@ -45908,6 +45909,7 @@ browsershots.org#@#.advert_area
 ||4602306b.xyz^
 ||46276192.xyz^
 ||466c4d0f.xyz^
+||47235645.xyz^
 ||47296536.xyz^
 ||47415889.xyz^
 ||48304789.xyz^
@@ -51166,6 +51168,7 @@ browsershots.org#@#.advert_area
 ||js.surecart.com/v1/affiliates?
 ||jsdelivr.net/gh/InteractiveAdvertisingBureau/
 ||jsdelivr.net/gh/qxomer/reklam@master/reklam.js
+||jsdelivr.net/npm/as-essential
 ||jsdelivr.net/npm/prebid-
 ||jvzoo.com/assets/widget/
 ||jwpcdn.com/player/*/googima.js
@@ -122818,6 +122821,7 @@ discord.com##+js(no-xhr-if, discord.com/api/v9/science)
 ||razorpay.com/v1/track
 ||bitchute.com/data/1
 ||analytics.bitchute.com^
+||api.flipkart.com/4/data/collector/business
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -132492,7 +132496,6 @@ outletarredamento.it#@#.ad-link:not(.adsbox)
 127.0.0.1 actualdeals.com
 127.0.0.1 actuallysheep.com
 127.0.0.1 actuallysnake.com
-127.0.0.1 actuallything.com
 127.0.0.1 acuityads.com
 127.0.0.1 acuityplatform.com
 127.0.0.1 ad-balancer.at
@@ -133346,6 +133349,7 @@ outletarredamento.it#@#.ad-link:not(.adsbox)
 127.0.0.1 analyticsapi.happypancake.net
 127.0.0.1 ancientact.com
 127.0.0.1 androiddownload.net
+127.0.0.1 angossa.com
 127.0.0.1 aniview.com
 127.0.0.1 annonser.dagbladet.no
 127.0.0.1 annoyedairport.com
@@ -134164,6 +134168,7 @@ outletarredamento.it#@#.ad-link:not(.adsbox)
 127.0.0.1 g2.gumgum.com
 127.0.0.1 ga.clearbit.com
 127.0.0.1 gadsbee.com
+127.0.0.1 galaxien.com
 127.0.0.1 game-advertising-online.com
 127.0.0.1 gamesites100.net
 127.0.0.1 gamesites200.com
@@ -135553,7 +135558,6 @@ outletarredamento.it#@#.ad-link:not(.adsbox)
 127.0.0.1 tealium.cbsnews.com
 127.0.0.1 tealium.com
 127.0.0.1 tealiumiq.com
-127.0.0.1 tediousticket.com
 127.0.0.1 tedioustooth.com
 127.0.0.1 teenrevenue.com
 127.0.0.1 telaria.com
