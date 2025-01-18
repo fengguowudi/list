@@ -1,18 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: RSPwKqNOD2Z3pPo3CinpdQ
+! Checksum: YrbSCyBvnv/ltUmy4wwDlg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501181426
-! Last Modified: 2025年01月18日 14:26
+! Version: 202501182036
+! Last Modified: 2025年01月18日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
 !-----------------------General advert blocking filters-----------------------!
 -ad-manager/$~stylesheet
 -ad-sidebar.$image
--ad-util.
 -ad.jpg.pagespeed.$image
--ads-bottom.
 -ads-manager/$domain=~wordpress.org
 -ads/assets/$script,domain=~web-ads.org
 -assets/ads.$~script
@@ -21,14 +19,13 @@
 -sponsor-ad.$image
 -web-advert-$image
 .adriver.$~object,domain=~adriver.co
-.ads.controller.
+.ads.controller.js$script
 .advert.$domain=~advert.ae|~advert.ge|~advert.io|~advert.ly|~advert.media|~advert.org.pl
 .ar/ads/$~xmlhttprequest
 .ashx?AdID=
 .aspx?adid=
 .az/adv/$~xmlhttprequest
 .br/ads/$~xmlhttprequest
-.bz/ads/
 .ca/ads/$~xmlhttprequest
 .cfm?ad=
 .cgi?ad=
@@ -58,12 +55,11 @@
 .com/script/utils.js$third-party
 .com/script/xbox.js$third-party
 .com/watch.*.js?key=
-.cz/adv/
+.cz/adv/$image,domain=~caoh.cz
 .cz/affil/$image
 .cz/bannery/$image
 .fuse-cloud.com/$~xmlhttprequest
 .html?clicktag=
-.info/tsv
 .jp/ads/$third-party,domain=~hs-exp.jp
 .lol/js/pub.min.js$third-party
 .lol/sw.js$third-party
@@ -817,19 +813,12 @@ _ad_250.$image
 _ad_300.$image
 _ad_bottom.
 _ad_layer_
-_ads.cgi
 _ads.cms?
 _ads.php?
 _advertise-$domain=~linkedin.com
 _advertisment.$~xmlhttprequest
-_assets/ads/
 _images/ad.$image
-_panel_ads.
-_popunder_
-_pushads.
-_rectangle_ads.
 _reklama_$domain=~youtube.com
-_sidebar_ad_
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
@@ -1074,7 +1063,7 @@ _prebid.js$script
 /300x600-
 /300x600_
 /300xx250.
-/320x250.
+/320x250.$image
 /335x205_
 /336x280-
 /336x280.
@@ -43328,6 +43317,7 @@ browsershots.org#@#.advert_area
 ||yoomanies.com^
 ||yopard.com^
 ||yoredi.com^
+||yorkvillemarketing.net^
 ||yoshatia.com^
 ||yottacash.com^
 ||you4cdn.com^
@@ -59897,6 +59887,7 @@ guitaradvise.com##.wp-block-affiliate-plugin-lasso
 thechainsaw.com##.wp-block-create-block-pedestrian-gam-ad-block
 gamepur.com##.wp-block-dotesports-affiliate-button
 dotesports.com,primagames.com##.wp-block-gamurs-ad
+themarysue.com##.wp-block-gamurs-ad__creative
 gearpatrol.com##.wp-block-gearpatrol-ad-slot
 gearpatrol.com##.wp-block-gearpatrol-from-our-partners
 gamingskool.com##.wp-block-group-is-layout-constrained
@@ -61215,6 +61206,7 @@ neonheightsservers.com##.well:has(ins.adsbygoogle)
 9to5linux.com##.widget:has([href$=".php"])
 evreporter.com##.widget_media_image:not(:has(a[href^="https://evreporter.com/"]))
 cnx-software.com##.widget_text.widget:has([href*="?utm"])
+themarysue.com##.wp-block-gamurs-article-group__sidebar__wrapper:has-text(related content)
 dotesports.com##.wp-block-gamurs-article-tile:has-text(Sponsored)
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 mapquest.co.uk##.z-10.justify-center:has-text(Advertisement)
@@ -61569,6 +61561,7 @@ bossip.com##.player-wrapper-inner
 swimswam.com##.polls-461
 baseball-reference.com,basketball-reference.com,fbref.com,hockey-reference.com,pro-football-reference.com,sports-reference.com##.primis
 appleinsider.com##.primis-ad-wrap
+themarysue.com##.primis-player-container
 iheart.com##.provider-stn
 pedestrian.tv##.recent-jobs-widget
 kidspot.com.au##.secondary-video
@@ -70780,6 +70773,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||smart-counter.net^$third-party
 ||smartnews-ads.com^$third-party
 ||speee-ad.jp^$third-party
+||sygrip.info^$third-party
 ||talpa-analytics.com^$third-party
 ||taxel.jp^$third-party
 ||team-rec.jp^$third-party
@@ -72147,6 +72141,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gu-pix.appspot.com^$third-party
 ||gubagoo.com/modules/tracking/
 ||gubagoo.io/c/$image
+||h-bid.com^$third-party
 ||h2porn.com/new-hit/?
 ||hadrianpaywall.com/views
 ||happen.spkt.io^
@@ -75074,6 +75069,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.academy.com^
 ||analytics.ahrefs.dev^
 ||analytics.archive.org^
+||analytics.bitchute.com^
 ||analytics.brave.com^
 ||analytics.chase.com^
 ||analytics.cookiefirst.dev^
@@ -76784,6 +76780,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||citibank.com.sg/tmx/
 ||clear.wallapop.com^
 ||content.canadiantire.ca^
+||content.tab.com.au^
 ||content22.bmo.com^
 ||content22.citi.eu^$script
 ||content22.citibank.com.au^
@@ -76861,7 +76858,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cmp.telerama.fr^
 ||d.sourcepoint.capitalfm.com^
 ||fuse.forbes.com^
-||h-bid.com^$third-party
 ||sourcepoint-mms.aetv.com^
 ||sourcepoint-mms.history.com^
 ||sourcepoint-mms.mylifetime.com^
@@ -122046,7 +122042,6 @@ uploadfox.net###ad-gs-05
 ||inmotionhosting.com/~myapp/grass_air/$doc,to=~getgrass.io
 ||pubgrlxvote.top^$all
 ||teleqpnm.cn^$all,to=~telegram.org
-||gstatic.com/atari/embeds/*/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.5oZHy0SiJxw.O%2Fd%3D1%2Frs%3DAHpOoo-Hry6DG-RE4t9kNz_t6hiwmwXOmA%2Fm%3D__features__&r=$frame,domain=sites.google.com
 ||sites.google.com/view/entteraccess^$all,to=~ads.google.com
 ||sites.google.com/view/helpp2k^$all,to=~ads.google.com
 ||accounts.google.lt1l.com^$all,to=~ads.google.com
