@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xG/io2iR1fpiPSdQLagmtQ
+! Checksum: N3D7gXDz7fLwet39k6GCjg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501190944
-! Last Modified: 2025年01月19日 09:44
+! Version: 202501191426
+! Last Modified: 2025年01月19日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56139,6 +56139,8 @@ sciencenews.org##.ad-block-leaderboard__freestar___Ologr
 fangoria.com##.ad-block__container
 cryptodaily.co.uk##.ad-bottom-spacing
 save.ca##.ad-box
+am5.com##.ad-box-pc-3
+am5.com##.ad-box-right-pc-1
 mv-voice.com##.ad-break
 imsa.com##.ad-close-container
 thisiscolossal.com##.ad-code-block
@@ -57969,6 +57971,7 @@ indianexpress.com##.ie-int-campign-ad
 fifetoday.co.uk##.iehxDO
 guides.gamepressure.com##.if-no-baner
 techmeme.com##.ifsp
+hinigami09.com##.iklannew-container
 coingape.com##.image-ads
 instacart.com##.image-banner-a-9l2sjs
 instacart.com##.image-banner-a-ak0wn
@@ -58555,6 +58558,7 @@ pcgamesn.com##.nn_mobile_mpu2_wrapper
 pcgamesn.com##.nn_mobile_mpu_wrapper
 trueachievements.com,truesteamachievements.com,truetrophies.com##.nn_player_w
 publishedreporter.com##.no-bg-box-model
+shinigami09.com##.no-gaps.page-break > a[href]
 hindustantimes.com##.noAdLabel
 ferrarichat.com##.node_sponsor
 greyhound-data.com##.non-sticky-publift
@@ -59996,6 +60000,7 @@ impressivetimes.com##[class$="-ads"]
 economictimes.indiatimes.com##[class*="-ad-"]
 thehansindia.com##[class*="-ad-"]:not(#inside_post_content_ad_1_before)
 collegedunia.com##[class*="-ad-slot"]
+80.lv##[class*="BrndigPrmo_"]
 petco.com##[class*="SponsoredText"]
 fotmob.com##[class*="TopBannerWrapper"]
 jagranjosh.com##[class*="_AdColl_"]
@@ -60326,6 +60331,7 @@ wakingtimes.com##[href^="https://www.wendymyersdetox.com/"]
 musicbusinessworldwide.com##[href^="https://wynstarks.lnk.to/"]
 cars.com##[id$="-sponsored"]
 lolalytics.com##[id$=":inline"]
+80.lv##[id*="Image_bnnr"]
 homedepot.com##[id*="sponsored"]
 producebluebook.com##[id^="BBS"]
 ldoceonline.com##[id^="ad_contentslot"]
@@ -120325,7 +120331,6 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||vnote-*.myqcloud.com^$all
 /^https:\/\/vietg[a-z]v[0-9]*\.cc\//$doc,to=cc
 ||clickhereecraigslist.tripod.com^$all
-||unclepigva.com^$all,to=~chase.com
 ||mymokki.ru^$all,to=~hozblokspb.ru
 ||lapmangsctv.com.vn^$doc,to=~sctv.com.vn
 ||socgeneralist.firebaseapp.com^$all,to=~societegenerale.com
@@ -120350,6 +120355,8 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ##html[lang] > body:not([class]):not([id]):not([style]) > div.background-container > div.container > div.captcha-box
 ||melbournedistillery.com^$all
 ||koenig.cx^$all,to=~dropbox.com
+||unclepigva.com^$all,to=~chase.com
+||aurelie-picard-parentalite.fr/*/Recurring_Payment_Authorizationtt.html^$all,to=~chase.com
 ||fgt.ive.mybluehost.me^$doc,to=~ameli.fr
 ||mybluehost.me/*/Ameli/$doc,to=~ameli.fr
 ||line.pm/*/SNF-GKFF.FR/$doc,to=~ameli.fr
@@ -120596,6 +120603,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||f.digital-*.com/igit/$doc
 ||currentlyatt*.weebly.com^$all
 ||currentlymail*.weebly.com^$all
+||att-currently-*.weeblysite.com^$all
 ||dropbox.com/*/AT-T-YAHOO-MAIL.paper^$doc
 ||homelogginbbt.weebly.com^$all,to=~bt.com
 ||loogginhomebtcom.weebly.com^$all,to=~bt.com
@@ -122071,6 +122079,8 @@ uploadfox.net###ad-gs-05
 /^https:\/\/thetollroads\.[a-z]+-[a-z]{4}\.[a-z]{3}\//$doc,to=~thetollroads.com
 /^https:\/\/(?:[-a-z0-9]{2,}\.){1,2}(?:[a-z]{2,3}|click|online)\/(?:[-a-z0-9]+\/){1,4}[a-zA-Z0-9]{150}\/index\?a=/$doc,xhr,match-case,method=get,to=~edu|~gov
 /^https:\/\/(?:[-a-z0-9]{2,}\.){1,2}(?:[a-z]{2,3}|click|online)\/(?:[-a-z0-9]+\/){1,4}[a-zA-Z0-9]{150}\/verify\b/$doc,match-case,method=get,to=~edu|~gov
+||pclpubg.com^$doc,to=~pubgesports.com
+||lazada.dsromorganizer.com^$all,to=~lazada.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
