@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7J7ADFkHz24MlrvMbzdKDg
+! Checksum: aXkb2ef2xPA7o/H+yNj4bw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501200940
-! Last Modified: 2025年01月20日 09:40
+! Version: 202501201429
+! Last Modified: 2025年01月20日 14:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -811,8 +811,6 @@
 ?wpstealthadsjs=
 _ad_250.$image
 _ad_300.$image
-_ad_bottom.
-_ad_layer_
 _ads.cms?
 _ads.php?
 _advertise-$domain=~linkedin.com
@@ -120721,6 +120719,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||codeanyapp.com/hype/$doc,to=~hype.it
 ||e-cmv.ph^$all,to=~grupobancolombia.com
 ||bancolombiaapp.glitch.me^$all,to=~grupobancolombia.com
+||cancelaciondeseguros-*.azurewebsites.net^$doc,to=~grupobancolombia.com
 ||lloyd-group.com^$all,to=~lloydsbank.com
 ||lbg-calcs.vercel.app^$all,to=~lloydsbank.com
 ||gohvb-d634f.web.app^$all,to=~hypovereinsbank.de
@@ -120881,7 +120880,6 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||gtm.you1.cn^$all
 ||steamxiazai.cn^$all
 ||steam.zssjsq.com^$all
-||steamtopup.ru^$all
 ||steamcommunitylog.chez.com^$all
 ||steam.iplay.fit^$all
 ||steam.workshop*.com^$doc
@@ -121030,8 +121028,11 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||d*wsapp.icu^$doc
 ||telezelm-*.icu^$doc
 ||whatsapp*.icu^$doc
-/^https:\/\/telegram-[a-z]{2}\.[a-z]{2,3}\//$doc,to=~gov|~edu|~com|~net|~org
+/^https:\/\/telegram-[a-z]{2}\.[a-z]{2,3}\//$doc,to=~gov|~edu|~com|~net|~org|~telegram.org
+/^https:\/\/telegram-[a-z]{3,4}\.com\//$doc,to=com|~telegram.org
 ||uspsparcels.net^$all,to=~usps.com
+||uspssmartpackagelockers.com^$all,to=~usps.com
+||smartparcellockers.tech^$all,to=~usps.com
 /^https:\/\/usps\.[-a-z]{6,}\.(?:com|top)\/(?:address\.html|information|verify)\b/$doc,to=com|top|~usps.com
 .top/pg?do=$doc,to=top
 ||wrc-gh.org/redelivery$doc,to=~usps.com
@@ -122836,7 +122837,6 @@ discord.com##+js(no-xhr-if, discord.com/api/v9/science)
 ||curseforge.com/linkout$urlskip=?remoteUrl -uricomponent
 ||razorpay.com/v1/track
 ||bitchute.com/data/1
-||analytics.bitchute.com^
 ||api.flipkart.com/4/data/collector/business
 ||internal-api.prolific.com/api/v1/statistics/
 !#include resource-abuse.txt
