@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Aj6GXo2ztHIspnNaHmkwkw
+! Checksum: 5VpourkgIu5NvcXYAYaDyQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501210227
-! Last Modified: 2025年01月21日 02:27
+! Version: 202501210938
+! Last Modified: 2025年01月21日 09:38
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -10258,6 +10258,7 @@ _800x80_
 ##.banner-adverts
 ##.banner-asd__title
 ##.banner-buysellads
+##.banner-img > .pbl
 ##.banner-sponsorship
 ##.banner-top-ads
 ##.banner120x600
@@ -56591,6 +56592,7 @@ scmp.com##.article--sponsor
 thelocal.at,thelocal.ch,thelocal.de,thelocal.es,thelocal.fr,thelocal.it,thelocal.no##.article--sponsored
 thehindu.com##.article-ad
 19thnews.org##.article-ad-default-top
+phys.org##.article-banner
 worldsoccertalk.com##.article-banner-desktop
 wishesh.com##.article-body-banner
 manilatimes.net##.article-body-content > .fixed-gray-color
@@ -114256,6 +114258,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||ikea.com^*/analyticsEvent.$script,~third-party
 @@||imgur.com/min/px.js$~third-party
 @@||indeed.com/rpc/log/myjobs/$~third-party
+@@||intuitcdn.net/libs/*/track-star.min.js$script,domain=turbotax.intuit.com
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
 @@||ipinfo.io/json$domain=ptube.pipio.site|queye.co
@@ -118222,6 +118225,10 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||girlslusts.com^$all
 ||desirefygirls.com^$all
 ||arousalx.com^$all
+||easyfinderke.com^$all
+||lurefy.com^$all
+||eroticher.com^$all
+||lovenestx.com^$all
 ||mikkim.top^$all
 ||discordvip.createsocialcard.top^$all
 ||whatsapp-32w.pages.dev^$all
