@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NPYyJMpaEG7Nyf3GRP0QRw
+! Checksum: 2hCd7mdYiOQVAUsYPJleXQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501220940
-! Last Modified: 2025年01月22日 09:40
+! Version: 202501221429
+! Last Modified: 2025年01月22日 14:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -52967,6 +52967,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||adrama.to/bbb.php
 ||ads-api.stuff.co.nz^
 ||ads.audio.thisisdax.com^
+||ads.tvmnews.mt^
 ||ads.twdcgrid.com^
 ||adsbb.depositfiles.com^
 ||adsmg.fanfox.net^
@@ -120430,6 +120431,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||wetransferlogin.freewebhostmost.com^$all,to=~wetransfer.com
 ||bingkasprogram-*.xdbng.com^$all
 ||epayln.site.tb-hosting.com^$all,to=~leboncoin.fr
+||auth2323d23.weebly.com^$all,to=~leboncoin.fr
 ||faran.ac.ir/wp-content/$all,to=~linkedin.com
 ||lnkdeka.standard.*.oortech.com^$doc,to=~linkedin.com
 ||oortech.com/loginfromSignIn.pdf-shtml^$doc,to=~linkedin.com
@@ -122175,7 +122177,6 @@ www.reddit.com##+js(json-prune, data.*.elements.edges.[].node.outboundLink)
 www.reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 ||redditstatic.com/shreddit/sentry-$domain=reddit.com
 ||www.reddit.com/|$xhr,1p,method=post
-||click.redditmail.com/CL0/$urlskip=/\/CL0\/(http.*?)\/\d\/[a-f0-9-]+\// -uricomponent
 ||reddit.com^$doc,removeparam=/web_only=/
 ||reddit.com^$doc,removeparam=/deep_link=/
 ||reddit.com^$doc,removeparam=correlation_id
@@ -122183,6 +122184,8 @@ www.reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 ||reddit.com^$doc,removeparam=ref_campaign
 ||reddit.com^$doc,removeparam=ref_source
 ||reddit.com^$doc,removeparam=utm_content
+||click.redditmail.com/CL0/$urlskip=/\/CL0\/(http.*?)\/\d\/[a-f0-9-]+\// -uricomponent
+||rd.remove.bg/CL0/http$doc,urlskip=/\/CL0\/(http.*?)\/\d\/[a-f0-9-]+\// -uricomponent
 docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
 www.google.*##+js(set, rwt, noopFunc)
 !#if !env_mobile
@@ -122883,6 +122886,7 @@ discord.com##+js(no-xhr-if, discord.com/api/v9/science)
 ://email-analytics.meetup.com/$image
 ://myanimelist.net/pixel?$image
 ://myanimelist.net/static/logging.gif?$image
+://rd.remove.bg/CI0/$image
 .*%2Fwf%2Fopen%3Fupn%3D$image
 .quora.com%2Fqemail%2Fmark_read%3Fct%3D$image
 ||beacons.ai/api/rtanalytics/
@@ -125434,7 +125438,7 @@ hagerty.com##+js(set, MT.track, noopFunc)
 @@||trafico.prensaiberica.es/adm/min/pb_wrapper/$script,domain=sport.es
 outletarredamento.it#@#.ad-link:not(.adsbox)
 ||google-analyticals.com^
-||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect=google-ima.js,domain=abcnyheter.no,important
+||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect=google-ima.js,domain=abcnyheter.no|antena3.ro|kxan.com,important
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
