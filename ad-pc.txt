@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Gb44TGbGFKg2hfeOPsAn3Q
+! Checksum: 7Ott4klesveGGnC3bftoRw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501221429
-! Last Modified: 2025年01月22日 14:29
+! Version: 202501222040
+! Last Modified: 2025年01月22日 20:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -16571,6 +16571,7 @@ browsershots.org#@#.advert_area
 ||5ae3a94233.com^
 ||5b10f288ee.com^
 ||5b3fbababb.com^
+||5be7319a8b.com^
 ||5bf6d94b92.com^
 ||5btekl14.de^
 ||5c4ccd56c9.com^
@@ -19279,6 +19280,7 @@ browsershots.org#@#.advert_area
 ||b57dqedu4.com^
 ||b58ncoa1c07f.com^
 ||b5e75c56.com^
+||b6b2d31f7e.com^
 ||b6f16b3cd2.com^
 ||b73uszzq3g9h.com^
 ||b76751e155.com^
@@ -23583,6 +23585,7 @@ browsershots.org#@#.advert_area
 ||doflygonan.com^
 ||dofrogadiera.com^
 ||dogecalloo.com^
+||doggessasbolin.com^
 ||doghasta.com^
 ||dogiedimepupae.com^
 ||dogolurkr.com^
@@ -25015,6 +25018,7 @@ browsershots.org#@#.advert_area
 ||f53d954cc5.com^
 ||f58x48lpn.com^
 ||f59408d48d.com^
+||f5ff45b3d4.com^
 ||f62b2a8ac6.com^
 ||f794d2f9d9.com^
 ||f8260adbf8558d6.com^
@@ -27114,6 +27118,7 @@ browsershots.org#@#.advert_area
 ||guitarjavgg124.fun^
 ||gujakqludcuk.com^
 ||gukmodukuleqasfo.com^
+||gukrathokeewhi.net^
 ||gulfimply.com^
 ||gullible-lawyer.pro^
 ||gullibleanimated.com^
@@ -33651,6 +33656,7 @@ browsershots.org#@#.advert_area
 ||oselamousey.com^
 ||osfrjut.com^
 ||osfultrbriolenai.info^
+||osgabcqk.com^
 ||osgsijvkoap.com^
 ||oshanixot.com^
 ||osharvrziafx.com^
@@ -36322,6 +36328,7 @@ browsershots.org#@#.advert_area
 ||rainwealth.com^
 ||rainyfreshen.com^
 ||raiseallocation.com^
+||raisoglaini.net^
 ||raistiwije.net^
 ||rajabets.xyz^
 ||rakiblinger.com^
@@ -41106,6 +41113,7 @@ browsershots.org#@#.advert_area
 ||tsy-jnugwavj.love^
 ||tsyndicate.com^
 ||ttbm.com^
+||tteojtlqlxrev.com^
 ||ttgmjfgldgv9ed10.com^
 ||tthathehadstop.info^
 ||ttoc8ok.com^
@@ -48345,6 +48353,7 @@ browsershots.org#@#.advert_area
 ||guerrilla-links.com^$popup
 ||guesswhatnews.com^$popup
 ||guestblackmail.com^$popup
+||gukrathokeewhi.net^$popup
 ||guro2.com^$popup
 ||guxidrookr.com^$popup
 ||gvcaffiliates.com^$popup
@@ -49570,6 +49579,7 @@ browsershots.org#@#.advert_area
 ||r3f.technology^$popup
 ||rafkxx.com^$popup
 ||railroadfatherenlargement.com^$popup
+||raisoglaini.net^$popup
 ||rallantynethebra.com^$popup
 ||ranabreast.com^$popup
 ||rankpeers.com^$popup
@@ -52773,7 +52783,6 @@ browsershots.org#@#.advert_area
 ||dmkdtkad2jyb9.cloudfront.net^
 ||dmmzkfd82wayn.cloudfront.net^
 ||dmz3nd5oywtsw.cloudfront.net^
-||dn0qt3r0xannq.cloudfront.net^
 ||dn3uy6cx65ujf.cloudfront.net^
 ||dn6rwwtxa647p.cloudfront.net^
 ||dn7u3i0t165w2.cloudfront.net^
@@ -60856,10 +60865,8 @@ survivopedia.com##[onclick="recordClick("]
 timesofindia.indiatimes.com##[onclick="stpPgtn(event)"]
 filecrypt.cc,filecrypt.co##[onclick^="var lj"]
 transfermarkt.co.uk##[referrerpolicy]
-appleinsider.com,dappradar.com,euroweeklynews.com,sitepoint.com,tld-list.com##[rel*="sponsored"]
+appleinsider.com,dappradar.com,euroweeklynews.com,metro.co.uk,sitepoint.com,tld-list.com,twitch-tools.rootonline.de,wccftech.com##[rel*="sponsored"]
 warecracks.com,websiteoutlook.com##[rel="nofollow"]
-metro.co.uk##[rel="sponsored"]
-wccftech.com##[rel^="sponsored"]
 myanimelist.net##[src*="/c/img/images/event/"]
 audioz.download##[src*="/promo/"]
 transfermarkt.com##[src*="https://www.transfermarkt.com/image/"]
@@ -66150,6 +66157,9 @@ newduba.cn###jq_youxi
 ||scigzetg.com^
 ||bjfsk.xyz^
 ||jltwxisa.icu^
+||qo2.fun^
+||01221sop.xyz^
+||thangrurs.com^
 ||y0o.fun^
 ||icokamio.top^
 ||thrumulr.com^
@@ -132620,6 +132630,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com
+@@||d2wy8f7a9ursnm.cloudfront.net/v8/bugsnag.min.js$script,domain=forecastapp.com
 @@||d347cldnsmtg5x.cloudfront.net/util/1x1.gif$image,domain=aplaceforeverything.co.uk
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
@@ -132806,6 +132817,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
 @@||seg-cdn.pumpkin.care/analytics.js/$~third-party
 @@||seg-cdn.pumpkin.care/next-integrations/integrations/mixpanel/$domain=get.pumpkin.care
+@@||seguridad.compensar.com/lib/js/fingerprint2.js$~third-party
 @@||sephora-track.inside-graph.com/gtm/$domain=sephora.com
 @@||sephora-track.inside-graph.com/ig.js$domain=sephora.com
 @@||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js$script,~third-party
@@ -133228,6 +133240,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !---------- Romanian ----------
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
 @@||imobiliare.ro/js/gtm.js$script,~third-party
+@@||neo.btrl.ro/Scripts/services/fingerprint2.min.js$~third-party
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
 !---------- Russian ----------
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
