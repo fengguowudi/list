@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gTEfhTpxrLPfO8+TLCpIRw
+! Checksum: 2ocMvB37fGLuE9yv4YzvEA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501230229
-! Last Modified: 2025年01月23日 02:29
+! Version: 202501230939
+! Last Modified: 2025年01月23日 09:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53381,6 +53381,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||manga1001.top/gdh/dd.js
 ||manga18.me/usd2023/usd_frontend.js
 ||manga18fx.com/js/main-v001.js
+||mangadistrict.com/super-boat-
 ||mangahub.io/iframe/
 ||manhwascan.net/my2023/my2023
 ||manytoon.com/script/$script
@@ -114624,6 +114625,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||sourcepointcmp.bloomberg.*/mms/get_site_data?$domain=bloomberg.co.jp|bloomberg.com
 @@||app.clarity.so^$~third-party
 @@||cbsi.map.fastly.net^
+@@||content.ingbank.pl^
 @@||gva.et-gv.fr^$script,domain=culture.gouv.fr
 @@||mycleverpush.com/iframe?$domain=bsdex.de
 @@||n8s.jp^$script,domain=nikkei.com
@@ -120941,7 +120943,6 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||reminders-infraction-account.netlify.app^$all,to=~facebook.com
 ||abc-ckd.com/facebook/$all
 ||xyzxyz55.xyz^$all
-||thepatrones.blob.core.windows.net^$all
 ||vercel.app/americaplata.com.html^$doc
 ||atplink.com/responseandresolutioncenter$all
 /^https:\/\/h5\.[a-z0-9]{4}\.com\//$doc,to=com
@@ -122175,6 +122176,7 @@ uploadfox.net###ad-gs-05
 ||fransize-veryf.com^$all
 ||edeetion.com^$all
 ||cleverjumper.com^$all
+||ieztoskbcoalf.z13.web.core.windows.net^$all
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -122936,6 +122938,9 @@ discord.com##+js(no-xhr-if, discord.com/api/v9/science)
 ||bitchute.com/data/1
 ||api.flipkart.com/4/data/collector/business
 ||internal-api.prolific.com/api/v1/statistics/
+||chat.deepseek.com/api/v0/events$xhr,method=post
+chat.deepseek.com##.ds-theme.ds-modal-wrapper:has-text(uBlock)
+chat.deepseek.com##.ds-modal-overlay
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -125469,6 +125474,7 @@ outletarredamento.it#@#.ad-link:not(.adsbox)
 ||google-analyticals.com^
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect=google-ima.js,domain=abcnyheter.no|antena3.ro|kxan.com,important
 ||neo.btrl.ro/Scripts/services/fingerprint2.min.js^$script,redirect=fingerprint2.js,important
+||seguridad.compensar.com/lib/js/fingerprint2.js$script,1p,redirect=fingerprint2.js,important
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
