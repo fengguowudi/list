@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l84jZZA05cM+SZtAvi15hA
+! Checksum: BXz74DarNr+/7bFfKa7BDQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501251426
-! Last Modified: 2025年01月25日 14:26
+! Version: 202501252036
+! Last Modified: 2025年01月25日 20:36
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -851,6 +851,7 @@ _reklama_$domain=~youtube.com
 /porpoiseant/*$script
 /prebid-js-$script
 /prebid-min-$script
+/prebid-wrapper.js$script,third-party
 /prebid.$script,domain=~prebid.org
 /prebid/*$script
 /prebid1.$script
@@ -71383,6 +71384,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.foresee.com^
 ||analytics.formstack.com^
 ||analytics.genial.ly^
+||analytics.gokwik.co^
 ||analytics.google.com^$third-party
 ||analytics.gooogol.com^
 ||analytics.groupe-seb.com^
@@ -120518,6 +120520,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||bingkasprogram-*.xdbng.com^$all
 ||epayln.site.tb-hosting.com^$all,to=~leboncoin.fr
 ||auth2323d23.weebly.com^$all,to=~leboncoin.fr
+||multilocal-leboncoin.com^$all,to=~leboncoin.fr
 ||faran.ac.ir/wp-content/$all,to=~linkedin.com
 ||lnkdeka.standard.*.oortech.com^$doc,to=~linkedin.com
 ||oortech.com/loginfromSignIn.pdf-shtml^$doc,to=~linkedin.com
@@ -125536,6 +125539,7 @@ outletarredamento.it#@#.ad-link:not(.adsbox)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect=google-ima.js,domain=abcnyheter.no|antena3.ro|kxan.com,important
 ||neo.btrl.ro/Scripts/services/fingerprint2.min.js^$script,redirect=fingerprint2.js,important
 ||seguridad.compensar.com/lib/js/fingerprint2.js$script,1p,redirect=fingerprint2.js,important
+@@||dlswbr.baidu.com/heicha/mw/abclite-$script,domain=map.baidu.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
