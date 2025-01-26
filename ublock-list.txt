@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: e1qLAVCijfz+nRoM7WPoOg
+! Checksum: 10iTvnicT9oESoUbmjDvLQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501260941
-! Last Modified: 2025年01月26日 09:41
+! Version: 202501261426
+! Last Modified: 2025年01月26日 14:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -45968,6 +45968,7 @@ browsershots.org#@#.advert_area
 ||00771944.xyz^
 ||00857731.xyz^
 ||01045395.xyz^
+||02085170.xyz^
 ||02777e.site^
 ||03180d2d.live^
 ||0395d1.xyz^
@@ -46050,6 +46051,7 @@ browsershots.org#@#.advert_area
 ||4602306b.xyz^
 ||46276192.xyz^
 ||466c4d0f.xyz^
+||47206262.xyz^
 ||47235645.xyz^
 ||47296536.xyz^
 ||47415889.xyz^
@@ -46079,6 +46081,7 @@ browsershots.org#@#.advert_area
 ||5fd6bc.xyz^
 ||60571086.xyz^
 ||605efe.xyz^
+||62842068.xyz^
 ||634369.xyz^
 ||6471e7f7.xyz^
 ||65035033.xyz^
@@ -62029,9 +62032,12 @@ msn.com##above-river-block
 msn.com##cs-native-ad-card
 msn.com##cs-native-ad-card-24
 msn.com##cs-native-ad-card-no-hover
+msn.com##div.body:has(> img[id^="nativead"])
+msn.com##div.footer:has(> a.ad-slug)
 msn.com##div[class^="articlePage_topBannerAdContainer_"]
 msn.com##div[class^="galleryPage_bannerAd"]
 msn.com##div[id^="nativeAd"]
+msn.com##div[id^="nativead"]
 msn.com##div[id^="watch-feed-native-ad-"]
 msn.com##li[data-m*="NativeAdItem"] > a > *
 msn.com##li[data-provider="gemini"]
@@ -120182,6 +120188,9 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||adult-ntrchanel.com^$all
 ||echi-echi-time.org^$all
 ||track.chkr7.com^$all
+||calm234o.fun^$doc
+||tree345o.fun^$doc
+||ten-lp2025.com^$doc
 ||apkmirror.co^$all
 ||webogram.org^$all
 ||webogram.ru^$all
@@ -120227,7 +120236,7 @@ torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
 ||s3.amazonaws.com/securityfotrus.1.13/index.html$all
 ||s3.eu-west-2.amazonaws.com/675.88.u6.8878/index.html$all
 ||s3.us-west-1.amazonaws.com/security.uni.firewall.$all
-/Win00Security07/index.html$document
+/Win00Security07/index.html$doc
 /Er0Wind0fsd0Security087/index.html$doc
 ||websafety.online^$all
 ||cnctddot.com^$all
@@ -121925,22 +121934,22 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 ||chromeweb-authenticators.com^$all
 ||chromeweb-authenticatr.com^$all
 ||onevanilla.click^$all
-||bilbocine.com^$document
-||unionplus-card.click^$document
-||dailysmscollection.org^$document
-||surgecardinfo.click^$document
-||paybyplatema.cfd^$document
-||panoramacharter.click^$document
-||onecognizant.click^$document
-||mymorri.click^$document
-||mymercy.click^$document
-||marykayintouch.autos^$document
-||direct2hr.click^$document
-||creditcardchase.click^$document
-||alaskasworld.cfd^$document
+||bilbocine.com^$doc
+||unionplus-card.click^$doc
+||dailysmscollection.org^$doc
+||surgecardinfo.click^$doc
+||paybyplatema.cfd^$doc
+||panoramacharter.click^$doc
+||onecognizant.click^$doc
+||mymorri.click^$doc
+||mymercy.click^$doc
+||marykayintouch.autos^$doc
+||direct2hr.click^$doc
+||creditcardchase.click^$doc
+||alaskasworld.cfd^$doc
 ||zcxoin.work^$all
 ||chrome-web.com^$all
-||iqpoll.cn^$document
+||iqpoll.cn^$doc
 ||zhandouxian.com^$all
 ||tempisite.com^$all
 ||sunpass-etoll-id.kupu.desa.id^$all
@@ -122267,7 +122276,7 @@ uploadfox.net###ad-gs-05
 ||pub-549d59daefd74f7583e1766800fe7b07.r2.dev^
 ||r-tiktok.com^$all,to=~tiktok.com
 ||salomonoutletstoresusa.com^$all,to=~salomon.com
-/^https:\/\/[0-9a-z]{7}\.([0-9a-z]{7})\.top\/[0-9a-z]{7}\?t=\1&cid=[0-9a-z]+/$document,to=top,match-case
+/^https:\/\/[0-9a-z]{7}\.([0-9a-z]{7})\.top\/[0-9a-z]{7}\?t=\1&cid=[0-9a-z]+/$doc,to=top,match-case
 ||dhldeliveryhome2.info^$all,to=~dhl.com
 ||thetollroads.com-*.cfd^$all,to=~thetollroads.com
 ||dtioykqj1u8de.cloudfront.net^$all,to=~amazon.co.jp
@@ -122285,10 +122294,10 @@ uploadfox.net###ad-gs-05
 ||glousism.co.in^$all
 ||maxsecurityultimate.com^$all
 ||supporthubcenter.eu^$all,to=~facebook.com
-||hotdebrid.com^$document
-||debridlink.com^$document
-||maxdebrid.com^$document
-||anydebrid.com^$document
+||hotdebrid.com^$doc
+||debridlink.com^$doc
+||maxdebrid.com^$doc
+||anydebrid.com^$doc
 ||semrushmall.com^$all,to=~semrush.com
 ||grass-io.$all,to=cc|vip|~getgrass.io
 ||inmotionhosting.com/~myapp/grass_air/$doc,to=~getgrass.io
