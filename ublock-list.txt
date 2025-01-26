@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: x2KWf0DHf95AboeYkye7dA
+! Checksum: rClbMG25B+jZs+IiyHHSqQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501262035
-! Last Modified: 2025年01月26日 20:35
+! Version: 202501270225
+! Last Modified: 2025年01月27日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -53354,6 +53354,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||fishki.net/code?
 ||flippback.com/tag/js/flipptag.js$domain=idsnews.com
 ||fontsquirrel.com/ajaxactions/get_ads^
+||fontsquirrel.com^*/advertisements/
 ||footballtradedirectory.com/images/pictures/banner/
 ||forabodiesonly.com/mopar/sidebarbanners/
 ||fordforums.com.au/logos/
@@ -75570,6 +75571,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consumer.org.nz/session/ping/
 ||containers.appdomain.cloud/api/send-log$domain=ibm.com
 ||cookpad.com/*/activity_logs
+||coomer.su/api/v1/creators
 ||copilot-telemetry.githubusercontent.com^
 ||count.darkreader.app^
 ||count.rin.ru^
@@ -76016,6 +76018,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kayak.*/vestigo/measure
 ||kbb.com/pixall/
 ||kck.st/web/track
+||kemono.su/api/v1/creators
 ||kgoma.com/v1/stat/
 ||khanacademy.org/api/internal/_analytics/
 ||kinesis.us-east-1.analytics.edmentum.com^
@@ -125640,6 +125643,7 @@ outletarredamento.it#@#.ad-link:not(.adsbox)
 ||neo.btrl.ro/Scripts/services/fingerprint2.min.js^$script,redirect=fingerprint2.js,important
 ||seguridad.compensar.com/lib/js/fingerprint2.js$script,1p,redirect=fingerprint2.js,important
 @@||dlswbr.baidu.com/heicha/mw/abclite-$script,domain=map.baidu.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=legaseriea.it,important
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
