@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 10iTvnicT9oESoUbmjDvLQ
+! Checksum: x2KWf0DHf95AboeYkye7dA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501261426
-! Last Modified: 2025年01月26日 14:26
+! Version: 202501262035
+! Last Modified: 2025年01月26日 20:35
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -758,6 +758,7 @@ _reklama_$domain=~youtube.com
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
+/ad-shield/e/*$script,third-party
 .com/ed/java.js$script
 /ed/fol457.$script
 /plugins/ad-ace/assets/js/coupons.js$script
@@ -45659,6 +45660,7 @@ browsershots.org#@#.advert_area
 ||proper.io^$third-party
 ||pub-3d10bad2840341eaa1c7e39b09958b46.r2.dev^$third-party
 ||pub-referral-widget.current.us^$third-party
+||pubcircle.ai^$third-party
 ||pubdirecte.com^$third-party
 ||pubfuture.com^$third-party
 ||pubgears.com^$third-party
@@ -46083,8 +46085,10 @@ browsershots.org#@#.advert_area
 ||605efe.xyz^
 ||62842068.xyz^
 ||634369.xyz^
+||63801782.xyz^
 ||6471e7f7.xyz^
 ||65035033.xyz^
+||65122038.xyz^
 ||656f1ba3.xyz^
 ||657475b7-0095-478d-90d4-96ce440604f9.online^
 ||65894140.xyz^
@@ -54232,6 +54236,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||enporn.org/system/theme/AnyPorn/js/popcode.min.js
 ||entensity.net/crap/
 ||enter.javhd.com/track/
+||epicgfs.com/pocoloco_epic.js
 ||eporner.com/dot/
 ||eporner.com/event.php
 ||eporner.com^$subdocument,~third-party
@@ -56704,7 +56709,6 @@ insidemydream.com##.afxshop
 venea.net##.ag_banner
 venea.net##.ag_line
 nexusmods.com##.agroup
-picnob.com,piokok.com,pixwox.com##.ah-box
 stripes.com##.ahm-rotd
 techpp.com##.ai-attributes
 thegatewaypundit.com##.ai-dynamic
@@ -56819,6 +56823,7 @@ gamewatcher.com##.article_middle
 wikiwand.com##.article_sectionAd__rMyBc
 lasvegassun.com##.articletoolset
 news.artnet.com##.artnet-ads-ad
+piokok.com##.as-bar
 arcadespot.com##.as-incontent
 arcadespot.com##.as-label
 arcadespot.com##.as-unit
@@ -56888,7 +56893,7 @@ izismile.com##.ban_top
 saabplanet.com##.baner
 realestate-magazine.rs##.banerright
 rhumbarlv.com##.banlink
-1001games.com,3addedminutes.com,alistapart.com,anguscountyworld.co.uk,arcadebomb.com,armageddonexpo.com,banburyguardian.co.uk,bedfordtoday.co.uk,biggleswadetoday.co.uk,bikechatforums.com,birminghamworld.uk,blackpoolgazette.co.uk,bristolworld.com,bsc.news,btcmanager.com,bucksherald.co.uk,burnleyexpress.net,buxtonadvertiser.co.uk,ca-flyers.com,caixinglobal.com,caribvision.tv,chad.co.uk,cinemadeck.com,cmo.com.au,coryarcangel.com,csstats.gg,daventryexpress.co.uk,derbyshiretimes.co.uk,derbyworld.co.uk,derryjournal.com,dewsburyreporter.co.uk,dominicantoday.com,doncasterfreepress.co.uk,dump.li,elyricsworld.com,euobserver.com,eurochannel.com,exalink.fun,falkirkherald.co.uk,farminglife.com,fifetoday.co.uk,filmmakermagazine.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,gartic.io,garticphone.com,gizmodo.com,glasgowworld.com,gr8.cc,gsprating.com,halifaxcourier.co.uk,harboroughmail.co.uk,harrogateadvertiser.co.uk,hartlepoolmail.co.uk,hemeltoday.co.uk,hiphopdx.com,hortidaily.com,hucknalldispatch.co.uk,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,ipwatchdog.com,irishpost.com,israelnationalnews.com,japantimes.co.jp,jpost.com,kissasians.org,koreaherald.com,lancasterguardian.co.uk,laserpointerforums.com,leightonbuzzardonline.co.uk,lep.co.uk,lincolnshireworld.com,liverpoolworld.uk,livescore.in,londonworld.com,lutontoday.co.uk,manchesterworld.uk,marinelink.com,meltontimes.co.uk,mercopress.com,miltonkeynes.co.uk,mmorpg.com,mob.org,nationalworld.com,newcastleworld.com,newryreporter.com,news.am,news.net,newsletter.co.uk,northamptonchron.co.uk,northantstelegraph.co.uk,northernirelandworld.com,northumberlandgazette.co.uk,nottinghamworld.com,oncyprus.com,onlineconvertfree.com,peterboroughtoday.co.uk,pharmatimes.com,portsmouth.co.uk,powerboat.world,pulsesports.co.ke,pulsesports.ng,pulsesports.ug,roblox.com,rotherhamadvertiser.co.uk,scientificamerican.com,scotsman.com,shieldsgazette.com,slidescorner.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,stornowaygazette.co.uk,subscene.com,sumodb.com,sunderlandecho.com,surreyworld.co.uk,sussexexpress.co.uk,sweeting.org,swzz.xyz,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,thescarboroughnews.co.uk,thesouthernreporter.co.uk,thestar.co.uk,timeslive.co.za,tmi.me,totallysnookered.com,townhall.com,toyworldmag.co.uk,unblockstreaming.com,vibilagare.se,vloot.io,wakefieldexpress.co.uk,walesworld.com,warwickshireworld.com,weatheronline.co.uk,weekly-ads.us,wigantoday.net,worksopguardian.co.uk,worldtimeserver.com,xbiz.com,ynetnews.com,yorkshireeveningpost.co.uk,yorkshirepost.co.uk##.banner
+1001games.com,3addedminutes.com,alistapart.com,anguscountyworld.co.uk,arcadebomb.com,armageddonexpo.com,banburyguardian.co.uk,bedfordtoday.co.uk,biggleswadetoday.co.uk,bikechatforums.com,birminghamworld.uk,blackpoolgazette.co.uk,bristolworld.com,bsc.news,btcmanager.com,bucksherald.co.uk,burnleyexpress.net,buxtonadvertiser.co.uk,ca-flyers.com,caixinglobal.com,caribvision.tv,chad.co.uk,cinemadeck.com,cmo.com.au,coryarcangel.com,csstats.gg,daventryexpress.co.uk,derbyshiretimes.co.uk,derbyworld.co.uk,derryjournal.com,dewsburyreporter.co.uk,dominicantoday.com,doncasterfreepress.co.uk,dump.li,elyricsworld.com,euobserver.com,eurochannel.com,exalink.fun,falkirkherald.co.uk,farminglife.com,fifetoday.co.uk,filmmakermagazine.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,gartic.io,garticphone.com,gizmodo.com,glasgowworld.com,gr8.cc,gsprating.com,halifaxcourier.co.uk,harboroughmail.co.uk,harrogateadvertiser.co.uk,hartlepoolmail.co.uk,hemeltoday.co.uk,hiphopdx.com,hortidaily.com,hucknalldispatch.co.uk,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,ipwatchdog.com,irishpost.com,israelnationalnews.com,japantimes.co.jp,jpost.com,kissasians.org,koreaherald.com,lancasterguardian.co.uk,laserpointerforums.com,leightonbuzzardonline.co.uk,lep.co.uk,lincolnshireworld.com,liverpoolworld.uk,livescore.in,londonworld.com,lutontoday.co.uk,manchesterworld.uk,marinelink.com,meltontimes.co.uk,mercopress.com,miltonkeynes.co.uk,mmorpg.com,mob.org,nationalworld.com,newcastleworld.com,newryreporter.com,news.am,news.net,newsletter.co.uk,northamptonchron.co.uk,northantstelegraph.co.uk,northernirelandworld.com,northumberlandgazette.co.uk,nottinghamworld.com,oncyprus.com,onlineconvertfree.com,peterboroughtoday.co.uk,pharmatimes.com,portsmouth.co.uk,powerboat.world,pulsesports.co.ke,pulsesports.ng,pulsesports.ug,roblox.com,rotherhamadvertiser.co.uk,sat24.com,scientificamerican.com,scotsman.com,shieldsgazette.com,slidescorner.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,stornowaygazette.co.uk,subscene.com,sumodb.com,sunderlandecho.com,surreyworld.co.uk,sussexexpress.co.uk,sweeting.org,swzz.xyz,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,thescarboroughnews.co.uk,thesouthernreporter.co.uk,thestar.co.uk,timeslive.co.za,tmi.me,totallysnookered.com,townhall.com,toyworldmag.co.uk,unblockstreaming.com,vibilagare.se,vloot.io,wakefieldexpress.co.uk,walesworld.com,warwickshireworld.com,weatheronline.co.uk,weekly-ads.us,wigantoday.net,worksopguardian.co.uk,worldtimeserver.com,xbiz.com,ynetnews.com,yorkshireeveningpost.co.uk,yorkshirepost.co.uk##.banner
 papermag.com##.banner--ad__placeholder
 dayspedia.com##.banner--aside
 onlineradiobox.com##.banner--header
@@ -57009,6 +57014,7 @@ wccftech.com##.bg-horizontal
 imagetotext.info##.bg-light.mt-2.text-center
 charlieintel.com,dexerto.com##.bg-neutral-grey-4.items-center
 charlieintel.com,dexerto.com##.bg-neutral-grey.justify-center
+mapquest.com##.bg-primary-12
 businessinsider.in##.bg-slate-100
 wccftech.com##.bg-square
 wccftech.com##.bg-square-mobile
@@ -58342,7 +58348,7 @@ trustedreviews.com##.keystone-deal
 trustedreviews.com##.keystone-single-widget
 gamertweak.com##.kfzyntmcd-caption
 overkill.wtf##.kg-blockquote-alt
-linuxhandbook.com##.kg-bookmark-card
+itsfoss.com,linuxhandbook.com##.kg-bookmark-card
 hltv.org##.kgN8P9bvyb2EqDJR
 thelibertydaily.com,toptenz.net,vitamiiin.com##.kgbwvoqfwag
 koreaherald.com##.kh_ad
@@ -63050,7 +63056,7 @@ tnapics.com##.sy_top_wide
 exhibporno.com##.syn
 boundhub.com##.t2op
 boundhub.com##.tab7le
-18porn.sex,18teensex.tv,429men.com,4kporn.xxx,4wank.com,alotporn.com,amateurporn.co,amateurporn.me,bigtitslust.com,camwhores.tv,danude.com,daporn.com,fapnow.xxx,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,hoes.tube,intporn.com,japaneseporn.xxx,jav.gl,javwind.com,jizzberry.com,mrdeepfakes.com,multi.xxx,onlyhentaistuff.com,pornchimp.com,porndr.com,pornmix.org,rare-videos.net,sortporn.com,tabootube.xxx,watchmygf.xxx,xcavy.com,xgroovy.com,xmateur.com,xxxshake.com##.table
+18porn.sex,18teensex.tv,429men.com,4kporn.xxx,4wank.com,alotporn.com,amateurporn.co,amateurporn.me,bigtitslust.com,camwhores.tv,danude.com,daporn.com,epicgfs.com,fapnow.xxx,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,hoes.tube,intporn.com,japaneseporn.xxx,jav.gl,javwind.com,jizzberry.com,mrdeepfakes.com,multi.xxx,onlyhentaistuff.com,pornchimp.com,porndr.com,pornmix.org,rare-videos.net,sortporn.com,tabootube.xxx,watchmygf.xxx,xcavy.com,xgroovy.com,xmateur.com,xxxshake.com##.table
 sxyprn.com##.tbd
 amateurvoyeurforum.com##.tborder[width="99%"][cellpadding="6"]
 fap-nation.org##.td-a-rec
@@ -63070,7 +63076,7 @@ toppixxx.com##.thumbad
 cliniqueregain.com,tallermaintenancar.com##.thumbs
 smutty.com##.tig_following_tags2
 drtuber.com##.title-sponsored
-4wank.com,cambay.tv,daporn.com,fpo.xxx,hentai-moon.com,pornmix.org,scatxxxporn.com,xmateur.com##.top
+4wank.com,cambay.tv,daporn.com,epicgfs.com,fpo.xxx,hentai-moon.com,pornmix.org,scatxxxporn.com,xmateur.com##.top
 pornfaia.com##.top-banner-single
 sexvid.xxx##.top-cube
 vikiporn.com##.top-list > .content-aside
@@ -71946,7 +71952,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||connect.facebook.net^*/fbds.js$third-party
 ||connect.facebook.net^*/pcm.js$third-party
 ||connect.idocdn.com^
-||connect.nosto.com/analytics/
 ||connext-cdn.azureedge.net^
 ||consensu.org/?log=
 ||consensu.org/geoip
@@ -73349,7 +73354,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stg-data-collector.playbuzz.com^
 ||stg.truvidplayer.com/*/v.php?st=
 ||stileproject.com/vhtk/
-||stk.px-cloud.net^
 ||storage.googleapis.com/afs-prod/tags
 ||storage.googleapis.com/nchq-dj-nid/prod/sp_v1.js
 ||storage.googleapis.com/snowplow-cto-office-tracker-bucket/
@@ -75361,6 +75365,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.doodle.com/data-layer/track
 ||api.ffm.to/sl/e/$image
 ||api.invideo.io/v3/send_analytics_event
+||api.meetup.com/pico/v4/web-events
 ||api.narrativ.com/favicon.ico
 ||api.samsungfind.com/log-collector
 ||api.streamelements.com/science/
@@ -76401,6 +76406,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rstat.rockmostbet.com^
 ||rt.newswire.ca^
 ||rt.prnewswire.com^
+||rt.whitebridge.ai^
 ||rta.dailymail.co.uk^
 ||rta2.inews.co.uk^
 ||rta2.metro.co.uk^
@@ -117424,6 +117430,7 @@ paraphraser.io##body > .justify-content-center
 paraphraser.io##.adsenbox:not(#detect)
 rephrase.info##.text-center:not([id]) [id^="adngin-"]:upward(.text-center:not([id]))
 wouterplanet.com##+js(rmnt, script, clicky)
+@@||wouterplanet.com/scripts/ads-front.min.js$script,1p
 freexcafe.com##+js(acs, __PoSettings)
 freexcafe.com##.left-col-gal-br
 freexcafe.com###rightcolumn
@@ -120593,6 +120600,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ##html[lang] > body:not([class]):not([id]):not([style]) > div.background-container > div.container > div.captcha-box
 ||melbournedistillery.com^$all
 ||koenig.cx^$all,to=~dropbox.com
+||eden.com.mx/support/juno/$all,to=~juno.com
 ||unclepigva.com^$all,to=~chase.com
 ||aurelie-picard-parentalite.fr/*/Recurring_Payment_Authorizationtt.html^$all,to=~chase.com
 ||fgt.ive.mybluehost.me^$doc,to=~ameli.fr
@@ -122329,6 +122337,9 @@ uploadfox.net###ad-gs-05
 ||irs.gov-$doc,to=~irs.gov
 /^https?:\/\/reddit-\d{1,2}\.[a-z]{4}\.(?:net|org|pw)\//$doc,to=net|org|pw|~reddit.com
 /^https?:\/\/wettransfer\d{2}\.[a-z]{4}\.(?:net|org|pw)\//$doc,to=net|org|pw|~wetransfer.com
+||e-interac-*.com^$all,to=~interac.ca
+||press-continue.*.top^$all
+||com/$doc,ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
