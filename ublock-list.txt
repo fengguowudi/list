@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9O3/olcA+mrzdNaAZuN10Q
+! Checksum: YpZJAkYfjvXMX7isSuBg7A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501282039
-! Last Modified: 2025年01月28日 20:39
+! Version: 202501290227
+! Last Modified: 2025年01月29日 02:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -125697,6 +125697,13 @@ outletarredamento.it#@#.ad-link:not(.adsbox)
 ||seguridad.compensar.com/lib/js/fingerprint2.js$script,1p,redirect=fingerprint2.js,important
 @@||dlswbr.baidu.com/heicha/mw/abclite-$script,domain=map.baidu.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=legaseriea.it,important
+!#if env_firefox
+@@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=the-independent.com
+@@||npttech.com/advertising.js$xhr,domain=the-independent.com
+!#else
+||amazon-adsystem.com/aax2/apstag.js$script,redirect=amazon_apstag.js,important,domain=the-independent.com
+||npttech.com/advertising.js$xhr,domain=the-independent.com,redirect=noop.js,important
+!#endif
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
