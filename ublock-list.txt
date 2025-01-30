@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: n+8W5kHluDet+agC2U00IA
+! Checksum: HN7Ld5ICcIuT0vQ7ldrynQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501301428
-! Last Modified: 2025年01月30日 14:28
+! Version: 202501302039
+! Last Modified: 2025年01月30日 20:39
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -28584,6 +28584,7 @@ browsershots.org#@#.advert_area
 ||izoaghiwoft.net^
 ||izrnvo.com^
 ||izumoukraumsew.net^
+||j-mxponyz.love^
 ||j45.webringporn.com^
 ||j6mn99mr0m2n.com^
 ||j6rudlybdy.com^
@@ -31845,6 +31846,7 @@ browsershots.org#@#.advert_area
 ||namol.xyz^
 ||nan0cns.com^
 ||nan46ysangt28eec.com^
+||nanai-clw.com^
 ||nanakotrilith.com^
 ||nanborderrocket.com^
 ||nancontrast.com^
@@ -38287,6 +38289,7 @@ browsershots.org#@#.advert_area
 ||skylindo.com^
 ||skymobi.agency^
 ||skyscraperearnings.com^
+||skyscrapertowel.com^
 ||skytraf.xyz^
 ||skyxqbbv.xyz^
 ||slabreasonablyportions.com^
@@ -48224,6 +48227,7 @@ browsershots.org#@#.advert_area
 ||hot-growngames.life^$popup
 ||hotchatdate.com^$popup
 ||hottest-girls-online.com^$popup
+||hotxpromo.com^$popup
 ||howboxmaa.site^$popup
 ||howboxmab.site^$popup
 ||howsliferightnow.com^$popup
@@ -48238,6 +48242,7 @@ browsershots.org#@#.advert_area
 ||htmonster.com^$popup
 ||htoptracker11072023.com^$popup
 ||hubturn.info^$popup
+||hue4c.com^$popup
 ||hueads.com^$popup
 ||hugeedate.com^$popup
 ||hugregregy.pro^$popup
@@ -62502,7 +62507,6 @@ kisscos.net###v-overlay
 homemoviestube.com###v_right
 xvideos.com###video-right
 xvideos.com###video-sponsor-links
-javtrailers.com###videoPlayerContainer a[target="_blank"]
 drtuber.com###video_list_banner
 dofap.com###video_overlay_banner
 hentaiplay.net###video_overlays
@@ -62731,7 +62735,7 @@ hentaiworld.tv##.comments-banners
 perfectgirls.net##.container + div + .additional-block-bg
 fetishshrine.com,pornwhite.com,sleazyneasy.com##.container-aside
 senzuri.tube##.content > div > .hv-block-transparent
-sleazyneasy.com,wankoz.com##.content-aside
+sheshaft.com,sleazyneasy.com,wankoz.com##.content-aside
 watchmygf.me##.content-footer
 xxxdessert.com##.content-gallery_banner
 sexyandfunny.com##.content-source
@@ -62953,7 +62957,7 @@ yourlust.com##.native-aside
 pornhd.com##.native-banner-wrapper
 cockdude.com##.native-boxes-2-ver2
 cockdude.com##.native-boxes-ver2
-pornwhite.com,sleazyneasy.com##.native-holder
+pornwhite.com,sheshaft.com,sleazyneasy.com##.native-holder
 ggjav.com##.native_ads
 anysex.com##.native_middle
 fapality.com##.nativeaside
@@ -63171,6 +63175,7 @@ porn87.com##.three_ads
 chikiporn.com,pornq.com##.thumb--adv
 xnxx.com,xvideos.com##.thumb-ad
 pornpictureshq.com##.thumb__iframe
+yeswegays.com##.thumb_spots
 toppixxx.com##.thumbad
 cliniqueregain.com,tallermaintenancar.com##.thumbs
 smutty.com##.tig_following_tags2
@@ -64249,7 +64254,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||xfreehd.com^$generichide
 ! EasyPrivacy
 !-----------------General tracking systems-----------------!
-&action=js_stats&
+&action=js_stats
 &ev=PageView&
 &EventType=DataDealImpression&
 &EventType=Impression&
@@ -74830,6 +74835,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||acclog002.shop-pro.jp^
 ||actagtracker.jp/tag
 ||ad.daum.net^
+||admin.blog.fc2.com/dctanalyzer.php
 ||affiliate.rakuten.co.jp^$script,third-party
 ||analytics-beacon.p.uliza.jp^
 ||analytics.contents.by-fw.jp^
@@ -75285,6 +75291,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.turk.pro^$third-party
 ||c.keltis.com^
 ||collector.wawlabs.com^
+||core.dehapi.com/ip.php
 ||daioncdn.net/events?
 ||eticaret.pro/pixel/
 ||hulyagedikci.com/vhit.php?
@@ -116024,6 +116031,8 @@ nudeof.com##div.happy-section
 @@||googleads.g.doubleclick.net/pagead/ads?*skmedix.pl&$frame,domain=skmedix.pl
 @@||fundingchoicesmessages.google.com^$script,xhr,domain=skmedix.pl
 @@||googleads.g.doubleclick.net/pagead/ads?$frame,domain=skmedix.pl
+@@||adtrafficquality.google/sodar/sodar2.js$script,domain=skmedix.pl
+@@||adtrafficquality.google/getconfig/sodar?$xhr,domain=skmedix.pl
 @@||skmedix.pl^$ghide,script,1p
 ||skmedix.pl/cdn-cgi/zaraz/$script,1p,important
 *$frame,redirect-rule=noopframe,domain=skmedix.pl
@@ -123156,6 +123165,7 @@ discord.com##+js(no-xhr-if, discord.com/api/v9/science)
 chat.deepseek.com##.ds-theme.ds-modal-wrapper:has-text(uBlock)
 chat.deepseek.com##.ds-modal-overlay
 ||sex-empire.org/templates/*/js/metrika.js
+||ipify.org^$domain=realmoasis.com
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -125693,7 +125703,8 @@ outletarredamento.it#@#.ad-link:not(.adsbox)
 @@||dlswbr.baidu.com/heicha/mw/abclite-$script,domain=map.baidu.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=legaseriea.it,important
 !#if env_firefox
-@@||npttech.com/advertising.js$xhr,domain=the-independent.com
+the-independent.com##+js(no-fetch-if, npttech.com/advertising.js)
+||the-independent.com/js/third-party/aps.js^$script,1p,redirect=amazon_apstag.js
 !#else
 ||amazon-adsystem.com/aax2/apstag.js$script,redirect=amazon_apstag.js,important,domain=the-independent.com
 ||npttech.com/advertising.js$xhr,domain=the-independent.com,redirect=noop.js,important
