@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BT/6/Cuw2sl44DXn4wtqhA
+! Checksum: C4ToQnkXS9lsrzExWRRo/A
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202501310939
-! Last Modified: 2025年01月31日 09:39
+! Version: 202501311429
+! Last Modified: 2025年01月31日 14:29
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -125723,13 +125723,15 @@ outletarredamento.it#@#.ad-link:not(.adsbox)
 @@||dlswbr.baidu.com/heicha/mw/abclite-$script,domain=map.baidu.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=legaseriea.it,important
 !#if env_firefox
-the-independent.com##+js(no-fetch-if, npttech.com/advertising.js)
 ||the-independent.com/js/third-party/aps.js^$script,1p,redirect=amazon_apstag.js
+the-independent.com##+js(no-fetch-if, npttech.com/advertising.js)
 !#else
 ||amazon-adsystem.com/aax2/apstag.js$script,redirect=amazon_apstag.js,important,domain=the-independent.com
 ||npttech.com/advertising.js$xhr,domain=the-independent.com,redirect=noop.js,important
 !#endif
 @@||icanhazip.com^$xhr,domain=dnscheck.tools
+www.nvidia.com##+js(remove-cookie, ak_bmsc)
+nvidia.com,~www.nvidia.com##+js(rpnt, script, /^(\w)/, '(()=>{const remove=()=>{document.cookie.split(";").forEach((cookieStr=>{const pos=cookieStr.indexOf("=");if(pos===-1){return}const cookieName=cookieStr.slice(0,pos).trim();if(cookieName!=="ak_bmsc"){return}document.cookie="ak_bmsc=; domain=.nvidia.com; path=/; Max-Age=-1000; expires=Thu, 01 Jan 1970 00:00:00 GMT"}));console.debug("Removed")};remove();setTimeout(remove,5e3)})();$1', sedCount, 1)
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
