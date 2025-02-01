@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GIBqCQDFfIVuiTVJJfFcTA
+! Checksum: 32PQBgZY2MGjIxeXkpPQmA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202502010227
-! Last Modified: 2025年02月01日 02:27
+! Version: 202502010943
+! Last Modified: 2025年02月01日 09:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -5795,6 +5795,7 @@ _800x80_
 ###wp_ads_gpt_widget-21
 ###wp_ads_gpt_widget-4
 ###wp_ads_gpt_widget-5
+###wpgtr_stickyads_textcss_container
 ###wpladbox1
 ###wpladbox2
 ###wrapAd
@@ -61040,6 +61041,7 @@ ultimate-guitar.com##[href^="https://www.ultimate-guitar.com/send?ug_from=redire
 upload.ee##[href^="https://www.upload.ee/click.php"]
 gametracker.com##[href^="https://www.vultr.com/"]
 wakingtimes.com##[href^="https://www.wendymyersdetox.com/"]
+babylonbee.com##[href^="https://www.yrxtrk.com/aff_c"]
 musicbusinessworldwide.com##[href^="https://wynstarks.lnk.to/"]
 cars.com##[id$="-sponsored"]
 lolalytics.com##[id$=":inline"]
@@ -66371,6 +66373,9 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||tbbfdr.icu^
+||oveakmqk.com^
+||lsxvnzif.icu^
 ||begoihuh.com^
 ||rmtxdn.icu^
 ||pw2.fun^
@@ -74570,7 +74575,7 @@ ip138.com###banana
 appinn.com###sidebar > .widget_block > a
 52asus.com###AsusMall-contain
 mydrivers.com##div[style="margin: auto;width: 800px;padding: 10px 0;"]
-cn.bing.com#?#.b_algo:-abp-has(p:-abp-properties(content:*Jr8IbslwuuoZ9kr8cTrXXkY8lfZL5p8v2TTht91DQxXZU9AB6BpwzkAAU2AAAAAElFTkSuQmCC))
+cn.bing.com#?#.b_algo:-abp-has(p:-abp-properties(content:*hgAbj3WJSu83ynLkuUc6pXNStPcP2lmm6yyOWqGmKXKfgGsPJ4MmXjD6wAAAABJRU5ErkJggg))
 bing.com#?#.b_algo:-abp-has(.ad_esltitle)
 bing.com#?#.b_algo:-abp-has(.b_ads1line)
 bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
