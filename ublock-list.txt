@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BW3nRcyeetQEbLYzZ/SdlA
+! Checksum: LAkr5iQsg4p621KMZPwVPA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502012036
-! Last Modified: 2025年02月01日 20:36
+! Version: 202502020225
+! Last Modified: 2025年02月02日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -46131,7 +46131,9 @@ browsershots.org#@#.advert_area
 ||05420795.xyz^
 ||05454674.xyz^
 ||05751c.site^
+||06969451.xyz^
 ||072551.xyz^
+||07327127.xyz^
 ||07421283.xyz^
 ||076f66b2.live^
 ||07e197.site^
@@ -46145,6 +46147,7 @@ browsershots.org#@#.advert_area
 ||10523745.xyz^
 ||10614305.xyz^
 ||10753990.xyz^
+||11006451.xyz^
 ||11152646.xyz^
 ||1116c5.xyz^
 ||11778562.xyz^
@@ -46191,6 +46194,7 @@ browsershots.org#@#.advert_area
 ||33848102.xyz^
 ||33862684.xyz^
 ||34475780.xyz^
+||35452888.xyz^
 ||36833185.xyz^
 ||37066957.xyz^
 ||38167473.xyz^
@@ -66293,6 +66297,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /sentry-browser.min.js
 /sentry-browser.tracing.es5.min.js
 /sentry-logger.js
+/sentry-tracing.min.js
 /sentry/bundle.min.js
 /seo.taCo.min.js
 /seo/pageStat/*
@@ -113557,6 +113562,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||h5log.zongheng.com^
 ||hisense.com/ta.js
 ||hktvmall.com/api/event
+||hoyoverse.com/device-fp/
 ||hoyoverse.com/dora/biz/*-h5log/
 ||huaxiang.eastmoney.com^
 ||hujiang.com/v2/log
@@ -123244,6 +123250,11 @@ chat.deepseek.com##.ds-theme.ds-modal-wrapper:has-text(uBlock)
 chat.deepseek.com##.ds-modal-overlay
 ||sex-empire.org/templates/*/js/metrika.js
 ||ipify.org^$domain=realmoasis.com
+www.hoyoverse.com##+js(remove-cookie, /^DEVICEFP/)
+hoyoverse.com,~www.hoyoverse.com##+js(trusted-set-cookie, DEVICEFP, 1, , , domain, hoyoverse.com)
+hoyoverse.com,~www.hoyoverse.com##+js(trusted-set-cookie, DEVICEFP_SEED_ID, 1, , , domain, hoyoverse.com)
+hoyoverse.com,~www.hoyoverse.com##+js(trusted-set-cookie, DEVICEFP_SEED_TIME, 1, , , domain, hoyoverse.com)
+hoyoverse.com,~www.hoyoverse.com##+js(rpnt, script, /^/, '(()=>{const remove=()=>{["","_SEED_ID","_SEED_TIME"].forEach((cookie=>{document.cookie="DEVICEFP"+cookie+"=; domain=.hoyoverse.com; path=/; Max-Age=-1000; expires=Thu, 01 Jan 1970 00:00:00 GMT"}));console.debug("Removed")};window.addEventListener("beforeunload",remove)})();', sedCount, 1)
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -123452,11 +123463,6 @@ cyclingnews.com##.global-banner
 @@||flyertalk.com/forum/*/ckeditor/core/log.js$script,1p
 @@||bikeforums.net/*/ckeditor/core/log.js$script,1p
 @@||imagebam.com/assets/js/image_bootstrap.js$script,1p
-/.*(\/proxy|\.wasm|\.wsm|\.wa)$/$websocket,xhr,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to,badfilter
-/proxy|$websocket,xhr,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
-.wasm|$websocket,xhr,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
-.wsm|$websocket,xhr,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
-.wa|$websocket,xhr,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#@#div[id^="dfp-ad-"]
 kotaku.com#@##dfp-ad-2
 kotaku.com#@##dfp-ad-1
@@ -124602,7 +124608,6 @@ warscrap.io##.main-menu-bottom
 warscrap.io###warscrap-io_336x280
 warscrap.io###warscrap-io_728x90
 @@||fmkorea.com/modules/point/icons/*$image,1p
-*$script,3p,domain=animeflv.net,badfilter
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=meteoetradar.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=meteoetradar.com
 meteoetradar.com##+js(no-xhr-if, doubleclick)
