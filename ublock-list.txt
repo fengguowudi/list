@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LAkr5iQsg4p621KMZPwVPA
+! Checksum: i6acAjhzXx0rywVGUOezFA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502020225
-! Last Modified: 2025年02月02日 02:25
+! Version: 202502020943
+! Last Modified: 2025年02月02日 09:43
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -122932,6 +122932,8 @@ clickorlando.com##+js(set-cookie, bitmovin_analytics_uuid, OK)
 1und1.de##+js(cookie-remover, /optimizelyEndUserId|s_fid|sc_tcr|s_cc/)
 1und1.de##+js(set-local-storage-item, /optimizely_data|tealium_timing/, $remove$)
 imgur.com##+js(set, Object.prototype.has_opted_out_tracking, trueFunc)
+camhub.cc##+js(remove-cookie, /^kt_/)
+boundless.com##+js(cookie-remover, _boundless_tracking_id)
 $removeparam=gbraid
 $removeparam=wbraid
 $removeparam=gclsrc
@@ -123528,7 +123530,7 @@ indeed.com##+js(set, DD_RUM.addAction, noopFunc)
 ||youboranqs01.com^$3p,badfilter
 @@||usopen.org/AppMeasurement.js$script,1p
 ||d2cmedia.ca^$badfilter
-||d2cmedia.ca^$~image,~font
+||d2cmedia.ca^$~image,~font,~css
 ||youbora.com^$3p,badfilter
 @@||tredir.go.com/capmon/$script,domain=disney.com
 ||smartsuppchat.com^$3p,badfilter
@@ -123606,17 +123608,12 @@ hdblog.it#@#a[href^="https://www.amazon."][href*="tag="]
 @@||google.com/afsonline/*$script,domain=newser.com
 @@/isomorphic/system/modules/ISC_Analytics.js$script,1p
 @@||instagram.com^$popup,domain=msn.com
-/performancetimer.js$badfilter
-@@||ipinfo.io/?token$xhr,domain=webtv.ert.gr
 @@||trbas.com/jive/$script,domain=baltimoresun.com|capitalgazette.com|chicagotribune.com|citypaper.com|dailypress.com|mcall.com|orlandosentinel.com|pacificsandiego.com|sandiegouniontribune.com|sun-sentinel.com
-@@||vidtodo.com^$css,image,domain=vidtudu.com
 @@||art19.com^$xhr,domain=merriam-webster.com
 @@||graph.facebook.com^$xhr,domain=merriam-webster.com
 @@||static.sunmedia.tv/integrations/*$script,domain=api.gooru.live|elespanol.com|periodistadigital.tv
 *$3p,script,redirect=noopjs,domain=lolalytics.com
 @@||dev.visualwebsiteoptimizer.com^$script,domain=cars.usnews.com
-/adlead.$domain=~adlead.com|~adlead.pro|~adlead.ru,badfilter
-/adlead.$domain=~adlead.com|~adlead.pro|~adlead.ru|~adlead.immo
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=chicagotribune.com|mcall.com
 @@||cdn.zidedge.com/zp/ranker/$script,domain=ranker.com
 @@||petametrics.com^$script,domain=ranker.com
@@ -123673,7 +123670,6 @@ nypost.com,pagesix.com#@#.recirc
 @@||vlscppe.microsoft.com/fp/tags.js$script,1p
 @@||cdnperf.com/js/rollbar.js$script,1p
 @@||perfops.net^$script,domain=cdnperf.com
-||dccss.banggood.com^$badfilter
 @@||9anime.*/user/ajax/$xhr,1p
 @@||adswizz.com/anon.npr-mp3/*$media,domain=podbay.fm|podbean.com
 @@||adswizz.com/anon.npr-podcasts/*$media,domain=podbay.fm|podbean.com
@@ -123685,7 +123681,6 @@ kzstock.blogspot.com#@##ad-target
 @@||api.deep.bi/v3/init.js$script,domain=elconfidencial.com
 ||hawk.pcgamer.com^$badfilter
 @@||viu.tv/assets/js/comScore.*.min.js$script,1p
-@@||readcomiconline.to/$xhr,1p
 @@||adobedtm.com^*/satellitelib-$script,domain=skysportaustria.at
 ||miniusa.com/etc/designs/mini/js/vendor/tracking/*$script,1p,redirect=noopjs
 @@||d8rk54i4mohrb.cloudfront.net/js/video.js$script,domain=forbes.com
@@ -123709,7 +123704,6 @@ detroitnews.com###partner-poster-0
 ||curalate.com/api/v1/metrics/
 /api/v1/metrics$badfilter
 @@||nbc*.com/includes/AppMeasurement.js$script,1p
-||amazonaws.com^*/funders-$domain=globalvoices.org,badfilter
 calgaryherald.com#@#.local-branding
 /google-analytics-$~image,badfilter
 ||scroll.com^$3p,badfilter
