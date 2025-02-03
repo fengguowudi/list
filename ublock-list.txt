@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bFOJWH1x089NnkOfk8fIXw
+! Checksum: 0YBodiNahjVPNydAZhip1Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502030226
-! Last Modified: 2025年02月03日 02:26
+! Version: 202502030940
+! Last Modified: 2025年02月03日 09:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -20194,7 +20194,6 @@ browsershots.org#@#.advert_area
 ||bulky-battle.com^
 ||bulkyfriend.com^
 ||bull3t.co^
-||bullads.net^
 ||bulletinwarmingtattoo.com^
 ||bulletproxy.ch^
 ||bullfeeding.com^
@@ -44586,7 +44585,6 @@ browsershots.org#@#.advert_area
 ||opdomains.space^$document
 ||opengalaxyapps.monster^$document
 ||openwwws.space^$document
-||opera.com/*&utm_campaign=$document
 ||optargone-2.online^$document
 ||optimalscreen1.online^$document
 ||optnx.com^$document
@@ -47386,7 +47384,6 @@ browsershots.org#@#.advert_area
 ||btpnav.com^$popup
 ||buikolered.com^$popup
 ||bukusukses.com^$popup
-||bullads.net^$popup
 ||bullfeeding.com^$popup
 ||bulochka.xyz^$popup
 ||bungalowsimply.com^$popup
@@ -58117,7 +58114,7 @@ home-assistant-guide.com##.gb-container-429fcb03
 home-assistant-guide.com##.gb-container-5698cb9d
 home-assistant-guide.com##.gb-container-bbc771af
 amtraktrains.com##.gb-sponsored
-kitchenknifeforums.com,quadraphonicquad.com##.gb-sponsored-wrapper
+homebrewtalk.com,kitchenknifeforums.com,quadraphonicquad.com##.gb-sponsored-wrapper
 gocomics.com##.gc-deck--is-ad
 1001games.com##.gc-halfpage
 1001games.com##.gc-leaderboard
@@ -59263,7 +59260,7 @@ letsgodigital.org##.product__wrapper
 nymag.com##.products-package
 nymag.com##.products-package_single
 kohls.com##.products_grid.sponsored-product
-amtraktrains.com,kitchenknifeforums.com##.productslider
+amtraktrains.com,homebrewtalk.com,kitchenknifeforums.com##.productslider
 filehippo.com##.program-actions-header__promo
 filehippo.com##.program-description__slot
 as.com,gokunming.com##.prom
@@ -61047,7 +61044,6 @@ basschat.co.uk,momondo.*##div[data-resultid$="-sponsored"]
 bayequest.com#?#.elementor-section:-abp-contains(Advertisement)
 nbcsports.com##bsp-reverse-scroll-ad
 buffstreams.sx##button[data-openuri*=".allsportsflix."]
-filecrypt.cc,filecrypt.co##button[onclick*="://bullads.net/"]
 psycom.net##center > .vh-quiz-qborder
 dustinabbott.net,turbobits.cc,turbobits.net##center > a > img
 mangas-raw.com##center > div[style]
@@ -124320,7 +124316,6 @@ usnews.com##+js(set, Object.prototype.vjsPlayer.ads, noopFunc)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=netzwelt.de
 hwupgrade.it#@#.wrapper-xyz
 @@||das-bumerang-projekt.de/*/boomerang.js$script,1p
-@@||serviceyock.me/api/advertise/$xhr,domain=yock.games
 @@||omggamer.com/detroitchicago/dayton.js$script,1p
 @@||lebigdata.fr/detroitchicago/$script,1p
 lebigdata.fr##.background-cover
@@ -124362,7 +124357,6 @@ autoblog.com###ymm-sub-nav:style(top:0px !important)
 beppegrillo.it#@#a[href^="https://www.amazon."][href*="tag="]
 @@||imasdk.googleapis.com/js/sdkloader/ima3$script,xhr,domain=venn.tv
 *$script,3p,domain=coinmarketcap.com,badfilter
-*$script,domain=babesxworld.com,badfilter
 ||go.netcraftsmen.com^$1p,frame
 @@||apis.google.com/js/platform.js$script,domain=kitsunekko.net
 @@||cbsistatic.com/*/js/compiled/siteAdsBidBarrel.js$script,domain=gamespot.com
@@ -124532,9 +124526,6 @@ unito.life##+js(acs, KeenTracking)
 @@||googletagmanager.com/gtm.js$script,domain=megacritic.ru
 @@||googletagmanager.com^$redirect-rule,domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com
 @@||google-analytics.com^$redirect-rule,domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com
-adyou.me##button.flleft.btn-lg.btn-warning.btn.skip:style(display:block !important)
-adyou.me#@#+js(addEventListener-defuser, /^(?:click|mousedown)$/, bypassEventsInProxies)
-adyou.me#@#+js(no-setInterval-if, (), 500)
 @@||freebcc.org/assets/img/ad_$image
 @@||weather.com/content/assets/*wxAdTargeting$script,1p
 @@||ssl.p.jwpcdn.com/player/plugins/googima/$script,domain=weather.com
@@ -124551,8 +124542,6 @@ coolmathgames.com##+js(set, network_user_id, '')
 @@||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js,domain=video.sky.it
 @@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager.com/gtm.js,domain=autotrader.ca
 @@||rmwilliams.com/on/demandware.static/Sites-rmwINTL-Site/*/modules/app/app.tealium.js$script,1p
-@@||player.avplayer.com/script/*/avcplayer.js$script,domain=bdnewszh.com
-@@||player.avplayer.com/script/*/libs/hls.min.js$script,domain=bdnewszh.com
 ||ads.pinterest.com^$badfilter
 ||ads.pinterest.com^$3p
 @@||console.genieesspv.jp^$domain=admin.genieessp.com
@@ -124654,7 +124643,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=eurogamer.net
 @@||cdn.vox-cdn.com/packs/js/concert_ads-*.js$script,domain=theverge.com
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=as.com
-@@||nocturnetls.net^$script,1p
 @@||relay-client-c01.iocnt.net^$script,domain=businessinsider.de
 @@||mypearson.com^*/ga.min.js
 ||tags.tiqcdn.com^$badfilter
@@ -124684,7 +124672,6 @@ himovies.to#@#a[onclick]
 walletinvestor.com##body:style(overflow: auto !important;)
 walletinvestor.com###bio_ep_bg
 @@||sololearn.com/api/*/comments/*$xhr,1p
-@@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager.com/gtm.js,domain=aeriagames.com
 @@||ads.imprezzer.com/js/imprezzer2.min.js$script,domain=mgronline.com
 @@||ads.imprezzer.com/js/multisize_responsive.js$script,domain=mgronline.com
 @@||ads.imprezzer.com/js/multisize_bottompage_responsive.js$script,domain=mgronline.com
@@ -124788,7 +124775,6 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 ||flixsyndication.net/delivery/static/tracking/$script,important
 tamin.ir#@#.ads2
 @@||tamin.ir/content/ads/
-@@||voeunblock2.com^$frame,3p
 job.mt.de,job.nw.de#@#^script:has-text(===):has-text(/[\w\W]{16000}/)
 job.mt.de,job.nw.de#@#+js(nostif, .call(null), 10)
 @@||ak-ads-ns.prisasd.com/prebid/prebid_noticias.js$script,domain=as.com
