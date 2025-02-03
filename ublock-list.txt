@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dj/ltBQK8y9oR8ylFFNYFw
+! Checksum: 7AQsQQeK+bfR0MNnSm4ZTg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502031429
-! Last Modified: 2025年02月03日 14:29
+! Version: 202502032040
+! Last Modified: 2025年02月03日 20:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -96,7 +96,6 @@
 /ad.html?$~xmlhttprequest
 /ad.min.js$script
 /ad/ad_common.js$script
-/ad/dfp/*$script
 /ad/getban?$script
 /ad/image/*$image
 /ad/images/*$image,domain=~studiocalling.it
@@ -250,6 +249,7 @@
 /advanced-ads-$script,stylesheet,domain=~transinfo.pl|~wordpress.org
 /advbanner.frontend.js$script
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
+/advertising/ad-shield.js$script
 /advertising/banners/*$image
 /adverts.$~script,~xmlhttprequest,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
@@ -435,6 +435,7 @@
 /jquery.popunder.js$script
 /js/ad_common.js$script
 /js/advRotator.js$script
+/js/dfp.js$script
 /jsAds-1.4.min.js$script
 /jshexi.hj?lb=
 /jspopunder.js$script
@@ -41847,7 +41848,6 @@ browsershots.org#@#.advert_area
 ||veincartrigeforceful.com^
 ||veinourdreams.com^
 ||vekseptaufin.com^
-||velloxfire.pro^
 ||velocecdn.com^
 ||velocitycdn.com^
 ||velocitypaperwork.com^
@@ -51501,6 +51501,7 @@ browsershots.org#@#.advert_area
 ||hide-my-ip.com/promo/
 ||highepcoffer.com/images/banners/
 ||hitleap.com/assets/banner
+||hosted.muses.org/mrp.js
 ||hostmonster.com/src/js/$third-party
 ||hostslick.com^$domain=fileditch.com
 ||hotlink.cc/promo/
@@ -53810,6 +53811,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||plainenglish.io/assets/sponsors/
 ||planetlotus.org/images/partners/
 ||player.twitch.tv^$domain=go.theconomy.me
+||players.radioonlinehd.net^$domain=flamecomics.xyz
 ||plutonium.cointelegraph.com^
 ||pnn.ps/storage/images/partners/
 ||poedb.tw/image/torchlight/
@@ -57767,6 +57769,7 @@ nettv4u.com##.desk_only
 newindian.in##.deskad
 cardealermagazine.co.uk##.desktop
 livesoccertv.com##.desktop-ad-container
+medscape.com##.desktop-ad-position
 vitalmtb.com##.desktop-header-ad
 rok.guide##.desktop-promo-banner
 tiermaker.com##.desktop-sticky
@@ -61277,6 +61280,7 @@ mommypoppins.com##div[id^="wrapper-div-gpt-ad-"]
 wallpaperflare.com##div[itemtype$="WPAdBlock"]
 nashfm100.com##div[onclick*="https://deucepub.com/"]
 forums.pcsx2.net##div[onclick^="MyAdvertisements."]
+medscape.com##div[ssr-ads]
 ezgif.com##div[style$="min-height:90px;display:block"]
 kuncomic.com##div[style*="height: 2"][style*="text-align: center"]
 castanet.net##div[style*="height:900px"]
@@ -114959,7 +114963,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! browser.sentry-cdn.com
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|ocado.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 !! ||assets.adobedtm.com/extensions/*/AppMeasurement.min.js
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|subwy.com|tatamotors.com|usanetwork.com
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=medscape.com|nbc.com|subwy.com|tatamotors.com|usanetwork.com
 !! adobedtm.com^*/satelliteLib-
 @@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|auspost.com.au|backcountry.com|bmw.com.au|canadapost-postescanada.ca|ceair.com|collegeboard.org|conad.it|costco.com|crackle.com|crackle.com.ar|crackle.com.br|crackle.com.ec|crackle.com.mx|crackle.com.pe|crackle.com.py|crave.ca|crimewatchdaily.com|dhl.de|directline.com|elgiganten.se|elkjop.no|eonline.com|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|gigantti.fi|godigit.com|hellobank.fr|hgtv.com|hrw.com|ilsole24ore.com|jeep.com|laredoute.be|laredoute.ch|laredoute.co.uk|laredoute.com|laredoute.es|laredoute.fr|laredoute.it|laredoute.pl|laredoute.pt|laredoute.ru|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|myaetnasupplemental.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|nrj.fr|oprah.com|oracle.com|pnc.com|poweredbycovermore.com|radiko.jp|realtor.com|redbull.tv|repco.co.nz|sbb.ch|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|sony.jp|stuff.co.nz|subaru.com|support.nec-lavie.jp|tatacliq.com|telegraph.co.uk|timewarnercable.com|tou.tv|usanetwork.com|vanityfair.com|vtr.com|wayin.com|wired.com
 !! adobedtm.com^*-libraryCode_source.min.js
@@ -125811,6 +125815,7 @@ the-independent.com##+js(no-fetch-if, npttech.com/advertising.js)
 @@||icanhazip.com^$xhr,domain=dnscheck.tools
 www.nvidia.com##+js(remove-cookie, ak_bmsc)
 nvidia.com,~www.nvidia.com##+js(rpnt, script, /^(\w)/, '(()=>{const remove=()=>{document.cookie="ak_bmsc=; domain=.nvidia.com; path=/; Max-Age=-1000; expires=Thu, 01 Jan 1970 00:00:00 GMT";console.debug("Removed")};remove();setTimeout(remove,5e3);window.addEventListener("beforeunload",remove)})();$1', sedCount, 1)
+@@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
