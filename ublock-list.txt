@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Eh6srIXSv/6wxF+19LGZAA
+! Checksum: pwBY740RaTjX2BQUzgBr5g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502041429
-! Last Modified: 2025年02月04日 14:29
+! Version: 202502042040
+! Last Modified: 2025年02月04日 20:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -51530,7 +51530,7 @@ browsershots.org#@#.advert_area
 ||hide-my-ip.com/promo/
 ||highepcoffer.com/images/banners/
 ||hitleap.com/assets/banner
-||hosted.muses.org/mrp.js
+||hosted.muses.org/mrp.js$domain=flamecomics.xyz
 ||hostmonster.com/src/js/$third-party
 ||hostslick.com^$domain=fileditch.com
 ||hotlink.cc/promo/
@@ -60317,7 +60317,7 @@ pch.com##.wide_banner
 japantoday.com##.widget--animated
 headforpoints.com##.widget--aside.widget
 japantoday.com##.widget--jobs
-fijisun.com.fj##.widget-1
+dcrainmaker.com,fijisun.com.fj##.widget-1
 fijisun.com.fj##.widget-3
 kyivpost.com##.widget-300-250
 vodacomsoccer.com##.widget-ad-block
