@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vc7cATx5d0nMRiTE/83HiA
+! Checksum: qIcD+oiBBu7agWQ59/fg7g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502062041
-! Last Modified: 2025年02月06日 20:41
+! Version: 202502070228
+! Last Modified: 2025年02月07日 02:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -43491,6 +43491,7 @@ browsershots.org#@#.advert_area
 ||xoilactv123.gdn^
 ||xoilactvcj.cc^
 ||xolen.xyz^
+||xoqod.sbs^
 ||xovdrxkog.xyz^
 ||xoyrxawri.com^
 ||xpollo.com^
@@ -50593,6 +50594,7 @@ browsershots.org#@#.advert_area
 ||xml-clickurl.com^$popup
 ||xmlapiclickredirect.com^$popup
 ||xmlrtb.com^$popup
+||xoqod.sbs^$popup
 ||xstownrusisedp.info^$popup
 ||xszpuvwr7.com^$popup
 ||xtendmedia.com^$popup
@@ -117327,9 +117329,12 @@ videovard.*##.jw-reset.jw-wrapper:style(z-index:2147483647 !important)
 videovard.*###nux > div > div > div[id]
 videovard.*##+js(aopr, FuckAdBlock)
 burakgoc.com##+js(aost, String.prototype.charCodeAt, ai_)
-tvshows4mobile.*##+js(acs, String.prototype.charCodeAt, 'replace')
+||tvshows4mobile.org^$csp=script-src 'self' 'unsafe-eval' *.google.com
+tvshows4mobile.org##+js(set-cookie, downloadbypass, 1)
 tvshows4mobile.*##body:style(visibility:visible !important)
-tvshows4mobile.*###babasbmsgx
+tvshows4mobile.org##[href*="starmeetonline.com/"]
+tvshows4mobile.org##[href^="https://oabaubsutha.com/"]
+tvshows4mobile.org##.gsc-promotion
 tvshows4mobile.*##[href="http://bit.ly/indianwebseriesv2"]
 tvshows4mobile.*##.prop_native1
 alvinreports.com##.stream-item-above-post-content
