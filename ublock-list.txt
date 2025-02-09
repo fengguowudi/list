@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aL4xOS2TQQQYA4YHWNibxA
+! Checksum: 2saN364jEjEUM+QCX0Ms6g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502090225
-! Last Modified: 2025年02月09日 02:25
+! Version: 202502090944
+! Last Modified: 2025年02月09日 09:44
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -60681,6 +60681,7 @@ genius.com##[class^="InreadContainer__"]
 zerohedge.com##[class^="PromoButton"]
 uploader.link##[class^="ads"]
 nasdaq.com##[class^="ads_"]
+uniladtech.com##[class^="advert-placeholder_advertPlaceholder"]
 nasdaq.com##[class^="btf_"]
 weather.us##[class^="dkpw"]
 dallasnews.com##[class^="dmnc_features-ads-"]
@@ -62212,7 +62213,7 @@ europeanpharmaceuticalreview.com##.europ-fixed-footer
 accuweather.com##.feature-tag
 ibtimes.sg##.featured_video
 pedestrian.tv##.find-dream-job
-sportbible.com,unilad.com##.floating-video-player_container__u4D9_
+sportbible.com,unilad.com,uniladtech.com##.floating-video-player_container__u4D9_
 dailymail.co.uk##.footballco-container
 redboing.com##.fw-ad
 foxsports.com##.fwAdContainer
@@ -66376,7 +66377,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /publisher:getClientId?key=
 /publishertag.js
 /publitas-stats.js
-/pubstats.$domain=~pubstats.dev
+/pubstats.$domain=~pub.dev|~pubstats.dev
 /pubtag.js
 /pulsario.js
 /push-analytics.js
@@ -123251,6 +123252,7 @@ imgur.com##+js(set, Object.prototype.has_opted_out_tracking, trueFunc)
 camhub.cc##+js(remove-cookie, /^kt_/)
 boundless.com##+js(cookie-remover, _boundless_tracking_id)
 community.fortinet.com##+js(remove-cookie, /LithiumVisitor|ValueSurveyVisitorCount|VISITOR_BEACON/)
+bizjournals.com,businessinsider.de,computerbild.de##+js(remove-cookie, /^(_pc|cX_)/, when, scroll keydown)
 $removeparam=gbraid
 $removeparam=wbraid
 $removeparam=gclsrc
@@ -123406,6 +123408,14 @@ $removeparam=igshid,domain=instagram.com|threads.net
 ||control.kochava.com^$removeparam=network_id
 ||control.kochava.com^$removeparam=site_id
 ||control.kochava.com^$removeparam=/^utm_/
+||api.cxense.com/public/widget/data^$removeparam=eid0
+||api.cxense.com/public/widget/data^$removeparam=eit0
+||api.cxense.com/public/widget/data^$removeparam=media
+||api.cxense.com/public/widget/data^$removeparam=prnd
+||api.cxense.com/public/widget/data^$removeparam=rnd
+||api.cxense.com/public/widget/data^$removeparam=sid
+||api.cxense.com/public/widget/data^$removeparam=usi
+||api.cxense.com/public/widget/data^$removeparam=widgetId
 @@||web.archive.org/*/http$removeparam
 @@||urldefense.com^$removeparam
 /dp/*/ref=$doc,uritransform=/\/ref=[^\/?#]+//,to=www.amazon.*
