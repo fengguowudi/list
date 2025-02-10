@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y22AIrudPjhb8fiX+IMdFg
+! Checksum: WPz7936cuJVM1Ib0d2JxbA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502100942
-! Last Modified: 2025年02月10日 09:42
+! Version: 202502101430
+! Last Modified: 2025年02月10日 14:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -61713,6 +61713,7 @@ douglas.*##[data-testid="product-overview-content-slot"]:has(.criteo-teaser-gold
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 flashscore.*,livescore.*,soccer24.com###box-over-content-a
 flashscore.*,livescore.*,soccer24.com##.zone
+hookerhillstudios.com##div.items-center:has(> #articlead)
 laredoute.*###hp-sponsored-banner
 lazada.*##.pdp-block__product-ads
 manomano.*##a[href^="/"][href*="?product_id="][title]:has(span > .svg_tamagoshi)
@@ -123610,6 +123611,13 @@ hoyolab.com,~www.hoyolab.com##+js(trusted-set-cookie, DEVICEFP, 00000000000, , ,
 hoyolab.com,~www.hoyolab.com##+js(trusted-rpnt, script, /^/, '(()=>{const remove=()=>{document.cookie="DEVICEFP=; domain=.hoyolab.com; path=/; Max-Age=-1000; expires=Thu, 01 Jan 1970 00:00:00 GMT";console.debug("Removed")};window.addEventListener("beforeunload",remove)})();')
 ||flight-report.com/api/event
 liquipedia.net##+js(remove-cookie, /^_pk_/)
+||eezy.api.kustomerapp.com/c/v1/tracking/
+||videezy.com/clicks/
+!#if env_firefox
+videezy.com##a[onclick="fire_download_click_tracking();"]:remove-attr(onclick)
+!#else
+videezy.com##+js(ra, onclick, a[onclick="fire_download_click_tracking();"], complete)
+!#endif
 !#include resource-abuse.txt
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
@@ -126123,6 +126131,7 @@ kino.de##+js(set, adex, {})
 kino.de##+js(set, adex.getAdexUser, noopFunc)
 ||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com,important
 abeautifuldominion.com##html:style(visibility: visible !important;)
+||oriahcontracting.ca/?local_ga_js=1$script,1p,redirect=noopjs
 ||0-24bpautomentes.hu$all
 ||1.10.147.48$all
 ||1.160.48.170$all
