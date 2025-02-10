@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RVI34nYo9B2d3wvUpchNjg
+! Checksum: Y22AIrudPjhb8fiX+IMdFg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502100225
-! Last Modified: 2025年02月10日 02:25
+! Version: 202502100942
+! Last Modified: 2025年02月10日 09:42
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -64319,6 +64319,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||slack.com^$generichide
 @@||sourcegraph.com^$generichide
 @@||stackblitz.com^$generichide
+@@||tailscale.com^$generichide
 @@||teams.live.com^$generichide
 @@||teams.microsoft.com^$generichide
 @@||testufo.com^$generichide
