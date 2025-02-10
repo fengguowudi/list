@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pMgOw6kJhQrTLUpljtWwog
+! Checksum: VeOMNwyofOjpe5tnHHghcw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202502101430
-! Last Modified: 2025年02月10日 14:30
+! Version: 202502102041
+! Last Modified: 2025年02月10日 20:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -18479,6 +18479,7 @@ browsershots.org#@#.advert_area
 ||aqkkoalfpz.com^
 ||aqncinxrexa.com^
 ||aqnnysd.com^
+||aqowgoascdb.com^
 ||aqptziligoqn.com^
 ||aqspcbz.com^
 ||aquentlytujim.com^
@@ -22646,6 +22647,7 @@ browsershots.org#@#.advert_area
 ||d483501b04.com^
 ||d49ae3cc10.com^
 ||d52a6b131d.com^
+||d5465f9d11.com^
 ||d56cfcfcab.com^
 ||d592971f36.com^
 ||d5chnap6b.com^
@@ -27643,6 +27645,7 @@ browsershots.org#@#.advert_area
 ||hesatinaco.com^
 ||hesoorda.com^
 ||hespe-bmq.com^
+||hesqvflhk.com^
 ||hesterinoc.info^
 ||hestutche.com^
 ||hesudsuzoa.com^
@@ -29317,6 +29320,7 @@ browsershots.org#@#.advert_area
 ||jkyawbmyvqez.top^
 ||jkzakzalzorvb.top^
 ||jl63v3fp1.com^
+||jlouexxsb.com^
 ||jlovoiqtgarh.com^
 ||jltfqoxyhytayy.com^
 ||jmaomkosxfi.com^
@@ -31007,6 +31011,7 @@ browsershots.org#@#.advert_area
 ||lymckensecuryren.org^
 ||lyncherpelitic.com^
 ||lyonthrill.com^
+||lyrecomemumuen.com^
 ||lyricalattorneyexplorer.com^
 ||lyricaldefy.com^
 ||lyricslocusvaried.com^
@@ -31604,6 +31609,7 @@ browsershots.org#@#.advert_area
 ||mgcash.com^
 ||mgdjmp.com^
 ||mghkpg.com^
+||mgladthereisso.com^
 ||mgxxuqp.com^
 ||mgyccfrshz.com^
 ||mhadsd.com^
@@ -32186,6 +32192,7 @@ browsershots.org#@#.advert_area
 ||murkybrashly.com^
 ||murkymouse.online^
 ||murolwsi.com^
+||murriesforsee.shop^
 ||musclesadmonishment.com^
 ||musclesprefacelie.com^
 ||muscularcopiedgulp.com^
@@ -32650,6 +32657,7 @@ browsershots.org#@#.advert_area
 ||nfuwlooaodf.com^
 ||nfuwpyx.com^
 ||nfyowjhcgb.com^
+||nfzaajfktztp.com^
 ||ngegas.files.im^
 ||ngfruitiesmatc.info^
 ||ngfycrwwd.com^
@@ -43164,6 +43172,7 @@ browsershots.org#@#.advert_area
 ||wextap.com^
 ||wfcs.lol^
 ||wffbdim.com^
+||wfhbfjllmkqmd.com^
 ||wfnetwork.com^
 ||wfodwkk.com^
 ||wfredir.net^
@@ -54600,6 +54609,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 /^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$third-party,xmlhttprequest,domain=1link.club|2embed.to|apiyoutube.cc|bestmp3converter.com|clicknupload.red|clicknupload.to|daddyhd.com|dood.wf|lulustream.com|mp4upload.com|poscitech.com|sportcast.life|streamhub.to|streamvid.net|tokybook.com|tvshows88.live|uqload.io
 /\/[0-9a-f]{32}\/invoke\.js/$script,third-party
 /^https?:\/\/www\..*.com\/[a-z]{1,}\.js$/$script,third-party,domain=deltabit.co|nzbstars.com|papahd.club|vostfree.online
+||74099753.xyz/ws|
 ||url.rw/*&a=
 ||url.rw/*&mid=
 @@||freeplayervideo.com^$subdocument
@@ -61826,6 +61836,7 @@ football-tribe.com##div[id^="da-article-"]
 rediff.com##div[id^="div_ad_"]
 memedroid.com##div[id^="freestar-ad-"]
 gamepix.com##div[id^="gpx-banner"]
+si.com##div[id^="inarticle_"]
 maltadaily.mt##div[id^="malta-"]
 mediabiasfactcheck.com##div[id^="media-"]
 gamebyte.com,irishnews.com##div[id^="mpu"]
@@ -66696,6 +66707,7 @@ newduba.cn###jq_youxi
 ##a[href*="/dk35.cc"]
 ||strakuty.com^
 ||zcrddj.icu^
+||nonguds.com^
 ||vjzqfh.icu^
 ||8ff0.cn^
 ||tdinmai.top^
@@ -91212,6 +91224,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geoip.nekudo.com^
 ||geolocation.outreach.com^
 ||geoservice.curse.com^
+||geotags.refinery89.com^
 ||getelevar.com/shops/*/events.js
 ||getglue.com^*/count?
 ||getkudos.me/a?$image
@@ -94981,7 +94994,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||logx.optimizely.com^
 ||lolwot.com/B5xaqzSGvMTM.js
 ||lookawoman.com/t/
-||loom.com/insights-api/graphql
 ||loom.com/metrics/graphql
 ||lowes.com/gauge/
 ||lowes.com/pharos/api/webTelemetry?
@@ -130629,7 +130641,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||link.trycircle.com^
 ||link.trymida.com^
 ||link.trytaptab.com^
-||link.tubi.tv^
 ||link.tul.io^
 ||link.tumblbug.com^
 ||link.tupinambaenergia.com.br^
