@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Cdtl8wul0KuCM/Oph19Evg
+! Checksum: 2ymYEy9TWBQv1MsCk98fYQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502110229
-! Last Modified: 2025年02月11日 02:29
+! Version: 202502110940
+! Last Modified: 2025年02月11日 09:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -67561,6 +67561,7 @@ _WebVitalsReporter_
 .exponea.com/*/open$image
 .facebook.com/tr/$image
 .facebook.com/tr?$image
+.fiverr.com/js_event_tracking/v1/track_email_open/$image
 .flipboard.com/usage?
 .getblueshift.com/q/
 .getsendmail.com/p/$image
@@ -122833,6 +122834,7 @@ uploadfox.net###ad-gs-05
 ||gapconnectionbridge.co.in^$all
 !/^https?:\/\/[a-z0-9]{6,20}\.[a-z]{6,20}\.co\.in\//$all,to=co.in
 ||glousism.co.in^$all
+||tryrichleads.top^$all
 ||maxsecurityultimate.com^$all
 ||hotdebrid.com^$doc
 ||debridlink.com^$doc
@@ -122882,6 +122884,7 @@ uploadfox.net###ad-gs-05
 ||deepseeklogins.com^$all,to=~deepseek.com
 ||deepseekapk.download^$all,to=~deepseek.com
 ||deepseekapp.download^$all,to=~deepseek.com
+||paytoll*.top/ezdrivema^$all,to=~mass.gov
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
@@ -123342,6 +123345,8 @@ community.fortinet.com##+js(remove-cookie, /LithiumVisitor|ValueSurveyVisitorCou
 camhub.cc,heavyfetish.com,kissjav.*,severeporn.com,shemale6.com,watchporn.to##+js(cookie-remover, kt_ips)
 bizjournals.com,businessinsider.de,computerbild.de##+js(remove-cookie, /^(_pc|cX_)/, when, scroll keydown)
 bizjournals.com##+js(remove-cookie, /^AMCVS?_/)
+disqus.com##+js(remove-cookie, disqus_unique, when, scroll keydown)
+disqus.com##+js(trusted-set-cookie, disqus_unique, 0, , , domain, disqus.com)
 $removeparam=gbraid
 $removeparam=wbraid
 $removeparam=gclsrc
