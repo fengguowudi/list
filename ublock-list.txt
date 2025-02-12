@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MN/BMZqiFtaVYI6VnzoeVg
+! Checksum: 7H6DDGco3kynYkek3LQNVQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502120227
-! Last Modified: 2025年02月12日 02:27
+! Version: 202502120940
+! Last Modified: 2025年02月12日 09:40
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -61919,6 +61919,7 @@ booking.com##.sr-motivate-messages
 yahoo.com###Horizon-ad
 yahoo.com###Lead-0-Ad-Proxy
 yahoo.com###adsStream
+mail.yahoo.com###commerce_card_group_container:has([data-test-id*="affiliate"])
 yahoo.com###defaultLREC
 finance.yahoo.com###mrt-node-Lead-0-Ad
 sports.yahoo.com###mrt-node-Lead-1-Ad
@@ -113260,6 +113261,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tracking.zaertlicheladies.de^
 ||tracking.zierlicheladies.de^
 ||tracksrv.zdf.de^
+||tutti.ch/api/v10/clientmetrics/report-metric
 ||ui-portal.de/pos-cdn/tracklib/
 ||united.web.de/confirm?
 ||united.web.de/event?
@@ -122446,6 +122448,7 @@ uploadfox.net###ad-gs-05
 ||deepseekapp.download^$all,to=~deepseek.com
 ||paytoll*.top/ezdrivema^$all,to=~mass.gov
 ||eurowebmonitortool.com^$all
+||sunpass.com-$doc,to=~sunpass.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js:5
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js:5
 ||googletagmanager.com/gtag/js$script,xhr,redirect=googletagmanager_gtm.js:5
