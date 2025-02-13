@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UwRd2I0aGkDnRgq0nmt6ww
+! Checksum: BEK56sFh7NhJTmRYBNMRyA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502130229
-! Last Modified: 2025年02月13日 02:29
+! Version: 202502130941
+! Last Modified: 2025年02月13日 09:41
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -56967,7 +56967,7 @@ auctionzip.com##.az-header-ads-container
 conservativefiringline.com##.az6l2zz4
 coingraph.us,hosty.uprwssp.org##.b
 irishnews.com##.b-ads-block
-bnnbloomberg.ca,cp24.com##.b-ads-custom
+bnnbloomberg.ca,cp24.com,ctvnews.ca##.b-ads-custom
 dailyvoice.com##.b-banner
 ownedcore.com##.b-below-so-content
 informer.com##.b-content-btm > table[style="margin-left: -5px"]
@@ -122378,7 +122378,7 @@ uploadfox.net###ad-gs-05
 ||irs.gov.*.com^$doc,to=com|~irs.gov
 ||evri.*.xyz^$doc,to=xyz|~evri.com
 ||sharedrop.io^$all
-||sharedrop.net^$all
+||snapdrop.net^$all
 ||deep-whitelist.com^$all
 ||deepseek-aiassistant.com^$all,to=~deepseek.com
 ||usadeepseek.com^$all,to=~deepseek.com
