@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kaiTm6v06JGeOyU8AG19wA
+! Checksum: Vdz9jebkRMOw4n1/yzR6lg
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502152037
-! Last Modified: 2025年02月15日 20:37
+! Version: 202502160225
+! Last Modified: 2025年02月16日 02:25
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -113267,6 +113267,8 @@ embedsports.me,embedstream.me,jumbtv.com,reliabletv.me##+js(aeld, message)
 !#endif
 ||veepteecejoushe.net^
 ||gliraimsofu.net^
+reliabletv.me##+js(acs, EventTarget.prototype.addEventListener, delete window)
+reliabletv.me##html > iframe[style="display: none;"]:remove()
 ytanime.tv##^script:has-text(u_cfg)
 ytanime.tv##+js(aopr, u_cfg)
 ytanime.tv##+js(aopw, adcashMacros)
@@ -118265,6 +118267,8 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||allegroshop.shop^$all
 ||allegrocn.shop^$all
 /^https:\/\/allegro-\d{3,4}\.com\//$doc,to=com
+||allegrolokalnie.pl-$doc
+||allegrolokalnie.*.shop^$doc
 ||racks.pages.dev^$all,to=~rackspace.com
 ||rackweb-----support*.weebly.com^$all,to=~rackspace.com
 ||danakagetrsm.vercel.app^$all,to=~dana.id
@@ -118575,6 +118579,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||ifbsmetaiidentiityconfirms.com^$all
 ||govern-assessment-validation-*.vercel.app^$all
 ||support-center-for-*.vercel.app^$all
+||safety-profiles-fb-ads-*.vercel.app^$all
 ||request-page-violation-*.surge.sh^$all
 ||violation-*.surge.sh^$doc
 ||copyrights-*.surge.sh^$doc
@@ -118619,7 +118624,7 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||businessrequestcenter.com^$all,to=~facebook.com
 ||businesscreatorportal.com^$all,to=~facebook.com
 ||fb-business.com^$all,to=~facebook.com
-||faceboock-page-support.com^$all,to=~facebook.com
+||faecbook.vn^$all,to=~facebook.com
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=access-control-allow-headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/user/do_login|$xhr,1p,to=com|info,method=post,header=Access-Control-Allow-Headers:/authorization\,content-type\,if-match\,if-modified-since\,if-none-match\,if-unmodified-since\,x-requested-with/i
 /api/webapi/login|$xhr,3p,to=online|vip,method=post,header=access-control-allow-headers:Origin, X-Requested-With, Content-Type, Accept, Authorization
@@ -118818,6 +118823,8 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||autolocksmithpro.com/spt/$all
 ||spoti-safe-support*.codeanyapp.com^$all,to=~spotify.com
 ||spoti-*.codeanyapp.com^$doc,to=~spotify.com
+||spolify-support-premium.codeanyapp.com^$all,to=~spotify.com
+||codeanyapp.com/Issued/settings/$doc,to=~spotify.com
 ||mybluehost.me/spot/Account/$doc
 ||mybluehost.me/dse/main/$doc
 ||mybluehost.me/MUSIC/SPOTIFY24K/$doc
