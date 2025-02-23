@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MN9NfI+6u0AWl0y6Cge1bQ
+! Checksum: 4GAL0LtoTnMQYVWIS+AN8Q
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502232038
-! Last Modified: 2025年02月23日 20:38
+! Version: 202502240226
+! Last Modified: 2025年02月24日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -392,6 +392,7 @@
 /ftt2/js.php$script
 /funcript*.php?pub=
 /gdpr-ad-script.js$script
+/geniee-adblock.js$script
 /get/?go=1&data=$subdocument
 /get?go=1&data=$subdocument
 /globals_ps_afc.js$script
@@ -15437,7 +15438,7 @@ rupors.com#@#.advertSlider
 browsershots.org#@#.advert_list
 zalora.co.id,zalora.co.th,zalora.com.hk,zalora.com.my,zalora.com.ph,zalora.com.tw,zalora.sg#@#.advertisement-block
 adquick.com,buyout.pro,news.com.au,zlinked.com#@#.advertiser
-anobii.com#@#.advertisment
+anobii.com,ewahlen.eu#@#.advertisment
 grist.org,ing.dk,version2.dk#@#.advertorial
 stjornartidindi.is#@#.adverttext
 videosalon.jp#@#.adwidget
@@ -54864,7 +54865,7 @@ structurae.net##.advertisements
 scmp.com##.advertisers
 afrsmartinvestor.com.au,afternoondc.in,allmovie.com,allmusic.com,bolnews.com,brw.com.au,gq.co.za,imageupscaler.com,mja.com.au,ocregister.com,online-convert.com,orangecounty.com,petrolplaza.com,pornicom.com,premier.org.uk,premierchristianity.com,premierchristianradio.com,premiergospel.org.uk,radio.com,sidereel.com,spine-health.com,yourdictionary.com##.advertising
 theloadout.com##.advertising_slot_video_player
-ewahlen.eu,gadgets360.com##.advertisment
+gadgets360.com##.advertisment
 satdl.com##.advertizement
 hurriyetdailynews.com##.advertorial-square-type-1
 148apps.com##.advnote
@@ -63692,6 +63693,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 /kontera.js
 /krux-sass-helper.js
 /krux.js
+/kukulufinger2.js
 /LandingPageHitLog.aspx?
 /lasso-ga.js
 /lead-tracking.min.js
