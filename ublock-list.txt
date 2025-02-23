@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qUBIspuNHVMFWH1HucHsDg
+! Checksum: aW1Uze//QonNDSRuT9SZ7g
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502230947
-! Last Modified: 2025年02月23日 09:47
+! Version: 202502231427
+! Last Modified: 2025年02月23日 14:27
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -59177,6 +59177,7 @@ spin.com##div[id*="-promo-mrec-"]
 chrome-stats.com##div[id*="billboard_responsive"]
 thenewspaper.gr##div[id*="thene-"]
 diskingdom.com##div[id="diski-"]
+namu.wiki##div[id][class]:empty
 thewire.in##div[id^="ATD_"]
 geeksforgeeks.org##div[id^="GFG_AD_"]
 kisshentai.net,onworks.net##div[id^="ad"]
@@ -59649,6 +59650,7 @@ argos.co.uk##[class^="styles__LazyHydrateCard-sc"]:has([class*="SponsoredBadge"]
 outlook.live.com##[data-app-section="MessageList"] div[style^="position: absolute; left: 0px; top: 0px"]:has(.ms-Shimmer-container)
 cargurus.com##[data-cg-ft="car-blade"]:has([data-eyebrow^="FEATURED"])
 cargurus.com##[data-cg-ft="car-blade-link"]:has([data-cg-ft="srp-listing-blade-sponsored"])
+pixiv.net##[data-gtm-recommend-zone="index"] li:has(> div > iframe[name$="rectangle"])
 avxhm.se##[data-localize]:has(a[href^="https://canv.ai/"])
 giantfood.com,giantfoodstores.com,martinsfoods.com##[data-product-id]:has(.flag_label--sponsored)
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
@@ -60919,6 +60921,7 @@ cliniqueregain.com##.footer-promo
 cbhours.com##.footer-section
 pornhd.com##.footer-zone
 homo.xxx##.footer.spot
+gelbooru.com##.footerAd
 badjojo.com##.footera
 mansurfer.com##.footerbanner
 cambay.tv,videocelebs.net##.fp-brand
@@ -61068,6 +61071,7 @@ ggjav.com##.native_ads
 anysex.com##.native_middle
 fapality.com##.nativeaside
 fapeza.com##.navbar-item-sky
+new.lewd.ninja##.navbar-start a[target="_blank"]
 androidadult.com##.navitem.color-3
 miohentai.com##.new-ntv
 escortnews.eu,topescort.com##.newbottom-fbanners
@@ -61487,7 +61491,7 @@ xozilla.com##[style="height: 220px !important; overflow: hidden;"]
 hentairider.com##[style="height: 250px;padding:5px;"]
 eporner.com##[style="margin: 20px auto; height: 275px; width: 900px;"]
 vjav.com##[style="width: 728px; height: 90px;"]
-xozilla.com##[style^="height: 250px !important; overflow: hidden;"]
+gelbooru.com,xozilla.com##[style^="height: 250px !important; overflow: hidden;"]
 123av.com,123av.ws,1av.to##[style^="width:300px;"]
 missav.ai,missav.ws,missav123.com,missav888.com##[x-show$="video_details'"] > div > .list-disc
 pornone.com##a[class^="listing"]
@@ -61590,6 +61594,7 @@ ovacovid.com##div[class^="Banner-"]
 cam4.com,cam4.eu##div[class^="SponsoredAds_"]
 hentaicovid.com##div[class^="banner-"]
 xporno.tv##div[class^="block_ads_"]
+new.lewd.ninja##div[class^="box ~!@$%^&*()_+-=,./';:?><[]"]
 hpjav.top##div[class^="happy-"]
 hentaimama.io##div[class^="in-between-ad"]
 pornwhite.com,sleazyneasy.com##div[data-banner]
