@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VRZK9RKIA5YC70TAIIo7xg
+! Checksum: F2KEzkgb46eUjGBMuPREuQ
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202502250944
-! Last Modified: 2025年02月25日 09:44
+! Version: 202502251430
+! Last Modified: 2025年02月25日 14:30
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -123434,7 +123434,7 @@ goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;
 ||click.aliexpress.com^$badfilter
 /statspage.$badfilter
 ||sqrt-5041.de^$xhr,domain=joyn.at|joyn.de
-||yext-pixel.com/store_pagespixel^$xhr,redirect=1x1.gif,domain=vippetcare.com
+||yext-pixel.com/store_pagespixel^$xhr,3p,redirect=1x1.gif
 ||googletagmanager.com/gtm.js$important,domain=fandom.com
 ||cdn.optimizely.com/js/$important,domain=fandom.com
 fandom.com##+js(set, optimizely, {})
