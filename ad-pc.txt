@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2AiEOvfxAC0L9zxMTW3LeA
+! Checksum: gJ0rKA77CoDEjq0FpWHpaQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202502260943
-! Last Modified: 2025年02月26日 09:43
+! Version: 202502261430
+! Last Modified: 2025年02月26日 14:30
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -44519,6 +44519,7 @@ browsershots.org#@#.advert_area
 ||nster.net^$third-party
 ||ntent.com^$third-party
 ||numbers.md^$third-party
+||o.socoms.net^$third-party
 ||objects.tremormedia.com^$~object,third-party
 ||oboxads.com^$third-party
 ||oceanwebcraft.com^$third-party
@@ -51877,6 +51878,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||2merkato.com/images/banners/
 ||2oceansvibe.com/?custom=takeover
 ||4f.to/spns/
+||5j386s9.sbs/js/dnsads.js
 ||a.1film.to^
 ||abcnews.com/assets/js/adCallOverride.js
 ||aboutmyarea.co.uk/images/imgstore/
@@ -59715,6 +59717,7 @@ liverpoolway.co.uk##div[align="center"] > a[href]
 informer.com##div[align="center"][style="margin:10px"]
 yandex.com##div[aria-label="Ad"]
 lifehacker.com##div[aria-label="Products List"]
+imginn.com##div[class$="-money"]
 azuremagazine.com##div[class$="azoa"]
 wsj.com##div[class*="WSJTheme--adWrapper"]
 pcgamer.com,techcrunch.com,tomsguide.com,tomshardware.com##div[class*="ad-unit"]
