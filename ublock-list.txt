@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: R4RzM1JfFZpwk2KONw6EtQ
+! Checksum: Lax4koUmxXk3nhngLpUEHw
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202503012038
-! Last Modified: 2025年03月01日 20:38
+! Version: 202503020226
+! Last Modified: 2025年03月02日 02:26
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -115689,7 +115689,6 @@ samehadaku.*##.box_item_berlangganan_popup
 *$script,3p,denyallow=cloudflare.com|cloudfront.net|disqus.com|disquscdn.com|fastlylb.net,from=samehadaku.*
 ||yimg.com/nn/lib/metro/g/sda/$domain=yahoo.com
 mediapemersatubangsa.com##+js(acs, document.addEventListener, google_ad_client)
-*$script,3p,denyallow=gstatic.com,domain=la123movies.com
 pornofan.pl###inplayerADS
 pornofan.pl##.PublicitaDestra
 gigacourse.com##+js(acs, eval, replace)
@@ -115720,8 +115719,7 @@ timesnowhindi.com##div:not([class]) > div:empty
 timesnowhindi.com,timesnowmarathi.com,timesofindia.com##+js(no-fetch-if, tvid.in/log)
 timesnowmarathi.com##[class^="section"]:has(> .ad-div)
 isekaisubs.web.id##+js(aost, String.prototype.charCodeAt, ai_)
-blasensex.com##+js(aopr, jsUnda)
-blasensex.com##.w300
+blasensex.com##+js(acs, document.querySelectorAll, popMagic)
 @@||cheat.hax4you.net^$ghide
 manganelo.tv##+js(aopr, JSON.parse)
 movizland.*##+js(aopr, open)
@@ -115744,12 +115742,15 @@ javhoho.com###text-5
 javhoho.com###text-6
 javhoho.com###text-7
 javhoho.com##a[href="https://50per-cent.com/"]
+javhoho.com##.img-ads-footer
+javhoho.com##.popmake
+javhoho.com##.pum-overlay
+javhoho.com##html:style(overflow: auto !important)
 udoyoshi.com##+js(aost, String.prototype.charCodeAt, ai_)
 vermoegen.org##+js(aopr, document.referrer)
 mobile.de##.sticky-billboard
 m.mobile.de##[data-label="Anzeige"]
 m.mobile.de##div.He1bX
-pornsai.com##.table
 adrianoluis.net,altevolkstrachten.de,animecast.net,armyranger.com,articletz.com,boxylucha.com,chibchat.com,duniailkom.com,enciclopediaonline.com,entano.jp,eyalo.com,fosslovers.com,fotopixel.es,hairstylesthatwork.com,hello-e1.com,ichberlin.com,ireez.com,keepkoding.com,latribunadeautomocion.es,linemarlin.com,lumpiastudio.com,miaandme.org,mobility.com.ng,mygardening411.com,newstvonline.com,organismes.org,papagiovannipaoloii.altervista.org,playlists.rocks,relatosdesexo.xxx,rencah.com,riverdesdelatribuna.com.ar,sarkarinaukry.com,seamanmemories.com,socialmediaverve.com,theorie-musik.de,topperpoint.com,travel-the-states.com,vozz.vn##+js(aost, String.prototype.charCodeAt, ai_)
 @@||user.pnetlab.com/store/advs/check
 oosex.net,theteensexy.com,xteensex.net##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
@@ -115781,7 +115782,6 @@ feyorra.top##.ads
 feyorra.top##+js(aeld, load, 'block')
 @@||temporarymail.com^$script,1p
 gamingsym.in##+js(aost, String.prototype.charCodeAt, ai_)
-toolsolutions.top,wowstream.top##+js(nowoif)
 motherporno.com##+js(set, flashvars.adv_start_html, '')
 motherporno.com##+js(set, flashvars.adv_pause_html, '')
 motherporno.com##+js(set, flashvars.adv_pre_vast, '')
