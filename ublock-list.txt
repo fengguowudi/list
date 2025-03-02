@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /tKva+F9XYIxmlW/BP0Ytg
+! Checksum: rR0jm57JEqanoTx47quBvA
 ! Title: ublock
 ! Expires: 6 hours
-! Version: 202503020949
-! Last Modified: 2025年03月02日 09:49
+! Version: 202503021428
+! Last Modified: 2025年03月02日 14:28
 ! 仅合并规则，未做其余任何处理
 !
 ! EasyList
@@ -115305,6 +115305,7 @@ newsinlevels.com,videosinlevels.com##+js(set, sgpbCanRunAds, true)
 knightnoscanlation.com##+js(acs, eval, replace)
 knightnoscanlation.com##.c-sidebar
 m2list.com##+js(nostif, debugger)
+m2list.com##+js(aopr, Adcash)
 *$script,3p,domain=m2list.com,denyallow=ajax.googleapis.com|cdnjs.cloudflare.com
 @@||posttrack.com/$xhr,1p
 freejav.guru##+js(nostif, disableDeveloperTools)
